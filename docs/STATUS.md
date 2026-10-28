@@ -29,7 +29,7 @@ Actualizado: 28 de octubre de 2026. Especificación vigente: `requirements.md` (
 
 1. **Red:** aplicar la lista de dominios ya guardada en el borrador del entorno. HTTP 403 observado para `commons.wikimedia.org` y `www.gotokyo.org`. No se investigaron las veinte guías ni se verificaron fotografías; no existen fuentes fingidas.
 2. **Contenido:** investigar los veinte destinos, redactar 20 guías y localizar al inglés, conseguir fotografías, completar revisiones y verificar las cuarenta URLs. Publicar solo al cumplir el conjunto inicial.
-3. **Titular:** nombre y correo público incorporados con autorización del usuario. Falta país/jurisdicción y revisión de los textos legales.
+3. **Titular:** nombre, correo público y residencia en Argentina incorporados según los datos del usuario. Textos legales preparados para revisión antes del lanzamiento.
 4. **Cloudflare:** cuenta/proyecto Pages, conexión autorizada al repositorio y dominio personalizado. Sin credenciales disponibles para ejecutar el despliegue aquí. DNS, TLS, rendimiento real y las URLs públicas no están verificados.
 5. **Automatización:** ninguna tarea de Codex Cloud recurrente configurada o probada. Las herramientas de esta sesión no exponen esa capacidad ni el saldo porcentual de cuota. Horario deseado conservado: 07:00 America/New_York. No se sustituyó por APIs de pago.
 6. **Medición/monetización:** Search Console, GA4, anuncios y afiliados no activados. Primero lanzamiento completo, datos reales y revisión de privacidad/consentimiento.

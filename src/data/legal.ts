@@ -63,7 +63,7 @@ export const legal = {
       sections: [
         [
           'Responsable y alcance',
-          `El titular es ${site.ownerName}, con contacto en ${site.contactEmail}. Está pendiente confirmar su jurisdicción y revisar las bases legales, los plazos de conservación y los derechos aplicables antes del lanzamiento. Este borrador no sustituye esa revisión.`,
+          `El titular es ${site.ownerName}, con contacto en ${site.contactEmail}. El país de residencia indicado por el titular es ${site.jurisdiction}. Antes del lanzamiento se deben revisar las bases legales, los plazos de conservación y los derechos aplicables al servicio definitivo. Este borrador no sustituye esa revisión.`,
         ],
         [
           'Datos en esta versión',
@@ -84,7 +84,7 @@ export const legal = {
       sections: [
         [
           'Controller and scope',
-          `The owner is ${site.ownerName}, contactable at ${site.contactEmail}. The jurisdiction still needs to be confirmed, and legal bases, retention periods and applicable rights reviewed before launch. This draft does not replace that review.`,
+          `The owner is ${site.ownerName}, contactable at ${site.contactEmail}. The owner has provided ${site.jurisdiction} as their country of residence. Legal bases, retention periods and rights applicable to the final service need review before launch. This draft does not replace that review.`,
         ],
         [
           'Data in this version',
@@ -115,7 +115,7 @@ export const legal = {
         ],
         [
           'Revisión pendiente',
-          'El propietario debe completar la identidad del titular, jurisdicción, condiciones de contacto y revisión legal antes del lanzamiento.',
+          `El titular es ${site.ownerName}, residente en ${site.jurisdiction}, con contacto en ${site.contactEmail}. Las condiciones definitivas del servicio requieren revisión antes del lanzamiento.`,
         ],
       ],
     },
@@ -132,7 +132,7 @@ export const legal = {
         ],
         [
           'Review pending',
-          'The owner must complete ownership details, jurisdiction, contact terms and legal review before launch.',
+          `The owner is ${site.ownerName}, resident in ${site.jurisdiction}, contactable at ${site.contactEmail}. The final service terms require review before launch.`,
         ],
       ],
     },

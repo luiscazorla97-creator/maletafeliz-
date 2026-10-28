@@ -20,7 +20,7 @@ Alternativa CLI con autorización segura de Cloudflare: `npm run deploy`, usando
 
 ## Datos legales y analítica
 
-Nombre del titular y correo público ya incorporados con autorización. Completar en `editorial/site.json` la jurisdicción pendiente y la fecha de revisión. Personalizar los textos en `src/data/legal.ts`; una vez revisados registrar su SHA-256 en `legalContentHash`. El requisito técnico de estos campos no sustituye la revisión legal.
+Nombre, correo público y residencia en Argentina ya incorporados según los datos del usuario. En `editorial/site.json` queda pendiente registrar la revisión de los textos definitivos. Personalizar los textos en `src/data/legal.ts`; una vez revisados registrar su SHA-256 en `legalContentHash`. El requisito técnico de estos campos no sustituye la revisión legal.
 
 No hay Google Analytics, anuncios ni píxeles activados. Después de lanzar, verificar una propiedad de dominio en Search Console con el TXT exacto entregado por Google (sin inventar su valor) y enviar `https://maletafeliz.com/sitemap.xml`. Revisar indexación y alternancias de idiomas sin prometer posicionamiento.
 

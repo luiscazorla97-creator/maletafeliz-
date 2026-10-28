@@ -2,7 +2,7 @@
 
 Revista de viajes estática en **español e inglés**, diseñada para Cloudflare Pages. Código, artículos estructurados, investigación y licencias se versionan en GitHub. Sin base de datos, APIs de IA de pago ni automatización ficticia.
 
-**Contenido inicial preparado; despliegue público pendiente.** Hay **20 guías originales, 40 versiones completas en español e inglés y 40 fotografías acreditadas**, con fuentes y revisiones vinculadas al contenido final. El control editorial de lanzamiento pasa. Publicar en maletafeliz.com requiere conectar las credenciales seguras de Cloudflare y verificar el dominio después del despliegue.
+**Contenido inicial preparado; despliegue público pendiente.** Hay **20 guías originales, 40 versiones completas en español e inglés y 40 fotografías acreditadas**, con fuentes y revisiones vinculadas al contenido final. El control editorial de lanzamiento pasa. Las credenciales de Cloudflare ya están conectadas, pero Pages devuelve HTTP 403; falta habilitar su acceso para desplegar y verificar el dominio.
 
 ## Ejecutar
 
@@ -60,4 +60,4 @@ La auditoría comprueba las cuarenta versiones, fuentes con evidencia, revisione
 
 ## Límites externos comprobados
 
-La red permite investigar fuentes oficiales y archivos con licencia; la investigación inicial se conserva en el repositorio. Falta vincular `CLOUDFLARE_API_TOKEN` y `CLOUDFLARE_ACCOUNT_ID` al entorno. Los requisitos están guardados en el borrador; guardar ese borrador no activa valores secretos ni publica la web. No hay herramientas expuestas para crear tareas recurrentes de Codex en la nube ni consultar el porcentaje de cuota. La publicación diaria a las 07:00 America/New_York no está activa; queda documentado el flujo manual sin APIs facturadas aparte.
+La red permite investigar fuentes oficiales y archivos con licencia; la investigación inicial se conserva en el repositorio. `CLOUDFLARE_API_TOKEN` y `CLOUDFLARE_ACCOUNT_ID` están disponibles: el token está activo y accede a la zona, pero Pages rechaza las llamadas con HTTP 403. Revisar el permiso de cuenta Cloudflare Pages → Edit. El intento no modificó el proyecto ni DNS. No hay herramientas expuestas para crear tareas recurrentes de Codex en la nube ni consultar el porcentaje de cuota. La publicación diaria a las 07:00 America/New_York no está activa; queda documentado el flujo manual sin APIs facturadas aparte.

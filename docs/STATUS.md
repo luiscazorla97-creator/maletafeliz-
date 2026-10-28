@@ -30,9 +30,9 @@ Estas verificaciones prueban la compilación local. No acreditan disponibilidad 
 
 ## Publicación y tareas externas pendientes
 
-1. **Cloudflare:** el entorno no tiene CLOUDFLARE_API_TOKEN ni CLOUDFLARE_ACCOUNT_ID vinculados en la última comprobación. Los campos están declarados en el borrador seguro; el usuario está preparando el token. No se ha ejecutado un despliegue autenticado ni creado el proyecto desde esta sesión.
+1. **Cloudflare:** CLOUDFLARE_API_TOKEN y CLOUDFLARE_ACCOUNT_ID están vinculados y disponibles. El token de cuenta está activo; la lectura de la zona maletafeliz.com responde HTTP 200 y su cuenta coincide. El intento de despliegue se detuvo en la primera llamada a Pages: HTTP 403, código 10000, tanto al consultar el proyecto como al listar proyectos. Revisar Account → Cloudflare Pages → Edit para esa cuenta. No se crearon proyectos ni cambiaron registros DNS.
 2. **Dominio:** los NS son de Cloudflare, pero la comprobación DNS no encontró A, AAAA ni CNAME en el dominio raíz. La verificación HTTPS pública no tuvo éxito. Después de desplegar, ejecutar `npm run verify:live` y confirmar DNS, certificado, guías, sitemap, robots y 404 reales.
-3. **GitHub:** el código base estaba guardado en main; esta entrega completa debe subirse y comprobarse antes de dar por preservados remotamente los nuevos artículos e imágenes.
+3. **GitHub:** entrega completa guardada en main, commit `ce45f1e`, con push confirmado. Incluye artículos, fuentes, licencias, fotos, revisiones, código y pruebas. Las pruebas descritas arriba son locales; no se afirma resultado de CI remoto sin consultarlo.
 4. **Publicación diaria:** ninguna tarea recurrente de Codex Cloud está configurada o probada. No hay herramienta expuesta para programarla ni consultar porcentaje de cuota. Se conserva el objetivo de las 07:00 America/New_York y el flujo manual `PUBLICAR 5 ARTÍCULOS`, sin APIs de pago.
 5. **Medición y monetización:** Search Console, GA4, anuncios y afiliados no están activados. Requieren datos reales y la configuración correspondiente después del lanzamiento.
 

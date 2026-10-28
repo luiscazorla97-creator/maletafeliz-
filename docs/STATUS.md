@@ -17,6 +17,8 @@ Actualizado: 28 de octubre de 2026. Especificación vigente: `requirements.md` (
 
 ## Verificado
 
+- Código guardado en GitHub, rama `main`, con push confirmado el 28-10-2026. Esto no equivale a despliegue en Cloudflare.
+
 - TypeScript/Astro sin errores.
 - 16 pruebas unitarias: controles editoriales, búsqueda y reserva idempotente de tandas.
 - 10 pruebas Playwright en Chromium: móvil/escritorio, navegación, búsqueda, filtros, idioma, canonical/hreflang de destinos, enlaces de portada, 404 y sitemap vacío de preview.

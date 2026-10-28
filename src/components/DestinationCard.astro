@@ -1,7 +1,7 @@
 ---
 import { dictionary, type Locale } from '../i18n';
 import { destinationUrl, type Destination } from '../data/destinations';
-import { publishedArticles, photoFor } from '../lib/content';
+import { publishedArticles, photoFor, photoSrcSet } from '../lib/content';
 import Scenery from './Scenery.astro';
 import Icon from './Icon.astro';
 interface Props {
@@ -22,6 +22,8 @@ const image = article && photoFor(article.coverImageId);
     {image ? (
       <img
         src={image.src}
+        srcset={photoSrcSet(image)}
+        sizes="(max-width: 540px) 100vw, (max-width: 800px) 50vw, 33vw"
         alt={image.alt[lang]}
         width={image.width}
         height={image.height}
@@ -38,6 +40,11 @@ const image = article && photoFor(article.coverImageId);
       <Icon />
     </span>
   </div>
+  {image && (
+    <span class="card-credit">
+      {image.credit} · {image.license}
+    </span>
+  )}
   <div class="card-body">
     <span class="eyebrow">{article ? t.guide : t.preparing}</span>
     <h3>{d.city[lang]}</h3>

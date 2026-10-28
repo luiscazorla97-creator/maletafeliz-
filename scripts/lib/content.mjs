@@ -227,6 +227,8 @@ export function validateEditorial({
         !validTimestamp(image.verifiedAt, now) ||
         !image.alt?.[a.locale] ||
         !image.sha256 ||
+        !Number.isInteger(image.width) ||
+        !Number.isInteger(image.height) ||
         image.width < 640 ||
         image.height < 300
       )
@@ -261,7 +263,7 @@ export function validateEditorial({
     ];
     if (
       !review ||
-      review.contentHash !== hashArticle(a) ||
+      review.contentHash !== hashArticle(data) ||
       !review.reviewer ||
       !validTimestamp(review.reviewedAt, now) ||
       checks.some((k) => review.checks?.[k] !== true)
@@ -271,6 +273,15 @@ export function validateEditorial({
   for (const a of parsed) {
     if (!parsed.some((b) => b.id === a.id && b.locale !== a.locale))
       errors.push(`${a.id}: missing published translation`);
+    const translation = parsed.find(
+      (b) => b.id === a.id && b.locale !== a.locale,
+    );
+    if (
+      translation &&
+      (translation.destinationId !== a.destinationId ||
+        translation.intent !== a.intent)
+    )
+      errors.push(`${a.id}: translation destination/intent mismatch`);
     for (const id of a.relatedIds)
       if (
         id === a.id ||

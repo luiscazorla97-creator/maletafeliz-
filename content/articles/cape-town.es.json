@@ -1,0 +1,278 @@
+{
+  "id": "cape-town",
+  "destinationId": "cape-town",
+  "locale": "es",
+  "slug": "10-lugares-imprescindibles-de-ciudad-del-cabo",
+  "title": "10 lugares imprescindibles de Ciudad del Cabo",
+  "description": "Descubre diez lugares de Ciudad del Cabo y la península: montaña, museos, jardines y costa, con un itinerario razonado y fuentes oficiales para organizarte.",
+  "keyword": "qué ver en Ciudad del Cabo",
+  "relatedQueries": [
+    "Ciudad del Cabo primera visita",
+    "lugares península del Cabo",
+    "museos Ciudad del Cabo"
+  ],
+  "intent": "first-visit-highlights",
+  "status": "published",
+  "coverImageId": "cape-town-cover",
+  "intro": [
+    "Ciudad del Cabo exige pensar en escalas distintas. Una mañana entre museos del centro no se organiza igual que una salida a Robben Island o a la península. La montaña, el océano y los barrios aportan perspectivas diferentes; reunirlas es más interesante que concentrar el viaje únicamente en miradores. Estos diez lugares combinan paisaje, conservación, arte y memoria histórica.",
+    "La selección incluye visitas urbanas y lugares fuera del centro. Agrupa los destinos por zonas: reserva un día para el puerto, otro para los barrios y museos, y una jornada amplia para la península. Mantén flexibilidad para Table Mountain y organiza los traslados según tu alojamiento. Las reservas de Robben Island y otras actividades con salidas concretas pueden servir como puntos fijos del itinerario."
+  ],
+  "quickFacts": [
+    {
+      "label": "Cómo organizarlo",
+      "value": "Separar centro, Waterfront, montaña y península"
+    },
+    {
+      "label": "Duración sugerida",
+      "value": "Cuatro o cinco jornadas para esta selección, según ritmo"
+    },
+    {
+      "label": "Reservas prioritarias",
+      "value": "Revisar Robben Island y las actividades concretas que elijas"
+    }
+  ],
+  "sections": [
+    {
+      "id": "table-mountain",
+      "kind": "place",
+      "heading": "1. Table Mountain: mirar la ciudad desde su paisaje",
+      "sourceIds": [
+        "cape-town-mountain"
+      ],
+      "imageId": "cape-town-detail",
+      "paragraphs": [
+        "Table Mountain no es un mirador aislado de la ciudad: forma parte de un parque nacional que reúne montaña y costa. Contemplar el relieve desde arriba ayuda a entender cómo se reparten los barrios y el litoral. Antes de decidir la visita, distingue entre una actividad de senderismo y una llegada mediante un servicio turístico, porque la preparación no es equivalente.",
+        "Consulta la información vigente del parque y del operador que vayas a utilizar. Para caminar, selecciona una ruta adecuada a tu experiencia y revisa las recomendaciones oficiales, en lugar de interpretar una línea corta en el mapa como una salida fácil. Si las condiciones no acompañan, cambia el orden del itinerario y utiliza ese día para museos; la montaña no necesita una cita inamovible."
+      ]
+    },
+    {
+      "id": "robben-island",
+      "kind": "place",
+      "heading": "2. Robben Island: una visita dedicada a la memoria",
+      "sourceIds": [
+        "cape-town-robben"
+      ],
+      "paragraphs": [
+        "Robben Island Museum presenta un lugar de memoria y una institución dedicada a conservar e interpretar su patrimonio. Conviene acercarse con interés por las historias humanas y los procesos de exclusión, no solo por el trayecto en barco. La web del museo reúne testimonios, programas educativos y recursos que permiten preparar la visita y seguir aprendiendo después.",
+        "El museo indica que los ferris salen del Nelson Mandela Gateway, en el V&A Waterfront. Reserva por el canal oficial y confirma el punto de presentación, los documentos solicitados y las condiciones del servicio. Dedica a esta experiencia una franja amplia y evita comprometer una segunda actividad importante inmediatamente después del regreso. El recorrido no debería vivirse pendiente de la próxima reserva."
+      ]
+    },
+    {
+      "id": "waterfront",
+      "kind": "place",
+      "heading": "3. V&A Waterfront: un punto de orientación junto al agua",
+      "sourceIds": [
+        "cape-town-waterfront",
+        "cape-town-robben"
+      ],
+      "paragraphs": [
+        "El V&A Waterfront reúne paseos, comercios, restauración y servicios para visitantes en un mismo distrito. Puede funcionar como punto de orientación al inicio del viaje, especialmente si tienes prevista la salida a Robben Island. Su utilidad no consiste en intentar recorrer todos los establecimientos, sino en elegir una combinación de paseo y actividad que se adapte a tus intereses.",
+        "Consulta el mapa del recinto para localizar el muelle, el área donde quieres comer y cualquier atracción reservada. Si vas en grupo, acuerda un punto de encuentro concreto, porque hablar simplemente de encontrarse en el Waterfront puede resultar poco preciso. Puedes combinarlo con Zeitz MOCAA, pero deja al museo su propio tiempo de visita en vez de considerarlo un añadido rápido."
+      ]
+    },
+    {
+      "id": "kirstenbosch",
+      "kind": "place",
+      "heading": "4. Kirstenbosch: entender la vegetación del Cabo",
+      "sourceIds": [
+        "cape-town-kirstenbosch"
+      ],
+      "paragraphs": [
+        "Kirstenbosch National Botanical Garden se sitúa en las laderas orientales de Table Mountain. SANBI, la institución que lo gestiona, ofrece mapas, recorridos, información sobre plantas y propuestas para conocer el jardín. Es una visita especialmente adecuada para cambiar la escala del paisaje: después de mirar montañas enteras, aquí puedes detenerte en las formas y relaciones de la vegetación.",
+        "Elige un recorrido utilizando el mapa del jardín y comprueba si quieres incorporar la pasarela entre las copas de los árboles. No confundas los caminos de visita con una prolongación de senderismo hacia la montaña. Organiza la llegada y el regreso desde tu alojamiento, lleva lo necesario para estar al aire libre y reserva pausas: observar un jardín no requiere recorrerlo entero."
+      ]
+    },
+    {
+      "id": "bo-kaap",
+      "kind": "place",
+      "heading": "5. Bo-Kaap: un barrio vivo más allá de sus colores",
+      "sourceIds": [
+        "cape-town-bokaap"
+      ],
+      "paragraphs": [
+        "Bo-Kaap merece una visita que vaya más allá de fotografiar sus casas. La interpretación del museo Iziko aborda la vida comunitaria, los negocios familiares, los oficios y el uso social de las calles. Esa perspectiva ayuda a reconocer que las fachadas forman parte de un barrio habitado, con historias que no caben en una sola imagen.",
+        "Puedes tomar el Bo-Kaap Museum, en Wale Street, como referencia para empezar y añadir después un paseo respetuoso por el entorno. Pide permiso antes de fotografiar a personas o actividades privadas y evita bloquear entradas. Comprueba la información vigente del museo: su web contiene avisos de diferentes fechas, de modo que una nota antigua no confirma las condiciones de tu día de visita."
+      ]
+    },
+    {
+      "id": "district-six",
+      "kind": "place",
+      "heading": "6. District Six Museum: escuchar las historias del desplazamiento",
+      "sourceIds": [
+        "cape-town-district-six"
+      ],
+      "paragraphs": [
+        "District Six Museum trabaja con la memoria de comunidades afectadas por desplazamientos forzosos y con los procesos de restitución y reconstrucción cultural. Su valor está en comprender experiencias y vínculos con el territorio, no en acumular objetos vistos. Reserva atención para los testimonios y los materiales interpretativos, especialmente si esta es tu primera aproximación a la historia social de Ciudad del Cabo.",
+        "La institución distingue el museo de su Homecoming Centre, ambos en Buitenkant Street. Confirma cuál corresponde a la visita o actividad que has elegido antes de desplazarte. Es preferible dedicar un bloque tranquilo a esta experiencia que unirla sin pausa a otras instituciones. Si algo te interesa especialmente, utiliza los recursos y publicaciones del museo para ampliar el contexto después."
+      ]
+    },
+    {
+      "id": "zeitz-mocaa",
+      "kind": "place",
+      "heading": "7. Zeitz MOCAA: incorporar el arte contemporáneo",
+      "sourceIds": [
+        "cape-town-zeitz",
+        "cape-town-waterfront"
+      ],
+      "paragraphs": [
+        "Zeitz MOCAA permite completar el recorrido histórico con una mirada al arte contemporáneo. El museo se encuentra en el Silo District del V&A Waterfront y publica exposiciones y programas educativos. No conviene elegirlo únicamente por el edificio: revisa qué artistas y cuestiones aparecen en la programación para decidir qué parte merece más atención durante tu visita.",
+        "Las exposiciones tienen fechas propias, por lo que debes comprobar cuáles estarán abiertas cuando viajes. Elige una o dos prioridades y deja margen para encontrarte con obras que no conocías. Al salir puedes retomar el paseo por el Waterfront sin cambiar de zona, una combinación práctica cuando buscas reducir traslados y equilibrar actividades interiores con tiempo al aire libre."
+      ]
+    },
+    {
+      "id": "boulders",
+      "kind": "place",
+      "heading": "8. Boulders: observar pingüinos sin invadir su espacio",
+      "sourceIds": [
+        "cape-town-boulders"
+      ],
+      "paragraphs": [
+        "La colonia de Boulders, en Simon’s Town, forma parte de Table Mountain National Park. SANParks explica que las pasarelas permiten observar a los pingüinos africanos limitando la perturbación. El interés de la visita está en ver su comportamiento dentro de un entorno protegido, no en acercarse cada vez más para conseguir una fotografía diferente.",
+        "Respeta las indicaciones del área de observación y no toques ni alimentes a los animales. Organiza Boulders como una salida a la península, no como una parada al lado del centro de Ciudad del Cabo. Antes de ir, revisa la entrada y los avisos actuales del parque. La costa, las playas y las zonas de observación pueden tener condiciones de acceso diferentes."
+      ]
+    },
+    {
+      "id": "cape-point",
+      "kind": "place",
+      "heading": "9. Cape Point y el cabo de Buena Esperanza: darle espacio a la península",
+      "sourceIds": [
+        "cape-town-point",
+        "cape-town-mountain"
+      ],
+      "paragraphs": [
+        "Cape Point y el cabo de Buena Esperanza forman parte del recorrido por la península dentro del parque nacional. La visita combina paisaje, puntos de observación y opciones para caminar. Es importante identificar en el mapa los lugares que deseas conocer: no se trata de un único punto donde una fotografía sustituya toda la experiencia del entorno.",
+        "Decide qué desplazamientos harás dentro del área y qué servicios, como el funicular, te interesan realmente. Comprueba por separado las condiciones del parque y las del operador. Si lo combinas con Boulders, reserva una jornada amplia y evita añadir demasiadas paradas. La planificación debe dejar margen para disfrutar del paisaje y regresar sin depender de un horario demasiado ajustado."
+      ]
+    },
+    {
+      "id": "signal-hill",
+      "kind": "place",
+      "heading": "10. Signal Hill: otra lectura del puerto y la ciudad",
+      "sourceIds": [
+        "cape-town-signal"
+      ],
+      "paragraphs": [
+        "Signal Hill ofrece vistas de Ciudad del Cabo y del puerto desde el extremo norte del área terrestre de Table Mountain National Park. SANParks lo distingue de Lion’s Head, la cumbre vecina asociada a una caminata. Esa diferencia importa al planificar: querer ver la ciudad desde una altura no implica elegir automáticamente una subida de montaña.",
+        "Utiliza la información oficial para definir el acceso y el tipo de salida que buscas, y decide el regreso antes de partir. Si quieres hacer senderismo en lugar de una visita de observación, evalúa la ruta por sus propias exigencias. Puedes conservar Signal Hill como una actividad flexible: un buen momento para contemplar el conjunto de la ciudad vale más que completar el lugar a cualquier precio."
+      ]
+    },
+    {
+      "id": "climate-planning",
+      "kind": "practical",
+      "heading": "Elegir la época y conservar alternativas",
+      "sourceIds": [
+        "cape-town-climate"
+      ],
+      "paragraphs": [
+        "SANParks describe para la península un clima de tipo mediterráneo, con inviernos frescos y húmedos y veranos cálidos y secos. Si buscas dar protagonismo a jardines, montaña y costa, el verano puede resultar atractivo por ese patrón general. Si viajas en invierno, intercala los museos y barrios con las salidas exteriores, aprovechando los días que permitan disfrutar del paisaje.",
+        "El viento importa tanto como la lluvia: la información del parque señala episodios intensos en ambas estaciones. Una fecha veraniega no garantiza el funcionamiento de un servicio ni unas condiciones apropiadas para caminar. Consulta el pronóstico y los avisos antes de salir, y conserva la posibilidad de intercambiar el día de montaña con el de museos sin perder reservas importantes."
+      ]
+    }
+  ],
+  "itinerary": [
+    "Día urbano: elige Bo-Kaap y District Six como ejes de una jornada dedicada a las comunidades y la memoria. Añade solamente lo que el ritmo permita. Aunque ambos estén en el ámbito central de la ciudad, cada institución requiere atención y no conviene convertirlas en visitas de paso.",
+    "Día de puerto: organiza Robben Island alrededor de la reserva oficial y deja el resto de la jornada flexible en el Waterfront. En otra franja o jornada, visita Zeitz MOCAA. Mantener separadas las prioridades evita que un cambio del servicio de barco desordene todas las entradas del viaje.",
+    "Jornadas de paisaje: dedica una salida amplia a Boulders y Cape Point, y otra a las actividades que elijas en Table Mountain o Kirstenbosch. Signal Hill puede quedar como alternativa flexible. Ajusta el orden a las condiciones reales y al transporte que hayas organizado, sin prometer completar todos los lugares cada día."
+  ],
+  "faq": [
+    {
+      "question": "¿Se puede recorrer toda esta selección andando?",
+      "answer": "No. La lista combina zonas urbanas, una isla y lugares de la península. Hay paseos dentro de cada área, pero debes organizar traslados entre ellas y el servicio oficial para Robben Island. El mapa general debe revisarse antes de elegir alojamiento y reservas, no solamente al empezar cada jornada."
+    },
+    {
+      "question": "¿Hay que reservar todas las visitas con antelación?",
+      "answer": "No existe una regla única. Identifica primero las experiencias con plazas o servicios concretos, como Robben Island, y consulta sus condiciones oficiales. Mantén flexibilidad donde resulte posible. Para museos y parques, comprueba avisos actuales y el canal autorizado de entradas antes de pagar a un intermediario."
+    },
+    {
+      "question": "¿Cómo elegir la fecha para las visitas exteriores?",
+      "answer": "Organiza montaña y costa con atención al pronóstico y a los avisos del parque o del operador. El verano suele ser más cálido y seco, mientras que el invierno es fresco y húmedo. Conserva alternativas interiores para los días con condiciones poco adecuadas y evita encadenar reservas que impidan cambiar el orden de las visitas."
+    }
+  ],
+  "conclusion": "Una primera visita equilibrada a Ciudad del Cabo necesita paisaje y contexto. Los museos explican experiencias humanas que no muestran los miradores; el jardín y el parque ayudan a entender el entorno que rodea la ciudad. Agrupa las zonas, reserva las experiencias prioritarias y permite que cada lugar aporte algo distinto a tu recorrido.",
+  "sources": [
+    {
+      "id": "cape-town-mountain",
+      "url": "https://www.sanparks.org/parks/table-mountain",
+      "title": "Table Mountain National Park – SANParks",
+      "accessedAt": "2026-10-28T22:42:49.050421Z",
+      "evidenceFile": "content/research/cape-town-mountain.json"
+    },
+    {
+      "id": "cape-town-robben",
+      "url": "https://www.robben-island.org.za/",
+      "title": "Home - Robben Island Museum",
+      "accessedAt": "2026-10-28T22:46:00.045022Z",
+      "evidenceFile": "content/research/cape-town-robben.json"
+    },
+    {
+      "id": "cape-town-waterfront",
+      "url": "https://www.waterfront.co.za/",
+      "title": "V&A Waterfront Cape Town | Shopping, Dining & Attractions",
+      "accessedAt": "2026-10-28T22:44:20.581919Z",
+      "evidenceFile": "content/research/cape-town-waterfront.json"
+    },
+    {
+      "id": "cape-town-kirstenbosch",
+      "url": "https://www.sanbi.org/gardens/kirstenbosch/",
+      "title": "Kirstenbosch - SANBI",
+      "accessedAt": "2026-10-28T22:44:22.137842Z",
+      "evidenceFile": "content/research/cape-town-kirstenbosch.json"
+    },
+    {
+      "id": "cape-town-bokaap",
+      "url": "https://www.iziko.org.za/museums/bo-kaap-museum/",
+      "title": "Bo-Kaap Museum – Iziko Museums",
+      "accessedAt": "2026-10-28T22:44:30.677421Z",
+      "evidenceFile": "content/research/cape-town-bokaap.json"
+    },
+    {
+      "id": "cape-town-district-six",
+      "url": "https://www.districtsix.co.za/",
+      "title": "District Six | Museum",
+      "accessedAt": "2026-10-28T22:44:25.693667Z",
+      "evidenceFile": "content/research/cape-town-district-six.json"
+    },
+    {
+      "id": "cape-town-zeitz",
+      "url": "https://zeitzmocaa.museum/",
+      "title": "Zeitz MOCAA - Museum of Contemporary Art - Zeitz MOCAA",
+      "accessedAt": "2026-10-28T22:44:22.865807Z",
+      "evidenceFile": "content/research/cape-town-zeitz.json"
+    },
+    {
+      "id": "cape-town-boulders",
+      "url": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony",
+      "title": "Boulders Penguin Colony – Table Mountain National Park – SANParks",
+      "accessedAt": "2026-10-28T22:45:59.211968Z",
+      "evidenceFile": "content/research/cape-town-boulders.json"
+    },
+    {
+      "id": "cape-town-point",
+      "url": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/cape-of-good-hope-cape-point",
+      "title": "Cape of Good Hope & Cape Point – Table Mountain National Park – SANParks",
+      "accessedAt": "2026-10-28T22:45:59.399604Z",
+      "evidenceFile": "content/research/cape-town-point.json"
+    },
+    {
+      "id": "cape-town-signal",
+      "url": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/lions-head-signal-hill",
+      "title": "Lion’s Head & Signal Hill – Table Mountain National Park – SANParks",
+      "accessedAt": "2026-10-28T22:45:59.387649Z",
+      "evidenceFile": "content/research/cape-town-signal.json"
+    },
+    {
+      "id": "cape-town-climate",
+      "url": "https://www.sanparks.org/parks/table-mountain/explore/climate",
+      "title": "Climate – Table Mountain National Park – SANParks",
+      "accessedAt": "2026-10-28T23:10:38.745695Z",
+      "evidenceFile": "content/research/cape-town-climate.json"
+    }
+  ],
+  "relatedIds": [
+    "marrakech",
+    "sydney",
+    "queenstown"
+  ],
+  "publishedAt": "2026-10-28T23:13:26.048Z"
+}

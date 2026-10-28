@@ -3,7 +3,7 @@ import { dictionary, continents, type Locale } from '../i18n';
 import { destinations } from '../data/destinations';
 import { route } from '../lib/routes';
 import { production } from '../lib/site';
-import { forLocale, articlePath, photoFor } from '../lib/content';
+import { forLocale, articlePath, photoFor, photoSrcSet } from '../lib/content';
 import Icon from './Icon.astro';
 import Scenery from './Scenery.astro';
 import Card from './DestinationCard.astro';
@@ -18,6 +18,8 @@ const chosen = ['tokyo', 'paris', 'bali']
   .filter(Boolean);
 const hero = articles.find((a) => a.destinationId === 'bali') || articles[0];
 const photo = hero && photoFor(hero.coverImageId);
+const heroDestination =
+  hero && destinations.find((d) => d.id === hero.destinationId);
 ---
 
 <section class="shell hero-wrap">
@@ -26,6 +28,8 @@ const photo = hero && photoFor(hero.coverImageId);
       {photo ? (
         <img
           src={photo.src}
+          srcset={photoSrcSet(photo)}
+          sizes="(max-width: 1400px) 100vw, 1240px"
           alt={photo.alt[lang]}
           width={photo.width}
           height={photo.height}
@@ -66,9 +70,9 @@ const photo = hero && photoFor(hero.coverImageId);
           ? 'Menos rutina. Más mundo.'
           : 'Less routine. More world.'}
       </span>
-      <span class="hero-pages">
-        01 <i></i> 03
-      </span>
+      {heroDestination && (
+        <span class="hero-pages">{heroDestination.city[lang]}</span>
+      )}
     </div>
   </div>
   <form class="search-bar" action={route(lang, 'search')}>
@@ -88,6 +92,13 @@ const photo = hero && photoFor(hero.coverImageId);
     </button>
   </form>
 </section>
+{photo && (
+  <p class="shell photo-credit">
+    <a href={route(lang, 'info', 'photography') + '#' + photo.id}>
+      {photo.credit} · {photo.license}
+    </a>
+  </p>
+)}
 <section class="shell section">
   <div class="section-heading">
     <div>
@@ -230,8 +241,11 @@ const photo = hero && photoFor(hero.coverImageId);
     <h2>{t.latest}</h2>
     <div class="recent-list">
       {articles
-        .slice(-6)
-        .reverse()
+        .toSorted(
+          (a, b) =>
+            Date.parse(b.publishedAt || '') - Date.parse(a.publishedAt || ''),
+        )
+        .slice(0, 6)
         .map((a) => (
           <a href={articlePath(a)}>
             <span>{a.title}</span>

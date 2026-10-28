@@ -1,13 +1,33 @@
 import site from '../../editorial/site.json';
 import type { Locale } from '../i18n';
 export const legal = {
+  photography: {
+    es: {
+      title: 'Fotografías, autores y licencias',
+      sections: [
+        [
+          'Imágenes documentales',
+          'Estas fotografías se reutilizan en las guías, las tarjetas de destinos y la portada. Consulta aquí los autores, la fuente y la licencia específica de cada archivo. Las condiciones de uso de terceros se mantienen.',
+        ],
+      ],
+    },
+    en: {
+      title: 'Photographs, authors and licences',
+      sections: [
+        [
+          'Documentary images',
+          'These photographs are reused in guides, destination cards and the home page. Find the author, source and specific licence for each file here. Third-party licence conditions continue to apply.',
+        ],
+      ],
+    },
+  },
   about: {
     es: {
       title: 'Una maleta llena de curiosidad',
       sections: [
         [
           'Nuestra revista',
-          'MaletaFeliz es un proyecto editorial de viajes que está preparando su primera edición. Su objetivo es publicar guías prácticas en español e inglés que ayuden a comprender los destinos y organizar visitas con criterio.',
+          'MaletaFeliz es una revista de viajes en español e inglés. Nuestras guías ayudan a comprender los destinos, elegir lugares y organizar las visitas con contexto y fuentes consultables.',
         ],
         [
           'Lo que queremos aportar',
@@ -20,7 +40,7 @@ export const legal = {
       sections: [
         [
           'Our magazine',
-          'MaletaFeliz is a travel publishing project preparing its first edition. Its aim is to publish practical guides in Spanish and English that help readers understand destinations and plan thoughtful visits.',
+          'MaletaFeliz is a travel magazine in Spanish and English. Our guides help readers understand destinations, choose places and plan visits with context and sources they can consult.',
         ],
         [
           'What we want to offer',
@@ -63,7 +83,7 @@ export const legal = {
       sections: [
         [
           'Responsable y alcance',
-          `El titular es ${site.ownerName}, con contacto en ${site.contactEmail}. El país de residencia indicado por el titular es ${site.jurisdiction}. Antes del lanzamiento se deben revisar las bases legales, los plazos de conservación y los derechos aplicables al servicio definitivo. Este borrador no sustituye esa revisión.`,
+          `El titular es ${site.ownerName}, con contacto en ${site.contactEmail}. El país de residencia indicado por el titular es ${site.jurisdiction}. La información que facilita el lector por correo se utiliza para atender su consulta o solicitud; esta web no ofrece registro de usuarios ni recoge sus datos en formularios propios.`,
         ],
         [
           'Datos en esta versión',
@@ -71,7 +91,11 @@ export const legal = {
         ],
         [
           'Alojamiento y terceros',
-          'El despliegue previsto en Cloudflare puede generar registros técnicos, como direcciones IP y solicitudes. Antes de publicar deben documentarse las condiciones del proveedor, el tratamiento aplicable y los plazos efectivos. Los enlaces externos tienen sus propias políticas.',
+          'El alojamiento en Cloudflare procesa solicitudes y datos técnicos necesarios para servir y proteger la web, como direcciones IP. El sitio no mantiene una base de datos propia de visitantes. El proveedor gestiona sus registros según sus condiciones y política de privacidad, consultables en https://www.cloudflare.com/privacypolicy/. Los enlaces externos tienen sus propias políticas.',
+        ],
+        [
+          'Consultas y derechos',
+          `Puedes escribir a ${site.contactEmail} para consultar el tratamiento de tus datos o solicitar acceso, rectificación o eliminación de información que hayas enviado. Evita enviar documentos de identidad o datos sensibles que no sean necesarios para tu consulta.`,
         ],
         [
           'Cambios futuros',
@@ -84,7 +108,7 @@ export const legal = {
       sections: [
         [
           'Controller and scope',
-          `The owner is ${site.ownerName}, contactable at ${site.contactEmail}. The owner has provided ${site.jurisdiction} as their country of residence. Legal bases, retention periods and rights applicable to the final service need review before launch. This draft does not replace that review.`,
+          `The owner is ${site.ownerName}, contactable at ${site.contactEmail}. The owner has provided ${site.jurisdiction} as their country of residence. Information a reader chooses to send by email is used to address their enquiry or request; this website does not offer user accounts or collect their details through its own forms.`,
         ],
         [
           'Data in this version',
@@ -92,7 +116,11 @@ export const legal = {
         ],
         [
           'Hosting and third parties',
-          'The planned Cloudflare deployment may generate technical logs, including IP addresses and requests. Provider terms, applicable processing and actual retention periods must be documented before publication. External websites have their own policies.',
+          'Cloudflare hosting processes requests and technical information needed to serve and protect the website, including IP addresses. This site does not maintain its own visitor database. The provider manages its records under its terms and privacy policy, available at https://www.cloudflare.com/privacypolicy/. External websites have their own policies.',
+        ],
+        [
+          'Enquiries and rights',
+          `You can write to ${site.contactEmail} to ask about the processing of your information or request access, correction or deletion of information you have sent. Avoid sending identity documents or sensitive details that are not needed for your enquiry.`,
         ],
         [
           'Future changes',
@@ -114,8 +142,8 @@ export const legal = {
           'Los textos originales y la identidad visual pertenecen a sus respectivos titulares. Cada fotografía debe indicar su fuente y licencia concreta. Las condiciones de una fotografía no se extienden automáticamente al resto del sitio.',
         ],
         [
-          'Revisión pendiente',
-          `El titular es ${site.ownerName}, residente en ${site.jurisdiction}, con contacto en ${site.contactEmail}. Las condiciones definitivas del servicio requieren revisión antes del lanzamiento.`,
+          'Titular y alcance del servicio',
+          `El titular es ${site.ownerName}, residente en ${site.jurisdiction}, con contacto en ${site.contactEmail}. Este sitio ofrece información editorial; no vende viajes, no tramita reservas y no recibe pagos. Las condiciones de compra de un servicio externo corresponden a su proveedor.`,
         ],
       ],
     },
@@ -131,8 +159,8 @@ export const legal = {
           'Original writing and branding belong to their respective rights holders. Each photograph must specify its source and licence. One photograph’s terms do not automatically apply to the rest of the site.',
         ],
         [
-          'Review pending',
-          `The owner is ${site.ownerName}, resident in ${site.jurisdiction}, contactable at ${site.contactEmail}. The final service terms require review before launch.`,
+          'Owner and scope of the service',
+          `The owner is ${site.ownerName}, resident in ${site.jurisdiction}, contactable at ${site.contactEmail}. This website provides editorial information; it does not sell travel, process bookings or receive payments. Purchase terms for external services are the responsibility of their providers.`,
         ],
       ],
     },
@@ -191,7 +219,7 @@ export const legal = {
         ],
         [
           'Revisión y publicación',
-          'Los controles automáticos comprueban estructura, duplicados y metadatos. La revisión editorial verifica fuentes, pertinencia de imágenes, exactitud y naturalidad de ambos idiomas. Si una comprobación crítica falla, el artículo no se publica. Las modificaciones sustanciales quedan registradas.',
+          'Los controles automáticos comprueban estructura, duplicados y metadatos. La revisión editorial asistida por Codex contrasta las fuentes, la pertinencia de imágenes y la coherencia de ambos idiomas; puede cometer errores y no equivale a una visita personal ni a una revisión humana independiente. Si una comprobación crítica falla, el artículo no se publica. Las modificaciones sustanciales quedan registradas.',
         ],
         [
           'Independencia y financiación',
@@ -216,7 +244,7 @@ export const legal = {
         ],
         [
           'Review and publication',
-          'Automated checks cover structure, duplicates and metadata. Editorial review checks sources, relevant images, accuracy and natural writing in both languages. Critical failures prevent publication. Substantive updates are recorded.',
+          'Automated checks cover structure, duplicates and metadata. Codex-assisted editorial review cross-checks sources, image relevance and consistency in both languages; it can make mistakes and is not a personal visit or independent human review. Critical failures prevent publication. Substantive updates are recorded.',
         ],
         [
           'Independence and funding',
@@ -231,7 +259,7 @@ export const legal = {
       sections: [
         [
           'Un apoyo editorial, no una fuente',
-          'Codex puede ayudar a organizar la investigación, redactar borradores, traducir y comprobar archivos. El conocimiento general de un modelo no se considera una fuente verificada.',
+          'Estas guías se preparan con ayuda de Codex para investigar fuentes accesibles, redactar, traducir y revisar los contenidos. El conocimiento general de un modelo no se considera una fuente verificada.',
         ],
         [
           'Responsabilidad y comprobaciones',
@@ -248,7 +276,7 @@ export const legal = {
       sections: [
         [
           'Editorial assistance, not a source',
-          'Codex can help organise research, draft articles, translate and validate files. A model’s general knowledge is not treated as a verified source.',
+          'These guides are prepared with help from Codex to research accessible sources, write, translate and review content. A model’s general knowledge is not treated as a verified source.',
         ],
         [
           'Responsibility and checks',
@@ -271,7 +299,7 @@ export const legal = {
         ],
         [
           'Cómo comunicar un problema',
-          `Escribe a ${site.contactEmail} indicando la URL afectada, el dato cuestionado y, si es posible, una fuente fiable. No incluya datos sensibles que no sean necesarios para revisar la corrección.`,
+          `Escribe a ${site.contactEmail} indicando la URL afectada, el dato cuestionado y, si es posible, una fuente fiable. No incluyas datos sensibles que no sean necesarios para revisar la corrección.`,
         ],
         [
           'Información que deja de estar vigente',

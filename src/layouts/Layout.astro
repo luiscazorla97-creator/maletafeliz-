@@ -186,6 +186,10 @@ const links = [
             ['privacy', lang === 'es' ? 'Privacidad' : 'Privacy'],
             ['terms', lang === 'es' ? 'Términos de uso' : 'Terms of use'],
             ['cookies', 'Cookies'],
+            [
+              'photography',
+              lang === 'es' ? 'Fotografías y licencias' : 'Photography credits',
+            ],
           ].map(([id, label]) => (
             <a href={route(lang, 'info', id)}>{label}</a>
           ))}

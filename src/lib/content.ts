@@ -1,6 +1,7 @@
 import { route } from './routes';
 import type { Locale } from '../i18n';
 export type Photo = {
+  variants?: { src: string; width: number; height: number; sha256: string }[];
   destinationIds: string[];
   id: string;
   src: string;
@@ -75,3 +76,6 @@ export const articleText = (a: Article) =>
     ...a.faq.flatMap((f) => [f.question, f.answer]),
     a.conclusion,
   ].join(' ');
+
+export const photoSrcSet = (photo: Photo) =>
+  photo.variants?.map((v) => `${v.src} ${v.width}w`).join(', ');

@@ -1,0 +1,254 @@
+{
+  "id": "rio",
+  "destinationId": "rio",
+  "locale": "es",
+  "slug": "10-lugares-turisticos-de-rio-de-janeiro",
+  "title": "10 lugares turísticos de Río de Janeiro",
+  "description": "Diez lugares de Río de Janeiro, con una ruta por playas, miradores, jardines y cultura, consejos para organizar las visitas y fuentes oficiales.",
+  "keyword": "lugares turísticos de Río de Janeiro",
+  "relatedQueries": [
+    "qué ver en Río de Janeiro",
+    "Río de Janeiro primera visita"
+  ],
+  "intent": "first-visit-highlights",
+  "status": "published",
+  "coverImageId": "rio-sugarloaf",
+  "intro": [
+    "Río de Janeiro se entiende mejor por zonas y por perspectivas. Corcovado y el Pan de Azúcar explican el paisaje desde arriba; Copacabana e Ipanema permiten vivirlo a pie; los jardines, Santa Teresa y la zona portuaria muestran que la ciudad no termina en sus playas. Esta selección de diez lugares está pensada para una primera visita que combine esas miradas sin convertir cada día en una carrera de traslados.",
+    "Para empezar, elige el mirador que más te interese y comprueba su transporte antes de reservar el resto del día. Después agrupa los paseos por barrios: las playas, los jardines y Praça Mauá requieren bloques diferentes. Esa organización deja margen para el clima, las distancias urbanas y el ritmo de tus acompañantes, sin obligarte a cruzar Río entre cada parada."
+  ],
+  "quickFacts": [
+    {
+      "label": "Ubicación",
+      "value": "Río de Janeiro, Brasil"
+    },
+    {
+      "label": "Ritmo sugerido",
+      "value": "Cuatro jornadas para combinar zonas, como propuesta editorial"
+    },
+    {
+      "label": "Prioridad de reservas",
+      "value": "Confirmar transporte y entrada de los miradores con sus operadores"
+    }
+  ],
+  "sections": [
+    {
+      "id": "cristo-redentor",
+      "kind": "place",
+      "heading": "1. Cristo Redentor: mirar la ciudad desde Corcovado",
+      "paragraphs": [
+        "El Cristo Redentor permite comprender la forma de Río antes de recorrerla: las montañas, las áreas construidas y el agua aparecen dentro de una misma panorámica. El monumento, inaugurado en 1931, está sobre Corcovado y sigue siendo un santuario religioso activo. Conviene visitarlo con esa doble mirada, dejando espacio tanto a las fotografías como a quienes llegan por motivos de fe.",
+        "Organiza primero la subida: Riotur identifica el tren de Cosme Velho y las vans oficiales como opciones de acceso. Compra mediante el operador correspondiente y confirma el punto de salida, porque una entrada no equivale a cualquier transporte. Consulta la visibilidad antes de fijar el día y deja margen para las nubes; una reserva no garantiza una panorámica despejada."
+      ],
+      "sourceIds": [
+        "rio-cristo"
+      ],
+      "imageId": "rio-christ"
+    },
+    {
+      "id": "pan-de-azucar",
+      "kind": "place",
+      "heading": "2. Pan de Azúcar: dos miradores dentro de una misma visita",
+      "paragraphs": [
+        "El recorrido en teleférico comienza en Praia Vermelha, pasa por Morro da Urca y continúa hasta el Pan de Azúcar. Esa secuencia merece atención: no conviene tratar la primera parada simplemente como un transbordo. Las perspectivas sobre la bahía de Botafogo, Copacabana y la entrada de Guanabara cambian durante el ascenso y ayudan a reconocer lugares que después verás desde la calle.",
+        "Acércate al acceso de Praia Vermelha con la reserva y las condiciones de embarque comprobadas en el operador. Para organizar el día, combina la subida con un paseo por Urca en lugar de atravesar inmediatamente toda la ciudad. Si eliges el atardecer, calcula también el tiempo que quieres pasar arriba; el sol no espera a que termine una fila y el tiempo puede cambiar."
+      ],
+      "sourceIds": [
+        "rio-sugarloaf-source"
+      ]
+    },
+    {
+      "id": "copacabana",
+      "kind": "place",
+      "heading": "3. Copacabana y Leme: recorrer la orilla, no solo la arena",
+      "paragraphs": [
+        "La Avenida Atlântica ofrece una lectura sencilla de Copacabana: playa, quioscos, edificios y un paseo de piedras blancas y negras con dibujo de olas. Leme prolonga la experiencia en un extremo de la ensenada. Incluso si no quieres bañarte, caminar un tramo permite entender por qué la vida junto al mar ocupa tanto espacio en la identidad de Río.",
+        "Elige un punto de llegada en la avenida y camina según tu energía, sin convertir toda la costa en una obligación. Mantén separados los espacios peatonales y ciclistas. Para entrar al agua, atiende a la señalización y a las indicaciones locales del día, en lugar de suponer que toda la playa tiene las mismas condiciones. Lleva lo necesario para el paseo y una pausa a la sombra."
+      ],
+      "sourceIds": [
+        "rio-copa"
+      ]
+    },
+    {
+      "id": "ipanema",
+      "kind": "place",
+      "heading": "4. Ipanema: paisaje costero y cultura cotidiana",
+      "paragraphs": [
+        "Ipanema se extiende entre Arpoador y Jardim de Alah, junto a la Avenida Vieira Souto. Su relación con la canción Garota de Ipanema explica parte de su fama, pero el interés de una visita está también en lo cotidiano: encuentros en la arena, deporte y paseos sin un programa cerrado. Es un buen contraste con la sensación de gran avenida que domina Copacabana.",
+        "Puedes entrar por el tramo que mejor encaje con tu alojamiento y recorrer la costa hacia Arpoador o hacia Jardim de Alah. No hace falta reservar una jornada completa de playa para disfrutarla: una caminata y una comida cercana pueden bastar. Para fotografías al final del día, comprueba el cielo y evita bloquear los lugares de paso; el atardecer es una posibilidad, no un espectáculo garantizado."
+      ],
+      "sourceIds": [
+        "rio-beaches"
+      ]
+    },
+    {
+      "id": "lagoa",
+      "kind": "place",
+      "heading": "5. Lagoa Rodrigo de Freitas: cambiar el mar por la laguna",
+      "paragraphs": [
+        "La Lagoa Rodrigo de Freitas propone otra relación con el paisaje. En lugar del oleaje aparecen el remo, las bicicletas y los caminos que acompañan el agua. Su interés no depende de un monumento único, sino del conjunto: superficie de la laguna, relieve de fondo y actividad de quienes utilizan el entorno para hacer ejercicio o descansar.",
+        "Escoge un acceso y un tramo concreto antes de salir, especialmente si vas con niños o con alguien que prefiere paseos cortos. No necesitas completar toda la vuelta para que la visita tenga sentido. Si alquilas una bicicleta o contratas una actividad náutica, pregunta por las condiciones actuales y el equipo incluido. También puedes disfrutar del lugar caminando y detenerte en un quiosco cuando lo necesites."
+      ],
+      "sourceIds": [
+        "rio-lagoa"
+      ]
+    },
+    {
+      "id": "jardin-botanico",
+      "kind": "place",
+      "heading": "6. Jardim Botânico: detenerse a mirar las colecciones",
+      "paragraphs": [
+        "El Jardín Botánico, fundado en 1808, merece una visita pausada: no es únicamente una avenida de palmeras para una fotografía. Riotur destaca colecciones de orquídeas, bromelias, helechos y jardines temáticos, entre ellos el japonés. Leer algunas etiquetas y comparar las formas de las plantas transforma un paseo bonito en una aproximación a la diversidad botánica.",
+        "Planifica la entrada por Rua Jardim Botânico y consulta qué espacios están accesibles en la fecha elegida. Si tienes poco tiempo, selecciona unas pocas colecciones en el plano en lugar de perseguir todos los sectores. Para quienes prefieren caminar despacio, resulta una alternativa a las jornadas de miradores y teleféricos. La disponibilidad de invernaderos o servicios puede variar, por lo que conviene comprobarla en la institución."
+      ],
+      "sourceIds": [
+        "rio-garden"
+      ]
+    },
+    {
+      "id": "parque-lage",
+      "kind": "place",
+      "heading": "7. Parque Lage: jardines, bosque y creación artística",
+      "paragraphs": [
+        "Parque Lage reúne jardines diseñados, vegetación de Mata Atlántica y una casa histórica vinculada a la Escola de Artes Visuais. El atractivo está en ese encuentro entre naturaleza y actividad cultural. Los senderos, palmeras y estanques permiten dedicarle una visita más amplia que la conocida imagen del patio; una fotografía concreta no debería convertirse en el único motivo para ir.",
+        "El parque se encuentra sobre Rua Jardim Botânico, por lo que puede combinarse con el jardín botánico si reservas suficiente tiempo para ambos. Comprueba por separado el acceso a los jardines, la casa y las actividades culturales: que el parque sea visitable no significa que todas sus dependencias lo estén. Sigue los recorridos habilitados y no improvises una subida de montaña a partir de un paseo urbano."
+      ],
+      "sourceIds": [
+        "rio-lage"
+      ]
+    },
+    {
+      "id": "santa-teresa",
+      "kind": "place",
+      "heading": "8. Santa Teresa: una visita que empieza por el trayecto",
+      "paragraphs": [
+        "Los bondes amarillos de Santa Teresa son parte del patrimonio de Río y conectan el centro con un barrio de casas históricas, talleres y miradores. El trayecto cruza los Arcos da Lapa. Más que buscar una sucesión de fotografías idénticas, conviene elegir una zona para caminar, como los alrededores de Largo do Curvelo o Largo dos Guimarães, descritos por Riotur.",
+        "La referencia oficial de salida está en Rua Lélio Gama, cerca de la estación de metro Carioca. Revisa el servicio vigente y la forma de regreso antes de subir: líneas, frecuencia y tarifas pueden cambiar. Las calles del barrio tienen desniveles, así que adapta el recorrido a tu movilidad. Reserva una pausa para un café o una visita cultural sin asumir que todos los talleres aceptan público a cualquier hora."
+      ],
+      "sourceIds": [
+        "rio-teresa"
+      ]
+    },
+    {
+      "id": "escalera-selaron",
+      "kind": "place",
+      "heading": "9. Escadaria Selarón: una obra para observar de cerca",
+      "paragraphs": [
+        "Entre Lapa y Santa Teresa, la Escadaria Selarón convierte una escalera en una composición de azulejos. Es una obra del artista chileno Jorge Selarón, con piezas procedentes de Brasil y de otros lugares del mundo. El conjunto se entiende mejor al alternar una vista general con detalles: colores, dibujos y pequeñas escenas que desaparecen en una fotografía tomada con prisa.",
+        "Inclúyela en una ruta por Lapa y el acceso a Santa Teresa, comprobando en el mapa el recorrido que vas a utilizar. La escalera sigue siendo un espacio de circulación, de modo que evita ocupar los peldaños durante largos ratos para fotografiarte. Si los escalones no encajan con tu movilidad, observa el conjunto desde la parte accesible y no des por hecho que existe un itinerario equivalente sin desniveles."
+      ],
+      "sourceIds": [
+        "rio-selaron"
+      ]
+    },
+    {
+      "id": "museo-manana",
+      "kind": "place",
+      "heading": "10. Museu do Amanhã: una pregunta distinta sobre la ciudad",
+      "paragraphs": [
+        "El Museu do Amanhã, en Praça Mauá, cambia el enfoque del viaje: después de observar paisajes, invita a pensar en cómo nuestras acciones afectan al futuro. La propuesta del museo gira alrededor de preguntas sobre la humanidad y sus posibilidades, en lugar de funcionar como una simple colección de objetos históricos. Es una parada apropiada para quien quiere añadir una experiencia de reflexión al recorrido.",
+        "Consulta las exposiciones y las condiciones de visita en la web del museo antes de reservar. Puedes organizar esta salida como una jornada de centro y zona portuaria, sin enlazarla obligatoriamente con todas las playas. Si viajas en grupo, acuerda qué parte de la visita interesa más a cada persona; la experiencia se disfruta mejor con tiempo para leer y conversar que como una parada exprés entre traslados."
+      ],
+      "sourceIds": [
+        "rio-museum"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Día 1, propuesta costera: dedica un tramo de la jornada a Copacabana y Leme y otro a Ipanema. Si prefieres parar más tiempo en una sola playa, elimina la segunda en vez de recortar todas las pausas. El propósito es conocer la relación de la ciudad con el mar, no completar kilómetros.",
+    "Día 2, propuesta panorámica: elige el Cristo Redentor o el Pan de Azúcar como visita principal y organiza el resto alrededor de su transporte. Deja el otro mirador para una franja con buena visibilidad. Intentar asegurar ambos a una hora rígida limita la capacidad de reaccionar a las nubes.",
+    "Día 3, propuesta verde: combina Jardim Botânico, Parque Lage y un tramo de la Lagoa, ajustando la cantidad de paradas a tu energía. Día 4, propuesta cultural: escoge Santa Teresa y Selarón o la zona de Praça Mauá con el Museu do Amanhã. No es necesario unir todos esos barrios en una sola caminata."
+  ],
+  "faq": [
+    {
+      "question": "¿Cuántos días hacen falta para estos diez lugares?",
+      "answer": "Proponemos cuatro jornadas como punto de partida, no como duración mínima universal. Si priorizas descansar en la playa o visitar museos a fondo, amplía el viaje o reduce la lista. Lo que más condiciona el recorrido es la combinación de reservas, traslados y tiempo que quieras dedicar a cada experiencia."
+    },
+    {
+      "question": "¿Cómo elegir el mejor momento para los miradores?",
+      "answer": "Revisa la previsión y la visibilidad cerca de la visita. Una fecha considerada buena para viajar no garantiza que Corcovado esté despejado. Reserva según las condiciones del operador y conserva alternativas como museos o jardines; no recomendamos cambiar una compra sin revisar primero sus condiciones."
+    },
+    {
+      "question": "¿Conviene recorrer toda la ciudad caminando?",
+      "answer": "Camina dentro de zonas concretas y utiliza el transporte que corresponda para unirlas. Este artículo no propone un recorrido peatonal continuo entre Corcovado, las playas y Praça Mauá. Antes de salir, revisa el trayecto actual y el acceso oficial de cada atracción, especialmente cuando hay una reserva de por medio."
+    }
+  ],
+  "conclusion": "Una primera visita a Río gana cuando alterna actividades y deja espacio para observar. Elige un mirador prioritario, una zona de playa y una visita cultural que realmente te interese; después completa el recorrido con jardines y barrios. Esa combinación da contexto a los grandes iconos y evita que el viaje se reduzca a repetir fotografías sin disfrutar de los lugares.",
+  "sources": [
+    {
+      "id": "rio-cristo",
+      "url": "https://riotur.rio/que_fazer/cristoredentor/",
+      "title": "Riotur — Cristo Redentor",
+      "accessedAt": "2026-10-28T22:43:46.448Z",
+      "evidenceFile": "content/research/rio-cristo.json"
+    },
+    {
+      "id": "rio-sugarloaf-source",
+      "url": "https://riotur.rio/que_fazer/paodeacucar/",
+      "title": "Riotur — Pão de Açúcar",
+      "accessedAt": "2026-10-28T22:43:46.236Z",
+      "evidenceFile": "content/research/rio-sugarloaf-source.json"
+    },
+    {
+      "id": "rio-copa",
+      "url": "https://riotur.rio/que_fazer/copacabana-e-leme/",
+      "title": "Riotur — Copacabana e Leme",
+      "accessedAt": "2026-10-28T22:44:41.642Z",
+      "evidenceFile": "content/research/rio-copa.json"
+    },
+    {
+      "id": "rio-beaches",
+      "url": "https://riotur.rio/que_fazer/ipanema/",
+      "title": "Riotur — Praia de Ipanema",
+      "accessedAt": "2026-10-28T22:44:41.541Z",
+      "evidenceFile": "content/research/rio-beaches.json"
+    },
+    {
+      "id": "rio-lagoa",
+      "url": "https://riotur.rio/que_fazer/lagoa-rodrigo-de-freitas/",
+      "title": "Riotur — Lagoa Rodrigo de Freitas",
+      "accessedAt": "2026-10-28T22:47:37.057Z",
+      "evidenceFile": "content/research/rio-lagoa.json"
+    },
+    {
+      "id": "rio-garden",
+      "url": "https://riotur.rio/que_fazer/jardimbotanico/",
+      "title": "Riotur — Jardim Botânico",
+      "accessedAt": "2026-10-28T22:43:45.857Z",
+      "evidenceFile": "content/research/rio-garden.json"
+    },
+    {
+      "id": "rio-lage",
+      "url": "https://riotur.rio/que_fazer/parque-lage/",
+      "title": "Riotur — Parque Lage",
+      "accessedAt": "2026-10-28T22:47:36.796Z",
+      "evidenceFile": "content/research/rio-lage.json"
+    },
+    {
+      "id": "rio-teresa",
+      "url": "https://riotur.rio/que_fazer/bondinho-de-santa-teresa/",
+      "title": "Riotur — Os Bondinhos de Santa Teresa",
+      "accessedAt": "2026-10-28T22:44:42.304Z",
+      "evidenceFile": "content/research/rio-teresa.json"
+    },
+    {
+      "id": "rio-selaron",
+      "url": "https://riotur.rio/que_fazer/escadariaselaron/",
+      "title": "Riotur — Escadaria Selarón",
+      "accessedAt": "2026-10-28T22:44:41.881Z",
+      "evidenceFile": "content/research/rio-selaron.json"
+    },
+    {
+      "id": "rio-museum",
+      "url": "https://riotur.rio/que_fazer/museudoamanha/",
+      "title": "Riotur — Museu do Amanhã",
+      "accessedAt": "2026-10-28T22:43:46.857Z",
+      "evidenceFile": "content/research/rio-museum.json"
+    }
+  ],
+  "relatedIds": [
+    "buenos-aires",
+    "cusco"
+  ],
+  "publishedAt": "2026-10-28T23:10:15.690Z"
+}

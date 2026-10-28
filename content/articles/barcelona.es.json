@@ -1,0 +1,255 @@
+{
+  "id": "barcelona",
+  "destinationId": "barcelona",
+  "locale": "es",
+  "slug": "10-lugares-turisticos-de-barcelona",
+  "title": "10 lugares turísticos de Barcelona",
+  "description": "Prepará una primera visita a Barcelona con diez lugares de arquitectura, arte, parques y costa, un itinerario flexible y fuentes oficiales para reservar.",
+  "keyword": "qué ver en Barcelona",
+  "relatedQueries": [
+    "primera visita a Barcelona",
+    "lugares turísticos de Barcelona"
+  ],
+  "intent": "first-visit-highlights",
+  "status": "published",
+  "publishedAt": "2026-10-28T23:11:55.922Z",
+  "coverImageId": "barcelona-sagrada",
+  "intro": [
+    "Barcelona invita a alternar escalas: el detalle de una fachada, una sala de museo, un parque y el horizonte del mar. Esta selección de diez lugares propone una primera visita variada, con arquitectura de Gaudí y de otros autores, patrimonio religioso y espacios para descansar. Elegí los interiores que más te interesen y dejá margen entre reservas.",
+    "No todas las visitas requieren el mismo esfuerzo ni ofrecen la misma experiencia. Ver un edificio desde la calle, recorrer su interior y asistir a una actividad son opciones distintas. Para organizarte, usá los enlaces oficiales al final de la guía y verificá el producto concreto antes de comprar; los precios y horarios se confirman para cada fecha."
+  ],
+  "quickFacts": [
+    {
+      "label": "Enfoque",
+      "value": "Arquitectura, arte y espacio público en una primera visita."
+    },
+    {
+      "label": "Ritmo sugerido",
+      "value": "Una o dos reservas importantes por jornada, con tiempo entre ellas."
+    },
+    {
+      "label": "Plan flexible",
+      "value": "Alterná interiores con parques o costa según el tiempo y la energía."
+    }
+  ],
+  "sections": [
+    {
+      "id": "sagrada",
+      "kind": "place",
+      "heading": "1. Sagrada Família",
+      "paragraphs": [
+        "La Sagrada Família permite acercarse a la obra de Gaudí desde una arquitectura religiosa que sigue siendo un lugar de culto. Conviene distinguir la contemplación exterior de la visita a la basílica: caminar alrededor y observar sus volúmenes no reemplaza la experiencia interior, pero puede ser una elección válida según el tiempo disponible.",
+        "Organizá la llegada usando las indicaciones oficiales y comprobá qué incluye la entrada antes de reservar. No supongas que todos los espacios especiales forman parte del mismo producto. La web también diferencia visitas y celebraciones religiosas; respetar esa distinción ayuda a planificar una experiencia adecuada y a comprender el uso del edificio."
+      ],
+      "sourceIds": [
+        "barcelona-sagrada"
+      ]
+    },
+    {
+      "id": "park-guell",
+      "kind": "place",
+      "heading": "2. Park Güell",
+      "paragraphs": [
+        "Park Güell combina patrimonio arquitectónico y un espacio verde con valores naturales. La página municipal presenta tanto la obra de Gaudí como la biodiversidad del parque: recorrerlo con atención permite mirar más allá de las imágenes más reconocibles y observar cómo construcción y paisaje se relacionan. Elegí un trayecto que se adapte a tu energía.",
+        "Consultá el mapa, los accesos y los avisos oficiales de obras antes de salir: una intervención de mantenimiento puede modificar el recorrido disponible. Elegí la entrada que mejor se ajuste a tu llegada y dejá margen para orientarte. Después de caminar por el parque, una pausa sin otra reserva inmediata permite disfrutar del entorno con más tranquilidad."
+      ],
+      "sourceIds": [
+        "barcelona-park"
+      ]
+    },
+    {
+      "id": "batllo",
+      "kind": "place",
+      "heading": "3. Casa Batlló",
+      "paragraphs": [
+        "Casa Batlló invita a mirar la arquitectura como una composición de colores, superficies y formas. La fachada que aparece en la fotografía permite reconocer una parte de la propuesta de Gaudí, aunque contemplarla desde la calle y recorrer el edificio son experiencias distintas. Antes de elegir una entrada, pensá si tu prioridad es el espacio arquitectónico o una actividad concreta.",
+        "Usá la web oficial para comparar modalidades y confirmar el punto de acceso. Si preferís observar el exterior, detenete sin bloquear la circulación y mirá los detalles a distintas alturas. Al combinar varias casas o monumentos en una jornada, reservá un intervalo suficiente para descansar; comparar obras funciona mejor cuando no llegás agotado a la segunda."
+      ],
+      "sourceIds": [
+        "barcelona-batllo"
+      ],
+      "imageId": "barcelona-batllo"
+    },
+    {
+      "id": "pedrera",
+      "kind": "place",
+      "heading": "4. La Pedrera–Casa Milà",
+      "paragraphs": [
+        "La Pedrera, también llamada Casa Milà, ofrece otra forma de acercarse a Gaudí. Su web destaca la relación entre curvas, luz y naturaleza, y recuerda su reconocimiento como Patrimonio Mundial. Elegirla junto con Casa Batlló puede ser útil si querés comparar soluciones arquitectónicas, aunque no es necesario visitar ambas para comprender que cada edificio tiene una identidad propia.",
+        "Antes de comprar, revisá qué espacios y actividades incorpora cada modalidad. La institución ofrece experiencias diferentes, por lo que una entrada no equivale automáticamente a todas las demás. Consultá la información de accesibilidad y cómo llegar, y elegí la propuesta según tu interés, disponibilidad y necesidades de movilidad."
+      ],
+      "sourceIds": [
+        "barcelona-pedrera"
+      ]
+    },
+    {
+      "id": "cathedral",
+      "kind": "place",
+      "heading": "5. Catedral de Barcelona",
+      "paragraphs": [
+        "La Catedral de Barcelona muestra una historia de construcción por etapas. Su explicación oficial sitúa el inicio del edificio gótico en 1298 y señala que el claustro se terminó en 1448; también recuerda que la fachada actual recibió intervenciones mucho más tardías. Observar esas capas evita imaginar todo el conjunto como una obra realizada de una sola vez.",
+        "Incorporá la catedral a un paseo por el entorno histórico y diferenciá el recorrido turístico de las celebraciones religiosas. Para entrar, revisá las indicaciones de acceso y vestimenta de la institución. En el exterior, buscá un lugar donde puedas observar sin interrumpir el paso; dedicar tiempo a una fachada suele revelar más que una fotografía rápida."
+      ],
+      "sourceIds": [
+        "barcelona-cathedral-history"
+      ]
+    },
+    {
+      "id": "palau-musica",
+      "kind": "place",
+      "heading": "6. Palau de la Música Catalana",
+      "paragraphs": [
+        "El Palau de la Música Catalana amplía la visita más allá de Gaudí. Lluís Domènech i Montaner lo construyó entre 1905 y 1908 como sede del Orfeó Català, en el barrio de Sant Pere. Su combinación de arquitectura, escultura, vidrieras y música convierte el edificio en una experiencia donde las artes se encuentran, no en un simple contenedor de conciertos.",
+        "Elegí entre una visita arquitectónica y una actuación según lo que quieras conocer. Son propuestas diferentes y no conviene suponer que una entrada permite recorrer libremente todos los espacios. Prestá atención a la luz y a la decoración de la sala cuando el recorrido lo permita; la web oficial explica el papel de la claraboya central."
+      ],
+      "sourceIds": [
+        "barcelona-palace-history"
+      ]
+    },
+    {
+      "id": "picasso",
+      "kind": "place",
+      "heading": "7. Museu Picasso",
+      "paragraphs": [
+        "El Museu Picasso permite dedicar una parte del viaje a observar obras con atención. Su colección incluye pintura, dibujo, cerámica y otras técnicas, y presenta temas como los paisajes de Barcelona, la familia y los amigos. Esa variedad ofrece una buena manera de elegir un hilo conductor sin intentar abarcar todo el museo en una sola visita.",
+        "La dirección oficial es Carrer de Montcada, 15–23. Consultá el plano y las condiciones de entrada antes de llegar, especialmente si tu interés se concentra en una exposición. Comparar dos obras con calma puede resultar más enriquecedor que recorrer todas las salas deprisa; dejá tiempo al salir para recordar qué detalles o preguntas te quedaron."
+      ],
+      "sourceIds": [
+        "barcelona-picasso-collection"
+      ]
+    },
+    {
+      "id": "mnac",
+      "kind": "place",
+      "heading": "8. Museu Nacional d’Art de Catalunya",
+      "paragraphs": [
+        "El Museu Nacional d’Art de Catalunya reúne motivos para mirar tanto las obras como el edificio. La institución destaca su arte románico, el modernismo y el Palau Nacional, construido para la Exposición Internacional de 1929. Elegí un área de colección que te interese y utilizá los recursos del museo para situar las piezas en su contexto.",
+        "Su emplazamiento en Montjuïc permite plantear una jornada con un ritmo distinto del centro histórico. Consultá cómo llegar y las opciones de accesibilidad antes de elegir el recorrido. La institución también anuncia miradores, pero conviene verificar su disponibilidad concreta; una vista panorámica es un complemento de la visita, no una promesa independiente de las condiciones de acceso."
+      ],
+      "sourceIds": [
+        "barcelona-mnac-visit"
+      ]
+    },
+    {
+      "id": "ciutadella",
+      "kind": "place",
+      "heading": "9. Parc de la Ciutadella",
+      "paragraphs": [
+        "El Parc de la Ciutadella introduce una pausa verde en una selección dominada por edificios y museos. El Ayuntamiento lo sitúa dentro de su red de parques y destaca un proyecto de conocimiento y desarrollo urbano en su entorno. Para el visitante, puede ser un lugar donde cambiar de ritmo y observar cómo se utiliza el espacio público.",
+        "Consultá el mapa municipal para elegir un acceso y un recorrido acordes con tu siguiente parada. No hace falta cruzar todo el parque ni añadir una actividad organizada: un paseo corto y un descanso también forman parte del viaje. Respetá los espacios compartidos y adaptá la visita a las indicaciones que encuentres sobre obras o zonas restringidas."
+      ],
+      "sourceIds": [
+        "barcelona-cityparks"
+      ]
+    },
+    {
+      "id": "coast",
+      "kind": "place",
+      "heading": "10. Las playas y el frente marítimo",
+      "paragraphs": [
+        "El frente marítimo permite completar la visita con una perspectiva abierta hacia el mar. Antes de elegir una playa, consultá la información municipal: describe ubicaciones, servicios y opciones de accesibilidad. Un paseo junto a la costa y una jornada de baño son planes diferentes, por lo que conviene decidir qué experiencia buscás y qué condiciones necesitás.",
+        "Revisá el estado del tiempo, las indicaciones locales y la disponibilidad de servicios para la temporada de tu viaje. Las banderas y los avisos del lugar deben orientar cualquier decisión de entrar al agua. Si preferís caminar, llevá lo necesario para el tiempo previsto y dejá margen para volver; disfrutar de la costa no exige bañarse."
+      ],
+      "sourceIds": [
+        "barcelona-seaside"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Primera jornada: reservá la Sagrada Família como visita principal y decidí si querés añadir otra obra de Gaudí. Dejá tiempo para los traslados y no confundas cercanía en un mapa con un enlace cómodo entre reservas.",
+    "Segunda jornada: elegí la Catedral y el entorno histórico, con el Museu Picasso o el Palau de la Música como visita interior. Seleccioná según tu interés por arte, arquitectura o música y conservá pausas para comer.",
+    "Tercera jornada: dedicá un bloque a Park Güell o al museo de Montjuïc y otro a descansar en un parque o junto al mar. Son alternativas para ajustar al alojamiento, al clima y a lo que ya hayas visto."
+  ],
+  "faq": [
+    {
+      "question": "¿Tengo que reservar todos los edificios de Gaudí?",
+      "answer": "No. Elegí los que más te interesen y distinguí la observación exterior de la visita interior. Si decidís entrar, consultá disponibilidad y condiciones oficiales antes de fijar otras actividades cercanas en el tiempo."
+    },
+    {
+      "question": "¿Cómo elijo la mejor época para este recorrido?",
+      "answer": "Pensá primero qué visitas querés priorizar: museos y edificios pueden ocupar días con tiempo incómodo, mientras que parques y costa dependen más de las condiciones exteriores. Revisá el calendario de acceso y servicios para tus fechas, especialmente si tu prioridad es bañarte."
+    },
+    {
+      "question": "¿Es un recorrido apropiado para movilidad reducida?",
+      "answer": "La selección puede adaptarse, pero no todos los espacios ni productos ofrecen las mismas condiciones. Consultá las páginas de accesibilidad de cada institución y el transporte de llegada antes de reservar, y elegí recorridos compatibles con las necesidades concretas de tu grupo."
+    }
+  ],
+  "conclusion": "La mejor combinación de estos diez lugares depende de tus intereses. Una obra de Gaudí, un museo elegido con atención, la arquitectura del centro y una pausa al aire libre pueden formar una visita equilibrada. Utilizá las fuentes oficiales para afinar reservas y accesos, y mantené espacio para cambiar el plan cuando una conversación, una fachada o un paseo merezcan más tiempo.",
+  "sources": [
+    {
+      "id": "barcelona-sagrada",
+      "url": "https://sagradafamilia.org/en/",
+      "title": "Sagrada Família — official visitor information",
+      "accessedAt": "2026-10-28T22:42:53.585597Z",
+      "evidenceFile": "content/research/barcelona-sagrada.json"
+    },
+    {
+      "id": "barcelona-park",
+      "url": "https://parkguell.barcelona/en",
+      "title": "Barcelona City Council — Park Güell",
+      "accessedAt": "2026-10-28T22:42:54.837678Z",
+      "evidenceFile": "content/research/barcelona-park.json"
+    },
+    {
+      "id": "barcelona-batllo",
+      "url": "https://www.casabatllo.es/en/",
+      "title": "Casa Batlló — official visitor information",
+      "accessedAt": "2026-10-28T22:44:19.149832Z",
+      "evidenceFile": "content/research/barcelona-batllo.json"
+    },
+    {
+      "id": "barcelona-pedrera",
+      "url": "https://www.lapedrera.com/en",
+      "title": "La Pedrera — Casa Milà",
+      "accessedAt": "2026-10-28T22:44:20.280906Z",
+      "evidenceFile": "content/research/barcelona-pedrera.json"
+    },
+    {
+      "id": "barcelona-cathedral-history",
+      "url": "https://catedralbcn.org/en/the-cathedral/history/",
+      "title": "Barcelona Cathedral — history",
+      "accessedAt": "2026-10-28T22:45:46.250565Z",
+      "evidenceFile": "content/research/barcelona-cathedral-history.json"
+    },
+    {
+      "id": "barcelona-palace-history",
+      "url": "https://www.palaumusica.cat/en/history-and-architecture_1674409",
+      "title": "Palau de la Música Catalana — history and architecture",
+      "accessedAt": "2026-10-28T22:45:46.833067Z",
+      "evidenceFile": "content/research/barcelona-palace-history.json"
+    },
+    {
+      "id": "barcelona-picasso-collection",
+      "url": "https://museupicassobcn.cat/en/picasso-collection",
+      "title": "Museu Picasso — the collection",
+      "accessedAt": "2026-10-28T23:01:57.093404Z",
+      "evidenceFile": "content/research/barcelona-picasso-collection.json"
+    },
+    {
+      "id": "barcelona-mnac-visit",
+      "url": "https://www.museunacional.cat/en/reasons-coming-museum-0",
+      "title": "Museu Nacional d’Art de Catalunya — reasons to visit",
+      "accessedAt": "2026-10-28T23:01:59.805610Z",
+      "evidenceFile": "content/research/barcelona-mnac-visit.json"
+    },
+    {
+      "id": "barcelona-cityparks",
+      "url": "https://www.barcelona.cat/en/what-to-do-in-bcn/parks-and-gardens",
+      "title": "Barcelona City Council — parks and gardens",
+      "accessedAt": "2026-10-28T22:45:46.870018Z",
+      "evidenceFile": "content/research/barcelona-cityparks.json"
+    },
+    {
+      "id": "barcelona-seaside",
+      "url": "https://www.barcelona.cat/en/what-to-do-in-bcn/bathing-and-beaches",
+      "title": "Barcelona City Council — bathing and beaches",
+      "accessedAt": "2026-10-28T22:45:04.831086Z",
+      "evidenceFile": "content/research/barcelona-seaside.json"
+    }
+  ],
+  "relatedIds": [
+    "paris",
+    "rome",
+    "london"
+  ]
+}

@@ -1,4 +1,6 @@
 import { loadEnv } from 'vite';
+import { verifyImageFiles } from './scripts/lib/images.mjs';
+import { readJson } from './scripts/lib/content.mjs';
 import { validateEditorial } from './scripts/lib/content.mjs';
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
@@ -13,13 +15,19 @@ export default defineConfig({
     {
       name: 'editorial-gate',
       hooks: {
-        'astro:build:start': () => {
+        'astro:build:start': async () => {
           const result = validateEditorial({
             launch:
               (process.env.SITE_MODE ??
                 loadEnv('production', process.cwd(), '').SITE_MODE) ===
               'production',
           });
+          result.errors.push(
+            ...(await verifyImageFiles(
+              process.cwd(),
+              readJson('content/images/manifest.json'),
+            )),
+          );
           if (result.errors.length) throw new Error(result.errors.join('\n'));
         },
       },

@@ -1,0 +1,37 @@
+---
+import { photos } from '../lib/content';
+import type { Locale } from '../i18n';
+const { lang } = Astro.props as { lang: Locale };
+---
+
+<div class="photo-license-list">
+  {photos.map((photo) => (
+    <section id={photo.id}>
+      <h2>{photo.alt[lang]}</h2>
+      <img
+        src={photo.src}
+        width={photo.width}
+        height={photo.height}
+        alt={photo.alt[lang]}
+        loading="lazy"
+      />
+      <p>
+        {photo.credit} ·{' '}
+        <a href={photo.sourceUrl} rel="noopener noreferrer">
+          {lang === 'es'
+            ? 'Archivo original y atribución'
+            : 'Original file and attribution'}
+        </a>{' '}
+        ·{' '}
+        <a href={photo.licenseUrl} rel="license noopener noreferrer">
+          {photo.license}
+        </a>
+      </p>
+      <p>
+        {lang === 'es'
+          ? 'Adaptación: redimensionado y compresión para la web; la composición puede recortarse en las tarjetas. La licencia indicada corresponde a esta fotografía, no al conjunto del sitio.'
+          : 'Adaptation: resized and compressed for the web; the composition may be cropped in cards. The indicated licence applies to this photograph, not the entire website.'}
+      </p>
+    </section>
+  ))}
+</div>

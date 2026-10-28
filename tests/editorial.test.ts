@@ -154,6 +154,29 @@ describe('publication gate', () => {
     const s = setup();
     expect(validateEditorial(s).errors).toEqual([]);
   });
+  it('accepts the reviewed JSON regardless of property insertion order', () => {
+    const s = setup();
+    s.articles[0].data = Object.fromEntries(
+      Object.entries(s.articles[0].data).reverse(),
+    ) as (typeof s.articles)[0]['data'];
+    s.approve();
+    expect(validateEditorial(s).errors).toEqual([]);
+  });
+  it('rejects a translation pointing to a different destination', () => {
+    const s = setup();
+    s.articles[1].data.destinationId = 'other-city';
+    s.approve();
+    expect(validateEditorial(s).errors.join(' ')).toContain(
+      'translation destination/intent mismatch',
+    );
+  });
+  it('rejects missing image dimensions', () => {
+    const s = setup();
+    delete (s.photos[0] as any).width;
+    expect(validateEditorial(s).errors.join(' ')).toContain(
+      'incomplete photo rights',
+    );
+  });
   it('blocks duplicate URLs and IDs', () => {
     const s = setup();
     s.articles.push(s.articles[0]);

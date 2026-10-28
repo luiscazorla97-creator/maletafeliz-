@@ -4,7 +4,7 @@
 
 Esta orden inicia trabajo real de Codex, no un generador por plantilla. El flujo es el mismo para las primeras veinte guías y para futuras tandas:
 
-1. Leer `editorial/plan.json`, `editorial/site.json`, informes y lotes existentes. Ejecutar `npm run editorial:report`. Comprobar fecha real. Antes de ampliar, terminar la selección inicial de veinte destinos.
+1. Leer `editorial/plan.json`, `editorial/site.json`, informes y lotes existentes. Ejecutar `npm run editorial:report`. Comprobar fecha real. Antes de ampliar, terminar la selección inicial de veinte destinos. Cuando ya esté completa, investigar necesidades distintas y añadir temas al plan antes de reservar el siguiente lote; mantener el equilibrio geográfico y no inventar cifras de búsquedas.
 2. Reservar hasta cinco temas: `npm run editorial:batch -- 5`. La reserva diaria usa la fecha de America/New_York y creación exclusiva del archivo; ejecuciones repetidas reutilizan el lote. El comando no redacta, no publica y no consume APIs. Reducir a 1–4 si el tiempo o la cuota lo aconsejan.
 3. Investigar fuentes oficiales accesibles. Las URLs de `researchCandidates` son candidatas, NO fuentes consultadas. Si la red bloquea una web, registrar el bloqueo y no simular la consulta. Mantener la investigación compartida entre ambos idiomas.
 4. Capturar fuentes con `npm run research:capture -- fuente-id https://sitio-oficial/ruta`. El programa conserva fecha, URL final, estado HTTP y huella del documento. `facts` empieza vacío: leer el documento e incorporar hechos concretos con respaldo y ubicación/extracto. La descarga no certifica exactitud. Una fuente existente no se sobrescribe sin revisar y preservar su historial.
@@ -26,7 +26,7 @@ Las fuentes se revisan al menos cada 180 días; datos temporales necesitan revis
 
 Editar el JSON del artículo en GitHub o localmente, conservar el ID/slug cuando proceda y volver a investigar solo los datos afectados. Invalidar revisión al modificar contenido; actualizar ambas versiones cuando cambien hechos. Usar historial Git y PRs para revisión y recuperación. Si una URL cambia, añadir una redirección específica en `public/_redirects` y comprobar ausencia de bucles antes de publicar.
 
-`editorial/activity.jsonl` conserva incidencias. Los informes muestran pendientes separados de publicados. La revisión inicial no contiene ninguna guía terminada ni fotografía aprobada.
+`editorial/activity.jsonl` conserva incidencias. Los informes muestran pendientes separados de seleccionados para compilación. La selección inicial contiene veinte originales, cuarenta versiones y cuarenta fotografías; el estado local no acredita una publicación en el dominio. Consultar `docs/STATUS.md` para la última verificación pública.
 
 ## Programación solicitada: 07:00 America/New_York
 

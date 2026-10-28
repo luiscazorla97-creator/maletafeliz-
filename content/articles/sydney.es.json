@@ -1,0 +1,221 @@
+{
+  "id": "sydney",
+  "destinationId": "sydney",
+  "locale": "es",
+  "slug": "10-lugares-imprescindibles-de-sidney",
+  "title": "10 lugares imprescindibles de Sídney",
+  "description": "Organiza tu primera visita a Sídney con diez lugares, recorridos por el puerto, museos y playas, consejos de transporte y fuentes oficiales para planificar.",
+  "keyword": "qué ver en Sídney",
+  "relatedQueries": [
+    "Sídney primera visita",
+    "lugares del puerto de Sídney",
+    "Sídney sin coche"
+  ],
+  "intent": "first-visit-highlights",
+  "status": "published",
+  "coverImageId": "sydney-cover",
+  "intro": [
+    "La mejor manera de entender Sídney no es saltar de una fotografía famosa a otra: es dejar que el puerto organice el viaje. Circular Quay conecta varios de sus grandes lugares, pero la ciudad cambia cuando cruzas el agua hacia Manly o te acercas al océano en Bondi. Esta selección reúne diez visitas que permiten combinar arquitectura, arte, barrios y costa sin reducir la experiencia a una sola postal.",
+    "Puedes repartir estas visitas entre tres o cuatro jornadas, según las exposiciones, paseos y actividades que elijas. Agrupa la Ópera, los jardines y The Rocks alrededor de Circular Quay, y reserva más tiempo para Manly o Bondi. Antes de comprar entradas o elegir un ferri, comprueba el recorrido y las condiciones que corresponden a esa salida."
+  ],
+  "quickFacts": [
+    {
+      "label": "Punto de partida",
+      "value": "Circular Quay para organizar las visitas del puerto"
+    },
+    {
+      "label": "Ritmo sugerido",
+      "value": "Tres o cuatro jornadas, ajustadas a tus intereses"
+    },
+    {
+      "label": "Transporte",
+      "value": "Combinar recorridos a pie con transporte público y ferris"
+    }
+  ],
+  "sections": [
+    {
+      "id": "opera-house",
+      "kind": "place",
+      "heading": "1. Ópera de Sídney: recorrerla por fuera y vivirla por dentro",
+      "sourceIds": [
+        "sydney-highlights"
+      ],
+      "imageId": "sydney-detail",
+      "paragraphs": [
+        "En Bennelong Point, la Ópera ofrece dos experiencias distintas. Puedes recorrer el exterior para observar cómo cambian sus formas junto al agua, o reservar una visita guiada o función para acercarte a su actividad cultural. No hace falta confundir una entrada a un espectáculo con el simple paseo por el recinto exterior.",
+        "Llega desde Circular Quay y deja espacio para mirar el edificio desde varios ángulos, no solo desde la escalinata. Si te interesa el interior, elige primero el formato y el idioma de la visita disponibles. Una función puede ser el centro de una tarde completa, en lugar de una actividad añadida con prisa entre otras reservas."
+      ]
+    },
+    {
+      "id": "harbour-bridge",
+      "kind": "place",
+      "heading": "2. Harbour Bridge: distinguir el paseo de la escalada",
+      "sourceIds": [
+        "sydney-highlights"
+      ],
+      "paragraphs": [
+        "El puente forma parte del paisaje cotidiano del puerto, pero también permite cambiar el punto de vista sobre la ciudad. La información oficial distingue el cruce peatonal de la experiencia comercial BridgeClimb: son planes diferentes, con requisitos y reservas diferentes. Elige según tu interés por la ingeniería, las vistas o una actividad guiada.",
+        "Combina el acceso del lado sur con The Rocks y Circular Quay para evitar desplazamientos innecesarios. Antes de cruzar, decide dónde terminarás el paseo y cómo regresarás; así el otro extremo no se convierte en una sorpresa logística. Para una escalada, consulta directamente condiciones de participación, meteorología y política de cancelación del operador."
+      ]
+    },
+    {
+      "id": "the-rocks",
+      "kind": "place",
+      "heading": "3. The Rocks: caminar un barrio, no solo buscar una fachada",
+      "sourceIds": [
+        "sydney-highlights",
+        "sydney-tourism"
+      ],
+      "paragraphs": [
+        "The Rocks ofrece calles y pasajes que ayudan a leer la historia de la ciudad junto al puerto. Museos, galerías y recorridos guiados añaden contexto a sus edificios. Una visita a pie permite observar detalles que se pierden cuando el barrio se usa únicamente como camino hacia el puente o la Ópera.",
+        "Empieza con unas pocas calles y elige una institución o un paseo interpretativo en vez de intentar entrar en todos los comercios. Si te interesan los mercados, comprueba su programación antes de organizar el día alrededor de ellos. Puedes continuar hacia Walsh Bay o reservar ese tramo para otra caminata, según el cansancio y el tiempo disponible."
+      ]
+    },
+    {
+      "id": "botanic-garden",
+      "kind": "place",
+      "heading": "4. Royal Botanic Garden: naturaleza al lado del puerto",
+      "sourceIds": [
+        "sydney-highlights"
+      ],
+      "paragraphs": [
+        "El Royal Botanic Garden une colecciones vegetales, caminos y vistas del agua en una ubicación contigua a la Ópera. Es una forma de dar otro ritmo a la visita del centro: en lugar de encadenar edificios, puedes dedicar atención a las plantas y al paisaje. La información oficial también describe propuestas interpretativas relacionadas con la conexión aborigen con el territorio.",
+        "Consulta el mapa del jardín para elegir una entrada y una salida que encajen con tu recorrido. Si quieres continuar hacia Mrs Macquarie’s Chair, incorpora ese desvío de manera consciente, sin tratarlo como una parada inmediata. Lleva lo necesario para estar al aire libre y comprueba las condiciones de las actividades guiadas que te interesen."
+      ]
+    },
+    {
+      "id": "art-gallery",
+      "kind": "place",
+      "heading": "5. Art Gallery of New South Wales: elegir una visita con intención",
+      "sourceIds": [
+        "sydney-highlights"
+      ],
+      "paragraphs": [
+        "La Art Gallery of New South Wales permite incorporar arte australiano e internacional a un itinerario dominado por el paisaje. La guía oficial destaca sus colecciones y la presencia de arte aborigen y de las islas del estrecho de Torres. Es una visita que gana mucho cuando se elige una línea de interés antes de entrar.",
+        "Revisa las exposiciones y los espacios que quieres conocer, incluido el edificio Naala Badu cuando corresponda a tu programa. Distingue la colección de las muestras con condiciones de acceso específicas. No programes un museo completo como una pausa breve: reserva tiempo para leer y mirar, y deja margen si después quieres caminar hacia Woolloomooloo."
+      ]
+    },
+    {
+      "id": "taronga",
+      "kind": "place",
+      "heading": "6. Taronga Zoo: una visita al otro lado del agua",
+      "sourceIds": [
+        "sydney-highlights"
+      ],
+      "paragraphs": [
+        "Taronga Zoo combina una institución dedicada a los animales con una ubicación frente al puerto. El trayecto desde Circular Quay forma parte del plan, pero la visita no termina al desembarcar. Elige con antelación las áreas que deseas conocer y consulta las propuestas educativas para dar sentido al recorrido, especialmente si viajas con niños.",
+        "Comprueba el acceso desde el muelle y las opciones de llegada que ofrece el operador; no supongas que cualquier billete de transporte incluye la entrada. Organiza pausas y un horario de regreso realista. Si quieres añadir un paseo por Bradleys Head, revisa primero el esfuerzo y el tiempo necesarios: no es una obligación para completar la experiencia."
+      ]
+    },
+    {
+      "id": "chinatown",
+      "kind": "place",
+      "heading": "7. Chinatown: conocer la ciudad a través de su comida",
+      "sourceIds": [
+        "sydney-highlights",
+        "sydney-tourism"
+      ],
+      "paragraphs": [
+        "Chinatown cambia el enfoque del viaje hacia comercios, mercados y restaurantes. Las calles Sussex y Dixon figuran entre los ejes señalados por la oficina de turismo. Más que buscar un único local que represente todo el barrio, dedica una comida a comparar opciones y entender la variedad que reúne esta parte de Sídney.",
+        "Mira cartas y precios actuales antes de sentarte, y pregunta por ingredientes si tienes necesidades alimentarias concretas. Las celebraciones y mercados tienen calendarios propios: conviene verificarlos, no asumir que están presentes cualquier día. Puedes combinar el barrio con el Chinese Garden of Friendship si sus condiciones de visita encajan, evitando convertir la comida en otra parada apresurada."
+      ]
+    },
+    {
+      "id": "museum-contemporary",
+      "kind": "place",
+      "heading": "8. Museum of Contemporary Art: una mirada distinta en Circular Quay",
+      "sourceIds": [
+        "sydney-highlights"
+      ],
+      "paragraphs": [
+        "El Museum of Contemporary Art Australia se encuentra en Circular Quay, por lo que resulta fácil incorporarlo a un día de puerto. Su especialidad es el arte contemporáneo, no una repetición de la visita a la Art Gallery of New South Wales. Compara ambas programaciones y elige según tus intereses si solo tienes tiempo para una institución.",
+        "La colección y las exposiciones cambian de enfoque, así que revisa el contenido antes de decidir cuánto tiempo dedicarle. Entra con curiosidad por los artistas y los contextos, más allá de las vistas del edificio. Después puedes continuar por The Rocks sin añadir un largo traslado, una combinación útil para una jornada de ritmo tranquilo."
+      ]
+    },
+    {
+      "id": "manly",
+      "kind": "place",
+      "heading": "9. Manly: cruzar el puerto para cambiar de ambiente",
+      "sourceIds": [
+        "sydney-highlights"
+      ],
+      "paragraphs": [
+        "El ferri desde Circular Quay convierte el desplazamiento a Manly en una parte importante de la visita. Al llegar, The Corso conecta el entorno del muelle con la playa oceánica. Este contraste entre bahía, calle comercial y mar abierto permite dedicarle una salida propia, en lugar de tratar Manly como una fotografía rápida de ida y vuelta.",
+        "Comprueba qué servicio vas a tomar, su terminal y las condiciones del billete. Una vez allí, elige entre quedarte junto a la playa, caminar hacia Shelly Beach o explorar otro recorrido indicado por la información oficial. Para bañarte, atiende siempre la señalización y las condiciones locales; una vista bonita no informa sobre el estado del agua."
+      ]
+    },
+    {
+      "id": "bondi",
+      "kind": "place",
+      "heading": "10. Bondi Beach: reservar tiempo para la costa",
+      "sourceIds": [
+        "sydney-highlights"
+      ],
+      "paragraphs": [
+        "Bondi es una visita distinta de las playas de Manly y merece una decisión propia en el itinerario. La oficina de turismo recomienda el transporte público y destaca las posibilidades de caminar por la costa. Puedes centrarte en el paseo y el ambiente del barrio sin que la visita tenga que incluir surf o una larga caminata.",
+        "Si quieres continuar por el recorrido costero hacia Coogee, revisa el estado del camino y decide dónde regresarás al transporte. No lo añadas automáticamente después de una jornada ya cargada. Para actividades acuáticas, utiliza servicios adecuados a tu experiencia y sigue las indicaciones del lugar. Un día de playa también necesita margen para comer, descansar y volver."
+      ]
+    },
+    {
+      "id": "when-to-visit",
+      "kind": "practical",
+      "heading": "Cuándo visitar Sídney",
+      "sourceIds": [
+        "sydney-weather"
+      ],
+      "paragraphs": [
+        "El otoño, de marzo a mayo, es una buena opción si tu prioridad son los paseos costeros: Tourism Australia destaca su ambiente suave y la menor humedad. La primavera, de septiembre a noviembre, también combina días más cálidos con menos humedad que el verano. Elige entre estas estaciones según las fechas disponibles y las actividades concretas que quieras hacer.",
+        "El verano corresponde a diciembre, enero y febrero; el invierno, a junio, julio y agosto. Para un viaje centrado en playas, revisa las condiciones del agua además del pronóstico. En invierno conviene dar más espacio a museos y a la programación cultural, manteniendo flexibilidad para salir al puerto cuando acompañe el tiempo. Junio suele ser el mes con más lluvia según la información climática de Tourism Australia."
+      ]
+    }
+  ],
+  "itinerary": [
+    "Primera jornada: comienza en Circular Quay, recorre el exterior de la Ópera y selecciona una parte del Royal Botanic Garden. Añade The Rocks si todavía tienes energía. La prioridad es entender el puerto y sus conexiones, no completar todas sus atracciones durante el primer día.",
+    "Segunda jornada: elige entre una visita prolongada a Taronga y una salida a Manly. Si quieres hacer ambas, distribúyelas en días diferentes o reduce otras actividades. Deja que los horarios de transporte y la duración real de la visita definan el regreso.",
+    "Tercera jornada: reserva una franja para la Art Gallery o el MCA y otra para Chinatown. Dedica una jornada adicional, o una parte amplia de ella, a Bondi. Son sugerencias de organización, no una promesa de poder completar diez lugares con cualquier ritmo."
+  ],
+  "faq": [
+    {
+      "question": "¿Hace falta alquilar coche para esta selección?",
+      "answer": "No es un requisito de este itinerario. Sus visitas se pueden organizar combinando paseos y transporte público, con ferris para algunas salidas. Comprueba cada conexión según tu alojamiento y tus necesidades de accesibilidad; estar cerca de una estación o muelle puede importar más que estar cerca de una atracción aislada."
+    },
+    {
+      "question": "¿Puedo visitar la Ópera sin ver un espectáculo?",
+      "answer": "Sí: el recorrido exterior y las visitas guiadas son alternativas diferentes a asistir a una función, según la información oficial. La entrada a espacios interiores depende de la actividad escogida. Revisa el programa y las condiciones del operador antes de asumir qué incluye tu visita."
+    },
+    {
+      "question": "¿Cuándo conviene reservar las actividades?",
+      "answer": "Reserva cuando tengas claras las fechas y las condiciones del producto elegido, especialmente si una función o actividad guiada es una prioridad. Mantén más flexibilidad para paseos exteriores y revisa la previsión meteorológica. No hay una misma fecha de reserva ideal para todos los viajeros y actividades."
+    }
+  ],
+  "conclusion": "Sídney se disfruta mejor cuando el puerto, los museos y las playas tienen espacio propio. Elige algunos lugares imprescindibles para ti, agrupa los cercanos y deja que una salida en ferri o una caminata sean experiencias completas. Esta lista sirve para tomar decisiones, no para obligarte a marcar diez casillas en una visita demasiado breve.",
+  "sources": [
+    {
+      "id": "sydney-highlights",
+      "url": "https://www.sydney.com/articles/top-attractions-in-sydney",
+      "title": "The top attractions in Sydney: iconic sights & experiences | Sydney.com",
+      "accessedAt": "2026-10-28T22:42:44.078665Z",
+      "evidenceFile": "content/research/sydney-highlights.json"
+    },
+    {
+      "id": "sydney-tourism",
+      "url": "https://www.sydney.com/destinations/sydney/sydney-city",
+      "title": "Sydney CBD & surrounds - Accommodation, top things to do, events & more | Sydney.com",
+      "accessedAt": "2026-10-28T22:42:42.750731Z",
+      "evidenceFile": "content/research/sydney-tourism.json"
+    },
+    {
+      "id": "sydney-weather",
+      "url": "https://www.australia.com/en/facts-and-planning/weather-in-australia/sydney-weather.html",
+      "title": "Weather in Sydney – Tourism Australia",
+      "accessedAt": "2026-10-28T23:10:56.604816Z",
+      "evidenceFile": "content/research/sydney-weather.json"
+    }
+  ],
+  "relatedIds": [
+    "cape-town",
+    "marrakech",
+    "queenstown"
+  ],
+  "publishedAt": "2026-10-28T23:13:26.048Z"
+}

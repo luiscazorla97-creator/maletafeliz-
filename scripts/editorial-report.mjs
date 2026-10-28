@@ -6,7 +6,10 @@ console.log(
   JSON.stringify(
     {
       generatedAt: new Date().toISOString(),
-      summary: validateEditorial(),
+      summary: {
+        ...validateEditorial(),
+        note: 'Counts reflect local content states, not a verified public deployment.',
+      },
       automation: site.automation,
       coverage: plan.map((p) => ({
         id: p.id,

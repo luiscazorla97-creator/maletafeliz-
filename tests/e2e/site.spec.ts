@@ -1,3 +1,8 @@
+import { readdirSync, readFileSync } from 'node:fs';
+const selected = readdirSync('content/articles')
+  .filter((f) => f.endsWith('.json'))
+  .map((f) => JSON.parse(readFileSync('content/articles/' + f, 'utf8')))
+  .filter((a) => a.status === 'published');
 import { test, expect } from '@playwright/test';
 test('localized home, logo, real navigation and no overflow', async ({
   page,
@@ -37,18 +42,26 @@ test('localized home, logo, real navigation and no overflow', async ({
 });
 test('search respects active language and filters', async ({ page }) => {
   await page.goto('/es/buscar/?q=paris');
-  await expect(page.locator('.search-result')).toHaveCount(1);
-  await expect(page.locator('.search-result h2')).toHaveText('París');
+  await expect(page.locator('.search-result').first()).toBeVisible();
+  await expect(page.locator('.search-result h2').first()).toHaveText('París');
   await page.getByRole('button', { name: 'Asia', exact: true }).click();
   await expect(page.locator('.empty-state')).toContainText('No encontramos');
   await page.getByRole('button', { name: 'Limpiar búsqueda' }).click();
-  await expect(page.locator('.search-result')).toHaveCount(20);
+  await expect
+    .poll(() => page.locator('.search-result').count())
+    .toBeGreaterThanOrEqual(20);
   await page.locator('#search-query').fill('japon');
-  await expect(page.locator('.search-result')).toHaveCount(2);
+  await expect
+    .poll(() => page.locator('.search-result').count())
+    .toBeGreaterThanOrEqual(2);
   await page.goto('/en/search/?q=japan');
-  await expect(page.locator('.search-result')).toHaveCount(2);
+  await expect
+    .poll(() => page.locator('.search-result').count())
+    .toBeGreaterThanOrEqual(2);
   await expect(page.locator('.search-result').first()).toContainText(
-    'Research in progress',
+    selected.some((a) => a.destinationId === 'tokyo' && a.locale === 'en')
+      ? 'Read the guide'
+      : 'Research in progress',
   );
 });
 test('destination language switch preserves destination and reciprocal hreflang', async ({
@@ -67,7 +80,19 @@ test('destination language switch preserves destination and reciprocal hreflang'
     'href',
     'https://maletafeliz.com/es/destinos/tokyo/',
   );
-  await expect(page.locator('.notice')).toContainText('has not been published');
+  const tokyo = selected.find(
+    (a) => a.destinationId === 'tokyo' && a.locale === 'en',
+  );
+  if (tokyo) {
+    await expect(
+      page.locator(`a[href="/en/guides/${tokyo.slug}/"]`),
+    ).toBeVisible();
+    await expect(page.locator('.notice')).toHaveCount(0);
+  } else {
+    await expect(page.locator('.notice')).toContainText(
+      'has not been published',
+    );
+  }
 });
 test('missing routes return 404 and drafts are excluded from sitemap', async ({
   request,

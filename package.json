@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --ignore-lock --host 0.0.0.0",
     "build": "npm run editorial:validate && ASTRO_TELEMETRY_DISABLED=1 astro build",
-    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host 0.0.0.0",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --ignore-lock --host 0.0.0.0",
     "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
     "test": "vitest run",
     "test:e2e": "playwright test",
@@ -17,9 +17,12 @@
     "editorial:validate": "node scripts/validate-content.mjs",
     "launch:check": "node scripts/validate-content.mjs --launch",
     "build:release": "npm run launch:check && SITE_MODE=production ASTRO_TELEMETRY_DISABLED=1 astro build",
-    "deploy": "npm run build:release && wrangler pages deploy dist --project-name maletafeliz",
+    "deploy": "npm run build:release && NODE_USE_ENV_PROXY=1 node scripts/deploy-cloudflare.mjs",
     "editorial:batch": "node scripts/editorial-batch.mjs",
-    "research:capture": "NODE_USE_ENV_PROXY=1 node scripts/research-source.mjs"
+    "research:capture": "NODE_USE_ENV_PROXY=1 node scripts/research-source.mjs",
+    "images:responsive": "node scripts/responsive-images.mjs",
+    "test:release": "playwright test --config playwright.release.config.ts",
+    "verify:live": "NODE_USE_ENV_PROXY=1 node scripts/verify-live.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^7.1.2",
@@ -27,6 +30,7 @@
     "astro": "^7.4.4",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.1.18",
     "zod": "^4.6.7"
   },

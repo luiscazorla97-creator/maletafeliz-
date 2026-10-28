@@ -1,41 +1,39 @@
 # Estado del proyecto
 
-Actualizado: 28 de octubre de 2026. Especificación vigente: `requirements.md` (dos idiomas, archivos, sin APIs de IA de pago).
+Actualizado: 28 de octubre de 2026. Especificación vigente: `requirements.md` (español e inglés, archivos, sin APIs de IA de pago).
 
-## Implementado localmente
+## Preparado para desplegar
 
-- Astro estático, TypeScript, React para búsqueda, Tailwind/CSS, lockfile y CI.
-- Marca original de maleta naranja sonriente, favicon, portada responsive, navegación, continentes, países, destinos y categorías.
-- Interfaz es/en, rutas localizadas, cambio de idioma conservando destino, canonical y hreflang recíprocos.
-- Buscador local por ciudad, país, categoría/continente con filtros, normalización de acentos y URL compartible.
-- Plantilla de artículo con índice, secciones individuales, resumen, fotografías acreditadas, itinerario, FAQ, fuentes, relacionados y JSON-LD. Pendiente de validación end-to-end con guías reales.
-- Sitemap de contenido publicado, exclusión de borradores, robots de preview, 404, noindex en búsqueda y páginas incompletas.
-- Ocho páginas legales/editoriales por idioma, marcadas para revisión del titular; no inventan identidad o contacto.
-- Registro geográfico de los veinte temas actuales. Estado real: 0 originales completos, 0 versiones publicadas, 0 fotografías aprobadas.
-- Validación que bloquea lanzamiento incompleto, duplicados, traducciones ausentes, fuentes sin evidencia, imágenes sin derechos/atribución/huella, poca profundidad y revisión inválida tras cambios.
-- Flujo manual `PUBLICAR 5 ARTÍCULOS`, reserva idempotente de lotes y reporte de cobertura. No es una automatización activa.
+- Veinte guías originales y cuarenta versiones completas, entre 1.343 y 2.512 palabras por idioma. Se desarrollan individualmente los lugares requeridos; cada guía incluye itinerario, preguntas, fuentes y enlaces relacionados.
+- 164 documentos de fuentes citadas, con fecha, HTTP, huella y hechos conservados. Se rechazaron antiguos dominios turísticos con contenido ajeno; no se usan como fuentes editoriales.
+- Cuarenta fotografías reales con autor, licencia específica, procedencia, dimensiones, ALT bilingüe y hash. Derivados WebP responsive y créditos públicos. Las imágenes de archivo se identifican cuando corresponde.
+- Cuarenta revisiones editoriales identificadas como asistidas por Codex y vinculadas a los archivos finales. No se afirma revisión humana independiente.
+- Astro estático, TypeScript, React para búsqueda, CSS/Tailwind, logo original, navegación móvil, destinos, continentes, países, categorías y páginas de información.
+- Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap de contenido aprobado, robots de producción y respuesta 404. La búsqueda y las páginas vacías no se indexan.
+- Datos del titular facilitados por el usuario: Luis Sebastian Cazorla Caruso, Argentina, luterapps@gmail.com. Textos legales revisados técnica y editorialmente por Codex; no se afirma asesoría legal profesional.
+- Despliegue directo preparado para Cloudflare Pages. Usa el subdominio real asignado por Cloudflare, rama main y dominio maletafeliz.com; conserva MX y se detiene ante registros de otro sitio.
+- Workflow de despliegue opcional, desactivado hasta configurar secretos y habilitarlo. Solo admite main del mismo repositorio, después de verificaciones o por ejecución manual autorizada.
 
-## Verificado
+## Verificado localmente
 
-- Código guardado en GitHub, rama `main`, con push confirmado el 28-10-2026. Esto no equivale a despliegue en Cloudflare.
+- `npm run launch:check`: 20 originales, 40 versiones, sin errores ni pendientes.
+- `npm run check`: sin errores, advertencias ni sugerencias.
+- `npm test`: 24 pruebas superadas, incluidos controles editoriales, búsqueda, idempotencia, archivos de imagen y protección DNS con API simulada.
+- `npm run build` y `npm run build:release`: compilaciones estáticas correctas; 164 páginas en cada compilación, de las cuales 40 son páginas editoriales.
+- `npm run test:e2e`: 10 pruebas de navegación en móvil/escritorio superadas.
+- `npm run test:release`: 84 pruebas superadas sobre el sitio de producción compilado, incluidas las cuarenta guías en ambos tamaños, traducciones, imágenes, metadatos, sitemap y búsqueda.
+- Capturas de portada, guía de Tokio y portada de Cusco inspeccionadas. Sin desbordamiento horizontal en las cuarenta guías.
+- Todas las fotografías y variantes se decodifican y coinciden con dimensiones y hashes registrados.
+- `npm audit --omit=dev`: 0 vulnerabilidades reportadas.
 
-- TypeScript/Astro sin errores.
-- 16 pruebas unitarias: controles editoriales, búsqueda y reserva idempotente de tandas.
-- 10 pruebas Playwright en Chromium: móvil/escritorio, navegación, búsqueda, filtros, idioma, canonical/hreflang de destinos, enlaces de portada, 404 y sitemap vacío de preview.
-- Compilación estática local correcta. Todas sus páginas son de diseño/directorio/legales, no se cuentan como artículos.
-- Inspección visual de capturas móvil/escritorio. Las imágenes de diseño son ilustraciones, no fotografías aprobadas.
-- Dependencias de producción sin vulnerabilidades reportadas por `npm audit --omit=dev` tras actualización de Astro/Zod.
-- Compatibilidad de salida estática con Cloudflare documentada desde la guía oficial.
+Estas verificaciones prueban la compilación local. No acreditan disponibilidad en el dominio público ni sustituyen la revisión factual y de licencias documentada.
 
-## Pendiente y bloqueos
+## Publicación y tareas externas pendientes
 
-1. **Red:** aplicar la lista de dominios ya guardada en el borrador del entorno. HTTP 403 observado para `commons.wikimedia.org` y `www.gotokyo.org`. No se investigaron las veinte guías ni se verificaron fotografías; no existen fuentes fingidas.
-2. **Contenido:** investigar los veinte destinos, redactar 20 guías y localizar al inglés, conseguir fotografías, completar revisiones y verificar las cuarenta URLs. Publicar solo al cumplir el conjunto inicial.
-3. **Titular:** nombre, correo público y residencia en Argentina incorporados según los datos del usuario. Textos legales preparados para revisión antes del lanzamiento.
-4. **Cloudflare:** cuenta/proyecto Pages, conexión autorizada al repositorio y dominio personalizado. Sin credenciales disponibles para ejecutar el despliegue aquí. DNS, TLS, rendimiento real y las URLs públicas no están verificados.
-5. **Automatización:** ninguna tarea de Codex Cloud recurrente configurada o probada. Las herramientas de esta sesión no exponen esa capacidad ni el saldo porcentual de cuota. Horario deseado conservado: 07:00 America/New_York. No se sustituyó por APIs de pago.
-6. **Medición/monetización:** Search Console, GA4, anuncios y afiliados no activados. Primero lanzamiento completo, datos reales y revisión de privacidad/consentimiento.
+1. **Cloudflare:** el entorno no tiene CLOUDFLARE_API_TOKEN ni CLOUDFLARE_ACCOUNT_ID vinculados en la última comprobación. Los campos están declarados en el borrador seguro; el usuario está preparando el token. No se ha ejecutado un despliegue autenticado ni creado el proyecto desde esta sesión.
+2. **Dominio:** los NS son de Cloudflare, pero la comprobación DNS no encontró A, AAAA ni CNAME en el dominio raíz. La verificación HTTPS pública no tuvo éxito. Después de desplegar, ejecutar `npm run verify:live` y confirmar DNS, certificado, guías, sitemap, robots y 404 reales.
+3. **GitHub:** el código base estaba guardado en main; esta entrega completa debe subirse y comprobarse antes de dar por preservados remotamente los nuevos artículos e imágenes.
+4. **Publicación diaria:** ninguna tarea recurrente de Codex Cloud está configurada o probada. No hay herramienta expuesta para programarla ni consultar porcentaje de cuota. Se conserva el objetivo de las 07:00 America/New_York y el flujo manual `PUBLICAR 5 ARTÍCULOS`, sin APIs de pago.
+5. **Medición y monetización:** Search Console, GA4, anuncios y afiliados no están activados. Requieren datos reales y la configuración correspondiente después del lanzamiento.
 
-## Criterio de cierre
-
-Este proyecto NO está lanzado ni editorialmente terminado. Los tests y el build verifican la infraestructura implementada; no prueban la veracidad de artículos inexistentes, permisos de fotografías pendientes, publicación en el dominio ni ejecución diaria con el equipo apagado.
+El estado `published` de los JSON significa selección para compilación. **MaletaFeliz todavía no tiene un lanzamiento público verificado.**

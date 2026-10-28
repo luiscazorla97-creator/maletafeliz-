@@ -1,5 +1,7 @@
 ---
 import site from '../../../editorial/site.json';
+import PhotoCredits from '../../components/PhotoCredits.astro';
+import { photoSrcSet } from '../../lib/content';
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/DestinationCard.astro';
 import Search from '../../components/Search';
@@ -195,10 +197,10 @@ const jsonLd = article
       ],
     }
   : undefined;
-const items = all.map((d) => {
-  const a = forLocale(lang).find((a) => a.destinationId === d.id);
-  return {
-    id: d.id,
+const items = all.flatMap((d) => {
+  const matches = forLocale(lang).filter((a) => a.destinationId === d.id);
+  return (matches.length ? matches : [undefined]).map((a) => ({
+    id: a?.id || d.id,
     title: a?.title || d.titles[lang],
     city: d.city[lang],
     country: d.country[lang],
@@ -206,7 +208,7 @@ const items = all.map((d) => {
     category: `${continents[d.continent][lang]} ${d.category === 'cities' ? t.cities : t.nature}`,
     href: a ? articlePath(a) : destinationUrl(d, lang),
     published: !!a,
-  };
+  }));
 });
 const empty = destination
   ? destinationArticles.length === 0
@@ -223,7 +225,9 @@ const empty = destination
     (destination ? destination.titles[lang] : t.footerText)
   }
   alternates={alternates}
-  noindex={kind === 'search' || kind === 'info' || empty}
+  noindex={
+    kind === 'search' || (kind === 'info' && !site.legalReviewedAt) || empty
+  }
   image={photo?.src}
   jsonLd={jsonLd}
 >
@@ -243,7 +247,8 @@ const empty = destination
             {site.contactEmail}
           </a>
         )}
-        <p class="notice">{t.legalNotice}</p>
+        {!site.legalReviewedAt && <p class="notice">{t.legalNotice}</p>}
+        {id === 'photography' && <PhotoCredits lang={lang} />}
         {info.sections.map(([heading, text]) => (
           <section>
             <h2>{heading}</h2>
@@ -280,6 +285,8 @@ const empty = destination
         {photo ? (
           <img
             src={photo.src}
+            srcset={photoSrcSet(photo)}
+            sizes="(max-width: 800px) 100vw, 50vw"
             alt={photo.alt[lang]}
             width={photo.width}
             height={photo.height}
@@ -295,6 +302,13 @@ const empty = destination
           />
         )}
       </div>
+      {photo && (
+        <p class="photo-credit">
+          <a href={route(lang, 'info', 'photography') + '#' + photo.id}>
+            {photo.credit} · {photo.license}
+          </a>
+        </p>
+      )}
       {destinationArticles.length > 0 ? (
         <div class="section">
           <h2>{t.available}</h2>

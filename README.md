@@ -2,7 +2,7 @@
 
 Revista de viajes estática en **español e inglés**, diseñada para Cloudflare Pages. Código, artículos estructurados, investigación y licencias se versionan en GitHub. Sin base de datos, APIs de IA de pago ni automatización ficticia.
 
-**Estado: implementación local, NO lanzamiento.** La portada es una vista de diseño no indexable. Hay 20 destinos planificados, **0 guías verificadas y 0 fotografías aprobadas**. Las ilustraciones son marcadores de diseño y no representan fotografías documentales. La compilación de producción está bloqueada hasta completar cuarenta versiones editoriales y la revisión legal.
+**Contenido inicial preparado; despliegue público pendiente.** Hay **20 guías originales, 40 versiones completas en español e inglés y 40 fotografías acreditadas**, con fuentes y revisiones vinculadas al contenido final. El control editorial de lanzamiento pasa. Publicar en maletafeliz.com requiere conectar las credenciales seguras de Cloudflare y verificar el dominio después del despliegue.
 
 ## Ejecutar
 
@@ -27,23 +27,25 @@ npm run dev
 - `src/pages`: HTML estático, idiomas, destinos, categorías, buscador, artículos, sitemap, robots y 404.
 - `src/components`: diseño, logo, búsqueda React y plantilla editorial.
 - `src/i18n`: navegación y textos de interfaz es/en.
-- `content/articles`: guías JSON, una por versión. Vacío hasta terminar la investigación.
+- `content/articles`: cuarenta guías JSON, una por versión lingüística.
 - `content/research`: fuentes consultadas y hechos verificados, compartidos por idiomas.
-- `content/images/manifest.json`: derechos y atribuciones por fotografía; actualmente vacío.
+- `content/images/manifest.json`: derechos, atribuciones, dimensiones y hashes de cuarenta fotos y sus variantes responsive.
 - `content/reviews`: aprobaciones vinculadas a la huella del contenido.
 - `editorial/plan.json`: veinte temas iniciales, países, ciudades, continentes, categorías, intención, idiomas y estado.
-- `editorial/site.json`: datos legales pendientes y estado real de automatización.
+- `editorial/site.json`: datos del titular, revisión de textos legales y estado real de automatización.
 - `scripts`: auditoría editorial, informe y reserva idempotente de tandas.
 - `.github/workflows/quality.yml`: comprobaciones de código; no escribe artículos ni utiliza APIs de IA.
+- `.github/workflows/deploy.yml`: despliegue opcional desde main, inactivo hasta configurar los secretos y habilitarlo.
 
 ## Lanzamiento
 
 ```bash
 npm run launch:check
 npm run build:release
+npm run test:release
 ```
 
-El primer comando **debe fallar ahora**: faltan artículos reales, fuentes, fotografías y datos legales. No lo desactivar. Cloudflare debe ejecutar `npm run build:release` y servir `dist`. No se ha creado el proyecto ni configurado DNS ni desplegado el dominio desde esta sesión.
+El control exige la selección inicial completa y debe mantenerse activo. Cloudflare debe ejecutar `npm run build:release` y servir `dist`. Con las credenciales disponibles, `npm run deploy` prepara Pages y el dominio; `npm run verify:live` verifica las URLs públicas. No se ha creado el proyecto ni configurado DNS ni desplegado el dominio desde esta sesión.
 
 La auditoría comprueba las cuarenta versiones, fuentes con evidencia, revisiones al día, fotografías locales con metadatos/licencia/huella, duplicados, profundidad por lugar, fechas y enlaces relacionados. Requiere revisión editorial documentada: un modelo o un test no puede garantizar por sí solo exactitud, originalidad y permisos.
 
@@ -58,4 +60,4 @@ La auditoría comprueba las cuarenta versiones, fuentes con evidencia, revisione
 
 ## Límites externos comprobados
 
-El proxy del entorno devuelve HTTP 403 para Wikimedia y fuentes turísticas; hay dominios añadidos al borrador de configuración, pero el borrador no aplica cambios a la máquina. El propietario debe revisar/guardar y publicar esa configuración. No hay herramientas expuestas para crear tareas recurrentes de Codex en la nube ni consultar el porcentaje de cuota. No se ha activado la publicación a las 07:00 America/New_York; queda documentado un flujo manual sin APIs facturadas aparte.
+La red permite investigar fuentes oficiales y archivos con licencia; la investigación inicial se conserva en el repositorio. Falta vincular `CLOUDFLARE_API_TOKEN` y `CLOUDFLARE_ACCOUNT_ID` al entorno. Los requisitos están guardados en el borrador; guardar ese borrador no activa valores secretos ni publica la web. No hay herramientas expuestas para crear tareas recurrentes de Codex en la nube ni consultar el porcentaje de cuota. La publicación diaria a las 07:00 America/New_York no está activa; queda documentado el flujo manual sin APIs facturadas aparte.

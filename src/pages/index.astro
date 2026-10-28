@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  lang="es"
+  title="MaletaFeliz · Español / English"
+  alternates={{ es: '/es/', en: '/en/' }}
+  noindex
+>
+  <section class="shell language-welcome">
+    <img src="/brand/logo.svg" width="100" height="100" alt="" />
+    <h1>
+      Tu próxima aventura empieza aquí.
+      <br />
+      <span lang="en">Your next adventure starts here.</span>
+    </h1>
+    <div>
+      <a class="button button-orange" href="/es/" lang="es">
+        Explorar en español
+      </a>
+      <a class="button button-dark" href="/en/" lang="en">
+        Explore in English
+      </a>
+    </div>
+    <p id="language-suggestion" aria-live="polite"></p>
+  </section>
+</Layout>
+<script>
+  let preferred = navigator.language.toLowerCase().startsWith('en')
+    ? 'en'
+    : 'es';
+  try {
+    const saved = localStorage.getItem('maletafeliz-language');
+    if (saved === 'es' || saved === 'en') preferred = saved;
+  } catch {}
+  const node = document.querySelector('#language-suggestion');
+  if (node)
+    node.textContent =
+      preferred === 'en'
+        ? 'Suggested language: English. You can choose either version.'
+        : 'Idioma sugerido: español. Puedes elegir cualquiera de las dos versiones.';
+</script>

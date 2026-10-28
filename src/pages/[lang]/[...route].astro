@@ -1,0 +1,395 @@
+---
+import site from '../../../editorial/site.json';
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/DestinationCard.astro';
+import Search from '../../components/Search';
+import ArticleView from '../../components/Article.astro';
+import Scenery from '../../components/Scenery.astro';
+import Icon from '../../components/Icon.astro';
+import {
+  locales,
+  dictionary,
+  continents,
+  type Locale,
+  type Continent,
+} from '../../i18n';
+import { destinations, destinationUrl } from '../../data/destinations';
+import { legal, type LegalId } from '../../data/legal';
+import { route } from '../../lib/routes';
+import { absolute, production } from '../../lib/site';
+import {
+  publishedArticles,
+  forLocale,
+  articlePath,
+  translatedArticle,
+  photoFor,
+  type Article,
+} from '../../lib/content';
+export function getStaticPaths() {
+  const paths: any[] = [];
+  for (const lang of locales) {
+    const add = (kind: string, id: string | undefined, props: object) => {
+      const path = route(lang, kind as any, id);
+      paths.push({
+        params: {
+          lang,
+          route: path.split('/').slice(2).filter(Boolean).join('/'),
+        },
+        props: { kind, id, ...props },
+      });
+    };
+    add('search', undefined, {});
+    add('destinations', undefined, {});
+    add('guides', undefined, {});
+    add('explore', undefined, {});
+    for (const [id] of Object.entries(legal)) add('info', id, {});
+    for (const d of destinations)
+      if (
+        !production ||
+        publishedArticles.some(
+          (a) => a.destinationId === d.id && a.locale === lang,
+        )
+      )
+        add('destinations', d.id, {});
+    for (const id of Object.keys(continents)) add('explore', id, {});
+    for (const id of ['cities', 'nature', 'culture', 'beaches'])
+      add('explore', `category-${id}`, {});
+    for (const id of new Set(destinations.map((d) => d.countryId)))
+      if (
+        !production ||
+        destinations.some(
+          (d) =>
+            d.countryId === id &&
+            publishedArticles.some(
+              (a) => a.destinationId === d.id && a.locale === lang,
+            ),
+        )
+      )
+        add('explore', `country-${id}`, {});
+    for (const article of forLocale(lang))
+      add('guides', article.slug, { article });
+  }
+  return paths;
+}
+const lang = Astro.params.lang as Locale;
+const { kind, id, article } = Astro.props as {
+  kind: 'search' | 'destinations' | 'guides' | 'explore' | 'info';
+  id?: string;
+  article?: Article;
+};
+const t = dictionary[lang];
+const all = production
+  ? destinations.filter((d) =>
+      publishedArticles.some(
+        (a) => a.locale === lang && a.destinationId === d.id,
+      ),
+    )
+  : destinations;
+const destination =
+  kind === 'destinations' && id
+    ? destinations.find((d) => d.id === id)
+    : undefined;
+const info = kind === 'info' ? legal[id as LegalId][lang] : undefined;
+const isCountry = kind === 'explore' && id?.startsWith('country-');
+const categoryNames = {
+  cities: t.cities,
+  nature: t.nature,
+  culture: t.culture,
+  beaches: t.beaches,
+};
+const isCategory = kind === 'explore' && id?.startsWith('category-');
+const selection =
+  kind === 'explore' && id
+    ? all.filter((d) =>
+        isCategory
+          ? d.categories.includes(id.replace('category-', ''))
+          : isCountry
+            ? d.countryId === id.replace('country-', '')
+            : d.continent === id,
+      )
+    : all;
+const title =
+  article?.title ||
+  destination?.city[lang] ||
+  info?.title ||
+  (isCategory
+    ? categoryNames[id!.replace('category-', '') as keyof typeof categoryNames]
+    : isCountry
+      ? destinations.find((d) => d.countryId === id!.replace('country-', ''))
+          ?.country[lang]
+      : id && kind === 'explore'
+        ? continents[id as Continent][lang]
+        : undefined) ||
+  (kind === 'search'
+    ? t.searchTitle
+    : kind === 'guides'
+      ? t.guides
+      : kind === 'explore'
+        ? t.continents
+        : t.destinationsTitle);
+const alternates: Partial<Record<Locale, string>> = {};
+for (const locale of locales) {
+  if (article) {
+    const a = translatedArticle(article, locale);
+    if (a) alternates[locale] = articlePath(a);
+  } else alternates[locale] = route(locale, kind, id);
+}
+const destinationArticles = destination
+  ? forLocale(lang).filter((a) => a.destinationId === destination.id)
+  : [];
+const coverArticle = article || destinationArticles[0];
+const photo = coverArticle && photoFor(coverArticle.coverImageId);
+const jsonLd = article
+  ? {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'Article',
+          headline: article.title,
+          description: article.description,
+          inLanguage: lang,
+          image: photo ? [absolute(photo.src)] : undefined,
+          datePublished: article.publishedAt,
+          dateModified: article.updatedAt || article.publishedAt,
+          mainEntityOfPage: absolute(articlePath(article)),
+          author: {
+            '@type': 'Organization',
+            name: 'MaletaFeliz',
+            url: absolute(route(lang, 'info', 'editorial')),
+          },
+          publisher: {
+            '@type': 'Organization',
+            name: 'MaletaFeliz',
+            logo: { '@type': 'ImageObject', url: absolute('/brand/logo.svg') },
+          },
+        },
+        {
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            {
+              '@type': 'ListItem',
+              position: 1,
+              name: t.home,
+              item: absolute(`/${lang}/`),
+            },
+            {
+              '@type': 'ListItem',
+              position: 2,
+              name: destinations.find((d) => d.id === article.destinationId)!
+                .city[lang],
+              item: absolute(
+                destinationUrl(
+                  destinations.find((d) => d.id === article.destinationId)!,
+                  lang,
+                ),
+              ),
+            },
+            {
+              '@type': 'ListItem',
+              position: 3,
+              name: article.title,
+              item: absolute(articlePath(article)),
+            },
+          ],
+        },
+      ],
+    }
+  : undefined;
+const items = all.map((d) => {
+  const a = forLocale(lang).find((a) => a.destinationId === d.id);
+  return {
+    id: d.id,
+    title: a?.title || d.titles[lang],
+    city: d.city[lang],
+    country: d.country[lang],
+    continent: d.continent,
+    category: `${continents[d.continent][lang]} ${d.category === 'cities' ? t.cities : t.nature}`,
+    href: a ? articlePath(a) : destinationUrl(d, lang),
+    published: !!a,
+  };
+});
+const empty = destination
+  ? destinationArticles.length === 0
+  : kind === 'guides'
+    ? forLocale(lang).length === 0
+    : selection.length === 0;
+---
+
+<Layout
+  lang={lang}
+  title={title!}
+  description={
+    article?.description ||
+    (destination ? destination.titles[lang] : t.footerText)
+  }
+  alternates={alternates}
+  noindex={kind === 'search' || kind === 'info' || empty}
+  image={photo?.src}
+  jsonLd={jsonLd}
+>
+  {article ? (
+    <ArticleView article={article} />
+  ) : info ? (
+    <section class="shell">
+      <div class="legal-content prose">
+        <nav class="breadcrumbs">
+          <a href={`/${lang}/`}>{t.home}</a>
+          <span>/</span>
+          <span>{t.magazine}</span>
+        </nav>
+        <h1>{info.title}</h1>
+        {id === 'contact' && site.contactEmail && (
+          <a class="button button-orange" href={`mailto:${site.contactEmail}`}>
+            {site.contactEmail}
+          </a>
+        )}
+        <p class="notice">{t.legalNotice}</p>
+        {info.sections.map(([heading, text]) => (
+          <section>
+            <h2>{heading}</h2>
+            <p>{text}</p>
+          </section>
+        ))}
+      </div>
+    </section>
+  ) : destination ? (
+    <section class="shell">
+      <div class="destination-hero">
+        <div>
+          <nav class="breadcrumbs">
+            <a href={`/${lang}/`}>{t.home}</a>
+            <span>/</span>
+            <a href={route(lang, 'explore', destination.continent)}>
+              {continents[destination.continent][lang]}
+            </a>
+          </nav>
+          <span class="eyebrow orange">{destination.country[lang]}</span>
+          <h1>{destination.city[lang]}</h1>
+          <p>{destination.titles[lang]}</p>
+          <dl class="facts">
+            <div>
+              <dt>{t.continent}</dt>
+              <dd>{continents[destination.continent][lang]}</dd>
+            </div>
+            <div>
+              <dt>{t.country}</dt>
+              <dd>{destination.country[lang]}</dd>
+            </div>
+          </dl>
+        </div>
+        {photo ? (
+          <img
+            src={photo.src}
+            alt={photo.alt[lang]}
+            width={photo.width}
+            height={photo.height}
+          />
+        ) : (
+          <Scenery
+            variant={destination.id}
+            label={
+              lang === 'es'
+                ? 'Ilustración de diseño, no fotografía documental'
+                : 'Design illustration, not a documentary photograph'
+            }
+          />
+        )}
+      </div>
+      {destinationArticles.length > 0 ? (
+        <div class="section">
+          <h2>{t.available}</h2>
+          <div class="recent-list">
+            {destinationArticles.map((a) => (
+              <a href={articlePath(a)}>
+                {a.title}
+                <Icon />
+              </a>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div style="padding-bottom:50px">
+          <div class="notice">
+            <strong>{t.planned}</strong>
+            <p>{t.plannedText}</p>
+          </div>
+          <a class="text-link" href={route(lang, 'info', 'editorial')}>
+            {t.viewPlan}
+            <Icon />
+          </a>
+        </div>
+      )}
+      <div class="section">
+        <h2 style="margin-bottom:25px">{t.related}</h2>
+        <div class="card-grid">
+          {all
+            .filter(
+              (d) =>
+                d.id !== destination.id &&
+                d.continent === destination.continent,
+            )
+            .slice(0, 4)
+            .map((d) => (
+              <Card destination={d} lang={lang} />
+            ))}
+        </div>
+      </div>
+    </section>
+  ) : (
+    <section class="shell">
+      <header class="page-heading">
+        <nav class="breadcrumbs">
+          <a href={`/${lang}/`}>{t.home}</a>
+          <span>/</span>
+          <span>{kind === 'search' ? t.search : t.destinations}</span>
+        </nav>
+        <span class="eyebrow orange">
+          MaletaFeliz ·{' '}
+          {lang === 'es' ? 'Viaja con curiosidad' : 'Follow your curiosity'}
+        </span>
+        <h1>{title}</h1>
+        <p>
+          {kind === 'search'
+            ? t.searchLabel
+            : kind === 'explore' && id === 'antarctica'
+              ? lang === 'es'
+                ? 'La cobertura antártica se planificará como turismo de expedición, con fuentes especializadas y sin inventar ciudades.'
+                : 'Antarctic coverage will focus on expedition travel, with specialist sources and no invented cities.'
+              : t.featuredText}
+        </p>
+      </header>
+      {kind === 'search' ? (
+        <Search lang={lang} items={items} client:load />
+      ) : (
+        <div style="padding-bottom:65px">
+          <div class="filter-tabs">
+            {Object.entries(continents).map(([key, names]) => (
+              <a class="button" href={route(lang, 'explore', key)}>
+                {names[lang]}
+              </a>
+            ))}
+          </div>
+          {!production && (
+            <p class="preview-explanation" style="margin-bottom:30px">
+              {t.previewNote}
+            </p>
+          )}
+          <div class="card-grid">
+            {selection.map((d) => (
+              <Card destination={d} lang={lang} />
+            ))}
+          </div>
+          {!selection.length && (
+            <div class="empty-state">
+              <h2>{t.empty}</h2>
+              <a href={route(lang, 'destinations')} class="text-link">
+                {t.back}
+                <Icon />
+              </a>
+            </div>
+          )}
+        </div>
+      )}
+    </section>
+  )}
+</Layout>

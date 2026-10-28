@@ -1,0 +1,80 @@
+---
+interface Props {
+  variant?: string;
+  label?: string;
+  class?: string;
+}
+const { variant = 'tokyo', label = '', class: className = '' } = Astro.props;
+const urban = !['bali', 'hawaii', 'queenstown', 'cape-town', 'nature'].includes(
+  variant,
+);
+const palette: Record<string, string[]> = {
+  tokyo: ['#94aaa2', '#526a65', '#233e39'],
+  paris: ['#e3ba93', '#a57b60', '#634c43'],
+  bali: ['#acd0c0', '#518c7d', '#22594e'],
+  miami: ['#c5ded9', '#69a59d', '#306771'],
+  queenstown: ['#c5d9e0', '#779ba8', '#395e6b'],
+};
+const p = palette[variant] || palette[urban ? 'paris' : 'bali'];
+---
+
+<div
+  class:list={['scenery', className]}
+  style={`--sky:${p[0]};--middle:${p[1]};--foreground:${p[2]}`}
+>
+  <svg
+    viewBox="0 0 800 600"
+    preserveAspectRatio="xMidYMid slice"
+    aria-hidden="true"
+  >
+    <rect width="800" height="600" fill="var(--sky)" />
+    <circle cx="590" cy="145" r="62" fill="#fff5d9" opacity=".65" />
+    <path
+      d="M0 350Q130 240 270 345T520 270T800 250V600H0Z"
+      fill="var(--middle)"
+      opacity=".5"
+    />
+    {urban ? (
+      <g fill="var(--foreground)">
+        <path
+          d="M0 430h60V310h70v80h60V240h50v190h70V180h40v250h75V300h95v130h40V260h70v170h170v170H0Z"
+          opacity=".55"
+        />
+        <path d="M0 510h110V390h80v120h55V350h90v160h60V400h100v110h60V340h85v170h160v90H0Z" />
+        <path
+          d="M305 180v-70m-25 100 45-40 45 40m-55 15h20"
+          fill="none"
+          stroke="var(--foreground)"
+          stroke-width="8"
+        />
+      </g>
+    ) : (
+      <>
+        <path
+          d="m0 490 180-280 170 220L550 80l250 400v120H0Z"
+          fill="var(--middle)"
+        />
+        <path
+          d="m440 245 110-165 98 146-83-42-37 54-25-22-63 29"
+          fill="#eaf0e5"
+          opacity=".7"
+        />
+        <path
+          d="M0 510q250-140 450 10t350-55v135H0Z"
+          fill="var(--foreground)"
+        />
+        <path
+          d="M360 600q140-70 120-120"
+          fill="none"
+          stroke="var(--sky)"
+          stroke-width="40"
+          opacity=".5"
+        />
+      </>
+    )}
+    <g fill="none" stroke="#fff" stroke-opacity=".09">
+      <path d="M-50 80q400-150 900 40M-50 110q400-150 900 40M-50 140q400-150 900 40M-50 170q400-150 900 40" />
+    </g>
+  </svg>
+  {label && <span class="image-note">{label}</span>}
+</div>

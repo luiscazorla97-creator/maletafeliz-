@@ -1,0 +1,46 @@
+---
+import { dictionary, type Locale } from '../i18n';
+import { destinationUrl, type Destination } from '../data/destinations';
+import { publishedArticles, photoFor } from '../lib/content';
+import Scenery from './Scenery.astro';
+import Icon from './Icon.astro';
+interface Props {
+  destination: Destination;
+  lang: Locale;
+  large?: boolean;
+}
+const { destination: d, lang, large = false } = Astro.props;
+const t = dictionary[lang];
+const article = publishedArticles.find(
+  (a) => a.destinationId === d.id && a.locale === lang,
+);
+const image = article && photoFor(article.coverImageId);
+---
+
+<a class:list={['destination-card', { large }]} href={destinationUrl(d, lang)}>
+  <div class="card-image">
+    {image ? (
+      <img
+        src={image.src}
+        alt={image.alt[lang]}
+        width={image.width}
+        height={image.height}
+        loading="lazy"
+      />
+    ) : (
+      <Scenery variant={d.id} />
+    )}
+    <span class="country-tag">
+      <Icon name="pin" size={12} />
+      {d.country[lang]}
+    </span>
+    <span class="card-arrow">
+      <Icon />
+    </span>
+  </div>
+  <div class="card-body">
+    <span class="eyebrow">{article ? t.guide : t.preparing}</span>
+    <h3>{d.city[lang]}</h3>
+    <p>{d.titles[lang]}</p>
+  </div>
+</a>

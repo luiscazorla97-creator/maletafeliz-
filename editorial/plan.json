@@ -1,0 +1,762 @@
+[
+  {
+    "id": "miami",
+    "city": {
+      "es": "Miami",
+      "en": "Miami"
+    },
+    "countryId": "us",
+    "country": {
+      "es": "Estados Unidos",
+      "en": "United States"
+    },
+    "continent": "america",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares imprescindibles que visitar en Miami",
+      "en": "10 essential places to visit in Miami"
+    },
+    "slugs": {
+      "es": "10-lugares-imprescindibles-que-visitar-en-miami",
+      "en": "10-essential-places-to-visit-in-miami"
+    },
+    "researchCandidates": [
+      "https://www.miamiandbeaches.com/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "beaches"
+    ]
+  },
+  {
+    "id": "new-york",
+    "city": {
+      "es": "Nueva York",
+      "en": "New York"
+    },
+    "countryId": "us",
+    "country": {
+      "es": "Estados Unidos",
+      "en": "United States"
+    },
+    "continent": "america",
+    "category": "cities",
+    "placeCount": 15,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "15 lugares turísticos de Nueva York que no te podés perder",
+      "en": "15 places to visit on your first trip to New York"
+    },
+    "slugs": {
+      "es": "15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder",
+      "en": "15-places-to-visit-on-your-first-trip-to-new-york"
+    },
+    "researchCandidates": [
+      "https://www.nyctourism.com/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "hawaii",
+    "city": {
+      "es": "Hawái",
+      "en": "Hawaii"
+    },
+    "countryId": "us",
+    "country": {
+      "es": "Estados Unidos",
+      "en": "United States"
+    },
+    "continent": "america",
+    "category": "nature",
+    "placeCount": 5,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "5 lugares increíbles de Hawái que tenés que conocer",
+      "en": "5 remarkable places to discover in Hawaii"
+    },
+    "slugs": {
+      "es": "5-lugares-increibles-de-hawai-que-tenes-que-conocer",
+      "en": "5-remarkable-places-to-discover-in-hawaii"
+    },
+    "researchCandidates": [
+      "https://www.gohawaii.com/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "nature",
+      "beaches"
+    ]
+  },
+  {
+    "id": "mexico-city",
+    "city": {
+      "es": "Ciudad de México",
+      "en": "Mexico City"
+    },
+    "countryId": "mx",
+    "country": {
+      "es": "México",
+      "en": "Mexico"
+    },
+    "continent": "america",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares imprescindibles de Ciudad de México",
+      "en": "10 essential places to visit in Mexico City"
+    },
+    "slugs": {
+      "es": "10-lugares-imprescindibles-de-ciudad-de-mexico",
+      "en": "10-essential-places-to-visit-in-mexico-city"
+    },
+    "researchCandidates": [
+      "https://mexicocity.cdmx.gob.mx/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "rio",
+    "city": {
+      "es": "Río de Janeiro",
+      "en": "Rio de Janeiro"
+    },
+    "countryId": "br",
+    "country": {
+      "es": "Brasil",
+      "en": "Brazil"
+    },
+    "continent": "america",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares turísticos de Río de Janeiro",
+      "en": "10 places to explore in Rio de Janeiro"
+    },
+    "slugs": {
+      "es": "10-lugares-turisticos-de-rio-de-janeiro",
+      "en": "10-places-to-explore-in-rio-de-janeiro"
+    },
+    "researchCandidates": [
+      "https://riotur.rio/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "beaches"
+    ]
+  },
+  {
+    "id": "buenos-aires",
+    "city": {
+      "es": "Buenos Aires",
+      "en": "Buenos Aires"
+    },
+    "countryId": "ar",
+    "country": {
+      "es": "Argentina",
+      "en": "Argentina"
+    },
+    "continent": "america",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares que conocer en Buenos Aires",
+      "en": "10 places to discover in Buenos Aires"
+    },
+    "slugs": {
+      "es": "10-lugares-que-conocer-en-buenos-aires",
+      "en": "10-places-to-discover-in-buenos-aires"
+    },
+    "researchCandidates": [
+      "https://turismo.buenosaires.gob.ar/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "cusco",
+    "city": {
+      "es": "Cusco",
+      "en": "Cusco"
+    },
+    "countryId": "pe",
+    "country": {
+      "es": "Perú",
+      "en": "Peru"
+    },
+    "continent": "america",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares increíbles de Cusco y sus alrededores",
+      "en": "10 places to discover in and around Cusco"
+    },
+    "slugs": {
+      "es": "10-lugares-increibles-de-cusco-y-sus-alrededores",
+      "en": "10-places-to-discover-in-and-around-cusco"
+    },
+    "researchCandidates": [
+      "https://www.peru.travel/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "paris",
+    "city": {
+      "es": "París",
+      "en": "Paris"
+    },
+    "countryId": "fr",
+    "country": {
+      "es": "Francia",
+      "en": "France"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "placeCount": 15,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "15 lugares turísticos imprescindibles de París",
+      "en": "15 essential places to visit in Paris"
+    },
+    "slugs": {
+      "es": "15-lugares-turisticos-imprescindibles-de-paris",
+      "en": "15-essential-places-to-visit-in-paris"
+    },
+    "researchCandidates": [
+      "https://parisjetaime.com/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "rome",
+    "city": {
+      "es": "Roma",
+      "en": "Rome"
+    },
+    "countryId": "it",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares que visitar en Roma",
+      "en": "10 places to visit in Rome"
+    },
+    "slugs": {
+      "es": "10-lugares-que-visitar-en-roma",
+      "en": "10-places-to-visit-in-rome"
+    },
+    "researchCandidates": [
+      "https://www.turismoroma.it/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "london",
+    "city": {
+      "es": "Londres",
+      "en": "London"
+    },
+    "countryId": "gb",
+    "country": {
+      "es": "Reino Unido",
+      "en": "United Kingdom"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "placeCount": 15,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "15 lugares imprescindibles de Londres",
+      "en": "15 essential places to visit in London"
+    },
+    "slugs": {
+      "es": "15-lugares-imprescindibles-de-londres",
+      "en": "15-essential-places-to-visit-in-london"
+    },
+    "researchCandidates": [
+      "https://www.visitlondon.com/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "barcelona",
+    "city": {
+      "es": "Barcelona",
+      "en": "Barcelona"
+    },
+    "countryId": "es",
+    "country": {
+      "es": "España",
+      "en": "Spain"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares turísticos de Barcelona",
+      "en": "10 places to discover in Barcelona"
+    },
+    "slugs": {
+      "es": "10-lugares-turisticos-de-barcelona",
+      "en": "10-places-to-discover-in-barcelona"
+    },
+    "researchCandidates": [
+      "https://www.barcelonaturisme.com/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "lisbon",
+    "city": {
+      "es": "Lisboa",
+      "en": "Lisbon"
+    },
+    "countryId": "pt",
+    "country": {
+      "es": "Portugal",
+      "en": "Portugal"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares que conocer en Lisboa",
+      "en": "10 places to explore in Lisbon"
+    },
+    "slugs": {
+      "es": "10-lugares-que-conocer-en-lisboa",
+      "en": "10-places-to-explore-in-lisbon"
+    },
+    "researchCandidates": [
+      "https://www.visitlisboa.com/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "tokyo",
+    "city": {
+      "es": "Tokio",
+      "en": "Tokyo"
+    },
+    "countryId": "jp",
+    "country": {
+      "es": "Japón",
+      "en": "Japan"
+    },
+    "continent": "asia",
+    "category": "cities",
+    "placeCount": 15,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "15 lugares imprescindibles de Tokio",
+      "en": "15 essential places to visit in Tokyo"
+    },
+    "slugs": {
+      "es": "15-lugares-imprescindibles-de-tokio",
+      "en": "15-essential-places-to-visit-in-tokyo"
+    },
+    "researchCandidates": [
+      "https://www.gotokyo.org/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "kyoto",
+    "city": {
+      "es": "Kioto",
+      "en": "Kyoto"
+    },
+    "countryId": "jp",
+    "country": {
+      "es": "Japón",
+      "en": "Japan"
+    },
+    "continent": "asia",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares turísticos que conocer en Kioto",
+      "en": "10 places to discover in Kyoto"
+    },
+    "slugs": {
+      "es": "10-lugares-turisticos-que-conocer-en-kioto",
+      "en": "10-places-to-discover-in-kyoto"
+    },
+    "researchCandidates": [
+      "https://kyoto.travel/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "bangkok",
+    "city": {
+      "es": "Bangkok",
+      "en": "Bangkok"
+    },
+    "countryId": "th",
+    "country": {
+      "es": "Tailandia",
+      "en": "Thailand"
+    },
+    "continent": "asia",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares increíbles de Bangkok",
+      "en": "10 places to discover in Bangkok"
+    },
+    "slugs": {
+      "es": "10-lugares-increibles-de-bangkok",
+      "en": "10-places-to-discover-in-bangkok"
+    },
+    "researchCandidates": [
+      "https://www.tourismthailand.org/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "bali",
+    "city": {
+      "es": "Bali",
+      "en": "Bali"
+    },
+    "countryId": "id",
+    "country": {
+      "es": "Indonesia",
+      "en": "Indonesia"
+    },
+    "continent": "asia",
+    "category": "nature",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares que visitar en Bali",
+      "en": "10 places to explore in Bali"
+    },
+    "slugs": {
+      "es": "10-lugares-que-visitar-en-bali",
+      "en": "10-places-to-explore-in-bali"
+    },
+    "researchCandidates": [
+      "https://www.indonesia.travel/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "nature",
+      "beaches"
+    ]
+  },
+  {
+    "id": "cape-town",
+    "city": {
+      "es": "Ciudad del Cabo",
+      "en": "Cape Town"
+    },
+    "countryId": "za",
+    "country": {
+      "es": "Sudáfrica",
+      "en": "South Africa"
+    },
+    "continent": "africa",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares imprescindibles de Ciudad del Cabo",
+      "en": "10 essential places to visit in Cape Town"
+    },
+    "slugs": {
+      "es": "10-lugares-imprescindibles-de-ciudad-del-cabo",
+      "en": "10-essential-places-to-visit-in-cape-town"
+    },
+    "researchCandidates": [
+      "https://www.capetown.travel/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "beaches"
+    ]
+  },
+  {
+    "id": "marrakech",
+    "city": {
+      "es": "Marrakech",
+      "en": "Marrakech"
+    },
+    "countryId": "ma",
+    "country": {
+      "es": "Marruecos",
+      "en": "Morocco"
+    },
+    "continent": "africa",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares turísticos de Marrakech",
+      "en": "10 places to discover in Marrakech"
+    },
+    "slugs": {
+      "es": "10-lugares-turisticos-de-marrakech",
+      "en": "10-places-to-discover-in-marrakech"
+    },
+    "researchCandidates": [
+      "https://visitmarrakech.com/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "sydney",
+    "city": {
+      "es": "Sídney",
+      "en": "Sydney"
+    },
+    "countryId": "au",
+    "country": {
+      "es": "Australia",
+      "en": "Australia"
+    },
+    "continent": "oceania",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares imprescindibles de Sídney",
+      "en": "10 essential places to visit in Sydney"
+    },
+    "slugs": {
+      "es": "10-lugares-imprescindibles-de-sidney",
+      "en": "10-essential-places-to-visit-in-sydney"
+    },
+    "researchCandidates": [
+      "https://www.sydney.com/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "cities",
+      "beaches"
+    ]
+  },
+  {
+    "id": "queenstown",
+    "city": {
+      "es": "Queenstown",
+      "en": "Queenstown"
+    },
+    "countryId": "nz",
+    "country": {
+      "es": "Nueva Zelanda",
+      "en": "New Zealand"
+    },
+    "continent": "oceania",
+    "category": "nature",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "10 lugares increíbles de Queenstown, Nueva Zelanda",
+      "en": "10 places to explore in Queenstown, New Zealand"
+    },
+    "slugs": {
+      "es": "10-lugares-increibles-de-queenstown-nueva-zelanda",
+      "en": "10-places-to-explore-in-queenstown-new-zealand"
+    },
+    "researchCandidates": [
+      "https://www.queenstownnz.co.nz/"
+    ],
+    "researchStatus": "blocked-network",
+    "imageStatus": "pending-license",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ]
+  }
+]

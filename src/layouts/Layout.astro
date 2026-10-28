@@ -1,0 +1,218 @@
+---
+import '../styles/global.css';
+import { dictionary, otherLocale, type Locale } from '../i18n';
+import { route } from '../lib/routes';
+import { absolute, production } from '../lib/site';
+import Icon from '../components/Icon.astro';
+interface Props {
+  lang: Locale;
+  title: string;
+  description?: string;
+  alternates?: Partial<Record<Locale, string>>;
+  noindex?: boolean;
+  image?: string;
+  jsonLd?: unknown;
+}
+const {
+  lang,
+  title,
+  description = dictionary[lang].footerText,
+  alternates = {},
+  noindex = false,
+  image,
+  jsonLd,
+} = Astro.props;
+const t = dictionary[lang];
+const other = otherLocale(lang);
+const canonical = absolute(Astro.url.pathname);
+const alternate = alternates[other];
+const links = [
+  ['destinations', t.destinations],
+  ['guides', t.guides],
+  ['explore', t.inspiration],
+] as const;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{title} | MaletaFeliz</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f47835" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="canonical" href={canonical} />
+    {Object.entries(alternates).map(([language, path]) => (
+      <link rel="alternate" hreflang={language} href={absolute(path!)} />
+    ))}
+    {!production || noindex ? (
+      <meta name="robots" content="noindex,follow" />
+    ) : (
+      <meta name="robots" content="index,follow,max-image-preview:large" />
+    )}
+    <meta property="og:site_name" content="MaletaFeliz" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={lang === 'es' ? 'es_ES' : 'en_US'} />
+    <meta property="og:type" content={jsonLd ? 'article' : 'website'} />
+    {image && <meta property="og:image" content={absolute(image)} />}
+    <meta
+      name="twitter:card"
+      content={image ? 'summary_large_image' : 'summary'}
+    />
+    {jsonLd && (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')}
+      />
+    )}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      {t.skip}
+    </a>
+    {!production && <div class="preview-bar">{t.preview}</div>}
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href={`/${lang}/`} aria-label="MaletaFeliz">
+          <img src="/brand/logo.svg" width="46" height="46" alt="" />
+          <span>
+            Maleta<span>Feliz</span>
+            <span class="brand-dot">.</span>
+          </span>
+        </a>
+        <nav aria-label={t.menu} class="desktop-nav">
+          {links.map(([kind, label]) => (
+            <a
+              href={route(lang, kind)}
+              aria-current={
+                Astro.url.pathname.startsWith(route(lang, kind))
+                  ? 'page'
+                  : undefined
+              }
+            >
+              {label}
+            </a>
+          ))}
+          <a href={route(lang, 'info', 'about')}>{t.about}</a>
+        </nav>
+        <div class="header-actions">
+          <a
+            class="header-search"
+            href={route(lang, 'search')}
+            aria-label={t.search}
+          >
+            <Icon name="search" />
+          </a>
+          {alternate ? (
+            <a
+              class="language"
+              href={alternate}
+              hreflang={other}
+              lang={other}
+              aria-label={t.language}
+            >
+              <Icon name="globe" size={16} />
+              {lang.toUpperCase()}
+              <span aria-hidden="true">⌄</span>
+            </a>
+          ) : (
+            <a class="language" href={`/${other}/`} lang={other}>
+              {other === 'es' ? 'Español' : 'English'}
+            </a>
+          )}
+          <details class="mobile-menu">
+            <summary aria-label={t.menu}>
+              <Icon name="menu" />
+            </summary>
+            <nav>
+              {links.map(([kind, label]) => (
+                <a href={route(lang, kind)}>{label}</a>
+              ))}
+              <a href={route(lang, 'info', 'about')}>{t.about}</a>
+            </nav>
+          </details>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer>
+      <div class="shell footer-grid">
+        <div>
+          <a class="brand brand-footer" href={`/${lang}/`}>
+            <img src="/brand/logo.svg" width="46" height="46" alt="" />
+            <span>
+              Maleta<span>Feliz</span>.
+            </span>
+          </a>
+          <h3>{t.footer}</h3>
+          <p>{t.footerText}</p>
+        </div>
+        <div>
+          <h4>{t.destinations}</h4>
+          {[
+            ['america', lang === 'es' ? 'América' : 'Americas'],
+            ['europe', lang === 'es' ? 'Europa' : 'Europe'],
+            ['asia', 'Asia'],
+            ['africa', lang === 'es' ? 'África' : 'Africa'],
+            ['oceania', lang === 'es' ? 'Oceanía' : 'Oceania'],
+          ].map(([id, label]) => (
+            <a href={route(lang, 'explore', id)}>{label}</a>
+          ))}
+        </div>
+        <div>
+          <h4>{t.magazine}</h4>
+          {[
+            ['about', t.about],
+            [
+              'editorial',
+              lang === 'es' ? 'Política editorial' : 'Editorial policy',
+            ],
+            ['ai', lang === 'es' ? 'Uso de IA' : 'AI disclosure'],
+            ['corrections', lang === 'es' ? 'Correcciones' : 'Corrections'],
+            ['contact', lang === 'es' ? 'Contacto' : 'Contact'],
+          ].map(([id, label]) => (
+            <a href={route(lang, 'info', id)}>{label}</a>
+          ))}
+        </div>
+        <div>
+          <h4>{t.legal}</h4>
+          {[
+            ['privacy', lang === 'es' ? 'Privacidad' : 'Privacy'],
+            ['terms', lang === 'es' ? 'Términos de uso' : 'Terms of use'],
+            ['cookies', 'Cookies'],
+          ].map(([id, label]) => (
+            <a href={route(lang, 'info', id)}>{label}</a>
+          ))}
+          <span class="footer-motto">
+            <Icon name="compass" size={24} />
+            {lang === 'es'
+              ? 'Siempre hay algo por descubrir.'
+              : 'There is always more to discover.'}
+          </span>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <span>
+          © {new Date().getFullYear()} {t.rights}
+        </span>
+        <span>
+          ES / EN <span class="little-dot">●</span>{' '}
+          {lang === 'es' ? 'El mundo nos espera' : 'The world is waiting'}
+        </span>
+      </div>
+    </footer>
+    <script>
+      const lang = document.documentElement.lang;
+      try {
+        if (location.pathname.startsWith('/' + lang + '/'))
+          localStorage.setItem('maletafeliz-language', lang);
+      } catch {}
+    </script>
+  </body>
+</html>

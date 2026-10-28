@@ -1,0 +1,174 @@
+---
+import { dictionary, type Locale } from '../i18n';
+import {
+  photoFor,
+  articleText,
+  publishedArticles,
+  articlePath,
+  type Article,
+} from '../lib/content';
+import { destinations, destinationUrl } from '../data/destinations';
+const { article: a } = Astro.props as { article: Article };
+const lang = a.locale as Locale;
+const t = dictionary[lang];
+const cover = photoFor(a.coverImageId)!;
+const d = destinations.find((d) => d.id === a.destinationId)!;
+const related = publishedArticles.filter(
+  (b) => b.locale === lang && a.relatedIds.includes(b.id),
+);
+const format = (s?: string) =>
+  s
+    ? new Intl.DateTimeFormat(lang, {
+        dateStyle: 'long',
+        timeZone: 'UTC',
+      }).format(new Date(s))
+    : '';
+---
+
+<div class="shell">
+  <header class="article-header">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href={`/${lang}/`}>{t.home}</a>
+      <span>/</span>
+      <a href={destinationUrl(d, lang)}>{d.city[lang]}</a>
+    </nav>
+    <span class="eyebrow orange">
+      {t.guide} · {d.country[lang]}
+    </span>
+    <h1>{a.title}</h1>
+    <p>{a.description}</p>
+    <div class="article-meta">
+      <span>{t.editor}</span>
+      <span>
+        {t.published}:{' '}
+        <time datetime={a.publishedAt}>{format(a.publishedAt)}</time>
+      </span>
+      {a.updatedAt && a.updatedAt !== a.publishedAt && (
+        <span>
+          {t.updated}: <time datetime={a.updatedAt}>{format(a.updatedAt)}</time>
+        </span>
+      )}
+      <span>
+        {Math.ceil(articleText(a).split(/\s+/).length / 220)} {t.minutes}
+      </span>
+    </div>
+  </header>
+  <figure class="article-cover">
+    <img
+      src={cover.src}
+      width={cover.width}
+      height={cover.height}
+      alt={cover.alt[lang]}
+      fetchpriority="high"
+    />
+    <figcaption class="photo-credit">
+      <a href={cover.sourceUrl} rel="noopener noreferrer">
+        {cover.credit}
+      </a>{' '}
+      ·{' '}
+      <a href={cover.licenseUrl} rel="license noopener noreferrer">
+        {cover.license}
+      </a>
+    </figcaption>
+  </figure>
+  <div class="article-grid">
+    <aside class="toc">
+      <h2>{t.contents}</h2>
+      {a.sections.map((s) => (
+        <a href={`#${s.id}`}>{s.heading}</a>
+      ))}
+      {a.itinerary.length > 0 && <a href="#itinerary">{t.itinerary}</a>}
+      <a href="#faq">{t.faq}</a>
+      <a href="#sources">{t.sources}</a>
+    </aside>
+    <article class="prose">
+      {a.intro.map((p) => (
+        <p>{p}</p>
+      ))}
+      <div class="notice">
+        <h2 style="font-size:23px;margin:0 0 15px">{t.quick}</h2>
+        <dl class="facts">
+          {a.quickFacts.map((f) => (
+            <div>
+              <dt>{f.label}</dt>
+              <dd>{f.value}</dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+      {a.sections.map((s) => {
+        const image = s.imageId && photoFor(s.imageId);
+        return (
+          <section aria-labelledby={s.id}>
+            <h2 id={s.id}>{s.heading}</h2>
+            {s.paragraphs.map((p) => (
+              <p>{p}</p>
+            ))}
+            {image && (
+              <figure>
+                <img
+                  src={image.src}
+                  alt={image.alt[lang]}
+                  width={image.width}
+                  height={image.height}
+                  loading="lazy"
+                />
+                <figcaption class="photo-credit">
+                  <a href={image.sourceUrl}>{image.credit}</a> ·{' '}
+                  <a href={image.licenseUrl} rel="license">
+                    {image.license}
+                  </a>
+                </figcaption>
+              </figure>
+            )}
+          </section>
+        );
+      })}
+      {a.itinerary.length > 0 && (
+        <section>
+          <h2 id="itinerary">{t.itinerary}</h2>
+          <ol>
+            {a.itinerary.map((p) => (
+              <li>{p}</li>
+            ))}
+          </ol>
+        </section>
+      )}
+      <section>
+        <h2 id="faq">{t.faq}</h2>
+        {a.faq.map((f) => (
+          <details>
+            <summary>{f.question}</summary>
+            <p>{f.answer}</p>
+          </details>
+        ))}
+      </section>
+      <p>{a.conclusion}</p>
+      <section>
+        <h2 id="sources">{t.sources}</h2>
+        <ul>
+          {a.sources.map((s) => (
+            <li>
+              <a href={s.url} rel="noopener noreferrer">
+                {s.title}
+              </a>{' '}
+              — <time datetime={s.accessedAt}>{format(s.accessedAt)}</time>
+            </li>
+          ))}
+        </ul>
+      </section>
+      {related.length > 0 && (
+        <section>
+          <h2>{t.related}</h2>
+          <ul>
+            {related.map((b) => (
+              <li>
+                <a href={articlePath(b)}>{b.title}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </article>
+  </div>
+</div>

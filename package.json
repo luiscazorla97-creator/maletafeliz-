@@ -1,0 +1,45 @@
+{
+  "name": "maletafeliz",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.19.0"
+  },
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --ignore-lock --host 0.0.0.0",
+    "build": "npm run editorial:validate && ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host 0.0.0.0",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "editorial:report": "node scripts/editorial-report.mjs",
+    "editorial:validate": "node scripts/validate-content.mjs",
+    "launch:check": "node scripts/validate-content.mjs --launch",
+    "build:release": "npm run launch:check && SITE_MODE=production ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "deploy": "npm run build:release && wrangler pages deploy dist --project-name maletafeliz",
+    "editorial:batch": "node scripts/editorial-batch.mjs",
+    "research:capture": "NODE_USE_ENV_PROXY=1 node scripts/research-source.mjs"
+  },
+  "dependencies": {
+    "@astrojs/react": "^7.1.2",
+    "@tailwindcss/vite": "^4.1.18",
+    "astro": "^7.4.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "tailwindcss": "^4.1.18",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.6",
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.2",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4",
+    "wrangler": "^4.61.0"
+  }
+}

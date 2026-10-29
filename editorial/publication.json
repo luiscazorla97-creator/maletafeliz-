@@ -42,5 +42,7 @@
       "buildStatus": "success"
     }
   ],
-  "automaticContentGeneration": false
+  "automaticContentGeneration": false,
+  "automaticCommitDeploymentVerified": false,
+  "deploymentMode": "github-build-triggered-through-cloudflare-api"
 }

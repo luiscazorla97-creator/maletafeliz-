@@ -14,7 +14,7 @@ La web responde por HTTPS en https://maletafeliz.com/es/ y /en/. www.maletafeliz
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap de contenido aprobado, robots de producción y respuesta 404. La búsqueda y las páginas vacías no se indexan.
 - Datos del titular facilitados por el usuario: Luis Sebastian Cazorla Caruso, Argentina, luterapps@gmail.com. Textos legales revisados técnica y editorialmente por Codex; no se afirma asesoría legal profesional.
 - Cloudflare Pages publica desde GitHub/main: `maletafeliz-web` sirve la revista y `maletafeliz-www` sirve la redirección estática. Los CNAME usan los subdominios reales de cada proyecto; los registros de correo se conservan.
-- La integración Git de Cloudflare publica los cambios de main. GitHub Actions ejecuta las comprobaciones de calidad; el flujo manual permite solicitar un nuevo build de ambos proyectos sin subir archivos desde el entorno.
+- La integración Git de Cloudflare compila main al activar el build desde Codex. GitHub Actions ejecuta las comprobaciones de calidad. El disparo automático de un build por cada push aún no quedó verificado; el flujo operativo incluye `npm run deploy`.
 
 ## Verificado localmente
 

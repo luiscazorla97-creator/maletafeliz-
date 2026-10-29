@@ -19,7 +19,7 @@ El token fue validado y el despliegue desde GitHub completó clonación, compila
 
 1. Investigar y revisar el contenido según `EDITORIAL.md`, con las dos versiones y sus aprobaciones.
 2. Ejecutar los controles pertinentes: `npm run check`, `npm test`, `npm run build:release` y `npm run test:release` cuando haya cambios de sitio/contenido que deban comprobarse.
-3. Guardar los archivos y subir los cambios aprobados a main. Cloudflare inicia la compilación automáticamente; el build mantiene el control editorial de lanzamiento. GitHub Actions también comprueba la calidad, sin generar contenido ni utilizar APIs de IA.
+3. Guardar los archivos y subir los cambios aprobados a main. Solicitar la publicación con `npm run deploy`, que inicia los builds desde GitHub mediante la API de Cloudflare. El build mantiene el control editorial de lanzamiento. GitHub Actions también comprueba la calidad, sin generar contenido ni utilizar APIs de IA.
 4. Esperar a que el despliegue de Cloudflare termine correctamente y ejecutar `npm run verify:live`. Comprueba ambos idiomas, las cuarenta guías, sitemap, robots, 404 y las redirecciones www. El resultado queda en `/tmp/maletafeliz-live-verification.json`.
 
 `npm run deploy` sirve para solicitar una nueva compilación de la main remota y comprobar la configuración de dominios. No sube archivos locales sin push. El script valida ambos proyectos, la rama y los CNAME antes de mutar, conserva MX y no sustituye registros incompatibles. Su respuesta indica que el build fue solicitado; la comprobación HTTP posterior acredita la publicación real.
@@ -40,6 +40,6 @@ Search Console, Google Analytics, anuncios y afiliados no están activados. Para
 
 ## Automatización, costos y recuperación
 
-Cloudflare automatiza la publicación de archivos de main. La investigación y redacción diaria con Codex no están programadas: esta sesión no expone un programador cloud ni el porcentaje de cuota. Se mantiene el flujo manual PUBLICAR 5 ARTÍCULOS y el objetivo futuro de las 07:00 America/New_York, sin APIs de IA facturadas aparte.
+La publicación desde GitHub funciona al activar el build desde Codex. Aunque la integración tiene habilitados los despliegues de producción, no se observó un nuevo build automático tras un push durante esta verificación; no depender de ese disparador hasta comprobarlo. La investigación y redacción diaria con Codex no están programadas: esta sesión no expone un programador cloud ni el porcentaje de cuota. Se mantiene el flujo manual PUBLICAR 5 ARTÍCULOS y el objetivo futuro de las 07:00 America/New_York, sin APIs de IA facturadas aparte.
 
 Los dos proyectos son estáticos. No se ha comprado ningún plan ni crédito. Los límites aplicables dependen de la cuenta del titular. Git conserva código, guías, fuentes, imágenes y revisiones. Cloudflare permite recuperar un despliegue anterior desde su panel; verificar contenido y rutas después de cualquier restauración.

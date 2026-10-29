@@ -2,7 +2,7 @@
 
 Revista de viajes estática en **español e inglés**, diseñada para Cloudflare Pages. Código, artículos estructurados, investigación y licencias se versionan en GitHub. Sin base de datos, APIs de IA de pago ni automatización ficticia.
 
-**Publicado y verificado en [maletafeliz.com](https://maletafeliz.com/es/).** Hay **20 guías originales, 40 versiones completas en español e inglés y 40 fotografías acreditadas**, con fuentes y revisiones vinculadas al contenido final. `www.maletafeliz.com` redirige con HTTP 301 al dominio principal, conservando rutas y parámetros. Cloudflare publica automáticamente los cambios de GitHub; la redacción diaria de guías continúa siendo manual.
+**Publicado y verificado en [maletafeliz.com](https://maletafeliz.com/es/).** Hay **20 guías originales, 40 versiones completas en español e inglés y 40 fotografías acreditadas**, con fuentes y revisiones vinculadas al contenido final. `www.maletafeliz.com` redirige con HTTP 301 al dominio principal, conservando rutas y parámetros. Cloudflare compila desde GitHub mediante la activación del despliegue desde Codex; la redacción diaria de guías continúa siendo manual.
 
 ## Ejecutar
 
@@ -36,7 +36,7 @@ npm run dev
 - `scripts`: auditoría editorial, informe y reserva idempotente de tandas.
 - `.github/workflows/quality.yml`: comprobaciones de código; no escribe artículos ni utiliza APIs de IA.
 - `redirect-www`: redirección estática del host www, desplegada en un proyecto Pages separado.
-- Cloudflare Pages está conectado directamente con la rama main; GitHub Actions verifica la calidad.
+- Cloudflare Pages está conectado con la rama main; GitHub Actions verifica la calidad.
 
 ## Lanzamiento
 
@@ -46,7 +46,7 @@ npm run build:release
 npm run test:release
 ```
 
-El control exige la selección inicial completa y debe mantenerse activo. Cloudflare ejecuta `npm run build:release` y sirve `dist` desde el proyecto `maletafeliz-web`. Subir los cambios aprobados a main activa el despliegue. `npm run deploy` permite solicitar otra compilación de la main remota; no sube archivos locales sin commit/push. `npm run verify:live` comprueba las URLs públicas y la redirección www.
+El control exige la selección inicial completa y debe mantenerse activo. Cloudflare ejecuta `npm run build:release` y sirve `dist` desde el proyecto `maletafeliz-web`. Después de subir los cambios aprobados a main, `npm run deploy` solicita la compilación de la main remota; no sube archivos locales sin commit/push. `npm run verify:live` comprueba las URLs públicas y la redirección www.
 
 La auditoría comprueba las cuarenta versiones, fuentes con evidencia, revisiones al día, fotografías locales con metadatos/licencia/huella, duplicados, profundidad por lugar, fechas y enlaces relacionados. Requiere revisión editorial documentada: un modelo o un test no puede garantizar por sí solo exactitud, originalidad y permisos.
 

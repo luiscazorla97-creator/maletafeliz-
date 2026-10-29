@@ -87,7 +87,7 @@ export const legal = {
         ],
         [
           'Datos en esta versión',
-          'La búsqueda se realiza en el navegador. No se envían consultas a una base de datos propia. La preferencia de idioma se guarda localmente y puede eliminarse borrando los datos del sitio. No hay cuentas de usuario, newsletter ni analítica propia activada. Las guías incorporan un banner publicitario de Adsterra.',
+          'La búsqueda se realiza en el navegador. No se envían consultas a una base de datos propia. La preferencia de idioma se guarda localmente y puede eliminarse borrando los datos del sitio. No hay cuentas de usuario ni newsletter. El alojamiento puede incluir medición técnica de Cloudflare. Las guías incorporan un banner publicitario de Adsterra.',
         ],
         [
           'Alojamiento y terceros',
@@ -112,7 +112,7 @@ export const legal = {
         ],
         [
           'Data in this version',
-          'Search runs in your browser. Queries are not sent to our own database. Language preferences are stored locally and can be removed by clearing site data. User accounts, newsletters and first-party analytics are not enabled. Travel guides include an Adsterra advertising banner.',
+          'Search runs in your browser. Queries are not sent to our own database. Language preferences are stored locally and can be removed by clearing site data. User accounts and newsletters are not enabled. Hosting may include Cloudflare technical measurement. Travel guides include an Adsterra advertising banner.',
         ],
         [
           'Hosting and third parties',
@@ -171,7 +171,7 @@ export const legal = {
       sections: [
         [
           'Qué utiliza esta versión',
-          'El sitio guarda la preferencia es/en en el almacenamiento local del navegador. La búsqueda funciona localmente y no hay analítica propia. El banner publicitario carga recursos de terceros que pueden usar cookies u otros identificadores según la configuración del proveedor y del navegador.',
+          'El sitio guarda la preferencia es/en en el almacenamiento local del navegador. La búsqueda funciona localmente. Cloudflare puede incluir medición técnica del uso del sitio. El banner publicitario carga recursos de terceros que pueden usar cookies u otros identificadores según la configuración del proveedor y del navegador.',
         ],
         [
           'Tu control',
@@ -179,7 +179,7 @@ export const legal = {
         ],
         [
           'Publicidad de terceros',
-          'Las guías incluyen un banner Adsterra de 300 × 250, identificado como Publicidad. Se carga automáticamente cuando el navegador aproxima el espacio a la pantalla. Puedes gestionar o bloquear cookies y recursos de terceros desde tu navegador; hacerlo puede impedir que aparezca el anuncio. El contenido editorial sigue disponible.',
+          'Las guías incluyen un banner Adsterra de 300 × 250, identificado como Publicidad. Su código se ejecuta directamente al cargar la guía. Puedes gestionar o bloquear cookies y recursos de terceros desde tu navegador; hacerlo puede impedir que aparezca el anuncio. El contenido editorial sigue disponible.',
         ],
       ],
     },
@@ -188,7 +188,7 @@ export const legal = {
       sections: [
         [
           'What this version uses',
-          'The site stores your es/en language preference in browser local storage. Search works locally and first-party analytics are not enabled. The advertising banner loads third-party resources that may use cookies or other identifiers depending on provider and browser settings.',
+          'The site stores your es/en language preference in browser local storage. Search works locally. Cloudflare may include technical measurement of site usage. The advertising banner loads third-party resources that may use cookies or other identifiers depending on provider and browser settings.',
         ],
         [
           'Your controls',
@@ -196,7 +196,7 @@ export const legal = {
         ],
         [
           'Third-party advertising',
-          'Guides include a 300 × 250 Adsterra banner labelled Advertisement. It loads automatically when the browser brings the slot near the screen. You can manage or block third-party cookies and resources in your browser; this may prevent the advertisement from appearing. Editorial content remains available.',
+          'Guides include a 300 × 250 Adsterra banner labelled Advertisement. Its code runs directly when the guide loads. You can manage or block third-party cookies and resources in your browser; this may prevent the advertisement from appearing. Editorial content remains available.',
         ],
       ],
     },

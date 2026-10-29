@@ -8,16 +8,20 @@ const label = lang === 'es' ? 'Publicidad' : 'Advertisement';
   <aside class="advertisement" aria-label={label} data-nosnippet>
     <span class="advertisement-label">{label}</span>
     <div class="advertisement-viewport">
-      <iframe
-        class="advertisement-frame"
-        src="/ads/banner.html"
-        title={label}
-        width="300"
-        height="250"
-        loading="lazy"
-        sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"
-        referrerpolicy="strict-origin-when-cross-origin"
-      ></iframe>
+      <div class="advertisement-slot">
+        <!-- Keep these parser-inserted scripts together and in order. The provider
+             may use document.write; async/defer or a sandbox wrapper break it. -->
+        <script is:inline>
+          atOptions = {
+            'key': 'c5a78736a50be383ac6b05853c770b4e',
+            'format': 'iframe',
+            'height': 250,
+            'width': 300,
+            'params': {}
+          };
+        </script>
+        <script is:inline src="https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e"></script>
+      </div>
     </div>
   </aside>
 )}
@@ -25,9 +29,10 @@ const label = lang === 'es' ? 'Publicidad' : 'Advertisement';
   .advertisement { margin: 2rem 0; display: grid; justify-items: center; gap: 8px; }
   .advertisement-label { color: #657274; font: 11px/1.4 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
   .advertisement-viewport { width: 300px; height: 250px; overflow: hidden; background: #f5f3ef; }
-  .advertisement-frame { display: block; width: 300px; height: 250px; border: 0; }
+  .advertisement-slot { width: 300px; height: 250px; }
+  .advertisement-slot :global(iframe) { border: 0; }
   @media (max-width: 360px) {
     .advertisement-viewport { width: 264px; height: 220px; }
-    .advertisement-frame { transform: scale(.88); transform-origin: top left; }
+    .advertisement-slot { transform: scale(.88); transform-origin: top left; }
   }
 </style>

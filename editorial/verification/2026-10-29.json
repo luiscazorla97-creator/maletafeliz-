@@ -1,0 +1,470 @@
+{
+  "recordedAt": "2026-10-29T16:37:41.114415+00:00",
+  "deployment": {
+    "checkedAt": "2026-10-29T16:36:53.340Z",
+    "domain": "maletafeliz.com",
+    "domains": [
+      {
+        "name": "maletafeliz.com",
+        "project": "maletafeliz-web",
+        "status": "active"
+      },
+      {
+        "name": "www.maletafeliz.com",
+        "project": "maletafeliz-www",
+        "status": "active"
+      }
+    ],
+    "deployments": [
+      {
+        "project": "maletafeliz-web",
+        "hostname": "maletafeliz.com",
+        "pagesSubdomain": "maletafeliz-web.pages.dev",
+        "deploymentId": "fe6abee6-f7e8-479c-afae-2002f1f47cae",
+        "buildStatus": "success",
+        "buildVerified": true,
+        "stage": "deploy",
+        "commit": "e93d3f05d614dc2f67a475a8b79ddc1048778c67"
+      },
+      {
+        "project": "maletafeliz-www",
+        "hostname": "www.maletafeliz.com",
+        "pagesSubdomain": "maletafeliz-www.pages.dev",
+        "deploymentId": "46ab80c6-a97b-4b44-87d3-57fbf7f15036",
+        "buildStatus": "success",
+        "buildVerified": true,
+        "stage": "deploy",
+        "commit": "e93d3f05d614dc2f67a475a8b79ddc1048778c67"
+      }
+    ],
+    "buildStatus": "success",
+    "buildVerified": true,
+    "url": "https://maletafeliz.com",
+    "httpVerified": true
+  },
+  "siteHttp": {
+    "checkedAt": "2026-10-29T16:37:05.167Z",
+    "origin": "https://maletafeliz.com",
+    "httpVerified": true,
+    "checked": [
+      {
+        "path": "/es/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/"
+      },
+      {
+        "path": "/en/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bali/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bali/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bangkok/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bangkok/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-barcelona/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-barcelona/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-buenos-aires/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-buenos-aires/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-cape-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-cape-town/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-and-around-cusco/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-and-around-cusco/"
+      },
+      {
+        "path": "/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-edinburgh/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-edinburgh/"
+      },
+      {
+        "path": "/en/guides/5-remarkable-places-to-discover-in-hawaii/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-remarkable-places-to-discover-in-hawaii/"
+      },
+      {
+        "path": "/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-hobart/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-hobart/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-kyoto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-kyoto/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-kioto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-kioto/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-lisbon/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-lisbon/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-lisboa/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-lisboa/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-london/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-london/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-londres/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-londres/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-lucerne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-lucerne/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-lucerna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-lucerna/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-marrakech/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-marrakech/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-mexico-city/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-mexico-city/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-nairobi/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-nairobi/"
+      },
+      {
+        "path": "/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-paris/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-imprescindibles-de-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-imprescindibles-de-paris/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-quebec/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-quebec/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-queenstown/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-queenstown/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-rio-de-janeiro/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-rio-de-janeiro/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-rome/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-rome/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-roma/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-roma/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-seoul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-seoul/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-seul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-seul/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-singapore/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-singapore/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-stone-town/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-stone-town/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-sydney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-sydney/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-sidney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-sidney/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-tokyo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-tokyo/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-tokio/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-tokio/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-vancouver/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-vancouver/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-wellington/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-wellington/"
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/sitemap.xml"
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/robots.txt"
+      },
+      {
+        "path": "/maletafeliz-launch-check-nonexistent/",
+        "status": 404,
+        "finalUrl": "https://maletafeliz.com/maletafeliz-launch-check-nonexistent/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/",
+        "status": 301,
+        "location": "https://maletafeliz.com/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/es/?ref=www-check",
+        "status": 301,
+        "location": "https://maletafeliz.com/es/?ref=www-check"
+      },
+      {
+        "path": "https://www.maletafeliz.com/en/",
+        "status": 301,
+        "location": "https://maletafeliz.com/en/"
+      }
+    ],
+    "errors": []
+  },
+  "batchDiscoveryAndPhotos": {
+    "checkedAt": "2026-10-29T16:36:58.483Z",
+    "batchId": "2026-10-29",
+    "httpVerified": true,
+    "checked": [
+      {
+        "path": "/es/",
+        "status": 200
+      },
+      {
+        "path": "/en/",
+        "status": 200
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200
+      },
+      {
+        "path": "/images/edinburgh-1.webp",
+        "status": 200,
+        "hashMatches": true
+      },
+      {
+        "path": "/images/stone-town-1.webp",
+        "status": 200,
+        "hashMatches": true
+      },
+      {
+        "path": "/images/singapore-2.webp",
+        "status": 200,
+        "hashMatches": true
+      },
+      {
+        "path": "/images/wellington-1.webp",
+        "status": 200,
+        "hashMatches": true
+      },
+      {
+        "path": "/images/quebec-1.webp",
+        "status": 200,
+        "hashMatches": true
+      },
+      {
+        "path": "/images/edinburgh-2.webp",
+        "status": 200,
+        "hashMatches": true
+      },
+      {
+        "path": "/images/wellington-2.webp",
+        "status": 200,
+        "hashMatches": true
+      },
+      {
+        "path": "/images/quebec-2.webp",
+        "status": 200,
+        "hashMatches": true
+      },
+      {
+        "path": "/images/stone-town-2.webp",
+        "status": 200,
+        "hashMatches": true
+      },
+      {
+        "path": "/images/singapore-1.webp",
+        "status": 200,
+        "hashMatches": true
+      }
+    ],
+    "errors": []
+  },
+  "githubQualityCheck": {
+    "id": 40913059078,
+    "status": "completed",
+    "conclusion": "success",
+    "commit": "e93d3f05d614dc2f67a475a8b79ddc1048778c67",
+    "url": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/40913059078"
+  }
+}

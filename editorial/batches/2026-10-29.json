@@ -2,7 +2,7 @@
   "id": "2026-10-29",
   "timeZone": "America/New_York",
   "createdAt": "2026-10-29T16:16:24.778Z",
-  "status": "validated-awaiting-deployment",
+  "status": "published-verified",
   "topicIds": [
     "quebec",
     "edinburgh",
@@ -11,7 +11,7 @@
     "wellington"
   ],
   "requestedCount": 5,
-  "publishedCount": 0,
+  "publishedCount": 5,
   "errors": [],
   "localizationsPrepared": 10,
   "photographsPrepared": 10,
@@ -33,5 +33,38 @@
       "Quebec mobile",
       "Wellington desktop"
     ]
+  },
+  "localizationsPublished": 10,
+  "publiclyVerifiedAt": "2026-10-29T16:37:41.114415+00:00",
+  "deploymentCommit": "e93d3f05d614dc2f67a475a8b79ddc1048778c67",
+  "verificationFile": "editorial/verification/2026-10-29.json",
+  "publicUrls": {
+    "quebec": {
+      "es": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-quebec/",
+      "en": "https://maletafeliz.com/en/guides/5-places-to-visit-in-quebec/"
+    },
+    "edinburgh": {
+      "es": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-edinburgh/",
+      "en": "https://maletafeliz.com/en/guides/5-places-to-visit-in-edinburgh/"
+    },
+    "singapore": {
+      "es": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-singapore/",
+      "en": "https://maletafeliz.com/en/guides/5-places-to-visit-in-singapore/"
+    },
+    "stone-town": {
+      "es": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-stone-town/",
+      "en": "https://maletafeliz.com/en/guides/5-places-to-visit-in-stone-town/"
+    },
+    "wellington": {
+      "es": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-wellington/",
+      "en": "https://maletafeliz.com/en/guides/5-places-to-visit-in-wellington/"
+    }
+  },
+  "githubQualityCheck": {
+    "id": 40913059078,
+    "status": "completed",
+    "conclusion": "success",
+    "commit": "e93d3f05d614dc2f67a475a8b79ddc1048778c67",
+    "url": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/40913059078"
   }
 }

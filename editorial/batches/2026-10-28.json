@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-28",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-10-29T00:31:42.780Z",
+  "status": "validated-awaiting-deployment",
+  "topicIds": [
+    "vancouver",
+    "lucerne",
+    "seoul",
+    "nairobi",
+    "hobart"
+  ],
+  "requestedCount": 5,
+  "publishedCount": 0,
+  "errors": [],
+  "languages": [
+    "es",
+    "en"
+  ],
+  "selectionReason": "Five new city guides across five continents; distinct destinations from the initial twenty. No search-volume claims.",
+  "localizationsPrepared": 10,
+  "validatedAt": "2026-10-29T00:40:04.817683+00:00",
+  "validation": {
+    "typeCheck": "passed",
+    "unitTests": 32,
+    "previewBrowserTests": 10,
+    "productionBrowserTests": 104,
+    "staticPages": 192,
+    "editorialErrors": 0,
+    "photographErrors": 0,
+    "screenshotsReviewed": [
+      "Seoul mobile",
+      "Nairobi desktop"
+    ]
+  }
+}

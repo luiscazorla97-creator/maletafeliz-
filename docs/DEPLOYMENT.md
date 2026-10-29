@@ -2,7 +2,7 @@
 
 ## Publicación activa
 
-La revista está publicada en https://maletafeliz.com, con rutas /es/ y /en/. Las cuarenta guías, sitemap, robots y respuesta 404 fueron comprobados por HTTPS. www.maletafeliz.com devuelve HTTP 301 al dominio principal conservando la ruta y los parámetros.
+La revista está publicada en https://maletafeliz.com, con rutas /es/ y /en/. Las guías publicadas, sitemap, robots y respuesta 404 fueron comprobados por HTTPS. www.maletafeliz.com devuelve HTTP 301 al dominio principal conservando la ruta y los parámetros.
 
 Los proyectos Pages usan la integración oficial de GitHub con `luiscazorla97-creator/maletafeliz-`, rama de producción `main`:
 
@@ -20,7 +20,7 @@ El token fue validado y el despliegue desde GitHub completó clonación, compila
 1. Investigar y revisar el contenido según `EDITORIAL.md`, con las dos versiones y sus aprobaciones.
 2. Ejecutar los controles pertinentes: `npm run check`, `npm test`, `npm run build:release` y `npm run test:release` cuando haya cambios de sitio/contenido que deban comprobarse.
 3. Guardar los archivos y subir los cambios aprobados a main. Solicitar la publicación con `npm run deploy`, que inicia los builds desde GitHub mediante la API de Cloudflare. El build mantiene el control editorial de lanzamiento. GitHub Actions también comprueba la calidad, sin generar contenido ni utilizar APIs de IA.
-4. Esperar a que el despliegue de Cloudflare termine correctamente y ejecutar `npm run verify:live`. Comprueba ambos idiomas, las cuarenta guías, sitemap, robots, 404 y las redirecciones www. El resultado queda en `/tmp/maletafeliz-live-verification.json`.
+4. Esperar a que el despliegue de Cloudflare termine correctamente y ejecutar `npm run verify:live`. Comprueba ambos idiomas, todas las guías publicadas, sitemap, robots, 404 y las redirecciones www. El resultado queda en `/tmp/maletafeliz-live-verification.json`.
 
 `npm run deploy` sirve para solicitar una nueva compilación de la main remota y comprobar la configuración de dominios. No sube archivos locales sin push. El script valida ambos proyectos, la rama y los CNAME antes de mutar, conserva MX y no sustituye registros incompatibles. Su respuesta indica que el build fue solicitado; la comprobación HTTP posterior acredita la publicación real.
 

@@ -1,0 +1,33 @@
+{
+  "contentHash": "b2fb7086d68383d6342ece8ef8585438a1558216d52cff3d735a792684c18f09",
+  "reviewer": "Codex editorial review (AI-assisted)",
+  "reviewedAt": "2026-10-29T00:35:56.215Z",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "notes": [
+    "Read nine cited official tourism/operator documents and checked the preserved claims against their captured text. Both language versions cover the same ten places, distinguish city visits from the two mountain excursions, and contain original practical advice rather than fabricated personal experience.",
+    "The Musegg winter closure from the beginning of November to the end of March is explicitly stated in both versions. The Golden Round Trip is a route description, with current service and weather checks required; no unsupported prices, guaranteed operating dates or exact transport schedules are asserted.",
+    "Reviewed Spanish and English for natural language, equivalent facts, unique paragraphs, useful routing and the ten individually developed places. Existing related Paris, Rome and Lisbon articles have both selected language versions.",
+    "Visually inspected lucerne-1.webp (Chapel Bridge and Water Tower) and lucerne-2.webp (Lion Monument); moved the interior image to the Lion section. Re-read the file-specific Commons pages: both photographs by Andrew Shiva / Wikipedia / CC BY-SA 4.0, dated 19 November 2010. Attribution, license link, modification notice and same-license derivatives are required; coordinator is preserving them in the global manifest.",
+    "Published status selects the reviewed files for the production build; it does not establish a verified live deployment."
+  ],
+  "inspectedImages": [
+    {
+      "id": "lucerne-1",
+      "sha256": "380e06aa4fd2ebadf24bbf0ff2c42bcfd7000921650934ec303bb8f8866e96fd"
+    },
+    {
+      "id": "lucerne-2",
+      "sha256": "eba1675b4a08aa06a911cd7a8f125188e29bf4ea6c150bba7b8b7aed26f55611"
+    }
+  ]
+}

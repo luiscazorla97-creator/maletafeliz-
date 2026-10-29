@@ -1,0 +1,290 @@
+{
+  "id": "hobart",
+  "destinationId": "hobart",
+  "intent": "first-visit-highlights",
+  "status": "published",
+  "coverImageId": "hobart-1",
+  "sources": [
+    {
+      "id": "hobart-tourism",
+      "url": "https://www.discovertasmania.com.au/places/hobart-and-south/hobart/",
+      "title": "Hobart — Tourism Tasmania",
+      "accessedAt": "2026-10-29T00:31:24.182Z",
+      "evidenceFile": "content/research/hobart-tourism.json"
+    },
+    {
+      "id": "hobart-mona",
+      "url": "https://mona.net.au/visit",
+      "title": "Visit Mona — Museum of Old and New Art",
+      "accessedAt": "2026-10-29T00:31:24.599Z",
+      "evidenceFile": "content/research/hobart-mona.json"
+    },
+    {
+      "id": "hobart-tmag",
+      "url": "https://www.tmag.tas.gov.au/visitor_information",
+      "title": "Visitor guidelines — Tasmanian Museum and Art Gallery",
+      "accessedAt": "2026-10-29T00:31:29.777Z",
+      "evidenceFile": "content/research/hobart-tmag.json"
+    },
+    {
+      "id": "hobart-tmag-visit",
+      "url": "https://www.tmag.tas.gov.au/visit",
+      "title": "Visit TMAG — Tasmanian Museum and Art Gallery",
+      "accessedAt": "2026-10-29T00:31:51.164Z",
+      "evidenceFile": "content/research/hobart-tmag-visit.json"
+    },
+    {
+      "id": "hobart-wellington",
+      "url": "https://wellingtonpark.org.au/",
+      "title": "Wellington Park — Management Trust",
+      "accessedAt": "2026-10-29T00:31:30.199Z",
+      "evidenceFile": "content/research/hobart-wellington.json"
+    },
+    {
+      "id": "hobart-gardens",
+      "url": "https://gardens.tas.gov.au/",
+      "title": "Botanical Gardens of Tasmania — Official visitor website",
+      "accessedAt": "2026-10-29T00:31:32.758Z",
+      "evidenceFile": "content/research/hobart-gardens.json"
+    },
+    {
+      "id": "hobart-richmond",
+      "url": "https://www.discovertasmania.com.au/places/hobart-and-south/richmond/",
+      "title": "Richmond — Tourism Tasmania",
+      "accessedAt": "2026-10-29T00:31:34.528Z",
+      "evidenceFile": "content/research/hobart-richmond.json"
+    },
+    {
+      "id": "hobart-female-factory",
+      "url": "https://femalefactory.org.au/",
+      "title": "Cascades Female Factory — Historic Site",
+      "accessedAt": "2026-10-29T00:31:36.595Z",
+      "evidenceFile": "content/research/hobart-female-factory.json"
+    },
+    {
+      "id": "hobart-salamanca",
+      "url": "https://www.discovertasmania.com.au/things-to-do/shopping-and-markets/salamancamarket/",
+      "title": "Salamanca Market — Tourism Tasmania",
+      "accessedAt": "2026-10-29T00:31:47.029Z",
+      "evidenceFile": "content/research/hobart-salamanca.json"
+    },
+    {
+      "id": "hobart-battery-point",
+      "url": "https://www.hobartcity.com.au/Things-To-Do/Tracks-and-trails/Walking-tracks/Battery-Point-Sculpture-Trail",
+      "title": "Battery Point Sculpture Trail — Greater Hobart Trails",
+      "accessedAt": "2026-10-29T00:32:53.078Z",
+      "evidenceFile": "content/research/hobart-battery-point.json"
+    },
+    {
+      "id": "hobart-battery-history",
+      "url": "https://www.batterypointwalk.com.au/",
+      "title": "In Bobby’s Footsteps — Battery Point Community Association",
+      "accessedAt": "2026-10-29T00:32:54.636Z",
+      "evidenceFile": "content/research/hobart-battery-history.json"
+    },
+    {
+      "id": "hobart-theatre",
+      "url": "https://www.theatreroyal.com.au/about/history",
+      "title": "History of the Theatre Royal — Theatre Royal Hobart",
+      "accessedAt": "2026-10-29T00:32:26.112Z",
+      "evidenceFile": "content/research/hobart-theatre.json"
+    },
+    {
+      "id": "hobart-theatre-visit",
+      "url": "https://www.theatreroyal.com.au/visit/plan-your-visit",
+      "title": "Plan Your Visit — Theatre Royal Hobart",
+      "accessedAt": "2026-10-29T00:32:27.781Z",
+      "evidenceFile": "content/research/hobart-theatre-visit.json"
+    }
+  ],
+  "relatedIds": [
+    "sydney",
+    "queenstown",
+    "bali"
+  ],
+  "locale": "es",
+  "slug": "10-lugares-que-visitar-en-hobart",
+  "title": "10 lugares que visitar en Hobart y sus alrededores",
+  "description": "Descubrí Hobart con diez visitas al puerto, museos, mercados y montañas, una excursión a Richmond y consejos para organizar cuatro días en Tasmania.",
+  "keyword": "lugares que visitar en Hobart",
+  "relatedQueries": [
+    "qué hacer en Hobart",
+    "Hobart en cuatro días",
+    "Hobart sin auto"
+  ],
+  "intro": [
+    "Hobart se entiende mirando hacia dos lados: el río Derwent organiza el puerto y kunanyi / Mount Wellington marca el horizonte. Entre ambos aparecen mercados, museos y barrios para caminar. La capital de Tasmania sirve como base para salir a explorar, pero también merece varios días propios, sin convertir cada jornada en una carrera de excursiones por la isla.",
+    "Esta selección reúne diez lugares de Hobart y una salida cercana a Richmond. Pensá en cuatro días como propuesta de ritmo, no como una duración obligatoria: la fecha del mercado, la programación cultural y el estado de la montaña pueden cambiar el orden. Las distancias regionales y las entradas se organizan por separado; un paseo por el centro no requiere el mismo equipo que una salida a la cumbre."
+  ],
+  "quickFacts": [
+    {
+      "label": "Ritmo sugerido",
+      "value": "Cuatro días, ampliables según museos y caminatas"
+    },
+    {
+      "label": "Base práctica",
+      "value": "Centro y frente portuario para las visitas urbanas"
+    },
+    {
+      "label": "Día a considerar",
+      "value": "Sábado para Salamanca Market"
+    },
+    {
+      "label": "Salida regional",
+      "value": "Richmond, a 27 km al noreste de Hobart"
+    }
+  ],
+  "sections": [
+    {
+      "id": "waterfront",
+      "kind": "place",
+      "heading": "1. Frente portuario: empezar junto al Derwent",
+      "paragraphs": [
+        "El frente portuario permite ubicar Hobart antes de entrar a sus museos o salir de la ciudad. Caminá por la zona de los muelles, observá la relación entre embarcaciones y edificios, y buscá distintos ángulos hacia el río. Tourism Tasmania recomienda explorar esta parte a pie o desde el agua: son perspectivas complementarias, con tiempos y condiciones diferentes.",
+        "Brooke Street Pier es un punto útil para reconocer desde el primer día si después vas a tomar el ferry de Mona. Aprovechá el paseo para localizar la salida indicada en tu reserva y pensar dónde comer antes o después. Dejále espacio al puerto al final de la tarde, sin depender de que el clima ofrezca una puesta de sol concreta. Una caminata corta funciona incluso cuando no querés sumar otra entrada."
+      ],
+      "sourceIds": [
+        "hobart-tourism",
+        "hobart-mona"
+      ]
+    },
+    {
+      "id": "salamanca",
+      "kind": "place",
+      "heading": "2. Salamanca Place y su mercado de los sábados",
+      "paragraphs": [
+        "Salamanca Place combina antiguos almacenes de arenisca con galerías, cafés y restaurantes. El sábado cambia el ritmo con Salamanca Market, donde los puestos reúnen alimentos y objetos de creadores y productores locales. No confundas el lugar con el evento: podés recorrer Salamanca cualquier otro día, pero la experiencia de puestos depende de que coincidas con la jornada del mercado.",
+        "Si te interesan cerámica, trabajos en madera o tejidos, compará piezas y conversá con quienes las producen antes de elegir. Conviene dejar margen para comer y detenerte a escuchar música, en vez de atravesar todo buscando únicamente una foto. Revisá el aviso del organizador para tu fecha y sumá Battery Point después si te quedan ganas de caminar. Para las compras de alimentos, considerá las restricciones de tu siguiente destino."
+      ],
+      "sourceIds": [
+        "hobart-salamanca"
+      ]
+    },
+    {
+      "id": "battery-point",
+      "kind": "place",
+      "heading": "3. Battery Point: historia a escala de barrio",
+      "paragraphs": [
+        "Battery Point ofrece una alternativa a las grandes atracciones: prestar atención a calles, viviendas y relatos del barrio. El Sculpture Trail, gestionado por la ciudad, recorre dos kilómetros y enlaza nueve esculturas numéricas. Cada cifra remite a una fecha, medida, cantidad u otro dato de la historia local; leer su explicación cambia la manera de observar el paisaje portuario.",
+        "Existe también el paseo autoguiado de la asociación vecinal, In Bobby’s Footsteps, con paradas como Arthur Circus, Narryna y Princes Park. Elegí uno de los recorridos y descargá su mapa, porque no son la misma ruta. Los puntos de interés conviven con casas habitadas: mantenete en el espacio público y evitá bloquear entradas. Si caminar con pendientes o escalones plantea dificultades, comprobá el trazado concreto antes de salir."
+      ],
+      "sourceIds": [
+        "hobart-battery-point",
+        "hobart-battery-history"
+      ]
+    },
+    {
+      "id": "tmag",
+      "kind": "place",
+      "heading": "4. TMAG: conocer la isla antes de recorrerla",
+      "paragraphs": [
+        "El Tasmanian Museum and Art Gallery reúne arte, objetos culturales e historia natural a poca distancia del puerto. Es una buena pausa para pensar Tasmania más allá de sus paisajes: las colecciones y los edificios históricos ofrecen preguntas sobre el territorio, sus habitantes y la manera en que se conserva su patrimonio. Elegí algunas salas con atención en lugar de intentar leer cada cartel.",
+        "Revisá las exposiciones y el horario de la temporada antes de fijar el día, porque el museo distingue calendario regular y verano. Guardá mochilas grandes y paraguas según las indicaciones de recepción, y dejá comida y bebida fuera de las salas. Si viajás con chicos, consultá los recursos familiares. Esta visita encaja con el puerto, aunque merece un bloque propio y no solamente los minutos que sobren antes del cierre."
+      ],
+      "sourceIds": [
+        "hobart-tmag-visit",
+        "hobart-tmag"
+      ]
+    },
+    {
+      "id": "mona",
+      "kind": "place",
+      "heading": "5. Mona: reservar tiempo para el museo y el traslado",
+      "paragraphs": [
+        "El Museum of Old and New Art está al norte de Hobart y propone una experiencia muy distinta de un museo de salas convencionales. Parte del recorrido se desarrolla bajo tierra, entre obras que pueden resultar intensas o provocadoras. La guía digital The O ayuda a orientarse y ofrece advertencias; si viajás con menores o tenés sensibilidad a luces, sonido o espacios cerrados, prepará la visita con esa información.",
+        "El ferry sale de Brooke Street Pier y el operador estima alrededor de treinta minutos por trayecto. Comprobá tanto la entrada al museo como los billetes de transporte y el horario de regreso: llegar al muelle no equivale a tener acceso reservado. Dedicále medio día largo o más si querés comer allí. Para necesidades de movilidad, revisá las limitaciones específicas de algunas obras y las alternativas de acceso publicadas por Mona."
+      ],
+      "sourceIds": [
+        "hobart-mona"
+      ]
+    },
+    {
+      "id": "kunanyi",
+      "kind": "place",
+      "heading": "6. kunanyi / Mount Wellington: una salida sujeta al clima",
+      "paragraphs": [
+        "La cumbre de kunanyi / Mount Wellington alcanza 1.271 metros y cambia la escala de Hobart: el río y la ciudad pasan a formar parte de un paisaje mucho mayor. Wellington Park incluye miradores y senderos de distinta exigencia. Llegar a un mirador por carretera y hacer una caminata de montaña son planes diferentes; elegí según tu preparación, el tiempo disponible y el pronóstico.",
+        "Antes de salir, consultá estado de Pinnacle Road, avisos del parque y condiciones meteorológicas. Llevá abrigo y protección para lluvia y viento; no deduzcas el estado de la cumbre por el clima del puerto. En la consulta de octubre de 2026, la autoridad anunció cierre de Pinnacle Road del 16 al 19 de noviembre de 2026, sin acceso vehicular a la cumbre. Revisá cualquier actualización y no uses la carretera cerrada a pie o en bicicleta."
+      ],
+      "sourceIds": [
+        "hobart-wellington"
+      ],
+      "imageId": "hobart-2"
+    },
+    {
+      "id": "botanical-gardens",
+      "kind": "place",
+      "heading": "7. Royal Tasmanian Botanical Gardens: bajar el ritmo",
+      "paragraphs": [
+        "Los jardines botánicos, en Queens Domain, permiten cambiar museos y calles por colecciones vivas. El mapa del recinto ayuda a escoger un paseo según tus intereses y energía; la base de datos de plantas también sirve para identificar lo que ves. Buscá diferencias de hojas, formas y ambientes, en lugar de tratar todo el jardín como una única parada fotográfica.",
+        "Organizá el acceso desde tu alojamiento y dejá tiempo para recorrer sin apuro. Hay sectores y proyectos que pueden modificar el circuito: al consultar la web en octubre de 2026, el conservatorio figuraba cerrado por restauración. Confirmá el aviso vigente si ese espacio es uno de tus motivos para ir. Es una visita adecuada para una jornada urbana tranquila, siempre adaptando el recorrido a lluvia, viento o necesidades de accesibilidad."
+      ],
+      "sourceIds": [
+        "hobart-gardens"
+      ]
+    },
+    {
+      "id": "female-factory",
+      "kind": "place",
+      "heading": "8. Cascades Female Factory: escuchar las historias de las mujeres",
+      "paragraphs": [
+        "En South Hobart, Cascades Female Factory interpreta la deportación, el maltrato y las experiencias de mujeres y niñas enviadas como convictas a Australia. Forma parte del conjunto patrimonial de Australian Convict Sites. El valor de la visita está en comprender vidas y estructuras de poder, no solamente en contemplar restos materiales o imaginar una postal del pasado.",
+        "El sitio ofrece recorridos guiados y experiencias narrativas con enfoques distintos. Leé qué incluye cada propuesta antes de reservar y elegí una que permita escuchar con calma. Esta historia puede ser emocionalmente exigente; acompañá las preguntas de los chicos y respetá el tono del lugar. Separá la visita de un itinerario demasiado cargado y comprobá el traslado hasta Degraves Street, sin asumir que queda sobre el paseo del puerto."
+      ],
+      "sourceIds": [
+        "hobart-female-factory"
+      ]
+    },
+    {
+      "id": "richmond",
+      "kind": "place",
+      "heading": "9. Richmond: una excursión a un pueblo histórico",
+      "paragraphs": [
+        "Richmond está a 27 kilómetros al noreste de Hobart, por lo que conviene tratarlo como una salida regional. Su puente de 1825, construido por convictos, permite acercarse al río y observar el pueblo desde otra perspectiva. Las calles conservan edificios georgianos que hoy albergan, entre otros usos, cafés y galerías; vale la pena caminar más allá de la foto del puente.",
+        "Si querés profundizar, Richmond Gaol suma una visita patrimonial independiente. Reservá tiempo para comer y pensá de antemano cómo volver a Hobart, especialmente si viajás sin auto. La cercanía de bodegas del Coal River Valley puede tentar a añadir varias paradas, pero una tarde tranquila funciona mejor que una lista interminable. Si vas a degustar alcohol, organizá transporte con otra persona al volante o una excursión adecuada."
+      ],
+      "sourceIds": [
+        "hobart-richmond"
+      ]
+    },
+    {
+      "id": "theatre-royal",
+      "kind": "place",
+      "heading": "10. Theatre Royal: terminar el día con una función",
+      "paragraphs": [
+        "El Theatre Royal abrió en 1837 y sigue funcionando como espacio escénico, integrado hoy en The Hedberg. Su historia incluye reformas, un incendio y reconstrucción: es un edificio que continuó cambiando con la ciudad. Ver una función aporta algo que una visita exterior no muestra, la relación entre sala, artistas y público en un lugar que mantiene su uso cultural.",
+        "Consultá la cartelera para las fechas de tu viaje y elegí por interés, idioma o tipo de espectáculo. Confirmá la sala concreta indicada en la entrada, las condiciones de accesibilidad y el tiempo de llegada recomendado. No presupongas que cualquier día se puede entrar a recorrer el interior sin reserva. Una cena cercana y una función pueden cerrar bien la jornada del centro sin sumar otro traslado regional."
+      ],
+      "sourceIds": [
+        "hobart-theatre",
+        "hobart-theatre-visit"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Día 1: recorré el frente portuario y dedicá un bloque al TMAG. Si hay una función que te interese, reservá Theatre Royal para la noche. Revisá los días de apertura antes de fijar esta combinación y cambiá el museo de jornada cuando su calendario lo requiera.",
+    "Día 2: si es sábado, empezá por Salamanca Market y seguí con uno de los paseos de Battery Point. Otro día podés visitar Salamanca Place igualmente, pero trasladá el mercado al sábado real de tu estadía. Sumá los jardines solamente si el ritmo te permite disfrutarlos.",
+    "Día 3: organizá Mona con ida y regreso reservados cuando corresponda. Dejá el resto de la jornada flexible. La montaña puede ocupar otra mañana de buen tiempo; no la fuerces entre dos reservas si el pronóstico, los accesos o tu preparación no acompañan.",
+    "Día 4: elegí Richmond como salida regional y completá las visitas urbanas pendientes en otro bloque o una jornada adicional. Para incluir con calma tanto Female Factory como jardines y montaña, ampliá la estadía o reemplazá una actividad según tus intereses; los diez lugares no son una obligación."
+  ],
+  "faq": [
+    {
+      "question": "¿Se puede visitar Hobart sin alquilar auto?",
+      "answer": "El puerto, Salamanca y parte de las visitas culturales se combinan caminando, según tu alojamiento y movilidad. Mona cuenta con ferry y otras opciones de transporte. Para Richmond y kunanyi, resolvé servicios, excursiones o traslados de ida y vuelta antes de salir: no son prolongaciones del paseo céntrico."
+    },
+    {
+      "question": "¿Vale la pena ir a Salamanca si no es sábado?",
+      "answer": "Sí, Salamanca Place mantiene galerías, cafés y edificios para recorrer. Lo que cambia es el mercado: la jornada habitual publicada es el sábado. Si tu prioridad son los puestos, adaptá el itinerario a ese día y comprobá los avisos del organizador."
+    },
+    {
+      "question": "¿Cuándo conviene subir a kunanyi / Mount Wellington?",
+      "answer": "Cuando el pronóstico, el estado de la carretera o senderos y tu preparación permitan la actividad elegida. Reservá flexibilidad en el viaje y consultá los avisos oficiales ese mismo día. Un cierre de carretera no autoriza a continuar por ella caminando o en bicicleta."
+    },
+    {
+      "question": "¿Son suficientes cuatro días para estos diez lugares?",
+      "answer": "Cuatro días permiten una selección variada, pero no garantizan disfrutar las diez visitas completas. Mona, una caminata de montaña o una salida a Richmond pueden ocupar bloques largos. Agregá días o descartá actividades para evitar que los traslados dominen el viaje."
+    }
+  ],
+  "conclusion": "Hobart funciona mejor cuando alternás puerto, cultura y aire libre, con margen para el clima y para las historias que cada lugar propone. Elegí unas pocas reservas importantes, ubicá el sábado del mercado y mantené flexibles montaña y excursiones. Así Tasmania empieza en la propia ciudad, sin que Hobart se convierta únicamente en el sitio donde recoger un auto.",
+  "publishedAt": "2026-10-29T00:35:47.695Z"
+}

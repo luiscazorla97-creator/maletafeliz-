@@ -858,5 +858,200 @@
       "en": "https://maletafeliz.com/en/guides/10-places-to-visit-in-queenstown/",
       "es": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-queenstown/"
     }
+  },
+  {
+    "id": "vancouver",
+    "city": {
+      "es": "Vancouver",
+      "en": "Vancouver"
+    },
+    "countryId": "ca",
+    "country": {
+      "es": "Canadá",
+      "en": "Canada"
+    },
+    "continent": "america",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "published",
+    "titles": {
+      "es": "10 lugares que visitar en Vancouver entre ciudad y naturaleza",
+      "en": "10 places to visit in Vancouver between city and nature"
+    },
+    "slugs": {
+      "es": "10-lugares-que-visitar-en-vancouver",
+      "en": "10-places-to-visit-in-vancouver"
+    },
+    "researchCandidates": [
+      "https://www.destinationvancouver.com/",
+      "https://vancouver.ca/"
+    ],
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    },
+    "categories": [
+      "cities",
+      "nature"
+    ]
+  },
+  {
+    "id": "lucerne",
+    "city": {
+      "es": "Lucerna",
+      "en": "Lucerne"
+    },
+    "countryId": "ch",
+    "country": {
+      "es": "Suiza",
+      "en": "Switzerland"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "published",
+    "titles": {
+      "es": "10 lugares que visitar en Lucerna y sus alrededores",
+      "en": "10 places to visit in Lucerne and nearby"
+    },
+    "slugs": {
+      "es": "10-lugares-que-visitar-en-lucerna",
+      "en": "10-places-to-visit-in-lucerne"
+    },
+    "researchCandidates": [
+      "https://www.luzern.com/en/",
+      "https://www.myswitzerland.com/en/"
+    ],
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    },
+    "categories": [
+      "cities",
+      "nature"
+    ]
+  },
+  {
+    "id": "seoul",
+    "city": {
+      "es": "Seúl",
+      "en": "Seoul"
+    },
+    "countryId": "kr",
+    "country": {
+      "es": "Corea del Sur",
+      "en": "South Korea"
+    },
+    "continent": "asia",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "published",
+    "titles": {
+      "es": "10 lugares que visitar en Seúl en tu primer viaje",
+      "en": "10 places to visit on your first trip to Seoul"
+    },
+    "slugs": {
+      "es": "10-lugares-que-visitar-en-seul",
+      "en": "10-places-to-visit-in-seoul"
+    },
+    "researchCandidates": [
+      "https://english.visitseoul.net/",
+      "https://english.cha.go.kr/"
+    ],
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ]
+  },
+  {
+    "id": "nairobi",
+    "city": {
+      "es": "Nairobi",
+      "en": "Nairobi"
+    },
+    "countryId": "ke",
+    "country": {
+      "es": "Kenia",
+      "en": "Kenya"
+    },
+    "continent": "africa",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "published",
+    "titles": {
+      "es": "10 lugares que visitar en Nairobi entre cultura y naturaleza",
+      "en": "10 places to visit in Nairobi for culture and nature"
+    },
+    "slugs": {
+      "es": "10-lugares-que-visitar-en-nairobi",
+      "en": "10-places-to-visit-in-nairobi"
+    },
+    "researchCandidates": [
+      "https://www.kws.go.ke/",
+      "https://museums.or.ke/"
+    ],
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    },
+    "categories": [
+      "cities",
+      "nature"
+    ]
+  },
+  {
+    "id": "hobart",
+    "city": {
+      "es": "Hobart",
+      "en": "Hobart"
+    },
+    "countryId": "au",
+    "country": {
+      "es": "Australia",
+      "en": "Australia"
+    },
+    "continent": "oceania",
+    "category": "cities",
+    "placeCount": 10,
+    "intent": "first-visit-highlights",
+    "status": "published",
+    "titles": {
+      "es": "10 lugares que visitar en Hobart y sus alrededores",
+      "en": "10 places to visit in Hobart and nearby"
+    },
+    "slugs": {
+      "es": "10-lugares-que-visitar-en-hobart",
+      "en": "10-places-to-visit-in-hobart"
+    },
+    "researchCandidates": [
+      "https://www.discovertasmania.com.au/",
+      "https://www.hobartcity.com.au/"
+    ],
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    },
+    "categories": [
+      "cities",
+      "nature"
+    ]
   }
 ]

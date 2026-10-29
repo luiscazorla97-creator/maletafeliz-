@@ -1,0 +1,19 @@
+{
+  "url": "https://www.rigi.ch/en",
+  "finalUrl": "https://www.rigi.ch/en",
+  "fetchedAt": "2026-10-29T00:31:05.427Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "e00a85f601f167ef6868104e1e64e86f68aff70e9ce972fd1b690ef07d7aa712",
+  "facts": [
+    {
+      "claim": "Rigi is a Central Switzerland mountain destination with mountain railways, hiking options, webcams and published timetables.",
+      "sourceLocation": "Homepage introductory paragraph and official navigation links to Hiking, Webcams and Timetables."
+    },
+    {
+      "claim": "The operator describes Rigi as the home of Europe’s first mountain railway.",
+      "sourceLocation": "Homepage: It is home to Europe’s first mountain railway."
+    }
+  ],
+  "notes": "Official tourism/operator document downloaded and read on the recorded date. Facts above checked against the captured document; original planning advice is identified as editorial advice. Prices and exact service times deliberately not reproduced. The separate Switzerland Tourism Rigi destination URL returned HTTP 406; no facts are attributed to that unavailable document. A guessed Pilatus timetable URL returned HTTP 404 and is not cited."
+}

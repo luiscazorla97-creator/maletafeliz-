@@ -1,0 +1,284 @@
+{
+  "id": "vancouver",
+  "destinationId": "vancouver",
+  "locale": "en",
+  "slug": "10-places-to-visit-in-vancouver",
+  "title": "10 places to visit in Vancouver between city and nature",
+  "description": "Explore ten Vancouver highlights, from Stanley Park to Lynn Canyon, with neighbourhoods, gardens, museums and a practical four-day plan using official sources.",
+  "keyword": "places to visit in Vancouver",
+  "relatedQueries": [
+    "Vancouver four day itinerary",
+    "Vancouver without a car",
+    "Stanley Park and North Vancouver"
+  ],
+  "intent": "first-visit-highlights",
+  "status": "published",
+  "coverImageId": "vancouver-1",
+  "sources": [
+    {
+      "id": "vancouver-stanley",
+      "url": "https://vancouver.ca/parks-recreation-culture/stanley-park.aspx",
+      "title": "Stanley Park — City of Vancouver",
+      "accessedAt": "2026-10-29T00:30:21.015Z",
+      "evidenceFile": "content/research/vancouver-stanley.json"
+    },
+    {
+      "id": "vancouver-granville-market",
+      "url": "https://granvilleisland.com/public-market",
+      "title": "Public Market — Granville Island",
+      "accessedAt": "2026-10-29T00:30:40.922Z",
+      "evidenceFile": "content/research/vancouver-granville-market.json"
+    },
+    {
+      "id": "vancouver-gastown",
+      "url": "https://www.destinationvancouver.com/neighbourhoods/gastown",
+      "title": "Gastown — Destination Vancouver",
+      "accessedAt": "2026-10-29T00:30:24.114Z",
+      "evidenceFile": "content/research/vancouver-gastown.json"
+    },
+    {
+      "id": "vancouver-chinatown",
+      "url": "https://www.destinationvancouver.com/neighbourhoods/chinatown",
+      "title": "Chinatown — Destination Vancouver",
+      "accessedAt": "2026-10-29T00:30:23.558Z",
+      "evidenceFile": "content/research/vancouver-chinatown.json"
+    },
+    {
+      "id": "vancouver-queen-elizabeth",
+      "url": "https://vancouver.ca/parks-recreation-culture/queen-elizabeth-park.aspx",
+      "title": "Queen Elizabeth Park — City of Vancouver",
+      "accessedAt": "2026-10-29T00:30:21.176Z",
+      "evidenceFile": "content/research/vancouver-queen-elizabeth.json"
+    },
+    {
+      "id": "vancouver-vandusen-garden",
+      "url": "https://vancouver.ca/parks-recreation-culture/vandusen-botanical-garden.aspx",
+      "title": "VanDusen Botanical Garden — City of Vancouver",
+      "accessedAt": "2026-10-29T00:30:40.061Z",
+      "evidenceFile": "content/research/vancouver-vandusen-garden.json"
+    },
+    {
+      "id": "vancouver-kitsilano",
+      "url": "https://vancouver.ca/parks-recreation-culture/kitsilano-beach.aspx",
+      "title": "Kitsilano Beach — City of Vancouver",
+      "accessedAt": "2026-10-29T00:30:25.336Z",
+      "evidenceFile": "content/research/vancouver-kitsilano.json"
+    },
+    {
+      "id": "vancouver-moa",
+      "url": "https://moa.ubc.ca/visit/",
+      "title": "Getting Here and visiting MOA — Museum of Anthropology at UBC",
+      "accessedAt": "2026-10-29T00:30:26.270Z",
+      "evidenceFile": "content/research/vancouver-moa.json"
+    },
+    {
+      "id": "vancouver-capilano",
+      "url": "https://www.capbridge.com/",
+      "title": "Capilano Suspension Bridge Park — official visitor information",
+      "accessedAt": "2026-10-29T00:30:26.096Z",
+      "evidenceFile": "content/research/vancouver-capilano.json"
+    },
+    {
+      "id": "vancouver-lynn-bridge",
+      "url": "https://www.vancouversnorthshore.com/attractions/lynn-canyon-suspension-bridge/",
+      "title": "Lynn Canyon Suspension Bridge — Vancouver’s North Shore Tourism",
+      "accessedAt": "2026-10-29T00:31:25.713Z",
+      "evidenceFile": "content/research/vancouver-lynn-bridge.json"
+    },
+    {
+      "id": "vancouver-lynn-safety",
+      "url": "https://www.dnv.org/news/safety-reminder-cliff-jumping-at-lynn-canyon-park",
+      "title": "Safety reminder: cliff jumping at Lynn Canyon Park — District of North Vancouver",
+      "accessedAt": "2026-10-29T00:31:02.783Z",
+      "evidenceFile": "content/research/vancouver-lynn-safety.json"
+    }
+  ],
+  "relatedIds": [
+    "new-york",
+    "hawaii",
+    "miami"
+  ],
+  "intro": [
+    "Vancouver shifts scale within a few kilometres: downtown buildings give way to coastal forest, a covered market or a garden with mountain views. For a first visit, combine those experiences and distinguish the city itself from outings to North Vancouver. Places that look close on a map do not necessarily belong on the same walk, especially when your route crosses the water or continues to the university campus.",
+    "These ten places serve different purposes. Stanley Park introduces the landscape; Gastown and Chinatown invite neighbourhood exploration; gardens and a museum reward a slower pace; and two North Shore parks offer contrasting forest experiences. The four-day outline is a planning suggestion. Add time if you want substantial museum visits, longer walks or both North Vancouver parks rather than choosing between them."
+  ],
+  "quickFacts": [
+    {
+      "label": "Suggested pace",
+      "value": "Four days, with extra time for both North Vancouver parks"
+    },
+    {
+      "label": "Planning approach",
+      "value": "Group downtown, the southern waterfront, UBC and North Vancouver"
+    },
+    {
+      "label": "Getting around",
+      "value": "Combine walking and public transport; check the final approach"
+    }
+  ],
+  "sections": [
+    {
+      "id": "stanley-park",
+      "kind": "place",
+      "heading": "1. Stanley Park: coastal forest beside downtown",
+      "paragraphs": [
+        "Stanley Park covers 400 hectares and brings together coastal rainforest, trails, beaches and waterfront views along the Seawall. Its appeal lies in the transition between those settings: walk beneath trees, then look back towards the urban waterfront from an open stretch of shore. Choose the part of the park that interests you before entering; its size and network of paths can easily justify a full morning or afternoon.",
+        "Use the city maps to combine a section of waterfront with an inland trail and identify a convenient exit. Do not assume a complete circuit will always be possible: construction and temporary closures can affect the Seawall. The city also provides an interactive accessibility map. Checking it helps you choose appropriate paths and services before committing to a route that takes you a long way from your starting point."
+      ],
+      "sourceIds": [
+        "vancouver-stanley"
+      ]
+    },
+    {
+      "id": "granville-island",
+      "kind": "place",
+      "heading": "2. Granville Island: arrive at the market with an appetite",
+      "paragraphs": [
+        "The Public Market makes a useful introduction to Granville Island. Inside, fresh produce, prepared food and locally made crafts offer plenty to browse. Walk through the aisles before deciding what to buy, especially if lunch is your main reason for coming. This lets you compare what appeals to you rather than making a hurried decision at the first counter, and provides a covered stop between outdoor walks.",
+        "The island extends beyond the market. Its directory includes artists’ studios, theatres, restaurants and other businesses, each of which may keep different hours. If a workshop or performance matters to you, check that particular activity and build the visit around it. Give the island time for food, creative work and a break; it works better as a considered outing than as a quick shopping stop between lengthy transfers."
+      ],
+      "sourceIds": [
+        "vancouver-granville-market"
+      ],
+      "imageId": "vancouver-2"
+    },
+    {
+      "id": "gastown",
+      "kind": "place",
+      "heading": "3. Gastown: look beyond the Steam Clock",
+      "paragraphs": [
+        "Cobblestone streets, brick buildings and the Steam Clock give Gastown its familiar appearance. The neighbourhood became a National Historic Site of Canada in 2009, but its landmarks do not all date from the same period. The well-known clock was built in 1977. Keeping that distinction in mind helps you appreciate a modern visitor landmark without mistaking it for an object surviving from the neighbourhood’s nineteenth-century beginnings.",
+        "After seeing the clock, explore a few blocks and pay attention to façades, shop windows and small businesses. The tourism board highlights boutiques and places to eat, so choose a stop that suits your interests instead of collecting an endless list of recommended shops. If you continue to Chinatown, plan the streets you want to explore and consider your mobility needs. These are living urban neighbourhoods rather than an enclosed sightseeing complex."
+      ],
+      "sourceIds": [
+        "vancouver-gastown"
+      ]
+    },
+    {
+      "id": "chinatown",
+      "kind": "place",
+      "heading": "4. Chinatown: Chinese Canadian history and everyday life",
+      "paragraphs": [
+        "Chinatown brings together shops, restaurants, historic architecture and community organisations connected with generations of Chinese Canadians. Its significance extends beyond a particular dish: the neighbourhood offers ways to understand how people created places for work, mutual support and cultural identity. Pay attention to buildings and historical interpretation, while remembering that shops and their customers are part of everyday community life rather than a backdrop for visitors.",
+        "Consider a historical walking tour or the Dr. Sun Yat-Sen Classical Chinese Garden, which the tourism board lists among local attractions. Confirm the garden’s visiting arrangements before building your day around admission. For lunch, read menus and ask about ingredients if you have dietary needs. Combining one cultural activity with an unhurried meal can provide more context than passing through several streets simply to take photographs."
+      ],
+      "sourceIds": [
+        "vancouver-chinatown"
+      ]
+    },
+    {
+      "id": "queen-elizabeth-park",
+      "kind": "place",
+      "heading": "5. Queen Elizabeth Park: gardens and an elevated viewpoint",
+      "paragraphs": [
+        "At 125 metres above sea level, Queen Elizabeth Park occupies Vancouver’s highest point. When visibility allows, views extend across the park and city towards the North Shore mountains. The visit does not depend entirely on a clear panorama: a landscaped quarry garden, an arboretum and sculptures give you reasons to explore even when clouds obscure the distant scenery. Choose the landscape details as well as the viewpoint.",
+        "Locate the quarry garden, tree collections and Henry Moore sculpture on the park map, then select a route that fits your time. Bloedel Conservatory is within the park, but it is a separate visitor experience whose arrangements should be checked individually. If you need to minimise slopes or uneven sections, consult the city’s accessibility map rather than assuming that every path through the park has the same conditions."
+      ],
+      "sourceIds": [
+        "vancouver-queen-elizabeth"
+      ]
+    },
+    {
+      "id": "vandusen",
+      "kind": "place",
+      "heading": "6. VanDusen Botanical Garden: plants, paths and a hedge maze",
+      "paragraphs": [
+        "VanDusen shifts your attention from broad panoramas to the details of plants. The garden contains more than 7,500 plant species and varieties from around the world, a hedge maze and a visitor centre recognised for sustainable design. Pick a few areas and use the labels to compare forms and origins. You do not need to cover every path to enjoy a botanical visit with substance.",
+        "What you see depends on the season and the collections you choose, so review the garden programme before booking. Most paved paths and major buildings are accessible, although the administration notes that surfaces can be uneven. Check its accessibility map if you use a mobility aid. Pets are not permitted, apart from working guide and service dogs, and plants should be enjoyed without taking flowers, seeds or foliage."
+      ],
+      "sourceIds": [
+        "vancouver-vandusen-garden"
+      ]
+    },
+    {
+      "id": "kitsilano-beach",
+      "kind": "place",
+      "heading": "7. Kitsilano Beach: a pause on the southern waterfront",
+      "paragraphs": [
+        "Kitsilano Beach, usually called Kits, sits on Cornwall Avenue at the northern end of Yew Street. The Seawall runs alongside it, so you can enjoy the coast without organising a swimming day. Sports courts, a playground and municipal facilities also make it a neighbourhood recreation space. Choose between a walk, time sitting by the water or a longer visit with a meal nearby, according to your energy.",
+        "Kitsilano Pool lies west of the beach and has its own operating arrangements; visiting the outdoor salt-water pool is different from swimming in the sea. Beach lifeguard services are seasonal. If you intend to enter the water, check local notices and that day’s conditions first. For a walking visit, bring a layer that allows you to remain comfortable beside the water if the weather changes during your outing."
+      ],
+      "sourceIds": [
+        "vancouver-kitsilano"
+      ]
+    },
+    {
+      "id": "museum-anthropology",
+      "kind": "place",
+      "heading": "8. Museum of Anthropology: make time for cultural context",
+      "paragraphs": [
+        "The Museum of Anthropology stands on the University of British Columbia campus, away from the downtown cluster of sights. Its collections cover several world regions, and the museum explains its work with Indigenous and originating communities. Approach the displays with time to read their interpretation and consider who is telling each story. This is a substantial cultural visit rather than a gallery to cross between two quick photographs.",
+        "Plan the final approach as well as the journey to campus. From UBC Exchange, you still need to walk northwest or connect with bus 68, following the museum’s directions. Check seasonal opening arrangements too, as days do not all follow an identical pattern. The building is wheelchair accessible and offers wheelchairs and portable seats to borrow. Allowing time for transport and breaks leaves more energy for the exhibitions you have chosen."
+      ],
+      "sourceIds": [
+        "vancouver-moa"
+      ]
+    },
+    {
+      "id": "capilano",
+      "kind": "place",
+      "heading": "9. Capilano Suspension Bridge Park: three elevated experiences",
+      "paragraphs": [
+        "In North Vancouver, Capilano Suspension Bridge Park combines the suspension bridge itself with Treetops Adventure and Cliffwalk. These experiences change your perspective on the forest and canyon: crossing a bridge, following walkways among trees and approaching the landscape from another elevated structure. It is a managed admission attraction, so decide whether this kind of outing fits your budget and your comfort with heights before committing to it.",
+        "Review access, participation conditions and official ticket channels before buying. The operator provides information about a shuttle service, but check its availability for your date rather than treating it as a guaranteed connection from any accommodation. Include the outward and return journeys in your plan. If children or other companions prefer to avoid particular sections, organise the visit around those needs instead of making a specific photograph compulsory."
+      ],
+      "sourceIds": [
+        "vancouver-capilano"
+      ]
+    },
+    {
+      "id": "lynn-canyon",
+      "kind": "place",
+      "heading": "10. Lynn Canyon: a public park of forest and water",
+      "paragraphs": [
+        "Lynn Canyon offers a different North Vancouver outing: a public park with trails, boardwalks and a suspension bridge around 50 metres above Lynn Creek. The Ecology Centre adds interpretation of temperate rainforest plants, animals and environmental issues. Choose a short, clearly identified route if your aim is to enjoy the scenery. Proximity to the city does not make every trail in the surrounding area equally easy or suitable.",
+        "Check current notices and bridge access before setting out. Parking can fill up, and the tourism association suggests considering public transport or cycling where the journey is appropriate. Stay on paths and away from exposed edges. The municipality explicitly warns that cliff jumping is extremely dangerous because of cold water, unstable cliffs and changing conditions. Beautiful pools seen from the bridge are a landscape to appreciate, not an invitation to swim."
+      ],
+      "sourceIds": [
+        "vancouver-lynn-bridge",
+        "vancouver-lynn-safety"
+      ]
+    },
+    {
+      "id": "planning-your-routes",
+      "kind": "practical",
+      "heading": "Organising transport and choosing your visits",
+      "paragraphs": [
+        "For this selection, think in four groups: downtown and Stanley Park; Granville Island and Kitsilano; the gardens and UBC; and North Vancouver. Grouping helps with priorities, but the gardens and campus are not immediately next to one another. Use each institution’s directions and a transport planner to work out journeys from your accommodation, including walks, changes and the return. Avoid consecutive timed bookings based only on distance on a map.",
+        "Check the forecast and park notices before assigning a day to the forest. A museum, the market or another cultural visit can help you reorganise a rainy day, provided opening arrangements fit. To manage costs, choose the admissions that add most to your trip and balance them with neighbourhood and park walks. The official sources below are the places to verify current prices, access and visitor conditions before travelling."
+      ],
+      "sourceIds": [
+        "vancouver-stanley",
+        "vancouver-moa",
+        "vancouver-capilano",
+        "vancouver-granville-market"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Day one: spend the first part of the day in Stanley Park, following a route chosen in advance. Explore Gastown afterwards and select somewhere for food or a drink. If you want substantial time in both places, leave Chinatown for another day; finish your walks with enough energy to enjoy the neighbourhood around you.",
+    "Day two: explore Chinatown with a cultural visit, then travel to Granville Island for the market. If time and energy allow, add a walk at Kitsilano later. This order is a flexible suggestion, not a promise of immediate connections between every stop, so adjust it around your chosen activity and accommodation.",
+    "Day three: allow proper time for the Museum of Anthropology, then choose between Queen Elizabeth Park and VanDusen according to whether you prefer views and park gardens or a botanical visit with admission. If both gardens matter to you, give them another day rather than reducing the museum to a fleeting stop.",
+    "Day four: choose Capilano or Lynn Canyon for a forest outing in North Vancouver. You can devote another day to the second park; automatically combining them requires transfer planning and leaves less time for walks. Decide according to current conditions, your budget and the sort of experience you enjoy."
+  ],
+  "faq": [
+    {
+      "question": "Are four days enough for a first Vancouver visit?",
+      "answer": "Four days allow a useful first selection if you group areas and choose between some alternatives. Add time to visit all ten places comfortably, enter both gardens and explore both North Vancouver parks. The suggested itinerary is a way to set priorities, not a guarantee that every activity fits a fixed schedule."
+    },
+    {
+      "question": "Do I need to rent a car for these places?",
+      "answer": "A car is not essential to organise a first visit, but check the actual connections for each outing. UBC and North Vancouver require more planning than the downtown neighbourhoods. The museum publishes public transport directions and the final approach; review park directions too before deciding according to your accommodation and mobility."
+    },
+    {
+      "question": "Do Capilano and Lynn Canyon offer the same experience?",
+      "answer": "No. Capilano combines several elevated attractions within an admission park; Lynn Canyon is a public park with a bridge and trails. Choose according to the activity you want, access conditions and your comfort with the terrain. Neither should be presented as an exact substitute for the other."
+    },
+    {
+      "question": "What should I check before heading out each day?",
+      "answer": "Review trail and Seawall notices, the forecast, opening arrangements for your chosen institution and the journey back. Museums, gardens, pools and markets have different rules. For a forest outing, check bridge access as well and follow local signs rather than assuming that a previous visitor’s route is still available."
+    }
+  ],
+  "conclusion": "Vancouver rewards a balance of forest, neighbourhoods and time to linger. Select the visits that matter to you, group nearby places and make room for journeys to UBC or North Vancouver. With that approach, markets, gardens and walks stop competing for the same overcrowded day and start revealing different aspects of the city, each at a pace that lets you appreciate it.",
+  "publishedAt": "2026-10-29T00:34:15.331Z"
+}

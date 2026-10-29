@@ -27,11 +27,11 @@ npm run dev
 - `src/pages`: HTML estático, idiomas, destinos, categorías, buscador, artículos, sitemap, robots y 404.
 - `src/components`: diseño, logo, búsqueda React y plantilla editorial.
 - `src/i18n`: navegación y textos de interfaz es/en.
-- `content/articles`: cuarenta guías JSON, una por versión lingüística.
+- `content/articles`: guías JSON, una por versión lingüística.
 - `content/research`: fuentes consultadas y hechos verificados, compartidos por idiomas.
-- `content/images/manifest.json`: derechos, atribuciones, dimensiones y hashes de cuarenta fotos y sus variantes responsive.
+- `content/images/manifest.json`: derechos, atribuciones, dimensiones y hashes de fotografías y sus variantes responsive.
 - `content/reviews`: aprobaciones vinculadas a la huella del contenido.
-- `editorial/plan.json`: veinte temas iniciales, países, ciudades, continentes, categorías, intención, idiomas y estado.
+- `editorial/plan.json`: temas, países, ciudades, continentes, categorías, intención, idiomas y estado.
 - `editorial/site.json`: datos del titular, revisión de textos legales y estado real de automatización.
 - `scripts`: auditoría editorial, informe y reserva idempotente de tandas.
 - `.github/workflows/quality.yml`: comprobaciones de código; no escribe artículos ni utiliza APIs de IA.
@@ -48,7 +48,7 @@ npm run test:release
 
 El control exige la selección inicial completa y debe mantenerse activo. Cloudflare ejecuta `npm run build:release` y sirve `dist` desde el proyecto `maletafeliz-web`. Después de subir los cambios aprobados a main, `npm run deploy` solicita la compilación de la main remota; no sube archivos locales sin commit/push. `npm run verify:live` comprueba las URLs públicas y la redirección www.
 
-La auditoría comprueba las cuarenta versiones, fuentes con evidencia, revisiones al día, fotografías locales con metadatos/licencia/huella, duplicados, profundidad por lugar, fechas y enlaces relacionados. Requiere revisión editorial documentada: un modelo o un test no puede garantizar por sí solo exactitud, originalidad y permisos.
+La auditoría comprueba todas las versiones seleccionadas, fuentes con evidencia, revisiones al día, fotografías locales con metadatos/licencia/huella, duplicados, profundidad por lugar, fechas y enlaces relacionados. Requiere revisión editorial documentada: un modelo o un test no puede garantizar por sí solo exactitud, originalidad y permisos.
 
 ## Documentación y continuidad
 

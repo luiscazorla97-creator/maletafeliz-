@@ -1,4 +1,5 @@
 import { validateEditorial, readJson, readArticles } from './lib/content.mjs';
+import { existsSync } from 'node:fs';
 const plan = readJson('editorial/plan.json'),
   site = readJson('editorial/site.json'),
   articles = readArticles();
@@ -11,6 +12,9 @@ console.log(
         note: 'Counts reflect local content states, not a verified public deployment.',
       },
       automation: site.automation,
+      publication: existsSync('editorial/publication.json')
+        ? readJson('editorial/publication.json')
+        : null,
       coverage: plan.map((p) => ({
         id: p.id,
         continent: p.continent,

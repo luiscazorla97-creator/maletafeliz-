@@ -1,0 +1,46 @@
+{
+  "verifiedAt": "2026-10-29T00:13:20.813Z",
+  "origin": "https://maletafeliz.com",
+  "status": "live-verified",
+  "originals": 20,
+  "localizations": 40,
+  "photos": 40,
+  "httpChecks": 48,
+  "wwwRedirect": {
+    "status": 301,
+    "target": "https://maletafeliz.com",
+    "preservesPath": true,
+    "preservesQuery": true
+  },
+  "projects": [
+    {
+      "name": "maletafeliz-web",
+      "domain": "maletafeliz.com",
+      "subdomain": "maletafeliz-web.pages.dev",
+      "sourceType": "github",
+      "sourceOwner": "luiscazorla97-creator",
+      "sourceRepository": "maletafeliz-",
+      "productionDeploymentsEnabled": true,
+      "productionBranch": "main",
+      "deploymentId": "3e5d6b82-9191-4cdd-9652-ba31a520af32",
+      "commit": "22fdde1c04a455d2118c199a0182b72d58b06185",
+      "trigger": "ad_hoc",
+      "buildStatus": "success"
+    },
+    {
+      "name": "maletafeliz-www",
+      "domain": "www.maletafeliz.com",
+      "subdomain": "maletafeliz-www.pages.dev",
+      "sourceType": "github",
+      "sourceOwner": "luiscazorla97-creator",
+      "sourceRepository": "maletafeliz-",
+      "productionDeploymentsEnabled": true,
+      "productionBranch": "main",
+      "deploymentId": "427fe839-325f-4799-a3f1-73f012bb6cbf",
+      "commit": "eb9c1048e52a474b866d98b87a8fe40d01a2b7c6",
+      "trigger": "ad_hoc",
+      "buildStatus": "success"
+    }
+  ],
+  "automaticContentGeneration": false
+}

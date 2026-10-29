@@ -2,7 +2,9 @@
 
 Actualizado: 28 de octubre de 2026. Especificación vigente: `requirements.md` (español e inglés, archivos, sin APIs de IA de pago).
 
-## Preparado para desplegar
+## Publicado en maletafeliz.com
+
+La web responde por HTTPS en https://maletafeliz.com/es/ y /en/. www.maletafeliz.com redirige con HTTP 301 al dominio principal, conservando rutas y parámetros. La verificación pública completa está registrada en `editorial/publication.json`.
 
 - Veinte guías originales y cuarenta versiones completas, entre 1.343 y 2.512 palabras por idioma. Se desarrollan individualmente los lugares requeridos; cada guía incluye itinerario, preguntas, fuentes y enlaces relacionados.
 - 164 documentos de fuentes citadas, con fecha, HTTP, huella y hechos conservados. Se rechazaron antiguos dominios turísticos con contenido ajeno; no se usan como fuentes editoriales.
@@ -11,14 +13,14 @@ Actualizado: 28 de octubre de 2026. Especificación vigente: `requirements.md` (
 - Astro estático, TypeScript, React para búsqueda, CSS/Tailwind, logo original, navegación móvil, destinos, continentes, países, categorías y páginas de información.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap de contenido aprobado, robots de producción y respuesta 404. La búsqueda y las páginas vacías no se indexan.
 - Datos del titular facilitados por el usuario: Luis Sebastian Cazorla Caruso, Argentina, luterapps@gmail.com. Textos legales revisados técnica y editorialmente por Codex; no se afirma asesoría legal profesional.
-- Despliegue directo preparado para Cloudflare Pages. Usa el subdominio real asignado por Cloudflare, rama main y dominio maletafeliz.com; conserva MX y se detiene ante registros de otro sitio.
-- Workflow de despliegue opcional, desactivado hasta configurar secretos y habilitarlo. Solo admite main del mismo repositorio, después de verificaciones o por ejecución manual autorizada.
+- Cloudflare Pages publica desde GitHub/main: `maletafeliz-web` sirve la revista y `maletafeliz-www` sirve la redirección estática. Los CNAME usan los subdominios reales de cada proyecto; los registros de correo se conservan.
+- La integración Git de Cloudflare publica los cambios de main. GitHub Actions ejecuta las comprobaciones de calidad; el flujo manual permite solicitar un nuevo build de ambos proyectos sin subir archivos desde el entorno.
 
 ## Verificado localmente
 
 - `npm run launch:check`: 20 originales, 40 versiones, sin errores ni pendientes.
 - `npm run check`: sin errores, advertencias ni sugerencias.
-- `npm test`: 24 pruebas superadas, incluidos controles editoriales, búsqueda, idempotencia, archivos de imagen y protección DNS con API simulada.
+- `npm test`: 32 pruebas superadas, incluidos controles editoriales, búsqueda, idempotencia, archivos de imagen y protección DNS con API simulada.
 - `npm run build` y `npm run build:release`: compilaciones estáticas correctas; 164 páginas en cada compilación, de las cuales 40 son páginas editoriales.
 - `npm run test:e2e`: 10 pruebas de navegación en móvil/escritorio superadas.
 - `npm run test:release`: 84 pruebas superadas sobre el sitio de producción compilado, incluidas las cuarenta guías en ambos tamaños, traducciones, imágenes, metadatos, sitemap y búsqueda.
@@ -26,14 +28,17 @@ Actualizado: 28 de octubre de 2026. Especificación vigente: `requirements.md` (
 - Todas las fotografías y variantes se decodifican y coinciden con dimensiones y hashes registrados.
 - `npm audit --omit=dev`: 0 vulnerabilidades reportadas.
 
-Estas verificaciones prueban la compilación local. No acreditan disponibilidad en el dominio público ni sustituyen la revisión factual y de licencias documentada.
+Además de estas verificaciones locales, se completaron **48 comprobaciones HTTP públicas**: portadas es/en, cuarenta guías, sitemap, robots, una URL inexistente con 404 y tres redirecciones www con 301. Las guías son indexables y conservan sus canonical. Los builds de Cloudflare terminaron correctamente. Las revisiones factuales y de licencias están documentadas por separado.
 
-## Publicación y tareas externas pendientes
+## GitHub y operación
 
-1. **Cloudflare:** CLOUDFLARE_API_TOKEN y CLOUDFLARE_ACCOUNT_ID están vinculados y disponibles. El token de cuenta está activo; la lectura de la zona maletafeliz.com responde HTTP 200 y su cuenta coincide. El intento de despliegue se detuvo en la primera llamada a Pages: HTTP 403, código 10000, tanto al consultar el proyecto como al listar proyectos. Revisar Account → Cloudflare Pages → Edit para esa cuenta. No se crearon proyectos ni cambiaron registros DNS.
-2. **Dominio:** los NS son de Cloudflare, pero la comprobación DNS no encontró A, AAAA ni CNAME en el dominio raíz. La verificación HTTPS pública no tuvo éxito. Después de desplegar, ejecutar `npm run verify:live` y confirmar DNS, certificado, guías, sitemap, robots y 404 reales.
-3. **GitHub:** entrega completa guardada en main, commit `ce45f1e`, con push confirmado. Incluye artículos, fuentes, licencias, fotos, revisiones, código y pruebas. Las pruebas descritas arriba son locales; no se afirma resultado de CI remoto sin consultarlo.
-4. **Publicación diaria:** ninguna tarea recurrente de Codex Cloud está configurada o probada. No hay herramienta expuesta para programarla ni consultar porcentaje de cuota. Se conserva el objetivo de las 07:00 America/New_York y el flujo manual `PUBLICAR 5 ARTÍCULOS`, sin APIs de pago.
-5. **Medición y monetización:** Search Console, GA4, anuncios y afiliados no están activados. Requieren datos reales y la configuración correspondiente después del lanzamiento.
+La entrega completa quedó guardada en main, con artículos, fuentes, licencias, fotos, revisiones, código y pruebas. Los commits de contenido inicial y redirección están preservados remotamente. Los detalles del despliegue público verificado, proyectos y commits se conservan en `editorial/publication.json`.
 
-El estado `published` de los JSON significa selección para compilación. **MaletaFeliz todavía no tiene un lanzamiento público verificado.**
+Las credenciales están disponibles y funcionan. El fallo inicial 403 se resolvió al actualizar el token. La subida directa con Wrangler encontró una incompatibilidad del proxy con el token temporal de assets; el despliegue definitivo utiliza la integración oficial de GitHub de Cloudflare.
+
+## Pendiente fuera del lanzamiento
+
+- **Redacción diaria:** ninguna tarea recurrente de Codex Cloud está configurada o probada. Esta sesión no expone un programador cloud ni el porcentaje de cuota. Se conserva el objetivo de las 07:00 America/New_York y el flujo manual `PUBLICAR 5 ARTÍCULOS`, sin APIs de IA de pago. La publicación automática de commits de GitHub no redacta artículos.
+- **Medición y monetización:** Search Console, GA4, anuncios y afiliados no están activados. Requieren datos reales y su configuración correspondiente.
+
+El estado `published` de los JSON selecciona contenido para compilar; `editorial/publication.json` registra la comprobación del dominio real.

@@ -53,6 +53,25 @@ if (home) {
   if (!robots.includes('Allow: /') || /Disallow: \/\s/.test(robots))
     errors.push('Production robots.txt blocks crawling');
   await get('/maletafeliz-launch-check-nonexistent/', 404);
+  for (const path of ['/', '/es/?ref=www-check', '/en/']) {
+    const url = 'https://www.maletafeliz.com' + path;
+    try {
+      const response = await fetch(url, {
+        redirect: 'manual',
+        signal: AbortSignal.timeout(30000),
+      });
+      const location = response.headers.get('location');
+      checked.push({ path: url, status: response.status, location });
+      if (response.status !== 301 || location !== origin + path)
+        errors.push(
+          `${url}: expected permanent redirect preserving path/query; received HTTP ${response.status} and ${location}`,
+        );
+    } catch (error) {
+      errors.push(
+        `${url}: redirect verification failed (${error.cause?.code || error.name})`,
+      );
+    }
+  }
 }
 const result = {
   checkedAt: new Date().toISOString(),

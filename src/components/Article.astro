@@ -1,5 +1,6 @@
 ---
 import { dictionary, type Locale } from '../i18n';
+import Advertisement from './Advertisement.astro';
 import {
   photoFor,
   photoSrcSet,
@@ -99,6 +100,7 @@ const format = (s?: string) =>
           ))}
         </dl>
       </div>
+      <Advertisement lang={lang} />
       {a.sections.map((s) => {
         const image = s.imageId && photoFor(s.imageId);
         return (

@@ -1,0 +1,33 @@
+---
+import type { Locale } from '../i18n';
+import { production } from '../lib/site';
+const { lang } = Astro.props as { lang: Locale };
+const label = lang === 'es' ? 'Publicidad' : 'Advertisement';
+---
+{production && (
+  <aside class="advertisement" aria-label={label} data-nosnippet>
+    <span class="advertisement-label">{label}</span>
+    <div class="advertisement-viewport">
+      <iframe
+        class="advertisement-frame"
+        src="/ads/banner.html"
+        title={label}
+        width="300"
+        height="250"
+        loading="lazy"
+        sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    </div>
+  </aside>
+)}
+<style>
+  .advertisement { margin: 2rem 0; display: grid; justify-items: center; gap: 8px; }
+  .advertisement-label { color: #657274; font: 11px/1.4 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+  .advertisement-viewport { width: 300px; height: 250px; overflow: hidden; background: #f5f3ef; }
+  .advertisement-frame { display: block; width: 300px; height: 250px; border: 0; }
+  @media (max-width: 360px) {
+    .advertisement-viewport { width: 264px; height: 220px; }
+    .advertisement-frame { transform: scale(.88); transform-origin: top left; }
+  }
+</style>

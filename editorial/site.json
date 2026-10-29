@@ -2,7 +2,7 @@
   "ownerName": "Luis Sebastian Cazorla Caruso",
   "contactEmail": "luterapps@gmail.com",
   "jurisdiction": "Argentina",
-  "legalReviewedAt": "2026-10-28T22:51:36.804753Z",
+  "legalReviewedAt": "2026-10-29T23:32:00.980520+00:00",
   "automation": {
     "status": "manual-only",
     "requestedLocalTime": "07:00",
@@ -12,7 +12,16 @@
     "cloudSchedulingVerified": false,
     "quotaVisibility": "unavailable"
   },
-  "legalContentHash": "ce8f1a620ac3a54eae55cd12597a24fa4ae747e418ae750a1b0b3c6b77060209",
+  "legalContentHash": "666fcd44ce9d8d30cc46ed3fbf6396e05da10b03d7a721cfcffe958f219888f0",
   "legalReviewedBy": "Codex — factual and technical editorial review",
-  "legalReviewScope": "Owner details and site behavior checked; no independent human review or legal professional advice claimed."
+  "legalReviewScope": "Owner details and actual site behavior checked by Codex; Adsterra banner and third-party request disclosures updated. No independent human review or legal professional advice claimed.",
+  "advertising": {
+    "provider": "Adsterra",
+    "format": "300x250 banner",
+    "scriptUrl": "https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e",
+    "placement": "one per article after introductory facts",
+    "loading": "automatic lazy iframe",
+    "creativeDeliveryVerified": false,
+    "lastProviderStatus": 403
+  }
 }

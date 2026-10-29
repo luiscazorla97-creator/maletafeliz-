@@ -87,11 +87,11 @@ export const legal = {
         ],
         [
           'Datos en esta versión',
-          'La búsqueda se realiza en el navegador. No se envían consultas a una base de datos propia. La preferencia de idioma se guarda localmente y puede eliminarse borrando los datos del sitio. No hay cuentas de usuario, newsletter, anuncios ni analítica activada.',
+          'La búsqueda se realiza en el navegador. No se envían consultas a una base de datos propia. La preferencia de idioma se guarda localmente y puede eliminarse borrando los datos del sitio. No hay cuentas de usuario, newsletter ni analítica propia activada. Las guías incorporan un banner publicitario de Adsterra.',
         ],
         [
           'Alojamiento y terceros',
-          'El alojamiento en Cloudflare procesa solicitudes y datos técnicos necesarios para servir y proteger la web, como direcciones IP. El sitio no mantiene una base de datos propia de visitantes. El proveedor gestiona sus registros según sus condiciones y política de privacidad, consultables en https://www.cloudflare.com/privacypolicy/. Los enlaces externos tienen sus propias políticas.',
+          'El alojamiento en Cloudflare procesa solicitudes y datos técnicos necesarios para servir y proteger la web, como direcciones IP. El sitio no mantiene una base de datos propia de visitantes. Al cargar el espacio publicitario, el navegador solicita recursos de terceros a bauval.org y a los proveedores que utilice Adsterra. Esas solicitudes pueden comunicar la dirección IP, datos del navegador y la página de referencia; los proveedores pueden utilizar cookies u otros identificadores según su configuración. Consulta https://adsterra.com/privacy-policy/ para información del proveedor. Las transferencias y plazos de conservación dependen de esos servicios. El proveedor gestiona sus registros según sus condiciones y política de privacidad, consultables en https://www.cloudflare.com/privacypolicy/. Los enlaces externos tienen sus propias políticas.',
         ],
         [
           'Consultas y derechos',
@@ -112,11 +112,11 @@ export const legal = {
         ],
         [
           'Data in this version',
-          'Search runs in your browser. Queries are not sent to our own database. Language preferences are stored locally and can be removed by clearing site data. User accounts, newsletters, advertising and analytics are not enabled.',
+          'Search runs in your browser. Queries are not sent to our own database. Language preferences are stored locally and can be removed by clearing site data. User accounts, newsletters and first-party analytics are not enabled. Travel guides include an Adsterra advertising banner.',
         ],
         [
           'Hosting and third parties',
-          'Cloudflare hosting processes requests and technical information needed to serve and protect the website, including IP addresses. This site does not maintain its own visitor database. The provider manages its records under its terms and privacy policy, available at https://www.cloudflare.com/privacypolicy/. External websites have their own policies.',
+          'Cloudflare hosting processes requests and technical information needed to serve and protect the website, including IP addresses. This site does not maintain its own visitor database. When the advertising slot loads, your browser requests third-party resources from bauval.org and providers used by Adsterra. These requests may transmit your IP address, browser information and referring page; providers may use cookies or other identifiers depending on their configuration. See https://adsterra.com/privacy-policy/ for provider information. Transfers and retention periods depend on those services. The provider manages its records under its terms and privacy policy, available at https://www.cloudflare.com/privacypolicy/. External websites have their own policies.',
         ],
         [
           'Enquiries and rights',
@@ -171,15 +171,15 @@ export const legal = {
       sections: [
         [
           'Qué utiliza esta versión',
-          'El sitio guarda la preferencia es/en en el almacenamiento local del navegador. No activa cookies publicitarias, herramientas de seguimiento ni analítica. La búsqueda funciona localmente.',
+          'El sitio guarda la preferencia es/en en el almacenamiento local del navegador. La búsqueda funciona localmente y no hay analítica propia. El banner publicitario carga recursos de terceros que pueden usar cookies u otros identificadores según la configuración del proveedor y del navegador.',
         ],
         [
           'Tu control',
           'Puedes eliminar la preferencia desde los ajustes del navegador. Las rutas /es/ y /en/ siempre siguen accesibles directamente. No hay redirecciones obligatorias por idioma.',
         ],
         [
-          'Antes de monetizar',
-          'Antes de añadir analítica o publicidad, se revisarán las tecnologías concretas, proveedores y requisitos de consentimiento de cada mercado. No se ha integrado todavía una plataforma de anuncios.',
+          'Publicidad de terceros',
+          'Las guías incluyen un banner Adsterra de 300 × 250, identificado como Publicidad. Se carga automáticamente cuando el navegador aproxima el espacio a la pantalla. Puedes gestionar o bloquear cookies y recursos de terceros desde tu navegador; hacerlo puede impedir que aparezca el anuncio. El contenido editorial sigue disponible.',
         ],
       ],
     },
@@ -188,15 +188,15 @@ export const legal = {
       sections: [
         [
           'What this version uses',
-          'The site stores your es/en language preference in browser local storage. Advertising cookies, tracking tools and analytics are not enabled. Search works locally.',
+          'The site stores your es/en language preference in browser local storage. Search works locally and first-party analytics are not enabled. The advertising banner loads third-party resources that may use cookies or other identifiers depending on provider and browser settings.',
         ],
         [
           'Your controls',
           'You can remove the preference in your browser settings. The /es/ and /en/ routes remain directly accessible. Language preferences do not force redirects.',
         ],
         [
-          'Before monetisation',
-          'Before adding analytics or advertising, the specific technologies, providers and consent requirements for each market will be reviewed. No advertising platform is integrated yet.',
+          'Third-party advertising',
+          'Guides include a 300 × 250 Adsterra banner labelled Advertisement. It loads automatically when the browser brings the slot near the screen. You can manage or block third-party cookies and resources in your browser; this may prevent the advertisement from appearing. Editorial content remains available.',
         ],
       ],
     },
@@ -223,7 +223,7 @@ export const legal = {
         ],
         [
           'Independencia y financiación',
-          'No hay publicidad ni enlaces afiliados activados. Si se incorporan, se identificarán las relaciones comerciales y se revisarán los requisitos de privacidad antes de activarlos.',
+          'La revista se financia en parte mediante un banner de Adsterra, separado del contenido y etiquetado como Publicidad. Los anuncios no constituyen recomendaciones editoriales ni modifican la selección de destinos. No hay enlaces afiliados activados.',
         ],
       ],
     },
@@ -248,7 +248,7 @@ export const legal = {
         ],
         [
           'Independence and funding',
-          'Advertising and affiliate links are not enabled. If introduced, commercial relationships will be disclosed and privacy requirements reviewed before activation.',
+          'The magazine is partly supported by an Adsterra banner, separated from content and labelled Advertisement. Advertisements are not editorial recommendations and do not determine destination selection. Affiliate links are not enabled.',
         ],
       ],
     },

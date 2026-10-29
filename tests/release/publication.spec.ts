@@ -1,5 +1,11 @@
 import { test, expect } from '@playwright/test';
 import { readdirSync, readFileSync } from 'node:fs';
+// Do not generate real ad impressions in automated content checks.
+test.beforeEach(async ({ page }) => {
+  await page.route('https://bauval.org/**', (route) =>
+    route.fulfill({ contentType: 'application/javascript', body: '/* test: no ad request */' }),
+  );
+});
 const articles = readdirSync('content/articles')
   .filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(readFileSync('content/articles/' + f, 'utf8')))

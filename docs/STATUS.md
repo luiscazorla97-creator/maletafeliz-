@@ -23,7 +23,7 @@ La web responde por HTTPS en https://maletafeliz.com/es/ y /en/. www.maletafeliz
 - `npm test`: 32 pruebas superadas, incluidos controles editoriales, búsqueda, idempotencia, archivos de imagen y protección DNS con API simulada.
 - `npm run build` y `npm run build:release`: compilaciones estáticas correctas; 216 páginas en cada compilación, de las cuales 60 son páginas editoriales.
 - `npm run test:e2e`: 10 pruebas de navegación en móvil/escritorio superadas.
-- `npm run test:release`: 124 pruebas superadas sobre el sitio de producción compilado, incluidas las sesenta guías en ambos tamaños, traducciones, imágenes, metadatos, sitemap y búsqueda.
+- `npm run test:release`: 128 pruebas superadas sobre el sitio de producción compilado, incluidas las sesenta guías en ambos tamaños, traducciones, imágenes, metadatos, sitemap y búsqueda.
 - Capturas de portada, Tokio, Cusco, Seúl en móvil y Nairobi en escritorio inspeccionadas. Sin desbordamiento horizontal en las sesenta guías.
 - Todas las fotografías y variantes se decodifican y coinciden con dimensiones y hashes registrados.
 - `npm audit --omit=dev`: 0 vulnerabilidades reportadas.
@@ -46,3 +46,11 @@ Las credenciales están disponibles y funcionan. El fallo inicial 403 se resolvi
 - **Medición y monetización:** Search Console, GA4, anuncios y afiliados no están activados. Requieren datos reales y su configuración correspondiente.
 
 El estado `published` de los JSON selecciona contenido para compilar; `editorial/publication.json` registra la comprobación del dominio real.
+
+## Publicidad — 29 de octubre de 2026
+
+Publicado un banner Adsterra de 300 × 250 por guía, con carga automática, espacio reservado en móvil y escritorio y etiqueta Publicidad/Advertisement. Las políticas de Cloudflare permiten el iframe del banner y sus recursos HTTPS sin ampliar los permisos de los artículos. Privacidad, cookies y financiación reflejan esta integración. No se añadió un diálogo de autorización, según la instrucción expresa del titular.
+
+La integración está verificada; la entrega de creatividades no. El script suministrado respondió HTTP 403 sin contenido en la solicitud directa y HTTP 200 con cuerpo de cero bytes al usar las cabeceras del navegador. No se atribuye el resultado a un fallo del token ni del alojamiento de MaletaFeliz. Evidencia: `editorial/verification/2026-10-29-advertising.json`.
+
+Pendiente: la campaña solicitada de 10 guías de Halloween y 5 de Día de Muertos todavía está en investigación; no está publicada ni incluida en las 30 guías actuales.

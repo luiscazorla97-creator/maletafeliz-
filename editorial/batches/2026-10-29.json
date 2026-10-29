@@ -1,0 +1,37 @@
+{
+  "id": "2026-10-29",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-10-29T16:16:24.778Z",
+  "status": "validated-awaiting-deployment",
+  "topicIds": [
+    "quebec",
+    "edinburgh",
+    "singapore",
+    "stone-town",
+    "wellington"
+  ],
+  "requestedCount": 5,
+  "publishedCount": 0,
+  "errors": [],
+  "localizationsPrepared": 10,
+  "photographsPrepared": 10,
+  "sourcesConsulted": 11,
+  "researchNotes": [
+    "The Zanzibar tourism candidate returned HTTP503; UNESCO heritage and conservation documents were consulted instead.",
+    "Several obsolete candidate URLs returned404 and were replaced with verified official pages.",
+    "Historical House of Wonders news is used only as conservation context, not a current opening statement."
+  ],
+  "validatedAt": "2026-10-29T16:35:16.373425+00:00",
+  "validation": {
+    "typeCheck": "passed",
+    "unitTests": 32,
+    "previewBrowserTests": 10,
+    "productionBrowserTests": 124,
+    "staticPages": 216,
+    "editorialErrors": 0,
+    "screenshotsReviewed": [
+      "Quebec mobile",
+      "Wellington desktop"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "id": "2026-10-28",
   "timeZone": "America/New_York",
   "createdAt": "2026-10-29T00:31:42.780Z",
-  "status": "validated-awaiting-deployment",
+  "status": "published-verified",
   "topicIds": [
     "vancouver",
     "lucerne",
@@ -11,7 +11,7 @@
     "hobart"
   ],
   "requestedCount": 5,
-  "publishedCount": 0,
+  "publishedCount": 5,
   "errors": [],
   "languages": [
     "es",
@@ -32,5 +32,39 @@
       "Seoul mobile",
       "Nairobi desktop"
     ]
+  },
+  "localizationsPublished": 10,
+  "publiclyVerifiedAt": "2026-10-29T00:43:45.111048+00:00",
+  "deploymentCommit": "63cd491ea251c80fc7aac705402707999892f320",
+  "verificationFile": "editorial/verification/2026-10-28.json",
+  "publicUrls": {
+    "vancouver": {
+      "es": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-vancouver/",
+      "en": "https://maletafeliz.com/en/guides/10-places-to-visit-in-vancouver/"
+    },
+    "lucerne": {
+      "es": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-lucerna/",
+      "en": "https://maletafeliz.com/en/guides/10-places-to-visit-in-lucerne/"
+    },
+    "seoul": {
+      "es": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-seul/",
+      "en": "https://maletafeliz.com/en/guides/10-places-to-visit-in-seoul/"
+    },
+    "nairobi": {
+      "es": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-nairobi/",
+      "en": "https://maletafeliz.com/en/guides/10-places-to-visit-in-nairobi/"
+    },
+    "hobart": {
+      "es": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-hobart/",
+      "en": "https://maletafeliz.com/en/guides/10-places-to-visit-in-hobart/"
+    }
+  },
+  "githubQualityCheck": {
+    "http": 200,
+    "id": 40795549820,
+    "commit": "63cd491ea251c80fc7aac705402707999892f320",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/40795549820"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-10-29T00:13:20.813Z",
+  "verifiedAt": "2026-10-29T00:43:45.111048+00:00",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 20,
-  "localizations": 40,
-  "photos": 40,
-  "httpChecks": 48,
+  "originals": 25,
+  "localizations": 50,
+  "photos": 50,
+  "httpChecks": 71,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "3e5d6b82-9191-4cdd-9652-ba31a520af32",
-      "commit": "22fdde1c04a455d2118c199a0182b72d58b06185",
+      "deploymentId": "79c31f16-e777-4ebf-b5d6-16f010a3be6e",
+      "commit": "63cd491ea251c80fc7aac705402707999892f320",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,13 +36,20 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "427fe839-325f-4799-a3f1-73f012bb6cbf",
-      "commit": "eb9c1048e52a474b866d98b87a8fe40d01a2b7c6",
+      "deploymentId": "488aec5c-f649-4d5b-acc9-1a4a9a802f9f",
+      "commit": "63cd491ea251c80fc7aac705402707999892f320",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
   ],
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
-  "deploymentMode": "github-build-triggered-through-cloudflare-api"
+  "deploymentMode": "github-build-triggered-through-cloudflare-api",
+  "citedSourceDocuments": 217,
+  "latestBatch": "2026-10-28",
+  "verificationFile": "editorial/verification/2026-10-28.json",
+  "httpCheckBreakdown": {
+    "siteAndRedirects": 58,
+    "batchDiscoveryAndPhotos": 13
+  }
 }

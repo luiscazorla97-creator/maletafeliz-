@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-10-29T23:56:57.449Z",
+  "pages": [
+    {
+      "url": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-quebec/",
+      "status": 200,
+      "directTagCount": 1,
+      "wrapperAbsent": true,
+      "optionsBeforeTag": true,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' https: data:; font-src 'self' https: data:; connect-src 'self' https:; frame-src 'self' https:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'",
+      "httpsScriptsPermitted": true,
+      "httpsFramesPermitted": true
+    },
+    {
+      "url": "https://maletafeliz.com/en/guides/5-places-to-visit-in-wellington/",
+      "status": 200,
+      "directTagCount": 1,
+      "wrapperAbsent": true,
+      "optionsBeforeTag": true,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' https: data:; font-src 'self' https: data:; connect-src 'self' https:; frame-src 'self' https:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'",
+      "httpsScriptsPermitted": true,
+      "httpsFramesPermitted": true
+    }
+  ],
+  "browserProbe": {
+    "mode": "Live HTML and response headers via TLS-verified proxy fetch; provider replaced by a local diagnostic script, not a real creative.",
+    "storage": "ok",
+    "topContext": "true",
+    "options": {
+      "key": "c5a78736a50be383ac6b05853c770b4e",
+      "format": "iframe",
+      "height": 250,
+      "width": 300,
+      "params": {}
+    },
+    "editorialRetained": true,
+    "noHorizontalOverflow": true
+  },
+  "creativeDeliveryVerified": false,
+  "homePolicy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'",
+  "providerObservation": {
+    "status": 403,
+    "bytes": 0,
+    "limitation": "Server-side request from this cloud environment; not evidence of delivery or failure for normal visitors."
+  },
+  "deployments": [
+    {
+      "project": "maletafeliz-web",
+      "hostname": "maletafeliz.com",
+      "pagesSubdomain": "maletafeliz-web.pages.dev",
+      "deploymentId": "278aae90-634d-46b1-b0ab-e0db88368448",
+      "buildStatus": "success",
+      "buildVerified": true,
+      "stage": "deploy",
+      "commit": "69a801a39a6a99cacaf7ba5b246146d88a1a4b42"
+    },
+    {
+      "project": "maletafeliz-www",
+      "hostname": "www.maletafeliz.com",
+      "pagesSubdomain": "maletafeliz-www.pages.dev",
+      "deploymentId": "f99934cd-8486-4e2b-ba55-ab1515670b40",
+      "buildStatus": "success",
+      "buildVerified": true,
+      "stage": "deploy",
+      "commit": "69a801a39a6a99cacaf7ba5b246146d88a1a4b42"
+    }
+  ],
+  "tests": {
+    "unit": 32,
+    "previewBrowser": 10,
+    "releaseBrowser": 130
+  },
+  "regressionReproduced": "SecurityError accessing localStorage from the previous sandbox wrapper; the direct tag probe accesses localStorage and sessionStorage successfully."
+}

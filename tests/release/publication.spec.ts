@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import { readdirSync, readFileSync } from 'node:fs';
 // Do not generate real ad impressions in automated content checks.
 test.beforeEach(async ({ page }) => {
+  await page.route('https://abscloud.org/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* no real popunders */' }));
   await page.route('https://www.googletagmanager.com/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* mock Analytics: no real collection */' }));
   await page.route('https://pagead2.googlesyndication.com/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* mock AdSense: no real ad impressions */' }));
   await page.route('https://bauval.org/**', (route) =>

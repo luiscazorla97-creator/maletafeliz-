@@ -5,6 +5,8 @@ import { route } from '../lib/routes';
 import { absolute, production } from '../lib/site';
 import Icon from '../components/Icon.astro';
 import Advertisement from '../components/Advertisement.astro';
+import NativeAdvertisement from '../components/NativeAdvertisement.astro';
+import PopunderAdvertisement from '../components/PopunderAdvertisement.astro';
 import AnalyticsConsent from '../components/AnalyticsConsent.astro';
 interface Props {
   lang: Locale;
@@ -158,6 +160,7 @@ const links = [
         {showAdvertisement && <Advertisement lang={lang} placement="top" />}
         <slot />
         {showAdvertisement && <Advertisement lang={lang} placement="bottom" />}
+        {showAdvertisement && <NativeAdvertisement lang={lang} />}
       </main>
       {showAdvertisement && <Advertisement lang={lang} placement="right" />}
     </div>
@@ -236,6 +239,7 @@ const links = [
         </span>
       </div>
     </footer>
+    {showAdvertisement && <PopunderAdvertisement />}
     <script>
       const lang = document.documentElement.lang;
       try {

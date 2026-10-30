@@ -1,0 +1,18 @@
+---
+import type { Locale } from '../i18n';
+import { production } from '../lib/site';
+const { lang } = Astro.props as { lang: Locale };
+const label = lang === 'es' ? 'Publicidad' : 'Advertisement';
+---
+{production && (
+  <aside class="native-advertisement shell" aria-label={label} data-nosnippet>
+    <span class="native-advertisement-label">{label}</span>
+    <!-- The target exists before the asynchronous provider script executes. -->
+    <div id="container-baf26907b67b4fd5cdb22901aa38108e"></div>
+    <script is:inline async data-cfasync="false" src="https://bauval.org/21/baf26907b67b4fd5cdb22901aa38108e"></script>
+  </aside>
+)}
+<style>
+  .native-advertisement { min-width: 0; margin-block: 40px; }
+  .native-advertisement-label { display: block; margin-bottom: 12px; text-align: center; color: #657274; font: 11px/1.4 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+</style>

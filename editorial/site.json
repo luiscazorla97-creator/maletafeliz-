@@ -2,7 +2,7 @@
   "ownerName": "Luis Sebastian Cazorla Caruso",
   "contactEmail": "luterapps@gmail.com",
   "jurisdiction": "Argentina",
-  "legalReviewedAt": "2026-10-30T21:55:52.860Z",
+  "legalReviewedAt": "2026-10-30T23:21:45.229Z",
   "automation": {
     "status": "manual-only",
     "requestedLocalTime": "07:00",
@@ -12,9 +12,9 @@
     "cloudSchedulingVerified": false,
     "quotaVisibility": "unavailable"
   },
-  "legalContentHash": "27486ec95085e4f546d245c0eac5f5379ad896d3e67b97f5a136866a2622198a",
+  "legalContentHash": "6edd9bc778392131ee1381c03b897844283839cfc4b29bdc5dd94a5d79de5d6d",
   "legalReviewedBy": "Codex — factual and technical editorial review",
-  "legalReviewScope": "Technical and editorial review of both language disclosures for Google Analytics 4 and restored Adsterra placements alongside AdSense verification. No legal professional advice or Google approval claimed.",
+  "legalReviewScope": "Technical and editorial review of ES/EN disclosures for owner-requested native and interaction-initialized popunder advertising. No professional legal advice or Google approval claimed.",
   "advertising": {
     "provider": "Adsterra",
     "format": "300x250 banner",
@@ -32,7 +32,32 @@
     "status": "enabled-at-owner-request",
     "disabledAt": "2026-10-30T20:11:50.890Z",
     "reactivatedAt": "2026-10-30T21:48:06.533Z",
-    "lastProviderCheckedAt": "2026-10-30T21:48:06.533Z"
+    "lastProviderCheckedAt": "2026-10-30T21:48:06.533Z",
+    "native": {
+      "enabled": true,
+      "scriptUrl": "https://bauval.org/21/baf26907b67b4fd5cdb22901aa38108e",
+      "containerId": "container-baf26907b67b4fd5cdb22901aa38108e",
+      "placement": "once at the end of content before the footer; legal pages and 404 excluded",
+      "loading": "asynchronous, directly in the page, data-cfasync=false",
+      "integrationVerified": false,
+      "creativeDeliveryVerified": false,
+      "lastProviderStatus": 403,
+      "lastProviderResponseBytes": 0,
+      "checkedAt": "2026-10-30T23:21:45.229Z"
+    },
+    "popunder": {
+      "enabled": true,
+      "scriptUrl": "https://abscloud.org/1/7a7683e73ba102718744e3df1c9fbe35",
+      "loading": "initialized once after a trusted primary click in main editorial content; no automatic popup, synthetic click or navigation cancellation by site code",
+      "exclusions": "legal pages, 404, previews, initial consent/settings clicks and clicks inside ad slots",
+      "integrationVerified": false,
+      "creativeDeliveryVerified": false,
+      "lastProviderStatus": 403,
+      "lastProviderResponseBytes": 0,
+      "checkedAt": "2026-10-30T23:21:45.229Z",
+      "adsensePolicyConflict": "Google prohibits its ads on sites that contain or trigger popunders; remove popunder before using AdSense.",
+      "policyUrl": "https://support.google.com/adsense/answer/1346295?hl=es"
+    }
   },
   "adsense": {
     "publisherId": "ca-pub-1382859681401211",

@@ -3,10 +3,14 @@ import { readFileSync, readdirSync } from 'node:fs';
 
 const headersFile = readFileSync('public/_headers', 'utf8');
 const adsenseScript = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1382859681401211';
+const nativeScript = 'https://bauval.org/21/baf26907b67b4fd5cdb22901aa38108e';
+const nativeContainer = '#container-baf26907b67b4fd5cdb22901aa38108e';
+const popunderScript = 'https://abscloud.org/1/7a7683e73ba102718744e3df1c9fbe35';
 const analyticsScript = 'https://www.googletagmanager.com/gtag/js?id=G-RQKZL13K0Z';
 // Avoid real advertising impressions and analytics events in all browser checks.
 // Astro preview does not apply _headers; apply the matching production CSP here.
 test.beforeEach(async ({ page }) => {
+  await page.route('https://abscloud.org/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* Popunder test stub: no real windows */' }));
   await page.route('https://pagead2.googlesyndication.com/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* AdSense test stub */' }));
   await page.route('https://www.googletagmanager.com/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* Analytics test stub: no collection */' }));
   await page.route('https://bauval.org/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* Adsterra test stub */' }));
@@ -35,6 +39,9 @@ test('all production pages require Analytics consent and preserve advertising ex
     expect(html, path).toContain('id="analytics-consent"');
     expect(html.split(`src="${adsenseScript}"`).length - 1, path).toBe(noAd ? 0 : 1);
     expect((html.match(/data-ad-placement="(top|bottom|left|right)"/g) || []).length, path).toBe(noAd ? 0 : 4);
+    expect(html.split(`src="${nativeScript}"`).length - 1, path).toBe(noAd ? 0 : 1);
+    expect(html.split(`id="${nativeContainer.slice(1)}"`).length - 1, path).toBe(noAd ? 0 : 1);
+    expect(html.split(popunderScript).length - 1, path).toBe(noAd ? 0 : 1);
     if (noAd) { expect(html, path).not.toContain('src="https://bauval.org/'); excluded++; }
   }
   expect(excluded).toBe(9);
@@ -77,7 +84,7 @@ test('banners load in their own slots without covering content or requesting hid
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
   const banner = '<iframe data-test-banner title="Test advertisement" width="300" height="250" srcdoc="<body style=\'margin:0;background:#f5dbc5;display:grid;place-items:center;height:100vh;font:18px Arial\'>Publicidad · prueba</body>"></iframe>';
-  await page.route('https://bauval.org/**', async route => {
+  await page.route('https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e', async route => {
     await route.fulfill({ contentType: 'application/javascript', body: `(() => {
       if (window.top !== window) throw Error('Provider sandboxed');
       localStorage.setItem('maletafeliz-ad-test', 'ok'); localStorage.removeItem('maletafeliz-ad-test');
@@ -86,12 +93,31 @@ test('banners load in their own slots without covering content or requesting hid
       document.write(${JSON.stringify(banner)});
     })();` });
   });
+  await page.route(nativeScript, route => route.fulfill({ contentType: 'application/javascript', body: `(() => {
+    const target = document.querySelector('${nativeContainer}');
+    if (!target) throw Error('Native container not ready');
+    target.dataset.nativeReady = 'true';
+    const card = document.createElement('div');
+    card.textContent = 'Publicidad nativa · prueba';
+    card.style.cssText = 'background:#f5dbc5;padding:24px;min-height:140px;display:grid;place-items:center';
+    target.append(card);
+  })();` }));
   for (const width of [320, 390, 1440, 1919, 1920, 2560]) {
     await page.setViewportSize({width, height: 1000});
     await page.goto('/es/guias/que-ver-en-madrid-3-lugares/');
     const count = width >= 1920 ? 4 : 2;
     await expect(page.locator('iframe[data-test-banner]')).toHaveCount(count);
     await expect(page.locator('.advertisement:visible')).toHaveCount(count);
+    await expect(page.locator(nativeContainer)).toHaveCount(1);
+    await expect(page.locator(nativeContainer)).toHaveAttribute('data-native-ready', 'true');
+    await expect(page.locator(`script[src="${nativeScript}"]`)).toHaveAttribute('async', '');
+    await expect(page.locator(`script[src="${nativeScript}"]`)).toHaveAttribute('data-cfasync', 'false');
+    expect(await page.locator('.native-advertisement iframe').count()).toBe(0);
+    const nativeBox = await page.locator('.native-advertisement').boundingBox();
+    const bottomBox = await page.locator('#advertisement-bottom').boundingBox();
+    const footerBox = await page.locator('footer').boundingBox();
+    expect(nativeBox!.y).toBeGreaterThanOrEqual(bottomBox!.y + bottomBox!.height);
+    expect(nativeBox!.y + nativeBox!.height).toBeLessThanOrEqual(footerBox!.y);
     const calls = await page.evaluate(() => (window as any).__adCalls);
     expect(calls.map((c: any) => c.position)).toEqual(width >= 1920 ? ['left', 'top', 'bottom', 'right'] : ['top', 'bottom']);
     for (const call of calls) expect(call.options).toEqual({key:'c5a78736a50be383ac6b05853c770b4e',format:'iframe',height:250,width:300,params:{}});
@@ -117,7 +143,7 @@ test('banners load in their own slots without covering content or requesting hid
 
 test('failed advertising and Analytics scripts leave the complete guide usable', async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem('maletafeliz-analytics-consent', 'granted'));
-  await page.route(/https:\/\/(pagead2\.googlesyndication\.com|www\.googletagmanager\.com|bauval\.org)\//, route => route.fulfill({ status: 403, body: '' }));
+  await page.route(/https:\/\/(pagead2\.googlesyndication\.com|www\.googletagmanager\.com|bauval\.org|abscloud\.org)\//, route => route.fulfill({ status: 403, body: '' }));
   await page.goto('/en/guides/3-places-to-visit-in-luxor/');
   await expect(page.locator('h1')).toContainText('Luxor');
   await expect(page.locator('#faq')).toBeAttached();
@@ -127,15 +153,15 @@ test('failed advertising and Analytics scripts leave the complete guide usable',
 
 test('legal pages and 404 have consent controls but make no advertising requests', async ({ page }) => {
   const requests: string[] = [];
-  await page.route(/https:\/\/(pagead2\.googlesyndication\.com|bauval\.org)\//, route => { requests.push(route.request().url()); return route.abort(); });
+  await page.route(/https:\/\/(pagead2\.googlesyndication\.com|bauval\.org|abscloud\.org)\//, route => { requests.push(route.request().url()); return route.abort(); });
   for (const lang of ['es', 'en']) for (const id of ['privacy', 'terms', 'cookies', 'photography']) {
     await page.goto(`/${lang}/${lang === 'es' ? 'informacion' : 'information'}/${id}/`);
-    await expect(page.locator('script[src*="adsbygoogle.js"], .advertisement')).toHaveCount(0);
+    await expect(page.locator('script[src*="adsbygoogle.js"], .advertisement, .native-advertisement, #adsterra-popunder-script')).toHaveCount(0);
     await expect(page.locator('script[src*="googletagmanager.com/gtag/js"]')).toHaveCount(0);
     await expect(page.locator('#analytics-consent')).toBeVisible();
   }
   await page.goto('/404.html');
-  await expect(page.locator('script[src*="adsbygoogle.js"], .advertisement')).toHaveCount(0);
+  await expect(page.locator('script[src*="adsbygoogle.js"], .advertisement, .native-advertisement, #adsterra-popunder-script')).toHaveCount(0);
   expect(requests).toEqual([]);
 });
 
@@ -202,4 +228,31 @@ test('unavailable local storage never enables Analytics without an explicit choi
   expect(requests).toBe(0);
   await page.getByRole('button', {name:'Aceptar Analytics',exact:true}).click();
   await expect.poll(() => requests).toBe(1);
+});
+
+test('popunder initializes once on trusted content interaction without cancelling navigation', async ({ page }) => {
+  let requests = 0;
+  const popups: string[] = [];
+  page.on('popup', popup => popups.push(popup.url()));
+  await page.route(popunderScript, route => { requests++; return route.fulfill({contentType:'application/javascript',body:'window.__popunderMockLoaded = true;'}); });
+  await page.goto('/es/guias/que-ver-en-madrid-3-lugares/');
+  expect(requests).toBe(0);
+  await page.locator('h1').evaluate(node => (node as HTMLElement).click());
+  expect(requests).toBe(0);
+  await page.getByRole('button', {name:'Rechazar',exact:true}).click();
+  expect(requests).toBe(0);
+  await page.locator('h1').click();
+  await expect.poll(() => requests).toBe(1);
+  await expect(page.locator('#adsterra-popunder-script')).toHaveAttribute('src', popunderScript);
+  await expect(page.locator('#adsterra-popunder-script')).toHaveAttribute('data-cfasync', 'false');
+  await expect.poll(() => page.evaluate(() => (window as any).__popunderMockLoaded)).toBe(true);
+  await page.locator('h1').click();
+  expect(requests).toBe(1);
+  await page.locator('.breadcrumbs a').last().click();
+  await expect(page).toHaveURL('/es/destinos/madrid/');
+  expect(popups).toEqual([]);
+  await page.goto('/en/information/privacy/');
+  await page.locator('h1').click();
+  expect(requests).toBe(1);
+  await expect(page.locator('#adsterra-popunder-script')).toHaveCount(0);
 });

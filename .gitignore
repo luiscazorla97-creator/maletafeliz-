@@ -13,3 +13,12 @@ test-results/
 # Local authoring and raw research caches
 .seasonal-drafts/
 editorial/seasonal-research/raw/
+
+# Candidate searches and temporary download state; selected provenance lives in content/images/evidence.
+editorial/seasonal-research/*
+!editorial/seasonal-research/selected-place-photos.json
+!editorial/seasonal-research/place-photo-reuse.json
+!editorial/seasonal-research/photo-visual-review.json
+!editorial/seasonal-research/photo-alt-refinements.json
+!editorial/seasonal-research/place-photo-assignment-audit.json
+!editorial/seasonal-research/place-photo-completion.json

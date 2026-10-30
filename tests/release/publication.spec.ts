@@ -66,6 +66,11 @@ for (const article of articles) {
     );
     expect(jsonLd['@graph'][0].headline).toBe(article.title);
     expect(jsonLd['@graph'][0].inLanguage).toBe(article.locale);
+    for (const place of article.sections.filter((s: any) => s.kind === 'place')) {
+      await expect(
+        page.locator(`.prose section[aria-labelledby="${place.id}"] figure img`),
+      ).toHaveCount(1);
+    }
     for (const image of await page
       .locator('.article-cover img,.prose figure img')
       .all()) {

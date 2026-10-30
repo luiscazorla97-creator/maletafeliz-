@@ -1,7 +1,7 @@
 {
-  "contentHash": "e51e1226c3b67ab6c35763e3d2079a2da83c735d5e130a0276e38f5dc6edce36",
+  "contentHash": "e6983187ff3403008d87579a077fed2ec67fbc0c9a00dabba5f161883d30191c",
   "reviewer": "Codex editorial review (AI-assisted)",
-  "reviewedAt": "2026-10-28T23:16:18.052Z",
+  "reviewedAt": "2026-10-30T02:01:03.885Z",
   "checks": {
     "facts": true,
     "sourceRelevance": true,
@@ -13,5 +13,7 @@
     "timeSensitiveFacts": true,
     "internalLinks": true
   },
-  "notes": "Reviewed both language versions against preserved official source captures, with Chatuchak visitor website used only for market categories and weekend identity. Source evidence is shared across translations. Exact mutable prices, operating hours and guaranteed access omitted. Image file pages and licenses inspected; photographs visually matched and attributed. Kyoto Kinkaku-ji historical photo explicitly discloses source-author retouching. Related guides are all present in both languages. Status selects approved content for the local build; it does not assert public deployment."
+  "previousContentHash": "e51e1226c3b67ab6c35763e3d2079a2da83c735d5e130a0276e38f5dc6edce36",
+  "previousReviewedAt": "2026-10-28T23:16:18.052Z",
+  "notes": "Photo-only substantive update: every recommended place now has a relevant licensed documentary photograph in both languages. Text, facts, sources, titles, URLs, related links and original publication date were compared byte-for-byte after excluding section image bindings and updatedAt; they are unchanged from the previously approved manuscript (2026-10-28T23:16:18.052Z). The earlier factual, language and source review is retained for that unchanged text, not presented as new field reporting. Newly assigned photographs were matched to their Commons file-page descriptions, visually inspected and checked for the exact licence, author, dimensions and image hash. Descriptive Spanish/English captions distinguish details, viewpoints and archive images; Bob’s Cove uses an explicitly historical photograph. Reused photographs retain their previous verified provenance. Responsive WebP variants, attribution and share-alike terms remain attached. Public rollout is recorded separately after deployment."
 }

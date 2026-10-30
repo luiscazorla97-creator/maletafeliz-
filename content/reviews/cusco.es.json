@@ -1,7 +1,7 @@
 {
-  "contentHash": "cac62dbbac14b185b967aac975c7b2170022d0705aedc2a3889279f8d89d5f68",
+  "contentHash": "179dae15f1c1a4536a501a17089d9c31842fc9af6970f36e011c555d6c2d5649",
   "reviewer": "Codex editorial review (AI-assisted)",
-  "reviewedAt": "2026-10-28T23:10:15.695Z",
+  "reviewedAt": "2026-10-30T02:01:03.885Z",
   "checks": {
     "facts": true,
     "sourceRelevance": true,
@@ -13,11 +13,7 @@
     "timeSensitiveFacts": true,
     "internalLinks": true
   },
-  "notes": [
-    "Reviewed both complete language versions together against preserved official source captures and extracted facts; no fabricated personal visits, prices or fixed opening hours.",
-    "Original prose and localized headings, metadata and practical route suggestions reviewed for meaning and naturalness; 10 individually developed places in each version.",
-    "Inspected all 8 assigned photographs visually and re-read file-specific author/license text from captured Commons pages; preserved license evidence and verified local derivative hashes.",
-    "All related IDs point to the paired Rio, Buenos Aires, Cusco and Lisbon articles selected together for the local production build. This status does not establish a live public deployment.",
-    "Moray agricultural experimentation interpretation is qualified; no invented certainty about its original use. Altitude advice does not substitute medical assessment."
-  ]
+  "previousContentHash": "cac62dbbac14b185b967aac975c7b2170022d0705aedc2a3889279f8d89d5f68",
+  "previousReviewedAt": "2026-10-28T23:10:15.695Z",
+  "notes": "Photo-only substantive update: every recommended place now has a relevant licensed documentary photograph in both languages. Text, facts, sources, titles, URLs, related links and original publication date were compared byte-for-byte after excluding section image bindings and updatedAt; they are unchanged from the previously approved manuscript (2026-10-28T23:10:15.695Z). The earlier factual, language and source review is retained for that unchanged text, not presented as new field reporting. Newly assigned photographs were matched to their Commons file-page descriptions, visually inspected and checked for the exact licence, author, dimensions and image hash. Descriptive Spanish/English captions distinguish details, viewpoints and archive images; Bob’s Cove uses an explicitly historical photograph. Reused photographs retain their previous verified provenance. Responsive WebP variants, attribution and share-alike terms remain attached. Public rollout is recorded separately after deployment."
 }

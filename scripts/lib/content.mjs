@@ -170,6 +170,8 @@ export function validateEditorial({
       ids.add(s.id);
       if (s.kind === 'place' && s.paragraphs.join(' ').split(/\s+/).length < 70)
         fail(`place ${s.id} lacks depth`);
+      if (s.kind === 'place' && !s.imageId)
+        fail(`place ${s.id} requires its own photograph`);
       for (const id of s.sourceIds)
         if (!sourceIds.has(id)) fail(`unknown source ${id}`);
     }

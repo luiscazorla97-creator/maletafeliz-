@@ -1,7 +1,7 @@
 {
-  "contentHash": "fef2c59daaf063027428ad941964bc8c8f682386837bc434c73a00f9608f8866",
+  "contentHash": "42b2f3e69a6451d4343116921ff679feae4316162a6929f9a1422926dc67e3c9",
   "reviewer": "Codex editorial review (AI-assisted)",
-  "reviewedAt": "2026-10-29T00:36:03.047Z",
+  "reviewedAt": "2026-10-30T02:01:03.885Z",
   "checks": {
     "facts": true,
     "sourceRelevance": true,
@@ -13,5 +13,7 @@
     "timeSensitiveFacts": true,
     "internalLinks": true
   },
-  "notes": "Reviewed both language versions against ten captured official institutional/operator sources, including Sheldrick advance confirmation, separate KWS admission and nursery donation, keeper-only direct animal interaction, Karura entrances and cashless payment considerations. No unsupported prices, opening times, travel-time or sighting guarantees. KWS HTTP503 and discarded sources recorded in nairobi-research-log.json. Dates on old Giraffe Centre/Arboretum closure notices checked; not represented as current closures. Original prose, matching factual meaning, itinerary alternatives and existing cape-town/marrakech related guides reviewed. Both actual WebP photographs inspected visually; exact Commons file pages and metadata read: Lmwangi Nairobi skyline from Upper Hill (2008), CC BY-SA 3.0; Shadychiri ostrich in Nairobi National Park (2025), CC BY 4.0. Historical cover year must remain identified in credit/ALT; interior placed in the national park section. Selection for release build only, not proof of public deployment."
+  "previousContentHash": "fef2c59daaf063027428ad941964bc8c8f682386837bc434c73a00f9608f8866",
+  "previousReviewedAt": "2026-10-29T00:36:03.047Z",
+  "notes": "Photo-only substantive update: every recommended place now has a relevant licensed documentary photograph in both languages. Text, facts, sources, titles, URLs, related links and original publication date were compared byte-for-byte after excluding section image bindings and updatedAt; they are unchanged from the previously approved manuscript (2026-10-29T00:36:03.047Z). The earlier factual, language and source review is retained for that unchanged text, not presented as new field reporting. Newly assigned photographs were matched to their Commons file-page descriptions, visually inspected and checked for the exact licence, author, dimensions and image hash. Descriptive Spanish/English captions distinguish details, viewpoints and archive images; Bob’s Cove uses an explicitly historical photograph. Reused photographs retain their previous verified provenance. Responsive WebP variants, attribution and share-alike terms remain attached. Public rollout is recorded separately after deployment."
 }

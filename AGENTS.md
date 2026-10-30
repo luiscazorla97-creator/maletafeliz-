@@ -8,6 +8,7 @@ The current specification is docs/requirements.md. It supersedes earlier project
 - Do not launch publicly until the twenty requested originals and all forty complete localisations pass research, image, editorial, build and browser checks.
 - `npm run build` creates a noindex design preview. `npm run build:release` is the mandatory production gate. Do not bypass it or lower checks to obtain a passing build.
 - Content lives in `content/articles/*.json`; geographic coverage and unique intent in `editorial/plan.json`; source evidence in `content/research/`; exact image permissions in `content/images/manifest.json`; content-hash approvals in `content/reviews/`.
+- Every recommended place (`kind: place`) must have its own relevant, licensed documentary photograph. A cover image elsewhere in the guide does not satisfy this requirement. Match the actual place, retain attribution, and use optimized responsive images in both languages.
 - Read `docs/EDITORIAL.md` before handling `PUBLICAR 5 ARTÍCULOS`. Research real sources, reuse facts/photos across languages, keep incomplete items pending, and record external blockers.
 - The batch reservation command is not an AI writer, scheduler or publication command. No persistent Codex cloud scheduler has been verified. Never claim an active daily task without actual configuration and a witnessed run.
 - No quota percentage is available in this environment. Reduce a batch when necessary, never buy credits.

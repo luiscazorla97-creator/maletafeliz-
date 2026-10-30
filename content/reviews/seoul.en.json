@@ -1,7 +1,7 @@
 {
-  "contentHash": "ab5dbedfc2ce2b6c24abdfddb94a83a069365ce58022c58a52831946f90a65a0",
+  "contentHash": "339eca60ff028c0fb1c3e8b4bf47ede3394cc32cf3d48cd959d0ea3e1b6edf99",
   "reviewer": "Codex editorial review (AI-assisted)",
-  "reviewedAt": "2026-10-29T00:36:25.215Z",
+  "reviewedAt": "2026-10-30T02:01:03.885Z",
   "checks": {
     "facts": true,
     "sourceRelevance": true,
@@ -13,5 +13,7 @@
     "timeSensitiveFacts": true,
     "internalLinks": true
   },
-  "notes": "Both languages checked against10 official source captures; quotations checked against captured text, promotional claims and user reviews excluded. Bukchon red-zone10:00–17:00 rule and residential guidance checked against current official listing. Mutable prices and unverified transit times omitted; itineraries are explicitly editorial suggestions. Both local photographs visually inspected: Geunjeongjeon/Gyeongbokgung by Basile Morin (2024, CC BY-SA4.0) and Injeongjeon/Changdeokgung by Bernard Gagnon (2022, CC0). Specific Commons file pages and licenses inspected, original authors retained; image2 belongs to Changdeokgung section. Candidate Namsan photograph rejected by photo review for an architectural copyright warning. Exact paragraph duplication check found none; Tokyo, Kyoto and Bangkok related guides exist in both published languages. Published status selects this approved article for the build, not a claim of live deployment."
+  "previousContentHash": "ab5dbedfc2ce2b6c24abdfddb94a83a069365ce58022c58a52831946f90a65a0",
+  "previousReviewedAt": "2026-10-29T00:36:25.215Z",
+  "notes": "Photo-only substantive update: every recommended place now has a relevant licensed documentary photograph in both languages. Text, facts, sources, titles, URLs, related links and original publication date were compared byte-for-byte after excluding section image bindings and updatedAt; they are unchanged from the previously approved manuscript (2026-10-29T00:36:25.215Z). The earlier factual, language and source review is retained for that unchanged text, not presented as new field reporting. Newly assigned photographs were matched to their Commons file-page descriptions, visually inspected and checked for the exact licence, author, dimensions and image hash. Descriptive Spanish/English captions distinguish details, viewpoints and archive images; Bob’s Cove uses an explicitly historical photograph. Reused photographs retain their previous verified provenance. Responsive WebP variants, attribution and share-alike terms remain attached. Public rollout is recorded separately after deployment."
 }

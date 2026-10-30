@@ -43,7 +43,8 @@
       ],
       "sourceIds": [
         "paris-mustsees"
-      ]
+      ],
+      "imageId": "paris-eiffel"
     },
     {
       "id": "louvre",
@@ -55,7 +56,8 @@
       ],
       "sourceIds": [
         "paris-louvre"
-      ]
+      ],
+      "imageId": "place-paris-louvre"
     },
     {
       "id": "tuileries",
@@ -68,7 +70,8 @@
       "sourceIds": [
         "paris-tuileries",
         "paris-louvre"
-      ]
+      ],
+      "imageId": "place-paris-tuileries"
     },
     {
       "id": "orsay",
@@ -80,7 +83,8 @@
       ],
       "sourceIds": [
         "paris-mustsees"
-      ]
+      ],
+      "imageId": "place-paris-orsay"
     },
     {
       "id": "notre-dame",
@@ -106,7 +110,8 @@
       ],
       "sourceIds": [
         "paris-mustsees"
-      ]
+      ],
+      "imageId": "place-paris-sainte-chapelle"
     },
     {
       "id": "arc-triomphe",
@@ -118,7 +123,8 @@
       ],
       "sourceIds": [
         "paris-mustsees"
-      ]
+      ],
+      "imageId": "place-paris-arc-triomphe"
     },
     {
       "id": "champs-elysees",
@@ -131,7 +137,8 @@
       "sourceIds": [
         "paris-mustsees",
         "paris-weekend"
-      ]
+      ],
+      "imageId": "place-paris-champs-elysees"
     },
     {
       "id": "montmartre",
@@ -144,7 +151,8 @@
       "sourceIds": [
         "paris-mustsees",
         "paris-weekend"
-      ]
+      ],
+      "imageId": "place-paris-montmartre"
     },
     {
       "id": "sacre-coeur",
@@ -156,7 +164,8 @@
       ],
       "sourceIds": [
         "paris-mustsees"
-      ]
+      ],
+      "imageId": "place-paris-sacre-coeur"
     },
     {
       "id": "luxembourg",
@@ -169,7 +178,8 @@
       "sourceIds": [
         "paris-mustsees",
         "paris-central"
-      ]
+      ],
+      "imageId": "place-paris-luxembourg"
     },
     {
       "id": "pantheon",
@@ -182,7 +192,8 @@
       "sourceIds": [
         "paris-pantheon",
         "paris-weekend"
-      ]
+      ],
+      "imageId": "place-paris-pantheon"
     },
     {
       "id": "marais",
@@ -195,7 +206,8 @@
       "sourceIds": [
         "paris-central",
         "paris-mustsees"
-      ]
+      ],
+      "imageId": "place-paris-marais"
     },
     {
       "id": "place-vosges",
@@ -207,7 +219,8 @@
       ],
       "sourceIds": [
         "paris-central"
-      ]
+      ],
+      "imageId": "place-paris-place-vosges-square"
     },
     {
       "id": "seine",
@@ -220,7 +233,8 @@
       "sourceIds": [
         "paris-mustsees",
         "paris-central"
-      ]
+      ],
+      "imageId": "place-paris-seine-river"
     }
   ],
   "itinerary": [
@@ -291,5 +305,6 @@
     "rome",
     "london",
     "barcelona"
-  ]
+  ],
+  "updatedAt": "2026-10-30T02:01:03.475Z"
 }

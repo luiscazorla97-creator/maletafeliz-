@@ -74,7 +74,7 @@ function setup() {
           paragraph(`${locale} place ${n} second`),
         ],
         sourceIds: ['source-one'],
-        imageId: n === 0 ? 'interior' : undefined,
+        imageId: 'interior' as string | undefined,
       })),
       itinerary: [paragraph(`${locale} route one`)],
       faq: [0, 1, 2].map((n) => ({
@@ -176,6 +176,14 @@ describe('publication gate', () => {
     expect(validateEditorial(s).errors.join(' ')).toContain(
       'incomplete photo rights',
     );
+  });
+  it('requires a photograph for every place even with a valid cover and another interior image', () => {
+    const s = setup();
+    delete s.articles[0].data.sections[1].imageId;
+    s.approve();
+    expect(validateEditorial(s).errors).toEqual([
+      'test-city.es.json: place place-1 requires its own photograph',
+    ]);
   });
   it('blocks duplicate URLs and IDs', () => {
     const s = setup();

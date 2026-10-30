@@ -66,6 +66,7 @@ const format = (s?: string) =>
       fetchpriority="high"
     />
     <figcaption class="photo-credit">
+      <span class="photo-description">{cover.alt[lang]}</span>
       <a href={cover.sourceUrl} rel="noopener noreferrer">
         {cover.credit}
       </a>{' '}
@@ -121,6 +122,7 @@ const format = (s?: string) =>
                   loading="lazy"
                 />
                 <figcaption class="photo-credit">
+                  <span class="photo-description">{image.alt[lang]}</span>
                   <a href={image.sourceUrl}>{image.credit}</a> ·{' '}
                   <a href={image.licenseUrl} rel="license">
                     {image.license}

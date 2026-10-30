@@ -1,60 +1,44 @@
 # Estado del proyecto
 
-Actualizado: 30 de octubre de 2026 (UTC). Especificación vigente: `requirements.md` (español e inglés, archivos, sin APIs de IA de pago).
+Verificado el 29 de octubre de 2026 en America/New_York (30 de octubre en UTC). Especificación vigente: `requirements.md`.
 
-## Publicado en maletafeliz.com
+## Publicación verificada
 
-La web responde por HTTPS en https://maletafeliz.com/es/ y /en/. www.maletafeliz.com redirige con HTTP 301 al dominio principal, conservando rutas y parámetros. La verificación pública completa está registrada en `editorial/publication.json`.
+https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- Treinta guías originales y sesenta versiones completas, entre 1.343 y 2.512 palabras por idioma. Se desarrollan individualmente los lugares requeridos; cada guía incluye itinerario, preguntas, fuentes y enlaces relacionados.
-- 228 documentos de fuentes citadas, con fecha, HTTP, huella y hechos conservados. Se rechazaron antiguos dominios turísticos con contenido ajeno; no se usan como fuentes editoriales.
-- Sesenta fotografías reales con autor, licencia específica, procedencia, dimensiones, ALT bilingüe y hash. Derivados WebP responsive y créditos públicos. Las imágenes de archivo se identifican cuando corresponde.
-- Sesenta revisiones editoriales identificadas como asistidas por Codex y vinculadas a los archivos finales. No se afirma revisión humana independiente.
-- Astro estático, TypeScript, React para búsqueda, CSS/Tailwind, logo original, navegación móvil, destinos, continentes, países, categorías y páginas de información.
-- Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap de contenido aprobado, robots de producción y respuesta 404. La búsqueda y las páginas vacías no se indexan.
-- Datos del titular facilitados por el usuario: Luis Sebastian Cazorla Caruso, Argentina, luterapps@gmail.com. Textos legales revisados técnica y editorialmente por Codex; no se afirma asesoría legal profesional.
-- Cloudflare Pages publica desde GitHub/main: `maletafeliz-web` sirve la revista y `maletafeliz-www` sirve la redirección estática. Los CNAME usan los subdominios reales de cada proyecto; los registros de correo se conservan.
-- La integración Git de Cloudflare compila main al activar el build desde Codex. GitHub Actions ejecuta las comprobaciones de calidad. El disparo automático de un build por cada push aún no quedó verificado; el flujo operativo incluye `npm run deploy`.
+- 45 guías originales y 90 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 254 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 89 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
+- Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
+- Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
 
-## Verificado localmente
+La campaña corresponde al commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
 
-- `npm run launch:check`: 30 originales, 60 versiones, sin errores ni pendientes.
-- `npm run check`: sin errores, advertencias ni sugerencias.
-- `npm test`: 32 pruebas superadas, incluidos controles editoriales, búsqueda, idempotencia, archivos de imagen y protección DNS con API simulada.
-- `npm run build` y `npm run build:release`: compilaciones estáticas correctas; 216 páginas en cada compilación, de las cuales 60 son páginas editoriales.
-- `npm run test:e2e`: 10 pruebas de navegación en móvil/escritorio superadas.
-- `npm run test:release`: 134 pruebas superadas sobre el sitio de producción compilado, incluidas las sesenta guías en ambos tamaños, traducciones, imágenes, metadatos, sitemap y búsqueda.
-- Capturas de portada, Tokio, Cusco, Seúl en móvil y Nairobi en escritorio inspeccionadas. Sin desbordamiento horizontal en las sesenta guías.
-- Todas las fotografías y variantes se decodifican y coinciden con dimensiones y hashes registrados.
-- `npm audit --omit=dev`: 0 vulnerabilidades reportadas.
+## Comprobaciones del lote de festividades
 
-Además de estas verificaciones locales, se completaron **68 comprobaciones HTTP públicas**: portadas es/en, sesenta guías, sitemap, robots, una URL inexistente con 404 y tres redirecciones www con 301. Las guías son indexables y conservan sus canonical. Los builds de Cloudflare terminaron correctamente. Además se verificaron las diez nuevas fotografías públicas por hash y las cinco guías en portadas y sitemap: 13 peticiones adicionales, 81 en total. Las revisiones factuales y de licencias están documentadas por separado.
+- Chequeo de tipos sin errores, 32 pruebas unitarias y 10 pruebas de navegación de vista previa superadas.
+- Compilaciones de vista previa y producción correctas; 284 páginas HTML, incluidas 90 páginas editoriales.
+- 194 comprobaciones de navegador de producción: 192 superadas en la ejecución completa; las dos de portada asumían un único resultado para Tokio. Se ajustó esa suposición para permitir la nueva guía de Japón, conservando la comprobación de exclusión de resultados ajenos y navegación al artículo correcto; ambas pasaron al repetirse.
+- Todas las guías se comprobaron en móvil y escritorio: fotografías, traducciones, metadatos y ausencia de desbordamiento. Portada y sección nueva inspeccionadas visualmente.
+- Fuentes, licencias y pertinencia de fotografías revisadas por separado; las pruebas no sustituyen esas revisiones.
 
-La tanda solicitada con `PUBLICAR 5 ARTÍCULOS` añadió Vancouver, Lucerna, Seúl, Nairobi y Hobart, con diez versiones completas y diez fotografías. El lote editorial `2026-10-28` usa America/New_York; su publicación y verificación ocurrieron el 29 de octubre en UTC. La evidencia permanente está en `editorial/verification/2026-10-28.json`.
+## Fotografías de todos los lugares
 
-La tanda del 29 de octubre añadió Québec, Edimburgo, Singapur, Stone Town y Wellington: diez versiones de entre 1.411 y 1.502 palabras y diez fotos acreditadas. También se inspeccionaron capturas de Québec en móvil y Wellington en escritorio. Evidencia: `editorial/verification/2026-10-29.json`.
+En curso: completar cada sección `kind: place` de las treinta guías anteriores con una fotografía del lugar en ambos idiomas. El inventario identifica 290 secciones: 57 admiten una foto ya verificada y 233 requieren nuevas imágenes. Se comprueban las ubicaciones, licencias y fotografías antes de incorporarlas. Los límites temporales del servidor de archivos se respetan; no se usan proxies alternativos ni se eluden cuotas. Esta ampliación se desplegará por separado y no se cuenta aún como publicada.
 
-## GitHub y operación
+## Publicidad
 
-GitHub Actions confirmó todas las comprobaciones del commit publicado `e93d3f0`. La entrega completa quedó guardada en main, con artículos, fuentes, licencias, fotos, revisiones, código y pruebas. Los commits de contenido inicial y redirección están preservados remotamente. Los detalles del despliegue público verificado, proyectos y commits se conservan en `editorial/publication.json`.
+Se mantiene un banner Adsterra 300 × 250 por página de contenido. Privacidad, términos, cookies, licencias de fotografías y 404 quedan excluidas; las nuevas guías y categorías sí incluyen banner. Las etiquetas del proveedor cargan directamente y en orden, sin iframe adicional restrictivo ni async/defer. Las políticas CSP correspondientes se conservan. No se añadió un diálogo de autorización, conforme a la instrucción del titular.
 
-Las credenciales están disponibles y funcionan. El fallo inicial 403 se resolvió al actualizar el token. La subida directa con Wrangler encontró una incompatibilidad del proxy con el token temporal de assets; el despliegue definitivo utiliza la integración oficial de GitHub de Cloudflare.
+Las pruebas de publicidad simulan al proveedor para no generar impresiones reales. La integración publicada está verificada; la entrega de anuncios reales no está confirmada desde este entorno. Evidencia histórica: `editorial/verification/2026-10-30-sitewide-advertising.json`.
 
-## Pendiente fuera del lanzamiento
+## Operación y límites
 
-- **Redacción diaria:** ninguna tarea recurrente de Codex Cloud está configurada o probada. Esta sesión no expone un programador cloud ni el porcentaje de cuota. Se conserva el objetivo de las 07:00 America/New_York y el flujo manual `PUBLICAR 5 ARTÍCULOS`, sin APIs de IA de pago. La publicación automática de commits de GitHub no redacta artículos.
-- **Medición y monetización:** Search Console, GA4, anuncios y afiliados no están activados. Requieren datos reales y su configuración correspondiente.
+Cloudflare Pages utiliza GitHub/main: `maletafeliz-web` sirve la revista y `maletafeliz-www` la redirección. El flujo operativo activa la compilación mediante la API de Cloudflare después de subir el commit. La activación automática por cada push no está acreditada. La subida directa de assets con Wrangler encontró una incompatibilidad con el token temporal del proxy; se utiliza la integración Git oficial.
 
-El estado `published` de los JSON selecciona contenido para compilar; `editorial/publication.json` registra la comprobación del dominio real.
+El titular facilitó Luis Sebastian Cazorla Caruso, Argentina, luterapps@gmail.com. La revisión de textos legales es técnica y editorial, sin afirmar asesoría jurídica profesional. Search Console, GA4 y afiliados requieren su configuración real; la integración de anuncios descrita arriba sí está activa.
 
-## Publicidad — 30 de octubre de 2026
+No hay una tarea recurrente de redacción de Codex Cloud configurada ni probada, ni una lectura de porcentaje de cuota. Se mantiene el flujo manual `PUBLICAR 5 ARTÍCULOS` y el objetivo documentado de las 07:00 America/New_York. No se usan APIs de IA de pago, bases de datos ni automatizaciones ficticias.
 
-Publicado un banner Adsterra de 300 × 250 por página de contenido: portada, selector de idioma, listados, destinos, países, continentes, categorías, búsqueda, artículos e información de la revista. Privacidad, términos, cookies y licencias de fotografías quedan excluidos en ambos idiomas. La página 404 tampoco contiene anuncios. Son 207 páginas HTML con banner y nueve sin él, sin duplicar el banner ya presente dentro de cada guía.
-
-El código del proveedor permanece directamente en la página, con las dos etiquetas juntas y en orden, sin iframe adicional ni carga async/defer. Se conserva el espacio reservado en móvil y escritorio. Las cabeceras permiten recursos publicitarios HTTPS donde hay banners y mantienen la política restrictiva en las páginas legales. No se añadió un diálogo de autorización, según la instrucción expresa del titular. Los textos legales reflejan la cobertura actual.
-
-Pasaron el chequeo de tipos, 32 pruebas unitarias, 10 de vista previa, ambas compilaciones y 134 pruebas de navegador sobre producción. La comprobación de archivos revisa las 216 páginas HTML; las pruebas de navegador comprueban carga en diferentes secciones y ausencia de solicitudes publicitarias en las ocho páginas legales. El proveedor se simula durante los tests para no generar impresiones reales. Se conserva la prueba del SecurityError provocado por el antiguo sandbox y el acceso correcto al almacenamiento con la integración directa.
-
-Ambos builds de Cloudflare finalizaron correctamente. Se verificaron 31 páginas públicas, incluyendo las ocho legales, con HTTP 200, el número esperado de etiquetas y las políticas CSP correspondientes. Esto acredita la integración publicada; no confirma entrega de anuncios reales. Evidencia: `editorial/verification/2026-10-30-sitewide-advertising.json`. Las verificaciones anteriores se conservan como histórico.
-
-Pendiente: la campaña solicitada de 10 guías de Halloween y 5 de Día de Muertos todavía no está publicada ni incluida en las 30 guías actuales. No hay una tarea en segundo plano configurada para publicarla automáticamente.
+Las verificaciones de tandas anteriores permanecen en `editorial/verification/2026-10-28.json` y `2026-10-29.json`. El estado `published` de un artículo selecciona contenido para compilar; únicamente el registro de verificación pública acredita que está en el dominio.

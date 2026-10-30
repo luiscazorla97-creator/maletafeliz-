@@ -1,7 +1,7 @@
 {
   "id": "2026-10-30-seasonal",
   "createdAt": "2026-10-30T00:20:40.170Z",
-  "status": "ready-for-deployment",
+  "status": "published",
   "requestedCount": 15,
   "topicIds": [
     "halloween-usa",
@@ -20,11 +20,13 @@
     "muertos-puebla",
     "muertos-oaxaca"
   ],
-  "publishedCount": 0,
+  "publishedCount": 15,
   "scope": "Explicit user request: ten Halloween countries and five Mexican Day of the Dead guides, both languages; photo in every recommended place, including existing guides.",
   "searchDemandNote": "Editorial destination selection; no unsupported most-searched ranking claimed.",
   "selectedOriginals": 15,
   "selectedLocalizations": 30,
   "placePhotosPerOriginal": 2,
-  "existingGuidePhotoBackfill": "in-progress; separate follow-up deployment after all downloaded images are reviewed"
+  "existingGuidePhotoBackfill": "in-progress",
+  "publishedAt": "2026-10-30T01:24:52.701Z",
+  "publicVerification": "editorial/verification/2026-10-30-seasonal.json"
 }

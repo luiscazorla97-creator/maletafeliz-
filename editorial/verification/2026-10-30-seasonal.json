@@ -1,0 +1,1258 @@
+{
+  "recordedAt": "2026-10-30T01:28:42.372953+00:00",
+  "deployment": {
+    "checkedAt": "2026-10-30T01:24:26.959Z",
+    "domain": "maletafeliz.com",
+    "domains": [
+      {
+        "name": "maletafeliz.com",
+        "project": "maletafeliz-web",
+        "status": "active"
+      },
+      {
+        "name": "www.maletafeliz.com",
+        "project": "maletafeliz-www",
+        "status": "active"
+      }
+    ],
+    "deployments": [
+      {
+        "project": "maletafeliz-web",
+        "hostname": "maletafeliz.com",
+        "pagesSubdomain": "maletafeliz-web.pages.dev",
+        "deploymentId": "5d2c6556-1cf8-4885-8c7e-d3c1d7cb232a",
+        "buildStatus": "success",
+        "buildVerified": true,
+        "stage": "deploy",
+        "commit": "f2144ca1cb32dc36dfb91ea88c9452d336f529b9"
+      },
+      {
+        "project": "maletafeliz-www",
+        "hostname": "www.maletafeliz.com",
+        "pagesSubdomain": "maletafeliz-www.pages.dev",
+        "deploymentId": "c54d122e-9a44-41f5-9f62-75cc84a98e7a",
+        "buildStatus": "success",
+        "buildVerified": true,
+        "stage": "deploy",
+        "commit": "f2144ca1cb32dc36dfb91ea88c9452d336f529b9"
+      }
+    ],
+    "buildStatus": "success",
+    "buildVerified": true,
+    "url": "https://maletafeliz.com",
+    "httpVerified": true
+  },
+  "siteHttp": {
+    "checkedAt": "2026-10-30T01:24:52.701Z",
+    "origin": "https://maletafeliz.com",
+    "httpVerified": true,
+    "checked": [
+      {
+        "path": "/es/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/"
+      },
+      {
+        "path": "/en/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bali/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bali/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bangkok/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bangkok/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-barcelona/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-barcelona/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-buenos-aires/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-buenos-aires/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-cape-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-cape-town/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-and-around-cusco/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-and-around-cusco/"
+      },
+      {
+        "path": "/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-edinburgh/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-edinburgh/"
+      },
+      {
+        "path": "/en/guides/halloween-australia-gold-coast-sydney-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-australia-gold-coast-sydney-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-australia-gold-coast-sidney-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-australia-gold-coast-sidney-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-canada-vancouver-quebec-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-canada-vancouver-quebec-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-france-parc-asterix-catacombs-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-france-parc-asterix-catacombs-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-francia-parc-asterix-catacumbas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-francia-parc-asterix-catacumbas-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-germany-movie-park-berlin-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-germany-movie-park-berlin-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-alemania-movie-park-berlin-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-alemania-movie-park-berlin-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-ireland-puca-trim-athboy-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-ireland-puca-trim-athboy-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-irlanda-puca-trim-athboy-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-irlanda-puca-trim-athboy-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-japan-disneyland-disneysea-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-japan-disneyland-disneysea-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-japon-disneyland-disneysea-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-japon-disneyland-disneysea-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-netherlands-walibi-toverland-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-netherlands-walibi-toverland-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-paises-bajos-walibi-toverland-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-paises-bajos-walibi-toverland-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-spain-portaventura-warner-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-spain-portaventura-warner-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-espana-portaventura-warner-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-espana-portaventura-warner-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-uk-derry-edinburgh-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-uk-derry-edinburgh-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-reino-unido-derry-edimburgo-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-reino-unido-derry-edimburgo-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-usa-salem-orlando-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-usa-salem-orlando-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-estados-unidos-salem-orlando-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-estados-unidos-salem-orlando-2026/"
+      },
+      {
+        "path": "/en/guides/5-remarkable-places-to-discover-in-hawaii/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-remarkable-places-to-discover-in-hawaii/"
+      },
+      {
+        "path": "/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-hobart/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-hobart/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-kyoto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-kyoto/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-kioto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-kioto/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-lisbon/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-lisbon/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-lisboa/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-lisboa/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-london/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-london/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-londres/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-londres/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-lucerne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-lucerne/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-lucerna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-lucerna/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-marrakech/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-marrakech/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-mexico-city/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-mexico-city/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/"
+      },
+      {
+        "path": "/en/guides/day-dead-merida-paseo-animas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-merida-paseo-animas-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-merida-paseo-animas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-merida-paseo-animas-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-mixquic-alumbrada-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-mixquic-alumbrada-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-mixquic-alumbrada-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-mixquic-alumbrada-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-oaxaca-centre-monte-alban-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-oaxaca-centre-monte-alban-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-puebla-tecamachalco-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-puebla-tecamachalco-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-puebla-tecamachalco-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-puebla-tecamachalco-2026/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-nairobi/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-nairobi/"
+      },
+      {
+        "path": "/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-paris/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-imprescindibles-de-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-imprescindibles-de-paris/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-quebec/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-quebec/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-queenstown/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-queenstown/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-rio-de-janeiro/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-rio-de-janeiro/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-rome/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-rome/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-roma/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-roma/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-seoul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-seoul/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-seul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-seul/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-singapore/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-singapore/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-stone-town/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-stone-town/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-sydney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-sydney/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-sidney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-sidney/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-tokyo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-tokyo/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-tokio/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-tokio/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-vancouver/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-vancouver/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-wellington/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-wellington/"
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/sitemap.xml"
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/robots.txt"
+      },
+      {
+        "path": "/maletafeliz-launch-check-nonexistent/",
+        "status": 404,
+        "finalUrl": "https://maletafeliz.com/maletafeliz-launch-check-nonexistent/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/",
+        "status": 301,
+        "location": "https://maletafeliz.com/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/es/?ref=www-check",
+        "status": 301,
+        "location": "https://maletafeliz.com/es/?ref=www-check"
+      },
+      {
+        "path": "https://www.maletafeliz.com/en/",
+        "status": 301,
+        "location": "https://maletafeliz.com/en/"
+      }
+    ],
+    "errors": []
+  },
+  "seasonalDiscoveryAndPhotos": {
+    "checkedAt": "2026-10-30T01:26:25.129Z",
+    "origin": "https://maletafeliz.com",
+    "commit": "f2144ca1cb32dc36dfb91ea88c9452d336f529b9",
+    "verified": true,
+    "seasonalOriginals": 15,
+    "localizations": 30,
+    "photoVariants": 114,
+    "checks": [
+      {
+        "path": "/es/explorar/category-festivals/",
+        "status": 200,
+        "seasonalDestinations": 15
+      },
+      {
+        "path": "/en/explore/category-festivals/",
+        "status": 200,
+        "seasonalDestinations": 15
+      },
+      {
+        "path": "/images/season-salem-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 37936
+      },
+      {
+        "path": "/images/season-salem-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 95864
+      },
+      {
+        "path": "/images/season-salem-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 178532
+      },
+      {
+        "path": "/images/season-salem.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 286944
+      },
+      {
+        "path": "/images/season-orlando-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 37610
+      },
+      {
+        "path": "/images/season-orlando-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 82202
+      },
+      {
+        "path": "/images/season-orlando.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 213808
+      },
+      {
+        "path": "/images/season-orlando-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 143318
+      },
+      {
+        "path": "/images/season-trim-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 25960
+      },
+      {
+        "path": "/images/season-trim-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 66488
+      },
+      {
+        "path": "/images/season-trim.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 202452
+      },
+      {
+        "path": "/images/season-trim-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 125018
+      },
+      {
+        "path": "/images/season-athboy-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 21768
+      },
+      {
+        "path": "/images/season-athboy-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 49848
+      },
+      {
+        "path": "/images/season-athboy-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 88360
+      },
+      {
+        "path": "/images/season-athboy.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 145030
+      },
+      {
+        "path": "/images/season-derry-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 48242
+      },
+      {
+        "path": "/images/season-derry-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 98394
+      },
+      {
+        "path": "/images/season-derry.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 227304
+      },
+      {
+        "path": "/images/season-derry-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 159276
+      },
+      {
+        "path": "/images/season-calton-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 23992
+      },
+      {
+        "path": "/images/season-calton-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 58056
+      },
+      {
+        "path": "/images/season-calton.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 178420
+      },
+      {
+        "path": "/images/season-calton-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 106230
+      },
+      {
+        "path": "/images/season-asterix-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 48190
+      },
+      {
+        "path": "/images/season-asterix.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 308278
+      },
+      {
+        "path": "/images/season-asterix-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 113376
+      },
+      {
+        "path": "/images/season-asterix-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 208740
+      },
+      {
+        "path": "/images/season-catacombs-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 435728
+      },
+      {
+        "path": "/images/season-catacombs-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 233328
+      },
+      {
+        "path": "/images/season-catacombs.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 635516
+      },
+      {
+        "path": "/images/season-catacombs-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 100896
+      },
+      {
+        "path": "/images/season-portaventura-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 31586
+      },
+      {
+        "path": "/images/season-portaventura-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 129602
+      },
+      {
+        "path": "/images/season-portaventura.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 206276
+      },
+      {
+        "path": "/images/season-portaventura-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 72818
+      },
+      {
+        "path": "/images/season-warner-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 19450
+      },
+      {
+        "path": "/images/season-warner-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 45126
+      },
+      {
+        "path": "/images/season-warner-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 83748
+      },
+      {
+        "path": "/images/season-warner.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 136274
+      },
+      {
+        "path": "/images/season-disneyland-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 37188
+      },
+      {
+        "path": "/images/season-berlin.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 62858
+      },
+      {
+        "path": "/images/season-berlin-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 24060
+      },
+      {
+        "path": "/images/season-disneyland-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 89772
+      },
+      {
+        "path": "/images/season-disneysea-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 61508
+      },
+      {
+        "path": "/images/season-disneysea-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 26000
+      },
+      {
+        "path": "/images/season-disneyland-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 161900
+      },
+      {
+        "path": "/images/season-disneyland.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 243508
+      },
+      {
+        "path": "/images/season-walibi-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 37242
+      },
+      {
+        "path": "/images/season-walibi-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 93686
+      },
+      {
+        "path": "/images/season-disneysea.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 181162
+      },
+      {
+        "path": "/images/season-disneysea-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 110578
+      },
+      {
+        "path": "/images/season-toverland-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 48846
+      },
+      {
+        "path": "/images/season-walibi-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 175532
+      },
+      {
+        "path": "/images/season-walibi.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 267872
+      },
+      {
+        "path": "/images/season-toverland-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 102788
+      },
+      {
+        "path": "/images/season-movieworld-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 31676
+      },
+      {
+        "path": "/images/season-movieworld-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 72764
+      },
+      {
+        "path": "/images/season-toverland-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 168358
+      },
+      {
+        "path": "/images/season-toverland.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 256742
+      },
+      {
+        "path": "/images/season-movieworld-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 137046
+      },
+      {
+        "path": "/images/season-movieworld.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 221988
+      },
+      {
+        "path": "/images/season-lunapark-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 58024
+      },
+      {
+        "path": "/images/season-lunapark-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 25614
+      },
+      {
+        "path": "/images/season-zocalo-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 35692
+      },
+      {
+        "path": "/images/season-zocalo-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 15330
+      },
+      {
+        "path": "/images/season-lunapark-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 105280
+      },
+      {
+        "path": "/images/season-lunapark.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 158676
+      },
+      {
+        "path": "/images/season-chapultepec-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 19868
+      },
+      {
+        "path": "/images/season-chapultepec-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 50850
+      },
+      {
+        "path": "/images/season-zocalo-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 66112
+      },
+      {
+        "path": "/images/season-zocalo.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 136572
+      },
+      {
+        "path": "/images/season-chapultepec.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 164416
+      },
+      {
+        "path": "/images/season-mixquic-2-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 135250
+      },
+      {
+        "path": "/images/season-chapultepec-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 102676
+      },
+      {
+        "path": "/images/season-mixquic-2-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 292486
+      },
+      {
+        "path": "/images/season-meridasansebastian-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 60298
+      },
+      {
+        "path": "/images/season-mixquic-2.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 692882
+      },
+      {
+        "path": "/images/season-mixquic-2-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 480938
+      },
+      {
+        "path": "/images/season-meridasansebastian-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 165352
+      },
+      {
+        "path": "/images/season-tecamachalco-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 62078
+      },
+      {
+        "path": "/images/season-tecamachalco-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 24524
+      },
+      {
+        "path": "/images/season-meridasansebastian.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 562834
+      },
+      {
+        "path": "/images/season-meridasansebastian-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 339572
+      },
+      {
+        "path": "/images/season-tecamachalco-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 121788
+      },
+      {
+        "path": "/images/season-montealban-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 85208
+      },
+      {
+        "path": "/images/season-montealban-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 30820
+      },
+      {
+        "path": "/images/season-tecamachalco.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 194734
+      },
+      {
+        "path": "/images/season-moviepark-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 25636
+      },
+      {
+        "path": "/images/season-montealban-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 170542
+      },
+      {
+        "path": "/images/season-moviepark-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 57496
+      },
+      {
+        "path": "/images/season-montealban.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 274828
+      },
+      {
+        "path": "/images/season-meridaplaza-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 56390
+      },
+      {
+        "path": "/images/season-moviepark-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 101074
+      },
+      {
+        "path": "/images/season-moviepark.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 185282
+      },
+      {
+        "path": "/images/season-meridaplaza-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 157978
+      },
+      {
+        "path": "/images/season-oaxaca-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 46154
+      },
+      {
+        "path": "/images/season-meridaplaza.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 494430
+      },
+      {
+        "path": "/images/season-oaxaca-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 121852
+      },
+      {
+        "path": "/images/season-meridaplaza-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 336112
+      },
+      {
+        "path": "/images/season-oaxaca-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 244336
+      },
+      {
+        "path": "/images/season-puebla-city-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 27330
+      },
+      {
+        "path": "/images/season-puebla-city-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 65708
+      },
+      {
+        "path": "/images/season-oaxaca.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 365114
+      },
+      {
+        "path": "/images/season-puebla-city.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 193884
+      },
+      {
+        "path": "/images/season-playland-entrance-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 15658
+      },
+      {
+        "path": "/images/season-playland-entrance-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 33786
+      },
+      {
+        "path": "/images/season-puebla-city-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 122950
+      },
+      {
+        "path": "/images/season-mixquic-cemetery-800w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 53368
+      },
+      {
+        "path": "/images/season-mixquic-cemetery-480w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 27054
+      },
+      {
+        "path": "/images/season-playland-entrance-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 56940
+      },
+      {
+        "path": "/images/season-playland-entrance.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 94952
+      },
+      {
+        "path": "/images/season-mixquic-cemetery-1200w.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 87738
+      },
+      {
+        "path": "/images/season-mixquic-cemetery.webp",
+        "status": 200,
+        "hashVerified": true,
+        "bytes": 142576
+      }
+    ],
+    "errors": []
+  },
+  "validation": {
+    "types": "passed",
+    "unitTests": 32,
+    "previewTests": 10,
+    "releaseChecks": 194,
+    "releaseNote": "192 passed in complete run; two homepage search tests were updated to permit additional relevant Tokyo guides and passed on targeted rerun. No website code changed after build.",
+    "htmlPages": 284
+  },
+  "scope": "15 new seasonal originals / 30 complete localizations; 29 new licensed place photographs plus one existing Quebec image. Existing-guide place photo backfill remains in progress."
+}

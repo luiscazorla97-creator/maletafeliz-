@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-10-29T23:46:22.694009+00:00",
+  "verifiedAt": "2026-10-30T01:24:52.701Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 30,
-  "localizations": 60,
-  "photos": 60,
-  "httpChecks": 81,
+  "originals": 45,
+  "localizations": 90,
+  "photos": 89,
+  "httpChecks": 214,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "6ffe3a54-099e-42d2-b1cd-e51e5001c7c2",
-      "commit": "1e50a6f58dd090bbc549ab019fb08bcd1afa7cd4",
+      "deploymentId": "5d2c6556-1cf8-4885-8c7e-d3c1d7cb232a",
+      "commit": "f2144ca1cb32dc36dfb91ea88c9452d336f529b9",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "28b2ff78-520b-4d5a-9870-006f62ef0066",
-      "commit": "1e50a6f58dd090bbc549ab019fb08bcd1afa7cd4",
+      "deploymentId": "c54d122e-9a44-41f5-9f62-75cc84a98e7a",
+      "commit": "f2144ca1cb32dc36dfb91ea88c9452d336f529b9",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,13 +45,13 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 228,
-  "latestBatch": "2026-10-29",
-  "verificationFile": "editorial/verification/2026-10-29.json",
+  "citedSourceDocuments": 254,
+  "latestBatch": "2026-10-30-seasonal",
+  "verificationFile": "editorial/verification/2026-10-30-seasonal.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 68,
-    "batchDiscoveryAndPhotos": 13
+    "siteAndRedirects": 98,
+    "seasonalDiscoveryAndPhotoVariants": 116
   },
-  "latestDeploymentVerification": "editorial/verification/2026-10-30-sitewide-advertising.json",
-  "latestDeploymentVerifiedAt": "2026-10-30T00:10:06.209956+00:00"
+  "latestDeploymentVerification": "editorial/verification/2026-10-30-seasonal.json",
+  "latestDeploymentVerifiedAt": "2026-10-30T01:26:25.129Z"
 }

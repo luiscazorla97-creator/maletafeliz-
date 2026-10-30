@@ -4,6 +4,7 @@ import { dictionary, otherLocale, type Locale } from '../i18n';
 import { route } from '../lib/routes';
 import { absolute, production } from '../lib/site';
 import Icon from '../components/Icon.astro';
+import Advertisement from '../components/Advertisement.astro';
 interface Props {
   lang: Locale;
   title: string;
@@ -12,6 +13,7 @@ interface Props {
   noindex?: boolean;
   image?: string;
   jsonLd?: unknown;
+  showAdvertisement?: boolean;
 }
 const {
   lang,
@@ -21,6 +23,7 @@ const {
   noindex = false,
   image,
   jsonLd,
+  showAdvertisement = true,
 } = Astro.props;
 const t = dictionary[lang];
 const other = otherLocale(lang);
@@ -140,6 +143,7 @@ const links = [
     </header>
     <main id="main">
       <slot />
+      {showAdvertisement && <Advertisement lang={lang} />}
     </main>
     <footer>
       <div class="shell footer-grid">

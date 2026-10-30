@@ -1,10 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 
 const headersFile = readFileSync('public/_headers', 'utf8');
 // Astro preview does not apply Cloudflare's _headers. Render with the actual
 // matching production policies, so a CSP regression fails these browser tests.
 test.beforeEach(async ({ page }) => {
+  await page.route('https://bauval.org/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* no real ad impressions in tests */' }));
   await page.route('http://127.0.0.1:4322/**', async route => {
     const response = await route.fetch();
     const path = new URL(route.request().url()).pathname;
@@ -70,4 +71,45 @@ test('English guide survives a blocked provider without losing editorial content
   await expect(page.locator('.advertisement')).toHaveAttribute('aria-label', 'Advertisement');
   await expect(page.locator('#faq')).toBeAttached();
   await expect(page.locator('h1')).toContainText('Wellington');
+});
+
+
+test('every built content page has one direct ad and every legal page has none', async () => {
+  const files = readdirSync('dist', { recursive: true }).map(String).filter(path => path.endsWith('.html'));
+  let excluded = 0;
+  let advertised = 0;
+  for (const path of files) {
+    const legal = /^(es\/informacion|en\/information)\/(privacy|terms|cookies|photography)\/index\.html$/.test(path);
+    const noAd = legal || path === '404.html';
+    const html = readFileSync(`dist/${path}`, 'utf8');
+    expect((html.match(/src="https:\/\/bauval\.org\//g) || []).length, path).toBe(noAd ? 0 : 1);
+    expect(html.includes('/ads/banner'), path).toBe(false);
+    if (noAd) excluded++; else advertised++;
+  }
+  expect(excluded).toBe(9);
+  expect(advertised).toBeGreaterThan(100);
+});
+
+test('banners load on discovery pages while legal pages make no advertising requests', async ({ page }) => {
+  let requested = 0;
+  await page.route('https://bauval.org/**', route => {
+    requested++;
+    return route.fulfill({ contentType: 'application/javascript', body: 'document.body.dataset.adLoaded = "yes";' });
+  });
+  for (const path of ['/', '/es/', '/en/', '/es/destinos/', '/en/explore/category-culture/', '/es/buscar/', '/en/information/about/', '/es/informacion/contact/']) {
+    const before = requested;
+    await page.goto(path);
+    await expect(page.locator('.advertisement')).toHaveCount(1);
+    await expect(page.locator('body')).toHaveAttribute('data-ad-loaded', 'yes');
+    expect(requested - before, path).toBe(1);
+  }
+  for (const lang of ['es', 'en']) {
+    for (const id of ['privacy', 'terms', 'cookies', 'photography']) {
+      const before = requested;
+      const response = await page.goto(`/${lang}/${lang === 'es' ? 'informacion' : 'information'}/${id}/`);
+      expect(response?.status()).toBe(200);
+      await expect(page.locator('.advertisement')).toHaveCount(0);
+      expect(requested, id).toBe(before);
+    }
+  }
 });

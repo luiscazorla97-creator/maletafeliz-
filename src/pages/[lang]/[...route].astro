@@ -230,6 +230,7 @@ const empty = destination
   }
   image={photo?.src}
   jsonLd={jsonLd}
+  showAdvertisement={!article && !(kind === 'info' && ['privacy', 'terms', 'cookies', 'photography'].includes(id || ''))}
 >
   {article ? (
     <ArticleView article={article} />

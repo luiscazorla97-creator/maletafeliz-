@@ -87,7 +87,7 @@ export const legal = {
         ],
         [
           'Datos en esta versión',
-          'La búsqueda se realiza en el navegador. No se envían consultas a una base de datos propia. La preferencia de idioma se guarda localmente y puede eliminarse borrando los datos del sitio. No hay cuentas de usuario ni newsletter. El alojamiento puede incluir medición técnica de Cloudflare. Las guías incorporan un banner publicitario de Adsterra.',
+          'La búsqueda se realiza en el navegador. No se envían consultas a una base de datos propia. La preferencia de idioma se guarda localmente y puede eliminarse borrando los datos del sitio. No hay cuentas de usuario ni newsletter. El alojamiento puede incluir medición técnica de Cloudflare. Las páginas de contenido incorporan un banner publicitario de Adsterra; las páginas legales quedan excluidas.',
         ],
         [
           'Alojamiento y terceros',
@@ -112,7 +112,7 @@ export const legal = {
         ],
         [
           'Data in this version',
-          'Search runs in your browser. Queries are not sent to our own database. Language preferences are stored locally and can be removed by clearing site data. User accounts and newsletters are not enabled. Hosting may include Cloudflare technical measurement. Travel guides include an Adsterra advertising banner.',
+          'Search runs in your browser. Queries are not sent to our own database. Language preferences are stored locally and can be removed by clearing site data. User accounts and newsletters are not enabled. Hosting may include Cloudflare technical measurement. Content pages include an Adsterra advertising banner; legal pages are excluded.',
         ],
         [
           'Hosting and third parties',
@@ -179,7 +179,7 @@ export const legal = {
         ],
         [
           'Publicidad de terceros',
-          'Las guías incluyen un banner Adsterra de 300 × 250, identificado como Publicidad. Su código se ejecuta directamente al cargar la guía. Puedes gestionar o bloquear cookies y recursos de terceros desde tu navegador; hacerlo puede impedir que aparezca el anuncio. El contenido editorial sigue disponible.',
+          'Las páginas de contenido, salvo las legales, incluyen un banner Adsterra de 300 × 250, identificado como Publicidad. Su código se ejecuta directamente al cargar la página. Puedes gestionar o bloquear cookies y recursos de terceros desde tu navegador; hacerlo puede impedir que aparezca el anuncio. El contenido editorial sigue disponible.',
         ],
       ],
     },
@@ -196,7 +196,7 @@ export const legal = {
         ],
         [
           'Third-party advertising',
-          'Guides include a 300 × 250 Adsterra banner labelled Advertisement. Its code runs directly when the guide loads. You can manage or block third-party cookies and resources in your browser; this may prevent the advertisement from appearing. Editorial content remains available.',
+          'Content pages, excluding legal pages, include a 300 × 250 Adsterra banner labelled Advertisement. Its code runs directly when the page loads. You can manage or block third-party cookies and resources in your browser; this may prevent the advertisement from appearing. Editorial content remains available.',
         ],
       ],
     },

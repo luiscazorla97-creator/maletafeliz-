@@ -8,6 +8,7 @@ test.beforeEach(async ({ page }) => {
   await page.route('https://pagead2.googlesyndication.com/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* mock AdSense: no real ad impressions */' }));
   await page.route('https://bauval.org/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* no real ad impressions in tests */' }));
   await page.route('http://127.0.0.1:4322/**', async route => {
+    if (route.request().resourceType() !== 'document') return route.continue();
     const response = await route.fetch();
     const path = new URL(route.request().url()).pathname;
     const policies = headersFile.split(/\n\s*\n/).flatMap(block => {
@@ -17,6 +18,10 @@ test.beforeEach(async ({ page }) => {
     });
     await route.fulfill({ response, headers: { ...response.headers(), ...(policies.length ? { 'content-security-policy': policies.join(', ') } : {}) } });
   });
+});
+
+test.afterEach(async ({ page }) => {
+  await page.unrouteAll({ behavior: 'wait' });
 });
 
 const googleScript = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1382859681401211';

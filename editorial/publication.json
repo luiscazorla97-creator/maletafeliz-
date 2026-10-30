@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-10-30T02:16:53.950Z",
+  "verifiedAt": "2026-10-30T20:33:41.022Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 45,
-  "localizations": 90,
-  "photos": 322,
-  "httpChecks": 421,
+  "originals": 50,
+  "localizations": 100,
+  "photos": 337,
+  "httpChecks": 209,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "bf591fc0-b2e4-4862-a36e-f4d3bd398636",
-      "commit": "e51281241231569de6386c790c3082a7f29da954",
+      "deploymentId": "c17712a7-0101-4ff1-826c-08648757e4c8",
+      "commit": "30c8c21817e2e384abf8adde67bccdd5a930e2e1",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "b4f9b398-6aef-4f64-8fad-29c4173da760",
-      "commit": "e51281241231569de6386c790c3082a7f29da954",
+      "deploymentId": "1cbc596d-4eea-46ab-ac08-65fb0281dd07",
+      "commit": "30c8c21817e2e384abf8adde67bccdd5a930e2e1",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,18 +45,25 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 254,
-  "latestBatch": "2026-10-30-seasonal",
-  "verificationFile": "editorial/verification/2026-10-30-all-place-photos.json",
+  "citedSourceDocuments": 270,
+  "latestBatch": "2026-10-30",
+  "verificationFile": "editorial/verification/2026-10-30-five-guides.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 98,
-    "allGuidePlacePhotosAndNewPhotoBytes": 323
+    "siteAndRedirects": 108,
+    "newArticlesDiscoveryAndPhotographVariants": 101
   },
-  "latestDeploymentVerification": "editorial/verification/2026-10-30-all-place-photos.json",
-  "latestDeploymentVerifiedAt": "2026-10-30T02:16:53.950Z",
+  "latestDeploymentVerification": "editorial/verification/2026-10-30-five-guides.json",
+  "latestDeploymentVerifiedAt": "2026-10-30T20:33:41.022Z",
   "photoCoverage": {
-    "originalRecommendations": 320,
-    "localizedRecommendations": 640,
+    "originalRecommendations": 335,
+    "localizedRecommendations": 670,
     "allPlacesHavePhotographs": true
+  },
+  "adsense": {
+    "publisherId": "ca-pub-1382859681401211",
+    "verificationCodePresent": true,
+    "adsTxtVerified": true,
+    "googleApprovalVerified": false,
+    "adsterraRemoved": true
   }
 }

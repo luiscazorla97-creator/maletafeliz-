@@ -2,7 +2,7 @@
 
 Revista de viajes estática en **español e inglés**, diseñada para Cloudflare Pages. Código, artículos estructurados, investigación y licencias se versionan en GitHub. Sin base de datos, APIs de IA de pago ni automatización ficticia.
 
-**Publicado y verificado en [maletafeliz.com](https://maletafeliz.com/es/).** Hay **45 guías originales, 90 versiones completas en español e inglés y 322 fotografías acreditadas**, con fuentes y revisiones vinculadas al contenido final. Cada uno de los 320 lugares recomendados tiene una fotografía en ambos idiomas. `www.maletafeliz.com` redirige con HTTP 301 al dominio principal, conservando rutas y parámetros. Cloudflare compila desde GitHub mediante la activación del despliegue desde Codex; la redacción diaria de guías continúa siendo manual.
+**Publicado y verificado en [maletafeliz.com](https://maletafeliz.com/es/).** Hay **50 guías originales, 100 versiones completas en español e inglés y 337 fotografías acreditadas**, con fuentes y revisiones vinculadas al contenido final. Cada uno de los 335 lugares recomendados tiene una fotografía en ambos idiomas. `www.maletafeliz.com` redirige con HTTP 301 al dominio principal, conservando rutas y parámetros. Cloudflare compila desde GitHub mediante la activación del despliegue desde Codex; la redacción diaria de guías continúa siendo manual.
 
 ## Ejecutar
 

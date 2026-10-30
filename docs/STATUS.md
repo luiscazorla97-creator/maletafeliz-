@@ -37,19 +37,21 @@ Las diez versiones nuevas incluyen itinerario, preguntas, fuentes y enlaces rela
 
 Commit publicado: `30c8c21817e2e384abf8adde67bccdd5a930e2e1`. Ambos proyectos de Cloudflare terminaron correctamente. Pasaron tipos, 33 pruebas unitarias y 10 de vista previa. Los 214 casos de producción quedaron aprobados: 212 pasaron en la ejecución completa y las 10 pruebas de publicidad se repitieron con éxito tras corregir el cierre de las interceptaciones de red del navegador de pruebas. Se verificaron 209 respuestas públicas, incluidas las diez guías nuevas, sus páginas de descubrimiento y las 60 variantes de fotos nuevas por sus bytes exactos. Evidencia: `editorial/verification/2026-10-30-five-guides.json`.
 
-## Publicidad
+## Publicidad y consentimiento de Analytics
 
-Adsterra está desactivado por solicitud del titular: ninguna página compilada incluye su script, configuración ni contenedor de banner. El componente histórico permanece sin uso en el repositorio.
+Actualización publicada: `891aef2fc6560191f668224f87b45cf8285c1a66`. Adsterra vuelve a estar habilitado por solicitud del titular, con banners de 300 × 250 arriba y abajo del contenido y dos laterales cuando el ancho inicial es de al menos 1920 píxeles. Los laterales no solicitan anuncios en pantallas menores y no cubren el contenido; se mantienen dentro del área anterior al pie. Las páginas legales y 404 excluyen anuncios. El código se ejecuta en orden, en el documento principal, sin un iframe envolvente adicional.
 
-Las páginas de contenido de producción cargan el script asíncrono de Google AdSense con el editor ca-pub-1382859681401211. Las páginas legales y 404 excluyen ese script. Se incluye la meta de cuenta y ads.txt con google.com, pub-1382859681401211, DIRECT, f08c47fec0942fa0. Las políticas de privacidad y cookies reflejan el cambio.
+Google Analytics 4, propiedad `G-RQKZL13K0Z`, requiere aceptación explícita. Antes de aceptar no se carga gtag.js. Aceptar o rechazar se recuerda en almacenamiento local; el control del pie de página permite cambiar la decisión. Retirar el permiso detiene Analytics en ese navegador, elimina las cookies _ga accesibles al sitio y recarga el documento para retirar los manejadores de Google. Sin acceso al almacenamiento se vuelve a pedir una decisión en la siguiente visita. Las páginas legales también respetan esta preferencia. El permiso controla Analytics; no cambia la carga de los anuncios solicitados por el titular. Las vistas previas no incluyen la interfaz ni cargan Analytics o anuncios.
 
-El código público y ads.txt están verificados; no se afirma aprobación de Google ni entrega de anuncios. Las pruebas interceptan ambos proveedores para evitar impresiones reales y comprueban la ausencia de Adsterra, las exclusiones legales, la carga de AdSense y la continuidad editorial si Google falla. Evidencia: editorial/verification/2026-10-30-five-guides.json.
+Se conserva el código de conexión de AdSense, la meta de cuenta y ads.txt del editor ca-pub-1382859681401211. No se afirma aprobación de Google, recepción de métricas en el panel ni entrega real de anuncios. La consulta a la etiqueta de Adsterra desde el entorno devolvió HTTP 403 sin contenido; eso no determina por sí solo qué reciben los visitantes. Las pruebas usan proveedores simulados, sin impresiones publicitarias ni eventos reales de Analytics.
+
+Pasaron tipos, 33 pruebas unitarias, 10 de vista previa y 224 de producción. Se comprobó la disposición a 320, 390, 1440, 1919, 1920 y 2560 píxeles, junto con la aceptación, rechazo, retirada y fallo del almacenamiento. Se verificaron 317 respuestas públicas y ambos proyectos de Cloudflare. Evidencia: `editorial/verification/2026-10-30-analytics-adsterra.json`. La recepción de datos debe comprobarse en la propiedad de Analytics del titular y la retirada futura de Adsterra requiere conocer el resultado de AdSense; no hay un monitor de aprobación configurado.
 
 ## Operación y límites
 
 Cloudflare Pages utiliza GitHub/main: `maletafeliz-web` sirve la revista y `maletafeliz-www` la redirección. El flujo operativo activa la compilación mediante la API de Cloudflare después de subir el commit. La activación automática por cada push no está acreditada. La subida directa de assets con Wrangler encontró una incompatibilidad con el token temporal del proxy; se utiliza la integración Git oficial.
 
-El titular facilitó Luis Sebastian Cazorla Caruso, Argentina, luterapps@gmail.com. La revisión de textos legales es técnica y editorial, sin afirmar asesoría jurídica profesional. Search Console, GA4 y afiliados requieren su configuración real; el código de conexión de AdSense descrito arriba ya está instalado.
+El titular facilitó Luis Sebastian Cazorla Caruso, Argentina, luterapps@gmail.com. La revisión de textos legales es técnica y editorial, sin afirmar asesoría jurídica profesional. Search Console y afiliados requieren su configuración real. Analytics y el código de conexión de AdSense están instalados con los límites de verificación descritos arriba.
 
 No hay una tarea recurrente de redacción de Codex Cloud configurada ni probada, ni una lectura de porcentaje de cuota. Se mantiene el flujo manual `PUBLICAR 5 ARTÍCULOS` y el objetivo documentado de las 07:00 America/New_York. No se usan APIs de IA de pago, bases de datos ni automatizaciones ficticias.
 

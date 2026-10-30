@@ -24,10 +24,10 @@
     "creativeDeliveryVerified": false,
     "lastProviderStatus": 403,
     "lastProviderResponseBytes": 0,
-    "integrationVerified": false,
+    "integrationVerified": true,
     "providerUnitStatusReportedByOwner": "active",
-    "verifiedAt": "2026-10-30T00:10:06.209956+00:00",
-    "verificationFile": "editorial/verification/2026-10-30-sitewide-advertising.json",
+    "verifiedAt": "2026-10-30T22:13:18.665Z",
+    "verificationFile": "editorial/verification/2026-10-30-analytics-adsterra.json",
     "enabled": true,
     "status": "enabled-at-owner-request",
     "disabledAt": "2026-10-30T20:11:50.890Z",
@@ -42,8 +42,8 @@
     "adsTxt": "google.com, pub-1382859681401211, DIRECT, f08c47fec0942fa0",
     "googleApprovalVerified": false,
     "publicIntegrationVerified": true,
-    "publiclyVerifiedAt": "2026-10-30T20:33:41.022Z",
-    "publicVerification": "editorial/verification/2026-10-30-five-guides.json"
+    "publiclyVerifiedAt": "2026-10-30T22:13:18.665Z",
+    "publicVerification": "editorial/verification/2026-10-30-analytics-adsterra.json"
   },
   "analytics": {
     "provider": "Google Analytics 4",
@@ -51,13 +51,16 @@
     "enabled": true,
     "placement": "all production pages after explicit Analytics consent, including legal pages; excluded from previews",
     "configuredAt": "2026-10-30T21:48:06.533Z",
-    "publicIntegrationVerified": false,
+    "publicIntegrationVerified": true,
     "dashboardDataReceiptVerified": false,
     "consent": {
       "required": true,
       "default": "not-loaded",
       "storageKey": "maletafeliz-analytics-consent",
-      "withdrawal": "footer preferences; disables collection, clears accessible _ga cookies and reloads"
-    }
+      "withdrawal": "footer preferences; disables collection, clears accessible _ga cookies and reloads",
+      "browserVerified": true
+    },
+    "publiclyVerifiedAt": "2026-10-30T22:13:18.665Z",
+    "publicVerification": "editorial/verification/2026-10-30-analytics-adsterra.json"
   }
 }

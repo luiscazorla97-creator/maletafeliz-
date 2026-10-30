@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-10-30T20:33:41.022Z",
+  "verifiedAt": "2026-10-30T22:13:18.665Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
   "originals": 50,
   "localizations": 100,
   "photos": 337,
-  "httpChecks": 209,
+  "httpChecks": 317,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "c17712a7-0101-4ff1-826c-08648757e4c8",
-      "commit": "30c8c21817e2e384abf8adde67bccdd5a930e2e1",
+      "deploymentId": "0ed03f4b-a4a5-4bca-bd60-24a7ac46f63a",
+      "commit": "891aef2fc6560191f668224f87b45cf8285c1a66",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "1cbc596d-4eea-46ab-ac08-65fb0281dd07",
-      "commit": "30c8c21817e2e384abf8adde67bccdd5a930e2e1",
+      "deploymentId": "fa512513-4086-499f-abe7-187e57a326f6",
+      "commit": "891aef2fc6560191f668224f87b45cf8285c1a66",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -47,13 +47,15 @@
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
   "citedSourceDocuments": 270,
   "latestBatch": "2026-10-30",
-  "verificationFile": "editorial/verification/2026-10-30-five-guides.json",
+  "verificationFile": "editorial/verification/2026-10-30-analytics-adsterra.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 108,
-    "newArticlesDiscoveryAndPhotographVariants": 101
+    "allHtmlPages": 310,
+    "clientAssets": 1,
+    "adsTxtSitemapRobots": 3,
+    "wwwRedirects": 3
   },
-  "latestDeploymentVerification": "editorial/verification/2026-10-30-five-guides.json",
-  "latestDeploymentVerifiedAt": "2026-10-30T20:33:41.022Z",
+  "latestDeploymentVerification": "editorial/verification/2026-10-30-analytics-adsterra.json",
+  "latestDeploymentVerifiedAt": "2026-10-30T22:13:18.665Z",
   "photoCoverage": {
     "originalRecommendations": 335,
     "localizedRecommendations": 670,
@@ -64,6 +66,25 @@
     "verificationCodePresent": true,
     "adsTxtVerified": true,
     "googleApprovalVerified": false,
-    "adsterraRemoved": true
+    "adsterraRemoved": false
+  },
+  "analytics": {
+    "measurementId": "G-RQKZL13K0Z",
+    "consentRequired": true,
+    "integrationVerified": true,
+    "dashboardDataReceiptVerified": false
+  },
+  "advertising": {
+    "provider": "Adsterra",
+    "enabled": true,
+    "positions": [
+      "top",
+      "bottom",
+      "left",
+      "right"
+    ],
+    "sideMinimumViewportWidth": 1920,
+    "legalPagesExcluded": true,
+    "creativeDeliveryVerified": false
   }
 }

@@ -47,6 +47,16 @@ Se conserva el código de conexión de AdSense, la meta de cuenta y ads.txt del 
 
 Pasaron tipos, 33 pruebas unitarias, 10 de vista previa y 224 de producción. Se comprobó la disposición a 320, 390, 1440, 1919, 1920 y 2560 píxeles, junto con la aceptación, rechazo, retirada y fallo del almacenamiento. Se verificaron 317 respuestas públicas y ambos proyectos de Cloudflare. Evidencia: `editorial/verification/2026-10-30-analytics-adsterra.json`. La recepción de datos debe comprobarse en la propiedad de Analytics del titular y la retirada futura de Adsterra requiere conocer el resultado de AdSense; no hay un monitor de aprobación configurado.
 
+## Banner nativo y popunder
+
+Publicados por solicitud del titular en el commit `c19f28238d51c8c7acbd950cb81955b1bccba0e1`. El bloque nativo usa la etiqueta bauval.org/21/baf26907b67b4fd5cdb22901aa38108e y su contenedor único, antes del pie y después del banner inferior. Se identifica como Publicidad/Advertisement y el contenedor existe antes de ejecutar el script asíncrono.
+
+El proveedor de popunder abscloud.org/1/7a7683e73ba102718744e3df1c9fbe35 se carga una sola vez por documento tras un clic primario real en el contenido. La inicialización excluye clics sintéticos, anuncios y controles de Analytics; no cancela enlaces ni abre ventanas por código propio. Una vez cargado, el proveedor controla las aperturas posteriores y su frecuencia; no se afirma que siempre se abra en el primer clic ni que se eludan los bloqueos del navegador. Ambos formatos se excluyen de páginas legales, 404 y vistas previas.
+
+Google indica que sus anuncios no pueden mostrarse en sitios que activen popunders: https://support.google.com/adsense/answer/1346295?hl=es (consultado el 30 de octubre de 2026). Se informó al titular de este conflicto al implementar su solicitud. Debe retirarse el popunder antes de usar AdSense. El código de verificación existente sigue presente; no hay aprobación de Google verificada.
+
+Tipos y 33 pruebas unitarias correctos; 10 pruebas de vista previa y 22 pruebas de producción centradas en publicidad y consentimiento superadas. No se repitió la suite completa de artículos, cuyo contenido no cambió. Se revisó el HTML de las 310 páginas y se verificaron 317 respuestas públicas. Ambas etiquetas nuevas devolvieron HTTP 403 sin contenido desde el entorno: la integración está comprobada, pero no la entrega real de anuncios ni aperturas. Evidencia: `editorial/verification/2026-10-30-native-popunder.json`.
+
 ## Operación y límites
 
 Cloudflare Pages utiliza GitHub/main: `maletafeliz-web` sirve la revista y `maletafeliz-www` la redirección. El flujo operativo activa la compilación mediante la API de Cloudflare después de subir el commit. La activación automática por cada push no está acreditada. La subida directa de assets con Wrangler encontró una incompatibilidad con el token temporal del proxy; se utiliza la integración Git oficial.

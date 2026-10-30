@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-10-30T22:13:18.665Z",
+  "verifiedAt": "2026-10-30T23:37:21.095Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
   "originals": 50,
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "0ed03f4b-a4a5-4bca-bd60-24a7ac46f63a",
-      "commit": "891aef2fc6560191f668224f87b45cf8285c1a66",
+      "deploymentId": "df799e1e-3c3c-466d-a005-cb14fbace312",
+      "commit": "c19f28238d51c8c7acbd950cb81955b1bccba0e1",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "fa512513-4086-499f-abe7-187e57a326f6",
-      "commit": "891aef2fc6560191f668224f87b45cf8285c1a66",
+      "deploymentId": "fe88939b-805b-4827-af6d-7565015e8b49",
+      "commit": "c19f28238d51c8c7acbd950cb81955b1bccba0e1",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -47,15 +47,15 @@
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
   "citedSourceDocuments": 270,
   "latestBatch": "2026-10-30",
-  "verificationFile": "editorial/verification/2026-10-30-analytics-adsterra.json",
+  "verificationFile": "editorial/verification/2026-10-30-native-popunder.json",
   "httpCheckBreakdown": {
     "allHtmlPages": 310,
     "clientAssets": 1,
     "adsTxtSitemapRobots": 3,
     "wwwRedirects": 3
   },
-  "latestDeploymentVerification": "editorial/verification/2026-10-30-analytics-adsterra.json",
-  "latestDeploymentVerifiedAt": "2026-10-30T22:13:18.665Z",
+  "latestDeploymentVerification": "editorial/verification/2026-10-30-native-popunder.json",
+  "latestDeploymentVerifiedAt": "2026-10-30T23:37:21.095Z",
   "photoCoverage": {
     "originalRecommendations": 335,
     "localizedRecommendations": 670,
@@ -66,7 +66,8 @@
     "verificationCodePresent": true,
     "adsTxtVerified": true,
     "googleApprovalVerified": false,
-    "adsterraRemoved": false
+    "adsterraRemoved": false,
+    "popunderPolicyConflict": true
   },
   "analytics": {
     "measurementId": "G-RQKZL13K0Z",
@@ -85,6 +86,18 @@
     ],
     "sideMinimumViewportWidth": 1920,
     "legalPagesExcluded": true,
-    "creativeDeliveryVerified": false
+    "creativeDeliveryVerified": false,
+    "native": {
+      "enabled": true,
+      "position": "end of content before footer",
+      "integrationVerified": true,
+      "creativeDeliveryVerified": false
+    },
+    "popunder": {
+      "enabled": true,
+      "initialization": "once after a trusted primary click in editorial content",
+      "integrationVerified": true,
+      "realOpeningVerified": false
+    }
   }
 }

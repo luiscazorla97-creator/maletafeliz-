@@ -26,8 +26,8 @@
     "lastProviderResponseBytes": 0,
     "integrationVerified": true,
     "providerUnitStatusReportedByOwner": "active",
-    "verifiedAt": "2026-10-30T22:13:18.665Z",
-    "verificationFile": "editorial/verification/2026-10-30-analytics-adsterra.json",
+    "verifiedAt": "2026-10-30T23:37:21.095Z",
+    "verificationFile": "editorial/verification/2026-10-30-native-popunder.json",
     "enabled": true,
     "status": "enabled-at-owner-request",
     "disabledAt": "2026-10-30T20:11:50.890Z",
@@ -39,24 +39,28 @@
       "containerId": "container-baf26907b67b4fd5cdb22901aa38108e",
       "placement": "once at the end of content before the footer; legal pages and 404 excluded",
       "loading": "asynchronous, directly in the page, data-cfasync=false",
-      "integrationVerified": false,
+      "integrationVerified": true,
       "creativeDeliveryVerified": false,
       "lastProviderStatus": 403,
       "lastProviderResponseBytes": 0,
-      "checkedAt": "2026-10-30T23:21:45.229Z"
+      "checkedAt": "2026-10-30T23:21:45.229Z",
+      "publiclyVerifiedAt": "2026-10-30T23:37:21.095Z",
+      "verificationFile": "editorial/verification/2026-10-30-native-popunder.json"
     },
     "popunder": {
       "enabled": true,
       "scriptUrl": "https://abscloud.org/1/7a7683e73ba102718744e3df1c9fbe35",
       "loading": "initialized once after a trusted primary click in main editorial content; no automatic popup, synthetic click or navigation cancellation by site code",
       "exclusions": "legal pages, 404, previews, initial consent/settings clicks and clicks inside ad slots",
-      "integrationVerified": false,
+      "integrationVerified": true,
       "creativeDeliveryVerified": false,
       "lastProviderStatus": 403,
       "lastProviderResponseBytes": 0,
       "checkedAt": "2026-10-30T23:21:45.229Z",
       "adsensePolicyConflict": "Google prohibits its ads on sites that contain or trigger popunders; remove popunder before using AdSense.",
-      "policyUrl": "https://support.google.com/adsense/answer/1346295?hl=es"
+      "policyUrl": "https://support.google.com/adsense/answer/1346295?hl=es",
+      "publiclyVerifiedAt": "2026-10-30T23:37:21.095Z",
+      "verificationFile": "editorial/verification/2026-10-30-native-popunder.json"
     }
   },
   "adsense": {
@@ -67,8 +71,9 @@
     "adsTxt": "google.com, pub-1382859681401211, DIRECT, f08c47fec0942fa0",
     "googleApprovalVerified": false,
     "publicIntegrationVerified": true,
-    "publiclyVerifiedAt": "2026-10-30T22:13:18.665Z",
-    "publicVerification": "editorial/verification/2026-10-30-analytics-adsterra.json"
+    "publiclyVerifiedAt": "2026-10-30T23:37:21.095Z",
+    "publicVerification": "editorial/verification/2026-10-30-native-popunder.json",
+    "popunderPolicyConflict": true
   },
   "analytics": {
     "provider": "Google Analytics 4",
@@ -85,7 +90,7 @@
       "withdrawal": "footer preferences; disables collection, clears accessible _ga cookies and reloads",
       "browserVerified": true
     },
-    "publiclyVerifiedAt": "2026-10-30T22:13:18.665Z",
-    "publicVerification": "editorial/verification/2026-10-30-analytics-adsterra.json"
+    "publiclyVerifiedAt": "2026-10-30T23:37:21.095Z",
+    "publicVerification": "editorial/verification/2026-10-30-native-popunder.json"
   }
 }

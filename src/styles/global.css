@@ -19,6 +19,30 @@
 body {
   margin: 0;
 }
+.content-frame > main {
+  min-width: 0;
+}
+.analytics-settings {
+  display: block;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 12px;
+  text-decoration: underline;
+}
+@media (min-width: 1920px) {
+  .content-frame:has(> .advertisement-side[data-active='true']) {
+    display: grid;
+    grid-template-columns: 300px minmax(0, 1240px) 300px;
+    gap: 24px;
+    max-width: 1888px;
+    margin-inline: auto;
+    align-items: start;
+  }
+}
 a {
   color: inherit;
   text-decoration: none;

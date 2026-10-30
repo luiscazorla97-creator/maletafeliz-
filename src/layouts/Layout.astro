@@ -4,6 +4,8 @@ import { dictionary, otherLocale, type Locale } from '../i18n';
 import { route } from '../lib/routes';
 import { absolute, production } from '../lib/site';
 import Icon from '../components/Icon.astro';
+import Advertisement from '../components/Advertisement.astro';
+import AnalyticsConsent from '../components/AnalyticsConsent.astro';
 interface Props {
   lang: Locale;
   title: string;
@@ -85,6 +87,7 @@ const links = [
     <a class="skip-link" href="#main">
       {t.skip}
     </a>
+    {production && <AnalyticsConsent lang={lang} />}
     {!production && <div class="preview-bar">{t.preview}</div>}
     <header class="site-header">
       <div class="shell header-inner">
@@ -149,9 +152,15 @@ const links = [
         </div>
       </div>
     </header>
-    <main id="main">
-      <slot />
-    </main>
+    <div class="content-frame">
+      {showAdvertisement && <Advertisement lang={lang} placement="left" />}
+      <main id="main">
+        {showAdvertisement && <Advertisement lang={lang} placement="top" />}
+        <slot />
+        {showAdvertisement && <Advertisement lang={lang} placement="bottom" />}
+      </main>
+      {showAdvertisement && <Advertisement lang={lang} placement="right" />}
+    </div>
     <footer>
       <div class="shell footer-grid">
         <div>
@@ -204,6 +213,11 @@ const links = [
           ].map(([id, label]) => (
             <a href={route(lang, 'info', id)}>{label}</a>
           ))}
+          {production && (
+            <button class="analytics-settings" type="button" data-analytics-settings>
+              {lang === 'es' ? 'Preferencias de Analytics' : 'Analytics preferences'}
+            </button>
+          )}
           <span class="footer-motto">
             <Icon name="compass" size={24} />
             {lang === 'es'

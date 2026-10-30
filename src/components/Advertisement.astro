@@ -1,26 +1,35 @@
 ---
 import type { Locale } from '../i18n';
 import { production } from '../lib/site';
-const { lang } = Astro.props as { lang: Locale };
+const { lang, placement } = Astro.props as {
+  lang: Locale;
+  placement: 'top' | 'bottom' | 'left' | 'right';
+};
+const side = placement === 'left' || placement === 'right';
 const label = lang === 'es' ? 'Publicidad' : 'Advertisement';
+const options = { key: 'c5a78736a50be383ac6b05853c770b4e', format: 'iframe', height: 250, width: 300, params: {} };
+// Keep configuration and provider scripts together, in parser order. Adsterra
+// can use document.write and must execute in the page, not in a sandbox wrapper.
+const tag = `<script>window.atOptions = ${JSON.stringify(options)};</script><script src="https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e"></script>`;
+// Run only during parsing. Hidden mobile slots must not request advertisements.
+// Escaping '<' prevents the nested tag from closing this inline loader.
+const sideLoader = `if (window.matchMedia('(min-width: 1920px)').matches) {
+  document.currentScript.closest('.advertisement').dataset.active = 'true';
+  document.write(${JSON.stringify(tag).replaceAll('<', '\\u003c')});
+}`;
 ---
 {production && (
-  <aside class="advertisement" aria-label={label} data-nosnippet>
+  <aside
+    id={`advertisement-${placement}`}
+    class:list={['advertisement', { 'advertisement-side': side }]}
+    data-ad-placement={placement}
+    aria-label={label}
+    data-nosnippet
+  >
     <span class="advertisement-label">{label}</span>
     <div class="advertisement-viewport">
       <div class="advertisement-slot">
-        <!-- Keep these parser-inserted scripts together and in order. The provider
-             may use document.write; async/defer or a sandbox wrapper break it. -->
-        <script is:inline>
-          atOptions = {
-            'key': 'c5a78736a50be383ac6b05853c770b4e',
-            'format': 'iframe',
-            'height': 250,
-            'width': 300,
-            'params': {}
-          };
-        </script>
-        <script is:inline src="https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e"></script>
+        {side ? <script is:inline set:html={sideLoader} /> : <Fragment set:html={tag} />}
       </div>
     </div>
   </aside>
@@ -31,6 +40,10 @@ const label = lang === 'es' ? 'Publicidad' : 'Advertisement';
   .advertisement-viewport { width: 300px; height: 250px; overflow: hidden; background: #f5f3ef; }
   .advertisement-slot { width: 300px; height: 250px; }
   .advertisement-slot :global(iframe) { border: 0; }
+  .advertisement-side { display: none; }
+  @media (min-width: 1920px) {
+    .advertisement-side[data-active='true'] { display: grid; position: sticky; top: 24px; align-self: start; }
+  }
   @media (max-width: 360px) {
     .advertisement-viewport { width: 264px; height: 220px; }
     .advertisement-slot { transform: scale(.88); transform-origin: top left; }

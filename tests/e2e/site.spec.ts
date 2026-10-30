@@ -4,12 +4,16 @@ const selected = readdirSync('content/articles')
   .map((f) => JSON.parse(readFileSync('content/articles/' + f, 'utf8')))
   .filter((a) => a.status === 'published');
 import { test, expect } from '@playwright/test';
+test.beforeEach(async ({ page }) => {
+  await page.route(/https:\/\/(pagead2\.googlesyndication\.com|www\.googletagmanager\.com|bauval\.org)\//, route => route.abort());
+});
 test('localized home, logo, real navigation and no overflow', async ({
   page,
 }, testInfo) => {
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
   await page.goto('/es/');
+  await expect(page.locator('#analytics-consent, #google-analytics-tag, .advertisement')).toHaveCount(0);
   await expect(page.locator('h1')).toContainText('El mundo es grande');
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(

@@ -2,7 +2,7 @@
   "ownerName": "Luis Sebastian Cazorla Caruso",
   "contactEmail": "luterapps@gmail.com",
   "jurisdiction": "Argentina",
-  "legalReviewedAt": "2026-10-30T20:11:50.890Z",
+  "legalReviewedAt": "2026-10-30T21:55:52.860Z",
   "automation": {
     "status": "manual-only",
     "requestedLocalTime": "07:00",
@@ -12,15 +12,15 @@
     "cloudSchedulingVerified": false,
     "quotaVisibility": "unavailable"
   },
-  "legalContentHash": "8909238685fa36902f5218133f036f3a8d48e1c7c8501353a518a58dc9bdad6a",
+  "legalContentHash": "27486ec95085e4f546d245c0eac5f5379ad896d3e67b97f5a136866a2622198a",
   "legalReviewedBy": "Codex — factual and technical editorial review",
-  "legalReviewScope": "Technical and editorial review of both language disclosures after Adsterra removal and installation of the owner-provided Google AdSense verification code. No professional legal advice or Google approval claimed.",
+  "legalReviewScope": "Technical and editorial review of both language disclosures for Google Analytics 4 and restored Adsterra placements alongside AdSense verification. No legal professional advice or Google approval claimed.",
   "advertising": {
     "provider": "Adsterra",
     "format": "300x250 banner",
     "scriptUrl": "https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e",
-    "placement": "none",
-    "loading": "disabled; component not rendered",
+    "placement": "top and bottom on content pages; left and right on initial viewport widths of at least 1920px; legal pages and 404 excluded",
+    "loading": "sequential parser-inserted provider scripts in the page document; side slots do not request ads on narrower viewports",
     "creativeDeliveryVerified": false,
     "lastProviderStatus": 403,
     "lastProviderResponseBytes": 0,
@@ -28,9 +28,11 @@
     "providerUnitStatusReportedByOwner": "active",
     "verifiedAt": "2026-10-30T00:10:06.209956+00:00",
     "verificationFile": "editorial/verification/2026-10-30-sitewide-advertising.json",
-    "enabled": false,
-    "status": "disabled-at-owner-request",
-    "disabledAt": "2026-10-30T20:11:50.890Z"
+    "enabled": true,
+    "status": "enabled-at-owner-request",
+    "disabledAt": "2026-10-30T20:11:50.890Z",
+    "reactivatedAt": "2026-10-30T21:48:06.533Z",
+    "lastProviderCheckedAt": "2026-10-30T21:48:06.533Z"
   },
   "adsense": {
     "publisherId": "ca-pub-1382859681401211",
@@ -42,5 +44,20 @@
     "publicIntegrationVerified": true,
     "publiclyVerifiedAt": "2026-10-30T20:33:41.022Z",
     "publicVerification": "editorial/verification/2026-10-30-five-guides.json"
+  },
+  "analytics": {
+    "provider": "Google Analytics 4",
+    "measurementId": "G-RQKZL13K0Z",
+    "enabled": true,
+    "placement": "all production pages after explicit Analytics consent, including legal pages; excluded from previews",
+    "configuredAt": "2026-10-30T21:48:06.533Z",
+    "publicIntegrationVerified": false,
+    "dashboardDataReceiptVerified": false,
+    "consent": {
+      "required": true,
+      "default": "not-loaded",
+      "storageKey": "maletafeliz-analytics-consent",
+      "withdrawal": "footer preferences; disables collection, clears accessible _ga cookies and reloads"
+    }
   }
 }

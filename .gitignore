@@ -9,3 +9,7 @@ dist/
 playwright-report/
 test-results/
 *.log
+
+# Local authoring and raw research caches
+.seasonal-drafts/
+editorial/seasonal-research/raw/

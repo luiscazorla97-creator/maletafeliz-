@@ -1,0 +1,30 @@
+{
+  "id": "2026-10-30-seasonal",
+  "createdAt": "2026-10-30T00:20:40.170Z",
+  "status": "ready-for-deployment",
+  "requestedCount": 15,
+  "topicIds": [
+    "halloween-usa",
+    "halloween-ireland",
+    "halloween-uk",
+    "halloween-canada",
+    "halloween-france",
+    "halloween-spain",
+    "halloween-germany",
+    "halloween-japan",
+    "halloween-netherlands",
+    "halloween-australia",
+    "muertos-mexico-city",
+    "muertos-mixquic",
+    "muertos-merida",
+    "muertos-puebla",
+    "muertos-oaxaca"
+  ],
+  "publishedCount": 0,
+  "scope": "Explicit user request: ten Halloween countries and five Mexican Day of the Dead guides, both languages; photo in every recommended place, including existing guides.",
+  "searchDemandNote": "Editorial destination selection; no unsupported most-searched ranking claimed.",
+  "selectedOriginals": 15,
+  "selectedLocalizations": 30,
+  "placePhotosPerOriginal": 2,
+  "existingGuidePhotoBackfill": "in-progress; separate follow-up deployment after all downloaded images are reviewed"
+}

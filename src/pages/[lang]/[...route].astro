@@ -54,7 +54,7 @@ export function getStaticPaths() {
       )
         add('destinations', d.id, {});
     for (const id of Object.keys(continents)) add('explore', id, {});
-    for (const id of ['cities', 'nature', 'culture', 'beaches'])
+    for (const id of ['cities', 'nature', 'culture', 'beaches', 'festivals'])
       add('explore', `category-${id}`, {});
     for (const id of new Set(destinations.map((d) => d.countryId)))
       if (
@@ -98,6 +98,7 @@ const categoryNames = {
   nature: t.nature,
   culture: t.culture,
   beaches: t.beaches,
+  festivals: lang === 'es' ? 'Halloween y Día de Muertos' : 'Halloween and Day of the Dead',
 };
 const isCategory = kind === 'explore' && id?.startsWith('category-');
 const selection =
@@ -222,6 +223,11 @@ const empty = destination
   title={title!}
   description={
     article?.description ||
+    (id === 'category-festivals'
+      ? (lang === 'es'
+          ? 'Guías de Halloween y Día de Muertos: destinos, fechas verificadas, fotografías y consejos para organizar una visita respetuosa.'
+          : 'Halloween and Day of the Dead guides: destinations, checked dates, photographs and practical advice for a thoughtful visit.')
+      : undefined) ||
     (destination ? destination.titles[lang] : t.footerText)
   }
   alternates={alternates}

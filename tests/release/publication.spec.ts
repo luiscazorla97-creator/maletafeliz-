@@ -124,8 +124,14 @@ test('production homepage uses real images, credits and published search results
     fullPage: true,
   });
   await page.goto('/en/search/?q=tokyo');
-  await expect(page.locator('.search-result')).toHaveCount(1);
-  await page.locator('.search-result').click();
+  const tokyo = articles.find((a) => a.id === 'tokyo' && a.locale === 'en');
+  const paris = articles.find((a) => a.id === 'paris' && a.locale === 'en');
+  expect(tokyo).toBeTruthy();
+  expect(paris).toBeTruthy();
+  await expect(page.locator(`.search-result[href="${pathFor(paris)}"]`)).toHaveCount(0);
+  const tokyoResult = page.locator(`.search-result[href="${pathFor(tokyo)}"]`);
+  await expect(tokyoResult).toHaveCount(1);
+  await tokyoResult.click();
   await expect(page.locator('h1')).toContainText('Tokyo');
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute(
     'content',

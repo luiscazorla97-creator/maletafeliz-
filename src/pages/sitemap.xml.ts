@@ -54,6 +54,14 @@ export const GET: APIRoute = () => {
         paths.push({ path: route(lang, 'explore', c) });
       for (const c of new Set(active.map((d) => d.countryId)))
         paths.push({ path: route(lang, 'explore', `country-${c}`) });
+      for (const c of new Set(active.flatMap((d) => d.categories)))
+        paths.push({
+          path: route(lang, 'explore', `category-${c}`),
+          alternates: locales.map((l) => ({
+            lang: l,
+            path: route(l, 'explore', `category-${c}`),
+          })),
+        });
     }
     for (const a of publishedArticles)
       paths.push({

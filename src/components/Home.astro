@@ -20,6 +20,9 @@ const hero = articles.find((a) => a.destinationId === 'bali') || articles[0];
 const photo = hero && photoFor(hero.coverImageId);
 const heroDestination =
   hero && destinations.find((d) => d.id === hero.destinationId);
+const seasonal = ['halloween-ireland', 'halloween-japan', 'muertos-mexico-city', 'muertos-merida']
+  .map((id) => available.find((d) => d.id === id))
+  .filter((d) => d && articles.some((a) => a.destinationId === d.id));
 ---
 
 <section class="shell hero-wrap">
@@ -186,6 +189,7 @@ const heroDestination =
     ['nature', t.nature, 'mountain'],
     ['culture', t.culture, 'book'],
     ['beaches', t.beaches, 'sun'],
+    ['festivals', lang === 'es' ? 'Festividades' : 'Festivals', 'compass'],
   ].map(([key, label, icon]) => (
     <a href={route(lang, 'explore', `category-${key}`)}>
       <Icon name={icon} size={26} />
@@ -194,6 +198,25 @@ const heroDestination =
     </a>
   ))}
 </section>
+{seasonal.length > 0 && (
+  <section class="shell section" aria-labelledby="seasonal-heading">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow orange">{lang === 'es' ? 'VIAJAR EN ESTAS FECHAS' : 'SEASONAL TRAVEL'}</span>
+        <h2 id="seasonal-heading">{lang === 'es' ? 'Halloween y Día de Muertos' : 'Halloween and Day of the Dead'}</h2>
+        <p>{lang === 'es'
+          ? 'Ideas para elegir destino, entender las celebraciones y comprobar fechas antes de viajar.'
+          : 'Choose a destination, understand the celebrations and check dates before travelling.'}</p>
+      </div>
+      <a class="text-link" href={route(lang, 'explore', 'category-festivals')}>
+        {lang === 'es' ? 'Ver todas las guías' : 'View all guides'} <Icon />
+      </a>
+    </div>
+    <div class="card-grid">
+      {seasonal.map((d) => <Card destination={d!} lang={lang} />)}
+    </div>
+  </section>
+)}
 <section class="shell manifesto-wrap">
   <div class="manifesto">
     <div class="manifesto-mark">

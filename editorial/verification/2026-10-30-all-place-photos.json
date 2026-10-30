@@ -1,0 +1,2506 @@
+{
+  "verifiedAt": "2026-10-30T02:16:53.950Z",
+  "commit": "e51281241231569de6386c790c3082a7f29da954",
+  "deployment": {
+    "checkedAt": "2026-10-30T02:16:28.736Z",
+    "domain": "maletafeliz.com",
+    "domains": [
+      {
+        "name": "maletafeliz.com",
+        "project": "maletafeliz-web",
+        "status": "active"
+      },
+      {
+        "name": "www.maletafeliz.com",
+        "project": "maletafeliz-www",
+        "status": "active"
+      }
+    ],
+    "deployments": [
+      {
+        "project": "maletafeliz-web",
+        "hostname": "maletafeliz.com",
+        "pagesSubdomain": "maletafeliz-web.pages.dev",
+        "deploymentId": "bf591fc0-b2e4-4862-a36e-f4d3bd398636",
+        "buildStatus": "success",
+        "buildVerified": true,
+        "stage": "deploy",
+        "commit": "e51281241231569de6386c790c3082a7f29da954"
+      },
+      {
+        "project": "maletafeliz-www",
+        "hostname": "www.maletafeliz.com",
+        "pagesSubdomain": "maletafeliz-www.pages.dev",
+        "deploymentId": "b4f9b398-6aef-4f64-8fad-29c4173da760",
+        "buildStatus": "success",
+        "buildVerified": true,
+        "stage": "deploy",
+        "commit": "e51281241231569de6386c790c3082a7f29da954"
+      }
+    ],
+    "buildStatus": "success",
+    "buildVerified": true,
+    "url": "https://maletafeliz.com",
+    "httpVerified": true,
+    "publicVerifiedAt": "2026-10-30T02:16:53.950Z"
+  },
+  "site": {
+    "checkedAt": "2026-10-30T02:16:19.782Z",
+    "origin": "https://maletafeliz.com",
+    "httpVerified": true,
+    "checked": [
+      {
+        "path": "/es/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/"
+      },
+      {
+        "path": "/en/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bali/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bali/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bangkok/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bangkok/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-barcelona/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-barcelona/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-buenos-aires/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-buenos-aires/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-cape-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-cape-town/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-and-around-cusco/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-and-around-cusco/"
+      },
+      {
+        "path": "/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-edinburgh/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-edinburgh/"
+      },
+      {
+        "path": "/en/guides/halloween-australia-gold-coast-sydney-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-australia-gold-coast-sydney-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-australia-gold-coast-sidney-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-australia-gold-coast-sidney-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-canada-vancouver-quebec-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-canada-vancouver-quebec-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-france-parc-asterix-catacombs-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-france-parc-asterix-catacombs-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-francia-parc-asterix-catacumbas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-francia-parc-asterix-catacumbas-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-germany-movie-park-berlin-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-germany-movie-park-berlin-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-alemania-movie-park-berlin-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-alemania-movie-park-berlin-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-ireland-puca-trim-athboy-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-ireland-puca-trim-athboy-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-irlanda-puca-trim-athboy-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-irlanda-puca-trim-athboy-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-japan-disneyland-disneysea-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-japan-disneyland-disneysea-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-japon-disneyland-disneysea-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-japon-disneyland-disneysea-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-netherlands-walibi-toverland-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-netherlands-walibi-toverland-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-paises-bajos-walibi-toverland-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-paises-bajos-walibi-toverland-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-spain-portaventura-warner-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-spain-portaventura-warner-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-espana-portaventura-warner-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-espana-portaventura-warner-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-uk-derry-edinburgh-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-uk-derry-edinburgh-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-reino-unido-derry-edimburgo-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-reino-unido-derry-edimburgo-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-usa-salem-orlando-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-usa-salem-orlando-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-estados-unidos-salem-orlando-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-estados-unidos-salem-orlando-2026/"
+      },
+      {
+        "path": "/en/guides/5-remarkable-places-to-discover-in-hawaii/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-remarkable-places-to-discover-in-hawaii/"
+      },
+      {
+        "path": "/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-hobart/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-hobart/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-kyoto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-kyoto/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-kioto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-kioto/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-lisbon/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-lisbon/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-lisboa/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-lisboa/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-london/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-london/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-londres/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-londres/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-lucerne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-lucerne/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-lucerna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-lucerna/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-marrakech/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-marrakech/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-mexico-city/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-mexico-city/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/"
+      },
+      {
+        "path": "/en/guides/day-dead-merida-paseo-animas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-merida-paseo-animas-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-merida-paseo-animas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-merida-paseo-animas-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-mixquic-alumbrada-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-mixquic-alumbrada-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-mixquic-alumbrada-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-mixquic-alumbrada-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-oaxaca-centre-monte-alban-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-oaxaca-centre-monte-alban-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-puebla-tecamachalco-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-puebla-tecamachalco-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-puebla-tecamachalco-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-puebla-tecamachalco-2026/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-nairobi/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-nairobi/"
+      },
+      {
+        "path": "/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-paris/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-imprescindibles-de-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-imprescindibles-de-paris/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-quebec/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-quebec/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-queenstown/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-queenstown/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-rio-de-janeiro/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-rio-de-janeiro/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-rome/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-rome/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-roma/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-roma/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-seoul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-seoul/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-seul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-seul/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-singapore/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-singapore/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-stone-town/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-stone-town/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-sydney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-sydney/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-sidney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-sidney/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-tokyo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-tokyo/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-tokio/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-tokio/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-vancouver/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-vancouver/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-wellington/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-wellington/"
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/sitemap.xml"
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/robots.txt"
+      },
+      {
+        "path": "/maletafeliz-launch-check-nonexistent/",
+        "status": 404,
+        "finalUrl": "https://maletafeliz.com/maletafeliz-launch-check-nonexistent/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/",
+        "status": 301,
+        "location": "https://maletafeliz.com/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/es/?ref=www-check",
+        "status": 301,
+        "location": "https://maletafeliz.com/es/?ref=www-check"
+      },
+      {
+        "path": "https://www.maletafeliz.com/en/",
+        "status": 301,
+        "location": "https://maletafeliz.com/en/"
+      }
+    ],
+    "errors": []
+  },
+  "photos": {
+    "checkedAt": "2026-10-30T02:16:24.876Z",
+    "origin": "https://maletafeliz.com",
+    "verified": true,
+    "originals": 45,
+    "localizations": 90,
+    "placeSections": 640,
+    "newPhotographs": 233,
+    "photosInManifest": 322,
+    "checks": [
+      {
+        "path": "/en/guides/places-to-visit-bali/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bangkok/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bali/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/places-to-visit-bangkok/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-barcelona/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-buenos-aires/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-barcelona/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-buenos-aires/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-and-around-cusco/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-cape-town/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-edinburgh/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-edinburgh/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/en/guides/halloween-australia-gold-coast-sydney-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/halloween-australia-gold-coast-sidney-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/halloween-francia-parc-asterix-catacumbas-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/halloween-france-parc-asterix-catacombs-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/halloween-irlanda-puca-trim-athboy-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/halloween-alemania-movie-park-berlin-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/halloween-germany-movie-park-berlin-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/halloween-ireland-puca-trim-athboy-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/halloween-japan-disneyland-disneysea-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/halloween-paises-bajos-walibi-toverland-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/halloween-japon-disneyland-disneysea-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/halloween-netherlands-walibi-toverland-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/halloween-espana-portaventura-warner-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/halloween-uk-derry-edinburgh-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/halloween-reino-unido-derry-edimburgo-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/halloween-spain-portaventura-warner-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/en/guides/halloween-usa-salem-orlando-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/halloween-estados-unidos-salem-orlando-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/5-remarkable-places-to-discover-in-hawaii/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-hobart/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-hobart/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/places-to-visit-kyoto/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-kioto/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-london/",
+        "status": 200,
+        "expectedPlacePhotos": 15,
+        "verifiedPlacePhotos": 15
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-londres/",
+        "status": 200,
+        "expectedPlacePhotos": 15,
+        "verifiedPlacePhotos": 15
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-lisboa/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-lisbon/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-lucerne/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-marrakech/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-lucerna/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-marrakech/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-miami/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-mexico-city/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/dia-muertos-merida-paseo-animas-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/day-dead-merida-paseo-animas-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/day-dead-oaxaca-centre-monte-alban-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/day-dead-mixquic-alumbrada-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/dia-muertos-mixquic-alumbrada-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-nairobi/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/day-dead-puebla-tecamachalco-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-nairobi/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/dia-muertos-puebla-tecamachalco-2026/",
+        "status": 200,
+        "expectedPlacePhotos": 2,
+        "verifiedPlacePhotos": 2
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/",
+        "status": 200,
+        "expectedPlacePhotos": 15,
+        "verifiedPlacePhotos": 15
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-paris/",
+        "status": 200,
+        "expectedPlacePhotos": 15,
+        "verifiedPlacePhotos": 15
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-imprescindibles-de-paris/",
+        "status": 200,
+        "expectedPlacePhotos": 15,
+        "verifiedPlacePhotos": 15
+      },
+      {
+        "path": "/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/",
+        "status": 200,
+        "expectedPlacePhotos": 15,
+        "verifiedPlacePhotos": 15
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-quebec/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-quebec/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-queenstown/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-queenstown/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-rio-de-janeiro/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-rio-de-janeiro/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-roma/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-rome/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-singapore/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-singapore/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-seul/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-seoul/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-stone-town/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-stone-town/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-sidney/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-sydney/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-tokyo/",
+        "status": 200,
+        "expectedPlacePhotos": 15,
+        "verifiedPlacePhotos": 15
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-vancouver/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-vancouver/",
+        "status": 200,
+        "expectedPlacePhotos": 10,
+        "verifiedPlacePhotos": 10
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-tokio/",
+        "status": 200,
+        "expectedPlacePhotos": 15,
+        "verifiedPlacePhotos": 15
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-wellington/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-wellington/",
+        "status": 200,
+        "expectedPlacePhotos": 5,
+        "verifiedPlacePhotos": 5
+      },
+      {
+        "path": "/images/place-bali-tirta.webp",
+        "status": 200,
+        "bytes": 413820,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bali-tamanayun.webp",
+        "status": 200,
+        "bytes": 215570,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bali-beratan.webp",
+        "status": 200,
+        "bytes": 129398,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bali-gunungkawi.webp",
+        "status": 200,
+        "bytes": 469376,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bali-pandawa.webp",
+        "status": 200,
+        "bytes": 59574,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bangkok-watpho.webp",
+        "status": 200,
+        "bytes": 461652,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bali-tegenungan.webp",
+        "status": 200,
+        "bytes": 421928,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bali-goagajah.webp",
+        "status": 200,
+        "bytes": 303596,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bangkok-jim.webp",
+        "status": 200,
+        "bytes": 257298,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bangkok-siam.webp",
+        "status": 200,
+        "bytes": 201510,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bangkok-bacc.webp",
+        "status": 200,
+        "bytes": 54364,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bangkok-lumphini.webp",
+        "status": 200,
+        "bytes": 140968,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bangkok-river.webp",
+        "status": 200,
+        "bytes": 218656,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bangkok-benjakitti.webp",
+        "status": 200,
+        "bytes": 297862,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-barcelona-park-guell.webp",
+        "status": 200,
+        "bytes": 148262,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-barcelona-pedrera.webp",
+        "status": 200,
+        "bytes": 266600,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-barcelona-palau-musica.webp",
+        "status": 200,
+        "bytes": 410786,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-barcelona-coast.webp",
+        "status": 200,
+        "bytes": 188644,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-buenos-aires-plaza-de-mayo.webp",
+        "status": 200,
+        "bytes": 205950,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-barcelona-ciutadella.webp",
+        "status": 200,
+        "bytes": 298832,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-buenos-aires-teatro-colon.webp",
+        "status": 200,
+        "bytes": 408308,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-buenos-aires-cementerio-recoleta.webp",
+        "status": 200,
+        "bytes": 254298,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-buenos-aires-plaza-dorrego.webp",
+        "status": 200,
+        "bytes": 384094,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-buenos-aires-bellas-artes.webp",
+        "status": 200,
+        "bytes": 334322,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-buenos-aires-ateneo.webp",
+        "status": 200,
+        "bytes": 234068,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cape-town-robben-island.webp",
+        "status": 200,
+        "bytes": 304318,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-buenos-aires-puente-mujer.webp",
+        "status": 200,
+        "bytes": 131112,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-buenos-aires-reserva-ecologica.webp",
+        "status": 200,
+        "bytes": 448624,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cape-town-bo-kaap.webp",
+        "status": 200,
+        "bytes": 228746,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cape-town-kirstenbosch.webp",
+        "status": 200,
+        "bytes": 449880,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cape-town-district-six.webp",
+        "status": 200,
+        "bytes": 290116,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cape-town-waterfront.webp",
+        "status": 200,
+        "bytes": 384814,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cape-town-cape-point.webp",
+        "status": 200,
+        "bytes": 321592,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cape-town-signal-hill.webp",
+        "status": 200,
+        "bytes": 235866,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cape-town-zeitz-mocaa.webp",
+        "status": 200,
+        "bytes": 233976,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cape-town-boulders.webp",
+        "status": 200,
+        "bytes": 332918,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cusco-catedral.webp",
+        "status": 200,
+        "bytes": 207794,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cusco-hatunrumiyoc.webp",
+        "status": 200,
+        "bytes": 223078,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cusco-san-pedro.webp",
+        "status": 200,
+        "bytes": 275186,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cusco-san-blas.webp",
+        "status": 200,
+        "bytes": 165136,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cusco-pisac.webp",
+        "status": 200,
+        "bytes": 246762,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cusco-qorikancha.webp",
+        "status": 200,
+        "bytes": 185754,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cusco-ollantaytambo.webp",
+        "status": 200,
+        "bytes": 262330,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-barcelona-cathedral.webp",
+        "status": 200,
+        "bytes": 477722,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-cusco-moray.webp",
+        "status": 200,
+        "bytes": 449628,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-edinburgh-place-3.webp",
+        "status": 200,
+        "bytes": 224490,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-edinburgh-place-4.webp",
+        "status": 200,
+        "bytes": 270814,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-edinburgh-place-5.webp",
+        "status": 200,
+        "bytes": 180810,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-hobart-salamanca.webp",
+        "status": 200,
+        "bytes": 148172,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-hawaii-waimea-canyon.webp",
+        "status": 200,
+        "bytes": 448726,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-hawaii-hawaii-volcanoes.webp",
+        "status": 200,
+        "bytes": 214126,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-hawaii-napali.webp",
+        "status": 200,
+        "bytes": 38680,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-hobart-mona.webp",
+        "status": 200,
+        "bytes": 46756,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-hobart-battery-point.webp",
+        "status": 200,
+        "bytes": 542540,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-hobart-tmag.webp",
+        "status": 200,
+        "bytes": 219772,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-hobart-botanical-gardens.webp",
+        "status": 200,
+        "bytes": 270866,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bali-ceking-terraces.webp",
+        "status": 200,
+        "bytes": 354336,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-barcelona-picasso-museum.webp",
+        "status": 200,
+        "bytes": 211752,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-hobart-richmond.webp",
+        "status": 200,
+        "bytes": 520406,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-hobart-female-factory.webp",
+        "status": 200,
+        "bytes": 267096,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-kyoto-nijo.webp",
+        "status": 200,
+        "bytes": 338064,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-hobart-theatre-royal.webp",
+        "status": 200,
+        "bytes": 116274,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-kyoto-ryoanji.webp",
+        "status": 200,
+        "bytes": 271340,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-kyoto-fushimi.webp",
+        "status": 200,
+        "bytes": 177648,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-kyoto-yasaka.webp",
+        "status": 200,
+        "bytes": 363836,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-kyoto-kodaiji.webp",
+        "status": 200,
+        "bytes": 413282,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-kyoto-maruyama.webp",
+        "status": 200,
+        "bytes": 502096,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-kyoto-chion.webp",
+        "status": 200,
+        "bytes": 284014,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lisbon-castelo.webp",
+        "status": 200,
+        "bytes": 262118,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lisbon-catedral.webp",
+        "status": 200,
+        "bytes": 409114,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-kyoto-heian.webp",
+        "status": 200,
+        "bytes": 568470,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lisbon-arco-rua-augusta.webp",
+        "status": 200,
+        "bytes": 170430,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-tower-london.webp",
+        "status": 200,
+        "bytes": 312672,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lisbon-jeronimos.webp",
+        "status": 200,
+        "bytes": 659890,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lisbon-maat.webp",
+        "status": 200,
+        "bytes": 204440,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lisbon-santa-justa.webp",
+        "status": 200,
+        "bytes": 355042,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-british-museum.webp",
+        "status": 200,
+        "bytes": 399958,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-westminster.webp",
+        "status": 200,
+        "bytes": 358058,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-london-eye.webp",
+        "status": 200,
+        "bytes": 326318,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-st-pauls.webp",
+        "status": 200,
+        "bytes": 434842,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-natural-history.webp",
+        "status": 200,
+        "bytes": 414960,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-science-museum.webp",
+        "status": 200,
+        "bytes": 287066,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-tate-modern.webp",
+        "status": 200,
+        "bytes": 146484,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-national-gallery.webp",
+        "status": 200,
+        "bytes": 184756,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-covent-garden.webp",
+        "status": 200,
+        "bytes": 291842,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-borough-market.webp",
+        "status": 200,
+        "bytes": 88372,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lucerne-casco-antiguo.webp",
+        "status": 200,
+        "bytes": 410180,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-hyde-park.webp",
+        "status": 200,
+        "bytes": 137258,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lisbon-oceanario-visit.webp",
+        "status": 200,
+        "bytes": 229770,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lucerne-spreuerbrucke.webp",
+        "status": 200,
+        "bytes": 350968,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lucerne-iglesia-jesuita.webp",
+        "status": 200,
+        "bytes": 143186,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lisbon-bairro-alto-street.webp",
+        "status": 200,
+        "bytes": 328262,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lucerne-lago.webp",
+        "status": 200,
+        "bytes": 192764,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lucerne-museo-transporte.webp",
+        "status": 200,
+        "bytes": 230202,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lucerne-pilatus.webp",
+        "status": 200,
+        "bytes": 245838,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lucerne-musegg.webp",
+        "status": 200,
+        "bytes": 337192,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-marrakech-jemaa-el-fna.webp",
+        "status": 200,
+        "bytes": 261764,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-lucerne-rigi.webp",
+        "status": 200,
+        "bytes": 225028,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-marrakech-souk-semmarine.webp",
+        "status": 200,
+        "bytes": 307492,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-marrakech-ben-youssef.webp",
+        "status": 200,
+        "bytes": 301234,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-marrakech-bahia.webp",
+        "status": 200,
+        "bytes": 322442,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-marrakech-el-badi.webp",
+        "status": 200,
+        "bytes": 209246,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-marrakech-saadian-tombs.webp",
+        "status": 200,
+        "bytes": 258018,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-marrakech-majorelle.webp",
+        "status": 200,
+        "bytes": 579228,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-marrakech-photography.webp",
+        "status": 200,
+        "bytes": 198296,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-mexico-city-templo-mayor.webp",
+        "status": 200,
+        "bytes": 247914,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-marrakech-menara.webp",
+        "status": 200,
+        "bytes": 100220,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-mexico-city-zocalo.webp",
+        "status": 200,
+        "bytes": 364716,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-mexico-city-antropologia.webp",
+        "status": 200,
+        "bytes": 187124,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-mexico-city-frida-kahlo.webp",
+        "status": 200,
+        "bytes": 319934,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-mexico-city-alameda.webp",
+        "status": 200,
+        "bytes": 452696,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-mexico-city-bosque.webp",
+        "status": 200,
+        "bytes": 405480,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-miami-south-beach.webp",
+        "status": 200,
+        "bytes": 456628,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-miami-art-deco.webp",
+        "status": 200,
+        "bytes": 286236,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-miami-little-havana.webp",
+        "status": 200,
+        "bytes": 640218,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-miami-wynwood.webp",
+        "status": 200,
+        "bytes": 311660,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-miami-pamm.webp",
+        "status": 200,
+        "bytes": 178154,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-miami-fairchild.webp",
+        "status": 200,
+        "bytes": 583444,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-nairobi-sheldrick.webp",
+        "status": 200,
+        "bytes": 1018916,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-nairobi-karura.webp",
+        "status": 200,
+        "bytes": 563578,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-nairobi-nairobi-gallery.webp",
+        "status": 200,
+        "bytes": 234936,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-nairobi-arboretum.webp",
+        "status": 200,
+        "bytes": 449368,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-nairobi-karen-blixen.webp",
+        "status": 200,
+        "bytes": 309628,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-nairobi-kicc.webp",
+        "status": 200,
+        "bytes": 249090,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-central-park.webp",
+        "status": 200,
+        "bytes": 391162,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-mexico-city-cuemanco.webp",
+        "status": 200,
+        "bytes": 122936,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-empire-state.webp",
+        "status": 200,
+        "bytes": 274610,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-miami-frost-aquarium.webp",
+        "status": 200,
+        "bytes": 175034,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-nairobi-giraffe-centre-giraffe.webp",
+        "status": 200,
+        "bytes": 315278,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-miami-venetian-pool-photo.webp",
+        "status": 200,
+        "bytes": 381978,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-times-square-view.webp",
+        "status": 200,
+        "bytes": 199934,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-nairobi-snake-park-boomslang.webp",
+        "status": 200,
+        "bytes": 86052,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-high-line.webp",
+        "status": 200,
+        "bytes": 193326,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-ellis-island.webp",
+        "status": 200,
+        "bytes": 134102,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-grand-central.webp",
+        "status": 200,
+        "bytes": 185930,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-top-of-the-rock.webp",
+        "status": 200,
+        "bytes": 301498,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-memorial.webp",
+        "status": 200,
+        "bytes": 223556,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-barcelona-mnac.webp",
+        "status": 200,
+        "bytes": 248238,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-london-buckingham.webp",
+        "status": 200,
+        "bytes": 83042,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-mexico-city-coyoacan.webp",
+        "status": 200,
+        "bytes": 394098,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-orsay.webp",
+        "status": 200,
+        "bytes": 225296,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-louvre.webp",
+        "status": 200,
+        "bytes": 123016,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-natural-history.webp",
+        "status": 200,
+        "bytes": 137788,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-tuileries.webp",
+        "status": 200,
+        "bytes": 276552,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-sainte-chapelle.webp",
+        "status": 200,
+        "bytes": 371908,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-montmartre.webp",
+        "status": 200,
+        "bytes": 411318,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-arc-triomphe.webp",
+        "status": 200,
+        "bytes": 199714,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-champs-elysees.webp",
+        "status": 200,
+        "bytes": 494622,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-luxembourg.webp",
+        "status": 200,
+        "bytes": 299428,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-marais.webp",
+        "status": 200,
+        "bytes": 474474,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-sacre-coeur.webp",
+        "status": 200,
+        "bytes": 300550,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-pantheon.webp",
+        "status": 200,
+        "bytes": 349856,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-queenstown-queenstown-gardens.webp",
+        "status": 200,
+        "bytes": 805140,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-quebec-place-5.webp",
+        "status": 200,
+        "bytes": 282786,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-quebec-place-3.webp",
+        "status": 200,
+        "bytes": 344074,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-quebec-place-4.webp",
+        "status": 200,
+        "bytes": 176340,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-queenstown-arrowtown.webp",
+        "status": 200,
+        "bytes": 333172,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-queenstown-queenstown-hill.webp",
+        "status": 200,
+        "bytes": 245954,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-queenstown-glenorchy.webp",
+        "status": 200,
+        "bytes": 327362,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-queenstown-ben-lomond.webp",
+        "status": 200,
+        "bytes": 711890,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rio-copacabana.webp",
+        "status": 200,
+        "bytes": 80264,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-queenstown-gibbston.webp",
+        "status": 200,
+        "bytes": 295018,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rio-ipanema.webp",
+        "status": 200,
+        "bytes": 206360,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-queenstown-kawarau-bridge.webp",
+        "status": 200,
+        "bytes": 401264,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rio-lagoa.webp",
+        "status": 200,
+        "bytes": 170004,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rio-jardin-botanico.webp",
+        "status": 200,
+        "bytes": 263394,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rio-parque-lage.webp",
+        "status": 200,
+        "bytes": 310886,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rio-escalera-selaron.webp",
+        "status": 200,
+        "bytes": 429000,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rome-forum-palatine.webp",
+        "status": 200,
+        "bytes": 153462,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rome-pantheon.webp",
+        "status": 200,
+        "bytes": 355242,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rio-museo-manana.webp",
+        "status": 200,
+        "bytes": 269470,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rome-trevi.webp",
+        "status": 200,
+        "bytes": 229184,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rome-navona.webp",
+        "status": 200,
+        "bytes": 201988,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-bangkok-chatuchak-market.webp",
+        "status": 200,
+        "bytes": 216312,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rome-spagna.webp",
+        "status": 200,
+        "bytes": 271638,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rome-capitoline.webp",
+        "status": 200,
+        "bytes": 382090,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rome-villa-borghese.webp",
+        "status": 200,
+        "bytes": 220332,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-seoul-bukchon.webp",
+        "status": 200,
+        "bytes": 331432,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rome-tiber-island.webp",
+        "status": 200,
+        "bytes": 88718,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-seine-river.webp",
+        "status": 200,
+        "bytes": 195430,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-seoul-namsan.webp",
+        "status": 200,
+        "bytes": 58548,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-seoul-deoksugung.webp",
+        "status": 200,
+        "bytes": 279892,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-paris-place-vosges-square.webp",
+        "status": 200,
+        "bytes": 313766,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-seoul-wall.webp",
+        "status": 200,
+        "bytes": 233420,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-seoul-namsangol.webp",
+        "status": 200,
+        "bytes": 347192,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-seoul-lotte.webp",
+        "status": 200,
+        "bytes": 89800,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-seoul-museum.webp",
+        "status": 200,
+        "bytes": 142110,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-seoul-starfield.webp",
+        "status": 200,
+        "bytes": 540150,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-stone-town-place-3.webp",
+        "status": 200,
+        "bytes": 146678,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-singapore-place-5.webp",
+        "status": 200,
+        "bytes": 508448,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-singapore-place-2.webp",
+        "status": 200,
+        "bytes": 228844,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-stone-town-place-4.webp",
+        "status": 200,
+        "bytes": 341540,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-sydney-taronga.webp",
+        "status": 200,
+        "bytes": 214642,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-sydney-chinatown.webp",
+        "status": 200,
+        "bytes": 277680,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-sydney-art-gallery.webp",
+        "status": 200,
+        "bytes": 147142,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-sydney-botanic-garden.webp",
+        "status": 200,
+        "bytes": 491042,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-nakamise.webp",
+        "status": 200,
+        "bytes": 313702,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-sydney-museum-contemporary.webp",
+        "status": 200,
+        "bytes": 307176,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-sydney-manly.webp",
+        "status": 200,
+        "bytes": 213012,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-sydney-bondi.webp",
+        "status": 200,
+        "bytes": 160654,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-tsukiji.webp",
+        "status": 200,
+        "bytes": 172200,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-skytree.webp",
+        "status": 200,
+        "bytes": 185686,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-ueno.webp",
+        "status": 200,
+        "bytes": 447656,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-tokyo-station.webp",
+        "status": 200,
+        "bytes": 278182,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-shibuya-sky.webp",
+        "status": 200,
+        "bytes": 402592,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-meiji.webp",
+        "status": 200,
+        "bytes": 453562,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-sydney-the-rocks-neighbourhood.webp",
+        "status": 200,
+        "bytes": 223206,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-shibuya-crossing.webp",
+        "status": 200,
+        "bytes": 257182,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-shinjuku-gyoen.webp",
+        "status": 200,
+        "bytes": 430526,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-vancouver-gastown.webp",
+        "status": 200,
+        "bytes": 377426,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-yoyogi.webp",
+        "status": 200,
+        "bytes": 269626,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-takeshita.webp",
+        "status": 200,
+        "bytes": 120020,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-vancouver-vandusen.webp",
+        "status": 200,
+        "bytes": 419832,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-vancouver-chinatown.webp",
+        "status": 200,
+        "bytes": 210162,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-vancouver-kitsilano-beach.webp",
+        "status": 200,
+        "bytes": 431604,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-vancouver-queen-elizabeth-park.webp",
+        "status": 200,
+        "bytes": 314826,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-vancouver-museum-anthropology.webp",
+        "status": 200,
+        "bytes": 141048,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-metropolitan-building.webp",
+        "status": 200,
+        "bytes": 245338,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-vancouver-capilano.webp",
+        "status": 200,
+        "bytes": 666690,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-vancouver-lynn-canyon.webp",
+        "status": 200,
+        "bytes": 1147260,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-miami-bayside.webp",
+        "status": 200,
+        "bytes": 416984,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-wellington-place-3.webp",
+        "status": 200,
+        "bytes": 383400,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-wellington-place-5.webp",
+        "status": 200,
+        "bytes": 131946,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-wellington-place-4.webp",
+        "status": 200,
+        "bytes": 514674,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-met.webp",
+        "status": 200,
+        "bytes": 252452,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-moma.webp",
+        "status": 200,
+        "bytes": 186856,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-nairobi-national-museum.webp",
+        "status": 200,
+        "bytes": 395708,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-new-york-bryant-park.webp",
+        "status": 200,
+        "bytes": 443370,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-tokyo-national-museum.webp",
+        "status": 200,
+        "bytes": 278070,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-stone-town-place-5.webp",
+        "status": 200,
+        "bytes": 166412,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-rio-santa-teresa.webp",
+        "status": 200,
+        "bytes": 461242,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-singapore-place-3.webp",
+        "status": 200,
+        "bytes": 156646,
+        "hashVerified": true
+      },
+      {
+        "path": "/images/place-queenstown-bobs-cove.webp",
+        "status": 200,
+        "bytes": 112122,
+        "hashVerified": true
+      }
+    ],
+    "errors": []
+  },
+  "validation": {
+    "typeErrors": 0,
+    "unitTestsPassed": 33,
+    "previewTestsPassed": 10,
+    "releaseBrowserTestsPassed": 194,
+    "htmlPages": 284,
+    "visualReview": "editorial/seasonal-research/photo-visual-review.json",
+    "originalArticleProseAndPublicationDatesPreserved": true
+  },
+  "totalHttpChecks": 421
+}

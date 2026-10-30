@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-10-30T01:24:52.701Z",
+  "verifiedAt": "2026-10-30T02:16:53.950Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
   "originals": 45,
   "localizations": 90,
-  "photos": 89,
-  "httpChecks": 214,
+  "photos": 322,
+  "httpChecks": 421,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "5d2c6556-1cf8-4885-8c7e-d3c1d7cb232a",
-      "commit": "f2144ca1cb32dc36dfb91ea88c9452d336f529b9",
+      "deploymentId": "bf591fc0-b2e4-4862-a36e-f4d3bd398636",
+      "commit": "e51281241231569de6386c790c3082a7f29da954",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "c54d122e-9a44-41f5-9f62-75cc84a98e7a",
-      "commit": "f2144ca1cb32dc36dfb91ea88c9452d336f529b9",
+      "deploymentId": "b4f9b398-6aef-4f64-8fad-29c4173da760",
+      "commit": "e51281241231569de6386c790c3082a7f29da954",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -47,11 +47,16 @@
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
   "citedSourceDocuments": 254,
   "latestBatch": "2026-10-30-seasonal",
-  "verificationFile": "editorial/verification/2026-10-30-seasonal.json",
+  "verificationFile": "editorial/verification/2026-10-30-all-place-photos.json",
   "httpCheckBreakdown": {
     "siteAndRedirects": 98,
-    "seasonalDiscoveryAndPhotoVariants": 116
+    "allGuidePlacePhotosAndNewPhotoBytes": 323
   },
-  "latestDeploymentVerification": "editorial/verification/2026-10-30-seasonal.json",
-  "latestDeploymentVerifiedAt": "2026-10-30T01:26:25.129Z"
+  "latestDeploymentVerification": "editorial/verification/2026-10-30-all-place-photos.json",
+  "latestDeploymentVerifiedAt": "2026-10-30T02:16:53.950Z",
+  "photoCoverage": {
+    "originalRecommendations": 320,
+    "localizedRecommendations": 640,
+    "allPlacesHavePhotographs": true
+  }
 }

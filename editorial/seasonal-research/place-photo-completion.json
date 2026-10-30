@@ -1,6 +1,6 @@
 {
   "reviewedAt": "2026-10-30T02:01:03.885Z",
-  "stage": "editorial-reviewed",
+  "stage": "published-verified",
   "originals": 45,
   "localizations": 90,
   "placeRecommendations": 320,
@@ -28,5 +28,8 @@
     "place-sydney-the-rocks",
     "place-sydney-the-rocks-walk"
   ],
-  "publicDeploymentVerified": false
+  "publicDeploymentVerified": true,
+  "publiclyVerifiedAt": "2026-10-30T02:16:53.950Z",
+  "commit": "e51281241231569de6386c790c3082a7f29da954",
+  "verificationFile": "editorial/verification/2026-10-30-all-place-photos.json"
 }

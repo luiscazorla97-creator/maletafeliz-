@@ -8,7 +8,7 @@ https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con
 
 - 45 guías originales y 90 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
 - 254 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 89 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 322 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
@@ -25,7 +25,9 @@ La campaña corresponde al commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. Lo
 
 ## Fotografías de todos los lugares
 
-En curso: completar cada sección `kind: place` de las treinta guías anteriores con una fotografía del lugar en ambos idiomas. El inventario identifica 290 secciones: 57 admiten una foto ya verificada y 233 requieren nuevas imágenes. Se comprueban las ubicaciones, licencias y fotografías antes de incorporarlas. Los límites temporales del servidor de archivos se respetan; no se usan proxies alternativos ni se eluden cuotas. Esta ampliación se desplegará por separado y no se cuenta aún como publicada.
+Publicado y verificado: los 320 lugares recomendados de las 45 guías tienen fotografía en español e inglés (640 secciones localizadas). Las treinta guías anteriores recibieron 233 fotografías nuevas y 57 asignaciones de fotografías ya verificadas. Sus textos, fuentes y fechas originales de publicación se preservaron. Las imágenes tienen variantes WebP, ALT bilingüe, descripción visible y crédito; los archivos históricos se identifican como tales. La compilación rechaza cualquier lugar sin fotografía.
+
+El commit `e51281241231569de6386c790c3082a7f29da954` se desplegó correctamente en ambos proyectos de Cloudflare. Pasaron el chequeo de tipos, 33 pruebas unitarias, 10 de vista previa y las 194 pruebas de producción en móvil y escritorio. Ambas compilaciones generaron 284 páginas. Se comprobaron 98 rutas y redirecciones públicas, las 640 fotografías dentro de sus 90 artículos y los bytes exactos de las 233 fotografías nuevas: 421 registros HTTP. Evidencia: `editorial/verification/2026-10-30-all-place-photos.json`.
 
 ## Publicidad
 

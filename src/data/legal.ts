@@ -87,11 +87,11 @@ export const legal = {
         ],
         [
           'Datos en esta versión',
-          'La búsqueda se realiza en el navegador. No se envían consultas a una base de datos propia. La preferencia de idioma se guarda localmente y puede eliminarse borrando los datos del sitio. No hay cuentas de usuario ni newsletter. El alojamiento puede incluir medición técnica de Cloudflare. Las páginas de contenido incorporan un banner publicitario de Adsterra; las páginas legales quedan excluidas.',
+          'La búsqueda se realiza en el navegador. No se envían consultas a una base de datos propia. La preferencia de idioma se guarda localmente y puede eliminarse borrando los datos del sitio. No hay cuentas de usuario ni newsletter. El alojamiento puede incluir medición técnica de Cloudflare. Las páginas de contenido incorporan el código de Google AdSense para conectar y verificar el sitio; las páginas legales quedan excluidas de estos scripts. La inclusión del código no significa que Google haya aprobado el sitio.',
         ],
         [
           'Alojamiento y terceros',
-          'El alojamiento en Cloudflare procesa solicitudes y datos técnicos necesarios para servir y proteger la web, como direcciones IP. El sitio no mantiene una base de datos propia de visitantes. Al cargar el espacio publicitario, el navegador solicita recursos de terceros a bauval.org y a los proveedores que utilice Adsterra. Esas solicitudes pueden comunicar la dirección IP, datos del navegador y la página de referencia; los proveedores pueden utilizar cookies u otros identificadores según su configuración. Consulta https://adsterra.com/privacy-policy/ para información del proveedor. Las transferencias y plazos de conservación dependen de esos servicios. El proveedor gestiona sus registros según sus condiciones y política de privacidad, consultables en https://www.cloudflare.com/privacypolicy/. Los enlaces externos tienen sus propias políticas.',
+          'El alojamiento en Cloudflare procesa solicitudes y datos técnicos necesarios para servir y proteger la web, como direcciones IP. El sitio no mantiene una base de datos propia de visitantes. El código de Google AdSense solicita recursos a pagead2.googlesyndication.com y puede comunicar información técnica a Google, incluidas la dirección IP, datos del navegador y la página de referencia, así como utilizar cookies o identificadores según su configuración. Más información: https://policies.google.com/technologies/ads y https://policies.google.com/privacy. Las transferencias y plazos de conservación dependen de esos servicios. El proveedor gestiona sus registros según sus condiciones y política de privacidad, consultables en https://www.cloudflare.com/privacypolicy/. Los enlaces externos tienen sus propias políticas.',
         ],
         [
           'Consultas y derechos',
@@ -112,11 +112,11 @@ export const legal = {
         ],
         [
           'Data in this version',
-          'Search runs in your browser. Queries are not sent to our own database. Language preferences are stored locally and can be removed by clearing site data. User accounts and newsletters are not enabled. Hosting may include Cloudflare technical measurement. Content pages include an Adsterra advertising banner; legal pages are excluded.',
+          'Search runs in your browser. Queries are not sent to our own database. Language preferences are stored locally and can be removed by clearing site data. User accounts and newsletters are not enabled. Hosting may include Cloudflare technical measurement. Content pages include the Google AdSense code to connect and verify the site; legal pages are excluded from these scripts. Including the code does not mean that Google has approved the site.',
         ],
         [
           'Hosting and third parties',
-          'Cloudflare hosting processes requests and technical information needed to serve and protect the website, including IP addresses. This site does not maintain its own visitor database. When the advertising slot loads, your browser requests third-party resources from bauval.org and providers used by Adsterra. These requests may transmit your IP address, browser information and referring page; providers may use cookies or other identifiers depending on their configuration. See https://adsterra.com/privacy-policy/ for provider information. Transfers and retention periods depend on those services. The provider manages its records under its terms and privacy policy, available at https://www.cloudflare.com/privacypolicy/. External websites have their own policies.',
+          'Cloudflare hosting processes requests and technical information needed to serve and protect the website, including IP addresses. This site does not maintain its own visitor database. Google AdSense code requests resources from pagead2.googlesyndication.com and may communicate technical information to Google, including your IP address, browser details and referring page, and use cookies or identifiers depending on its configuration. Further information: https://policies.google.com/technologies/ads and https://policies.google.com/privacy. Transfers and retention periods depend on those services. The provider manages its records under its terms and privacy policy, available at https://www.cloudflare.com/privacypolicy/. External websites have their own policies.',
         ],
         [
           'Enquiries and rights',
@@ -171,7 +171,7 @@ export const legal = {
       sections: [
         [
           'Qué utiliza esta versión',
-          'El sitio guarda la preferencia es/en en el almacenamiento local del navegador. La búsqueda funciona localmente. Cloudflare puede incluir medición técnica del uso del sitio. El banner publicitario carga recursos de terceros que pueden usar cookies u otros identificadores según la configuración del proveedor y del navegador.',
+          'El sitio guarda la preferencia es/en en el almacenamiento local del navegador. La búsqueda funciona localmente. Cloudflare puede incluir medición técnica del uso del sitio. El código de Google AdSense carga recursos de terceros que pueden usar cookies u otros identificadores según la configuración del proveedor y del navegador.',
         ],
         [
           'Tu control',
@@ -179,7 +179,7 @@ export const legal = {
         ],
         [
           'Publicidad de terceros',
-          'Las páginas de contenido, salvo las legales, incluyen un banner Adsterra de 300 × 250, identificado como Publicidad. Su código se ejecuta directamente al cargar la página. Puedes gestionar o bloquear cookies y recursos de terceros desde tu navegador; hacerlo puede impedir que aparezca el anuncio. El contenido editorial sigue disponible.',
+          'Las páginas de contenido, salvo las legales, cargan de forma asíncrona el código de Google AdSense para conectar y verificar el sitio; Google puede usar cookies o identificadores conforme a su configuración y políticas. Puedes gestionar o bloquear cookies y recursos de terceros desde tu navegador; hacerlo puede impedir que aparezca el anuncio. El contenido editorial sigue disponible.',
         ],
       ],
     },
@@ -188,7 +188,7 @@ export const legal = {
       sections: [
         [
           'What this version uses',
-          'The site stores your es/en language preference in browser local storage. Search works locally. Cloudflare may include technical measurement of site usage. The advertising banner loads third-party resources that may use cookies or other identifiers depending on provider and browser settings.',
+          'The site stores your es/en language preference in browser local storage. Search works locally. Cloudflare may include technical measurement of site usage. Google AdSense code loads third-party resources that may use cookies or other identifiers depending on provider and browser settings.',
         ],
         [
           'Your controls',
@@ -196,7 +196,7 @@ export const legal = {
         ],
         [
           'Third-party advertising',
-          'Content pages, excluding legal pages, include a 300 × 250 Adsterra banner labelled Advertisement. Its code runs directly when the page loads. You can manage or block third-party cookies and resources in your browser; this may prevent the advertisement from appearing. Editorial content remains available.',
+          'Content pages, excluding legal pages, load Google AdSense code asynchronously to connect and verify the site; Google may use cookies or identifiers according to its configuration and policies. You can manage or block third-party cookies and resources in your browser; this may prevent the advertisement from appearing. Editorial content remains available.',
         ],
       ],
     },
@@ -223,7 +223,7 @@ export const legal = {
         ],
         [
           'Independencia y financiación',
-          'La revista se financia en parte mediante un banner de Adsterra, separado del contenido y etiquetado como Publicidad. Los anuncios no constituyen recomendaciones editoriales ni modifican la selección de destinos. No hay enlaces afiliados activados.',
+          'Los banners de Adsterra están desactivados. El sitio incluye el código de Google AdSense para su conexión y verificación; no se afirma aprobación ni entrega de anuncios por parte de Google. Los anuncios no constituyen recomendaciones editoriales ni modifican la selección de destinos. No hay enlaces afiliados activados.',
         ],
       ],
     },
@@ -248,7 +248,7 @@ export const legal = {
         ],
         [
           'Independence and funding',
-          'The magazine is partly supported by an Adsterra banner, separated from content and labelled Advertisement. Advertisements are not editorial recommendations and do not determine destination selection. Affiliate links are not enabled.',
+          'Adsterra banners are disabled. The site includes Google AdSense code for connection and verification; Google approval and ad delivery are not claimed. Advertisements are not editorial recommendations and do not determine destination selection. Affiliate links are not enabled.',
         ],
       ],
     },

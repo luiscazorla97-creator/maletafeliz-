@@ -5,6 +5,7 @@ const headersFile = readFileSync('public/_headers', 'utf8');
 // Astro preview does not apply Cloudflare's _headers. Render with the actual
 // matching production policies, so a CSP regression fails these browser tests.
 test.beforeEach(async ({ page }) => {
+  await page.route('https://pagead2.googlesyndication.com/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* mock AdSense: no real ad impressions */' }));
   await page.route('https://bauval.org/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* no real ad impressions in tests */' }));
   await page.route('http://127.0.0.1:4322/**', async route => {
     const response = await route.fetch();
@@ -18,98 +19,68 @@ test.beforeEach(async ({ page }) => {
   });
 });
 
-test('previous sandbox wrapper prevents provider storage access', async ({ page }) => {
-  await page.goto('/es/');
-  await page.evaluate(() => {
-    const frame = document.createElement('iframe');
-    frame.id = 'previous-wrapper';
-    frame.sandbox.add('allow-scripts', 'allow-popups', 'allow-popups-to-escape-sandbox');
-    frame.srcdoc = `<body><script>try { localStorage.getItem('probe'); } catch (error) { document.body.dataset.error = error.name; }<\/script></body>`;
-    document.body.append(frame);
-  });
-  await expect(page.frameLocator('#previous-wrapper').locator('body')).toHaveAttribute('data-error', 'SecurityError');
-});
+const googleScript = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1382859681401211';
 
-test('direct provider tag keeps page context, storage, order and following content', async ({ page }) => {
-  await page.setViewportSize({ width: 320, height: 844 });
-  let requests = 0;
-  await page.route('https://ads.example.test/**', route => route.fulfill({ contentType: 'image/svg+xml', body: '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250"><rect width="300" height="250" fill="orange"/></svg>' }));
-  await page.route('https://bauval.org/**', async route => {
-    requests++;
-    await new Promise(resolve => setTimeout(resolve, 150));
-    await route.fulfill({ contentType: 'application/javascript', body: `
-      document.body.dataset.options = JSON.stringify(atOptions);
-      document.body.dataset.pageContext = String(window === top);
-      localStorage.setItem('banner-regression', 'ok');
-      sessionStorage.setItem('banner-regression', 'ok');
-      document.body.dataset.storage = localStorage.getItem('banner-regression') + sessionStorage.getItem('banner-regression');
-      localStorage.removeItem('banner-regression'); sessionStorage.removeItem('banner-regression');
-      document.write('<iframe title="Provider banner" width="300" height="250" srcdoc="<img src=https://ads.example.test/banner.svg width=300 height=250>"></iframe>');
-    ` });
-  });
-  await page.goto('/es/guias/5-lugares-que-visitar-en-quebec/');
-  await expect(page.locator('.advertisement')).toHaveCount(1);
-  await expect(page.locator('.advertisement')).toHaveAttribute('aria-label', 'Publicidad');
-  await expect(page.locator('body')).toHaveAttribute('data-page-context', 'true');
-  await expect(page.locator('body')).toHaveAttribute('data-storage', 'okok');
-  expect(JSON.parse(await page.locator('body').getAttribute('data-options') || '{}')).toEqual({ key: 'c5a78736a50be383ac6b05853c770b4e', format: 'iframe', width: 300, height: 250, params: {} });
-  expect(requests).toBe(1);
-  await expect(page.locator('iframe.advertisement-frame, iframe[sandbox]')).toHaveCount(0);
-  const providerFrame = page.locator('.advertisement-slot > iframe');
-  await expect(providerFrame).toHaveCount(1);
-  await expect(page.frameLocator('iframe[title="Provider banner"]').locator('img')).toBeVisible();
-  await expect.poll(() => page.frameLocator('iframe[title="Provider banner"]').locator('img').evaluate((img: HTMLImageElement) => img.naturalWidth)).toBe(300);
-  await expect(page.locator('h1')).toContainText('Québec');
-  await expect(page.locator('#faq')).toBeAttached();
-  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-  await expect(page.locator('.advertisement-viewport')).toHaveCSS('height', '220px');
-});
-
-test('English guide survives a blocked provider without losing editorial content', async ({ page }) => {
-  await page.route('https://bauval.org/**', route => route.fulfill({ status: 403, body: '' }));
-  await page.goto('/en/guides/5-places-to-visit-in-wellington/');
-  await expect(page.locator('.advertisement')).toHaveAttribute('aria-label', 'Advertisement');
-  await expect(page.locator('#faq')).toBeAttached();
-  await expect(page.locator('h1')).toContainText('Wellington');
-});
-
-
-test('every built content page has one direct ad and every legal page has none', async () => {
+test('all built content pages include AdSense and no built page retains Adsterra', () => {
   const files = readdirSync('dist', { recursive: true }).map(String).filter(path => path.endsWith('.html'));
   let excluded = 0;
-  let advertised = 0;
   for (const path of files) {
-    const legal = /^(es\/informacion|en\/information)\/(privacy|terms|cookies|photography)\/index\.html$/.test(path);
-    const noAd = legal || path === '404.html';
+    const noAd = /^(es\/informacion|en\/information)\/(privacy|terms|cookies|photography)\/index\.html$/.test(path) || path === '404.html';
     const html = readFileSync(`dist/${path}`, 'utf8');
-    expect((html.match(/src="https:\/\/bauval\.org\//g) || []).length, path).toBe(noAd ? 0 : 1);
-    expect(html.includes('/ads/banner'), path).toBe(false);
-    if (noAd) excluded++; else advertised++;
+    expect(html, path).not.toContain('bauval.org');
+    expect(html, path).not.toContain('atOptions');
+    expect(html, path).not.toContain('advertisement-slot');
+    expect(html.split(`src="${googleScript}"`).length - 1, path).toBe(noAd ? 0 : 1);
+    if (noAd) excluded++;
   }
   expect(excluded).toBe(9);
-  expect(advertised).toBeGreaterThan(100);
 });
 
-test('banners load on discovery pages while legal pages make no advertising requests', async ({ page }) => {
+test('AdSense loads once in the head with the supplied publisher and async attributes', async ({ page }) => {
   let requested = 0;
-  await page.route('https://bauval.org/**', route => {
+  let oldProviderRequests = 0;
+  await page.route('https://bauval.org/**', route => { oldProviderRequests++; return route.abort(); });
+  await page.route('https://pagead2.googlesyndication.com/**', route => {
     requested++;
-    return route.fulfill({ contentType: 'application/javascript', body: 'document.body.dataset.adLoaded = "yes";' });
+    expect(route.request().url()).toBe(googleScript);
+    return route.fulfill({ contentType: 'application/javascript', body: 'window.__adsenseMockLoaded = true;' });
   });
-  for (const path of ['/', '/es/', '/en/', '/es/destinos/', '/en/explore/category-culture/', '/es/buscar/', '/en/information/about/', '/es/informacion/contact/']) {
+  for (const path of ['/', '/es/', '/en/', '/es/guias/que-ver-en-madrid-3-lugares/', '/en/guides/3-places-to-visit-in-melbourne/', '/es/destinos/', '/en/explore/category-culture/']) {
     const before = requested;
     await page.goto(path);
-    await expect(page.locator('.advertisement')).toHaveCount(1);
-    await expect(page.locator('body')).toHaveAttribute('data-ad-loaded', 'yes');
-    expect(requested - before, path).toBe(1);
+    await expect(page.locator('head script[src*="adsbygoogle.js"]')).toHaveCount(1);
+    await expect(page.locator('head script[src*="adsbygoogle.js"]')).toHaveAttribute('async', '');
+    await expect(page.locator('head script[src*="adsbygoogle.js"]')).toHaveAttribute('crossorigin', 'anonymous');
+    await expect(page.locator('meta[name="google-adsense-account"]')).toHaveAttribute('content', 'ca-pub-1382859681401211');
+    await expect.poll(() => requested - before).toBe(1);
+    await expect(page.locator('.advertisement')).toHaveCount(0);
   }
-  for (const lang of ['es', 'en']) {
-    for (const id of ['privacy', 'terms', 'cookies', 'photography']) {
-      const before = requested;
-      const response = await page.goto(`/${lang}/${lang === 'es' ? 'informacion' : 'information'}/${id}/`);
-      expect(response?.status()).toBe(200);
-      await expect(page.locator('.advertisement')).toHaveCount(0);
-      expect(requested, id).toBe(before);
-    }
+  expect(oldProviderRequests).toBe(0);
+});
+
+test('a blocked Google script leaves the complete guide usable', async ({ page }) => {
+  await page.route('https://pagead2.googlesyndication.com/**', route => route.fulfill({ status: 403, body: '' }));
+  await page.goto('/en/guides/3-places-to-visit-in-luxor/');
+  await expect(page.locator('h1')).toContainText('Luxor');
+  await expect(page.locator('#faq')).toBeAttached();
+  await expect(page.locator('.prose figure img')).toHaveCount(3);
+  await expect(page.locator('.advertisement')).toHaveCount(0);
+});
+
+test('legal pages and 404 make no Google or Adsterra advertising requests', async ({ page }) => {
+  const requests: string[] = [];
+  await page.route(/https:\/\/(pagead2\.googlesyndication\.com|bauval\.org)\//, route => { requests.push(route.request().url()); return route.abort(); });
+  for (const lang of ['es', 'en']) for (const id of ['privacy', 'terms', 'cookies', 'photography']) {
+    await page.goto(`/${lang}/${lang === 'es' ? 'informacion' : 'information'}/${id}/`);
+    await expect(page.locator('script[src*="adsbygoogle.js"], .advertisement')).toHaveCount(0);
   }
+  await page.goto('/404.html');
+  await expect(page.locator('script[src*="adsbygoogle.js"], .advertisement')).toHaveCount(0);
+  expect(requests).toEqual([]);
+});
+
+test('ads.txt declares the same Google publisher without previous ad-network entries', async ({ request }) => {
+  const response = await request.get('/ads.txt');
+  expect(response.status()).toBe(200);
+  expect((await response.text()).trim()).toBe('google.com, pub-1382859681401211, DIRECT, f08c47fec0942fa0');
 });

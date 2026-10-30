@@ -2,7 +2,7 @@
   "ownerName": "Luis Sebastian Cazorla Caruso",
   "contactEmail": "luterapps@gmail.com",
   "jurisdiction": "Argentina",
-  "legalReviewedAt": "2026-10-30T00:04:14.930023+00:00",
+  "legalReviewedAt": "2026-10-30T20:11:50.890Z",
   "automation": {
     "status": "manual-only",
     "requestedLocalTime": "07:00",
@@ -12,21 +12,33 @@
     "cloudSchedulingVerified": false,
     "quotaVisibility": "unavailable"
   },
-  "legalContentHash": "19ec97e23ddf4e1a2290600a9ca0e6a9afa70985548f2b9de88f5b5e311c0ef2",
+  "legalContentHash": "8909238685fa36902f5218133f036f3a8d48e1c7c8501353a518a58dc9bdad6a",
   "legalReviewedBy": "Codex — factual and technical editorial review",
-  "legalReviewScope": "Owner details and actual site behavior checked by Codex; Adsterra banner and third-party request disclosures updated. No independent human review or legal professional advice claimed.",
+  "legalReviewScope": "Technical and editorial review of both language disclosures after Adsterra removal and installation of the owner-provided Google AdSense verification code. No professional legal advice or Google approval claimed.",
   "advertising": {
     "provider": "Adsterra",
     "format": "300x250 banner",
     "scriptUrl": "https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e",
-    "placement": "one per content page; excluded from privacy, terms, cookies, photography rights and 404 pages",
-    "loading": "automatic parser-inserted provider scripts in the page document",
+    "placement": "none",
+    "loading": "disabled; component not rendered",
     "creativeDeliveryVerified": false,
     "lastProviderStatus": 403,
     "lastProviderResponseBytes": 0,
-    "integrationVerified": true,
+    "integrationVerified": false,
     "providerUnitStatusReportedByOwner": "active",
     "verifiedAt": "2026-10-30T00:10:06.209956+00:00",
-    "verificationFile": "editorial/verification/2026-10-30-sitewide-advertising.json"
+    "verificationFile": "editorial/verification/2026-10-30-sitewide-advertising.json",
+    "enabled": false,
+    "status": "disabled-at-owner-request",
+    "disabledAt": "2026-10-30T20:11:50.890Z"
+  },
+  "adsense": {
+    "publisherId": "ca-pub-1382859681401211",
+    "purpose": "site-connection-and-verification",
+    "scriptUrl": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1382859681401211",
+    "placement": "production content-page head; legal pages and 404 exclude provider script",
+    "adsTxt": "google.com, pub-1382859681401211, DIRECT, f08c47fec0942fa0",
+    "googleApprovalVerified": false,
+    "publicIntegrationVerified": false
   }
 }

@@ -1,6 +1,6 @@
 # Estado del proyecto
 
-Actualizado: 29 de octubre de 2026 (UTC). Especificación vigente: `requirements.md` (español e inglés, archivos, sin APIs de IA de pago).
+Actualizado: 30 de octubre de 2026 (UTC). Especificación vigente: `requirements.md` (español e inglés, archivos, sin APIs de IA de pago).
 
 ## Publicado en maletafeliz.com
 
@@ -23,7 +23,7 @@ La web responde por HTTPS en https://maletafeliz.com/es/ y /en/. www.maletafeliz
 - `npm test`: 32 pruebas superadas, incluidos controles editoriales, búsqueda, idempotencia, archivos de imagen y protección DNS con API simulada.
 - `npm run build` y `npm run build:release`: compilaciones estáticas correctas; 216 páginas en cada compilación, de las cuales 60 son páginas editoriales.
 - `npm run test:e2e`: 10 pruebas de navegación en móvil/escritorio superadas.
-- `npm run test:release`: 130 pruebas superadas sobre el sitio de producción compilado, incluidas las sesenta guías en ambos tamaños, traducciones, imágenes, metadatos, sitemap y búsqueda.
+- `npm run test:release`: 134 pruebas superadas sobre el sitio de producción compilado, incluidas las sesenta guías en ambos tamaños, traducciones, imágenes, metadatos, sitemap y búsqueda.
 - Capturas de portada, Tokio, Cusco, Seúl en móvil y Nairobi en escritorio inspeccionadas. Sin desbordamiento horizontal en las sesenta guías.
 - Todas las fotografías y variantes se decodifican y coinciden con dimensiones y hashes registrados.
 - `npm audit --omit=dev`: 0 vulnerabilidades reportadas.
@@ -47,12 +47,14 @@ Las credenciales están disponibles y funcionan. El fallo inicial 403 se resolvi
 
 El estado `published` de los JSON selecciona contenido para compilar; `editorial/publication.json` registra la comprobación del dominio real.
 
-## Publicidad — 29 de octubre de 2026
+## Publicidad — 30 de octubre de 2026
 
-Publicado un banner Adsterra de 300 × 250 por guía, con ejecución automática, espacio reservado en móvil y escritorio y etiqueta Publicidad/Advertisement. Se eliminó el iframe adicional con sandbox: las dos etiquetas del proveedor se insertan directamente, juntas y en orden durante el análisis del HTML. No se usa async/defer ni un cargador dinámico que pueda provocar que document.write borre el contenido. Las políticas de las rutas de guías permiten recursos publicitarios HTTPS; las demás rutas conocidas conservan una política restrictiva. Los textos de privacidad reflejan la carga directa y la posible medición técnica de Cloudflare. No se añadió un diálogo de autorización, según la instrucción expresa del titular.
+Publicado un banner Adsterra de 300 × 250 por página de contenido: portada, selector de idioma, listados, destinos, países, continentes, categorías, búsqueda, artículos e información de la revista. Privacidad, términos, cookies y licencias de fotografías quedan excluidos en ambos idiomas. La página 404 tampoco contiene anuncios. Son 207 páginas HTML con banner y nueve sin él, sin duplicar el banner ya presente dentro de cada guía.
 
-Se reprodujo SecurityError al acceder al almacenamiento desde el sandbox anterior. Las pruebas con un proveedor simulado verifican almacenamiento, contexto de página, configuración, inserción con document.write, carga de recursos externos, conservación del artículo y anchura móvil. Pasaron 130 pruebas de navegador de producción, 10 de vista previa y 32 unitarias, además de las compilaciones y el chequeo de tipos.
+El código del proveedor permanece directamente en la página, con las dos etiquetas juntas y en orden, sin iframe adicional ni carga async/defer. Se conserva el espacio reservado en móvil y escritorio. Las cabeceras permiten recursos publicitarios HTTPS donde hay banners y mantienen la política restrictiva en las páginas legales. No se añadió un diálogo de autorización, según la instrucción expresa del titular. Los textos legales reflejan la cobertura actual.
 
-Ambos builds de Cloudflare finalizaron correctamente. Las dos guías públicas de control contienen una única etiqueta directa y las cabeceras esperadas. Una prueba de navegador renderizó HTML y cabeceras públicas obtenidas por solicitudes con TLS verificado, sustituyendo el proveedor por un script de diagnóstico: esto acredita la integración, no la entrega de publicidad real. El proveedor devolvió HTTP 403 sin contenido en una consulta de servidor desde este entorno; ese resultado no demuestra por sí solo un fallo del proveedor para visitantes. No se modificó el almacén persistente de certificados del navegador. Evidencia actual: `editorial/verification/2026-10-29-direct-advertising.json`; la verificación anterior se conserva como histórico.
+Pasaron el chequeo de tipos, 32 pruebas unitarias, 10 de vista previa, ambas compilaciones y 134 pruebas de navegador sobre producción. La comprobación de archivos revisa las 216 páginas HTML; las pruebas de navegador comprueban carga en diferentes secciones y ausencia de solicitudes publicitarias en las ocho páginas legales. El proveedor se simula durante los tests para no generar impresiones reales. Se conserva la prueba del SecurityError provocado por el antiguo sandbox y el acceso correcto al almacenamiento con la integración directa.
 
-Pendiente: la campaña solicitada de 10 guías de Halloween y 5 de Día de Muertos todavía está en investigación; no está publicada ni incluida en las 30 guías actuales.
+Ambos builds de Cloudflare finalizaron correctamente. Se verificaron 31 páginas públicas, incluyendo las ocho legales, con HTTP 200, el número esperado de etiquetas y las políticas CSP correspondientes. Esto acredita la integración publicada; no confirma entrega de anuncios reales. Evidencia: `editorial/verification/2026-10-30-sitewide-advertising.json`. Las verificaciones anteriores se conservan como histórico.
+
+Pendiente: la campaña solicitada de 10 guías de Halloween y 5 de Día de Muertos todavía no está publicada ni incluida en las 30 guías actuales. No hay una tarea en segundo plano configurada para publicarla automáticamente.

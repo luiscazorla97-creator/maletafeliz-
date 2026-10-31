@@ -1,0 +1,1799 @@
+{
+  "verifiedAt": "2026-10-31T00:47:46.917Z",
+  "commit": "31cc5ddc164d5d470c145ca646861a397f9e6eaa",
+  "deployment": {
+    "checkedAt": "2026-10-31T00:47:16.307Z",
+    "domain": "maletafeliz.com",
+    "domains": [
+      {
+        "name": "maletafeliz.com",
+        "project": "maletafeliz-web",
+        "status": "active"
+      },
+      {
+        "name": "www.maletafeliz.com",
+        "project": "maletafeliz-www",
+        "status": "active"
+      }
+    ],
+    "deployments": [
+      {
+        "project": "maletafeliz-web",
+        "hostname": "maletafeliz.com",
+        "pagesSubdomain": "maletafeliz-web.pages.dev",
+        "deploymentId": "eaf922be-349b-49a3-aef5-84302000471e",
+        "buildStatus": "success",
+        "buildVerified": true,
+        "stage": "deploy",
+        "commit": "31cc5ddc164d5d470c145ca646861a397f9e6eaa",
+        "trigger": "ad_hoc"
+      },
+      {
+        "project": "maletafeliz-www",
+        "hostname": "www.maletafeliz.com",
+        "pagesSubdomain": "maletafeliz-www.pages.dev",
+        "deploymentId": "0f03fc65-1402-4d62-9dc4-830c4f30ada8",
+        "buildStatus": "success",
+        "buildVerified": true,
+        "stage": "deploy",
+        "commit": "31cc5ddc164d5d470c145ca646861a397f9e6eaa",
+        "trigger": "ad_hoc"
+      }
+    ],
+    "buildStatus": "success",
+    "buildVerified": true,
+    "url": "https://maletafeliz.com",
+    "httpVerified": true
+  },
+  "site": {
+    "checkedAt": "2026-10-31T00:47:38.161Z",
+    "origin": "https://maletafeliz.com",
+    "httpVerified": true,
+    "checked": [
+      {
+        "path": "/es/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/"
+      },
+      {
+        "path": "/en/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-san-pedro-de-atacama/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-san-pedro-de-atacama/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-san-pedro-de-atacama/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-san-pedro-de-atacama/"
+      },
+      {
+        "path": "/en/guides/athens-in-two-days/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/athens-in-two-days/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-atenas-en-dos-dias/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-atenas-en-dos-dias/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bali/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bali/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bangkok/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bangkok/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-barcelona/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-barcelona/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-buenos-aires/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-buenos-aires/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-cairo-and-giza/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-cairo-and-giza/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-el-cairo-y-guiza/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-el-cairo-y-guiza/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-cape-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-cape-town/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-cartagena/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-cartagena/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-cartagena-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-cartagena-3-lugares/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-and-around-cusco/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-and-around-cusco/"
+      },
+      {
+        "path": "/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/"
+      },
+      {
+        "path": "/en/guides/dubai-in-two-days/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/dubai-in-two-days/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-dubai-en-dos-dias/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-dubai-en-dos-dias/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-edinburgh/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-edinburgh/"
+      },
+      {
+        "path": "/en/guides/halloween-australia-gold-coast-sydney-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-australia-gold-coast-sydney-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-australia-gold-coast-sidney-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-australia-gold-coast-sidney-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-canada-vancouver-quebec-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-canada-vancouver-quebec-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-france-parc-asterix-catacombs-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-france-parc-asterix-catacombs-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-francia-parc-asterix-catacumbas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-francia-parc-asterix-catacumbas-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-germany-movie-park-berlin-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-germany-movie-park-berlin-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-alemania-movie-park-berlin-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-alemania-movie-park-berlin-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-ireland-puca-trim-athboy-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-ireland-puca-trim-athboy-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-irlanda-puca-trim-athboy-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-irlanda-puca-trim-athboy-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-japan-disneyland-disneysea-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-japan-disneyland-disneysea-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-japon-disneyland-disneysea-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-japon-disneyland-disneysea-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-netherlands-walibi-toverland-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-netherlands-walibi-toverland-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-paises-bajos-walibi-toverland-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-paises-bajos-walibi-toverland-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-spain-portaventura-warner-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-spain-portaventura-warner-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-espana-portaventura-warner-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-espana-portaventura-warner-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-uk-derry-edinburgh-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-uk-derry-edinburgh-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-reino-unido-derry-edimburgo-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-reino-unido-derry-edimburgo-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-usa-salem-orlando-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-usa-salem-orlando-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-estados-unidos-salem-orlando-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-estados-unidos-salem-orlando-2026/"
+      },
+      {
+        "path": "/en/guides/5-remarkable-places-to-discover-in-hawaii/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-remarkable-places-to-discover-in-hawaii/"
+      },
+      {
+        "path": "/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-hobart/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-hobart/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-hong-kong/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-hong-kong/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-hong-kong-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-hong-kong-3-lugares/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-istanbul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-istanbul/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-estambul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-estambul/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-kyoto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-kyoto/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-kioto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-kioto/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-lisbon/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-lisbon/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-lisboa/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-lisboa/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-london/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-london/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-londres/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-londres/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-lucerne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-lucerne/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-lucerna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-lucerna/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-luxor/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-luxor/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-luxor-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-luxor-3-lugares/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-madrid/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-madrid/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-madrid-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-madrid-3-lugares/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-marrakech/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-marrakech/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-melbourne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-melbourne/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-melbourne-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-melbourne-3-lugares/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-mexico-city/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-mexico-city/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/"
+      },
+      {
+        "path": "/en/guides/day-dead-merida-paseo-animas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-merida-paseo-animas-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-merida-paseo-animas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-merida-paseo-animas-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-mixquic-alumbrada-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-mixquic-alumbrada-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-mixquic-alumbrada-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-mixquic-alumbrada-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-oaxaca-centre-monte-alban-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-oaxaca-centre-monte-alban-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-puebla-tecamachalco-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-puebla-tecamachalco-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-puebla-tecamachalco-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-puebla-tecamachalco-2026/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-nairobi/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-nairobi/"
+      },
+      {
+        "path": "/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-paris/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-imprescindibles-de-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-imprescindibles-de-paris/"
+      },
+      {
+        "path": "/en/guides/prague-in-two-days/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/prague-in-two-days/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-praga-en-dos-dias/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-praga-en-dos-dias/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-quebec/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-quebec/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-queenstown/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-queenstown/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-rio-de-janeiro/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-rio-de-janeiro/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-rome/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-rome/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-roma/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-roma/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-rotorua/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-rotorua/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-rotorua/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-rotorua/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-seoul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-seoul/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-seul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-seul/"
+      },
+      {
+        "path": "/en/guides/angkor-temples-from-siem-reap/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/angkor-temples-from-siem-reap/"
+      },
+      {
+        "path": "/es/guias/templos-de-angkor-desde-siem-reap/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/templos-de-angkor-desde-siem-reap/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-singapore/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-singapore/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-stone-town/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-stone-town/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-sydney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-sydney/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-sidney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-sidney/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-taipei/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-taipei/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-taipei/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-taipei/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-tokyo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-tokyo/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-tokio/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-tokio/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-vancouver/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-vancouver/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-vienna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-vienna/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-viena/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-viena/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-wellington/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-wellington/"
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/sitemap.xml"
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/robots.txt"
+      },
+      {
+        "path": "/maletafeliz-launch-check-nonexistent/",
+        "status": 404,
+        "finalUrl": "https://maletafeliz.com/maletafeliz-launch-check-nonexistent/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/",
+        "status": 301,
+        "location": "https://maletafeliz.com/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/es/?ref=www-check",
+        "status": 301,
+        "location": "https://maletafeliz.com/es/?ref=www-check"
+      },
+      {
+        "path": "https://www.maletafeliz.com/en/",
+        "status": 301,
+        "location": "https://maletafeliz.com/en/"
+      }
+    ],
+    "errors": []
+  },
+  "batch": {
+    "checkedAt": "2026-10-31T00:47:30.416Z",
+    "origin": "https://maletafeliz.com",
+    "verified": true,
+    "newOriginals": 10,
+    "newLocalizations": 20,
+    "newPhotographs": 30,
+    "newLocalizedPlacePhotos": 60,
+    "checks": [
+      {
+        "path": "/es/explorar/country-tr/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-istanbul/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/es/guias/que-ver-en-estambul/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/es/destinos/istanbul/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/destinos/prague/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/explore/country-tr/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-praga-en-dos-dias/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/en/destinations/istanbul/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/explore/country-cz/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/guides/prague-in-two-days/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/en/destinations/prague/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/explorar/country-cz/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/destinos/vienna/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-viena/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/en/guides/what-to-see-in-vienna/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/es/explorar/country-at/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/destinos/athens/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/destinations/vienna/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/explore/country-at/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-atenas-en-dos-dias/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/en/guides/athens-in-two-days/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/en/explore/country-gr/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/explorar/country-gr/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/destinations/athens/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/guides/dubai-in-two-days/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/es/guias/que-ver-en-dubai-en-dos-dias/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/es/destinos/dubai/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/explorar/country-ae/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/explore/country-ae/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-taipei/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/en/destinations/dubai/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/destinos/taipei/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/explorar/country-tw/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/destinations/taipei/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/explore/country-tw/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-taipei/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/en/guides/angkor-temples-from-siem-reap/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/es/guias/templos-de-angkor-desde-siem-reap/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/es/explorar/country-kh/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/destinos/siem-reap/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/explore/country-kh/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-el-cairo-y-guiza/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/en/destinations/siem-reap/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/destinos/cairo/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/explorar/country-eg/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/explore/country-eg/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-cairo-and-giza/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/en/destinations/cairo/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-san-pedro-de-atacama/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/es/guias/que-ver-en-san-pedro-de-atacama/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/es/destinos/atacama/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/explorar/country-cl/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/destinos/rotorua/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/explore/country-cl/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/destinations/atacama/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-rotorua/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/en/destinations/rotorua/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/explorar/country-nz/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-rotorua/",
+        "httpStatus": 200,
+        "verified": true,
+        "verifiedPlacePhotos": 3
+      },
+      {
+        "path": "/en/explore/country-nz/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/en/search/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/es/buscar/",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/sitemap.xml",
+        "httpStatus": 200,
+        "verified": true
+      },
+      {
+        "path": "/images/october-istanbul-hagia-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-istanbul-hagia-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-istanbul-hagia-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-istanbul-topkapi-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-istanbul-topkapi-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-istanbul-hagia.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-istanbul-topkapi-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-istanbul-cistern-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-istanbul-topkapi.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-istanbul-cistern-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-istanbul-cistern-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-castle-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-castle-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-castle-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-istanbul-cistern.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-schonbrunn-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-castle.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-schonbrunn-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-schonbrunn-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-belvedere-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-belvedere-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-belvedere-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-schonbrunn.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-cathedral-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-cathedral-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-belvedere.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-cathedral-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-acropolis-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-acropolis-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-acropolis-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-vienna-cathedral.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-museum-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-museum-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-acropolis.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-museum-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-agora-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-museum.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-agora-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-agora-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-burj-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-burj-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-burj-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-athens-agora.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-creek-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-burj.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-creek-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-creek-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-tower-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-creek.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-tower-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-tower-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-palace-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-palace-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-palace-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-tower.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-wat-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-wat-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-palace.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-wat-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-bayon-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-wat.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-bayon-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-bayon-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-taprohm-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-taprohm-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-bayon.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-taprohm-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-giza-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-giza-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-giza-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-siem-reap-taprohm.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-saqqara-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-saqqara-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-saqqara-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-giza.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-citadel-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-citadel-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-saqqara.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-citadel-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-moon-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-moon-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-cairo-citadel.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-moon-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-chaxa-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-chaxa-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-chaxa-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-moon.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-chaxa.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-tatio-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-tatio-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-tatio-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-tepuia-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-tepuia-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-tepuia-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-atacama-tatio.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-waiotapu-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-waiotapu-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-tepuia.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-waiotapu-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-redwoods-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-redwoods-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-waiotapu.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-redwoods-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-fahidi-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-fahidi-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-fahidi-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-rotorua-redwoods.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-longshan-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-longshan-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-longshan-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-dubai-fahidi.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-taipei-longshan.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-bridge-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-bridge-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-bridge-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-square-480w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-bridge.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-square-1200w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-square-800w.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      },
+      {
+        "path": "/images/october-prague-square.webp",
+        "httpStatus": 200,
+        "verified": true,
+        "sha256Verified": true
+      }
+    ],
+    "errors": []
+  },
+  "validation": {
+    "verifiedAt": "2026-10-31T00:39:15.319Z",
+    "types": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "unitTests": 33,
+    "previewNavigationTests": 10,
+    "productionBrowserTests": 266,
+    "productionHtmlPages": 366,
+    "productionGuideLocalizations": 120,
+    "newGuideLocalizations": 20,
+    "newPhotographs": 30,
+    "newResponsiveImageFiles": 120,
+    "sourceDocumentsAdded": 33,
+    "visualReview": {
+      "imageContactSheets": true,
+      "articleMobileAndDesktop": true,
+      "notes": "All thirty images visually reviewed; Prague replacements viewed individually; Istanbul and Rotorua article sections inspected at desktop/mobile. No real ad or Analytics requests generated; providers mocked."
+    },
+    "monthlyPopularityRankingVerified": false
+  },
+  "totalHttpChecks": 313,
+  "monthlyPopularityRankingVerified": false,
+  "selectionEvidence": "editorial/verification/2026-10-30-october-ten-selection.json",
+  "imageReview": "editorial/verification/2026-10-30-october-ten-photo-review.json"
+}

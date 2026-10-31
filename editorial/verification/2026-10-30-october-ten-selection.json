@@ -109,5 +109,5 @@
       "at": "2026-10-30T23:53:25.404Z"
     }
   ],
-  "commonsRateLimit": "One API search run returned HTTP 429. Searches stopped and resumed only after a ten-minute cooldown; no proxy, account or endpoint used to bypass it."
+  "commonsRateLimit": "One refinement-search run returned HTTP 429 and stopped. The separate initial search run had also been running; subsequent refinement requests were made only after a ten-minute cooldown. No alternate proxy, account or endpoint was used to bypass the response."
 }

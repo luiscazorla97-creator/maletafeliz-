@@ -2,7 +2,7 @@
   "id": "2026-10-30-october-ten",
   "timeZone": "America/New_York",
   "createdAt": "2026-10-30T23:53:16.563Z",
-  "status": "selected-for-release",
+  "status": "published",
   "topicIds": [
     "istanbul",
     "prague",
@@ -16,12 +16,15 @@
     "rotorua"
   ],
   "requestedCount": 10,
-  "publishedCount": 0,
+  "publishedCount": 10,
   "notes": "Additional batch explicitly requested by owner. Existing same-day five-guide batch preserved. Ten new original destinations, not a verified global search ranking.",
   "errors": [],
   "selectedAt": "2026-10-31T00:25:40.696Z",
   "selectedOriginals": 10,
   "selectedLocalizations": 20,
   "newPhotos": 30,
-  "review": "Codex AI-assisted; publication pending build and live checks."
+  "review": "Codex AI-assisted editorial and image review; production build, browser tests and public HTTP checks passed.",
+  "publishedAt": "2026-10-31T00:47:46.917Z",
+  "publicVerification": "editorial/verification/2026-10-30-october-ten.json",
+  "commit": "31cc5ddc164d5d470c145ca646861a397f9e6eaa"
 }

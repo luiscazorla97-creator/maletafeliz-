@@ -6,9 +6,9 @@ Verificado el 30 de octubre de 2026 en America/New_York. Especificación vigente
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 50 guías originales y 100 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 270 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 337 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 60 guías originales y 120 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 303 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 367 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
@@ -36,6 +36,16 @@ Publicadas Madrid, Cartagena de Indias, Lúxor, Hong Kong y Melbourne, en españ
 Las diez versiones nuevas incluyen itinerario, preguntas, fuentes y enlaces relacionados. Se indican los cierres consultados del Palacio de Cristal y de algunas salas de la NGV en 2026. La referencia general de Victoria Peak es secundaria y está identificada; no se inventan horarios o precios actuales del operador.
 
 Commit publicado: `30c8c21817e2e384abf8adde67bccdd5a930e2e1`. Ambos proyectos de Cloudflare terminaron correctamente. Pasaron tipos, 33 pruebas unitarias y 10 de vista previa. Los 214 casos de producción quedaron aprobados: 212 pasaron en la ejecución completa y las 10 pruebas de publicidad se repitieron con éxito tras corregir el cierre de las interceptaciones de red del navegador de pruebas. Se verificaron 209 respuestas públicas, incluidas las diez guías nuevas, sus páginas de descubrimiento y las 60 variantes de fotos nuevas por sus bytes exactos. Evidencia: `editorial/verification/2026-10-30-five-guides.json`.
+
+## Diez nuevas guías de viaje: octubre de 2026
+
+Publicadas Estambul, Praga, Viena, Atenas, Dubái, Taipéi, Siem Reap y Angkor, El Cairo y Guiza, San Pedro de Atacama y Rotorua. Son diez destinos nuevos respecto de las cincuenta guías anteriores, con veinte versiones completas de 1.350–1.572 palabras, treinta fotografías reales y 33 documentos de fuentes consultadas. Cada lugar tiene fotografía propia, ALT bilingüe, crédito, licencia y variantes WebP. Se conservan las fechas y los textos de las guías anteriores.
+
+La selección es editorial para viajar en esta época; no se presenta como un ranking mensual comprobado. Google Trends devolvió HTTP 429 y no se obtuvieron cifras de demanda. La incidencia, los reemplazos de fuentes y la comprobación de originalidad están registrados en la evidencia de selección. Muze.gen.tr se identifica como referencia complementaria, no como operador oficial. No se prometen precios, acceso, clima ni avistamientos.
+
+Pasaron tipos sin errores, 33 pruebas unitarias, 10 de navegación de vista previa y 266 de producción, incluidas todas las guías en móvil y escritorio. Las compilaciones generan 366 páginas. Se revisaron visualmente las treinta fotos y ejemplos de artículos; los proveedores publicitarios y Analytics se simularon durante las pruebas. Se conservan la publicidad existente y el consentimiento de Analytics.
+
+Commit de contenido publicado: `31cc5ddc164d5d470c145ca646861a397f9e6eaa`. Ambos proyectos de Cloudflare compilaron ese commit correctamente. Se verificaron 313 respuestas públicas: todas las guías, nuevas páginas de descubrimiento, sitemap, redirecciones www y las 120 variantes de fotos nuevas por SHA-256. Evidencia: `editorial/verification/2026-10-30-october-ten.json`. El sitio suma 60 originales, 120 versiones y 365 lugares recomendados con fotografía (730 secciones localizadas).
 
 ## Publicidad y consentimiento de Analytics
 

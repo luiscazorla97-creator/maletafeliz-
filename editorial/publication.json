@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-10-30T23:37:21.095Z",
+  "verifiedAt": "2026-10-31T00:47:46.917Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 50,
-  "localizations": 100,
-  "photos": 337,
-  "httpChecks": 317,
+  "originals": 60,
+  "localizations": 120,
+  "photos": 367,
+  "httpChecks": 313,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "df799e1e-3c3c-466d-a005-cb14fbace312",
-      "commit": "c19f28238d51c8c7acbd950cb81955b1bccba0e1",
+      "deploymentId": "eaf922be-349b-49a3-aef5-84302000471e",
+      "commit": "31cc5ddc164d5d470c145ca646861a397f9e6eaa",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "fe88939b-805b-4827-af6d-7565015e8b49",
-      "commit": "c19f28238d51c8c7acbd950cb81955b1bccba0e1",
+      "deploymentId": "0f03fc65-1402-4d62-9dc4-830c4f30ada8",
+      "commit": "31cc5ddc164d5d470c145ca646861a397f9e6eaa",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,20 +45,18 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 270,
-  "latestBatch": "2026-10-30",
-  "verificationFile": "editorial/verification/2026-10-30-native-popunder.json",
+  "citedSourceDocuments": 303,
+  "latestBatch": "2026-10-30-october-ten",
+  "verificationFile": "editorial/verification/2026-10-30-october-ten.json",
   "httpCheckBreakdown": {
-    "allHtmlPages": 310,
-    "clientAssets": 1,
-    "adsTxtSitemapRobots": 3,
-    "wwwRedirects": 3
+    "siteAndRedirects": 128,
+    "newArticlesDiscoveryAndPhotographVariants": 185
   },
-  "latestDeploymentVerification": "editorial/verification/2026-10-30-native-popunder.json",
-  "latestDeploymentVerifiedAt": "2026-10-30T23:37:21.095Z",
+  "latestDeploymentVerification": "editorial/verification/2026-10-30-october-ten.json",
+  "latestDeploymentVerifiedAt": "2026-10-31T00:47:46.917Z",
   "photoCoverage": {
-    "originalRecommendations": 335,
-    "localizedRecommendations": 670,
+    "originalRecommendations": 365,
+    "localizedRecommendations": 730,
     "allPlacesHavePhotographs": true
   },
   "adsense": {

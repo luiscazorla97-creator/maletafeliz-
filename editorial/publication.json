@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-10-31T17:18:33.860Z",
+  "verifiedAt": "2026-10-31T17:25:34.549Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
   "originals": 65,
   "localizations": 130,
   "photos": 377,
-  "httpChecks": 213,
+  "httpChecks": 158,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "cb261858-bee0-4d11-83d6-81af9bffd125",
-      "commit": "c42f1aa7216fc81cd9da3f0804214593081333da",
+      "deploymentId": "8b6576a3-f13d-41d7-8392-b3c6ed46bef8",
+      "commit": "f2ba75e07f2f7ae7ffad59fc6392cbd45fa60fe5",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "a01c5b34-99de-409e-8cc2-e9e15fb6af86",
-      "commit": "c42f1aa7216fc81cd9da3f0804214593081333da",
+      "deploymentId": "b5cddcce-411b-497d-a8fe-4ae88d057b74",
+      "commit": "f2ba75e07f2f7ae7ffad59fc6392cbd45fa60fe5",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -47,13 +47,13 @@
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
   "citedSourceDocuments": 313,
   "latestBatch": "2026-10-31",
-  "verificationFile": "editorial/verification/2026-10-31-five.json",
+  "verificationFile": "editorial/verification/2026-10-31-vertical.json",
   "httpCheckBreakdown": {
     "siteAndRedirects": 138,
-    "newArticlesDiscoveryAndPhotographVariants": 75
+    "verticalAdIntegrationAndCss": 20
   },
-  "latestDeploymentVerification": "editorial/verification/2026-10-31-five.json",
-  "latestDeploymentVerifiedAt": "2026-10-31T17:18:33.860Z",
+  "latestDeploymentVerification": "editorial/verification/2026-10-31-vertical.json",
+  "latestDeploymentVerifiedAt": "2026-10-31T17:25:34.549Z",
   "photoCoverage": {
     "originalRecommendations": 375,
     "localizedRecommendations": 750,
@@ -82,7 +82,7 @@
       "left",
       "right"
     ],
-    "sideMinimumViewportWidth": 1920,
+    "sideMinimumViewportWidth": 1440,
     "legalPagesExcluded": true,
     "creativeDeliveryVerified": false,
     "native": {
@@ -96,6 +96,21 @@
       "initialization": "once after a trusted primary click in editorial content",
       "integrationVerified": true,
       "realOpeningVerified": false
+    },
+    "sideBanner": {
+      "key": "1e5a2d407257849915d4433674f1978f",
+      "width": 160,
+      "height": 600,
+      "placements": [
+        "left",
+        "right"
+      ],
+      "integrationVerified": true
+    },
+    "topAndBottomBanner": {
+      "key": "c5a78736a50be383ac6b05853c770b4e",
+      "width": 300,
+      "height": 250
     }
   }
 }

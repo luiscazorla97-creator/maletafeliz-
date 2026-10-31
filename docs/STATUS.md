@@ -77,6 +77,16 @@ Google indica que sus anuncios no pueden mostrarse en sitios que activen popunde
 
 Tipos y 33 pruebas unitarias correctos; 10 pruebas de vista previa y 22 pruebas de producción centradas en publicidad y consentimiento superadas. No se repitió la suite completa de artículos, cuyo contenido no cambió. Se revisó el HTML de las 310 páginas y se verificaron 317 respuestas públicas. Ambas etiquetas nuevas devolvieron HTTP 403 sin contenido desde el entorno: la integración está comprobada, pero no la entrega real de anuncios ni aperturas. Evidencia: `editorial/verification/2026-10-30-native-popunder.json`.
 
+## Banners laterales verticales: 31 de octubre de 2026
+
+Publicado el formato Adsterra de 160 × 600 en ambos laterales, con la clave 1e5a2d407257849915d4433674f1978f facilitada por el titular. Sustituye exclusivamente los banners laterales anteriores. Arriba y abajo continúan los 300 × 250, junto con el nativo, popunder y código de verificación de AdSense existentes. Analytics mantiene aceptación explícita y se conservan las exclusiones legales, 404 y vista previa.
+
+Los laterales se solicitan solo al abrir una página con ancho inicial de al menos 1.440 píxeles. La cuadrícula reserva 160 píxeles a cada lado y separa el contenido; no hay iframe envolvente adicional. Cada configuración se ejecuta junto a su etiqueta en orden de análisis del documento. En ventanas de menos de 700 píxeles de alto los laterales dejan de ser pegajosos para permitir recorrer el anuncio completo.
+
+Pasaron tipos, 33 pruebas unitarias, 10 de vista previa y 286 pruebas de producción tras el cambio. Se verificaron dimensiones reales de 160 × 600, claves y URL correctas por posición, secuencia, límites de 1.439/1.440 píxeles, ausencia de peticiones laterales en móvil, no superposición al contenido ni al pie y el caso de ventana baja. Se inspeccionaron capturas con anuncios simulados. La entrega de creatividades reales no está acreditada; no se generaron impresiones de prueba ni eventos reales de Analytics.
+
+Commit desplegado: `f2ba75e07f2f7ae7ffad59fc6392cbd45fa60fe5`. Los dos proyectos de Cloudflare completaron el mismo commit. Se comprobaron 158 respuestas públicas, incluidas todas las guías, las etiquetas nuevas, las exclusiones y los bytes del CSS publicado. Evidencia: `editorial/verification/2026-10-31-vertical.json`. Los cinco artículos del lote de hoy permanecen publicados, sin cambios en sus textos o fechas.
+
 ## Operación y límites
 
 Cloudflare Pages utiliza GitHub/main: `maletafeliz-web` sirve la revista y `maletafeliz-www` la redirección. El flujo operativo activa la compilación mediante la API de Cloudflare después de subir el commit. La activación automática por cada push no está acreditada. La subida directa de assets con Wrangler encontró una incompatibilidad con el token temporal del proxy; se utiliza la integración Git oficial.

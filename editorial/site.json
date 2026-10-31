@@ -2,7 +2,7 @@
   "ownerName": "Luis Sebastian Cazorla Caruso",
   "contactEmail": "luterapps@gmail.com",
   "jurisdiction": "Argentina",
-  "legalReviewedAt": "2026-10-30T23:21:45.229Z",
+  "legalReviewedAt": "2026-10-31T17:44:53.109720Z",
   "automation": {
     "status": "manual-only",
     "requestedLocalTime": "07:00",
@@ -12,14 +12,14 @@
     "cloudSchedulingVerified": false,
     "quotaVisibility": "unavailable"
   },
-  "legalContentHash": "6edd9bc778392131ee1381c03b897844283839cfc4b29bdc5dd94a5d79de5d6d",
+  "legalContentHash": "88365de6f9485337db03a74126aa952f6a3fba2e5b0c788b10c04bc05127fc0c",
   "legalReviewedBy": "Codex — factual and technical editorial review",
-  "legalReviewScope": "Technical and editorial review of ES/EN disclosures for owner-requested native and interaction-initialized popunder advertising. No professional legal advice or Google approval claimed.",
+  "legalReviewScope": "Technical and editorial review of both ES/EN privacy and cookie disclosures after removal of the click-triggered popunder. Current728x90 top,300x250 bottom,160x600 sides and native placements described. No professional legal advice or Google approval claimed.",
   "advertising": {
     "provider": "Adsterra",
-    "format": "300x250 banner",
+    "format": "728x90 top, 300x250 bottom, 160x600 sides, native bottom",
     "scriptUrl": "https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e",
-    "placement": "top and bottom on content pages; left and right on initial viewport widths of at least 1920px; legal pages and 404 excluded",
+    "placement": "top and bottom on content pages; left and right on initial viewport widths of at least1440px; legal pages and404 excluded",
     "loading": "sequential parser-inserted provider scripts in the page document; side slots do not request ads on narrower viewports",
     "creativeDeliveryVerified": false,
     "lastProviderStatus": 403,
@@ -48,20 +48,24 @@
       "verificationFile": "editorial/verification/2026-10-30-native-popunder.json"
     },
     "popunder": {
-      "enabled": true,
+      "enabled": false,
       "scriptUrl": "https://abscloud.org/1/7a7683e73ba102718744e3df1c9fbe35",
-      "loading": "initialized once after a trusted primary click in main editorial content; no automatic popup, synthetic click or navigation cancellation by site code",
+      "loading": "No component, script tag or click initialization handler.",
       "exclusions": "legal pages, 404, previews, initial consent/settings clicks and clicks inside ad slots",
-      "integrationVerified": true,
+      "integrationVerified": false,
       "creativeDeliveryVerified": false,
       "lastProviderStatus": 403,
       "lastProviderResponseBytes": 0,
       "checkedAt": "2026-10-30T23:21:45.229Z",
       "adsensePolicyConflict": "Google prohibits its ads on sites that contain or trigger popunders; remove popunder before using AdSense.",
       "policyUrl": "https://support.google.com/adsense/answer/1346295?hl=es",
-      "publiclyVerifiedAt": "2026-10-30T23:37:21.095Z",
-      "verificationFile": "editorial/verification/2026-10-30-native-popunder.json"
-    }
+      "previousVerificationFile": "editorial/verification/2026-10-30-native-popunder.json",
+      "previousPubliclyVerifiedAt": "2026-10-30T23:37:21.095Z",
+      "status": "removed-in-source-awaiting-public-deployment",
+      "disabledInSourceAt": "2026-10-31T17:44:53.109720Z"
+    },
+    "topScriptUrl": "https://bauval.org/22/54722d11ca1374a1fe221435ad9001ac",
+    "sideScriptUrl": "https://bauval.org/22/1e5a2d407257849915d4433674f1978f"
   },
   "adsense": {
     "publisherId": "ca-pub-1382859681401211",
@@ -73,7 +77,7 @@
     "publicIntegrationVerified": true,
     "publiclyVerifiedAt": "2026-10-30T23:37:21.095Z",
     "publicVerification": "editorial/verification/2026-10-30-native-popunder.json",
-    "popunderPolicyConflict": true
+    "popunderPolicyConflict": false
   },
   "analytics": {
     "provider": "Google Analytics 4",

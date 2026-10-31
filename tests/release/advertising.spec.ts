@@ -5,7 +5,6 @@ const headersFile = readFileSync('public/_headers', 'utf8');
 const adsenseScript = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1382859681401211';
 const nativeScript = 'https://bauval.org/21/baf26907b67b4fd5cdb22901aa38108e';
 const nativeContainer = '#container-baf26907b67b4fd5cdb22901aa38108e';
-const popunderScript = 'https://abscloud.org/1/7a7683e73ba102718744e3df1c9fbe35';
 const analyticsScript = 'https://www.googletagmanager.com/gtag/js?id=G-RQKZL13K0Z';
 // Avoid real advertising impressions and analytics events in all browser checks.
 // Astro preview does not apply _headers; apply the matching production CSP here.
@@ -41,7 +40,8 @@ test('all production pages require Analytics consent and preserve advertising ex
     expect((html.match(/data-ad-placement="(top|bottom|left|right)"/g) || []).length, path).toBe(noAd ? 0 : 4);
     expect(html.split(`src="${nativeScript}"`).length - 1, path).toBe(noAd ? 0 : 1);
     expect(html.split(`id="${nativeContainer.slice(1)}"`).length - 1, path).toBe(noAd ? 0 : 1);
-    expect(html.split(popunderScript).length - 1, path).toBe(noAd ? 0 : 1);
+    expect(html, path).not.toContain('abscloud.org');
+    expect(html, path).not.toContain('adsterra-popunder-script');
     if (noAd) { expect(html, path).not.toContain('src="https://bauval.org/'); excluded++; }
   }
   expect(excluded).toBe(9);
@@ -274,11 +274,11 @@ test('unavailable local storage never enables Analytics without an explicit choi
   await expect.poll(() => requests).toBe(1);
 });
 
-test('popunder initializes once on trusted content interaction without cancelling navigation', async ({ page }) => {
+test('content clicks never initialize a popunder and navigation stays in the same tab', async ({ page }) => {
   let requests = 0;
   const popups: string[] = [];
   page.on('popup', popup => popups.push(popup.url()));
-  await page.route(popunderScript, route => { requests++; return route.fulfill({contentType:'application/javascript',body:'window.__popunderMockLoaded = true;'}); });
+  await page.route('https://abscloud.org/**', route => { requests++; return route.abort(); });
   await page.goto('/es/guias/que-ver-en-madrid-3-lugares/');
   expect(requests).toBe(0);
   await page.locator('h1').evaluate(node => (node as HTMLElement).click());
@@ -286,17 +286,19 @@ test('popunder initializes once on trusted content interaction without cancellin
   await page.getByRole('button', {name:'Rechazar',exact:true}).click();
   expect(requests).toBe(0);
   await page.locator('h1').click();
-  await expect.poll(() => requests).toBe(1);
-  await expect(page.locator('#adsterra-popunder-script')).toHaveAttribute('src', popunderScript);
-  await expect(page.locator('#adsterra-popunder-script')).toHaveAttribute('data-cfasync', 'false');
-  await expect.poll(() => page.evaluate(() => (window as any).__popunderMockLoaded)).toBe(true);
   await page.locator('h1').click();
-  expect(requests).toBe(1);
+  await expect(page.locator('#adsterra-popunder-script')).toHaveCount(0);
+  expect(requests).toBe(0);
   await page.locator('.breadcrumbs a').last().click();
   await expect(page).toHaveURL('/es/destinos/madrid/');
   expect(popups).toEqual([]);
   await page.goto('/en/information/privacy/');
   await page.locator('h1').click();
-  expect(requests).toBe(1);
+  expect(requests).toBe(0);
   await expect(page.locator('#adsterra-popunder-script')).toHaveCount(0);
+  await page.goto('/en/');
+  await page.locator('h1').click();
+  await page.locator('h1').click();
+  expect(requests).toBe(0);
+  expect(popups).toEqual([]);
 });

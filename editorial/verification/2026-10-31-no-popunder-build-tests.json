@@ -1,0 +1,25 @@
+{
+  "verifiedAt": "2026-10-31T17:50:48.952Z",
+  "types": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "unit": 33,
+  "previewNavigation": 10,
+  "productionAdvertisingAndConsent": 22,
+  "htmlPages": 392,
+  "popunderRemoved": true,
+  "checks": [
+    "Popunder component deleted and not imported by layout",
+    "All392 HTML files exclude abscloud.org and popunder loader",
+    "Real and synthetic content clicks do not request removed provider or open windows in controlled browser checks",
+    "Navigation remains in the same tab",
+    "Top728x90, bottom300x250, both160x600 sidebars and native block retained",
+    "Responsive banner geometry and resize behavior retained",
+    "ES/EN privacy and cookie disclosures updated and reviewed",
+    "Legal,404 and preview advertising exclusions retained",
+    "Analytics explicit consent retained"
+  ],
+  "creativeDeliveryVerified": false,
+  "scope": "Provider scripts mocked to avoid real impressions. The removed integration is verified; behavior of arbitrary third-party creatives is not certified. Article content remains unchanged."
+}

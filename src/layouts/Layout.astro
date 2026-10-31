@@ -6,7 +6,6 @@ import { absolute, production } from '../lib/site';
 import Icon from '../components/Icon.astro';
 import Advertisement from '../components/Advertisement.astro';
 import NativeAdvertisement from '../components/NativeAdvertisement.astro';
-import PopunderAdvertisement from '../components/PopunderAdvertisement.astro';
 import AnalyticsConsent from '../components/AnalyticsConsent.astro';
 interface Props {
   lang: Locale;
@@ -239,7 +238,6 @@ const links = [
         </span>
       </div>
     </footer>
-    {showAdvertisement && <PopunderAdvertisement />}
     <script>
       const lang = document.documentElement.lang;
       try {

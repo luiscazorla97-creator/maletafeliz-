@@ -9,7 +9,9 @@ const side = placement === 'left' || placement === 'right';
 const label = lang === 'es' ? 'Publicidad' : 'Advertisement';
 const options = side
   ? { key: '1e5a2d407257849915d4433674f1978f', format: 'iframe', height: 600, width: 160, params: {} }
-  : { key: 'c5a78736a50be383ac6b05853c770b4e', format: 'iframe', height: 250, width: 300, params: {} };
+  : placement === 'top'
+    ? { key: '54722d11ca1374a1fe221435ad9001ac', format: 'iframe', height: 90, width: 728, params: {} }
+    : { key: 'c5a78736a50be383ac6b05853c770b4e', format: 'iframe', height: 250, width: 300, params: {} };
 // Keep configuration and provider scripts together, in parser order. Adsterra
 // can use document.write and must execute in the page, not in a sandbox wrapper.
 const tag = `<script>window.atOptions = ${JSON.stringify(options)};</script><script src="https://bauval.org/22/${options.key}"></script>`;
@@ -23,7 +25,7 @@ const sideLoader = `if (window.matchMedia('(min-width: 1440px)').matches) {
 {production && (
   <aside
     id={`advertisement-${placement}`}
-    class:list={['advertisement', { 'advertisement-side': side }]}
+    class:list={['advertisement', { 'advertisement-side': side, 'advertisement-leaderboard': placement === 'top' }]}
     data-ad-placement={placement}
     aria-label={label}
     data-nosnippet
@@ -34,6 +36,22 @@ const sideLoader = `if (window.matchMedia('(min-width: 1440px)').matches) {
         {side ? <script is:inline set:html={sideLoader} /> : <Fragment set:html={tag} />}
       </div>
     </div>
+    {placement === 'top' && (
+      <script is:inline>
+        (() => {
+          const root = document.currentScript.closest('.advertisement');
+          const viewport = root.querySelector('.advertisement-viewport');
+          const slot = root.querySelector('.advertisement-slot');
+          // Keep the provider's 728×90 format; scale the complete creative to
+          // the available width without clipping it or requesting it again.
+          const fit = () => {
+            slot.style.transform = `scale(${Math.min(1, viewport.clientWidth / 728)})`;
+          };
+          fit();
+          new ResizeObserver(fit).observe(viewport);
+        })();
+      </script>
+    )}
   </aside>
 )}
 <style>
@@ -42,6 +60,21 @@ const sideLoader = `if (window.matchMedia('(min-width: 1440px)').matches) {
   .advertisement-viewport { width: 300px; height: 250px; overflow: hidden; background: #f5f3ef; }
   .advertisement-slot { width: 300px; height: 250px; }
   .advertisement-slot :global(iframe) { border: 0; }
+  .advertisement-leaderboard { grid-template-columns: minmax(0, 1fr); }
+  .advertisement-leaderboard .advertisement-viewport {
+    position: relative;
+    width: min(728px, calc(100% - 32px));
+    height: auto;
+    aspect-ratio: 728 / 90;
+  }
+  .advertisement-leaderboard .advertisement-slot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 728px;
+    height: 90px;
+    transform-origin: top left;
+  }
   .advertisement-side { display: none; }
   .advertisement-side .advertisement-viewport,
   .advertisement-side .advertisement-slot { width: 160px; height: 600px; }

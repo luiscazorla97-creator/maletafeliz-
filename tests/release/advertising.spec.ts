@@ -83,7 +83,7 @@ test('banners load in their own slots without covering content or requesting hid
   await page.addInitScript(() => localStorage.setItem('maletafeliz-analytics-consent', 'denied'));
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
-  await page.route(/https:\/\/bauval\.org\/22\/(c5a78736a50be383ac6b05853c770b4e|1e5a2d407257849915d4433674f1978f)$/, async route => {
+  await page.route(/https:\/\/bauval\.org\/22\/(c5a78736a50be383ac6b05853c770b4e|1e5a2d407257849915d4433674f1978f|54722d11ca1374a1fe221435ad9001ac)$/, async route => {
     await route.fulfill({ contentType: 'application/javascript', body: `(() => {
       if (window.top !== window) throw Error('Provider sandboxed');
       localStorage.setItem('maletafeliz-ad-test', 'ok'); localStorage.removeItem('maletafeliz-ad-test');
@@ -107,7 +107,7 @@ test('banners load in their own slots without covering content or requesting hid
     card.style.cssText = 'background:#f5dbc5;padding:24px;min-height:140px;display:grid;place-items:center';
     target.append(card);
   })();` }));
-  for (const width of [320, 390, 1366, 1439, 1440, 1640, 1920, 2560]) {
+  for (const width of [320, 390, 728, 759, 760, 1366, 1439, 1440, 1640, 1920, 2560]) {
     await page.setViewportSize({width, height: 1000});
     await page.goto('/es/guias/que-ver-en-madrid-3-lugares/');
     const count = width >= 1440 ? 4 : 2;
@@ -129,7 +129,9 @@ test('banners load in their own slots without covering content or requesting hid
       const side = ['left', 'right'].includes(call.position);
       const expected = side
         ? {key:'1e5a2d407257849915d4433674f1978f',format:'iframe',height:600,width:160,params:{}}
-        : {key:'c5a78736a50be383ac6b05853c770b4e',format:'iframe',height:250,width:300,params:{}};
+        : call.position === 'top'
+          ? {key:'54722d11ca1374a1fe221435ad9001ac',format:'iframe',height:90,width:728,params:{}}
+          : {key:'c5a78736a50be383ac6b05853c770b4e',format:'iframe',height:250,width:300,params:{}};
       expect(call.options).toEqual(expected);
       expect(call.url).toBe(`https://bauval.org/22/${expected.key}`);
       const frame = page.locator(`#advertisement-${call.position} iframe[data-test-banner]`);
@@ -139,6 +141,16 @@ test('banners load in their own slots without covering content or requesting hid
         const bounds = await frame.boundingBox();
         expect(bounds!.width).toBe(160);
         expect(bounds!.height).toBe(600);
+      }
+      if (call.position === 'top') {
+        const bounds = (await frame.boundingBox())!;
+        const viewport = (await page.locator('#advertisement-top .advertisement-viewport').boundingBox())!;
+        const main = (await page.locator('main').boundingBox())!;
+        expect(bounds.width).toBeCloseTo(Math.min(728, width - 32), 1);
+        expect(bounds.height / bounds.width).toBeCloseTo(90 / 728, 4);
+        expect(bounds.width).toBeCloseTo(viewport.width, 1);
+        expect(bounds.height).toBeCloseTo(viewport.height, 1);
+        expect(bounds.x + bounds.width / 2).toBeCloseTo(main.x + main.width / 2, 1);
       }
     }
     const geometry = await page.evaluate(() => {
@@ -158,6 +170,12 @@ test('banners load in their own slots without covering content or requesting hid
   await expect(page.locator('iframe[data-test-banner]')).toHaveCount(4);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({path:`test-results/ads-home-${testInfo.project.name}-1920.png`});
+  const callsBeforeResize = await page.evaluate(() => (window as any).__adCalls.length);
+  await page.setViewportSize({width:390, height:844});
+  await expect.poll(async () => Math.round((await page.locator('#advertisement-top iframe').boundingBox())!.width)).toBe(358);
+  await page.setViewportSize({width:1920, height:1000});
+  await expect.poll(async () => Math.round((await page.locator('#advertisement-top iframe').boundingBox())!.width)).toBe(728);
+  expect(await page.evaluate(() => (window as any).__adCalls.length)).toBe(callsBeforeResize);
   await page.setViewportSize({width:1440, height:600});
   await page.goto('/es/');
   await expect(page.locator('iframe[data-test-banner]')).toHaveCount(4);

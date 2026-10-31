@@ -1,0 +1,44 @@
+{
+  "verifiedAt": "2026-10-31T17:34:03.847Z",
+  "types": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "unit": 33,
+  "previewNavigation": 10,
+  "productionAdvertisingAndConsent": 22,
+  "htmlPages": 392,
+  "viewportWidths": [
+    320,
+    390,
+    728,
+    759,
+    760,
+    1366,
+    1439,
+    1440,
+    1640,
+    1920,
+    2560
+  ],
+  "topBanner": {
+    "key": "54722d11ca1374a1fe221435ad9001ac",
+    "width": 728,
+    "height": 90,
+    "placement": "top",
+    "responsiveScaling": true
+  },
+  "checks": [
+    "Exact key, URL and 728x90 provider settings in top slot",
+    "Full proportional scaling with no cropping or horizontal overflow",
+    "Centered top placement and space reserved at matching aspect ratio",
+    "Resize without duplicate provider requests",
+    "Bottom 300x250 and single native container preserved",
+    "Both 160x600 sidebars preserved",
+    "Legal, 404 and preview advertising exclusions",
+    "Analytics explicit consent preserved"
+  ],
+  "visualReview": "Mock horizontal, vertical and bottom/native advertisements inspected on desktop and mobile. No real provider impressions or Analytics collection.",
+  "creativeDeliveryVerified": false,
+  "scope": "Advertising component only; article content and global grid unchanged. Existing full 286-case production baseline retained, advertising/consent suite rerun for the current change."
+}

@@ -1,14 +1,14 @@
 # Estado del proyecto
 
-Verificado el 30 de octubre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
+Verificado el 31 de octubre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
 
 ## Publicación verificada
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 60 guías originales y 120 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 303 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 367 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 65 guías originales y 130 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 313 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 377 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
@@ -46,6 +46,16 @@ La selección es editorial para viajar en esta época; no se presenta como un ra
 Pasaron tipos sin errores, 33 pruebas unitarias, 10 de navegación de vista previa y 266 de producción, incluidas todas las guías en móvil y escritorio. Las compilaciones generan 366 páginas. Se revisaron visualmente las treinta fotos y ejemplos de artículos; los proveedores publicitarios y Analytics se simularon durante las pruebas. Se conservan la publicidad existente y el consentimiento de Analytics.
 
 Commit de contenido publicado: `31cc5ddc164d5d470c145ca646861a397f9e6eaa`. Ambos proyectos de Cloudflare compilaron ese commit correctamente. Se verificaron 313 respuestas públicas: todas las guías, nuevas páginas de descubrimiento, sitemap, redirecciones www y las 120 variantes de fotos nuevas por SHA-256. Evidencia: `editorial/verification/2026-10-30-october-ten.json`. El sitio suma 60 originales, 120 versiones y 365 lugares recomendados con fotografía (730 secciones localizadas).
+
+## Cinco nuevas guías: 31 de octubre de 2026
+
+Publicadas Oporto, Copenhague, Budapest, Kuala Lumpur y Ottawa, sin repetir los sesenta destinos anteriores. Son diez versiones completas en español e inglés, de 1.486–1.587 palabras, con dos lugares desarrollados por guía, fotografía individual, itinerario, cuatro preguntas frecuentes, fuentes y enlaces relacionados. Se incorporan diez fotografías reales con cuarenta archivos WebP responsivos y diez documentos de fuentes leídas. Se conservan las fechas y el contenido de las guías anteriores.
+
+Se describen las limitaciones de escaleras y ausencia de ascensor de Rosenborg, el cierre estacional del sitio histórico Rideau consultado el 31 de octubre y la necesidad de confirmar espacios urbanos mantenidos. No se recomienda entrar a instalaciones cerradas ni hielo no habilitado. Las fotos de archivo se identifican; Batu Caves muestra la escalera de 2015 y Petronas una panorámica de tomas fotográficas reales. Los fallos de acceso a fuentes candidatas constan en el registro; se usaron fuentes turísticas oficiales accesibles y no se inventaron tarifas ni disponibilidad.
+
+Pasaron tipos sin errores, 33 pruebas unitarias, 10 de vista previa y 286 de producción, incluidas todas las guías en móvil y escritorio. Las compilaciones generan 392 páginas HTML. Fotos y ejemplos de artículos revisados visualmente; anuncios y Analytics simulados durante las pruebas. Se preserva la configuración existente de publicidad y consentimiento.
+
+Commit de contenido publicado: `c42f1aa7216fc81cd9da3f0804214593081333da`. Ambos proyectos de Cloudflare compilaron ese commit correctamente. Se verificaron 213 respuestas públicas, incluidas todas las guías, descubrimiento, sitemap, redirecciones y los cuarenta archivos de las fotos nuevas por SHA-256. Evidencia: `editorial/verification/2026-10-31-five.json`. El total queda en 65 originales, 130 versiones y 375 lugares recomendados con fotografía, equivalentes a 750 secciones localizadas.
 
 ## Publicidad y consentimiento de Analytics
 

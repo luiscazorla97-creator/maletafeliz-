@@ -33,12 +33,13 @@ body {
   margin-top: 12px;
   text-decoration: underline;
 }
-@media (min-width: 1920px) {
+@media (min-width: 1440px) {
   .content-frame:has(> .advertisement-side[data-active='true']) {
     display: grid;
-    grid-template-columns: 300px minmax(0, 1240px) 300px;
+    grid-template-columns: 160px minmax(0, 1240px) 160px;
     gap: 24px;
-    max-width: 1888px;
+    width: calc(100% - 32px);
+    max-width: 1608px;
     margin-inline: auto;
     align-items: start;
   }

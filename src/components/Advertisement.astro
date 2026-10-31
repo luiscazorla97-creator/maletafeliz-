@@ -7,13 +7,15 @@ const { lang, placement } = Astro.props as {
 };
 const side = placement === 'left' || placement === 'right';
 const label = lang === 'es' ? 'Publicidad' : 'Advertisement';
-const options = { key: 'c5a78736a50be383ac6b05853c770b4e', format: 'iframe', height: 250, width: 300, params: {} };
+const options = side
+  ? { key: '1e5a2d407257849915d4433674f1978f', format: 'iframe', height: 600, width: 160, params: {} }
+  : { key: 'c5a78736a50be383ac6b05853c770b4e', format: 'iframe', height: 250, width: 300, params: {} };
 // Keep configuration and provider scripts together, in parser order. Adsterra
 // can use document.write and must execute in the page, not in a sandbox wrapper.
-const tag = `<script>window.atOptions = ${JSON.stringify(options)};</script><script src="https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e"></script>`;
+const tag = `<script>window.atOptions = ${JSON.stringify(options)};</script><script src="https://bauval.org/22/${options.key}"></script>`;
 // Run only during parsing. Hidden mobile slots must not request advertisements.
 // Escaping '<' prevents the nested tag from closing this inline loader.
-const sideLoader = `if (window.matchMedia('(min-width: 1920px)').matches) {
+const sideLoader = `if (window.matchMedia('(min-width: 1440px)').matches) {
   document.currentScript.closest('.advertisement').dataset.active = 'true';
   document.write(${JSON.stringify(tag).replaceAll('<', '\\u003c')});
 }`;
@@ -41,8 +43,13 @@ const sideLoader = `if (window.matchMedia('(min-width: 1920px)').matches) {
   .advertisement-slot { width: 300px; height: 250px; }
   .advertisement-slot :global(iframe) { border: 0; }
   .advertisement-side { display: none; }
-  @media (min-width: 1920px) {
-    .advertisement-side[data-active='true'] { display: grid; position: sticky; top: 24px; align-self: start; }
+  .advertisement-side .advertisement-viewport,
+  .advertisement-side .advertisement-slot { width: 160px; height: 600px; }
+  @media (min-width: 1440px) {
+    .advertisement-side[data-active='true'] { display: grid; align-self: start; }
+  }
+  @media (min-width: 1440px) and (min-height: 700px) {
+    .advertisement-side[data-active='true'] { position: sticky; top: 24px; }
   }
   @media (max-width: 360px) {
     .advertisement-viewport { width: 264px; height: 220px; }

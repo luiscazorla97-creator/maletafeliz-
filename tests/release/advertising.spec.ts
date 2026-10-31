@@ -75,7 +75,7 @@ test('AdSense verification remains present alongside Adsterra', async ({ page })
     await expect(page.locator('head script[src*="adsbygoogle.js"]')).toHaveCount(1);
     await expect(page.locator('head script[src*="adsbygoogle.js"]')).toHaveAttribute('crossorigin', 'anonymous');
     await expect(page.locator('meta[name="google-adsense-account"]')).toHaveAttribute('content', 'ca-pub-1382859681401211');
-    await expect(page.locator('.advertisement:visible')).toHaveCount(2);
+    await expect(page.locator('.advertisement:visible')).toHaveCount(page.viewportSize()!.width >= 1440 ? 4 : 2);
   }
 });
 
@@ -83,14 +83,19 @@ test('banners load in their own slots without covering content or requesting hid
   await page.addInitScript(() => localStorage.setItem('maletafeliz-analytics-consent', 'denied'));
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
-  const banner = '<iframe data-test-banner title="Test advertisement" width="300" height="250" srcdoc="<body style=\'margin:0;background:#f5dbc5;display:grid;place-items:center;height:100vh;font:18px Arial\'>Publicidad · prueba</body>"></iframe>';
-  await page.route('https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e', async route => {
+  await page.route(/https:\/\/bauval\.org\/22\/(c5a78736a50be383ac6b05853c770b4e|1e5a2d407257849915d4433674f1978f)$/, async route => {
     await route.fulfill({ contentType: 'application/javascript', body: `(() => {
       if (window.top !== window) throw Error('Provider sandboxed');
       localStorage.setItem('maletafeliz-ad-test', 'ok'); localStorage.removeItem('maletafeliz-ad-test');
       const slot = document.currentScript.closest('.advertisement');
-      (window.__adCalls ||= []).push({position: slot.dataset.adPlacement, options: {...window.atOptions}});
-      document.write(${JSON.stringify(banner)});
+      const options = {...window.atOptions};
+      (window.__adCalls ||= []).push({position: slot.dataset.adPlacement, options, url: document.currentScript.src});
+      const banner = document.createElement('iframe');
+      banner.dataset.testBanner = '';
+      banner.title = 'Test advertisement';
+      banner.width = String(options.width); banner.height = String(options.height);
+      banner.srcdoc = "<body style='margin:0;background:#f5dbc5;display:grid;place-items:center;height:100vh;font:18px Arial'>Publicidad · prueba<br>" + options.width + ' × ' + options.height + '</body>';
+      document.write(banner.outerHTML);
     })();` });
   });
   await page.route(nativeScript, route => route.fulfill({ contentType: 'application/javascript', body: `(() => {
@@ -102,10 +107,10 @@ test('banners load in their own slots without covering content or requesting hid
     card.style.cssText = 'background:#f5dbc5;padding:24px;min-height:140px;display:grid;place-items:center';
     target.append(card);
   })();` }));
-  for (const width of [320, 390, 1440, 1919, 1920, 2560]) {
+  for (const width of [320, 390, 1366, 1439, 1440, 1640, 1920, 2560]) {
     await page.setViewportSize({width, height: 1000});
     await page.goto('/es/guias/que-ver-en-madrid-3-lugares/');
-    const count = width >= 1920 ? 4 : 2;
+    const count = width >= 1440 ? 4 : 2;
     await expect(page.locator('iframe[data-test-banner]')).toHaveCount(count);
     await expect(page.locator('.advertisement:visible')).toHaveCount(count);
     await expect(page.locator(nativeContainer)).toHaveCount(1);
@@ -119,15 +124,30 @@ test('banners load in their own slots without covering content or requesting hid
     expect(nativeBox!.y).toBeGreaterThanOrEqual(bottomBox!.y + bottomBox!.height);
     expect(nativeBox!.y + nativeBox!.height).toBeLessThanOrEqual(footerBox!.y);
     const calls = await page.evaluate(() => (window as any).__adCalls);
-    expect(calls.map((c: any) => c.position)).toEqual(width >= 1920 ? ['left', 'top', 'bottom', 'right'] : ['top', 'bottom']);
-    for (const call of calls) expect(call.options).toEqual({key:'c5a78736a50be383ac6b05853c770b4e',format:'iframe',height:250,width:300,params:{}});
+    expect(calls.map((c: any) => c.position)).toEqual(width >= 1440 ? ['left', 'top', 'bottom', 'right'] : ['top', 'bottom']);
+    for (const call of calls) {
+      const side = ['left', 'right'].includes(call.position);
+      const expected = side
+        ? {key:'1e5a2d407257849915d4433674f1978f',format:'iframe',height:600,width:160,params:{}}
+        : {key:'c5a78736a50be383ac6b05853c770b4e',format:'iframe',height:250,width:300,params:{}};
+      expect(call.options).toEqual(expected);
+      expect(call.url).toBe(`https://bauval.org/22/${expected.key}`);
+      const frame = page.locator(`#advertisement-${call.position} iframe[data-test-banner]`);
+      await expect(frame).toHaveAttribute('width', String(expected.width));
+      await expect(frame).toHaveAttribute('height', String(expected.height));
+      if (side) {
+        const bounds = await frame.boundingBox();
+        expect(bounds!.width).toBe(160);
+        expect(bounds!.height).toBe(600);
+      }
+    }
     const geometry = await page.evaluate(() => {
       const box = (selector: string) => document.querySelector(selector)!.getBoundingClientRect();
-      return { overflow: document.documentElement.scrollWidth > window.innerWidth, topClear: box('#advertisement-top').bottom <= box('.article-header').top, bottomClear: box('#advertisement-bottom').top >= box('.prose').bottom, sidesClear: window.innerWidth < 1920 || (box('#advertisement-left').right <= box('main').left && box('#advertisement-right').left >= box('main').right) };
+      return { overflow: document.documentElement.scrollWidth > window.innerWidth, topClear: box('#advertisement-top').bottom <= box('.article-header').top, bottomClear: box('#advertisement-bottom').top >= box('.prose').bottom, sidesClear: window.innerWidth < 1440 || (box('#advertisement-left').right <= box('main').left && box('#advertisement-right').left >= box('main').right) };
     });
     expect(geometry).toEqual({overflow:false,topClear:true,bottomClear:true,sidesClear:true});
-    if (width === 390 || width === 1920) await page.screenshot({path:`test-results/ads-${testInfo.project.name}-${width}.png`});
-    if (width >= 1920) {
+    if (width === 390 || width === 1440 || width === 1920) await page.screenshot({path:`test-results/ads-${testInfo.project.name}-${width}.png`});
+    if (width >= 1440) {
       await page.locator('footer').scrollIntoViewIfNeeded();
       expect(await page.evaluate(() => document.querySelector('#advertisement-left')!.getBoundingClientRect().bottom <= document.querySelector('footer')!.getBoundingClientRect().top)).toBe(true);
     }
@@ -138,6 +158,12 @@ test('banners load in their own slots without covering content or requesting hid
   await expect(page.locator('iframe[data-test-banner]')).toHaveCount(4);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({path:`test-results/ads-home-${testInfo.project.name}-1920.png`});
+  await page.setViewportSize({width:1440, height:600});
+  await page.goto('/es/');
+  await expect(page.locator('iframe[data-test-banner]')).toHaveCount(4);
+  await expect(page.locator('#advertisement-left')).toHaveCSS('position', 'static');
+  await expect(page.locator('#advertisement-right')).toHaveCSS('position', 'static');
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   expect(errors).toEqual([]);
 });
 

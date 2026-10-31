@@ -1,0 +1,49 @@
+{
+  "verifiedAt": "2026-10-31T17:15:00.153Z",
+  "types": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "unit": 33,
+  "previewNavigation": 10,
+  "productionBrowser": 286,
+  "htmlPages": 392,
+  "viewportWidths": [
+    320,
+    390,
+    1366,
+    1439,
+    1440,
+    1640,
+    1920,
+    2560
+  ],
+  "shortViewport": {
+    "width": 1440,
+    "height": 600,
+    "sidePosition": "static"
+  },
+  "sideBanner": {
+    "key": "1e5a2d407257849915d4433674f1978f",
+    "width": 160,
+    "height": 600,
+    "placements": [
+      "left",
+      "right"
+    ],
+    "minimumViewportWidth": 1440
+  },
+  "checks": [
+    "Correct provider key and distinct dimensions per placement",
+    "Sequential direct document execution and no extra sandbox iframe",
+    "No side requests below breakpoint",
+    "No content overlap or horizontal overflow",
+    "Side banners remain before footer",
+    "Legal and404 exclusions",
+    "Preview excludes advertising",
+    "Native and popunder integrations preserved",
+    "Analytics consent preserved"
+  ],
+  "visualReview": "Mock 160×600 banners inspected on article and homepage at desktop widths; narrow viewport checked. No real provider impressions or Analytics collection.",
+  "creativeDeliveryVerified": false
+}

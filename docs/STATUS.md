@@ -87,6 +87,14 @@ Pasaron tipos, 33 pruebas unitarias, 10 de vista previa y 286 pruebas de producc
 
 Commit desplegado: `f2ba75e07f2f7ae7ffad59fc6392cbd45fa60fe5`. Los dos proyectos de Cloudflare completaron el mismo commit. Se comprobaron 158 respuestas públicas, incluidas todas las guías, las etiquetas nuevas, las exclusiones y los bytes del CSS publicado. Evidencia: `editorial/verification/2026-10-31-vertical.json`. Los cinco artículos del lote de hoy permanecen publicados, sin cambios en sus textos o fechas.
 
+## Banner horizontal superior: 31 de octubre de 2026
+
+El anuncio superior utiliza el formato Adsterra 728 × 90 y la clave 54722d11ca1374a1fe221435ad9001ac. Se muestra centrado, con su proporción reservada, y se reduce completo al ancho disponible mediante ResizeObserver sin recortar ni volver a solicitar la etiqueta al cambiar el tamaño de la ventana. La configuración del proveedor conserva 728×90. Se mantienen los dos laterales 160×600, el banner inferior 300×250, un único bloque nativo inferior y el popunder existente. No se duplica el identificador nativo. Analytics conserva su consentimiento explícito y las páginas legales, 404 y vista previa excluyen anuncios.
+
+Pasaron tipos, 33 pruebas unitarias, 10 de vista previa y 22 pruebas de producción de publicidad y consentimiento. Se comprobó el HTML de las 392 páginas, la geometría en once anchos de 320 a 2560 píxeles, el límite de ancho del formato superior, los laterales y el redimensionamiento sin nuevas solicitudes. Los anuncios de prueba fueron simulados; las capturas de escritorio y móvil se inspeccionaron visualmente. No se afirma entrega real de creatividades. Los artículos y la cuadrícula global no cambiaron; no se repitió la suite editorial completa ya aprobada.
+
+Commit desplegado: `24a86cef4d522fbc0c4b272bec746b764e1ee6ad`. Los dos proyectos de Cloudflare finalizaron correctamente. Se comprobaron 158 respuestas públicas, incluidas todas las guías, las tres claves de banners, las exclusiones y los bytes del CSS desplegado. Evidencia: `editorial/verification/2026-10-31-leaderboard.json`.
+
 ## Operación y límites
 
 Cloudflare Pages utiliza GitHub/main: `maletafeliz-web` sirve la revista y `maletafeliz-www` la redirección. El flujo operativo activa la compilación mediante la API de Cloudflare después de subir el commit. La activación automática por cada push no está acreditada. La subida directa de assets con Wrangler encontró una incompatibilidad con el token temporal del proxy; se utiliza la integración Git oficial.

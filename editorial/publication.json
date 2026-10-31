@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-10-31T17:25:34.549Z",
+  "verifiedAt": "2026-10-31T17:45:22.882Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
   "originals": 65,
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "8b6576a3-f13d-41d7-8392-b3c6ed46bef8",
-      "commit": "f2ba75e07f2f7ae7ffad59fc6392cbd45fa60fe5",
+      "deploymentId": "fc32550c-6fc6-4605-938d-a28a4321910a",
+      "commit": "24a86cef4d522fbc0c4b272bec746b764e1ee6ad",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "b5cddcce-411b-497d-a8fe-4ae88d057b74",
-      "commit": "f2ba75e07f2f7ae7ffad59fc6392cbd45fa60fe5",
+      "deploymentId": "cd6756bc-769c-4e11-91a3-2bfb7ba91aa5",
+      "commit": "24a86cef4d522fbc0c4b272bec746b764e1ee6ad",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -47,13 +47,13 @@
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
   "citedSourceDocuments": 313,
   "latestBatch": "2026-10-31",
-  "verificationFile": "editorial/verification/2026-10-31-vertical.json",
+  "verificationFile": "editorial/verification/2026-10-31-leaderboard.json",
   "httpCheckBreakdown": {
     "siteAndRedirects": 138,
-    "verticalAdIntegrationAndCss": 20
+    "leaderboardIntegrationAndCss": 20
   },
-  "latestDeploymentVerification": "editorial/verification/2026-10-31-vertical.json",
-  "latestDeploymentVerifiedAt": "2026-10-31T17:25:34.549Z",
+  "latestDeploymentVerification": "editorial/verification/2026-10-31-leaderboard.json",
+  "latestDeploymentVerifiedAt": "2026-10-31T17:45:22.882Z",
   "photoCoverage": {
     "originalRecommendations": 375,
     "localizedRecommendations": 750,
@@ -107,7 +107,14 @@
       ],
       "integrationVerified": true
     },
-    "topAndBottomBanner": {
+    "topBanner": {
+      "key": "54722d11ca1374a1fe221435ad9001ac",
+      "width": 728,
+      "height": 90,
+      "responsiveScaling": true,
+      "integrationVerified": true
+    },
+    "bottomBanner": {
       "key": "c5a78736a50be383ac6b05853c770b4e",
       "width": 300,
       "height": 250

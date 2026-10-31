@@ -1,0 +1,76 @@
+{
+  "selectedAt": "2026-10-31T16:57:14.701Z",
+  "topicIds": [
+    "porto",
+    "copenhagen",
+    "budapest",
+    "kuala-lumpur",
+    "ottawa"
+  ],
+  "originalRequest": "publica 5 articulso",
+  "method": "Five new first-visit city guides, researched and localized into Spanish and English; no search-ranking claim.",
+  "existingOriginalsChecked": 60,
+  "duplicateDestinationIds": [],
+  "newPlaceSections": 10,
+  "localizations": 10,
+  "sourcesRead": 10,
+  "photosWithFilePageAndVisualReview": 10,
+  "blockedOrMovedSourceCandidates": [
+    {
+      "id": "kl-petronas",
+      "url": "https://www.petronastwintowers.com.my/",
+      "status": 503,
+      "at": "2026-10-31T16:41:30.175Z",
+      "reason": "HTTP failure, not used"
+    },
+    {
+      "id": "kl-petronas-visit",
+      "url": "https://www.petronastwintowers.com.my/visit-and-experience/",
+      "status": 503,
+      "at": "2026-10-31T16:44:18.577Z",
+      "reason": "HTTP failure, not used"
+    },
+    {
+      "id": "ottawa-gallery",
+      "url": "https://www.gallery.ca/visit",
+      "status": 403,
+      "at": "2026-10-31T16:41:32.256Z",
+      "reason": "HTTP failure, not used"
+    },
+    {
+      "id": "budapest-parliament",
+      "url": "https://www.parlament.hu/web/visitors",
+      "status": 200,
+      "at": "2026-10-31T16:41:28.739Z",
+      "reason": "CAPTCHA, no content read"
+    },
+    {
+      "id": "budapest-visit",
+      "url": "https://visithungary.com/articles/the-hungarian-parliament",
+      "status": 200,
+      "at": "2026-10-31T16:43:59.019Z",
+      "reason": "Soft404, not used"
+    },
+    {
+      "id": "budapest-castle-tourism",
+      "url": "https://visithungary.com/articles/buda-castle",
+      "status": 200,
+      "at": "2026-10-31T16:44:15.790Z",
+      "reason": "Soft404, not used"
+    },
+    {
+      "id": "kl-towers-tourism",
+      "url": "https://www.malaysia.travel/explore/petronas-twin-towers",
+      "status": 404,
+      "at": "2026-10-31T16:43:57.039Z",
+      "reason": "HTTP failure, not used"
+    },
+    {
+      "id": "kl-petronas-attraction",
+      "url": "https://www.malaysia.travel/explore/klcc",
+      "status": 404,
+      "at": "2026-10-31T16:44:17.442Z",
+      "reason": "HTTP failure, not used"
+    }
+  ]
+}

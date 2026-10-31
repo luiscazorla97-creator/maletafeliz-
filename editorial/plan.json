@@ -3026,5 +3026,324 @@
       "es": "https://maletafeliz.com/es/guias/que-ver-en-rotorua/",
       "en": "https://maletafeliz.com/en/guides/what-to-see-in-rotorua/"
     }
+  },
+  {
+    "id": "porto",
+    "city": {
+      "es": "Oporto",
+      "en": "Porto"
+    },
+    "countryId": "pt",
+    "country": {
+      "es": "Portugal",
+      "en": "Portugal"
+    },
+    "continent": "europe",
+    "days": 2,
+    "intent": "two-complementary-highlights-first-visit-porto",
+    "places": [
+      [
+        "bridge",
+        "Puente de Luis I",
+        "Dom Luís I Bridge",
+        "\"Dom Luis I Bridge\" Porto"
+      ],
+      [
+        "serralves",
+        "Serralves",
+        "Serralves",
+        "\"Serralves\" museum"
+      ]
+    ],
+    "sources": [
+      [
+        "porto-unesco",
+        "https://whc.unesco.org/en/list/755/"
+      ],
+      [
+        "porto-serralves",
+        "https://www.serralves.pt/en/"
+      ]
+    ],
+    "related": [
+      "lisbon",
+      "prague"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 2,
+    "status": "published",
+    "titles": {
+      "es": "Qué ver en Oporto: puente de Luis I y Serralves",
+      "en": "What to see in Porto: Dom Luís I Bridge and Serralves"
+    },
+    "slugs": {
+      "es": "que-ver-en-oporto",
+      "en": "what-to-see-in-porto"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "copenhagen",
+    "city": {
+      "es": "Copenhague",
+      "en": "Copenhagen"
+    },
+    "countryId": "dk",
+    "country": {
+      "es": "Dinamarca",
+      "en": "Denmark"
+    },
+    "continent": "europe",
+    "days": 2,
+    "intent": "two-complementary-highlights-first-visit-copenhagen",
+    "places": [
+      [
+        "nyhavn",
+        "Nyhavn",
+        "Nyhavn",
+        "intitle:Nyhavn Copenhagen"
+      ],
+      [
+        "rosenborg",
+        "Castillo de Rosenborg",
+        "Rosenborg Castle",
+        "intitle:Rosenborg Castle"
+      ]
+    ],
+    "sources": [
+      [
+        "copenhagen-nyhavn",
+        "https://www.visitcopenhagen.com/copenhagen/planning/nyhavn-gdk474735"
+      ],
+      [
+        "copenhagen-rosenborg",
+        "https://www.kongernessamling.dk/en/rosenborg/"
+      ]
+    ],
+    "related": [
+      "prague"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 2,
+    "status": "published",
+    "titles": {
+      "es": "Qué ver en Copenhague: Nyhavn y Rosenborg",
+      "en": "What to see in Copenhagen: Nyhavn and Rosenborg"
+    },
+    "slugs": {
+      "es": "que-ver-en-copenhague",
+      "en": "what-to-see-in-copenhagen"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "budapest",
+    "city": {
+      "es": "Budapest",
+      "en": "Budapest"
+    },
+    "countryId": "hu",
+    "country": {
+      "es": "Hungría",
+      "en": "Hungary"
+    },
+    "continent": "europe",
+    "days": 2,
+    "intent": "two-complementary-highlights-first-visit-budapest",
+    "places": [
+      [
+        "parliament",
+        "Parlamento de Hungría",
+        "Hungarian Parliament",
+        "\"Hungarian Parliament\" building"
+      ],
+      [
+        "castle",
+        "Castillo de Buda",
+        "Buda Castle",
+        "intitle:Buda Castle Budapest"
+      ]
+    ],
+    "sources": [
+      [
+        "budapest-unesco",
+        "https://whc.unesco.org/en/list/400/"
+      ],
+      [
+        "budapest-parliament-tourism",
+        "https://visithungary.com/articles/parliament"
+      ]
+    ],
+    "related": [
+      "vienna",
+      "prague"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 2,
+    "status": "published",
+    "titles": {
+      "es": "Qué ver en Budapest: Parlamento y castillo de Buda",
+      "en": "What to see in Budapest: Parliament and Buda Castle"
+    },
+    "slugs": {
+      "es": "que-ver-en-budapest",
+      "en": "what-to-see-in-budapest"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "kuala-lumpur",
+    "city": {
+      "es": "Kuala Lumpur",
+      "en": "Kuala Lumpur"
+    },
+    "countryId": "my",
+    "country": {
+      "es": "Malasia",
+      "en": "Malaysia"
+    },
+    "continent": "asia",
+    "days": 2,
+    "intent": "two-complementary-highlights-first-visit-kuala-lumpur",
+    "places": [
+      [
+        "petronas",
+        "Torres Petronas",
+        "Petronas Twin Towers",
+        "intitle:Petronas Twin Towers"
+      ],
+      [
+        "batu",
+        "Cuevas de Batu",
+        "Batu Caves",
+        "intitle:Batu Caves Malaysia"
+      ]
+    ],
+    "sources": [
+      [
+        "kl-petronas-tourism",
+        "https://www.malaysia.travel/explore/petronas-twin-tower"
+      ],
+      [
+        "kl-batu",
+        "https://www.malaysia.travel/explore/batu-caves"
+      ]
+    ],
+    "related": [
+      "singapore",
+      "bangkok"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 2,
+    "status": "published",
+    "titles": {
+      "es": "Qué ver en Kuala Lumpur: Petronas y Batu Caves",
+      "en": "What to see in Kuala Lumpur: Petronas and Batu Caves"
+    },
+    "slugs": {
+      "es": "que-ver-en-kuala-lumpur",
+      "en": "what-to-see-in-kuala-lumpur"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "ottawa",
+    "city": {
+      "es": "Ottawa",
+      "en": "Ottawa"
+    },
+    "countryId": "ca",
+    "country": {
+      "es": "Canadá",
+      "en": "Canada"
+    },
+    "continent": "america",
+    "days": 2,
+    "intent": "two-complementary-highlights-first-visit-ottawa",
+    "places": [
+      [
+        "canal",
+        "Canal Rideau",
+        "Rideau Canal",
+        "intitle:Rideau Canal Ottawa"
+      ],
+      [
+        "gallery",
+        "Galería Nacional de Canadá",
+        "National Gallery of Canada",
+        "\"National Gallery of Canada\" building"
+      ]
+    ],
+    "sources": [
+      [
+        "ottawa-canal",
+        "https://parks.canada.ca/lhn-nhs/on/rideau"
+      ],
+      [
+        "ottawa-gallery-tourism",
+        "https://ottawatourism.ca/en/see-and-do/national-gallery-canada"
+      ]
+    ],
+    "related": [
+      "quebec",
+      "vancouver"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 2,
+    "status": "published",
+    "titles": {
+      "es": "Qué ver en Ottawa: canal Rideau y Galería Nacional",
+      "en": "What to see in Ottawa: Rideau Canal and National Gallery"
+    },
+    "slugs": {
+      "es": "que-ver-en-ottawa",
+      "en": "what-to-see-in-ottawa"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
   }
 ]

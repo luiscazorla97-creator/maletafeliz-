@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-10-31T17:45:22.882Z",
+  "verifiedAt": "2026-10-31T17:57:49.912Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
   "originals": 65,
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "fc32550c-6fc6-4605-938d-a28a4321910a",
-      "commit": "24a86cef4d522fbc0c4b272bec746b764e1ee6ad",
+      "deploymentId": "1617c6cd-e36a-4a80-8344-3d9eed237bc0",
+      "commit": "683c1e105687c7c7e299b8f4053fb306f6086205",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "cd6756bc-769c-4e11-91a3-2bfb7ba91aa5",
-      "commit": "24a86cef4d522fbc0c4b272bec746b764e1ee6ad",
+      "deploymentId": "a604dd59-0a8d-4246-a1c8-1f333589c237",
+      "commit": "683c1e105687c7c7e299b8f4053fb306f6086205",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -47,13 +47,13 @@
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
   "citedSourceDocuments": 313,
   "latestBatch": "2026-10-31",
-  "verificationFile": "editorial/verification/2026-10-31-leaderboard.json",
+  "verificationFile": "editorial/verification/2026-10-31-no-popunder.json",
   "httpCheckBreakdown": {
     "siteAndRedirects": 138,
-    "leaderboardIntegrationAndCss": 20
+    "popunderRemovalBannersAndCss": 20
   },
-  "latestDeploymentVerification": "editorial/verification/2026-10-31-leaderboard.json",
-  "latestDeploymentVerifiedAt": "2026-10-31T17:45:22.882Z",
+  "latestDeploymentVerification": "editorial/verification/2026-10-31-no-popunder.json",
+  "latestDeploymentVerifiedAt": "2026-10-31T17:57:49.912Z",
   "photoCoverage": {
     "originalRecommendations": 375,
     "localizedRecommendations": 750,
@@ -65,7 +65,7 @@
     "adsTxtVerified": true,
     "googleApprovalVerified": false,
     "adsterraRemoved": false,
-    "popunderPolicyConflict": true
+    "popunderPolicyConflict": false
   },
   "analytics": {
     "measurementId": "G-RQKZL13K0Z",
@@ -92,10 +92,11 @@
       "creativeDeliveryVerified": false
     },
     "popunder": {
-      "enabled": true,
-      "initialization": "once after a trusted primary click in editorial content",
-      "integrationVerified": true,
-      "realOpeningVerified": false
+      "enabled": false,
+      "initialization": "removed",
+      "removalVerified": true,
+      "disabledAt": "2026-10-31T17:57:49.912Z",
+      "verificationFile": "editorial/verification/2026-10-31-no-popunder.json"
     },
     "sideBanner": {
       "key": "1e5a2d407257849915d4433674f1978f",

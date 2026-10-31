@@ -95,6 +95,14 @@ Pasaron tipos, 33 pruebas unitarias, 10 de vista previa y 22 pruebas de producci
 
 Commit desplegado: `24a86cef4d522fbc0c4b272bec746b764e1ee6ad`. Los dos proyectos de Cloudflare finalizaron correctamente. Se comprobaron 158 respuestas públicas, incluidas todas las guías, las tres claves de banners, las exclusiones y los bytes del CSS desplegado. Evidencia: `editorial/verification/2026-10-31-leaderboard.json`.
 
+## Popunder desactivado: 31 de octubre de 2026
+
+Se eliminó el componente de popunder y su inclusión en el layout. El sitio ya no añade el proveedor abscloud.org/1/7a7683e73ba102718744e3df1c9fbe35 mediante clics en el contenido. No se instala el manejador de interacción que lo inicializaba. Se mantienen el horizontal superior de 728 × 90, el inferior de 300 × 250, los dos laterales de 160 × 600 y el bloque nativo inferior. Los textos de privacidad y cookies en español e inglés reflejan esta configuración y tienen nueva revisión técnica vinculada al hash del texto. No se afirma aprobación de AdSense.
+
+Pasaron tipos, 33 pruebas unitarias, 10 de vista previa y 22 de producción de publicidad y consentimiento. Las 392 páginas compiladas no contienen el dominio ni el cargador del popunder. Los clics reales y sintéticos del navegador no solicitaron ese proveedor ni abrieron ventanas; la navegación siguió en la misma pestaña. Los proveedores de banners se simularon, sin generar impresiones reales. Los formatos, tamaños, exclusiones legales y consentimiento de Analytics se conservaron.
+
+Commit publicado: `683c1e105687c7c7e299b8f4053fb306f6086205`. Ambos proyectos de Cloudflare completaron el despliegue. Se verificaron 158 respuestas públicas, incluidas todas las guías, las etiquetas de banners, las páginas legales, la ausencia del popunder y el CSS por sus bytes exactos. Evidencia: `editorial/verification/2026-10-31-no-popunder.json`. Una pestaña que estuviera abierta con el código anterior debe recargarse para retirarlo de ese documento.
+
 ## Operación y límites
 
 Cloudflare Pages utiliza GitHub/main: `maletafeliz-web` sirve la revista y `maletafeliz-www` la redirección. El flujo operativo activa la compilación mediante la API de Cloudflare después de subir el commit. La activación automática por cada push no está acreditada. La subida directa de assets con Wrangler encontró una incompatibilidad con el token temporal del proxy; se utiliza la integración Git oficial.

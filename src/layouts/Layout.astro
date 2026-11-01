@@ -4,6 +4,7 @@ import { dictionary, otherLocale, type Locale } from '../i18n';
 import { route } from '../lib/routes';
 import { absolute, production } from '../lib/site';
 import Icon from '../components/Icon.astro';
+import BrandLogo from '../components/BrandLogo.astro';
 import Advertisement from '../components/Advertisement.astro';
 import NativeAdvertisement from '../components/NativeAdvertisement.astro';
 import AnalyticsConsent from '../components/AnalyticsConsent.astro';
@@ -77,7 +78,9 @@ const links = [
         crossorigin="anonymous"
       ></script>
     )}
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-3d-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/brand/icon-3d-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon-3d.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="canonical" href={canonical} />
     {Object.entries(alternates).map(([language, path]) => (
@@ -115,11 +118,7 @@ const links = [
     <header class="site-header">
       <div class="shell header-inner">
         <a class="brand" href={`/${lang}/`} aria-label="MaletaFeliz">
-          <img src="/brand/logo.svg" width="46" height="46" alt="" />
-          <span>
-            Maleta<span>Feliz</span>
-            <span class="brand-dot">.</span>
-          </span>
+          <BrandLogo />
         </a>
         <nav aria-label={t.menu} class="desktop-nav">
           {links.map(([kind, label]) => (
@@ -188,11 +187,8 @@ const links = [
     <footer>
       <div class="shell footer-grid">
         <div>
-          <a class="brand brand-footer" href={`/${lang}/`}>
-            <img src="/brand/logo.svg" width="46" height="46" alt="" />
-            <span>
-              Maleta<span>Feliz</span>.
-            </span>
+          <a class="brand brand-footer" href={`/${lang}/`} aria-label="MaletaFeliz">
+            <BrandLogo />
           </a>
           <h3>{t.footer}</h3>
           <p>{t.footerText}</p>

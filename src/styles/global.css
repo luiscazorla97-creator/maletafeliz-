@@ -1937,3 +1937,16 @@ h1, h2, h3 { font-family: var(--serif); letter-spacing: -.035em; }
 .site-header .desktop-nav a[aria-current] { color: #77eaf2; }
 .site-header .desktop-nav a[aria-current]:after { background: #22c4d2; }
 .site-header .mobile-menu nav { top: 100%; }
+
+/* Static 3D brand assets: preserve the header and navigation geometry. */
+.brand img.brand-logo-3d { width: 230px; height: auto; max-width: none; flex-shrink: 0; object-fit: contain; }
+.manifesto-mark img.brand-icon-3d { transform: none; }
+@media (max-width: 800px) {
+  .site-header .brand img.brand-logo-3d { width: 210px; }
+}
+@media (max-width: 540px) {
+  .site-header .brand img.brand-logo-3d { width: clamp(145px, 48vw, 190px); }
+}
+@media (min-width: 801px) and (max-width: 1100px) {
+  .site-header .brand img.brand-logo-3d { width: 190px; }
+}

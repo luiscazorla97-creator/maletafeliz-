@@ -6,9 +6,9 @@ Verificado el 31 de octubre de 2026 en America/New_York. Especificación vigente
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 65 guías originales y 130 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 313 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 377 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 75 guías originales y 150 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 346 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 407 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
@@ -103,12 +103,22 @@ Pasaron tipos, 33 pruebas unitarias, 10 de vista previa y 22 de producción de p
 
 Commit publicado: `683c1e105687c7c7e299b8f4053fb306f6086205`. Ambos proyectos de Cloudflare completaron el despliegue. Se verificaron 158 respuestas públicas, incluidas todas las guías, las etiquetas de banners, las páginas legales, la ausencia del popunder y el CSS por sus bytes exactos. Evidencia: `editorial/verification/2026-10-31-no-popunder.json`. Una pestaña que estuviera abierta con el código anterior debe recargarse para retirarlo de ese documento.
 
+## Diez guías adicionales solicitadas: 31 de octubre de 2026
+
+Publicadas Sevilla, Granada, Venecia, Lima, Cataratas del Iguazú, Salvador de Bahía, Hoi An, Pekín, Rabat y Perth. Son diez destinos nuevos frente a las 65 guías anteriores, veinte versiones originales completas y treinta fotografías documentales de lugares. Se consultaron 33 documentos oficiales; cada recomendación tiene su foto, descripción, ALT bilingüe, crédito, licencia específica y variantes WebP. La selección responde preguntas concretas de primera visita, reservas, transporte y ritmo; no se presenta como una clasificación por volumen de búsquedas. Se conservan los textos y fechas anteriores.
+
+Las búsquedas de Commons respetaron una respuesta HTTP 429 y su espera de 1.000 segundos. Se descartaron imágenes de Huallamarca para la sección de Pucllana y resultados de iglesias homónimas para San Marcos de Venecia. Las páginas de archivo y licencias se comprobaron individualmente, además de la revisión visual. La foto interior del Alcázar usa una descripción general prudente y no identifica un patio dudoso. La fuente sobre las cintas de Bonfim se leyó desde el contenido público oficial del editor ante un error de su plantilla. No se reutilizaron precios antiguos.
+
+Pasaron tipos sin errores, 33 pruebas unitarias, 10 de navegación de vista previa y 326 de producción, incluidas las 150 guías localizadas en móvil y escritorio. Ambas compilaciones generan 434 páginas HTML. Se conservan los banners existentes, el consentimiento de Analytics y la ausencia del popunder. Las pruebas simulan proveedores externos y no acreditan entrega de creatividades ni aprobación de AdSense.
+
+Commit de contenido: `6c898a1e6dcef6c31f404c63cb20aeff819b16b5`. Ambos proyectos de Cloudflare completaron el despliegue. Se verificaron 339 respuestas públicas, incluidas todas las guías, los nuevos destinos, países, búsqueda, sitemap y variantes fotográficas por SHA-256. Evidencia: `editorial/verification/2026-10-31-requested-ten.json`. El sitio suma 75 originales, 150 versiones y 405 lugares recomendados con fotografía.
+
 ## Operación y límites
 
 Cloudflare Pages utiliza GitHub/main: `maletafeliz-web` sirve la revista y `maletafeliz-www` la redirección. El flujo operativo activa la compilación mediante la API de Cloudflare después de subir el commit. La activación automática por cada push no está acreditada. La subida directa de assets con Wrangler encontró una incompatibilidad con el token temporal del proxy; se utiliza la integración Git oficial.
 
 El titular facilitó Luis Sebastian Cazorla Caruso, Argentina, luterapps@gmail.com. La revisión de textos legales es técnica y editorial, sin afirmar asesoría jurídica profesional. Search Console y afiliados requieren su configuración real. Analytics y el código de conexión de AdSense están instalados con los límites de verificación descritos arriba.
 
-No hay una tarea recurrente de redacción de Codex Cloud configurada ni probada, ni una lectura de porcentaje de cuota. Se mantiene el flujo manual `PUBLICAR 5 ARTÍCULOS` y el objetivo documentado de las 07:00 America/New_York. No se usan APIs de IA de pago, bases de datos ni automatizaciones ficticias.
+No hay una tarea recurrente de redacción de Codex Cloud configurada ni probada, ni una lectura de porcentaje de cuota. Se mantiene el flujo manual `PUBLICAR 5 ARTÍCULOS` y el objetivo documentado de las 00:00 America/New_York. No se usan APIs de IA de pago, bases de datos ni automatizaciones ficticias.
 
 Las verificaciones de tandas anteriores permanecen en `editorial/verification/2026-10-28.json` y `2026-10-29.json`. El estado `published` de un artículo selecciona contenido para compilar; únicamente el registro de verificación pública acredita que está en el dominio.

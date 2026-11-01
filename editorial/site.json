@@ -5,12 +5,17 @@
   "legalReviewedAt": "2026-10-31T17:44:53.109720Z",
   "automation": {
     "status": "manual-only",
-    "requestedLocalTime": "07:00",
+    "requestedLocalTime": "00:00",
     "timeZone": "America/New_York",
     "dailyTarget": 5,
     "paidAiApis": false,
     "cloudSchedulingVerified": false,
-    "quotaVisibility": "unavailable"
+    "quotaVisibility": "unavailable",
+    "scheduleStatus": "requested-not-configured",
+    "taskSpecification": "docs/DAILY-PUBLISHING.md",
+    "blockingReason": "No recurring cloud-task creation or scheduling tool is exposed in this Codex session.",
+    "cloudOptionReportedByOwner": true,
+    "activationVerified": false
   },
   "legalContentHash": "88365de6f9485337db03a74126aa952f6a3fba2e5b0c788b10c04bc05127fc0c",
   "legalReviewedBy": "Codex — factual and technical editorial review",

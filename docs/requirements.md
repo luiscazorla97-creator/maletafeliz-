@@ -424,7 +424,7 @@ Total objetivo:
 
 ### Horario
 
-7:00 AM, zona America/New_York.
+00:00 (medianoche), zona America/New_York. Actualizado por la solicitud posterior del titular de cinco artículos diarios a las 12 am.
 
 Quiero que investigues las capacidades reales de tareas programadas disponibles en mi cuenta de Codex.
 

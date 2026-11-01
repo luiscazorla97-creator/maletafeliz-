@@ -109,13 +109,13 @@ test('production homepage uses real images, credits and published search results
 }, info) => {
   await page.goto('/es/');
   await expect(page.locator('.preview-bar')).toHaveCount(0);
-  await expect(page.locator('.hero-picture img')).toBeVisible();
+  await expect(page.locator('.globe-card img').first()).toBeVisible();
   await expect(page.locator('.scenery')).toHaveCount(0);
   await expect(
     page.locator('footer a[href="/es/informacion/photography/"]'),
   ).toBeVisible();
   for (const photo of await page
-    .locator('.hero-picture img, .card-image img')
+    .locator('.globe-card img, .continent-photo img, .card-image img')
     .all()) {
     await photo.scrollIntoViewIfNeeded();
     await expect

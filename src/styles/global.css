@@ -1655,3 +1655,279 @@ footer {
 .photo-license-list p {
   font-size: 13px;
 }
+
+/* Explorer + Atlas: presentation only; advertising retains its own layout. */
+:root {
+  --ink: #112c3e;
+  --muted: #586b74;
+  --cream: #fcfaf6;
+  --line: #e3e7e3;
+  --teal: #087e83;
+  --coral: #d96c52;
+}
+h1, h2, h3 { font-family: var(--serif); letter-spacing: -.035em; }
+.site-header { border-bottom: 1px solid var(--line); }
+.brand > span > span:not(.brand-dot) { color: var(--teal); font-weight: 700; }
+.desktop-nav a:hover, .desktop-nav a[aria-current], .text-link { color: var(--teal); }
+.desktop-nav a[aria-current]:after { background: var(--teal); }
+.orange { color: var(--teal); }
+.button-dark { background: var(--ink); }
+.explorer-hero {
+  display: grid; grid-template-columns: 1fr 1fr; align-items: center;
+  gap: 15px; padding-block: 54px 42px; position: relative; isolation: isolate;
+}
+.explorer-copy { position: relative; z-index: 2; padding-block: 25px; }
+.atlas-eyebrow { color: var(--teal); font-size: 10px; letter-spacing: .19em; display: flex; align-items: center; gap: 12px; }
+.atlas-eyebrow > span { width: 25px; height: 1px; background: var(--teal); }
+.explorer-copy h1 { font-size: clamp(42px, 4.8vw, 72px); font-weight: 400; line-height: 1.04; margin: 26px 0 24px; max-width: 600px; }
+.explorer-copy h1 em { color: var(--teal); display: inline; font-weight: 400; }
+.coral-period { color: var(--coral); }
+.explorer-copy > p { max-width: 420px; color: var(--muted); font-size: 16px; line-height: 1.8; }
+.explorer-search { display: flex; align-items: center; gap: 14px; background: white; border: 1px solid #d8e1df; border-radius: 50px; padding: 8px 8px 8px 21px; margin-top: 29px; box-shadow: 0 8px 25px #17394909; max-width: 500px; }
+.explorer-search > svg { flex-shrink: 0; color: var(--teal); }
+.explorer-search input { width: 100%; min-width: 0; background: transparent; border: 0; color: var(--ink); font-size: 13px; padding-block: 12px; }
+.explorer-search input::placeholder { color: #637480; opacity: 1; }
+.explorer-search button { display: grid; place-items: center; width: 46px; height: 46px; flex-shrink: 0; border: 0; border-radius: 50%; background: var(--teal); color: #fff; transition: background .2s; }
+.explorer-search button:hover { background: #075c65; }
+.hero-suggestions { font-size: 10px; display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; color: var(--muted); }
+.hero-suggestions a { color: var(--ink); border-bottom: 1px solid #c4d3d0; padding-bottom: 3px; }
+.hero-suggestions a svg { display: inline; color: var(--teal); margin-left: 3px; }
+.explorer-promises { display: flex; gap: 23px; margin-top: 33px; font-size: 10px; }
+.explorer-promises > span { display: flex; align-items: center; gap: 9px; }
+.explorer-promises svg { color: var(--teal); }
+.travel-globe { position: relative; width: 100%; aspect-ratio: 1; min-width: 0; }
+.travel-globe:before { content: ''; position: absolute; inset: 2%; border-radius: 50%; background: radial-gradient(ellipse, #c4e4d744, #d0ebe322 55%, transparent 71%); z-index: -1; }
+.earth { width: 100%; height: 100%; }
+.globe-caption { position: absolute; top: 0; left: 23%; color: var(--teal); letter-spacing: .23em; font-size: 8px; }
+.globe-routes { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.globe-routes > path { stroke: #fdf6df; stroke-width: 1.5; stroke-dasharray: 4 5; opacity: .85; }
+.globe-routes circle { fill: #f7f9eb; stroke: #13888b; stroke-width: 2; }
+.travel-globe.is-visible:not(.is-paused) .globe-routes > path { animation: atlas-route 22s linear infinite; }
+@keyframes atlas-route { to { stroke-dashoffset: -180; } }
+.globe-card { position: absolute; width: 29%; background: #fff; border: 5px solid #fff; border-radius: 11px; box-shadow: 0 12px 26px #163d4d20; transition: transform .2s; }
+.globe-card:hover { transform: translateY(-5px); }
+.globe-card > img { width: 100%; aspect-ratio: 1.6; object-fit: cover; border-radius: 6px 6px 0 0; }
+.globe-card-copy { display: grid; grid-template-columns: 1fr auto; padding: 10px 6px 4px; }
+.globe-card-copy small { font-size: 7px; letter-spacing: .09em; text-transform: uppercase; grid-column: 1/-1; color: var(--teal); }
+.globe-card-copy strong { font: 20px/1.2 var(--serif); margin-top: 3px; }
+.globe-card-copy svg { align-self: center; color: var(--teal); }
+.globe-credit { display: block; color: #576a6d; font-size: 8px; line-height: 1.4; padding: 4px 6px 3px; overflow-wrap: anywhere; }
+.globe-card-0 { left: 0; top: 13%; transform: rotate(-5deg); }
+.globe-card-1 { right: 0; top: 35%; transform: rotate(5deg); }
+.globe-card-2 { left: 9%; bottom: 1%; transform: rotate(-3deg); }
+.atlas-note { position: absolute; right: 3%; bottom: 6%; color: var(--teal); font: italic 14px var(--serif); width: 110px; }
+.atlas-note > svg { display: block; margin-top: 5px; }
+.section { padding-block: 54px; }
+.explorer-hero + .section { border-top: 1px solid var(--line); }
+.section-heading .eyebrow { color: var(--teal); font-size: 9px; letter-spacing: .15em; }
+.section-heading h2 { margin-top: 13px; }
+.section-heading p { color: var(--muted); }
+.card-image, .large .card-image { border-radius: 12px; height: auto; aspect-ratio: 1.45; }
+.card-grid .card-image { height: auto; aspect-ratio: 1.3; }
+.destination-card { min-width: 0; }
+.destination-card .card-image { box-shadow: 0 5px 16px #153c4509; }
+.card-body h3 { font-size: 30px; }
+.card-body p { font-size: 13px; line-height: 1.7; color: var(--muted); }
+.country-tag { background: #fffef8ed; color: var(--ink); }
+.card-arrow { background: #fcfaf6ec; color: var(--teal); }
+.continent-band { background: #eef3ef; padding-block: 48px; }
+.continent-photo-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 15px; }
+.continent-photo { position: relative; border-radius: 12px; min-width: 0; display: flex; flex-direction: column; background: white; box-shadow: 0 4px 15px #173c4508; }
+.continent-photo > img { width: 100%; aspect-ratio: .85; object-fit: cover; border-radius: 12px 12px 0 0; }
+.continent-photo-copy { position: absolute; top: 0; left: 0; right: 0; aspect-ratio: .85; display: flex; flex-direction: column; justify-content: end; padding: 18px; color: white; border-radius: 12px 12px 0 0; background: linear-gradient(transparent 35%, #052b3bd9); }
+.continent-photo-copy small { font-size: 7px; letter-spacing: .2em; margin-bottom: 7px; }
+.continent-photo-copy strong { font: 27px var(--serif); }
+.continent-photo-copy svg { position: absolute; right: 12px; top: 15px; width: 25px; height: 25px; border: 1px solid #ffffffaa; border-radius: 50%; padding: 4px; }
+.continent-photo-credit { display: block; padding: 7px 9px; color: var(--muted); font-size: 8px; line-height: 1.5; overflow-wrap: anywhere; }
+.category-strip a { background: white; color: var(--ink); }
+.category-strip a > svg:first-child { color: var(--teal); }
+.category-strip a:hover { background: #edf4ef; }
+.manifesto { background: #edf3ed; border-radius: 16px; }
+.recent-list > a { display: flex; gap: 20px; align-items: center; font-family: var(--serif); font-size: 22px; }
+.recent-list > a > img { width: 100px; height: 75px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
+.recent-list > a > span { flex: 1; }
+.article-header { max-width: 840px; }
+.article-header h1 { font-family: var(--serif); }
+.article-header > p { font-size: 18px; line-height: 1.85; }
+.prose { font-size: 17px; line-height: 1.9; }
+.prose p { line-height: 1.95; }
+.prose h2 { line-height: 1.25; }
+.prose a { color: #086c77; }
+.toc { border-color: #a7cebf; }
+.toc a { font-size: 12px; }
+.page-heading h1, .destination-hero h1 { font-family: var(--serif); }
+.search-result { background: white; border-radius: 12px; }
+@media (max-width: 1100px) {
+ .explorer-copy h1 { font-size: 49px; }
+ .explorer-copy > p { font-size: 14px; }
+ .globe-card-copy strong { font-size: 16px; }
+ .globe-card-copy { padding: 6px 3px 2px; }
+ .continent-photo-grid { gap: 10px; }
+ .continent-photo-copy { padding: 12px; }
+ .continent-photo-copy strong { font-size: 23px; }
+}
+@media (max-width: 800px) {
+ .explorer-hero { grid-template-columns: 1fr; gap: 22px; padding-block: 35px; }
+ .explorer-copy { padding: 0; max-width: 600px; }
+ .explorer-copy h1 { font-size: clamp(45px, 8vw, 65px); }
+ .explorer-copy > p { font-size: 16px; }
+ .travel-globe { width: min(100%, 510px); margin-inline: auto; }
+ .globe-card-copy strong { font-size: 20px; }
+ .continent-photo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+ .continent-photo-copy strong { font-size: 26px; }
+ .featured-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+ .card-body h3 { font-size: 25px; }
+ .card-body p { font-size: 12px; }
+ .article-header > p { font-size: 16px; }
+ .prose { font-size: 16px; }
+}
+@media (max-width: 540px) {
+ .atlas-eyebrow { font-size: 8px; letter-spacing: .13em; }
+ .explorer-copy h1 { font-size: 46px; margin-block: 22px; }
+ .explorer-copy > p { font-size: 14px; }
+ .explorer-search { margin-top: 24px; gap: 10px; padding-left: 16px; }
+ .explorer-search button { width: 42px; height: 42px; }
+ .explorer-search input { font-size: 12px; }
+ .hero-suggestions { gap: 10px; line-height: 1.7; }
+ .hero-suggestions > span { width: 100%; }
+ .explorer-promises { gap: 20px; margin-top: 24px; font-size: 9px; }
+ .travel-globe { margin-top: 7px; }
+ .globe-caption { font-size: 6px; }
+ .globe-card { width: 30%; border-width: 3px; }
+ .globe-card-copy strong { font-size: 15px; }
+ .globe-card-copy small { font-size: 6px; }
+ .globe-credit { font-size: 7px; padding-inline: 3px; }
+ .atlas-note { display: none; }
+ .section { padding-block: 38px; }
+ .featured-grid { grid-template-columns: 1fr; gap: 26px; }
+ .card-body h3 { font-size: 29px; }
+ .continent-photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
+ .continent-photo-copy strong { font-size: 26px; }
+ .continent-photo-credit { font-size: 7px; }
+ .recent-list > a { gap: 12px; font-size: 18px; }
+ .recent-list > a > img { width: 75px; height: 65px; }
+ .article-header h1 { font-size: 36px; }
+}
+
+/* Atlas night: the homepage follows the supplied dark globe reference. */
+body:has(.explorer-hero) .site-header { background: #031727; color: #fff; border-color: #173444; }
+body:has(.explorer-hero) .header-inner { height: 80px; }
+body:has(.explorer-hero) .brand > span > span:not(.brand-dot) { color: #22c4d2; }
+body:has(.explorer-hero) .desktop-nav a:hover { color: #77eaf2; }
+body:has(.explorer-hero) .header-search { border-color: #325267; }
+body:has(.explorer-hero) .mobile-menu nav { background: #062133; }
+.explorer-hero {
+  width: 100%; max-width: none; margin: 0; padding: 58px max(38px, calc((100% - 1240px) / 2)) 42px;
+  min-height: 560px; grid-template-columns: 49% 51%; gap: 0;
+  color: #fff; background: #031727; overflow: hidden;
+}
+.explorer-hero:before { content: ''; position: absolute; inset: 0; z-index: -1; background: radial-gradient(ellipse at 58% 60%, #0f566870, transparent 50%), radial-gradient(ellipse at 90% 85%, #38658a55, transparent 35%); }
+.explorer-copy { z-index: 3; padding-block: 0; }
+.atlas-eyebrow { color: #63e8f0; font-size: 10px; letter-spacing: .36em; }
+.atlas-eyebrow > span { display: none; }
+.explorer-copy h1 { font-size: clamp(58px, 6.7vw, 100px); font-weight: 600; line-height: .91; margin: 24px 0 22px; letter-spacing: -.045em; }
+.explorer-copy h1 > span, .explorer-copy h1 em { display: block; }
+.explorer-copy h1 em { color: #6ee9f1; font-style: normal; font-weight: 600; }
+.explorer-copy > p { color: #c3d7e5; font-size: 19px; line-height: 1.5; max-width: 375px; }
+.explorer-search { position: relative; width: 600px; max-width: min(600px, calc(100vw - 76px)); padding: 6px 6px 6px 21px; margin-top: 30px; border: 1px solid #d5e9ed; gap: 12px; box-shadow: 0 6px 32px #00111c25; }
+.explorer-search > svg { color: #18324c; }
+.explorer-search input { flex: 1; width: 120px; padding-block: 12px; font-size: 13px; }
+.explorer-search select { border: 0; border-left: 1px solid #d4dce3; padding: 10px 12px; min-width: 0; width: 175px; color: #2b4260; background: white; font-size: 11px; }
+.explorer-search button { width: 46px; height: 46px; background: #0fa5b6; box-shadow: 0 0 0 4px #edffff; }
+.explorer-promises { gap: 24px; margin-top: 32px; color: #e5f4fc; font-size: 10px; line-height: 1.65; }
+.explorer-promises > span { gap: 10px; }
+.explorer-promises svg { color: #a7e8f1; flex-shrink: 0; }
+.travel-globe { position: absolute; width: min(900px, 69%); height: 670px; aspect-ratio: auto; right: -2%; top: -45px; z-index: 1; }
+.travel-globe:before { display: none; }
+.earth { width: 100%; height: 100%; object-fit: cover; object-position: center; max-width: none; mask-image: radial-gradient(ellipse 68% 70% at 53% 47%, black 58%, transparent 88%); }
+.globe-caption, .atlas-note { display: none; }
+.globe-routes { inset: 7% 12%; width: 76%; height: 86%; filter: drop-shadow(0 0 5px #27e9f5); }
+.globe-routes > path { stroke: #93f7ff; stroke-width: 1.3; stroke-dasharray: none; opacity: .8; }
+.globe-routes circle { fill: #efffff; stroke: #36cbdc; }
+.travel-globe.is-visible:not(.is-paused) .globe-routes > path { animation: atlas-glow 7s ease-in-out infinite; }
+@keyframes atlas-glow { 50% { opacity: .35; } }
+.globe-card { width: 178px; border: 1px solid #a6c9d2; background: #061729; border-radius: 9px; overflow: hidden; color: white; box-shadow: 0 10px 24px #0005; }
+.globe-card > img { aspect-ratio: 1.35; border-radius: 0; }
+.globe-card-copy { padding: 10px 12px 8px; background: linear-gradient(#092238,#04121e); }
+.globe-card-copy small { color: #d4edf7; font-size: 8px; grid-row: 2; margin-top: 4px; }
+.globe-card-copy strong { font-size: 22px; font-weight: 600; margin: 0; }
+.globe-card-copy svg { color: white; grid-column: 2; grid-row: 1 / 3; border: 1px solid #b2dce8; border-radius: 50%; padding: 5px; width: 28px; height: 28px; }
+.globe-credit { background: #04121e; color: #b9cddc; padding: 0 12px 8px; font-size: 7px; }
+.globe-card-0 { top: 8%; left: 17%; transform: none; }
+.globe-card-1 { top: 35%; right: 7%; transform: none; }
+.continent-band { background: #fcfaf8; padding-block: 34px 40px; }
+.continent-band .section-heading { align-items: center; margin-bottom: 22px; }
+.continent-band .section-heading .eyebrow, .continent-band .section-heading p { display: none; }
+.continent-band .section-heading h2 { margin: 0; font-size: 36px; font-weight: 600; }
+.continent-photo-grid { gap: 16px; }
+.continent-photo { background: #fff; }
+.continent-photo > img { aspect-ratio: 1; }
+.continent-photo-copy { aspect-ratio: 1; padding: 18px 16px; }
+.continent-photo-copy small { display: none; }
+.continent-photo-copy strong { font-size: 28px; font-weight: 600; }
+.continent-photo-copy svg { top: auto; bottom: 17px; right: 14px; width: 29px; height: 29px; }
+.continent-photo-credit { font-size: 8px; }
+@media (min-width: 1440px) {
+ .content-frame:has(> .advertisement-side[data-active='true']) .explorer-hero { min-height: 530px; padding-inline: 36px; }
+ .content-frame:has(> .advertisement-side[data-active='true']) .explorer-copy h1 { font-size: clamp(58px, 5.5vw, 86px); }
+ .content-frame:has(> .advertisement-side[data-active='true']) .explorer-search { width: 530px; }
+ .content-frame:has(> .advertisement-side[data-active='true']) .travel-globe { width: 76%; right: -9%; }
+ .content-frame:has(> .advertisement-side[data-active='true']) .globe-card-0 { left: 20%; }
+ .content-frame:has(> .advertisement-side[data-active='true']) .globe-card-1 { right: 14%; width: 150px; }
+}
+@media (max-width: 1100px) and (min-width: 801px) {
+ .explorer-hero { padding-inline: 28px; }
+ .explorer-copy h1 { font-size: 73px; }
+ .explorer-copy > p { font-size: 17px; max-width: 300px; }
+ .travel-globe { right: -12%; width: 78%; }
+ .globe-card { width: 145px; }
+ .globe-card-0 { left: 21%; }
+ .globe-card-1 { right: 17%; top: 39%; }
+ .explorer-promises { gap: 16px; font-size: 8px; }
+ .explorer-promises svg { width: 22px; }
+}
+@media (max-width: 800px) {
+ body:has(.explorer-hero) .header-inner { height: 72px; }
+ .explorer-hero { display: flex; flex-direction: column; align-items: stretch; padding: 40px 28px 0; min-height: 0; gap: 0; }
+ .explorer-copy { max-width: none; }
+ .explorer-copy h1 { font-size: 80px; }
+ .explorer-copy > p { max-width: 380px; font-size: 17px; }
+ .explorer-search { max-width: 100%; width: 600px; }
+ .travel-globe { position: relative; width: min(700px, calc(100% + 56px)); height: 480px; right: auto; top: auto; margin: 10px -28px -10px; align-self: center; }
+ .earth { object-fit: cover; }
+ .globe-card { width: 155px; }
+ .globe-card-0 { top: 9%; left: 9%; }
+ .globe-card-1 { top: 34%; right: 6%; }
+ .continent-photo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+ .continent-band .section-heading h2 { font-size: 30px; }
+ .continent-band .section-heading > .text-link { font-size: 10px; }
+}
+@media (max-width: 540px) {
+ .explorer-hero { padding: 34px 20px 0; }
+ .explorer-copy h1 { font-size: 64px; margin-block: 23px; }
+ .atlas-eyebrow { font-size: 9px; }
+ .explorer-copy > p { font-size: 16px; max-width: 290px; }
+ .explorer-search { padding: 6px 6px 6px 12px; gap: 8px; margin-top: 26px; }
+ .explorer-search > svg { width: 18px; }
+ .explorer-search input { font-size: 11px; width: 75px; }
+ .explorer-search select { width: 100px; font-size: 9px; padding-inline: 6px; }
+ .explorer-search button { width: 36px; height: 36px; }
+ .explorer-search button svg { width: 20px; }
+ .explorer-promises { display: grid; grid-template-columns: 1fr 1fr; gap: 15px 18px; margin-top: 24px; font-size: 10px; }
+ .explorer-promises svg { width: 26px; }
+ .travel-globe { height: 365px; width: calc(100% + 40px); margin: 14px -20px 0; }
+ .globe-card { width: 118px; }
+ .globe-card > img { aspect-ratio: 1.5; }
+ .globe-card-copy { padding: 7px 8px 5px; }
+ .globe-card-copy strong { font-size: 19px; }
+ .globe-card-copy small { font-size: 7px; }
+ .globe-card-copy svg { width: 22px; height: 22px; padding: 4px; }
+ .globe-credit { font-size: 7px; padding: 0 8px 6px; }
+ .globe-card-0 { left: 5%; top: 5%; }
+ .globe-card-1 { right: 4%; top: 40%; }
+ .continent-photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
+ .continent-photo-copy strong { font-size: 26px; }
+ .continent-photo-copy svg { width: 25px; height: 25px; }
+ .continent-band .section-heading > .text-link { font-size: 0; margin-top: 0; }
+ .continent-band .section-heading h2 { font-size: 29px; }
+}

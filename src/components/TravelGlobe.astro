@@ -1,0 +1,35 @@
+---
+import type { Locale } from '../i18n';
+import { forLocale, photoFor, photoSrcSet, articlePath } from '../lib/content';
+import { destinations } from '../data/destinations';
+import Icon from './Icon.astro';
+const { lang } = Astro.props as { lang: Locale };
+const articles = forLocale(lang);
+const picks = ['lisbon', 'tokyo'].map(id => articles.find(a => a.destinationId === id)).filter(a => a && photoFor(a.coverImageId));
+---
+<div class="travel-globe">
+  <span class="globe-caption" aria-hidden="true">MALETAFELIZ · {lang === 'es' ? 'ATLAS DEL MUNDO' : 'WORLD ATLAS'}</span>
+  <img class="earth" src="/design/earth-atlas.webp" width="1536" height="1024" alt={lang === 'es' ? 'Globo terrestre ilustrado con Europa, África y América' : 'Illustrated globe showing Europe, Africa and the Americas'} />
+  <svg class="globe-routes" viewBox="0 0 600 600" fill="none" aria-hidden="true">
+    <path d="M105 225 Q245 78 330 175 Q485 130 500 325 M330 175 Q240 310 355 435" />
+    <g><circle cx="105" cy="225" r="5"/><circle cx="330" cy="175" r="5"/><circle cx="500" cy="325" r="5"/><circle cx="355" cy="435" r="5"/></g>
+  </svg>
+  {picks.map((a, i) => {
+    const photo = photoFor(a!.coverImageId)!;
+    const d = destinations.find(d => d.id === a!.destinationId)!;
+    return <a class={`globe-card globe-card-${i}`} href={articlePath(a!)}>
+      <img src={photo.src} srcset={photoSrcSet(photo)} sizes="160px" width={photo.width} height={photo.height} alt={photo.alt[lang]} loading={i === 0 ? 'eager' : 'lazy'} />
+      <span class="globe-card-copy"><small>{d.country[lang]}</small><strong>{d.city[lang]}</strong><Icon size={16}/></span>
+      <span class="globe-credit">{photo.credit} · {photo.license}</span>
+    </a>;
+  })}
+  <span class="atlas-note" aria-hidden="true">{lang === 'es' ? 'Un mundo de posibilidades' : 'A world of possibilities'} <Icon size={22}/></span>
+</div>
+<script>
+  const globe = document.querySelector('.travel-globe');
+  if (globe && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(([entry]) => globe.classList.toggle('is-visible', entry.isIntersecting));
+    observer.observe(globe);
+    document.addEventListener('visibilitychange', () => globe.classList.toggle('is-paused', document.hidden));
+  }
+</script>

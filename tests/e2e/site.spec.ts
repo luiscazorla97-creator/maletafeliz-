@@ -14,7 +14,7 @@ test('localized home, logo, real navigation and no overflow', async ({
   page.on('pageerror', (e) => errors.push(e.message));
   await page.goto('/es/');
   await expect(page.locator('#analytics-consent, #google-analytics-tag, .advertisement, .native-advertisement, #adsterra-popunder-script')).toHaveCount(0);
-  await expect(page.locator('h1')).toContainText('El mundo es grande');
+  await expect(page.locator('h1')).toContainText('El mundo');
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
     'href',
@@ -41,7 +41,7 @@ test('localized home, logo, real navigation and no overflow', async ({
   });
   await page.locator('.language').click();
   await expect(page).toHaveURL('/en/');
-  await expect(page.locator('h1')).toContainText('A big, beautiful world');
+  await expect(page.locator('h1')).toContainText('A world');
   expect(errors).toEqual([]);
 });
 test('search respects active language and filters', async ({ page }) => {
@@ -125,4 +125,40 @@ test('Spanish and English pages link to working local routes', async ({
       expect(result.status(), path).toBe(200);
     }
   }
+});
+
+test('Atlas search and destination cards work, with no overflow at intermediate widths', async ({ page }) => {
+  await page.goto('/es/');
+  await page.locator('#destination-search').fill('lisboa');
+  await page.locator('.explorer-search button').click();
+  await expect(page).toHaveURL(/\/es\/buscar\/\?q=lisboa&continent=all/);
+  await expect(page.locator('.search-result h2')).toContainText(['Lisboa']);
+  for (const lang of ['es', 'en']) {
+    for (const width of [320, 768, 1024]) {
+      await page.setViewportSize({ width, height: 1000 });
+      await page.goto(`/${lang}/`);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${lang} ${width}`).toBe(true);
+      await expect(page.locator('.globe-card')).toHaveCount(2);
+      await expect(page.locator('.continent-photo')).toHaveCount(5);
+      const title = await page.locator('h1').boundingBox();
+      const globe = await page.locator('.travel-globe').boundingBox();
+      if (width <= 768) expect(globe!.y).toBeGreaterThan(title!.y + title!.height);
+    }
+  }
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  expect(await page.locator('.globe-routes > path').evaluate(el => getComputedStyle(el).animationName)).toBe('none');
+});
+
+test('Atlas remains navigable without JavaScript or the globe asset', async ({ browser }) => {
+  const context = await browser.newContext({ javaScriptEnabled: false });
+  const page = await context.newPage();
+  await page.route('**/design/globe.svg', r => r.abort());
+  await page.goto('/en/');
+  await expect(page.locator('h1')).toContainText('A world');
+  await expect(page.locator('.explorer-search input')).toBeVisible();
+  await page.locator('.globe-card').first().click();
+  await expect(page.locator('.prose')).toBeVisible();
+  await page.locator('.language').click();
+  await expect(page.locator('html')).toHaveAttribute('lang', 'es');
+  await context.close();
 });

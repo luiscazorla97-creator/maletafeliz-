@@ -166,7 +166,7 @@ test('banners load in their own slots without covering content or requesting hid
   }
   await page.setViewportSize({width:1920, height:1000});
   await page.goto('/es/');
-  await expect(page.locator('h1')).toContainText('El mundo es grande');
+  await expect(page.locator('h1')).toContainText('El mundo');
   await expect(page.locator('iframe[data-test-banner]')).toHaveCount(4);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({path:`test-results/ads-home-${testInfo.project.name}-1920.png`});

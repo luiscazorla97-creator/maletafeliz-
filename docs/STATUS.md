@@ -6,9 +6,9 @@ Verificado el 31 de octubre de 2026 en America/New_York. Especificación vigente
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 75 guías originales y 150 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 346 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 407 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 80 guías originales y 160 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 367 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 422 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
@@ -112,6 +112,14 @@ Las búsquedas de Commons respetaron una respuesta HTTP 429 y su espera de 1.000
 Pasaron tipos sin errores, 33 pruebas unitarias, 10 de navegación de vista previa y 326 de producción, incluidas las 150 guías localizadas en móvil y escritorio. Ambas compilaciones generan 434 páginas HTML. Se conservan los banners existentes, el consentimiento de Analytics y la ausencia del popunder. Las pruebas simulan proveedores externos y no acreditan entrega de creatividades ni aprobación de AdSense.
 
 Commit de contenido: `6c898a1e6dcef6c31f404c63cb20aeff819b16b5`. Ambos proyectos de Cloudflare completaron el despliegue. Se verificaron 339 respuestas públicas, incluidas todas las guías, los nuevos destinos, países, búsqueda, sitemap y variantes fotográficas por SHA-256. Evidencia: `editorial/verification/2026-10-31-requested-ten.json`. El sitio suma 75 originales, 150 versiones y 405 lugares recomendados con fotografía.
+
+## Cinco guías publicadas: 1 de noviembre de 2026
+
+Publicadas Ushuaia, Florencia, Hanói, Túnez y Brisbane, con diez versiones completas en español e inglés y quince fotografías documentales nuevas. Cada uno de los tres lugares desarrollados por guía tiene su foto pertinente, licencia específica, atribución, ALT bilingüe y derivados responsivos. Las fuentes oficiales y las revisiones editoriales quedan registradas en el repositorio. No se inventan cifras de búsqueda ni se promete posicionamiento.
+
+Pasaron comprobación de tipos, 33 pruebas unitarias, 10 de navegación de vista previa y 346 de producción. La compilación genera 456 páginas HTML. Ambos proyectos de Cloudflare desplegaron el commit `53272f2b37ed78a2f82b806730a7c25e7e740e75`; 263 comprobaciones públicas verifican artículos, imágenes, descubrimiento, SEO y redirección www. Evidencia: `editorial/verification/2026-11-01-publication.json`. El sitio suma 80 guías originales, 160 versiones, 422 fotografías y 420 lugares recomendados con foto.
+
+Esta tanda fue solicitada manualmente; no acredita ejecución de la automatización diaria.
 
 ## Operación y límites
 

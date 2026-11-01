@@ -2,7 +2,7 @@
   "id": "2026-11-01",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-01T16:43:27.314Z",
-  "status": "selected-for-release",
+  "status": "published",
   "topicIds": [
     "ushuaia",
     "florence",
@@ -11,11 +11,14 @@
     "brisbane"
   ],
   "requestedCount": 5,
-  "publishedCount": 0,
+  "publishedCount": 5,
   "errors": [],
   "selectedAt": "2026-11-01T16:54:08.140Z",
   "selectedOriginals": 5,
   "selectedLocalizations": 10,
   "newPhotos": 15,
-  "sourceDocuments": 21
+  "sourceDocuments": 21,
+  "publishedAt": "2026-11-01T17:13:51.783Z",
+  "publicVerification": "editorial/verification/2026-11-01-publication.json",
+  "commit": "53272f2b37ed78a2f82b806730a7c25e7e740e75"
 }

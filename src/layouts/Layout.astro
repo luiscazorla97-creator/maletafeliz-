@@ -16,6 +16,7 @@ interface Props {
   image?: string;
   jsonLd?: unknown;
   showAdvertisement?: boolean;
+  advertisementAfterHero?: boolean;
 }
 const {
   lang,
@@ -26,6 +27,7 @@ const {
   image,
   jsonLd,
   showAdvertisement = true,
+  advertisementAfterHero = false,
 } = Astro.props;
 const t = dictionary[lang];
 const other = otherLocale(lang);
@@ -43,6 +45,26 @@ const links = [
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <slot name="head" />
+    <script is:inline>
+      (() => {
+        const remember = (lang) => {
+          try {
+            if (lang === 'es' || lang === 'en')
+              localStorage.setItem('maletafeliz-language', lang);
+          } catch {}
+        };
+        const lang = document.documentElement.lang;
+        if (location.pathname.startsWith('/' + lang + '/')) remember(lang);
+        // Save a manual switch before navigation, even on a slow connection.
+        document.addEventListener('click', (event) => {
+          const link = event.target instanceof Element
+            ? event.target.closest('a.language')
+            : null;
+          if (link) remember(link.getAttribute('lang'));
+        });
+      })();
+    </script>
     <title>{title} | MaletaFeliz</title>
     <meta name="description" content={description} />
     <meta name="theme-color" content="#f47835" />
@@ -156,7 +178,7 @@ const links = [
     <div class="content-frame">
       {showAdvertisement && <Advertisement lang={lang} placement="left" />}
       <main id="main">
-        {showAdvertisement && <Advertisement lang={lang} placement="top" />}
+        {showAdvertisement && !advertisementAfterHero && <Advertisement lang={lang} placement="top" />}
         <slot />
         {showAdvertisement && <Advertisement lang={lang} placement="bottom" />}
         {showAdvertisement && <NativeAdvertisement lang={lang} />}
@@ -238,12 +260,5 @@ const links = [
         </span>
       </div>
     </footer>
-    <script>
-      const lang = document.documentElement.lang;
-      try {
-        if (location.pathname.startsWith('/' + lang + '/'))
-          localStorage.setItem('maletafeliz-language', lang);
-      } catch {}
-    </script>
   </body>
 </html>

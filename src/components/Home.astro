@@ -7,7 +7,8 @@ import { forLocale, articlePath, photoFor, photoSrcSet } from '../lib/content';
 import Icon from './Icon.astro';
 import TravelGlobe from './TravelGlobe.astro';
 import Card from './DestinationCard.astro';
-const { lang } = Astro.props as { lang: Locale };
+import Advertisement from './Advertisement.astro';
+const { lang, showHeroAdvertisement = false } = Astro.props as { lang: Locale; showHeroAdvertisement?: boolean };
 const t = dictionary[lang];
 const articles = forLocale(lang);
 const available = destinations.filter((d) => articles.some((a) => a.destinationId === d.id));
@@ -44,6 +45,7 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
   </div>
   <TravelGlobe lang={lang}/>
 </section>
+{showHeroAdvertisement && <Advertisement lang={lang} placement="top" />}
 <section class="continent-band">
   <div class="shell">
     <div class="section-heading">

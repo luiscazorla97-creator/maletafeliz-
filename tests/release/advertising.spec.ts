@@ -31,7 +31,7 @@ test('all production pages require Analytics consent and preserve advertising ex
   const files = readdirSync('dist', { recursive: true }).map(String).filter(path => path.endsWith('.html'));
   let excluded = 0;
   for (const path of files) {
-    const noAd = /^(es\/informacion|en\/information)\/(privacy|terms|cookies|photography)\/index\.html$/.test(path) || path === '404.html';
+    const noAd = /^(es\/informacion|en\/information)\/(privacy|terms|cookies|photography)\/index\.html$/.test(path) || path === '404.html' || path === 'index.html';
     const html = readFileSync(`dist/${path}`, 'utf8');
     expect(html.split(`src="${analyticsScript}"`).length - 1, path).toBe(0);
     expect(html.split('data-measurement-id="G-RQKZL13K0Z"').length - 1, path).toBe(1);
@@ -44,7 +44,7 @@ test('all production pages require Analytics consent and preserve advertising ex
     expect(html, path).not.toContain('adsterra-popunder-script');
     if (noAd) { expect(html, path).not.toContain('src="https://bauval.org/'); excluded++; }
   }
-  expect(excluded).toBe(9);
+  expect(excluded).toBe(10);
 });
 
 test('saved Analytics permission initializes once per page under the production CSP', async ({ page }) => {
@@ -168,6 +168,10 @@ test('banners load in their own slots without covering content or requesting hid
   await page.goto('/es/');
   await expect(page.locator('h1')).toContainText('El mundo');
   await expect(page.locator('iframe[data-test-banner]')).toHaveCount(4);
+  const homeHero = (await page.locator('.explorer-hero').boundingBox())!;
+  const homeBanner = (await page.locator('#advertisement-top').boundingBox())!;
+  expect(homeBanner.y).toBeGreaterThanOrEqual(homeHero.y + homeHero.height);
+  await expect(page.locator('#advertisement-top')).toHaveCount(1);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({path:`test-results/ads-home-${testInfo.project.name}-1920.png`});
   const callsBeforeResize = await page.evaluate(() => (window as any).__adCalls.length);

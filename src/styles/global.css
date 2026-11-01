@@ -1810,12 +1810,12 @@ h1, h2, h3 { font-family: var(--serif); letter-spacing: -.035em; }
 }
 
 /* Atlas night: the homepage follows the supplied dark globe reference. */
-body:has(.explorer-hero) .site-header { background: #031727; color: #fff; border-color: #173444; }
-body:has(.explorer-hero) .header-inner { height: 80px; }
-body:has(.explorer-hero) .brand > span > span:not(.brand-dot) { color: #22c4d2; }
-body:has(.explorer-hero) .desktop-nav a:hover { color: #77eaf2; }
-body:has(.explorer-hero) .header-search { border-color: #325267; }
-body:has(.explorer-hero) .mobile-menu nav { background: #062133; }
+.site-header { background: #031727; color: #fff; border-color: #173444; }
+.header-inner { height: 80px; }
+.site-header .brand > span > span:not(.brand-dot) { color: #22c4d2; }
+.desktop-nav a:hover { color: #77eaf2; }
+.header-search { border-color: #325267; }
+.mobile-menu nav { background: #062133; }
 .explorer-hero {
   width: 100%; max-width: none; margin: 0; padding: 58px max(38px, calc((100% - 1240px) / 2)) 42px;
   min-height: 560px; grid-template-columns: 49% 51%; gap: 0;
@@ -1887,7 +1887,7 @@ body:has(.explorer-hero) .mobile-menu nav { background: #062133; }
  .explorer-promises svg { width: 22px; }
 }
 @media (max-width: 800px) {
- body:has(.explorer-hero) .header-inner { height: 72px; }
+ .header-inner { height: 72px; }
  .explorer-hero { display: flex; flex-direction: column; align-items: stretch; padding: 40px 28px 0; min-height: 0; gap: 0; }
  .explorer-copy { max-width: none; }
  .explorer-copy h1 { font-size: 80px; }
@@ -1932,3 +1932,8 @@ body:has(.explorer-hero) .mobile-menu nav { background: #062133; }
  .continent-band .section-heading h2 { font-size: 29px; }
 }
 .continent-description { font-size: 8px; line-height: 1.65; letter-spacing: .1em; text-transform: uppercase; max-width: 83%; margin-top: 6px; }
+
+/* Keep active links readable on the shared navy header. */
+.site-header .desktop-nav a[aria-current] { color: #77eaf2; }
+.site-header .desktop-nav a[aria-current]:after { background: #22c4d2; }
+.site-header .mobile-menu nav { top: 100%; }

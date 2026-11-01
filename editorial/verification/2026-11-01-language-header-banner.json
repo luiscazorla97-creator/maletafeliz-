@@ -1,0 +1,147 @@
+{
+  "checkedAt": "2026-11-01T20:33:50.517018+00:00",
+  "deployedCommit": "e699129cef86cef9a13296dd7a28a142663a80ea",
+  "deployments": [
+    {
+      "project": "maletafeliz-web",
+      "expectedCommit": "e699129cef86cef9a13296dd7a28a142663a80ea",
+      "found": true,
+      "id": "0cb6aeda-f0b2-4cd3-b2d6-e8b8581a6b22",
+      "url": "https://0cb6aeda.maletafeliz-web.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-01T20:29:20.801184Z",
+        "ended_on": "2026-11-01T20:29:34.519913Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "status": "success"
+        }
+      ],
+      "commit": "e699129cef86cef9a13296dd7a28a142663a80ea"
+    },
+    {
+      "project": "maletafeliz-www",
+      "expectedCommit": "e699129cef86cef9a13296dd7a28a142663a80ea",
+      "found": true,
+      "id": "0b39a79a-be47-4707-a916-77f7d15c2183",
+      "url": "https://0b39a79a.maletafeliz-www.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-01T20:29:45.656641Z",
+        "ended_on": "2026-11-01T20:29:52.871441Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "status": "success"
+        }
+      ],
+      "commit": "e699129cef86cef9a13296dd7a28a142663a80ea"
+    }
+  ],
+  "browser": {
+    "checks": [
+      {
+        "locale": "es-AR",
+        "saved": null,
+        "width": 1536,
+        "detected": "es",
+        "chooserRemoved": true,
+        "bannerBelowGlobe": true,
+        "topRequestsOnEntry": 1,
+        "manualChoiceRemembered": true
+      },
+      {
+        "locale": "en-US",
+        "saved": null,
+        "width": 390,
+        "detected": "en",
+        "chooserRemoved": true,
+        "bannerBelowGlobe": true,
+        "topRequestsOnEntry": 1,
+        "manualChoiceRemembered": true
+      },
+      {
+        "locale": "fr-FR",
+        "saved": null,
+        "width": 768,
+        "detected": "es",
+        "chooserRemoved": true,
+        "bannerBelowGlobe": true,
+        "topRequestsOnEntry": 1,
+        "manualChoiceRemembered": true
+      },
+      {
+        "locale": "es-AR",
+        "saved": "en",
+        "width": 1280,
+        "detected": "en",
+        "chooserRemoved": true,
+        "bannerBelowGlobe": true,
+        "topRequestsOnEntry": 1,
+        "storedPreferenceRespected": true
+      },
+      {
+        "path": "/en/explore/europe/",
+        "navyHeader": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-lisboa/",
+        "navyHeader": true
+      },
+      {
+        "path": "/en/information/privacy/",
+        "navyHeader": true
+      },
+      {
+        "path": "/404.html",
+        "navyHeader": true
+      }
+    ],
+    "errors": []
+  },
+  "tests": {
+    "unit": 33,
+    "e2e": 28,
+    "production": 26
+  },
+  "sitemapUrls": 602,
+  "preserved": "Editorial content, translations, photographs and ad provider resources/identifiers unchanged. Homepage central banner moved after hero at user request; redirect entry requests no ads.",
+  "browserTransport": "Real HTTPS fetched through the managed Node proxy with TLS verification enabled and real CSP retained; third-party provider traffic blocked in QA."
+}

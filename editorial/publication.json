@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-10-31T17:57:49.912Z",
+  "verifiedAt": "2026-11-01T17:13:51.783Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 65,
-  "localizations": 130,
-  "photos": 377,
-  "httpChecks": 158,
+  "originals": 80,
+  "localizations": 160,
+  "photos": 422,
+  "httpChecks": 263,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "1617c6cd-e36a-4a80-8344-3d9eed237bc0",
-      "commit": "683c1e105687c7c7e299b8f4053fb306f6086205",
+      "deploymentId": "f1a3e090-1ae7-4265-8919-1e08efc91738",
+      "commit": "53272f2b37ed78a2f82b806730a7c25e7e740e75",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "a604dd59-0a8d-4246-a1c8-1f333589c237",
-      "commit": "683c1e105687c7c7e299b8f4053fb306f6086205",
+      "deploymentId": "7f9b9c68-9d41-49f0-8da8-64922b238dff",
+      "commit": "53272f2b37ed78a2f82b806730a7c25e7e740e75",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,18 +45,18 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 313,
-  "latestBatch": "2026-10-31",
-  "verificationFile": "editorial/verification/2026-10-31-no-popunder.json",
+  "citedSourceDocuments": 367,
+  "latestBatch": "2026-11-01",
+  "verificationFile": "editorial/verification/2026-11-01-publication.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 138,
-    "popunderRemovalBannersAndCss": 20
+    "siteAndRedirects": 168,
+    "newArticlesDiscoveryAndPhotographVariants": 95
   },
-  "latestDeploymentVerification": "editorial/verification/2026-10-31-no-popunder.json",
-  "latestDeploymentVerifiedAt": "2026-10-31T17:57:49.912Z",
+  "latestDeploymentVerification": "editorial/verification/2026-11-01-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-01T17:13:51.783Z",
   "photoCoverage": {
-    "originalRecommendations": 375,
-    "localizedRecommendations": 750,
+    "originalRecommendations": 420,
+    "localizedRecommendations": 840,
     "allPlacesHavePhotographs": true
   },
   "adsense": {

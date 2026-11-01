@@ -1,0 +1,1433 @@
+{
+  "id": "christmas-2026",
+  "createdAt": "2026-11-01T17:22:35.462Z",
+  "requestedOriginals": 40,
+  "languageDecision": "es-and-en",
+  "status": "selected-for-release-not-publicly-verified",
+  "selectionBasis": "Editorial candidates for Christmas travel searches; not a verified Google popularity ranking.",
+  "searchEvidence": {
+    "googleTrends": {
+      "url": "https://trends.google.com/trends/explore?date=today%205-y&q=Christmas%20markets",
+      "httpStatus": 429,
+      "usableRanking": false,
+      "note": "Access rate-limited; no ranking or volume data obtained. No bypass attempted."
+    }
+  },
+  "topics": [
+    {
+      "id": "christmas-new-york",
+      "cityId": "new-york",
+      "city": {
+        "es": "Nueva York",
+        "en": "New York"
+      },
+      "countryId": "us",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-nueva-york",
+        "en": "christmas-in-new-york"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Nueva York, mercados, luces, fechas y ruta",
+        "en": "Christmas in New York: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Rockefeller Center",
+        "Bryant Park",
+        "Central Park"
+      ],
+      "researchCandidates": [
+        "https://www.nyctourism.com/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-london",
+      "cityId": "london",
+      "city": {
+        "es": "Londres",
+        "en": "London"
+      },
+      "countryId": "gb",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-londres",
+        "en": "christmas-in-london"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Londres, mercados, luces, fechas y ruta",
+        "en": "Christmas in London: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Covent Garden",
+        "Regent Street",
+        "Hyde Park"
+      ],
+      "researchCandidates": [
+        "https://www.visitlondon.com/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.visitlondon.com/things-to-do/whats-on/christmas",
+          "https://www.visitlondon.com/things-to-do/place/51018879-christmas-lights-bus-tour"
+        ]
+      }
+    },
+    {
+      "id": "christmas-paris",
+      "cityId": "paris",
+      "city": {
+        "es": "París",
+        "en": "Paris"
+      },
+      "countryId": "fr",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-paris",
+        "en": "christmas-in-paris"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en París, mercados, luces, fechas y ruta",
+        "en": "Christmas in Paris: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Jardín de las Tullerías",
+        "Galeries Lafayette Haussmann",
+        "Champs-Élysées"
+      ],
+      "researchCandidates": [
+        "https://parisjetaime.com/eng/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-vienna",
+      "cityId": "vienna",
+      "city": {
+        "es": "Viena",
+        "en": "Vienna"
+      },
+      "countryId": "at",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-viena",
+        "en": "christmas-in-vienna"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Viena, mercados, luces, fechas y ruta",
+        "en": "Christmas in Vienna: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Rathausplatz",
+        "Schönbrunn",
+        "Belvedere"
+      ],
+      "researchCandidates": [
+        "https://www.wien.info/en/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.wien.info/en/now-on/christmas",
+          "https://www.wien.info/en/now-on/christmas/christmas-markets-342664"
+        ]
+      }
+    },
+    {
+      "id": "christmas-prague",
+      "cityId": "prague",
+      "city": {
+        "es": "Praga",
+        "en": "Prague"
+      },
+      "countryId": "cz",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-praga",
+        "en": "christmas-in-prague"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Praga, mercados, luces, fechas y ruta",
+        "en": "Christmas in Prague: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Plaza de la Ciudad Vieja",
+        "Plaza de Wenceslao",
+        "Castillo de Praga"
+      ],
+      "researchCandidates": [
+        "https://prague.eu/en/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://prague.eu/en/akce/old-town-square-christmas-market/"
+        ]
+      }
+    },
+    {
+      "id": "christmas-budapest",
+      "cityId": "budapest",
+      "city": {
+        "es": "Budapest",
+        "en": "Budapest"
+      },
+      "countryId": "hu",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-budapest",
+        "en": "christmas-in-budapest"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Budapest, mercados, luces, fechas y ruta",
+        "en": "Christmas in Budapest: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Plaza Vörösmarty",
+        "Basílica de San Esteban",
+        "Bastión de los Pescadores"
+      ],
+      "researchCandidates": [
+        "https://www.budapestinfo.hu/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-copenhagen",
+      "cityId": "copenhagen",
+      "city": {
+        "es": "Copenhague",
+        "en": "Copenhagen"
+      },
+      "countryId": "dk",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-copenhague",
+        "en": "christmas-in-copenhagen"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Copenhague, mercados, luces, fechas y ruta",
+        "en": "Christmas in Copenhagen: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Tivoli",
+        "Nyhavn",
+        "Kongens Nytorv"
+      ],
+      "researchCandidates": [
+        "https://www.visitcopenhagen.com/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-strasbourg",
+      "cityId": "strasbourg",
+      "city": {
+        "es": "Estrasburgo",
+        "en": "Strasbourg"
+      },
+      "countryId": "fr",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-estrasburgo",
+        "en": "christmas-in-strasbourg"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Estrasburgo, mercados, luces, fechas y ruta",
+        "en": "Christmas in Strasbourg: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Place Kléber",
+        "Plaza de la Catedral",
+        "Petite France"
+      ],
+      "researchCandidates": [
+        "https://noel.strasbourg.eu/en/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://noel.strasbourg.eu/en/useful-addresses-and-phone-numbers",
+          "https://noel.strasbourg.eu/en/contact",
+          "https://noel.strasbourg.eu/en/frequently-asked-questions",
+          "https://noel.strasbourg.eu/",
+          "https://noel.strasbourg.eu/en/markets",
+          "https://noel.strasbourg.eu/en/our-history",
+          "https://noel.strasbourg.eu/en/magazine",
+          "https://noel.strasbourg.eu/en/experiences"
+        ]
+      }
+    },
+    {
+      "id": "christmas-colmar",
+      "cityId": "colmar",
+      "city": {
+        "es": "Colmar",
+        "en": "Colmar"
+      },
+      "countryId": "fr",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-colmar",
+        "en": "christmas-in-colmar"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Colmar, mercados, luces, fechas y ruta",
+        "en": "Christmas in Colmar: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Place des Dominicains",
+        "Petite Venise",
+        "Place de l’Ancienne Douane"
+      ],
+      "researchCandidates": [
+        "https://www.noel-colmar.com/en/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.noel-colmar.com/en/",
+          "https://www.noel-colmar.com/en/colmar-the-magic-of-christmas",
+          "https://www.noel-colmar.com/en/colmar-the-magic-of-christmas/presentation/colmar-the-magic-of-christmas",
+          "https://www.noel-colmar.com/en/colmar-the-magic-of-christmas/presentation/colmar-the-magic-of-lights",
+          "https://www.noel-colmar.com/en/colmar-the-magic-of-christmas/presentation/six-christmas-markets",
+          "https://www.noel-colmar.com/en/colmar-the-magic-of-christmas/presentation/socialwall-your-images-on-instagram-and-twitter",
+          "https://www.noel-colmar.com/en/colmar-the-magic-of-christmas/presentation/gastronomic-specialities",
+          "https://www.noel-colmar.com/en/christmas-agenda"
+        ]
+      }
+    },
+    {
+      "id": "christmas-nuremberg",
+      "cityId": "nuremberg",
+      "city": {
+        "es": "Núremberg",
+        "en": "Nuremberg"
+      },
+      "countryId": "de",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-nuremberg",
+        "en": "christmas-in-nuremberg"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Núremberg, mercados, luces, fechas y ruta",
+        "en": "Christmas in Nuremberg: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Hauptmarkt",
+        "Hans-Sachs-Platz",
+        "Castillo Imperial"
+      ],
+      "researchCandidates": [
+        "https://www.christkindlesmarkt.de/en/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.christkindlesmarkt.de/en/christmas-market",
+          "https://www.christkindlesmarkt.de/en/christmas-market/opening-ceremony",
+          "https://www.christkindlesmarkt.de/en/christmas-market/explore-the-market",
+          "https://www.christkindlesmarkt.de/en/christmas-market/history-of-the-market",
+          "https://www.christkindlesmarkt.de/en/christmas-market/market-of-the-sister-cities",
+          "https://www.christkindlesmarkt.de/en/christmas-market/stagecoach",
+          "https://www.christkindlesmarkt.de/en/christmas-market/sustainability",
+          "https://www.christkindlesmarkt.de/en/christmas-market/the-nuremberg-christkindlesmarkt-1.8344730"
+        ]
+      }
+    },
+    {
+      "id": "christmas-dresden",
+      "cityId": "dresden",
+      "city": {
+        "es": "Dresde",
+        "en": "Dresden"
+      },
+      "countryId": "de",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-dresde",
+        "en": "christmas-in-dresden"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Dresde, mercados, luces, fechas y ruta",
+        "en": "Christmas in Dresden: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Altmarkt",
+        "Neumarkt",
+        "Stallhof"
+      ],
+      "researchCandidates": [
+        "https://striezelmarkt.dresden.de/en/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.visit-dresden-elbland.de/en/christmas/"
+        ]
+      }
+    },
+    {
+      "id": "christmas-berlin",
+      "cityId": "berlin",
+      "city": {
+        "es": "Berlín",
+        "en": "Berlin"
+      },
+      "countryId": "de",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-berlin",
+        "en": "christmas-in-berlin"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Berlín, mercados, luces, fechas y ruta",
+        "en": "Christmas in Berlin: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Gendarmenmarkt",
+        "Charlottenburg",
+        "Alexanderplatz"
+      ],
+      "researchCandidates": [
+        "https://www.visitberlin.de/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.visitberlin.de/en/christmas-berlin",
+          "https://www.visitberlin.de/en/node/2290328",
+          "https://www.visitberlin.de/en/tickets/christmas-garden-berlin-ticket",
+          "https://www.visitberlin.de/en/tickets/weihnachten-im-tierpark-ticket"
+        ]
+      }
+    },
+    {
+      "id": "christmas-munich",
+      "cityId": "munich",
+      "city": {
+        "es": "Múnich",
+        "en": "Munich"
+      },
+      "countryId": "de",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-munich",
+        "en": "christmas-in-munich"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Múnich, mercados, luces, fechas y ruta",
+        "en": "Christmas in Munich: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Marienplatz",
+        "Residenz",
+        "Theresienwiese"
+      ],
+      "researchCandidates": [
+        "https://www.muenchen.travel/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.muenchen.travel/rubriken/entdecken/maerkte-feste/weihnachten-in-muenchen",
+          "https://www.muenchen.travel/angebote/buchen/christkindlmarkt-tour-muenchen"
+        ]
+      }
+    },
+    {
+      "id": "christmas-cologne",
+      "cityId": "cologne",
+      "city": {
+        "es": "Colonia",
+        "en": "Cologne"
+      },
+      "countryId": "de",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-colonia",
+        "en": "christmas-in-cologne"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Colonia, mercados, luces, fechas y ruta",
+        "en": "Christmas in Cologne: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Plaza de la Catedral",
+        "Heumarkt",
+        "Alter Markt"
+      ],
+      "researchCandidates": [
+        "https://www.cologne-tourism.com/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.cologne-tourism.com/experiences-lifestyle/christmas"
+        ]
+      }
+    },
+    {
+      "id": "christmas-salzburg",
+      "cityId": "salzburg",
+      "city": {
+        "es": "Salzburgo",
+        "en": "Salzburg"
+      },
+      "countryId": "at",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-salzburgo",
+        "en": "christmas-in-salzburg"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Salzburgo, mercados, luces, fechas y ruta",
+        "en": "Christmas in Salzburg: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Domplatz y Residenzplatz",
+        "Hellbrunn",
+        "Mirabell"
+      ],
+      "researchCandidates": [
+        "https://www.salzburg.info/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-innsbruck",
+      "cityId": "innsbruck",
+      "city": {
+        "es": "Innsbruck",
+        "en": "Innsbruck"
+      },
+      "countryId": "at",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-innsbruck",
+        "en": "christmas-in-innsbruck"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Innsbruck, mercados, luces, fechas y ruta",
+        "en": "Christmas in Innsbruck: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Altstadt",
+        "Maria-Theresien-Strasse",
+        "Hungerburg"
+      ],
+      "researchCandidates": [
+        "https://www.innsbruck.info/en/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-rovaniemi",
+      "cityId": "rovaniemi",
+      "city": {
+        "es": "Rovaniemi",
+        "en": "Rovaniemi"
+      },
+      "countryId": "fi",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-rovaniemi",
+        "en": "christmas-in-rovaniemi"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Rovaniemi, mercados, luces, fechas y ruta",
+        "en": "Christmas in Rovaniemi: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Santa Claus Village",
+        "Arktikum",
+        "Ounasvaara"
+      ],
+      "researchCandidates": [
+        "https://www.visitrovaniemi.fi/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.visitrovaniemi.fi/love/santa-claus-magic-of-christmas/",
+          "https://www.visitrovaniemi.fi/seasons/christmas-time-in-rovaniemi/",
+          "https://www.visitrovaniemi.fi/seasons/christmas-time-in-rovaniemi/christmas-events/",
+          "https://www.visitrovaniemi.fi/eat-and-drink/christmas-house-restaurant-and-coffee-bar/"
+        ]
+      }
+    },
+    {
+      "id": "christmas-helsinki",
+      "cityId": "helsinki",
+      "city": {
+        "es": "Helsinki",
+        "en": "Helsinki"
+      },
+      "countryId": "fi",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-helsinki",
+        "en": "christmas-in-helsinki"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Helsinki, mercados, luces, fechas y ruta",
+        "en": "Christmas in Helsinki: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Plaza del Senado",
+        "Esplanadi",
+        "Suomenlinna"
+      ],
+      "researchCandidates": [
+        "https://www.myhelsinki.fi/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-tallinn",
+      "cityId": "tallinn",
+      "city": {
+        "es": "Tallin",
+        "en": "Tallinn"
+      },
+      "countryId": "ee",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-tallin",
+        "en": "christmas-in-tallinn"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Tallin, mercados, luces, fechas y ruta",
+        "en": "Christmas in Tallinn: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Plaza del Ayuntamiento",
+        "Toompea",
+        "Kadriorg"
+      ],
+      "researchCandidates": [
+        "https://www.visittallinn.ee/eng/visitor"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-stockholm",
+      "cityId": "stockholm",
+      "city": {
+        "es": "Estocolmo",
+        "en": "Stockholm"
+      },
+      "countryId": "se",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-estocolmo",
+        "en": "christmas-in-stockholm"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Estocolmo, mercados, luces, fechas y ruta",
+        "en": "Christmas in Stockholm: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Stortorget",
+        "Skansen",
+        "Kungsträdgården"
+      ],
+      "researchCandidates": [
+        "https://www.visitstockholm.com/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-bruges",
+      "cityId": "bruges",
+      "city": {
+        "es": "Brujas",
+        "en": "Bruges"
+      },
+      "countryId": "be",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-brujas",
+        "en": "christmas-in-bruges"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Brujas, mercados, luces, fechas y ruta",
+        "en": "Christmas in Bruges: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Markt",
+        "Simon Stevinplein",
+        "Minnewater"
+      ],
+      "researchCandidates": [
+        "https://www.visitbruges.be/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-brussels",
+      "cityId": "brussels",
+      "city": {
+        "es": "Bruselas",
+        "en": "Brussels"
+      },
+      "countryId": "be",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-bruselas",
+        "en": "christmas-in-brussels"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Bruselas, mercados, luces, fechas y ruta",
+        "en": "Christmas in Brussels: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Grand-Place",
+        "Place Sainte-Catherine",
+        "Marché aux Poissons"
+      ],
+      "researchCandidates": [
+        "https://www.visit.brussels/en/visitors"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 406,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-zurich",
+      "cityId": "zurich",
+      "city": {
+        "es": "Zúrich",
+        "en": "Zurich"
+      },
+      "countryId": "ch",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-zurich",
+        "en": "christmas-in-zurich"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Zúrich, mercados, luces, fechas y ruta",
+        "en": "Christmas in Zurich: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Sechseläutenplatz",
+        "Estación Central",
+        "Bahnhofstrasse"
+      ],
+      "researchCandidates": [
+        "https://www.zuerich.com/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-basel",
+      "cityId": "basel",
+      "city": {
+        "es": "Basilea",
+        "en": "Basel"
+      },
+      "countryId": "ch",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-basilea",
+        "en": "christmas-in-basel"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Basilea, mercados, luces, fechas y ruta",
+        "en": "Christmas in Basel: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Barfüsserplatz",
+        "Münsterplatz",
+        "Rheingasse"
+      ],
+      "researchCandidates": [
+        "https://www.basel.com/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.basel.com/en/events/christmas",
+          "https://www.basel.com/en/events/christmas/christmas-market"
+        ]
+      }
+    },
+    {
+      "id": "christmas-lucerne",
+      "cityId": "lucerne",
+      "city": {
+        "es": "Lucerna",
+        "en": "Lucerne"
+      },
+      "countryId": "ch",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-lucerna",
+        "en": "christmas-in-lucerne"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Lucerna, mercados, luces, fechas y ruta",
+        "en": "Christmas in Lucerne: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Franziskanerplatz",
+        "Europaplatz",
+        "Kapellbrücke"
+      ],
+      "researchCandidates": [
+        "https://www.luzern.com/en/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.luzern.com/en/event/rudolfs-christmas",
+          "https://www.luzern.com/en/event/bruchweihnachten",
+          "https://www.luzern.com/en/event/lucerne-christmas-market",
+          "https://www.luzern.com/en/event/christmas-tree-market"
+        ]
+      }
+    },
+    {
+      "id": "christmas-edinburgh",
+      "cityId": "edinburgh",
+      "city": {
+        "es": "Edimburgo",
+        "en": "Edinburgh"
+      },
+      "countryId": "gb",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-edimburgo",
+        "en": "christmas-in-edinburgh"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Edimburgo, mercados, luces, fechas y ruta",
+        "en": "Christmas in Edinburgh: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "East Princes Street Gardens",
+        "George Street",
+        "Royal Mile"
+      ],
+      "researchCandidates": [
+        "https://edinburgh.org/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://edinburgh.org/event/christmas-at-the-botanics/",
+          "https://edinburgh.org/event/hopetoun-house-christmas-shopping-fair/",
+          "https://edinburgh.org/event/christmas-wreath-workshop-on-fingal/",
+          "https://edinburgh.org/event/bananas-for-christmas/",
+          "https://edinburgh.org/festivals/edinburghs-christmas/"
+        ]
+      }
+    },
+    {
+      "id": "christmas-dublin",
+      "cityId": "dublin",
+      "city": {
+        "es": "Dublín",
+        "en": "Dublin"
+      },
+      "countryId": "ie",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-dublin",
+        "en": "christmas-in-dublin"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Dublín, mercados, luces, fechas y ruta",
+        "en": "Christmas in Dublin: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Dublin Castle",
+        "Grafton Street",
+        "Phoenix Park"
+      ],
+      "researchCandidates": [
+        "https://www.visitdublin.com/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-amsterdam",
+      "cityId": "amsterdam",
+      "city": {
+        "es": "Ámsterdam",
+        "en": "Amsterdam"
+      },
+      "countryId": "nl",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-amsterdam",
+        "en": "christmas-in-amsterdam"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Ámsterdam, mercados, luces, fechas y ruta",
+        "en": "Christmas in Amsterdam: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Museumplein",
+        "Canales del centro",
+        "De Dam"
+      ],
+      "researchCandidates": [
+        "https://www.iamsterdam.com/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-madrid",
+      "cityId": "madrid",
+      "city": {
+        "es": "Madrid",
+        "en": "Madrid"
+      },
+      "countryId": "es",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-madrid",
+        "en": "christmas-in-madrid"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Madrid, mercados, luces, fechas y ruta",
+        "en": "Christmas in Madrid: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Plaza Mayor",
+        "Puerta del Sol",
+        "Gran Vía"
+      ],
+      "researchCandidates": [
+        "https://www.esmadrid.com/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-barcelona",
+      "cityId": "barcelona",
+      "city": {
+        "es": "Barcelona",
+        "en": "Barcelona"
+      },
+      "countryId": "es",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-barcelona",
+        "en": "christmas-in-barcelona"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Barcelona, mercados, luces, fechas y ruta",
+        "en": "Christmas in Barcelona: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Catedral de Barcelona",
+        "Sagrada Familia",
+        "Sant Pau"
+      ],
+      "researchCandidates": [
+        "https://www.barcelonaturisme.com/wv3/en/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-vigo",
+      "cityId": "vigo",
+      "city": {
+        "es": "Vigo",
+        "en": "Vigo"
+      },
+      "countryId": "es",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-vigo",
+        "en": "christmas-in-vigo"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Vigo, mercados, luces, fechas y ruta",
+        "en": "Christmas in Vigo: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Porta do Sol",
+        "Policarpo Sanz",
+        "Alameda"
+      ],
+      "researchCandidates": [
+        "https://www.turismodevigo.org/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 503,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-malaga",
+      "cityId": "malaga",
+      "city": {
+        "es": "Málaga",
+        "en": "Malaga"
+      },
+      "countryId": "es",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-malaga",
+        "en": "christmas-in-malaga"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Málaga, mercados, luces, fechas y ruta",
+        "en": "Christmas in Malaga: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Calle Larios",
+        "Catedral de Málaga",
+        "Jardín de la Concepción"
+      ],
+      "researchCandidates": [
+        "https://visita.malaga.eu/en/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 405,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-seville",
+      "cityId": "seville",
+      "city": {
+        "es": "Sevilla",
+        "en": "Seville"
+      },
+      "countryId": "es",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-sevilla",
+        "en": "christmas-in-seville"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Sevilla, mercados, luces, fechas y ruta",
+        "en": "Christmas in Seville: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Plaza Nueva",
+        "Avenida de la Constitución",
+        "Plaza de España"
+      ],
+      "researchCandidates": [
+        "https://visitasevilla.es/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-rome",
+      "cityId": "rome",
+      "city": {
+        "es": "Roma",
+        "en": "Rome"
+      },
+      "countryId": "it",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-roma",
+        "en": "christmas-in-rome"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Roma, mercados, luces, fechas y ruta",
+        "en": "Christmas in Rome: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Piazza Navona",
+        "Plaza de San Pedro",
+        "Via del Corso"
+      ],
+      "researchCandidates": [
+        "https://www.turismoroma.it/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-florence",
+      "cityId": "florence",
+      "city": {
+        "es": "Florencia",
+        "en": "Florence"
+      },
+      "countryId": "it",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-florencia",
+        "en": "christmas-in-florence"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Florencia, mercados, luces, fechas y ruta",
+        "en": "Christmas in Florence: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Piazza Santa Croce",
+        "Piazza del Duomo",
+        "Ponte Vecchio"
+      ],
+      "researchCandidates": [
+        "https://www.feelflorence.it/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-milan",
+      "cityId": "milan",
+      "city": {
+        "es": "Milán",
+        "en": "Milan"
+      },
+      "countryId": "it",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-milan",
+        "en": "christmas-in-milan"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Milán, mercados, luces, fechas y ruta",
+        "en": "Christmas in Milan: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Piazza del Duomo",
+        "Castello Sforzesco",
+        "Galleria Vittorio Emanuele II"
+      ],
+      "researchCandidates": [
+        "https://www.yesmilano.it/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 403,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-quebec",
+      "cityId": "quebec",
+      "city": {
+        "es": "Quebec",
+        "en": "Quebec City"
+      },
+      "countryId": "ca",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-quebec",
+        "en": "christmas-in-quebec"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Quebec, mercados, luces, fechas y ruta",
+        "en": "Christmas in Quebec City: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Place de l’Hôtel-de-Ville",
+        "Petit-Champlain",
+        "Place D’Youville"
+      ],
+      "researchCandidates": [
+        "https://www.quebec-cite.com/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": [
+          "https://www.quebec-cite.com/en/what-to-do-quebec-city/christmas"
+        ]
+      }
+    },
+    {
+      "id": "christmas-montreal",
+      "cityId": "montreal",
+      "city": {
+        "es": "Montreal",
+        "en": "Montreal"
+      },
+      "countryId": "ca",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-montreal",
+        "en": "christmas-in-montreal"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Montreal, mercados, luces, fechas y ruta",
+        "en": "Christmas in Montreal: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Quartier des spectacles",
+        "Atwater Market",
+        "Vieux-Montréal"
+      ],
+      "researchCandidates": [
+        "https://www.mtl.org/en"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-chicago",
+      "cityId": "chicago",
+      "city": {
+        "es": "Chicago",
+        "en": "Chicago"
+      },
+      "countryId": "us",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-chicago",
+        "en": "christmas-in-chicago"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Chicago, mercados, luces, fechas y ruta",
+        "en": "Christmas in Chicago: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Daley Plaza",
+        "Millennium Park",
+        "Lincoln Park Zoo"
+      ],
+      "researchCandidates": [
+        "https://www.choosechicago.com/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    },
+    {
+      "id": "christmas-sydney",
+      "cityId": "sydney",
+      "city": {
+        "es": "Sídney",
+        "en": "Sydney"
+      },
+      "countryId": "au",
+      "topic": "christmas-city-trip",
+      "slugs": {
+        "es": "navidad-en-sidney",
+        "en": "christmas-in-sydney"
+      },
+      "searchIntent": {
+        "es": "Qué ver en Navidad en Sídney, mercados, luces, fechas y ruta",
+        "en": "Christmas in Sydney: markets, lights, dates and itinerary"
+      },
+      "candidatePlaces": [
+        "Martin Place",
+        "Queen Victoria Building",
+        "Darling Harbour"
+      ],
+      "researchCandidates": [
+        "https://www.sydney.com/"
+      ],
+      "status": "selected-for-release",
+      "verifiedSearchVolume": null,
+      "discovery": {
+        "httpStatus": 200,
+        "relatedCandidateLinks": []
+      }
+    }
+  ],
+  "researchDiscovery": {
+    "checkedAt": "2026-11-01T17:26:02.599Z",
+    "candidateSitesChecked": 40,
+    "successfulHttpResponses": 36,
+    "notes": "HTTP200 is not editorial verification. Pages and links saved locally for factual review.",
+    "unavailable": [
+      {
+        "id": "christmas-brussels",
+        "status": 406
+      },
+      {
+        "id": "christmas-malaga",
+        "status": 405
+      },
+      {
+        "id": "christmas-vigo",
+        "status": 503
+      },
+      {
+        "id": "christmas-milan",
+        "status": 403
+      }
+    ],
+    "seasonalPagesFetched": 14,
+    "initialFindings": [
+      {
+        "city": "Vienna",
+        "note": "Official tourism page explicitly lists 2026/2027 market dates; some opening-hour rows appear inconsistent, requiring operator cross-check."
+      },
+      {
+        "city": "Strasbourg",
+        "note": "Official market and practical pages explicitly announce27November–24December2026."
+      },
+      {
+        "city": "Colmar",
+        "note": "Official practical page announces23November–29December2026; shuttle and side-event dates need separate verification."
+      },
+      {
+        "city": "Prague",
+        "note": "Official tourism homepage lists OldTownSquare Christmas market28November2026–6January2027; event page also contains related-event dates, which must not be confused."
+      },
+      {
+        "city": "London",
+        "note": "Official2026Christmas overview confirms seasonal areas and warns of ChristmasDay transport closures; attraction-specific dates still need checking."
+      }
+    ],
+    "reviewedEvidenceFiles": [
+      "content/research/christmas-2026-colmar-markets.json",
+      "content/research/christmas-2026-colmar-practical.json",
+      "content/research/christmas-2026-london-christmas.json",
+      "content/research/christmas-2026-nuremberg-market.json",
+      "content/research/christmas-2026-strasbourg-markets.json",
+      "content/research/christmas-2026-vienna-markets.json"
+    ]
+  },
+  "workingDirectory": ".seasonal-drafts/christmas-2026/",
+  "publicationProgress": {
+    "originalsDrafted": 0,
+    "originalsPublished": 0,
+    "newPhotosApproved": 0
+  },
+  "selectedAt": "2026-11-01T18:12:31.656Z",
+  "selectedOriginals": 40,
+  "selectedLocalizations": 80,
+  "newImageEntries": 120,
+  "newUniquePhotographs": 108,
+  "sourceDocuments": 127
+}

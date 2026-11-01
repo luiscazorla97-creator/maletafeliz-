@@ -1,0 +1,166 @@
+{
+  "id": "ushuaia",
+  "destinationId": "ushuaia",
+  "intent": "ushuaia-first-visit-three-places-route",
+  "status": "published",
+  "coverImageId": "nov1-ushuaia-park",
+  "sources": [
+    {
+      "id": "nov1-ushuaia-park",
+      "url": "https://www.argentina.gob.ar/parquesnacionales/tierradelfuego",
+      "title": "Parque Nacional Tierra del Fuego — Administración de Parques Nacionales",
+      "accessedAt": "2026-11-01T16:44:03.159Z",
+      "evidenceFile": "content/research/nov1-ushuaia-park.json"
+    },
+    {
+      "id": "nov1-ushuaia-park-trails",
+      "url": "https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/parque-nacional-tierra-del-fuego/actividades",
+      "title": "Actividades y avisos del Parque Nacional Tierra del Fuego",
+      "accessedAt": "2026-11-01T16:44:37.899Z",
+      "evidenceFile": "content/research/nov1-ushuaia-park-trails.json"
+    },
+    {
+      "id": "nov1-ushuaia-beagle-official",
+      "url": "https://turismoushuaia.com/zonas/canal-beagle/?lang=es_AR",
+      "title": "Canal Beagle — Secretaría de Turismo de Ushuaia",
+      "accessedAt": "2026-11-01T16:44:30.630Z",
+      "evidenceFile": "content/research/nov1-ushuaia-beagle-official.json"
+    },
+    {
+      "id": "nov1-ushuaia-museum-maritime",
+      "url": "https://museomaritimo.com/es/museo-martimo-de-ushuaia-1",
+      "title": "Museo Marítimo de Ushuaia — colección e historia",
+      "accessedAt": "2026-11-01T16:44:24.848Z",
+      "evidenceFile": "content/research/nov1-ushuaia-museum-maritime.json"
+    },
+    {
+      "id": "nov1-ushuaia-museum-prison",
+      "url": "https://museomaritimo.com/es/museo-del-presidio-de-ushuaia",
+      "title": "Museo del Presidio de Ushuaia — historia de la cárcel",
+      "accessedAt": "2026-11-01T16:44:24.878Z",
+      "evidenceFile": "content/research/nov1-ushuaia-museum-prison.json"
+    }
+  ],
+  "relatedIds": [
+    "buenos-aires",
+    "iguazu"
+  ],
+  "locale": "es",
+  "slug": "que-ver-en-ushuaia",
+  "title": "Qué ver en Ushuaia en 3 días: parque, Beagle y antiguo presidio",
+  "description": "Organizá tres días en Ushuaia con el Parque Nacional Tierra del Fuego, el canal Beagle y el antiguo presidio: fotos, reservas y consejos para adaptar la ruta.",
+  "keyword": "qué ver en Ushuaia en 3 días",
+  "relatedQueries": [
+    "navegación canal Beagle qué incluye",
+    "Parque Nacional Tierra del Fuego senderos",
+    "Museo del Presidio de Ushuaia visita"
+  ],
+  "intro": [
+    "Ushuaia se disfruta mejor cuando el viaje deja margen para el tiempo y para entender el paisaje. Las montañas, los bosques y el canal Beagle no funcionan como una lista de atracciones que puedan encadenarse sin pensar en traslados. Esta guía organiza una primera visita alrededor de tres lugares complementarios: el Parque Nacional Tierra del Fuego, una navegación por el Beagle y el Museo Marítimo y del Presidio. La propuesta de tres días es orientativa; no presupone excursiones disponibles ni un pronóstico favorable.",
+    "La idea es combinar naturaleza, perspectiva desde el agua e historia local. Antes de comprar actividades, mirá las condiciones de cambio y decidí qué experiencia es prioritaria para vos. Una salida por el canal depende de su recorrido y de las condiciones de navegación; una caminata requiere verificar accesos; el museo permite dedicar tiempo a contenidos bajo techo. Esa diferencia ayuda a ordenar la estancia con más criterio que reservar todo de manera rígida."
+  ],
+  "quickFacts": [
+    {
+      "label": "Tiempo sugerido",
+      "value": "Tres días, con margen para cambios"
+    },
+    {
+      "label": "Recorrido",
+      "value": "Parque nacional, canal Beagle y antiguo presidio"
+    },
+    {
+      "label": "Clave para organizarte",
+      "value": "Confirmar accesos, salida y regreso antes de cada actividad"
+    }
+  ],
+  "sections": [
+    {
+      "id": "park",
+      "kind": "place",
+      "heading": "Parque Nacional Tierra del Fuego: elegir un recorrido que puedas disfrutar",
+      "imageId": "nov1-ushuaia-park",
+      "sourceIds": [
+        "nov1-ushuaia-park",
+        "nov1-ushuaia-park-trails"
+      ],
+      "paragraphs": [
+        "El Parque Nacional Tierra del Fuego protege el encuentro entre el bosque andino-patagónico, la cordillera y el mar. La Administración de Parques Nacionales presenta una red de senderos con distintas extensiones y dificultades. Por eso, visitar el parque no significa necesariamente hacer una caminata exigente: podés organizar una jornada de paisajes y recorridos breves o dedicar más tiempo a una senda adecuada a tu experiencia. La decisión debe tomarse antes de resolver el transporte, porque cambia cuánto tiempo necesitás dentro del área.",
+        "Las pasarelas de Bahía Lapataia permiten aproximarse al paisaje costero y ayudan a proteger sitios arqueológicos. La Ruta Nacional 3 llega hasta esa bahía, de modo que una visita con vehículo o excursión puede combinar paradas autorizadas y caminatas. No confundas la accesibilidad de unas pasarelas con la de todo el parque: consultá el tramo preciso si viajás con cochecito o necesitás una superficie adaptada, y confirmá cómo llegar desde el estacionamiento o punto de descenso.",
+        "Prestá especial atención a los avisos vigentes. La página oficial consultada mantiene advertencias de cierres invernales junto a temporadas orientativas de apertura. Por esa razón, el comienzo de noviembre no debe interpretarse como confirmación automática de que una senda esté habilitada. Consultá con el parque qué circuitos están abiertos el día de tu visita y si requieren registro de entrada y salida. No traspases una clausura porque otro itinerario publicado en Internet diga que el recorrido es habitual.",
+        "Llevá ropa que permita ajustar abrigo, protección para la lluvia y calzado adecuado al circuito elegido. Acordá el horario y punto de recogida si usás transporte contratado; sumar una caminata después de bajar del vehículo exige saber cómo vas a regresar. Reservá tiempo para observar el bosque y la costa sin salir de los espacios habilitados. La mejor jornada no es la que acumula más kilómetros, sino la que permite volver con margen y sin depender de una conexión improvisada."
+      ]
+    },
+    {
+      "id": "channel",
+      "kind": "place",
+      "heading": "Canal Beagle y Les Éclaireurs: entender qué navegación estás reservando",
+      "imageId": "nov1-ushuaia-channel",
+      "sourceIds": [
+        "nov1-ushuaia-beagle-official"
+      ],
+      "paragraphs": [
+        "El canal Beagle ofrece una perspectiva distinta de Ushuaia: la ciudad se observa junto a las montañas y el viaje continúa entre islas y espacios marítimos. Turismo Ushuaia describe salidas en catamaranes, yates y veleros, además de diferentes recorridos. Elegir solamente por la fotografía del barco puede llevar a una compra equivocada. Compará la ruta concreta, la duración prevista, las condiciones de embarque y los servicios incluidos; un nombre parecido no garantiza una excursión equivalente.",
+        "El faro Les Éclaireurs es uno de los motivos más reconocibles del canal, pero no es el Faro del Fin del Mundo. La oficina de turismo distingue expresamente ambos: el segundo está en la Isla de los Estados. Esta precisión importa al leer descripciones y al poner nombre a tus fotos. Si querés ver Les Éclaireurs, comprobá que figure en el itinerario contratado; no des por supuesto que todas las navegaciones pasan por el mismo sector.",
+        "También conviene separar la observación de fauna de una visita específica a una pingüinera. La información municipal presenta opciones diferentes, y una navegación que menciona aves o lobos marinos no implica que incluya pingüinos, desembarco o caminata. Preguntá qué aproximaciones están previstas y qué depende de las condiciones del día. Tratá cualquier encuentro con animales como una posibilidad en un ambiente natural, no como una escena asegurada para una fotografía.",
+        "Llegá con el margen que indique el operador y verificá dónde se realiza el registro, que no necesariamente coincide con el punto de embarque. Elegí abrigo apropiado para permanecer en cubierta y sujetá los objetos pequeños si hay viento. Escuchá al personal y respetá las áreas autorizadas del barco. Para organizar los tres días, intentá dejar una alternativa disponible si la salida cambia; reservarla en el último hueco antes del vuelo reduce mucho esa flexibilidad."
+      ]
+    },
+    {
+      "id": "museum",
+      "kind": "place",
+      "heading": "Museo Marítimo y del Presidio: mirar la historia más allá de las celdas",
+      "imageId": "nov1-ushuaia-museum",
+      "sourceIds": [
+        "nov1-ushuaia-museum-maritime",
+        "nov1-ushuaia-museum-prison"
+      ],
+      "paragraphs": [
+        "El Museo Marítimo y del Presidio funciona en el antiguo complejo penitenciario de Ushuaia. La visita reúne dos formas de comprender el destino: la relación de Tierra del Fuego con el mar y la historia de la cárcel. Conviene reservarle una parte sustancial del día, en vez de tratarlo como una parada rápida entre excursiones. El edificio y las colecciones requieren atención; recorrer pasillos sin leer las explicaciones deja fuera buena parte del sentido del lugar.",
+        "En el área marítima, las maquetas y modelos navales permiten seguir la evolución de las embarcaciones y la historia regional. El museo también presenta una reconstrucción de canoa yagán basada en información etnográfica e histórica. Es una oportunidad para reconocer que la vida del archipiélago no empieza con las expediciones europeas ni con el presidio. Leé las cartelas para diferenciar piezas originales, reconstrucciones y modelos: cada uno aporta información de una manera distinta.",
+        "La sección del presidio aborda la vida cotidiana, la disciplina y los trabajos de los internos. La institución menciona cartas, muebles, pinturas y elementos asociados al trabajo y al encierro, además de explicar la participación de los presos en servicios y obras urbanas. La cárcel cerró en 1947, según su historia oficial. Este contexto resulta más útil que concentrarse únicamente en los nombres de reclusos famosos o presentar el edificio como una atracción de terror.",
+        "Revisá horarios, entradas, propuestas guiadas e idiomas en la información del museo antes de ir; esta guía no presupone que una modalidad esté disponible todos los días. Si viajás con niños, adaptá la conversación al contenido y decidí qué salas recorrer. Para necesidades de accesibilidad, consultá las condiciones de los sectores concretos del edificio histórico. Puede ser una buena jornada interior cuando el tiempo dificulta otras actividades, siempre que su apertura se haya confirmado."
+      ]
+    },
+    {
+      "id": "planning",
+      "kind": "practical",
+      "heading": "Cómo repartir gastos, traslados y margen para el clima",
+      "sourceIds": [
+        "nov1-ushuaia-park-trails",
+        "nov1-ushuaia-beagle-official",
+        "nov1-ushuaia-museum-maritime"
+      ],
+      "paragraphs": [
+        "Armá el presupuesto separando alojamiento, transporte al parque, entrada al área protegida, navegación y museo. Una excursión puede incluir algunos conceptos y excluir otros, de modo que el precio anunciado no siempre representa el coste completo de la jornada. Compará las inclusiones por escrito y las condiciones de cambio antes de pagar. No hace falta comprar un paquete único si las actividades que realmente te interesan se organizan mejor por separado.",
+        "El auto puede facilitar una visita al parque, pero no reemplaza la reserva de una navegación ni define por sí solo la calidad del itinerario. Si preferís no conducir, consultá excursiones o traslados habilitados y verificá qué tiempo dejan para caminar. Para cualquiera de las opciones, pensá primero en el recorrido que querés realizar y después en el transporte que lo hace posible. Un servicio con paradas breves puede no servir para una caminata prolongada.",
+        "Consultá el pronóstico y los avisos de cada prestador cerca de la fecha, sin interpretar una captura antigua como información vigente. Guardá las confirmaciones y un contacto operativo de las reservas. La flexibilidad no consiste en salir sin plan: consiste en conocer qué puede cambiar, cuánto margen tenés y qué alternativa elegiste. Conservá especialmente un colchón de tiempo antes de conexiones o vuelos que no puedas mover."
+      ]
+    }
+  ],
+  "itinerary": [
+    "Día 1: dedicá la primera jornada disponible al Museo Marítimo y del Presidio, especialmente si llegás con cansancio. Identificá los puntos de encuentro de tus reservas y confirmá las condiciones de la navegación. Si el operador recomienda adelantar una salida por disponibilidad o condiciones, podés intercambiar el orden sin perder la lógica del viaje.",
+    "Día 2: visitá el Parque Nacional Tierra del Fuego con el recorrido ya elegido y los accesos confirmados. Combiná las paradas autorizadas con una caminata proporcionada al tiempo real que tendrás. El regreso debe estar acordado antes de empezar; no agregues otra senda solo porque su inicio parezca cerca.",
+    "Día 3: realizá la navegación por el Beagle si está confirmada, comprobando el itinerario hasta Les Éclaireurs y los horarios de presentación y regreso. Esta distribución es una propuesta, no una regla meteorológica. Si tu prioridad absoluta es navegar, reservá una salida anterior y dejá este día como margen dentro de las posibilidades del operador."
+  ],
+  "faq": [
+    {
+      "question": "¿Alcanzan tres días para conocer Ushuaia?",
+      "answer": "Tres días permiten esta primera aproximación al parque, el canal y la historia de la ciudad si los traslados y las salidas encajan. No equivalen a recorrer toda Tierra del Fuego. Si una actividad es esencial para vos, añadir margen puede ser más útil que intentar sumar varias excursiones distintas en la misma jornada."
+    },
+    {
+      "question": "¿Les Éclaireurs es el Faro del Fin del Mundo?",
+      "answer": "No. Turismo Ushuaia distingue Les Éclaireurs, en el canal Beagle, del Faro del Fin del Mundo situado en la Isla de los Estados. Revisá el nombre en el recorrido ofrecido para saber qué paisaje visitarás y evitar confundir una navegación habitual por el canal con un viaje diferente."
+    },
+    {
+      "question": "¿Se pueden hacer todas las sendas del parque en noviembre?",
+      "answer": "No debe darse por supuesto. La página de actividades consultada combina temporadas generales con avisos de cierres. Confirmá con el parque qué acceso está habilitado, qué recorrido se adapta a tu experiencia y si hay registro obligatorio. Una fecha orientativa de temporada no sustituye el aviso operativo del día."
+    },
+    {
+      "question": "¿Toda navegación por el Beagle incluye pingüinos?",
+      "answer": "No conviene asumirlo: la oferta municipal distingue recorridos y propuestas específicas de pingüinera. Verificá por escrito los sectores incluidos, las condiciones de observación y si existe desembarco. La presencia y el comportamiento de fauna silvestre no se pueden garantizar por el simple hecho de contratar una salida."
+    }
+  ],
+  "conclusion": "El valor de esta ruta está en combinar tres perspectivas de Ushuaia sin convertirlas en una carrera: el bosque y la costa del parque, la escala del canal y la memoria del antiguo presidio. Elegí actividades acordes a tu interés, verificá las condiciones vigentes y protegé el margen de regreso. Así la organización acompaña el viaje y permite disfrutarlo con mayor atención.",
+  "publishedAt": "2026-11-01T16:54:08.140Z",
+  "updatedAt": "2026-11-01T16:54:08.140Z"
+}

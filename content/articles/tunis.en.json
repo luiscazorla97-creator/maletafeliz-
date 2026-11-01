@@ -1,0 +1,149 @@
+{
+  "id": "tunis",
+  "destinationId": "tunis",
+  "intent": "tunis-first-visit-three-places-route",
+  "status": "published",
+  "coverImageId": "nov1-tunis-medina",
+  "sources": [
+    {
+      "id": "nov1-tunis-medina",
+      "url": "https://whc.unesco.org/en/list/36/",
+      "title": "Medina of Tunis — UNESCO World Heritage Centre",
+      "accessedAt": "2026-11-01T16:44:27.514Z",
+      "evidenceFile": "content/research/nov1-tunis-medina.json"
+    },
+    {
+      "id": "nov1-tunis-carthage",
+      "url": "https://whc.unesco.org/en/list/37/",
+      "title": "Archaeological Site of Carthage — UNESCO World Heritage Centre",
+      "accessedAt": "2026-11-01T16:44:27.223Z",
+      "evidenceFile": "content/research/nov1-tunis-carthage.json"
+    },
+    {
+      "id": "nov1-tunis-bardo-heritage",
+      "url": "https://www.patrimoinedetunisie.com.tn/en/museums/the-national-bardo-museum/",
+      "title": "The National Bardo Museum — Tunisian Heritage Agency (AMVPPC)",
+      "accessedAt": "2026-11-01T16:45:02.310Z",
+      "evidenceFile": "content/research/nov1-tunis-bardo-heritage.json"
+    }
+  ],
+  "relatedIds": [
+    "rabat",
+    "cairo"
+  ],
+  "locale": "en",
+  "slug": "what-to-see-in-tunis",
+  "title": "What to see in Tunis in 3 days: the medina, Bardo and Carthage",
+  "description": "Plan three days in Tunis with the medina, Bardo Museum and Carthage: real photographs, historical context, a flexible itinerary and practical visiting advice.",
+  "keyword": "what to see in Tunis in 3 days",
+  "relatedQueries": [
+    "visiting the Bardo Museum",
+    "how to plan a Carthage visit",
+    "Tunis medina first visit"
+  ],
+  "intro": [
+    "Tunis is Tunisia’s capital, and this guide focuses on the city and its immediate surroundings rather than a journey across the country. For a first stay, we suggest three days built around three places: the medina, the National Bardo Museum and the Archaeological Site of Carthage. They introduce different ways of understanding the destination: a living urban district, objects preserved in a museum, and the remains of an ancient Mediterranean metropolis.",
+    "The essential planning decision is to avoid treating these as neighbouring stops on a single walk. Giving each one a substantial block leaves room to look carefully and keeps transfers from overwhelming the day. Three days is an editorial suggestion, not an official visiting requirement. Subtract time needed for arrival and onward travel before finalising the itinerary, and check the relevant visitor arrangements for each attraction."
+  ],
+  "quickFacts": [
+    {
+      "label": "Geographic scope",
+      "value": "Tunis and Carthage, rather than all of Tunisia"
+    },
+    {
+      "label": "Suggested stay",
+      "value": "Three days with one main focus each day"
+    },
+    {
+      "label": "Experience",
+      "value": "Urban heritage, museum collections and outdoor archaeology"
+    }
+  ],
+  "sections": [
+    {
+      "id": "medina",
+      "kind": "place",
+      "heading": "The medina of Tunis: understand the city through its streets",
+      "sourceIds": [
+        "nov1-tunis-medina"
+      ],
+      "imageId": "nov1-tunis-medina",
+      "paragraphs": [
+        "The medina is much more than a succession of shops. UNESCO highlights its urban fabric and its palaces, mosques, madrasas, fountains and other historic structures, which reflect Tunis’s importance under different dynasties. Begin with an identifiable point of entry, such as the area around Bab Bhar, and save its location. Having a clear reference makes returning easier and allows you to follow an interesting street without immediately worrying about finding the exit.",
+        "Rather than trying to tick off every monument on a map, notice changes in street layout, facades and commercial activity. The area around the Zitouna Mosque provides a reference to one of the major landmarks named by UNESCO, but this suggested walk does not guarantee entry to its interior. Check the rules of any religious building separately: moving through a neighbourhood and entering a place of worship involve different conditions.",
+        "A guided walk can help identify periods and functions, particularly when you are interested in details that are easy to overlook while browsing shops. Agree on language, route, duration and total price before hiring a guide. If you prefer independent exploration, alternate short exploratory sections with known reference points. Deliberately getting lost is not a requirement for enjoying the medina; a manageable route can make it easier to pay attention.",
+        "This remains a place where people live and work. Ask before photographing individuals or a shop’s interior, leave narrow passages clear and distinguish public entrances from private homes. When buying something, establish its materials and price before agreeing. Travellers with specific mobility requirements should investigate an actual route: being able to reach a gate says little about surfaces, gradients or passage widths further inside the neighbourhood."
+      ]
+    },
+    {
+      "id": "bardo",
+      "kind": "place",
+      "heading": "The National Bardo Museum: read the mosaics and notice the palace",
+      "sourceIds": [
+        "nov1-tunis-bardo-heritage"
+      ],
+      "imageId": "nov1-tunis-bardo",
+      "paragraphs": [
+        "The Bardo adds context to a trip that could otherwise remain focused on facades and ruins. Tunisia’s heritage agency describes its historic building as a nineteenth-century royal palace, with collections covering periods from prehistory to modern times. The building is part of the experience. Look at its spaces and decoration where they form part of the permitted route, instead of concentrating entirely on finding one celebrated object.",
+        "Mosaics provide a useful theme for organising your visit. The official account describes mythology and beliefs, representations of the seasons, and daily activities including fishing, maritime trade and rural life. Choose two or three subjects that interest you, then compare how they appear in different works. Reading an object’s provenance and historical context gives a more useful understanding than taking photographs in numerous rooms without stopping for the interpretation.",
+        "The breadth of the collections does not create an obligation to inspect every display case. With children, looking for ships, animals or scenes of work can give a shorter visit a clear thread. Travellers interested in Mediterranean history can concentrate on materials and the places from which objects came. The institutional description also covers sculpture and Islamic collections, so mosaics are an introduction to the museum rather than its entire story.",
+        "Before setting out, check the responsible institution’s current information about opening, admission, entry procedures and accessible galleries. An object’s inclusion in a collection does not guarantee it is on display that day. Allow time for reaching the museum, entering and resting; avoid squeezing the Bardo between inflexible transport connections. If you require an accessible route, ask about the levels and facilities available during your visit as well as the outside entrance."
+      ]
+    },
+    {
+      "id": "carthage",
+      "kind": "place",
+      "heading": "Carthage: plan a visit to an archaeological site with several parts",
+      "sourceIds": [
+        "nov1-tunis-carthage"
+      ],
+      "imageId": "nov1-tunis-carthage",
+      "paragraphs": [
+        "Carthage requires a different approach to sightseeing. UNESCO presents an extensive archaeological property containing evidence of successive cultures and periods. Its history includes a Phoenician foundation and the development of a major Mediterranean trading power, followed later by a Roman city built on the earlier settlement. Do not automatically identify every visible wall as Punic, or expect to encounter an ancient city preserved in a single consistent form.",
+        "UNESCO names Byrsa Hill, the Punic ports and the Antonine baths among the property’s components. That list describes the heritage; it is not a visitor package promising immediate access to every area. For an initial visit, choose a main sector and a compatible second stop after checking access and travel between them. Seeing fewer areas with useful interpretation can be more rewarding than collecting photographs of remains whose functions are unclear.",
+        "Sketch out your route before arriving. Mark the intended entrances, your return point and appropriate breaks. Do not assume a single entrance, admission arrangement or transport stop solves the logistics of the whole site. If booking an excursion from Tunis, request its specific list of included areas and distinguish transfers, guiding and admission. A listing that says only Carthage can describe very different experiences and leave important details unresolved.",
+        "The outdoor setting makes the forecast, sun exposure and effort of moving between areas particularly relevant. Wear suitable footwear, carry water, respect closed sections and avoid climbing structures for a better photograph. Look at the relationship with the Gulf of Tunis as well: the coastal position helps explain the city’s commercial importance beyond an individual monument. Preserve enough time for the return journey instead of relying on an ideal connection after the final stop."
+      ]
+    },
+    {
+      "id": "planning",
+      "kind": "practical",
+      "heading": "Organise transfers and give each day a clear priority",
+      "sourceIds": [
+        "nov1-tunis-medina",
+        "nov1-tunis-bardo-heritage",
+        "nov1-tunis-carthage"
+      ],
+      "paragraphs": [
+        "The medina, the Bardo and Carthage should not be planned as one continuous walking circuit. Choose accommodation with your arrival luggage and daily return journeys in mind. Compare complete transport routes, including their final sections, rather than deciding from straight-line distances on a map. When using a taxi or a prearranged transfer, confirm the exact destination and service conditions before departing, particularly when visiting a place with several possible entrances.",
+        "Build a budget with accommodation, meals, transfers, admission and optional guiding as separate items. This guide does not fix prices or opening hours: those details may change and should be checked with the responsible organisations before travelling. Save addresses and reservations offline. When choosing dates, consider the forecast and current service arrangements; a museum and an outdoor archaeological visit respond differently to heat, rain and changes in operating hours."
+      ]
+    }
+  ],
+  "itinerary": [
+    "Day 1: devote the main part of the day to the medina. Identify an entrance and return point, break up the walk with pauses and allow time to eat without an immediate connection to another attraction. Match the extent of the route to your energy and confidence navigating.",
+    "Day 2: reserve a substantial block for the Bardo after checking visitor arrangements. Choose priority collections or themes and pay attention to the building itself. Keep the rest of the day flexible so a delay at the entrance does not turn the galleries into a hurried checklist.",
+    "Day 3: explore the Carthage areas you have selected and checked. Calculate the journey from Tunis, time spent understanding the remains and the return separately. If this is also your flight or onward travel day, shorten the programme and protect your transport margin."
+  ],
+  "faq": [
+    {
+      "question": "Does this guide cover Tunisia or only Tunis?",
+      "answer": "It focuses on the capital, the Bardo Museum and Carthage. It is not an itinerary covering the whole country. To include other regions or beach stays, add days and calculate those journeys as another stage of the trip rather than compressing them into these three days."
+    },
+    {
+      "question": "Can I see the medina, Bardo and Carthage in one day?",
+      "answer": "This guide suggests spreading them out because transfers and different forms of sightseeing take time. With only one day, select a main priority and a second stop only if conditions allow. A longer list does not guarantee a better visit or enough time to understand each place."
+    },
+    {
+      "question": "Is Carthage a single enclosed attraction?",
+      "answer": "UNESCO describes an extensive property with multiple components. Plan the particular sectors you want to visit and check entrances, admission and connections before departing. Do not assume all the remains stand together or that every excursion includes the same route and services."
+    },
+    {
+      "question": "Should I visit the Bardo before going to Carthage?",
+      "answer": "It can help: the collections introduce objects, scenes and historical contexts that enrich your understanding of archaeological remains. It is not a compulsory order. Arrange the days around the museum’s confirmed opening and the forecast for the outdoor portion of your trip."
+    }
+  ],
+  "conclusion": "A first stay in Tunis becomes more revealing when each place receives its own time. The medina introduces a living city, the Bardo brings together collections and architecture, and Carthage opens a window onto successive Mediterranean cultures. Three days with clear transfers and selected priorities make a more useful starting point than an itinerary filled with names and little space to explore.",
+  "publishedAt": "2026-11-01T16:54:08.140Z",
+  "updatedAt": "2026-11-01T16:54:08.140Z"
+}

@@ -1,0 +1,166 @@
+{
+  "id": "florence",
+  "destinationId": "florence",
+  "intent": "florence-first-visit-three-places-route",
+  "status": "published",
+  "coverImageId": "nov1-florence-duomo",
+  "sources": [
+    {
+      "id": "nov1-florence-duomo",
+      "url": "https://duomo.firenze.it/en/discover/cathedral",
+      "title": "Opera di Santa Maria del Fiore: Cathedral",
+      "accessedAt": "2026-11-01T16:44:12.106Z",
+      "evidenceFile": "content/research/nov1-florence-duomo.json"
+    },
+    {
+      "id": "nov1-florence-dome",
+      "url": "https://duomo.firenze.it/en/discover/dome",
+      "title": "Opera di Santa Maria del Fiore: Brunelleschi Dome",
+      "accessedAt": "2026-11-01T16:44:12.112Z",
+      "evidenceFile": "content/research/nov1-florence-dome.json"
+    },
+    {
+      "id": "nov1-florence-uffizi",
+      "url": "https://www.uffizi.it/en/the-uffizi",
+      "title": "Uffizi Galleries: The Uffizi",
+      "accessedAt": "2026-11-01T16:44:11.807Z",
+      "evidenceFile": "content/research/nov1-florence-uffizi.json"
+    },
+    {
+      "id": "nov1-florence-bridge",
+      "url": "https://www.visittuscany.com/en/attractions/ponte-vecchio/",
+      "title": "Visit Tuscany: Ponte Vecchio",
+      "accessedAt": "2026-11-01T16:44:12.898Z",
+      "evidenceFile": "content/research/nov1-florence-bridge.json"
+    },
+    {
+      "id": "nov1-florence-unesco",
+      "url": "https://whc.unesco.org/en/list/174/",
+      "title": "UNESCO: Historic Centre of Florence",
+      "accessedAt": "2026-11-01T16:44:11.706Z",
+      "evidenceFile": "content/research/nov1-florence-unesco.json"
+    }
+  ],
+  "relatedIds": [
+    "rome",
+    "venice"
+  ],
+  "locale": "es",
+  "slug": "que-ver-en-florencia",
+  "title": "Qué ver en Florencia en 3 días: Duomo, Uffizi y Ponte Vecchio",
+  "description": "Organizá tu primera visita a Florencia con el Duomo, los Uffizi y Ponte Vecchio: reservas, recorrido a pie, fotos y un itinerario flexible de tres días.",
+  "keyword": "qué ver en Florencia en 3 días",
+  "relatedQueries": [
+    "entradas Duomo Florencia y cúpula",
+    "cómo visitar los Uffizi por primera vez",
+    "Ponte Vecchio recorrido a pie"
+  ],
+  "intro": [
+    "Florencia se disfruta mejor cuando sus grandes nombres dejan de competir por el mismo hueco en la agenda. Para una primera visita de tres días, esta guía reúne tres lugares que ayudan a entender la ciudad: Santa Maria del Fiore y su cúpula, la Galería Uffizi y Ponte Vecchio. Son experiencias distintas, entre arquitectura, pintura y paisaje urbano, que se pueden combinar a pie sin convertir cada jornada en una sucesión de reservas.",
+    "El centro histórico forma parte del Patrimonio Mundial de la UNESCO por una herencia artística y urbana extraordinaria. Eso no significa que debas entrar en todos los edificios para aprovechar el viaje. La propuesta concentra el presupuesto y la atención en estas tres visitas, deja margen para descansar y distingue lo que necesita una entrada de lo que puede recorrerse libremente. Los tres días son una recomendación de ritmo, no una duración obligatoria."
+  ],
+  "quickFacts": [
+    {
+      "label": "Tiempo sugerido",
+      "value": "Tres días, ajustables a las reservas y al ritmo del grupo"
+    },
+    {
+      "label": "Recorrido",
+      "value": "Tres lugares del centro histórico"
+    },
+    {
+      "label": "Planificación",
+      "value": "Comprobar cúpula y museo antes de cerrar el itinerario"
+    }
+  ],
+  "sections": [
+    {
+      "id": "duomo",
+      "kind": "place",
+      "heading": "Duomo de Florencia: separar la catedral de la subida a la cúpula",
+      "imageId": "nov1-florence-duomo",
+      "sourceIds": [
+        "nov1-florence-duomo",
+        "nov1-florence-dome"
+      ],
+      "paragraphs": [
+        "Santa Maria del Fiore es el punto de partida más claro para entender la escala de Florencia. Su construcción comenzó en 1296 y la consagración llegó en 1436, cuando la gran cúpula ya transformaba el perfil de la ciudad. Antes de entrar, dedicá tiempo a recorrer visualmente el exterior: la relación entre la fachada, los laterales y el volumen de la cúpula se percibe mejor desde varias posiciones que desde una única fotografía frontal.",
+        "La entrada a la catedral y la subida a la cúpula son experiencias diferentes. La Opera di Santa Maria del Fiore informa que el acceso a la catedral es gratuito y sin entrada; también advierte que el culto y las celebraciones condicionan las visitas turísticas. Consultá el calendario vigente y las indicaciones de acceso. Un pase comprado para otros monumentos no significa que todas las colas o todos los recorridos funcionen de la misma manera.",
+        "Para subir a la cúpula de Brunelleschi hace falta reservar una franja horaria. La web oficial describe un recorrido de 463 escalones, sin ascensor, que atraviesa el espacio entre sus dos estructuras. Elegí esta opción por interés en la arquitectura y la experiencia de ascenso, no como obligación para poder decir que conociste Florencia. Si las escaleras o los espacios estrechos no se adaptan a tu grupo, contemplarla desde abajo sigue siendo una visita valiosa.",
+        "Revisá las reglas de vestimenta y equipaje antes de salir del alojamiento. El operador exige dejar determinados bolsos en su consigna para la subida; llegar cargado puede alterar el margen previsto para la reserva. Dentro de la catedral, mantené una conducta adecuada a un lugar de culto. Después del recorrido, dejá una pausa sin horario fijo: el cansancio y la duración de los controles importan más que encajar enseguida otra entrada."
+      ]
+    },
+    {
+      "id": "uffizi",
+      "kind": "place",
+      "heading": "Galería Uffizi: elegir una visita que puedas disfrutar",
+      "imageId": "nov1-florence-uffizi",
+      "sourceIds": [
+        "nov1-florence-uffizi"
+      ],
+      "paragraphs": [
+        "Los Uffizi merecen una parte central del viaje si te interesa la pintura. La galería ocupa la primera y segunda planta del edificio diseñado por Giorgio Vasari y reúne obras medievales y renacentistas junto con otras colecciones. Su presentación oficial menciona a Botticelli, Leonardo, Miguel Ángel y muchos otros artistas; también destaca esculturas y bustos antiguos de la colección de los Médici. Mirar únicamente los cuadros más famosos deja fuera una parte importante de la experiencia.",
+        "Antes de comprar, decidí cuánto tiempo y atención querés dedicar al museo. Para una primera visita, resulta más manejable seleccionar algunos artistas o períodos y dejar espacio para descubrimientos que intentar detenerse ante cada obra. Al entrar, consultá el plano y las indicaciones de salas. La ubicación o disponibilidad de una pieza puede cambiar; una lista guardada en el teléfono sirve para orientarte, no garantiza encontrar cada obra expuesta ese día.",
+        "Organizá esta jornada alrededor de la entrada del museo, con tiempo para llegar al acceso indicado y completar los controles. La programación ordinaria publicada por los Uffizi incluye el cierre de los lunes, aunque puede haber aperturas especiales: verificá tu fecha concreta antes de repartir los tres días. Compará las modalidades de entrada en la web oficial y revisá qué incluyen. El Corredor Vasariano tiene condiciones de reserva propias; ver su nombre en una descripción no acredita que forme parte de cualquier visita.",
+        "Durante el recorrido, alterná salas de pintura con una mirada a los corredores y las esculturas. Si viajás en grupo, acordá qué obras interesan a cada persona y dónde reunirse si los ritmos se separan. Es preferible terminar con energía para recordar lo visto que prolongar la visita por obligación. Al salir, evitá una reserva inmediata en el Duomo: el museo puede ocupar más tiempo del previsto incluso sin intentar verlo todo."
+      ]
+    },
+    {
+      "id": "bridge",
+      "kind": "place",
+      "heading": "Ponte Vecchio: mirar el puente desde dentro y desde la ribera",
+      "imageId": "nov1-florence-bridge",
+      "sourceIds": [
+        "nov1-florence-bridge",
+        "nov1-florence-unesco"
+      ],
+      "paragraphs": [
+        "Ponte Vecchio conecta las dos orillas del Arno y ofrece una lectura de Florencia que no depende de entrar en un museo. Visit Tuscany explica que el puente actual fue reconstruido en 1345 con tres arcos. Sus tiendas y estructuras sobresalientes hacen que, al atravesarlo, por momentos parezca una calle comercial suspendida sobre el río. Para comprender su forma, combiná el cruce con una mirada desde la ribera, donde se reconoce mejor el conjunto.",
+        "La historia comercial del puente ayuda a interpretar lo que se ve. En sus tiendas hubo oficios vinculados a alimentos y otras actividades; en 1593, una orden de Fernando I favoreció el paso a joyeros y orfebres. El corredor elevado construido por Vasari en 1565 discurre sobre las tiendas del lado oriental. No hace falta memorizar todos los nombres: distinguir el paso público, los locales y la estructura superior ya permite mirar con más atención.",
+        "Recorré el puente sin detenerte en los puntos más estrechos para organizar fotos de grupo. Si hay mucha gente, seguí caminando y buscá un espacio adecuado fuera del flujo principal. La visita no necesita una compra ni una entrada a las tiendas; observar escaparates es opcional. Para fotografías del puente completo, elegí un punto de la ribera con visibilidad y espacio seguro, sin subirte a muros ni bloquear la circulación.",
+        "La luz cambia la relación entre el agua, las fachadas y el perfil del puente, pero no existe una hora que garantice tranquilidad. Podés acercarte después de los Uffizi o reservar el paseo para el tercer día, según el cansancio y el tiempo disponible. Si llueve, las superficies pueden resultar incómodas para caminar deprisa: un recorrido más lento sigue teniendo sentido. El valor de esta visita está en observar la ciudad funcionando alrededor del río, no en conseguir una fotografía idéntica a la de una postal."
+      ]
+    },
+    {
+      "id": "planning",
+      "kind": "practical",
+      "heading": "Reservas, equipaje y un ritmo razonable para el centro",
+      "sourceIds": [
+        "nov1-florence-duomo",
+        "nov1-florence-dome",
+        "nov1-florence-uffizi"
+      ],
+      "paragraphs": [
+        "Confirmá primero las visitas sujetas a disponibilidad y después distribuí el resto. Guardá las entradas, el acceso asignado y las condiciones del operador, además de una copia accesible sin conexión. La distancia entre dos lugares no equivale al tiempo necesario para pasar de una visita a otra: hay controles, posibles colas, descansos y desplazamientos dentro de los propios edificios. En un viaje corto, una reserva menos puede mejorar mucho la experiencia.",
+        "Para el presupuesto, separá alojamiento y comida de las entradas que realmente quieras utilizar. La catedral permite una aproximación gratuita al conjunto, mientras que la cúpula y el museo requieren revisar sus productos y condiciones. No compres una combinación solo por incluir más monumentos si no tendrás tiempo para visitarlos. Evitá cerrar una subida exigente junto a otra actividad que dependa de llegar puntual; también conviene consultar las opciones de accesibilidad directamente con cada institución.",
+        "En el centro, caminá con equipaje ligero y calzado que ya conozcas. Llevá agua y preveé pausas, especialmente cuando haya calor o el grupo incluya personas que necesiten un ritmo más tranquilo. Si tu llegada o salida coincide con una reserva, calculá primero el tiempo real del traslado desde tu alojamiento y dejá margen. Esta guía no fija tiempos universales de viaje: cambian según la base elegida y el transporte."
+      ]
+    }
+  ],
+  "itinerary": [
+    "Día 1: dedicá el bloque principal al Duomo. Si tenés reserva para la cúpula, organizá el resto alrededor de ese horario y de las reglas de equipaje. Si elegís únicamente la catedral y el exterior, aprovechá el margen para observar con calma y descansar; no es necesario convertir cada hora libre en otra visita.",
+    "Día 2: reservá la parte de mayor energía para los Uffizi. Al terminar, evaluá si querés acercarte a Ponte Vecchio o dejarlo para mañana. La secuencia puede invertirse si el museo no abre en tu fecha: la disponibilidad oficial manda sobre el orden sugerido de los días.",
+    "Día 3: recorré Ponte Vecchio y la ribera sin una entrada que marque cada minuto. Conservá un margen para volver al alojamiento, recoger equipaje y continuar el viaje. Si ya pasaste por el puente, una segunda mirada desde otra posición permite apreciar detalles que se pierden en un cruce rápido."
+  ],
+  "faq": [
+    {
+      "question": "¿Se puede visitar Florencia en un solo día?",
+      "answer": "Se puede hacer una primera aproximación, pero visitar por dentro el museo y la cúpula además de caminar exige una planificación ajustada. Elegí una visita principal con reserva y combiná el resto según el tiempo disponible. Esta propuesta de tres días busca evitar esa concentración."
+    },
+    {
+      "question": "¿Hace falta una entrada para la catedral de Florencia?",
+      "answer": "La Opera di Santa Maria del Fiore indica que la catedral tiene acceso gratuito y sin entrada. La subida a la cúpula es distinta y requiere una franja reservada. Comprobá las condiciones actuales y las restricciones por celebraciones antes de organizar el día."
+    },
+    {
+      "question": "¿Conviene reservar los Uffizi antes de viajar?",
+      "answer": "Conviene revisar la disponibilidad y las condiciones en la web oficial al planificar el viaje, sobre todo si tu calendario tiene poco margen. Elegí una modalidad que corresponda a lo que querés visitar y verificá la fecha, los accesos y los requisitos personales del billete."
+    },
+    {
+      "question": "¿Puedo seguir esta ruta sin subir a la cúpula?",
+      "answer": "Sí. La subida tiene 463 escalones y no cuenta con ascensor, según el operador. Podés centrar la visita en la catedral y su exterior, mantener los Uffizi y el paseo por Ponte Vecchio, y consultar directamente las condiciones de accesibilidad que necesite tu grupo."
+    }
+  ],
+  "conclusion": "Florencia ofrece mucho más de lo que cabe en un primer viaje, pero estos tres lugares construyen una ruta coherente: la escala del Duomo, la concentración artística de los Uffizi y el paisaje cotidiano del Arno en Ponte Vecchio. Reservá lo necesario, aceptá que no todo debe verse por dentro y dejá tiempo para observar. Si continuás por Italia, nuestras guías de Roma y Venecia permiten planificar etapas diferentes sin repetir el mismo ritmo.",
+  "publishedAt": "2026-11-01T16:54:08.140Z",
+  "updatedAt": "2026-11-01T16:54:08.140Z"
+}

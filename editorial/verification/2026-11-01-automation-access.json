@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-11-01T00:37:25.165Z",
+  "scope": "Current cloud chat only; scheduled chat access is not verified",
+  "cloudflare": [
+    {
+      "project": "maletafeliz-web",
+      "accessible": true,
+      "productionBranch": "main",
+      "sourceType": "github",
+      "lastDeploymentStatus": "success"
+    },
+    {
+      "project": "maletafeliz-www",
+      "accessible": true,
+      "productionBranch": "main",
+      "sourceType": "github",
+      "lastDeploymentStatus": "success"
+    }
+  ],
+  "scheduledChatReadable": false,
+  "scheduledTaskExecutionVerified": false,
+  "schedule": {
+    "observedInUserScreenshot": true,
+    "localTime": "09:00",
+    "timeZone": "America/New_York",
+    "frequency": "daily",
+    "ownerAcceptedTime": true,
+    "executionVerified": false
+  },
+  "limitations": [
+    "No recurring-task create/update tool is exposed",
+    "No desktop or browser interaction tool is exposed",
+    "read_thread returned: connection closed before server request was answered"
+  ]
+}

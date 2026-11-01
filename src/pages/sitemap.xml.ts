@@ -32,6 +32,11 @@ export const GET: APIRoute = () => {
         path: `/${lang}/`,
         alternates: locales.map((l) => ({ lang: l, path: `/${l}/` })),
       });
+      if (publishedArticles.some((a) => a.locale === lang && a.id.startsWith('christmas-')))
+        paths.push({
+          path: route(lang, 'christmas'),
+          alternates: locales.map((l) => ({ lang: l, path: route(l, 'christmas') })),
+        });
       for (const kind of ['destinations', 'guides', 'explore'] as const)
         paths.push({ path: route(lang, kind) });
       const active = destinations.filter((d) =>

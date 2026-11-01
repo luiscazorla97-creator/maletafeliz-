@@ -13,8 +13,29 @@ const articles = readdirSync('content/articles')
   .filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(readFileSync('content/articles/' + f, 'utf8')))
   .filter((a) => a.status === 'published');
+const photos = JSON.parse(readFileSync('content/images/manifest.json', 'utf8'));
 const pathFor = (a: any) =>
   `/${a.locale}/${a.locale === 'es' ? 'guias' : 'guides'}/${a.slug}/`;
+test('Christmas collection links every seasonal guide and its translation', async ({ page, request }) => {
+  const sitemap = await (await request.get('/sitemap.xml')).text();
+  for (const lang of ['es', 'en']) {
+    const seasonal = articles.filter((a) => a.locale === lang && a.id.startsWith('christmas-'));
+    expect(seasonal.length).toBeGreaterThanOrEqual(40);
+    const path = `/${lang}/${lang === 'es' ? 'navidad' : 'christmas'}/`;
+    await page.goto(`/${lang}/`);
+    await page.locator(`a[href="${path}"]`).first().click();
+    await expect(page).toHaveURL(path);
+    await expect(page.locator('h1')).toHaveCount(1);
+    await expect(page.locator('h1')).toContainText(String(seasonal.length));
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', `https://maletafeliz.com${path}`);
+    await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'index,follow,max-image-preview:large');
+    for (const a of seasonal) await expect(page.locator(`main a[href="${pathFor(a)}"]`)).toHaveCount(1);
+    expect(sitemap).toContain(`https://maletafeliz.com${path}`);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.locator('.language').click();
+    await expect(page).toHaveURL(lang === 'es' ? '/en/christmas/' : '/es/navidad/');
+  }
+});
 test('production contains the complete bilingual launch and sitemap', async ({
   request,
 }) => {
@@ -73,6 +94,9 @@ for (const article of articles) {
       await expect(
         page.locator(`.prose section[aria-labelledby="${place.id}"] figure img`),
       ).toHaveCount(1);
+      const photo = photos.find((p: any) => p.id === place.imageId);
+      if (photo?.attributionUrl)
+        await expect(page.locator(`.prose section[aria-labelledby="${place.id}"] figcaption a[href="${photo.attributionUrl}"]`)).toHaveCount(1);
     }
     for (const image of await page
       .locator('.article-cover img,.prose figure img')

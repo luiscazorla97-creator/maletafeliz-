@@ -424,7 +424,7 @@ Total objetivo:
 
 ### Horario
 
-7:00 AM, zona America/New_York.
+09:00, zona America/New_York. El titular aceptó después el horario de las 9:00 mostrado en su tarea diaria; sustituye la solicitud previa de medianoche.
 
 Quiero que investigues las capacidades reales de tareas programadas disponibles en mi cuenta de Codex.
 

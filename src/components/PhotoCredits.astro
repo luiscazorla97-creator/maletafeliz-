@@ -26,6 +26,9 @@ const { lang } = Astro.props as { lang: Locale };
         <a href={photo.licenseUrl} rel="license noopener noreferrer">
           {photo.license}
         </a>
+        {photo.attributionUrl && (
+          <span> · <a href={photo.attributionUrl} rel="noopener noreferrer">{lang === 'es' ? 'Web del autor' : 'Author’s website'}</a></span>
+        )}
       </p>
       <p>
         {lang === 'es'

@@ -28,8 +28,10 @@ Editar el JSON del artículo en GitHub o localmente, conservar el ID/slug cuando
 
 `editorial/activity.jsonl` conserva incidencias. Los informes muestran pendientes separados de seleccionados para compilación. La selección inicial contiene veinte originales, cuarenta versiones y cuarenta fotografías; el estado local no acredita una publicación en el dominio. Consultar `docs/STATUS.md` para la última verificación pública.
 
-## Programación solicitada: 07:00 America/New_York
+## Programación solicitada: 09:00 America/New_York
 
 No existe una herramienta de tareas recurrentes de Codex expuesta en esta sesión; tampoco una lectura del porcentaje de cuota. Esto no demuestra que la cuenta carezca de todas esas funciones, sino que aquí no pueden configurarse ni comprobarse. No hay cron oculto ni APIs de tokens. El flujo disponible es solicitar `PUBLICAR 5 ARTÍCULOS` en una nueva tarea con este repositorio y acceso a las fuentes.
 
-Si posteriormente la cuenta ofrece automatizaciones, confirmar primero que son **en la nube**, que acceden a este repositorio e Internet y utilizan la suscripción sin cobro externo. Configurar la zona IANA `America/New_York`, que ajusta horario de verano; no fijar simplemente 12:00 UTC. Ejecutar una tanda real, verificar commits, informes y publicación con el cliente cerrado antes de afirmar autonomía. Si solo se ofrecen automatizaciones locales, necesitan el equipo encendido y no cumplen el objetivo solicitado.
+El titular informa que su app ofrece automatizaciones **en la nube**. La creación no es accesible desde las herramientas de esta sesión. Al configurarla en la app, comprobar acceso a este repositorio e Internet y uso de la suscripción sin cobro externo. Configurar la zona IANA `America/New_York`, que ajusta horario de verano; no fijar simplemente 12:00 UTC. Ejecutar una tanda real, verificar commits, informes y publicación con el cliente cerrado antes de afirmar autonomía. Si solo se ofrecen automatizaciones locales, necesitan el equipo encendido y no cumplen el objetivo solicitado.
+
+El titular aceptó cinco originales diarios a las 09:00 America/New_York. La captura muestra una tarea programada, pero todavía no se ha verificado una ejecución con acceso al repositorio y a Cloudflare. El texto completo y la recurrencia están en [DAILY-PUBLISHING.md](DAILY-PUBLISHING.md). Esa especificación está preparada, pero no activa una tarea.

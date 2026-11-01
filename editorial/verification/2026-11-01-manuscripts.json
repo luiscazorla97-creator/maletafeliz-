@@ -1,0 +1,563 @@
+{
+  "selectedAt": "2026-11-01T16:54:08.140Z",
+  "status": "selected-for-build-not-publicly-verified",
+  "manuscripts": [
+    {
+      "id": "ushuaia",
+      "locale": "es",
+      "words": 1773,
+      "sources": [
+        "nov1-ushuaia-park",
+        "nov1-ushuaia-park-trails",
+        "nov1-ushuaia-beagle-official",
+        "nov1-ushuaia-museum-maritime",
+        "nov1-ushuaia-museum-prison"
+      ],
+      "imageIds": [
+        "nov1-ushuaia-park",
+        "nov1-ushuaia-channel",
+        "nov1-ushuaia-museum"
+      ]
+    },
+    {
+      "id": "ushuaia",
+      "locale": "en",
+      "words": 1808,
+      "sources": [
+        "nov1-ushuaia-park",
+        "nov1-ushuaia-park-trails",
+        "nov1-ushuaia-beagle-official",
+        "nov1-ushuaia-museum-maritime",
+        "nov1-ushuaia-museum-prison"
+      ],
+      "imageIds": [
+        "nov1-ushuaia-park",
+        "nov1-ushuaia-channel",
+        "nov1-ushuaia-museum"
+      ]
+    },
+    {
+      "id": "florence",
+      "locale": "es",
+      "words": 1739,
+      "sources": [
+        "nov1-florence-duomo",
+        "nov1-florence-dome",
+        "nov1-florence-uffizi",
+        "nov1-florence-bridge",
+        "nov1-florence-unesco"
+      ],
+      "imageIds": [
+        "nov1-florence-duomo",
+        "nov1-florence-uffizi",
+        "nov1-florence-bridge"
+      ]
+    },
+    {
+      "id": "florence",
+      "locale": "en",
+      "words": 1780,
+      "sources": [
+        "nov1-florence-duomo",
+        "nov1-florence-dome",
+        "nov1-florence-uffizi",
+        "nov1-florence-bridge",
+        "nov1-florence-unesco"
+      ],
+      "imageIds": [
+        "nov1-florence-duomo",
+        "nov1-florence-uffizi",
+        "nov1-florence-bridge"
+      ]
+    },
+    {
+      "id": "hanoi",
+      "locale": "es",
+      "words": 1650,
+      "sources": [
+        "nov1-hanoi-tourism",
+        "nov1-hanoi-temple",
+        "nov1-hanoi-history",
+        "nov1-hanoi-walks"
+      ],
+      "imageIds": [
+        "nov1-hanoi-old-quarter",
+        "nov1-hanoi-literature",
+        "nov1-hanoi-lake"
+      ]
+    },
+    {
+      "id": "hanoi",
+      "locale": "en",
+      "words": 1634,
+      "sources": [
+        "nov1-hanoi-tourism",
+        "nov1-hanoi-temple",
+        "nov1-hanoi-history",
+        "nov1-hanoi-walks"
+      ],
+      "imageIds": [
+        "nov1-hanoi-old-quarter",
+        "nov1-hanoi-literature",
+        "nov1-hanoi-lake"
+      ]
+    },
+    {
+      "id": "tunis",
+      "locale": "es",
+      "words": 1572,
+      "sources": [
+        "nov1-tunis-medina",
+        "nov1-tunis-carthage",
+        "nov1-tunis-bardo-heritage"
+      ],
+      "imageIds": [
+        "nov1-tunis-medina",
+        "nov1-tunis-bardo",
+        "nov1-tunis-carthage"
+      ]
+    },
+    {
+      "id": "tunis",
+      "locale": "en",
+      "words": 1566,
+      "sources": [
+        "nov1-tunis-medina",
+        "nov1-tunis-carthage",
+        "nov1-tunis-bardo-heritage"
+      ],
+      "imageIds": [
+        "nov1-tunis-medina",
+        "nov1-tunis-bardo",
+        "nov1-tunis-carthage"
+      ]
+    },
+    {
+      "id": "brisbane",
+      "locale": "es",
+      "words": 1548,
+      "sources": [
+        "nov1-brisbane-south-bank",
+        "nov1-brisbane-gardens",
+        "nov1-brisbane-lone-pine",
+        "nov1-brisbane-lone-pine-journey"
+      ],
+      "imageIds": [
+        "nov1-brisbane-south-bank",
+        "nov1-brisbane-gardens",
+        "nov1-brisbane-lone-pine"
+      ]
+    },
+    {
+      "id": "brisbane",
+      "locale": "en",
+      "words": 1593,
+      "sources": [
+        "nov1-brisbane-south-bank",
+        "nov1-brisbane-gardens",
+        "nov1-brisbane-lone-pine",
+        "nov1-brisbane-lone-pine-journey"
+      ],
+      "imageIds": [
+        "nov1-brisbane-south-bank",
+        "nov1-brisbane-gardens",
+        "nov1-brisbane-lone-pine"
+      ]
+    }
+  ],
+  "editorialReports": [
+    {
+      "id": "ushuaia",
+      "reviewedAt": "2026-11-01T16:48:50.252Z",
+      "approved": true,
+      "approvalScope": "Editorial text only. Photo rights and relevance remain the root/photo agent responsibility before production approval.",
+      "locales": {
+        "es": {
+          "words": 1773,
+          "schemaValid": true,
+          "placeWordCounts": {
+            "park": 316,
+            "channel": 296,
+            "museum": 298
+          },
+          "duplicateBodyParagraphs": 0
+        },
+        "en": {
+          "words": 1808,
+          "schemaValid": true,
+          "placeWordCounts": {
+            "park": 319,
+            "channel": 312,
+            "museum": 307
+          },
+          "duplicateBodyParagraphs": 0
+        }
+      },
+      "sourceIds": [
+        "nov1-ushuaia-park",
+        "nov1-ushuaia-park-trails",
+        "nov1-ushuaia-beagle-official",
+        "nov1-ushuaia-museum-maritime",
+        "nov1-ushuaia-museum-prison"
+      ],
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "notes": [
+        "Five official source documents fetched, relevant passages read, exact excerpts verified against extracted page text and saved with hashes.",
+        "APN still carries winter closure notices alongside November–April dates: neither version claims reopening or guarantees access; both direct readers to confirm current operational status.",
+        "Les Éclaireurs is explicitly distinguished from Faro del Fin del Mundo, following municipal tourism source. No penguin sighting or landing is assumed included in every cruise.",
+        "Museum sources support location in former prison, maritime models, reconstructed Yagán canoe, inmate work and closure in1947. No institutional superlatives or sensational prison framing used.",
+        "No ticket prices, current opening hours, exact transfer times, search-volume claims or paid promotion. Durations/order are labelled editorial suggestions.",
+        "Only three destination-level recommendations. Bahía Lapataia is discussed as a feature of the photographed national park, not a separate excursion.",
+        "Initial guessed museum /es/ and Beagle /actividad/navegaciones-por-el-canal-beagle/ URLs returned404 and were excluded. Correct official links were discovered and fetched; no blocked-access bypass.",
+        "ImageIds reserved: nov1-ushuaia-park, nov1-ushuaia-channel, nov1-ushuaia-museum. No image rights/relevance approval claimed here."
+      ]
+    },
+    {
+      "id": "florence",
+      "approved": true,
+      "reviewedAt": "2026-11-01T16:48:25.915Z",
+      "locales": {
+        "es": {
+          "words": 1739,
+          "duplicateParagraphs": 0,
+          "sourceCount": 5,
+          "sourceDatesMatch": true,
+          "relatedPublished": true
+        },
+        "en": {
+          "words": 1780,
+          "duplicateParagraphs": 0,
+          "sourceCount": 5,
+          "sourceDatesMatch": true,
+          "relatedPublished": true
+        }
+      },
+      "sourceIds": [
+        "nov1-florence-duomo",
+        "nov1-florence-dome",
+        "nov1-florence-uffizi",
+        "nov1-florence-bridge",
+        "nov1-florence-unesco"
+      ],
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "notes": [
+        "Five official sources fetched and relevant passages read. Evidence facts and excerpts saved with actual response hashes and dates.",
+        "Cathedral free admission distinguished from booked dome climb; 463 steps/no lift verified from operator. Cathedral visiting restrictions qualified for worship.",
+        "Uffizi Monday closure described as standard with date-specific verification; prices, guaranteed availability and detailed opening times intentionally omitted.",
+        "Bridge history from official regional tourism; Vasari Corridor mentioned only to distinguish structure/ticket inclusions, not an extra recommended visit.",
+        "Manual review of original ES and EN complete; no duplicate paragraphs against 75 published originals; images await central image review.",
+        "The guide offers only three individual recommended places. General riverbank context is part of the Ponte Vecchio visit."
+      ]
+    },
+    {
+      "id": "hanoi",
+      "approved": true,
+      "reviewedAt": "2026-11-01T16:48:30.832Z",
+      "locales": {
+        "es": {
+          "words": 1650,
+          "schemaPassed": true,
+          "placeSectionWords": {
+            "old-quarter": 302,
+            "literature": 306,
+            "lake": 314
+          },
+          "exactBodyParagraphDuplicatesWithOtherGuides": 0
+        },
+        "en": {
+          "words": 1634,
+          "schemaPassed": true,
+          "placeSectionWords": {
+            "old-quarter": 299,
+            "literature": 305,
+            "lake": 308
+          },
+          "exactBodyParagraphDuplicatesWithOtherGuides": 0
+        }
+      },
+      "sourceIds": [
+        "nov1-hanoi-tourism",
+        "nov1-hanoi-temple",
+        "nov1-hanoi-history",
+        "nov1-hanoi-walks"
+      ],
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "notes": [
+        "Both localizations reviewed against four official pages and matched for facts and practical advice.",
+        "The tourism overview compresses temple/university dates; the operator timeline is used to distinguish 1070 and 1076.",
+        "The source candidate /things-to-do/hanoi-old-quarter returned404 and is excluded. Successful walking-guide URL was discovered from the official destination page.",
+        "No current admission prices, guaranteed opening times, guaranteed weather or search-volume claims. All suggested durations and pacing are editorial recommendations.",
+        "Only three recommended place sections; The Huc Bridge is a feature of the Hoan Kiem setting, not an additional itinerary stop. Hang Gai/Hang Dao are orientation examples inside the Old Quarter.",
+        "Image review deliberately not included; photo agent and parent own image relevance/rights approvals.",
+        "Root review corrected Spanish headline plural templos to singular templo to match the one temple covered."
+      ]
+    },
+    {
+      "id": "tunis",
+      "approved": true,
+      "scope": "Editorial manuscript review only; photograph rights/relevance and final publication hash approval remain with parent.",
+      "reviewedAt": "2026-11-01T16:49:03.781Z",
+      "locales": {
+        "es": {
+          "words": 1572,
+          "schemaValid": true,
+          "draftContentHash": "58ecc3ec2a803fa3629bcdcc217d00b8334d7f0cebdad9cd3ae96d4e30bbcf0a"
+        },
+        "en": {
+          "words": 1566,
+          "schemaValid": true,
+          "draftContentHash": "88cebb866824ab24bec84ee98c7bad5d93af8ae4c394fd1a35bc96c5f12d3587"
+        }
+      },
+      "sourceIds": [
+        "nov1-tunis-medina",
+        "nov1-tunis-carthage",
+        "nov1-tunis-bardo-heritage"
+      ],
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "notes": [
+        "Three principal places only: Medina of Tunis, Bardo Museum, Carthage archaeological site. Bab Bhar/Zitouna are orientation/context within the medina; Byrsa, ports and baths illustrate the multi-component Carthage property, not extra guaranteed visits.",
+        "Official sources: UNESCO Medina and Carthage; AMVPPC National Bardo Museum page, each actually read.",
+        "Bardo homepage returned HTTP503 and speculative tourism destination URL HTTP404; neither is cited. Official AMVPPC museum page succeeded HTTP200.",
+        "Carthage UNESCO introductory summary correctly gives BCE chronology, whereas its Brief synthesis contains an AD typo. That contradictory sentence was excluded; article omits the disputed exact destruction year.",
+        "Bardo source includes older gallery-development notices and visitor tariffs. Articles do not copy them or promise specific current displays, opening hours or prices.",
+        "Human residence/cultural access, route geography, museum collection relevance, timing and reservation claims reviewed in both languages. No fabricated search metrics or guarantees of rank.",
+        "No image approvals performed; article statuses remain draft with no publication timestamps."
+      ]
+    },
+    {
+      "id": "brisbane",
+      "approved": true,
+      "reviewedAt": "2026-11-01T16:50:28.801Z",
+      "reviewer": "Codex Brisbane editorial research and bilingual review",
+      "locales": {
+        "es": {
+          "words": 1548,
+          "schemaValid": true,
+          "placeSections": 3,
+          "sourceDocuments": 4
+        },
+        "en": {
+          "words": 1593,
+          "schemaValid": true,
+          "placeSections": 3,
+          "sourceDocuments": 4
+        }
+      },
+      "sourceIds": [
+        "nov1-brisbane-south-bank",
+        "nov1-brisbane-gardens",
+        "nov1-brisbane-lone-pine",
+        "nov1-brisbane-lone-pine-journey"
+      ],
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "notes": [
+        "Read official Visit Brisbane South Bank page, Brisbane City Council City Botanic Gardens page, Lone Pine homepage and Plan Your Journey page. Facts/excerpts stored in four separate source files.",
+        "Guide distinguishes City Botanic Gardens from Mt Coot-tha and commercial cruise from CityCat. No extra off-route attractions recommended.",
+        "Peer review identified that the closure notice17–18November lacks an explicit year. Both locales now omit those dates and instead direct visitors to confirm exceptional closures and ambiguous notices with the operator.",
+        "No prices, opening hours,animalhandlingavailability or measured search volumes asserted. Times/days in itinerary are editorial suggestions.",
+        "Source fallback: obsolete councilgardenpaths returned404 and a tourismcandidate returned500; official council sitemap supplied currentHTTP200page. LonePine/getting-here returned404; followedofficial/planyourjourney link. No blockedsource treatedas consulted.",
+        "Image approvals intentionally excluded; root/photoagent must validate exact photographs and permissions."
+      ]
+    }
+  ],
+  "peerReports": [
+    {
+      "id": "ushuaia",
+      "approved": true,
+      "issues": [],
+      "reviewedAt": "2026-11-01T16:50:08.527Z",
+      "scope": "Independent editorial peer review of both draft manuscripts and cited saved source evidence; not final image rights, image-content or public-deployment approval.",
+      "locales": {
+        "es": {
+          "words": 1773,
+          "contentHash": "3c3b234aad7a9dbac8f8868e086f7ac4875ce4487a86d6d7a05998341868de3e"
+        },
+        "en": {
+          "words": 1808,
+          "contentHash": "53c9bab5be3efd999e4ddbdefa3abd1a6dd91320a1d931e614435ad99cbdea94"
+        }
+      },
+      "notes": [
+        "Read ES and EN manuscripts in full and all five evidence records. Factual material has relevant official source support; route order, durations and preparation are clearly editorial advice.",
+        "Read preserved APN activity text: November–April seasonal labels coexist with explicit winter closures. Both drafts correctly refuse to infer reopening and ask readers to confirm operational access and registration.",
+        "Municipal Beagle page explicitly distinguishes Les Éclaireurs from Faro del Fin del Mundo and separately lists a penguin-colony sailing. The guide does not conflate all cruises with penguin access or guaranteed landings.",
+        "Museum evidence supports former-prison setting, ship models, reconstructed Yagán bark canoe, prisoners’ work and closure in 1947. Both languages distinguish model/reconstruction from original artefact and avoid sensational prison claims.",
+        "Exactly three place sections with consistent reserved image IDs in ES/EN; named park features and lighthouse context do not introduce separate unillustrated itinerary sections. Actual photographs are still being prepared and were not visually verified in this peer review.",
+        "Spanish and English are natural, materially consistent and useful for first-visit decisions. No unsupported ticket prices, live weather, exact travel times, assured departure availability, reopening guarantees or search-volume claims found."
+      ]
+    },
+    {
+      "id": "florence",
+      "approved": true,
+      "reviewedAt": "2026-11-01T16:49:39.655Z",
+      "reviewer": "Codex independent peer editorial review (hanoi_guide agent)",
+      "scope": "Article content and source evidence; documentary photo visual/licence approval remains with photo agent and parent.",
+      "articles": {
+        "es": {
+          "words": 1739,
+          "contentHash": "be5d315d95783b8405f348640e0cc4d10426798f85b4bcee3e38e33a6e6b80ee",
+          "placeSections": [
+            {
+              "id": "duomo",
+              "imageId": "nov1-florence-duomo"
+            },
+            {
+              "id": "uffizi",
+              "imageId": "nov1-florence-uffizi"
+            },
+            {
+              "id": "bridge",
+              "imageId": "nov1-florence-bridge"
+            }
+          ]
+        },
+        "en": {
+          "words": 1780,
+          "contentHash": "74cd76b015fbcf7a3ff5377887a8559eda6c676d319d6ccdcaf97110fc6cde14",
+          "placeSections": [
+            {
+              "id": "duomo",
+              "imageId": "nov1-florence-duomo"
+            },
+            {
+              "id": "uffizi",
+              "imageId": "nov1-florence-uffizi"
+            },
+            {
+              "id": "bridge",
+              "imageId": "nov1-florence-bridge"
+            }
+          ]
+        }
+      },
+      "issues": [],
+      "notes": [
+        "Read both full localizations and all five checked official source evidence records. Saved source response hashes match recorded evidence.",
+        "Cathedral free admission is correctly separated from timed dome access; 463 steps and no lift agree with operator. Worship and baggage conditions are qualified and users directed to current rules.",
+        "Uffizi standard Monday closure is qualified for special openings; no invented price or guaranteed painting availability.",
+        "Bridge dates1345,1565,1593 and eastern-side corridor agree with official tourism text. UNESCO heritage claim is correctly scoped to the historic centre.",
+        "Spanish and English preserve the same facts, itinerary and practical choices; prose is natural and the content offers distinct architectural, museum and public-space experiences.",
+        "Exactly three recommended place sections with designated photo IDs. Vasari Corridor is discussed to clarify architecture and ticket conditions, not recommended as an extra itinerary stop.",
+        "No blocking factual, language, usefulness or time-sensitive-access issue found."
+      ]
+    },
+    {
+      "id": "hanoi",
+      "approved": true,
+      "reviewedAt": "2026-11-01T16:49:40.442Z",
+      "reviewer": "Independent Codex peer reviewer (Florence agent)",
+      "issues": [],
+      "locales": {
+        "es": {
+          "words": 1650,
+          "placeCount": 3,
+          "sourceCount": 4
+        },
+        "en": {
+          "words": 1634,
+          "placeCount": 3,
+          "sourceCount": 4
+        }
+      },
+      "notes": [
+        "Both localized drafts read in full and checked against the four saved source evidence records. Natural Argentine Spanish and English; facts, itinerary and qualifications agree.",
+        "Checked saved official source text as well: egg coffee, autumn description, tube houses, Hang Gai/Hang Dao and temple admission/history statements are present.",
+        "1070 temple and 1076 educational institution correctly distinguished using venue timeline rather than the compressed tourism overview.",
+        "Three individually developed places have planned image IDs. Named streets are orientation features inside Old Quarter; The Huc Bridge/Ngoc Son are lake context, not separate itinerary stops.",
+        "No current prices, guaranteed opening hours/weather or search-volume claims. Suggested durations are clearly editorial pacing.",
+        "Minor optional title polish: Spanish title uses plural templos although the developed temple stop is singular; changing to templo or Templo de la Literatura would make the title more precise. Not a factual body blocker.",
+        "Image delivery and image-license/relevance approval are outside this textual peer review."
+      ]
+    },
+    {
+      "id": "tunis",
+      "approved": true,
+      "issues": [],
+      "notes": [
+        "es: 1572 words; schema valid; 3 place sections; manuscript hash 58ecc3ec2a803fa3629bcdcc217d00b8334d7f0cebdad9cd3ae96d4e30bbcf0a",
+        "en: 1566 words; schema valid; 3 place sections; manuscript hash 88cebb866824ab24bec84ee98c7bad5d93af8ae4c394fd1a35bc96c5f12d3587",
+        "Independent reading of both full manuscripts, source evidence and relevant official-source extracts supports historical claims, collection themes and multi-component Carthage description.",
+        "Both languages preserve factual scope. No prices, operational hours, specific gallery access or transport service availability asserted.",
+        "Three principal recommendations; Bab Bhar/Zitouna and Carthage sectors serve as orientation/context within the named sites. No promise that all component sites are currently accessible.",
+        "Practical advice distinguishes central medina, Bardo and dispersed Carthage rather than suggesting a continuous walk. First-visit search intent, FAQ and flexible itinerary are coherent.",
+        "No blocking factual, language, time-sensitive or usefulness issues found. Photo rights/relevance and publication review are outside this peer-review scope."
+      ]
+    },
+    {
+      "id": "brisbane",
+      "reviewedAt": "2026-11-01T16:50:47.279Z",
+      "reviewer": "Codex independent peer review by Ushuaia writer",
+      "approved": true,
+      "issues": [],
+      "notes": [
+        "Read both complete article localizations and allfour sourceevidence files; inspected rawofficialLonePineHTML and downloaded visible text for otherpages.",
+        "Asidefromundatedclosureclaim, facts align: centralgardens vsMtCoot-tha distinction,1855reserve/firstcurator,address147AliceStreet,Goodwill/GardensPoint access,SouthBankArbour andStreetsBeach,FigTreePocketaddress,buses430/445,CityCatnotservingLonePine,encountersnotincludingadmission.",
+        "No ticketsprices, fixedopeninghours or handlingguarantees asserted. General3day itinerary labelledsuggestion.",
+        "Bothlocale schemas pass and relatedSydney/Melbournearticles are published. ES1547/EN1601words atreview.",
+        "Extra names MtCoot-tha are explicitdisambiguations, notadditionalrecommendedvisits. Arbour/StreetsBeach arewithinthephotographedSouthBankprecinct.",
+        "Photos not independentlyreviewed in this peer review. No article or sourcefiles modified.",
+        "Re-read corrected LonePine paragraphs in both locales, corrected source evidence and author review. Exact closure dates removed; ambiguity is now explained as reason to confirm notices with operator. Temporal issue resolved."
+      ],
+      "resolvedIssues": [
+        {
+          "severity": "medium",
+          "field": "sections[lone-pine].paragraphs[3] in both locales; associated source evidence and author-review note",
+          "finding": "Official homepage closure banner says17–18November but provides no year. Article frames it as relevant to thisNovember beside a2026retrievaldate; publication in2026may turn an undated notice into an unsupported currentclosure claim.",
+          "evidence": "Saved officialHTML .seasonal-drafts/nov1/brisbane-lone-pine.html: <h5><strong>Notice: Full sanctuary closure17–18November due to essential power upgrades</strong></h5> (normalisedspacing). No year shown in that notice.",
+          "recommendedChange": "Prefer remove exactclosure dates and retain useful generic instruction to check exceptional closures before buying transport. Alternatively explicitly state notice omitsyear and do not imply it applies2026. Update evidence/reviewnote accordingly."
+        }
+      ],
+      "locales": {
+        "es": {
+          "words": 1548,
+          "schemaValid": true
+        },
+        "en": {
+          "words": 1593,
+          "schemaValid": true
+        }
+      }
+    }
+  ]
+}

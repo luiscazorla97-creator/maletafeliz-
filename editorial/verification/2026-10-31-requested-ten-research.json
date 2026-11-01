@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-31T23:48:10.243Z",
+  "sourceCount": 33,
+  "excludedCandidates": [
+    {
+      "id": "granada-monument.json",
+      "url": "https://www.alhambra-patronato.es/en/visit",
+      "httpStatus": 503
+    },
+    {
+      "id": "granada-tickets.json",
+      "url": "https://tickets.alhambra-patronato.es/en/",
+      "httpStatus": 403
+    },
+    {
+      "id": "salvador-bonfim-tourism.json",
+      "url": "https://www.salvadordabahia.com/en/experiences/basilica-santuario-do-senhor-do-bonfim/",
+      "httpStatus": 500
+    },
+    {
+      "id": "salvador-bonfim.json",
+      "url": "https://www.salvadordabahia.com/en/experiences/basilica-santuario-senhor-do-bonfim/",
+      "httpStatus": 500
+    },
+    {
+      "id": "salvador-ribbons.json",
+      "url": "https://www.salvadordabahia.com/en/10-stories-and-curiosities-about-the-bonfim-ribbons/",
+      "httpStatus": 500
+    },
+    {
+      "id": "seville-plaza-spain.json",
+      "url": "https://www.spain.info/en/places-of-interest/plaza-espana/",
+      "httpStatus": 404
+    },
+    {
+      "id": "seville-plaza.json",
+      "url": "https://www.spain.info/en/places-of-interest/plaza-espana-seville/",
+      "httpStatus": 404
+    },
+    {
+      "id": "rabat-chellah",
+      "reason": "HTTP200 but unrelated Chicago podcast website; excluded"
+    },
+    {
+      "id": "venice-fee",
+      "reason": "HTTP200 challenge shell without useful body; no fee calendar or exemptions asserted"
+    },
+    {
+      "id": "salvador-ribbons",
+      "reason": "HTTP200 WordPress error; official published text read through REST endpoint instead"
+    }
+  ],
+  "searchIntentMethod": "Manual comparison against65 existing guides; first-visit questions, ticket choices, transport and realistic pacing. No traffic or query-volume dataset available; no ranking claims."
+}

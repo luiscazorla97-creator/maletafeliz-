@@ -8,8 +8,9 @@ interface Props {
   destination: Destination;
   lang: Locale;
   large?: boolean;
+  href?: string;
 }
-const { destination: d, lang, large = false } = Astro.props;
+const { destination: d, lang, large = false, href } = Astro.props;
 const t = dictionary[lang];
 const article = publishedArticles.find(
   (a) => a.destinationId === d.id && a.locale === lang,
@@ -17,7 +18,7 @@ const article = publishedArticles.find(
 const image = article && photoFor(article.coverImageId);
 ---
 
-<a class:list={['destination-card', { large }]} href={destinationUrl(d, lang)}>
+<a class:list={['destination-card', { large }]} href={href || destinationUrl(d, lang)}>
   <div class="card-image">
     {image ? (
       <img

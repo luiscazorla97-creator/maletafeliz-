@@ -17,6 +17,9 @@ const chosen = ['tokyo', 'paris', 'bali']
 const seasonal = ['halloween-ireland', 'halloween-japan', 'muertos-mexico-city', 'muertos-merida']
   .map((id) => available.find((d) => d.id === id))
   .filter((d) => d && articles.some((a) => a.destinationId === d.id));
+const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vienna', 'christmas-rovaniemi']
+  .map((id) => available.find((d) => d.id === id))
+  .filter((d) => d && articles.some((a) => a.destinationId === d.id));
 ---
 
 <section class="shell explorer-hero" aria-labelledby="hero-heading">
@@ -71,6 +74,21 @@ const seasonal = ['halloween-ireland', 'halloween-japan', 'muertos-mexico-city',
     </div>
   </div>
 </section>
+{christmas.length > 0 && (
+  <section class="shell section" aria-labelledby="christmas-heading">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow orange">{lang === 'es' ? 'PREPARÁ TU VIAJE DE NAVIDAD' : 'PLAN YOUR CHRISTMAS TRIP'}</span>
+        <h2 id="christmas-heading">{lang === 'es' ? 'Navidad 2026: ciudades, luces y mercadillos' : 'Christmas 2026: cities, lights and markets'}</h2>
+        <p>{lang === 'es' ? 'Rutas, fotos reales y consejos para elegir destino y comprobar las fechas antes de reservar.' : 'Routes, real photographs and advice for choosing a destination and checking dates before booking.'}</p>
+      </div>
+      <a class="text-link" href={route(lang, 'christmas')}>
+        {lang === 'es' ? 'Ver todas las guías de Navidad' : 'Explore all Christmas guides'} <Icon />
+      </a>
+    </div>
+    <div class="card-grid">{christmas.map((d) => <Card destination={d!} lang={lang} />)}</div>
+  </section>
+)}
 <section class="shell section">
   <div class="section-heading">
     <div>

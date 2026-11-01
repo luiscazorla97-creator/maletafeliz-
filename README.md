@@ -2,7 +2,7 @@
 
 Revista de viajes estática en **español e inglés**, diseñada para Cloudflare Pages. Código, artículos estructurados, investigación y licencias se versionan en GitHub. Sin base de datos, APIs de IA de pago ni automatización ficticia.
 
-**Publicado y verificado en [maletafeliz.com](https://maletafeliz.com/es/).** Hay **65 guías originales, 130 versiones completas en español e inglés y 377 fotografías acreditadas**, con fuentes y revisiones vinculadas al contenido final. Cada uno de los 375 lugares recomendados tiene una fotografía en ambos idiomas. `www.maletafeliz.com` redirige con HTTP 301 al dominio principal, conservando rutas y parámetros. Cloudflare compila desde GitHub mediante la activación del despliegue desde Codex; la redacción diaria de guías continúa siendo manual.
+**Publicado y verificado en [maletafeliz.com](https://maletafeliz.com/es/).** Hay **80 guías originales, 160 versiones completas en español e inglés y 422 fotografías acreditadas**, con fuentes y revisiones vinculadas al contenido final. Cada uno de los 420 lugares recomendados tiene una fotografía en ambos idiomas. `www.maletafeliz.com` redirige con HTTP 301 al dominio principal, conservando rutas y parámetros. Cloudflare compila desde GitHub mediante la activación del despliegue desde Codex; la redacción diaria de guías continúa siendo manual.
 
 ## Ejecutar
 
@@ -61,4 +61,4 @@ La auditoría comprueba todas las versiones seleccionadas, fuentes con evidencia
 
 ## Límites externos comprobados
 
-La red permite investigar fuentes oficiales y archivos con licencia; la investigación inicial se conserva en el repositorio. `CLOUDFLARE_API_TOKEN` y `CLOUDFLARE_ACCOUNT_ID` están disponibles y el despliegue mediante la integración GitHub de Cloudflare quedó verificado. No hay herramientas expuestas para crear tareas recurrentes de Codex en la nube ni consultar el porcentaje de cuota. La publicación diaria a las 07:00 America/New_York no está activa; queda documentado el flujo manual sin APIs facturadas aparte.
+La red permite investigar fuentes oficiales y archivos con licencia; la investigación inicial se conserva en el repositorio. `CLOUDFLARE_API_TOKEN` y `CLOUDFLARE_ACCOUNT_ID` están disponibles y el despliegue mediante la integración GitHub de Cloudflare quedó verificado. No hay herramientas expuestas para crear tareas recurrentes de Codex en la nube ni consultar el porcentaje de cuota. La captura del titular muestra una tarea diaria a las 09:00 America/New_York; su acceso al entorno y su capacidad de publicar aún no están comprobados. Las instrucciones y el bloqueo de conexión con la app se documentan en `docs/DAILY-PUBLISHING.md`.

@@ -1,0 +1,149 @@
+{
+  "id": "tunis",
+  "destinationId": "tunis",
+  "intent": "tunis-first-visit-three-places-route",
+  "status": "published",
+  "coverImageId": "nov1-tunis-medina",
+  "sources": [
+    {
+      "id": "nov1-tunis-medina",
+      "url": "https://whc.unesco.org/en/list/36/",
+      "title": "Medina of Tunis — UNESCO World Heritage Centre",
+      "accessedAt": "2026-11-01T16:44:27.514Z",
+      "evidenceFile": "content/research/nov1-tunis-medina.json"
+    },
+    {
+      "id": "nov1-tunis-carthage",
+      "url": "https://whc.unesco.org/en/list/37/",
+      "title": "Archaeological Site of Carthage — UNESCO World Heritage Centre",
+      "accessedAt": "2026-11-01T16:44:27.223Z",
+      "evidenceFile": "content/research/nov1-tunis-carthage.json"
+    },
+    {
+      "id": "nov1-tunis-bardo-heritage",
+      "url": "https://www.patrimoinedetunisie.com.tn/en/museums/the-national-bardo-museum/",
+      "title": "The National Bardo Museum — Tunisian Heritage Agency (AMVPPC)",
+      "accessedAt": "2026-11-01T16:45:02.310Z",
+      "evidenceFile": "content/research/nov1-tunis-bardo-heritage.json"
+    }
+  ],
+  "relatedIds": [
+    "rabat",
+    "cairo"
+  ],
+  "locale": "es",
+  "slug": "que-ver-en-tunez",
+  "title": "Qué ver en Túnez en 3 días: medina, Bardo y Cartago",
+  "description": "Organizá tres días en Túnez capital con la medina, el Museo del Bardo y Cartago: fotos reales, contexto histórico, itinerario y consejos de visita.",
+  "keyword": "qué ver en Túnez capital en 3 días",
+  "relatedQueries": [
+    "visitar Museo del Bardo",
+    "cómo organizar visita a Cartago",
+    "medina de Túnez primera visita"
+  ],
+  "intro": [
+    "Túnez es el nombre del país y, en español, también el de su capital. Esta guía se centra en la ciudad de Túnez y su entorno inmediato, no en una ruta por todo el territorio tunecino. Para una primera estancia proponemos tres días alrededor de tres lugares: la medina, el Museo Nacional del Bardo y el sitio arqueológico de Cartago. Cada uno explica una escala distinta: la ciudad habitada, los objetos conservados y los vestigios de una antigua metrópolis mediterránea.",
+    "La clave consiste en no tratarlos como tres paradas contiguas. Reservar un bloque para cada visita permite mirar con atención y evita que los traslados consuman una jornada demasiado ambiciosa. Los tres días son una propuesta editorial adaptable, no una duración oficial. Si llegás tarde o continuás viaje, descontá ese tiempo antes de cerrar el itinerario y revisá las condiciones de acceso de cada recinto."
+  ],
+  "quickFacts": [
+    {
+      "label": "Ámbito de la guía",
+      "value": "Túnez capital y Cartago, no todo el país"
+    },
+    {
+      "label": "Duración sugerida",
+      "value": "Tres días con un núcleo principal por jornada"
+    },
+    {
+      "label": "Tipo de recorrido",
+      "value": "Patrimonio urbano, museo y arqueología al aire libre"
+    }
+  ],
+  "sections": [
+    {
+      "id": "medina",
+      "kind": "place",
+      "heading": "Medina de Túnez: entender la ciudad entre sus calles y mercados",
+      "sourceIds": [
+        "nov1-tunis-medina"
+      ],
+      "imageId": "nov1-tunis-medina",
+      "paragraphs": [
+        "La medina es más que una sucesión de comercios. La UNESCO destaca su tejido urbano y el conjunto de palacios, mezquitas, madrasas, fuentes y otros edificios históricos, testimonio del protagonismo de Túnez bajo distintas dinastías. Para empezar, elegí un acceso reconocible, como el entorno de Bab Bhar, y guardá su ubicación. Ese punto de referencia te permitirá regresar sin convertir cada desvío en una preocupación por encontrar la salida.",
+        "En lugar de buscar todos los monumentos citados en un mapa, proponete observar cómo cambian las calles, las fachadas y los espacios de actividad comercial. El entorno de la mezquita Zitouna ayuda a situar uno de los grandes hitos mencionados por la UNESCO, pero esta propuesta no garantiza acceso a su interior. Confirmá las normas de cualquier edificio religioso: pasear por un barrio y entrar a un lugar de culto son experiencias con condiciones diferentes.",
+        "Una visita guiada puede ayudar a reconocer periodos y funciones, especialmente si te interesan los detalles que pasan inadvertidos durante las compras. Antes de contratarla, acordá idioma, recorrido, duración y precio total. Si preferís caminar por tu cuenta, alterná tramos de exploración con puntos de orientación. No hace falta perderse deliberadamente para disfrutar de la medina; una ruta corta permite fijarse mejor en lo que ocurre alrededor.",
+        "Este sigue siendo un espacio de vida y trabajo. Pedí permiso antes de fotografiar personas o el interior de un negocio, evitá bloquear pasos y distinguí accesos públicos de viviendas privadas. Si comprás, comprobá materiales y precio antes de aceptar. Para grupos con movilidad reducida, consultá un trayecto concreto: el acceso a una puerta no describe el pavimento, las pendientes ni la anchura del recorrido posterior."
+      ]
+    },
+    {
+      "id": "bardo",
+      "kind": "place",
+      "heading": "Museo Nacional del Bardo: leer los mosaicos y mirar el palacio",
+      "sourceIds": [
+        "nov1-tunis-bardo-heritage"
+      ],
+      "imageId": "nov1-tunis-bardo",
+      "paragraphs": [
+        "El Bardo aporta contexto a una visita que, de otro modo, podría quedarse solo en fachadas y ruinas. La agencia tunecina de patrimonio sitúa el museo en un palacio real del siglo XIX y describe colecciones que abarcan desde la prehistoria hasta épocas modernas. El edificio forma parte de la experiencia: observá sus espacios y decoración cuando estén incluidos en el recorrido, sin concentrar toda la atención en encontrar una única pieza famosa.",
+        "Los mosaicos ofrecen una buena forma de organizar la mirada. La presentación oficial menciona escenas de mitología y creencias, representaciones de las estaciones y temas de vida cotidiana, como pesca, comercio marítimo y actividades rurales. Elegí dos o tres motivos que te interesen y compará cómo se representan. Leer la procedencia y el contexto de un objeto ayuda a entenderlo mejor que fotografiar muchas salas sin detenerse en ninguna explicación.",
+        "No confundas la amplitud de la colección con una obligación de recorrer cada vitrina. Si viajás con niños, buscar barcos, animales o escenas de trabajo puede dar continuidad a una visita breve. Si te interesa la historia del Mediterráneo, prestá atención a los materiales y al origen de las piezas. La información institucional también describe esculturas y colecciones islámicas, de modo que los mosaicos no agotan todo lo que permite aprender el museo.",
+        "Antes de salir, consultá la información de la entidad responsable sobre apertura, admisión, controles y salas visitables. La existencia de una obra en el catálogo no asegura que esté expuesta ese día. Reservá tiempo para llegar, entrar y descansar; no ajustes el Bardo entre dos conexiones de transporte inflexibles. Si necesitás un recorrido accesible, preguntá por los niveles y servicios realmente disponibles durante tu visita, además del acceso exterior."
+      ]
+    },
+    {
+      "id": "carthage",
+      "kind": "place",
+      "heading": "Cartago: planificar un sitio arqueológico con varios sectores",
+      "sourceIds": [
+        "nov1-tunis-carthage"
+      ],
+      "imageId": "nov1-tunis-carthage",
+      "paragraphs": [
+        "Cartago exige una idea distinta de recorrido. La UNESCO la presenta como un sitio arqueológico extenso, con vestigios de culturas y periodos sucesivos. Su historia comienza con una fundación fenicia y una gran proyección comercial mediterránea; más tarde se desarrolló una ciudad romana sobre el asentamiento anterior. Por eso, no conviene identificar automáticamente cada muro visible con la Cartago púnica ni buscar una ciudad antigua conservada de manera uniforme.",
+        "Entre los componentes del sitio, la UNESCO enumera la colina de Byrsa, los puertos púnicos y las termas de Antonino. Esa enumeración describe el patrimonio, no un paquete que garantice acceso inmediato a todos los sectores. Para tu primera visita, elegí una parte principal y una segunda compatible, después de consultar aperturas y desplazamientos. Ver menos áreas con interpretación puede aportar más que acumular fotos de restos sin comprender su función.",
+        "Prepará un esquema del recorrido antes de llegar. Marcá los accesos previstos, el punto de regreso y las pausas necesarias; no presupongas que una única entrada, una misma tarifa o una parada de transporte resuelve todo el conjunto. Si contratás una excursión desde Túnez, pedí la lista de sectores incluidos y distinguí traslado, guía y entradas. Un anuncio que diga solamente Cartago deja demasiado margen para experiencias muy diferentes.",
+        "El componente exterior hace especialmente importante considerar el pronóstico, la exposición al sol y el esfuerzo de caminar entre áreas. Llevá calzado adecuado y agua, respetá las zonas cerradas y no te subas a estructuras para mejorar una foto. Observá también la relación con el golfo de Túnez: la posición costera ayuda a entender la dimensión comercial de esta ciudad, más allá de un monumento aislado. Conservá margen para el regreso a tu alojamiento."
+      ]
+    },
+    {
+      "id": "planning",
+      "kind": "practical",
+      "heading": "Cómo repartir los días y organizar los traslados",
+      "sourceIds": [
+        "nov1-tunis-medina",
+        "nov1-tunis-bardo-heritage",
+        "nov1-tunis-carthage"
+      ],
+      "paragraphs": [
+        "La medina, el Bardo y Cartago no deben planificarse como un circuito continuo a pie. Elegí alojamiento considerando cómo vas a llegar con equipaje y cómo volverás después de cada jornada. Compará la ruta completa de transporte, incluidos los últimos tramos, en lugar de decidir solo por la distancia en el mapa. Si usás taxi o un traslado contratado, confirmá el destino exacto y las condiciones del servicio antes de salir.",
+        "Armá el presupuesto separando alojamiento, comidas, desplazamientos, entradas y posibles visitas guiadas. En esta guía no fijamos precios ni horarios: ambos pueden cambiar y la información debe comprobarse con los responsables antes del viaje. Guardá direcciones y reservas sin conexión. Para elegir fechas, compará el pronóstico y el calendario de servicios; un museo y un sitio arqueológico exterior responden de manera diferente al calor, la lluvia o los cambios de horario."
+      ]
+    }
+  ],
+  "itinerary": [
+    "Día 1: dedicá la parte principal de la jornada a la medina. Definí un punto de entrada y regreso, alterná el paseo con pausas y dejá espacio para comer sin una conexión inmediata a otra visita. Ajustá la extensión del recorrido a tu orientación y energía.",
+    "Día 2: reservá un bloque para el Bardo después de confirmar sus condiciones de visita. Elegí temas o colecciones prioritarias y atendé también al edificio. Mantené el resto del día flexible; no conviertas un retraso en el acceso en una carrera por las salas.",
+    "Día 3: recorré los sectores de Cartago que hayas seleccionado y comprobado. Calculá por separado el traslado desde Túnez, el tiempo de interpretación y el regreso. Si coincide con tu vuelo o salida hacia otra ciudad, reducí el programa y protegé el margen de transporte."
+  ],
+  "faq": [
+    {
+      "question": "¿Esta guía recorre todo Túnez o solo la capital?",
+      "answer": "Se centra en Túnez capital, el Museo del Bardo y Cartago. No equivale a un itinerario por todo el país. Si buscás combinar regiones o playas, añadí días y calculá los desplazamientos como otra etapa del viaje, sin comprimirlos dentro de estas tres jornadas."
+    },
+    {
+      "question": "¿Se pueden visitar medina, Bardo y Cartago en un día?",
+      "answer": "Esta guía recomienda repartirlos porque requieren traslados y formas distintas de visita. Con un único día, elegí una prioridad y, si las condiciones lo permiten, una segunda parada. Una lista más larga no garantiza una experiencia mejor ni tiempo suficiente para entender los lugares."
+    },
+    {
+      "question": "¿Cartago se visita como un único recinto?",
+      "answer": "La UNESCO describe un sitio extenso con varios componentes. Planificá los sectores concretos y comprobá accesos, entradas y conexiones antes de salir. No supongas que todos los restos se encuentran juntos o que cualquier excursión incluye el mismo recorrido y los mismos servicios."
+    },
+    {
+      "question": "¿Conviene conocer el Bardo antes de ir a Cartago?",
+      "answer": "Puede ayudar: las colecciones permiten acercarse a objetos, escenas y contextos que enriquecen la lectura de los restos arqueológicos. No es un orden obligatorio. Adaptá los días a la apertura confirmada del museo y al tiempo previsto para la jornada exterior."
+    }
+  ],
+  "conclusion": "Una primera visita a Túnez gana profundidad cuando cada lugar recibe su propio tiempo. La medina permite leer una ciudad habitada, el Bardo acerca sus colecciones y su arquitectura, y Cartago abre una ventana a varias etapas del Mediterráneo. Tres días con traslados claros y prioridades elegidas ofrecen un punto de partida más útil que una agenda llena de nombres.",
+  "publishedAt": "2026-11-01T16:54:08.140Z",
+  "updatedAt": "2026-11-01T16:54:08.140Z"
+}

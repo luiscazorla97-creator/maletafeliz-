@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-11-01T00:19:48.711Z",
+  "types": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "unit": 33,
+  "previewNavigation": 10,
+  "productionBrowser": 326,
+  "productionHtmlPages": 434,
+  "newOriginals": 10,
+  "newLocalizations": 20,
+  "newPlacePhotographs": 30,
+  "checks": [
+    "All75 bilingual guides tested in mobile and desktop browsers",
+    "Every recommended place renders a decodable photo",
+    "Single H1, canonical, reciprocal hreflang, article JSON-LD and production indexing",
+    "Sitemap contains all150 article routes; search excludes unrelated results",
+    "Language switch preserves the corresponding article",
+    "No horizontal overflow and no browser page errors",
+    "Existing banner placements and Analytics explicit consent preserved",
+    "Click-triggered popunder remains absent"
+  ],
+  "providerScriptsMocked": true,
+  "visualReview": "Thirty source photos and selected new article layouts reviewed; no actual advertising impressions or Analytics events generated."
+}

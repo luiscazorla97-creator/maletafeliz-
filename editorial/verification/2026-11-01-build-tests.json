@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-11-01T17:05:09.905Z",
+  "types": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "unit": 33,
+  "previewNavigation": 10,
+  "productionBrowser": 346,
+  "productionHtmlPages": 456,
+  "newOriginals": 5,
+  "newLocalizations": 10,
+  "newPlacePhotographs": 15,
+  "productionGuideRoutes": 160,
+  "viewports": [
+    "mobile",
+    "desktop"
+  ],
+  "providerScriptsMocked": true,
+  "visualReview": "All15 photographs inspected; selected final layouts of all5 new guides inspected, and all5 guides captured at mobile and desktop widths without horizontal overflow.",
+  "checks": [
+    "All selected guides render and switch to the corresponding translation",
+    "Every recommended place renders a decodable photograph",
+    "Canonical, reciprocal hreflang, H1, indexing and article JSON-LD",
+    "Search and sitemap discover published guides",
+    "No horizontal overflow or browser page errors",
+    "Existing banner placements and explicit Analytics consent preserved",
+    "Popunder remains absent"
+  ]
+}

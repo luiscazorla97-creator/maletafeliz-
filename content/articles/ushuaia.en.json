@@ -1,0 +1,166 @@
+{
+  "id": "ushuaia",
+  "destinationId": "ushuaia",
+  "intent": "ushuaia-first-visit-three-places-route",
+  "status": "published",
+  "coverImageId": "nov1-ushuaia-park",
+  "sources": [
+    {
+      "id": "nov1-ushuaia-park",
+      "url": "https://www.argentina.gob.ar/parquesnacionales/tierradelfuego",
+      "title": "Parque Nacional Tierra del Fuego — Administración de Parques Nacionales",
+      "accessedAt": "2026-11-01T16:44:03.159Z",
+      "evidenceFile": "content/research/nov1-ushuaia-park.json"
+    },
+    {
+      "id": "nov1-ushuaia-park-trails",
+      "url": "https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/parque-nacional-tierra-del-fuego/actividades",
+      "title": "Actividades y avisos del Parque Nacional Tierra del Fuego",
+      "accessedAt": "2026-11-01T16:44:37.899Z",
+      "evidenceFile": "content/research/nov1-ushuaia-park-trails.json"
+    },
+    {
+      "id": "nov1-ushuaia-beagle-official",
+      "url": "https://turismoushuaia.com/zonas/canal-beagle/?lang=es_AR",
+      "title": "Canal Beagle — Secretaría de Turismo de Ushuaia",
+      "accessedAt": "2026-11-01T16:44:30.630Z",
+      "evidenceFile": "content/research/nov1-ushuaia-beagle-official.json"
+    },
+    {
+      "id": "nov1-ushuaia-museum-maritime",
+      "url": "https://museomaritimo.com/es/museo-martimo-de-ushuaia-1",
+      "title": "Museo Marítimo de Ushuaia — colección e historia",
+      "accessedAt": "2026-11-01T16:44:24.848Z",
+      "evidenceFile": "content/research/nov1-ushuaia-museum-maritime.json"
+    },
+    {
+      "id": "nov1-ushuaia-museum-prison",
+      "url": "https://museomaritimo.com/es/museo-del-presidio-de-ushuaia",
+      "title": "Museo del Presidio de Ushuaia — historia de la cárcel",
+      "accessedAt": "2026-11-01T16:44:24.878Z",
+      "evidenceFile": "content/research/nov1-ushuaia-museum-prison.json"
+    }
+  ],
+  "relatedIds": [
+    "buenos-aires",
+    "iguazu"
+  ],
+  "locale": "en",
+  "slug": "what-to-see-in-ushuaia",
+  "title": "Ushuaia in 3 days: Tierra del Fuego park, Beagle Channel and prison",
+  "description": "Plan three days in Ushuaia around Tierra del Fuego National Park, a Beagle Channel cruise and the former prison, with photographs and practical booking advice.",
+  "keyword": "Ushuaia in 3 days",
+  "relatedQueries": [
+    "Beagle Channel cruise what is included",
+    "Tierra del Fuego National Park trails",
+    "Ushuaia Maritime and Prison Museum visit"
+  ],
+  "intro": [
+    "Ushuaia rewards an itinerary that leaves room for changing conditions and for understanding the landscape. Mountains, woodland and the Beagle Channel cannot simply be fitted into a sequence of stops without considering transport. This first-visit guide focuses on three complementary places: Tierra del Fuego National Park, a cruise on the Beagle Channel and the Maritime and Prison Museum. Three days is a suggested framework, not a promise that every excursion will operate or that the weather will cooperate.",
+    "The aim is to combine nature, a view from the water and local history. Before buying activities, check their change conditions and decide which experience matters most to you. A cruise depends on its route and sailing conditions; a walk needs an access check; the museum provides time for indoor interpretation. Recognising these differences helps you organise the trip more effectively than booking every available slot and hoping the pieces will fit together."
+  ],
+  "quickFacts": [
+    {
+      "label": "Suggested stay",
+      "value": "Three days, with room to rearrange activities"
+    },
+    {
+      "label": "Route",
+      "value": "National park, Beagle Channel and former prison"
+    },
+    {
+      "label": "Planning priority",
+      "value": "Confirm access, meeting points and return arrangements"
+    }
+  ],
+  "sections": [
+    {
+      "id": "park",
+      "kind": "place",
+      "heading": "Tierra del Fuego National Park: choose a visit that fits your abilities",
+      "imageId": "nov1-ushuaia-park",
+      "sourceIds": [
+        "nov1-ushuaia-park",
+        "nov1-ushuaia-park-trails"
+      ],
+      "paragraphs": [
+        "Tierra del Fuego National Park protects the meeting of Andean-Patagonian forest, mountains and the sea. Argentina's National Parks Administration describes a network of trails with different distances and levels of difficulty. Visiting the park does not therefore have to mean attempting a demanding hike. You can organise a day of scenery and shorter walks, or give more time to a suitable trail. Choose the type of visit before arranging transport, because it determines how long you need inside the protected area.",
+        "The boardwalks at Bahía Lapataia provide an approach to the coastal landscape while helping protect archaeological sites. National Route 3 continues to this bay, so a vehicle-based visit or organised excursion can combine authorised stops with walks. However, an accessible boardwalk does not make the whole park equally accessible. Ask about the particular section you intend to use if you have a pushchair or need an adapted surface, including the approach from the parking area or drop-off point.",
+        "Pay close attention to current notices. The official activities page consulted for this guide retains winter closure warnings alongside general opening seasons. The beginning of November should consequently not be treated as automatic confirmation that a trail has reopened. Ask park staff which routes are open on your visit date and whether they require registration at the start and finish. Do not pass a closure simply because another online itinerary describes that walk as a routine part of a visit.",
+        "Bring layers, rain protection and footwear suited to the route you choose. Agree on your pickup place and time if you use a transfer; taking a walk after leaving a vehicle requires a clear return plan. Allow time to look at the woodland and shore while remaining in authorised areas. A successful park day is not measured by the greatest distance covered. It is one that lets you enjoy the landscape and return comfortably without relying on an improvised connection."
+      ]
+    },
+    {
+      "id": "channel",
+      "kind": "place",
+      "heading": "Beagle Channel and Les Éclaireurs: understand the cruise you are booking",
+      "imageId": "nov1-ushuaia-channel",
+      "sourceIds": [
+        "nov1-ushuaia-beagle-official"
+      ],
+      "paragraphs": [
+        "A Beagle Channel cruise changes your perspective on Ushuaia: the city appears against the mountains before the journey continues through an island and maritime landscape. The municipal tourism office describes outings on catamarans, yachts and sailing boats, with several route options. Selecting only by a photograph of the boat can lead to the wrong booking. Compare the actual itinerary, expected duration, boarding arrangements and included services. Similar excursion names do not necessarily describe the same experience on the water.",
+        "Les Éclaireurs Lighthouse is one of the channel's most recognisable landmarks, but it is not the Lighthouse at the End of the World. Ushuaia's tourism office explicitly distinguishes the two: the latter stands on Isla de los Estados. This matters when reading descriptions and labelling your own photographs. If seeing Les Éclaireurs is a priority, confirm that it appears in the itinerary you are purchasing. Do not assume that every cruise visits the same part of the channel.",
+        "It is also useful to distinguish general wildlife viewing from a specific trip to a penguin colony. The municipal information presents different options; a cruise mentioning birds or sea lions does not automatically include penguins, a landing or a walk. Ask what approaches are planned and what depends on the conditions on the day. Treat encounters with wildlife as possibilities in a natural setting rather than guaranteed scenes arranged for visitors to photograph.",
+        "Arrive with the margin requested by the operator and check where registration takes place, as it may differ from the boarding point. Choose clothing that allows you to spend time on deck and secure small belongings when it is windy. Follow crew instructions and remain in the areas open to passengers. When arranging a three-day stay, try to preserve an alternative slot in case the departure changes. Booking your only possible sailing immediately before a flight gives you little room to adapt."
+      ]
+    },
+    {
+      "id": "museum",
+      "kind": "place",
+      "heading": "Maritime and Prison Museum: look beyond the cells",
+      "imageId": "nov1-ushuaia-museum",
+      "sourceIds": [
+        "nov1-ushuaia-museum-maritime",
+        "nov1-ushuaia-museum-prison"
+      ],
+      "paragraphs": [
+        "Ushuaia's Maritime and Prison Museum occupies the former penitentiary complex. The visit brings together two ways of understanding the destination: Tierra del Fuego's relationship with the sea and the history of the prison. Give it a substantial part of the day rather than treating it as a quick stop between excursions. Both the building and the collections deserve attention; walking through corridors without reading the interpretation leaves much of the site's meaning unexplored.",
+        "In the maritime collections, ship models trace regional history and developments in boatbuilding. The museum also presents a reconstructed Yagán bark canoe based on historical and ethnographic information. This offers an opportunity to recognise that life in the archipelago did not begin with European expeditions or the penal settlement. Read the labels to distinguish original objects, reconstructions and models. They convey different kinds of information, and their value does not depend on all being presented as original artefacts.",
+        "The prison displays address daily life, discipline and prisoners' work. The institution describes letters, furniture, paintings and objects associated with confinement and labour, as well as the role of prisoners in urban services and construction. According to its official history, the prison closed in 1947. This background gives the visit more substance than focusing solely on notorious inmates or approaching the building as a horror attraction. It connects the place with the development of the city outside its walls.",
+        "Check opening information, admission, guided options and languages with the museum before visiting; this guide does not assume that every format is offered daily. If you are travelling with children, adapt the discussion to the material and decide which areas to explore. Ask about accessibility in the specific parts of the historic building that interest you. The museum can suit a day when conditions complicate outdoor plans, provided that its own opening arrangements have first been confirmed."
+      ]
+    },
+    {
+      "id": "planning",
+      "kind": "practical",
+      "heading": "How to organise transport, costs and a weather buffer",
+      "sourceIds": [
+        "nov1-ushuaia-park-trails",
+        "nov1-ushuaia-beagle-official",
+        "nov1-ushuaia-museum-maritime"
+      ],
+      "paragraphs": [
+        "Build your budget by separating accommodation, transport to the park, national park admission, the cruise and the museum. An excursion may include some items and exclude others, so the advertised price is not necessarily the full cost of the day. Compare written inclusions and change conditions before paying. You do not need to purchase one package if the experiences that matter to you are better arranged separately around your available days.",
+        "A car can make a park visit more flexible, but it does not replace a cruise reservation or guarantee a better itinerary. If you prefer not to drive, investigate authorised excursions or transfers and check how much time they allow for walking. In either case, decide first what kind of route you want and then choose transport that supports it. A sightseeing service with short stops may not be appropriate if your main aim is a longer walk.",
+        "Check the forecast and operator notices close to your visit instead of treating an old screenshot as current information. Keep booking confirmations and a working contact for each service. Flexibility is not the same as leaving without a plan: it means knowing what can change, what margin you have and which alternative you have chosen. Preserve a particularly generous buffer before a flight or onward connection that cannot easily be moved."
+      ]
+    }
+  ],
+  "itinerary": [
+    "Day 1: use the first suitable day for the Maritime and Prison Museum, particularly if you arrive tired. Identify the meeting points for your bookings and confirm the sailing arrangements. If the operator recommends an earlier departure because of availability or conditions, you can swap the order without losing the structure of the trip.",
+    "Day 2: visit Tierra del Fuego National Park with your route chosen and access confirmed. Combine authorised stops with a walk that fits the time actually available. Arrange the return before setting off; do not add another trail merely because its starting point looks close on a map.",
+    "Day 3: take the Beagle Channel cruise if confirmed, checking the route to Les Éclaireurs and the required arrival and return times. This order is a proposal, not a prediction of the weather. If sailing is your absolute priority, book an earlier suitable departure and retain this day as a possible buffer within the operator's options."
+  ],
+  "faq": [
+    {
+      "question": "Are three days enough for a first visit to Ushuaia?",
+      "answer": "Three days can accommodate this introduction to the park, channel and local history when transport and departures fit together. They do not amount to seeing all of Tierra del Fuego. If one experience is essential to your trip, extra flexibility can be more useful than trying to squeeze several different excursions into the same day."
+    },
+    {
+      "question": "Is Les Éclaireurs the Lighthouse at the End of the World?",
+      "answer": "No. Ushuaia Tourism distinguishes Les Éclaireurs, in the Beagle Channel, from the Lighthouse at the End of the World on Isla de los Estados. Check the name in the excursion description so you know which landmark the itinerary covers and do not confuse a channel cruise with a different journey."
+    },
+    {
+      "question": "Are all national park trails open in November?",
+      "answer": "You should not assume they are. The activities page consulted for this guide combines general seasons with closure notices. Confirm with the park which access is open, which route fits your experience and whether registration is required. A general seasonal date does not replace operational information for the day of your visit."
+    },
+    {
+      "question": "Does every Beagle Channel cruise include penguins?",
+      "answer": "Do not assume so: the municipal tourism information distinguishes different routes and specific penguin-colony outings. Check the included areas, viewing arrangements and whether any landing is part of the booking. Wildlife presence and behaviour cannot be guaranteed simply by purchasing a boat excursion."
+    }
+  ],
+  "conclusion": "The strength of this route is the way it combines three perspectives on Ushuaia without making the visit a race: forest and coast in the park, the scale of the channel and the memory of the former prison. Choose experiences that match your interests, confirm current conditions and protect your return margin. Good planning should make it easier to pay attention to the place itself.",
+  "publishedAt": "2026-11-01T16:54:08.140Z",
+  "updatedAt": "2026-11-01T16:54:08.140Z"
+}

@@ -31,9 +31,9 @@ async function get(path, status = 200) {
 const home = await get('/es/');
 if (home) {
   const english = await get('/en/');
-  if (!home.includes('El mundo es grande'))
+  if (!(home.includes('El mundo') && home.includes('te espera')))
     errors.push('/es/: expected home heading missing');
-  if (!english.includes('A big, beautiful world'))
+  if (!(english.includes('A world') && english.includes('awaits you')))
     errors.push('/en/: expected home heading missing');
   for (const article of articles) {
     const path = `/${article.locale}/${article.locale === 'es' ? 'guias' : 'guides'}/${article.slug}/`;

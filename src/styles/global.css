@@ -1839,7 +1839,7 @@ body:has(.explorer-hero) .mobile-menu nav { background: #062133; }
 .explorer-promises svg { color: #a7e8f1; flex-shrink: 0; }
 .travel-globe { position: absolute; width: min(900px, 69%); height: 670px; aspect-ratio: auto; right: -2%; top: -45px; z-index: 1; }
 .travel-globe:before { display: none; }
-.earth { width: 100%; height: 100%; object-fit: cover; object-position: center; max-width: none; mask-image: radial-gradient(ellipse 68% 70% at 53% 47%, black 58%, transparent 88%); }
+.earth { width: 100%; height: 100%; object-fit: cover; object-position: center; max-width: none; mask-image: radial-gradient(ellipse 52% 68% at 53% 49%, black 63%, transparent 96%); }
 .globe-caption, .atlas-note { display: none; }
 .globe-routes { inset: 7% 12%; width: 76%; height: 86%; filter: drop-shadow(0 0 5px #27e9f5); }
 .globe-routes > path { stroke: #93f7ff; stroke-width: 1.3; stroke-dasharray: none; opacity: .8; }
@@ -1931,3 +1931,4 @@ body:has(.explorer-hero) .mobile-menu nav { background: #062133; }
  .continent-band .section-heading > .text-link { font-size: 0; margin-top: 0; }
  .continent-band .section-heading h2 { font-size: 29px; }
 }
+.continent-description { font-size: 8px; line-height: 1.65; letter-spacing: .1em; text-transform: uppercase; max-width: 83%; margin-top: 6px; }

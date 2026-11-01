@@ -61,13 +61,14 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
     <div class="continent-photo-grid">
       {['europe', 'asia', 'america', 'africa', 'oceania'].map(key => {
         const names = continents[key as keyof typeof continents];
-        const preferred: Record<string,string> = {europe:'lisbon', asia:'tokyo', america:'cusco', africa:'cape-town', oceania:'queenstown'};
+        const descriptions: Record<string, string[]> = {europe:['Historia, cultura y paisajes inolvidables','History, culture and unforgettable scenery'], asia:['Tradición, modernidad y experiencias únicas','Tradition, modernity and unique experiences'], america:['Naturaleza, aventura y grandes contrastes','Nature, adventure and striking contrasts'], africa:['Paisajes épicos y culturas fascinantes','Epic landscapes and fascinating cultures'], oceania:['Islas, montañas y horizontes abiertos','Islands, mountains and open horizons']};
+        const preferred: Record<string,string> = {europe:'rome', asia:'kyoto', america:'rio', africa:'cape-town', oceania:'queenstown'};
         const d = available.find(d => d.id === preferred[key]) || available.find(d => d.continent === key);
         const a = d && articles.find(a => a.destinationId === d.id);
         const image = a && photoFor(a.coverImageId);
         return image && <a href={route(lang, 'explore', key)} class="continent-photo">
           <img src={image.src} srcset={photoSrcSet(image)} sizes="(max-width: 540px) 80vw, 25vw" width={image.width} height={image.height} alt={image.alt[lang]} loading="lazy" />
-          <span class="continent-photo-copy"><small>{lang === 'es' ? 'EXPLORA' : 'EXPLORE'}</small><strong>{names[lang]}</strong><Icon/></span>
+          <span class="continent-photo-copy"><small>{lang === 'es' ? 'EXPLORA' : 'EXPLORE'}</small><strong>{names[lang]}</strong><span class="continent-description">{descriptions[key][lang === 'es' ? 0 : 1]}</span><Icon/></span>
           <span class="continent-photo-credit">{image.credit} · {image.license}</span>
         </a>;
       })}

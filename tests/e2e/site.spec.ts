@@ -152,7 +152,7 @@ test('Atlas search and destination cards work, with no overflow at intermediate 
 test('Atlas remains navigable without JavaScript or the globe asset', async ({ browser }) => {
   const context = await browser.newContext({ javaScriptEnabled: false });
   const page = await context.newPage();
-  await page.route('**/design/globe.svg', r => r.abort());
+  await page.route('**/design/earth-atlas.webp', r => r.abort());
   await page.goto('/en/');
   await expect(page.locator('h1')).toContainText('A world');
   await expect(page.locator('.explorer-search input')).toBeVisible();

@@ -119,6 +119,6 @@ Cloudflare Pages utiliza GitHub/main: `maletafeliz-web` sirve la revista y `male
 
 El titular facilitó Luis Sebastian Cazorla Caruso, Argentina, luterapps@gmail.com. La revisión de textos legales es técnica y editorial, sin afirmar asesoría jurídica profesional. Search Console y afiliados requieren su configuración real. Analytics y el código de conexión de AdSense están instalados con los límites de verificación descritos arriba.
 
-No hay una tarea recurrente de redacción de Codex Cloud configurada ni probada, ni una lectura de porcentaje de cuota. Se mantiene el flujo manual `PUBLICAR 5 ARTÍCULOS` y el objetivo documentado de las 00:00 America/New_York. No se usan APIs de IA de pago, bases de datos ni automatizaciones ficticias.
+La captura del titular muestra una tarea diaria a las 09:00 America/New_York, horario aceptado por él. Su ejecución y acceso al entorno de publicación no están verificados. Las herramientas de esta sesión no permiten editar esa tarea o manejar la app; `read_thread` falla por conexión. Este entorno sí conserva acceso comprobado a GitHub y a ambos proyectos de Cloudflare. Se mantiene disponible el flujo manual `PUBLICAR 5 ARTÍCULOS`; tampoco hay lectura del porcentaje de cuota. No se usan APIs de IA de pago, bases de datos ni automatizaciones ficticias.
 
 Las verificaciones de tandas anteriores permanecen en `editorial/verification/2026-10-28.json` y `2026-10-29.json`. El estado `published` de un artículo selecciona contenido para compilar; únicamente el registro de verificación pública acredita que está en el dominio.

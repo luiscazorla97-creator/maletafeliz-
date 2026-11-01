@@ -1,6 +1,6 @@
 # Publicar cinco guías diarias de MaletaFeliz
 
-Configuración solicitada: todos los días a las **00:00 (medianoche), America/New_York**, con ejecución en la nube. Repositorio: `luiscazorla97-creator/maletafeliz-`, rama de publicación `main`.
+Configuración solicitada: todos los días a las **09:00 (9 de la mañana), America/New_York**, con ejecución en la nube. Repositorio: `luiscazorla97-creator/maletafeliz-`, rama de publicación `main`.
 
 ## Instrucción para la tarea
 
@@ -23,18 +23,18 @@ Usá la capacidad de Codex incluida en la tarea, sin contratar APIs de IA, servi
 ## Parámetros de calendario para un programador compatible
 
 - Zona IANA: `America/New_York`.
-- Hora local: `00:00`.
-- Recurrencia: `FREQ=DAILY;BYHOUR=0;BYMINUTE=0;BYSECOND=0`.
+- Hora local: `09:00`.
+- Recurrencia: `FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0`.
 - Cinco originales / diez versiones por ejecución diaria.
 - Ejecutar en la nube con acceso al repositorio y al entorno configurado.
 - No sustituir por una hora UTC fija: Nueva York cambia con el horario de verano.
 
 Este archivo es una especificación y un texto listo para una tarea; por sí solo **no crea ni activa una automatización**.
 
-El titular informó que su app ofrece ejecución de automatizaciones en la nube. Esta sesión no expone una herramienta para crearlas ni para manejar esa pantalla; la activación y la primera ejecución siguen pendientes de comprobación.
+La captura del titular muestra una tarea diaria a las 09:00 America/New_York en otro chat; el titular aceptó ese horario. La captura no acredita el acceso de ese chat al repositorio ni al entorno de Cloudflare. Esta sesión no expone herramientas para editar el programador o manejar esa pantalla, y la lectura del otro chat falla por conexión. La publicación automática y la primera ejecución siguen pendientes de comprobación.
 
 ## Texto breve para pegar en la automatización
 
 > En el repositorio luiscazorla97-creator/maletafeliz-, sincronizá main y ejecutá docs/DAILY-PUBLISHING.md: elegí, investigá y publicá cinco guías originales nuevas en español e inglés, sin repetir destinos ni intenciones. Cada lugar recomendado debe tener una foto real pertinente y acreditada. Aplicá los controles editoriales y SEO, ejecutá build:release y las pruebas necesarias, guardá en GitHub, desplegá en los proyectos existentes de Cloudflare y verificá las URLs públicas. Evitá duplicar el lote del día en America/New_York. Usá el entorno en la nube configurado y la capacidad de Codex, sin APIs de IA de pago. El titular autoriza publicar sin una confirmación adicional por tanda. Informá los enlaces y cualquier bloqueo real.
 
-Al crearla en la app, elegir el repositorio, ejecución en la nube, todos los días, 00:00 y zona America/New_York. La hora es de inicio del trabajo; investigar, revisar y desplegar requiere tiempo antes de que las guías aparezcan en público.
+La pantalla observada permite elegir un chat de ejecución, frecuencia diaria y las 09:00 America/New_York; no muestra un selector de repositorio ni de entorno. El chat seleccionado debe poder acceder al repositorio y al entorno configurado antes de considerar operativa la publicación automática. La hora es de inicio del trabajo; investigar, revisar y desplegar requiere tiempo antes de que las guías aparezcan en público.

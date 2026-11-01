@@ -11,3 +11,13 @@ Before publishing, remote main was fetched. New destination and Christmas public
 The globe routes pause offscreen/in hidden tabs and respect reduced motion. All text, navigation and search are real HTML. Advertising components, analytics/consent, identifiers, provider scripts, legal exclusions, popunder-disabled state, headers and existing ad dimensions remain unchanged.
 
 Screenshots: `atlas-night-desktop.png` and `atlas-night-mobile.png`. Production validation, deployment and public verification results are recorded with the task delivery. Earlier screenshot/inventory files are historical evidence from the initial light preview.
+
+## Validation before publication
+
+- Astro check: zero errors, warnings or hints.
+- Unit suite: 33 passed.
+- Preview and release builds: passed, 626 HTML pages.
+- E2E suite: 14 passed, including desktop/mobile, intermediate widths, reduced motion and unavailable globe/JavaScript.
+- Selected production suite: 42 passed, covering all advertisement/consent checks, homepage and sitemap, ES/EN Lisbon, Tokyo, Cape Town and Christmas New York, on desktop/mobile. Existing ad formats were tested at 320–2560 px with simulated creatives. Real provider delivery is not claimed.
+- Public sitemap before publication versus the release build: 602 URLs each, zero added or missing URLs.
+- `atlas-night-ads-simulated.png`: the final production layout with clearly labelled simulated ads. Destination/editorial photos are unchanged; only the decorative Earth uses generated artwork.

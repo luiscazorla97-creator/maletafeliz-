@@ -10,6 +10,7 @@ export type Photo = {
   alt: Record<Locale, string>;
   credit: string;
   sourceUrl: string;
+  attributionUrl?: string;
   license: string;
   licenseUrl: string;
   verifiedAt: string;

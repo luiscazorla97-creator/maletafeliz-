@@ -9,6 +9,7 @@ import {
   type Article,
 } from '../lib/content';
 import { destinations, destinationUrl } from '../data/destinations';
+import { route } from '../lib/routes';
 const { article: a } = Astro.props as { article: Article };
 const lang = a.locale as Locale;
 const t = dictionary[lang];
@@ -38,6 +39,11 @@ const format = (s?: string) =>
     </span>
     <h1>{a.title}</h1>
     <p>{a.description}</p>
+    {a.id.startsWith('christmas-') && (
+      <a class="text-link" href={route(lang, 'christmas')}>
+        {lang === 'es' ? 'Más ciudades para viajar en Navidad' : 'More cities for a Christmas trip'}
+      </a>
+    )}
     <div class="article-meta">
       <span>{t.editor}</span>
       <span>
@@ -73,6 +79,9 @@ const format = (s?: string) =>
       <a href={cover.licenseUrl} rel="license noopener noreferrer">
         {cover.license}
       </a>
+      {cover.attributionUrl && (
+        <span> · <a href={cover.attributionUrl} rel="noopener noreferrer">{lang === 'es' ? 'Web del autor' : 'Author’s website'}</a></span>
+      )}
     </figcaption>
   </figure>
   <div class="article-grid">
@@ -125,6 +134,9 @@ const format = (s?: string) =>
                   <a href={image.licenseUrl} rel="license">
                     {image.license}
                   </a>
+                  {image.attributionUrl && (
+                    <span> · <a href={image.attributionUrl} rel="noopener noreferrer">{lang === 'es' ? 'Web del autor' : 'Author’s website'}</a></span>
+                  )}
                 </figcaption>
               </figure>
             )}

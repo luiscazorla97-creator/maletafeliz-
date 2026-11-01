@@ -98,7 +98,7 @@ const categoryNames = {
   nature: t.nature,
   culture: t.culture,
   beaches: t.beaches,
-  festivals: lang === 'es' ? 'Halloween y Día de Muertos' : 'Halloween and Day of the Dead',
+  festivals: lang === 'es' ? 'Fiestas y celebraciones' : 'Festivals and celebrations',
 };
 const isCategory = kind === 'explore' && id?.startsWith('category-');
 const selection =
@@ -225,8 +225,8 @@ const empty = destination
     article?.description ||
     (id === 'category-festivals'
       ? (lang === 'es'
-          ? 'Guías de Halloween y Día de Muertos: destinos, fechas verificadas, fotografías y consejos para organizar una visita respetuosa.'
-          : 'Halloween and Day of the Dead guides: destinations, checked dates, photographs and practical advice for a thoughtful visit.')
+          ? 'Guías de Navidad, Halloween y Día de Muertos: destinos, fotografías y consejos para organizar una visita y comprobar las fechas de cada celebración.'
+          : 'Christmas, Halloween and Day of the Dead guides: destinations, photographs and practical advice for planning a visit and checking seasonal dates.')
       : undefined) ||
     (destination ? destination.titles[lang] : t.footerText)
   }

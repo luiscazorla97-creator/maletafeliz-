@@ -1,0 +1,70 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/DestinationCard.astro';
+import { destinations } from '../../data/destinations';
+import { forLocale, photoFor, articlePath } from '../../lib/content';
+import { route } from '../../lib/routes';
+import { locales, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales
+    .filter((lang) => forLocale(lang).some((a) => a.id.startsWith('christmas-')))
+    .map((lang) => ({ params: { lang, season: lang === 'es' ? 'navidad' : 'christmas' } }));
+}
+const lang = Astro.params.lang as Locale;
+const articles = forLocale(lang).filter((a) => a.id.startsWith('christmas-'));
+const selection = destinations.filter((d) => articles.some((a) => a.destinationId === d.id));
+const title = lang === 'es'
+  ? `Navidad 2026: ${articles.length} ciudades para visitar`
+  : `Christmas 2026: ${articles.length} cities to visit`;
+const description = lang === 'es'
+  ? 'Elegí tu viaje de Navidad entre mercadillos, luces y paseos urbanos. Guías con rutas, fotos reales y fechas confirmadas o pendientes para 2026.'
+  : 'Plan a Christmas trip around markets, lights and city walks. Guides with routes, real photographs and confirmed or pending dates for 2026.';
+const groups = [
+  { ids: ['fr', 'de', 'at', 'ch'], es: 'Mercadillos en Francia, Alemania, Austria y Suiza', en: 'Markets in France, Germany, Austria and Switzerland' },
+  { ids: ['fi', 'ee', 'se', 'dk', 'cz', 'hu'], es: 'Navidad en el norte y centro de Europa', en: 'Christmas in northern and central Europe' },
+  { ids: ['gb', 'ie', 'nl', 'be'], es: 'Luces y escapadas urbanas', en: 'Festive lights and city breaks' },
+  { ids: ['es', 'it'], es: 'Navidad en España e Italia', en: 'Christmas in Spain and Italy' },
+  { ids: ['us', 'ca', 'au'], es: 'Navidad en América y Australia', en: 'Christmas in the Americas and Australia' },
+];
+---
+
+<Layout
+  lang={lang}
+  title={title}
+  description={description}
+  alternates={{ es: route('es', 'christmas'), en: route('en', 'christmas') }}
+  image={photoFor(articles[0]?.coverImageId)?.src}
+>
+  <div class="shell">
+    <header class="page-heading">
+      <nav class="breadcrumbs">
+        <a href={`/${lang}/`}>{lang === 'es' ? 'Inicio' : 'Home'}</a><span>/</span>
+        <span>{lang === 'es' ? 'Navidad' : 'Christmas'}</span>
+      </nav>
+      <span class="eyebrow orange">{lang === 'es' ? 'PREPARÁ TU ESCAPADA' : 'PLAN YOUR FESTIVE BREAK'}</span>
+      <h1>{title}</h1>
+      <p>{description}</p>
+      <p>{lang === 'es'
+        ? 'Elegí por el tipo de viaje que buscás: recorrer mercadillos a pie, ver luces en una gran ciudad o pasar unos días de invierno en el norte. No todos los mercados abren el 25 de diciembre y la nieve nunca está garantizada. Cada guía distingue el programa confirmado de lo que todavía requiere consultar al organizador.'
+        : 'Choose the kind of trip you want: walk between Christmas markets, see big-city lights or spend a few winter days in the north. Not every market opens on 25 December, and snow is never guaranteed. Each guide distinguishes confirmed programmes from details that still need checking with the organiser.'}</p>
+      <nav class="filter-tabs" aria-label={lang === 'es' ? 'Elegir región' : 'Choose a region'}>
+        {groups.map((g, i) => <a class="button" href={`#region-${i}`}>{g[lang]}</a>)}
+      </nav>
+    </header>
+    {groups.map((g, i) => (
+      <section class="section" aria-labelledby={`region-${i}`}>
+        <div class="section-heading"><h2 id={`region-${i}`}>{g[lang]}</h2></div>
+        <div class="card-grid">
+          {selection.filter((d) => g.ids.includes(d.countryId)).map((d) => <Card destination={d} lang={lang} href={articlePath(articles.find((a) => a.destinationId === d.id)!)} />)}
+        </div>
+      </section>
+    ))}
+    <section class="section prose">
+      <h2>{lang === 'es' ? 'Cómo elegir fechas y reservar' : 'Choosing dates and booking'}</h2>
+      <p>{lang === 'es'
+        ? 'Si tu prioridad son los mercadillos, compará las fechas concretas de cada recinto antes de comprar el vuelo: muchos terminan antes de Nochebuena y otros siguen en enero. Para viajar en familia, una base cerca del transporte y una pausa bajo techo suelen ser más útiles que sumar ciudades. Las fotos muestran los lugares reales; una imagen de archivo no confirma la decoración de esta temporada.'
+        : 'If markets are your priority, compare each venue’s dates before buying flights: many close before Christmas Eve, while others continue into January. For a family trip, staying near transport and planning an indoor break often helps more than adding another city. Photographs show the real places; an archive image does not confirm this season’s decorations.'}</p>
+    </section>
+  </div>
+</Layout>

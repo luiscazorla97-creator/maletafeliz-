@@ -1,0 +1,175 @@
+{
+  "verifiedAt": "2026-11-01T18:27:23.377Z",
+  "types": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "unit": 33,
+  "previewNavigation": 10,
+  "productionBrowser": 508,
+  "productionHtmlPages": 626,
+  "newOriginals": 40,
+  "newLocalizations": 80,
+  "newPlaceImageAssignments": 120,
+  "newUniquePhotographs": 108,
+  "productionGuideRoutes": 240,
+  "viewports": [
+    "mobile",
+    "desktop"
+  ],
+  "providerScriptsMocked": true,
+  "visualReview": {
+    "verified": true,
+    "reviewedAt": "2026-11-01T18:23:50.761Z",
+    "reviewer": "Codex root visual review (AI-assisted)",
+    "capturedAt": "2026-11-01T18:22:44.333Z",
+    "samples": [
+      {
+        "id": "christmas-london",
+        "view": "mobile",
+        "path": "/tmp/christmas-layout-london-mobile.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-vienna",
+        "view": "mobile",
+        "path": "/tmp/christmas-layout-vienna-mobile.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-colmar",
+        "view": "mobile",
+        "path": "/tmp/christmas-layout-colmar-mobile.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-berlin",
+        "view": "mobile",
+        "path": "/tmp/christmas-layout-berlin-mobile.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-helsinki",
+        "view": "mobile",
+        "path": "/tmp/christmas-layout-helsinki-mobile.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-bruges",
+        "view": "mobile",
+        "path": "/tmp/christmas-layout-bruges-mobile.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-dublin",
+        "view": "mobile",
+        "path": "/tmp/christmas-layout-dublin-mobile.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-madrid",
+        "view": "mobile",
+        "path": "/tmp/christmas-layout-madrid-mobile.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-quebec",
+        "view": "mobile",
+        "path": "/tmp/christmas-layout-quebec-mobile.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-sydney",
+        "view": "mobile",
+        "path": "/tmp/christmas-layout-sydney-mobile.png",
+        "horizontalOverflow": false
+      },
+      {
+        "collection": "es",
+        "view": "mobile",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-london",
+        "view": "desktop",
+        "path": "/tmp/christmas-layout-london-desktop.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-vienna",
+        "view": "desktop",
+        "path": "/tmp/christmas-layout-vienna-desktop.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-colmar",
+        "view": "desktop",
+        "path": "/tmp/christmas-layout-colmar-desktop.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-berlin",
+        "view": "desktop",
+        "path": "/tmp/christmas-layout-berlin-desktop.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-helsinki",
+        "view": "desktop",
+        "path": "/tmp/christmas-layout-helsinki-desktop.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-bruges",
+        "view": "desktop",
+        "path": "/tmp/christmas-layout-bruges-desktop.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-dublin",
+        "view": "desktop",
+        "path": "/tmp/christmas-layout-dublin-desktop.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-madrid",
+        "view": "desktop",
+        "path": "/tmp/christmas-layout-madrid-desktop.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-quebec",
+        "view": "desktop",
+        "path": "/tmp/christmas-layout-quebec-desktop.png",
+        "horizontalOverflow": false
+      },
+      {
+        "id": "christmas-sydney",
+        "view": "desktop",
+        "path": "/tmp/christmas-layout-sydney-desktop.png",
+        "horizontalOverflow": false
+      },
+      {
+        "collection": "es",
+        "view": "desktop",
+        "horizontalOverflow": false
+      }
+    ],
+    "notes": [
+      "Viewed the20 selected first-place layouts across10 new guides at390px and1440px. Text, photographs, archive captions, credits and following headings remain readable and contained.",
+      "Viewed Christmas collection introduction/navigation and card grids onmobile anddesktop;40guide links grouped byregion.",
+      "No horizontal overflow in captured layouts. Advertising providers mocked; no live ad impressions generated.",
+      "Full-guide photo decoding, translation, metadata and author-link coverage verified separately by production browser suite."
+    ]
+  },
+  "checks": [
+    "All published guides render and switch to the corresponding translation",
+    "Every recommended place renders a decodable photograph",
+    "Canonical, reciprocal hreflang, H1, indexing and article JSON-LD",
+    "Christmas collections link all40 guides and translated collection",
+    "Search and sitemap discover published guides",
+    "No horizontal overflow or browser page errors",
+    "Existing banner placements and explicit Analytics consent preserved",
+    "Popunder remains absent"
+  ]
+}

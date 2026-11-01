@@ -6,6 +6,7 @@ const segments = {
     guides: 'guias',
     explore: 'explorar',
     info: 'informacion',
+    christmas: 'navidad',
   },
   en: {
     search: 'search',
@@ -13,6 +14,7 @@ const segments = {
     guides: 'guides',
     explore: 'explore',
     info: 'information',
+    christmas: 'christmas',
   },
 };
 export const route = (lang: Locale, kind: keyof typeof segments.es, id = '') =>

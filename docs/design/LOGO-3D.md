@@ -38,3 +38,9 @@ All active legacy SVG references were replaced, including publisher logo metadat
 - Cloudflare's existing `npm run build:release` remains the mandatory production gate.
 
 Screenshots: `logo-3d-1440.png`, `logo-3d-390.png`. The reference presentation was used to prepare the independent logo resources; the presentation board is not embedded in the site.
+
+## Verified publication
+
+Both Cloudflare projects deployed commit `31295433a62263d4f02c199b5f36ba2cec981e7e` successfully, including the mandatory production gate. All eight brand resource responses are HTTP 200 and byte-identical to the validated local files. Public browser checks passed at all six widths for header/footer loading, aspect ratio, accessible name, home link, favicon, header containment and navigation separation. The sitemap retains 602 URLs.
+
+Evidence: `editorial/verification/2026-11-01-logo-3d.json`. Public screenshots: `logo-3d-live-1440.png`, `logo-3d-live-390.png`, and corresponding footer captures.

@@ -1,0 +1,241 @@
+{
+  "checkedAt": "2026-11-01T20:51:57.031200+00:00",
+  "deployedCommit": "31295433a62263d4f02c199b5f36ba2cec981e7e",
+  "deployments": [
+    {
+      "project": "maletafeliz-web",
+      "expectedCommit": "31295433a62263d4f02c199b5f36ba2cec981e7e",
+      "found": true,
+      "id": "4878ff03-7732-404b-87af-bf8206372e58",
+      "url": "https://4878ff03.maletafeliz-web.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-01T20:49:41.142129Z",
+        "ended_on": "2026-11-01T20:49:53.495453Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "status": "success"
+        }
+      ],
+      "commit": "31295433a62263d4f02c199b5f36ba2cec981e7e"
+    },
+    {
+      "project": "maletafeliz-www",
+      "expectedCommit": "31295433a62263d4f02c199b5f36ba2cec981e7e",
+      "found": true,
+      "id": "43373bac-44aa-4b0d-b780-2b2f6b55b9d1",
+      "url": "https://43373bac.maletafeliz-www.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-01T20:50:13.252786Z",
+        "ended_on": "2026-11-01T20:50:20.448741Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "status": "success"
+        }
+      ],
+      "commit": "31295433a62263d4f02c199b5f36ba2cec981e7e"
+    }
+  ],
+  "browser": {
+    "checks": [
+      {
+        "width": 320,
+        "logo": {
+          "x": 16,
+          "y": 14.40625,
+          "width": 153.59375,
+          "height": 43.1875
+        },
+        "headerHeight": 73,
+        "headerLogoLoaded": true,
+        "footerLogoLoaded": true,
+        "correctRatio": true,
+        "noHeaderOverlap": true,
+        "accessibleName": "MaletaFeliz",
+        "favicon": "/brand/favicon-3d-32.png"
+      },
+      {
+        "width": 390,
+        "logo": {
+          "x": 16,
+          "y": 9.671875,
+          "width": 187.1875,
+          "height": 52.640625
+        },
+        "headerHeight": 73,
+        "headerLogoLoaded": true,
+        "footerLogoLoaded": true,
+        "correctRatio": true,
+        "noHeaderOverlap": true,
+        "accessibleName": "MaletaFeliz",
+        "favicon": "/brand/favicon-3d-32.png"
+      },
+      {
+        "width": 768,
+        "logo": {
+          "x": 20,
+          "y": 6.46875,
+          "width": 210,
+          "height": 59.0625
+        },
+        "headerHeight": 73,
+        "headerLogoLoaded": true,
+        "footerLogoLoaded": true,
+        "correctRatio": true,
+        "noHeaderOverlap": true,
+        "accessibleName": "MaletaFeliz",
+        "favicon": "/brand/favicon-3d-32.png"
+      },
+      {
+        "width": 820,
+        "logo": {
+          "x": 28,
+          "y": 13.28125,
+          "width": 190,
+          "height": 53.4375
+        },
+        "headerHeight": 81,
+        "headerLogoLoaded": true,
+        "footerLogoLoaded": true,
+        "correctRatio": true,
+        "noHeaderOverlap": true,
+        "accessibleName": "MaletaFeliz",
+        "favicon": "/brand/favicon-3d-32.png"
+      },
+      {
+        "width": 1024,
+        "logo": {
+          "x": 28,
+          "y": 13.28125,
+          "width": 190,
+          "height": 53.4375
+        },
+        "headerHeight": 81,
+        "headerLogoLoaded": true,
+        "footerLogoLoaded": true,
+        "correctRatio": true,
+        "noHeaderOverlap": true,
+        "accessibleName": "MaletaFeliz",
+        "favicon": "/brand/favicon-3d-32.png"
+      },
+      {
+        "width": 1440,
+        "logo": {
+          "x": 100,
+          "y": 7.65625,
+          "width": 230,
+          "height": 64.6875
+        },
+        "headerHeight": 81,
+        "headerLogoLoaded": true,
+        "footerLogoLoaded": true,
+        "correctRatio": true,
+        "noHeaderOverlap": true,
+        "accessibleName": "MaletaFeliz",
+        "favicon": "/brand/favicon-3d-32.png"
+      }
+    ],
+    "errors": []
+  },
+  "assets": {
+    "assets": [
+      {
+        "asset": "logo-horizontal-3d-512.webp",
+        "status": 200,
+        "sha256": "4468b90d773486c4382cf4e88722e760cf27bb0275861598395f2bad770ab63f",
+        "identical": true
+      },
+      {
+        "asset": "logo-horizontal-3d-1024.webp",
+        "status": 200,
+        "sha256": "ffafea7781eccc8b01639a2281548bf5154b69a1b472b1dfe79169295b7ffd52",
+        "identical": true
+      },
+      {
+        "asset": "icon-3d.webp",
+        "status": 200,
+        "sha256": "e85b0a6ab979095bd05279204a5f935748252c1a1535ce05b101c0b1d3db7c4c",
+        "identical": true
+      },
+      {
+        "asset": "favicon-3d-32.png",
+        "status": 200,
+        "sha256": "833fdfa5863f46408624c5895d19c263a5d59c68cf58aa2c969d91f43ee8504d",
+        "identical": true
+      },
+      {
+        "asset": "icon-3d-512.png",
+        "status": 200,
+        "sha256": "30fae38f122458cfb29f6e2d065b342789b1dbc9a80b314b1747953d0ba1746b",
+        "identical": true
+      },
+      {
+        "asset": "logo-horizontal-3d.png",
+        "status": 200,
+        "sha256": "ea4b8cf7cd5a51f1359d5be6cc948a6f40ca023d011b3f8e0af1345cd992ba57",
+        "identical": true
+      },
+      {
+        "asset": "icon-3d-192.png",
+        "status": 200,
+        "sha256": "79d1ff83b285996f91ef32d18f7ce37ae5396e6bb90250091c3b3b9ae73e7dbb",
+        "identical": true
+      },
+      {
+        "asset": "apple-touch-icon-3d.png",
+        "status": 200,
+        "sha256": "14132680ae1c7ff249516f6b9e22b0088cfaa124fd320af9b8a2bd7f4b7ad812",
+        "identical": true
+      }
+    ],
+    "sitemapUrls": 602
+  },
+  "tests": {
+    "unit": 33,
+    "e2e": 28,
+    "astroCheck": "zero errors/warnings",
+    "previewBuildPages": 626,
+    "productionGate": "npm run build:release completed successfully in existing Cloudflare pipeline"
+  },
+  "preservation": "No changes to advertising components/scripts/IDs, Analytics/consent, editorial content, documentary photos, routes or dependencies. Publisher logo URL and icon metadata updated only for the new brand.",
+  "browserTransport": "Real first-party HTTPS responses fetched through the managed Node proxy with TLS validation enabled and CSP preserved; provider traffic blocked during QA."
+}

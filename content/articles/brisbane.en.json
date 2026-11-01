@@ -1,0 +1,157 @@
+{
+  "id": "brisbane",
+  "destinationId": "brisbane",
+  "intent": "brisbane-first-visit-three-places-route",
+  "status": "published",
+  "coverImageId": "nov1-brisbane-south-bank",
+  "sources": [
+    {
+      "id": "nov1-brisbane-south-bank",
+      "url": "https://visit.brisbane.qld.au/places-to-go/inner-city/south-bank",
+      "title": "South Bank — Visit Brisbane",
+      "accessedAt": "2026-11-01T16:44:37.235Z",
+      "evidenceFile": "content/research/nov1-brisbane-south-bank.json"
+    },
+    {
+      "id": "nov1-brisbane-gardens",
+      "url": "https://www.brisbane.qld.gov.au/parks-and-recreation/botanic-gardens/city-botanic-gardens",
+      "title": "City Botanic Gardens — Brisbane City Council",
+      "accessedAt": "2026-11-01T16:45:36.319Z",
+      "evidenceFile": "content/research/nov1-brisbane-gardens.json"
+    },
+    {
+      "id": "nov1-brisbane-lone-pine",
+      "url": "https://lonepinekoalasanctuary.com/",
+      "title": "Lone Pine Koala Sanctuary — official visitor website",
+      "accessedAt": "2026-11-01T16:44:35.763Z",
+      "evidenceFile": "content/research/nov1-brisbane-lone-pine.json"
+    },
+    {
+      "id": "nov1-brisbane-lone-pine-journey",
+      "url": "https://lonepinekoalasanctuary.com/planyourjourney/",
+      "title": "Plan Your Journey to Lone Pine — official visitor information",
+      "accessedAt": "2026-11-01T16:45:05.317Z",
+      "evidenceFile": "content/research/nov1-brisbane-lone-pine-journey.json"
+    }
+  ],
+  "relatedIds": [
+    "sydney",
+    "melbourne"
+  ],
+  "locale": "en",
+  "slug": "what-to-see-in-brisbane",
+  "title": "Brisbane in 3 days: South Bank, gardens and Lone Pine",
+  "description": "Plan three days in Brisbane with South Bank, City Botanic Gardens and Lone Pine: real photographs, practical routes, transport choices and booking advice.",
+  "keyword": "Brisbane in 3 days",
+  "relatedQueries": [
+    "how to get to Lone Pine from Brisbane",
+    "South Bank things to do",
+    "City Botanic Gardens versus Mt Coot-tha"
+  ],
+  "intro": [
+    "The river provides a useful framework for a first visit to Brisbane. This three-day route brings together three contrasting experiences: walking around South Bank, exploring the City Botanic Gardens and spending a day at Lone Pine Koala Sanctuary. The first two belong to the central city; the sanctuary requires a separate journey and an admission ticket. Understanding that distinction helps prevent transport mistakes and an itinerary that leaves too little time at each stop.",
+    "Three days is a comfortable suggestion rather than a compulsory stay. With less time, choose according to your interests and the forecast. This guide explains what makes each place worthwhile, how to organise the visits and which details to check before booking. It is a focused city itinerary, not a complete tour of Queensland or a substitute for researching a separate coastal holiday."
+  ],
+  "quickFacts": [
+    {
+      "label": "Suggested stay",
+      "value": "Three days, including a day for the sanctuary"
+    },
+    {
+      "label": "Route structure",
+      "value": "Two central visits and a trip to Fig Tree Pocket"
+    },
+    {
+      "label": "Priority booking",
+      "value": "Lone Pine admission and transport, subject to availability"
+    }
+  ],
+  "sections": [
+    {
+      "id": "south-bank",
+      "kind": "place",
+      "heading": "South Bank: riverside views and a relaxed walk through the Arbour",
+      "sourceIds": [
+        "nov1-brisbane-south-bank"
+      ],
+      "imageId": "nov1-brisbane-south-bank",
+      "paragraphs": [
+        "South Bank combines parkland, places to sit and views across the Brisbane River towards the city. Visit Brisbane highlights the riverside Clem Jones Promenade and the Arbour, a curving structure covered with bougainvillea. They provide complementary ways to explore the same precinct. One opens out towards the water and buildings; the other encourages you to notice the planting and stop for a shaded break rather than simply hurry through.",
+        "Start by identifying your entry point and the place where you want to finish. Walk out along one route and return by the other, allowing time to sit down. You do not need to fit every activity in the precinct into a single afternoon. A flexible first walk is particularly useful after a long flight or while adjusting to warm conditions, and it helps you understand how the river shapes the central city.",
+        "Streets Beach is a landscaped swimming pool within the Parklands, rather than an ocean beach. If you intend to swim, check access conditions and follow signs and staff instructions. The walk remains worthwhile without entering the water. Families should agree on a meeting point and allow realistic time for breaks: a busy leisure precinct does not make every movement between its different spaces a supervised activity for children.",
+        "You will also find options for food and picnics, but it helps to separate the walking plan from the eating budget. Decide whether to bring something or buy a meal before hunger makes the decision for you. Carry water, suitable sun protection and comfortable shoes, and check the forecast. A skyline photograph records the setting; the more satisfying part of this visit is spending enough time in the public spaces to enjoy their different perspectives."
+      ]
+    },
+    {
+      "id": "gardens",
+      "kind": "place",
+      "heading": "City Botanic Gardens: a heritage garden in the centre of Brisbane",
+      "sourceIds": [
+        "nov1-brisbane-gardens"
+      ],
+      "imageId": "nov1-brisbane-gardens",
+      "paragraphs": [
+        "The City Botanic Gardens sit beside the river, with access from Alice Street and other central points. They are not the Brisbane Botanic Gardens at Mt Coot-tha: that similar name belongs to a different garden and can lead to a mistaken transport choice. The city council describes this central site as a heritage garden with native and exotic plants and trees. For this itinerary, search using its full name and its Alice Street address.",
+        "A little historical context changes the experience. The area became a botanic reserve in 1855, when Walter Hill was appointed its first curator. Instead of treating the grounds only as a convenient shortcut, look for interpretation signs and notice how the planted spaces relate to the river. You do not need botanical training to appreciate differences in tree shapes, foliage and shade, or to understand that this is a living collection with a history.",
+        "The council suggests self-guided exploration using its Treasures brochure and map, alongside guided walks whose availability should be checked. Choose a circuit that combines interior paths with the river frontage. If joining a guide matters to you, confirm the meeting point before arranging the rest of the day. Access to the park and the operating hours of a café, information kiosk or organised activity should be treated as separate details.",
+        "Goodwill Bridge and Gardens Point provide documented access options that connect the gardens with the wider river area, but check your exact route and current access conditions. Travellers with reduced mobility should consult the council information about entrances, surfaces and facilities. Allow time to rest in a suitable place and take your rubbish away. A slower visit gives the planting and heritage more attention without requiring an endless checklist of attractions."
+      ]
+    },
+    {
+      "id": "lone-pine",
+      "kind": "place",
+      "heading": "Lone Pine: plan the wildlife visit before leaving the city",
+      "sourceIds": [
+        "nov1-brisbane-lone-pine",
+        "nov1-brisbane-lone-pine-journey"
+      ],
+      "imageId": "nov1-brisbane-lone-pine",
+      "paragraphs": [
+        "Lone Pine Koala Sanctuary is in Fig Tree Pocket, at 708 Jesmond Road, beyond the central walking area of the other two visits. Its riverside site brings together koalas and other Australian animals. Give it a day that includes transport and breaks rather than treating it as a quick stop between South Bank and the gardens. Look at the sanctuary map beforehand and decide which animals and interpretive activities are most relevant to your interests.",
+        "The main practical decision is how to travel in both directions. The operator identifies bus routes 430 and 445 and refers visitors to Translink for current timetables. It also describes a commercial river cruise. That trip is not a CityCat service: the sanctuary explicitly states that CityCat ferries do not travel to Lone Pine. Compare the complete journey, ticket conditions and available return service, rather than choosing only because one outward journey sounds particularly attractive.",
+        "Check general admission separately from any additional experience. The official website warns that experience and encounter tickets do not include sanctuary entry. Do not assume you will be able to touch, hold or feed animals: each activity has its own conditions and depends on the current offer. Follow staff instructions, respect barriers and watch without chasing animals or trying to attract their attention. Consider whether observation alone already provides the visit you want.",
+        "Before fixing the day, check the operator’s notices about exceptional closures or access changes. Confirm arrangements for your actual date before paying for transport, particularly when choosing an excursion with fixed departures and returns. General visitor information does not replace checking specific notices. If an announcement does not clearly identify its year or period of validity, ask the sanctuary before relying on it to make a booking decision."
+      ]
+    },
+    {
+      "id": "planning",
+      "kind": "practical",
+      "heading": "How to divide your time and keep the budget clear",
+      "sourceIds": [
+        "nov1-brisbane-south-bank",
+        "nov1-brisbane-gardens",
+        "nov1-brisbane-lone-pine-journey"
+      ],
+      "paragraphs": [
+        "Choose accommodation by comparing its location with the routes you will genuinely use. For these visits, useful considerations are access to the centre and the connection towards Fig Tree Pocket. A lower room rate does not automatically compensate for repeated long journeys. Estimate the whole trip: accommodation, meals, admission, outward and return transport, and any optional experience you decide to book. This makes comparison more meaningful than judging isolated headline prices.",
+        "With two days, you can combine South Bank and the City Botanic Gardens if the weather and your walking pace allow, then use the other day for the sanctuary. Three days provide room to rest, change the order or spend longer among the gardens. Adjust outdoor walks in heavy rain or uncomfortable heat; an editorial itinerary is a suggestion rather than an obligation. Save tickets and useful maps so that every decision does not depend on a live internet connection."
+      ]
+    }
+  ],
+  "itinerary": [
+    "Day 1: settle in and explore South Bank, alternating the Arbour with the river frontage. Identify the route you will use to return and keep the afternoon flexible. Swimming is an optional activity that depends on conditions, rather than an essential part of the plan.",
+    "Day 2: visit the City Botanic Gardens with the map and time to read some interpretation signs. Confirm a guided walk in advance if you want one. Combine walking with breaks, and make sure you have not accidentally selected the different botanical gardens at Mt Coot-tha.",
+    "Day 3: travel to Lone Pine with admission and transport checked. Look at the day’s programme first and arrange your route around what genuinely interests you. Leave a margin for reaching your return service, and check exceptional closure notices before starting the journey."
+  ],
+  "faq": [
+    {
+      "question": "Can you visit Brisbane without hiring a car?",
+      "answer": "This selection can work without a car if current services fit your accommodation and accessibility needs. Use Translink to check the sanctuary journey, including connections and the return trip. For the two central walks, choose suitable entry points rather than assuming every approach offers the same conditions."
+    },
+    {
+      "question": "Does the CityCat ferry go to Lone Pine Koala Sanctuary?",
+      "answer": "No. Lone Pine’s official information states that CityCat does not serve the sanctuary. The commercial cruise described by the operator is a different service. Check its departure point, inclusions, availability and return arrangements before buying a ticket."
+    },
+    {
+      "question": "Are the City Botanic Gardens the gardens at Mt Coot-tha?",
+      "answer": "No. This guide visits the central City Botanic Gardens, officially located at 147 Alice Street. Brisbane Botanic Gardens Mt Coot-tha are in another location. Use the complete name when checking directions to avoid travelling to the wrong garden."
+    },
+    {
+      "question": "Do you need to book an additional koala experience?",
+      "answer": "Do not assume that an extra encounter is compulsory or included with admission. Compare general entry with the experiences offered on your date. The operator says experience tickets do not include sanctuary entry, so check both conditions carefully before paying."
+    }
+  ],
+  "conclusion": "For a first Brisbane visit, this combination brings together the river, botanical heritage and Australian wildlife with manageable planning. South Bank and the City Botanic Gardens allow flexibility; Lone Pine deserves attention to admission, transport and the actual travel date. If your Australian trip continues, our Sydney and Melbourne guides help compare other city stays without trying to compress the entire country into one itinerary.",
+  "publishedAt": "2026-11-01T16:54:08.140Z",
+  "updatedAt": "2026-11-01T16:54:08.140Z"
+}

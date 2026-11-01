@@ -4176,5 +4176,290 @@
       "es": "https://maletafeliz.com/es/guias/que-ver-en-perth/",
       "en": "https://maletafeliz.com/en/guides/what-to-see-in-perth/"
     }
+  },
+  {
+    "id": "ushuaia",
+    "city": {
+      "es": "Ushuaia",
+      "en": "Ushuaia"
+    },
+    "countryId": "ar",
+    "country": {
+      "es": "Argentina",
+      "en": "Argentina"
+    },
+    "continent": "america",
+    "places": [
+      [
+        "park",
+        "Parque Nacional Tierra del Fuego",
+        "Tierra del Fuego National Park"
+      ],
+      [
+        "channel",
+        "Canal Beagle y faro Les Éclaireurs",
+        "Beagle Channel and Les Éclaireurs Lighthouse"
+      ],
+      [
+        "museum",
+        "Museo Marítimo y del Presidio",
+        "Maritime and Prison Museum"
+      ]
+    ],
+    "related": [
+      "buenos-aires",
+      "iguazu"
+    ],
+    "days": 3,
+    "category": "cities",
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "ushuaia-first-visit-three-places-route",
+    "titles": {
+      "es": "Qué ver en Ushuaia en 3 días: parque, Beagle y antiguo presidio",
+      "en": "Ushuaia in 3 days: Tierra del Fuego park, Beagle Channel and prison"
+    },
+    "slugs": {
+      "es": "que-ver-en-ushuaia",
+      "en": "what-to-see-in-ushuaia"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "florence",
+    "city": {
+      "es": "Florencia",
+      "en": "Florence"
+    },
+    "countryId": "it",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "continent": "europe",
+    "places": [
+      [
+        "duomo",
+        "Catedral de Florencia",
+        "Florence Cathedral"
+      ],
+      [
+        "uffizi",
+        "Galería Uffizi",
+        "Uffizi Gallery"
+      ],
+      [
+        "bridge",
+        "Ponte Vecchio",
+        "Ponte Vecchio"
+      ]
+    ],
+    "related": [
+      "rome",
+      "venice"
+    ],
+    "days": 3,
+    "category": "cities",
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "florence-first-visit-three-places-route",
+    "titles": {
+      "es": "Qué ver en Florencia en 3 días: Duomo, Uffizi y Ponte Vecchio",
+      "en": "Florence in 3 days: the Duomo, Uffizi and Ponte Vecchio"
+    },
+    "slugs": {
+      "es": "que-ver-en-florencia",
+      "en": "what-to-see-in-florence"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "hanoi",
+    "city": {
+      "es": "Hanói",
+      "en": "Hanoi"
+    },
+    "countryId": "vn",
+    "country": {
+      "es": "Vietnam",
+      "en": "Vietnam"
+    },
+    "continent": "asia",
+    "places": [
+      [
+        "old-quarter",
+        "Barrio Antiguo de Hanói",
+        "Hanoi Old Quarter"
+      ],
+      [
+        "literature",
+        "Templo de la Literatura",
+        "Temple of Literature"
+      ],
+      [
+        "lake",
+        "Lago Hoan Kiem",
+        "Hoan Kiem Lake"
+      ]
+    ],
+    "related": [
+      "hoi-an",
+      "bangkok"
+    ],
+    "days": 3,
+    "category": "cities",
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "hanoi-first-visit-three-places-route",
+    "titles": {
+      "es": "Qué ver en Hanói en 3 días: barrio antiguo, templo y lago",
+      "en": "Hanoi in 3 days: the Old Quarter, Temple of Literature and lake"
+    },
+    "slugs": {
+      "es": "que-ver-en-hanoi",
+      "en": "what-to-see-in-hanoi"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "tunis",
+    "city": {
+      "es": "Túnez",
+      "en": "Tunis"
+    },
+    "countryId": "tn",
+    "country": {
+      "es": "Túnez",
+      "en": "Tunisia"
+    },
+    "continent": "africa",
+    "places": [
+      [
+        "medina",
+        "Medina de Túnez",
+        "Medina of Tunis"
+      ],
+      [
+        "bardo",
+        "Museo del Bardo",
+        "Bardo Museum"
+      ],
+      [
+        "carthage",
+        "Sitio arqueológico de Cartago",
+        "Archaeological Site of Carthage"
+      ]
+    ],
+    "related": [
+      "rabat",
+      "cairo"
+    ],
+    "days": 3,
+    "category": "cities",
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "tunis-first-visit-three-places-route",
+    "titles": {
+      "es": "Qué ver en Túnez en 3 días: medina, Bardo y Cartago",
+      "en": "What to see in Tunis in 3 days: the medina, Bardo and Carthage"
+    },
+    "slugs": {
+      "es": "que-ver-en-tunez",
+      "en": "what-to-see-in-tunis"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "brisbane",
+    "city": {
+      "es": "Brisbane",
+      "en": "Brisbane"
+    },
+    "countryId": "au",
+    "country": {
+      "es": "Australia",
+      "en": "Australia"
+    },
+    "continent": "oceania",
+    "places": [
+      [
+        "south-bank",
+        "South Bank",
+        "South Bank"
+      ],
+      [
+        "gardens",
+        "City Botanic Gardens",
+        "City Botanic Gardens"
+      ],
+      [
+        "lone-pine",
+        "Lone Pine Koala Sanctuary",
+        "Lone Pine Koala Sanctuary"
+      ]
+    ],
+    "related": [
+      "sydney",
+      "melbourne"
+    ],
+    "days": 3,
+    "category": "cities",
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "brisbane-first-visit-three-places-route",
+    "titles": {
+      "es": "Qué ver en Brisbane en 3 días: río, jardines y Lone Pine",
+      "en": "Brisbane in 3 days: South Bank, gardens and Lone Pine"
+    },
+    "slugs": {
+      "es": "que-ver-en-brisbane",
+      "en": "what-to-see-in-brisbane"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
   }
 ]

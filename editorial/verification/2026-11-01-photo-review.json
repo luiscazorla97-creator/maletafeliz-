@@ -1,0 +1,261 @@
+{
+  "verified": true,
+  "reviewedAt": "2026-11-01T16:53:40.837Z",
+  "reviewer": "Codex documentary-photo visual and licence review (AI-assisted)",
+  "photoCount": 15,
+  "variantCount": 60,
+  "method": "Read selected Wikimedia Commons descriptions and file-specific licensing metadata; fetched each exact file page and verified its license link; downloaded original/official thumbnail bytes and retained hashes; viewed all selected optimized photographs in contact sheets and final replacements individually; checked semantic correspondence and adjusted bilingual ALT to visible content.",
+  "findings": [
+    "Discarded Ushuaia parish-church and aircraft search results; actual former-prison exterior and Les Éclaireurs lighthouse used.",
+    "Discarded unrelated Brussels galleries and drawings from Uffizi search.",
+    "Discarded low-resolution Carthage candidate; source is an identified Antonine Baths photograph.",
+    "Replaced Hanoi close-up meat-market scene with a wider evening-market view in the Old Quarter.",
+    "Replaced generic canopy view with elevated City Botanic Gardens view; the actual Brisbane city garden is used, not Mount Coot-tha.",
+    "Discarded Lone Pine emu and souvenir-sign photos; the final photograph shows an actual koala at that sanctuary.",
+    "Rejected ambiguous mosque image initially labelled Zitouna because its architecture raised a location concern; also rejected a plaque-only fallback. Final Tunis image is the expressly identified Souk El Attarine rooftop/Medina terrace view, with captions matching visible rooftops.",
+    "All photographs are presented as archive images; no current appearance, opening conditions or access entitlement is implied.",
+    "No rate limit was encountered; Commons searches and downloads were spaced normally without alternate proxies or bypasses."
+  ],
+  "photos": [
+    {
+      "id": "nov1-ushuaia-park",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bahia_Lapataia_en_Tierra_del_Fuego.JPG",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "width": 1280,
+      "height": 720,
+      "alt": {
+        "es": "Bahía Lapataia en el Parque Nacional Tierra del Fuego",
+        "en": "Lapataia Bay in Tierra del Fuego National Park"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-ushuaia-park.json"
+    },
+    {
+      "id": "nov1-ushuaia-channel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farol_Les_%C3%89claireurs.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "es": "Faro Les Éclaireurs en el canal Beagle, cerca de Ushuaia",
+        "en": "Les Éclaireurs Lighthouse in the Beagle Channel near Ushuaia"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-ushuaia-channel.json"
+    },
+    {
+      "id": "nov1-ushuaia-museum",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museo_Maritimo_y_Ex_Presidio_de_Ushuaia_14.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "es": "Edificio del antiguo presidio y Museo Marítimo de Ushuaia",
+        "en": "Former prison building and Maritime Museum in Ushuaia"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-ushuaia-museum.json"
+    },
+    {
+      "id": "nov1-florence-duomo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Florence_Cathedral_Facade.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1280,
+      "height": 1651,
+      "alt": {
+        "es": "Fachada de la catedral de Santa Maria del Fiore en Florencia",
+        "en": "Façade of Santa Maria del Fiore Cathedral in Florence"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-florence-duomo.json"
+    },
+    {
+      "id": "nov1-florence-uffizi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piazzale_degli_Uffizi_perspective_view,_Florence,_Italy,_August_2025.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": 1280,
+      "height": 720,
+      "alt": {
+        "es": "Piazzale degli Uffizi entre las alas de la galería en Florencia",
+        "en": "Piazzale degli Uffizi between the gallery wings in Florence"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-florence-uffizi.json"
+    },
+    {
+      "id": "nov1-florence-bridge",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_from_Ponte_Santa_Trinita_Blue_hour.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 871,
+      "alt": {
+        "es": "Ponte Vecchio sobre el río Arno en Florencia al anochecer",
+        "en": "Ponte Vecchio over the River Arno in Florence at blue hour"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-florence-bridge.json"
+    },
+    {
+      "id": "nov1-hanoi-old-quarter",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Quarter_market,_Hanoi,_20240123_1811_3411.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": 1280,
+      "height": 854,
+      "alt": {
+        "es": "Puestos de mercado al anochecer en el Barrio Antiguo de Hanói",
+        "en": "Market stalls at dusk in Hanoi’s Old Quarter"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-hanoi-old-quarter.json"
+    },
+    {
+      "id": "nov1-hanoi-literature",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fourth_Courtyard_-_Temple_of_Literature,_Hanoi_-_DSC04582.JPG",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 1280,
+      "height": 830,
+      "alt": {
+        "es": "Cuarto patio del Templo de la Literatura en Hanói",
+        "en": "Fourth courtyard of the Temple of Literature in Hanoi"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-hanoi-literature.json"
+    },
+    {
+      "id": "nov1-hanoi-lake",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hanoi_-_Turtle_Tower_(Th%C3%A1p_R%C3%B9a),_Ho%C3%A0n_Ki%E1%BA%BFm_Lake.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": 1280,
+      "height": 861,
+      "alt": {
+        "es": "Torre de la Tortuga en el lago Hoan Kiem de Hanói",
+        "en": "Turtle Tower in Hanoi’s Hoan Kiem Lake"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-hanoi-lake.json"
+    },
+    {
+      "id": "nov1-tunis-medina",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Souk_el_attarine_%C3%A0_Tunis.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "es": "Cubiertas de Souk El Attarine y edificios de la medina de Túnez vistos desde una terraza",
+        "en": "Souk El Attarine rooftops and Medina of Tunis buildings viewed from a terrace"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-tunis-medina.json"
+    },
+    {
+      "id": "nov1-tunis-bardo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bardo_Museum_-_Islamic_courtyard.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1280,
+      "height": 958,
+      "alt": {
+        "es": "Patio del Museo del Bardo en Túnez",
+        "en": "Courtyard of the Bardo Museum in Tunis"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-tunis-bardo.json"
+    },
+    {
+      "id": "nov1-tunis-carthage",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:01996_01434_Ruins_of_Antonine_Baths_at_Carthage.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 853,
+      "alt": {
+        "es": "Restos de las Termas de Antonino en Cartago",
+        "en": "Remains of the Antonine Baths in Carthage"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-tunis-carthage.json"
+    },
+    {
+      "id": "nov1-brisbane-south-bank",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Streets_Beach,_South_Bank_Parklands,_Brisbane,_2020,_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 957,
+      "alt": {
+        "es": "Streets Beach en South Bank, Brisbane",
+        "en": "Streets Beach at South Bank, Brisbane"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-brisbane-south-bank.json"
+    },
+    {
+      "id": "nov1-brisbane-gardens",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:City_Botanic_Gardens_from_1_William_St_Brisbane_P1100526.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "es": "Vista elevada de City Botanic Gardens en Brisbane",
+        "en": "Elevated view of Brisbane’s City Botanic Gardens"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-brisbane-gardens.json"
+    },
+    {
+      "id": "nov1-brisbane-lone-pine",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koala_21.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "es": "Koala en Lone Pine Koala Sanctuary, Brisbane",
+        "en": "Koala at Lone Pine Koala Sanctuary, Brisbane"
+      },
+      "rightsChecked": true,
+      "visuallyReviewed": true,
+      "placeMatch": true,
+      "evidenceFile": "content/images/evidence/nov1-brisbane-lone-pine.json"
+    }
+  ]
+}

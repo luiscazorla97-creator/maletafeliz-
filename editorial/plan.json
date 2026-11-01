@@ -3370,5 +3370,761 @@
       "es": "https://maletafeliz.com/es/guias/que-ver-en-ottawa/",
       "en": "https://maletafeliz.com/en/guides/what-to-see-in-ottawa/"
     }
+  },
+  {
+    "id": "seville",
+    "city": {
+      "es": "Sevilla",
+      "en": "Seville"
+    },
+    "countryId": "es",
+    "country": {
+      "es": "España",
+      "en": "Spain"
+    },
+    "continent": "europe",
+    "days": 3,
+    "intent": "seville-alcazar-cathedral-plaza-espana-first-visit",
+    "places": [
+      [
+        "alcazar",
+        "Real Alcázar",
+        "Royal Alcázar",
+        "Real Alcazar Sevilla Patio Doncellas"
+      ],
+      [
+        "cathedral",
+        "Catedral y Giralda",
+        "Cathedral and Giralda",
+        "Seville Cathedral Giralda exterior"
+      ],
+      [
+        "plaza",
+        "Plaza de España",
+        "Plaza de España",
+        "Plaza de Espana Seville panorama"
+      ]
+    ],
+    "sources": [
+      [
+        "seville-unesco",
+        "https://whc.unesco.org/en/list/383/"
+      ],
+      [
+        "seville-alcazar",
+        "https://www.alcazarsevilla.org/"
+      ],
+      [
+        "seville-plaza-official",
+        "https://www.spain.info/en/places-of-interest/plaza-espana-sevilla/"
+      ],
+      [
+        "seville-spain",
+        "https://www.spain.info/en/destination/seville/"
+      ]
+    ],
+    "related": [
+      "madrid",
+      "granada"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "titles": {
+      "es": "Qué ver en Sevilla en 3 días: Alcázar, Catedral y Plaza de España",
+      "en": "Seville in 3 days: Alcázar, Cathedral and Plaza de España"
+    },
+    "slugs": {
+      "es": "que-ver-en-sevilla",
+      "en": "what-to-see-in-seville"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "granada",
+    "city": {
+      "es": "Granada",
+      "en": "Granada"
+    },
+    "countryId": "es",
+    "country": {
+      "es": "España",
+      "en": "Spain"
+    },
+    "continent": "europe",
+    "days": 2,
+    "intent": "alhambra-ticket-planning-generalife-albaicin-two-days",
+    "places": [
+      [
+        "palaces",
+        "Palacios Nazaríes de la Alhambra",
+        "Nasrid Palaces of the Alhambra",
+        "Alhambra Patio de los Leones"
+      ],
+      [
+        "generalife",
+        "Generalife",
+        "Generalife",
+        "Generalife Patio de la Acequia Granada"
+      ],
+      [
+        "albaicin",
+        "Albaicín",
+        "Albaicín",
+        "Albaicin Granada view"
+      ]
+    ],
+    "sources": [
+      [
+        "granada-unesco",
+        "https://whc.unesco.org/en/list/314/"
+      ],
+      [
+        "granada-spain",
+        "https://www.spain.info/en/destination/granada/"
+      ]
+    ],
+    "related": [
+      "seville",
+      "madrid"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "titles": {
+      "es": "Granada en 2 días: Alhambra, Generalife y Albaicín",
+      "en": "Granada in 2 days: Alhambra, Generalife and Albaicín"
+    },
+    "slugs": {
+      "es": "que-ver-en-granada",
+      "en": "what-to-see-in-granada"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "venice",
+    "city": {
+      "es": "Venecia",
+      "en": "Venice"
+    },
+    "countryId": "it",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "continent": "europe",
+    "days": 2,
+    "intent": "venice-san-marco-palace-rialto-with-reservation-planning",
+    "places": [
+      [
+        "basilica",
+        "Basílica de San Marcos",
+        "St Mark’s Basilica",
+        "Saint Mark Basilica Venice facade"
+      ],
+      [
+        "palace",
+        "Palacio Ducal",
+        "Doge’s Palace",
+        "Doge Palace Venice exterior"
+      ],
+      [
+        "rialto",
+        "Puente de Rialto",
+        "Rialto Bridge",
+        "Rialto Bridge Venice Grand Canal"
+      ]
+    ],
+    "sources": [
+      [
+        "venice-unesco",
+        "https://whc.unesco.org/en/list/394/"
+      ],
+      [
+        "venice-palace",
+        "https://palazzoducale.visitmuve.it/en/home/"
+      ],
+      [
+        "venice-basilica",
+        "https://www.basilicasanmarco.it/?lang=en"
+      ],
+      [
+        "venice-rialto",
+        "https://www.italia.it/en/veneto/venice/rialto-bridge"
+      ]
+    ],
+    "related": [
+      "rome",
+      "vienna"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "titles": {
+      "es": "Qué ver en Venecia en 2 días: San Marcos, Palacio Ducal y Rialto",
+      "en": "Venice in 2 days: St Mark’s, Doge’s Palace and Rialto"
+    },
+    "slugs": {
+      "es": "que-ver-en-venecia",
+      "en": "what-to-see-in-venice"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "lima",
+    "city": {
+      "es": "Lima",
+      "en": "Lima"
+    },
+    "countryId": "pe",
+    "country": {
+      "es": "Perú",
+      "en": "Peru"
+    },
+    "continent": "america",
+    "days": 3,
+    "intent": "lima-historic-centre-pucllana-larco-three-days",
+    "places": [
+      [
+        "centre",
+        "Plaza Mayor y centro histórico",
+        "Plaza Mayor and historic centre",
+        "Plaza Mayor Lima Peru"
+      ],
+      [
+        "pucllana",
+        "Huaca Pucllana",
+        "Huaca Pucllana",
+        "Huaca Pucllana Lima pyramid"
+      ],
+      [
+        "larco",
+        "Museo Larco",
+        "Larco Museum",
+        "Museo Larco Lima courtyard"
+      ]
+    ],
+    "sources": [
+      [
+        "lima-unesco",
+        "https://whc.unesco.org/en/list/500/"
+      ],
+      [
+        "lima-pucllana",
+        "https://museos.cultura.pe/museos/museo-de-sitio-pucllana"
+      ],
+      [
+        "lima-larco",
+        "https://www.museolarco.org/en/visit-the-museum/"
+      ]
+    ],
+    "related": [
+      "cusco",
+      "cartagena"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "titles": {
+      "es": "Qué ver en Lima en 3 días: centro histórico, Pucllana y Larco",
+      "en": "Lima in 3 days: historic centre, Huaca Pucllana and Larco"
+    },
+    "slugs": {
+      "es": "que-ver-en-lima",
+      "en": "what-to-see-in-lima"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "iguazu",
+    "city": {
+      "es": "Cataratas del Iguazú",
+      "en": "Iguazú Falls"
+    },
+    "countryId": "ar",
+    "country": {
+      "es": "Argentina",
+      "en": "Argentina"
+    },
+    "continent": "america",
+    "days": 3,
+    "intent": "iguazu-argentina-brazil-sides-and-bird-park",
+    "places": [
+      [
+        "argentina",
+        "Parque Nacional Iguazú: lado argentino",
+        "Iguazú National Park: Argentine side",
+        "Iguazu falls Argentina Garganta del Diablo"
+      ],
+      [
+        "brazil",
+        "Parque Nacional do Iguaçu: lado brasileño",
+        "Iguaçu National Park: Brazilian side",
+        "Iguacu falls Brazil panorama"
+      ],
+      [
+        "birds",
+        "Parque das Aves",
+        "Parque das Aves",
+        "Parque das Aves Foz do Iguacu birds"
+      ]
+    ],
+    "sources": [
+      [
+        "iguazu-argentina",
+        "https://www.argentina.gob.ar/parquesnacionales/iguazu"
+      ],
+      [
+        "iguazu-brazil",
+        "https://whc.unesco.org/en/list/355/"
+      ],
+      [
+        "iguazu-birds",
+        "https://www.parquedasaves.com.br/en/"
+      ],
+      [
+        "iguazu-routes",
+        "https://www.argentina.gob.ar/parquesnacionales/nea/parque-nacional-iguazu/panoramica"
+      ]
+    ],
+    "related": [
+      "buenos-aires",
+      "rio"
+    ],
+    "category": "cities",
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "titles": {
+      "es": "Iguazú en 3 días: qué lado visitar y cómo combinar las cataratas",
+      "en": "Iguazú in 3 days: how to visit both sides of the falls"
+    },
+    "slugs": {
+      "es": "que-ver-en-iguazu",
+      "en": "what-to-see-in-iguazu"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    },
+    "crossBorderCoverage": [
+      "Argentina",
+      "Brazil"
+    ]
+  },
+  {
+    "id": "salvador",
+    "city": {
+      "es": "Salvador de Bahía",
+      "en": "Salvador"
+    },
+    "countryId": "br",
+    "country": {
+      "es": "Brasil",
+      "en": "Brazil"
+    },
+    "continent": "america",
+    "days": 3,
+    "intent": "salvador-pelourinho-bonfim-barra-cultural-itinerary",
+    "places": [
+      [
+        "pelourinho",
+        "Pelourinho",
+        "Pelourinho",
+        "Pelourinho Salvador Bahia square"
+      ],
+      [
+        "bonfim",
+        "Basílica de Senhor do Bonfim",
+        "Senhor do Bonfim Basilica",
+        "Igreja Nosso Senhor do Bonfim Salvador"
+      ],
+      [
+        "barra",
+        "Faro de Barra",
+        "Barra Lighthouse",
+        "Farol da Barra Salvador Bahia"
+      ]
+    ],
+    "sources": [
+      [
+        "salvador-unesco",
+        "https://whc.unesco.org/en/list/309/"
+      ],
+      [
+        "salvador-barra",
+        "https://www.salvadordabahia.com/en/experiences/farol-da-barra/"
+      ],
+      [
+        "salvador-bonfim-evidence",
+        "https://www.salvadordabahia.com/wp-json/wp/v2/posts/26223"
+      ]
+    ],
+    "related": [
+      "rio",
+      "cartagena"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "titles": {
+      "es": "Qué ver en Salvador de Bahía: Pelourinho, Bonfim y Barra",
+      "en": "What to see in Salvador: Pelourinho, Bonfim and Barra"
+    },
+    "slugs": {
+      "es": "que-ver-en-salvador",
+      "en": "what-to-see-in-salvador"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "hoi-an",
+    "city": {
+      "es": "Hoi An",
+      "en": "Hoi An"
+    },
+    "countryId": "vn",
+    "country": {
+      "es": "Vietnam",
+      "en": "Vietnam"
+    },
+    "continent": "asia",
+    "days": 3,
+    "intent": "hoi-an-old-town-japanese-bridge-my-son-trip",
+    "places": [
+      [
+        "old-town",
+        "Casco antiguo de Hoi An",
+        "Hoi An Ancient Town",
+        "Hoi An ancient town Thu Bon river"
+      ],
+      [
+        "bridge",
+        "Puente Cubierto Japonés",
+        "Japanese Covered Bridge",
+        "Japanese covered bridge Hoi An"
+      ],
+      [
+        "my-son",
+        "Santuario de My Son",
+        "My Son Sanctuary",
+        "My Son sanctuary Vietnam temples"
+      ]
+    ],
+    "sources": [
+      [
+        "hoi-an-unesco",
+        "https://whc.unesco.org/en/list/948/"
+      ],
+      [
+        "hoi-an-myson",
+        "https://whc.unesco.org/en/list/949/"
+      ],
+      [
+        "hoi-an-tourism",
+        "https://vietnam.travel/places-to-go/central-vietnam/hoi-an"
+      ]
+    ],
+    "related": [
+      "siem-reap",
+      "bangkok"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "titles": {
+      "es": "Qué ver en Hoi An: casco antiguo, Puente Japonés y My Son",
+      "en": "What to see in Hoi An: Ancient Town, Japanese Bridge and My Son"
+    },
+    "slugs": {
+      "es": "que-ver-en-hoi-an",
+      "en": "what-to-see-in-hoi-an"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "beijing",
+    "city": {
+      "es": "Pekín",
+      "en": "Beijing"
+    },
+    "countryId": "cn",
+    "country": {
+      "es": "China",
+      "en": "China"
+    },
+    "continent": "asia",
+    "days": 3,
+    "intent": "beijing-forbidden-city-temple-heaven-mutianyu-first-trip",
+    "places": [
+      [
+        "palace",
+        "Ciudad Prohibida",
+        "Forbidden City",
+        "Forbidden City Beijing palace courtyard"
+      ],
+      [
+        "heaven",
+        "Templo del Cielo",
+        "Temple of Heaven",
+        "Temple of Heaven Beijing Hall Prayer"
+      ],
+      [
+        "wall",
+        "Gran Muralla en Mutianyu",
+        "Great Wall at Mutianyu",
+        "Mutianyu Great Wall China"
+      ]
+    ],
+    "sources": [
+      [
+        "beijing-palace",
+        "https://whc.unesco.org/en/list/439/"
+      ],
+      [
+        "beijing-heaven",
+        "https://whc.unesco.org/en/list/881/"
+      ],
+      [
+        "beijing-wall",
+        "https://en.mutianyugreatwall.com/"
+      ],
+      [
+        "beijing-museum",
+        "https://intl.dpm.org.cn/visit.html"
+      ]
+    ],
+    "related": [
+      "hong-kong",
+      "taipei"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "titles": {
+      "es": "Pekín en 3 días: Ciudad Prohibida, Templo del Cielo y Mutianyu",
+      "en": "Beijing in 3 days: Forbidden City, Temple of Heaven and Mutianyu"
+    },
+    "slugs": {
+      "es": "que-ver-en-pekin",
+      "en": "what-to-see-in-beijing"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "rabat",
+    "city": {
+      "es": "Rabat",
+      "en": "Rabat"
+    },
+    "countryId": "ma",
+    "country": {
+      "es": "Marruecos",
+      "en": "Morocco"
+    },
+    "continent": "africa",
+    "days": 2,
+    "intent": "rabat-oudaias-hassan-chellah-two-day-heritage",
+    "places": [
+      [
+        "kasbah",
+        "Kasbah de los Udayas",
+        "Kasbah of the Udayas",
+        "Kasbah Udayas Rabat Morocco"
+      ],
+      [
+        "hassan",
+        "Torre Hassan",
+        "Hassan Tower",
+        "Hassan Tower Rabat columns"
+      ],
+      [
+        "chellah",
+        "Chellah",
+        "Chellah",
+        "Chellah Rabat ruins"
+      ]
+    ],
+    "sources": [
+      [
+        "rabat-unesco",
+        "https://whc.unesco.org/en/list/1401/"
+      ],
+      [
+        "rabat-tourism",
+        "https://www.visitmorocco.com/en/travel/rabat"
+      ]
+    ],
+    "related": [
+      "marrakech",
+      "cairo"
+    ],
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "titles": {
+      "es": "Qué ver en Rabat en 2 días: Udayas, Torre Hassan y Chellah",
+      "en": "Rabat in 2 days: Udayas Kasbah, Hassan Tower and Chellah"
+    },
+    "slugs": {
+      "es": "que-ver-en-rabat",
+      "en": "what-to-see-in-rabat"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "perth",
+    "city": {
+      "es": "Perth",
+      "en": "Perth"
+    },
+    "countryId": "au",
+    "country": {
+      "es": "Australia",
+      "en": "Australia"
+    },
+    "continent": "oceania",
+    "days": 3,
+    "intent": "perth-kings-park-fremantle-prison-rottnest-three-days",
+    "places": [
+      [
+        "kings",
+        "Kings Park",
+        "Kings Park",
+        "Kings Park Perth skyline"
+      ],
+      [
+        "prison",
+        "Fremantle Prison",
+        "Fremantle Prison",
+        "Fremantle Prison exterior"
+      ],
+      [
+        "rottnest",
+        "Rottnest Island / Wadjemup",
+        "Rottnest Island / Wadjemup",
+        "Rottnest Island The Basin beach"
+      ]
+    ],
+    "sources": [
+      [
+        "perth-kings",
+        "https://www.bgpa.wa.gov.au/kings-park"
+      ],
+      [
+        "perth-prison",
+        "https://fremantleprison.com.au/"
+      ],
+      [
+        "perth-rottnest",
+        "https://www.rottnestisland.com/"
+      ],
+      [
+        "perth-quokkas",
+        "https://www.rottnestisland.com/visit/guides-tips/your-guide-to-spotting-quokkas-on-rottnest-island"
+      ]
+    ],
+    "related": [
+      "sydney",
+      "melbourne"
+    ],
+    "category": "cities",
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "titles": {
+      "es": "Perth en 3 días: Kings Park, Fremantle y Rottnest Island",
+      "en": "Perth in 3 days: Kings Park, Fremantle and Rottnest Island"
+    },
+    "slugs": {
+      "es": "que-ver-en-perth",
+      "en": "what-to-see-in-perth"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
   }
 ]

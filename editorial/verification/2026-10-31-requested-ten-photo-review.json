@@ -1,0 +1,410 @@
+{
+  "reviewedAt": "2026-11-01T00:08:55.788Z",
+  "reviewer": "Codex visual and licensing review (AI-assisted)",
+  "verified": true,
+  "photoCount": 30,
+  "variantCount": 118,
+  "method": "Viewed all30 optimized documentary photographs in two contact sheets and compared with specific file descriptions, original image metadata and source locations. Actual Commons file pages fetched and linked license found; file-page and downloaded-byte hashes retained in evidence.",
+  "findings": [
+    "Discarded Huallamarca search results for Huaca Pucllana; exact Pucllana file selected",
+    "Discarded homonymous church search results in Rome and Florence for Venice",
+    "Alcázar photo depicts an interior courtyard; caption deliberately does not identify the courtyard named ambiguously in the source title",
+    "St Mark’s photo is a labelled San Alipio portal detail; Venice cover is Rialto",
+    "Parque das Aves photo is a close view of a bird photographed at the actual park, not a generic wildlife photo",
+    "Hoi An bridge image explicitly identified as archive from2020",
+    "Larco source is640 pixels wide; no enlargement claimed, responsive480-pixel derivative retained",
+    "All photographs kept under the original compatible license; resizing and WebP conversion credited"
+  ],
+  "photos": [
+    {
+      "id": "newten-seville-alcazar",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patio_de_las_Doncellas,_Real_Alc%C3%A1zar_de_Sevilla.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 853,
+      "alt": {
+        "es": "Patio interior del Real Alcázar de Sevilla",
+        "en": "Interior courtyard of the Royal Alcázar in Seville"
+      },
+      "evidenceFile": "content/images/evidence/newten-seville-alcazar.json"
+    },
+    {
+      "id": "newten-seville-cathedral",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_%26_city_of_Seville_from_the_Giralda.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1280,
+      "height": 845,
+      "alt": {
+        "es": "Cubiertas de la Catedral de Sevilla y la ciudad vistas desde la Giralda",
+        "en": "Seville Cathedral roof and city viewed from the Giralda"
+      },
+      "evidenceFile": "content/images/evidence/newten-seville-cathedral.json"
+    },
+    {
+      "id": "newten-seville-plaza",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sevilla_Plaza_de_Espana_01.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1280,
+      "height": 303,
+      "alt": {
+        "es": "Panorámica de la Plaza de España de Sevilla",
+        "en": "Panoramic view of Plaza de España in Seville"
+      },
+      "evidenceFile": "content/images/evidence/newten-seville-plaza.json"
+    },
+    {
+      "id": "newten-granada-palaces",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_patio_de_los_Leones_Alhambra_Granada_Spain.jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 1280,
+      "height": 907,
+      "alt": {
+        "es": "Fuente y columnas del Patio de los Leones en la Alhambra de Granada",
+        "en": "Fountain and columns in the Court of the Lions at the Alhambra in Granada"
+      },
+      "evidenceFile": "content/images/evidence/newten-granada-palaces.json"
+    },
+    {
+      "id": "newten-granada-generalife",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patio_de_la_acequia_in_Generalife,_Granada,_Spain.jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 1280,
+      "height": 849,
+      "alt": {
+        "es": "Patio de la Acequia en los jardines del Generalife, Granada",
+        "en": "Patio de la Acequia in the Generalife gardens, Granada"
+      },
+      "evidenceFile": "content/images/evidence/newten-granada-generalife.json"
+    },
+    {
+      "id": "newten-granada-albaicin",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granada_-_View_from_Alhambra_-_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 854,
+      "alt": {
+        "es": "Casas del Albaicín vistas desde la Alhambra de Granada",
+        "en": "Albaicín houses viewed from the Alhambra in Granada"
+      },
+      "evidenceFile": "content/images/evidence/newten-granada-albaicin.json"
+    },
+    {
+      "id": "newten-venice-basilica",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Alipio_facade_door_of_Saint_Mark%27s_Basilica_of_Venice.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 865,
+      "alt": {
+        "es": "Portal de San Alipio en la fachada de la Basílica de San Marcos, Venecia",
+        "en": "San Alipio portal on the façade of St Mark’s Basilica, Venice"
+      },
+      "evidenceFile": "content/images/evidence/newten-venice-basilica.json"
+    },
+    {
+      "id": "newten-venice-palace",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doge%27s_Palace_exterior_3_(Venice).jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "es": "Exterior del Palacio Ducal de Venecia",
+        "en": "Exterior of the Doge’s Palace in Venice"
+      },
+      "evidenceFile": "content/images/evidence/newten-venice-palace.json"
+    },
+    {
+      "id": "newten-venice-rialto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponte_di_Rialto_Venice_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 850,
+      "alt": {
+        "es": "Puente de Rialto sobre el Gran Canal de Venecia",
+        "en": "Rialto Bridge over the Grand Canal in Venice"
+      },
+      "evidenceFile": "content/images/evidence/newten-venice-rialto.json"
+    },
+    {
+      "id": "newten-lima-centre",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Armas,_Lima,_Peru.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1280,
+      "height": 434,
+      "alt": {
+        "es": "Vista panorámica de la Plaza Mayor de Lima",
+        "en": "Panoramic view of Plaza Mayor in Lima"
+      },
+      "evidenceFile": "content/images/evidence/newten-lima-centre.json"
+    },
+    {
+      "id": "newten-lima-pucllana",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huaca_Pucllana-6.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 720,
+      "alt": {
+        "es": "Estructuras arqueológicas de Huaca Pucllana en Miraflores, Lima",
+        "en": "Archaeological structures of Huaca Pucllana in Miraflores, Lima"
+      },
+      "evidenceFile": "content/images/evidence/newten-lima-pucllana.json"
+    },
+    {
+      "id": "newten-lima-larco",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fachada_Museo_Larco_en_baja.JPG",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 640,
+      "height": 427,
+      "alt": {
+        "es": "Fachada del Museo Larco vista desde su patio en Lima",
+        "en": "Larco Museum façade seen from its courtyard in Lima"
+      },
+      "evidenceFile": "content/images/evidence/newten-lima-larco.json"
+    },
+    {
+      "id": "newten-iguazu-argentina",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garganta_del_Diablo_or_Devil_Throat_Iguazu_Falls_Argentina_Luca_Galuzzi_2005.JPG",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": 1280,
+      "height": 853,
+      "alt": {
+        "es": "Garganta del Diablo en las cataratas del Iguazú, lado argentino",
+        "en": "Devil’s Throat at Iguazú Falls on the Argentine side"
+      },
+      "evidenceFile": "content/images/evidence/newten-iguazu-argentina.json"
+    },
+    {
+      "id": "newten-iguazu-brazil",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Foz_de_Iguacu_Panorama_BR01.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1280,
+      "height": 532,
+      "alt": {
+        "es": "Panorámica de las cataratas del Iguazú desde el lado brasileño",
+        "en": "Panoramic view of Iguazú Falls from the Brazilian side"
+      },
+      "evidenceFile": "content/images/evidence/newten-iguazu-brazil.json"
+    },
+    {
+      "id": "newten-iguazu-birds",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cariama_cristata_at_Parque_das_Aves_(Foz_do_Igua%C3%A7u)-2.jpg",
+      "license": "CC BY-SA 3.0 nl",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+      "width": 1280,
+      "height": 853,
+      "alt": {
+        "es": "Detalle de una cariama en Parque das Aves, Foz do Iguaçu",
+        "en": "Close view of a red-legged seriema at Parque das Aves, Foz do Iguaçu"
+      },
+      "evidenceFile": "content/images/evidence/newten-iguazu-birds.json"
+    },
+    {
+      "id": "newten-salvador-pelourinho",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Largo_do_Pelourinho,_Salvador_20150719-DSC05452.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 857,
+      "alt": {
+        "es": "Largo do Pelourinho y fachadas históricas en Salvador de Bahía",
+        "en": "Largo do Pelourinho and historic façades in Salvador"
+      },
+      "evidenceFile": "content/images/evidence/newten-salvador-pelourinho.json"
+    },
+    {
+      "id": "newten-salvador-bonfim",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bonfim_Church,_Salvador_20150720-DSC05483.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 1912,
+      "alt": {
+        "es": "Fachada de la iglesia de Senhor do Bonfim en Salvador",
+        "en": "Façade of Senhor do Bonfim church in Salvador"
+      },
+      "evidenceFile": "content/images/evidence/newten-salvador-bonfim.json"
+    },
+    {
+      "id": "newten-salvador-barra",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farol_da_Barra_em_Salvador_-_WikiCon_Brasil_2025_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 853,
+      "alt": {
+        "es": "Faro de Barra en Salvador de Bahía",
+        "en": "Barra Lighthouse in Salvador, Bahia"
+      },
+      "evidenceFile": "content/images/evidence/newten-salvador-barra.json"
+    },
+    {
+      "id": "newten-hoi-an-old-town",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%E1%BB%99i_An,_Ancient_Town,_2020-01_CN-01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 744,
+      "alt": {
+        "es": "Casas del casco antiguo de Hoi An junto al río Thu Bon",
+        "en": "Hoi An Ancient Town houses beside the Thu Bon River"
+      },
+      "evidenceFile": "content/images/evidence/newten-hoi-an-old-town.json"
+    },
+    {
+      "id": "newten-hoi-an-bridge",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%E1%BB%99i_An,_Ch%C3%B9a_C%E1%BA%A7u,_2020-01_CN-01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 876,
+      "alt": {
+        "es": "Puente Cubierto Japonés de Hoi An, fotografía de archivo de 2020",
+        "en": "Japanese Covered Bridge in Hoi An, archive photograph from 2020"
+      },
+      "evidenceFile": "content/images/evidence/newten-hoi-an-bridge.json"
+    },
+    {
+      "id": "newten-hoi-an-my-son",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:My_Son_Sanctuary_Vietnam_06.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "es": "Torres y restos del santuario de My Son en Vietnam",
+        "en": "Towers and remains at My Son Sanctuary in Vietnam"
+      },
+      "evidenceFile": "content/images/evidence/newten-hoi-an-my-son.json"
+    },
+    {
+      "id": "newten-beijing-palace",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zijincheng_(Forbidden_City),_Beijing_(149182969).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "width": 1280,
+      "height": 849,
+      "alt": {
+        "es": "Escultura de tortuga y edificios de la Ciudad Prohibida de Pekín",
+        "en": "Tortoise sculpture and buildings in Beijing’s Forbidden City"
+      },
+      "evidenceFile": "content/images/evidence/newten-beijing-palace.json"
+    },
+    {
+      "id": "newten-beijing-heaven",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Heaven_-_Beijing_-_June_2012.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "es": "Templo del Cielo en Pekín, fotografía de archivo",
+        "en": "Temple of Heaven in Beijing, archive photograph"
+      },
+      "evidenceFile": "content/images/evidence/newten-beijing-heaven.json"
+    },
+    {
+      "id": "newten-beijing-wall",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Mutianyu_section_of_the_Great_Wall_of_China.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 853,
+      "alt": {
+        "es": "Gran Muralla siguiendo las montañas en el sector de Mutianyu",
+        "en": "Great Wall following the mountains at Mutianyu"
+      },
+      "evidenceFile": "content/images/evidence/newten-beijing-wall.json"
+    },
+    {
+      "id": "newten-rabat-kasbah",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morocco_-_Kasbah_of_the_Udayas.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "width": 1280,
+      "height": 875,
+      "alt": {
+        "es": "Kasbah de los Udayas en Rabat, Marruecos",
+        "en": "Kasbah of the Udayas in Rabat, Morocco"
+      },
+      "evidenceFile": "content/images/evidence/newten-rabat-kasbah.json"
+    },
+    {
+      "id": "newten-rabat-hassan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hassan_Tower_and_columns_(Rabat,_Morocco)_(15126547404).jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "es": "Torre Hassan y columnas del recinto histórico de Rabat",
+        "en": "Hassan Tower and columns in Rabat’s historic ensemble"
+      },
+      "evidenceFile": "content/images/evidence/newten-rabat-hassan.json"
+    },
+    {
+      "id": "newten-rabat-chellah",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rabat,_Chellah_ruins_2.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "es": "Vestigios del recinto de Chellah en Rabat",
+        "en": "Remains within the Chellah enclosure in Rabat"
+      },
+      "evidenceFile": "content/images/evidence/newten-rabat-chellah.json"
+    },
+    {
+      "id": "newten-perth-kings",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skyline_of_Perth_seen_from_Kings_Park,_October_2023_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 720,
+      "alt": {
+        "es": "Vista de Perth desde Kings Park",
+        "en": "View of Perth from Kings Park"
+      },
+      "evidenceFile": "content/images/evidence/newten-perth-kings.json"
+    },
+    {
+      "id": "newten-perth-prison",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fremantle_Prison_Gatehouse,_July_2023_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "es": "Entrada principal de Fremantle Prison en Australia Occidental",
+        "en": "Main gatehouse of Fremantle Prison in Western Australia"
+      },
+      "evidenceFile": "content/images/evidence/newten-perth-prison.json"
+    },
+    {
+      "id": "newten-perth-rottnest",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Hour_at_the_Basin_-_Rottnest_Island.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 853,
+      "alt": {
+        "es": "The Basin en Wadjemup / Rottnest Island al final del día",
+        "en": "The Basin on Wadjemup / Rottnest Island near the end of the day"
+      },
+      "evidenceFile": "content/images/evidence/newten-perth-rottnest.json"
+    }
+  ]
+}

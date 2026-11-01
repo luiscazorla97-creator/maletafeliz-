@@ -21,3 +21,9 @@ Screenshots: `atlas-night-desktop.png` and `atlas-night-mobile.png`. Production 
 - Selected production suite: 42 passed, covering all advertisement/consent checks, homepage and sitemap, ES/EN Lisbon, Tokyo, Cape Town and Christmas New York, on desktop/mobile. Existing ad formats were tested at 320–2560 px with simulated creatives. Real provider delivery is not claimed.
 - Public sitemap before publication versus the release build: 602 URLs each, zero added or missing URLs.
 - `atlas-night-ads-simulated.png`: the final production layout with clearly labelled simulated ads. Destination/editorial photos are unchanged; only the decorative Earth uses generated artwork.
+
+## Verified publication
+
+Published commit `c3966ec042fa914bfa4f035acd166e812761f030` to both existing Cloudflare projects; both deployment stages completed successfully. HTTPS verification passed for 248 requests, including the 240 localized articles and www redirects. The public sitemap still has the same 602 URLs. The globe's public bytes match the validated release. Public homepage rendering/search passed at desktop, mobile and tablet widths, in ES/EN, using real HTTPS responses forwarded through the managed Node proxy/CA while retaining CSP and TLS validation; third-party provider traffic was blocked. No browser page errors or horizontal overflow were detected.
+
+Evidence: `editorial/verification/2026-11-01-atlas-design.json`. Screenshots: `atlas-night-live-desktop.png`, `atlas-night-live-mobile.png`, `atlas-night-live-english.png`.

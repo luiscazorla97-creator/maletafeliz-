@@ -1,0 +1,137 @@
+{
+  "checkedAt": "2026-11-01T19:26:28.469989+00:00",
+  "url": "https://maletafeliz.com/es/",
+  "deployedCommit": "c3966ec042fa914bfa4f035acd166e812761f030",
+  "deployments": [
+    {
+      "project": "maletafeliz-web",
+      "expectedCommit": "c3966ec042fa914bfa4f035acd166e812761f030",
+      "found": true,
+      "id": "1045499f-502c-46be-8d59-673a7f51c7c7",
+      "url": "https://1045499f.maletafeliz-web.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-01T19:23:48.880928Z",
+        "ended_on": "2026-11-01T19:24:05.103969Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "status": "success"
+        }
+      ],
+      "commit": "c3966ec042fa914bfa4f035acd166e812761f030"
+    },
+    {
+      "project": "maletafeliz-www",
+      "expectedCommit": "c3966ec042fa914bfa4f035acd166e812761f030",
+      "found": true,
+      "id": "eac0ad95-5e8f-4c33-9be9-1c6152b9a074",
+      "url": "https://eac0ad95.maletafeliz-www.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-01T19:24:28.960374Z",
+        "ended_on": "2026-11-01T19:24:36.465216Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "status": "success"
+        }
+      ],
+      "commit": "c3966ec042fa914bfa4f035acd166e812761f030"
+    }
+  ],
+  "preservation": {
+    "baseCommit": "ef2ee5537620301960c08cfa795b368ffbec66ac",
+    "protectedFiles": 3702,
+    "changedProtectedFiles": [],
+    "publishedCounts": {
+      "es": 120,
+      "en": 120
+    }
+  },
+  "publicAssets": {
+    "globeStatus": 200,
+    "globeContentType": "image/webp",
+    "globeSha256": "09ac7cc03f29de4c6a98b87ca81d3e4cf761e3fef1f0159a428d110237082599",
+    "globeMatchesRelease": true,
+    "sitemapUrlCount": 602,
+    "sitemapUnchanged": true
+  },
+  "httpsVerification": {
+    "passed": true,
+    "requests": 248,
+    "errors": []
+  },
+  "browserVerification": {
+    "checks": [
+      {
+        "lang": "es",
+        "width": 1536,
+        "h1": "El mundo\nte espera",
+        "globe": true,
+        "noOverflow": true,
+        "search": true
+      },
+      {
+        "lang": "es",
+        "width": 390,
+        "h1": "El mundo\nte espera",
+        "globe": true,
+        "noOverflow": true,
+        "search": true
+      },
+      {
+        "lang": "en",
+        "width": 768,
+        "h1": "A world\nawaits you",
+        "globe": true,
+        "noOverflow": true,
+        "search": true
+      }
+    ],
+    "failures": []
+  },
+  "browserTransport": "Unmodified first-party HTTPS responses fetched through the managed Node proxy with TLS validation enabled; responses rendered with their real CSP. Third-party advertising/analytics traffic blocked to avoid impressions.",
+  "tests": {
+    "unit": 33,
+    "e2e": 14,
+    "selectedProduction": 42
+  },
+  "advertising": "Integration, layout, dimensions, consent and exclusions verified; actual provider creative delivery not verified."
+}

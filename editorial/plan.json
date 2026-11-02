@@ -6357,5 +6357,121 @@
       "es": "https://maletafeliz.com/es/guias/que-ver-en-adelaide/"
     },
     "publiclyVerifiedAt": "2026-11-02T16:45:47.937Z"
+  },
+  {
+    "id": "villa-carlos-paz",
+    "city": {
+      "es": "Villa Carlos Paz",
+      "en": "Villa Carlos Paz"
+    },
+    "countryId": "ar",
+    "country": {
+      "es": "Argentina",
+      "en": "Argentina"
+    },
+    "continent": "america",
+    "places": [
+      [
+        "cucu",
+        "Reloj Cucú",
+        "Cuckoo Clock"
+      ],
+      [
+        "cruz",
+        "Cerro de la Cruz",
+        "Cerro de la Cruz"
+      ],
+      [
+        "lago",
+        "Lago San Roque y costanera",
+        "Lake San Roque waterfront"
+      ]
+    ],
+    "related": [
+      "bariloche",
+      "iguazu"
+    ],
+    "days": 5,
+    "category": "cities",
+    "categories": [
+      "cities",
+      "nature",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "villa-carlos-paz-secondary-school-graduation-trip-nightlife-excursions",
+    "titles": {
+      "es": "Viaje de egresados a Carlos Paz: boliches y qué hacer",
+      "en": "Carlos Paz graduation trip: nightclubs and things to do"
+    },
+    "slugs": {
+      "es": "viaje-egresados-carlos-paz",
+      "en": "carlos-paz-graduation-trip"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "bariloche",
+    "city": {
+      "es": "Bariloche",
+      "en": "Bariloche"
+    },
+    "countryId": "ar",
+    "country": {
+      "es": "Argentina",
+      "en": "Argentina"
+    },
+    "continent": "america",
+    "places": [
+      [
+        "centro",
+        "Centro Cívico",
+        "Civic Centre"
+      ],
+      [
+        "catedral",
+        "Cerro Catedral",
+        "Cerro Catedral"
+      ],
+      [
+        "playa",
+        "Playa Bonita",
+        "Playa Bonita"
+      ]
+    ],
+    "related": [
+      "villa-carlos-paz",
+      "ushuaia"
+    ],
+    "days": 5,
+    "category": "cities",
+    "categories": [
+      "cities",
+      "nature",
+      "culture"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "bariloche-secondary-school-graduation-trip-nightlife-excursions",
+    "titles": {
+      "es": "Viaje de egresados a Bariloche: boliches y excursiones",
+      "en": "Bariloche graduation trip: nightclubs and excursions"
+    },
+    "slugs": {
+      "es": "viaje-egresados-bariloche",
+      "en": "bariloche-graduation-trip"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
   }
 ]

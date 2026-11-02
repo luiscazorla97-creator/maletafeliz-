@@ -1,0 +1,31 @@
+{
+  "verifiedAt": "2026-11-02T17:17:02.318061+00:00",
+  "types": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "unit": 33,
+  "previewNavigation": 28,
+  "productionBrowser": 34,
+  "productionBrowserScope": "All four new localized articles in desktop/mobile, homepage, whole-catalog sitemap, existing advertising and consent checks.",
+  "builds": [
+    "npm run build",
+    "npm run build:release"
+  ],
+  "previewHtmlPages": 656,
+  "productionHtmlPages": 656,
+  "newOriginals": 2,
+  "newLocalizations": 4,
+  "newPlacePhotographs": 6,
+  "additionalChecks": 49,
+  "localVerification": "editorial/verification/2026-11-02-egresados-local-checks.json",
+  "visualReview": "Both Spanish guides inspected at 1440px and 390px, including actual nightclub sections, covers, captions and all place photos. All four localized versions passed browser checks at both widths.",
+  "searchQueries": [
+    "egresados Carlos Paz",
+    "egresados Bariloche",
+    "Carlos Paz graduation",
+    "Bariloche graduation"
+  ],
+  "providerScriptsMockedOrBlocked": true,
+  "preservation": "All 250 prior localized article files and their dates, 557 previous image records and 125 previous plan entries unchanged. No application code, ad settings, dependencies, menus, logo or SEO configuration changes."
+}

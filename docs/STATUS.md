@@ -6,9 +6,9 @@ Verificado el 2 de noviembre de 2026 en America/New_York. Especificación vigent
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 125 guías originales y 250 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 505 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 557 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 127 guías originales y 254 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 515 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 563 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
@@ -128,6 +128,16 @@ Publicadas Quito, Córdoba, Nara, Essaouira y Adelaide: cinco originales nuevos 
 Pasaron tipos sin errores ni advertencias, 33 pruebas unitarias, 28 de navegación y 46 de producción seleccionadas para las diez guías, portada, sitemap, publicidad y consentimiento. Ambas compilaciones generaron 648 páginas. Las 121 comprobaciones adicionales verifican las diez guías en escritorio y móvil, traducciones, búsquedas, destinos, continentes, países y los bytes exactos de 60 recursos fotográficos. Los proveedores externos se bloquearon o simularon en las pruebas; no se generaron impresiones de prueba.
 
 Ambos proyectos existentes de Cloudflare completaron el commit `d9aff9dd99957472230f36db29530929af8f97b0`. Se verificaron 258 respuestas HTTPS del sitio y las redirecciones, incluidos los 250 artículos localizados. El sitemap contiene 624 URLs. Evidencia: `editorial/verification/2026-11-02-publication.json`. El sitio suma 125 originales, 250 versiones, 557 fotografías y 555 lugares recomendados con foto. Los 240 artículos localizados anteriores, sus fechas, las 542 fotografías previas, el diseño y los anuncios permanecen intactos. Esta tanda fue solicitada manualmente; no acredita ejecución automática.
+
+## Carlos Paz y Bariloche para egresados: 2 de noviembre de 2026
+
+Publicadas dos guías nuevas de viajes de egresados de secundaria, con cuatro versiones completas en español e inglés de 1.744 a 1.807 palabras. Incluyen directorios de boliches consultados, condiciones de acceso, tres lugares de día por destino, itinerario, gastos por categorías y preguntas frecuentes. Se consultaron 10 documentos oficiales y se incorporaron seis fotografías documentales con licencia específica, atribución, ALT bilingüe, años de archivo y derivados WebP. No se inventan precios, edades de admisión, aperturas, inclusión en paquetes ni rankings de búsquedas.
+
+Bariloche conserva la advertencia municipal sobre acceso particular restringido y funcionamiento para grupos estudiantiles. Carlos Paz identifica Keops, Khalama y Molino Rojo con respaldo del directorio oficial. La sección de noche compara servicios y organización: no utiliza fotos de otros boliches ni escenas generadas. Cada lugar diurno tiene su foto propia. La imagen invernal de Catedral de 2006 se identifica como archivo y no promete nieve todo el año.
+
+Pasaron tipos sin errores ni advertencias, 33 pruebas unitarias, 28 de navegación y 34 de producción seleccionadas, incluidas las cuatro versiones nuevas en escritorio y móvil, portada, sitemap, anuncios y consentimiento. Ambas compilaciones generaron 656 páginas. Las 49 comprobaciones específicas verifican guías, idiomas, búsqueda, destinos, países, continente y los bytes de 24 recursos fotográficos. Los proveedores externos se simularon o bloquearon, sin impresiones publicitarias de prueba.
+
+Los dos proyectos de Cloudflare completaron el commit `c3c1c59d1ac5c2613c4329b0b3a8d5f9d48627b7`. Se verificaron 262 respuestas HTTPS y redirecciones, incluidos los 254 artículos localizados; el sitemap tiene 632 URLs. Evidencia: `editorial/verification/2026-11-02-egresados-publication.json`. El catálogo suma 127 originales, 254 versiones, 563 fotografías y 561 lugares con foto. Los artículos y recursos previos, sus fechas, el diseño y la publicidad permanecen intactos. Este pedido adicional no modifica ni duplica el lote diario de cinco guías ya verificado.
 
 ## Operación y límites
 

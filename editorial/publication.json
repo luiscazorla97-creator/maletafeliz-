@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-02T16:45:47.937Z",
+  "verifiedAt": "2026-11-02T17:24:11.002Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 125,
-  "localizations": 250,
-  "photos": 557,
-  "httpChecks": 258,
+  "originals": 127,
+  "localizations": 254,
+  "photos": 563,
+  "httpChecks": 262,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "c3344fde-78f6-496a-b791-f0ea766c6364",
-      "commit": "d9aff9dd99957472230f36db29530929af8f97b0",
+      "deploymentId": "0b91771b-6965-4742-bf0d-f270d7754fa5",
+      "commit": "c3c1c59d1ac5c2613c4329b0b3a8d5f9d48627b7",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "36a3cfa2-b69a-4f9d-a484-9e46aeac73d7",
-      "commit": "d9aff9dd99957472230f36db29530929af8f97b0",
+      "deploymentId": "40c39e3b-e246-4f5e-aa04-2a71e58752e8",
+      "commit": "c3c1c59d1ac5c2613c4329b0b3a8d5f9d48627b7",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,17 +45,17 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 505,
-  "latestBatch": "2026-11-02",
-  "verificationFile": "editorial/verification/2026-11-02-publication.json",
+  "citedSourceDocuments": 515,
+  "latestBatch": "2026-11-02-egresados-argentina",
+  "verificationFile": "editorial/verification/2026-11-02-egresados-publication.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 258
+    "siteAndRedirects": 262
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-02-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-02T16:45:47.937Z",
+  "latestDeploymentVerification": "editorial/verification/2026-11-02-egresados-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-02T17:24:11.002Z",
   "photoCoverage": {
-    "originalRecommendations": 555,
-    "localizedRecommendations": 1110,
+    "originalRecommendations": 561,
+    "localizedRecommendations": 1122,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -120,5 +120,5 @@
       "height": 250
     }
   },
-  "batchChecks": 121
+  "batchChecks": 49
 }

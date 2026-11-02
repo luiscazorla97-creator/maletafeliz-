@@ -1,40 +1,38 @@
-# Publicar cinco guías diarias de MaletaFeliz
+# Publicar dos guías diarias de MaletaFeliz
 
-Configuración solicitada: todos los días a las **09:00 (9 de la mañana), America/New_York**, con ejecución en la nube. Repositorio: `luiscazorla97-creator/maletafeliz-`, rama de publicación `main`.
+Configuración solicitada: todos los días a las **12:00 del mediodía de Miami, America/New_York**, con ejecución en la nube. Repositorio: `luiscazorla97-creator/maletafeliz-`, rama de publicación `main`.
+
+El pedido del 2 de noviembre de 2026 reemplaza el objetivo anterior de cinco originales a las 09:00. Son dos temas y cuatro versiones por tanda. El titular aclaró que hasta ahora iniciaba las publicaciones escribiendo en el chat.
 
 ## Instrucción para la tarea
 
-Publicá cinco guías de viaje originales nuevas en https://maletafeliz.com, cada una completa en español e inglés. El usuario autoriza seleccionar los temas, investigar, redactar, revisar, guardar en GitHub y desplegar en los proyectos existentes de Cloudflare, sin pedir confirmación por cada tanda.
+Publicá dos guías de viaje originales nuevas en https://maletafeliz.com, cada una completa en español e inglés. El usuario autoriza seleccionar los temas, investigar, redactar, revisar, guardar en GitHub y desplegar en los proyectos existentes de Cloudflare, sin pedir confirmación por cada tanda.
 
-Trabajá en el entorno en la nube configurado para este repositorio. Leé `AGENTS.md`, `docs/EDITORIAL.md`, `editorial/site.json` y el historial vigente; sincronizá `main` antes de editar sin descartar trabajo ajeno. Usá las credenciales configuradas únicamente para sus servicios, sin mostrarlas ni guardarlas en Git.
+Trabajá en el entorno en la nube configurado para este repositorio, sin depender de la PC del titular. Comprobá al inicio acceso efectivo al ejecutor, GitHub, fuentes públicas y Cloudflare. Leé `AGENTS.md`, `docs/EDITORIAL.md`, `editorial/site.json` y el historial vigente; sincronizá `main` antes de editar sin descartar trabajo ajeno. Usá las credenciales configuradas únicamente para sus servicios, sin mostrarlas ni guardarlas en Git.
 
-1. Determiná la fecha del lote en America/New_York. Consultá los lotes existentes: si el de hoy ya tiene cinco originales publicados y verificados, no dupliques la publicación. Si está incompleto, retomalo. El comando `npm run editorial:batch -- 5` solo reserva temas; no escribe ni publica.
-2. Compará el catálogo y el plan editorial. Elegí cinco necesidades de búsqueda distintas que no dupliquen las existentes. Cubrí progresivamente América, Europa, Asia, África y Oceanía, ajustando la selección cuando exista una razón editorial concreta. Priorizá guías útiles y duraderas; no inventes rankings ni cifras de búsquedas.
+1. Determiná la fecha del lote en America/New_York. Consultá todos los lotes y verificaciones del día, incluidos pedidos manuales, y contá temas únicos publicados por primera vez: si el de hoy ya tiene al menos dos originales publicados y verificados, no dupliques la publicación. Si está incompleto, retomalo y completá únicamente lo que falte para llegar a dos. No dupliques reservas ni ejecuciones concurrentes; revisá el lote devuelto por el comando antes de trabajar. El comando `npm run editorial:batch -- 2` solo reserva temas; no escribe ni publica.
+2. Compará el catálogo y el plan editorial. Elegí dos necesidades de búsqueda distintas que no dupliquen las existentes. Alterná progresivamente América, Europa, Asia, África y Oceanía según la cobertura del historial, ajustando la selección cuando exista una razón editorial concreta. La tarea general no queda limitada a egresados ni a Argentina. Priorizá guías útiles y duraderas; no inventes rankings ni cifras de búsquedas.
 3. Investigá fuentes oficiales accesibles y conservá evidencia con hechos y extractos leídos. Registrá bloqueos; no presentes una URL candidata como fuente consultada. Reutilizá los hechos entre idiomas.
 4. Redactá cada guía con desarrollo original suficiente, entre 1.200 y 2.500 palabras útiles por idioma cuando corresponda a su alcance. Incluí ubicación, qué hacer, organización de traslados, reservas, contexto, itinerario, preguntas frecuentes y enlaces pertinentes. No rellenes con párrafos repetidos ni publiques precios, horarios o eventos sin respaldo actual.
 5. Cada lugar recomendado en una sección `kind: place` debe llevar su propia fotografía documental pertinente. Verificá el archivo y la licencia específica, conservá crédito y condiciones, generá derivados optimizados y ALT en ambos idiomas. La portada no sustituye esas fotos. No uses imágenes generadas como documentación de destinos. Respetá límites de las fuentes y esperas indicadas; no uses métodos alternativos para eludirlos.
 6. Revisá los dos idiomas, la intención, la originalidad, los enlaces y todas las fotos. Asigná fechas reales y aprobaciones vinculadas al contenido final solo después de la revisión. Conservá las fechas de artículos anteriores que no cambien. El estado local `published` significa selección para compilar, no publicación pública verificada.
 7. Ejecutá los controles requeridos del repositorio, incluida obligatoriamente `npm run build:release`, y las pruebas apropiadas de navegación, SEO, imágenes, idiomas y móvil. No rebajes las comprobaciones. Conservá banners, consentimiento de Analytics y popunder desactivado, salvo una instrucción posterior explícita del usuario.
 8. Guardá los cambios en GitHub sin sobrescribir commits ajenos. Desplegá mediante el flujo existente de Cloudflare Pages y verificá que ambos proyectos completen el commit correcto. No sustituyas proyectos ni registros DNS existentes por conveniencia.
-9. Comprobá HTTPS, los diez artículos localizados, fotos, canonical, hreflang, búsqueda, destinos, sitemap y redirección www. Registrá lote, historial y publicación únicamente después de comprobar el despliegue. Respondé con las cinco URLs españolas y el resultado real.
+9. Comprobá HTTPS, los cuatro artículos localizados, fotos, canonical, hreflang, búsqueda, destinos, sitemap y redirección www. Registrá lote, historial y publicación únicamente después de comprobar el despliegue. Respondé con las dos URLs españolas y el resultado real.
 
 Usá la capacidad de Codex incluida en la tarea, sin contratar APIs de IA, servicios de redacción, créditos ni imágenes de pago. No envíes mensajes por correo o servicios externos. Si falta una capacidad, credencial, fuente o comprobación imprescindible, conservá lo terminado y explicá el bloqueo real; no afirmes una publicación ni una ejecución automática que no se haya verificado.
 
-## Parámetros de calendario para un programador compatible
+## Calendario configurado
 
-- Zona IANA: `America/New_York`.
-- Hora local: `09:00`.
-- Recurrencia: `FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0`.
-- Cinco originales / diez versiones por ejecución diaria.
-- Ejecutar en la nube con acceso al repositorio y al entorno configurado.
-- No sustituir por una hora UTC fija: Nueva York cambia con el horario de verano.
+- Inicio del trabajo: todos los días a las **12:00 del mediodía de Miami**.
+- Zona IANA: `America/New_York`, con ajuste automático del horario de verano; no fijar una hora UTC constante.
+- Recurrencia: `FREQ=DAILY;BYHOUR=12;BYMINUTE=0;BYSECOND=0`.
+- Primer inicio programado: **3 de noviembre de 2026, 12:00 de Miami**.
+- Objetivo: dos originales nuevos, completos en español e inglés (cuatro versiones).
+- Título de la tarea: «Publicar 2 artículos de viajes».
 
-Este archivo es una especificación y un texto listo para una tarea; por sí solo **no crea ni activa una automatización**.
+La creación y lectura posterior del programador confirmaron la tarea habilitada, zona y horario exactos. La evidencia está en `editorial/verification/2026-11-02-daily-two-schedule.json`; el identificador de mantenimiento, en `editorial/site.json`.
 
-La captura del titular muestra una tarea diaria a las 09:00 America/New_York en otro chat; el titular aceptó ese horario. La captura no acredita el acceso de ese chat al repositorio ni al entorno de Cloudflare. Esta sesión no expone herramientas para editar el programador o manejar esa pantalla, y la lectura del otro chat falla por conexión. La publicación automática y la primera ejecución siguen pendientes de comprobación.
+La primera ejecución desatendida y su acceso efectivo a GitHub y Cloudflare todavía no se han presenciado. No confundir configuración confirmada con publicación automática comprobada. La hora es el inicio del trabajo: las guías aparecen después de investigar, redactar, revisar y desplegar. No iniciar una tanda adicional ahora como prueba si el titular solo pidió programar.
 
-## Texto breve para pegar en la automatización
-
-> En el repositorio luiscazorla97-creator/maletafeliz-, sincronizá main y ejecutá docs/DAILY-PUBLISHING.md: elegí, investigá y publicá cinco guías originales nuevas en español e inglés, sin repetir destinos ni intenciones. Cada lugar recomendado debe tener una foto real pertinente y acreditada. Aplicá los controles editoriales y SEO, ejecutá build:release y las pruebas necesarias, guardá en GitHub, desplegá en los proyectos existentes de Cloudflare y verificá las URLs públicas. Evitá duplicar el lote del día en America/New_York. Usá el entorno en la nube configurado y la capacidad de Codex, sin APIs de IA de pago. El titular autoriza publicar sin una confirmación adicional por tanda. Informá los enlaces y cualquier bloqueo real.
-
-La pantalla observada permite elegir un chat de ejecución, frecuencia diaria y las 09:00 America/New_York; no muestra un selector de repositorio ni de entorno. El chat seleccionado debe poder acceder al repositorio y al entorno configurado antes de considerar operativa la publicación automática. La hora es de inicio del trabajo; investigar, revisar y desplegar requiere tiempo antes de que las guías aparezcan en público.
+El programador conectado no mostró una tarea previa de MaletaFeliz. Tras la consulta, el titular aclaró que las publicaciones anteriores se iniciaban escribiendo en el chat. Se creó una única tarea para este sitio, sin modificar tareas de otros proyectos. Si una ejecución futura encuentra un bloqueo, debe informar el resultado real y conservar el trabajo verificable.

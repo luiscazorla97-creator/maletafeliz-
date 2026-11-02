@@ -1,0 +1,24 @@
+{
+  "verifiedAt": "2026-11-02T18:43:41.688Z",
+  "id": "6ae8d9c1082481918ec7989b20373d6d",
+  "title": "Publicar 2 artículos de viajes",
+  "isEnabled": true,
+  "timeZone": "America/New_York",
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261103T120000\nRRULE:FREQ=DAILY;BYHOUR=12;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+  "timingMode": "exact_schedule",
+  "lastRunTime": null,
+  "nextRunTime": null,
+  "firstScheduledLocalStart": "2026-11-03T12:00:00-05:00",
+  "firstUnattendedPublicationVerified": false,
+  "previousTaskClarification": "User clarified that earlier publications were started by writing in the chat; no prior MaletaFeliz task found in connected scheduler.",
+  "checks": {
+    "matchingMaletaFelizSchedules": 1,
+    "enabledReadbackVerified": true,
+    "exactNoonScheduleVerified": true,
+    "catalogErrors": 0,
+    "catalogOriginals": 127,
+    "catalogLocalizations": 254,
+    "unitTestsPassed": 33,
+    "firstUnattendedExecutionVerified": false
+  }
+}

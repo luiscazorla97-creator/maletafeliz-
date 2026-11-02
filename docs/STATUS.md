@@ -1,14 +1,14 @@
 # Estado del proyecto
 
-Verificado el 31 de octubre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
+Verificado el 2 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
 
 ## Publicación verificada
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 80 guías originales y 160 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 367 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 422 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 125 guías originales y 250 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 505 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 557 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
@@ -120,6 +120,14 @@ Publicadas Ushuaia, Florencia, Hanói, Túnez y Brisbane, con diez versiones com
 Pasaron comprobación de tipos, 33 pruebas unitarias, 10 de navegación de vista previa y 346 de producción. La compilación genera 456 páginas HTML. Ambos proyectos de Cloudflare desplegaron el commit `53272f2b37ed78a2f82b806730a7c25e7e740e75`; 263 comprobaciones públicas verifican artículos, imágenes, descubrimiento, SEO y redirección www. Evidencia: `editorial/verification/2026-11-01-publication.json`. El sitio suma 80 guías originales, 160 versiones, 422 fotografías y 420 lugares recomendados con foto.
 
 Esta tanda fue solicitada manualmente; no acredita ejecución de la automatización diaria.
+
+## Cinco guías publicadas: 2 de noviembre de 2026
+
+Publicadas Quito, Córdoba, Nara, Essaouira y Adelaide: cinco originales nuevos y diez versiones completas en español e inglés, de 1.527 a 1.603 palabras por versión. Se consultaron 20 documentos oficiales y se incorporaron 15 fotografías documentales, con una imagen propia por lugar, licencias específicas, atribución y variantes WebP. Las fuentes bloqueadas quedan registradas sin citarse como consultadas. La fotografía de Glenelg de 2009 se identifica como archivo en ambos idiomas.
+
+Pasaron tipos sin errores ni advertencias, 33 pruebas unitarias, 28 de navegación y 46 de producción seleccionadas para las diez guías, portada, sitemap, publicidad y consentimiento. Ambas compilaciones generaron 648 páginas. Las 121 comprobaciones adicionales verifican las diez guías en escritorio y móvil, traducciones, búsquedas, destinos, continentes, países y los bytes exactos de 60 recursos fotográficos. Los proveedores externos se bloquearon o simularon en las pruebas; no se generaron impresiones de prueba.
+
+Ambos proyectos existentes de Cloudflare completaron el commit `d9aff9dd99957472230f36db29530929af8f97b0`. Se verificaron 258 respuestas HTTPS del sitio y las redirecciones, incluidos los 250 artículos localizados. El sitemap contiene 624 URLs. Evidencia: `editorial/verification/2026-11-02-publication.json`. El sitio suma 125 originales, 250 versiones, 557 fotografías y 555 lugares recomendados con foto. Los 240 artículos localizados anteriores, sus fechas, las 542 fotografías previas, el diseño y los anuncios permanecen intactos. Esta tanda fue solicitada manualmente; no acredita ejecución automática.
 
 ## Operación y límites
 

@@ -2,7 +2,7 @@
   "id": "2026-11-02",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-02T15:45:06.411Z",
-  "status": "selected-for-gated-build",
+  "status": "published",
   "topicIds": [
     "quito",
     "cordoba",
@@ -11,7 +11,7 @@
     "adelaide"
   ],
   "requestedCount": 5,
-  "publishedCount": 0,
+  "publishedCount": 5,
   "errors": [],
   "selectedAt": "2026-11-02T16:19:11.224Z",
   "selectedOriginals": 5,
@@ -22,5 +22,8 @@
     "Quito older municipal tourism link: HTTP 404; municipal domes article: HTTP 503. Current Visit Quito publisher pages used instead.",
     "Cordoba municipal bridge and Alcazar endpoints: HTTP 403; not cited as consulted. UNESCO and Spain tourism facts used without guaranteeing present interior access.",
     "One Commons file-page attempt returned HTTP 500; same page subsequently succeeded. No rate-limit or network workaround used."
-  ]
+  ],
+  "publishedAt": "2026-11-02T16:45:47.937Z",
+  "publicVerification": "editorial/verification/2026-11-02-publication.json",
+  "commit": "d9aff9dd99957472230f36db29530929af8f97b0"
 }

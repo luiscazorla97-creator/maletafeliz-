@@ -1,0 +1,365 @@
+{
+  "reviewedAt": "2026-11-02T16:24:23.825342+00:00",
+  "reviewer": "Codex editorial research and visual review (AI-assisted)",
+  "topics": [
+    "quito",
+    "cordoba",
+    "nara",
+    "essaouira",
+    "adelaide"
+  ],
+  "sourceDocuments": 20,
+  "photographs": 15,
+  "sourceEvidence": "HTTP status, final URL, timestamp, SHA-256, facts, source locations and read excerpts retained in content/research/nov2-*.json. Failed endpoints remain recorded and uncited.",
+  "imageDecisions": [
+    "Replaced a Roman Bridge candidate showing a nearby statue with a photograph of the actual bridge.",
+    "Used and explicitly labelled a facade detail for La Compania, rather than implying a full building/interior view.",
+    "Rejected ambiguous Essaouira tower/fortification images; final Skala photo has exact Kasbah rampart geolocation 31.515322,-9.771928 and was viewed individually.",
+    "Rejected a much older government Glenelg archive; final 2009 beach photograph explicitly labelled archive in both languages and attribution.",
+    "San Francisco and Basilica exterior night images are identified as such; neither implies night admission."
+  ],
+  "licensing": "Specific original file pages reviewed; authors, license links, modification disclosures, requested delso.photo credit and responsive derivatives retained. No generated destination photographs.",
+  "publicationStatus": "Selected for mandatory gated build. No public completion claimed by this research record.",
+  "manuscripts": [
+    {
+      "id": "quito",
+      "locale": "es",
+      "title": "Quito en 2 días: tres iglesias para entender el centro histórico",
+      "slug": "que-ver-en-quito",
+      "words": 1527,
+      "contentHash": "5bfea162b3a4f971ef8555e93782565c0ce993b00e1b48b9408b4da0ef608fee",
+      "places": [
+        {
+          "id": "san-francisco",
+          "imageId": "nov2-quito-san-francisco",
+          "sourceIds": [
+            "nov2-quito-unesco",
+            "nov2-quito-visit",
+            "nov2-quito-mobility"
+          ]
+        },
+        {
+          "id": "compania",
+          "imageId": "nov2-quito-compania",
+          "sourceIds": [
+            "nov2-quito-compania",
+            "nov2-quito-visit"
+          ]
+        },
+        {
+          "id": "basilica",
+          "imageId": "nov2-quito-basilica",
+          "sourceIds": [
+            "nov2-quito-visit",
+            "nov2-quito-mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quito",
+      "locale": "en",
+      "title": "Quito in 2 days: three churches in the historic centre",
+      "slug": "what-to-see-in-quito",
+      "words": 1563,
+      "contentHash": "d9529b9944eab2d6b2e0ed39e4ae0a3f10623d8537d1e9d29035383b5edf856d",
+      "places": [
+        {
+          "id": "san-francisco",
+          "imageId": "nov2-quito-san-francisco",
+          "sourceIds": [
+            "nov2-quito-unesco",
+            "nov2-quito-visit",
+            "nov2-quito-mobility"
+          ]
+        },
+        {
+          "id": "compania",
+          "imageId": "nov2-quito-compania",
+          "sourceIds": [
+            "nov2-quito-compania",
+            "nov2-quito-visit"
+          ]
+        },
+        {
+          "id": "basilica",
+          "imageId": "nov2-quito-basilica",
+          "sourceIds": [
+            "nov2-quito-visit",
+            "nov2-quito-mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cordoba",
+      "locale": "es",
+      "title": "Qué ver en Córdoba en 2 días: Mezquita, puente y Alcázar",
+      "slug": "que-ver-en-cordoba",
+      "words": 1564,
+      "contentHash": "21b7028d2e142c2a7a7ea8c21ed56749018da448bfd0aa5755a26cd6e48f8cfe",
+      "places": [
+        {
+          "id": "mezquita",
+          "imageId": "nov2-cordoba-mezquita",
+          "sourceIds": [
+            "nov2-cordoba-unesco",
+            "nov2-cordoba-mosque"
+          ]
+        },
+        {
+          "id": "puente",
+          "imageId": "nov2-cordoba-puente",
+          "sourceIds": [
+            "nov2-cordoba-unesco",
+            "nov2-cordoba-spain"
+          ]
+        },
+        {
+          "id": "alcazar",
+          "imageId": "nov2-cordoba-alcazar",
+          "sourceIds": [
+            "nov2-cordoba-unesco",
+            "nov2-cordoba-spain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cordoba",
+      "locale": "en",
+      "title": "Córdoba in 2 days: Mosque–Cathedral, bridge and Alcázar",
+      "slug": "what-to-see-in-cordoba",
+      "words": 1573,
+      "contentHash": "1c8cce7c251e49d43167b43f7a6a12d9e132ade81645d925cdd19e7ac9ed2075",
+      "places": [
+        {
+          "id": "mezquita",
+          "imageId": "nov2-cordoba-mezquita",
+          "sourceIds": [
+            "nov2-cordoba-unesco",
+            "nov2-cordoba-mosque"
+          ]
+        },
+        {
+          "id": "puente",
+          "imageId": "nov2-cordoba-puente",
+          "sourceIds": [
+            "nov2-cordoba-unesco",
+            "nov2-cordoba-spain"
+          ]
+        },
+        {
+          "id": "alcazar",
+          "imageId": "nov2-cordoba-alcazar",
+          "sourceIds": [
+            "nov2-cordoba-unesco",
+            "nov2-cordoba-spain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nara",
+      "locale": "es",
+      "title": "Nara en un día: Todaiji, Kasugataisha y el parque sin prisas",
+      "slug": "que-ver-en-nara",
+      "words": 1548,
+      "contentHash": "a0c17edd9fdbd3c57dd0df3129b6c45e6a3cb8c75ca22467c381ec038a6cb2eb",
+      "places": [
+        {
+          "id": "todaiji",
+          "imageId": "nov2-nara-todaiji",
+          "sourceIds": [
+            "nov2-nara-todaiji",
+            "nov2-nara-access"
+          ]
+        },
+        {
+          "id": "kasuga",
+          "imageId": "nov2-nara-kasuga",
+          "sourceIds": [
+            "nov2-nara-kasuga",
+            "nov2-nara-park"
+          ]
+        },
+        {
+          "id": "park",
+          "imageId": "nov2-nara-park",
+          "sourceIds": [
+            "nov2-nara-park",
+            "nov2-nara-deer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nara",
+      "locale": "en",
+      "title": "Nara in one day: Todaiji, Kasugataisha and the park",
+      "slug": "what-to-see-in-nara",
+      "words": 1556,
+      "contentHash": "e72c57fc916b9b29d4bfcf552806cabbfbfeda4bf5b5085fcc70f2e00f15b547",
+      "places": [
+        {
+          "id": "todaiji",
+          "imageId": "nov2-nara-todaiji",
+          "sourceIds": [
+            "nov2-nara-todaiji",
+            "nov2-nara-access"
+          ]
+        },
+        {
+          "id": "kasuga",
+          "imageId": "nov2-nara-kasuga",
+          "sourceIds": [
+            "nov2-nara-kasuga",
+            "nov2-nara-park"
+          ]
+        },
+        {
+          "id": "park",
+          "imageId": "nov2-nara-park",
+          "sourceIds": [
+            "nov2-nara-park",
+            "nov2-nara-deer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essaouira",
+      "locale": "es",
+      "title": "Essaouira en 2 días: medina, murallas y puerto atlántico",
+      "slug": "que-ver-en-essaouira",
+      "words": 1601,
+      "contentHash": "c169154c24d3a4def4c09c5d1069b9e027eb9d2cca9fcaa9664a3ba5f50caff6",
+      "places": [
+        {
+          "id": "medina",
+          "imageId": "nov2-essaouira-medina",
+          "sourceIds": [
+            "nov2-essaouira-unesco",
+            "nov2-essaouira-medina"
+          ]
+        },
+        {
+          "id": "skala",
+          "imageId": "nov2-essaouira-skala",
+          "sourceIds": [
+            "nov2-essaouira-medina",
+            "nov2-essaouira-unesco"
+          ]
+        },
+        {
+          "id": "port",
+          "imageId": "nov2-essaouira-port",
+          "sourceIds": [
+            "nov2-essaouira-port",
+            "nov2-essaouira-unesco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essaouira",
+      "locale": "en",
+      "title": "Essaouira in 2 days: medina, ramparts and fishing port",
+      "slug": "what-to-see-in-essaouira",
+      "words": 1603,
+      "contentHash": "5ec6f98dbabb606e11863618dc8a720880517ac1b00b08bd3866a617392f538f",
+      "places": [
+        {
+          "id": "medina",
+          "imageId": "nov2-essaouira-medina",
+          "sourceIds": [
+            "nov2-essaouira-unesco",
+            "nov2-essaouira-medina"
+          ]
+        },
+        {
+          "id": "skala",
+          "imageId": "nov2-essaouira-skala",
+          "sourceIds": [
+            "nov2-essaouira-medina",
+            "nov2-essaouira-unesco"
+          ]
+        },
+        {
+          "id": "port",
+          "imageId": "nov2-essaouira-port",
+          "sourceIds": [
+            "nov2-essaouira-port",
+            "nov2-essaouira-unesco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adelaide",
+      "locale": "es",
+      "title": "Adelaide en 3 días: mercado, jardín botánico y Glenelg",
+      "slug": "que-ver-en-adelaide",
+      "words": 1602,
+      "contentHash": "fb3bb94f400e50b25132c735fba62006e17e2158d38a38384a4ce32c1b4d30e7",
+      "places": [
+        {
+          "id": "market",
+          "imageId": "nov2-adelaide-market",
+          "sourceIds": [
+            "nov2-adelaide-market",
+            "nov2-adelaide-hours"
+          ]
+        },
+        {
+          "id": "garden",
+          "imageId": "nov2-adelaide-garden",
+          "sourceIds": [
+            "nov2-adelaide-garden"
+          ]
+        },
+        {
+          "id": "glenelg",
+          "imageId": "nov2-adelaide-glenelg",
+          "sourceIds": [
+            "nov2-adelaide-glenelg",
+            "nov2-adelaide-tram"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adelaide",
+      "locale": "en",
+      "title": "Adelaide in 3 days: Central Market, botanic garden and Glenelg",
+      "slug": "what-to-see-in-adelaide",
+      "words": 1591,
+      "contentHash": "df94632ee8b49be9ada1f01e958e6ca4a6dda88686e1202313df0e7e4b0a41bb",
+      "places": [
+        {
+          "id": "market",
+          "imageId": "nov2-adelaide-market",
+          "sourceIds": [
+            "nov2-adelaide-market",
+            "nov2-adelaide-hours"
+          ]
+        },
+        {
+          "id": "garden",
+          "imageId": "nov2-adelaide-garden",
+          "sourceIds": [
+            "nov2-adelaide-garden"
+          ]
+        },
+        {
+          "id": "glenelg",
+          "imageId": "nov2-adelaide-glenelg",
+          "sourceIds": [
+            "nov2-adelaide-glenelg",
+            "nov2-adelaide-tram"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-11-02T16:37:44.964365+00:00",
+  "types": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "unit": 33,
+  "previewNavigation": 28,
+  "productionBrowser": 46,
+  "productionBrowserScope": "All ten new localized articles at desktop/mobile, homepage, full-catalog sitemap and existing advertising/consent tests. Existing article manuscripts unchanged.",
+  "previewHtmlPages": 648,
+  "productionHtmlPages": 648,
+  "newOriginals": 5,
+  "newLocalizations": 10,
+  "newPlacePhotographs": 15,
+  "productionGuideRoutes": 250,
+  "builds": [
+    "npm run build",
+    "npm run build:release"
+  ],
+  "additionalBatchChecks": 121,
+  "localVerification": "editorial/verification/2026-11-02-local-batch.json",
+  "providerScriptsMocked": true,
+  "visualReview": "Final 15-photo contact sheet inspected, including replacement Kasbah photograph. Rendered Quito desktop and Nara mobile layouts inspected. All ten articles loaded and switched languages in both viewports without overflow.",
+  "preservation": "Previous 240 localized article files unchanged; 542 prior image records and 120 prior plan entries identical. No application code, ad settings, dependencies, menu, branding or SEO configuration changes."
+}

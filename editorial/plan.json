@@ -6046,5 +6046,291 @@
       "es": "published",
       "en": "published"
     }
+  },
+  {
+    "id": "quito",
+    "city": {
+      "es": "Quito",
+      "en": "Quito"
+    },
+    "countryId": "ec",
+    "country": {
+      "es": "Ecuador",
+      "en": "Ecuador"
+    },
+    "continent": "america",
+    "places": [
+      [
+        "san-francisco",
+        "San Francisco",
+        "San Francisco"
+      ],
+      [
+        "compania",
+        "La Compañía de Jesús",
+        "La Compañía de Jesús"
+      ],
+      [
+        "basilica",
+        "Basílica del Voto Nacional",
+        "Basilica of the National Vow"
+      ]
+    ],
+    "related": [
+      "cusco",
+      "lima"
+    ],
+    "days": 2,
+    "category": "cities",
+    "categories": [
+      "culture",
+      "cities"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "quito-san-francisco-compania-basilica-two-days",
+    "titles": {
+      "es": "Quito en 2 días: tres iglesias para entender el centro histórico",
+      "en": "Quito in 2 days: three churches in the historic centre"
+    },
+    "slugs": {
+      "es": "que-ver-en-quito",
+      "en": "what-to-see-in-quito"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "cordoba",
+    "city": {
+      "es": "Córdoba",
+      "en": "Córdoba"
+    },
+    "countryId": "es",
+    "country": {
+      "es": "España",
+      "en": "Spain"
+    },
+    "continent": "europe",
+    "places": [
+      [
+        "mezquita",
+        "Mezquita-Catedral",
+        "Mosque–Cathedral"
+      ],
+      [
+        "puente",
+        "Puente Romano",
+        "Roman Bridge"
+      ],
+      [
+        "alcazar",
+        "Alcázar de los Reyes Cristianos",
+        "Alcázar of the Christian Monarchs"
+      ]
+    ],
+    "related": [
+      "granada",
+      "seville"
+    ],
+    "days": 2,
+    "category": "cities",
+    "categories": [
+      "culture",
+      "cities"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "cordoba-mosque-bridge-alcazar-two-days",
+    "titles": {
+      "es": "Qué ver en Córdoba en 2 días: Mezquita, puente y Alcázar",
+      "en": "Córdoba in 2 days: Mosque–Cathedral, bridge and Alcázar"
+    },
+    "slugs": {
+      "es": "que-ver-en-cordoba",
+      "en": "what-to-see-in-cordoba"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "nara",
+    "city": {
+      "es": "Nara",
+      "en": "Nara"
+    },
+    "countryId": "jp",
+    "country": {
+      "es": "Japón",
+      "en": "Japan"
+    },
+    "continent": "asia",
+    "places": [
+      [
+        "todaiji",
+        "Templo Todaiji",
+        "Todaiji Temple"
+      ],
+      [
+        "kasuga",
+        "Santuario Kasugataisha",
+        "Kasugataisha Shrine"
+      ],
+      [
+        "park",
+        "Parque de Nara",
+        "Nara Park"
+      ]
+    ],
+    "related": [
+      "kyoto",
+      "tokyo"
+    ],
+    "days": 1,
+    "category": "cities",
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "nara-todaiji-kasuga-park-first-visit",
+    "titles": {
+      "es": "Nara en un día: Todaiji, Kasugataisha y el parque sin prisas",
+      "en": "Nara in one day: Todaiji, Kasugataisha and the park"
+    },
+    "slugs": {
+      "es": "que-ver-en-nara",
+      "en": "what-to-see-in-nara"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "essaouira",
+    "city": {
+      "es": "Essaouira",
+      "en": "Essaouira"
+    },
+    "countryId": "ma",
+    "country": {
+      "es": "Marruecos",
+      "en": "Morocco"
+    },
+    "continent": "africa",
+    "places": [
+      [
+        "medina",
+        "Medina de Essaouira",
+        "Essaouira medina"
+      ],
+      [
+        "skala",
+        "Skala de la Kasbah",
+        "Skala de la Kasbah"
+      ],
+      [
+        "port",
+        "Puerto de Essaouira",
+        "Essaouira fishing port"
+      ]
+    ],
+    "related": [
+      "marrakech",
+      "rabat"
+    ],
+    "days": 2,
+    "category": "cities",
+    "categories": [
+      "culture",
+      "beaches"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "essaouira-medina-skala-fishing-port-two-days",
+    "titles": {
+      "es": "Essaouira en 2 días: medina, murallas y puerto atlántico",
+      "en": "Essaouira in 2 days: medina, ramparts and fishing port"
+    },
+    "slugs": {
+      "es": "que-ver-en-essaouira",
+      "en": "what-to-see-in-essaouira"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "adelaide",
+    "city": {
+      "es": "Adelaide",
+      "en": "Adelaide"
+    },
+    "countryId": "au",
+    "country": {
+      "es": "Australia",
+      "en": "Australia"
+    },
+    "continent": "oceania",
+    "places": [
+      [
+        "market",
+        "Adelaide Central Market",
+        "Adelaide Central Market"
+      ],
+      [
+        "garden",
+        "Adelaide Botanic Garden",
+        "Adelaide Botanic Garden"
+      ],
+      [
+        "glenelg",
+        "Glenelg",
+        "Glenelg"
+      ]
+    ],
+    "related": [
+      "melbourne",
+      "perth"
+    ],
+    "days": 3,
+    "category": "cities",
+    "categories": [
+      "cities",
+      "nature",
+      "beaches"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "adelaide-market-botanic-garden-glenelg-three-days",
+    "titles": {
+      "es": "Adelaide en 3 días: mercado, jardín botánico y Glenelg",
+      "en": "Adelaide in 3 days: Central Market, botanic garden and Glenelg"
+    },
+    "slugs": {
+      "es": "que-ver-en-adelaide",
+      "en": "what-to-see-in-adelaide"
+    },
+    "researchStatus": "verified-sources",
+    "imageStatus": "verified-licensed",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
   }
 ]

@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-03-november-ten-manual",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-03T22:08:20.880441+00:00",
+  "status": "selected-for-gated-build",
+  "topicIds": [
+    "hilo",
+    "buffalo",
+    "columbus",
+    "phuket",
+    "greenville-sc",
+    "goa",
+    "udaipur",
+    "puri",
+    "las-vegas",
+    "doha"
+  ],
+  "requestedCount": 10,
+  "publishedCount": 0,
+  "manualAdditionalRequest": true,
+  "placesPerGuide": 5,
+  "localizedVersionsRequested": 20,
+  "errors": [],
+  "authorization": "Explicit additional manual request for ten originals; daily target of two remains unchanged and its completed batch is preserved.",
+  "initialTopicIds": [
+    "hilo",
+    "buffalo",
+    "columbus",
+    "punta-gorda",
+    "greenville-sc",
+    "goa",
+    "udaipur",
+    "puri",
+    "las-vegas",
+    "doha"
+  ],
+  "selectionRevisions": [
+    {
+      "at": "2026-11-03T22:16:35.699913+00:00",
+      "replaced": "punta-gorda",
+      "selected": "phuket",
+      "reason": "Stronger international search signal in current Agoda report and verifiable photo prospects; Punta Gorda research retained uncited. No manuscript or previous publication changed."
+    },
+    {
+      "topic": "greenville-sc",
+      "placeReplaced": "art-museum",
+      "selectedPlace": "zoo",
+      "reason": "Avoided irrelevant concert/sculpture imagery; official zoo is a distinct cultural/nature visit with documentary photo prospects."
+    },
+    {
+      "at": "2026-11-03T22:26:00.457517+00:00",
+      "topic": "columbus",
+      "placeReplaced": "franklin-conservatory",
+      "selectedPlace": "cosi",
+      "reason": "Official notice closes Palm House, Showhouse and Wolfe Terrace through fall 2027; choose currently verifiable science museum instead."
+    }
+  ],
+  "selectedCount": 10,
+  "localizedVersionsSelected": 20,
+  "documentaryPhotosSelected": 50,
+  "citedSourceDocuments": 58,
+  "editorialReviewAt": "2026-11-03T23:21:20.945223+00:00"
+}

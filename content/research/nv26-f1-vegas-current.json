@@ -1,0 +1,25 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/las-vegas",
+  "finalUrl": "https://www.formula1.com/en/racing/2026/las-vegas",
+  "fetchedAt": "2026-11-03T22:13:15.456Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "2ce6ae5090d6755017bbde521fe11be3ccacdb3b82a1b4533ee1d841a947da22",
+  "facts": [
+    {
+      "fact": "Current F1 page provides Las Vegas 2026 race schedule with selectable viewer/circuit time; local weekend November 19–21 corroborated by FIA calendar.",
+      "location": "Publisher text; exact anchor begins the excerpt.",
+      "excerpt": "TRACK TIME Add F1 calendar My time Track time 20 Nov Practice 1 00:30 - 01:30 20 Nov Practice 2 04:00 - 05:00 21"
+    },
+    {
+      "fact": "Publisher event JSON-LD explicitly dates the 2026 Las Vegas Grand Prix November19–21. Race session start2026-11-22T04:00Z corresponds to November21 at20:00 in America/Los_Angeles; guide uses local date and explains viewer/circuit selector.",
+      "location": "Actual captured HTML application/ld+json Event startDate/endDate; embedded session SportsEvent startDate and timezone conversion.",
+      "structuredFields": {
+        "startDate": "2026-11-19T00:00:00.000Z",
+        "endDate": "2026-11-21T23:59:59.999Z"
+      }
+    }
+  ],
+  "notes": "Actual publisher passages read; editorial routes and flexible durations are suggestions, not operator guarantees. No unattributed prices, opening promises, search volumes or personal experience.",
+  "reviewedBy": "Codex editorial research (AI-assisted)"
+}

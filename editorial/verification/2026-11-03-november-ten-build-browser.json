@@ -1,0 +1,1603 @@
+{
+  "checkedAt": "2026-11-03T23:37:05.759911+00:00",
+  "status": "local-production-verified-public-deployment-pending",
+  "commands": {
+    "npm run check": "0errors/0warnings",
+    "npm test": "33passed",
+    "npm run build": "708HTML completed",
+    "npm run test:e2e": "28passed",
+    "npm run build:release": "exit0,708HTML completed",
+    "npm run test:release -- --grep [new twenty versions, catalogue, homepage, advertising and Analytics]": "66passed"
+  },
+  "releaseTestsPassed": 66,
+  "normalHtmlPages": 708,
+  "productionHtmlPages": 708,
+  "sitemapUrls": 684,
+  "localChecks": {
+    "checkedAt": "2026-11-03T23:35:58.945Z",
+    "origin": "http://127.0.0.1:4323",
+    "browserTransport": "Local preview; external providers blocked.",
+    "checks": [
+      {
+        "type": "browser",
+        "path": "/en/guides/buffalo-in-november/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/buffalo-en-noviembre/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/columbus-in-november/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/columbus-en-noviembre/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/doha-november-f1/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/doha-noviembre-f1/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/goa-in-november/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/goa-en-noviembre/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/greenville-south-carolina-november/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/greenville-carolina-del-sur-noviembre/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/hilo-in-november/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/hilo-en-noviembre/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/las-vegas-november-f1/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/las-vegas-noviembre-f1/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/phuket-in-november/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/phuket-en-noviembre/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/puri-in-november/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/puri-en-noviembre/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/udaipur-in-november/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/udaipur-en-noviembre/",
+        "width": 1440,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/buffalo-in-november/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/buffalo-en-noviembre/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/columbus-in-november/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/columbus-en-noviembre/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/doha-november-f1/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/doha-noviembre-f1/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/goa-in-november/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/goa-en-noviembre/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/greenville-south-carolina-november/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/greenville-carolina-del-sur-noviembre/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/hilo-in-november/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/hilo-en-noviembre/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/las-vegas-november-f1/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/las-vegas-noviembre-f1/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/phuket-in-november/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/phuket-en-noviembre/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/puri-in-november/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/puri-en-noviembre/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/udaipur-in-november/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/udaipur-en-noviembre/",
+        "width": 390,
+        "photos": 6,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Buffalo",
+        "article": "/en/guides/buffalo-in-november/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Buffalo",
+        "article": "/es/guias/buffalo-en-noviembre/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Columbus",
+        "article": "/en/guides/columbus-in-november/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Columbus",
+        "article": "/es/guias/columbus-en-noviembre/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Doha",
+        "article": "/en/guides/doha-november-f1/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Doha",
+        "article": "/es/guias/doha-noviembre-f1/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Goa",
+        "article": "/en/guides/goa-in-november/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Goa",
+        "article": "/es/guias/goa-en-noviembre/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Greenville%2C%20South%20Carolina",
+        "article": "/en/guides/greenville-south-carolina-november/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Greenville%2C%20Carolina%20del%20Sur",
+        "article": "/es/guias/greenville-carolina-del-sur-noviembre/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Hilo",
+        "article": "/en/guides/hilo-in-november/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Hilo",
+        "article": "/es/guias/hilo-en-noviembre/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Las%20Vegas",
+        "article": "/en/guides/las-vegas-november-f1/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Las%20Vegas",
+        "article": "/es/guias/las-vegas-noviembre-f1/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Phuket",
+        "article": "/en/guides/phuket-in-november/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Phuket",
+        "article": "/es/guias/phuket-en-noviembre/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Puri",
+        "article": "/en/guides/puri-in-november/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Puri",
+        "article": "/es/guias/puri-en-noviembre/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Udaipur",
+        "article": "/en/guides/udaipur-in-november/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Udaipur",
+        "article": "/es/guias/udaipur-en-noviembre/"
+      },
+      {
+        "type": "sitemap",
+        "articles": 278,
+        "urls": 684
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/buffalo/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-us/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/buffalo/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-us/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/columbus/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-us/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/columbus/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-us/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/doha/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-qa/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/doha/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-qa/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/goa/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-in/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/goa/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-in/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/greenville-sc/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-us/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/greenville-sc/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-us/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/hilo/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-us/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/hilo/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-us/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/las-vegas/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-us/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/las-vegas/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-us/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/phuket/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-th/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/phuket/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-th/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/puri/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-in/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/puri/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-in/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/udaipur/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-in/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/udaipur/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-in/"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-liliuokalani.webp",
+        "status": 200,
+        "sha256": "b1e86a95aabe87bcba261b8a4a9925326a2efdbdd0f6e3783eb748bf7c0f2fc4"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-liliuokalani-480w.webp",
+        "status": 200,
+        "sha256": "3dc6e66c3da1b45ca323ee1462bb81320e15a989e37fc87687ada5ebfbbeaba4"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-liliuokalani-800w.webp",
+        "status": 200,
+        "sha256": "f27409be8cfb9e89746796ea49eec053aef31766ce94ece753ce0cc305c1038a"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-rainbow-falls.webp",
+        "status": 200,
+        "sha256": "c13c713d0c79d39e02aa20a48efb47322c98147cb552a93a1c45832e8f7faa3e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-rainbow-falls-480w.webp",
+        "status": 200,
+        "sha256": "1b8f8ef3188b1a2857badda7b072aa4a30bfddba82fc15a480450afee6289ebd"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-rainbow-falls-800w.webp",
+        "status": 200,
+        "sha256": "93fe3f5dc4a7646f3330d2915df886e605d06eafe20a6e7922bec5582a18897e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-akaka-falls.webp",
+        "status": 200,
+        "sha256": "55b77a1b5812e4c2bb967fc5c8d8ae13f9ceb3a6bd2b77371480e04e9967bbaf"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-akaka-falls-480w.webp",
+        "status": 200,
+        "sha256": "3c449b5832d20a547ba637439d96b7fa51c2f059f6fa76ba2a55cc8c47367ab0"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-imiloa.webp",
+        "status": 200,
+        "sha256": "9e9adee7482a870820baf373bc41db4baeb004d7923b25b803484324c3636ced"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-imiloa-480w.webp",
+        "status": 200,
+        "sha256": "0a866e092cd6c644616034e3d7008c03c887bbe79a69738e08d1bd4d584dded2"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-imiloa-800w.webp",
+        "status": 200,
+        "sha256": "57c2730dc2fb6f315201547c67d12f5706b6d280deef5dcf61f78f3cc6fb1b67"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-hawaii-bioreserve.webp",
+        "status": 200,
+        "sha256": "7fbe8fe5ec9559c648b4bb4d8b9650dc484f0f525c6268ea3d0b0bacbe2cf061"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-hilo-hawaii-bioreserve-480w.webp",
+        "status": 200,
+        "sha256": "ff2190b3abbd9a09361a92d8dee0c1f88ab0f65b28e2681b7faf3887c372e5e8"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-martin-house.webp",
+        "status": 200,
+        "sha256": "8106a07e6591b6a4bd5bf2a4be7c86b075f365cfb04919d2f93fb552d3780a6d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-martin-house-480w.webp",
+        "status": 200,
+        "sha256": "6e79313bf56bdd01a94be8b1fa194a7735533cbc94c6fe8ef63766544e5b723c"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-martin-house-800w.webp",
+        "status": 200,
+        "sha256": "2439a706437c7fc641d66f3df25f9e7c09f7d049725b6f57690133e9ae6c0c9a"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-canalside.webp",
+        "status": 200,
+        "sha256": "47f75a9393dc19f2da21ff8a35ee690d5f69bb30879f9ad88c89940febea6b8d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-canalside-480w.webp",
+        "status": 200,
+        "sha256": "2da11d834c4e6c7e70f8b25ad2ff1bb436822f25f80f7907c7e7698e8f83f253"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-canalside-800w.webp",
+        "status": 200,
+        "sha256": "e8d6e905ce5304fd0ad54c5097a2f7f443beb622f76884ffbf4e316f2fbd6dbf"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-niagara-falls.webp",
+        "status": 200,
+        "sha256": "6eeba83eb2588e65744c982cc16a09a21c87d176d88e9a87d9b79a879804b0ca"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-niagara-falls-480w.webp",
+        "status": 200,
+        "sha256": "867f8d6df79a8c768b95e35a5a4cf38eba72b0a063c9ba5a44d196376b9f12fd"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-niagara-falls-800w.webp",
+        "status": 200,
+        "sha256": "73dcba80faf017efac70042c73d9ffd41265bcfe04d10ce435d9d135845ea637"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-cosi.webp",
+        "status": 200,
+        "sha256": "1d6633ef56f4d254ba1f71952be1c0cb4e7630a2fba206d027ea6231d7f3b62f"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-cosi-480w.webp",
+        "status": 200,
+        "sha256": "f1c0d0c0aba272029a701a6ecc24c67f1b1d60a4022df9f20c7fe1b683753a92"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-cosi-800w.webp",
+        "status": 200,
+        "sha256": "82a4a164b0ae4ff0d19f038f2ce76a25a61c021e2a3265bddfa542c4c30cdeb9"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-ohio-statehouse.webp",
+        "status": 200,
+        "sha256": "f582b49d8656bb4d5eacfb5d9e7c9ff7b73f3dd9c45aff6c43ae0108a065ebeb"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-ohio-statehouse-480w.webp",
+        "status": 200,
+        "sha256": "a474119f70878624117b1d4724f853a632663d2083b5353af41ddaab3ba5bdc6"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-scioto-mile.webp",
+        "status": 200,
+        "sha256": "63dd84204b8ad05984151af90034491e6fdd74f951618e3ba7b420eb07e28764"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-scioto-mile-480w.webp",
+        "status": 200,
+        "sha256": "6e44ce437cff33ef89d21829061b1c58d72655947d1e696e8ebdddf5cc4877d5"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-scioto-mile-800w.webp",
+        "status": 200,
+        "sha256": "f8293487f1269af9da7e407884793c47faae81dc0a88784f553d9d302a5f82d5"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-museum-art.webp",
+        "status": 200,
+        "sha256": "6afa4e1efd72a37c9059b1d9e523fbd6ccd49a1138b4af7c6eda70b2f56e7871"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-museum-art-480w.webp",
+        "status": 200,
+        "sha256": "29809a712ad4ceb9b7483de5cec346c3017d50cd88752e1cfb5b1fc8505afc23"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-museum-art-800w.webp",
+        "status": 200,
+        "sha256": "a4f5f8f145f20c2edaaa29b23d13a91121327eea4a5b5816b04633f2a50df08d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-old-town.webp",
+        "status": 200,
+        "sha256": "58ff3115148ccfe2dd7a89e329b26fa5c12e9d9098d5d9cf5da5b71297ad9043"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-old-town-480w.webp",
+        "status": 200,
+        "sha256": "e42df367c486ac6d3b7c404928713e91c2695a6bed5596836a5c31736baf6a63"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-old-town-800w.webp",
+        "status": 200,
+        "sha256": "43e0096992dac5b7933e069db6e1465d1f2bae2f8a4658f8b0f8bd2daa6fd29e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-wat-chalong.webp",
+        "status": 200,
+        "sha256": "1165a0043aa6c8218cb1837e7b6a415a9d994f37bd5bb16c155666e270bde0fe"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-wat-chalong-480w.webp",
+        "status": 200,
+        "sha256": "96b6ad607f6e648722fa175ea1f7ee9a558a75dc82f34c240b0c10d95245ee26"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-karon-viewpoint.webp",
+        "status": 200,
+        "sha256": "cda1625913b540adbddcd7d01bd96227838d583e58b819cb492fc64333bbca40"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-karon-viewpoint-480w.webp",
+        "status": 200,
+        "sha256": "288123a86408a7c2ebe99720d46036357f515309f478ea1c8f792871ac64f118"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-karon-viewpoint-800w.webp",
+        "status": 200,
+        "sha256": "3199d17b7c53ab4fcb37f2a8e44d9d2823afd032e8a711b23f00384ee9c8423c"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-promthep.webp",
+        "status": 200,
+        "sha256": "209668e29332ce8cfc07407b9ec5a97d57900e02648cae68ed0c432239ce641a"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-promthep-480w.webp",
+        "status": 200,
+        "sha256": "69d7619d1e46771976105e7d169541bb7734f1564ee6fe3eec66481a1002b61a"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-promthep-800w.webp",
+        "status": 200,
+        "sha256": "327f041ce93fe9cdf15636ba0845d5e1dabcae5eb5491291fa6c01894c8d965d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-nai-harn.webp",
+        "status": 200,
+        "sha256": "896d383937ff6bdf7ce9e153e937027f4e327c34a12c00377baf53654d2baf1a"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-nai-harn-480w.webp",
+        "status": 200,
+        "sha256": "3f31f1702e30050f5e486bb0e3a08ccb538f4e5cba0ced07896651b134650537"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-phuket-nai-harn-800w.webp",
+        "status": 200,
+        "sha256": "394784ee085d751fca8bd6984eca446093dbfc79f88a7a1c6b6f7b1860a0d64b"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-falls-park.webp",
+        "status": 200,
+        "sha256": "4eb1f01a6fc4fe11ec8d9df18350d5f3b7bc01243c819c7408cae14f4097758f"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-falls-park-480w.webp",
+        "status": 200,
+        "sha256": "d1134ebef7dd06ab405a34ef6f1a08f64ea38f287d2525c07c647ea8cd4a2d8b"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-falls-park-800w.webp",
+        "status": 200,
+        "sha256": "a47005423ef86df0362bb8039e78596d1dd2197e907a135ab71b68c84f193123"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-swamp-rabbit.webp",
+        "status": 200,
+        "sha256": "dab844d82dae57d8200b24a9e18bd6c4e05579bfdf38de922a8b801865d2c79f"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-swamp-rabbit-480w.webp",
+        "status": 200,
+        "sha256": "366f3fdf1a1625d7998877bf00ffbae424f427911e977ff937125abbeedd5951"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-swamp-rabbit-800w.webp",
+        "status": 200,
+        "sha256": "92490963864103ccaf73525cd0d7333bc40d4dff3b67bb28f2d8a3d434252821"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-zoo.webp",
+        "status": 200,
+        "sha256": "e8be4c4da9eff92896e930f88a323000d049eb23a104397839af6a7aca8277a2"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-zoo-480w.webp",
+        "status": 200,
+        "sha256": "f8e1c04d4b7c7f799880ba74c93a28ec5b5aeef8d9055ebacb9651e6cf3afab8"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-zoo-800w.webp",
+        "status": 200,
+        "sha256": "f6135bfebb31d8b7766862522559bedaabec0e80589e93b513a22891af898033"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-upcountry-museum.webp",
+        "status": 200,
+        "sha256": "05c3edb2a8ab5b8e65065f0567dc1a05bef9e08ca8a7f9fc28aa75b0a9d55a1a"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-upcountry-museum-480w.webp",
+        "status": 200,
+        "sha256": "88733d30e971b5f9737668069b89657191516e2d79bf58b464bf559709c77ffb"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-paris-mountain.webp",
+        "status": 200,
+        "sha256": "52de7ba573d3803d54f6305ab0feaa720d773b086fe88a50dafa43ce02ad2c9d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-paris-mountain-480w.webp",
+        "status": 200,
+        "sha256": "a331170070000f08d9f8ddcb8fa12cc838ed131b55743bd3e96b23cb7e389539"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-greenville-sc-paris-mountain-800w.webp",
+        "status": 200,
+        "sha256": "15b1fecd9ab9f1e583d3f70eea6d9554a6b9a3916572be8437ea9762cc4099af"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-se-cathedral.webp",
+        "status": 200,
+        "sha256": "14e25dbbd916cea175ac63db25ebeef509662cddf2d9fa83f65faddc1ed50794"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-se-cathedral-480w.webp",
+        "status": 200,
+        "sha256": "33d0f3be73de78cd4c4646b2288d6c38d776604af9f83f63591307ec080250ff"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-se-cathedral-800w.webp",
+        "status": 200,
+        "sha256": "b8441672067cc421a951f500f724514b6fc45901e13e5a0e235d459753bf3767"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-city-palace.webp",
+        "status": 200,
+        "sha256": "a99965631cec296a7034635c5542e572925caf3a8e3d54df9fb9824277495ec2"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-city-palace-480w.webp",
+        "status": 200,
+        "sha256": "97b0d85579fa39450811e870b337088a6eb17f7bb0658d9fd92439c0d8128798"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-city-palace-800w.webp",
+        "status": 200,
+        "sha256": "c6acc42337219c80f79da248c611e9da1ff0a2292aaedb0659c7999ab97e07d0"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-lake-pichola.webp",
+        "status": 200,
+        "sha256": "321069c423eb5778c74e4ab4f4694750b0a39e5284588ede9eb1a6be6bfe7b92"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-lake-pichola-480w.webp",
+        "status": 200,
+        "sha256": "d339e391b6b90966004305828cd068a96e6b8e26b778bc968666d8b53c9bca94"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-lake-pichola-800w.webp",
+        "status": 200,
+        "sha256": "26cb61953073c8a14aa9f9c9e7999f10e58ee31866374f60e374fa85370d4ed1"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-jagdish.webp",
+        "status": 200,
+        "sha256": "65e7bb9d6e16d3452b80a2dbd9f0363ae13843fe9d6e1533a2d0173cfead96b9"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-jagdish-480w.webp",
+        "status": 200,
+        "sha256": "5890969cd6e876098ac02c7f22574a5e169ebd14c0a8002917266cbb21e91a31"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-jagdish-800w.webp",
+        "status": 200,
+        "sha256": "d612789b8eb70aa090596c542f5ca3c4fc411de6d5959cd3b8538bf05b8e6ce9"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-saheliyon.webp",
+        "status": 200,
+        "sha256": "6b59d04a590f278728e5d00c3e3038655efc5bf842081468733557763d90c607"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-saheliyon-480w.webp",
+        "status": 200,
+        "sha256": "3ae7dc98719253b53a9693d304ff8bf671d6dc0d251a4dfc1b7809910a3e3ee6"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-saheliyon-800w.webp",
+        "status": 200,
+        "sha256": "636207b5cf099bd3dec0f810d3a6ed1aa0e4b3ba80d70c5f05344f1455ebdb53"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-monsoon-palace.webp",
+        "status": 200,
+        "sha256": "77168ca05e0f49b387778e1c61ba8194473f29b10911ec9d5962c95c8f36059a"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-udaipur-monsoon-palace-480w.webp",
+        "status": 200,
+        "sha256": "e66df4abd4681ca543a3aa625085d95769e1a94bc0840a5de462bf01681af628"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-puri-beach.webp",
+        "status": 200,
+        "sha256": "c29bfda1fed586d7d5f952e9aa8c50ee7340210b5db2a65d1b66f659199707b6"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-puri-beach-480w.webp",
+        "status": 200,
+        "sha256": "452221b2c3ac618cd300b57f4ca9f9cc33922445639112d1c0b2b2f61f76338e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-puri-beach-800w.webp",
+        "status": 200,
+        "sha256": "622387a8f0d632c3d72441b41586a977cb895ef2d5cac1964d7dbf5b17107ed8"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-jagannath.webp",
+        "status": 200,
+        "sha256": "9c1763692350bbb05e327619b670c37be0e82f76596563bd9d7dcf0835628bdb"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-jagannath-480w.webp",
+        "status": 200,
+        "sha256": "a196871e4707088d0eb757cb4c44019d60b611cabde998788ef2a61992138cdd"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-jagannath-800w.webp",
+        "status": 200,
+        "sha256": "fab897891e2d7aa4e28b43e3ed8661a982d66f5001c778f20a60a684a7e9cad7"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-konark.webp",
+        "status": 200,
+        "sha256": "7b9bc213dcd9ce0afda2510294bfad25ff66791599a839b3936a47801be597f7"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-konark-480w.webp",
+        "status": 200,
+        "sha256": "c828859aed7b509122e6d7e91eaabeb37c92dd9b5fdff1c27eb75e8da367efd6"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-konark-800w.webp",
+        "status": 200,
+        "sha256": "8ae69c1604fb9afbe4f0857e199f0531b859843b9478dfe13e205c114df89118"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-chilika.webp",
+        "status": 200,
+        "sha256": "c8d74bc88eabfcdb04175b9ed81410e6d016fd2ca2019f9bda6177402a902671"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-chilika-480w.webp",
+        "status": 200,
+        "sha256": "6979a2dca4ffeb7a74e9fca6db3d80efee8ad17bef735c22440bc7130e10fa02"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-chilika-800w.webp",
+        "status": 200,
+        "sha256": "bf0777abc9872ad80f70634e4c0ef7b741b9cccdc5fe9ea92e382c80dcdedad1"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-red-rock.webp",
+        "status": 200,
+        "sha256": "165522bc5a96788273b1e792af1dc8ae10596c1213fa8137b7a24955424bc0d3"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-red-rock-480w.webp",
+        "status": 200,
+        "sha256": "c96b14feeea0807b06319fc09dcce4e2f60c805b88cafae98f5b0e41468e8d42"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-red-rock-800w.webp",
+        "status": 200,
+        "sha256": "8199b9f65cdd7a311d2ee88f37c261b320bcef4066914e0bc8b5028d405646d5"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-islamic-art.webp",
+        "status": 200,
+        "sha256": "157cc25e6df1e5357fb8b5951aaab736c051602e4edd6fbf668c6079fd4a8e48"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-islamic-art-480w.webp",
+        "status": 200,
+        "sha256": "761eaff9e229a64c4ce68daf1d6b6a3e6e4223bf71c7bd94ccc9874fedb800c8"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-islamic-art-800w.webp",
+        "status": 200,
+        "sha256": "d98d9b2d461e51a4f9c2791d2c053ea53e5f7c3ee2e5322533d8d89206f562f2"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-national-museum.webp",
+        "status": 200,
+        "sha256": "7f6ac7018e71cf26e19d795567e78ccaaf994535ecbcef4b4e4d6595bf65b581"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-national-museum-480w.webp",
+        "status": 200,
+        "sha256": "e1e59d28d237059f8b8e862555844b07429ea3b9715efa7b0ca292f8e9e7a839"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-national-museum-800w.webp",
+        "status": 200,
+        "sha256": "91b72d539299bd1960a65335f848cb904fb5268a80d3a6fe18339452e7619125"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-souq-waqif.webp",
+        "status": 200,
+        "sha256": "f57a9e54e8bad4ea07c8ea91647ee01aa2e0366a8217d17aaf8a42a2a4f76beb"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-souq-waqif-480w.webp",
+        "status": 200,
+        "sha256": "f3588d45a313e11e8a9c7531d8325c68c2396a112f19faecf6768bf94e9f9846"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-souq-waqif-800w.webp",
+        "status": 200,
+        "sha256": "293842e8969d335b0022aeb3db8a48c4bdda01bf68c9d61ce36418cf950d035c"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-katara.webp",
+        "status": 200,
+        "sha256": "e11ce88a22982430b70a19a09a2c304f3d7e5a8fdd961fba35021db12e08bcb3"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-katara-480w.webp",
+        "status": 200,
+        "sha256": "f7fbd6cb16fe5a4e5de64973ba94d5d3d456c3f261521a38888c8e1198525f97"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-katara-800w.webp",
+        "status": 200,
+        "sha256": "9ffb706c638db2554009e7daa96b41cc8c985073b32fc61fc9690c73888a8e28"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-buffalo-akg.webp",
+        "status": 200,
+        "sha256": "6842a6500382f3de18992a16963c4a7747575ddb432c6abaebd7a74ee2f2e77e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-buffalo-akg-480w.webp",
+        "status": 200,
+        "sha256": "53748e45e88bc2256dae7606f3a5a68e1f5a6e0dffdc256808a5dcf115dd31cc"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-buffalo-akg-800w.webp",
+        "status": 200,
+        "sha256": "f522f49d17936751418e6353779f89703b6a7c56a5719f9980624f67c64b0e58"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-delaware-park.webp",
+        "status": 200,
+        "sha256": "02384d99942db0a8192967e52a79ec64969856130b4f3221fd43d04739a0ab57"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-delaware-park-480w.webp",
+        "status": 200,
+        "sha256": "afc8648c4b34826c34acedf868abd51d16abaddf213082e2b42b9db6b685c69d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-buffalo-delaware-park-800w.webp",
+        "status": 200,
+        "sha256": "44aaba4747b09d53a602b6cf2fafbb2ffacc90f283dbd4f3ad99e8161ba4ab97"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-bom-jesus.webp",
+        "status": 200,
+        "sha256": "423fe3d65a67ca97e35e1c81aee03006f3fe0fcd285d6f8005695e740064a1c7"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-bom-jesus-480w.webp",
+        "status": 200,
+        "sha256": "1122ddc0bcd76a6d60ce6166acf8306d72178a627053ea324002c46df74d64ee"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-bom-jesus-800w.webp",
+        "status": 200,
+        "sha256": "ba1bd1ef58baac2f88c1375e8a83d14d879897bc2b021d6570c22ece096ce507"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-fontainhas.webp",
+        "status": 200,
+        "sha256": "7528e7581c0727d324f05c00bbc0eafad664cec71f33ca213b0a97357ff22ffa"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-fontainhas-480w.webp",
+        "status": 200,
+        "sha256": "4c9199133699ef12af43786ee12997f99ecc12367f13f990b003bbe991c3bf0d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-fontainhas-800w.webp",
+        "status": 200,
+        "sha256": "158888bcce3de0ea22e7c61c50d59fbb105895282d1e56c3f1d252ff99339de8"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-fort-aguada.webp",
+        "status": 200,
+        "sha256": "8627d69c94b2e6199e09ab6304ca4f045addc4b9f1383b4e0f17c881e3fbd704"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-fort-aguada-480w.webp",
+        "status": 200,
+        "sha256": "16475bf884ca4a9c8046bc218374d81cde5e4abf54be112a633155b953e3a3a4"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-palolem.webp",
+        "status": 200,
+        "sha256": "20c629d927d825b3c65bcf7c369d2b81ae8bd113c205fe04f92ce8dea38c50f8"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-palolem-480w.webp",
+        "status": 200,
+        "sha256": "06fce87d218345bd7b3b479d9b8b34ab1a9466196538395e56f879dcc0173e76"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-goa-palolem-800w.webp",
+        "status": 200,
+        "sha256": "e1bc383f9b4869f9bf127515655bc4e7814bf28eed3e268e8b43cb680b2c250d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-raghurajpur.webp",
+        "status": 200,
+        "sha256": "72732e773a53105ad45aff9018aa8cc979e9f80ef1906a81f56791c81dd51edd"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-raghurajpur-480w.webp",
+        "status": 200,
+        "sha256": "74ed19106df8bbf736dcdc2dbe3318e9a524230ef635c4a5d3770ae90ca9f8a9"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-puri-raghurajpur-800w.webp",
+        "status": 200,
+        "sha256": "9a62ccad473dc68c1ced28ca7f575d05ab3fcdf5cbfe48409de9c85b015ce7cd"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-bellagio-garden.webp",
+        "status": 200,
+        "sha256": "ce8f2fd3b6440b5eb461b12a019c274f49077fe35e2fbd8ed9ccdb1baa07bd0e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-bellagio-garden-480w.webp",
+        "status": 200,
+        "sha256": "622f150c221f8ee77d746e246a34c40e3df40a0cb540e0b2edd8da6487ae130c"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-bellagio-garden-800w.webp",
+        "status": 200,
+        "sha256": "bbaa9be8cc040397951e312bd16cf506660506042e8d151ed28c0e917d445875"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-fremont.webp",
+        "status": 200,
+        "sha256": "d9e74c8c0fb98dc4bc4dd566bb7ab891fae8154cf1e7b5b877bd55136bd542a3"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-fremont-480w.webp",
+        "status": 200,
+        "sha256": "efd818774f86d4f70f5ad21cab2dbdb54bcb48005409c1663c084aa81aa3a672"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-fremont-800w.webp",
+        "status": 200,
+        "sha256": "3424833b4f3126417f2c9e57ab051df263892e0b36d7a51c3348ce6f3acdf2ca"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-neon-museum.webp",
+        "status": 200,
+        "sha256": "9321a363ceec38f33d0be62dacd2a8c7f3c55c646374dc18f7b60e79fda3e846"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-neon-museum-480w.webp",
+        "status": 200,
+        "sha256": "76a6a11a7315ff4f34d48ecec33725220dfe1f0078c15f85288899ab944df7f9"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-neon-museum-800w.webp",
+        "status": 200,
+        "sha256": "2f44294a55a84d1217c981427890e4c1551bae434251b1882b3a3854b388b34e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-hoover-dam.webp",
+        "status": 200,
+        "sha256": "78018bc0f55ff6e6d2f66dda47957cdda88a972a07d4fc087a92fc6cc3740fd7"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-hoover-dam-480w.webp",
+        "status": 200,
+        "sha256": "3940fddabb30df1cae1cef3db1ac7216376dd28f083e1fc4f91a77dbe55adbea"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-las-vegas-hoover-dam-800w.webp",
+        "status": 200,
+        "sha256": "73c785c1416661515b90e59fd7b8174757dc6c66a0f04f330597b959a3100a70"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-msheireb.webp",
+        "status": 200,
+        "sha256": "af49cc745fa2998312abb988040d1b49a989b53f85b74fe6a11da5ef390d02d5"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-msheireb-480w.webp",
+        "status": 200,
+        "sha256": "6776ae7bc7e7c3c7ff2f5eb2a6fde2a00226067f928aa023362b5db58fc36105"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-doha-msheireb-800w.webp",
+        "status": 200,
+        "sha256": "8418647c1b27b6b46be548aa2ccf48c9ff4a26dfb40ef6296f086c0e6590272d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-north-market.webp",
+        "status": 200,
+        "sha256": "40c83ef823acc9df12024df3f1ebaa25873525cdecf024867c03e16dbd762cb0"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-north-market-480w.webp",
+        "status": 200,
+        "sha256": "da07f0206525eba9c72484ea0eb423928f60fd0271d7fb24221df153adcf9d71"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nv26-columbus-north-market-800w.webp",
+        "status": 200,
+        "sha256": "325b4b5af1a230cf4f9c0dc75d392baf8bd0538c33f8701aa2c0f6bda62806f4"
+      }
+    ],
+    "errors": []
+  },
+  "logSha256": {
+    "check.log": "96094dd7aabd58555116b15a8a77f798a6dfa2f8abda92454eaa326a744368fe",
+    "unit-retry.log": "e72f0e5dede9d0997c687a4ec71593c68050abee1979d49e8ba70570514edace",
+    "build.log": "e1a887454507fb13061cce560e3f2c0d589da6f9565fe902b557320c6b7338d7",
+    "e2e.log": "13cd14432fb2468c7e468367c03edd87fa1480402873a5f89cacc73ac09fa9fa",
+    "release-build.log": "59a3517b1a2afc0824afe700c324c7d761f8ae4474b707ae70d9f96b724195fa",
+    "release-tests.log": "2a65173c11fbdb09f211a22fb65f9a5451e2bb348a0d737e51bcd85919a6818d",
+    "local-qa.log": "d1afdc8be54f4307440242751f1f6a4f34e96a765ff83a7a35eef4a0d3725457"
+  },
+  "unitRetryNote": "Initial restricted process-spawn EPERM resolved by rerunning unchanged npm test in authorized managed runtime. No tests or gates modified.",
+  "visualReview": {
+    "browserChecks": "All20 localized guides at1440px and390px, six images each, metadata, language route and no horizontal overflow.",
+    "screenshots": "Ten Spanish pages in each viewport captured; Hilo/Goa desktop and Puri/Doha mobile crops inspected. All50 documentary photographs inspected in final contact sheets.",
+    "providerTraffic": "Third-party providers blocked or mocked to avoid impressions; original site CSP and ads/Analytics code preserved. Advertising integration and consent tests passed; no claim of advertiser creative delivery."
+  },
+  "indexing": "Local production robots, canonical, hreflang, Article JSON-LD and sitemap passed; public verification pending."
+}

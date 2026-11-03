@@ -6483,5 +6483,121 @@
       "es": "https://maletafeliz.com/es/guias/viaje-egresados-bariloche/"
     },
     "publiclyVerifiedAt": "2026-11-02T17:24:11.002Z"
+  },
+  {
+    "id": "hiroshima",
+    "city": {
+      "es": "Hiroshima",
+      "en": "Hiroshima"
+    },
+    "countryId": "jp",
+    "country": {
+      "es": "Japón",
+      "en": "Japan"
+    },
+    "continent": "asia",
+    "places": [
+      [
+        "museum",
+        "Museo Memorial de la Paz",
+        "Peace Memorial Museum"
+      ],
+      [
+        "dome",
+        "Cúpula de la Bomba Atómica",
+        "Atomic Bomb Dome"
+      ],
+      [
+        "garden",
+        "Jardín Shukkeien",
+        "Shukkeien Garden"
+      ]
+    ],
+    "related": [
+      "kyoto",
+      "nara"
+    ],
+    "days": 2,
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture",
+      "nature"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "hiroshima-first-visit-two-days-three-places",
+    "titles": {
+      "es": "Hiroshima en 2 días: Museo de la Paz, Cúpula y Shukkeien",
+      "en": "Hiroshima in 2 days: Peace Museum, Atomic Bomb Dome and Shukkeien"
+    },
+    "slugs": {
+      "es": "que-ver-en-hiroshima",
+      "en": "what-to-see-in-hiroshima"
+    },
+    "researchStatus": "verified",
+    "imageStatus": "verified",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
+  },
+  {
+    "id": "tangier",
+    "city": {
+      "es": "Tánger",
+      "en": "Tangier"
+    },
+    "countryId": "ma",
+    "country": {
+      "es": "Marruecos",
+      "en": "Morocco"
+    },
+    "continent": "africa",
+    "places": [
+      [
+        "medina",
+        "Medina de Tánger",
+        "Tangier medina"
+      ],
+      [
+        "kasbah",
+        "Kasbah de Tánger",
+        "Tangier Kasbah"
+      ],
+      [
+        "spartel",
+        "Cabo Espartel",
+        "Cape Spartel"
+      ]
+    ],
+    "related": [
+      "rabat",
+      "essaouira"
+    ],
+    "days": 2,
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture",
+      "nature"
+    ],
+    "placeCount": 3,
+    "status": "published",
+    "intent": "tangier-first-visit-two-days-three-places",
+    "titles": {
+      "es": "Tánger en 2 días: medina, kasbah y cabo Espartel",
+      "en": "Tangier in 2 days: medina, Kasbah and Cape Spartel"
+    },
+    "slugs": {
+      "es": "que-ver-en-tanger",
+      "en": "what-to-see-in-tangier"
+    },
+    "researchStatus": "verified",
+    "imageStatus": "verified",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    }
   }
 ]

@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-03T17:41:15.489Z",
+  "id": "6ae8d9c1082481918ec7989b20373d6d",
+  "is_enabled": true,
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261103T120000\nRRULE:FREQ=DAILY;BYHOUR=12;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+  "timing_mode": "exact_schedule",
+  "run_details": {
+    "last_run": null,
+    "latest_result": null,
+    "delivery_status": "unknown"
+  },
+  "last_run_time": "2026-11-03T17:01:14.579100+00:00",
+  "next_run_time": null,
+  "interpretation": "Scheduler exposes a last_run_time at 17:01 UTC on the scheduled date, but last_run and latest_result details remain null. This is not sufficient to attribute this chat and its eventual deployment to a recorded scheduler run ID."
+}

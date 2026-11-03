@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-03",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-03T17:05:42.056Z",
+  "status": "selected-for-gated-build",
+  "topicIds": [
+    "hiroshima",
+    "tangier"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "sourceDocuments": 12,
+  "manuscripts": 4,
+  "imageSourceCooldown": {
+    "observedAt": "2026-11-03T17:03:46.429Z",
+    "httpStatus": 429,
+    "retryAfterSeconds": 1000,
+    "notBefore": "2026-11-03T17:20:26.429Z",
+    "notes": "No Commons request will be retried before this timestamp; no alternative endpoint or identity used to evade the limit."
+  },
+  "selectedCount": 2,
+  "localizedVersions": 4,
+  "documentaryPhotos": 6,
+  "editorialReviewedAt": "2026-11-03T17:33:53.970Z",
+  "imageSourceCooldownHistory": [
+    {
+      "observedAt": "2026-11-03T17:03:46.429Z",
+      "httpStatus": 429,
+      "retryAfterSeconds": 1000,
+      "notBefore": "2026-11-03T17:20:26.429Z",
+      "notes": "No Commons request will be retried before this timestamp; no alternative endpoint or identity used to evade the limit."
+    },
+    {
+      "observedAt": "2026-11-03T17:20:42.166Z",
+      "httpStatus": 429,
+      "retryAfterSeconds": 1000,
+      "notBefore": "2026-11-03T17:37:22.166Z",
+      "notes": "Retry only after the stated time; no alternative endpoint/identity used."
+    }
+  ],
+  "imageResolution": "Independent original photographers on Flickr, each exact license checked. Commons retries stopped after second 429; no alternate Commons endpoint, proxy or identity used."
+}

@@ -1,0 +1,310 @@
+{
+  "checkedAt": "2026-11-03T17:48:24.847Z",
+  "batch": "2026-11-03",
+  "commands": [
+    {
+      "command": "npm run check",
+      "passed": true,
+      "logSha256": "22218f348bd102d52a4a214ee42cc6ba70c36ebfdedbe801b75c5839e3a328ae"
+    },
+    {
+      "command": "npm test",
+      "passed": true,
+      "logSha256": "f63f4f53f5bcc5deeebce6365e2c84b1e1881785304ab6b54b245ebf4f774d79"
+    },
+    {
+      "command": "npm run test:e2e",
+      "passed": true,
+      "logSha256": "2441bd94b2ef5530620ebd410091d528f4065ca7d256c952ec07e1b2b6f4f3b3"
+    },
+    {
+      "command": "npm run build",
+      "passed": true,
+      "logSha256": "44cc9178a27fbc7d5c5e316b1ca1c77036dc44541dd1a67b31a4b06ee64493dc"
+    },
+    {
+      "command": "npm run build:release",
+      "passed": true,
+      "logSha256": "3144dbc204e634ce6b2747c47521cee44d52b0ee88eeabef15d53220b7872fa9"
+    },
+    {
+      "command": "npm run test:release -- --grep 'complete bilingual|homepage uses|: (hiroshima|tangier) |Analytics|AdSense|banners|legal pages|ads.txt|withdrawal|unavailable local|content clicks|failed advertising'",
+      "passed": true,
+      "logSha256": "02b2700c76a9f2be99cd3b878e6d2afa7999804e5b0c3b6ee44e24c54b0afea1"
+    }
+  ],
+  "typeErrors": 0,
+  "unitTests": 33,
+  "previewBrowserTests": 28,
+  "productionTests": 34,
+  "productionTestScope": "New four localized guides on desktop/mobile, full catalog sitemap, homepage search, all production HTML advertising exclusions, consent, provider failure, no popunders and banner dimensions. Existing sources/application files unchanged as separately hash-checked.",
+  "htmlPages": 664,
+  "sitemapUrls": 640,
+  "local": {
+    "checkedAt": "2026-11-03T17:47:35.164Z",
+    "origin": "http://127.0.0.1:4323",
+    "browserTransport": "Local preview; external providers blocked.",
+    "checks": [
+      {
+        "type": "browser",
+        "path": "/en/guides/what-to-see-in-hiroshima/",
+        "width": 1440,
+        "photos": 4,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-hiroshima/",
+        "width": 1440,
+        "photos": 4,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/what-to-see-in-tangier/",
+        "width": 1440,
+        "photos": 4,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-tanger/",
+        "width": 1440,
+        "photos": 4,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/what-to-see-in-hiroshima/",
+        "width": 390,
+        "photos": 4,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-hiroshima/",
+        "width": 390,
+        "photos": 4,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/what-to-see-in-tangier/",
+        "width": 390,
+        "photos": 4,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-tanger/",
+        "width": 390,
+        "photos": 4,
+        "translation": true,
+        "seo": true,
+        "noOverflow": true
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Hiroshima%20museum",
+        "article": "/en/guides/what-to-see-in-hiroshima/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Hiroshima%20museo",
+        "article": "/es/guias/que-ver-en-hiroshima/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Tangier%20medina",
+        "article": "/en/guides/what-to-see-in-tangier/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=T%C3%A1nger%20medina",
+        "article": "/es/guias/que-ver-en-tanger/"
+      },
+      {
+        "type": "sitemap",
+        "articles": 258,
+        "urls": 640
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/hiroshima/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-jp/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/hiroshima/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-jp/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/tangier/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/africa/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-ma/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/tangier/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/africa/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-ma/"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-hiroshima-dome.webp",
+        "status": 200,
+        "sha256": "b1cc9236f24bab49854a815afa409765b2eaea5ba3fc08e74ea9a915fe8d8aeb"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-hiroshima-dome-480w.webp",
+        "status": 200,
+        "sha256": "0bc8c8e8abfdaecdc6eacce432883445f09ce8add3669fdb0c9eddfe08fc06cf"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-hiroshima-dome-800w.webp",
+        "status": 200,
+        "sha256": "3eec4a84b542327a6f03eefc75a21ba5359d74e0e82474844a3dd1e5b5180e74"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-hiroshima-garden.webp",
+        "status": 200,
+        "sha256": "8d1c78ea85ea7fd8fabb8fadb232287e62ad94ee35fe02ea94bc2f739ec1c7af"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-hiroshima-garden-480w.webp",
+        "status": 200,
+        "sha256": "681b30ec5051c145812c2c4993fc2a230b4c78403575a89323597229ae441427"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-hiroshima-garden-800w.webp",
+        "status": 200,
+        "sha256": "fff010119d8ba04e7113289970f4b679cd2fe691d51b873919684cd40996bf80"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-tangier-kasbah.webp",
+        "status": 200,
+        "sha256": "2ef6a64d19ee7f5d82d70dcf1c62b12f35ced517d7be7445977c81ef6f4ba101"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-tangier-kasbah-480w.webp",
+        "status": 200,
+        "sha256": "6d54e13d9d47300aa06c821ea7eaac9bab25b96ff5128b07bd4fb93b20036b4e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-tangier-kasbah-800w.webp",
+        "status": 200,
+        "sha256": "b51ae2e56d1f8fb1157403a7b1e92f560e8dd1cebae281ee72bfbef498898eb9"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-tangier-spartel.webp",
+        "status": 200,
+        "sha256": "7d637c3b61654843e7c10c611c6d3e1570bcbe1288b3d9b4c19ce25a26519ef8"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-tangier-spartel-480w.webp",
+        "status": 200,
+        "sha256": "884154cbb5d710ccae9f72bb6584e2486e5e56d45ebcdd63e91aa90da1c6868d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-tangier-spartel-800w.webp",
+        "status": 200,
+        "sha256": "d262435787c2a90464b9beb8a7ec71614a1f07b445464b8550280866a183fb02"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-hiroshima-museum.webp",
+        "status": 200,
+        "sha256": "d1aa8655767306671893ad9d430f15007cb269116c155cc511da1ee9c7e3f5de"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-hiroshima-museum-480w.webp",
+        "status": 200,
+        "sha256": "a65c2d29bbd39595321fd6983effb5cbd7bc9a49a37ff91af196dce5d3b71b34"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-hiroshima-museum-800w.webp",
+        "status": 200,
+        "sha256": "2842b04a4124e4dd62978fada8ec6ac42b8393d8e1944ecfeb66ae5b3b799beb"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-tangier-medina.webp",
+        "status": 200,
+        "sha256": "157c842ddb677e75322f468ca3692745bbd99022e3f8453a207418ae9da7d9de"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n3-tangier-medina-480w.webp",
+        "status": 200,
+        "sha256": "c15d30f0dbac84b9f1a733ca45c7a79ab1bcf13064ae80d0f9a0af782d9654fd"
+      }
+    ],
+    "errors": []
+  },
+  "visualReview": {
+    "reviewer": "Codex (AI-assisted)",
+    "viewports": [
+      1440,
+      390
+    ],
+    "articles": [
+      "hiroshima.es",
+      "tangier.es"
+    ],
+    "notes": "Both desktop/mobile renders visually inspected, including heading, cover, archival captions, logo/nav and body layout. Four versions checked via browser for photos, reciprocal language links, canonical, indexing, Article JSON-LD and no horizontal overflow. Six original photos inspected separately. Third-party provider traffic blocked in QA to avoid impressions; their slots and original integration retained."
+  }
+}

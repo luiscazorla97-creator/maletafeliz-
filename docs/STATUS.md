@@ -6,14 +6,26 @@ Verificado el 3 de noviembre de 2026 en America/New_York. Especificación vigent
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 129 guías originales y 258 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 527 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 569 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 139 guías originales y 278 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 585 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 619 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
 
 La campaña corresponde al commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
+
+## Diez guías adicionales de noviembre: 3 de noviembre de 2026
+
+Publicadas Hilo, Buffalo, Columbus, Phuket, Greenville (Carolina del Sur), Goa, Udaipur, Puri, Las Vegas y Doha. Son diez originales y veinte versiones completas, de 1.326 a 1.523 palabras, con cinco lugares, itinerario, preguntas y enlaces en cada guía. La selección utiliza señales publicadas de Google para búsquedas de Thanksgiving desde Estados Unidos, Agoda para búsquedas originadas en India y las fechas oficiales de F1. No constituye un ranking mundial ni promete visitas o indexación rápida.
+
+Se verificaron 58 documentos citados y 50 fotos documentales, con licencia individual, crédito, ALT bilingüe y 143 archivos WebP incluidos sus derivados. Los cierres de Bellagio, museos de Doha y Hoover, la reserva de Red Rock y las restricciones de Jagannath están reflejados en ambos idiomas. Se conservaron los fallos de acceso, límites de fuentes y fotos descartadas. No se emplearon imágenes generadas ni servicios de pago.
+
+Pasaron tipos sin errores, 33 pruebas unitarias, 28 de navegación y 66 pruebas pertinentes de producción, incluidas publicidad y consentimiento. Las compilaciones normal y `npm run build:release` generaron 708 páginas HTML. Las veinte versiones se revisaron en escritorio y móvil, con seis imágenes cargadas por página, metadatos, traducción, búsqueda y descubrimiento. Se preservaron los 258 artículos anteriores, sus fechas y revisiones, recursos, diseño, anuncios y configuración de Analytics.
+
+Ambos proyectos existentes de Cloudflare completaron y sirvieron el commit `0e4d6df89ac6d45421604f68f4ed55a6465a76eb`. Se comprobaron 286 respuestas del catálogo y redirecciones, más 284 controles del lote, incluidos los bytes exactos de 143 imágenes y veinte redirecciones www con ruta y parámetros. El sitemap contiene 684 URLs. El catálogo suma 139 originales, 278 versiones, 619 fotografías y 617 lugares con foto. Evidencia: `editorial/verification/2026-11-03-november-ten-publication.json`.
+
+Es una tanda manual adicional autorizada por el titular; no modifica la tarea diaria de dos originales a las 12:00 de Miami. Junto con Hiroshima y Tánger, se verificaron doce temas nuevos únicos en la fecha local. No se acredita por esta tanda una ejecución desatendida del programador. No se enviaron URLs a Search Console, cuya conexión no está disponible; la indexación depende del buscador.
 
 ## Dos guías nuevas desde la nube: 3 de noviembre de 2026
 

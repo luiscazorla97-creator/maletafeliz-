@@ -2,7 +2,7 @@
   "id": "2026-11-03-november-ten-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-03T22:08:20.880441+00:00",
-  "status": "selected-for-gated-build",
+  "status": "published-and-publicly-verified",
   "topicIds": [
     "hilo",
     "buffalo",
@@ -16,7 +16,7 @@
     "doha"
   ],
   "requestedCount": 10,
-  "publishedCount": 0,
+  "publishedCount": 10,
   "manualAdditionalRequest": true,
   "placesPerGuide": 5,
   "localizedVersionsRequested": 20,
@@ -59,5 +59,37 @@
   "localizedVersionsSelected": 20,
   "documentaryPhotosSelected": 50,
   "citedSourceDocuments": 58,
-  "editorialReviewAt": "2026-11-03T23:21:20.945223+00:00"
+  "editorialReviewAt": "2026-11-03T23:21:20.945223+00:00",
+  "localizedVersionsPublished": 20,
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/hilo-en-noviembre/",
+      "https://maletafeliz.com/es/guias/buffalo-en-noviembre/",
+      "https://maletafeliz.com/es/guias/columbus-en-noviembre/",
+      "https://maletafeliz.com/es/guias/phuket-en-noviembre/",
+      "https://maletafeliz.com/es/guias/greenville-carolina-del-sur-noviembre/",
+      "https://maletafeliz.com/es/guias/goa-en-noviembre/",
+      "https://maletafeliz.com/es/guias/udaipur-en-noviembre/",
+      "https://maletafeliz.com/es/guias/puri-en-noviembre/",
+      "https://maletafeliz.com/es/guias/las-vegas-noviembre-f1/",
+      "https://maletafeliz.com/es/guias/doha-noviembre-f1/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/hilo-in-november/",
+      "https://maletafeliz.com/en/guides/buffalo-in-november/",
+      "https://maletafeliz.com/en/guides/columbus-in-november/",
+      "https://maletafeliz.com/en/guides/phuket-in-november/",
+      "https://maletafeliz.com/en/guides/greenville-south-carolina-november/",
+      "https://maletafeliz.com/en/guides/goa-in-november/",
+      "https://maletafeliz.com/en/guides/udaipur-in-november/",
+      "https://maletafeliz.com/en/guides/puri-in-november/",
+      "https://maletafeliz.com/en/guides/las-vegas-november-f1/",
+      "https://maletafeliz.com/en/guides/doha-november-f1/"
+    ]
+  },
+  "publishedCommit": "0e4d6df89ac6d45421604f68f4ed55a6465a76eb",
+  "publiclyVerifiedAt": "2026-11-03T23:52:54.762896+00:00",
+  "publicVerification": "editorial/verification/2026-11-03-november-ten-publication.json",
+  "documentaryPhotosPublished": 50,
+  "remainingCount": 0
 }

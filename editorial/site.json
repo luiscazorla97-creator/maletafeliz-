@@ -4,7 +4,7 @@
   "jurisdiction": "Argentina",
   "legalReviewedAt": "2026-10-31T17:44:53.109720Z",
   "automation": {
-    "status": "scheduled-first-run-unverified",
+    "status": "scheduled-cloud-publication-verified-trigger-pending",
     "requestedLocalTime": "12:00",
     "timeZone": "America/New_York",
     "dailyTarget": 2,
@@ -13,7 +13,7 @@
     "quotaVisibility": "unavailable",
     "scheduleStatus": "configured-and-read-back",
     "taskSpecification": "docs/DAILY-PUBLISHING.md",
-    "blockingReason": "Schedule creation and readback confirmed; first unattended execution and effective GitHub/Cloudflare access have not yet been witnessed.",
+    "blockingReason": "Actual cloud execution published two originals and four localized versions through GitHub and both existing Cloudflare projects. Schedule configuration and a matching-day last_run_time are exposed, but no run ID/chat/result details are available; unattended scheduling attribution remains unverified.",
     "cloudOptionReportedByOwner": true,
     "activationVerified": true,
     "scheduleEvidence": "Scheduler creation and independent readback confirmed is_enabled=true, exact_schedule, DTSTART America/New_York 2026-11-03 12:00 and daily noon RRULE.",
@@ -25,7 +25,11 @@
     "timingMode": "exact_schedule",
     "configurationVerifiedAt": "2026-11-02T18:43:41.688Z",
     "firstScheduledLocalStart": "2026-11-03T12:00:00-05:00",
-    "previousTaskClarification": "User clarified that earlier publications were started by writing in the chat; no prior MaletaFeliz task found in connected scheduler."
+    "previousTaskClarification": "User clarified that earlier publications were started by writing in the chat; no prior MaletaFeliz task found in connected scheduler.",
+    "cloudExecutionVerified": true,
+    "cloudPublicationVerifiedAt": "2026-11-03T17:56:50.042Z",
+    "lastVerifiedBatch": "2026-11-03",
+    "cloudPublicationEvidence": "editorial/verification/2026-11-03-publication.json"
   },
   "legalContentHash": "88365de6f9485337db03a74126aa952f6a3fba2e5b0c788b10c04bc05127fc0c",
   "legalReviewedBy": "Codex — factual and technical editorial review",

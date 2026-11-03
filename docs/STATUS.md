@@ -1,19 +1,29 @@
 # Estado del proyecto
 
-Verificado el 2 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
+Verificado el 3 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
 
 ## Publicación verificada
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 127 guías originales y 254 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 515 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 563 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 129 guías originales y 258 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 527 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 569 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
 
 La campaña corresponde al commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
+
+## Dos guías nuevas desde la nube: 3 de noviembre de 2026
+
+Publicadas Hiroshima y Tánger, dos originales y cuatro versiones completas en español e inglés, de 1.550 a 1.729 palabras. Cada guía desarrolla tres lugares, datos prácticos, itinerario, cinco preguntas frecuentes y enlaces relacionados. Se leyeron doce documentos oficiales o del operador y se verificaron seis fotos documentales con atribución, licencia específica, año de archivo, ALT bilingüe, dimensiones, hashes y derivados WebP. Se respetaron dos respuestas HTTP 429 de Commons y sus esperas; las fotos se obtuvieron de fotógrafos independientes en Flickr, sin eludir restricciones. Las fuentes fallidas y fotos descartadas quedan registradas.
+
+Pasaron tipos sin errores, 33 pruebas unitarias, 28 de navegación y 34 pruebas de producción pertinentes al lote y a la publicidad. Las dos compilaciones, incluida `npm run build:release`, generaron 664 páginas HTML. La revisión local y pública en escritorio y móvil confirmó canonical, hreflang recíprocos, Article JSON-LD, fotos, selector al mismo artículo, búsqueda y descubrimiento.
+
+Ambos proyectos existentes de Cloudflare completaron el commit `2b8442c40202af76a3f5591ce4c5cc6b26c77045`. Se comprobaron 266 respuestas HTTPS del catálogo y redirecciones www, más 42 comprobaciones del lote; el sitemap contiene 640 URLs. Evidencia: `editorial/verification/2026-11-03-publication.json`. El catálogo suma 129 originales, 258 versiones, 569 fotografías y 567 lugares con foto. Los 254 artículos previos, sus fechas, los recursos anteriores, el diseño, anuncios y consentimiento de Analytics se preservaron.
+
+Esta publicación acredita acceso y ejecución reales en la nube. La tarea de las 12:00 de Miami continúa configurada; todavía no se dispone de un registro del programador que atribuya esta ejecución a su disparo, por lo que no se afirma autonomía desatendida verificada.
 
 ## Comprobaciones del lote de festividades
 
@@ -147,6 +157,6 @@ El titular facilitó Luis Sebastian Cazorla Caruso, Argentina, luterapps@gmail.c
 
 El 2 de noviembre de 2026 el titular cambió el objetivo a dos originales diarios, completos en español e inglés, con inicio a las 12:00 del mediodía de Miami (`America/New_York`). Aclaró que hasta ahora publicaba escribiendo en el chat. El programador conectado no mostró una tarea previa de MaletaFeliz; se creó una única tarea para el sitio y se confirmó por lectura posterior que está habilitada con horario exacto y primer inicio el 3 de noviembre de 2026. Evidencia: `editorial/verification/2026-11-02-daily-two-schedule.json`. Las otras tareas del titular no se modificaron.
 
-La configuración de calendario está confirmada; la primera ejecución desatendida, su acceso al repositorio/Cloudflare y su publicación efectiva siguen pendientes de presenciar. Este entorno conserva acceso comprobado a ambos servicios, pero no se infiere por ello el éxito del futuro ejecutor. No hay lectura del porcentaje de cuota ni se usan APIs de IA de pago. El objetivo y el flujo completos están en `docs/DAILY-PUBLISHING.md`.
+La configuración de calendario está confirmada. El 3 de noviembre se verificó una publicación real desde la nube, con acceso al repositorio, ambos proyectos de Cloudflare y las cuatro URLs nuevas. El programador registra un inicio ese día a las 17:01 UTC, pero sus campos de detalle y resultado siguen vacíos; falta vincular esta ejecución a un identificador de corrida antes de afirmar autonomía desatendida verificada. No hay lectura del porcentaje de cuota ni se usan APIs de IA de pago. El objetivo y el flujo completos están en `docs/DAILY-PUBLISHING.md`.
 
 Las verificaciones de tandas anteriores permanecen en `editorial/verification/2026-10-28.json` y `2026-10-29.json`. El estado `published` de un artículo selecciona contenido para compilar; únicamente el registro de verificación pública acredita que está en el dominio.

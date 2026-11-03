@@ -2,13 +2,13 @@
   "id": "2026-11-03",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-03T17:05:42.056Z",
-  "status": "selected-for-gated-build",
+  "status": "published",
   "topicIds": [
     "hiroshima",
     "tangier"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "sourceDocuments": 12,
   "manuscripts": 4,
@@ -39,5 +39,14 @@
       "notes": "Retry only after the stated time; no alternative endpoint/identity used."
     }
   ],
-  "imageResolution": "Independent original photographers on Flickr, each exact license checked. Commons retries stopped after second 429; no alternate Commons endpoint, proxy or identity used."
+  "imageResolution": "Independent original photographers on Flickr, each exact license checked. Commons retries stopped after second 429; no alternate Commons endpoint, proxy or identity used.",
+  "publishedAt": "2026-11-03T17:56:50.042Z",
+  "commit": "2b8442c40202af76a3f5591ce4c5cc6b26c77045",
+  "publicVerification": "editorial/verification/2026-11-03-publication.json",
+  "publicUrls": [
+    "https://maletafeliz.com/es/guias/que-ver-en-hiroshima/",
+    "https://maletafeliz.com/en/guides/what-to-see-in-hiroshima/",
+    "https://maletafeliz.com/es/guias/que-ver-en-tanger/",
+    "https://maletafeliz.com/en/guides/what-to-see-in-tangier/"
+  ]
 }

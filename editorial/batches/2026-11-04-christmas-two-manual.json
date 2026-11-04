@@ -2,7 +2,7 @@
   "id": "2026-11-04-christmas-two-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-04T19:41:04.626462+00:00",
-  "status": "reserved-not-generated",
+  "status": "selected-for-build",
   "topicIds": [
     "christmas-tokyo",
     "christmas-singapore"
@@ -22,6 +22,11 @@
     "startedAt": "2026-11-04T19:41:04.626462+00:00",
     "leaseUntil": "2026-11-04T22:41:04.626462+00:00",
     "baseCommit": "28fafe3189627a19f5681e73d50bb2a60cc346f5",
-    "coordination": "Exclusive supplemental batch reservation; daily published batch untouched."
-  }
+    "coordination": "Exclusive supplemental batch reservation; daily published batch untouched.",
+    "heartbeatAt": "2026-11-04T19:48:41.725312+00:00"
+  },
+  "selectedCount": 2,
+  "localizedVersionsSelected": 4,
+  "documentaryPhotosSelected": 6,
+  "citedSourceDocuments": 7
 }

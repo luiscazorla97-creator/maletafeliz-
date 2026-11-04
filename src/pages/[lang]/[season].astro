@@ -26,6 +26,7 @@ const groups = [
   { ids: ['gb', 'ie', 'nl', 'be'], es: 'Luces y escapadas urbanas', en: 'Festive lights and city breaks' },
   { ids: ['es', 'it'], es: 'Navidad en España e Italia', en: 'Christmas in Spain and Italy' },
   { ids: ['us', 'ca', 'au'], es: 'Navidad en América y Australia', en: 'Christmas in the Americas and Australia' },
+  { ids: [...new Set(selection.filter((d) => d.continent === 'asia').map((d) => d.countryId))], es: 'Navidad en Asia', en: 'Christmas in Asia' },
 ];
 ---
 

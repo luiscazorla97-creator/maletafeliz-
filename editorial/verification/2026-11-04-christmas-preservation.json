@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-04T19:58:05.836520+00:00",
+  "baselineCommit": "28fafe3189627a19f5681e73d50bb2a60cc346f5",
+  "protectedFiles": 3854,
+  "protectedAggregateSha256": "f062ea7a0c3d7ba8da60f28502152e3572004fc8c199ba894e2cd9413434db56",
+  "changedExistingFiles": [
+    "src/pages/[lang]/[season].astro"
+  ],
+  "priorPhotoEntriesUnchanged": 625,
+  "newPhotos": 6,
+  "priorPlanEntriesUnchanged": 141,
+  "dailyBatchUnchanged": true,
+  "catalogue": {
+    "originals": 143,
+    "localizations": 286,
+    "photos": 631,
+    "places": 629,
+    "citedSources": 604,
+    "christmasOriginals": 42
+  },
+  "errors": [],
+  "necessaryCollectionChange": "Append one Asia group using published destinations; existing regional groups, markup, card styles, ads and SEO unchanged. Ensures both new guides appear in collection and subsequent Asian guides enter it automatically.",
+  "collectionTemplate": {
+    "path": "src/pages/[lang]/[season].astro",
+    "beforeSha256": "780cdba3885d5f37f02b891eaa4f62e2d7d89907ed02731402377998180f7856",
+    "afterSha256": "85f0739b461427815cdb1c063621472053ad2e95392ba3c7bddd6f2a844f00e5"
+  },
+  "protectedAggregateScope": "Aggregate from pre-collection-change preservation pass; all3853other preexisting protected files remain unchanged. Collection template exception explicitly hashed below."
+}

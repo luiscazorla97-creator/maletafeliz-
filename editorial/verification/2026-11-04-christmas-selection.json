@@ -1,0 +1,52 @@
+{
+  "type": "additional-manual-christmas-selection",
+  "createdAt": "2026-11-04T19:42:15.339407+00:00",
+  "catalogueBefore": {
+    "originals": 141,
+    "localizations": 282,
+    "christmasOriginals": 40
+  },
+  "topicIds": [
+    "christmas-tokyo",
+    "christmas-singapore"
+  ],
+  "demandEvidence": "Search-volume and virality not verified. Google Trends returned429 and was not retried; no rankings, current-month demand numbers or traffic promises. Selected first Asian Christmas coverage, distinct confirmed2026 official programme and clear planning intent.",
+  "geographicReason": "Existing40 Christmas guides heavily Europe; two Asian city programmes extend holiday coverage beyond it. This is an additional owner-requested batch, not another daily execution.",
+  "probes": [
+    {
+      "url": "https://www.gotokyo.org/en/story/guide/winter-illuminations/index.html",
+      "capturedAt": "2026-11-04T19:37:39.766796+00:00",
+      "httpStatus": 404,
+      "bodySha256": "b4c20481f20a6c6cc1b9853b98ac017eb3eeaba684894aa42000842030682548",
+      "usedAsFactualOrDemandEvidence": false
+    },
+    {
+      "url": "https://www.marunouchi.com/en/pickup/event/7945/",
+      "capturedAt": "2026-11-04T19:37:38.230809+00:00",
+      "httpStatus": 404,
+      "bodySha256": "f49a0bc0ae8c5e62abb8ec3464dec0b7c15b9934888ec2a6d252e139b9ae23ed",
+      "usedAsFactualOrDemandEvidence": false
+    },
+    {
+      "url": "https://www.medellin.travel/en/christmas-in-medellin/",
+      "capturedAt": "2026-11-04T19:37:38.478807+00:00",
+      "httpStatus": 404,
+      "bodySha256": "03a14931a228ed17a053e94348c5369d31f28270ff52640e326fc6be3502c36a",
+      "usedAsFactualOrDemandEvidence": false
+    },
+    {
+      "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/christmas-wonderland.html",
+      "capturedAt": "2026-11-04T19:37:40.202793+00:00",
+      "httpStatus": 200,
+      "bodySha256": "654b52587a89fbb3e47dc1e48cf11bb4aeb7b16f3b6dcdb2ef35dc3dbcd7b6a5",
+      "usedAsFactualOrDemandEvidence": false
+    },
+    {
+      "url": "https://trends.google.com/trends/explore?date=today%201-m&q=Christmas%20Tokyo,Navidad%20Medellin",
+      "capturedAt": "2026-11-04T19:37:36.178833+00:00",
+      "httpStatus": 429,
+      "bodySha256": "37cef26e4a19ed531c1ca5e9629d5cbc28dc5a9b82a811d945276ef78cb3747e",
+      "usedAsFactualOrDemandEvidence": false
+    }
+  ]
+}

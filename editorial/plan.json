@@ -7339,5 +7339,121 @@
       "en": "https://maletafeliz.com/en/guides/doha-november-f1/"
     },
     "publiclyVerifiedAt": "2026-11-03T23:52:54.762896+00:00"
+  },
+  {
+    "id": "ljubljana",
+    "city": {
+      "es": "Liubliana",
+      "en": "Ljubljana"
+    },
+    "countryId": "si",
+    "country": {
+      "es": "Eslovenia",
+      "en": "Slovenia"
+    },
+    "continent": "europe",
+    "places": [
+      [
+        "castle",
+        "Castillo de Liubliana",
+        "Ljubljana Castle"
+      ],
+      [
+        "triple-bridge",
+        "Triple Puente",
+        "Triple Bridge"
+      ],
+      [
+        "tivoli",
+        "Parque Tivoli",
+        "Tivoli Park"
+      ]
+    ],
+    "related": [
+      "vienna",
+      "venice"
+    ],
+    "days": 2,
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture",
+      "nature"
+    ],
+    "placeCount": 3,
+    "status": "planned",
+    "intent": "ljubljana-first-visit-two-days-three-places",
+    "titles": {
+      "es": "Qué ver en Liubliana en 2 días: castillo, puentes y Tivoli",
+      "en": "Ljubljana in 2 days: castle, Triple Bridge and Tivoli Park"
+    },
+    "slugs": {
+      "es": "que-ver-en-liubliana",
+      "en": "things-to-do-in-ljubljana"
+    },
+    "researchStatus": "in-progress",
+    "imageStatus": "in-progress",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    }
+  },
+  {
+    "id": "dunedin",
+    "city": {
+      "es": "Dunedin",
+      "en": "Dunedin"
+    },
+    "countryId": "nz",
+    "country": {
+      "es": "Nueva Zelanda",
+      "en": "New Zealand"
+    },
+    "continent": "oceania",
+    "places": [
+      [
+        "station",
+        "Estación de Dunedin",
+        "Dunedin Railway Station"
+      ],
+      [
+        "toitu",
+        "Toitū Otago Settlers Museum",
+        "Toitū Otago Settlers Museum"
+      ],
+      [
+        "garden",
+        "Jardín Botánico de Dunedin",
+        "Dunedin Botanic Garden"
+      ]
+    ],
+    "related": [
+      "queenstown",
+      "wellington"
+    ],
+    "days": 2,
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture",
+      "nature"
+    ],
+    "placeCount": 3,
+    "status": "planned",
+    "intent": "dunedin-first-visit-two-days-three-places",
+    "titles": {
+      "es": "Dunedin en 2 días: estación, Toitū y Jardín Botánico",
+      "en": "Dunedin in 2 days: railway station, Toitū and Botanic Garden"
+    },
+    "slugs": {
+      "es": "que-ver-en-dunedin",
+      "en": "things-to-do-in-dunedin"
+    },
+    "researchStatus": "in-progress",
+    "imageStatus": "in-progress",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    }
   }
 ]

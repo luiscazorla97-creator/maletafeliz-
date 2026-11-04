@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-04",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-04T17:01:32.817Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "ljubljana",
+    "dunedin"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "db000a9f-194b-4a5e-b3cf-233dc9a638af",
+    "startedAt": "2026-11-04T17:01:32.429655+00:00",
+    "dateNY": "2026-11-04",
+    "priorVerifiedNewOriginals": [],
+    "baseCommit": "9a64282c32548cfefcad4e1f009c223dbccf56ce",
+    "leaseUntil": "2026-11-04T20:01:32.860643+00:00",
+    "coordination": "Active cloud execution; inspect heartbeat/remote status before resuming. Reservation is not publication."
+  }
+}

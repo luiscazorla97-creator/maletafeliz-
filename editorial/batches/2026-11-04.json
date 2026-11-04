@@ -2,13 +2,13 @@
   "id": "2026-11-04",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-04T17:01:32.817Z",
-  "status": "selected-for-gated-build",
+  "status": "published",
   "topicIds": [
     "ljubljana",
     "dunedin"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "db000a9f-194b-4a5e-b3cf-233dc9a638af",
@@ -17,11 +17,28 @@
     "priorVerifiedNewOriginals": [],
     "baseCommit": "9a64282c32548cfefcad4e1f009c223dbccf56ce",
     "leaseUntil": "2026-11-04T20:01:32.860643+00:00",
-    "coordination": "Active cloud execution; inspect heartbeat/remote status before resuming. Reservation is not publication.",
-    "heartbeatAt": "2026-11-04T17:16:16.327395+00:00"
+    "coordination": "Completed cloud execution; both canonical Cloudflare deployments and four localized URLs publicly verified. Lease released.",
+    "heartbeatAt": "2026-11-04T17:57:47.685345+00:00",
+    "status": "completed-verified",
+    "releasedAt": "2026-11-04T17:57:47.685345+00:00"
   },
   "selectedCount": 2,
   "localizedVersionsSelected": 4,
   "documentaryPhotosSelected": 6,
-  "citedSourceDocuments": 12
+  "citedSourceDocuments": 12,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 6,
+  "publishedCommit": "313edb55aeac6cd48ea77c4e22e3426fd818bc63",
+  "publiclyVerifiedAt": "2026-11-04T17:57:47.685345+00:00",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-liubliana/",
+      "https://maletafeliz.com/es/guias/que-ver-en-dunedin/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-in-ljubljana/",
+      "https://maletafeliz.com/en/guides/things-to-do-in-dunedin/"
+    ]
+  },
+  "publicVerification": "editorial/verification/2026-11-04-publication.json"
 }

@@ -6,9 +6,9 @@ Verificado el 4 de noviembre de 2026 en America/New_York. Especificación vigent
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 141 guías originales y 282 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 597 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 625 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 143 guías originales y 286 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 604 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 631 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
@@ -190,3 +190,15 @@ Las verificaciones de tandas anteriores permanecen en `editorial/verification/20
 Publicada la optimización de entrega del globo y tamaños responsive, sin cambios en los 282 artículos, fechas, fotografías editoriales, diseño 3D, anuncios ni programación. Ambos proyectos existentes completaron `690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2`; se verificaron 290 respuestas del catálogo/redirecciones, 48 comprobaciones de las últimas guías, 13 de carga/idioma, cinco derivados del globo y la coincidencia del contenido y SEO de las 284 páginas localizadas de portadas/artículos. AdSense conserva una sola etiqueta async y meta por portada, y la línea exacta en ads.txt. La aprobación por Google no está verificada.
 
 La mediana de tres corridas móviles locales pasó de 90 a 98 puntos y el LCP de 3,254 a 2,113 s; CLS 0, accesibilidad 100 y SEO 100. Las corridas posteriores individuales fueron 98, 98 y 89. No son resultados públicos de PageSpeed: su API respondió HTTP 429. Los 403 de Adsterra explican los cuatro puntos restantes de prácticas recomendadas en ese laboratorio. Diagnóstico, método y límites en `docs/PERFORMANCE.md`; evidencia pública en `editorial/verification/2026-11-04-mobile-performance-publication.json`. Esta publicación técnica añade cero temas y conserva la tanda diaria ya verificada.
+
+## Dos guías adicionales de Navidad: 4 de noviembre de 2026
+
+Publicadas Navidad en Tokio y Navidad en Singapur: cuatro versiones completas en español e inglés de 1.472 a 1.668 palabras. Tokio desarrolla Naka-dori, Marucube en Marunouchi Building y Gyoko-dori; Singapur desarrolla ION Orchard, Ngee Ann City Civic Plaza y Shaw House Urban Plaza. Sus intenciones estacionales complementan las guías generales existentes. La colección navideña pasa de 40 a 42 originales, añadiendo las primeras dos propuestas asiáticas.
+
+Se leyeron siete páginas oficiales de programas y accesos de 2026 y las licencias individuales de seis fotografías documentales, con 18 archivos WebP y pies bilingües que identifican ediciones anteriores. Los calendarios de Gyoko-dori y los Christmas Villages se distinguen del encendido general. Google Trends respondió HTTP 429; no se reintentó ni se inventaron cifras de demanda o promesas de viralidad.
+
+Pasaron tipos, 33 pruebas unitarias, 28 de navegación y 44 de producción, incluidas colección navideña, versiones nuevas, guías generales de Tokio/Singapur, publicidad y consentimiento. Ambas compilaciones generaron 726 páginas; la de producción usó obligatoriamente `npm run build:release`. Se preservaron los 282 artículos y 625 fotos previas, fechas, revisiones, diseño 3D, anuncios, Analytics, SEO y la optimización móvil.
+
+Ambos proyectos existentes de Cloudflare completaron `b733f871fd38d8795373db9d6891488003a83c9a`. Se verificaron 294 respuestas del catálogo/redirecciones y 52 comprobaciones del lote, incluidos los bytes de 18 imágenes, las cuatro URLs, idiomas, metadatos, búsqueda, destinos y enlaces a los 42 originales navideños. El sitemap contiene 702 URLs. Evidencia: `editorial/verification/2026-11-04-christmas-publication.json`.
+
+Esta tanda manual adicional fue autorizada después de las dos guías diarias de hoy. El lote diario permanece intacto y el calendario sigue en dos originales a las 12:00 de Miami; no se afirma atribución desatendida. El total de hoy es cuatro temas nuevos únicos publicados y verificados.

@@ -2,13 +2,13 @@
   "id": "2026-11-04-christmas-two-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-04T19:41:04.626462+00:00",
-  "status": "selected-for-build",
+  "status": "published",
   "topicIds": [
     "christmas-tokyo",
     "christmas-singapore"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "authorization": "Explicit additional owner request after daily batch completion: sube 2 articulos de navidad... no tengamos subidos. Does not change daily2/noon schedule.",
   "priorSameDayPublishedTopicIds": [
@@ -18,15 +18,31 @@
   "reservationCommandReusedDailyBatch": true,
   "execution": {
     "executionId": "4737d478-248d-41fc-a691-e1b2aac28648",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-04T19:41:04.626462+00:00",
     "leaseUntil": "2026-11-04T22:41:04.626462+00:00",
     "baseCommit": "28fafe3189627a19f5681e73d50bb2a60cc346f5",
     "coordination": "Exclusive supplemental batch reservation; daily published batch untouched.",
-    "heartbeatAt": "2026-11-04T19:48:41.725312+00:00"
+    "heartbeatAt": "2026-11-04T20:26:06.366261+00:00",
+    "releasedAt": "2026-11-04T20:26:06.366261+00:00"
   },
   "selectedCount": 2,
   "localizedVersionsSelected": 4,
   "documentaryPhotosSelected": 6,
-  "citedSourceDocuments": 7
+  "citedSourceDocuments": 7,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 6,
+  "publishedCommit": "b733f871fd38d8795373db9d6891488003a83c9a",
+  "publiclyVerifiedAt": "2026-11-04T20:26:06.366261+00:00",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/navidad-en-tokio/",
+      "https://maletafeliz.com/es/guias/navidad-en-singapur/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/christmas-in-tokyo/",
+      "https://maletafeliz.com/en/guides/christmas-in-singapore/"
+    ]
+  },
+  "publicVerification": "editorial/verification/2026-11-04-christmas-publication.json"
 }

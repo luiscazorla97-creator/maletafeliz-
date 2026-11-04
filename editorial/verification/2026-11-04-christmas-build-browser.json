@@ -1,0 +1,323 @@
+{
+  "checkedAt": "2026-11-04T20:22:49.076859+00:00",
+  "batch": "2026-11-04-christmas-two-manual",
+  "status": "local-production-verified-public-pending",
+  "commands": {
+    "check": "0errors/0warnings",
+    "unit": "33passed",
+    "e2e": "28passed",
+    "build": "726HTML complete",
+    "build:release": "726HTML complete; mandatory production gate unchanged",
+    "productionSelected": "44passed; four new versions, generalTokyo/Singapore,Christmas collection, catalogue, home,ads and Analytics"
+  },
+  "releaseTestsPassed": 44,
+  "productionHtmlPages": 726,
+  "sitemapUrls": 702,
+  "localChecks": {
+    "checkedAt": "2026-11-04T20:02:34.251Z",
+    "origin": "http://127.0.0.1:4324",
+    "browserTransport": "Local production preview; external providers blocked.",
+    "checks": [
+      {
+        "type": "browser",
+        "path": "/en/guides/christmas-in-singapore/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/navidad-en-singapur/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/christmas-in-tokyo/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/navidad-en-tokio/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/christmas-in-singapore/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/navidad-en-singapur/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/christmas-in-tokyo/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/navidad-en-tokio/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Christmas%20in%20Singapore",
+        "article": "/en/guides/christmas-in-singapore/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Navidad%20en%20Singapur",
+        "article": "/es/guias/navidad-en-singapur/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Christmas%20in%20Tokyo",
+        "article": "/en/guides/christmas-in-tokyo/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Navidad%20en%20Tokio",
+        "article": "/es/guias/navidad-en-tokio/"
+      },
+      {
+        "type": "search-alias",
+        "path": "/es/buscar/?q=Marunouchi",
+        "article": "/es/guias/navidad-en-tokio/"
+      },
+      {
+        "type": "sitemap",
+        "articles": 286,
+        "urls": 702
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/christmas-singapore/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-sg/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/christmas-singapore/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-sg/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/christmas-tokyo/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-jp/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/christmas-tokyo/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-jp/"
+      },
+      {
+        "type": "christmas-collection",
+        "path": "/es/navidad/",
+        "seasonalGuides": 42,
+        "allLinked": true
+      },
+      {
+        "type": "home-recent-discovery",
+        "path": "/es/",
+        "newGuides": 2
+      },
+      {
+        "type": "christmas-collection",
+        "path": "/en/christmas/",
+        "seasonalGuides": 42,
+        "allLinked": true
+      },
+      {
+        "type": "home-recent-discovery",
+        "path": "/en/",
+        "newGuides": 2
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-tokyo-nakadori.webp",
+        "status": 200,
+        "sha256": "f46a66194d52c132c56fa97181207f97b799f6c47c36ef5def669e1a8743e597"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-tokyo-nakadori-480w.webp",
+        "status": 200,
+        "sha256": "d04f138cdc9d10bef5ecf06b34493a2b78ee5b85d56bc3cda4721dc616abc61e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-tokyo-nakadori-800w.webp",
+        "status": 200,
+        "sha256": "6bd17b6e752e708686c77d4531e04c1ba5e73c094679583ca89bbed8738292ec"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-tokyo-marubiru.webp",
+        "status": 200,
+        "sha256": "b58442ea22a55c5a484ad90662b21304a5d14e1cf5f271271e5ba0bf627579e9"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-tokyo-marubiru-480w.webp",
+        "status": 200,
+        "sha256": "60c42afad1758c6d162bf72d9d871262db4d89a507d643a467a2e0acca32e8ee"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-tokyo-marubiru-800w.webp",
+        "status": 200,
+        "sha256": "5370b3f7d55f2e3dff14cffb86161f7274b3bbf99a688a574a3436710de40890"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-tokyo-gyoko.webp",
+        "status": 200,
+        "sha256": "34f29ba26f86df28f73945f7ab17ead56e1a0ea850a9e2d996ba53efca736cf8"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-tokyo-gyoko-480w.webp",
+        "status": 200,
+        "sha256": "5f7bf4f62b5a45c8b8080d71082e2bddf6e472110c99aa7a3dd8a7b9f3dfe274"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-tokyo-gyoko-800w.webp",
+        "status": 200,
+        "sha256": "511551a7e9edab4a78e892edaf25cbf82266bc22c3ac1db221889a3b80c4c929"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-singapore-ion.webp",
+        "status": 200,
+        "sha256": "54140669388e95630a2cc12fe8ca869a2235039ea2877a3a6d108c9aa2794167"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-singapore-ion-480w.webp",
+        "status": 200,
+        "sha256": "4ef3c00160afa2424d0861bc038a2dc81444edb22e8acbc12f1308627083ca72"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-singapore-ion-800w.webp",
+        "status": 200,
+        "sha256": "56f2aac6ac10054c4f594be7095ffa8694d8a4d5dbb93afa4ab2859af6c5a134"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-singapore-ngeeann.webp",
+        "status": 200,
+        "sha256": "c0bf5c007a84528f2fb54929f1ccf9e2e92d6f5be883378e1fc36aada268753c"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-singapore-ngeeann-480w.webp",
+        "status": 200,
+        "sha256": "c6aad989dafb2fc81dbe3472ea1f2fa8b7f0d6e19a3890c6fcbe6d5578f7c54c"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-singapore-ngeeann-800w.webp",
+        "status": 200,
+        "sha256": "9b9ee0cd5b54bc4218d1b1e6dec06136e59a28691b6c6de9976c74c8fb9fc654"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-singapore-shaw.webp",
+        "status": 200,
+        "sha256": "cafddac11d71d7d1ca08df16dc86d091f05570992d3b7b9908247e9a389df545"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-singapore-shaw-480w.webp",
+        "status": 200,
+        "sha256": "7f9ec41d1b8d7f0a475b057e1e6a363e569f96be2a09ee336869c3c734ac7506"
+      },
+      {
+        "type": "photo",
+        "path": "/images/nx-singapore-shaw-800w.webp",
+        "status": 200,
+        "sha256": "f88b34b96c4dd0a7cd053e5cf7746b516ac7aea13db28a4e785c9b791da4e62a"
+      }
+    ],
+    "errors": []
+  },
+  "normalBuildOutput": "/workspace/maletafeliz-/.qa-preview-n4; final normal build after Asia collection adjustment, separate from final production dist",
+  "visualReview": "Six final documentary photographs inspected; both Spanish guides inspected in desktop/mobile screenshots. Four localized article pages tested1440/390px for photos/ALT,metadata,canonical,hreflang,ArticleJSONLD,language and no overflow.",
+  "initialExecutionIssue": "Unit/e2e initially failed EPERM starting childprocess/local server under default restricted execution. Same unmodified suites rerun with runtime network permission for local browser/server and passed. An additional preview build to/tmp then failed EXDEV moving assets across filesystems; the external workspace output then could not resolve project node_modules. Final normal build repeated in a project-contained output after independently confirming dependency resolution. Original failure logs retained in task temp; no checks lowered.",
+  "logSha256": {
+    "check.log": "612f5944d0cafcd9d13abcabe11b0ef1038b960b7abdfa2a779a322481c0568b",
+    "unit.log": "e34197b301a38b616bbbb8106909d80a9444a338d4b5de92f56a6e0f0040e6c0",
+    "e2e.log": "b869184641eb02f3a03c1ad4aa33a7e46020c4234fa324cd2045725a76a755d6",
+    "build.log": "24df78b61a026cffd82c8c99a1b552dae0417f3452ecfbe7b1dcba5f8c8d917e",
+    "release-build.log": "2b0c25d08f440bdf40c1bbe3005cf241c04965e9c474b9a14a1c2eed72524904",
+    "release-tests.log": "555f3af9723e866a45c93313988dbf4b3455880c2190325b076cabc514eb67af",
+    "local-qa.log": "2a175ee40aafb6588bff65ad600eb2d09ffe277b174c8e083a0a32293a46eeb7",
+    "unit-sandbox-failure.log": "fdf6350045609c9ba610529f01a02bd06bb18e43beda39bf9858d3992ea0b2bc",
+    "e2e-sandbox-failure.log": "ca746e65609908dd2c378ab857d56c6be00846f26b0c7543cb497386afbdd72b",
+    "build-cross-device-failure.log": "775058e7b3a0900aa7b25ae1b066380b55f3362073205abea80943bcbcc96e9b",
+    "build-external-module-failure.log": "c054e9dccfcb0ebb179e3ff7c727bee7bf746d0b242f8d3a59e86b3b9d4c6823"
+  },
+  "providerTraffic": "Third-party providers blocked/mocked in browser QA to avoid impressions. Original CSP preserved in public verification. Creative delivery and Google approval not claimed.",
+  "errors": [],
+  "normalBuildArtifactArchivedAt": "/workspace/maletafeliz-preview-final-n4"
+}

@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-04T18:38:41.957529+00:00",
+  "verifiedAt": "2026-11-04T20:26:06.366261+00:00",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 141,
-  "localizations": 282,
-  "photos": 625,
-  "httpChecks": 338,
+  "originals": 143,
+  "localizations": 286,
+  "photos": 631,
+  "httpChecks": 346,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "3ca59def-8f8d-468a-926f-d0706d81b472",
-      "commit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
+      "deploymentId": "5a5a6cde-8ffd-4888-9b9b-ec0f24d485cc",
+      "commit": "b733f871fd38d8795373db9d6891488003a83c9a",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "08de5ee4-5032-4c34-9914-276c3503634f",
-      "commit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
+      "deploymentId": "169dab74-b2cf-46b4-9b7b-07039cb740d5",
+      "commit": "b733f871fd38d8795373db9d6891488003a83c9a",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,18 +45,18 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 597,
-  "latestBatch": "2026-11-04",
-  "verificationFile": "editorial/verification/2026-11-04-publication.json",
+  "citedSourceDocuments": 604,
+  "latestBatch": "2026-11-04-christmas-two-manual",
+  "verificationFile": "editorial/verification/2026-11-04-christmas-publication.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 290,
-    "batchBrowserSeoDiscoveryAndPhotoChecks": 48
+    "siteAndRedirects": 294,
+    "batchBrowserSeoDiscoveryAndPhotoChecks": 52
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-04-mobile-performance-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-04T18:38:41.957529+00:00",
+  "latestDeploymentVerification": "editorial/verification/2026-11-04-christmas-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-04T20:26:06.366261+00:00",
   "photoCoverage": {
-    "originalRecommendations": 623,
-    "localizedRecommendations": 1246,
+    "originalRecommendations": 629,
+    "localizedRecommendations": 1258,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -121,6 +121,6 @@
       "height": 250
     }
   },
-  "batchChecks": 48,
+  "batchChecks": 52,
   "performanceVerification": "editorial/verification/2026-11-04-mobile-performance-publication.json"
 }

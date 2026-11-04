@@ -1,0 +1,3858 @@
+{
+  "verifiedAt": "2026-11-04T18:38:41.957529+00:00",
+  "type": "mobile-performance-only-publication-verified",
+  "origin": "https://maletafeliz.com",
+  "commit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
+  "newOriginals": 0,
+  "newLocalizations": 0,
+  "originals": 141,
+  "localizations": 282,
+  "photos": 625,
+  "deployments": {
+    "checkedAt": "2026-11-04T18:37:27.798Z",
+    "commit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "expectedCommit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
+        "found": true,
+        "canonicalDeploymentId": "3ca59def-8f8d-468a-926f-d0706d81b472",
+        "canonicalCommit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
+        "deploymentId": "3ca59def-8f8d-468a-926f-d0706d81b472",
+        "commit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-04T18:36:54.919275Z",
+          "ended_on": "2026-11-04T18:37:09.751128Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-04T18:29:38.846764Z",
+            "ended_on": "2026-11-04T18:29:38.848463Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-04T18:29:38.848463Z",
+            "ended_on": "2026-11-04T18:29:40.609219Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-04T18:29:40.609219Z",
+            "ended_on": "2026-11-04T18:29:55.593464Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-04T18:29:55.593464Z",
+            "ended_on": "2026-11-04T18:36:54.919275Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-04T18:36:54.919275Z",
+            "ended_on": "2026-11-04T18:37:09.751128Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "expectedCommit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
+        "found": true,
+        "canonicalDeploymentId": "08de5ee4-5032-4c34-9914-276c3503634f",
+        "canonicalCommit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
+        "deploymentId": "08de5ee4-5032-4c34-9914-276c3503634f",
+        "commit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-04T18:30:05.586626Z",
+          "ended_on": "2026-11-04T18:30:15.033188Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-04T18:29:40.596781Z",
+            "ended_on": "2026-11-04T18:29:40.604329Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-04T18:29:40.604329Z",
+            "ended_on": "2026-11-04T18:29:43.838773Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-04T18:29:43.838773Z",
+            "ended_on": "2026-11-04T18:30:02.944823Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-04T18:30:02.944823Z",
+            "ended_on": "2026-11-04T18:30:05.586626Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-04T18:30:05.586626Z",
+            "ended_on": "2026-11-04T18:30:15.033188Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ]
+  },
+  "siteAndRedirects": {
+    "checkedAt": "2026-11-04T18:38:12.839Z",
+    "origin": "https://maletafeliz.com",
+    "httpVerified": true,
+    "checked": [
+      {
+        "path": "/es/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/"
+      },
+      {
+        "path": "/en/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-adelaide/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-adelaide/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-adelaide/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-adelaide/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-san-pedro-de-atacama/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-san-pedro-de-atacama/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-san-pedro-de-atacama/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-san-pedro-de-atacama/"
+      },
+      {
+        "path": "/en/guides/athens-in-two-days/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/athens-in-two-days/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-atenas-en-dos-dias/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-atenas-en-dos-dias/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bali/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bali/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bangkok/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bangkok/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-barcelona/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-barcelona/"
+      },
+      {
+        "path": "/en/guides/bariloche-graduation-trip/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/bariloche-graduation-trip/"
+      },
+      {
+        "path": "/es/guias/viaje-egresados-bariloche/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/viaje-egresados-bariloche/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-beijing/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-beijing/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-pekin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-pekin/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-brisbane/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-brisbane/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-brisbane/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-brisbane/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-budapest/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-budapest/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-budapest/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-budapest/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-buenos-aires/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-buenos-aires/"
+      },
+      {
+        "path": "/en/guides/buffalo-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/buffalo-in-november/"
+      },
+      {
+        "path": "/es/guias/buffalo-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/buffalo-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-cairo-and-giza/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-cairo-and-giza/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-el-cairo-y-guiza/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-el-cairo-y-guiza/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-cape-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-cape-town/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-cartagena/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-cartagena/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-cartagena-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-cartagena-3-lugares/"
+      },
+      {
+        "path": "/en/guides/christmas-in-amsterdam/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-amsterdam/"
+      },
+      {
+        "path": "/es/guias/navidad-en-amsterdam/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-amsterdam/"
+      },
+      {
+        "path": "/en/guides/christmas-in-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-barcelona/"
+      },
+      {
+        "path": "/es/guias/navidad-en-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-barcelona/"
+      },
+      {
+        "path": "/en/guides/christmas-in-basel/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-basel/"
+      },
+      {
+        "path": "/es/guias/navidad-en-basilea/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-basilea/"
+      },
+      {
+        "path": "/en/guides/christmas-in-berlin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-berlin/"
+      },
+      {
+        "path": "/es/guias/navidad-en-berlin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-berlin/"
+      },
+      {
+        "path": "/en/guides/christmas-in-bruges/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-bruges/"
+      },
+      {
+        "path": "/es/guias/navidad-en-brujas/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-brujas/"
+      },
+      {
+        "path": "/en/guides/christmas-in-brussels/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-brussels/"
+      },
+      {
+        "path": "/es/guias/navidad-en-bruselas/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-bruselas/"
+      },
+      {
+        "path": "/en/guides/christmas-in-budapest/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-budapest/"
+      },
+      {
+        "path": "/es/guias/navidad-en-budapest/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-budapest/"
+      },
+      {
+        "path": "/en/guides/christmas-in-chicago/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-chicago/"
+      },
+      {
+        "path": "/es/guias/navidad-en-chicago/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-chicago/"
+      },
+      {
+        "path": "/en/guides/christmas-in-colmar/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-colmar/"
+      },
+      {
+        "path": "/es/guias/navidad-en-colmar/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-colmar/"
+      },
+      {
+        "path": "/en/guides/christmas-in-cologne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-cologne/"
+      },
+      {
+        "path": "/es/guias/navidad-en-colonia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-colonia/"
+      },
+      {
+        "path": "/en/guides/christmas-in-copenhagen/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-copenhagen/"
+      },
+      {
+        "path": "/es/guias/navidad-en-copenhague/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-copenhague/"
+      },
+      {
+        "path": "/en/guides/christmas-in-dresden/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-dresden/"
+      },
+      {
+        "path": "/es/guias/navidad-en-dresde/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-dresde/"
+      },
+      {
+        "path": "/en/guides/christmas-in-dublin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-dublin/"
+      },
+      {
+        "path": "/es/guias/navidad-en-dublin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-dublin/"
+      },
+      {
+        "path": "/en/guides/christmas-in-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-edinburgh/"
+      },
+      {
+        "path": "/es/guias/navidad-en-edimburgo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-edimburgo/"
+      },
+      {
+        "path": "/en/guides/christmas-in-florence/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-florence/"
+      },
+      {
+        "path": "/es/guias/navidad-en-florencia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-florencia/"
+      },
+      {
+        "path": "/en/guides/christmas-in-helsinki/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-helsinki/"
+      },
+      {
+        "path": "/es/guias/navidad-en-helsinki/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-helsinki/"
+      },
+      {
+        "path": "/en/guides/christmas-in-innsbruck/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-innsbruck/"
+      },
+      {
+        "path": "/es/guias/navidad-en-innsbruck/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-innsbruck/"
+      },
+      {
+        "path": "/en/guides/christmas-in-london/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-london/"
+      },
+      {
+        "path": "/es/guias/navidad-en-londres/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-londres/"
+      },
+      {
+        "path": "/en/guides/christmas-in-lucerne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-lucerne/"
+      },
+      {
+        "path": "/es/guias/navidad-en-lucerna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-lucerna/"
+      },
+      {
+        "path": "/en/guides/christmas-in-madrid/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-madrid/"
+      },
+      {
+        "path": "/es/guias/navidad-en-madrid/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-madrid/"
+      },
+      {
+        "path": "/en/guides/christmas-in-malaga/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-malaga/"
+      },
+      {
+        "path": "/es/guias/navidad-en-malaga/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-malaga/"
+      },
+      {
+        "path": "/en/guides/christmas-in-milan/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-milan/"
+      },
+      {
+        "path": "/es/guias/navidad-en-milan/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-milan/"
+      },
+      {
+        "path": "/en/guides/christmas-in-montreal/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-montreal/"
+      },
+      {
+        "path": "/es/guias/navidad-en-montreal/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-montreal/"
+      },
+      {
+        "path": "/en/guides/christmas-in-munich/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-munich/"
+      },
+      {
+        "path": "/es/guias/navidad-en-munich/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-munich/"
+      },
+      {
+        "path": "/en/guides/christmas-in-new-york/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-new-york/"
+      },
+      {
+        "path": "/es/guias/navidad-en-nueva-york/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-nueva-york/"
+      },
+      {
+        "path": "/en/guides/christmas-in-nuremberg/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-nuremberg/"
+      },
+      {
+        "path": "/es/guias/navidad-en-nuremberg/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-nuremberg/"
+      },
+      {
+        "path": "/en/guides/christmas-in-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-paris/"
+      },
+      {
+        "path": "/es/guias/navidad-en-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-paris/"
+      },
+      {
+        "path": "/en/guides/christmas-in-prague/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-prague/"
+      },
+      {
+        "path": "/es/guias/navidad-en-praga/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-praga/"
+      },
+      {
+        "path": "/en/guides/christmas-in-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-quebec/"
+      },
+      {
+        "path": "/es/guias/navidad-en-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-quebec/"
+      },
+      {
+        "path": "/en/guides/christmas-in-rome/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-rome/"
+      },
+      {
+        "path": "/es/guias/navidad-en-roma/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-roma/"
+      },
+      {
+        "path": "/en/guides/christmas-in-rovaniemi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-rovaniemi/"
+      },
+      {
+        "path": "/es/guias/navidad-en-rovaniemi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-rovaniemi/"
+      },
+      {
+        "path": "/en/guides/christmas-in-salzburg/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-salzburg/"
+      },
+      {
+        "path": "/es/guias/navidad-en-salzburgo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-salzburgo/"
+      },
+      {
+        "path": "/en/guides/christmas-in-seville/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-seville/"
+      },
+      {
+        "path": "/es/guias/navidad-en-sevilla/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-sevilla/"
+      },
+      {
+        "path": "/en/guides/christmas-in-stockholm/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-stockholm/"
+      },
+      {
+        "path": "/es/guias/navidad-en-estocolmo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-estocolmo/"
+      },
+      {
+        "path": "/en/guides/christmas-in-strasbourg/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-strasbourg/"
+      },
+      {
+        "path": "/es/guias/navidad-en-estrasburgo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-estrasburgo/"
+      },
+      {
+        "path": "/en/guides/christmas-in-sydney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-sydney/"
+      },
+      {
+        "path": "/es/guias/navidad-en-sidney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-sidney/"
+      },
+      {
+        "path": "/en/guides/christmas-in-tallinn/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-tallinn/"
+      },
+      {
+        "path": "/es/guias/navidad-en-tallin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-tallin/"
+      },
+      {
+        "path": "/en/guides/christmas-in-vienna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-vienna/"
+      },
+      {
+        "path": "/es/guias/navidad-en-viena/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-viena/"
+      },
+      {
+        "path": "/en/guides/christmas-in-vigo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-vigo/"
+      },
+      {
+        "path": "/es/guias/navidad-en-vigo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-vigo/"
+      },
+      {
+        "path": "/en/guides/christmas-in-zurich/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-zurich/"
+      },
+      {
+        "path": "/es/guias/navidad-en-zurich/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-zurich/"
+      },
+      {
+        "path": "/en/guides/columbus-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/columbus-in-november/"
+      },
+      {
+        "path": "/es/guias/columbus-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/columbus-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-copenhagen/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-copenhagen/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-copenhague/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-copenhague/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-cordoba/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-cordoba/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-cordoba/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-cordoba/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-and-around-cusco/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-and-around-cusco/"
+      },
+      {
+        "path": "/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/"
+      },
+      {
+        "path": "/en/guides/doha-november-f1/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/doha-november-f1/"
+      },
+      {
+        "path": "/es/guias/doha-noviembre-f1/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/doha-noviembre-f1/"
+      },
+      {
+        "path": "/en/guides/dubai-in-two-days/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/dubai-in-two-days/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-dubai-en-dos-dias/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-dubai-en-dos-dias/"
+      },
+      {
+        "path": "/en/guides/things-to-do-in-dunedin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-in-dunedin/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-dunedin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-dunedin/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-edinburgh/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-edinburgh/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-essaouira/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-essaouira/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-essaouira/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-essaouira/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-florence/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-florence/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-florencia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-florencia/"
+      },
+      {
+        "path": "/en/guides/goa-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/goa-in-november/"
+      },
+      {
+        "path": "/es/guias/goa-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/goa-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-granada/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-granada/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-granada/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-granada/"
+      },
+      {
+        "path": "/en/guides/greenville-south-carolina-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/greenville-south-carolina-november/"
+      },
+      {
+        "path": "/es/guias/greenville-carolina-del-sur-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/greenville-carolina-del-sur-noviembre/"
+      },
+      {
+        "path": "/en/guides/halloween-australia-gold-coast-sydney-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-australia-gold-coast-sydney-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-australia-gold-coast-sidney-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-australia-gold-coast-sidney-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-canada-vancouver-quebec-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-canada-vancouver-quebec-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-france-parc-asterix-catacombs-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-france-parc-asterix-catacombs-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-francia-parc-asterix-catacumbas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-francia-parc-asterix-catacumbas-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-germany-movie-park-berlin-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-germany-movie-park-berlin-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-alemania-movie-park-berlin-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-alemania-movie-park-berlin-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-ireland-puca-trim-athboy-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-ireland-puca-trim-athboy-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-irlanda-puca-trim-athboy-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-irlanda-puca-trim-athboy-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-japan-disneyland-disneysea-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-japan-disneyland-disneysea-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-japon-disneyland-disneysea-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-japon-disneyland-disneysea-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-netherlands-walibi-toverland-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-netherlands-walibi-toverland-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-paises-bajos-walibi-toverland-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-paises-bajos-walibi-toverland-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-spain-portaventura-warner-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-spain-portaventura-warner-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-espana-portaventura-warner-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-espana-portaventura-warner-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-uk-derry-edinburgh-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-uk-derry-edinburgh-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-reino-unido-derry-edimburgo-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-reino-unido-derry-edimburgo-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-usa-salem-orlando-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-usa-salem-orlando-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-estados-unidos-salem-orlando-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-estados-unidos-salem-orlando-2026/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hanoi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-hanoi/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-hanoi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-hanoi/"
+      },
+      {
+        "path": "/en/guides/5-remarkable-places-to-discover-in-hawaii/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-remarkable-places-to-discover-in-hawaii/"
+      },
+      {
+        "path": "/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/"
+      },
+      {
+        "path": "/en/guides/hilo-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/hilo-in-november/"
+      },
+      {
+        "path": "/es/guias/hilo-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/hilo-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hiroshima/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-hiroshima/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-hiroshima/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-hiroshima/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-hobart/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-hobart/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hoi-an/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-hoi-an/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-hoi-an/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-hoi-an/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-hong-kong/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-hong-kong/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-hong-kong-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-hong-kong-3-lugares/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-iguazu/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-iguazu/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-iguazu/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-iguazu/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-istanbul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-istanbul/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-estambul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-estambul/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-kuala-lumpur/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-kuala-lumpur/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-kuala-lumpur/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-kuala-lumpur/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-kyoto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-kyoto/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-kioto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-kioto/"
+      },
+      {
+        "path": "/en/guides/las-vegas-november-f1/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/las-vegas-november-f1/"
+      },
+      {
+        "path": "/es/guias/las-vegas-noviembre-f1/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/las-vegas-noviembre-f1/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-lima/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-lima/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-lima/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-lima/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-lisbon/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-lisbon/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-lisboa/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-lisboa/"
+      },
+      {
+        "path": "/en/guides/things-to-do-in-ljubljana/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-in-ljubljana/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-liubliana/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-liubliana/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-london/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-london/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-londres/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-londres/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-lucerne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-lucerne/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-lucerna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-lucerna/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-luxor/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-luxor/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-luxor-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-luxor-3-lugares/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-madrid/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-madrid/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-madrid-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-madrid-3-lugares/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-marrakech/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-marrakech/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-melbourne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-melbourne/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-melbourne-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-melbourne-3-lugares/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-mexico-city/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-mexico-city/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/"
+      },
+      {
+        "path": "/en/guides/day-dead-merida-paseo-animas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-merida-paseo-animas-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-merida-paseo-animas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-merida-paseo-animas-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-mixquic-alumbrada-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-mixquic-alumbrada-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-mixquic-alumbrada-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-mixquic-alumbrada-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-oaxaca-centre-monte-alban-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-oaxaca-centre-monte-alban-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-puebla-tecamachalco-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-puebla-tecamachalco-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-puebla-tecamachalco-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-puebla-tecamachalco-2026/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-nairobi/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-nairobi/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-nara/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-nara/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-nara/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-nara/"
+      },
+      {
+        "path": "/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-ottawa/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-ottawa/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-ottawa/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-ottawa/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-paris/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-imprescindibles-de-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-imprescindibles-de-paris/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-perth/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-perth/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-perth/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-perth/"
+      },
+      {
+        "path": "/en/guides/phuket-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/phuket-in-november/"
+      },
+      {
+        "path": "/es/guias/phuket-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/phuket-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-porto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-porto/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-oporto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-oporto/"
+      },
+      {
+        "path": "/en/guides/prague-in-two-days/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/prague-in-two-days/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-praga-en-dos-dias/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-praga-en-dos-dias/"
+      },
+      {
+        "path": "/en/guides/puri-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/puri-in-november/"
+      },
+      {
+        "path": "/es/guias/puri-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/puri-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-quebec/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-quebec/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-queenstown/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-queenstown/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-quito/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-quito/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-quito/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-quito/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-rabat/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-rabat/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-rabat/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-rabat/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-rio-de-janeiro/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-rio-de-janeiro/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-rome/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-rome/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-roma/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-roma/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-rotorua/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-rotorua/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-rotorua/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-rotorua/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-salvador/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-salvador/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-salvador/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-salvador/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-seoul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-seoul/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-seul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-seul/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-seville/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-seville/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-sevilla/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-sevilla/"
+      },
+      {
+        "path": "/en/guides/angkor-temples-from-siem-reap/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/angkor-temples-from-siem-reap/"
+      },
+      {
+        "path": "/es/guias/templos-de-angkor-desde-siem-reap/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/templos-de-angkor-desde-siem-reap/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-singapore/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-singapore/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-stone-town/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-stone-town/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-sydney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-sydney/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-sidney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-sidney/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-taipei/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-taipei/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-taipei/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-taipei/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-tangier/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-tangier/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-tanger/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-tanger/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-tokyo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-tokyo/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-tokio/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-tokio/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-tunis/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-tunis/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-tunez/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-tunez/"
+      },
+      {
+        "path": "/en/guides/udaipur-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/udaipur-in-november/"
+      },
+      {
+        "path": "/es/guias/udaipur-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/udaipur-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-ushuaia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-ushuaia/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-ushuaia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-ushuaia/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-vancouver/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-vancouver/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-venice/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-venice/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-venecia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-venecia/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-vienna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-vienna/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-viena/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-viena/"
+      },
+      {
+        "path": "/en/guides/carlos-paz-graduation-trip/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/carlos-paz-graduation-trip/"
+      },
+      {
+        "path": "/es/guias/viaje-egresados-carlos-paz/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/viaje-egresados-carlos-paz/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-wellington/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-wellington/"
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/sitemap.xml"
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/robots.txt"
+      },
+      {
+        "path": "/maletafeliz-launch-check-nonexistent/",
+        "status": 404,
+        "finalUrl": "https://maletafeliz.com/maletafeliz-launch-check-nonexistent/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/",
+        "status": 301,
+        "location": "https://maletafeliz.com/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/es/?ref=www-check",
+        "status": 301,
+        "location": "https://maletafeliz.com/es/?ref=www-check"
+      },
+      {
+        "path": "https://www.maletafeliz.com/en/",
+        "status": 301,
+        "location": "https://maletafeliz.com/en/"
+      }
+    ],
+    "errors": []
+  },
+  "localizedNewGuideRegression": {
+    "checkedAt": "2026-11-04T18:38:14.380Z",
+    "origin": "https://maletafeliz.com",
+    "browserTransport": "Managed Node HTTPS proxy with TLS validation and original CSP preserved; third-party providers blocked to avoid impressions.",
+    "checks": [
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-dunedin/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-dunedin/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-ljubljana/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-liubliana/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-dunedin/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-dunedin/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-ljubljana/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-liubliana/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Dunedin",
+        "article": "/en/guides/things-to-do-in-dunedin/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Dunedin",
+        "article": "/es/guias/que-ver-en-dunedin/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Ljubljana",
+        "article": "/en/guides/things-to-do-in-ljubljana/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Liubliana",
+        "article": "/es/guias/que-ver-en-liubliana/"
+      },
+      {
+        "type": "search-alias",
+        "path": "/es/buscar/?q=Ljubljana",
+        "article": "/es/guias/que-ver-en-liubliana/"
+      },
+      {
+        "type": "sitemap",
+        "articles": 282,
+        "urls": 694
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/dunedin/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/oceania/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-nz/"
+      },
+      {
+        "type": "www",
+        "path": "/en/guides/things-to-do-in-dunedin/?ref=n4-publication-check",
+        "status": 301,
+        "location": "https://maletafeliz.com/en/guides/things-to-do-in-dunedin/?ref=n4-publication-check"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/dunedin/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/oceania/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-nz/"
+      },
+      {
+        "type": "www",
+        "path": "/es/guias/que-ver-en-dunedin/?ref=n4-publication-check",
+        "status": 301,
+        "location": "https://maletafeliz.com/es/guias/que-ver-en-dunedin/?ref=n4-publication-check"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/ljubljana/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/europe/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-si/"
+      },
+      {
+        "type": "www",
+        "path": "/en/guides/things-to-do-in-ljubljana/?ref=n4-publication-check",
+        "status": 301,
+        "location": "https://maletafeliz.com/en/guides/things-to-do-in-ljubljana/?ref=n4-publication-check"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/ljubljana/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/europe/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-si/"
+      },
+      {
+        "type": "www",
+        "path": "/es/guias/que-ver-en-liubliana/?ref=n4-publication-check",
+        "status": 301,
+        "location": "https://maletafeliz.com/es/guias/que-ver-en-liubliana/?ref=n4-publication-check"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-castle.webp",
+        "status": 200,
+        "sha256": "17d3cc712d0b6bdd3c69f7dfccc08f213bd683012d9140fb4979e35ac3f8c0ff"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-castle-480w.webp",
+        "status": 200,
+        "sha256": "ecbb4e2ad33c6162df09882a095cb2092dba4ccfd043684f52a99312b156c125"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-castle-800w.webp",
+        "status": 200,
+        "sha256": "ff7c9147eb4f6b308e67636fabe047f94a178efb7baa79cd5b492777b37cb2a4"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-triple-bridge.webp",
+        "status": 200,
+        "sha256": "c39cd133f4fbe3c51b9a25fa6ff0bb8015318d08ecc8c7316165f6e661e63703"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-triple-bridge-480w.webp",
+        "status": 200,
+        "sha256": "6c22677776153ff32c6399aee75b011d89c852d2605c39e8a0178700e3254b47"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-triple-bridge-800w.webp",
+        "status": 200,
+        "sha256": "7788c88dcbb3eb1e06329bbe2f11af32e45a32aa0439f7d2396820b90ce8b93e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-tivoli.webp",
+        "status": 200,
+        "sha256": "787d338928fff18eede74007446ad8d39b8c309e61ce71f244916808ea58f234"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-tivoli-480w.webp",
+        "status": 200,
+        "sha256": "22d79bb293e0ca516db6c9c6960ef7b8c2c5a5663cc41712e29dcd4bc8c41a84"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-tivoli-800w.webp",
+        "status": 200,
+        "sha256": "af595e2f9f571abe6191e35efd181be5d3a165fb0099e1da2bfe769ca2fa44ec"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-station.webp",
+        "status": 200,
+        "sha256": "ed651d097e562409e598c383ef4decc986a9d84c8318b9e50114a0144057379c"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-station-480w.webp",
+        "status": 200,
+        "sha256": "8b704012b1d7f5bd4abbcab19cb4ba14659928ea35d2b7710d32c4d2d2e3aaeb"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-station-800w.webp",
+        "status": 200,
+        "sha256": "7113a0746017a681d0a3ae0dd1fd0d46e96da1e3e31580a639b4d4be1b44a1ce"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-toitu.webp",
+        "status": 200,
+        "sha256": "c338900591e89af3d32cf42d633c538b8d61999041a145cc82c29ae44575c282"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-toitu-480w.webp",
+        "status": 200,
+        "sha256": "fbcedf111370101670113029cf68421b1e88abd152ff1c831f20437b2a37427d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-toitu-800w.webp",
+        "status": 200,
+        "sha256": "294037e33e9a9952286526650bbfb2d024bfab586fdc87014b625b03c8f9fbad"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-garden.webp",
+        "status": 200,
+        "sha256": "efd51b2e1991f8aca64e72d819c1121dff67e44435b7f0d4f2912428f642f4f4"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-garden-480w.webp",
+        "status": 200,
+        "sha256": "766b376b848363cb434030faf59d87d2991a55292a850eb669aa6ca6b13e98f4"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-garden-800w.webp",
+        "status": 200,
+        "sha256": "80cc21783f5c1a940b659529a24ee7c8f08edbb170336914f1db888cf250e074"
+      }
+    ],
+    "errors": []
+  },
+  "responsiveLcpAndLanguage": {
+    "checkedAt": "2026-11-04T18:38:06.162Z",
+    "origin": "https://maletafeliz.com",
+    "checks": [
+      {
+        "type": "responsive-lcp",
+        "width": 320,
+        "dpr": 1.75,
+        "selectedWidth": 1023,
+        "source": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 320,
+          "height": 365
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 390,
+        "dpr": 1.75,
+        "selectedWidth": 1023,
+        "source": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 390,
+          "height": 365
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 412,
+        "dpr": 1.75,
+        "selectedWidth": 1023,
+        "source": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 412,
+          "height": 365
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 540,
+        "dpr": 1.75,
+        "selectedWidth": 1023,
+        "source": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 540,
+          "height": 365
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 768,
+        "dpr": 1.75,
+        "selectedWidth": 1536,
+        "source": "https://maletafeliz.com/_astro/earth-atlas-1536.DCIHhohW.avif",
+        "requests": [
+          {
+            "url": "https://maletafeliz.com/_astro/earth-atlas-1536.DCIHhohW.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 700,
+          "height": 480
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 800,
+        "dpr": 1.75,
+        "selectedWidth": 1536,
+        "source": "https://maletafeliz.com/_astro/earth-atlas-1536.DCIHhohW.avif",
+        "requests": [
+          {
+            "url": "https://maletafeliz.com/_astro/earth-atlas-1536.DCIHhohW.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 700,
+          "height": 480
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 1024,
+        "dpr": 1,
+        "selectedWidth": 1023,
+        "source": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 798.71875,
+          "height": 670
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 1440,
+        "dpr": 1,
+        "selectedWidth": 1023,
+        "source": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 790.390625,
+          "height": 670
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 1920,
+        "dpr": 1,
+        "selectedWidth": 1023,
+        "source": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "https://maletafeliz.com/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 942.390625,
+          "height": 670
+        }
+      },
+      {
+        "type": "root-language",
+        "locale": "es-AR",
+        "finalUrl": "https://maletafeliz.com/es/?ref=language-check#anchor",
+        "earthRequests": 1
+      },
+      {
+        "type": "root-language",
+        "locale": "en-US",
+        "finalUrl": "https://maletafeliz.com/en/?ref=language-check#anchor",
+        "earthRequests": 1
+      },
+      {
+        "type": "saved-language",
+        "finalUrl": "https://maletafeliz.com/es/"
+      },
+      {
+        "type": "no-javascript",
+        "spanishFallback": true,
+        "globeLoaded": true
+      }
+    ],
+    "errors": []
+  },
+  "optimizedAssetsAndAdsense": {
+    "checkedAt": "2026-11-04T18:37:57.780Z",
+    "origin": "https://maletafeliz.com",
+    "checks": [
+      {
+        "type": "optimized-hero-asset",
+        "path": "/_astro/earth-atlas-1023.BJ1XKRrr.webp",
+        "bytes": 132954,
+        "sha256": "631fc5bb33d2ebaec387a26b00850b81dedb04df9293ba041f6e2fa085f6f2f0",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "contentType": "image/webp"
+      },
+      {
+        "type": "optimized-hero-asset",
+        "path": "/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "bytes": 115586,
+        "sha256": "eac71e009353e75290ed13073ae38eda155da5165d0f197b5c1ecabb27b6f0bc",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "contentType": "image/avif"
+      },
+      {
+        "type": "optimized-hero-asset",
+        "path": "/_astro/earth-atlas-1536.DCIHhohW.avif",
+        "bytes": 281266,
+        "sha256": "f721041bc5e49bd5f5f5759b79c22dd18e1d2001489e38cf2b11952a24f6f15b",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "contentType": "image/avif"
+      },
+      {
+        "type": "optimized-hero-asset",
+        "path": "/_astro/earth-atlas-768.BSw9hMAq.avif",
+        "bytes": 79455,
+        "sha256": "a863b7a0338423d8979310a251a15cafd34fb37c2460009ed0c348ee1f2cb3e6",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "contentType": "image/avif"
+      },
+      {
+        "type": "optimized-hero-asset",
+        "path": "/_astro/earth-atlas-768.BqteDlgk.webp",
+        "bytes": 89692,
+        "sha256": "9aa471847591a6eff3d2a5974be2370db1a23255d707b55fb256a01f3f040102",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "contentType": "image/webp"
+      },
+      {
+        "type": "preserved-asset-or-seo-file",
+        "path": "/design/earth-atlas.webp",
+        "sha256": "09ac7cc03f29de4c6a98b87ca81d3e4cf761e3fef1f0159a428d110237082599",
+        "bytes": 301612
+      },
+      {
+        "type": "preserved-asset-or-seo-file",
+        "path": "/brand/logo-horizontal-3d-512.webp",
+        "sha256": "4468b90d773486c4382cf4e88722e760cf27bb0275861598395f2bad770ab63f",
+        "bytes": 27116
+      },
+      {
+        "type": "preserved-asset-or-seo-file",
+        "path": "/sitemap.xml",
+        "sha256": "5a2fbce2f17ce7a55f92ce52b0f30e42ad431b505fb1fc022538d958e08e5942",
+        "bytes": 186910
+      },
+      {
+        "type": "preserved-asset-or-seo-file",
+        "path": "/robots.txt",
+        "sha256": "26887a2a2424f17bdac9b4f8f10cf551ff4de82fd9930429009a060f4d18c79d",
+        "bytes": 112
+      },
+      {
+        "type": "preserved-asset-or-seo-file",
+        "path": "/ads.txt",
+        "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+        "bytes": 59
+      },
+      {
+        "type": "localized-home-and-adsense",
+        "path": "/es/",
+        "status": 200,
+        "scriptCount": 1,
+        "accountMetaCount": 1,
+        "preloadCount": 1
+      },
+      {
+        "type": "localized-home-and-adsense",
+        "path": "/en/",
+        "status": 200,
+        "scriptCount": 1,
+        "accountMetaCount": 1,
+        "preloadCount": 1
+      },
+      {
+        "type": "public-html-downloaded-for-semantic-comparison",
+        "pages": 284
+      }
+    ],
+    "errors": [],
+    "googleApprovalVerified": false
+  },
+  "allLocalizedContentAndSeo": {
+    "checks": [
+      {
+        "path": "/en/guides/what-to-see-in-adelaide/",
+        "status": 200,
+        "semanticSha256": "97425538b22b7bbd9354c6fb17b01f0d08f4633c9c44565b58a4a57ce95f5af2",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/",
+        "status": 200,
+        "semanticSha256": "ddf0f69d4329c4408e1ce2ba748cdc95ed5126bcc0deaeeffbd0d4f877010db2",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/",
+        "status": 200,
+        "semanticSha256": "9cf0330b72d5fa274f67ff64d200692e457bba1c21ddef09ab155857a5c1e7e8",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-adelaide/",
+        "status": 200,
+        "semanticSha256": "501874cfc69d972ad0621a9b00542a64941fc7705ae000d9b9d636bfe2c393fd",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-san-pedro-de-atacama/",
+        "status": 200,
+        "semanticSha256": "848abe4f1c43b9f4f94af987529dabcb8916201b520269b597c1c164c08f70aa",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-atenas-en-dos-dias/",
+        "status": 200,
+        "semanticSha256": "784424488ba24a1c91498d501824fba549b8d34a5060cb80f94689bf95508306",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/athens-in-two-days/",
+        "status": 200,
+        "semanticSha256": "4b27a9b3a98a5deae80bd5844135ef4d5edc6e6501e2571b8b857ab63ccd50c8",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-san-pedro-de-atacama/",
+        "status": 200,
+        "semanticSha256": "3a88d3b10af2c0a8560605145e04f79f3adae6c795d92e16b1bb1a66109a0d51",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/places-to-visit-bali/",
+        "status": 200,
+        "semanticSha256": "a3e814f242ad6b53d85542d4d007088172e4111c424cacb84a71c897f197a5f5",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bangkok/",
+        "status": 200,
+        "semanticSha256": "dead7a6874de1adaed121cde4af0fc38e1094226a61a8c14da8d4226642cd307",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bali/",
+        "status": 200,
+        "semanticSha256": "5180dd317c14c6451bff7672db4e913ea8d702aa5623ff3e3fd6aaf4ecf0d9e1",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/places-to-visit-bangkok/",
+        "status": 200,
+        "semanticSha256": "2193cbc1d177a59be6360e7050af6bb4c3b933c4369ba24502ff8894073c10a5",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-barcelona/",
+        "status": 200,
+        "semanticSha256": "045cc12f68465b2a4ed1c0e85437a921fe1edf3e834bbe8ef42cd89511d679bb",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-barcelona/",
+        "status": 200,
+        "semanticSha256": "301bab57fd9bdf955c873a54124b894dfe99669ba2fe79def9d171bd787d7796",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-beijing/",
+        "status": 200,
+        "semanticSha256": "759188735910740b87a3df353205e89ba548446225824a317280a5811a2bdc55",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/viaje-egresados-bariloche/",
+        "status": 200,
+        "semanticSha256": "edf522af4e31cbd613bf8ae538cba89dc71784970de82a1ab5b29c3013617d69",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-pekin/",
+        "status": 200,
+        "semanticSha256": "9a23a8110638f30b4642752327187a339834d0b7c5f334e2eec031eedd190b5d",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-brisbane/",
+        "status": 200,
+        "semanticSha256": "db90d4e39496f24c5fd6af91e30addeb90f4956e8e992eef5cd3f5a8d19e5113",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-brisbane/",
+        "status": 200,
+        "semanticSha256": "7c5a544562f9ef96fbf4dd65f933a6b2c709333e11ca70dfb2778c1a64d9ddec",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-budapest/",
+        "status": 200,
+        "semanticSha256": "074610d14d6d545bb4a1ca1d31696c186967c50917938a3e2c5b7cb988489f2a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/bariloche-graduation-trip/",
+        "status": 200,
+        "semanticSha256": "ad0a5bdb15b3f6a7f773ddf4835229eaadf962e5c5a70e4166ffbd53783ed535",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-budapest/",
+        "status": 200,
+        "semanticSha256": "05bfc3ca4c4a440ad149549cda8e61d08b8c6da78d7a08d31a7e63586e5d4cf8",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-buenos-aires/",
+        "status": 200,
+        "semanticSha256": "6cc4c86c80540b4a14c8d7b140a26964b5ba6f4e674345552bf201e79c9eed04",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/buffalo-in-november/",
+        "status": 200,
+        "semanticSha256": "a022480373b0b657f9cd24e4361c28fdc93ffe3d6b6495e74c74b8b6c5f42617",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/buffalo-en-noviembre/",
+        "status": 200,
+        "semanticSha256": "a5643c986b26a759f5de1cdb12f74754422e6b80659f2b886c338fe4218df1ca",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-buenos-aires/",
+        "status": 200,
+        "semanticSha256": "4d3a91a03fbb7f44e6aef3079c0cb260ed847f92681fe3adeada8544a5da1344",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-cairo-and-giza/",
+        "status": 200,
+        "semanticSha256": "189238f0c57dd7a9bd52dff5c4c06596397f66cf1100c31a131297b56f481b9b",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-cape-town/",
+        "status": 200,
+        "semanticSha256": "b596f0f4052a8a4d38702d7c3f3435ccfe2dffd3bd287c3545168b0f81c342c8",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/",
+        "status": 200,
+        "semanticSha256": "223e7d2e2f028bba1fd5e60776365bd6ed6dc153af176a944e747dc20d7d7b02",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-el-cairo-y-guiza/",
+        "status": 200,
+        "semanticSha256": "0c1bc0c82b34024fafcfb60dc1b61c83b05333dcc505fc1ab99800ada6a0bb2a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-cartagena/",
+        "status": 200,
+        "semanticSha256": "9af9697bd594b60eea04da048ad215f479aada20e40b5a012ef11fcb62dabc6b",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-cartagena-3-lugares/",
+        "status": 200,
+        "semanticSha256": "c8ffdcf814eb50c66691de655d366620d832da30780cba6cf2585f5a1008de61",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-amsterdam/",
+        "status": 200,
+        "semanticSha256": "332f27c2d376f3a0bc5d822df6cd8a92505cff13631a40639aa1300b79535aa8",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-barcelona/",
+        "status": 200,
+        "semanticSha256": "394a494f8f50190c15b87fb6129381ee752fa2b710148e57936208cfe0524cb1",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-amsterdam/",
+        "status": 200,
+        "semanticSha256": "e61a59c63a940956ef96b3a9c17d9346d375d1dd57833d4a6a671bb1dda61a52",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-barcelona/",
+        "status": 200,
+        "semanticSha256": "08580ea50e6cd91a35ba9ee88573a715ac9a7bb0f1bd10bc769b76e5df9c5589",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-basel/",
+        "status": 200,
+        "semanticSha256": "5d056976f6eb2c4f3f231db17d3f85c470f720e6c9157aa7832a26bac4deab69",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-basilea/",
+        "status": 200,
+        "semanticSha256": "a47c03386284d24648ab8f2a85f7a1eb7c0b14ac31e1f3aa3459dac945ba4af4",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-berlin/",
+        "status": 200,
+        "semanticSha256": "4110c884a105d4342c72004b7c083465fa82f76571e6eb5e5c4b4009e4ec19bb",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-berlin/",
+        "status": 200,
+        "semanticSha256": "c68fa61006dbd309e0614c6b4d320d775dd55d2544249f9f2f92de05c14f2bd3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-bruges/",
+        "status": 200,
+        "semanticSha256": "b4f83afda54d1ceb6eac1959a609fd3479fd285a70e854207d24a561e3910645",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-brujas/",
+        "status": 200,
+        "semanticSha256": "d60c10cdbbfdd092ac45fb467df401691656e88ee74b745b0cc0c730e6ef4d09",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-brussels/",
+        "status": 200,
+        "semanticSha256": "75379dadc418be4ec7e20bf31e539ff0d81ea179e0b3a84b88e7fcf73ca6507b",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-bruselas/",
+        "status": 200,
+        "semanticSha256": "6be4ac1be54abf4929aafe10b72215d3fd240dd33476b66d484c13bf8a00c58f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-chicago/",
+        "status": 200,
+        "semanticSha256": "702cd5f082587ff607c62fde752123908cf6562d9eb311da2d5ed0d9d4f58bf2",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-budapest/",
+        "status": 200,
+        "semanticSha256": "768010868288d5581f542e5802d8a3392d8ec71fca9285a98689a61053601ac3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-budapest/",
+        "status": 200,
+        "semanticSha256": "9c93c5b900b9d3620727ac2ac56ce0841195ed613280eb2d96ab7c0ccf537c74",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-colmar/",
+        "status": 200,
+        "semanticSha256": "3703063c18d8b4d77b3607989c892251a3f6e9db9e1bd8a20a6547e5c20e2a35",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-colmar/",
+        "status": 200,
+        "semanticSha256": "c359f1dfddc51424f92063336267a760bff072728b81da47751965f9cd196df3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-chicago/",
+        "status": 200,
+        "semanticSha256": "5f67d80bfa40d32040942dabd4979d500f8436a65f623e39b521614a57eba41e",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-cologne/",
+        "status": 200,
+        "semanticSha256": "b6474f2893650582e8afd770979b09c63df774cd91d57deb0c2d18496ebc1244",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-copenhagen/",
+        "status": 200,
+        "semanticSha256": "3b8934a279cedad962d4f5d64742f755585ff01d288275005375649ba9f193c9",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-colonia/",
+        "status": 200,
+        "semanticSha256": "4692805241ace87ed2773115aba8fb856b4b4379fd7726d3dca2cdc556bcd44c",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-dresde/",
+        "status": 200,
+        "semanticSha256": "6a7e0336eb0eead6b8aff59acabe5455742479e714fdcc7715dafa2b78b8c37f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-dresden/",
+        "status": 200,
+        "semanticSha256": "f2e5cae21ea3483c9ffe3bc90d40e12c25390f7ae2f0860c961f5bed997a714c",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-dublin/",
+        "status": 200,
+        "semanticSha256": "187784f3aa3b86e78dcb63d329a26c29f8a5bb6496694faa03876f1dfed2f37f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-dublin/",
+        "status": 200,
+        "semanticSha256": "b0d01dc409c7eccd62d5eb03425cb1144860fd40fbf1795bcdf1353495c4537b",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-copenhague/",
+        "status": 200,
+        "semanticSha256": "ed7b1e4337ed02994480aeb6d291b400f1933137787f309d043bded94df1ebe8",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-edinburgh/",
+        "status": 200,
+        "semanticSha256": "046c74f6b6824983dd5333170fd67379aa90663a28fee0a8b5f9ec700ff66a44",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-florence/",
+        "status": 200,
+        "semanticSha256": "67c612ef1c2dfc38707db4776333f040bcef0925b65219e509e7121f1d5cdeee",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-florencia/",
+        "status": 200,
+        "semanticSha256": "3437a398e458df3cb271e1a2afc6c05f8165d99e20d2ecb32fbf3d78e858851d",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-edimburgo/",
+        "status": 200,
+        "semanticSha256": "de857950437c5bfec3022c70e7432fb1e665d77ddde8433590879cadb6e8b29f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-helsinki/",
+        "status": 200,
+        "semanticSha256": "81839be0c849fab2f30757b3d4ae8ea4bd8feae0e92bd03f30a09bd1d9f8d425",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-helsinki/",
+        "status": 200,
+        "semanticSha256": "0aeef307ac61a0e16083d27fc6849f54a3b6b6d314a61d09e122a821258b4eb1",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-london/",
+        "status": 200,
+        "semanticSha256": "845391fca22a9ddf68e5251bc47d13797e088a553792a823cf9f4fdaa44cb169",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-innsbruck/",
+        "status": 200,
+        "semanticSha256": "fafb36e0e54cba0b4d4443256087f83eada3f0d17362b9ce3fb8139fb9bb731d",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-innsbruck/",
+        "status": 200,
+        "semanticSha256": "5bdd877383d0364c730b02eebae244b025609b965155d169d1b52ce69216a397",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-londres/",
+        "status": 200,
+        "semanticSha256": "90b9550c26fec192f810c7b51b4749601cbb05fcea8b3163bdd2545ce68c0cf5",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-madrid/",
+        "status": 200,
+        "semanticSha256": "3d62142c13e60ac8b80a7e3788c043b6d6cb26d942738a5a44b4693ca2714ed8",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-lucerne/",
+        "status": 200,
+        "semanticSha256": "92207d2ee76828181ec4fc06e1f69742d877107b7b5b3d0d66bb27cfeafea5ed",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-lucerna/",
+        "status": 200,
+        "semanticSha256": "72a4a01c83899c28804e0fc6d45254d3bbafc78a7c6971fdc8b626be20d75037",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-madrid/",
+        "status": 200,
+        "semanticSha256": "f450002240139c722b0d0688e6e45c5abf0317787cc61933494e218e4ec818ab",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-malaga/",
+        "status": 200,
+        "semanticSha256": "bb5dd372645e134a913ad5adda65886663c0d33b1f0127b67110fdfb78530932",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-malaga/",
+        "status": 200,
+        "semanticSha256": "7ec3e51008e903a9ace1ca2cd0e51a477f5fb1d1c539b84e4ba95a9b14a282a5",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-milan/",
+        "status": 200,
+        "semanticSha256": "0ff0a5d4153f13e891da41d3ffcba256aead41b5e8c4d5e42d3f8182da37329b",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-montreal/",
+        "status": 200,
+        "semanticSha256": "f42fe1a75a12802e7df78a6534af3773ef5dca7eeeac6176321651894c0d20a9",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-montreal/",
+        "status": 200,
+        "semanticSha256": "a804c583b041b823abc37e9f5be02be4e76511711b3f5b7c62f6946ff40fd796",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-munich/",
+        "status": 200,
+        "semanticSha256": "4802cf1f9917558f6b9263704deaedf131804383710ec704d05597790d68b15a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-milan/",
+        "status": 200,
+        "semanticSha256": "0686e94f7795745d484e93fcd00316aeab899e5806a3d8ef0651c472b72f66bf",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-nueva-york/",
+        "status": 200,
+        "semanticSha256": "ec2b2ee01ffa5b807708ea33efcee7932e38c78f6e3e7c63be8d45f7e6ccaa3f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-munich/",
+        "status": 200,
+        "semanticSha256": "9e8de99419b6d62e86595b1a7f65eed889c74cd7c02e6b197bf7778c8122660c",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-new-york/",
+        "status": 200,
+        "semanticSha256": "171d7ed2a17158be3f44956a6efb6108b7423457a0faaa8bbc4d26e21a84212a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-nuremberg/",
+        "status": 200,
+        "semanticSha256": "2b1438effae1bab56ca4dd71c12ef66a2f25dad66c9cc5bd6b4aabf795d369c1",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-paris/",
+        "status": 200,
+        "semanticSha256": "c868d3578fe4cd57e231620ca1288913272062937a1cf7a0482aad647695d4bd",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-nuremberg/",
+        "status": 200,
+        "semanticSha256": "add7ea89ddc8ed78a31f76f063048e0c589a18a050d63083cf107eae779c1157",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-prague/",
+        "status": 200,
+        "semanticSha256": "53980e6ddf6a1ffdcd6cea4c789fda31f0d7bfd15fa469036028d6d0cff9b379",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-paris/",
+        "status": 200,
+        "semanticSha256": "122851264ef26c7bd5e8de6c970284c1b981975aff6ec1958663c65c24c1701f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-quebec/",
+        "status": 200,
+        "semanticSha256": "11e66a642487b50516204378f27c58ceaf29c2dd85b2c4ddd4a3c6a667256266",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-rome/",
+        "status": 200,
+        "semanticSha256": "3f6e0c9e12d4546cc8b44d8264bfe1100cb1cb9a7e565618fa14559293afa751",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-praga/",
+        "status": 200,
+        "semanticSha256": "6aeae430cd75046585a35af567228541c7131ea6226e8b9f8d136f7ce8f2bb6a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-quebec/",
+        "status": 200,
+        "semanticSha256": "cbda5a3f68915477d84561040a292ab1fbb5872a892e882c1dcc205264a0d648",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-rovaniemi/",
+        "status": 200,
+        "semanticSha256": "93f91fc7afe7711b9edb3757d19f81ce82fd0ec337acd003a46989b17f8b19b3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-salzburg/",
+        "status": 200,
+        "semanticSha256": "f28120f95e9abc3dadf9b09a37b7230a681ca324eb8ae80e4f77ef90ee6af246",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-roma/",
+        "status": 200,
+        "semanticSha256": "f75cde536e924b55c730f8c065e272f506e88ce77079969f152124807e96e3e2",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-salzburgo/",
+        "status": 200,
+        "semanticSha256": "92fcd8858829a9389e396ef85bbdce209fa6fe90eef445c71e74b9b98f6c013f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-rovaniemi/",
+        "status": 200,
+        "semanticSha256": "1ff4e7061b0d00cd170096b5c07fe39db68aac573fe9d90348df11e7408a9f11",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-seville/",
+        "status": 200,
+        "semanticSha256": "2607ca43ef273b9de8ccd73b7dfb2b26f489baaba8091725e9791ad89d766cbd",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-sevilla/",
+        "status": 200,
+        "semanticSha256": "1cf373cd62995881725b8c9e1e768c4ac7663528e16c8105848b23b36e9647d8",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-estocolmo/",
+        "status": 200,
+        "semanticSha256": "4976db174309b5ed1f15b61d6d53e856a210c2389fa24cc9f1a06b2db1116cad",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-stockholm/",
+        "status": 200,
+        "semanticSha256": "b20b178dfc429a142f12a1227b433ca30519a63c74062a0b30a5a76ca1ec950e",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-estrasburgo/",
+        "status": 200,
+        "semanticSha256": "69aadea2374ee6d2c93a13d0e1df8d8877b45ed917c3454193f1e2e415a78b90",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-strasbourg/",
+        "status": 200,
+        "semanticSha256": "b8558d936c9570a89e0c91ea4fa7b2b1c2a2ca44a301d4326a0f084944dfa895",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-sidney/",
+        "status": 200,
+        "semanticSha256": "6d78d2bef97509029dba22903d9ee01c13c7966008ce1cd03ad468e841b5f8e9",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-sydney/",
+        "status": 200,
+        "semanticSha256": "32265669a6236cd2ddd196d838d6da305516e682bdd70a2d6426d0e6ddd0533d",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-tallinn/",
+        "status": 200,
+        "semanticSha256": "4d50877bf76da67787719b116ec25537e3c2462eaec97fe54e37b66766c8a6fc",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-tallin/",
+        "status": 200,
+        "semanticSha256": "4bd40d195cfa1333591197b44e9cd860ba8703714703271772b766230bcbea7e",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-vienna/",
+        "status": 200,
+        "semanticSha256": "3a41df049b8fb540eec50ec51298a83bf955cb143d4d6135381e424df7f09718",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-viena/",
+        "status": 200,
+        "semanticSha256": "3304df8cfd7b406c4aee602f407d72ce23fe9cbae903bf0ae951356041c09e4c",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-zurich/",
+        "status": 200,
+        "semanticSha256": "602528eb7554553276a5680f6d49338b675a1f8355c39bf0622ca355492b0560",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/christmas-in-vigo/",
+        "status": 200,
+        "semanticSha256": "18303d4dbe161205e06a646a37967ade8895ae1921c1f673577617d8a2ae17fc",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-vigo/",
+        "status": 200,
+        "semanticSha256": "71dbb44a5f0faeca13b19f7fc2c4d57675bd36767bc40f0056d0414cd1d66b64",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-copenhagen/",
+        "status": 200,
+        "semanticSha256": "1ad76b9da3839536f33d04dbd6a8568f774ecdb6418fa3880149bcaf3ef18300",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/navidad-en-zurich/",
+        "status": 200,
+        "semanticSha256": "15998b18442dd8db367385cd08a9994442cc13e052c6dd371945770617caf744",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/columbus-en-noviembre/",
+        "status": 200,
+        "semanticSha256": "f03efddcf96b5158a1ace32ff8513fa754ffd1338041613d292fddd73f1723d5",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/columbus-in-november/",
+        "status": 200,
+        "semanticSha256": "a67eb555b241e8870da041f5d7bb2af9d50c4a90bb6f71d569ee576701911284",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-cordoba/",
+        "status": 200,
+        "semanticSha256": "20a5a409c8bf3aef61028bb4661aa1c19afc9113d3ff5a96ce41937ff7672919",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-and-around-cusco/",
+        "status": 200,
+        "semanticSha256": "3b0a51fdab47099eb0ba0e865fddf85341d47c4f9347cc5dde782f28457facca",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-cordoba/",
+        "status": 200,
+        "semanticSha256": "b9b00f3053b70e0e816261b9002db0b05a5f59206ea312ac10286da9af1104c6",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-copenhague/",
+        "status": 200,
+        "semanticSha256": "18fb9aa7c5783cf748fddbed4fe0de6f9a47dc33d8b9963c89bd5feef6817ba2",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/doha-november-f1/",
+        "status": 200,
+        "semanticSha256": "68362afdc072cba692d5b5317b7f1d394c25b40c590c3f047471c317ce914e14",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/doha-noviembre-f1/",
+        "status": 200,
+        "semanticSha256": "7cb4f497c3aff0e09f52016927b3a5ef7856f935ed78d07cb05d1325566c47f3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/",
+        "status": 200,
+        "semanticSha256": "1453192777ecb346d4afb9bf6bd7890d0bd2ab8b29434cbadf715f379811decb",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/dubai-in-two-days/",
+        "status": 200,
+        "semanticSha256": "45e9ef763c7a665a8e2964ea9c67a1692e667519e0939138fc0293a2909e967c",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-dunedin/",
+        "status": 200,
+        "semanticSha256": "57b1ba6c8b35ec9d564a4eb7de30b588eda0b592f6a0cefea569f258d61385f8",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-dubai-en-dos-dias/",
+        "status": 200,
+        "semanticSha256": "6463accc21a61c096fc0ad10a015b520da8d7f79f686e66e03c135ad1da63bf8",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/things-to-do-in-dunedin/",
+        "status": 200,
+        "semanticSha256": "eda4c15498dc620e4b95976b96ed5b99bd51b5cf86333f31e712f107915a6bad",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-edinburgh/",
+        "status": 200,
+        "semanticSha256": "738658a1184b8c359c6ba035915b756b45ba7d2d35dc81db4f63b7ec98da8d9f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-essaouira/",
+        "status": 200,
+        "semanticSha256": "51b3ae9b35dbc4455aae8d79fd797cc3e06b38251255613c7a3d418834ec00ae",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-edinburgh/",
+        "status": 200,
+        "semanticSha256": "66f04b1a711c10407ff5017edf4eb9b6f19297b50257941b3b764c2a1abf8c45",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-florence/",
+        "status": 200,
+        "semanticSha256": "ebd0cbd342b0c04644d592d9c134f82c9ee8e3a88589d01ff77a774ec84e9bc2",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-essaouira/",
+        "status": 200,
+        "semanticSha256": "8b9c2a26005314058bb5f30b1a1458e39ddabd4a7c26e4685813de8b3883d41e",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-florencia/",
+        "status": 200,
+        "semanticSha256": "9c57ca86fdec76dc7e313f4948bf68b748d08571e9ecec214a2d02aabeba5bac",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/goa-en-noviembre/",
+        "status": 200,
+        "semanticSha256": "c23c76dbb904df8514180fad56a169081477c516224e3dc6687b16b70e84a74d",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-granada/",
+        "status": 200,
+        "semanticSha256": "91892d680c6d825b96d4fb495a8df5d776bf9b9df6f4b8cbb56d631ff14c1bb9",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/goa-in-november/",
+        "status": 200,
+        "semanticSha256": "b93907c60491e65a23f3f96ce8f795587293f40c8e323dcb3af3261058df02b2",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-granada/",
+        "status": 200,
+        "semanticSha256": "513cef09e5e93b64ea4670b16d83857f3ac959bc9c24d1813e6a910297d2bb89",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/greenville-south-carolina-november/",
+        "status": 200,
+        "semanticSha256": "167b5ab0931bbe5f1ec7eb069fe3038e25eecdd874de88554030f6bc7bcaf42a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/greenville-carolina-del-sur-noviembre/",
+        "status": 200,
+        "semanticSha256": "49715d68d616ec085a7c7e6525bb5f4895472dd44e5b37311c58448bbecb32d3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "semanticSha256": "04114798c31f7e72edec72086335d5bcf7e59e293b91c69098c54de8f3fe9776",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/halloween-australia-gold-coast-sydney-2026/",
+        "status": 200,
+        "semanticSha256": "d786ea6ef94d67f1c2407a752454a29df1c75e55e68384ccd37f92ec052dd059",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/halloween-australia-gold-coast-sidney-2026/",
+        "status": 200,
+        "semanticSha256": "568c63d23970b788c98d7ee88dd199f5d77aa3e7f471bdbb5e206cdf9cb83aca",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "semanticSha256": "e0a780780264971393a826b593e5f6e5e7606023d479ecee2828cef3823ca654",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/halloween-francia-parc-asterix-catacumbas-2026/",
+        "status": 200,
+        "semanticSha256": "04f35ffb13e48e808ae7c50f3536b80abd0f4604093d344b2d14283911f92869",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/halloween-france-parc-asterix-catacombs-2026/",
+        "status": 200,
+        "semanticSha256": "a7ab3c92043c4614d44e08d7299da55bb878d9ebc0bca4b044bfccc640de02db",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/halloween-germany-movie-park-berlin-2026/",
+        "status": 200,
+        "semanticSha256": "62ecec46bb00928c6bf45e424541089e569f151f1fbda1c16d9c9e352725764d",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/halloween-alemania-movie-park-berlin-2026/",
+        "status": 200,
+        "semanticSha256": "48e7a9174092ffeffca6de88cefe1060f86f617763058b2557984413addfe0dd",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/halloween-irlanda-puca-trim-athboy-2026/",
+        "status": 200,
+        "semanticSha256": "72e4f0e8891a1c4de6a1b9761fb14252385474043a0dccf5954adae3e8eaa115",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/halloween-ireland-puca-trim-athboy-2026/",
+        "status": 200,
+        "semanticSha256": "7b86e9b33cae3c246ccb02702543030bdaa3af6dd325a4351cd5536df8756517",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/halloween-japon-disneyland-disneysea-2026/",
+        "status": 200,
+        "semanticSha256": "69458df683546c672366e1328768507bfaafdb28c551790ce5f776b3bfccad79",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/halloween-paises-bajos-walibi-toverland-2026/",
+        "status": 200,
+        "semanticSha256": "adab55d2d6d3e9996f0e21ccccfcba81c374091fde33cf6b33591f31ec685fd3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/halloween-spain-portaventura-warner-2026/",
+        "status": 200,
+        "semanticSha256": "f67a4a9891bd0a773671a6fd96c7f23d0b56c304d180f2f51c4701685d2a3d0f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/halloween-japan-disneyland-disneysea-2026/",
+        "status": 200,
+        "semanticSha256": "90fdbac06b3356f037bd4aa70a78252d36316b612d931e2922db8773f776870f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/halloween-netherlands-walibi-toverland-2026/",
+        "status": 200,
+        "semanticSha256": "627fa739a955bd6b68c32cf6282fac8c56ad6f1d261bd49ddd1be2db18262870",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/halloween-uk-derry-edinburgh-2026/",
+        "status": 200,
+        "semanticSha256": "79aadd58b69ccd5ca0398aebf80d3340794ec54230e2931c1df794dc1d062b81",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/halloween-espana-portaventura-warner-2026/",
+        "status": 200,
+        "semanticSha256": "9fc10f56eef2dbf862c633e60585928e2786ed5558a9bcde8eef21636e05a099",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/halloween-reino-unido-derry-edimburgo-2026/",
+        "status": 200,
+        "semanticSha256": "914eaf1cebf31f9ec932e875b2f6c0e9778c14a5c6ae3e162a0a0475f4e1b8a3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/halloween-estados-unidos-salem-orlando-2026/",
+        "status": 200,
+        "semanticSha256": "64de5155acfbf9b01de4381a8bf5db2639dfc87b019e5cce70a57d9101a95581",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/halloween-usa-salem-orlando-2026/",
+        "status": 200,
+        "semanticSha256": "55b968f1f81cd7d836a177eeec11b0525c43fee26689a3d5f0f3b431543669d3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/5-remarkable-places-to-discover-in-hawaii/",
+        "status": 200,
+        "semanticSha256": "cc12c0dc1ba24701ddf89f76c0396ed25a69eabea8d0801628feb28cb385e9cf",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-hanoi/",
+        "status": 200,
+        "semanticSha256": "bc0d13d12d40498a2329b754c25b40f5df8c03e50e3fb4ff8898392074a744a6",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hanoi/",
+        "status": 200,
+        "semanticSha256": "e36c7ebf03b49a3ea429ae81cda59fcef4f14794eac9d3c63d4a46d7dcde1131",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/",
+        "status": 200,
+        "semanticSha256": "a1b525bfe943a423dda4cfd228d58b3d06ab354b6d61539e64113b1b4c1dcbad",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hiroshima/",
+        "status": 200,
+        "semanticSha256": "17e0c597948ccc279c045250e5d5fa4db9f2a96f023b80c10e8f86a37ca0770f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/hilo-en-noviembre/",
+        "status": 200,
+        "semanticSha256": "db25efe3b80a082a558894fdb847aadba2bcaa5fcfaae505bde7c968f288985a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/hilo-in-november/",
+        "status": 200,
+        "semanticSha256": "02fcadfeffde69abaff2a4e1324b308409ca5d4b70a818ddb59aa5ed2476f871",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-hiroshima/",
+        "status": 200,
+        "semanticSha256": "936c40077dedbe8fb64f6f3d1e93b43d61932fa9fbf3a7e7c93e0d9afab31904",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-hoi-an/",
+        "status": 200,
+        "semanticSha256": "813dd43e8fb5586c0acc67cf2176e481e1b8222bb37165ce7f3bf70e80191759",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-hobart/",
+        "status": 200,
+        "semanticSha256": "d6fb2750ec7a9162ff319f7f21f10142abff69e101ef00e3a659df61afc6f78f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hoi-an/",
+        "status": 200,
+        "semanticSha256": "8ae8a1c90b8b7fe8216ae2f3862861b65805c5e5c1333eb51ff53ff5aea383ad",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-hong-kong/",
+        "status": 200,
+        "semanticSha256": "3c31252295cad762e6603a70879d4f36b7746ef240031a37ce2396a3cc80cea4",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-hong-kong-3-lugares/",
+        "status": 200,
+        "semanticSha256": "08eadf916d684a49cbc00794f413a0876a8994bed777597eed78dab52499b13d",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-iguazu/",
+        "status": 200,
+        "semanticSha256": "5ba1e380579406c0c1fa12945b2eae85f038b345eb837b7942f8313b06e55c08",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-hobart/",
+        "status": 200,
+        "semanticSha256": "e6b9df981b962f24acf3ba530677cf026cdc15512cfe2f4888769aee080ab682",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-iguazu/",
+        "status": 200,
+        "semanticSha256": "44822028c959c13e4c55a522923cad703d47aa61ee5282aa278b3b31867a5808",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-kuala-lumpur/",
+        "status": 200,
+        "semanticSha256": "1acc1c4a4bb9b0e1436fd37cb2671a9f41ddaa5ee7fe65e2e4828f154aba88c9",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-kuala-lumpur/",
+        "status": 200,
+        "semanticSha256": "496c2557523317f7cf9ada5c7cfdb7d2eb7687f4a91072034fcf7b8c7fab8b21",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-istanbul/",
+        "status": 200,
+        "semanticSha256": "5bd0355925cb298a3b5577e0f24e8f7e3643ec7225f5830256fdcfa9f307d46e",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/las-vegas-november-f1/",
+        "status": 200,
+        "semanticSha256": "19105d27437570b6821d675824b87a3063f37d2622920b187b0bd7ec043abf4a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/places-to-visit-kyoto/",
+        "status": 200,
+        "semanticSha256": "8e33ec4b7cdfd419f8c62429aefd94ec0cac7d130d12288f4f321aca5d2154e3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-estambul/",
+        "status": 200,
+        "semanticSha256": "ac912a4d53ea56cea5730b2c29a19f6d67c8007c0444e010e0f5611b605db85f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/las-vegas-noviembre-f1/",
+        "status": 200,
+        "semanticSha256": "ce98493edc11405580d1dd1766ebc71a7ba77f2e7b925d8d9a83d4f136444d6a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-lima/",
+        "status": 200,
+        "semanticSha256": "d898ad4a91812fc8e910f5ce834e15285bd017013b950ee19c42d593d86c66c8",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-lisbon/",
+        "status": 200,
+        "semanticSha256": "6ab20c8e0aa67f24c61673d663d665957d185984d7aebc77fac084fea4d6fc18",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-kioto/",
+        "status": 200,
+        "semanticSha256": "4c7de0d8a71d18a6fad352a5eb852c6f0524dc0386d0ffa70f9967a717590af4",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/things-to-do-in-ljubljana/",
+        "status": 200,
+        "semanticSha256": "0cc3e4a94c3b15cbdcaeb2f7d41b52dd9875dff739dcfdf8c041015e638d84ad",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-lima/",
+        "status": 200,
+        "semanticSha256": "21c6063ceb9dffe1369e6deb3152480712734697bcfce6e670b8b189b8f82e71",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-liubliana/",
+        "status": 200,
+        "semanticSha256": "e08649bb6d4aa94113fd4c89d2341608ee6de626c8aaa557cc1fdca5d5ae5294",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-lisboa/",
+        "status": 200,
+        "semanticSha256": "bfdb6822fd200cd33e0f7ce22c2b472768fb1e709d66389872e27a9da2a7dd70",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-london/",
+        "status": 200,
+        "semanticSha256": "ef234617ebfc71bce59c5b1800f176d3b7f595d47f52bfab1937581962d90dd0",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-lucerna/",
+        "status": 200,
+        "semanticSha256": "a190079db40738c52ddb9845955159881e7eaf3aacd0569a5d9111f8ccdd9f03",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-londres/",
+        "status": 200,
+        "semanticSha256": "708465f9434b4f63c4a46ca0875f8afc226f2ef3c187e0ad4878c23b64f6f57b",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-lucerne/",
+        "status": 200,
+        "semanticSha256": "6716360e225db43918a97e86e119b868a369d27707fb86e3d76bb6b28ac4b498",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-madrid-3-lugares/",
+        "status": 200,
+        "semanticSha256": "237584923d866a33350e774b21bc0d2a9c434bd1c14dcf1311ed37deecc66a85",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-luxor/",
+        "status": 200,
+        "semanticSha256": "dad9baf5329e988ce25837893fdc55e63c6f1507e0187ef6b7d85a88939e31f0",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-marrakech/",
+        "status": 200,
+        "semanticSha256": "886c93f122ace205c51e89ccf74888056354f94ed3ce83ffaa889014883ec6bd",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-melbourne/",
+        "status": 200,
+        "semanticSha256": "7d071052737855986e6d9f122f8bf1a3c4d1ce468c3fbc90349081a2010f9657",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-madrid/",
+        "status": 200,
+        "semanticSha256": "6702d7089e0bb0cdeddbec6eee1273f9b3061c7083461d9810337502adbf8d19",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-marrakech/",
+        "status": 200,
+        "semanticSha256": "a9471267b86bce39ffbd459e4dc3d1c9c7eb13eed8c88885e6aafbf5c2f1f62a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-melbourne-3-lugares/",
+        "status": 200,
+        "semanticSha256": "816c9607b172ba237e74710cf223f1cfdc0a8006ecc124c012d61c03bb3be455",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-mexico-city/",
+        "status": 200,
+        "semanticSha256": "21fae6777da79dadbbe52f73b75c705c1aef4e6b66c1b923d8df5da8b55c31f6",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-luxor-3-lugares/",
+        "status": 200,
+        "semanticSha256": "1f2a411c88dd6ab9315ee6c4d423c595ab693ae7820cbcf4ea4420bfd4339e7f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-miami/",
+        "status": 200,
+        "semanticSha256": "d32485656b5cce04e4cf8d69a4e7da723bd6b4e1fe8fbd44e3b8e82db7404d51",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/",
+        "status": 200,
+        "semanticSha256": "410d910848d8024f69a26519919afc96ab7500d7d281219ff93151ecf473c9c6",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/dia-muertos-merida-paseo-animas-2026/",
+        "status": 200,
+        "semanticSha256": "93cfb50f056ce051e2e9df3d158cbc44fe25f965eab42810f1fd9158badb3ba4",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/day-dead-merida-paseo-animas-2026/",
+        "status": 200,
+        "semanticSha256": "2639f85926de5e53d8759e5398d3959573393074ddb1604600bd0e9ed9043df4",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "status": 200,
+        "semanticSha256": "ebe8d40f0791c352fa1c7ec33cc05499a87b68bb4918b7dd927f92a849d44048",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/",
+        "status": 200,
+        "semanticSha256": "1d7a50d5ff2d821b4ca07a4b0e8f22f861ee7ffdb13bfff3bcf314689f5ac1bd",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/day-dead-mixquic-alumbrada-2026/",
+        "status": 200,
+        "semanticSha256": "1ea75f061131e43f830aa6266a44896a84bb8afd44282d7848a1c0137b519367",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/",
+        "status": 200,
+        "semanticSha256": "231fa782cc324ba75f90ded613226af3d98a27baeab02ec9bd9a599869c109a2",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/",
+        "status": 200,
+        "semanticSha256": "8f196918c8ec98512d0a51008534a9f509431633b715da06a6a66ea5b50bc68a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/dia-muertos-mixquic-alumbrada-2026/",
+        "status": 200,
+        "semanticSha256": "5bf4cbb2d670eca9ca91783653e5820c63b23fcf7005d2cfd678059e5e924db0",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/day-dead-oaxaca-centre-monte-alban-2026/",
+        "status": 200,
+        "semanticSha256": "52a7a49bc4d0ed2165ea1a8e3180fff4b8c1dc7becbef78dd74832dab42d9c11",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-nairobi/",
+        "status": 200,
+        "semanticSha256": "3ff85f39746c32207f7b961d48503bfc173d4283b78c3a4f478934c37ed041b9",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/day-dead-puebla-tecamachalco-2026/",
+        "status": 200,
+        "semanticSha256": "a94a41722ab060830ca6415c5aa61c4988d399b33fe3a65074e6643369676338",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-nairobi/",
+        "status": 200,
+        "semanticSha256": "a072147c7301b044425796322c0485326d077d5dccc222adb5081080f1a34dbd",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/dia-muertos-puebla-tecamachalco-2026/",
+        "status": 200,
+        "semanticSha256": "dc5836a29b0f8d3d9a978dce8320b534509b61c7524b1978fcb98c7722f24804",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-nara/",
+        "status": 200,
+        "semanticSha256": "04eac7c7a4a22ea1b2a8554911703b11079ed8d07940cb1948bf023645c6d013",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-nara/",
+        "status": 200,
+        "semanticSha256": "f3bc576e5225d55ac47d7e13a81ef9bf6d23cfa5b485ff1c9a3651a1576ec262",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/",
+        "status": 200,
+        "semanticSha256": "bdc1f9b5ed8ae529cf1fdb88e0bb062cce211eadde24bb02270a8739e87cb066",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-ottawa/",
+        "status": 200,
+        "semanticSha256": "da7cefe9e741300ac92ba262fffc85c78a16dd7a699b56c8ec40adb512919b1c",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-ottawa/",
+        "status": 200,
+        "semanticSha256": "e842d00acdaf73a7e599742adaf0984b6c70917cb950d770a0975ca87ca3fcea",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/",
+        "status": 200,
+        "semanticSha256": "a1aa2fe1974a43604f90f0358c279b5b1aa72ab96b9f5cdb2d40c122617c5f6a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-paris/",
+        "status": 200,
+        "semanticSha256": "8d201487b03696beea197a90c1f01d3b02acfb0dc1e71dacec80e19dbe40a810",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-imprescindibles-de-paris/",
+        "status": 200,
+        "semanticSha256": "59c4a1dd58c969976f8c502b04333615aaddf5c644c542b56e66fd5b2a262535",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-perth/",
+        "status": 200,
+        "semanticSha256": "463030909014228a1f86253a71468fb98cec0b83a0bc22db25e6336d478862b3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-perth/",
+        "status": 200,
+        "semanticSha256": "0cbcad6e44ae0ae4a1490013b0b620ea21147fad158e9f173b6a04ebd6f7d13a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/phuket-en-noviembre/",
+        "status": 200,
+        "semanticSha256": "bf0328558c801af98c6f1d0ac64d465e23e8c7afc3618494b13b23f2e3b9e434",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/phuket-in-november/",
+        "status": 200,
+        "semanticSha256": "1f910618ea77a5b7d43dce5ed1b9149afb51d84e2978839046564992289b707a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-porto/",
+        "status": 200,
+        "semanticSha256": "6a1b797280b51b4a73fa70f95e1bd58faf510669f841e8e6216e3e832c96c36b",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-oporto/",
+        "status": 200,
+        "semanticSha256": "7a9703de9324ea2a342ef6684abf3bf59218a37fa8a27548d40e32dfe0ac8cd7",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/prague-in-two-days/",
+        "status": 200,
+        "semanticSha256": "b09db75aa13d27268b1de46e3e8a6b435605a80f85330e5ec877c95a9524ada3",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-praga-en-dos-dias/",
+        "status": 200,
+        "semanticSha256": "4eb0008fa3da2cfb2e621051fa202df672ec1c7b4fe40fe5d94f90d532bcb17e",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/puri-en-noviembre/",
+        "status": 200,
+        "semanticSha256": "84ef177a21628729a973e8f3e81b2ebb341f34e69d1bf96c9abe168f226be505",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/puri-in-november/",
+        "status": 200,
+        "semanticSha256": "75cfc8712de2d46a11d38c041aaab628c8885617aa7b33feea519d3c38fcff21",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-quebec/",
+        "status": 200,
+        "semanticSha256": "239fa20eb54aa22e6c8f766c596a06b0baa7610af3fb43baaeba8f59b61da0ba",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-quebec/",
+        "status": 200,
+        "semanticSha256": "cd2a0f7615a6604d2eddfdd7086ed8e72f0e497830a2bf0ba84f4e5077076f27",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-queenstown/",
+        "status": 200,
+        "semanticSha256": "31d75bcfdb2add2cdc663e50f53e491cad8388be9cdecb6124d1f1e298872558",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-quito/",
+        "status": 200,
+        "semanticSha256": "62d1c8d3fe61fa43ba297d971da4b40296a90860c04817184b6ed68be6450d44",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-rabat/",
+        "status": 200,
+        "semanticSha256": "f7e7e9ee8d83a676c0fd43bbf70f214ecb626396e6fbecbf2853c158a0e09089",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-quito/",
+        "status": 200,
+        "semanticSha256": "aadf2c61b752486865f63e7526496f5c6ebfba015f091d73178e757ce57f0db1",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-queenstown/",
+        "status": 200,
+        "semanticSha256": "0e609498c92aef39d5fd04bc197ee1e56aaf0cd1b8afd29bea3c92f0e926ec25",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-rio-de-janeiro/",
+        "status": 200,
+        "semanticSha256": "c91bf85f6d65db1cf57ca61d2c4439d3697980a147040de4fd34a8866ae10a73",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-rio-de-janeiro/",
+        "status": 200,
+        "semanticSha256": "f886a42b9e7b8d2de1299e7dd3f9f5c73f419efd41dfd43cbeb3d1eb0f846c6e",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-roma/",
+        "status": 200,
+        "semanticSha256": "0155f1f9a0694a5cb35be5d460656022d13f3c4caed0eb22b3df0251a41a97ae",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-rabat/",
+        "status": 200,
+        "semanticSha256": "926571848b5fb1a51598352c95e0ceec299e5242fb44120d48a78e4e4ebeb165",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-rome/",
+        "status": 200,
+        "semanticSha256": "78fda20401a005426fcda5f1b8d6f30cccefef92f6e128c983804dffca149c97",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-rotorua/",
+        "status": 200,
+        "semanticSha256": "ccda5c42390c931b1f17ff29de4e349baf31538b43f2fcfcf0405fcaeec36a58",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-salvador/",
+        "status": 200,
+        "semanticSha256": "6d1d3f69629f39ab938394502d67dbae846cee74d841e5398ea661348b422057",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-rotorua/",
+        "status": 200,
+        "semanticSha256": "94c64688407cf0dd12b40bf08cf10d5e3a7ffb5b1a1071e9d73c933f4d2d6faa",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-seoul/",
+        "status": 200,
+        "semanticSha256": "71ee8239ccf2ca3e8c6864cb5ab855aef7dde15fb6765f644c3b63176b8290a7",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-salvador/",
+        "status": 200,
+        "semanticSha256": "d36153616e8ef105453715dd119bc28679b0ef1151a5268506ba870fb52674a6",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-seul/",
+        "status": 200,
+        "semanticSha256": "8dfa53d4cb87cd3a33dd3f6e61687b89277b8d0b73e7334ccfa759d286acdf1c",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-seville/",
+        "status": 200,
+        "semanticSha256": "19b2a2194c439c5fbd40a7f02a04a88e0054d634d232a3d27bc8c770cbd40c0f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-sevilla/",
+        "status": 200,
+        "semanticSha256": "4e9ebf871b591873bb7fd35703c331f500fb15d9aea3cd8d2f494e227a84124e",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/angkor-temples-from-siem-reap/",
+        "status": 200,
+        "semanticSha256": "4fc973818e4cbb65395e8621f1ad4a45d5fe4770930194d92e043fa8a2120dfe",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-singapore/",
+        "status": 200,
+        "semanticSha256": "2d79b5a536519101341a2c8560facdc5d7019bf3570d7847dee02561cf85b2b0",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-stone-town/",
+        "status": 200,
+        "semanticSha256": "177fe52e94c1a3f9a94ab3e1d6fcaaac029f2a4d605fd7597b2da6f130f915fb",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/templos-de-angkor-desde-siem-reap/",
+        "status": 200,
+        "semanticSha256": "1f71f6505bbfa38ff4111d61e37e78fdf07fad550eefab96406545229eec5314",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-stone-town/",
+        "status": 200,
+        "semanticSha256": "f5c4b32f52680372f6c741a804f134cb9b8fdfe06b4f9c2a56b43d6fae4ccc1b",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-singapore/",
+        "status": 200,
+        "semanticSha256": "db2c9166d206bea2e716ea75a42578c517a9c55175d614b0fcf40458aa168dae",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-sidney/",
+        "status": 200,
+        "semanticSha256": "2127e0942ecfcc7bccfa2eb18e2ccf8a0316fc7c341ac1da245a95bb34ff916d",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-taipei/",
+        "status": 200,
+        "semanticSha256": "9018d726f8ae3a9b50637d7b5aea6eca61dc3ab873869006744d2c815e60c4d9",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-sydney/",
+        "status": 200,
+        "semanticSha256": "3e5e31c981033dd4f85a83ebba060af29bca3a9cdce3819e48fc73d15f354ee2",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-tangier/",
+        "status": 200,
+        "semanticSha256": "58e20cb3f30adf1f44f066f3a2ee2977a6649d9a6a51183dad73e6548b72593d",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-tanger/",
+        "status": 200,
+        "semanticSha256": "681c16cb270945601d18f653a38f2ad1d16f14b52274a88586e485ec122dc70b",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-tokio/",
+        "status": 200,
+        "semanticSha256": "ee4a8075e13f98d6e66822816f9fa7da1d5218ebab45fc9aa74e8b85d25304ea",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-taipei/",
+        "status": 200,
+        "semanticSha256": "e8d7d4266830e7b9496f182ce9b16d3c0235c2b3c5db983d32eba5405a6ea71a",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-tokyo/",
+        "status": 200,
+        "semanticSha256": "245887d288f0d86a2ea54ea862783209e152f880af4346c1dd5fa6fa7463a681",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-tunez/",
+        "status": 200,
+        "semanticSha256": "e84426c50c3d6905c280dc67e034440747fe6a2f1a0e1eea7931339743a4c834",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-tunis/",
+        "status": 200,
+        "semanticSha256": "a47de22346858d1009586133a7a2cc93da1ccc180b9bf819fc96c0daf2968846",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/udaipur-en-noviembre/",
+        "status": 200,
+        "semanticSha256": "408cad995a41e4b05a9cd07969d680b97a9f64e9031ab73f40a0f9ae97e0fce2",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/udaipur-in-november/",
+        "status": 200,
+        "semanticSha256": "7cdd24fe48bb4e339fa88af39e1637e75e8b7ec27e1354d41f49fc5a0e8f078f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-ushuaia/",
+        "status": 200,
+        "semanticSha256": "09dee479cfb328add0a07a99541958027293811c33db1e8c0cc927bda418cb56",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-vancouver/",
+        "status": 200,
+        "semanticSha256": "8502ce96b8a344dd7aafd7a0f733f7c5b39802c0c1ae68add3bdfc43ee3d7373",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-vancouver/",
+        "status": 200,
+        "semanticSha256": "76765f9f87a5000fe9896831fbdd423bdd4b4cfb32a1e72d1957f2f243d877c9",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-venice/",
+        "status": 200,
+        "semanticSha256": "9c0f333bf2f8380b5c54dfbbfe15e081d4d48f7c78e085f6cdbb3c2cff867c30",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-ushuaia/",
+        "status": 200,
+        "semanticSha256": "3ba2fcd0a2a1add454529ca939f00dbcb5e1a420d2e0c370c672de6213375b33",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-viena/",
+        "status": 200,
+        "semanticSha256": "ea54224be95dd73da2018662d2a654e1dbcc03164da94930f6fd8188226146bf",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-vienna/",
+        "status": 200,
+        "semanticSha256": "2fcdd2f95ddc81068d5842de6b91dbac6dd2ab96dbf8cd386d7dd7745bf24057",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/carlos-paz-graduation-trip/",
+        "status": 200,
+        "semanticSha256": "c984419e2854a227c0661235475a757341f7b553057b98b80baeeb2534b924aa",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-venecia/",
+        "status": 200,
+        "semanticSha256": "fce14599bbf68f24b3a59b954e920bfab53f7c5243f6446e236efcd48ee515cb",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/viaje-egresados-carlos-paz/",
+        "status": 200,
+        "semanticSha256": "ec3c14980d635c3636788f8915f571f0d18b5f77d3f6109e801f40d00e240bb2",
+        "matchesBuild": true
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-wellington/",
+        "status": 200,
+        "semanticSha256": "362de867fc570cab49b7644698f7602ae80ee5ec7d4df7fb646368dd111677ff",
+        "matchesBuild": true
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-wellington/",
+        "status": 200,
+        "semanticSha256": "c3e9753c2aa19bf3f45419a0908334ab16b906603df658cb16bba7bc4d862580",
+        "matchesBuild": true
+      }
+    ],
+    "errors": [],
+    "scope": "All282 localized articles and both localized homepages; visible body text, description/robots/OpenGraph, canonical/hreflang, image src/ALT/dimensions and Article JSONLD match final production build."
+  },
+  "buildAndPreservation": "editorial/verification/2026-11-04-mobile-performance-build.json",
+  "before": "docs/performance/2026-11-04-before.json",
+  "after": "docs/performance/2026-11-04-after.json",
+  "googlePsiVerified": false,
+  "googlePsiBlocker": "Unauthenticated public API returned HTTP429 daily quota. No retry, alternative key, paid service or quota workaround. Local controlled medians are not public PSI measurements.",
+  "bestPracticesRemaining": "Adsterra returned403 in test transport; scripts and ad placements are preserved and errors were not suppressed.",
+  "preserved": "All282 authored guides, dates, reviews,625 documentary photographs, advertisements and their dimensions/IDs/positions, Analytics consent, disabled popunder, 3D design/logo, SEO and daily2/noon America/New_York configuration unchanged.",
+  "errors": []
+}

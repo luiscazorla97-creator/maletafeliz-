@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-11-04T17:57:47.685345+00:00",
+  "verifiedAt": "2026-11-04T18:38:41.957529+00:00",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
   "originals": 141,
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "29ee31dc-95bf-4f27-80f9-b73ee2393401",
-      "commit": "313edb55aeac6cd48ea77c4e22e3426fd818bc63",
+      "deploymentId": "3ca59def-8f8d-468a-926f-d0706d81b472",
+      "commit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "4112b6b7-6c65-41c6-b4c8-1c6c2f5719d3",
-      "commit": "313edb55aeac6cd48ea77c4e22e3426fd818bc63",
+      "deploymentId": "08de5ee4-5032-4c34-9914-276c3503634f",
+      "commit": "690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -52,8 +52,8 @@
     "siteAndRedirects": 290,
     "batchBrowserSeoDiscoveryAndPhotoChecks": 48
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-04-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-04T17:57:47.685345+00:00",
+  "latestDeploymentVerification": "editorial/verification/2026-11-04-mobile-performance-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-04T18:38:41.957529+00:00",
   "photoCoverage": {
     "originalRecommendations": 623,
     "localizedRecommendations": 1246,
@@ -121,5 +121,6 @@
       "height": 250
     }
   },
-  "batchChecks": 48
+  "batchChecks": 48,
+  "performanceVerification": "editorial/verification/2026-11-04-mobile-performance-publication.json"
 }

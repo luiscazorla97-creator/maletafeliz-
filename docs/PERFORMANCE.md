@@ -14,6 +14,8 @@ La API pública de PageSpeed respondió HTTP 429 por cuota diaria agotada; no se
 
 El LCP es `img.earth`, el globo de la portada: caja CSS 412×365 en el dispositivo emulado, archivo WebP 1536×1024 de 301.612 bytes, sin `fetchpriority=high` ni versiones responsive. La mediana local inicial fue 90/100, LCP 3,254 s, FCP 0,758 s, TBT 156,5 ms y CLS 0.
 
+En la primera traza de cada versión, sin simulación de red lenta, las subfases antes/después fueron: TTFB 17,6/20,8 ms; espera para iniciar el recurso 38,5/40,4 ms; descarga 52,9/39,0 ms; espera de renderizado 130,6/133,7 ms. No se observa una reducción de la espera de renderizado en esa muestra. El beneficio principal es la menor transferencia del globo bajo la simulación móvil; estas subfases locales no deben sumarse para explicar el LCP simulado de 3,254/2,113 s.
+
 La auditoría de accesibilidad 96/100 identificó dos contrastes en el bloque editorial: párrafo #6e7468 sobre #edf3ed (4,27:1) y enlace #087e83 (4,31:1). Las prácticas recomendadas 96/100 fallaron por respuestas 403 de los scripts de Adsterra en este entorno. Se mantienen las unidades, sus códigos y dimensiones; no se suprimen peticiones ni errores para mejorar el resultado.
 
 El CSS bloqueante transfería aproximadamente 11,4 KB, con 152 ms estimados; las fuentes ya son de sistema. El consentimiento de Analytics condiciona correctamente la carga. Los anuncios de Adsterra requieren el orden de parser/document.write y no se convierten indiscriminadamente en async/defer.
@@ -45,7 +47,7 @@ Medianas de tres corridas frías con el mismo método local:
 | CLS | 0 | 0 |
 | Speed Index | 1,777 s | 1,615 s |
 
-La reducción del LCP es del 35,1 % en este laboratorio. La descarga del globo usa AVIF 1023 con prioridad alta y una sola petición en móvil. Los nueve anchos comprobados, de 320 a 1920 px, conservan densidad suficiente sin desbordamiento. Las cajas de encabezado, logo, hero, globo, tarjetas y anuncios coinciden antes/después en 390, 412 y 1440 px. Se revisaron capturas móviles y de escritorio.
+Las puntuaciones individuales fueron 90, 84 y 91 antes, y 98, 98 y 89 después; se conservan todas las corridas. El TBT posterior osciló entre 120 y 398 ms. La reducción de la mediana del LCP es del 35,1 % en este laboratorio. La descarga del globo usa AVIF 1023 con prioridad alta y una sola petición en móvil. Los nueve anchos comprobados, de 320 a 1920 px, conservan densidad suficiente sin desbordamiento. Las cajas de encabezado, logo, hero, globo, tarjetas y anuncios coinciden antes/después en 390, 412 y 1440 px. Se revisaron capturas móviles y de escritorio.
 
 Pasaron `npm run check`, 33 pruebas unitarias, 28 de navegación, ambas compilaciones de 718 páginas —incluida obligatoriamente `npm run build:release`—, 50 pruebas seleccionadas de producción, 44 comprobaciones adicionales de artículos y 13 comprobaciones de prioridad, tamaños e idioma. Los 721 hashes de contenido/metadatos/archivos SEO coinciden. Se preservan byte a byte 4.300 archivos protegidos, incluidos artículos, fechas, fotografías, anuncios, consentimiento y configuración editorial.
 
@@ -53,3 +55,7 @@ Los cuatro puntos de prácticas recomendadas restantes proceden de respuestas HT
 
 Datos: [antes](performance/2026-11-04-before.json), [después](performance/2026-11-04-after.json), [derivados](performance/2026-11-04-hero-variants.json). La evidencia pública del despliegue se registra, una vez comprobado, en `editorial/verification/2026-11-04-mobile-performance-publication.json`.
 
+
+Publicación comprobada: los proyectos `maletafeliz-web` y `maletafeliz-www` completaron el commit `690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2`. Las 284 páginas de portadas/artículos coinciden semánticamente con la compilación final. Los cinco recursos nuevos entregan los bytes esperados y `Cache-Control: public, max-age=31536000, immutable`. Pasaron además 290 comprobaciones de catálogo/redirecciones, 48 de guías/idiomas/fotos/descubrimiento y 13 de tamaños/prioridad/idioma. AdSense, su metaetiqueta y ads.txt están comprobados públicamente sin duplicaciones; no se acredita aprobación de la cuenta por Google.
+
+Archivos de implementación: `src/components/{Article,DestinationCard,Home,TravelGlobe}.astro`, `src/layouts/Layout.astro`, `src/pages/index.astro`, `src/styles/global.css`, `src/lib/{hero-image,image-sizes}.ts` y cinco derivados en `src/assets/atlas/`. Documentación y pruebas conservadas en este documento, `docs/performance/` y las verificaciones `2026-11-04-mobile-performance-*.json`. Los registros de despliegue y actividad se actualizan por separado, sin añadir temas al lote.

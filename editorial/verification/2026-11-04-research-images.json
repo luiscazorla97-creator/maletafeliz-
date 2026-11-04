@@ -1,0 +1,114 @@
+{
+  "reviewedAt": "2026-11-04T17:16:16.327395+00:00",
+  "dateNY": "2026-11-04",
+  "batch": "2026-11-04",
+  "reviewer": "Codex editorial review (AI-assisted)",
+  "humanIndependentReviewClaimed": false,
+  "sourceDocuments": 12,
+  "citedSourceIds": [
+    "n4-dunedin-collections",
+    "n4-dunedin-garden",
+    "n4-dunedin-garden-visit",
+    "n4-dunedin-station",
+    "n4-dunedin-station-city",
+    "n4-dunedin-toitu",
+    "n4-ljubljana-bridge",
+    "n4-ljubljana-castle-access",
+    "n4-ljubljana-castle-dmo",
+    "n4-ljubljana-hours",
+    "n4-ljubljana-mglc",
+    "n4-ljubljana-tivoli"
+  ],
+  "wordCounts": {
+    "ljubljana.es": 1540,
+    "ljubljana.en": 1464,
+    "dunedin.es": 1602,
+    "dunedin.en": 1583
+  },
+  "documentaryPhotos": 6,
+  "sourceIntegrity": "All12 cited actualHTML captures match their saved SHA256 and HTTP200; finalURL, fetchedAt, facts and short excerpts preserved.",
+  "photoEvidence": [
+    {
+      "imageId": "n4-ljubljana-castle",
+      "evidenceFile": "content/research/n4-ljubljana-castle-rights.json",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://www.flickr.com/photos/158710843@N02/38538399086/",
+      "originalSha256": "ac24ca865b0627eb7717475822ae6766086f3a0efc2bbf07ad20ca6d199fcab0",
+      "optimizedSha256": "17d3cc712d0b6bdd3c69f7dfccc08f213bd683012d9140fb4979e35ac3f8c0ff"
+    },
+    {
+      "imageId": "n4-ljubljana-triple-bridge",
+      "evidenceFile": "content/research/n4-ljubljana-triple-bridge-rights.json",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://www.flickr.com/photos/wrong/15169999724/",
+      "originalSha256": "76957ea7d9ef2357f117584de5c64c1a25c6f4adc0d28e06d22e9ee028d880ab",
+      "optimizedSha256": "c39cd133f4fbe3c51b9a25fa6ff0bb8015318d08ecc8c7316165f6e661e63703"
+    },
+    {
+      "imageId": "n4-ljubljana-tivoli",
+      "evidenceFile": "content/research/n4-ljubljana-tivoli-rights.json",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://www.flickr.com/photos/46604778@N00/20072427950/",
+      "originalSha256": "7457618be88e38afba93b7a7d78be86f617d3b0c5554c36c3ff38dd699c6bb27",
+      "optimizedSha256": "787d338928fff18eede74007446ad8d39b8c309e61ce71f244916808ea58f234"
+    },
+    {
+      "imageId": "n4-dunedin-station",
+      "evidenceFile": "content/research/n4-dunedin-station-rights.json",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://www.flickr.com/photos/26085795@N02/8178480783/",
+      "originalSha256": "a2bb46dfaac5a5ecd3511ad4f18bb4fd7fc9b55f8a84d05bd1e643ddffad21f3",
+      "optimizedSha256": "ed651d097e562409e598c383ef4decc986a9d84c8318b9e50114a0144057379c"
+    },
+    {
+      "imageId": "n4-dunedin-toitu",
+      "evidenceFile": "content/research/n4-dunedin-toitu-rights.json",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://www.flickr.com/photos/panr/4924769248/",
+      "originalSha256": "f9c314730ff192d7dfb4c0fbe8bc680b3b87d1b77f4b583bac6bace8be5596f2",
+      "optimizedSha256": "c338900591e89af3d32cf42d633c538b8d61999041a145cc82c29ae44575c282"
+    },
+    {
+      "imageId": "n4-dunedin-garden",
+      "evidenceFile": "content/research/n4-dunedin-garden-rights.json",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://www.flickr.com/photos/elisfanclub/2634635909/",
+      "originalSha256": "0ebca30483d508a797b6aee6b0e8f20a833b5683fcc7a1cce7d6c67c2683a2f5",
+      "optimizedSha256": "efd51b2e1991f8aca64e72d819c1121dff67e44435b7f0d4f2912428f642f4f4"
+    }
+  ],
+  "photoLicenseTermsEvidence": [
+    "content/research/n4-license-by2.json",
+    "content/research/n4-license-bysa2.json"
+  ],
+  "photoSelection": [
+    "Search pages were candidates only; actual individual file pages and license terms read before reuse.",
+    "Toitū interior photos excluded because operator limits photography to personal/noncommercial use; selected2007 exterior explicitly archival and not current entrance.",
+    "Dunedin historic staff portraits, old postcards, isolated artworks and foreground family photographs excluded in favour of place landscapes.",
+    "Triple Bridge candidate showing viewFROMbridge excluded; selected image shows crossing and balustrades."
+  ],
+  "factsReview": [
+    "Castle November funicular09–19 and castle09–18; last ticket purchase and partial accessibility correctly distinguished in both languages.",
+    "Grad Tivoli in park is not castle on hill; MGLC location source used without promising gallery admission.",
+    "Sports Hall of Fame service listing in older heritage page excluded after current DMO cross-check; no regular intercity train or departure availability assumed.",
+    "Toitū general admission free, special exhibition charges possible,10–17 daily exceptChristmas; wheelchair access and photography conditions reflected.",
+    "Garden dawn–dusk versus glasshouse10–16; slopes and map ratings stated without universal accessibility or bloom guarantees."
+  ],
+  "originalityAndLanguage": "Four full independently phrased localizations reviewed for consistent facts, itinerary, FAQ and useful original planning; no repeated paragraphs across new manuscripts.",
+  "internalLinks": "Ljubljana links Vienna and Venice; Dunedin links Queenstown and Wellington; all four existing destinations published in both languages.",
+  "captureFailures": [],
+  "regionalSelection": "Europe and Oceania restore rotation after November3 Americas/Asia-focused manual batch. Both destinations/intents new in catalogue. No invented search rankings or volumes.",
+  "preservation": "No old article/date/source/review or application/advertising/Analytics change authorized; formal comparison follows.",
+  "publicStatus": "Local selection only; public verification pending.",
+  "unusedCandidates": {
+    "n4-ljubljana-castle": "Operator planning landing page used for link discovery; navigation does not add substantive claims to guide.",
+    "n4-ljubljana-audio": "Digital-plan link found, but audio languages not verified from page; no language availability claim or citation added.",
+    "n4-dunedin-access": "Detailed accessibility body not available in captured page; guide uses actual published route-grading information from main operator About page."
+  },
+  "prepublicationRevision": {
+    "at": "2026-11-04T17:34:05.567463+00:00",
+    "oldDraftTitle": "Qué ver en Liubliana en 2 días: castillo, puentes y Tivoli",
+    "finalTitle": "Liubliana (Ljubljana) en 2 días: castillo, puentes y Tivoli",
+    "reason": "Existing search matches title/city/country/category. Include both valid name forms in unpublished title so Spanish search supports Liubliana and Ljubljana without changing search implementation or existing articles."
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "checkedAt": "2026-11-04T17:47:04.674130+00:00",
+  "batch": "2026-11-04",
+  "status": "local-production-verified-public-pending",
+  "commands": {
+    "npm run check": "0errors/0warnings",
+    "npm test": "33passed",
+    "npm run test:e2e": "28passed",
+    "npm run build": "718HTML completed",
+    "npm run build:release": "exit0;718HTML completed",
+    "npm run test:release -- --grep [four new versions, catalogue, homepage, advertising and Analytics]": "34passed"
+  },
+  "releaseTestsPassed": 34,
+  "productionHtmlPages": 718,
+  "sitemapUrls": 694,
+  "localChecks": {
+    "checkedAt": "2026-11-04T17:44:42.392Z",
+    "origin": "http://127.0.0.1:4323",
+    "browserTransport": "Local production preview; external providers blocked.",
+    "checks": [
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-dunedin/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-dunedin/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-ljubljana/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-liubliana/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-dunedin/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-dunedin/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-ljubljana/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-liubliana/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Dunedin",
+        "article": "/en/guides/things-to-do-in-dunedin/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Dunedin",
+        "article": "/es/guias/que-ver-en-dunedin/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Ljubljana",
+        "article": "/en/guides/things-to-do-in-ljubljana/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Liubliana",
+        "article": "/es/guias/que-ver-en-liubliana/"
+      },
+      {
+        "type": "search-alias",
+        "path": "/es/buscar/?q=Ljubljana",
+        "article": "/es/guias/que-ver-en-liubliana/"
+      },
+      {
+        "type": "sitemap",
+        "articles": 282,
+        "urls": 694
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/dunedin/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/oceania/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-nz/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/dunedin/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/oceania/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-nz/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/ljubljana/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/europe/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-si/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/ljubljana/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/europe/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-si/"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-castle.webp",
+        "status": 200,
+        "sha256": "17d3cc712d0b6bdd3c69f7dfccc08f213bd683012d9140fb4979e35ac3f8c0ff"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-castle-480w.webp",
+        "status": 200,
+        "sha256": "ecbb4e2ad33c6162df09882a095cb2092dba4ccfd043684f52a99312b156c125"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-castle-800w.webp",
+        "status": 200,
+        "sha256": "ff7c9147eb4f6b308e67636fabe047f94a178efb7baa79cd5b492777b37cb2a4"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-triple-bridge.webp",
+        "status": 200,
+        "sha256": "c39cd133f4fbe3c51b9a25fa6ff0bb8015318d08ecc8c7316165f6e661e63703"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-triple-bridge-480w.webp",
+        "status": 200,
+        "sha256": "6c22677776153ff32c6399aee75b011d89c852d2605c39e8a0178700e3254b47"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-triple-bridge-800w.webp",
+        "status": 200,
+        "sha256": "7788c88dcbb3eb1e06329bbe2f11af32e45a32aa0439f7d2396820b90ce8b93e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-tivoli.webp",
+        "status": 200,
+        "sha256": "787d338928fff18eede74007446ad8d39b8c309e61ce71f244916808ea58f234"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-tivoli-480w.webp",
+        "status": 200,
+        "sha256": "22d79bb293e0ca516db6c9c6960ef7b8c2c5a5663cc41712e29dcd4bc8c41a84"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-ljubljana-tivoli-800w.webp",
+        "status": 200,
+        "sha256": "af595e2f9f571abe6191e35efd181be5d3a165fb0099e1da2bfe769ca2fa44ec"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-station.webp",
+        "status": 200,
+        "sha256": "ed651d097e562409e598c383ef4decc986a9d84c8318b9e50114a0144057379c"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-station-480w.webp",
+        "status": 200,
+        "sha256": "8b704012b1d7f5bd4abbcab19cb4ba14659928ea35d2b7710d32c4d2d2e3aaeb"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-station-800w.webp",
+        "status": 200,
+        "sha256": "7113a0746017a681d0a3ae0dd1fd0d46e96da1e3e31580a639b4d4be1b44a1ce"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-toitu.webp",
+        "status": 200,
+        "sha256": "c338900591e89af3d32cf42d633c538b8d61999041a145cc82c29ae44575c282"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-toitu-480w.webp",
+        "status": 200,
+        "sha256": "fbcedf111370101670113029cf68421b1e88abd152ff1c831f20437b2a37427d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-toitu-800w.webp",
+        "status": 200,
+        "sha256": "294037e33e9a9952286526650bbfb2d024bfab586fdc87014b625b03c8f9fbad"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-garden.webp",
+        "status": 200,
+        "sha256": "efd51b2e1991f8aca64e72d819c1121dff67e44435b7f0d4f2912428f642f4f4"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-garden-480w.webp",
+        "status": 200,
+        "sha256": "766b376b848363cb434030faf59d87d2991a55292a850eb669aa6ca6b13e98f4"
+      },
+      {
+        "type": "photo",
+        "path": "/images/n4-dunedin-garden-800w.webp",
+        "status": 200,
+        "sha256": "80cc21783f5c1a940b659529a24ee7c8f08edbb170336914f1db888cf250e074"
+      }
+    ],
+    "errors": []
+  },
+  "visualReview": "All4 localized guides checked at1440px and390px, four loaded photos per page, canonical/hreflang/ArticleJSONLD/description/robots/language/no overflow. Spanish screenshots inspected in desktop/mobile; six final photos reviewed for documentary relevance.",
+  "logSha256": {
+    "check.log": "57d0ba119f3b2d8139f90bc5c9daaaf02bf121dc6605fa296bca06b952a5cb06",
+    "unit.log": "b95b9dab9795e11fa4d1bd2a28e95fcdd4db8ec566f00fb0480fc341062ff456",
+    "e2e.log": "510e7918fe4d39d9bc390dd4d4c14365299fd7636e625fd09995c880b58c93f3",
+    "build.log": "611d8fd63dc9202fe22b699525b1b9cc67a57ef3ba3e14c13654b9cb01877720",
+    "release-build.log": "bd1b1c2a8381f1dab97f2c1aedec067e5d0353c8fbb4c40b64c857caac2a0ec8",
+    "release-tests.log": "a29bb246c1a3bd3453df1e821f5beed10f287a4f3c3edbca831ff98fa54185b1",
+    "local-qa.log": "fa5396178a2c72f9d24ce483a2046f4168f5871ad33b81d79ddd0c2627da835f"
+  },
+  "providerTraffic": "Third-party providers blocked/mocked to avoid impressions; original CSP preserved. Advertising/consent integration tested; creative delivery not claimed.",
+  "publicStatus": "Production release selected; public success not yet asserted."
+}

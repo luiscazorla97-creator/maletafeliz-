@@ -2,7 +2,7 @@
   "id": "2026-11-04",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-04T17:01:32.817Z",
-  "status": "reserved-not-generated",
+  "status": "selected-for-gated-build",
   "topicIds": [
     "ljubljana",
     "dunedin"
@@ -17,6 +17,11 @@
     "priorVerifiedNewOriginals": [],
     "baseCommit": "9a64282c32548cfefcad4e1f009c223dbccf56ce",
     "leaseUntil": "2026-11-04T20:01:32.860643+00:00",
-    "coordination": "Active cloud execution; inspect heartbeat/remote status before resuming. Reservation is not publication."
-  }
+    "coordination": "Active cloud execution; inspect heartbeat/remote status before resuming. Reservation is not publication.",
+    "heartbeatAt": "2026-11-04T17:16:16.327395+00:00"
+  },
+  "selectedCount": 2,
+  "localizedVersionsSelected": 4,
+  "documentaryPhotosSelected": 6,
+  "citedSourceDocuments": 12
 }

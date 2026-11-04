@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-04-christmas-two-manual",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-04T19:41:04.626462+00:00",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "christmas-tokyo",
+    "christmas-singapore"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "authorization": "Explicit additional owner request after daily batch completion: sube 2 articulos de navidad... no tengamos subidos. Does not change daily2/noon schedule.",
+  "priorSameDayPublishedTopicIds": [
+    "ljubljana",
+    "dunedin"
+  ],
+  "reservationCommandReusedDailyBatch": true,
+  "execution": {
+    "executionId": "4737d478-248d-41fc-a691-e1b2aac28648",
+    "status": "active",
+    "startedAt": "2026-11-04T19:41:04.626462+00:00",
+    "leaseUntil": "2026-11-04T22:41:04.626462+00:00",
+    "baseCommit": "28fafe3189627a19f5681e73d50bb2a60cc346f5",
+    "coordination": "Exclusive supplemental batch reservation; daily published batch untouched."
+  }
+}

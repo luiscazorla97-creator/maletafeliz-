@@ -564,7 +564,7 @@ select:focus-visible {
 }
 .manifesto p {
   font-size: 13px;
-  color: #6e7468;
+  color: #666d60;
   max-width: 530px;
   margin: 22px 0;
 }
@@ -1743,6 +1743,8 @@ h1, h2, h3 { font-family: var(--serif); letter-spacing: -.035em; }
 .category-strip a > svg:first-child { color: var(--teal); }
 .category-strip a:hover { background: #edf4ef; }
 .manifesto { background: #edf3ed; border-radius: 16px; }
+.manifesto .text-link { color: #08797e; }
+.earth-picture { display: contents; }
 .recent-list > a { display: flex; gap: 20px; align-items: center; font-family: var(--serif); font-size: 22px; }
 .recent-list > a > img { width: 100px; height: 75px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
 .recent-list > a > span { flex: 1; }

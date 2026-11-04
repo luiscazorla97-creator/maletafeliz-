@@ -1,0 +1,241 @@
+{
+  "checkedAt": "2026-11-04T18:29:06.545398+00:00",
+  "type": "mobile-performance-build-and-preservation",
+  "newOriginals": 0,
+  "originals": 141,
+  "localizations": 282,
+  "photos": 625,
+  "baseline": {
+    "baselineCommit": "629fedcc82949fdf336b04fa925bcdd79f439ad7",
+    "protectedFiles": 4300,
+    "protectedPaths": [
+      "content/articles",
+      "content/reviews",
+      "content/research",
+      "content/images",
+      "public/images",
+      "public/brand",
+      "public/design",
+      "public/_headers",
+      "public/_redirects",
+      "public/ads.txt",
+      "editorial/site.json",
+      "editorial/plan.json",
+      "editorial/batches",
+      "docs/DAILY-PUBLISHING.md",
+      "src/components/Advertisement.astro",
+      "src/components/NativeAdvertisement.astro",
+      "src/components/AnalyticsConsent.astro",
+      "src/scripts/analytics-consent.ts",
+      "package.json",
+      "package-lock.json"
+    ],
+    "protectedFilesAggregateSha256": "e02c134f7076e006f86d27825538b2c10c04e297642b4d81f7e4951e9a86e74c",
+    "changed": []
+  },
+  "compiledContentAndSeo": {
+    "fingerprints": 721,
+    "afterFingerprints": 721,
+    "changedContentOrSEO": [],
+    "geometryChanges": [],
+    "allNoOverflow": true
+  },
+  "before": "docs/performance/2026-11-04-before.json",
+  "after": "docs/performance/2026-11-04-after.json",
+  "measurementScope": "Three cold local production mobile Lighthouse13.6 runs; not Google PSI. Node HTTPS proxy validates TLS. Public PSI returned429; not retried. No Chromium CA trust changes.",
+  "tests": {
+    "checkErrors": 0,
+    "checkWarnings": 0,
+    "unit": 33,
+    "e2e": 28,
+    "productionSelected": 50,
+    "localArticleChecks": 44,
+    "responsivePriorityAndLanguage": 13,
+    "normalBuildHtml": 718,
+    "releaseBuildHtml": 718
+  },
+  "functional": {
+    "checkedAt": "2026-11-04T18:24:10.078Z",
+    "origin": "http://127.0.0.1:4323",
+    "checks": [
+      {
+        "type": "responsive-lcp",
+        "width": 320,
+        "dpr": 1.75,
+        "selectedWidth": 1023,
+        "source": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 320,
+          "height": 365
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 390,
+        "dpr": 1.75,
+        "selectedWidth": 1023,
+        "source": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 390,
+          "height": 365
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 412,
+        "dpr": 1.75,
+        "selectedWidth": 1023,
+        "source": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 412,
+          "height": 365
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 540,
+        "dpr": 1.75,
+        "selectedWidth": 1023,
+        "source": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 540,
+          "height": 365
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 768,
+        "dpr": 1.75,
+        "selectedWidth": 1536,
+        "source": "http://127.0.0.1:4323/_astro/earth-atlas-1536.DCIHhohW.avif",
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4323/_astro/earth-atlas-1536.DCIHhohW.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 700,
+          "height": 480
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 800,
+        "dpr": 1.75,
+        "selectedWidth": 1536,
+        "source": "http://127.0.0.1:4323/_astro/earth-atlas-1536.DCIHhohW.avif",
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4323/_astro/earth-atlas-1536.DCIHhohW.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 700,
+          "height": 480
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 1024,
+        "dpr": 1,
+        "selectedWidth": 1023,
+        "source": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 798.71875,
+          "height": 670
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 1440,
+        "dpr": 1,
+        "selectedWidth": 1023,
+        "source": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 790.390625,
+          "height": 670
+        }
+      },
+      {
+        "type": "responsive-lcp",
+        "width": 1920,
+        "dpr": 1,
+        "selectedWidth": 1023,
+        "source": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4323/_astro/earth-atlas-1023.BJ33e_ND.avif",
+            "priority": "High"
+          }
+        ],
+        "geometry": {
+          "width": 942.390625,
+          "height": 670
+        }
+      },
+      {
+        "type": "root-language",
+        "locale": "es-AR",
+        "finalUrl": "http://127.0.0.1:4323/es/?ref=language-check#anchor",
+        "earthRequests": 1
+      },
+      {
+        "type": "root-language",
+        "locale": "en-US",
+        "finalUrl": "http://127.0.0.1:4323/en/?ref=language-check#anchor",
+        "earthRequests": 1
+      },
+      {
+        "type": "saved-language",
+        "finalUrl": "http://127.0.0.1:4323/es/"
+      },
+      {
+        "type": "no-javascript",
+        "spanishFallback": true,
+        "globeLoaded": true
+      }
+    ],
+    "errors": []
+  },
+  "advertising": "Unchanged scripts, IDs, placements, dimensions, parser order, consent and disabled popunder. Adsterra403 observed and not suppressed. AdSense script/meta/ads.txt already present and public verified; no duplicate added.",
+  "paidServicesUsed": false,
+  "errors": []
+}

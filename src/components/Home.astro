@@ -8,9 +8,15 @@ import Icon from './Icon.astro';
 import TravelGlobe from './TravelGlobe.astro';
 import Card from './DestinationCard.astro';
 import Advertisement from './Advertisement.astro';
+import { continentImageSizes, homeCardImageSizes } from '../lib/image-sizes';
 const { lang, showHeroAdvertisement = false } = Astro.props as { lang: Locale; showHeroAdvertisement?: boolean };
 const t = dictionary[lang];
 const articles = forLocale(lang);
+const cardSizes = (destination: typeof destinations[number], featuredIndex?: number) => {
+  const article = articles.find(a => a.destinationId === destination.id);
+  const image = article && photoFor(article.coverImageId);
+  return image ? homeCardImageSizes(image.width / image.height, showHeroAdvertisement, featuredIndex) : undefined;
+};
 const available = destinations.filter((d) => articles.some((a) => a.destinationId === d.id));
 const chosen = ['tokyo', 'paris', 'bali']
   .map((id) => available.find((d) => d.id === id))
@@ -69,7 +75,7 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
         const a = d && articles.find(a => a.destinationId === d.id);
         const image = a && photoFor(a.coverImageId);
         return image && <a href={route(lang, 'explore', key)} class="continent-photo">
-          <img src={image.src} srcset={photoSrcSet(image)} sizes="(max-width: 540px) 80vw, 25vw" width={image.width} height={image.height} alt={image.alt[lang]} loading="lazy" />
+          <img src={image.src} srcset={photoSrcSet(image)} sizes={continentImageSizes(image.width / image.height, showHeroAdvertisement)} width={image.width} height={image.height} alt={image.alt[lang]} loading="lazy" decoding="async" />
           <span class="continent-photo-copy"><small>{lang === 'es' ? 'EXPLORA' : 'EXPLORE'}</small><strong>{names[lang]}</strong><span class="continent-description">{descriptions[key][lang === 'es' ? 0 : 1]}</span><Icon/></span>
           <span class="continent-photo-credit">{image.credit} · {image.license}</span>
         </a>;
@@ -89,7 +95,7 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
         {lang === 'es' ? 'Ver todas las guías de Navidad' : 'Explore all Christmas guides'} <Icon />
       </a>
     </div>
-    <div class="card-grid">{christmas.map((d) => <Card destination={d!} lang={lang} />)}</div>
+    <div class="card-grid">{christmas.map((d) => <Card destination={d!} lang={lang} imageSizes={cardSizes(d!)} />)}</div>
   </section>
 )}
 <section class="shell section">
@@ -109,8 +115,8 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
     </a>
   </div>
   <div class="featured-grid">
-    {chosen.map((d) => (
-      <Card destination={d!} lang={lang} large />
+    {chosen.map((d, index) => (
+      <Card destination={d!} lang={lang} large imageSizes={cardSizes(d!, index)} />
     ))}
   </div>
   {!production && <p class="preview-explanation">{t.previewNote}</p>}
@@ -136,7 +142,7 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
       .map((id) => available.find((d) => d.id === id))
       .filter(Boolean)
       .map((d) => (
-        <Card destination={d!} lang={lang} />
+        <Card destination={d!} lang={lang} imageSizes={cardSizes(d!)} />
       ))}
   </div>
 </section>
@@ -173,14 +179,14 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
       </a>
     </div>
     <div class="card-grid">
-      {seasonal.map((d) => <Card destination={d!} lang={lang} />)}
+      {seasonal.map((d) => <Card destination={d!} lang={lang} imageSizes={cardSizes(d!)} />)}
     </div>
   </section>
 )}
 <section class="shell manifesto-wrap">
   <div class="manifesto">
     <div class="manifesto-mark">
-      <img class="brand-icon-3d" src="/brand/icon-3d.webp" width="150" height="150" alt="" />
+      <img class="brand-icon-3d" src="/brand/icon-3d.webp" width="150" height="150" alt="" loading="lazy" decoding="async" />
       <span class="orbit orbit-one"></span>
       <span class="orbit orbit-two"></span>
       <Icon name="compass" size={34} />

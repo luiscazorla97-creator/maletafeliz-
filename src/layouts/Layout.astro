@@ -8,6 +8,7 @@ import BrandLogo from '../components/BrandLogo.astro';
 import Advertisement from '../components/Advertisement.astro';
 import NativeAdvertisement from '../components/NativeAdvertisement.astro';
 import AnalyticsConsent from '../components/AnalyticsConsent.astro';
+import { heroAvifSrcSet, heroSizes, heroPreload } from '../lib/hero-image';
 interface Props {
   lang: Locale;
   title: string;
@@ -47,6 +48,9 @@ const links = [
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <slot name="head" />
+    {['/es/', '/en/'].includes(Astro.url.pathname) && (
+      <link rel="preload" as="image" type="image/avif" href={heroPreload} imagesrcset={heroAvifSrcSet} imagesizes={heroSizes} fetchpriority="high" />
+    )}
     <script is:inline>
       (() => {
         const remember = (lang) => {

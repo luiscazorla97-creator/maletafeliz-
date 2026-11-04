@@ -10,6 +10,7 @@ import {
 } from '../lib/content';
 import { destinations, destinationUrl } from '../data/destinations';
 import { route } from '../lib/routes';
+import { articleCoverSizes, articleBodySizes } from '../lib/image-sizes';
 const { article: a } = Astro.props as { article: Article };
 const lang = a.locale as Locale;
 const t = dictionary[lang];
@@ -64,7 +65,7 @@ const format = (s?: string) =>
     <img
       src={cover.src}
       srcset={photoSrcSet(cover)}
-      sizes="(max-width: 1400px) 100vw, 1240px"
+      sizes={articleCoverSizes}
       width={cover.width}
       height={cover.height}
       alt={cover.alt[lang]}
@@ -122,11 +123,12 @@ const format = (s?: string) =>
                 <img
                   src={image.src}
                   srcset={photoSrcSet(image)}
-                  sizes="(max-width: 800px) 100vw, 720px"
+                  sizes={articleBodySizes}
                   alt={image.alt[lang]}
                   width={image.width}
                   height={image.height}
                   loading="lazy"
+                  decoding="async"
                 />
                 <figcaption class="photo-credit">
                   <span class="photo-description">{image.alt[lang]}</span>

@@ -2,7 +2,7 @@
   "id": "2026-11-04-five-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-05T02:53:02.694651+00:00",
-  "status": "selected-for-build",
+  "status": "published",
   "topicIds": [
     "bogota",
     "valencia",
@@ -11,7 +11,7 @@
     "christchurch"
   ],
   "requestedCount": 5,
-  "publishedCount": 0,
+  "publishedCount": 5,
   "errors": [],
   "authorization": "Explicit owner request: publica5articulos; additional manual five originals, ten complete ES/ENversions. Daily2/noon schedule unchanged.",
   "priorSameDayPublishedTopicIds": [
@@ -23,15 +23,37 @@
   "reservationCommandReusedDailyBatch": true,
   "execution": {
     "executionId": "c6d95613-d817-4b5c-b752-7237c7234a84",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-05T02:53:02.694651+00:00",
-    "leaseUntil": "2026-11-05T06:53:02.694651+00:00",
+    "leaseUntil": "2026-11-05T03:45:23.140694+00:00",
     "baseCommit": "d1e662732b227ccaffd93ea2254dc1ed02a39225",
     "coordination": "Exclusive additional manual batch; no active prior execution found, existing batches preserved.",
-    "heartbeatAt": "2026-11-05T03:16:54.582177+00:00"
+    "heartbeatAt": "2026-11-05T03:45:23.140694+00:00",
+    "completedAt": "2026-11-05T03:45:23.140694+00:00"
   },
   "selectedCount": 5,
   "localizedVersionsSelected": 10,
   "documentaryPhotosSelected": 15,
-  "citedSourceDocuments": 21
+  "citedSourceDocuments": 21,
+  "localizedVersionsPublished": 10,
+  "documentaryPhotosPublished": 15,
+  "publishedCommit": "414f6ec37c6ce36c39352cb9ba3943db56eb1e43",
+  "publiclyVerifiedAt": "2026-11-05T03:45:23.140694+00:00",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-bogota/",
+      "https://maletafeliz.com/es/guias/que-ver-en-valencia/",
+      "https://maletafeliz.com/es/guias/que-ver-en-osaka/",
+      "https://maletafeliz.com/es/guias/que-ver-en-durban/",
+      "https://maletafeliz.com/es/guias/que-ver-en-christchurch/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-in-bogota/",
+      "https://maletafeliz.com/en/guides/things-to-do-in-valencia/",
+      "https://maletafeliz.com/en/guides/things-to-do-in-osaka/",
+      "https://maletafeliz.com/en/guides/things-to-do-in-durban/",
+      "https://maletafeliz.com/en/guides/things-to-do-in-christchurch/"
+    ]
+  },
+  "publicVerification": "editorial/verification/2026-11-04-five-publication.json"
 }

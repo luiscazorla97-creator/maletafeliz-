@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-04T20:26:06.366261+00:00",
+  "verifiedAt": "2026-11-05T03:45:23.140694+00:00",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 143,
-  "localizations": 286,
-  "photos": 631,
-  "httpChecks": 346,
+  "originals": 148,
+  "localizations": 296,
+  "photos": 646,
+  "httpChecks": 424,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "5a5a6cde-8ffd-4888-9b9b-ec0f24d485cc",
-      "commit": "b733f871fd38d8795373db9d6891488003a83c9a",
+      "deploymentId": "6f0822be-6816-4b13-b970-1ba7815b307a",
+      "commit": "414f6ec37c6ce36c39352cb9ba3943db56eb1e43",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "169dab74-b2cf-46b4-9b7b-07039cb740d5",
-      "commit": "b733f871fd38d8795373db9d6891488003a83c9a",
+      "deploymentId": "af57d85f-458d-4950-b4b6-3ac921234c8d",
+      "commit": "414f6ec37c6ce36c39352cb9ba3943db56eb1e43",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,18 +45,18 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 604,
-  "latestBatch": "2026-11-04-christmas-two-manual",
-  "verificationFile": "editorial/verification/2026-11-04-christmas-publication.json",
+  "citedSourceDocuments": 625,
+  "latestBatch": "2026-11-04-five-manual",
+  "verificationFile": "editorial/verification/2026-11-04-five-publication.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 294,
-    "batchBrowserSeoDiscoveryAndPhotoChecks": 52
+    "siteAndRedirects": 304,
+    "batchBrowserSeoDiscoveryAndPhotoChecks": 120
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-04-christmas-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-04T20:26:06.366261+00:00",
+  "latestDeploymentVerification": "editorial/verification/2026-11-04-five-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-05T03:45:23.140694+00:00",
   "photoCoverage": {
-    "originalRecommendations": 629,
-    "localizedRecommendations": 1258,
+    "originalRecommendations": 644,
+    "localizedRecommendations": 1288,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -121,6 +121,6 @@
       "height": 250
     }
   },
-  "batchChecks": 52,
+  "batchChecks": 120,
   "performanceVerification": "editorial/verification/2026-11-04-mobile-performance-publication.json"
 }

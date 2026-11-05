@@ -1,0 +1,17 @@
+{
+  "baseline": "7871ad847b938255a67074d8ebaf3dcea486b774",
+  "checkedAt": "2026-11-05T17:54:05.917074+00:00",
+  "existingTrackedBlobsCompared": 4979,
+  "changedExistingOutsideAuthorizedInventories": [],
+  "inventories": {
+    "editorial/plan.json": {
+      "oldEntriesIdentical": 153,
+      "newEntries": 7
+    },
+    "content/images/manifest.json": {
+      "oldEntriesIdentical": 675,
+      "newEntries": 39
+    }
+  },
+  "scope": "All existing tracked blobs except approved additive plan, strategy bookkeeping and photo manifest compared; includes306 articles, reviews, research,675 photos/resources, src/scripts/tests/config, advertisements/Analytics/settings/site.json and old batches. New files accounted separately."
+}

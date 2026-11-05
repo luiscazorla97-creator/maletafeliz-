@@ -2,7 +2,7 @@
   "id": "2026-11-05-seven-more-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-05T17:20:21.076978+00:00",
-  "status": "reviewed-selected-for-release-not-public",
+  "status": "published",
   "topicIds": [
     "verona",
     "pisa",
@@ -13,7 +13,7 @@
     "los-angeles"
   ],
   "requestedCount": 7,
-  "publishedCount": 0,
+  "publishedCount": 7,
   "errors": [],
   "authorization": "Owner explicitly requested seven more SEO-optimized place guides after the earlier five. Additional manual seven; fourteen complete ES/EN versions. Daily two/noon Miami schedule remains unchanged.",
   "priorSameDayPublishedTopicIds": [
@@ -25,17 +25,67 @@
   ],
   "execution": {
     "executionId": "55f02d4d-34d7-4d30-85ca-a29762b04b01",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-05T17:20:21.076978+00:00",
-    "heartbeatAt": "2026-11-05T17:53:48.044Z",
-    "leaseUntil": "2026-11-05T21:20:21.076978+00:00",
+    "heartbeatAt": "2026-11-05T18:24:20.559516+00:00",
+    "leaseUntil": "2026-11-05T18:24:20.559516+00:00",
     "baseCommit": "7871ad847b938255a67074d8ebaf3dcea486b774",
-    "coordination": "Exclusive supplemental manual batch; no other active lease. Earlier daily/superseded/manual inventories preserved."
+    "coordination": "Exclusive supplemental manual batch; no other active lease. Earlier daily/superseded/manual inventories preserved.",
+    "completedAt": "2026-11-05T18:24:20.559516+00:00"
   },
   "reservationCommandInspection": "CLI maximum five unchanged; requests5+2 both returned the already superseded daily record. Supplemental seven-topic exclusive reservation created without altering earlier topic IDs or inventories.",
   "reviewedAt": "2026-11-05T17:53:48.044Z",
   "selectedCount": 7,
   "localizedVersionCount": 14,
   "documentaryPhotoCount": 39,
-  "sourceCount": 45
+  "sourceCount": 45,
+  "optimizedPhotoFileCount": 111,
+  "verifiedAt": "2026-11-05T18:24:20.559516+00:00",
+  "publishedCommit": "7d58a72a0fdeecb36c28d2485ead8b0a39e4b587",
+  "urls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-verona-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-pisa-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-kanazawa-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-riviera-maya-7-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-oaxaca-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-los-cabos-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-los-angeles-7-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/verona-5-places-to-visit/",
+      "https://maletafeliz.com/en/guides/pisa-5-places-to-visit/",
+      "https://maletafeliz.com/en/guides/kanazawa-5-places-to-visit/",
+      "https://maletafeliz.com/en/guides/riviera-maya-7-places-to-visit/",
+      "https://maletafeliz.com/en/guides/oaxaca-5-places-to-visit/",
+      "https://maletafeliz.com/en/guides/los-cabos-5-places-to-visit/",
+      "https://maletafeliz.com/en/guides/los-angeles-7-places-to-visit/"
+    ]
+  },
+  "verificationFile": "editorial/verification/2026-11-05-seven-more-publication.json",
+  "publiclyVerifiedAt": "2026-11-05T18:24:20.559516+00:00",
+  "publicVerification": "editorial/verification/2026-11-05-seven-more-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-verona-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-pisa-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-kanazawa-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-riviera-maya-7-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-oaxaca-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-los-cabos-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-los-angeles-7-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/verona-5-places-to-visit/",
+      "https://maletafeliz.com/en/guides/pisa-5-places-to-visit/",
+      "https://maletafeliz.com/en/guides/kanazawa-5-places-to-visit/",
+      "https://maletafeliz.com/en/guides/riviera-maya-7-places-to-visit/",
+      "https://maletafeliz.com/en/guides/oaxaca-5-places-to-visit/",
+      "https://maletafeliz.com/en/guides/los-cabos-5-places-to-visit/",
+      "https://maletafeliz.com/en/guides/los-angeles-7-places-to-visit/"
+    ]
+  },
+  "localizedVersionsPublished": 14,
+  "documentaryPhotosPublished": 39,
+  "citedSourceDocuments": 45
 }

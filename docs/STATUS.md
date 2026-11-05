@@ -6,14 +6,26 @@ Verificado el 5 de noviembre de 2026 en America/New_York. Especificación vigent
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 153 guías originales y 306 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 661 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 675 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 160 guías originales y 320 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 706 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 714 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
 
 Registro histórico de la campaña de festividades: commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. El despliegue vigente y sus comprobaciones se detallan a continuación. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
+
+## Siete guías adicionales de lugares: 5 de noviembre de 2026
+
+Publicadas Verona (5 lugares), Pisa (5), Kanazawa (5), Riviera Maya (7), Oaxaca (5), Los Cabos (5) y Los Ángeles con Santa Mónica (7). Son siete originales y catorce versiones completas ES/EN, de 1.116–1.537 palabras, con títulos, slugs y descripciones propios, rutas por sectores, preguntas y enlaces pertinentes. Se leyeron 45 documentos oficiales o de operadores y las licencias individuales de 39 fotografías documentales; se sirven 111 archivos WebP responsivos. Getty se excluyó al leer su restricción comercial; fuentes fallidas o candidatas no usadas quedan registradas sin simular hechos.
+
+Cada uno de los 39 lugares tiene su foto propia con crédito, licencia, ALT, dimensiones y hashes. Las guías distinguen el precio INAH de Tulum de otras cuotas, las distintas últimas entradas de Monte Albán y Mitla, los interiores del castillo de Kanazawa del parque gratuito y el planetario de Griffith del observatorio. No se repite el número de escalones de Pisa porque dos páginas del operador discrepan. Las imágenes de archivo no acreditan condiciones del día.
+
+Pasaron tipos sin errores, 40 pruebas unitarias, 28 de navegación y 72 de producción pertinentes: catorce artículos en escritorio/móvil, ocho páginas pilar en ambos viewports y comprobaciones generales de publicidad, Analytics y consentimiento. Las compilaciones normal y obligatoria `npm run build:release`, sin rebajar controles, generaron 794 páginas. Se comprobaron 39.579 enlaces internos/fragmentos sin errores, los 111 archivos nuevos por sus bytes exactos y las 306 versiones anteriores por bytes, fechas, metadatos y Article JSON-LD. La auditoría final conserva 4.975 archivos protegidos por sus bytes, incluidos diseño, logo, anuncios, analítica y configuración; separa los inventarios aditivos y cuatro archivos autorizados de historial/estado.
+
+Ambos proyectos de Cloudflare completaron y sirvieron `7d58a72a0fdeecb36c28d2485ead8b0a39e4b587`. Pasaron 328 respuestas del catálogo y redirecciones y 228 registros públicos del lote, con revisión de los catorce textos en escritorio/móvil, búsqueda, destinos, países, sitemap y catorce redirecciones www con ruta/parámetros. El sitemap suma 770 URLs. La portada conserva sus seis espacios recientes; las siete guías están enlazadas desde sus índices y páginas de destino/país. Evidencia: `editorial/verification/2026-11-05-seven-more-publication.json`; archivos: `editorial/verification/2026-11-05-seven-more-changed-files.json`.
+
+El catálogo global alcanza 160 originales, 320 versiones, 714 fotos y 712 lugares fotografiados. Cobertura prioritaria: Italia 10/30, Japón 9/25, México 10/25 y Estados Unidos 13/20: 42/100, faltan 58. El backlog conserva los aplazados y sus motivos. Son siete manuales adicionales pedidos explícitamente, con doce originales únicos verificados hoy al incluir los cinco anteriores. Las reservas previas y la tarea de dos originales al mediodía de Miami permanecen intactas. No se afirma indexación, visitas ni atribución de ejecución desatendida.
 
 ## Estrategia SEO por país y cinco guías: 5 de noviembre de 2026
 

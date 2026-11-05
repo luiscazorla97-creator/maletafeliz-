@@ -844,12 +844,16 @@
       },
       "type": "places",
       "intent": "riviera-maya-places",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved",
-      "existingCoverageIds": [],
+      "evidenceStatus": "approved-and-publicly-verified",
+      "existingCoverageIds": [
+        "riviera-maya"
+      ],
       "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
-      "reservedTopicId": "riviera-maya"
+      "reservedTopicId": "riviera-maya",
+      "publishedCommit": "7d58a72a0fdeecb36c28d2485ead8b0a39e4b587",
+      "publicVerification": "editorial/verification/2026-11-05-seven-more-publication.json"
     },
     {
       "id": "oaxaca-places",
@@ -861,14 +865,17 @@
       },
       "type": "places",
       "intent": "oaxaca-places",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved",
+      "evidenceStatus": "approved-and-publicly-verified",
       "existingCoverageIds": [
-        "muertos-oaxaca"
+        "muertos-oaxaca",
+        "oaxaca"
       ],
       "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
-      "reservedTopicId": "oaxaca"
+      "reservedTopicId": "oaxaca",
+      "publishedCommit": "7d58a72a0fdeecb36c28d2485ead8b0a39e4b587",
+      "publicVerification": "editorial/verification/2026-11-05-seven-more-publication.json"
     },
     {
       "id": "los-cabos-places",
@@ -880,12 +887,16 @@
       },
       "type": "places",
       "intent": "los-cabos-places",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved",
-      "existingCoverageIds": [],
+      "evidenceStatus": "approved-and-publicly-verified",
+      "existingCoverageIds": [
+        "los-cabos"
+      ],
       "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
-      "reservedTopicId": "los-cabos"
+      "reservedTopicId": "los-cabos",
+      "publishedCommit": "7d58a72a0fdeecb36c28d2485ead8b0a39e4b587",
+      "publicVerification": "editorial/verification/2026-11-05-seven-more-publication.json"
     },
     {
       "id": "mexico-city-three-days",
@@ -1184,12 +1195,16 @@
       },
       "type": "places",
       "intent": "los-angeles-places",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved",
-      "existingCoverageIds": [],
+      "evidenceStatus": "approved-and-publicly-verified",
+      "existingCoverageIds": [
+        "los-angeles"
+      ],
       "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
-      "reservedTopicId": "los-angeles"
+      "reservedTopicId": "los-angeles",
+      "publishedCommit": "7d58a72a0fdeecb36c28d2485ead8b0a39e4b587",
+      "publicVerification": "editorial/verification/2026-11-05-seven-more-publication.json"
     },
     {
       "id": "miami-three-days",
@@ -1327,9 +1342,14 @@
       },
       "type": "places",
       "intent": "5-distinct-places-first-visit-evergreen",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved"
+      "evidenceStatus": "approved-and-publicly-verified",
+      "publishedCommit": "7d58a72a0fdeecb36c28d2485ead8b0a39e4b587",
+      "publicVerification": "editorial/verification/2026-11-05-seven-more-publication.json",
+      "existingCoverageIds": [
+        "verona"
+      ]
     },
     {
       "id": "pisa",
@@ -1341,9 +1361,14 @@
       },
       "type": "places",
       "intent": "5-distinct-places-first-visit-evergreen",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved"
+      "evidenceStatus": "approved-and-publicly-verified",
+      "publishedCommit": "7d58a72a0fdeecb36c28d2485ead8b0a39e4b587",
+      "publicVerification": "editorial/verification/2026-11-05-seven-more-publication.json",
+      "existingCoverageIds": [
+        "pisa"
+      ]
     },
     {
       "id": "kanazawa",
@@ -1355,88 +1380,100 @@
       },
       "type": "places",
       "intent": "5-distinct-places-first-visit-evergreen",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved"
+      "evidenceStatus": "approved-and-publicly-verified",
+      "publishedCommit": "7d58a72a0fdeecb36c28d2485ead8b0a39e4b587",
+      "publicVerification": "editorial/verification/2026-11-05-seven-more-publication.json",
+      "existingCoverageIds": [
+        "kanazawa"
+      ]
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-05T06:57:26.740877+00:00",
+    "verifiedAt": "2026-11-05T18:24:20.559516+00:00",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 8,
-        "localizedVersions": 16,
+        "publishedOriginals": 10,
+        "localizedVersions": 20,
         "targetOriginals": 30,
-        "missingOriginals": 22,
+        "missingOriginals": 20,
         "articleIds": [
-          "rome",
           "amalfi-coast",
+          "christmas-florence",
           "christmas-milan",
-          "milan",
-          "florence",
           "christmas-rome",
+          "florence",
+          "milan",
+          "pisa",
+          "rome",
           "venice",
-          "christmas-florence"
+          "verona"
         ]
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 8,
-        "localizedVersions": 16,
+        "publishedOriginals": 9,
+        "localizedVersions": 18,
         "targetOriginals": 25,
-        "missingOriginals": 17,
+        "missingOriginals": 16,
         "articleIds": [
-          "halloween-japan",
-          "kyoto",
-          "tokyo",
-          "hiroshima",
           "christmas-tokyo",
+          "halloween-japan",
+          "hiroshima",
+          "kanazawa",
+          "kyoto",
           "mount-fuji",
           "nara",
-          "osaka"
+          "osaka",
+          "tokyo"
         ]
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 7,
-        "localizedVersions": 14,
+        "publishedOriginals": 10,
+        "localizedVersions": 20,
         "targetOriginals": 25,
-        "missingOriginals": 18,
+        "missingOriginals": 15,
         "articleIds": [
+          "cancun",
+          "los-cabos",
           "mexico-city",
           "muertos-merida",
           "muertos-mexico-city",
           "muertos-mixquic",
           "muertos-oaxaca",
           "muertos-puebla",
-          "cancun"
+          "oaxaca",
+          "riviera-maya"
         ]
       },
       {
         "countryId": "us",
-        "publishedOriginals": 12,
-        "localizedVersions": 24,
+        "publishedOriginals": 13,
+        "localizedVersions": 26,
         "targetOriginals": 20,
-        "missingOriginals": 8,
+        "missingOriginals": 7,
         "articleIds": [
+          "buffalo",
+          "christmas-chicago",
+          "christmas-new-york",
+          "columbus",
+          "greenville-sc",
           "halloween-usa",
           "hawaii",
+          "hilo",
+          "las-vegas",
+          "los-angeles",
           "miami",
           "new-york",
-          "buffalo",
-          "hilo",
-          "orlando",
-          "christmas-chicago",
-          "las-vegas",
-          "christmas-new-york",
-          "greenville-sc",
-          "columbus"
+          "orlando"
         ]
       }
     ],
-    "priorityOriginals": 35,
-    "missingToInitial100": 65,
-    "publicVerification": "editorial/verification/2026-11-05-priority-five-publication.json"
+    "priorityOriginals": 42,
+    "missingToInitial100": 58,
+    "publicVerification": "editorial/verification/2026-11-05-seven-more-publication.json"
   }
 }

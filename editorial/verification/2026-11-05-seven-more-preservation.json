@@ -1,17 +1,37 @@
 {
   "baseline": "7871ad847b938255a67074d8ebaf3dcea486b774",
-  "checkedAt": "2026-11-05T17:54:05.917074+00:00",
-  "existingTrackedBlobsCompared": 4979,
-  "changedExistingOutsideAuthorizedInventories": [],
-  "inventories": {
-    "editorial/plan.json": {
-      "oldEntriesIdentical": 153,
-      "newEntries": 7
+  "checkedAt": "2026-11-05T18:25:26.183726+00:00",
+  "existingProtectedTrackedBlobsCompared": 4975,
+  "changedProtectedBlobs": [],
+  "authorizedAdditiveInventories": [
+    "editorial/plan.json",
+    "editorial/seo-strategy.json",
+    "content/images/manifest.json"
+  ],
+  "authorizedPublicationBookkeepingFiles": [
+    "docs/STATUS.md",
+    "docs/SEO-STRATEGY.md",
+    "editorial/activity.jsonl",
+    "editorial/publication.json"
+  ],
+  "priorPlanEntriesIdentical": 153,
+  "priorPhotoEntriesIdentical": 675,
+  "scope": "Final audit excludes only the additive inventories and four documented publication/status/history files. All prior306 article JSONs, reviews, research,675 photos/resources, src/scripts/tests/config, AGENTS/site.json and earlier batches remain byte-identical.",
+  "prePublicationAudit": {
+    "baseline": "7871ad847b938255a67074d8ebaf3dcea486b774",
+    "checkedAt": "2026-11-05T17:54:05.917074+00:00",
+    "existingTrackedBlobsCompared": 4979,
+    "changedExistingOutsideAuthorizedInventories": [],
+    "inventories": {
+      "editorial/plan.json": {
+        "oldEntriesIdentical": 153,
+        "newEntries": 7
+      },
+      "content/images/manifest.json": {
+        "oldEntriesIdentical": 675,
+        "newEntries": 39
+      }
     },
-    "content/images/manifest.json": {
-      "oldEntriesIdentical": 675,
-      "newEntries": 39
-    }
-  },
-  "scope": "All existing tracked blobs except approved additive plan, strategy bookkeeping and photo manifest compared; includes306 articles, reviews, research,675 photos/resources, src/scripts/tests/config, advertisements/Analytics/settings/site.json and old batches. New files accounted separately."
+    "scope": "All existing tracked blobs except approved additive plan, strategy bookkeeping and photo manifest compared; includes306 articles, reviews, research,675 photos/resources, src/scripts/tests/config, advertisements/Analytics/settings/site.json and old batches. New files accounted separately."
+  }
 }

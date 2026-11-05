@@ -2,6 +2,10 @@ import { z } from 'zod';
 import { createHash } from 'node:crypto';
 import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { resolve, relative } from 'node:path';
+import {
+  festiveArticleFields,
+  validateFestiveImages,
+} from './festive-images.mjs';
 const https = z
   .url()
   .refine((s) => new URL(s).protocol === 'https:', 'HTTPS required');
@@ -20,6 +24,7 @@ const slug = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
 const paragraph = z.string().trim().min(40);
 export const articleSchema = z
   .object({
+    ...festiveArticleFields,
     id: slug,
     destinationId: slug,
     locale: z.enum(['es', 'en']),
@@ -46,6 +51,7 @@ export const articleSchema = z
           paragraphs: z.array(paragraph).min(2),
           sourceIds: z.array(slug).min(1),
           imageId: slug.optional(),
+          illustrationImageId: slug.optional(),
         }),
       )
       .min(3),
@@ -221,11 +227,18 @@ export function validateEditorial({
       )
         fail(`source ${source.id} requires fresh research`);
     }
-    const usedImages = new Set([
+    const documentaryImages = new Set([
       a.coverImageId,
       ...a.sections.map((s) => s.imageId).filter(Boolean),
     ]);
-    if (usedImages.size < 2)
+    const usedImages = new Set(
+      [
+        ...documentaryImages,
+        a.festiveCoverImageId,
+        ...a.sections.map((s) => s.illustrationImageId).filter(Boolean),
+      ].filter(Boolean),
+    );
+    if (documentaryImages.size < 2)
       fail('guide needs a cover and relevant interior photograph');
     for (const imageId of usedImages) {
       const image = photos.find((p) => p.id === imageId);
@@ -287,6 +300,15 @@ export function validateEditorial({
     )
       fail('missing editorial approval bound to current content hash');
   }
+  errors.push(
+    ...validateFestiveImages({
+      root,
+      articles: parsed,
+      photos,
+      now,
+      policy: safeRead(root, 'editorial/festive-images.json'),
+    }),
+  );
   for (const a of parsed) {
     if (!parsed.some((b) => b.id === a.id && b.locale !== a.locale))
       errors.push(`${a.id}: missing published translation`);

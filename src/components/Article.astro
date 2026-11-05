@@ -7,7 +7,11 @@ import {
   publishedArticles,
   articlePath,
   type Article,
+  photos,
 } from '../lib/content';
+import { festiveCoverFor } from '../lib/festive-images';
+import FestiveDisclosure from './FestiveDisclosure.astro';
+import FestiveFigure from './FestiveFigure.astro';
 import { destinations, destinationUrl } from '../data/destinations';
 import { route } from '../lib/routes';
 import { countryGuidePath, hasCountryGuide } from '../lib/country-clusters';
@@ -15,7 +19,7 @@ import { articleCoverSizes, articleBodySizes } from '../lib/image-sizes';
 const { article: a } = Astro.props as { article: Article };
 const lang = a.locale as Locale;
 const t = dictionary[lang];
-const cover = photoFor(a.coverImageId)!;
+const cover = festiveCoverFor(a, photos)!;
 const d = destinations.find((d) => d.id === a.destinationId)!;
 const related = publishedArticles.filter(
   (b) => b.locale === lang && a.relatedIds.includes(b.id),
@@ -82,6 +86,9 @@ const format = (s?: string) =>
       fetchpriority="high"
     />
     <figcaption class="photo-credit">
+      {cover.kind === 'festive-ai-illustration' && (
+        <FestiveDisclosure photo={cover} lang={lang} />
+      )}
       <span class="photo-description">{cover.alt[lang]}</span>
       <a href={cover.sourceUrl} rel="noopener noreferrer">
         {cover.credit}
@@ -128,6 +135,10 @@ const format = (s?: string) =>
       </div>
       {a.sections.map((s) => {
         const image = s.imageId && photoFor(s.imageId);
+        const illustration =
+          a.festive_image_enhancement === true &&
+          s.illustrationImageId &&
+          photoFor(s.illustrationImageId);
         return (
           <section aria-labelledby={s.id}>
             <h2 id={s.id}>{s.heading}</h2>
@@ -164,6 +175,10 @@ const format = (s?: string) =>
                 </figcaption>
               </figure>
             )}
+            {illustration &&
+              illustration.kind === 'festive-ai-illustration' && (
+                <FestiveFigure photo={illustration} lang={lang} />
+              )}
           </section>
         );
       })}

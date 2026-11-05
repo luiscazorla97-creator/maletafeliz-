@@ -150,6 +150,74 @@ function setup() {
   return { root, articles, plan, photos, now, approve };
 }
 describe('publication gate', () => {
+  it('does not count a festive illustration toward the documentary cover/interior minimum', () => {
+    const s = setup();
+    for (const section of s.articles[0].data.sections)
+      section.imageId = 'cover';
+    Object.assign(s.articles[0].data, {
+      festiveCoverImageId: 'new-illustration',
+    });
+    s.approve();
+    expect(validateEditorial(s).errors.join(' ')).toContain(
+      'guide needs a cover and relevant interior photograph',
+    );
+  });
+  it('blocks a historical festive opt-in even after a new content-hash approval', () => {
+    const s = setup();
+    writeFileSync(
+      join(s.root, 'editorial/festive-images.json'),
+      JSON.stringify({
+        version: 1,
+        defaultEnabled: false,
+        implementedAt: '2026-10-27T00:00:00.000Z',
+        historicalArticleIds: ['test-city', 'other-city'],
+      }),
+    );
+    Object.assign(s.articles[0].data, {
+      festive_image_enhancement: true,
+      festivity: 'christmas',
+      createdAt: '2026-10-28T09:00:00.000Z',
+    });
+    s.approve();
+    expect(validateEditorial(s).errors.join(' ')).toContain(
+      'historical articles cannot',
+    );
+  });
+  it('never accepts an illustrative image in a mandatory documentary slot', () => {
+    const s = setup();
+    writeFileSync(
+      join(s.root, 'editorial/festive-images.json'),
+      JSON.stringify({
+        version: 1,
+        defaultEnabled: false,
+        implementedAt: '2026-10-27T00:00:00.000Z',
+        historicalArticleIds: [],
+      }),
+    );
+    (s.photos[1] as any).kind = 'festive-ai-illustration';
+    expect(validateEditorial(s).errors.join(' ')).toContain(
+      'documentary image slot cannot',
+    );
+  });
+  it('requires renewed approval when the optional festive cover selection changes', () => {
+    const s = setup();
+    writeFileSync(
+      join(s.root, 'editorial/festive-images.json'),
+      JSON.stringify({
+        version: 1,
+        defaultEnabled: false,
+        implementedAt: '2026-10-27T00:00:00.000Z',
+        historicalArticleIds: [],
+      }),
+    );
+    Object.assign(s.articles[0].data, {
+      festiveCoverImageId: 'unreviewed-new-image',
+    });
+    expect(validateEditorial(s).errors.join(' ')).toContain(
+      'approval bound to current content hash',
+    );
+    expect(validateEditorial(s).errors.join(' ')).toContain('explicit opt-in');
+  });
   it('assesses complete concise content without treating 1200 words as an SEO rule', () => {
     const s = setup();
     for (const a of s.articles) {

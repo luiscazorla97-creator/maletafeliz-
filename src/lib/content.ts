@@ -1,6 +1,8 @@
 import { route } from './routes';
 import type { Locale } from '../i18n';
 export type Photo = {
+  kind?: 'documentary' | 'festive-ai-illustration';
+  enhancementRecord?: string;
   variants?: { src: string; width: number; height: number; sha256: string }[];
   destinationIds: string[];
   id: string;
@@ -23,8 +25,19 @@ export type Section = {
   paragraphs: string[];
   sourceIds: string[];
   imageId?: string;
+  illustrationImageId?: string;
 };
 export type Article = {
+  festive_image_enhancement?: boolean;
+  festivity?:
+    | 'christmas'
+    | 'halloween'
+    | 'new-year'
+    | 'winter-celebration'
+    | 'festival-of-lights'
+    | 'other-festivity';
+  createdAt?: string;
+  festiveCoverImageId?: string;
   id: string;
   destinationId: string;
   locale: Locale;

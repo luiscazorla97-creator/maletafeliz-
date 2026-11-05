@@ -1,0 +1,46 @@
+{
+  "feature": "Optional illustrative AI festive enhancements for future articles only",
+  "baseline": "37dad2c4a648fd94126674ed9341c72ddb05feb3",
+  "implementedAt": "2026-11-05T21:34:32.822Z",
+  "historicalOriginalsExcluded": 163,
+  "historicalLocalizedArticles": 326,
+  "existingPhotoEntriesUnchanged": 723,
+  "protectedFilesByteIdentical": 5083,
+  "defaultEnabled": false,
+  "editingToolAvailableThisSession": "image_gen.imagegen",
+  "actualAiPhotoEditsPerformed": 0,
+  "syntheticTestFixturesOnly": true,
+  "features": {
+    "explicitFutureFestiveOptIn": true,
+    "documentaryPlacePhotographsRetained": true,
+    "documentaryThumbnailsAndSeoImagesRetained": true,
+    "visibleLocalizedDisclosure": true,
+    "originalAndEditArchives": true,
+    "specificRightsAndVisualReviewHashes": true,
+    "responsiveWebpRegistration": true,
+    "exclusiveCreationAndRollback": true,
+    "noPaidAiApi": true,
+    "noAutomaticImageGeneration": true
+  },
+  "checks": {
+    "unitAndComponentTests": 68,
+    "astroCheck": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "standardBuildPages": 800,
+    "productionReleaseBuild": "pending",
+    "deployment": "pending",
+    "publicVerification": "pending",
+    "endToEndTests": 28
+  },
+  "preserved": [
+    "All historical article JSON, sources, dates and content-hash approvals",
+    "Existing image manifest and files, covers and thumbnails",
+    "Advertising scripts, IDs, spaces and dimensions; Analytics and consent",
+    "3D design, logos, menus, search, languages, URLs and SEO configuration",
+    "Publication batches, strategy, cadence and external scheduler"
+  ],
+  "documentation": "docs/FESTIVE-IMAGES.md"
+}

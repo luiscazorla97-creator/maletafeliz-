@@ -24,6 +24,8 @@ Usá la capacidad de Codex incluida en la tarea, sin contratar APIs de IA, servi
 
 ## Calendario configurado
 
+Para artículos festivos nuevos, consultar también `docs/FESTIVE-IMAGES.md`: ambientación ilustrativa opcional, desactivada por defecto, con original documental, licencia, revisión e identificación visible. No modificar publicaciones ni imágenes históricas. Si no hay editor disponible dentro de Codex, usar fotos reales sin ambientar. Esta opción no cambia la cantidad ni el horario de la tarea.
+
 - Inicio del trabajo: todos los días a las **12:00 del mediodía de Miami**.
 - Zona IANA: `America/New_York`, con ajuste automático del horario de verano; no fijar una hora UTC constante.
 - Recurrencia: `FREQ=DAILY;BYHOUR=12;BYMINUTE=0;BYSECOND=0`.

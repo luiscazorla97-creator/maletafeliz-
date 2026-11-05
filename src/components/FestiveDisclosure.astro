@@ -1,0 +1,28 @@
+---
+import type { Locale } from '../i18n';
+import { photoFor, type Photo } from '../lib/content';
+import { enhancementFor, festiveDisclosure } from '../lib/festive-images';
+const { photo, lang } = Astro.props as { photo: Photo; lang: Locale };
+const record =
+  photo.kind === 'festive-ai-illustration' && enhancementFor(photo);
+const original = record && photoFor(record.originalPhotoId);
+---
+
+{record && original && (
+  <>
+    <span class="photo-description" data-festive-disclosure>
+      <strong>{festiveDisclosure[lang]}</strong>
+    </span>
+    <span class="photo-description">
+      {record.modifications[lang]}{' '}
+      {lang === 'es'
+        ? 'No documenta una decoración ni un evento real.'
+        : 'It does not document actual decorations or an event.'}{' '}
+      <a href={original.sourceUrl} rel="noopener noreferrer">
+        {lang === 'es'
+          ? 'Fotografía original y atribución'
+          : 'Original photograph and attribution'}
+      </a>
+    </span>
+  </>
+)}

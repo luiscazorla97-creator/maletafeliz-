@@ -105,13 +105,33 @@ for (const article of articles) {
     );
     expect(jsonLd['@graph'][0].headline).toBe(article.title);
     expect(jsonLd['@graph'][0].inLanguage).toBe(article.locale);
+    const selectedCover = photos.find((p: any) => p.id === (
+      article.festive_image_enhancement === true && article.festiveCoverImageId
+        ? article.festiveCoverImageId : article.coverImageId
+    ));
+    await expect(page.locator('.article-cover img')).toHaveAttribute('src', selectedCover.src);
+    await expect(page.locator('.article-cover [data-festive-disclosure]')).toHaveCount(
+      selectedCover.kind === 'festive-ai-illustration' ? 1 : 0,
+    );
     for (const place of article.sections.filter((s: any) => s.kind === 'place')) {
       await expect(
-        page.locator(`.prose section[aria-labelledby="${place.id}"] figure img`),
+        page.locator(`.prose section[aria-labelledby="${place.id}"] figure:not(.festive-illustration) img`),
       ).toHaveCount(1);
       const photo = photos.find((p: any) => p.id === place.imageId);
+      expect(photo.kind).not.toBe('festive-ai-illustration');
+      await expect(page.locator(`.prose section[aria-labelledby="${place.id}"] figure:not(.festive-illustration) img`)).toHaveAttribute('src', photo.src);
       if (photo?.attributionUrl)
-        await expect(page.locator(`.prose section[aria-labelledby="${place.id}"] figcaption a[href="${photo.attributionUrl}"]`)).toHaveCount(1);
+        await expect(page.locator(`.prose section[aria-labelledby="${place.id}"] figure:not(.festive-illustration) figcaption a[href="${photo.attributionUrl}"]`)).toHaveCount(1);
+    }
+    for (const section of article.sections) {
+      const enhanced = article.festive_image_enhancement === true && section.illustrationImageId;
+      const figure = page.locator(`.prose section[aria-labelledby="${section.id}"] .festive-illustration`);
+      await expect(figure).toHaveCount(enhanced ? 1 : 0);
+      if (enhanced) {
+        const photo = photos.find((p: any) => p.id === enhanced);
+        await expect(figure.locator('img')).toHaveAttribute('src', photo.src);
+        await expect(figure.locator('[data-festive-disclosure]')).toHaveCount(1);
+      }
     }
     for (const image of await page
       .locator('.article-cover img,.prose figure img')

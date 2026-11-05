@@ -1,11 +1,24 @@
 ---
-import { photos } from '../lib/content';
+import { photos, publishedArticles } from '../lib/content';
 import type { Locale } from '../i18n';
+import FestiveDisclosure from './FestiveDisclosure.astro';
 const { lang } = Astro.props as { lang: Locale };
+const visiblePhotos = photos.filter(
+  (photo) =>
+    photo.kind !== 'festive-ai-illustration' ||
+    publishedArticles.some(
+      (article) =>
+        article.festive_image_enhancement === true &&
+        (article.festiveCoverImageId === photo.id ||
+          article.sections.some(
+            (section) => section.illustrationImageId === photo.id,
+          )),
+    ),
+);
 ---
 
 <div class="photo-license-list">
-  {photos.map((photo) => (
+  {visiblePhotos.map((photo) => (
     <section id={photo.id}>
       <h2>{photo.alt[lang]}</h2>
       <img
@@ -15,6 +28,11 @@ const { lang } = Astro.props as { lang: Locale };
         alt={photo.alt[lang]}
         loading="lazy"
       />
+      {photo.kind === 'festive-ai-illustration' && (
+        <p class="photo-credit">
+          <FestiveDisclosure photo={photo} lang={lang} />
+        </p>
+      )}
       <p>
         {photo.credit} ·{' '}
         <a href={photo.sourceUrl} rel="noopener noreferrer">
@@ -27,13 +45,23 @@ const { lang } = Astro.props as { lang: Locale };
           {photo.license}
         </a>
         {photo.attributionUrl && (
-          <span> · <a href={photo.attributionUrl} rel="noopener noreferrer">{lang === 'es' ? 'Web del autor' : 'Author’s website'}</a></span>
+          <span>
+            {' '}
+            ·{' '}
+            <a href={photo.attributionUrl} rel="noopener noreferrer">
+              {lang === 'es' ? 'Web del autor' : 'Author’s website'}
+            </a>
+          </span>
         )}
       </p>
       <p>
-        {lang === 'es'
-          ? 'Adaptación: redimensionado y compresión para la web; la composición puede recortarse en las tarjetas. La licencia indicada corresponde a esta fotografía, no al conjunto del sitio.'
-          : 'Adaptation: resized and compressed for the web; the composition may be cropped in cards. The indicated licence applies to this photograph, not the entire website.'}
+        {photo.kind === 'festive-ai-illustration'
+          ? lang === 'es'
+            ? 'Adaptación ilustrativa mediante IA; original, licencia y cambios indicados arriba. Redimensionado y compresión para la web.'
+            : 'Illustrative AI edit; original, licence and changes identified above. Resized and compressed for the web.'
+          : lang === 'es'
+            ? 'Adaptación: redimensionado y compresión para la web; la composición puede recortarse en las tarjetas. La licencia indicada corresponde a esta fotografía, no al conjunto del sitio.'
+            : 'Adaptation: resized and compressed for the web; the composition may be cropped in cards. The indicated licence applies to this photograph, not the entire website.'}
       </p>
     </section>
   ))}

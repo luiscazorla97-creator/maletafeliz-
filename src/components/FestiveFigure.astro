@@ -1,0 +1,40 @@
+---
+import type { Locale } from '../i18n';
+import { photoSrcSet, type Photo } from '../lib/content';
+import { articleBodySizes } from '../lib/image-sizes';
+import FestiveDisclosure from './FestiveDisclosure.astro';
+const { photo, lang } = Astro.props as { photo: Photo; lang: Locale };
+---
+
+<figure class="festive-illustration">
+  <img
+    src={photo.src}
+    srcset={photoSrcSet(photo)}
+    sizes={articleBodySizes}
+    alt={photo.alt[lang]}
+    width={photo.width}
+    height={photo.height}
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption class="photo-credit">
+    <FestiveDisclosure photo={photo} lang={lang} />
+    <span class="photo-description">{photo.alt[lang]}</span>
+    <a href={photo.sourceUrl} rel="noopener noreferrer">
+      {photo.credit}
+    </a>{' '}
+    ·{' '}
+    <a href={photo.licenseUrl} rel="license noopener noreferrer">
+      {photo.license}
+    </a>
+    {photo.attributionUrl && (
+      <span>
+        {' '}
+        ·{' '}
+        <a href={photo.attributionUrl} rel="noopener noreferrer">
+          {lang === 'es' ? 'Web del autor' : 'Author’s website'}
+        </a>
+      </span>
+    )}
+  </figcaption>
+</figure>

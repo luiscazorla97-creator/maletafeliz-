@@ -1,5 +1,7 @@
 # Operación editorial sin APIs de pago
 
+Para **nuevos artículos festivos** existe el flujo opcional de [ambientación ilustrativa de imágenes](FESTIVE-IMAGES.md). Está desactivado por defecto y excluye los artículos anteriores a su implementación. Una edición con IA siempre se identifica y conserva su original y licencia; nunca sustituye la fotografía documental obligatoria de un lugar. Comprobar la disponibilidad del editor en cada sesión; no contratar APIs ni afirmar ediciones no realizadas.
+
 ## PUBLICAR 5 ARTÍCULOS
 
 Esta orden inicia trabajo real de Codex, no un generador por plantilla. El flujo es el mismo para las primeras veinte guías y para futuras tandas:

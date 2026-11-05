@@ -21,6 +21,7 @@
     "editorial:batch": "node scripts/editorial-batch.mjs",
     "research:capture": "NODE_USE_ENV_PROXY=1 node scripts/research-source.mjs",
     "images:responsive": "node scripts/responsive-images.mjs",
+    "images:festive": "node scripts/prepare-festive-image.mjs",
     "test:release": "playwright test --config playwright.release.config.ts",
     "verify:live": "NODE_USE_ENV_PROXY=1 node scripts/verify-live.mjs"
   },

@@ -6,14 +6,28 @@ Verificado el 5 de noviembre de 2026 en America/New_York. Especificación vigent
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 160 guías originales y 320 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 706 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 714 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 163 guías originales y 326 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 719 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 723 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
 
 Registro histórico de la campaña de festividades: commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. El despliegue vigente y sus comprobaciones se detallan a continuación. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
+
+## Tres guías de Navidad adicionales: 5 de noviembre de 2026
+
+Publicadas Navidad en Venecia, Osaka y Miami: tres originales, seis versiones completas ES/EN, nueve lugares con fotografía individual y 27 archivos WebP responsivos. Las versiones tienen una profundidad proporcional a la consulta, sin relleno. Se citaron trece documentos primarios y se conservaron las nueve licencias individuales, los términos CC y un contraste adicional de fechas y tarifas. Las fuentes fallidas y fotos descartadas quedan registradas. La colección reúne ahora 45 ciudades navideñas por idioma.
+
+Las guías distinguen el programa urbano de Venecia del calendario de Christmas Palace y sus pases, las tres ventanas de luces de Osaka, y los cierres y suplementos de los jardines de Miami. La foto de iluminación de Midosuji se descartó al leer la solicitud de aplicación para publicación en medios; se eligió una foto diurna de la avenida. No se envió ninguna solicitud o mensaje. Las fotos de archivo no representan necesariamente la decoración de 2026 ni acreditan plazas disponibles.
+
+Los temas comparten las fichas existentes de Venecia, Osaka y Miami: no se crean destinos duplicados. Las tarjetas de Navidad seleccionan su artículo y portada, y las tarjetas ordinarias y las portadas de destino conservan la guía principal. El cambio no añade estilos ni bibliotecas. Se reforzó la prueba de toda la colección con sus títulos/fotos correctos y la conservación de las portadas generales.
+
+Pasaron tipos, 40 pruebas unitarias, 28 de navegación y 56 de producción pertinentes, con las seis versiones en escritorio/móvil, ocho páginas pilar en ambos viewports y comprobaciones de publicidad y consentimiento. Las compilaciones normal y obligatoria `npm run build:release` generaron 800 páginas, sin rebajar controles. Se revisaron 39915 enlaces/fragmentos, los 27 archivos nuevos por bytes y las 320 versiones anteriores por texto, fechas, metadatos y Article JSON-LD. El sitemap suma 776 URLs. La auditoría final preservó 5217 archivos protegidos por bytes, las 160 entradas anteriores del plan, las 714 fotos y los 73 candidatos del backlog; los cuatro cambios de selección/prueba y cinco archivos de estado se registran por separado.
+
+Ambos proyectos sirvieron `195d74071a2777924311aaa82e4380d7d9abdd00`. Pasaron 334 respuestas del catálogo y redirecciones y 92 registros públicos del lote: artículos, fotos, búsqueda, destinos compartidos, colección, países, metadatos, sitemap y seis redirecciones www con ruta/parámetros. Evidencia: `editorial/verification/2026-11-05-christmas-three-publication.json`. Archivos modificados: `editorial/verification/2026-11-05-christmas-three-changed-files.json`.
+
+El catálogo alcanza 163 originales, 326 versiones, 723 fotos y 721 lugares fotografiados. Cobertura prioritaria: Italia 11/30, Japón 10/25, México 10/25 y Estados Unidos 14/20: 45/100, faltan 55 originales. El backlog de consultas permanentes se conserva; estos tres temas estacionales no dan por resueltas otras consultas. Hoy suman quince originales únicos verificados con los doce anteriores. La tarea de dos originales diarios al mediodía de Miami, diseño 3D, anuncios y Analytics permanecen intactos. No se afirma indexación, tráfico ni atribución desatendida.
 
 ## Siete guías adicionales de lugares: 5 de noviembre de 2026
 

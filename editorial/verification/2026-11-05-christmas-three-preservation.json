@@ -1,23 +1,47 @@
 {
   "baseline": "bea709b80c68fca34a6743fd8208801fb16a277f",
-  "checkedAt": "2026-11-05T19:24:33.747622+00:00",
-  "protectedTrackedBlobsCompared": 5222,
+  "checkedAt": "2026-11-05T19:47:33.482788+00:00",
+  "protectedTrackedBlobsCompared": 5217,
   "changedProtectedBlobs": [],
-  "additiveInventories": {
-    "editorial/plan.json": {
-      "priorEntriesUnchanged": 160,
-      "newEntries": 3
-    },
-    "content/images/manifest.json": {
-      "priorEntriesUnchanged": 714,
-      "newEntries": 9
-    }
-  },
-  "documentedImplementationChanges": [
-    "src/components/DestinationCard.astro: explicit seasonal title/cover and preserved root preference",
-    "src/pages/[lang]/[season].astro: select matching seasonal article",
-    "src/pages/[lang]/[...route].astro: preserve root destination hero",
-    "tests/release/publication.spec.ts: stronger seasonal/root cover assertions"
+  "priorArticleVersionsUnchanged": 320,
+  "priorPlanEntriesIdentical": 160,
+  "priorPhotoEntriesIdentical": 714,
+  "backlogEntriesUnchanged": 73,
+  "authorizedImplementationChanges": [
+    "src/components/DestinationCard.astro",
+    "src/pages/[lang]/[...route].astro",
+    "src/pages/[lang]/[season].astro",
+    "tests/release/publication.spec.ts"
   ],
-  "scope": "All320 prior article JSONs,reviews,sources,714photo entries/resources,dates,URLs,brand,CSS,ad/Analytics code,site.json,configuration,earlier batches and countrystrategy unchanged. Only additivecontent and minimal shared-city seasonal/root selection plus strengthened test assertions."
+  "authorizedPublicationBookkeeping": [
+    "docs/SEO-STRATEGY.md",
+    "docs/STATUS.md",
+    "editorial/activity.jsonl",
+    "editorial/publication.json",
+    "editorial/seo-strategy.json"
+  ],
+  "scope": "All prior article text/dates/reviews/sources/resources,oldphotoentries andfiles,style,brand,ad/Analytics code,site.json,schedule,configuration andearlierbatches unchanged. Explicitseasonalcard/rootcoverselection and stronger tests documented separately; publication/history/coverage bookkeeping updated after verification.",
+  "prePublicationAudit": {
+    "baseline": "bea709b80c68fca34a6743fd8208801fb16a277f",
+    "checkedAt": "2026-11-05T19:24:33.747622+00:00",
+    "protectedTrackedBlobsCompared": 5222,
+    "changedProtectedBlobs": [],
+    "additiveInventories": {
+      "editorial/plan.json": {
+        "priorEntriesUnchanged": 160,
+        "newEntries": 3
+      },
+      "content/images/manifest.json": {
+        "priorEntriesUnchanged": 714,
+        "newEntries": 9
+      }
+    },
+    "documentedImplementationChanges": [
+      "src/components/DestinationCard.astro: explicit seasonal title/cover and preserved root preference",
+      "src/pages/[lang]/[season].astro: select matching seasonal article",
+      "src/pages/[lang]/[...route].astro: preserve root destination hero",
+      "tests/release/publication.spec.ts: stronger seasonal/root cover assertions"
+    ],
+    "scope": "All320 prior article JSONs,reviews,sources,714photo entries/resources,dates,URLs,brand,CSS,ad/Analytics code,site.json,configuration,earlier batches and countrystrategy unchanged. Only additivecontent and minimal shared-city seasonal/root selection plus strengthened test assertions."
+  }
 }

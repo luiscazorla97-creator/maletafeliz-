@@ -1391,19 +1391,20 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-05T18:24:20.559516+00:00",
+    "verifiedAt": "2026-11-05T19:47:31.851003+00:00",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 10,
-        "localizedVersions": 20,
+        "publishedOriginals": 11,
+        "localizedVersions": 22,
         "targetOriginals": 30,
-        "missingOriginals": 20,
+        "missingOriginals": 19,
         "articleIds": [
           "amalfi-coast",
           "christmas-florence",
           "christmas-milan",
           "christmas-rome",
+          "christmas-venice",
           "florence",
           "milan",
           "pisa",
@@ -1414,11 +1415,12 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 9,
-        "localizedVersions": 18,
+        "publishedOriginals": 10,
+        "localizedVersions": 20,
         "targetOriginals": 25,
-        "missingOriginals": 16,
+        "missingOriginals": 15,
         "articleIds": [
+          "christmas-osaka",
           "christmas-tokyo",
           "halloween-japan",
           "hiroshima",
@@ -1451,13 +1453,14 @@
       },
       {
         "countryId": "us",
-        "publishedOriginals": 13,
-        "localizedVersions": 26,
+        "publishedOriginals": 14,
+        "localizedVersions": 28,
         "targetOriginals": 20,
-        "missingOriginals": 7,
+        "missingOriginals": 6,
         "articleIds": [
           "buffalo",
           "christmas-chicago",
+          "christmas-miami",
           "christmas-new-york",
           "columbus",
           "greenville-sc",
@@ -1472,8 +1475,22 @@
         ]
       }
     ],
-    "priorityOriginals": 42,
-    "missingToInitial100": 58,
-    "publicVerification": "editorial/verification/2026-11-05-seven-more-publication.json"
-  }
+    "priorityOriginals": 45,
+    "missingToInitial100": 55,
+    "publicVerification": "editorial/verification/2026-11-05-christmas-three-publication.json"
+  },
+  "additionalOwnerRequestedTopics": [
+    {
+      "batch": "2026-11-05-christmas-three-manual",
+      "topicIds": [
+        "christmas-venice",
+        "christmas-osaka",
+        "christmas-miami"
+      ],
+      "status": "published-verified",
+      "commit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+      "publicVerification": "editorial/verification/2026-11-05-christmas-three-publication.json",
+      "note": "Explicit Christmas request in addition to the existing candidate inventory. Distinct evergreen backlog queries remain candidates, not falsely marked fulfilled by seasonal guides."
+    }
+  ]
 }

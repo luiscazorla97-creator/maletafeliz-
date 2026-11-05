@@ -2,14 +2,14 @@
   "id": "2026-11-05-christmas-three-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-05T18:57:22.644148+00:00",
-  "status": "reviewed-selected-for-release-not-public",
+  "status": "published",
   "topicIds": [
     "christmas-venice",
     "christmas-osaka",
     "christmas-miami"
   ],
   "requestedCount": 3,
-  "publishedCount": 0,
+  "publishedCount": 3,
   "errors": [],
   "authorization": "Owner explicitly requested three additional Christmas articles. Three original topics, six fullES/EN versions; previous same-day twelve and daily2/noonMiami schedule preserved.",
   "priorSameDayPublishedTopicIds": [
@@ -29,16 +29,36 @@
   "reservationCommandInspection": "npm run editorial:batch --3 returned the superseded daily batch. Preserved that inventory; created this exclusive supplemental manual reservation after adding topics.",
   "execution": {
     "executionId": "8dc0832b-a7f6-4160-9709-40a59ce7da36",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-05T18:57:22.644148+00:00",
-    "heartbeatAt": "2026-11-05T19:15:03.559Z",
-    "leaseUntil": "2026-11-05T22:57:22.644148+00:00",
+    "heartbeatAt": "2026-11-05T19:47:31.851003+00:00",
+    "leaseUntil": "2026-11-05T19:47:31.851003+00:00",
     "baseCommit": "bea709b80c68fca34a6743fd8208801fb16a277f",
-    "coordination": "No other active lease found; all older batch inventories preserved."
+    "coordination": "No other active lease found; all older batch inventories preserved.",
+    "completedAt": "2026-11-05T19:47:31.851003+00:00"
   },
   "reviewedAt": "2026-11-05T19:15:03.559Z",
   "selectedCount": 3,
   "localizedVersionCount": 6,
   "documentaryPhotoCount": 9,
-  "sourceCount": 13
+  "sourceCount": 13,
+  "localizedVersionsPublished": 6,
+  "documentaryPhotosPublished": 9,
+  "optimizedPhotoFiles": 27,
+  "citedSourceDocuments": 13,
+  "publishedCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+  "publiclyVerifiedAt": "2026-11-05T19:47:31.851003+00:00",
+  "publicVerification": "editorial/verification/2026-11-05-christmas-three-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/navidad-en-venecia-2026/",
+      "https://maletafeliz.com/es/guias/navidad-en-osaka-2026/",
+      "https://maletafeliz.com/es/guias/navidad-en-miami-2026/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/christmas-in-venice-2026/",
+      "https://maletafeliz.com/en/guides/christmas-in-osaka-2026/",
+      "https://maletafeliz.com/en/guides/christmas-in-miami-2026/"
+    ]
+  }
 }

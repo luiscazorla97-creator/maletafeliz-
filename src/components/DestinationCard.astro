@@ -9,11 +9,14 @@ interface Props {
   lang: Locale;
   large?: boolean;
   href?: string;
+  articleId?: string;
   imageSizes?: string;
 }
-const { destination: d, lang, large = false, href, imageSizes = '(max-width: 540px) 100vw, (max-width: 800px) 50vw, 33vw' } = Astro.props;
+const { destination: d, lang, large = false, href, articleId, imageSizes = '(max-width: 540px) 100vw, (max-width: 800px) 50vw, 33vw' } = Astro.props;
 const t = dictionary[lang];
 const article = publishedArticles.find(
+  (a) => a.locale === lang && a.id === (articleId || d.id),
+) || publishedArticles.find(
   (a) => a.destinationId === d.id && a.locale === lang,
 );
 const image = article && photoFor(article.coverImageId);
@@ -51,6 +54,6 @@ const image = article && photoFor(article.coverImageId);
   <div class="card-body">
     <span class="eyebrow">{article ? t.guide : t.preparing}</span>
     <h3>{d.city[lang]}</h3>
-    <p>{d.titles[lang]}</p>
+    <p>{articleId && article ? article.title : d.titles[lang]}</p>
   </div>
 </a>

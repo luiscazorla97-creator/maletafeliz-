@@ -1,0 +1,171 @@
+{
+  "reviewedAt": "2026-11-05T19:15:03.559Z",
+  "timeZone": "America/New_York",
+  "reviewer": "Codex AI-assisted editorial self-review",
+  "authorization": "Owner explicitly requested three additional Christmas articles. Three original topics, six fullES/EN versions; previous same-day twelve and daily2/noonMiami schedule preserved.",
+  "baseline": "bea709b80c68fca34a6743fd8208801fb16a277f",
+  "topicIds": [
+    "christmas-venice",
+    "christmas-osaka",
+    "christmas-miami"
+  ],
+  "articleVersions": [
+    {
+      "id": "christmas-miami",
+      "locale": "en",
+      "title": "Christmas in Miami 2026: 3 gardens for lights and family outings",
+      "slug": "christmas-in-miami-2026",
+      "words": 1218,
+      "places": 3,
+      "contentHash": "80aa23aa44ad8b586999db9360d7f22fa981cf4de61434e6bb49fa2f1fe4ca89",
+      "sourceIds": [
+        "nc-miami-deering",
+        "nc-miami-pinecrest",
+        "nc-miami-nightgarden-official",
+        "nc-miami-fairchild"
+      ],
+      "imageIds": [
+        "pk-christmas-miami-deering",
+        "pk-christmas-miami-pinecrest",
+        "pk-christmas-miami-fairchild"
+      ]
+    },
+    {
+      "id": "christmas-miami",
+      "locale": "es",
+      "title": "Navidad en Miami 2026: 3 jardines con luces y planes familiares",
+      "slug": "navidad-en-miami-2026",
+      "words": 1314,
+      "places": 3,
+      "contentHash": "7fb6ff7054f58ae03e51d9242402a04795c6807d58f4acf45ac0ebbc96b6bae2",
+      "sourceIds": [
+        "nc-miami-deering",
+        "nc-miami-pinecrest",
+        "nc-miami-nightgarden-official",
+        "nc-miami-fairchild"
+      ],
+      "imageIds": [
+        "pk-christmas-miami-deering",
+        "pk-christmas-miami-pinecrest",
+        "pk-christmas-miami-fairchild"
+      ]
+    },
+    {
+      "id": "christmas-osaka",
+      "locale": "en",
+      "title": "Christmas in Osaka 2026: Midosuji, Nakanoshima and Umeda lights",
+      "slug": "christmas-in-osaka-2026",
+      "words": 1191,
+      "places": 3,
+      "contentHash": "5158bade5b8e619bc57f7065350c12cf7ac6782b220a0b0648241eb7f2c5c678",
+      "sourceIds": [
+        "nc-osaka-midosuji",
+        "nc-osaka-faq",
+        "nc-osaka-nakanoshima",
+        "nc-osaka-umeda",
+        "nc-osaka-umeda-access"
+      ],
+      "imageIds": [
+        "pk-christmas-osaka-midosuji-day",
+        "pk-christmas-osaka-nakanoshima",
+        "pk-christmas-osaka-umeda"
+      ]
+    },
+    {
+      "id": "christmas-osaka",
+      "locale": "es",
+      "title": "Navidad en Osaka 2026: luces de Midosuji, Nakanoshima y Umeda",
+      "slug": "navidad-en-osaka-2026",
+      "words": 1312,
+      "places": 3,
+      "contentHash": "b564e2d9b14cad13eb74cee9f3f6f4b502299099d8e650947f8cedc85cd2cf79",
+      "sourceIds": [
+        "nc-osaka-midosuji",
+        "nc-osaka-faq",
+        "nc-osaka-nakanoshima",
+        "nc-osaka-umeda",
+        "nc-osaka-umeda-access"
+      ],
+      "imageIds": [
+        "pk-christmas-osaka-midosuji-day",
+        "pk-christmas-osaka-nakanoshima",
+        "pk-christmas-osaka-umeda"
+      ]
+    },
+    {
+      "id": "christmas-venice",
+      "locale": "en",
+      "title": "Christmas in Venice 2026: San Polo, skating and Santa Claus",
+      "slug": "christmas-in-venice-2026",
+      "words": 1190,
+      "places": 3,
+      "contentHash": "132ca074765b0222004a194ac818dd65e35b03d3ca03bd5df79c850d6908139b",
+      "sourceIds": [
+        "nc-venice-veneto",
+        "nc-venice-palace",
+        "nc-venice-marco",
+        "nc-venice-transport"
+      ],
+      "imageIds": [
+        "pk-christmas-venice-campo",
+        "pk-christmas-venice-soranzo",
+        "pk-christmas-venice-marco"
+      ]
+    },
+    {
+      "id": "christmas-venice",
+      "locale": "es",
+      "title": "Navidad en Venecia 2026: San Polo, patinaje y Papá Noel",
+      "slug": "navidad-en-venecia-2026",
+      "words": 1331,
+      "places": 3,
+      "contentHash": "abc1f91976778114e797698d8cfef0539dc634f8ea7ef08cd10a377975ea843e",
+      "sourceIds": [
+        "nc-venice-veneto",
+        "nc-venice-palace",
+        "nc-venice-marco",
+        "nc-venice-transport"
+      ],
+      "imageIds": [
+        "pk-christmas-venice-campo",
+        "pk-christmas-venice-soranzo",
+        "pk-christmas-venice-marco"
+      ]
+    }
+  ],
+  "officialCitedDocuments": 13,
+  "photographs": 9,
+  "optimizedFiles": 27,
+  "checks": {
+    "sourcesActuallyRead": true,
+    "sourceHttpAndHashes": true,
+    "factualParityBetweenLocales": true,
+    "individualPlacePhotos": true,
+    "individualLicensesRead": true,
+    "licenseDeedsRead": true,
+    "originalAndOptimizedPhotosVisuallyInspected": true,
+    "noExactParagraphDuplicatesAgainstEarlier320Versions": true,
+    "uniqueDestinationIntent": true,
+    "localizedTitleSlugDescription": true,
+    "practicalRoutesAndFaq": true,
+    "relatedGuideTargetsExist": true,
+    "realMiamiDates": true
+  },
+  "limitations": [
+    "AI-assisted self-review; no independent human assessment or search-volume/ranking/indexing claim.",
+    "Archive photos document places, not present-day conditions. Date-sensitive fees/hours identified as consulted5November2026.",
+    "Publication still pending production build, both matching Cloudflare commits and public checks."
+  ],
+  "researchNotes": [
+    "Midosuji festival photo-publication application respected: illumination image excluded; daylight avenue photo selected without any message or application.",
+    "Each2026 programme uses its own dates. City-wide Venice window is not treated as every rink’s operating calendar.",
+    "Deering25December/StoneHouse closures, Pinecrest selected nights/addons and NightGarden skating extra retained. No booking availability guaranteed.",
+    "Three additional Christmas originals explicitly authorised after twelve already verified today; daily target2/noonMiami and all earlier reservations preserved."
+  ],
+  "implementationNote": "New topics share existing Venice,Osaka,Miami destinations. Seasonal cards explicitly select the seasonal article title/cover, while ordinary destination cards prefer their existing root guide. No styling,layout,brand,ad orAnalytics change.",
+  "additionalCrossCheck": {
+    "checkedAt": "2026-11-05T19:23:30.843337+00:00",
+    "evidence": "content/research/nc-miami-nightgarden-crosscheck.json",
+    "finding": "DMO corroboratesJan3,2027closing but advertisesNov13andadultUSD38; operatoradvertisesNov12andstartingUSD28withoutuniversaladultfare. Bothversions expresslyattributeoperatorandrequireactualdate/categorycalendar. No live booking availability guaranteed."
+  }
+}

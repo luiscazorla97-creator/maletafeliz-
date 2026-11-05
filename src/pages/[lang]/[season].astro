@@ -57,7 +57,7 @@ const groups = [
       <section class="section" aria-labelledby={`region-${i}`}>
         <div class="section-heading"><h2 id={`region-${i}`}>{g[lang]}</h2></div>
         <div class="card-grid">
-          {selection.filter((d) => g.ids.includes(d.countryId)).map((d) => <Card destination={d} lang={lang} href={articlePath(articles.find((a) => a.destinationId === d.id)!)} />)}
+          {selection.filter((d) => g.ids.includes(d.countryId)).map((d) => <Card destination={d} lang={lang} articleId={articles.find((a) => a.destinationId === d.id)!.id} href={articlePath(articles.find((a) => a.destinationId === d.id)!)} />)}
         </div>
       </section>
     ))}

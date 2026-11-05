@@ -1,0 +1,23 @@
+{
+  "baseline": "bea709b80c68fca34a6743fd8208801fb16a277f",
+  "checkedAt": "2026-11-05T19:24:33.747622+00:00",
+  "protectedTrackedBlobsCompared": 5222,
+  "changedProtectedBlobs": [],
+  "additiveInventories": {
+    "editorial/plan.json": {
+      "priorEntriesUnchanged": 160,
+      "newEntries": 3
+    },
+    "content/images/manifest.json": {
+      "priorEntriesUnchanged": 714,
+      "newEntries": 9
+    }
+  },
+  "documentedImplementationChanges": [
+    "src/components/DestinationCard.astro: explicit seasonal title/cover and preserved root preference",
+    "src/pages/[lang]/[season].astro: select matching seasonal article",
+    "src/pages/[lang]/[...route].astro: preserve root destination hero",
+    "tests/release/publication.spec.ts: stronger seasonal/root cover assertions"
+  ],
+  "scope": "All320 prior article JSONs,reviews,sources,714photo entries/resources,dates,URLs,brand,CSS,ad/Analytics code,site.json,configuration,earlier batches and countrystrategy unchanged. Only additivecontent and minimal shared-city seasonal/root selection plus strengthened test assertions."
+}

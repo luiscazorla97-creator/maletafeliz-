@@ -29,7 +29,22 @@ test('Christmas collection links every seasonal guide and its translation', asyn
     await expect(page.locator('h1')).toContainText(String(seasonal.length));
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', `https://maletafeliz.com${path}`);
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'index,follow,max-image-preview:large');
-    for (const a of seasonal) await expect(page.locator(`main a[href="${pathFor(a)}"]`)).toHaveCount(1);
+    for (const a of seasonal) {
+      const card = page.locator(`main a[href="${pathFor(a)}"]`);
+      await expect(card).toHaveCount(1);
+      await expect(card.locator('.card-body p')).toHaveText(a.title);
+      const cover = photos.find((p: any) => p.id === a.coverImageId);
+      await expect(card.locator('.card-image img')).toHaveAttribute('src', cover.src);
+    }
+    for (const a of seasonal.filter((a) => a.id !== a.destinationId)) {
+      const general = articles.find((b) => b.id === a.destinationId && b.locale === lang);
+      expect(general).toBeTruthy();
+      const cover = photos.find((p: any) => p.id === general.coverImageId);
+      await page.goto(`/${lang}/${lang === 'es' ? 'destinos' : 'destinations'}/${a.destinationId}/`);
+      await expect(page.locator('.destination-hero img')).toHaveAttribute('src', cover.src);
+      await expect(page.locator(`.recent-list a[href="${pathFor(a)}"]`)).toHaveCount(1);
+      await page.goto(path);
+    }
     expect(sitemap).toContain(`https://maletafeliz.com${path}`);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     await page.locator('.language').click();

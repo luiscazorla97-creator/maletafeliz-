@@ -155,7 +155,7 @@ for (const locale of locales) {
 const destinationArticles = destination
   ? forLocale(lang).filter((a) => a.destinationId === destination.id)
   : [];
-const coverArticle = article || destinationArticles[0];
+const coverArticle = article || destinationArticles.find((a) => a.id === destination?.id) || destinationArticles[0];
 const photo = coverArticle && photoFor(coverArticle.coverImageId);
 const jsonLd = article
   ? {

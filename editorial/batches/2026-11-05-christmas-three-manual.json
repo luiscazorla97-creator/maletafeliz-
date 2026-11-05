@@ -2,7 +2,7 @@
   "id": "2026-11-05-christmas-three-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-05T18:57:22.644148+00:00",
-  "status": "reserved-not-generated",
+  "status": "reviewed-selected-for-release-not-public",
   "topicIds": [
     "christmas-venice",
     "christmas-osaka",
@@ -31,9 +31,14 @@
     "executionId": "8dc0832b-a7f6-4160-9709-40a59ce7da36",
     "status": "active",
     "startedAt": "2026-11-05T18:57:22.644148+00:00",
-    "heartbeatAt": "2026-11-05T18:57:22.644148+00:00",
+    "heartbeatAt": "2026-11-05T19:15:03.559Z",
     "leaseUntil": "2026-11-05T22:57:22.644148+00:00",
     "baseCommit": "bea709b80c68fca34a6743fd8208801fb16a277f",
     "coordination": "No other active lease found; all older batch inventories preserved."
-  }
+  },
+  "reviewedAt": "2026-11-05T19:15:03.559Z",
+  "selectedCount": 3,
+  "localizedVersionCount": 6,
+  "documentaryPhotoCount": 9,
+  "sourceCount": 13
 }

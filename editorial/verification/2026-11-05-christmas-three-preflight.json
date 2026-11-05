@@ -1,0 +1,997 @@
+{
+  "checkedAt": "2026-11-05T19:32:26.218489+00:00",
+  "publicStatus": "NOT YET VERIFIED: deployment and public HTTPS checks pending",
+  "tests": {
+    "check": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "unit": 40,
+    "e2e": 28,
+    "releaseSelected": 56
+  },
+  "commands": [
+    "npm run check",
+    "npm test",
+    "npm run build",
+    "npm run test:e2e",
+    "npm run build:release",
+    "npm run test:release -- --grep [new6,countryhubs,Christmascollection,SEO,ads,Analytics,consent]"
+  ],
+  "static": {
+    "checkedAt": "2026-11-05T19:29:50.233334+00:00",
+    "htmlPages": 800,
+    "internalLinkAndFragmentChecks": 39915,
+    "brokenInternalLinks": [],
+    "designatedErrorDocument": {
+      "canonicalPath": "/404/",
+      "file": "404.html",
+      "expectedHttpStatus": 404
+    },
+    "previousArticlesCompared": 320,
+    "previousArticleTextAndMetadataDateChanges": [],
+    "optimizedNewPhotoFilesWithExactServedSha256": 27,
+    "allArticleVersionsInSitemap": 326,
+    "sitemapUrlCount": 776
+  },
+  "local": {
+    "checkedAt": "2026-11-05T19:30:30.898Z",
+    "origin": "http://127.0.0.1:4327",
+    "public": false,
+    "transport": "Local production preview, third-party providers mocked to prevent impressions.",
+    "success": true,
+    "records": [
+      {
+        "type": "article-browser",
+        "device": "desktop",
+        "id": "christmas-miami",
+        "locale": "en",
+        "path": "/en/guides/christmas-in-miami-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-browser",
+        "device": "desktop",
+        "id": "christmas-miami",
+        "locale": "es",
+        "path": "/es/guias/navidad-en-miami-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-browser",
+        "device": "desktop",
+        "id": "christmas-osaka",
+        "locale": "en",
+        "path": "/en/guides/christmas-in-osaka-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-browser",
+        "device": "desktop",
+        "id": "christmas-osaka",
+        "locale": "es",
+        "path": "/es/guias/navidad-en-osaka-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-browser",
+        "device": "desktop",
+        "id": "christmas-venice",
+        "locale": "en",
+        "path": "/en/guides/christmas-in-venice-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-browser",
+        "device": "desktop",
+        "id": "christmas-venice",
+        "locale": "es",
+        "path": "/es/guias/navidad-en-venecia-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "desktop",
+        "country": "it",
+        "lang": "es",
+        "publishedOriginals": 11,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "desktop",
+        "country": "it",
+        "lang": "en",
+        "publishedOriginals": 11,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "desktop",
+        "country": "jp",
+        "lang": "es",
+        "publishedOriginals": 10,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "desktop",
+        "country": "jp",
+        "lang": "en",
+        "publishedOriginals": 10,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "desktop",
+        "country": "mx",
+        "lang": "es",
+        "publishedOriginals": 10,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "desktop",
+        "country": "mx",
+        "lang": "en",
+        "publishedOriginals": 10,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "desktop",
+        "country": "us",
+        "lang": "es",
+        "publishedOriginals": 14,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "desktop",
+        "country": "us",
+        "lang": "en",
+        "publishedOriginals": 14,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "seasonal-collection-browser",
+        "device": "desktop",
+        "lang": "es",
+        "guides": 45,
+        "correctTitlesAndCovers": true,
+        "noOverflow": true
+      },
+      {
+        "type": "seasonal-collection-browser",
+        "device": "desktop",
+        "lang": "en",
+        "guides": 45,
+        "correctTitlesAndCovers": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-browser",
+        "device": "mobile",
+        "id": "christmas-miami",
+        "locale": "en",
+        "path": "/en/guides/christmas-in-miami-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-browser",
+        "device": "mobile",
+        "id": "christmas-miami",
+        "locale": "es",
+        "path": "/es/guias/navidad-en-miami-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-browser",
+        "device": "mobile",
+        "id": "christmas-osaka",
+        "locale": "en",
+        "path": "/en/guides/christmas-in-osaka-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-browser",
+        "device": "mobile",
+        "id": "christmas-osaka",
+        "locale": "es",
+        "path": "/es/guias/navidad-en-osaka-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-browser",
+        "device": "mobile",
+        "id": "christmas-venice",
+        "locale": "en",
+        "path": "/en/guides/christmas-in-venice-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-browser",
+        "device": "mobile",
+        "id": "christmas-venice",
+        "locale": "es",
+        "path": "/es/guias/navidad-en-venecia-2026/",
+        "places": 3,
+        "metadata": true,
+        "photos": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "mobile",
+        "country": "it",
+        "lang": "es",
+        "publishedOriginals": 11,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "mobile",
+        "country": "it",
+        "lang": "en",
+        "publishedOriginals": 11,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "mobile",
+        "country": "jp",
+        "lang": "es",
+        "publishedOriginals": 10,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "mobile",
+        "country": "jp",
+        "lang": "en",
+        "publishedOriginals": 10,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "mobile",
+        "country": "mx",
+        "lang": "es",
+        "publishedOriginals": 10,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "mobile",
+        "country": "mx",
+        "lang": "en",
+        "publishedOriginals": 10,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "mobile",
+        "country": "us",
+        "lang": "es",
+        "publishedOriginals": 14,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "country-hub-browser",
+        "device": "mobile",
+        "country": "us",
+        "lang": "en",
+        "publishedOriginals": 14,
+        "allArticlesLinked": true,
+        "noOverflow": true
+      },
+      {
+        "type": "seasonal-collection-browser",
+        "device": "mobile",
+        "lang": "es",
+        "guides": 45,
+        "correctTitlesAndCovers": true,
+        "noOverflow": true
+      },
+      {
+        "type": "seasonal-collection-browser",
+        "device": "mobile",
+        "lang": "en",
+        "guides": 45,
+        "correctTitlesAndCovers": true,
+        "noOverflow": true
+      },
+      {
+        "type": "search-browser",
+        "id": "christmas-miami",
+        "locale": "en",
+        "query": "Miami",
+        "target": "/en/guides/christmas-in-miami-2026/"
+      },
+      {
+        "type": "destination-browser",
+        "id": "christmas-miami",
+        "locale": "en",
+        "path": "/en/destinations/miami/",
+        "ordinaryGuideCoverPreserved": true
+      },
+      {
+        "type": "continent-discovery",
+        "id": "christmas-miami",
+        "locale": "en",
+        "path": "/en/explore/america/"
+      },
+      {
+        "type": "guide-index",
+        "id": "christmas-miami",
+        "locale": "en",
+        "path": "/en/guides/",
+        "route": "existing-destination-card-to-verified-guide"
+      },
+      {
+        "type": "search-browser",
+        "id": "christmas-miami",
+        "locale": "es",
+        "query": "Miami",
+        "target": "/es/guias/navidad-en-miami-2026/"
+      },
+      {
+        "type": "destination-browser",
+        "id": "christmas-miami",
+        "locale": "es",
+        "path": "/es/destinos/miami/",
+        "ordinaryGuideCoverPreserved": true
+      },
+      {
+        "type": "continent-discovery",
+        "id": "christmas-miami",
+        "locale": "es",
+        "path": "/es/explorar/america/"
+      },
+      {
+        "type": "guide-index",
+        "id": "christmas-miami",
+        "locale": "es",
+        "path": "/es/guias/",
+        "route": "existing-destination-card-to-verified-guide"
+      },
+      {
+        "type": "search-browser",
+        "id": "christmas-osaka",
+        "locale": "en",
+        "query": "Osaka",
+        "target": "/en/guides/christmas-in-osaka-2026/"
+      },
+      {
+        "type": "destination-browser",
+        "id": "christmas-osaka",
+        "locale": "en",
+        "path": "/en/destinations/osaka/",
+        "ordinaryGuideCoverPreserved": true
+      },
+      {
+        "type": "continent-discovery",
+        "id": "christmas-osaka",
+        "locale": "en",
+        "path": "/en/explore/asia/"
+      },
+      {
+        "type": "guide-index",
+        "id": "christmas-osaka",
+        "locale": "en",
+        "path": "/en/guides/",
+        "route": "existing-destination-card-to-verified-guide"
+      },
+      {
+        "type": "search-browser",
+        "id": "christmas-osaka",
+        "locale": "es",
+        "query": "Osaka",
+        "target": "/es/guias/navidad-en-osaka-2026/"
+      },
+      {
+        "type": "destination-browser",
+        "id": "christmas-osaka",
+        "locale": "es",
+        "path": "/es/destinos/osaka/",
+        "ordinaryGuideCoverPreserved": true
+      },
+      {
+        "type": "continent-discovery",
+        "id": "christmas-osaka",
+        "locale": "es",
+        "path": "/es/explorar/asia/"
+      },
+      {
+        "type": "guide-index",
+        "id": "christmas-osaka",
+        "locale": "es",
+        "path": "/es/guias/",
+        "route": "existing-destination-card-to-verified-guide"
+      },
+      {
+        "type": "search-browser",
+        "id": "christmas-venice",
+        "locale": "en",
+        "query": "Venice",
+        "target": "/en/guides/christmas-in-venice-2026/"
+      },
+      {
+        "type": "destination-browser",
+        "id": "christmas-venice",
+        "locale": "en",
+        "path": "/en/destinations/venice/",
+        "ordinaryGuideCoverPreserved": true
+      },
+      {
+        "type": "continent-discovery",
+        "id": "christmas-venice",
+        "locale": "en",
+        "path": "/en/explore/europe/"
+      },
+      {
+        "type": "guide-index",
+        "id": "christmas-venice",
+        "locale": "en",
+        "path": "/en/guides/",
+        "route": "existing-destination-card-to-verified-guide"
+      },
+      {
+        "type": "search-browser",
+        "id": "christmas-venice",
+        "locale": "es",
+        "query": "Venecia",
+        "target": "/es/guias/navidad-en-venecia-2026/"
+      },
+      {
+        "type": "destination-browser",
+        "id": "christmas-venice",
+        "locale": "es",
+        "path": "/es/destinos/venice/",
+        "ordinaryGuideCoverPreserved": true
+      },
+      {
+        "type": "continent-discovery",
+        "id": "christmas-venice",
+        "locale": "es",
+        "path": "/es/explorar/europe/"
+      },
+      {
+        "type": "guide-index",
+        "id": "christmas-venice",
+        "locale": "es",
+        "path": "/es/guias/",
+        "route": "existing-destination-card-to-verified-guide"
+      },
+      {
+        "type": "homepage-recent",
+        "lang": "es",
+        "visibleCapacity": 6,
+        "newGuidesVisible": 3
+      },
+      {
+        "type": "homepage-recent",
+        "lang": "en",
+        "visibleCapacity": 6,
+        "newGuidesVisible": 3
+      },
+      {
+        "type": "complete-sitemap",
+        "articleVersions": 326,
+        "urls": 776
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-venice-campo.webp",
+        "width": 1024,
+        "height": 754,
+        "sha256": "05a43f57bd07f03744935d6ea3c08b1718389abced88d7f85928477730af58d5",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-venice-campo-480w.webp",
+        "width": 480,
+        "height": 353,
+        "sha256": "debf45591cce97c3a079ca50683c1c9f06367266caf0d5f829e70106a4b9c6ef",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-venice-campo-800w.webp",
+        "width": 800,
+        "height": 589,
+        "sha256": "d3e1874c9151f58ea283c4db8209dbb397933f7ca95e279bb781f84066b70f86",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-venice-soranzo.webp",
+        "width": 800,
+        "height": 541,
+        "sha256": "e36dfb607a87796e1c345ea0b1490b5d43d3f7bd981a92955ec970b4fdc98424",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-venice-soranzo-480w.webp",
+        "width": 480,
+        "height": 325,
+        "sha256": "a6b0a1835ad0dc209f4e737e3ae579495689e252a1e6c837d085715b2a4157d9",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-venice-marco.webp",
+        "width": 1024,
+        "height": 683,
+        "sha256": "1a66864cd04e8dd56feded02b08bf63e373e5f89feacea0a9d670ad869e76680",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-venice-marco-480w.webp",
+        "width": 480,
+        "height": 320,
+        "sha256": "57aa8115854299cd064aa44bbbca8bc756e29cb6277cba1ac7083d39a2f0a4e4",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-venice-marco-800w.webp",
+        "width": 800,
+        "height": 534,
+        "sha256": "efe2016baceaafba407dfabc034dfe82cf28eca8f1cc635d342625ae673a7a38",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-osaka-nakanoshima.webp",
+        "width": 1024,
+        "height": 683,
+        "sha256": "a5d81235a541f3683ef03493d59696b907934fe43295e34174018a147f1d62a2",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-osaka-nakanoshima-480w.webp",
+        "width": 480,
+        "height": 320,
+        "sha256": "f943b6706274840fc226b1ec12f969a882029a231a3f92319b752ae2a007e498",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-osaka-nakanoshima-800w.webp",
+        "width": 800,
+        "height": 534,
+        "sha256": "37336e6292dd8bfcb541d83ef318386676d0ec0b4473df9d982dbfbffd3f48a2",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-osaka-umeda.webp",
+        "width": 1024,
+        "height": 768,
+        "sha256": "9cdc03cd8fe043919954f5f37b48b942f939d31905171fea1193740e55174ac0",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-osaka-umeda-480w.webp",
+        "width": 480,
+        "height": 360,
+        "sha256": "55b084f059c64c4b074218da0fce17ac7730b2a47b85cf39b6c6bdc174988809",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-osaka-umeda-800w.webp",
+        "width": 800,
+        "height": 600,
+        "sha256": "27836ec5f476f2eae9922c734283a12f9cb338ceb1fb06b91b68bf22c2d92689",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-miami-deering.webp",
+        "width": 1023,
+        "height": 687,
+        "sha256": "04b24c5626cd78ca22f92d6533071d0d3f7f9c3ab9eb07417c16ca39a945b567",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-miami-deering-480w.webp",
+        "width": 480,
+        "height": 322,
+        "sha256": "d1de69bbdc87c74f8ce11678ca088b5f608cdde712fba1acf34b25f1dbfc60c1",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-miami-deering-800w.webp",
+        "width": 800,
+        "height": 537,
+        "sha256": "18d2143943066cdac97bc3947d2fa70dfdf655b5de2f5fb324aa32127e2f6c79",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-miami-fairchild.webp",
+        "width": 1024,
+        "height": 768,
+        "sha256": "a1ab42accbe32e99622bbf3ef3cba7c7b9b1029763a0a37a8489db98fd59350e",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-miami-fairchild-480w.webp",
+        "width": 480,
+        "height": 360,
+        "sha256": "626ba03ee022445254cbd1c6a3dd0c007a22876d4c7bdf2c7d0bec7efc744b76",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-miami-fairchild-800w.webp",
+        "width": 800,
+        "height": 600,
+        "sha256": "9e4b25732a58488eef748af75bdc8c538707fc74ed3eb22c61a42fe11a486b26",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-miami-pinecrest.webp",
+        "width": 1280,
+        "height": 960,
+        "sha256": "0699ca7d5f9cf711290e1681f2253414ef122b6cc17676faa059c6ad4a349429",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-miami-pinecrest-480w.webp",
+        "width": 480,
+        "height": 360,
+        "sha256": "573f8f943570a53883bd272295285f21df3ecc7a0a6ddca782f9512af61dac5d",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-miami-pinecrest-800w.webp",
+        "width": 800,
+        "height": 600,
+        "sha256": "605c9ac78327444b076ae87b57392a82fd7340d37764a81bf4eff00870ef2f8f",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-miami-pinecrest-1200w.webp",
+        "width": 1200,
+        "height": 900,
+        "sha256": "dc33e74139107f8c1676676225e045903ca9220b358301004c1602c44cf36949",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-osaka-midosuji-day.webp",
+        "width": 1024,
+        "height": 768,
+        "sha256": "6ecc7a1347b1fbff4851e8ccb79cdeb1c0fd6e8f625d8777f9343693349658f6",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-osaka-midosuji-day-480w.webp",
+        "width": 480,
+        "height": 360,
+        "sha256": "f7d861975b0d00cf04f415bb703574b97986ed9b094078043e28ca9adc969d22",
+        "status": 200
+      },
+      {
+        "type": "photo-bytes",
+        "path": "/images/pk-christmas-osaka-midosuji-day-800w.webp",
+        "width": 800,
+        "height": 600,
+        "sha256": "96f66804866db21b55f970e30cccb02427dfc0388d754610e1e5b2ee57224f8e",
+        "status": 200
+      }
+    ],
+    "requests": [
+      {
+        "url": "http://127.0.0.1:4327/en/explore/america/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/en/explore/america/",
+        "sha256": "dd07ac2d8d3752c6673192f20e3c8ef8d830700bacf20213b8e56693551e4609"
+      },
+      {
+        "url": "http://127.0.0.1:4327/en/guides/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/en/guides/",
+        "sha256": "402f181e3f186d0ea660bcd039887bc2c1c8260a6ccf6a66a3aeaafb04ce0050"
+      },
+      {
+        "url": "http://127.0.0.1:4327/es/explorar/america/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/es/explorar/america/",
+        "sha256": "abebe2db2cc4bea9fa9f1bf9912abe0fd44966263ec9a1ade87acb8a8c84b798"
+      },
+      {
+        "url": "http://127.0.0.1:4327/es/guias/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/es/guias/",
+        "sha256": "0902ce323a20bf6ae222c4996c46d7c438afeb06b33c84519abb8565b5b026d3"
+      },
+      {
+        "url": "http://127.0.0.1:4327/en/explore/asia/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/en/explore/asia/",
+        "sha256": "d000944e0960050fcd8225e0eae3adc961f223e86d473c55684b3ab7d00cee0b"
+      },
+      {
+        "url": "http://127.0.0.1:4327/es/explorar/asia/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/es/explorar/asia/",
+        "sha256": "fefed403b5a4166b37bab3b59b9bf72d55577613512a55a7ffd811e811a78bfb"
+      },
+      {
+        "url": "http://127.0.0.1:4327/en/explore/europe/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/en/explore/europe/",
+        "sha256": "804072085978970f35246cf8442f321a1409c2d76b305800d122f70eefe1dd48"
+      },
+      {
+        "url": "http://127.0.0.1:4327/es/explorar/europe/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/es/explorar/europe/",
+        "sha256": "87f10a9f5224666b16ebb35a8009ee9a81001020d1ac291fe903e70e250f4953"
+      },
+      {
+        "url": "http://127.0.0.1:4327/sitemap.xml",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/sitemap.xml",
+        "sha256": "1c2a6146f794456888585d6e977cabf964e6bd8a1b1c8f04547c8075c8547fb2"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-venice-campo.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-venice-campo.webp",
+        "sha256": "05a43f57bd07f03744935d6ea3c08b1718389abced88d7f85928477730af58d5"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-venice-campo-480w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-venice-campo-480w.webp",
+        "sha256": "debf45591cce97c3a079ca50683c1c9f06367266caf0d5f829e70106a4b9c6ef"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-venice-campo-800w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-venice-campo-800w.webp",
+        "sha256": "d3e1874c9151f58ea283c4db8209dbb397933f7ca95e279bb781f84066b70f86"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-venice-soranzo.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-venice-soranzo.webp",
+        "sha256": "e36dfb607a87796e1c345ea0b1490b5d43d3f7bd981a92955ec970b4fdc98424"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-venice-soranzo-480w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-venice-soranzo-480w.webp",
+        "sha256": "a6b0a1835ad0dc209f4e737e3ae579495689e252a1e6c837d085715b2a4157d9"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-venice-marco.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-venice-marco.webp",
+        "sha256": "1a66864cd04e8dd56feded02b08bf63e373e5f89feacea0a9d670ad869e76680"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-venice-marco-480w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-venice-marco-480w.webp",
+        "sha256": "57aa8115854299cd064aa44bbbca8bc756e29cb6277cba1ac7083d39a2f0a4e4"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-venice-marco-800w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-venice-marco-800w.webp",
+        "sha256": "efe2016baceaafba407dfabc034dfe82cf28eca8f1cc635d342625ae673a7a38"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-osaka-nakanoshima.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-osaka-nakanoshima.webp",
+        "sha256": "a5d81235a541f3683ef03493d59696b907934fe43295e34174018a147f1d62a2"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-osaka-nakanoshima-480w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-osaka-nakanoshima-480w.webp",
+        "sha256": "f943b6706274840fc226b1ec12f969a882029a231a3f92319b752ae2a007e498"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-osaka-nakanoshima-800w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-osaka-nakanoshima-800w.webp",
+        "sha256": "37336e6292dd8bfcb541d83ef318386676d0ec0b4473df9d982dbfbffd3f48a2"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-osaka-umeda.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-osaka-umeda.webp",
+        "sha256": "9cdc03cd8fe043919954f5f37b48b942f939d31905171fea1193740e55174ac0"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-osaka-umeda-480w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-osaka-umeda-480w.webp",
+        "sha256": "55b084f059c64c4b074218da0fce17ac7730b2a47b85cf39b6c6bdc174988809"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-osaka-umeda-800w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-osaka-umeda-800w.webp",
+        "sha256": "27836ec5f476f2eae9922c734283a12f9cb338ceb1fb06b91b68bf22c2d92689"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-miami-deering.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-miami-deering.webp",
+        "sha256": "04b24c5626cd78ca22f92d6533071d0d3f7f9c3ab9eb07417c16ca39a945b567"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-miami-deering-480w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-miami-deering-480w.webp",
+        "sha256": "d1de69bbdc87c74f8ce11678ca088b5f608cdde712fba1acf34b25f1dbfc60c1"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-miami-deering-800w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-miami-deering-800w.webp",
+        "sha256": "18d2143943066cdac97bc3947d2fa70dfdf655b5de2f5fb324aa32127e2f6c79"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-miami-fairchild.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-miami-fairchild.webp",
+        "sha256": "a1ab42accbe32e99622bbf3ef3cba7c7b9b1029763a0a37a8489db98fd59350e"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-miami-fairchild-480w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-miami-fairchild-480w.webp",
+        "sha256": "626ba03ee022445254cbd1c6a3dd0c007a22876d4c7bdf2c7d0bec7efc744b76"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-miami-fairchild-800w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-miami-fairchild-800w.webp",
+        "sha256": "9e4b25732a58488eef748af75bdc8c538707fc74ed3eb22c61a42fe11a486b26"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-miami-pinecrest.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-miami-pinecrest.webp",
+        "sha256": "0699ca7d5f9cf711290e1681f2253414ef122b6cc17676faa059c6ad4a349429"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-miami-pinecrest-480w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-miami-pinecrest-480w.webp",
+        "sha256": "573f8f943570a53883bd272295285f21df3ecc7a0a6ddca782f9512af61dac5d"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-miami-pinecrest-800w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-miami-pinecrest-800w.webp",
+        "sha256": "605c9ac78327444b076ae87b57392a82fd7340d37764a81bf4eff00870ef2f8f"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-miami-pinecrest-1200w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-miami-pinecrest-1200w.webp",
+        "sha256": "dc33e74139107f8c1676676225e045903ca9220b358301004c1602c44cf36949"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-osaka-midosuji-day.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-osaka-midosuji-day.webp",
+        "sha256": "6ecc7a1347b1fbff4851e8ccb79cdeb1c0fd6e8f625d8777f9343693349658f6"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-osaka-midosuji-day-480w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-osaka-midosuji-day-480w.webp",
+        "sha256": "f7d861975b0d00cf04f415bb703574b97986ed9b094078043e28ca9adc969d22"
+      },
+      {
+        "url": "http://127.0.0.1:4327/images/pk-christmas-osaka-midosuji-day-800w.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4327/images/pk-christmas-osaka-midosuji-day-800w.webp",
+        "sha256": "96f66804866db21b55f970e30cccb02427dfc0388d754610e1e5b2ee57224f8e"
+      }
+    ],
+    "counts": {
+      "records": 86,
+      "actualNetworkRequests": 36,
+      "articleBrowser": 12,
+      "countryHubBrowser": 16,
+      "photoFiles": 27
+    }
+  },
+  "visualReview": "All three Spanish guides inspected at desktop1440x1000 and mobile390x844;9 documentary photos inspected in source previews and optimized contact sheet. Third-party ad/Analytics providers mocked, no impressions generated.",
+  "implementationScope": "Shared existing city pages retained. Correct explicit seasonal card title/cover; root guide preferred for ordinary cards/destination hero; regression assertions strengthened. No CSS,brand,ads,Analytics,URL or schedule edits.",
+  "testLogSha256": {
+    "check": "72bd54df82a9547ff9dca830681986aa1cba4146176370a540b2a906e411c69a",
+    "unit": "2dda71c3e1c195b81a0b8460a1d88cff068cc4bc7fdb3ec0c53dea3052966912",
+    "build": "dced5bd63aeaa344a94bf87dede0f37a888558c13f5fd719d1063c7ada96bb12",
+    "e2e": "078c1c0d724a035060d8da1d90d751e39cbddedf182decb279769ddaf365c1dc",
+    "release": "11ce1781925771f4bae28af0ee6fbc296daa169c9c4c9ddf58469b70dfe30981",
+    "release-tests": "61b8827922e9ad64a9c7185eeb92eaae3275dbf0bedc7d88f336fa93f1a734ec",
+    "local-qa": "52e6dfa49e8c0c0e22ea9dfa18aa83546b7ab3ad9f3cbaf09ed9940367501525"
+  }
+}

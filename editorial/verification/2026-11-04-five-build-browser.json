@@ -1,0 +1,3082 @@
+{
+  "checkedAt": "2026-11-05T03:32:23.216660+00:00",
+  "batch": "2026-11-04-five-manual",
+  "status": "local-production-verified-public-pending",
+  "commands": {
+    "check": {
+      "exitCode": 0,
+      "logSha256": "075ae546333f3c23af716c61fee899b798035b322aa4ba0f93e15e7c52d26171"
+    },
+    "unit": {
+      "exitCode": 0,
+      "logSha256": "fdaf398ca13b6f0618a8e5df82bb462a2471e188a0775eb47268d7d0d228e894",
+      "passed": 33
+    },
+    "e2e": {
+      "exitCode": 0,
+      "logSha256": "8f52991f23d5d60ef76006acfa7bede2fd3671dfb67cef6b7c89dbd68710b70a",
+      "passed": 28
+    },
+    "build": {
+      "exitCode": 0,
+      "logSha256": "e047f1f43f11c94f68d1fcf43050b321ce3c5c2d60307c92bd2df34b63738603"
+    },
+    "release-build": {
+      "exitCode": 0,
+      "logSha256": "e0be10313039a95198996c9953598d215cf7487e6bc1022603252a64df345a7b"
+    },
+    "release-tests": {
+      "exitCode": 0,
+      "logSha256": "31521e034c0a62858753fd47c402cbafab39151a5cffa303d36ac02fabd29549",
+      "passed": 48
+    },
+    "local-qa": {
+      "exitCode": 0,
+      "logSha256": "fc01aadc8fa73be9c77d121b89b9f8500ba08ae6945a955762506ec50a46fd56"
+    },
+    "editorial-report": {
+      "exitCode": 0,
+      "logSha256": "363bed0c2153189ceb4c0baade93bbbce8848196dc91613c5b2b626228a7ff70"
+    }
+  },
+  "productionHtmlPages": 746,
+  "sitemapUrls": 722,
+  "localChecks": {
+    "checkedAt": "2026-11-05T03:32:06.618Z",
+    "origin": "http://127.0.0.1:4325",
+    "browserTransport": "Local production preview; external providers blocked.",
+    "checks": [
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-bogota/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-bogota/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-christchurch/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-christchurch/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-durban/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-durban/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-osaka/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-osaka/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-valencia/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-valencia/",
+        "width": 1440,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-bogota/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-bogota/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-christchurch/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-christchurch/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-durban/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-durban/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-osaka/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-osaka/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/en/guides/things-to-do-in-valencia/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "browser",
+        "path": "/es/guias/que-ver-en-valencia/",
+        "width": 390,
+        "photos": 4,
+        "seo": true,
+        "translation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Bogot%C3%A1",
+        "article": "/en/guides/things-to-do-in-bogota/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Bogot%C3%A1",
+        "article": "/es/guias/que-ver-en-bogota/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Christchurch",
+        "article": "/en/guides/things-to-do-in-christchurch/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Christchurch",
+        "article": "/es/guias/que-ver-en-christchurch/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Durban",
+        "article": "/en/guides/things-to-do-in-durban/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Durban",
+        "article": "/es/guias/que-ver-en-durban/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Osaka",
+        "article": "/en/guides/things-to-do-in-osaka/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Osaka",
+        "article": "/es/guias/que-ver-en-osaka/"
+      },
+      {
+        "type": "search",
+        "path": "/en/search/?q=Valencia",
+        "article": "/en/guides/things-to-do-in-valencia/"
+      },
+      {
+        "type": "search",
+        "path": "/es/buscar/?q=Valencia",
+        "article": "/es/guias/que-ver-en-valencia/"
+      },
+      {
+        "type": "search-alias",
+        "path": "/es/buscar/?q=Bogota",
+        "article": "/es/guias/que-ver-en-bogota/"
+      },
+      {
+        "type": "sitemap",
+        "articles": 296,
+        "urls": 722
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/bogota/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-co/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/bogota/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/america/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-co/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/christchurch/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/oceania/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-nz/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/christchurch/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/oceania/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-nz/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/durban/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/africa/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-za/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/durban/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/africa/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-za/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/osaka/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-jp/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/osaka/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/asia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-jp/"
+      },
+      {
+        "type": "destination",
+        "path": "/en/destinations/valencia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/europe/"
+      },
+      {
+        "type": "discovery",
+        "path": "/en/explore/country-es/"
+      },
+      {
+        "type": "destination",
+        "path": "/es/destinos/valencia/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/europe/"
+      },
+      {
+        "type": "discovery",
+        "path": "/es/explorar/country-es/"
+      },
+      {
+        "type": "christmas-collection",
+        "path": "/es/navidad/",
+        "seasonalGuides": 42,
+        "allLinked": true
+      },
+      {
+        "type": "home-and-guide-index",
+        "path": "/es/",
+        "recentlyLinked": 5,
+        "index": "/es/guias/",
+        "allFiveDestinationCards": true
+      },
+      {
+        "type": "christmas-collection",
+        "path": "/en/christmas/",
+        "seasonalGuides": 42,
+        "allLinked": true
+      },
+      {
+        "type": "home-and-guide-index",
+        "path": "/en/",
+        "recentlyLinked": 5,
+        "index": "/en/guides/",
+        "allFiveDestinationCards": true
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-bogota-gold.webp",
+        "status": 200,
+        "sha256": "9cc691b3bc4079c482e72cbda4b60f91ae1c615a46532ffa2022ca4babdd1735"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-bogota-gold-480w.webp",
+        "status": 200,
+        "sha256": "aa70e9736187df7a7f275ab9082eb79097dca65a346b72c708e7b168e0384818"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-bogota-gold-800w.webp",
+        "status": 200,
+        "sha256": "1557dcabbbc1fbf924ee9675aae4576324d1b7af20ca07df0bd5a02922ff6d00"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-bogota-monserrate.webp",
+        "status": 200,
+        "sha256": "1918432fc300ebd9924606276ffaeb70337d1915f09ae6c909bccce12505d45f"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-bogota-monserrate-480w.webp",
+        "status": 200,
+        "sha256": "2c20a2df2f4f3d1a4e9139b72734ad337e9ccca7d1a0aa5efe120a0eb1140bf9"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-bogota-monserrate-800w.webp",
+        "status": 200,
+        "sha256": "10368dfbeb676abef93e482ee9ef1c264bbe2295e557c451760da238e3974673"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-bogota-garden.webp",
+        "status": 200,
+        "sha256": "64b976355e73919bda77704004d32387d0b5f2d80d5db4b6745526f008ad2968"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-bogota-garden-480w.webp",
+        "status": 200,
+        "sha256": "a60acd841554ddec84d75fa15036f3b95980ab384dd352b427fe70ab7f487210"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-bogota-garden-800w.webp",
+        "status": 200,
+        "sha256": "9bae01300b4f8c8912fef3fb2c9e18579064d2d6f12396532321b6e6d01f8328"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-valencia-market.webp",
+        "status": 200,
+        "sha256": "1f56c95d58727c942e5d55d6cff7b5ff8dead9f0ac8f1963418810fe8c8b16e2"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-valencia-market-480w.webp",
+        "status": 200,
+        "sha256": "d3a56049a210d14416bc629d03a6d53e4c4f181bc12d217727f484961d65d8f0"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-valencia-market-800w.webp",
+        "status": 200,
+        "sha256": "b60320cdef0ba99fb56fb2106447484cfe980ec74c9488a65c3e290b0f3eb80d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-valencia-turia.webp",
+        "status": 200,
+        "sha256": "66bed481e5fdeea658f74611d03bc517627e1d6f3169002343bf9a8f2f8ec086"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-valencia-turia-480w.webp",
+        "status": 200,
+        "sha256": "3e33f9f9dd3f2671ccbf59d38eb81fffb542a180678e89e702e74026fed84438"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-valencia-turia-800w.webp",
+        "status": 200,
+        "sha256": "f3ab3e9117594b19d52832554c837d185a2bd042a6dec238be911f48764288c9"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-valencia-arts.webp",
+        "status": 200,
+        "sha256": "1e26ce1c2a44420557ec0387533ded7e5f3c2a86b59b7ed385f5593ea283f722"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-valencia-arts-480w.webp",
+        "status": 200,
+        "sha256": "3cac99b23447ec7f36b7503008a43bce7cf54e2633d1d1f74a40f9bba7ca5f1d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-valencia-arts-800w.webp",
+        "status": 200,
+        "sha256": "75d1970e3559e7ffdd6df886b1eb26cce330e8afed75cad2692bc7eb98c73cef"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-osaka-castle.webp",
+        "status": 200,
+        "sha256": "643650dc79fe0cbde9bbd0b2db838592ea90e495b9345f117696d526056199ed"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-osaka-castle-480w.webp",
+        "status": 200,
+        "sha256": "579c958d6ddfba34a55f2003491cb085079ecb62ad850ffe44f6831130c2c7db"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-osaka-castle-800w.webp",
+        "status": 200,
+        "sha256": "59001420de47c1886a55e61ea05b64305fe351834c1eb00027d215db1fd25e8e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-osaka-dotonbori.webp",
+        "status": 200,
+        "sha256": "69388a30d0c7f0a0ccfc62c457f6e6e87318e4880babb13879bb8431284375b5"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-osaka-dotonbori-480w.webp",
+        "status": 200,
+        "sha256": "1a8d9b4a7f0c0f00cd2e0fed19c7f294634cf159cb24c3864d72125fbd713248"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-osaka-dotonbori-800w.webp",
+        "status": 200,
+        "sha256": "3f873dd732bca9184aed236c7f96902a35eadad83a96194304434146ce0dc2c5"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-osaka-shitennoji.webp",
+        "status": 200,
+        "sha256": "bc288fae7e4c70f6214876cdc792dd42a50a631e60a4e750ad3b3bde6278a71c"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-osaka-shitennoji-480w.webp",
+        "status": 200,
+        "sha256": "91360ee968d4dbd4f5097bcbbc5e060bb1b0be602c2352510874e4761021c5dd"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-osaka-shitennoji-800w.webp",
+        "status": 200,
+        "sha256": "5356f6d8672c95dd50d0083a845cd94e1dfc3287e6442605702ea98f530e077b"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-durban-mile.webp",
+        "status": 200,
+        "sha256": "696d60b6ddc3b7ed20b0d4ed4c6e0dcd47f65624ebe276a4391be8dc22bee9d9"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-durban-mile-480w.webp",
+        "status": 200,
+        "sha256": "e9101bed6bb14bb37e025e76926c6a38aaab4ad1e4e588bd1422af6ca2beb86a"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-durban-mile-800w.webp",
+        "status": 200,
+        "sha256": "edefeb73c0133fa588d32448f05ec6c62790791b7baf1d3124cae5b997eb6d80"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-durban-garden.webp",
+        "status": 200,
+        "sha256": "b04d16a215f8518d44c5eb57a790268453daf7769bcc91c0d29754d6b923d2e6"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-durban-garden-480w.webp",
+        "status": 200,
+        "sha256": "95d7d1af6769a9d0a8ce09ef67a69f095ec7e0f871288b14f5ea78938310b453"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-durban-ushaka.webp",
+        "status": 200,
+        "sha256": "4995394a48d53c9df7591646e259dde08c792c2f577e935b53bde0abe3d2f319"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-durban-ushaka-480w.webp",
+        "status": 200,
+        "sha256": "d36400bff405f031ba6426e07413c3a8110b112fea13eaf445ad508bd637875e"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-durban-ushaka-800w.webp",
+        "status": 200,
+        "sha256": "211412720e16fb3d2e5c920ced756c19c40baaee70e413988269e623ddd83542"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-christchurch-garden.webp",
+        "status": 200,
+        "sha256": "a7eca2134628a9523847a0bf63b1489368b65241b0df5eacfecc864782596e4d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-christchurch-garden-480w.webp",
+        "status": 200,
+        "sha256": "e4b07ddbe76487f1c2311033045731d635fe7a336b499a43acee3a92600792a0"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-christchurch-garden-800w.webp",
+        "status": 200,
+        "sha256": "be15f7f213eb4ae4f50cb4577695dfd816076d10c242952548efc0926aef61bf"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-christchurch-gallery.webp",
+        "status": 200,
+        "sha256": "75fe521b5a15c2e40952cb17dd33836add9de37792fbc9974340d3f73b356d5d"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-christchurch-gallery-480w.webp",
+        "status": 200,
+        "sha256": "de2096020a9da6627c4de9f08629220f7df363692b6751d59e77c33fb79455ed"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-christchurch-gallery-800w.webp",
+        "status": 200,
+        "sha256": "48091d67958c3fa439ffe39e7f0b705fc3ed6d50cf384eb9b08bf75a11e19ac5"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-christchurch-riverside.webp",
+        "status": 200,
+        "sha256": "e6022842072baa9d100580ed4aaad1462776d05a402ca704dd51a66d6d693855"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-christchurch-riverside-480w.webp",
+        "status": 200,
+        "sha256": "e732b313793743c64ace8a28c69cd4c1570304e6ab9982aece158ca2096b80a2"
+      },
+      {
+        "type": "photo",
+        "path": "/images/pf-christchurch-riverside-800w.webp",
+        "status": 200,
+        "sha256": "d50acc38854825d84e195b8d54879ffcb6147bcbfa1c7b22fd8a6c93349a2069"
+      }
+    ],
+    "errors": []
+  },
+  "renderedCalendarDates": {
+    "checkedAt": "2026-11-05T03:30:53.784Z",
+    "checks": [
+      {
+        "path": "/en/guides/what-to-see-in-adelaide/",
+        "publishedAt": "2026-11-02T16:19:11.224Z",
+        "shown": "November 2, 2026",
+        "expected": "November 2, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-adelaide/",
+        "publishedAt": "2026-11-02T16:19:11.224Z",
+        "shown": "2 de noviembre de 2026",
+        "expected": "2 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-san-pedro-de-atacama/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-san-pedro-de-atacama/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/athens-in-two-days/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-atenas-en-dos-dias/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/places-to-visit-bali/",
+        "publishedAt": "2026-10-28T23:16:18.052Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bali/",
+        "publishedAt": "2026-10-28T23:16:18.052Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/places-to-visit-bangkok/",
+        "publishedAt": "2026-10-28T23:16:18.052Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bangkok/",
+        "publishedAt": "2026-10-28T23:16:18.052Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-barcelona/",
+        "publishedAt": "2026-10-28T23:11:55.922Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-barcelona/",
+        "publishedAt": "2026-10-28T23:11:55.922Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/bariloche-graduation-trip/",
+        "publishedAt": "2026-11-02T17:03:34.551Z",
+        "shown": "November 2, 2026",
+        "expected": "November 2, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/viaje-egresados-bariloche/",
+        "publishedAt": "2026-11-02T17:03:34.551Z",
+        "shown": "2 de noviembre de 2026",
+        "expected": "2 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-beijing/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-pekin/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/things-to-do-in-bogota/",
+        "publishedAt": "2026-11-04T22:16:54.582177-05:00",
+        "shown": "November 4, 2026",
+        "expected": "November 4, 2026",
+        "timeZone": "America/New_York",
+        "unchangedExisting": false
+      },
+      {
+        "path": "/es/guias/que-ver-en-bogota/",
+        "publishedAt": "2026-11-04T22:16:54.582177-05:00",
+        "shown": "4 de noviembre de 2026",
+        "expected": "4 de noviembre de 2026",
+        "timeZone": "America/New_York",
+        "unchangedExisting": false
+      },
+      {
+        "path": "/en/guides/what-to-see-in-brisbane/",
+        "publishedAt": "2026-11-01T16:54:08.140Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-brisbane/",
+        "publishedAt": "2026-11-01T16:54:08.140Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-budapest/",
+        "publishedAt": "2026-10-31T16:57:14.701Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-budapest/",
+        "publishedAt": "2026-10-31T16:57:14.701Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-buenos-aires/",
+        "publishedAt": "2026-10-28T23:10:15.693Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-buenos-aires/",
+        "publishedAt": "2026-10-28T23:10:15.692Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/buffalo-in-november/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/buffalo-en-noviembre/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-cairo-and-giza/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-el-cairo-y-guiza/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-cape-town/",
+        "publishedAt": "2026-10-28T23:13:26.048Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/",
+        "publishedAt": "2026-10-28T23:13:26.048Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-cartagena/",
+        "publishedAt": "2026-10-30T20:01:02.123Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-cartagena-3-lugares/",
+        "publishedAt": "2026-10-30T20:01:02.123Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/things-to-do-in-christchurch/",
+        "publishedAt": "2026-11-04T22:16:54.582177-05:00",
+        "shown": "November 4, 2026",
+        "expected": "November 4, 2026",
+        "timeZone": "America/New_York",
+        "unchangedExisting": false
+      },
+      {
+        "path": "/es/guias/que-ver-en-christchurch/",
+        "publishedAt": "2026-11-04T22:16:54.582177-05:00",
+        "shown": "4 de noviembre de 2026",
+        "expected": "4 de noviembre de 2026",
+        "timeZone": "America/New_York",
+        "unchangedExisting": false
+      },
+      {
+        "path": "/en/guides/christmas-in-amsterdam/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-amsterdam/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-barcelona/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-barcelona/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-basel/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-basilea/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-berlin/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-berlin/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-bruges/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-brujas/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-brussels/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-bruselas/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-budapest/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-budapest/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-chicago/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-chicago/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-colmar/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-colmar/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-cologne/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-colonia/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-copenhagen/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-copenhague/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-dresden/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-dresde/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-dublin/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-dublin/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-edinburgh/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-edimburgo/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-florence/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-florencia/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-helsinki/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-helsinki/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-innsbruck/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-innsbruck/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-london/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-londres/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-lucerne/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-lucerna/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-madrid/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-madrid/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-malaga/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-malaga/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-milan/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-milan/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-montreal/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-montreal/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-munich/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-munich/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-new-york/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-nueva-york/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-nuremberg/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-nuremberg/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-paris/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-paris/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-prague/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-praga/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-quebec/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-quebec/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-rome/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-roma/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-rovaniemi/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-rovaniemi/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-salzburg/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-salzburgo/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-seville/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-sevilla/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-singapore/",
+        "publishedAt": "2026-11-04T19:48:41.725312+00:00",
+        "shown": "November 4, 2026",
+        "expected": "November 4, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-singapur/",
+        "publishedAt": "2026-11-04T19:48:41.725312+00:00",
+        "shown": "4 de noviembre de 2026",
+        "expected": "4 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-stockholm/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-estocolmo/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-strasbourg/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-estrasburgo/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-sydney/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-sidney/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-tallinn/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-tallin/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-tokyo/",
+        "publishedAt": "2026-11-04T19:48:41.725312+00:00",
+        "shown": "November 4, 2026",
+        "expected": "November 4, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-tokio/",
+        "publishedAt": "2026-11-04T19:48:41.725312+00:00",
+        "shown": "4 de noviembre de 2026",
+        "expected": "4 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-vienna/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-viena/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-vigo/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-vigo/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/christmas-in-zurich/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/navidad-en-zurich/",
+        "publishedAt": "2026-11-01T18:12:31.656Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/columbus-in-november/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/columbus-en-noviembre/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-copenhagen/",
+        "publishedAt": "2026-10-31T16:57:14.701Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-copenhague/",
+        "publishedAt": "2026-10-31T16:57:14.701Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-cordoba/",
+        "publishedAt": "2026-11-02T16:19:11.224Z",
+        "shown": "November 2, 2026",
+        "expected": "November 2, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-cordoba/",
+        "publishedAt": "2026-11-02T16:19:11.224Z",
+        "shown": "2 de noviembre de 2026",
+        "expected": "2 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-and-around-cusco/",
+        "publishedAt": "2026-10-28T23:10:15.695Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/",
+        "publishedAt": "2026-10-28T23:10:15.695Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/doha-november-f1/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/doha-noviembre-f1/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/dubai-in-two-days/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-dubai-en-dos-dias/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/things-to-do-in-dunedin/",
+        "publishedAt": "2026-11-04T17:16:16.327395+00:00",
+        "shown": "November 4, 2026",
+        "expected": "November 4, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-dunedin/",
+        "publishedAt": "2026-11-04T17:16:16.327395+00:00",
+        "shown": "4 de noviembre de 2026",
+        "expected": "4 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/things-to-do-in-durban/",
+        "publishedAt": "2026-11-04T22:16:54.582177-05:00",
+        "shown": "November 4, 2026",
+        "expected": "November 4, 2026",
+        "timeZone": "America/New_York",
+        "unchangedExisting": false
+      },
+      {
+        "path": "/es/guias/que-ver-en-durban/",
+        "publishedAt": "2026-11-04T22:16:54.582177-05:00",
+        "shown": "4 de noviembre de 2026",
+        "expected": "4 de noviembre de 2026",
+        "timeZone": "America/New_York",
+        "unchangedExisting": false
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-edinburgh/",
+        "publishedAt": "2026-10-29T16:32:20.582Z",
+        "shown": "October 29, 2026",
+        "expected": "October 29, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-edinburgh/",
+        "publishedAt": "2026-10-29T16:32:20.580Z",
+        "shown": "29 de octubre de 2026",
+        "expected": "29 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-essaouira/",
+        "publishedAt": "2026-11-02T16:19:11.224Z",
+        "shown": "November 2, 2026",
+        "expected": "November 2, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-essaouira/",
+        "publishedAt": "2026-11-02T16:19:11.224Z",
+        "shown": "2 de noviembre de 2026",
+        "expected": "2 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-florence/",
+        "publishedAt": "2026-11-01T16:54:08.140Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-florencia/",
+        "publishedAt": "2026-11-01T16:54:08.140Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/goa-in-november/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/goa-en-noviembre/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-granada/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-granada/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/greenville-south-carolina-november/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/greenville-carolina-del-sur-noviembre/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/halloween-australia-gold-coast-sydney-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/halloween-australia-gold-coast-sidney-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/halloween-canada-vancouver-quebec-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/halloween-canada-vancouver-quebec-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/halloween-france-parc-asterix-catacombs-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/halloween-francia-parc-asterix-catacumbas-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/halloween-germany-movie-park-berlin-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/halloween-alemania-movie-park-berlin-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/halloween-ireland-puca-trim-athboy-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/halloween-irlanda-puca-trim-athboy-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/halloween-japan-disneyland-disneysea-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/halloween-japon-disneyland-disneysea-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/halloween-netherlands-walibi-toverland-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/halloween-paises-bajos-walibi-toverland-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/halloween-spain-portaventura-warner-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/halloween-espana-portaventura-warner-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/halloween-uk-derry-edinburgh-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/halloween-reino-unido-derry-edimburgo-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/halloween-usa-salem-orlando-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/halloween-estados-unidos-salem-orlando-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hanoi/",
+        "publishedAt": "2026-11-01T16:54:08.140Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-hanoi/",
+        "publishedAt": "2026-11-01T16:54:08.140Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/5-remarkable-places-to-discover-in-hawaii/",
+        "publishedAt": "2026-10-28T23:13:07.796Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/",
+        "publishedAt": "2026-10-28T23:13:07.796Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/hilo-in-november/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/hilo-en-noviembre/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hiroshima/",
+        "publishedAt": "2026-11-03T17:33:53.970Z",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-hiroshima/",
+        "publishedAt": "2026-11-03T17:33:53.970Z",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-hobart/",
+        "publishedAt": "2026-10-29T00:35:47.695Z",
+        "shown": "October 29, 2026",
+        "expected": "October 29, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-hobart/",
+        "publishedAt": "2026-10-29T00:35:47.695Z",
+        "shown": "29 de octubre de 2026",
+        "expected": "29 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hoi-an/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-hoi-an/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-hong-kong/",
+        "publishedAt": "2026-10-30T20:01:02.123Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-hong-kong-3-lugares/",
+        "publishedAt": "2026-10-30T20:01:02.123Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-iguazu/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-iguazu/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-istanbul/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-estambul/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-kuala-lumpur/",
+        "publishedAt": "2026-10-31T16:57:14.701Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-kuala-lumpur/",
+        "publishedAt": "2026-10-31T16:57:14.701Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/places-to-visit-kyoto/",
+        "publishedAt": "2026-10-28T23:16:18.052Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-kioto/",
+        "publishedAt": "2026-10-28T23:16:18.052Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/las-vegas-november-f1/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/las-vegas-noviembre-f1/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-lima/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-lima/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-lisbon/",
+        "publishedAt": "2026-10-28T23:10:15.703Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-lisboa/",
+        "publishedAt": "2026-10-28T23:10:15.696Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/things-to-do-in-ljubljana/",
+        "publishedAt": "2026-11-04T17:16:16.327395+00:00",
+        "shown": "November 4, 2026",
+        "expected": "November 4, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-liubliana/",
+        "publishedAt": "2026-11-04T17:16:16.327395+00:00",
+        "shown": "4 de noviembre de 2026",
+        "expected": "4 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-london/",
+        "publishedAt": "2026-10-28T23:11:55.922Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-londres/",
+        "publishedAt": "2026-10-28T23:11:55.922Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-lucerne/",
+        "publishedAt": "2026-10-29T00:35:56.215Z",
+        "shown": "October 29, 2026",
+        "expected": "October 29, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-lucerna/",
+        "publishedAt": "2026-10-29T00:35:56.215Z",
+        "shown": "29 de octubre de 2026",
+        "expected": "29 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-luxor/",
+        "publishedAt": "2026-10-30T20:01:02.123Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-luxor-3-lugares/",
+        "publishedAt": "2026-10-30T20:01:02.123Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-madrid/",
+        "publishedAt": "2026-10-30T20:01:02.123Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-madrid-3-lugares/",
+        "publishedAt": "2026-10-30T20:01:02.123Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-marrakech/",
+        "publishedAt": "2026-10-28T23:13:26.048Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-marrakech/",
+        "publishedAt": "2026-10-28T23:13:26.048Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-melbourne/",
+        "publishedAt": "2026-10-30T20:01:02.123Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-melbourne-3-lugares/",
+        "publishedAt": "2026-10-30T20:01:02.123Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-mexico-city/",
+        "publishedAt": "2026-10-28T23:13:07.796Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/",
+        "publishedAt": "2026-10-28T23:13:07.796Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-miami/",
+        "publishedAt": "2026-10-28T23:13:07.796Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "publishedAt": "2026-10-28T23:13:07.796Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/day-dead-merida-paseo-animas-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/dia-muertos-merida-paseo-animas-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/day-dead-mixquic-alumbrada-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/dia-muertos-mixquic-alumbrada-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/day-dead-oaxaca-centre-monte-alban-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/day-dead-puebla-tecamachalco-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "October 30, 2026",
+        "expected": "October 30, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/dia-muertos-puebla-tecamachalco-2026/",
+        "publishedAt": "2026-10-30T01:16:18.657Z",
+        "shown": "30 de octubre de 2026",
+        "expected": "30 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-nairobi/",
+        "publishedAt": "2026-10-29T00:36:03.047Z",
+        "shown": "October 29, 2026",
+        "expected": "October 29, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-nairobi/",
+        "publishedAt": "2026-10-29T00:36:03.047Z",
+        "shown": "29 de octubre de 2026",
+        "expected": "29 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-nara/",
+        "publishedAt": "2026-11-02T16:19:11.224Z",
+        "shown": "November 2, 2026",
+        "expected": "November 2, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-nara/",
+        "publishedAt": "2026-11-02T16:19:11.224Z",
+        "shown": "2 de noviembre de 2026",
+        "expected": "2 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/",
+        "publishedAt": "2026-10-28T23:13:07.796Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/",
+        "publishedAt": "2026-10-28T23:13:07.796Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/things-to-do-in-osaka/",
+        "publishedAt": "2026-11-04T22:16:54.582177-05:00",
+        "shown": "November 4, 2026",
+        "expected": "November 4, 2026",
+        "timeZone": "America/New_York",
+        "unchangedExisting": false
+      },
+      {
+        "path": "/es/guias/que-ver-en-osaka/",
+        "publishedAt": "2026-11-04T22:16:54.582177-05:00",
+        "shown": "4 de noviembre de 2026",
+        "expected": "4 de noviembre de 2026",
+        "timeZone": "America/New_York",
+        "unchangedExisting": false
+      },
+      {
+        "path": "/en/guides/what-to-see-in-ottawa/",
+        "publishedAt": "2026-10-31T16:57:14.701Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-ottawa/",
+        "publishedAt": "2026-10-31T16:57:14.701Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-paris/",
+        "publishedAt": "2026-10-28T23:11:55.922Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-imprescindibles-de-paris/",
+        "publishedAt": "2026-10-28T23:11:55.922Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-perth/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-perth/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/phuket-in-november/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/phuket-en-noviembre/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-porto/",
+        "publishedAt": "2026-10-31T16:57:14.701Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-oporto/",
+        "publishedAt": "2026-10-31T16:57:14.701Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/prague-in-two-days/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-praga-en-dos-dias/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/puri-in-november/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/puri-en-noviembre/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-quebec/",
+        "publishedAt": "2026-10-29T16:32:20.578Z",
+        "shown": "October 29, 2026",
+        "expected": "October 29, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-quebec/",
+        "publishedAt": "2026-10-29T16:32:20.568Z",
+        "shown": "29 de octubre de 2026",
+        "expected": "29 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-queenstown/",
+        "publishedAt": "2026-10-28T23:13:26.048Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-queenstown/",
+        "publishedAt": "2026-10-28T23:13:26.048Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-quito/",
+        "publishedAt": "2026-11-02T16:19:11.224Z",
+        "shown": "November 2, 2026",
+        "expected": "November 2, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-quito/",
+        "publishedAt": "2026-11-02T16:19:11.224Z",
+        "shown": "2 de noviembre de 2026",
+        "expected": "2 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-rabat/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-rabat/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-rio-de-janeiro/",
+        "publishedAt": "2026-10-28T23:10:15.692Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-rio-de-janeiro/",
+        "publishedAt": "2026-10-28T23:10:15.690Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-rome/",
+        "publishedAt": "2026-10-28T23:11:55.922Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-roma/",
+        "publishedAt": "2026-10-28T23:11:55.922Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-rotorua/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-rotorua/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-salvador/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-salvador/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-seoul/",
+        "publishedAt": "2026-10-29T00:36:25.215Z",
+        "shown": "October 29, 2026",
+        "expected": "October 29, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-seul/",
+        "publishedAt": "2026-10-29T00:36:25.215Z",
+        "shown": "29 de octubre de 2026",
+        "expected": "29 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-seville/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-sevilla/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/angkor-temples-from-siem-reap/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/templos-de-angkor-desde-siem-reap/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-singapore/",
+        "publishedAt": "2026-10-29T16:32:20.587Z",
+        "shown": "October 29, 2026",
+        "expected": "October 29, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-singapore/",
+        "publishedAt": "2026-10-29T16:32:20.585Z",
+        "shown": "29 de octubre de 2026",
+        "expected": "29 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-stone-town/",
+        "publishedAt": "2026-10-29T16:32:20.591Z",
+        "shown": "October 29, 2026",
+        "expected": "October 29, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-stone-town/",
+        "publishedAt": "2026-10-29T16:32:20.589Z",
+        "shown": "29 de octubre de 2026",
+        "expected": "29 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-sydney/",
+        "publishedAt": "2026-10-28T23:13:26.048Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-sidney/",
+        "publishedAt": "2026-10-28T23:13:26.048Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-taipei/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-taipei/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-tangier/",
+        "publishedAt": "2026-11-03T17:33:53.970Z",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-tanger/",
+        "publishedAt": "2026-11-03T17:33:53.970Z",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-tokyo/",
+        "publishedAt": "2026-10-28T22:48:01.792Z",
+        "shown": "October 28, 2026",
+        "expected": "October 28, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-tokio/",
+        "publishedAt": "2026-10-28T22:48:01.792Z",
+        "shown": "28 de octubre de 2026",
+        "expected": "28 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-tunis/",
+        "publishedAt": "2026-11-01T16:54:08.140Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-tunez/",
+        "publishedAt": "2026-11-01T16:54:08.140Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/udaipur-in-november/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "November 3, 2026",
+        "expected": "November 3, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/udaipur-en-noviembre/",
+        "publishedAt": "2026-11-03T23:21:20.945223+00:00",
+        "shown": "3 de noviembre de 2026",
+        "expected": "3 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-ushuaia/",
+        "publishedAt": "2026-11-01T16:54:08.140Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-ushuaia/",
+        "publishedAt": "2026-11-01T16:54:08.140Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/things-to-do-in-valencia/",
+        "publishedAt": "2026-11-04T22:16:54.582177-05:00",
+        "shown": "November 4, 2026",
+        "expected": "November 4, 2026",
+        "timeZone": "America/New_York",
+        "unchangedExisting": false
+      },
+      {
+        "path": "/es/guias/que-ver-en-valencia/",
+        "publishedAt": "2026-11-04T22:16:54.582177-05:00",
+        "shown": "4 de noviembre de 2026",
+        "expected": "4 de noviembre de 2026",
+        "timeZone": "America/New_York",
+        "unchangedExisting": false
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-vancouver/",
+        "publishedAt": "2026-10-29T00:34:15.331Z",
+        "shown": "October 29, 2026",
+        "expected": "October 29, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-vancouver/",
+        "publishedAt": "2026-10-29T00:34:15.331Z",
+        "shown": "29 de octubre de 2026",
+        "expected": "29 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-venice/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "November 1, 2026",
+        "expected": "November 1, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-venecia/",
+        "publishedAt": "2026-11-01T00:08:55.884Z",
+        "shown": "1 de noviembre de 2026",
+        "expected": "1 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/what-to-see-in-vienna/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "October 31, 2026",
+        "expected": "October 31, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-viena/",
+        "publishedAt": "2026-10-31T00:25:40.696Z",
+        "shown": "31 de octubre de 2026",
+        "expected": "31 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/carlos-paz-graduation-trip/",
+        "publishedAt": "2026-11-02T17:03:34.551Z",
+        "shown": "November 2, 2026",
+        "expected": "November 2, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/viaje-egresados-carlos-paz/",
+        "publishedAt": "2026-11-02T17:03:34.551Z",
+        "shown": "2 de noviembre de 2026",
+        "expected": "2 de noviembre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-wellington/",
+        "publishedAt": "2026-10-29T16:32:20.595Z",
+        "shown": "October 29, 2026",
+        "expected": "October 29, 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-wellington/",
+        "publishedAt": "2026-10-29T16:32:20.592Z",
+        "shown": "29 de octubre de 2026",
+        "expected": "29 de octubre de 2026",
+        "timeZone": "UTC",
+        "unchangedExisting": true
+      }
+    ],
+    "errors": []
+  },
+  "visualInspection": "Five Spanish desktop and five mobile screenshots reviewed: three relevant place photographs plus cover, readable headings, no clipping or horizontal overflow; dark 3D header and menu intact.",
+  "preservationFile": "editorial/verification/2026-11-04-five-preservation.json",
+  "editorialReviewFile": "editorial/verification/2026-11-04-five-editorial.json",
+  "providers": "External advertising and Analytics providers blocked or simulated during browser tests; integration and consent checked without production impressions.",
+  "mandatoryGate": "npm run build:release unchanged; no bypass or lowered validation.",
+  "qaAdjustment": "Initial additional helper stopped at guide index because it expected direct article links. Existing index intentionally uses destination cards; assertion corrected to check all five cards, with each destination-to-guide link separately verified. Repository tests and production gates unchanged."
+}

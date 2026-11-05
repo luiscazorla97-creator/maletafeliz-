@@ -2,7 +2,7 @@
   "id": "2026-11-04-five-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-05T02:53:02.694651+00:00",
-  "status": "reserved-not-generated",
+  "status": "selected-for-build",
   "topicIds": [
     "bogota",
     "valencia",
@@ -27,6 +27,11 @@
     "startedAt": "2026-11-05T02:53:02.694651+00:00",
     "leaseUntil": "2026-11-05T06:53:02.694651+00:00",
     "baseCommit": "d1e662732b227ccaffd93ea2254dc1ed02a39225",
-    "coordination": "Exclusive additional manual batch; no active prior execution found, existing batches preserved."
-  }
+    "coordination": "Exclusive additional manual batch; no active prior execution found, existing batches preserved.",
+    "heartbeatAt": "2026-11-05T03:16:54.582177+00:00"
+  },
+  "selectedCount": 5,
+  "localizedVersionsSelected": 10,
+  "documentaryPhotosSelected": 15,
+  "citedSourceDocuments": 21
 }

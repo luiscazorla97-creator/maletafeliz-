@@ -19,12 +19,13 @@ const d = destinations.find((d) => d.id === a.destinationId)!;
 const related = publishedArticles.filter(
   (b) => b.locale === lang && a.relatedIds.includes(b.id),
 );
+// Keep the calendar date recorded by the publisher, including offset dates.
 const format = (s?: string) =>
   s
     ? new Intl.DateTimeFormat(lang, {
         dateStyle: 'long',
         timeZone: 'UTC',
-      }).format(new Date(s))
+      }).format(new Date(`${s.slice(0, 10)}T12:00:00Z`))
     : '';
 ---
 

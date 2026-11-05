@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-11-05T03:17:52.389340+00:00",
+  "baselineCommit": "d1e662732b227ccaffd93ea2254dc1ed02a39225",
+  "protectedFiles": 3906,
+  "protectedAggregateSha256": "d27b0b7d14150fd364312b775382f11a1629db861a1263a8cfa53c84365adf85",
+  "changedExistingFiles": [
+    "src/components/Article.astro"
+  ],
+  "allowedChange": "Render publication calendar date as recorded in ISO timestamp; old UTC timestamps render unchanged, new NYoffset timestamps do not shift to followingUTCday. Fulldatetime/schema timestamps unchanged.",
+  "oldPhotoEntriesUnchanged": 631,
+  "priorArticleVersionsUnchanged": 286,
+  "oldBatchesAndScheduleUnchanged": true,
+  "priorPlanEntriesUnchanged": 143,
+  "catalogue": {
+    "originals": 148,
+    "localizations": 296,
+    "photos": 646,
+    "places": 644,
+    "citedSourceDocuments": 625
+  },
+  "errors": []
+}

@@ -10,24 +10,29 @@ concurrency:
   cancel-in-progress: true
 jobs:
   quality:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
+    runs-on: ubuntu-24.04
+    # Full bilingual builds and browser checks exceed 15 minutes on a cold runner.
+    timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: '24.19.0'
           cache: npm
       - run: npm ci
+      - name: Install Chromium before unit and end-to-end browser tests
+        run: |
+          npx playwright install --with-deps chromium
+          node --input-type=module -e "import { chromium } from '@playwright/test'; console.log('CHROMIUM_PATH=' + chromium.executablePath())" >> "$GITHUB_ENV"
       - run: npm run check
       - run: npm test
       - run: npm run build
-      - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
       - run: npm run build:release
       - run: npm run test:release
       - run: npm run editorial:report > editorial-report.json
-      - uses: actions/upload-artifact@v4
+        if: always()
+      - uses: actions/upload-artifact@v6
         if: always()
         with:
           name: quality-evidence

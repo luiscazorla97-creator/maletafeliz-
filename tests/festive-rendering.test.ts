@@ -76,6 +76,12 @@ describe('actual Astro festive image rendering, synthetic fixtures only', () => 
     })
       .webp()
       .toBuffer();
+    // Vite resolves this build directive in production. Raw fixture CSS must
+    // not turn it into an HTTP request to fixture.invalid/tailwindcss.
+    const css = readFileSync('src/styles/global.css', 'utf8').replace(
+      /^@import\s+['"]tailwindcss['"];\s*/m,
+      '',
+    );
     browser = await chromium.launch({
       executablePath:
         process.env.CHROMIUM_PATH ||
@@ -113,12 +119,21 @@ describe('actual Astro festive image rendering, synthetic fixtures only', () => 
           viewport: { width, height: 1000 },
         });
         const page = await context.newPage();
-        await page.route('https://fixture.invalid/images/**', (route) =>
-          route.fulfill({ contentType: 'image/webp', body: image }),
-        );
+        const blockedRequests: string[] = [];
+        await context.route('**/*', (route) => {
+          const url = new URL(route.request().url());
+          if (
+            url.origin === 'https://fixture.invalid' &&
+            url.pathname.startsWith('/images/')
+          )
+            return route.fulfill({ contentType: 'image/webp', body: image });
+          blockedRequests.push(url.href);
+          return route.abort('blockedbyclient');
+        });
         await page.setContent(
-          `<html lang="${lang}"><head><base href="https://fixture.invalid/"><style>${readFileSync('src/styles/global.css', 'utf8')}</style></head><body>${html}</body></html>`,
+          `<html lang="${lang}"><head><base href="https://fixture.invalid/"><style>${css}</style></head><body>${html}</body></html>`,
         );
+        expect(blockedRequests).toEqual([]);
         const disclosures = page.locator('[data-festive-disclosure]');
         expect(await disclosures.count()).toBe(2);
         for (const disclosure of await disclosures.all()) {

@@ -1,0 +1,1301 @@
+{
+  "version": 1,
+  "effectiveFrom": "2026-11-05",
+  "enabled": true,
+  "priorityCountries": [
+    {
+      "id": "it",
+      "targetOriginals": 30
+    },
+    {
+      "id": "jp",
+      "targetOriginals": 25
+    },
+    {
+      "id": "mx",
+      "targetOriginals": 25
+    },
+    {
+      "id": "us",
+      "targetOriginals": 20
+    }
+  ],
+  "dailyOriginals": 2,
+  "timeZone": "America/New_York",
+  "localStartTime": "12:00",
+  "schedulerOwnedByRepository": false,
+  "preserveOtherCountries": true,
+  "formats": "Vary useful numbered lists, specialist guides and itineraries when justified; avoid default two-day titles. The stated number must match researched places.",
+  "wordPolicy": "No fixed word count as an SEO requirement. Depth follows search intent; no filler, current official sources and hash-bound editorial approval remain mandatory.",
+  "selectionPolicy": "Choose researched gaps in the four priority countries, favour a developing city cluster and balance progress against country targets. Manual five only on explicit request; count all verified same-day batches.",
+  "trafficAndIndexing": "No guaranteed Google ranking, indexing speed or search volumes without actual evidence.",
+  "backlog": [
+    {
+      "id": "milan",
+      "countryId": "it",
+      "cityCluster": "milan",
+      "titles": {
+        "es": "5 lugares que conocer en Milán",
+        "en": "5 places to visit in Milan"
+      },
+      "type": "places",
+      "intent": "milan",
+      "status": "reserved-for-research",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "christmas-milan",
+        "milan"
+      ]
+    },
+    {
+      "id": "amalfi-coast",
+      "countryId": "it",
+      "cityCluster": "amalfi-coast",
+      "titles": {
+        "es": "7 pueblos de la Costa Amalfitana",
+        "en": "7 Amalfi Coast towns to visit"
+      },
+      "type": "places",
+      "intent": "amalfi-coast",
+      "status": "reserved-for-research",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "amalfi-coast"
+      ]
+    },
+    {
+      "id": "rome-three-days",
+      "countryId": "it",
+      "cityCluster": "rome",
+      "titles": {
+        "es": "Roma en 3 días: cómo organizar las visitas",
+        "en": "Rome in 3 days: planning the visits"
+      },
+      "type": "itinerary",
+      "intent": "rome-three-days",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "rome",
+        "christmas-rome"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "rome-fiumicino-transfer",
+      "countryId": "it",
+      "cityCluster": "rome",
+      "titles": {
+        "es": "Cómo ir de Fiumicino al centro de Roma",
+        "en": "Getting from Fiumicino to central Rome"
+      },
+      "type": "transport",
+      "intent": "rome-fiumicino-transfer",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "rome",
+        "christmas-rome"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "rome-stay-areas",
+      "countryId": "it",
+      "cityCluster": "rome",
+      "titles": {
+        "es": "Dónde alojarse en Roma: zonas y conexiones",
+        "en": "Where to stay in Rome: areas and connections"
+      },
+      "type": "accommodation",
+      "intent": "rome-stay-areas",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "rome",
+        "christmas-rome"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "rome-colosseum-visit",
+      "countryId": "it",
+      "cityCluster": "rome",
+      "titles": {
+        "es": "Cómo visitar el Coliseo: entradas y recorrido",
+        "en": "Visiting the Colosseum: tickets and route"
+      },
+      "type": "attraction",
+      "intent": "rome-colosseum-visit",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "rome",
+        "christmas-rome"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "rome-city-pass-comparison",
+      "countryId": "it",
+      "cityCluster": "rome",
+      "titles": {
+        "es": "Roma Pass o entradas individuales: cómo comparar",
+        "en": "Roma Pass or individual tickets: how to compare"
+      },
+      "type": "budget",
+      "intent": "rome-city-pass-comparison",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "rome",
+        "christmas-rome"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "venice-three-days",
+      "countryId": "it",
+      "cityCluster": "venice",
+      "titles": {
+        "es": "Venecia en 3 días: barrios y visitas",
+        "en": "Venice in 3 days: neighbourhoods and visits"
+      },
+      "type": "itinerary",
+      "intent": "venice-three-days",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "venice"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "venice-vaporetto",
+      "countryId": "it",
+      "cityCluster": "venice",
+      "titles": {
+        "es": "Cómo usar los vaporettos en Venecia",
+        "en": "How to use Venice vaporettos"
+      },
+      "type": "transport",
+      "intent": "venice-vaporetto",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "venice"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "venice-airport-transfer",
+      "countryId": "it",
+      "cityCluster": "venice",
+      "titles": {
+        "es": "Aeropuertos de Venecia: cómo llegar al centro",
+        "en": "Venice airports: getting to the centre"
+      },
+      "type": "transport",
+      "intent": "venice-airport-transfer",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "venice"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "venice-stay-areas",
+      "countryId": "it",
+      "cityCluster": "venice",
+      "titles": {
+        "es": "Dónde alojarse en Venecia: islas o tierra firme",
+        "en": "Where to stay in Venice: islands or mainland"
+      },
+      "type": "accommodation",
+      "intent": "venice-stay-areas",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "venice"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "venice-doges-palace",
+      "countryId": "it",
+      "cityCluster": "venice",
+      "titles": {
+        "es": "Cómo visitar el Palacio Ducal de Venecia",
+        "en": "How to visit the Doge’s Palace in Venice"
+      },
+      "type": "attraction",
+      "intent": "venice-doges-palace",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "venice"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "venice-st-marks",
+      "countryId": "it",
+      "cityCluster": "venice",
+      "titles": {
+        "es": "Basílica de San Marcos: reserva y accesos",
+        "en": "St Mark’s Basilica: booking and access"
+      },
+      "type": "attraction",
+      "intent": "venice-st-marks",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "venice"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "florence-three-days",
+      "countryId": "it",
+      "cityCluster": "florence",
+      "titles": {
+        "es": "Florencia en 3 días: arte y paseos",
+        "en": "Florence in 3 days: art and walks"
+      },
+      "type": "itinerary",
+      "intent": "florence-three-days",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "florence",
+        "christmas-florence"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "florence-uffizi",
+      "countryId": "it",
+      "cityCluster": "florence",
+      "titles": {
+        "es": "Galería Uffizi: cómo preparar la visita",
+        "en": "Uffizi Gallery: planning a visit"
+      },
+      "type": "attraction",
+      "intent": "florence-uffizi",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "florence",
+        "christmas-florence"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "florence-accademia",
+      "countryId": "it",
+      "cityCluster": "florence",
+      "titles": {
+        "es": "Accademia y David: entradas y visita",
+        "en": "Accademia and David: tickets and visit"
+      },
+      "type": "attraction",
+      "intent": "florence-accademia",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "florence",
+        "christmas-florence"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "florence-duomo-complex",
+      "countryId": "it",
+      "cityCluster": "florence",
+      "titles": {
+        "es": "Duomo de Florencia: qué incluye cada acceso",
+        "en": "Florence Duomo: what each admission includes"
+      },
+      "type": "attraction",
+      "intent": "florence-duomo-complex",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "florence",
+        "christmas-florence"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "florence-stay-areas",
+      "countryId": "it",
+      "cityCluster": "florence",
+      "titles": {
+        "es": "Dónde alojarse en Florencia según tu viaje",
+        "en": "Where to stay in Florence for your trip"
+      },
+      "type": "accommodation",
+      "intent": "florence-stay-areas",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "florence",
+        "christmas-florence"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "milan-last-supper",
+      "countryId": "it",
+      "cityCluster": "milan",
+      "titles": {
+        "es": "Última Cena de Milán: cómo reservar",
+        "en": "Milan’s Last Supper: how to book"
+      },
+      "type": "attraction",
+      "intent": "milan-last-supper",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "christmas-milan",
+        "milan"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "milan-duomo-rooftops",
+      "countryId": "it",
+      "cityCluster": "milan",
+      "titles": {
+        "es": "Duomo de Milán: catedral, terrazas y entradas",
+        "en": "Milan Duomo: cathedral, rooftops and tickets"
+      },
+      "type": "attraction",
+      "intent": "milan-duomo-rooftops",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "christmas-milan",
+        "milan"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "milan-airports",
+      "countryId": "it",
+      "cityCluster": "milan",
+      "titles": {
+        "es": "Malpensa, Linate o Bérgamo: llegar a Milán",
+        "en": "Malpensa, Linate or Bergamo: reaching Milan"
+      },
+      "type": "transport",
+      "intent": "milan-airports",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "christmas-milan",
+        "milan"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "milan-stay-areas",
+      "countryId": "it",
+      "cityCluster": "milan",
+      "titles": {
+        "es": "Dónde alojarse en Milán: barrios y transporte",
+        "en": "Where to stay in Milan: areas and transport"
+      },
+      "type": "accommodation",
+      "intent": "milan-stay-areas",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "christmas-milan",
+        "milan"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "amalfi-coast-transport",
+      "countryId": "it",
+      "cityCluster": "amalfi-coast",
+      "titles": {
+        "es": "Moverse por la Costa Amalfitana: bus, ferry y coche",
+        "en": "Getting around the Amalfi Coast: bus, ferry and car"
+      },
+      "type": "transport",
+      "intent": "amalfi-coast-transport",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "amalfi-coast"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "amalfi-coast-bases",
+      "countryId": "it",
+      "cityCluster": "amalfi-coast",
+      "titles": {
+        "es": "Dónde hacer base en la Costa Amalfitana",
+        "en": "Choosing a base on the Amalfi Coast"
+      },
+      "type": "accommodation",
+      "intent": "amalfi-coast-bases",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "amalfi-coast"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "mount-fuji",
+      "countryId": "jp",
+      "cityCluster": "mount-fuji",
+      "titles": {
+        "es": "5 lugares cerca del Monte Fuji",
+        "en": "5 places near Mount Fuji"
+      },
+      "type": "places",
+      "intent": "mount-fuji",
+      "status": "reserved-for-research",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "mount-fuji"
+      ]
+    },
+    {
+      "id": "tokyo-five-days",
+      "countryId": "jp",
+      "cityCluster": "tokyo",
+      "titles": {
+        "es": "Tokio en 5 días: barrios sin traslados innecesarios",
+        "en": "Tokyo in 5 days: neighbourhoods without needless travel"
+      },
+      "type": "itinerary",
+      "intent": "tokyo-five-days",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "tokyo",
+        "christmas-tokyo"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "tokyo-stay-areas",
+      "countryId": "jp",
+      "cityCluster": "tokyo",
+      "titles": {
+        "es": "Dónde alojarse en Tokio: zonas y estaciones",
+        "en": "Where to stay in Tokyo: areas and stations"
+      },
+      "type": "accommodation",
+      "intent": "tokyo-stay-areas",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "tokyo",
+        "christmas-tokyo"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "tokyo-airports",
+      "countryId": "jp",
+      "cityCluster": "tokyo",
+      "titles": {
+        "es": "Haneda o Narita: cómo llegar a Tokio",
+        "en": "Haneda or Narita: getting to Tokyo"
+      },
+      "type": "transport",
+      "intent": "tokyo-airports",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "tokyo",
+        "christmas-tokyo"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "tokyo-metro",
+      "countryId": "jp",
+      "cityCluster": "tokyo",
+      "titles": {
+        "es": "Trenes y metro de Tokio: billetes y conexiones",
+        "en": "Tokyo trains and metro: tickets and connections"
+      },
+      "type": "transport",
+      "intent": "tokyo-metro",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "tokyo",
+        "christmas-tokyo"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "tokyo-disneysea",
+      "countryId": "jp",
+      "cityCluster": "tokyo",
+      "titles": {
+        "es": "Tokyo DisneySea: cómo organizar la visita",
+        "en": "Tokyo DisneySea: planning your visit"
+      },
+      "type": "attraction",
+      "intent": "tokyo-disneysea",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "tokyo",
+        "christmas-tokyo"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "kyoto-three-days",
+      "countryId": "jp",
+      "cityCluster": "kyoto",
+      "titles": {
+        "es": "Kioto en 3 días: templos por zonas",
+        "en": "Kyoto in 3 days: temples by area"
+      },
+      "type": "itinerary",
+      "intent": "kyoto-three-days",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "kyoto"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "kyoto-stay-areas",
+      "countryId": "jp",
+      "cityCluster": "kyoto",
+      "titles": {
+        "es": "Dónde alojarse en Kioto según el recorrido",
+        "en": "Where to stay in Kyoto for your route"
+      },
+      "type": "accommodation",
+      "intent": "kyoto-stay-areas",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "kyoto"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "kyoto-transport",
+      "countryId": "jp",
+      "cityCluster": "kyoto",
+      "titles": {
+        "es": "Cómo moverse por Kioto en bus y tren",
+        "en": "Getting around Kyoto by bus and train"
+      },
+      "type": "transport",
+      "intent": "kyoto-transport",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "kyoto"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "kyoto-fushimi-inari",
+      "countryId": "jp",
+      "cityCluster": "kyoto",
+      "titles": {
+        "es": "Fushimi Inari: recorrido, respeto y accesos",
+        "en": "Fushimi Inari: route, respect and access"
+      },
+      "type": "attraction",
+      "intent": "kyoto-fushimi-inari",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "kyoto"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "kyoto-kiyomizu",
+      "countryId": "jp",
+      "cityCluster": "kyoto",
+      "titles": {
+        "es": "Kiyomizudera: cómo preparar la visita",
+        "en": "Kiyomizudera: preparing your visit"
+      },
+      "type": "attraction",
+      "intent": "kyoto-kiyomizu",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "kyoto"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "osaka-three-days",
+      "countryId": "jp",
+      "cityCluster": "osaka",
+      "titles": {
+        "es": "Osaka en 3 días: barrios y experiencias",
+        "en": "Osaka in 3 days: neighbourhoods and experiences"
+      },
+      "type": "itinerary",
+      "intent": "osaka-three-days",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "osaka"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "osaka-kansai-airport",
+      "countryId": "jp",
+      "cityCluster": "osaka",
+      "titles": {
+        "es": "Aeropuerto de Kansai: cómo llegar a Osaka",
+        "en": "Kansai Airport: getting to Osaka"
+      },
+      "type": "transport",
+      "intent": "osaka-kansai-airport",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "osaka"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "osaka-universal",
+      "countryId": "jp",
+      "cityCluster": "osaka",
+      "titles": {
+        "es": "Universal Studios Japan: entradas y organización",
+        "en": "Universal Studios Japan: tickets and planning"
+      },
+      "type": "attraction",
+      "intent": "osaka-universal",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "osaka"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "nara-day-trip-transport",
+      "countryId": "jp",
+      "cityCluster": "nara",
+      "titles": {
+        "es": "Llegar a Nara desde Kioto u Osaka",
+        "en": "Getting to Nara from Kyoto or Osaka"
+      },
+      "type": "transport",
+      "intent": "nara-day-trip-transport",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "nara"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "nara-deer-park",
+      "countryId": "jp",
+      "cityCluster": "nara",
+      "titles": {
+        "es": "Parque de Nara: ciervos, normas y paseo",
+        "en": "Nara Park: deer, rules and walking route"
+      },
+      "type": "experience",
+      "intent": "nara-deer-park",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "nara"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "fuji-from-tokyo",
+      "countryId": "jp",
+      "cityCluster": "mount-fuji",
+      "titles": {
+        "es": "Monte Fuji desde Tokio: tren, bus y base",
+        "en": "Mount Fuji from Tokyo: trains, buses and bases"
+      },
+      "type": "transport",
+      "intent": "fuji-from-tokyo",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "mount-fuji"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "fuji-viewing-seasons",
+      "countryId": "jp",
+      "cityCluster": "mount-fuji",
+      "titles": {
+        "es": "Cuándo ver el Monte Fuji: visibilidad y estaciones",
+        "en": "When to see Mount Fuji: visibility and seasons"
+      },
+      "type": "season",
+      "intent": "fuji-viewing-seasons",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "mount-fuji"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "cancun",
+      "countryId": "mx",
+      "cityCluster": "cancun",
+      "titles": {
+        "es": "5 lugares que conocer en Cancún",
+        "en": "5 places to visit in Cancún"
+      },
+      "type": "places",
+      "intent": "cancun",
+      "status": "reserved-for-research",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "cancun"
+      ]
+    },
+    {
+      "id": "riviera-maya-places",
+      "countryId": "mx",
+      "cityCluster": "riviera-maya",
+      "titles": {
+        "es": "7 lugares de Riviera Maya y cómo elegir",
+        "en": "7 Riviera Maya places and how to choose"
+      },
+      "type": "places",
+      "intent": "riviera-maya-places",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "oaxaca-places",
+      "countryId": "mx",
+      "cityCluster": "oaxaca",
+      "titles": {
+        "es": "7 lugares de Oaxaca más allá de Día de Muertos",
+        "en": "7 Oaxaca places beyond Day of the Dead"
+      },
+      "type": "places",
+      "intent": "oaxaca-places",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "muertos-oaxaca"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "los-cabos-places",
+      "countryId": "mx",
+      "cityCluster": "los-cabos",
+      "titles": {
+        "es": "5 lugares que conocer en Los Cabos",
+        "en": "5 places to visit in Los Cabos"
+      },
+      "type": "places",
+      "intent": "los-cabos-places",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "mexico-city-three-days",
+      "countryId": "mx",
+      "cityCluster": "mexico-city",
+      "titles": {
+        "es": "Ciudad de México en 3 días por zonas",
+        "en": "Mexico City in 3 days by area"
+      },
+      "type": "itinerary",
+      "intent": "mexico-city-three-days",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "mexico-city",
+        "muertos-mexico-city"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "mexico-city-airports",
+      "countryId": "mx",
+      "cityCluster": "mexico-city",
+      "titles": {
+        "es": "AICM o AIFA: llegar a Ciudad de México",
+        "en": "AICM or AIFA: getting to Mexico City"
+      },
+      "type": "transport",
+      "intent": "mexico-city-airports",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "mexico-city",
+        "muertos-mexico-city"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "mexico-city-stay",
+      "countryId": "mx",
+      "cityCluster": "mexico-city",
+      "titles": {
+        "es": "Dónde alojarse en Ciudad de México",
+        "en": "Where to stay in Mexico City"
+      },
+      "type": "accommodation",
+      "intent": "mexico-city-stay",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "mexico-city",
+        "muertos-mexico-city"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "mexico-city-transport",
+      "countryId": "mx",
+      "cityCluster": "mexico-city",
+      "titles": {
+        "es": "Metro y transporte en Ciudad de México",
+        "en": "Metro and transport in Mexico City"
+      },
+      "type": "transport",
+      "intent": "mexico-city-transport",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "mexico-city",
+        "muertos-mexico-city"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "teotihuacan-from-cdmx",
+      "countryId": "mx",
+      "cityCluster": "mexico-city",
+      "titles": {
+        "es": "Cómo visitar Teotihuacán desde Ciudad de México",
+        "en": "Visiting Teotihuacán from Mexico City"
+      },
+      "type": "attraction",
+      "intent": "teotihuacan-from-cdmx",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "mexico-city",
+        "muertos-mexico-city"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "chapultepec-castle",
+      "countryId": "mx",
+      "cityCluster": "mexico-city",
+      "titles": {
+        "es": "Castillo de Chapultepec: entradas y recorrido",
+        "en": "Chapultepec Castle: tickets and route"
+      },
+      "type": "attraction",
+      "intent": "chapultepec-castle",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "mexico-city",
+        "muertos-mexico-city"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "cancun-airport",
+      "countryId": "mx",
+      "cityCluster": "cancun",
+      "titles": {
+        "es": "Aeropuerto de Cancún: traslados comparados",
+        "en": "Cancún Airport: comparing transfers"
+      },
+      "type": "transport",
+      "intent": "cancun-airport",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "cancun"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "cancun-stay-areas",
+      "countryId": "mx",
+      "cityCluster": "cancun",
+      "titles": {
+        "es": "Cancún: zona hotelera o centro para alojarse",
+        "en": "Cancún: hotel zone or downtown for your stay"
+      },
+      "type": "accommodation",
+      "intent": "cancun-stay-areas",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "cancun"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "isla-mujeres-from-cancun",
+      "countryId": "mx",
+      "cityCluster": "cancun",
+      "titles": {
+        "es": "Isla Mujeres desde Cancún: ferry y organización",
+        "en": "Isla Mujeres from Cancún: ferry and planning"
+      },
+      "type": "experience",
+      "intent": "isla-mujeres-from-cancun",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "cancun"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "cancun-seasons",
+      "countryId": "mx",
+      "cityCluster": "cancun",
+      "titles": {
+        "es": "Cuándo viajar a Cancún: clima y condiciones del mar",
+        "en": "When to visit Cancún: weather and sea conditions"
+      },
+      "type": "season",
+      "intent": "cancun-seasons",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "cancun"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "riviera-maya-transport",
+      "countryId": "mx",
+      "cityCluster": "riviera-maya",
+      "titles": {
+        "es": "Moverse por Riviera Maya en bus y traslados",
+        "en": "Getting around the Riviera Maya by bus and transfer"
+      },
+      "type": "transport",
+      "intent": "riviera-maya-transport",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "tulum-archaeology",
+      "countryId": "mx",
+      "cityCluster": "riviera-maya",
+      "titles": {
+        "es": "Zona arqueológica de Tulum: visita y accesos",
+        "en": "Tulum archaeological site: visit and access"
+      },
+      "type": "attraction",
+      "intent": "tulum-archaeology",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "playa-del-carmen-base",
+      "countryId": "mx",
+      "cityCluster": "riviera-maya",
+      "titles": {
+        "es": "Playa del Carmen como base: zonas y conexiones",
+        "en": "Playa del Carmen as a base: areas and connections"
+      },
+      "type": "accommodation",
+      "intent": "playa-del-carmen-base",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "oaxaca-food-markets",
+      "countryId": "mx",
+      "cityCluster": "oaxaca",
+      "titles": {
+        "es": "Mercados y gastronomía de Oaxaca: cómo elegir",
+        "en": "Oaxaca markets and food: how to choose"
+      },
+      "type": "food",
+      "intent": "oaxaca-food-markets",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "muertos-oaxaca"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "los-cabos-airport",
+      "countryId": "mx",
+      "cityCluster": "los-cabos",
+      "titles": {
+        "es": "Aeropuerto de Los Cabos: San José y Cabo San Lucas",
+        "en": "Los Cabos Airport: San José and Cabo San Lucas"
+      },
+      "type": "transport",
+      "intent": "los-cabos-airport",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "orlando",
+      "countryId": "us",
+      "cityCluster": "orlando",
+      "titles": {
+        "es": "7 lugares de Orlando fuera de los parques temáticos",
+        "en": "7 Orlando places beyond the theme parks"
+      },
+      "type": "places",
+      "intent": "orlando",
+      "status": "reserved-for-research",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "orlando"
+      ]
+    },
+    {
+      "id": "los-angeles-places",
+      "countryId": "us",
+      "cityCluster": "los-angeles",
+      "titles": {
+        "es": "10 lugares de Los Ángeles por zonas",
+        "en": "10 Los Angeles places by area"
+      },
+      "type": "places",
+      "intent": "los-angeles-places",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "miami-three-days",
+      "countryId": "us",
+      "cityCluster": "miami",
+      "titles": {
+        "es": "Miami en 3 días: barrios y conexiones",
+        "en": "Miami in 3 days: neighbourhoods and connections"
+      },
+      "type": "itinerary",
+      "intent": "miami-three-days",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "miami"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "new-york-seven-days",
+      "countryId": "us",
+      "cityCluster": "new-york",
+      "titles": {
+        "es": "Nueva York en 7 días sin cruzar la ciudad de más",
+        "en": "New York in 7 days without needless cross-city trips"
+      },
+      "type": "itinerary",
+      "intent": "new-york-seven-days",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "new-york",
+        "christmas-new-york"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "orlando-parks-comparison",
+      "countryId": "us",
+      "cityCluster": "orlando",
+      "titles": {
+        "es": "Disney o Universal: cómo elegir parques en Orlando",
+        "en": "Disney or Universal: choosing Orlando theme parks"
+      },
+      "type": "experience",
+      "intent": "orlando-parks-comparison",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "orlando"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "orlando-airport",
+      "countryId": "us",
+      "cityCluster": "orlando",
+      "titles": {
+        "es": "Aeropuerto de Orlando: traslados y conexiones",
+        "en": "Orlando Airport: transfers and connections"
+      },
+      "type": "transport",
+      "intent": "orlando-airport",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "orlando"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "new-york-airports",
+      "countryId": "us",
+      "cityCluster": "new-york",
+      "titles": {
+        "es": "JFK, Newark o LaGuardia: llegar a Nueva York",
+        "en": "JFK, Newark or LaGuardia: getting to New York"
+      },
+      "type": "transport",
+      "intent": "new-york-airports",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "new-york",
+        "christmas-new-york"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "los-angeles-stay",
+      "countryId": "us",
+      "cityCluster": "los-angeles",
+      "titles": {
+        "es": "Dónde alojarse en Los Ángeles según tu ruta",
+        "en": "Where to stay in Los Angeles for your route"
+      },
+      "type": "accommodation",
+      "intent": "los-angeles-stay",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "las-vegas-budget",
+      "countryId": "us",
+      "cityCluster": "las-vegas",
+      "titles": {
+        "es": "Las Vegas: presupuesto por categorías para una escapada",
+        "en": "Las Vegas: a category-by-category short-trip budget"
+      },
+      "type": "budget",
+      "intent": "las-vegas-budget",
+      "status": "candidate-not-researched",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved",
+      "existingCoverageIds": [
+        "las-vegas"
+      ],
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    }
+  ]
+}

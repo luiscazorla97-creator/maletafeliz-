@@ -150,6 +150,77 @@ function setup() {
   return { root, articles, plan, photos, now, approve };
 }
 describe('publication gate', () => {
+  it('assesses complete concise content without treating 1200 words as an SEO rule', () => {
+    const s = setup();
+    for (const a of s.articles) {
+      const shorten = (text: string) => text.split(' ').slice(0, 45).join(' ');
+      a.data.intro = a.data.intro.map(shorten);
+      a.data.sections = a.data.sections.map((section) => ({
+        ...section,
+        paragraphs: section.paragraphs.map(shorten),
+      }));
+      a.data.itinerary = a.data.itinerary.map(shorten);
+      a.data.faq = a.data.faq.map((faq) => ({
+        ...faq,
+        answer: shorten(faq.answer),
+      }));
+      a.data.conclusion = shorten(a.data.conclusion);
+    }
+    s.approve();
+    const result = validateEditorial(s);
+    expect(result.errors).toEqual([]);
+    expect(result.warnings.length).toBeGreaterThan(0);
+    s.articles[0].data.sections[0].paragraphs = [
+      'This incomplete place does not answer the visitor’s question at all.',
+    ];
+    s.approve();
+    expect(validateEditorial(s).errors.length).toBeGreaterThan(0);
+  });
+
+  it('validates a specialist topic against its own place count while sharing a real city', () => {
+    const s = setup();
+    const extra = s.articles.slice(0, 2).map((a) => ({
+      file: `specialist.${a.data.locale}.json`,
+      data: {
+        ...structuredClone(a.data),
+        id: 'specialist',
+        slug: `specialist-${a.data.locale}`,
+        title: `Specialist transport visit ${a.data.locale}`,
+        intent: 'distinct-specialist-intent',
+        sections: a.data.sections.map((section, i) => ({
+          ...section,
+          kind: i === 2 ? 'practical' : 'place',
+          paragraphs: section.paragraphs.map(
+            (paragraph) => `Specialist ${paragraph}`,
+          ),
+        })),
+      },
+    }));
+    s.articles.push(...extra);
+    s.plan.push({
+      id: 'specialist',
+      destinationId: 'test-city',
+      placeCount: 2,
+    } as any);
+    s.approve();
+    expect(validateEditorial(s).errors).toEqual([]);
+  });
+  it('rejects a topic that silently points at a different city', () => {
+    const s = setup();
+    (s.plan[0] as any).destinationId = 'other-city';
+    expect(validateEditorial(s).errors.join(' ')).toContain(
+      'topic/destination missing or inconsistent',
+    );
+  });
+  it('requires a separate planned intention even when the destination already exists', () => {
+    const s = setup();
+    s.articles[0].data.id = 'unplanned-topic';
+    s.approve();
+    expect(validateEditorial(s).errors.join(' ')).toContain(
+      'topic/destination missing or inconsistent',
+    );
+  });
+
   it('accepts complete synthetic pairs only in the isolated fixture', () => {
     const s = setup();
     expect(validateEditorial(s).errors).toEqual([]);

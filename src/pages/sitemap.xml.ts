@@ -32,10 +32,17 @@ export const GET: APIRoute = () => {
         path: `/${lang}/`,
         alternates: locales.map((l) => ({ lang: l, path: `/${l}/` })),
       });
-      if (publishedArticles.some((a) => a.locale === lang && a.id.startsWith('christmas-')))
+      if (
+        publishedArticles.some(
+          (a) => a.locale === lang && a.id.startsWith('christmas-'),
+        )
+      )
         paths.push({
           path: route(lang, 'christmas'),
-          alternates: locales.map((l) => ({ lang: l, path: route(l, 'christmas') })),
+          alternates: locales.map((l) => ({
+            lang: l,
+            path: route(l, 'christmas'),
+          })),
         });
       for (const kind of ['destinations', 'guides', 'explore'] as const)
         paths.push({ path: route(lang, kind) });
@@ -58,7 +65,13 @@ export const GET: APIRoute = () => {
       for (const c of new Set(active.map((d) => d.continent)))
         paths.push({ path: route(lang, 'explore', c) });
       for (const c of new Set(active.map((d) => d.countryId)))
-        paths.push({ path: route(lang, 'explore', `country-${c}`) });
+        paths.push({
+          path: route(lang, 'explore', `country-${c}`),
+          alternates: locales.map((l) => ({
+            lang: l,
+            path: route(l, 'explore', `country-${c}`),
+          })),
+        });
       for (const c of new Set(active.flatMap((d) => d.categories)))
         paths.push({
           path: route(lang, 'explore', `category-${c}`),

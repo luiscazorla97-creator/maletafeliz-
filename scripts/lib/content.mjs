@@ -114,6 +114,7 @@ export function validateEditorial({
   now = Date.now(),
 } = {}) {
   const errors = [],
+    warnings = [],
     pending = [],
     published = [];
   const unique = new Set(),
@@ -136,9 +137,14 @@ export function validateEditorial({
     parsed.push(a);
     published.push(a);
     const fail = (m) => errors.push(`${file}: ${m}`);
-    const d = plan.find((d) => d.id === a.destinationId);
-    if (!d) {
-      fail('destination missing from editorial plan');
+    const topic = plan.find((t) => t.id === a.id);
+    const d = plan.find(
+      (d) =>
+        d.id === a.destinationId &&
+        (!d.destinationId || d.destinationId === d.id),
+    );
+    if (!topic || !d || (topic.destinationId || topic.id) !== a.destinationId) {
+      fail('topic/destination missing or inconsistent in editorial plan');
       continue;
     }
     for (const [set, key, label] of [
@@ -158,9 +164,18 @@ export function validateEditorial({
         Date.parse(a.updatedAt) > now)
     )
       fail('invalid update timestamp');
-    if (words(a) < 1200) fail('guide is under 1,200 words');
-    if (a.sections.filter((s) => s.kind === 'place').length !== d.placeCount)
-      fail(`requires exactly ${d.placeCount} individually developed places`);
+    // Owner policy (2026-11-05): useful scope, not a fixed word count, determines depth.
+    // All source, photograph, structural, originality and hash-bound review gates remain.
+    if (words(a) < 1200)
+      warnings.push(
+        `${file}: shorter article; verify that the search intent is fully answered without filler`,
+      );
+    if (
+      a.sections.filter((s) => s.kind === 'place').length !== topic.placeCount
+    )
+      fail(
+        `requires exactly ${topic.placeCount} individually developed places`,
+      );
     const ids = new Set();
     const sourceIds = new Set(a.sources.map((s) => s.id));
     if (sourceIds.size !== a.sources.length) fail('duplicate source IDs');
@@ -334,6 +349,7 @@ export function validateEditorial({
   }
   return {
     errors,
+    warnings,
     pending,
     published: published.length,
     originals: new Set(published.map((a) => a.id)).size,

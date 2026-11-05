@@ -1,3 +1,5 @@
+> Actualización vigente del titular (5 de noviembre de 2026): aplicar `docs/SEO-STRATEGY.md` y `editorial/seo-strategy.json`. Priorizar Italia, Japón, México y Estados Unidos, conservar el sitio y sus URLs; no reconstruirlo. Mantener dos originales diarios al mediodía de Miami. La instrucción actual prevalece sobre los objetivos históricos de este documento.
+
 # PROYECTO COMPLETO: MALETAFELIZ.COM
 ## Revista internacional de viajes con SEO profesional, 20 artículos iniciales y publicaciones diarias mediante Codex
 

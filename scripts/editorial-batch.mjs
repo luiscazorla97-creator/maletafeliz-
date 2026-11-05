@@ -1,4 +1,6 @@
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+import { selectPendingTopics } from './lib/editorial-selection.mjs';
 import { readJson, readArticles } from './lib/content.mjs';
 const count = Number(process.argv[2] || 5);
 if (!Number.isInteger(count) || count < 1 || count > 5)
@@ -22,24 +24,10 @@ try {
 }
 const plan = readJson('editorial/plan.json'),
   articles = readArticles().map((a) => a.data);
-const pending = plan.filter(
-  (t) =>
-    !['es', 'en'].every((lang) =>
-      articles.some(
-        (a) => a.id === t.id && a.locale === lang && a.status === 'published',
-      ),
-    ),
-);
-const selected = [];
-for (const continent of ['america', 'europe', 'asia', 'africa', 'oceania']) {
-  const topic = pending.find(
-    (t) => t.continent === continent && !selected.includes(t),
-  );
-  if (topic && selected.length < count) selected.push(topic);
-}
-for (const topic of pending)
-  if (selected.length < count && !selected.includes(topic))
-    selected.push(topic);
+const strategy = existsSync('editorial/seo-strategy.json')
+  ? readJson('editorial/seo-strategy.json')
+  : undefined;
+const selected = selectPendingTopics(plan, articles, count, strategy);
 if (!selected.length) {
   console.log(
     'No planned topics remain. Research distinct needs and extend editorial/plan.json before reserving another batch.',

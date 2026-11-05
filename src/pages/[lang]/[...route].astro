@@ -1,5 +1,12 @@
 ---
 import site from '../../../editorial/site.json';
+import CountryGuide from '../../components/CountryGuide.astro';
+import { countryGuides } from '../../data/country-guides';
+import {
+  countryArticles,
+  countryGuidePath,
+  hasCountryGuide,
+} from '../../lib/country-clusters';
 import PhotoCredits from '../../components/PhotoCredits.astro';
 import { photoSrcSet } from '../../lib/content';
 import Layout from '../../layouts/Layout.astro';
@@ -93,12 +100,20 @@ const destination =
     : undefined;
 const info = kind === 'info' ? legal[id as LegalId][lang] : undefined;
 const isCountry = kind === 'explore' && id?.startsWith('country-');
+const countryId = isCountry ? id!.replace('country-', '') : '';
+const countryGuide = countryGuides[countryId]?.[lang];
+const countryContent = countryGuide ? countryArticles(countryId, lang) : [];
+const articleDestination =
+  article && destinations.find((d) => d.id === article.destinationId);
+const articleCountryGuide =
+  articleDestination && hasCountryGuide(articleDestination.countryId);
 const categoryNames = {
   cities: t.cities,
   nature: t.nature,
   culture: t.culture,
   beaches: t.beaches,
-  festivals: lang === 'es' ? 'Fiestas y celebraciones' : 'Festivals and celebrations',
+  festivals:
+    lang === 'es' ? 'Fiestas y celebraciones' : 'Festivals and celebrations',
 };
 const isCategory = kind === 'explore' && id?.startsWith('category-');
 const selection =
@@ -163,7 +178,10 @@ const jsonLd = article
           publisher: {
             '@type': 'Organization',
             name: 'MaletaFeliz',
-            logo: { '@type': 'ImageObject', url: absolute('/brand/icon-3d-512.png') },
+            logo: {
+              '@type': 'ImageObject',
+              url: absolute('/brand/icon-3d-512.png'),
+            },
           },
         },
         {
@@ -175,9 +193,21 @@ const jsonLd = article
               name: t.home,
               item: absolute(`/${lang}/`),
             },
+            ...(articleCountryGuide
+              ? [
+                  {
+                    '@type': 'ListItem',
+                    position: 2,
+                    name: articleDestination!.country[lang],
+                    item: absolute(
+                      countryGuidePath(articleDestination!.countryId, lang),
+                    ),
+                  },
+                ]
+              : []),
             {
               '@type': 'ListItem',
-              position: 2,
+              position: articleCountryGuide ? 3 : 2,
               name: destinations.find((d) => d.id === article.destinationId)!
                 .city[lang],
               item: absolute(
@@ -189,7 +219,7 @@ const jsonLd = article
             },
             {
               '@type': 'ListItem',
-              position: 3,
+              position: articleCountryGuide ? 4 : 3,
               name: article.title,
               item: absolute(articlePath(article)),
             },
@@ -197,7 +227,48 @@ const jsonLd = article
         },
       ],
     }
-  : undefined;
+  : countryGuide
+    ? {
+        '@context': 'https://schema.org',
+        '@graph': [
+          {
+            '@type': 'CollectionPage',
+            '@id': absolute(countryGuidePath(countryId, lang)),
+            url: absolute(countryGuidePath(countryId, lang)),
+            name: countryGuide.seoTitle,
+            description: countryGuide.description,
+            inLanguage: lang,
+            mainEntity: {
+              '@type': 'ItemList',
+              numberOfItems: countryContent.length,
+              itemListElement: countryContent.map((a, i) => ({
+                '@type': 'ListItem',
+                position: i + 1,
+                name: a.title,
+                item: absolute(articlePath(a)),
+              })),
+            },
+          },
+          {
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: t.home,
+                item: absolute(`/${lang}/`),
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: countryGuide.name,
+                item: absolute(countryGuidePath(countryId, lang)),
+              },
+            ],
+          },
+        ],
+      }
+    : undefined;
 const items = all.flatMap((d) => {
   const matches = forLocale(lang).filter((a) => a.destinationId === d.id);
   return (matches.length ? matches : [undefined]).map((a) => ({
@@ -220,13 +291,14 @@ const empty = destination
 
 <Layout
   lang={lang}
-  title={title!}
+  title={countryGuide?.seoTitle || title!}
   description={
     article?.description ||
+    countryGuide?.description ||
     (id === 'category-festivals'
-      ? (lang === 'es'
-          ? 'Guías de Navidad, Halloween y Día de Muertos: destinos, fotografías y consejos para organizar una visita y comprobar las fechas de cada celebración.'
-          : 'Christmas, Halloween and Day of the Dead guides: destinations, photographs and practical advice for planning a visit and checking seasonal dates.')
+      ? lang === 'es'
+        ? 'Guías de Navidad, Halloween y Día de Muertos: destinos, fotografías y consejos para organizar una visita y comprobar las fechas de cada celebración.'
+        : 'Christmas, Halloween and Day of the Dead guides: destinations, photographs and practical advice for planning a visit and checking seasonal dates.'
       : undefined) ||
     (destination ? destination.titles[lang] : t.footerText)
   }
@@ -236,7 +308,12 @@ const empty = destination
   }
   image={photo?.src}
   jsonLd={jsonLd}
-  showAdvertisement={!(kind === 'info' && ['privacy', 'terms', 'cookies', 'photography'].includes(id || ''))}
+  showAdvertisement={
+    !(
+      kind === 'info' &&
+      ['privacy', 'terms', 'cookies', 'photography'].includes(id || '')
+    )
+  }
 >
   {article ? (
     <ArticleView article={article} />
@@ -372,17 +449,20 @@ const empty = destination
         <p>
           {kind === 'search'
             ? t.searchLabel
-            : kind === 'explore' && id === 'antarctica'
-              ? lang === 'es'
-                ? 'La cobertura antártica se planificará como turismo de expedición, con fuentes especializadas y sin inventar ciudades.'
-                : 'Antarctic coverage will focus on expedition travel, with specialist sources and no invented cities.'
-              : t.featuredText}
+            : countryGuide
+              ? countryGuide.intro
+              : kind === 'explore' && id === 'antarctica'
+                ? lang === 'es'
+                  ? 'La cobertura antártica se planificará como turismo de expedición, con fuentes especializadas y sin inventar ciudades.'
+                  : 'Antarctic coverage will focus on expedition travel, with specialist sources and no invented cities.'
+                : t.featuredText}
         </p>
       </header>
       {kind === 'search' ? (
         <Search lang={lang} items={items} client:load />
       ) : (
         <div style="padding-bottom:65px">
+          {countryGuide && <CountryGuide countryId={countryId} lang={lang} />}
           <div class="filter-tabs">
             {Object.entries(continents).map(([key, names]) => (
               <a class="button" href={route(lang, 'explore', key)}>

@@ -1,0 +1,122 @@
+---
+import { countryGuides } from '../data/country-guides';
+import { countryArticleGroups } from '../lib/country-clusters';
+import { articlePath } from '../lib/content';
+import type { Locale } from '../i18n';
+const { countryId, lang } = Astro.props as { countryId: string; lang: Locale };
+const guide = countryGuides[countryId][lang];
+const groups = countryArticleGroups(countryId, lang);
+const es = lang === 'es';
+---
+
+<section class="country-hub prose" aria-labelledby="country-planning">
+  <nav
+    class="country-hub-nav"
+    aria-label={es ? 'Contenido de la guía del país' : 'Country guide contents'}
+  >
+    <a href="#country-guides">
+      {es ? 'Guías por destino' : 'Guides by destination'}
+    </a>
+    <a href="#country-planning">
+      {es ? 'Planificar el viaje' : 'Plan your trip'}
+    </a>
+    <a href="#country-faq">
+      {es ? 'Preguntas frecuentes' : 'Common questions'}
+    </a>
+  </nav>
+  <h2 id="country-guides">
+    {es
+      ? `Guías disponibles de ${guide.name}`
+      : `Available ${guide.name} guides`}
+  </h2>
+  <div class="country-city-groups">
+    {groups.map((g) => (
+      <section aria-labelledby={`cluster-${g.id}`}>
+        <h3 id={`cluster-${g.id}`}>{g.name}</h3>
+        <ul>
+          {g.articles.map((a) => (
+            <li>
+              <a href={articlePath(a)}>{a.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+  <h2 id="country-planning">
+    {es ? 'Cómo preparar el viaje' : 'How to prepare your trip'}
+  </h2>
+  {guide.sections.map(([heading, first, second]) => (
+    <section>
+      <h3>{heading}</h3>
+      <p>{first}</p>
+      <p>{second}</p>
+    </section>
+  ))}
+  <h2>
+    {es
+      ? 'Recorridos para organizar las visitas'
+      : 'Routes to organise your visits'}
+  </h2>
+  <ul>
+    {groups
+      .flatMap((g) =>
+        g.articles
+          .filter(
+            (a) =>
+              a.itinerary.length &&
+              !/^(christmas-|halloween-|muertos-)/.test(a.id),
+          )
+          .slice(0, 1),
+      )
+      .map((a) => (
+        <li>
+          <a href={`${articlePath(a)}#itinerary`}>{a.title}</a>
+        </li>
+      ))}
+  </ul>
+  <h2 id="country-faq">{es ? 'Preguntas frecuentes' : 'Common questions'}</h2>
+  {guide.faq.map(([question, answer]) => (
+    <details>
+      <summary>{question}</summary>
+      <p>{answer}</p>
+    </details>
+  ))}
+  <h2>
+    {es ? 'Fuentes para seguir planificando' : 'Sources for further planning'}
+  </h2>
+  <ul>
+    {guide.sources.map((s) => (
+      <li>
+        <a href={s.url} rel="noopener noreferrer">
+          {s.title}
+        </a>
+      </li>
+    ))}
+  </ul>
+</section>
+<style>
+  .country-hub {
+    padding-bottom: 48px;
+    max-width: 900px;
+  }
+  .country-hub-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    margin-bottom: 32px;
+  }
+  .country-city-groups {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 32px;
+  }
+  .country-city-groups a {
+    overflow-wrap: anywhere;
+  }
+  @media (max-width: 600px) {
+    .country-city-groups {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -174,13 +174,15 @@
       },
       "type": "itinerary",
       "intent": "venice-three-days",
-      "status": "candidate-not-researched",
+      "status": "deferred-replaced-for-current-owner-place-guide-request",
       "requiresUsefulnessReview": true,
       "evidenceStatus": "not-yet-approved",
       "existingCoverageIds": [
         "venice"
       ],
-      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
+      "replacementTopicId": "verona",
+      "reason": "Current manual request prioritizes seven useful new place guides. Preserve this itinerary candidate for later differentiation review; Florence already has a three-day guide."
     },
     {
       "id": "venice-vaporetto",
@@ -282,14 +284,16 @@
       },
       "type": "itinerary",
       "intent": "florence-three-days",
-      "status": "candidate-not-researched",
+      "status": "deferred-replaced-for-current-owner-place-guide-request",
       "requiresUsefulnessReview": true,
       "evidenceStatus": "not-yet-approved",
       "existingCoverageIds": [
         "florence",
         "christmas-florence"
       ],
-      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
+      "replacementTopicId": "pisa",
+      "reason": "Current manual request prioritizes seven useful new place guides. Preserve this itinerary candidate for later differentiation review; Florence already has a three-day guide."
     },
     {
       "id": "florence-uffizi",
@@ -508,14 +512,16 @@
       },
       "type": "itinerary",
       "intent": "tokyo-five-days",
-      "status": "candidate-not-researched",
+      "status": "deferred-replaced-for-current-owner-place-guide-request",
       "requiresUsefulnessReview": true,
       "evidenceStatus": "not-yet-approved",
       "existingCoverageIds": [
         "tokyo",
         "christmas-tokyo"
       ],
-      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
+      "replacementTopicId": "kanazawa",
+      "reason": "Current manual request prioritizes seven useful new place guides. Preserve this itinerary candidate for later differentiation review; Florence already has a three-day guide."
     },
     {
       "id": "tokyo-stay-areas",
@@ -838,11 +844,12 @@
       },
       "type": "places",
       "intent": "riviera-maya-places",
-      "status": "candidate-not-researched",
+      "status": "reserved-for-research",
       "requiresUsefulnessReview": true,
       "evidenceStatus": "not-yet-approved",
       "existingCoverageIds": [],
-      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
+      "reservedTopicId": "riviera-maya"
     },
     {
       "id": "oaxaca-places",
@@ -854,13 +861,14 @@
       },
       "type": "places",
       "intent": "oaxaca-places",
-      "status": "candidate-not-researched",
+      "status": "reserved-for-research",
       "requiresUsefulnessReview": true,
       "evidenceStatus": "not-yet-approved",
       "existingCoverageIds": [
         "muertos-oaxaca"
       ],
-      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
+      "reservedTopicId": "oaxaca"
     },
     {
       "id": "los-cabos-places",
@@ -872,11 +880,12 @@
       },
       "type": "places",
       "intent": "los-cabos-places",
-      "status": "candidate-not-researched",
+      "status": "reserved-for-research",
       "requiresUsefulnessReview": true,
       "evidenceStatus": "not-yet-approved",
       "existingCoverageIds": [],
-      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
+      "reservedTopicId": "los-cabos"
     },
     {
       "id": "mexico-city-three-days",
@@ -1175,11 +1184,12 @@
       },
       "type": "places",
       "intent": "los-angeles-places",
-      "status": "candidate-not-researched",
+      "status": "reserved-for-research",
       "requiresUsefulnessReview": true,
       "evidenceStatus": "not-yet-approved",
       "existingCoverageIds": [],
-      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
+      "reservedTopicId": "los-angeles"
     },
     {
       "id": "miami-three-days",
@@ -1306,6 +1316,48 @@
         "las-vegas"
       ],
       "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+    },
+    {
+      "id": "verona",
+      "countryId": "it",
+      "cityCluster": "verona",
+      "titles": {
+        "es": "Qué ver en Verona: 5 lugares imprescindibles y una ruta a pie",
+        "en": "What to see in Verona: 5 places and a walk through the centre"
+      },
+      "type": "places",
+      "intent": "5-distinct-places-first-visit-evergreen",
+      "status": "reserved-for-research",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved"
+    },
+    {
+      "id": "pisa",
+      "countryId": "it",
+      "cityCluster": "pisa",
+      "titles": {
+        "es": "Qué ver en Pisa: 5 lugares entre la Torre y el río Arno",
+        "en": "What to see in Pisa: 5 places from the Tower to the Arno"
+      },
+      "type": "places",
+      "intent": "5-distinct-places-first-visit-evergreen",
+      "status": "reserved-for-research",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved"
+    },
+    {
+      "id": "kanazawa",
+      "countryId": "jp",
+      "cityCluster": "kanazawa",
+      "titles": {
+        "es": "Qué ver en Kanazawa: 5 lugares entre jardines y barrios históricos",
+        "en": "What to see in Kanazawa: 5 gardens, markets and historic places"
+      },
+      "type": "places",
+      "intent": "5-distinct-places-first-visit-evergreen",
+      "status": "reserved-for-research",
+      "requiresUsefulnessReview": true,
+      "evidenceStatus": "not-yet-approved"
     }
   ],
   "latestVerifiedCoverage": {

@@ -262,3 +262,10 @@ Pasaron tipos, 33 pruebas unitarias, 28 de navegación y 44 de producción, incl
 Ambos proyectos existentes de Cloudflare completaron `b733f871fd38d8795373db9d6891488003a83c9a`. Se verificaron 294 respuestas del catálogo/redirecciones y 52 comprobaciones del lote, incluidos los bytes de 18 imágenes, las cuatro URLs, idiomas, metadatos, búsqueda, destinos y enlaces a los 42 originales navideños. El sitemap contiene 702 URLs. Evidencia: `editorial/verification/2026-11-04-christmas-publication.json`.
 
 Esta tanda manual adicional fue autorizada después de las dos guías diarias de hoy. El lote diario permanece intacto y el calendario sigue en dos originales a las 12:00 de Miami; no se afirma atribución desatendida. El total de hoy es cuatro temas nuevos únicos publicados y verificados.
+
+
+## 5 de noviembre de 2026: imágenes festivas opcionales para artículos futuros
+
+Implementado el flujo de `docs/FESTIVE-IMAGES.md`, desactivado por defecto y con los 163 originales actuales excluidos. Admite portada e ilustraciones adicionales rotuladas en español e inglés, conservación del original, licencia específica, hashes y revisión visual; nunca sustituye la foto documental obligatoria de un lugar. Codex dispone del editor de imágenes en esta sesión, pero no se realizó ninguna transformación real ni se añadieron artículos o fotografías. No se incorporó una API de IA de pago ni un editor desatendido.
+
+Pasaron 68 pruebas unitarias/de componentes, 28 de navegación, 40 de producción y ambas compilaciones de 800 páginas, incluida `build:release`. Los 5.083 archivos protegidos siguen intactos; todo el resultado público compilado, incluidas las 800 páginas, recursos, sitemap y robots.txt, es idéntico byte por byte al anterior. Ambos proyectos existentes de Cloudflare completaron el commit `dd744a83b33bba3865def8a743c5446803f2b6a3`. Se verificaron 334 respuestas HTTPS del catálogo y 19 comprobaciones de igualdad pública, fotos y redirecciones. La programación diaria, anuncios, Analytics, SEO y diseño 3D se conservaron. Evidencia: `editorial/verification/2026-11-05-festive-images.json`.

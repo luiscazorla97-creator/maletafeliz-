@@ -30,10 +30,15 @@
       "hints": 0
     },
     "standardBuildPages": 800,
-    "productionReleaseBuild": "pending",
-    "deployment": "pending",
-    "publicVerification": "pending",
-    "endToEndTests": 28
+    "productionReleaseBuild": {
+      "success": true,
+      "pages": 800,
+      "logSha256": "ccb10006b1e2c346a5034bfcf83ca4f972d4b627cc3feae308050bfe9507f4e5"
+    },
+    "deployment": "verified",
+    "publicVerification": "verified",
+    "endToEndTests": 28,
+    "productionBrowserTests": 40
   },
   "preserved": [
     "All historical article JSON, sources, dates and content-hash approvals",
@@ -42,5 +47,3402 @@
     "3D design, logos, menus, search, languages, URLs and SEO configuration",
     "Publication batches, strategy, cadence and external scheduler"
   ],
-  "documentation": "docs/FESTIVE-IMAGES.md"
+  "documentation": "docs/FESTIVE-IMAGES.md",
+  "verifiedAt": "2026-11-05T22:01:24.039152+00:00",
+  "implementationCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+  "toolVerification": {
+    "toolExposed": "image_gen.imagegen",
+    "availableDuringImplementation": true,
+    "actualPhotoEditsInvoked": false,
+    "actualAiPhotoEditsPerformed": 0,
+    "paidAiApiCalls": 0,
+    "syntheticFixturesNeverPublished": true,
+    "note": "Tool availability was checked; no image-generation/editing success is claimed. Codex must check availability again for each future selected article."
+  },
+  "preservation": {
+    "checkedAt": "2026-11-05T21:57:29.648625+00:00",
+    "baseline": "37dad2c4a648fd94126674ed9341c72ddb05feb3",
+    "protectedFilesByteIdentical": 5083,
+    "originals": 163,
+    "localizedArticles": 326,
+    "documentaryPhotoRecords": 723,
+    "historicalFlagsEnabled": 0,
+    "aiPhotoEditsPerformed": 0,
+    "productionHtmlFiles": 800,
+    "sitemapByteIdentical": true,
+    "robotsByteIdentical": true,
+    "historicalArticlesHtmlByteIdentical": 326,
+    "distChanges": [],
+    "distHtmlChanges": [],
+    "distAdded": [],
+    "distRemoved": [],
+    "success": true
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-05T22:00:21.612Z",
+    "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+        "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+        "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+        "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-05T21:59:53.071872Z",
+          "ended_on": "2026-11-05T22:00:05.307194Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-05T21:51:24.130839Z",
+            "ended_on": "2026-11-05T21:51:24.134649Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-05T21:51:24.134649Z",
+            "ended_on": "2026-11-05T21:51:26.893944Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-05T21:51:26.893944Z",
+            "ended_on": "2026-11-05T21:51:51.320361Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:51.320361Z",
+            "ended_on": "2026-11-05T21:59:53.071872Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:59:53.071872Z",
+            "ended_on": "2026-11-05T22:00:05.307194Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+        "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+        "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+        "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-05T21:51:50.068825Z",
+          "ended_on": "2026-11-05T21:51:56.049601Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-05T21:51:26.056601Z",
+            "ended_on": "2026-11-05T21:51:26.061716Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-05T21:51:26.061716Z",
+            "ended_on": "2026-11-05T21:51:28.960513Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-05T21:51:28.960513Z",
+            "ended_on": "2026-11-05T21:51:47.986289Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:47.986289Z",
+            "ended_on": "2026-11-05T21:51:50.068825Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true
+  },
+  "cloudflareBuildProofs": [
+    {
+      "project": "maletafeliz-web",
+      "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "checkedAt": "2026-11-05T22:00:21.612Z",
+      "entries": 899,
+      "logSha256": "64beb1529bef489840aa2b4f843b82c74187967aee8ed0152c6aa433903491e1",
+      "releaseCommandPresent": true,
+      "builtPages": "800"
+    },
+    {
+      "project": "maletafeliz-www",
+      "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "checkedAt": "2026-11-05T22:00:21.612Z",
+      "entries": 23,
+      "logSha256": "d9b8f83c80ef43943bd42ebc4123dbf262c76d85d2f8e27dad7a4eeb81cd8e37",
+      "releaseCommandPresent": false
+    }
+  ],
+  "cloudflareObservationHistory": [
+    {
+      "checkedAt": "2026-11-05T21:51:44.156Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "d842b9bf-4345-4403-9cdb-534df19717c5",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "clone_repo",
+            "started_on": "2026-11-05T21:51:26.893944Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "build",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "a81a671c-f542-4eb7-85ff-b79ec675bf43",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "clone_repo",
+            "started_on": "2026-11-05T21:51:28.960513Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "build",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": false
+    },
+    {
+      "checkedAt": "2026-11-05T21:52:31.406Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "d842b9bf-4345-4403-9cdb-534df19717c5",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:51.320361Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": "2026-11-05T21:51:51.320361Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:51.320361Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": "2026-11-05T21:51:47.986289Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:47.986289Z",
+              "ended_on": "2026-11-05T21:51:50.068825Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:51:50.068825Z",
+              "ended_on": "2026-11-05T21:51:56.049601Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": false
+    },
+    {
+      "checkedAt": "2026-11-05T21:53:18.085Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "d842b9bf-4345-4403-9cdb-534df19717c5",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:51.320361Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": "2026-11-05T21:51:51.320361Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:51.320361Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": "2026-11-05T21:51:47.986289Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:47.986289Z",
+              "ended_on": "2026-11-05T21:51:50.068825Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:51:50.068825Z",
+              "ended_on": "2026-11-05T21:51:56.049601Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": false
+    },
+    {
+      "checkedAt": "2026-11-05T21:54:04.759Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "d842b9bf-4345-4403-9cdb-534df19717c5",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:51.320361Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": "2026-11-05T21:51:51.320361Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:51.320361Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": "2026-11-05T21:51:47.986289Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:47.986289Z",
+              "ended_on": "2026-11-05T21:51:50.068825Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:51:50.068825Z",
+              "ended_on": "2026-11-05T21:51:56.049601Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": false
+    },
+    {
+      "checkedAt": "2026-11-05T21:54:51.578Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "d842b9bf-4345-4403-9cdb-534df19717c5",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:51.320361Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": "2026-11-05T21:51:51.320361Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:51.320361Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": "2026-11-05T21:51:47.986289Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:47.986289Z",
+              "ended_on": "2026-11-05T21:51:50.068825Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:51:50.068825Z",
+              "ended_on": "2026-11-05T21:51:56.049601Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": false
+    },
+    {
+      "checkedAt": "2026-11-05T21:55:38.042Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "d842b9bf-4345-4403-9cdb-534df19717c5",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:51.320361Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": "2026-11-05T21:51:51.320361Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:51.320361Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": "2026-11-05T21:51:47.986289Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:47.986289Z",
+              "ended_on": "2026-11-05T21:51:50.068825Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:51:50.068825Z",
+              "ended_on": "2026-11-05T21:51:56.049601Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": false
+    },
+    {
+      "checkedAt": "2026-11-05T21:56:25.063Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "d842b9bf-4345-4403-9cdb-534df19717c5",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:51.320361Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": "2026-11-05T21:51:51.320361Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:51.320361Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": "2026-11-05T21:51:47.986289Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:47.986289Z",
+              "ended_on": "2026-11-05T21:51:50.068825Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:51:50.068825Z",
+              "ended_on": "2026-11-05T21:51:56.049601Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": false
+    },
+    {
+      "checkedAt": "2026-11-05T21:57:11.482Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "d842b9bf-4345-4403-9cdb-534df19717c5",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:51.320361Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": "2026-11-05T21:51:51.320361Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:51.320361Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": "2026-11-05T21:51:47.986289Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:47.986289Z",
+              "ended_on": "2026-11-05T21:51:50.068825Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:51:50.068825Z",
+              "ended_on": "2026-11-05T21:51:56.049601Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": false
+    },
+    {
+      "checkedAt": "2026-11-05T21:57:58.583Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "d842b9bf-4345-4403-9cdb-534df19717c5",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:51.320361Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": "2026-11-05T21:51:51.320361Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:51.320361Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": "2026-11-05T21:51:47.986289Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:47.986289Z",
+              "ended_on": "2026-11-05T21:51:50.068825Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:51:50.068825Z",
+              "ended_on": "2026-11-05T21:51:56.049601Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": false
+    },
+    {
+      "checkedAt": "2026-11-05T21:58:45.273Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "d842b9bf-4345-4403-9cdb-534df19717c5",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:51.320361Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": "2026-11-05T21:51:51.320361Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:51.320361Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": "2026-11-05T21:51:47.986289Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:47.986289Z",
+              "ended_on": "2026-11-05T21:51:50.068825Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:51:50.068825Z",
+              "ended_on": "2026-11-05T21:51:56.049601Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": false
+    },
+    {
+      "checkedAt": "2026-11-05T21:59:31.913Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "d842b9bf-4345-4403-9cdb-534df19717c5",
+          "canonicalCommit": "195d74071a2777924311aaa82e4380d7d9abdd00",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "build",
+            "started_on": "2026-11-05T21:51:51.320361Z",
+            "ended_on": null,
+            "status": "active"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": "2026-11-05T21:51:51.320361Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:51.320361Z",
+              "ended_on": null,
+              "status": "active"
+            },
+            {
+              "name": "deploy",
+              "started_on": null,
+              "ended_on": null,
+              "status": "idle"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": "2026-11-05T21:51:47.986289Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:47.986289Z",
+              "ended_on": "2026-11-05T21:51:50.068825Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:51:50.068825Z",
+              "ended_on": "2026-11-05T21:51:56.049601Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": false
+    },
+    {
+      "checkedAt": "2026-11-05T22:00:19.393Z",
+      "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+      "projects": [
+        {
+          "name": "maletafeliz-web",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "npm run build:release",
+          "rootDirectory": "",
+          "found": true,
+          "canonicalDeploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "165065f8-3695-494e-9a95-5f851f765f90",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:59:53.071872Z",
+            "ended_on": "2026-11-05T22:00:05.307194Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:24.130839Z",
+              "ended_on": "2026-11-05T21:51:24.134649Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:24.134649Z",
+              "ended_on": "2026-11-05T21:51:26.893944Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:26.893944Z",
+              "ended_on": "2026-11-05T21:51:51.320361Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:51.320361Z",
+              "ended_on": "2026-11-05T21:59:53.071872Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:59:53.071872Z",
+              "ended_on": "2026-11-05T22:00:05.307194Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        },
+        {
+          "name": "maletafeliz-www",
+          "productionBranch": "main",
+          "sourceType": "github",
+          "sourceOwner": "luiscazorla97-creator",
+          "sourceRepository": "maletafeliz-",
+          "buildCommand": "",
+          "rootDirectory": "redirect-www",
+          "found": true,
+          "canonicalDeploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "canonicalCommit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "deploymentId": "63eeec09-94ad-421e-8717-fb3a733ba551",
+          "commit": "dd744a83b33bba3865def8a743c5446803f2b6a3",
+          "environment": "production",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-11-05T21:51:50.068825Z",
+            "ended_on": "2026-11-05T21:51:56.049601Z",
+            "status": "success"
+          },
+          "stages": [
+            {
+              "name": "queued",
+              "started_on": "2026-11-05T21:51:26.056601Z",
+              "ended_on": "2026-11-05T21:51:26.061716Z",
+              "status": "success"
+            },
+            {
+              "name": "initialize",
+              "started_on": "2026-11-05T21:51:26.061716Z",
+              "ended_on": "2026-11-05T21:51:28.960513Z",
+              "status": "success"
+            },
+            {
+              "name": "clone_repo",
+              "started_on": "2026-11-05T21:51:28.960513Z",
+              "ended_on": "2026-11-05T21:51:47.986289Z",
+              "status": "success"
+            },
+            {
+              "name": "build",
+              "started_on": "2026-11-05T21:51:47.986289Z",
+              "ended_on": "2026-11-05T21:51:50.068825Z",
+              "status": "success"
+            },
+            {
+              "name": "deploy",
+              "started_on": "2026-11-05T21:51:50.068825Z",
+              "ended_on": "2026-11-05T21:51:56.049601Z",
+              "status": "success"
+            }
+          ],
+          "trigger": "ad_hoc"
+        }
+      ],
+      "bothCanonicalSuccess": true
+    }
+  ],
+  "publicChecks": {
+    "checkedAt": "2026-11-05T22:01:06.446Z",
+    "success": true,
+    "records": [
+      {
+        "url": "https://maletafeliz.com/es/",
+        "http": 200,
+        "sha256": "c930946c3a15dda8f6e1e0f9ef5a705b77c709d41d8ea1f21479e6da3f6bae9c",
+        "localSha256": "c930946c3a15dda8f6e1e0f9ef5a705b77c709d41d8ea1f21479e6da3f6bae9c",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/en/",
+        "http": 200,
+        "sha256": "3317f4f6be96ba338c4470b3fcec22e8c648242660b78365d99ab6d3f5dea7b3",
+        "localSha256": "3317f4f6be96ba338c4470b3fcec22e8c648242660b78365d99ab6d3f5dea7b3",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/es/navidad/",
+        "http": 200,
+        "sha256": "ad4057571c33722e7e9d4f4f9214866f8ab53cbb62d099d55626cce9999fd8e8",
+        "localSha256": "ad4057571c33722e7e9d4f4f9214866f8ab53cbb62d099d55626cce9999fd8e8",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/en/christmas/",
+        "http": 200,
+        "sha256": "0e20f8ebb5a81525beb8802e2842fd0aaac8cbef60d15493e290877234bbd910",
+        "localSha256": "0e20f8ebb5a81525beb8802e2842fd0aaac8cbef60d15493e290877234bbd910",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/es/informacion/photography/",
+        "http": 200,
+        "sha256": "0fbe835d5ad45deb87db956f5a7bd04dbe172944f06b482397bf22af43b751f7",
+        "localSha256": "0fbe835d5ad45deb87db956f5a7bd04dbe172944f06b482397bf22af43b751f7",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/en/information/photography/",
+        "http": 200,
+        "sha256": "48ab32c1ac8810a8c0ff0dcbca0754750c5141bf0677f3b7036a34e621b00680",
+        "localSha256": "48ab32c1ac8810a8c0ff0dcbca0754750c5141bf0677f3b7036a34e621b00680",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/sitemap.xml",
+        "http": 200,
+        "sha256": "1c2a6146f794456888585d6e977cabf964e6bd8a1b1c8f04547c8075c8547fb2",
+        "localSha256": "1c2a6146f794456888585d6e977cabf964e6bd8a1b1c8f04547c8075c8547fb2",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/robots.txt",
+        "http": 200,
+        "sha256": "26887a2a2424f17bdac9b4f8f10cf551ff4de82fd9930429009a060f4d18c79d",
+        "localSha256": "26887a2a2424f17bdac9b4f8f10cf551ff4de82fd9930429009a060f4d18c79d",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/es/guias/navidad-en-venecia-2026/",
+        "http": 200,
+        "sha256": "d8f3e364a8ad349bc404ee2ee36294ed002364cb9610293981cd36d546ab7a14",
+        "localSha256": "d8f3e364a8ad349bc404ee2ee36294ed002364cb9610293981cd36d546ab7a14",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/es/guias/navidad-en-osaka-2026/",
+        "http": 200,
+        "sha256": "bf9a48bf57ad40336e7ec00b77c585b072f68dd0f5027b907d033070a10be08a",
+        "localSha256": "bf9a48bf57ad40336e7ec00b77c585b072f68dd0f5027b907d033070a10be08a",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/es/guias/navidad-en-miami-2026/",
+        "http": 200,
+        "sha256": "d19dc62e66a1f5bb8df06ff3a21c923948728b0b83bf5ba2f8b071e3a46038b5",
+        "localSha256": "d19dc62e66a1f5bb8df06ff3a21c923948728b0b83bf5ba2f8b071e3a46038b5",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/en/guides/christmas-in-venice-2026/",
+        "http": 200,
+        "sha256": "5a111142dfbc3b7c37863dc51520d94412ae216ede57e5d2d2e36f19e34d61e7",
+        "localSha256": "5a111142dfbc3b7c37863dc51520d94412ae216ede57e5d2d2e36f19e34d61e7",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/en/guides/christmas-in-osaka-2026/",
+        "http": 200,
+        "sha256": "dba98e1327276aa9028527f6fca1024761352d1007f7f33df141c99dfa7b5e22",
+        "localSha256": "dba98e1327276aa9028527f6fca1024761352d1007f7f33df141c99dfa7b5e22",
+        "equal": true
+      },
+      {
+        "url": "https://maletafeliz.com/en/guides/christmas-in-miami-2026/",
+        "http": 200,
+        "sha256": "0abbd46944062f33e25a5195291346830b591bcfca4a2b804e87ad34cf4ed8bd",
+        "localSha256": "0abbd46944062f33e25a5195291346830b591bcfca4a2b804e87ad34cf4ed8bd",
+        "equal": true
+      },
+      {
+        "url": "https://www.maletafeliz.com/es/guias/navidad-en-miami-2026/?from=verification",
+        "http": 301,
+        "location": "https://maletafeliz.com/es/guias/navidad-en-miami-2026/?from=verification"
+      },
+      {
+        "url": "https://www.maletafeliz.com/en/guides/christmas-in-osaka-2026/",
+        "http": 301,
+        "location": "https://maletafeliz.com/en/guides/christmas-in-osaka-2026/"
+      },
+      {
+        "url": "https://maletafeliz.com/images/pk-christmas-venice-campo.webp",
+        "http": 200,
+        "sha256": "05a43f57bd07f03744935d6ea3c08b1718389abced88d7f85928477730af58d5",
+        "unchanged": true
+      },
+      {
+        "url": "https://maletafeliz.com/images/pk-christmas-osaka-umeda.webp",
+        "http": 200,
+        "sha256": "9cdc03cd8fe043919954f5f37b48b942f939d31905171fea1193740e55174ac0",
+        "unchanged": true
+      },
+      {
+        "url": "https://maletafeliz.com/images/pk-christmas-miami-fairchild.webp",
+        "http": 200,
+        "sha256": "a1ab42accbe32e99622bbf3ef3cba7c7b9b1029763a0a37a8489db98fd59350e",
+        "unchanged": true
+      }
+    ]
+  },
+  "catalogueHttpsChecks": {
+    "checkedAt": "2026-11-05T22:01:03.552Z",
+    "origin": "https://maletafeliz.com",
+    "httpVerified": true,
+    "checked": [
+      {
+        "path": "/es/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/"
+      },
+      {
+        "path": "/en/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-adelaide/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-adelaide/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-adelaide/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-adelaide/"
+      },
+      {
+        "path": "/en/guides/7-amalfi-coast-towns-to-visit/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/7-amalfi-coast-towns-to-visit/"
+      },
+      {
+        "path": "/es/guias/7-pueblos-costa-amalfitana-que-conocer/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/7-pueblos-costa-amalfitana-que-conocer/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-san-pedro-de-atacama/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-san-pedro-de-atacama/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-san-pedro-de-atacama/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-san-pedro-de-atacama/"
+      },
+      {
+        "path": "/en/guides/athens-in-two-days/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/athens-in-two-days/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-atenas-en-dos-dias/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-atenas-en-dos-dias/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bali/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bali/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bali/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-bangkok/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-bangkok/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-bangkok/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-barcelona/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-barcelona/"
+      },
+      {
+        "path": "/en/guides/bariloche-graduation-trip/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/bariloche-graduation-trip/"
+      },
+      {
+        "path": "/es/guias/viaje-egresados-bariloche/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/viaje-egresados-bariloche/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-beijing/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-beijing/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-pekin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-pekin/"
+      },
+      {
+        "path": "/en/guides/things-to-do-in-bogota/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-in-bogota/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-bogota/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-bogota/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-brisbane/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-brisbane/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-brisbane/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-brisbane/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-budapest/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-budapest/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-budapest/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-budapest/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-buenos-aires/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-buenos-aires/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-buenos-aires/"
+      },
+      {
+        "path": "/en/guides/buffalo-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/buffalo-in-november/"
+      },
+      {
+        "path": "/es/guias/buffalo-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/buffalo-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-cairo-and-giza/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-cairo-and-giza/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-el-cairo-y-guiza/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-el-cairo-y-guiza/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-cancun/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-cancun/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-conocer-en-cancun/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-conocer-en-cancun/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-cape-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-cape-town/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-del-cabo/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-cartagena/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-cartagena/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-cartagena-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-cartagena-3-lugares/"
+      },
+      {
+        "path": "/en/guides/things-to-do-in-christchurch/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-in-christchurch/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-christchurch/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-christchurch/"
+      },
+      {
+        "path": "/en/guides/christmas-in-amsterdam/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-amsterdam/"
+      },
+      {
+        "path": "/es/guias/navidad-en-amsterdam/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-amsterdam/"
+      },
+      {
+        "path": "/en/guides/christmas-in-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-barcelona/"
+      },
+      {
+        "path": "/es/guias/navidad-en-barcelona/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-barcelona/"
+      },
+      {
+        "path": "/en/guides/christmas-in-basel/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-basel/"
+      },
+      {
+        "path": "/es/guias/navidad-en-basilea/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-basilea/"
+      },
+      {
+        "path": "/en/guides/christmas-in-berlin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-berlin/"
+      },
+      {
+        "path": "/es/guias/navidad-en-berlin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-berlin/"
+      },
+      {
+        "path": "/en/guides/christmas-in-bruges/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-bruges/"
+      },
+      {
+        "path": "/es/guias/navidad-en-brujas/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-brujas/"
+      },
+      {
+        "path": "/en/guides/christmas-in-brussels/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-brussels/"
+      },
+      {
+        "path": "/es/guias/navidad-en-bruselas/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-bruselas/"
+      },
+      {
+        "path": "/en/guides/christmas-in-budapest/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-budapest/"
+      },
+      {
+        "path": "/es/guias/navidad-en-budapest/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-budapest/"
+      },
+      {
+        "path": "/en/guides/christmas-in-chicago/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-chicago/"
+      },
+      {
+        "path": "/es/guias/navidad-en-chicago/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-chicago/"
+      },
+      {
+        "path": "/en/guides/christmas-in-colmar/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-colmar/"
+      },
+      {
+        "path": "/es/guias/navidad-en-colmar/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-colmar/"
+      },
+      {
+        "path": "/en/guides/christmas-in-cologne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-cologne/"
+      },
+      {
+        "path": "/es/guias/navidad-en-colonia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-colonia/"
+      },
+      {
+        "path": "/en/guides/christmas-in-copenhagen/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-copenhagen/"
+      },
+      {
+        "path": "/es/guias/navidad-en-copenhague/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-copenhague/"
+      },
+      {
+        "path": "/en/guides/christmas-in-dresden/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-dresden/"
+      },
+      {
+        "path": "/es/guias/navidad-en-dresde/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-dresde/"
+      },
+      {
+        "path": "/en/guides/christmas-in-dublin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-dublin/"
+      },
+      {
+        "path": "/es/guias/navidad-en-dublin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-dublin/"
+      },
+      {
+        "path": "/en/guides/christmas-in-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-edinburgh/"
+      },
+      {
+        "path": "/es/guias/navidad-en-edimburgo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-edimburgo/"
+      },
+      {
+        "path": "/en/guides/christmas-in-florence/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-florence/"
+      },
+      {
+        "path": "/es/guias/navidad-en-florencia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-florencia/"
+      },
+      {
+        "path": "/en/guides/christmas-in-helsinki/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-helsinki/"
+      },
+      {
+        "path": "/es/guias/navidad-en-helsinki/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-helsinki/"
+      },
+      {
+        "path": "/en/guides/christmas-in-innsbruck/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-innsbruck/"
+      },
+      {
+        "path": "/es/guias/navidad-en-innsbruck/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-innsbruck/"
+      },
+      {
+        "path": "/en/guides/christmas-in-london/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-london/"
+      },
+      {
+        "path": "/es/guias/navidad-en-londres/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-londres/"
+      },
+      {
+        "path": "/en/guides/christmas-in-lucerne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-lucerne/"
+      },
+      {
+        "path": "/es/guias/navidad-en-lucerna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-lucerna/"
+      },
+      {
+        "path": "/en/guides/christmas-in-madrid/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-madrid/"
+      },
+      {
+        "path": "/es/guias/navidad-en-madrid/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-madrid/"
+      },
+      {
+        "path": "/en/guides/christmas-in-malaga/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-malaga/"
+      },
+      {
+        "path": "/es/guias/navidad-en-malaga/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-malaga/"
+      },
+      {
+        "path": "/en/guides/christmas-in-miami-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-miami-2026/"
+      },
+      {
+        "path": "/es/guias/navidad-en-miami-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-miami-2026/"
+      },
+      {
+        "path": "/en/guides/christmas-in-milan/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-milan/"
+      },
+      {
+        "path": "/es/guias/navidad-en-milan/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-milan/"
+      },
+      {
+        "path": "/en/guides/christmas-in-montreal/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-montreal/"
+      },
+      {
+        "path": "/es/guias/navidad-en-montreal/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-montreal/"
+      },
+      {
+        "path": "/en/guides/christmas-in-munich/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-munich/"
+      },
+      {
+        "path": "/es/guias/navidad-en-munich/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-munich/"
+      },
+      {
+        "path": "/en/guides/christmas-in-new-york/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-new-york/"
+      },
+      {
+        "path": "/es/guias/navidad-en-nueva-york/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-nueva-york/"
+      },
+      {
+        "path": "/en/guides/christmas-in-nuremberg/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-nuremberg/"
+      },
+      {
+        "path": "/es/guias/navidad-en-nuremberg/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-nuremberg/"
+      },
+      {
+        "path": "/en/guides/christmas-in-osaka-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-osaka-2026/"
+      },
+      {
+        "path": "/es/guias/navidad-en-osaka-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-osaka-2026/"
+      },
+      {
+        "path": "/en/guides/christmas-in-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-paris/"
+      },
+      {
+        "path": "/es/guias/navidad-en-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-paris/"
+      },
+      {
+        "path": "/en/guides/christmas-in-prague/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-prague/"
+      },
+      {
+        "path": "/es/guias/navidad-en-praga/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-praga/"
+      },
+      {
+        "path": "/en/guides/christmas-in-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-quebec/"
+      },
+      {
+        "path": "/es/guias/navidad-en-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-quebec/"
+      },
+      {
+        "path": "/en/guides/christmas-in-rome/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-rome/"
+      },
+      {
+        "path": "/es/guias/navidad-en-roma/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-roma/"
+      },
+      {
+        "path": "/en/guides/christmas-in-rovaniemi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-rovaniemi/"
+      },
+      {
+        "path": "/es/guias/navidad-en-rovaniemi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-rovaniemi/"
+      },
+      {
+        "path": "/en/guides/christmas-in-salzburg/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-salzburg/"
+      },
+      {
+        "path": "/es/guias/navidad-en-salzburgo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-salzburgo/"
+      },
+      {
+        "path": "/en/guides/christmas-in-seville/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-seville/"
+      },
+      {
+        "path": "/es/guias/navidad-en-sevilla/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-sevilla/"
+      },
+      {
+        "path": "/en/guides/christmas-in-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-singapore/"
+      },
+      {
+        "path": "/es/guias/navidad-en-singapur/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-singapur/"
+      },
+      {
+        "path": "/en/guides/christmas-in-stockholm/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-stockholm/"
+      },
+      {
+        "path": "/es/guias/navidad-en-estocolmo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-estocolmo/"
+      },
+      {
+        "path": "/en/guides/christmas-in-strasbourg/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-strasbourg/"
+      },
+      {
+        "path": "/es/guias/navidad-en-estrasburgo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-estrasburgo/"
+      },
+      {
+        "path": "/en/guides/christmas-in-sydney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-sydney/"
+      },
+      {
+        "path": "/es/guias/navidad-en-sidney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-sidney/"
+      },
+      {
+        "path": "/en/guides/christmas-in-tallinn/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-tallinn/"
+      },
+      {
+        "path": "/es/guias/navidad-en-tallin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-tallin/"
+      },
+      {
+        "path": "/en/guides/christmas-in-tokyo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-tokyo/"
+      },
+      {
+        "path": "/es/guias/navidad-en-tokio/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-tokio/"
+      },
+      {
+        "path": "/en/guides/christmas-in-venice-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-venice-2026/"
+      },
+      {
+        "path": "/es/guias/navidad-en-venecia-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-venecia-2026/"
+      },
+      {
+        "path": "/en/guides/christmas-in-vienna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-vienna/"
+      },
+      {
+        "path": "/es/guias/navidad-en-viena/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-viena/"
+      },
+      {
+        "path": "/en/guides/christmas-in-vigo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-vigo/"
+      },
+      {
+        "path": "/es/guias/navidad-en-vigo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-vigo/"
+      },
+      {
+        "path": "/en/guides/christmas-in-zurich/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/christmas-in-zurich/"
+      },
+      {
+        "path": "/es/guias/navidad-en-zurich/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/navidad-en-zurich/"
+      },
+      {
+        "path": "/en/guides/columbus-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/columbus-in-november/"
+      },
+      {
+        "path": "/es/guias/columbus-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/columbus-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-copenhagen/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-copenhagen/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-copenhague/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-copenhague/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-cordoba/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-cordoba/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-cordoba/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-cordoba/"
+      },
+      {
+        "path": "/en/guides/10-places-to-discover-in-and-around-cusco/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-discover-in-and-around-cusco/"
+      },
+      {
+        "path": "/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-increibles-de-cusco-y-sus-alrededores/"
+      },
+      {
+        "path": "/en/guides/doha-november-f1/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/doha-november-f1/"
+      },
+      {
+        "path": "/es/guias/doha-noviembre-f1/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/doha-noviembre-f1/"
+      },
+      {
+        "path": "/en/guides/dubai-in-two-days/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/dubai-in-two-days/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-dubai-en-dos-dias/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-dubai-en-dos-dias/"
+      },
+      {
+        "path": "/en/guides/things-to-do-in-dunedin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-in-dunedin/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-dunedin/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-dunedin/"
+      },
+      {
+        "path": "/en/guides/things-to-do-in-durban/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-in-durban/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-durban/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-durban/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-edinburgh/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-edinburgh/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-edinburgh/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-essaouira/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-essaouira/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-essaouira/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-essaouira/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-florence/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-florence/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-florencia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-florencia/"
+      },
+      {
+        "path": "/en/guides/goa-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/goa-in-november/"
+      },
+      {
+        "path": "/es/guias/goa-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/goa-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-granada/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-granada/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-granada/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-granada/"
+      },
+      {
+        "path": "/en/guides/greenville-south-carolina-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/greenville-south-carolina-november/"
+      },
+      {
+        "path": "/es/guias/greenville-carolina-del-sur-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/greenville-carolina-del-sur-noviembre/"
+      },
+      {
+        "path": "/en/guides/halloween-australia-gold-coast-sydney-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-australia-gold-coast-sydney-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-australia-gold-coast-sidney-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-australia-gold-coast-sidney-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-canada-vancouver-quebec-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-canada-vancouver-quebec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-canada-vancouver-quebec-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-france-parc-asterix-catacombs-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-france-parc-asterix-catacombs-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-francia-parc-asterix-catacumbas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-francia-parc-asterix-catacumbas-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-germany-movie-park-berlin-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-germany-movie-park-berlin-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-alemania-movie-park-berlin-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-alemania-movie-park-berlin-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-ireland-puca-trim-athboy-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-ireland-puca-trim-athboy-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-irlanda-puca-trim-athboy-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-irlanda-puca-trim-athboy-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-japan-disneyland-disneysea-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-japan-disneyland-disneysea-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-japon-disneyland-disneysea-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-japon-disneyland-disneysea-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-netherlands-walibi-toverland-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-netherlands-walibi-toverland-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-paises-bajos-walibi-toverland-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-paises-bajos-walibi-toverland-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-spain-portaventura-warner-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-spain-portaventura-warner-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-espana-portaventura-warner-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-espana-portaventura-warner-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-uk-derry-edinburgh-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-uk-derry-edinburgh-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-reino-unido-derry-edimburgo-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-reino-unido-derry-edimburgo-2026/"
+      },
+      {
+        "path": "/en/guides/halloween-usa-salem-orlando-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/halloween-usa-salem-orlando-2026/"
+      },
+      {
+        "path": "/es/guias/halloween-estados-unidos-salem-orlando-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/halloween-estados-unidos-salem-orlando-2026/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hanoi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-hanoi/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-hanoi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-hanoi/"
+      },
+      {
+        "path": "/en/guides/5-remarkable-places-to-discover-in-hawaii/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-remarkable-places-to-discover-in-hawaii/"
+      },
+      {
+        "path": "/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-increibles-de-hawai-que-tenes-que-conocer/"
+      },
+      {
+        "path": "/en/guides/hilo-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/hilo-in-november/"
+      },
+      {
+        "path": "/es/guias/hilo-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/hilo-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hiroshima/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-hiroshima/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-hiroshima/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-hiroshima/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-hobart/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-hobart/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-hobart/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-hoi-an/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-hoi-an/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-hoi-an/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-hoi-an/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-hong-kong/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-hong-kong/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-hong-kong-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-hong-kong-3-lugares/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-iguazu/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-iguazu/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-iguazu/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-iguazu/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-istanbul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-istanbul/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-estambul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-estambul/"
+      },
+      {
+        "path": "/en/guides/kanazawa-5-places-to-visit/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/kanazawa-5-places-to-visit/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-kanazawa-5-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-kanazawa-5-lugares/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-kuala-lumpur/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-kuala-lumpur/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-kuala-lumpur/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-kuala-lumpur/"
+      },
+      {
+        "path": "/en/guides/places-to-visit-kyoto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/places-to-visit-kyoto/"
+      },
+      {
+        "path": "/es/guias/lugares-que-visitar-kioto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/lugares-que-visitar-kioto/"
+      },
+      {
+        "path": "/en/guides/las-vegas-november-f1/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/las-vegas-november-f1/"
+      },
+      {
+        "path": "/es/guias/las-vegas-noviembre-f1/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/las-vegas-noviembre-f1/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-lima/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-lima/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-lima/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-lima/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-lisbon/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-lisbon/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-lisboa/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-lisboa/"
+      },
+      {
+        "path": "/en/guides/things-to-do-in-ljubljana/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-in-ljubljana/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-liubliana/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-liubliana/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-london/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-london/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-londres/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-londres/"
+      },
+      {
+        "path": "/en/guides/los-angeles-7-places-to-visit/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/los-angeles-7-places-to-visit/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-los-angeles-7-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-los-angeles-7-lugares/"
+      },
+      {
+        "path": "/en/guides/los-cabos-5-places-to-visit/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/los-cabos-5-places-to-visit/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-los-cabos-5-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-los-cabos-5-lugares/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-lucerne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-lucerne/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-lucerna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-lucerna/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-luxor/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-luxor/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-luxor-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-luxor-3-lugares/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-madrid/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-madrid/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-madrid-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-madrid-3-lugares/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-marrakech/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-marrakech/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-marrakech/"
+      },
+      {
+        "path": "/en/guides/3-places-to-visit-in-melbourne/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/3-places-to-visit-in-melbourne/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-melbourne-3-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-melbourne-3-lugares/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-mexico-city/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-mexico-city/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-ciudad-de-mexico/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-milan/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-milan/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-conocer-en-milan/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-conocer-en-milan/"
+      },
+      {
+        "path": "/en/guides/5-places-near-mount-fuji/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-near-mount-fuji/"
+      },
+      {
+        "path": "/es/guias/5-lugares-cerca-del-monte-fuji/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-cerca-del-monte-fuji/"
+      },
+      {
+        "path": "/en/guides/day-dead-merida-paseo-animas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-merida-paseo-animas-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-merida-paseo-animas-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-merida-paseo-animas-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-mexico-city-zocalo-chapultepec-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-cdmx-zocalo-chapultepec-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-mixquic-alumbrada-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-mixquic-alumbrada-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-mixquic-alumbrada-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-mixquic-alumbrada-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-oaxaca-centre-monte-alban-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-oaxaca-centre-monte-alban-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-oaxaca-centro-monte-alban-2026/"
+      },
+      {
+        "path": "/en/guides/day-dead-puebla-tecamachalco-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/day-dead-puebla-tecamachalco-2026/"
+      },
+      {
+        "path": "/es/guias/dia-muertos-puebla-tecamachalco-2026/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/dia-muertos-puebla-tecamachalco-2026/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-nairobi/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-nairobi/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-nairobi/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-nara/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-nara/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-nara/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-nara/"
+      },
+      {
+        "path": "/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-places-to-visit-on-your-first-trip-to-new-york/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-de-nueva-york-que-no-te-podes-perder/"
+      },
+      {
+        "path": "/en/guides/oaxaca-5-places-to-visit/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/oaxaca-5-places-to-visit/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-oaxaca-5-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-oaxaca-5-lugares/"
+      },
+      {
+        "path": "/en/guides/7-places-to-visit-in-orlando/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/7-places-to-visit-in-orlando/"
+      },
+      {
+        "path": "/es/guias/7-lugares-que-conocer-en-orlando/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/7-lugares-que-conocer-en-orlando/"
+      },
+      {
+        "path": "/en/guides/things-to-do-in-osaka/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-in-osaka/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-osaka/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-osaka/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-ottawa/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-ottawa/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-ottawa/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-ottawa/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-paris/"
+      },
+      {
+        "path": "/es/guias/15-lugares-turisticos-imprescindibles-de-paris/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-turisticos-imprescindibles-de-paris/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-perth/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-perth/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-perth/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-perth/"
+      },
+      {
+        "path": "/en/guides/phuket-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/phuket-in-november/"
+      },
+      {
+        "path": "/es/guias/phuket-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/phuket-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/pisa-5-places-to-visit/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/pisa-5-places-to-visit/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-pisa-5-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-pisa-5-lugares/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-porto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-porto/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-oporto/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-oporto/"
+      },
+      {
+        "path": "/en/guides/prague-in-two-days/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/prague-in-two-days/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-praga-en-dos-dias/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-praga-en-dos-dias/"
+      },
+      {
+        "path": "/en/guides/puri-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/puri-in-november/"
+      },
+      {
+        "path": "/es/guias/puri-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/puri-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-quebec/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-quebec/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-quebec/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-queenstown/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-conocer-en-queenstown/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-conocer-en-queenstown/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-quito/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-quito/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-quito/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-quito/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-rabat/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-rabat/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-rabat/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-rabat/"
+      },
+      {
+        "path": "/en/guides/10-places-to-explore-in-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-explore-in-rio-de-janeiro/"
+      },
+      {
+        "path": "/es/guias/10-lugares-turisticos-de-rio-de-janeiro/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-turisticos-de-rio-de-janeiro/"
+      },
+      {
+        "path": "/en/guides/riviera-maya-7-places-to-visit/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/riviera-maya-7-places-to-visit/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-riviera-maya-7-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-riviera-maya-7-lugares/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-rome/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-rome/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-roma/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-roma/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-rotorua/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-rotorua/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-rotorua/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-rotorua/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-salvador/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-salvador/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-salvador/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-salvador/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-seoul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-seoul/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-seul/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-seul/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-seville/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-seville/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-sevilla/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-sevilla/"
+      },
+      {
+        "path": "/en/guides/angkor-temples-from-siem-reap/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/angkor-temples-from-siem-reap/"
+      },
+      {
+        "path": "/es/guias/templos-de-angkor-desde-siem-reap/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/templos-de-angkor-desde-siem-reap/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-singapore/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-singapore/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-singapore/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-stone-town/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-stone-town/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-stone-town/"
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-sydney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-sydney/"
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-de-sidney/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-de-sidney/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-taipei/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-taipei/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-taipei/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-taipei/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-tangier/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-tangier/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-tanger/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-tanger/"
+      },
+      {
+        "path": "/en/guides/15-essential-places-to-visit-in-tokyo/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/15-essential-places-to-visit-in-tokyo/"
+      },
+      {
+        "path": "/es/guias/15-lugares-imprescindibles-de-tokio/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/15-lugares-imprescindibles-de-tokio/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-tunis/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-tunis/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-tunez/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-tunez/"
+      },
+      {
+        "path": "/en/guides/udaipur-in-november/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/udaipur-in-november/"
+      },
+      {
+        "path": "/es/guias/udaipur-en-noviembre/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/udaipur-en-noviembre/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-ushuaia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-ushuaia/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-ushuaia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-ushuaia/"
+      },
+      {
+        "path": "/en/guides/things-to-do-in-valencia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-in-valencia/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-valencia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-valencia/"
+      },
+      {
+        "path": "/en/guides/10-places-to-visit-in-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-places-to-visit-in-vancouver/"
+      },
+      {
+        "path": "/es/guias/10-lugares-que-visitar-en-vancouver/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-que-visitar-en-vancouver/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-venice/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-venice/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-venecia/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-venecia/"
+      },
+      {
+        "path": "/en/guides/verona-5-places-to-visit/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/verona-5-places-to-visit/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-verona-5-lugares/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-verona-5-lugares/"
+      },
+      {
+        "path": "/en/guides/what-to-see-in-vienna/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/what-to-see-in-vienna/"
+      },
+      {
+        "path": "/es/guias/que-ver-en-viena/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-viena/"
+      },
+      {
+        "path": "/en/guides/carlos-paz-graduation-trip/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/carlos-paz-graduation-trip/"
+      },
+      {
+        "path": "/es/guias/viaje-egresados-carlos-paz/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/viaje-egresados-carlos-paz/"
+      },
+      {
+        "path": "/en/guides/5-places-to-visit-in-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/5-places-to-visit-in-wellington/"
+      },
+      {
+        "path": "/es/guias/5-lugares-que-visitar-en-wellington/",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/5-lugares-que-visitar-en-wellington/"
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/sitemap.xml"
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/robots.txt"
+      },
+      {
+        "path": "/maletafeliz-launch-check-nonexistent/",
+        "status": 404,
+        "finalUrl": "https://maletafeliz.com/maletafeliz-launch-check-nonexistent/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/",
+        "status": 301,
+        "location": "https://maletafeliz.com/"
+      },
+      {
+        "path": "https://www.maletafeliz.com/es/?ref=www-check",
+        "status": 301,
+        "location": "https://maletafeliz.com/es/?ref=www-check"
+      },
+      {
+        "path": "https://www.maletafeliz.com/en/",
+        "status": 301,
+        "location": "https://maletafeliz.com/en/"
+      }
+    ],
+    "errors": []
+  },
+  "testLogHashes": {
+    "tests.log": "c91d908e2d5e8d43f973d4fc258cb7fae10661f9cbbdb7dc488d17a0c3bd011c",
+    "check.log": "5abb639d356f455e04ce7f9de740213e4894f2dc7a316842b9654c56b85c0e1a",
+    "e2e.log": "d7c3a38626021fd93318e0d77f5f95ffaf2f216e15ea75e008a5c7dd95ce836b",
+    "release-tests.log": "4c8ffdcc8ebd8a357da714fc43214859c32232b68fc744e79fe1a27cac403819",
+    "build.log": "a1c730210c95c00a345a96f49ee8cd85012ca4c0012b54162b1c9bc5a82c0639",
+    "release.log": "ccb10006b1e2c346a5034bfcf83ca4f972d4b627cc3feae308050bfe9507f4e5"
+  },
+  "sourceChangedFiles": [
+    "AGENTS.md",
+    "docs/DAILY-PUBLISHING.md",
+    "docs/EDITORIAL.md",
+    "docs/FESTIVE-IMAGES.md",
+    "editorial/festive-images.json",
+    "editorial/verification/2026-11-05-festive-images.json",
+    "package.json",
+    "scripts/lib/content.mjs",
+    "scripts/lib/festive-images.mjs",
+    "scripts/prepare-festive-image.mjs",
+    "src/components/Article.astro",
+    "src/components/FestiveDisclosure.astro",
+    "src/components/FestiveFigure.astro",
+    "src/components/PhotoCredits.astro",
+    "src/lib/content.ts",
+    "src/lib/festive-images.ts",
+    "tests/editorial.test.ts",
+    "tests/festive-images.test.ts",
+    "tests/festive-rendering.test.ts",
+    "tests/release/publication.spec.ts",
+    "vitest.config.ts"
+  ],
+  "advertisingAndAnalytics": {
+    "configurationAndPublicBytesUnchanged": true,
+    "productionMockTestsPassed": true,
+    "liveCreativeDeliveryMeasured": false,
+    "analyticsDashboardReceiptMeasured": false
+  },
+  "automaticEditing": false,
+  "note": "Assisted Codex editing workflow ready for future selected festive guides; default off. No new articles or photos were published by this implementation. Existing public output remained entirely byte-identical."
 }

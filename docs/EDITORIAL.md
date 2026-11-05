@@ -16,6 +16,10 @@ Esta orden inicia trabajo real de Codex, no un generador por plantilla. El flujo
 10. Ejecutar comprobaciones y revisar HTML, fotografías, selector al mismo artículo, metadatos, enlaces y móvil. Corregir solo lo necesario. Los fixtures de tests nunca cuentan como artículos.
 11. Actualizar lote, cobertura e historial. Guardar cambios en GitHub; Cloudflare debe usar `npm run build:release`. Verificar las URLs finales y el sitemap después del despliegue.
 
+## Preferencia de formatos del titular
+
+El 5 de noviembre de 2026 pidió variar las guías: listas útiles de cinco, siete, diez u otra cantidad de cosas o lugares que conocer en un destino. Evitar usar siempre «en dos días» como título o intención. Elegir el número según los lugares realmente investigados y desarrollados, con fotografía propia por lugar; el título debe coincidir con el contenido. Variar regiones y enfoques sin inventar popularidad, rankings ni promesas de visitas. Esta preferencia no cambia la frecuencia diaria ni las exigencias editoriales.
+
 ## Archivos de aprobación y límites
 
 `contentHash` es SHA-256 de `JSON.stringify(article)`; orden de campos preservado. Ejemplo de cálculo: importar `hashArticle` desde `scripts/lib/content.mjs` y pasar el JSON exacto. Las comprobaciones automáticas detectan ausencias, duplicados exactos, relaciones inválidas, fotografías modificadas, fuentes demasiado antiguas y revisión caducada. No demuestran por sí solas la veracidad, la licencia, la naturalidad lingüística o la ausencia de plagio semántico. Esas comprobaciones requieren revisión documentada.

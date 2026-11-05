@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-05",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-05T05:28:11.479Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "santiago",
+    "naples",
+    "fukuoka",
+    "johannesburg",
+    "auckland"
+  ],
+  "requestedCount": 5,
+  "publishedCount": 0,
+  "errors": [],
+  "authorization": "Explicit owner request for five more originals, with numbered lists of things/places to visit and varied counts; daily2/noon schedule unchanged.",
+  "priorSameDayPublishedTopicIds": [],
+  "execution": {
+    "executionId": "9bdd8053-cca4-49b2-bd13-9cd001f36aa3",
+    "status": "active",
+    "startedAt": "2026-11-05T05:28:30.678330+00:00",
+    "leaseUntil": "2026-11-05T09:28:30.678330+00:00",
+    "heartbeatAt": "2026-11-05T05:28:30.678330+00:00",
+    "baseCommit": "de7ba4997e2d891b01c81fbfa1e180bdc51d7bb5",
+    "coordination": "Exclusive manual five-guide reservation; no active competing batch found."
+  }
+}

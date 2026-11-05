@@ -1,0 +1,39 @@
+{
+  "id": "2026-11-05-christmas-three-manual",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-05T18:57:22.644148+00:00",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "christmas-venice",
+    "christmas-osaka",
+    "christmas-miami"
+  ],
+  "requestedCount": 3,
+  "publishedCount": 0,
+  "errors": [],
+  "authorization": "Owner explicitly requested three additional Christmas articles. Three original topics, six fullES/EN versions; previous same-day twelve and daily2/noonMiami schedule preserved.",
+  "priorSameDayPublishedTopicIds": [
+    "amalfi-coast",
+    "cancun",
+    "kanazawa",
+    "los-angeles",
+    "los-cabos",
+    "milan",
+    "mount-fuji",
+    "oaxaca",
+    "orlando",
+    "pisa",
+    "riviera-maya",
+    "verona"
+  ],
+  "reservationCommandInspection": "npm run editorial:batch --3 returned the superseded daily batch. Preserved that inventory; created this exclusive supplemental manual reservation after adding topics.",
+  "execution": {
+    "executionId": "8dc0832b-a7f6-4160-9709-40a59ce7da36",
+    "status": "active",
+    "startedAt": "2026-11-05T18:57:22.644148+00:00",
+    "heartbeatAt": "2026-11-05T18:57:22.644148+00:00",
+    "leaseUntil": "2026-11-05T22:57:22.644148+00:00",
+    "baseCommit": "bea709b80c68fca34a6743fd8208801fb16a277f",
+    "coordination": "No other active lease found; all older batch inventories preserved."
+  }
+}

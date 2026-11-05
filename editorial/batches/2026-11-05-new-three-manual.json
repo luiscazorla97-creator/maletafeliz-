@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-05-new-three-manual",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-05T23:49:25.566131+00:00",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "guanajuato",
+    "lucca",
+    "nikko"
+  ],
+  "requestedCount": 3,
+  "publishedCount": 0,
+  "errors": [],
+  "authorization": {
+    "type": "explicit-additional-manual-request",
+    "request": "sube 3 articulos nuevos",
+    "earlierUniqueVerifiedTopicsToday": 15,
+    "dailyTargetUnchanged": 2,
+    "schedulerChanged": false
+  },
+  "reservationCommand": {
+    "command": "npm run editorial:batch -- 3",
+    "result": "Reused superseded daily batch; inspected and preserved. Separate exclusive owner-authorized manual batch."
+  },
+  "execution": {
+    "executionId": "9de406d3-0def-4883-a4b3-b796153a6855",
+    "status": "active",
+    "startedAt": "2026-11-05T23:49:25.566131+00:00",
+    "heartbeatAt": "2026-11-05T23:49:25.566131+00:00",
+    "leaseUntil": "2026-11-06T03:49:25.566131+00:00",
+    "baseCommit": "96cc16b14061a2ca324ec2b22c860e7698b7c49e",
+    "coordination": "No competing active lease. Preserve all older batch inventories."
+  }
+}

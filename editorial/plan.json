@@ -8422,5 +8422,120 @@
       "es": "https://maletafeliz.com/es/guias/navidad-en-miami-2026/",
       "en": "https://maletafeliz.com/en/guides/christmas-in-miami-2026/"
     }
+  },
+  {
+    "id": "guanajuato",
+    "city": {
+      "es": "Guanajuato",
+      "en": "Guanajuato"
+    },
+    "countryId": "mx",
+    "country": {
+      "es": "México",
+      "en": "Mexico"
+    },
+    "continent": "america",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 5,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "Qué ver en Guanajuato capital: 5 lugares para tu primera visita",
+      "en": "5 places to visit in Guanajuato: museums, squares and viewpoints"
+    },
+    "slugs": {
+      "es": "que-ver-en-guanajuato-5-lugares",
+      "en": "5-places-to-visit-guanajuato"
+    },
+    "researchCandidates": [
+      "https://guanajuatocapitalturismo.com/imperdibles/"
+    ],
+    "researchStatus": "pending",
+    "imageStatus": "pending",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    }
+  },
+  {
+    "id": "lucca",
+    "city": {
+      "es": "Lucca",
+      "en": "Lucca"
+    },
+    "countryId": "it",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 5,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "Qué ver en Lucca: 5 lugares entre murallas, plazas y arte",
+      "en": "5 places to visit in Lucca: walls, squares and historic sights"
+    },
+    "slugs": {
+      "es": "que-ver-en-lucca-5-lugares",
+      "en": "5-places-to-visit-lucca"
+    },
+    "researchCandidates": [
+      "https://turismo.lucca.it/"
+    ],
+    "researchStatus": "pending",
+    "imageStatus": "pending",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    }
+  },
+  {
+    "id": "nikko",
+    "city": {
+      "es": "Nikko",
+      "en": "Nikko"
+    },
+    "countryId": "jp",
+    "country": {
+      "es": "Japón",
+      "en": "Japan"
+    },
+    "continent": "asia",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture",
+      "nature"
+    ],
+    "placeCount": 5,
+    "intent": "first-visit-highlights",
+    "status": "planned",
+    "titles": {
+      "es": "Qué ver en Nikko: 5 lugares entre templos, puentes y naturaleza",
+      "en": "5 places to visit in Nikko: shrines, temples and riverside walks"
+    },
+    "slugs": {
+      "es": "que-ver-en-nikko-5-lugares",
+      "en": "5-places-to-visit-nikko"
+    },
+    "researchCandidates": [
+      "https://www.visitnikko.jp/en/"
+    ],
+    "researchStatus": "pending",
+    "imageStatus": "pending",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    }
   }
 ]

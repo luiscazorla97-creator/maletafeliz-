@@ -1,0 +1,32 @@
+{
+  "id": "2026-11-04-five-manual",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-05T02:53:02.694651+00:00",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "bogota",
+    "valencia",
+    "osaka",
+    "durban",
+    "christchurch"
+  ],
+  "requestedCount": 5,
+  "publishedCount": 0,
+  "errors": [],
+  "authorization": "Explicit owner request: publica5articulos; additional manual five originals, ten complete ES/ENversions. Daily2/noon schedule unchanged.",
+  "priorSameDayPublishedTopicIds": [
+    "ljubljana",
+    "dunedin",
+    "christmas-tokyo",
+    "christmas-singapore"
+  ],
+  "reservationCommandReusedDailyBatch": true,
+  "execution": {
+    "executionId": "c6d95613-d817-4b5c-b752-7237c7234a84",
+    "status": "active",
+    "startedAt": "2026-11-05T02:53:02.694651+00:00",
+    "leaseUntil": "2026-11-05T06:53:02.694651+00:00",
+    "baseCommit": "d1e662732b227ccaffd93ea2254dc1ed02a39225",
+    "coordination": "Exclusive additional manual batch; no active prior execution found, existing batches preserved."
+  }
+}

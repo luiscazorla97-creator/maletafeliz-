@@ -40,13 +40,15 @@
       },
       "type": "places",
       "intent": "milan",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved",
+      "evidenceStatus": "approved-and-publicly-verified",
       "existingCoverageIds": [
         "christmas-milan",
         "milan"
-      ]
+      ],
+      "publishedCommit": "4568b788a5ed66f5b8f588453df1737a93d430e3",
+      "publicVerification": "editorial/verification/2026-11-05-priority-five-publication.json"
     },
     {
       "id": "amalfi-coast",
@@ -58,12 +60,14 @@
       },
       "type": "places",
       "intent": "amalfi-coast",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved",
+      "evidenceStatus": "approved-and-publicly-verified",
       "existingCoverageIds": [
         "amalfi-coast"
-      ]
+      ],
+      "publishedCommit": "4568b788a5ed66f5b8f588453df1737a93d430e3",
+      "publicVerification": "editorial/verification/2026-11-05-priority-five-publication.json"
     },
     {
       "id": "rome-three-days",
@@ -485,12 +489,14 @@
       },
       "type": "places",
       "intent": "mount-fuji",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved",
+      "evidenceStatus": "approved-and-publicly-verified",
       "existingCoverageIds": [
         "mount-fuji"
-      ]
+      ],
+      "publishedCommit": "4568b788a5ed66f5b8f588453df1737a93d430e3",
+      "publicVerification": "editorial/verification/2026-11-05-priority-five-publication.json"
     },
     {
       "id": "tokyo-five-days",
@@ -813,12 +819,14 @@
       },
       "type": "places",
       "intent": "cancun",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved",
+      "evidenceStatus": "approved-and-publicly-verified",
       "existingCoverageIds": [
         "cancun"
-      ]
+      ],
+      "publishedCommit": "4568b788a5ed66f5b8f588453df1737a93d430e3",
+      "publicVerification": "editorial/verification/2026-11-05-priority-five-publication.json"
     },
     {
       "id": "riviera-maya-places",
@@ -1148,12 +1156,14 @@
       },
       "type": "places",
       "intent": "orlando",
-      "status": "reserved-for-research",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
-      "evidenceStatus": "not-yet-approved",
+      "evidenceStatus": "approved-and-publicly-verified",
       "existingCoverageIds": [
         "orlando"
-      ]
+      ],
+      "publishedCommit": "4568b788a5ed66f5b8f588453df1737a93d430e3",
+      "publicVerification": "editorial/verification/2026-11-05-priority-five-publication.json"
     },
     {
       "id": "los-angeles-places",
@@ -1297,5 +1307,84 @@
       ],
       "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
     }
-  ]
+  ],
+  "latestVerifiedCoverage": {
+    "verifiedAt": "2026-11-05T06:57:26.740877+00:00",
+    "countries": [
+      {
+        "countryId": "it",
+        "publishedOriginals": 8,
+        "localizedVersions": 16,
+        "targetOriginals": 30,
+        "missingOriginals": 22,
+        "articleIds": [
+          "rome",
+          "amalfi-coast",
+          "christmas-milan",
+          "milan",
+          "florence",
+          "christmas-rome",
+          "venice",
+          "christmas-florence"
+        ]
+      },
+      {
+        "countryId": "jp",
+        "publishedOriginals": 8,
+        "localizedVersions": 16,
+        "targetOriginals": 25,
+        "missingOriginals": 17,
+        "articleIds": [
+          "halloween-japan",
+          "kyoto",
+          "tokyo",
+          "hiroshima",
+          "christmas-tokyo",
+          "mount-fuji",
+          "nara",
+          "osaka"
+        ]
+      },
+      {
+        "countryId": "mx",
+        "publishedOriginals": 7,
+        "localizedVersions": 14,
+        "targetOriginals": 25,
+        "missingOriginals": 18,
+        "articleIds": [
+          "mexico-city",
+          "muertos-merida",
+          "muertos-mexico-city",
+          "muertos-mixquic",
+          "muertos-oaxaca",
+          "muertos-puebla",
+          "cancun"
+        ]
+      },
+      {
+        "countryId": "us",
+        "publishedOriginals": 12,
+        "localizedVersions": 24,
+        "targetOriginals": 20,
+        "missingOriginals": 8,
+        "articleIds": [
+          "halloween-usa",
+          "hawaii",
+          "miami",
+          "new-york",
+          "buffalo",
+          "hilo",
+          "orlando",
+          "christmas-chicago",
+          "las-vegas",
+          "christmas-new-york",
+          "greenville-sc",
+          "columbus"
+        ]
+      }
+    ],
+    "priorityOriginals": 35,
+    "missingToInitial100": 65,
+    "publicVerification": "editorial/verification/2026-11-05-priority-five-publication.json"
+  }
 }

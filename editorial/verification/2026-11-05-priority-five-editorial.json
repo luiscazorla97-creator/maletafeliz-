@@ -1,6 +1,6 @@
 {
   "reviewedAt": "2026-11-05T06:29:31.360Z",
-  "status": "editorially-approved-awaiting-build-and-public-verification",
+  "status": "editorially-approved-and-publicly-verified",
   "reviewer": "Codex AI-assisted bilingual self-review",
   "articles": [
     {
@@ -191,7 +191,7 @@
     "403/503/fetch-failed/emptyJS responses retained uncited. No access bypasses.",
     "Newborn guides use their own 29 non-reused documentary photographs, not generated images."
   ],
-  "publiclyVerified": false,
+  "publiclyVerified": true,
   "photoRightsEvidenceFiles": [
     "content/research/ph-milan-duomo-rights.json",
     "content/research/ph-milan-galleria-rights.json",
@@ -238,5 +238,7 @@
       "nh-country-us",
       "nh-orlando-dmo"
     ]
-  }
+  },
+  "publiclyVerifiedAt": "2026-11-05T06:57:26.740877+00:00",
+  "publicVerification": "editorial/verification/2026-11-05-priority-five-publication.json"
 }

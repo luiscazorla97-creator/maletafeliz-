@@ -49,3 +49,7 @@ No inferir autonomía desatendida de `last_run_time`: la consulta no expone un r
 Conservar artículos, fechas, fotos, URLs, categorías, buscador, menús, selector de idiomas, identidad y diseño 3D. Mantener íntegros Adsterra y AdSense, posiciones, códigos y dimensiones; Analytics y su consentimiento; popunder desactivado; ambos proyectos existentes de Cloudflare y DNS.
 
 Ejecutar los controles del repositorio y `npm run build:release`, más pruebas de grupos temáticos, enlaces, metadatos, idiomas y móvil. Revisar todo el catálogo por desapariciones y conservar evidencia del commit servido por ambos proyectos. No prometer indexación rápida ni visitas. Search Console es la fuente para evaluar resultados cuando exista acceso real a sus datos; no contratar APIs ni servicios nuevos para sustituirlo.
+
+## Resultado verificado de la primera implementación
+
+El 5 de noviembre de 2026, la tanda manual de cinco añadió Milán, Costa Amalfitana, entorno del Fuji, Cancún y Orlando. Ambos proyectos de Cloudflare y las diez versiones se verificaron públicamente. El inventario prioritario queda en Italia: 8/30; Japón: 8/25; México: 7/25; Estados Unidos: 12/20. Son 35 originales y 70 versiones; faltan 65 originales. El catálogo internacional conserva 153 originales y 306 versiones. La auditoría inicial de 30/100 y sus 70 candidatos se conservan como punto de partida; cinco candidatos ahora están publicados y 65 pendientes de investigación. Ver `editorial/verification/2026-11-05-priority-five-publication.json` y `docs/STATUS.md`.

@@ -1,19 +1,41 @@
 # Estado del proyecto
 
-Verificado el 4 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
+Verificado el 5 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
 
 ## Publicación verificada
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 148 guías originales y 296 versiones completas en español e inglés, con al menos 1.200 palabras útiles por versión, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 625 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 646 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 153 guías originales y 306 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 661 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 675 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
 
-La campaña corresponde al commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
+Registro histórico de la campaña de festividades: commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. El despliegue vigente y sus comprobaciones se detallan a continuación. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
+
+## Estrategia SEO por país y cinco guías: 5 de noviembre de 2026
+
+Publicadas Milán (5 lugares), Costa Amalfitana (7 pueblos), entorno del monte Fuji (5 lugares), Cancún (5 lugares) y Orlando (7 lugares). Son cinco originales y diez versiones completas ES/EN de 1.193–1.611 palabras; la extensión responde a la consulta, conforme a la nueva instrucción del titular, sin relleno. Se leyeron 36 documentos oficiales y las licencias específicas de 29 fotos documentales, con 84 archivos WebP responsivos. Fuentes fallidas o vacías y la selección anterior aplazada quedan registradas sin simular consultas ni publicaciones.
+
+Las páginas existentes de Italia, Japón, México y Estados Unidos ahora contienen introducciones propias, grupos de ciudades, todos los artículos publicados, rutas útiles, consejos y preguntas. Tienen metadatos localizados, CollectionPage/ItemList, breadcrumbs y alternates en sitemap. Los artículos enlazan a su país y conservan sus módulos relacionados. El modelo permite nuevos temas especializados de una misma ciudad sin crear destinos ficticios. Ninguna URL anterior cambió.
+
+| País | Originales verificados | Meta | Faltan |
+| --- | ---: | ---: | ---: |
+| Italia | 8 | 30 | 22 |
+| Japón | 8 | 25 | 17 |
+| México | 7 | 25 | 18 |
+| Estados Unidos | 12 | 20 | 8 |
+| Total prioritario | 35 | 100 | 65 |
+
+El backlog registra 65 candidatos adicionales que requieren investigación y contraste de intención antes de reservarse; no son artículos publicados ni encargos automáticos. Se conservan los otros países y el catálogo global suma 153 originales, 306 versiones, 675 fotos y 673 lugares fotografiados.
+
+Pasaron tipos, 40 pruebas unitarias, 28 pruebas de navegación y 184 pruebas de producción pertinentes (los 35 originales prioritarios en ambos idiomas y viewports, páginas pilar, anuncios y consentimiento). Las compilaciones normal y obligatoria `npm run build:release` generaron 766 páginas. Se comprobaron 31.949 enlaces internos y 3.798 fragmentos sin errores; las 296 versiones anteriores conservan bytes, fechas, metadatos y Article JSON-LD. También se verificaron 3.985 archivos protegidos sin cambios, incluidos anuncios, analítica, logo, diseño y fotos anteriores.
+
+Ambos proyectos de Cloudflare completaron y sirvieron `4568b788a5ed66f5b8f588453df1737a93d430e3`. Se verificaron 314 respuestas del catálogo/redirecciones y 246 registros de comprobación pública del lote/países, incluidos los 84 archivos nuevos por sus bytes exactos y las diez redirecciones www con ruta y parámetros. El sitemap contiene 742 URLs. Evidencia: `editorial/verification/2026-11-05-priority-five-publication.json`; archivos modificados: `editorial/verification/2026-11-05-seo-changed-files.json`.
+
+Se conserva la tarea existente habilitada: dos originales diarios a las 12:00 America/New_York. Su prompt externo todavía describe rotación mundial; `docs/DAILY-PUBLISHING-PROMPT.md` prepara su sustitución en la misma tarea sin cambiar frecuencia, horario ni credenciales. No se aplicó esa actualización externa, no se creó otra automatización y no se atribuye una ejecución desatendida. Los cinco manuales verificados cuentan para el límite de la ejecución diaria del 5 de noviembre. No se afirma indexación o tráfico de Google sin evidencia de Search Console.
 
 ## Cinco guías adicionales: 4 de noviembre de 2026
 

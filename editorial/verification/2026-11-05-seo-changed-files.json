@@ -1,0 +1,1635 @@
+{
+  "sourceCommit": "4568b788a5ed66f5b8f588453df1737a93d430e3",
+  "baselineCommit": "de7ba4997e2d891b01c81fbfa1e180bdc51d7bb5",
+  "sourceFiles": [
+    {
+      "status": "A",
+      "path": "content/articles/amalfi-coast.en.json"
+    },
+    {
+      "status": "A",
+      "path": "content/articles/amalfi-coast.es.json"
+    },
+    {
+      "status": "A",
+      "path": "content/articles/cancun.en.json"
+    },
+    {
+      "status": "A",
+      "path": "content/articles/cancun.es.json"
+    },
+    {
+      "status": "A",
+      "path": "content/articles/milan.en.json"
+    },
+    {
+      "status": "A",
+      "path": "content/articles/milan.es.json"
+    },
+    {
+      "status": "A",
+      "path": "content/articles/mount-fuji.en.json"
+    },
+    {
+      "status": "A",
+      "path": "content/articles/mount-fuji.es.json"
+    },
+    {
+      "status": "A",
+      "path": "content/articles/orlando.en.json"
+    },
+    {
+      "status": "A",
+      "path": "content/articles/orlando.es.json"
+    },
+    {
+      "status": "M",
+      "path": "content/images/manifest.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-domain-nz.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-domain.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-explore.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-gallery.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-maunga-home.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-maungakiekie-info.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-maungakiekie.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-maungawhau-info.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-maungawhau.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-museum-plan.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-museum.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-nz.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-tower.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-viaduct.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-auckland-waterfront.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-area.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-canal-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-canal.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-castle.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-hakata-course.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-kushida.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-ohori-course.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-ohori.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-todos.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-tower-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-tower-operator.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-fukuoka-tower.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-apartheid-visit.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-apartheid.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-constitution-visit.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-constitution.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-garden-about.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-garden-visit.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-garden.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-hector-sat.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-hector.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-mandela.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-parks-home.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-sat-search.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-soweto.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-joburg-vilakazi-sat.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-castel.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-centre.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-coast.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-duomo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-italia.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-lungomare.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-mann-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-mann.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-museum-culture.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-palace-plan.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-palace-visit.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-palace.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-search.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-naples-spaccanapoli.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-armas.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-buildings.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-centro.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-cerro.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-chile.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-memoria.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-moneda.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-museum-access.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-museum-hours.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-parquemet.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-patrimonio.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-plazas.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-precolombino-visit.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-precolombino.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ng-santiago-santalucia.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-amalfi-amalfi.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-amalfi-atrani.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-amalfi-coast.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-amalfi-maiori.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-amalfi-minori.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-amalfi-positano.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-amalfi-ravello.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-amalfi-travelmar.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-amalfi-vietri.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-cancun-beaches.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-cancun-delfines.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-cancun-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-cancun-elmeco.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-cancun-elrey.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-cancun-museo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-country-italy.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-country-japan.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-country-mexico-inah.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-country-mexico-national.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-country-mexico.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-country-us.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-fuji-arakura.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-fuji-kawaguchi.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-fuji-oshino.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-fuji-region.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-fuji-shrine.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-fuji-yamanaka.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-fuji-yamanashi.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-brera-entrance.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-brera-hours.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-brera-visit.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-brera.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-castle-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-castle-visit.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-castle.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-centre.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-duomo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-gallery-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-gallery.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-park-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-park.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-tickets.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-milan-visit.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-citywalk-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-citywalk.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-free-shopping.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-icon-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-icon.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-lake.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-leu-rules.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-leu-visit.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-leu.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-science.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-springs-dmo.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-springs-plan.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-springs.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-wheel.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-winterpark-info.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/nh-orlando-winterpark.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-auckland-domain-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-auckland-gallery-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-auckland-maungakiekie-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-auckland-maungawhau-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-auckland-museum-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-auckland-tower-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-auckland-viaduct-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-fukuoka-canal-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-fukuoka-castle-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-fukuoka-kushida-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-fukuoka-ohori-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-fukuoka-tower-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-johannesburg-apartheid-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-johannesburg-constitution-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-johannesburg-garden-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-johannesburg-hector-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-johannesburg-mandela-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-naples-castel-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-naples-duomo-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-naples-lungomare-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-naples-mann-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-naples-palace-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-naples-plebiscito-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-naples-spaccanapoli-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-santiago-armas-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-santiago-moneda-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-santiago-precolombino-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-santiago-sancristobal-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/pg-santiago-santalucia-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-amalfi-coast-amalfi-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-amalfi-coast-atrani-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-amalfi-coast-maiori-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-amalfi-coast-minori-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-amalfi-coast-positano-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-amalfi-coast-ravello-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-amalfi-coast-vietri-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-cancun-delfines-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-cancun-elmeco-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-cancun-elrey-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-cancun-museo-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-cancun-nichupte-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-milan-brera-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-milan-castle-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-milan-duomo-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-milan-galleria-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-milan-park-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-mount-fuji-arakura-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-mount-fuji-kawaguchi-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-mount-fuji-oshino-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-mount-fuji-shrine-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-mount-fuji-yamanaka-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-orlando-citywalk-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-orlando-eola-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-orlando-icon-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-orlando-leu-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-orlando-science-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-orlando-springs-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/research/ph-orlando-winterpark-rights.json"
+    },
+    {
+      "status": "A",
+      "path": "content/reviews/amalfi-coast.en.json"
+    },
+    {
+      "status": "A",
+      "path": "content/reviews/amalfi-coast.es.json"
+    },
+    {
+      "status": "A",
+      "path": "content/reviews/cancun.en.json"
+    },
+    {
+      "status": "A",
+      "path": "content/reviews/cancun.es.json"
+    },
+    {
+      "status": "A",
+      "path": "content/reviews/milan.en.json"
+    },
+    {
+      "status": "A",
+      "path": "content/reviews/milan.es.json"
+    },
+    {
+      "status": "A",
+      "path": "content/reviews/mount-fuji.en.json"
+    },
+    {
+      "status": "A",
+      "path": "content/reviews/mount-fuji.es.json"
+    },
+    {
+      "status": "A",
+      "path": "content/reviews/orlando.en.json"
+    },
+    {
+      "status": "A",
+      "path": "content/reviews/orlando.es.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/DAILY-PUBLISHING-PROMPT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/DAILY-PUBLISHING.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/EDITORIAL.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/SEO-STRATEGY.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/requirements.md"
+    },
+    {
+      "status": "A",
+      "path": "editorial/batches/2026-11-05-priority-five-manual.json"
+    },
+    {
+      "status": "A",
+      "path": "editorial/batches/2026-11-05.json"
+    },
+    {
+      "status": "A",
+      "path": "editorial/deferred/2026-11-05-before-country-priorities.json"
+    },
+    {
+      "status": "M",
+      "path": "editorial/plan.json"
+    },
+    {
+      "status": "A",
+      "path": "editorial/seo-strategy.json"
+    },
+    {
+      "status": "A",
+      "path": "editorial/verification/2026-11-05-priority-five-build-browser.json"
+    },
+    {
+      "status": "A",
+      "path": "editorial/verification/2026-11-05-priority-five-editorial.json"
+    },
+    {
+      "status": "A",
+      "path": "editorial/verification/2026-11-05-seo-preservation.json"
+    },
+    {
+      "status": "A",
+      "path": "editorial/verification/2026-11-05-seo-strategy-audit.json"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-amalfi-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-amalfi.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-atrani-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-atrani-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-atrani.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-maiori-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-maiori-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-maiori.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-minori-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-minori-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-minori.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-positano-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-positano-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-positano.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-ravello-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-ravello-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-ravello.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-vietri-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-vietri-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-amalfi-coast-vietri.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-delfines-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-delfines-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-delfines.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-elmeco-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-elmeco-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-elmeco.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-elrey-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-elrey-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-elrey.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-museo-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-museo-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-museo.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-nichupte-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-nichupte-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-cancun-nichupte.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-brera-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-brera-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-brera.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-castle-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-castle-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-castle.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-duomo-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-duomo-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-duomo.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-galleria-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-galleria-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-galleria.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-park-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-park-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-milan-park.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-arakura-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-arakura-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-arakura.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-kawaguchi-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-kawaguchi-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-kawaguchi.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-oshino-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-oshino-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-oshino.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-shrine-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-shrine.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-yamanaka-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-yamanaka-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-mount-fuji-yamanaka.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-citywalk-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-citywalk-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-citywalk.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-eola-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-eola-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-eola.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-icon-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-icon-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-icon.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-leu-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-leu-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-leu.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-science-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-science.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-springs-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-springs-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-springs.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-winterpark-480w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-winterpark-800w.webp"
+    },
+    {
+      "status": "A",
+      "path": "public/images/ph-orlando-winterpark.webp"
+    },
+    {
+      "status": "M",
+      "path": "scripts/editorial-batch.mjs"
+    },
+    {
+      "status": "M",
+      "path": "scripts/lib/content.mjs"
+    },
+    {
+      "status": "A",
+      "path": "scripts/lib/editorial-selection.mjs"
+    },
+    {
+      "status": "M",
+      "path": "src/components/Article.astro"
+    },
+    {
+      "status": "A",
+      "path": "src/components/CountryGuide.astro"
+    },
+    {
+      "status": "A",
+      "path": "src/data/country-guides.ts"
+    },
+    {
+      "status": "M",
+      "path": "src/data/destinations.ts"
+    },
+    {
+      "status": "A",
+      "path": "src/lib/country-clusters.ts"
+    },
+    {
+      "status": "M",
+      "path": "src/pages/[lang]/[...route].astro"
+    },
+    {
+      "status": "M",
+      "path": "src/pages/sitemap.xml.ts"
+    },
+    {
+      "status": "A",
+      "path": "tests/editorial-selection.test.ts"
+    },
+    {
+      "status": "M",
+      "path": "tests/editorial.test.ts"
+    },
+    {
+      "status": "A",
+      "path": "tests/release/country-guides.spec.ts"
+    }
+  ],
+  "note": "Bookkeeping changes to plan, publication, activity, batch, SEO strategy, STATUS and this report follow verified deployment and do not change rendered article content.",
+  "allFilesAfterBookkeeping": [
+    "content/articles/amalfi-coast.en.json",
+    "content/articles/amalfi-coast.es.json",
+    "content/articles/cancun.en.json",
+    "content/articles/cancun.es.json",
+    "content/articles/milan.en.json",
+    "content/articles/milan.es.json",
+    "content/articles/mount-fuji.en.json",
+    "content/articles/mount-fuji.es.json",
+    "content/articles/orlando.en.json",
+    "content/articles/orlando.es.json",
+    "content/images/manifest.json",
+    "content/research/ng-auckland-dmo.json",
+    "content/research/ng-auckland-domain-nz.json",
+    "content/research/ng-auckland-domain.json",
+    "content/research/ng-auckland-explore.json",
+    "content/research/ng-auckland-gallery.json",
+    "content/research/ng-auckland-maunga-home.json",
+    "content/research/ng-auckland-maungakiekie-info.json",
+    "content/research/ng-auckland-maungakiekie.json",
+    "content/research/ng-auckland-maungawhau-info.json",
+    "content/research/ng-auckland-maungawhau.json",
+    "content/research/ng-auckland-museum-plan.json",
+    "content/research/ng-auckland-museum.json",
+    "content/research/ng-auckland-nz.json",
+    "content/research/ng-auckland-tower.json",
+    "content/research/ng-auckland-viaduct.json",
+    "content/research/ng-auckland-waterfront.json",
+    "content/research/ng-fukuoka-area.json",
+    "content/research/ng-fukuoka-canal-dmo.json",
+    "content/research/ng-fukuoka-canal.json",
+    "content/research/ng-fukuoka-castle.json",
+    "content/research/ng-fukuoka-dmo.json",
+    "content/research/ng-fukuoka-hakata-course.json",
+    "content/research/ng-fukuoka-kushida.json",
+    "content/research/ng-fukuoka-ohori-course.json",
+    "content/research/ng-fukuoka-ohori.json",
+    "content/research/ng-fukuoka-todos.json",
+    "content/research/ng-fukuoka-tower-dmo.json",
+    "content/research/ng-fukuoka-tower-operator.json",
+    "content/research/ng-fukuoka-tower.json",
+    "content/research/ng-joburg-apartheid-visit.json",
+    "content/research/ng-joburg-apartheid.json",
+    "content/research/ng-joburg-constitution-visit.json",
+    "content/research/ng-joburg-constitution.json",
+    "content/research/ng-joburg-dmo.json",
+    "content/research/ng-joburg-garden-about.json",
+    "content/research/ng-joburg-garden-visit.json",
+    "content/research/ng-joburg-garden.json",
+    "content/research/ng-joburg-hector-sat.json",
+    "content/research/ng-joburg-hector.json",
+    "content/research/ng-joburg-mandela.json",
+    "content/research/ng-joburg-parks-home.json",
+    "content/research/ng-joburg-sat-search.json",
+    "content/research/ng-joburg-soweto.json",
+    "content/research/ng-joburg-vilakazi-sat.json",
+    "content/research/ng-naples-castel.json",
+    "content/research/ng-naples-centre.json",
+    "content/research/ng-naples-coast.json",
+    "content/research/ng-naples-duomo.json",
+    "content/research/ng-naples-italia.json",
+    "content/research/ng-naples-lungomare.json",
+    "content/research/ng-naples-mann-dmo.json",
+    "content/research/ng-naples-mann.json",
+    "content/research/ng-naples-museum-culture.json",
+    "content/research/ng-naples-palace-plan.json",
+    "content/research/ng-naples-palace-visit.json",
+    "content/research/ng-naples-palace.json",
+    "content/research/ng-naples-search.json",
+    "content/research/ng-naples-spaccanapoli.json",
+    "content/research/ng-santiago-armas.json",
+    "content/research/ng-santiago-buildings.json",
+    "content/research/ng-santiago-centro.json",
+    "content/research/ng-santiago-cerro.json",
+    "content/research/ng-santiago-chile.json",
+    "content/research/ng-santiago-dmo.json",
+    "content/research/ng-santiago-memoria.json",
+    "content/research/ng-santiago-moneda.json",
+    "content/research/ng-santiago-museum-access.json",
+    "content/research/ng-santiago-museum-hours.json",
+    "content/research/ng-santiago-parquemet.json",
+    "content/research/ng-santiago-patrimonio.json",
+    "content/research/ng-santiago-plazas.json",
+    "content/research/ng-santiago-precolombino-visit.json",
+    "content/research/ng-santiago-precolombino.json",
+    "content/research/ng-santiago-santalucia.json",
+    "content/research/nh-amalfi-amalfi.json",
+    "content/research/nh-amalfi-atrani.json",
+    "content/research/nh-amalfi-coast.json",
+    "content/research/nh-amalfi-maiori.json",
+    "content/research/nh-amalfi-minori.json",
+    "content/research/nh-amalfi-positano.json",
+    "content/research/nh-amalfi-ravello.json",
+    "content/research/nh-amalfi-travelmar.json",
+    "content/research/nh-amalfi-vietri.json",
+    "content/research/nh-cancun-beaches.json",
+    "content/research/nh-cancun-delfines.json",
+    "content/research/nh-cancun-dmo.json",
+    "content/research/nh-cancun-elmeco.json",
+    "content/research/nh-cancun-elrey.json",
+    "content/research/nh-cancun-museo.json",
+    "content/research/nh-country-italy.json",
+    "content/research/nh-country-japan.json",
+    "content/research/nh-country-mexico-inah.json",
+    "content/research/nh-country-mexico-national.json",
+    "content/research/nh-country-mexico.json",
+    "content/research/nh-country-us.json",
+    "content/research/nh-fuji-arakura.json",
+    "content/research/nh-fuji-kawaguchi.json",
+    "content/research/nh-fuji-oshino.json",
+    "content/research/nh-fuji-region.json",
+    "content/research/nh-fuji-shrine.json",
+    "content/research/nh-fuji-yamanaka.json",
+    "content/research/nh-fuji-yamanashi.json",
+    "content/research/nh-milan-brera-entrance.json",
+    "content/research/nh-milan-brera-hours.json",
+    "content/research/nh-milan-brera-visit.json",
+    "content/research/nh-milan-brera.json",
+    "content/research/nh-milan-castle-dmo.json",
+    "content/research/nh-milan-castle-visit.json",
+    "content/research/nh-milan-castle.json",
+    "content/research/nh-milan-centre.json",
+    "content/research/nh-milan-duomo.json",
+    "content/research/nh-milan-gallery-dmo.json",
+    "content/research/nh-milan-gallery.json",
+    "content/research/nh-milan-park-dmo.json",
+    "content/research/nh-milan-park.json",
+    "content/research/nh-milan-tickets.json",
+    "content/research/nh-milan-visit.json",
+    "content/research/nh-orlando-citywalk-dmo.json",
+    "content/research/nh-orlando-citywalk.json",
+    "content/research/nh-orlando-dmo.json",
+    "content/research/nh-orlando-free-shopping.json",
+    "content/research/nh-orlando-icon-dmo.json",
+    "content/research/nh-orlando-icon.json",
+    "content/research/nh-orlando-lake.json",
+    "content/research/nh-orlando-leu-rules.json",
+    "content/research/nh-orlando-leu-visit.json",
+    "content/research/nh-orlando-leu.json",
+    "content/research/nh-orlando-science.json",
+    "content/research/nh-orlando-springs-dmo.json",
+    "content/research/nh-orlando-springs-plan.json",
+    "content/research/nh-orlando-springs.json",
+    "content/research/nh-orlando-wheel.json",
+    "content/research/nh-orlando-winterpark-info.json",
+    "content/research/nh-orlando-winterpark.json",
+    "content/research/pg-auckland-domain-rights.json",
+    "content/research/pg-auckland-gallery-rights.json",
+    "content/research/pg-auckland-maungakiekie-rights.json",
+    "content/research/pg-auckland-maungawhau-rights.json",
+    "content/research/pg-auckland-museum-rights.json",
+    "content/research/pg-auckland-tower-rights.json",
+    "content/research/pg-auckland-viaduct-rights.json",
+    "content/research/pg-fukuoka-canal-rights.json",
+    "content/research/pg-fukuoka-castle-rights.json",
+    "content/research/pg-fukuoka-kushida-rights.json",
+    "content/research/pg-fukuoka-ohori-rights.json",
+    "content/research/pg-fukuoka-tower-rights.json",
+    "content/research/pg-johannesburg-apartheid-rights.json",
+    "content/research/pg-johannesburg-constitution-rights.json",
+    "content/research/pg-johannesburg-garden-rights.json",
+    "content/research/pg-johannesburg-hector-rights.json",
+    "content/research/pg-johannesburg-mandela-rights.json",
+    "content/research/pg-naples-castel-rights.json",
+    "content/research/pg-naples-duomo-rights.json",
+    "content/research/pg-naples-lungomare-rights.json",
+    "content/research/pg-naples-mann-rights.json",
+    "content/research/pg-naples-palace-rights.json",
+    "content/research/pg-naples-plebiscito-rights.json",
+    "content/research/pg-naples-spaccanapoli-rights.json",
+    "content/research/pg-santiago-armas-rights.json",
+    "content/research/pg-santiago-moneda-rights.json",
+    "content/research/pg-santiago-precolombino-rights.json",
+    "content/research/pg-santiago-sancristobal-rights.json",
+    "content/research/pg-santiago-santalucia-rights.json",
+    "content/research/ph-amalfi-coast-amalfi-rights.json",
+    "content/research/ph-amalfi-coast-atrani-rights.json",
+    "content/research/ph-amalfi-coast-maiori-rights.json",
+    "content/research/ph-amalfi-coast-minori-rights.json",
+    "content/research/ph-amalfi-coast-positano-rights.json",
+    "content/research/ph-amalfi-coast-ravello-rights.json",
+    "content/research/ph-amalfi-coast-vietri-rights.json",
+    "content/research/ph-cancun-delfines-rights.json",
+    "content/research/ph-cancun-elmeco-rights.json",
+    "content/research/ph-cancun-elrey-rights.json",
+    "content/research/ph-cancun-museo-rights.json",
+    "content/research/ph-cancun-nichupte-rights.json",
+    "content/research/ph-milan-brera-rights.json",
+    "content/research/ph-milan-castle-rights.json",
+    "content/research/ph-milan-duomo-rights.json",
+    "content/research/ph-milan-galleria-rights.json",
+    "content/research/ph-milan-park-rights.json",
+    "content/research/ph-mount-fuji-arakura-rights.json",
+    "content/research/ph-mount-fuji-kawaguchi-rights.json",
+    "content/research/ph-mount-fuji-oshino-rights.json",
+    "content/research/ph-mount-fuji-shrine-rights.json",
+    "content/research/ph-mount-fuji-yamanaka-rights.json",
+    "content/research/ph-orlando-citywalk-rights.json",
+    "content/research/ph-orlando-eola-rights.json",
+    "content/research/ph-orlando-icon-rights.json",
+    "content/research/ph-orlando-leu-rights.json",
+    "content/research/ph-orlando-science-rights.json",
+    "content/research/ph-orlando-springs-rights.json",
+    "content/research/ph-orlando-winterpark-rights.json",
+    "content/reviews/amalfi-coast.en.json",
+    "content/reviews/amalfi-coast.es.json",
+    "content/reviews/cancun.en.json",
+    "content/reviews/cancun.es.json",
+    "content/reviews/milan.en.json",
+    "content/reviews/milan.es.json",
+    "content/reviews/mount-fuji.en.json",
+    "content/reviews/mount-fuji.es.json",
+    "content/reviews/orlando.en.json",
+    "content/reviews/orlando.es.json",
+    "docs/DAILY-PUBLISHING-PROMPT.md",
+    "docs/DAILY-PUBLISHING.md",
+    "docs/EDITORIAL.md",
+    "docs/SEO-STRATEGY.md",
+    "docs/STATUS.md",
+    "docs/requirements.md",
+    "editorial/activity.jsonl",
+    "editorial/batches/2026-11-05-priority-five-manual.json",
+    "editorial/batches/2026-11-05.json",
+    "editorial/deferred/2026-11-05-before-country-priorities.json",
+    "editorial/plan.json",
+    "editorial/publication.json",
+    "editorial/seo-strategy.json",
+    "editorial/verification/2026-11-05-priority-five-build-browser.json",
+    "editorial/verification/2026-11-05-priority-five-editorial.json",
+    "editorial/verification/2026-11-05-priority-five-publication.json",
+    "editorial/verification/2026-11-05-seo-changed-files.json",
+    "editorial/verification/2026-11-05-seo-preservation.json",
+    "editorial/verification/2026-11-05-seo-strategy-audit.json",
+    "editorial/verification/2026-11-05-seo-verification-summary.json",
+    "public/images/ph-amalfi-coast-amalfi-480w.webp",
+    "public/images/ph-amalfi-coast-amalfi.webp",
+    "public/images/ph-amalfi-coast-atrani-480w.webp",
+    "public/images/ph-amalfi-coast-atrani-800w.webp",
+    "public/images/ph-amalfi-coast-atrani.webp",
+    "public/images/ph-amalfi-coast-maiori-480w.webp",
+    "public/images/ph-amalfi-coast-maiori-800w.webp",
+    "public/images/ph-amalfi-coast-maiori.webp",
+    "public/images/ph-amalfi-coast-minori-480w.webp",
+    "public/images/ph-amalfi-coast-minori-800w.webp",
+    "public/images/ph-amalfi-coast-minori.webp",
+    "public/images/ph-amalfi-coast-positano-480w.webp",
+    "public/images/ph-amalfi-coast-positano-800w.webp",
+    "public/images/ph-amalfi-coast-positano.webp",
+    "public/images/ph-amalfi-coast-ravello-480w.webp",
+    "public/images/ph-amalfi-coast-ravello-800w.webp",
+    "public/images/ph-amalfi-coast-ravello.webp",
+    "public/images/ph-amalfi-coast-vietri-480w.webp",
+    "public/images/ph-amalfi-coast-vietri-800w.webp",
+    "public/images/ph-amalfi-coast-vietri.webp",
+    "public/images/ph-cancun-delfines-480w.webp",
+    "public/images/ph-cancun-delfines-800w.webp",
+    "public/images/ph-cancun-delfines.webp",
+    "public/images/ph-cancun-elmeco-480w.webp",
+    "public/images/ph-cancun-elmeco-800w.webp",
+    "public/images/ph-cancun-elmeco.webp",
+    "public/images/ph-cancun-elrey-480w.webp",
+    "public/images/ph-cancun-elrey-800w.webp",
+    "public/images/ph-cancun-elrey.webp",
+    "public/images/ph-cancun-museo-480w.webp",
+    "public/images/ph-cancun-museo-800w.webp",
+    "public/images/ph-cancun-museo.webp",
+    "public/images/ph-cancun-nichupte-480w.webp",
+    "public/images/ph-cancun-nichupte-800w.webp",
+    "public/images/ph-cancun-nichupte.webp",
+    "public/images/ph-milan-brera-480w.webp",
+    "public/images/ph-milan-brera-800w.webp",
+    "public/images/ph-milan-brera.webp",
+    "public/images/ph-milan-castle-480w.webp",
+    "public/images/ph-milan-castle-800w.webp",
+    "public/images/ph-milan-castle.webp",
+    "public/images/ph-milan-duomo-480w.webp",
+    "public/images/ph-milan-duomo-800w.webp",
+    "public/images/ph-milan-duomo.webp",
+    "public/images/ph-milan-galleria-480w.webp",
+    "public/images/ph-milan-galleria-800w.webp",
+    "public/images/ph-milan-galleria.webp",
+    "public/images/ph-milan-park-480w.webp",
+    "public/images/ph-milan-park-800w.webp",
+    "public/images/ph-milan-park.webp",
+    "public/images/ph-mount-fuji-arakura-480w.webp",
+    "public/images/ph-mount-fuji-arakura-800w.webp",
+    "public/images/ph-mount-fuji-arakura.webp",
+    "public/images/ph-mount-fuji-kawaguchi-480w.webp",
+    "public/images/ph-mount-fuji-kawaguchi-800w.webp",
+    "public/images/ph-mount-fuji-kawaguchi.webp",
+    "public/images/ph-mount-fuji-oshino-480w.webp",
+    "public/images/ph-mount-fuji-oshino-800w.webp",
+    "public/images/ph-mount-fuji-oshino.webp",
+    "public/images/ph-mount-fuji-shrine-480w.webp",
+    "public/images/ph-mount-fuji-shrine.webp",
+    "public/images/ph-mount-fuji-yamanaka-480w.webp",
+    "public/images/ph-mount-fuji-yamanaka-800w.webp",
+    "public/images/ph-mount-fuji-yamanaka.webp",
+    "public/images/ph-orlando-citywalk-480w.webp",
+    "public/images/ph-orlando-citywalk-800w.webp",
+    "public/images/ph-orlando-citywalk.webp",
+    "public/images/ph-orlando-eola-480w.webp",
+    "public/images/ph-orlando-eola-800w.webp",
+    "public/images/ph-orlando-eola.webp",
+    "public/images/ph-orlando-icon-480w.webp",
+    "public/images/ph-orlando-icon-800w.webp",
+    "public/images/ph-orlando-icon.webp",
+    "public/images/ph-orlando-leu-480w.webp",
+    "public/images/ph-orlando-leu-800w.webp",
+    "public/images/ph-orlando-leu.webp",
+    "public/images/ph-orlando-science-480w.webp",
+    "public/images/ph-orlando-science.webp",
+    "public/images/ph-orlando-springs-480w.webp",
+    "public/images/ph-orlando-springs-800w.webp",
+    "public/images/ph-orlando-springs.webp",
+    "public/images/ph-orlando-winterpark-480w.webp",
+    "public/images/ph-orlando-winterpark-800w.webp",
+    "public/images/ph-orlando-winterpark.webp",
+    "scripts/editorial-batch.mjs",
+    "scripts/lib/content.mjs",
+    "scripts/lib/editorial-selection.mjs",
+    "src/components/Article.astro",
+    "src/components/CountryGuide.astro",
+    "src/data/country-guides.ts",
+    "src/data/destinations.ts",
+    "src/lib/country-clusters.ts",
+    "src/pages/[lang]/[...route].astro",
+    "src/pages/sitemap.xml.ts",
+    "tests/editorial-selection.test.ts",
+    "tests/editorial.test.ts",
+    "tests/release/country-guides.spec.ts"
+  ]
+}

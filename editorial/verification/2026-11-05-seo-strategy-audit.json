@@ -1,0 +1,116 @@
+{
+  "auditedAt": "2026-11-05T05:43:17.272224+00:00",
+  "baselineCommit": "de7ba4997e2d891b01c81fbfa1e180bdc51d7bb5",
+  "architecture": "Static Astro7/TypeScript with structured bilingual JSON articles, editorial plan, research evidence, licensed-photo manifest and exact-content-hash reviews; existing GitHub main and two Cloudflare Pages projects.",
+  "publishedOriginals": 148,
+  "localizedVersions": 296,
+  "countries": [
+    {
+      "countryId": "it",
+      "targetOriginals": 30,
+      "publishedOriginals": 6,
+      "localizedVersions": 12,
+      "missingOriginals": 24,
+      "articleIds": [
+        "christmas-florence",
+        "christmas-milan",
+        "christmas-rome",
+        "florence",
+        "rome",
+        "venice"
+      ],
+      "seasonalOriginals": 3
+    },
+    {
+      "countryId": "jp",
+      "targetOriginals": 25,
+      "publishedOriginals": 7,
+      "localizedVersions": 14,
+      "missingOriginals": 18,
+      "articleIds": [
+        "christmas-tokyo",
+        "halloween-japan",
+        "hiroshima",
+        "kyoto",
+        "nara",
+        "osaka",
+        "tokyo"
+      ],
+      "seasonalOriginals": 2
+    },
+    {
+      "countryId": "mx",
+      "targetOriginals": 25,
+      "publishedOriginals": 6,
+      "localizedVersions": 12,
+      "missingOriginals": 19,
+      "articleIds": [
+        "mexico-city",
+        "muertos-merida",
+        "muertos-mexico-city",
+        "muertos-mixquic",
+        "muertos-oaxaca",
+        "muertos-puebla"
+      ],
+      "seasonalOriginals": 5
+    },
+    {
+      "countryId": "us",
+      "targetOriginals": 20,
+      "publishedOriginals": 11,
+      "localizedVersions": 22,
+      "missingOriginals": 9,
+      "articleIds": [
+        "buffalo",
+        "christmas-chicago",
+        "christmas-new-york",
+        "columbus",
+        "greenville-sc",
+        "halloween-usa",
+        "hawaii",
+        "hilo",
+        "las-vegas",
+        "miami",
+        "new-york"
+      ],
+      "seasonalOriginals": 3
+    }
+  ],
+  "priorityOriginals": 30,
+  "missingToInitial100": 70,
+  "checks": {
+    "duplicateIds": 0,
+    "duplicateSlugsWithinLocale": 0,
+    "duplicateTitlesWithinLocale": 0,
+    "duplicateDescriptionsWithinLocale": 0,
+    "missingTranslations": 0
+  },
+  "opportunities": [
+    "Improve existing country routes rather than create competing URLs. Current country pages are destination-card indexes with generic shared descriptions and no country-level structured data.",
+    "Link each country directly to every published article, including distinct seasonal intentions, and provide article-to-country links.",
+    "Add country hreflang alternates to sitemap; HTML alternates already exist.",
+    "Reuse existing article related links, breadcrumbs, table of contents, responsive photos and build release gates."
+  ],
+  "wordPolicy": "Existing validator has a legacy1200word-depth threshold. This is not a Google ranking requirement; assess useful scope and preserve production verification while implementing requested strategy.",
+  "automation": {
+    "observedEnabled": true,
+    "title": "Publicar 2 artículos de viajes",
+    "timeZone": "America/New_York",
+    "rrule": "FREQ=DAILY;BYHOUR=12;BYMINUTE=0;BYSECOND=0",
+    "lastRunTimeObserved": "2026-11-04T16:59:18.188681+00:00",
+    "recordedRunDetails": null,
+    "result": null,
+    "schedulerModified": false,
+    "promptNeedsExternalUpdate": true,
+    "reason": "Saved prompt still requests global regional rotation; repository does not own the external scheduler. Prepare replacement prompt and preserve schedule/credentials."
+  },
+  "scopeChange": "New owner strategy received while regional five-list batch was in research. No article from that batch has been drafted, approved or publicly deployed; preserve research and reservation history, and choose five missing topics within the four priority countries.",
+  "preserve": [
+    "All148existingoriginals/296versions and their realdates",
+    "All646existingdocumentaryphotos",
+    "Design3D/logo/navigation/search/bilingualrouting",
+    "Adsterra andAdSense scripts/IDs/dimensions/placements",
+    "Analytics consent anddisabledpopunder",
+    "Current daily2/noon scheduling andexistingCloudflareprojects/DNS"
+  ]
+}

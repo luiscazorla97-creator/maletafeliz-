@@ -7761,47 +7761,10 @@
     "publiclyVerifiedAt": "2026-11-05T03:45:23.140694+00:00"
   },
   {
-    "id": "santiago",
+    "id": "milan",
     "city": {
-      "es": "Santiago de Chile",
-      "en": "Santiago"
-    },
-    "countryId": "cl",
-    "country": {
-      "es": "Chile",
-      "en": "Chile"
-    },
-    "continent": "america",
-    "category": "cities",
-    "categories": [
-      "cities",
-      "culture",
-      "nature"
-    ],
-    "placeCount": 5,
-    "intent": "5-distinct-first-visit-places-practical-selection",
-    "status": "planned",
-    "titles": {
-      "es": "5 lugares que conocer en Santiago de Chile: miradores, museos y centro",
-      "en": "5 places to visit in Santiago: viewpoints, museums and the centre"
-    },
-    "slugs": {
-      "es": "5-lugares-que-conocer-en-santiago-de-chile",
-      "en": "5-places-to-visit-in-santiago"
-    },
-    "researchCandidates": [],
-    "researchStatus": "pending",
-    "imageStatus": "pending",
-    "locales": {
-      "es": "pending",
-      "en": "pending"
-    }
-  },
-  {
-    "id": "naples",
-    "city": {
-      "es": "Nápoles",
-      "en": "Naples"
+      "es": "Milán",
+      "en": "Milan"
     },
     "countryId": "it",
     "country": {
@@ -7815,16 +7778,16 @@
       "culture",
       "nature"
     ],
-    "placeCount": 7,
-    "intent": "7-distinct-first-visit-places-practical-selection",
+    "placeCount": 5,
+    "intent": "5-distinct-places-first-visit-selection-evergreen",
     "status": "planned",
     "titles": {
-      "es": "7 lugares que ver en Nápoles: calles, palacios y paseo marítimo",
-      "en": "7 places to visit in Naples: streets, palaces and the waterfront"
+      "es": "5 lugares que conocer en Milán: arte, arquitectura y parques",
+      "en": "5 places to visit in Milan: art, architecture and parks"
     },
     "slugs": {
-      "es": "7-lugares-que-ver-en-napoles",
-      "en": "7-places-to-visit-in-naples"
+      "es": "5-lugares-que-conocer-en-milan",
+      "en": "5-places-to-visit-in-milan"
     },
     "researchCandidates": [],
     "researchStatus": "pending",
@@ -7835,10 +7798,47 @@
     }
   },
   {
-    "id": "fukuoka",
+    "id": "amalfi-coast",
     "city": {
-      "es": "Fukuoka",
-      "en": "Fukuoka"
+      "es": "Costa Amalfitana",
+      "en": "Amalfi Coast"
+    },
+    "countryId": "it",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "continent": "europe",
+    "category": "nature",
+    "categories": [
+      "nature",
+      "culture",
+      "nature"
+    ],
+    "placeCount": 7,
+    "intent": "7-distinct-places-first-visit-selection-regional-bases",
+    "status": "planned",
+    "titles": {
+      "es": "7 pueblos de la Costa Amalfitana que conocer y cómo elegir tu ruta",
+      "en": "7 Amalfi Coast towns to visit and how to choose your route"
+    },
+    "slugs": {
+      "es": "7-pueblos-costa-amalfitana-que-conocer",
+      "en": "7-amalfi-coast-towns-to-visit"
+    },
+    "researchCandidates": [],
+    "researchStatus": "pending",
+    "imageStatus": "pending",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    }
+  },
+  {
+    "id": "mount-fuji",
+    "city": {
+      "es": "Monte Fuji y alrededores",
+      "en": "Mount Fuji and surroundings"
     },
     "countryId": "jp",
     "country": {
@@ -7846,22 +7846,22 @@
       "en": "Japan"
     },
     "continent": "asia",
-    "category": "cities",
+    "category": "nature",
     "categories": [
-      "cities",
+      "nature",
       "culture",
       "nature"
     ],
     "placeCount": 5,
-    "intent": "5-distinct-first-visit-places-practical-selection",
+    "intent": "5-distinct-places-first-visit-selection-foothills-not-summit-climb",
     "status": "planned",
     "titles": {
-      "es": "5 lugares que conocer en Fukuoka: parques, Hakata y vistas al mar",
-      "en": "5 places to visit in Fukuoka: parks, Hakata and sea views"
+      "es": "5 lugares cerca del Monte Fuji: lagos, miradores y santuarios",
+      "en": "5 places near Mount Fuji: lakes, viewpoints and shrines"
     },
     "slugs": {
-      "es": "5-lugares-que-conocer-en-fukuoka",
-      "en": "5-places-to-visit-in-fukuoka"
+      "es": "5-lugares-cerca-del-monte-fuji",
+      "en": "5-places-near-mount-fuji"
     },
     "researchCandidates": [],
     "researchStatus": "pending",
@@ -7872,17 +7872,17 @@
     }
   },
   {
-    "id": "johannesburg",
+    "id": "cancun",
     "city": {
-      "es": "Johannesburgo",
-      "en": "Johannesburg"
+      "es": "Cancún",
+      "en": "Cancún"
     },
-    "countryId": "za",
+    "countryId": "mx",
     "country": {
-      "es": "Sudáfrica",
-      "en": "South Africa"
+      "es": "México",
+      "en": "Mexico"
     },
-    "continent": "africa",
+    "continent": "america",
     "category": "cities",
     "categories": [
       "cities",
@@ -7890,15 +7890,15 @@
       "nature"
     ],
     "placeCount": 5,
-    "intent": "5-distinct-first-visit-places-practical-selection",
+    "intent": "5-distinct-places-first-visit-selection-evergreen",
     "status": "planned",
     "titles": {
-      "es": "5 lugares que visitar en Johannesburgo para entender su historia",
-      "en": "5 places to visit in Johannesburg to understand its history"
+      "es": "5 lugares que conocer en Cancún: playas, cultura maya y laguna",
+      "en": "5 places to visit in Cancún: beaches, Maya culture and the lagoon"
     },
     "slugs": {
-      "es": "5-lugares-que-visitar-en-johannesburgo",
-      "en": "5-places-to-visit-in-johannesburg"
+      "es": "5-lugares-que-conocer-en-cancun",
+      "en": "5-places-to-visit-in-cancun"
     },
     "researchCandidates": [],
     "researchStatus": "pending",
@@ -7909,17 +7909,17 @@
     }
   },
   {
-    "id": "auckland",
+    "id": "orlando",
     "city": {
-      "es": "Auckland",
-      "en": "Auckland"
+      "es": "Orlando",
+      "en": "Orlando"
     },
-    "countryId": "nz",
+    "countryId": "us",
     "country": {
-      "es": "Nueva Zelanda",
-      "en": "New Zealand"
+      "es": "Estados Unidos",
+      "en": "United States"
     },
-    "continent": "oceania",
+    "continent": "america",
     "category": "cities",
     "categories": [
       "cities",
@@ -7927,15 +7927,15 @@
       "nature"
     ],
     "placeCount": 7,
-    "intent": "7-distinct-first-visit-places-practical-selection",
+    "intent": "7-distinct-places-first-visit-selection-beyond-theme-parks",
     "status": "planned",
     "titles": {
-      "es": "7 lugares que conocer en Auckland: volcanes, arte y puerto",
-      "en": "7 places to visit in Auckland: volcanoes, art and the harbour"
+      "es": "7 lugares que conocer en Orlando sin entrar en parques temáticos",
+      "en": "7 places to visit in Orlando beyond the theme parks"
     },
     "slugs": {
-      "es": "7-lugares-que-conocer-en-auckland",
-      "en": "7-places-to-visit-in-auckland"
+      "es": "7-lugares-que-conocer-en-orlando",
+      "en": "7-places-to-visit-in-orlando"
     },
     "researchCandidates": [],
     "researchStatus": "pending",

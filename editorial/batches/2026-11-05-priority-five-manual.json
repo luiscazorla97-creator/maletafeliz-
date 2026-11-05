@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-05-priority-five-manual",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-05T05:44:03.178559+00:00",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "milan",
+    "amalfi-coast",
+    "mount-fuji",
+    "cancun",
+    "orlando"
+  ],
+  "requestedCount": 5,
+  "publishedCount": 0,
+  "errors": [],
+  "authorization": "Explicit five-more-guides request retained; subsequent newSEOstrategy concentrates selection inItaly,Japan,Mexico,US. Numbered5/7lists, bilingual complete versions.",
+  "priorSameDayPublishedTopicIds": [],
+  "reservationCommandReusedSupersededBatch": true,
+  "supersedes": "2026-11-05",
+  "execution": {
+    "executionId": "84619165-0420-41ab-bf23-cca33eb2a78f",
+    "status": "active",
+    "startedAt": "2026-11-05T05:44:03.178559+00:00",
+    "heartbeatAt": "2026-11-05T05:44:03.178559+00:00",
+    "leaseUntil": "2026-11-05T09:44:03.178559+00:00",
+    "baseCommit": "de7ba4997e2d891b01c81fbfa1e180bdc51d7bb5",
+    "coordination": "Earlierregionallease released withoriginaltopicIDs preserved anddeferredarchive; no otheractiveexecution found. No schedulerchange."
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "reviewedAt": "2026-11-06T00:04:51.477Z",
+  "timeZone": "America/New_York",
+  "baseline": "96cc16b14061a2ca324ec2b22c860e7698b7c49e",
+  "authorization": {
+    "type": "explicit-additional-manual-request",
+    "request": "sube 3 articulos nuevos",
+    "earlierUniqueVerifiedTopicsToday": 15,
+    "dailyTargetUnchanged": 2,
+    "schedulerChanged": false
+  },
+  "topicIds": [
+    "guanajuato",
+    "lucca",
+    "nikko"
+  ],
+  "articleVersions": [
+    {
+      "id": "guanajuato",
+      "locale": "en",
+      "title": "5 places to visit in Guanajuato: history, squares and viewpoints",
+      "slug": "5-places-to-visit-guanajuato",
+      "words": 1794,
+      "places": 5,
+      "contentHash": "27368edbbe10eb5c7d454816098c59527a72da907fef66dd6f0e3e630173c00a",
+      "sourceIds": [
+        "nt-gto-sic",
+        "nt-gto-guide",
+        "nt-gto-jardin",
+        "nt-gto-state"
+      ],
+      "imageIds": [
+        "pk-guanajuato-alhondiga",
+        "pk-guanajuato-mercado",
+        "pk-guanajuato-beso",
+        "pk-guanajuato-jardin",
+        "pk-guanajuato-pipila"
+      ]
+    },
+    {
+      "id": "guanajuato",
+      "locale": "es",
+      "title": "Qué ver en Guanajuato capital: 5 lugares para tu primera visita",
+      "slug": "que-ver-en-guanajuato-5-lugares",
+      "words": 1933,
+      "places": 5,
+      "contentHash": "3611b27647a0a6036b02372886b27f963a1a467a189e689355d28b9bc9eace4d",
+      "sourceIds": [
+        "nt-gto-sic",
+        "nt-gto-guide",
+        "nt-gto-jardin",
+        "nt-gto-state"
+      ],
+      "imageIds": [
+        "pk-guanajuato-alhondiga",
+        "pk-guanajuato-mercado",
+        "pk-guanajuato-beso",
+        "pk-guanajuato-jardin",
+        "pk-guanajuato-pipila"
+      ]
+    },
+    {
+      "id": "lucca",
+      "locale": "en",
+      "title": "5 places to visit in Lucca: walls, squares and historic sights",
+      "slug": "5-places-to-visit-lucca",
+      "words": 1755,
+      "places": 5,
+      "contentHash": "d192c4b1efeed556948689865695391017444131d8b2e2556a5db3f6d8de6ed2",
+      "sourceIds": [
+        "nt-lucca-walls",
+        "nt-lucca-guinigi",
+        "nt-lucca-anfiteatro",
+        "nt-lucca-martino",
+        "nt-lucca-san-michele",
+        "nt-lucca-arrive",
+        "nt-lucca-move"
+      ],
+      "imageIds": [
+        "pk-lucca-mura",
+        "pk-lucca-guinigi",
+        "pk-lucca-anfiteatro",
+        "pk-lucca-martino",
+        "pk-lucca-michele"
+      ]
+    },
+    {
+      "id": "lucca",
+      "locale": "es",
+      "title": "Qué ver en Lucca: 5 lugares entre murallas, plazas y arte",
+      "slug": "que-ver-en-lucca-5-lugares",
+      "words": 1880,
+      "places": 5,
+      "contentHash": "f8fead3771ab7659a504ca6e7c0bed65598f0658b9ae904bb0060b69a32a78f0",
+      "sourceIds": [
+        "nt-lucca-walls",
+        "nt-lucca-guinigi",
+        "nt-lucca-anfiteatro",
+        "nt-lucca-martino",
+        "nt-lucca-san-michele",
+        "nt-lucca-arrive",
+        "nt-lucca-move"
+      ],
+      "imageIds": [
+        "pk-lucca-mura",
+        "pk-lucca-guinigi",
+        "pk-lucca-anfiteatro",
+        "pk-lucca-martino",
+        "pk-lucca-michele"
+      ]
+    },
+    {
+      "id": "nikko",
+      "locale": "en",
+      "title": "5 places to visit in Nikko: shrines, temples and riverside walks",
+      "slug": "5-places-to-visit-nikko",
+      "words": 1693,
+      "places": 5,
+      "contentHash": "43c70aea09a67114d18c8db2949deff3e2544cc064a9586ee381a9485a75b68a",
+      "sourceIds": [
+        "nt-nikko-shinkyo",
+        "nt-nikko-toshogu",
+        "nt-nikko-rinnoji",
+        "nt-nikko-futarasan",
+        "nt-nikko-kanman",
+        "nt-nikko-guide",
+        "nt-nikko-transport"
+      ],
+      "imageIds": [
+        "pk-nikko-shinkyo",
+        "pk-nikko-toshogu",
+        "pk-nikko-rinnoji",
+        "pk-nikko-futarasan",
+        "pk-nikko-kanman"
+      ]
+    },
+    {
+      "id": "nikko",
+      "locale": "es",
+      "title": "Qué ver en Nikko: 5 lugares entre templos, puentes y naturaleza",
+      "slug": "que-ver-en-nikko-5-lugares",
+      "words": 1890,
+      "places": 5,
+      "contentHash": "d820d9c18176417b464fcdb6163476b3327f0ea74531f7406e6c365c1aca2525",
+      "sourceIds": [
+        "nt-nikko-shinkyo",
+        "nt-nikko-toshogu",
+        "nt-nikko-rinnoji",
+        "nt-nikko-futarasan",
+        "nt-nikko-kanman",
+        "nt-nikko-guide",
+        "nt-nikko-transport"
+      ],
+      "imageIds": [
+        "pk-nikko-shinkyo",
+        "pk-nikko-toshogu",
+        "pk-nikko-rinnoji",
+        "pk-nikko-futarasan",
+        "pk-nikko-kanman"
+      ]
+    }
+  ],
+  "officialCitedDocuments": 18,
+  "documentaryPhotos": 15,
+  "optimizedFiles": 43,
+  "checks": {
+    "sourcesActuallyRead": true,
+    "sourceHttpAndHashes": true,
+    "bilingualFactualParity": true,
+    "allPlacesHaveRelevantDocumentaryPhotos": true,
+    "photoSpecificLicencesAndDeedsRead": true,
+    "originalAndOptimizedImagesVisuallyInspected": true,
+    "noRepeatedParagraphsAgainstEarlier326Versions": true,
+    "uniqueDestinationIntent": true,
+    "localizedTitlesSlugsMetadata": true,
+    "practicalRoutesAndFaq": true,
+    "relatedLinksExistInBothLanguages": true,
+    "realMiamiPublicationDates": true
+  },
+  "researchNotes": [
+    "INAH503,cathedral ticket403 and incorrect404 URLs retained as failures, not consulted sources; no bypass.",
+    "Wrong-location SanMicheleArcangelo inMeati source rejected; proper municipalSanMicheleinForo source cited. Wrong-photo city/church candidates rejected.",
+    "GuanajuatoCasaDiegoRivera candidate excluded rather than using photographs of a different city or uncertain interior rights; MercadoHidalgo selected with its own documentary photo.",
+    "Legends clearly identified; universal safety/transport/weather guarantees from promotional wording not repeated.",
+    "Nikkoofficial tariffs, optional garden/bridge and transport/attraction ticket distinctions explicitly separated. Lucca seasonal tower hours not treated as a year-round timetable."
+  ],
+  "limitations": [
+    "AI-assisted self-review, not independent human review.",
+    "Archive photographs document places; no present-weather/decoration guarantee.",
+    "Public success remains pending production build, both matching Cloudflare deployments and live URL checks."
+  ]
+}

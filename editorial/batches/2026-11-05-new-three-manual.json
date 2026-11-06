@@ -2,7 +2,7 @@
   "id": "2026-11-05-new-three-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-05T23:49:25.566131+00:00",
-  "status": "reserved-not-generated",
+  "status": "reviewed-selected-for-release-not-public",
   "topicIds": [
     "guanajuato",
     "lucca",
@@ -26,9 +26,14 @@
     "executionId": "9de406d3-0def-4883-a4b3-b796153a6855",
     "status": "active",
     "startedAt": "2026-11-05T23:49:25.566131+00:00",
-    "heartbeatAt": "2026-11-05T23:49:25.566131+00:00",
+    "heartbeatAt": "2026-11-06T00:04:51.477Z",
     "leaseUntil": "2026-11-06T03:49:25.566131+00:00",
     "baseCommit": "96cc16b14061a2ca324ec2b22c860e7698b7c49e",
     "coordination": "No competing active lease. Preserve all older batch inventories."
-  }
+  },
+  "reviewedAt": "2026-11-06T00:04:51.477Z",
+  "selectedCount": 3,
+  "localizedVersionCount": 6,
+  "documentaryPhotoCount": 15,
+  "sourceCount": 18
 }

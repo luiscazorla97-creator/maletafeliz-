@@ -1,0 +1,23 @@
+{
+  "contentHash": "f8fead3771ab7659a504ca6e7c0bed65598f0658b9ae904bb0060b69a32a78f0",
+  "reviewer": "Codex editorial and bilingual self-review (AI-assisted)",
+  "reviewedAt": "2026-11-06T00:04:51.477Z",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "notes": [
+    "Both complete languages reviewed against captured official pages with actual HTTP200/hashes and read facts. Five developed places and a distinct licensed documentary image per place;15 exact file-specific licences and original/optimized photographs reviewed. No AI image edits.",
+    "Reviewed correct city/attraction identity, route scope, fees and pass exclusions, practical accessibility caveats, folklore attribution, natural language and original wording. No search-volume, personal-experience, popularity, ranking or indexing promises.",
+    "Guanajuato museum145/80MXN categories kept distinct. LuccaSanMicheleinForo distinguished from Meati and SanMartino from SanMichele. NikkoShinkyo/garden tickets and NIKKOPASS admission exclusions preserved.",
+    "Published is selection for release, not public deployment. Independent human review is not claimed. Earlier articles, dates, photos, ads and publication cadence preserved."
+  ],
+  "editorialEvidence": "editorial/verification/2026-11-05-new-three-editorial.json"
+}

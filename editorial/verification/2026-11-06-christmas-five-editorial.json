@@ -1,0 +1,237 @@
+{
+  "reviewedAt": "2026-11-06T23:42:17.260Z",
+  "timeZone": "America/New_York",
+  "authorization": {
+    "type": "explicit-five-additional-Christmas-originals",
+    "request": "PUBLICA 5 ARTICULOS DE NAVIDAD",
+    "earlierUniqueVerifiedTopicsToday": 2,
+    "dailyTargetUnchanged": 2,
+    "schedulerChanged": false
+  },
+  "topicIds": [
+    "christmas-turin",
+    "christmas-naples",
+    "christmas-yokohama",
+    "christmas-boston",
+    "christmas-san-francisco"
+  ],
+  "versions": [
+    {
+      "id": "christmas-boston",
+      "locale": "en",
+      "words": 1488,
+      "contentHash": "a5bf8f82f5f8ea81d95265067c90bf84667a7b272df3fdc9424bfe6fe84a0561",
+      "title": "Christmas in Boston 2026: lights, markets and dates",
+      "slug": "christmas-in-boston-2026",
+      "placeCount": 3,
+      "sourceIds": [
+        "c5-bo-common",
+        "c5-bo-copley",
+        "c5-bo-sowa"
+      ],
+      "imageIds": [
+        "p5-bo-common",
+        "p5-bo-copley",
+        "p5-bo-sowa"
+      ]
+    },
+    {
+      "id": "christmas-boston",
+      "locale": "es",
+      "words": 1674,
+      "contentHash": "71e30c3cce48d046ca3ecfe744c84f48d0cdcbcdc61a798d6a7be0854565934b",
+      "title": "Navidad en Boston 2026: luces, mercados y fechas",
+      "slug": "navidad-en-boston-2026",
+      "placeCount": 3,
+      "sourceIds": [
+        "c5-bo-common",
+        "c5-bo-copley",
+        "c5-bo-sowa"
+      ],
+      "imageIds": [
+        "p5-bo-common",
+        "p5-bo-copley",
+        "p5-bo-sowa"
+      ]
+    },
+    {
+      "id": "christmas-naples",
+      "locale": "en",
+      "words": 1590,
+      "contentHash": "f6686d0f103f49b31810e566fff3993d30563ee7402a6e511f356b4257ae4fcb",
+      "title": "Christmas in Naples: nativity scenes and San Gregorio Armeno",
+      "slug": "christmas-in-naples",
+      "placeCount": 3,
+      "sourceIds": [
+        "c5-na-artisans",
+        "c5-na-chiara",
+        "c5-na-chiara-hours",
+        "c5-na-chiara-faq",
+        "c5-na-museum-italia",
+        "c5-na-museum-artecard"
+      ],
+      "imageIds": [
+        "p5-na-gregorio",
+        "p5-na-chiara",
+        "p5-na-martino"
+      ]
+    },
+    {
+      "id": "christmas-naples",
+      "locale": "es",
+      "words": 1732,
+      "contentHash": "9b0a149d5e379f0b46b1e457b335a463a76d9016ff30f03fdc01f2224b9c7c2e",
+      "title": "Navidad en Nápoles: ruta de belenes y San Gregorio Armeno",
+      "slug": "navidad-en-napoles",
+      "placeCount": 3,
+      "sourceIds": [
+        "c5-na-artisans",
+        "c5-na-chiara",
+        "c5-na-chiara-hours",
+        "c5-na-chiara-faq",
+        "c5-na-museum-italia",
+        "c5-na-museum-artecard"
+      ],
+      "imageIds": [
+        "p5-na-gregorio",
+        "p5-na-chiara",
+        "p5-na-martino"
+      ]
+    },
+    {
+      "id": "christmas-san-francisco",
+      "locale": "en",
+      "words": 1512,
+      "contentHash": "085cf4f57c9e3c6e595904a5c294c015ae82c412ef50a64596ebc3204ff0c2cb",
+      "title": "Christmas in San Francisco 2026: skating, lights and 3 places",
+      "slug": "christmas-in-san-francisco-2026",
+      "placeCount": 3,
+      "sourceIds": [
+        "c5-sf-rink",
+        "c5-sf-rink-news",
+        "c5-sf-pier",
+        "c5-sf-tree"
+      ],
+      "imageIds": [
+        "p5-sf-union",
+        "p5-sf-pier",
+        "p5-sf-ghirardelli"
+      ]
+    },
+    {
+      "id": "christmas-san-francisco",
+      "locale": "es",
+      "words": 1657,
+      "contentHash": "0d51a30698aa33ae385792321fcbfaf7966137bf842a84d95731f4a66e5254e0",
+      "title": "Navidad en San Francisco 2026: hielo, luces y tres lugares",
+      "slug": "navidad-en-san-francisco-2026",
+      "placeCount": 3,
+      "sourceIds": [
+        "c5-sf-rink",
+        "c5-sf-rink-news",
+        "c5-sf-pier",
+        "c5-sf-tree"
+      ],
+      "imageIds": [
+        "p5-sf-union",
+        "p5-sf-pier",
+        "p5-sf-ghirardelli"
+      ]
+    },
+    {
+      "id": "christmas-turin",
+      "locale": "en",
+      "words": 1437,
+      "contentHash": "c99a64d98f0aff506387b72fae3c125255de059d51675a49477aec6890a51d54",
+      "title": "Christmas in Turin 2026: Luci d’Artista and a lights walk",
+      "slug": "christmas-in-turin-2026",
+      "placeCount": 3,
+      "sourceIds": [
+        "c5-to-lights",
+        "c5-to-official"
+      ],
+      "imageIds": [
+        "p5-to-mole",
+        "p5-to-po",
+        "p5-to-cappuccini"
+      ]
+    },
+    {
+      "id": "christmas-turin",
+      "locale": "es",
+      "words": 1497,
+      "contentHash": "64b13549d33d64b88935e1add0703a529675e15989783e1fd256084609c7bd32",
+      "title": "Navidad en Turín 2026: Luci d’Artista y ruta de luces",
+      "slug": "navidad-en-turin-2026",
+      "placeCount": 3,
+      "sourceIds": [
+        "c5-to-lights",
+        "c5-to-official"
+      ],
+      "imageIds": [
+        "p5-to-mole",
+        "p5-to-po",
+        "p5-to-cappuccini"
+      ]
+    },
+    {
+      "id": "christmas-yokohama",
+      "locale": "en",
+      "words": 1487,
+      "contentHash": "1efd0f2e77de5983b9be6ed0456dca11811b28b4d4747b857eb6e25199a99565",
+      "title": "Christmas in Yokohama 2026: market, lights and tickets",
+      "slug": "christmas-in-yokohama-2026",
+      "placeCount": 3,
+      "sourceIds": [
+        "c5-yo-market",
+        "c5-yo-gate",
+        "c5-yo-yorunoyo"
+      ],
+      "imageIds": [
+        "p5-yo-akarenga",
+        "p5-yo-osanbashi",
+        "p5-yo-zonohana"
+      ]
+    },
+    {
+      "id": "christmas-yokohama",
+      "locale": "es",
+      "words": 1675,
+      "contentHash": "f8e87ef836cad765a1111f6aef4bdee45d2bb0d4bb66e1fa9e841f6342e02627",
+      "title": "Navidad en Yokohama 2026: mercado, luces y entradas",
+      "slug": "navidad-en-yokohama-2026",
+      "placeCount": 3,
+      "sourceIds": [
+        "c5-yo-market",
+        "c5-yo-gate",
+        "c5-yo-yorunoyo"
+      ],
+      "imageIds": [
+        "p5-yo-akarenga",
+        "p5-yo-osanbashi",
+        "p5-yo-zonohana"
+      ]
+    }
+  ],
+  "citedOfficialDocuments": 18,
+  "documentaryPhotos": 15,
+  "optimizedFiles": 41,
+  "checks": {
+    "actualHttpFinalUrlDateHashFactsAndShortExtracts": true,
+    "photoSpecificLicencesAndDeedsRead": true,
+    "allPlacePhotosMatched": true,
+    "originalAndOptimizedVisualReview": true,
+    "bilingualFactualParity": true,
+    "distinctDestinationIntent": true,
+    "noParagraphRepeatedAgainst336EarlierVersions": true,
+    "localizedSeo": true,
+    "relatedLinksExist": true,
+    "realNewYorkPublicationDates": true,
+    "previousContentDatesAndCodePreserved": true
+  },
+  "notes": [
+    "Codex self-review, not independent human approval.",
+    "No generated documentary imagery, paid services or third-party messages.",
+    "Public success pending release build, both exact-source Cloudflare deployments and actual public URL checks."
+  ]
+}

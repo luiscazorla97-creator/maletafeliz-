@@ -1391,14 +1391,14 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-05T19:47:31.851003+00:00",
+    "verifiedAt": "2026-11-06T00:39:18.498936+00:00",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 11,
-        "localizedVersions": 22,
+        "publishedOriginals": 12,
+        "localizedVersions": 24,
         "targetOriginals": 30,
-        "missingOriginals": 19,
+        "missingOriginals": 18,
         "articleIds": [
           "amalfi-coast",
           "christmas-florence",
@@ -1406,6 +1406,7 @@
           "christmas-rome",
           "christmas-venice",
           "florence",
+          "lucca",
           "milan",
           "pisa",
           "rome",
@@ -1415,10 +1416,10 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 10,
-        "localizedVersions": 20,
+        "publishedOriginals": 11,
+        "localizedVersions": 22,
         "targetOriginals": 25,
-        "missingOriginals": 15,
+        "missingOriginals": 14,
         "articleIds": [
           "christmas-osaka",
           "christmas-tokyo",
@@ -1428,18 +1429,20 @@
           "kyoto",
           "mount-fuji",
           "nara",
+          "nikko",
           "osaka",
           "tokyo"
         ]
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 10,
-        "localizedVersions": 20,
+        "publishedOriginals": 11,
+        "localizedVersions": 22,
         "targetOriginals": 25,
-        "missingOriginals": 15,
+        "missingOriginals": 14,
         "articleIds": [
           "cancun",
+          "guanajuato",
           "los-cabos",
           "mexico-city",
           "muertos-merida",
@@ -1475,9 +1478,9 @@
         ]
       }
     ],
-    "priorityOriginals": 45,
-    "missingToInitial100": 55,
-    "publicVerification": "editorial/verification/2026-11-05-christmas-three-publication.json"
+    "priorityOriginals": 48,
+    "missingToInitial100": 52,
+    "publicVerification": "editorial/verification/2026-11-05-new-three-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1491,6 +1494,18 @@
       "commit": "195d74071a2777924311aaa82e4380d7d9abdd00",
       "publicVerification": "editorial/verification/2026-11-05-christmas-three-publication.json",
       "note": "Explicit Christmas request in addition to the existing candidate inventory. Distinct evergreen backlog queries remain candidates, not falsely marked fulfilled by seasonal guides."
+    },
+    {
+      "batch": "2026-11-05-new-three-manual",
+      "topicIds": [
+        "guanajuato",
+        "lucca",
+        "nikko"
+      ],
+      "status": "published-verified",
+      "commit": "0f5402c950039b96c6587f03ee141074e9c42a27",
+      "publicVerification": "editorial/verification/2026-11-05-new-three-publication.json",
+      "note": "Three explicitly requested new evergreen city guides; existing candidate backlog and inventories preserved."
     }
   ]
 }

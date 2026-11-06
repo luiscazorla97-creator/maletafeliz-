@@ -6,14 +6,26 @@ Verificado el 5 de noviembre de 2026 en America/New_York. Especificación vigent
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 163 guías originales y 326 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 719 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 723 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 166 guías originales y 332 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 737 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 738 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
 
 Registro histórico de la campaña de festividades: commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. El despliegue vigente y sus comprobaciones se detallan a continuación. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
+
+## Tres ciudades nuevas: 5 de noviembre de 2026
+
+Publicadas Guanajuato, Lucca y Nikko: tres originales y seis versiones completas ES/EN, con cinco lugares desarrollados por guía, información práctica, itinerario, FAQ y enlaces relacionados. Títulos y slugs localizados. Se leyeron dieciocho documentos oficiales y quince licencias específicas: quince fotos documentales y 43 WebP responsivos, con ALT bilingüe, dimensiones y hashes. Los intentos fallidos o de ubicación incorrecta quedaron registrados y excluidos del contenido.
+
+Se distinguen la tarifa general y la nacional/residente de la Alhóndiga, San Michele in Foro frente a la iglesia de Meati y los billetes separados de los recintos de Nikko frente a NIKKO PASS. Las leyendas se atribuyen como tales; no se prometen seguridad universal, disponibilidad actual de obras en restauración ni condiciones meteorológicas. Las fotos son documentales de archivo.
+
+Pasaron tipos, 68 pruebas unitarias, 28 de navegación y 56 de producción pertinentes. Ambas compilaciones, incluida `npm run build:release`, generaron 812 páginas. La navegación de las seis versiones, búsqueda, destinos, países y fotos se revisó en escritorio y móvil. La auditoría comprobó 40551 enlaces/fragmentos, 326 artículos anteriores por texto/fecha/SEO y los 43 archivos nuevos por hash; sitemap 788 URLs. GitHub Actions completó 68 pruebas unitarias, 28 de navegación y las 708 de producción del catálogo completo, todas correctamente, en el commit `0f5402c950039b96c6587f03ee141074e9c42a27`.
+
+Los dos proyectos existentes de Cloudflare completaron ese mismo commit. Pasaron 340 comprobaciones HTTP del catálogo/redirecciones y 108 registros públicos del lote. Evidencia: `editorial/verification/2026-11-05-new-three-publication.json`. El catálogo reúne 166 originales, 332 versiones, 738 fotos y 736 lugares fotografiados. Cobertura prioritaria: Italia 12/30, Japón 11/25, México 11/25 y Estados Unidos 14/20: 48/100, faltan 52. Los 163 temas anteriores, 723 fotos y backlog se conservan íntegros. Son tres manuales adicionales a los quince ya verificados el 5 de noviembre en Nueva York; no se cambia la frecuencia diaria de dos al mediodía de Miami ni se afirma atribución desatendida.
+
+No se modificaron diseño 3D, código de anuncios, Analytics, menús, búsqueda, selector, SEO existente, workflow, proyectos ni DNS. No se prometen indexación, rankings ni visitas.
 
 ## Tres guías de Navidad adicionales: 5 de noviembre de 2026
 

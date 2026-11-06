@@ -2,14 +2,14 @@
   "id": "2026-11-05-new-three-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-05T23:49:25.566131+00:00",
-  "status": "reviewed-selected-for-release-not-public",
+  "status": "published",
   "topicIds": [
     "guanajuato",
     "lucca",
     "nikko"
   ],
   "requestedCount": 3,
-  "publishedCount": 0,
+  "publishedCount": 3,
   "errors": [],
   "authorization": {
     "type": "explicit-additional-manual-request",
@@ -24,16 +24,53 @@
   },
   "execution": {
     "executionId": "9de406d3-0def-4883-a4b3-b796153a6855",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-05T23:49:25.566131+00:00",
-    "heartbeatAt": "2026-11-06T00:04:51.477Z",
-    "leaseUntil": "2026-11-06T03:49:25.566131+00:00",
+    "heartbeatAt": "2026-11-06T00:39:18.498936+00:00",
+    "leaseUntil": "2026-11-06T00:39:18.498936+00:00",
     "baseCommit": "96cc16b14061a2ca324ec2b22c860e7698b7c49e",
-    "coordination": "No competing active lease. Preserve all older batch inventories."
+    "coordination": "No competing active lease. Preserve all older batch inventories.",
+    "completedAt": "2026-11-06T00:39:18.498936+00:00"
   },
   "reviewedAt": "2026-11-06T00:04:51.477Z",
   "selectedCount": 3,
   "localizedVersionCount": 6,
   "documentaryPhotoCount": 15,
-  "sourceCount": 18
+  "sourceCount": 18,
+  "localizedVersionsPublished": 6,
+  "documentaryPhotosPublished": 15,
+  "optimizedPhotoFiles": 43,
+  "citedSourceDocuments": 18,
+  "publishedCommit": "0f5402c950039b96c6587f03ee141074e9c42a27",
+  "publiclyVerifiedAt": "2026-11-06T00:39:18.498936+00:00",
+  "publicVerification": "editorial/verification/2026-11-05-new-three-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-guanajuato-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-lucca-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-nikko-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/5-places-to-visit-guanajuato/",
+      "https://maletafeliz.com/en/guides/5-places-to-visit-lucca/",
+      "https://maletafeliz.com/en/guides/5-places-to-visit-nikko/"
+    ]
+  },
+  "priorSameDayPublishedTopicIds": [
+    "amalfi-coast",
+    "cancun",
+    "christmas-miami",
+    "christmas-osaka",
+    "christmas-venice",
+    "kanazawa",
+    "los-angeles",
+    "los-cabos",
+    "milan",
+    "mount-fuji",
+    "oaxaca",
+    "orlando",
+    "pisa",
+    "riviera-maya",
+    "verona"
+  ]
 }

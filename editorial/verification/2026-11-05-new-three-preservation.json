@@ -1,17 +1,36 @@
 {
-  "checkedAt": "2026-11-06T00:06:12.147276+00:00",
   "baseline": "96cc16b14061a2ca324ec2b22c860e7698b7c49e",
-  "protectedTrackedFilesByteIdentical": 5315,
-  "changedProtectedFiles": [],
-  "additiveInventories": {
-    "editorial/plan.json": {
-      "oldEntriesUnchanged": 163,
-      "addedEntries": 3
+  "checkedAt": "2026-11-06T00:39:19.323470+00:00",
+  "protectedTrackedBlobsCompared": 5310,
+  "changedProtectedBlobs": [],
+  "priorArticleVersionsUnchanged": 326,
+  "priorPlanEntriesIdentical": 163,
+  "priorPhotoEntriesIdentical": 723,
+  "backlogEntriesUnchanged": 73,
+  "implementationChanges": [],
+  "authorizedPublicationBookkeeping": [
+    "docs/SEO-STRATEGY.md",
+    "docs/STATUS.md",
+    "editorial/activity.jsonl",
+    "editorial/publication.json",
+    "editorial/seo-strategy.json"
+  ],
+  "scope": "All earlier article texts/dates/reviews/sources/resources, photo entries/assets, app/style/brand/ad/Analytics code, site.json, schedule, CI configuration and earlier batch inventories unchanged. Append-only plan/photo inventory and metadata bookkeeping after verified publication.",
+  "prePublicationAudit": {
+    "checkedAt": "2026-11-06T00:06:12.147276+00:00",
+    "baseline": "96cc16b14061a2ca324ec2b22c860e7698b7c49e",
+    "protectedTrackedFilesByteIdentical": 5315,
+    "changedProtectedFiles": [],
+    "additiveInventories": {
+      "editorial/plan.json": {
+        "oldEntriesUnchanged": 163,
+        "addedEntries": 3
+      },
+      "content/images/manifest.json": {
+        "oldEntriesUnchanged": 723,
+        "addedEntries": 15
+      }
     },
-    "content/images/manifest.json": {
-      "oldEntriesUnchanged": 723,
-      "addedEntries": 15
-    }
-  },
-  "scope": "All earlier articles, reviews, source evidence, photo files, dates, URLs, 3D design, CSS, brand, menus, search, SEO code, ads/Analytics configuration, workflow and previous batches unchanged; only additions and two append-only inventories."
+    "scope": "All earlier articles, reviews, source evidence, photo files, dates, URLs, 3D design, CSS, brand, menus, search, SEO code, ads/Analytics configuration, workflow and previous batches unchanged; only additions and two append-only inventories."
+  }
 }

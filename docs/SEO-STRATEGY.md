@@ -61,3 +61,7 @@ Por pedido manual explícito se añadieron Verona, Pisa, Kanazawa, Riviera Maya,
 ## Tres temas navideños adicionales verificados
 
 El 5 de noviembre se publicaron Venecia, Osaka y Miami para Navidad, con seis versiones completas y nueve fotos documentales. Se usan las ciudades existentes y se preservan las consultas permanentes del backlog, sin marcarlas falsamente como resueltas por guías estacionales. La cobertura queda en Italia 11/30, Japón 10/25, México 10/25 y Estados Unidos 14/20: 45/100, con 55 originales para la meta. El catálogo global suma 163 originales y 326 versiones. Ambos proyectos y las seis URLs se verificaron. La frecuencia diaria permanece igual. Evidencia: `editorial/verification/2026-11-05-christmas-three-publication.json`.
+
+## Tres ciudades nuevas verificadas
+
+El 5 de noviembre se publicaron Guanajuato, Lucca y Nikko: tres guías con cinco lugares cada una y seis versiones completas ES/EN, 18 documentos oficiales y 15 fotos documentales. Cobertura: Italia 12/30, Japón 11/25, México 11/25 y Estados Unidos 14/20: 48/100, faltan 52. El backlog previo permanece íntegro. El catálogo suma 166 originales y 332 versiones. Ambos proyectos, seis URLs, fotos, descubrimiento interno y metadatos se verificaron. Frecuencia diaria sin cambios. Evidencia: `editorial/verification/2026-11-05-new-three-publication.json`.

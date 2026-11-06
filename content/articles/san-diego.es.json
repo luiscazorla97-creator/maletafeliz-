@@ -1,0 +1,281 @@
+{
+  "id": "san-diego",
+  "destinationId": "san-diego",
+  "locale": "es",
+  "slug": "que-ver-en-san-diego-7-lugares",
+  "title": "Qué ver en San Diego: 7 lugares para tu primer viaje",
+  "description": "Qué ver en San Diego: 7 lugares con playas, Balboa Park, Old Town y USS Midway. Organiza las visitas por zonas y conoce entradas, cierres y transporte.",
+  "keyword": "qué ver en San Diego",
+  "relatedQueries": [
+    "qué hacer en San Diego",
+    "San Diego sin coche",
+    "lugares turísticos de San Diego"
+  ],
+  "intent": "first-visit-highlights",
+  "status": "published",
+  "coverImageId": "p6-sd-balboa",
+  "intro": [
+    "Balboa Park, Old Town, Cabrillo National Monument, La Jolla Cove, el USS Midway, la playa de Coronado y Sunset Cliffs forman una primera visita variada a San Diego y su entorno cercano. La clave está en agruparlos por zonas: no son siete paradas de un paseo continuo. Puedes combinar patrimonio, un museo naval, jardines y costa sin pasar la mayor parte del viaje buscando aparcamiento o cruzando la ciudad.",
+    "Esta guía explica qué aporta cada lugar y qué conviene resolver antes de salir. Coronado es una ciudad vecina, al otro lado de la bahía; no hay que confundirla con una playa del centro de San Diego. La observación de la costa tampoco exige bajar a zonas protegidas, nadar ni acceder a un acantilado. Elige las visitas según tus intereses, el tiempo disponible y las condiciones del día."
+  ],
+  "quickFacts": [
+    {
+      "label": "Destino",
+      "value": "San Diego y la cercana Coronado, California, Estados Unidos"
+    },
+    {
+      "label": "Selección",
+      "value": "7 lugares entre parques, historia, museo naval y litoral"
+    },
+    {
+      "label": "Transporte urbano",
+      "value": "MTS identifica los buses Rapid 215 y 7 para Balboa Park desde el centro"
+    },
+    {
+      "label": "Atención en la costa",
+      "value": "Point La Jolla y Boomer Beach tienen cierre todo el año; respeta barreras y avisos"
+    }
+  ],
+  "sections": [
+    {
+      "id": "balboa",
+      "kind": "place",
+      "heading": "1. Balboa Park: jardines y arquitectura antes de elegir un museo",
+      "paragraphs": [
+        "Balboa Park permite empezar por un espacio que combina jardines, senderos y edificios de vocación cultural. En el Prado, las fachadas de estilo colonial español reinterpretado recuerdan la Exposición Panamá-California de 1915–1916. El Ayuntamiento sitúa aquí museos y entidades culturales muy diferentes, por lo que conviene elegir una experiencia concreta en vez de tratar el parque como una lista de recintos que hay que completar.",
+        "Dedica primero un tramo del paseo al exterior del Edificio Botánico y su estanque, una buena referencia visual para orientarte. Después decide si prefieres continuar entre jardines o entrar en un museo. El acceso a una institución y sus exposiciones no se deduce del hecho de estar dentro del parque: consulta su entrada, condiciones y horario por separado. La visita al zoo también es una decisión distinta.",
+        "Para llegar desde downtown, MTS señala Rapid 215 y la línea 7. Revisa el sentido de circulación y las alertas antes de salir; un tiempo orientativo del operador no es una garantía con tráfico o desvíos. Llevar localizada la parada de regreso ayuda a terminar el paseo sin cruzar el parque cansado buscando otra conexión."
+      ],
+      "sourceIds": [
+        "s6-sd-balboa",
+        "s6-sd-mts"
+      ],
+      "imageId": "p6-sd-balboa"
+    },
+    {
+      "id": "old-town",
+      "kind": "place",
+      "heading": "2. Old Town San Diego: una plaza para entender varias historias",
+      "paragraphs": [
+        "Old Town San Diego State Historic Park reúne edificios históricos restaurados, reconstrucciones y espacios que interpretan las transformaciones de la ciudad. California State Parks recuerda que se encuentra en territorio ancestral kumeyaay y presenta el recorrido Iipay ~ Tipai Kumeyaay Mut Niihepok. La visita gana sentido si se empieza por esa perspectiva, antes de reducir el lugar a fachadas pintorescas o tiendas de recuerdos.",
+        "Pasea por la plaza y distingue entre los edificios originales, las reconstrucciones y los negocios que funcionan dentro del conjunto. Los museos y las demostraciones ayudan a leer los cambios de una población indígena a un pueblo mexicano y después a una ciudad estadounidense. Esa secuencia también evita describir todo lo que se ve como una única y homogénea ciudad colonial española.",
+        "El centro de información Robinson Rose es una referencia útil para conocer qué está abierto durante tu visita. Organiza las entradas y la comida como decisiones separadas del paseo por la plaza. Si vas en transporte público, busca la conexión a Old Town en el planificador de MTS y comprueba el último tramo hasta el parque, sin asumir que todas las paradas con ese nombre dejan en la misma puerta."
+      ],
+      "sourceIds": [
+        "s6-sd-oldtown",
+        "s6-sd-mts"
+      ],
+      "imageId": "p6-sd-oldtown"
+    },
+    {
+      "id": "cabrillo",
+      "kind": "place",
+      "heading": "3. Cabrillo National Monument: faro, bahía y naturaleza en Point Loma",
+      "paragraphs": [
+        "Cabrillo National Monument ocupa el extremo de Point Loma y combina historia marítima con paisajes costeros. El faro histórico Old Point Loma, el centro de visitantes y los miradores permiten elegir una visita centrada en tierra firme. Las pozas intermareales son otra actividad, con condiciones propias; no forman un añadido automático a cualquier paseo por el faro.",
+        "Empieza en el centro de visitantes para consultar el estado de los senderos, el tiempo y las mareas. Si tu interés es el litoral, comprueba tanto la bajamar como el acceso de ese día. El National Park Service advierte de cierres temporales de la carretera a las pozas cuando se llena el aparcamiento. Ese margen importa especialmente si después tienes una reserva con hora en otra zona.",
+        "La información oficial también avisa de que no hay cobertura móvil en la zona de las pozas. Si utilizas un conductor contratado, acuerda antes el punto y la hora de recogida. Revisa la tarifa de entrada y el pase aplicable en la web del parque, y lleva agua y protección para el sol o el viento. Un mirador panorámico puede ser suficiente si no quieres hacer el descenso."
+      ],
+      "sourceIds": [
+        "s6-sd-cabrillo-basic",
+        "s6-sd-cabrillo-things"
+      ],
+      "imageId": "p6-sd-cabrillo"
+    },
+    {
+      "id": "la-jolla",
+      "kind": "place",
+      "heading": "4. La Jolla Cove: costa protegida y observación responsable",
+      "paragraphs": [
+        "La Jolla Cove es una pequeña playa entre acantilados de arenisca, dentro de una reserva ecológica marina. La visita puede centrarse en observar el paisaje desde los espacios permitidos, sin contratar una actividad acuática. El Ayuntamiento prohíbe la pesca y retirar objetos de esta zona protegida. Dejar las rocas, conchas y animales donde están forma parte del recorrido.",
+        "Conviene distinguir la cala de Point La Jolla y Boomer Beach: la información municipal establece para estos últimos un cierre durante todo el año. No sigas a otras personas por una barrera ni interpretes una foto antigua como permiso de acceso. Observa los leones marinos a distancia, sin tocarlos, alimentarlos ni bloquearles el paso, y atiende las indicaciones del personal y la señalización local.",
+        "Si quieres bañarte, consulta las condiciones del mar y las instrucciones de los socorristas al llegar. La presencia de una estación de vigilancia no elimina corrientes, oleaje u otras restricciones. Para un primer recorrido, una parada tranquila en la costa puede encajar mejor que añadir equipo de snorkel, cambios de ropa y varios traslados sin tiempo para disfrutarlos."
+      ],
+      "sourceIds": [
+        "s6-sd-lajolla",
+        "s6-sd-point"
+      ],
+      "imageId": "p6-sd-lajolla"
+    },
+    {
+      "id": "midway",
+      "kind": "place",
+      "heading": "5. USS Midway Museum: elegir un recorrido dentro del portaaviones",
+      "paragraphs": [
+        "El USS Midway es un portaaviones convertido en museo en la bahía. La propuesta no se limita a mirar aviones: el operador organiza sus exposiciones entre cubierta de vuelo, hangar y espacios inferiores, con actividades que muestran distintas facetas de la vida a bordo. Conviene decidir qué parte te interesa más antes de intentar recorrer cada rincón del barco.",
+        "En la consulta de noviembre de 2026, el museo anuncia apertura de 10:00 a 17:00 y última admisión a las 16:00, con cierre en Acción de Gracias y Navidad. Comprueba la entrada y el calendario para tu fecha. La última hora de acceso no equivale a disponer de una visita larga, y las actividades especiales deben revisarse por sus propias condiciones.",
+        "Lleva calzado cómodo y consulta el itinerario accesible si necesitas evitar escaleras o pasos estrechos. Alternar un bloque interior con la cubierta puede ayudar a distribuir el esfuerzo, según lo que esté disponible. La web también anuncia un futuro parque junto al muelle para 2028: no lo incluyas como una instalación ya abierta en tu viaje de 2026."
+      ],
+      "sourceIds": [
+        "s6-sd-midway-main",
+        "s6-sd-midway-visit"
+      ],
+      "imageId": "p6-sd-midway"
+    },
+    {
+      "id": "coronado",
+      "kind": "place",
+      "heading": "6. Coronado Beach: reservar tiempo para la otra orilla de la bahía",
+      "paragraphs": [
+        "La playa de Coronado añade una experiencia de arena y horizonte abierto a la ruta. Está en la vecina ciudad de Coronado, de modo que la ida y la vuelta forman parte del plan. No la encajes entre dos reservas ajustadas en downtown suponiendo que es una parada a unos pasos del USS Midway; comprueba tu conexión y el punto exacto de llegada.",
+        "Puedes dedicarle un paseo, una pausa o una jornada de playa según la estación y tus preferencias. La información de Coronado utiliza banderas para comunicar peligros en el agua: consúltalas y sigue las indicaciones de los socorristas antes de bañarte. Una costa de aspecto tranquilo en una fotografía no acredita las condiciones de otra fecha.",
+        "El municipio dispone de un programa con un número limitado de sillas de playa, incluidas opciones de ruedas anchas. Si las necesitas, consulta con antelación cómo funciona y la disponibilidad; no es una reserva automática por acudir. Prevé también agua, sombra y el traslado de regreso. La visita puede disfrutarse desde la orilla sin convertir el baño en una obligación."
+      ],
+      "sourceIds": [
+        "s6-sd-coronado-correct"
+      ],
+      "imageId": "p6-sd-coronado"
+    },
+    {
+      "id": "sunset-cliffs",
+      "kind": "place",
+      "heading": "7. Sunset Cliffs: terminar junto al Pacífico sin bajar a los bordes",
+      "paragraphs": [
+        "Sunset Cliffs Natural Park se extiende por el lado occidental de Point Loma, con acantilados, arcos y cavidades tallados en la costa. Es una parada para observar la relación entre la roca y el oleaje, además de un lugar asociado a la puesta de sol. La luz, las nubes y el estado del mar cambian: la experiencia no depende de reproducir una imagen concreta.",
+        "Elige un espacio de observación autorizado y mantente separado del borde. No necesitas descender a las cuevas ni buscar una repisa para apreciar la costa. Un recorrido corto por la parte alta, respetando cierres y caminos, permite dedicar atención al paisaje sin improvisar un acceso expuesto al oleaje o a una salida difícil.",
+        "El Ayuntamiento señala que varios puntos de observación, como Ladera Street, Luscomb Point y Osprey Street, carecen de baños. Resuelve esa necesidad antes y llega con margen si vas al atardecer. Después de la puesta de sol, prioriza un regreso claro y con visibilidad suficiente en lugar de seguir avanzando por un borde que no conoces."
+      ],
+      "sourceIds": [
+        "s6-sd-sunset"
+      ],
+      "imageId": "p6-sd-sunset-cliffs"
+    },
+    {
+      "id": "organizar-zonas",
+      "kind": "practical",
+      "heading": "Cómo agrupar las visitas y moverse sin cruzar la ciudad de más",
+      "paragraphs": [
+        "Piensa en bloques, no en siete puntos consecutivos. Balboa Park y el museo naval pueden organizarse desde una base en el centro, reservando tiempo propio a cada uno. Old Town funciona como otra visita histórica con su conexión de transporte. La Jolla, Point Loma y Coronado requieren valorar desplazamientos adicionales: tener un coche tampoco elimina el tráfico ni la búsqueda de aparcamiento.",
+        "Si vas sin coche, empieza por el mapa de MTS y las conexiones que realmente utilizarás. Rapid 215 y el bus 7 son referencias verificadas para Balboa Park; no significa que una de esas líneas sirva también para todos los lugares de la guía. Guarda los trayectos de vuelta, revisa alertas y combina solo las visitas que encajen con tus horarios. Para Cabrillo, recuerda la limitación de cobertura en las pozas."
+      ],
+      "sourceIds": [
+        "s6-sd-mts",
+        "s6-sd-cabrillo-basic"
+      ]
+    },
+    {
+      "id": "entradas-costa",
+      "kind": "practical",
+      "heading": "Entradas, descansos y decisiones antes de salir",
+      "paragraphs": [
+        "Separa tres partidas de tu organización: transporte, entradas y actividades opcionales. El museo naval tiene su propio billete y calendario; el monumento nacional requiere comprobar las condiciones de acceso del NPS; los museos de Balboa Park no forman automáticamente una única visita. El presupuesto mejora cuando eliges qué interiores te interesan antes de comprar productos combinados.",
+        "En las jornadas de costa, consulta avisos, banderas y barreras al llegar, además de la previsión del tiempo. La Jolla y Sunset Cliffs no deben planificarse como lugares donde cualquier roca o cueva sea accesible. Lleva agua, deja margen para descansar y usa espacios habilitados. Con niños o necesidades de movilidad, conviene seleccionar menos paradas y confirmar los recorridos concretos de cada instalación."
+      ],
+      "sourceIds": [
+        "s6-sd-midway-main",
+        "s6-sd-balboa",
+        "s6-sd-point",
+        "s6-sd-coronado-correct"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Primer bloque cultural: empieza en Balboa Park y elige jardín, paseo o un museo según tus intereses. Dedica Old Town a otra franja con tiempo para leer las exposiciones y recorrer la plaza. Si quieres añadir el USS Midway, reserva un bloque suficiente dentro de su horario, en vez de llegar cerca de la última admisión.",
+    "Bloque de Point Loma: organiza Cabrillo con la información del NPS y decide si harás solo centro de visitantes y faro o también una actividad de litoral. Sunset Cliffs puede ser otra parada del mismo sector, siempre que los accesos y la luz permitan un recorrido cómodo. No es necesario bajar a las pozas para justificar ambas visitas.",
+    "Costa norte y Coronado: dedica a La Jolla una salida propia y observa la reserva desde lugares permitidos. Sitúa Coronado en otra franja que incluya el traslado a esa ciudad y el regreso. Si solo tienes una jornada, elige dos o tres lugares compatibles y guarda el resto para otra ocasión; esta selección no propone visitar los siete con prisas."
+  ],
+  "faq": [
+    {
+      "question": "¿Qué ver en San Diego en una primera visita?",
+      "answer": "Balboa Park y Old Town aportan jardines, arquitectura e historia; el USS Midway añade un museo naval. Para la costa, elige entre La Jolla, Cabrillo, Sunset Cliffs y la cercana Coronado según el tiempo y los traslados. Los siete lugares de la guía permiten escoger, no obligan a completar una lista en una jornada."
+    },
+    {
+      "question": "¿Se puede visitar San Diego sin coche?",
+      "answer": "Sí se pueden organizar visitas con transporte público, pero hay que comprobar cada conexión. MTS identifica Rapid 215 y la línea 7 para Balboa Park desde el centro. La Jolla, Coronado y Cabrillo requieren su propia planificación, y no conviene asumir un trayecto directo para todo. Guarda horarios de vuelta y revisa alertas."
+    },
+    {
+      "question": "¿La Jolla Cove y Point La Jolla tienen las mismas reglas de acceso?",
+      "answer": "No. La página municipal de la cala y la normativa de Point La Jolla describen espacios distintos. Point La Jolla y Boomer Beach tienen cierre durante todo el año. Respeta las barreras, la señalización y a los animales, y consulta las condiciones vigentes de la cala sin deducir acceso a partir de fotografías antiguas."
+    },
+    {
+      "question": "¿Abre el USS Midway en Acción de Gracias y Navidad?",
+      "answer": "El operador indica que cierra esos dos días. En la consulta de noviembre de 2026 anuncia normalmente 10:00–17:00, con última admisión a las 16:00. Comprueba el calendario y las condiciones del billete para tu fecha antes de organizar una visita que dependa de ese museo."
+    }
+  ],
+  "conclusion": "La mejor forma de aprovechar estos siete lugares de San Diego es construir una ruta a tu medida: un bloque cultural, las visitas con entrada que te interesen y algunas paradas de costa. Agrupar zonas, respetar cierres y dejar tiempo para disfrutar del paisaje aporta más que intentar fotografiar toda la ciudad en un recorrido apresurado.",
+  "sources": [
+    {
+      "id": "s6-sd-balboa",
+      "url": "https://www.sandiego.gov/park-and-recreation/parks/regional/balboa",
+      "title": "Balboa Park — City of San Diego",
+      "accessedAt": "2026-11-06T16:48:25.039Z",
+      "evidenceFile": "content/research/s6-sd-balboa.json"
+    },
+    {
+      "id": "s6-sd-oldtown",
+      "url": "https://www.parks.ca.gov/?page_id=663",
+      "title": "Old Town San Diego — California State Parks",
+      "accessedAt": "2026-11-06T16:48:25.055Z",
+      "evidenceFile": "content/research/s6-sd-oldtown.json"
+    },
+    {
+      "id": "s6-sd-cabrillo-basic",
+      "url": "https://www.nps.gov/cabr/planyourvisit/basicinfo.htm",
+      "title": "Cabrillo visitor information — National Park Service",
+      "accessedAt": "2026-11-06T16:50:43.237Z",
+      "evidenceFile": "content/research/s6-sd-cabrillo-basic.json"
+    },
+    {
+      "id": "s6-sd-cabrillo-things",
+      "url": "https://www.nps.gov/cabr/planyourvisit/things2do.htm",
+      "title": "Things to do at Cabrillo — National Park Service",
+      "accessedAt": "2026-11-06T16:50:43.238Z",
+      "evidenceFile": "content/research/s6-sd-cabrillo-things.json"
+    },
+    {
+      "id": "s6-sd-midway-main",
+      "url": "https://www.midway.org/",
+      "title": "USS Midway Museum — official visitor information",
+      "accessedAt": "2026-11-06T16:49:04.909Z",
+      "evidenceFile": "content/research/s6-sd-midway-main.json"
+    },
+    {
+      "id": "s6-sd-midway-visit",
+      "url": "https://www.midway.org/visit/",
+      "title": "USS Midway Museum — exhibits",
+      "accessedAt": "2026-11-06T16:50:43.236Z",
+      "evidenceFile": "content/research/s6-sd-midway-visit.json"
+    },
+    {
+      "id": "s6-sd-lajolla",
+      "url": "https://www.sandiego.gov/lifeguards/beaches/cove",
+      "title": "La Jolla Cove — City of San Diego",
+      "accessedAt": "2026-11-06T16:49:04.893Z",
+      "evidenceFile": "content/research/s6-sd-lajolla.json"
+    },
+    {
+      "id": "s6-sd-point",
+      "url": "https://www.sandiego.gov/park-and-recreation/point-lajolla",
+      "title": "Point La Jolla closure — City of San Diego",
+      "accessedAt": "2026-11-06T16:49:04.907Z",
+      "evidenceFile": "content/research/s6-sd-point.json"
+    },
+    {
+      "id": "s6-sd-coronado-correct",
+      "url": "https://www.coronado.ca.us/244/Coronado-Beach",
+      "title": "Coronado Beach — City of Coronado",
+      "accessedAt": "2026-11-06T16:49:04.908Z",
+      "evidenceFile": "content/research/s6-sd-coronado-correct.json"
+    },
+    {
+      "id": "s6-sd-sunset",
+      "url": "https://www.sandiego.gov/park-and-recreation/parks/regional/shoreline/sunset",
+      "title": "Sunset Cliffs Natural Park — City of San Diego",
+      "accessedAt": "2026-11-06T16:48:25.053Z",
+      "evidenceFile": "content/research/s6-sd-sunset.json"
+    },
+    {
+      "id": "s6-sd-mts",
+      "url": "https://www.sdmts.com/getting-around/balboa-park-and-zoo",
+      "title": "Balboa Park transport — San Diego MTS",
+      "accessedAt": "2026-11-06T16:54:23.232Z",
+      "evidenceFile": "content/research/s6-sd-mts.json"
+    }
+  ],
+  "relatedIds": [
+    "los-angeles",
+    "las-vegas"
+  ],
+  "publishedAt": "2026-11-06T12:04:53-05:00",
+  "updatedAt": "2026-11-06T12:04:53-05:00"
+}

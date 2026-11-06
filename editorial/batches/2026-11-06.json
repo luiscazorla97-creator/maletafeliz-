@@ -2,7 +2,7 @@
   "id": "2026-11-06",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-06T16:47:30.347Z",
-  "status": "reserved-not-generated",
+  "status": "reviewed-selected-for-release-not-public",
   "topicIds": [
     "san-diego",
     "siena",
@@ -12,9 +12,11 @@
   "publishedCount": 0,
   "errors": [],
   "authorization": {
-    "type": "explicit-manual-three-originals",
-    "request": "publica 3 articulos nuevos super seo con titulos seo para posicionar bien en google",
+    "type": "latest-owner-instruction-two-originals",
+    "request": "DOS originales por ejecución; complete only what is missing today",
+    "supersedesEarlierManualThree": true,
     "earlierUniqueVerifiedTopicsToday": 0,
+    "effectiveRequestedCount": 2,
     "dailyTargetUnchanged": 2,
     "schedulerChanged": false
   },
@@ -22,9 +24,36 @@
     "executionId": "d28476ce-7dcd-4866-b493-f4d19aecde70",
     "status": "active",
     "startedAt": "2026-11-06T16:47:30.389467+00:00",
-    "heartbeatAt": "2026-11-06T16:47:30.389467+00:00",
+    "heartbeatAt": "2026-11-06T17:04:53.726Z",
     "leaseUntil": "2026-11-06T20:47:30.389467+00:00",
     "baseCommit": "525fd4064715c85e35cd77d6a04f9518cf8634c0",
     "coordination": "No competing active leases or verified originals today at start. Explicit owner manual3; daily executor must not duplicate an active batch. No original ranking or traffic guarantee."
-  }
+  },
+  "authorizationHistory": [
+    {
+      "type": "explicit-manual-three-originals",
+      "request": "publica 3 articulos nuevos super seo con titulos seo para posicionar bien en google",
+      "earlierUniqueVerifiedTopicsToday": 0,
+      "dailyTargetUnchanged": 2,
+      "schedulerChanged": false
+    }
+  ],
+  "effectiveRequestedCount": 2,
+  "effectiveTopicIds": [
+    "san-diego",
+    "san-miguel-de-allende"
+  ],
+  "deferredTopicIds": [
+    "siena"
+  ],
+  "deferralReason": "Latest user instruction reduced this same in-progress batch from3to2. Original reservation inventory preserved; Siena is not released.",
+  "reservationRecheck": {
+    "command": "npm run editorial:batch -- 2",
+    "result": "Existing3-topic reservation returned, inspected and preserved. Effective selection explicitly reduced to2 rather than reserving a duplicate."
+  },
+  "selectedCount": 2,
+  "localizedVersionCount": 4,
+  "documentaryPhotoCount": 12,
+  "sourceCount": 18,
+  "reviewedAt": "2026-11-06T17:04:53.726Z"
 }

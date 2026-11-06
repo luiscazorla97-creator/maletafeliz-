@@ -1,0 +1,158 @@
+{
+  "reviewedAt": "2026-11-06T17:04:53.726Z",
+  "timeZone": "America/New_York",
+  "authorization": {
+    "type": "latest-owner-instruction-two-originals",
+    "request": "DOS originales por ejecución; complete only what is missing today",
+    "supersedesEarlierManualThree": true,
+    "earlierUniqueVerifiedTopicsToday": 0,
+    "effectiveRequestedCount": 2,
+    "dailyTargetUnchanged": 2,
+    "schedulerChanged": false
+  },
+  "topicIds": [
+    "san-diego",
+    "san-miguel-de-allende"
+  ],
+  "versions": [
+    {
+      "id": "san-diego",
+      "locale": "en",
+      "words": 2022,
+      "contentHash": "b38018a1ff6f1e19705a61f2a89af2290be3b2da19b2dafb3d1e88630e734f87",
+      "title": "7 places to visit in San Diego on your first trip",
+      "slug": "7-places-to-visit-san-diego",
+      "placeCount": 7,
+      "sourceIds": [
+        "s6-sd-balboa",
+        "s6-sd-oldtown",
+        "s6-sd-cabrillo-basic",
+        "s6-sd-cabrillo-things",
+        "s6-sd-midway-main",
+        "s6-sd-midway-visit",
+        "s6-sd-lajolla",
+        "s6-sd-point",
+        "s6-sd-coronado-correct",
+        "s6-sd-sunset",
+        "s6-sd-mts"
+      ],
+      "imageIds": [
+        "p6-sd-balboa",
+        "p6-sd-oldtown",
+        "p6-sd-cabrillo",
+        "p6-sd-lajolla",
+        "p6-sd-midway",
+        "p6-sd-coronado",
+        "p6-sd-sunset-cliffs"
+      ]
+    },
+    {
+      "id": "san-diego",
+      "locale": "es",
+      "words": 2243,
+      "contentHash": "afc1f4ec1c5893ee5644131b90cb55c0d15f48e7c6db3f59ac1cffd7422962cb",
+      "title": "Qué ver en San Diego: 7 lugares para tu primer viaje",
+      "slug": "que-ver-en-san-diego-7-lugares",
+      "placeCount": 7,
+      "sourceIds": [
+        "s6-sd-balboa",
+        "s6-sd-oldtown",
+        "s6-sd-cabrillo-basic",
+        "s6-sd-cabrillo-things",
+        "s6-sd-midway-main",
+        "s6-sd-midway-visit",
+        "s6-sd-lajolla",
+        "s6-sd-point",
+        "s6-sd-coronado-correct",
+        "s6-sd-sunset",
+        "s6-sd-mts"
+      ],
+      "imageIds": [
+        "p6-sd-balboa",
+        "p6-sd-oldtown",
+        "p6-sd-cabrillo",
+        "p6-sd-lajolla",
+        "p6-sd-midway",
+        "p6-sd-coronado",
+        "p6-sd-sunset-cliffs"
+      ]
+    },
+    {
+      "id": "san-miguel-de-allende",
+      "locale": "en",
+      "words": 1679,
+      "contentHash": "35dc456d2b74b59b5c958b6a328d4dffd8a40bc2fe92b8d0c2e4833670f25756",
+      "title": "5 places to visit in San Miguel de Allende",
+      "slug": "5-places-to-visit-san-miguel-de-allende",
+      "placeCount": 5,
+      "sourceIds": [
+        "s6-sm-details",
+        "s6-sm-jardin",
+        "s6-sm-aurora",
+        "s6-sm-aurora-contact",
+        "s6-sm-sic",
+        "s6-sm-reserva",
+        "s6-sm-parque"
+      ],
+      "imageIds": [
+        "p6-sm-parroquia",
+        "p6-sm-jardin",
+        "p6-sm-aurora",
+        "p6-sm-charco",
+        "p6-sm-parque"
+      ]
+    },
+    {
+      "id": "san-miguel-de-allende",
+      "locale": "es",
+      "words": 1845,
+      "contentHash": "3edec6dc1423a728ed7118b99092427778fc76f30eb8f76ac17048fbcc788f65",
+      "title": "Qué ver en San Miguel de Allende: 5 lugares que visitar",
+      "slug": "que-ver-en-san-miguel-de-allende-5-lugares",
+      "placeCount": 5,
+      "sourceIds": [
+        "s6-sm-details",
+        "s6-sm-jardin",
+        "s6-sm-aurora",
+        "s6-sm-aurora-contact",
+        "s6-sm-sic",
+        "s6-sm-reserva",
+        "s6-sm-parque"
+      ],
+      "imageIds": [
+        "p6-sm-parroquia",
+        "p6-sm-jardin",
+        "p6-sm-aurora",
+        "p6-sm-charco",
+        "p6-sm-parque"
+      ]
+    }
+  ],
+  "citedOfficialDocuments": 18,
+  "documentaryPhotos": 12,
+  "optimizedFiles": 36,
+  "checks": {
+    "sourcesReadWithHttpFinalUrlDateHashAndShortExtracts": true,
+    "photoSpecificLicencesAndDeedsRead": true,
+    "allPlacePhotosMatched": true,
+    "originalAndOptimizedPhotoVisualReview": true,
+    "bilingualFactualParity": true,
+    "distinctDestinationIntent": true,
+    "noRepeatedParagraphAgainst332EarlierVersions": true,
+    "localizedSeo": true,
+    "relatedLinksExist": true,
+    "realNewYorkPublicationDates": true,
+    "preservedPreviousContentDatesAndCode": true
+  },
+  "deferred": {
+    "topicId": "siena",
+    "reason": "Latest user instruction reduced this same in-progress batch from3to2. Original reservation inventory preserved; Siena is not released.",
+    "photos": "editorial/pending/siena/photos.json",
+    "public": false
+  },
+  "notes": [
+    "Codex self-review, not independent human approval.",
+    "No AI-generated documentary images, paid services or messages to third parties.",
+    "Public success pending mandatory release build, both exact-source Cloudflare deployments and live URL verification."
+  ]
+}

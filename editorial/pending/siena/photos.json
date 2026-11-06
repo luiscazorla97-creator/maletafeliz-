@@ -1,0 +1,256 @@
+{
+  "status": "prepared-not-published",
+  "preparedAt": "2026-11-06T17:03:22.777756+00:00",
+  "reason": "Latest user instruction reduced this same in-progress batch from3to2. Original reservation inventory preserved; Siena is not released.",
+  "originalReservation": "2026-11-06",
+  "sourceFiles": "content/research/s6-si-*.json; individual rights in content/research/p6-si-*-rights.json",
+  "photos": [
+    {
+      "id": "p6-si-campo",
+      "src": "/images/p6-si-campo.webp",
+      "alt": {
+        "es": "Panorama de la Piazza del Campo y la Torre del Mangia en Siena",
+        "en": "Panoramic view of Piazza del Campo and Torre del Mangia in Siena"
+      },
+      "credit": "Hervé Simon / Flickr · resized and converted to WebP by MaletaFeliz",
+      "sourceUrl": "https://www.flickr.com/photos/125601701@N03/48451401402/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "verifiedAt": "2026-11-06T16:52:58.282Z",
+      "destinationIds": [
+        "siena"
+      ],
+      "originalUrl": "https://live.staticflickr.com/65535/48451401402_2c772a38c1_b.jpg",
+      "originalFinalUrl": "https://live.staticflickr.com/65535/48451401402_2c772a38c1_b.jpg",
+      "originalFetchedAt": "2026-11-06T16:57:41.020Z",
+      "originalHttpStatus": 200,
+      "originalWidth": 1024,
+      "originalHeight": 678,
+      "originalSha256": "4f7e6ddf8569869fc89c4ca8fb75f2b7ca3d4b0a1367117c489fc22a43cb280d",
+      "modifications": "Resized and converted to WebP, without upscaling or generated edits; original CC licence retained. Archive documentary photograph; it does not guarantee current access or conditions.",
+      "width": 1024,
+      "height": 678,
+      "sha256": "ad080f691705c9930e25c66798c79c0fa2b558446f6d7af2f1ca144b4f05761f",
+      "rightsEvidence": "content/research/p6-si-campo-rights.json",
+      "variants": [
+        {
+          "src": "/images/p6-si-campo-480w.webp",
+          "width": 480,
+          "height": 318,
+          "sha256": "1dc8173af51e443b361cc457eab9e4d9824018d8bd8311f80de29a5d2051aa80"
+        },
+        {
+          "src": "/images/p6-si-campo-800w.webp",
+          "width": 800,
+          "height": 530,
+          "sha256": "a2471d14036b7a79ab01cc35ede6ad97801208bf83eedf499dcd948fd49d57a1"
+        },
+        {
+          "src": "/images/p6-si-campo.webp",
+          "width": 1024,
+          "height": 678,
+          "sha256": "ad080f691705c9930e25c66798c79c0fa2b558446f6d7af2f1ca144b4f05761f"
+        }
+      ],
+      "preparedOriginalFile": "editorial/pending/siena/originals/p6-si-campo.jpg"
+    },
+    {
+      "id": "p6-si-duomo",
+      "src": "/images/p6-si-duomo.webp",
+      "alt": {
+        "es": "Fachada de mármol y campanario de la catedral de Siena",
+        "en": "Marble façade and bell tower of Siena Cathedral"
+      },
+      "credit": "BIG ALBERT / Flickr · resized and converted to WebP by MaletaFeliz",
+      "sourceUrl": "https://www.flickr.com/photos/52948047@N05/15992619753/",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "verifiedAt": "2026-11-06T16:52:58.283Z",
+      "destinationIds": [
+        "siena"
+      ],
+      "originalUrl": "https://live.staticflickr.com/8597/15992619753_29f55fbf47_b.jpg",
+      "originalFinalUrl": "https://live.staticflickr.com/8597/15992619753_29f55fbf47_b.jpg",
+      "originalFetchedAt": "2026-11-06T16:57:41.542Z",
+      "originalHttpStatus": 200,
+      "originalWidth": 1024,
+      "originalHeight": 1024,
+      "originalSha256": "ea35c6afcc834f192f36f08e552fce8eec5e93957d24261968fb7da06b3bcdda",
+      "modifications": "Resized and converted to WebP, without upscaling or generated edits; original CC licence retained. Archive documentary photograph; it does not guarantee current access or conditions.",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "e39b7e0b4d76f5e0a93dc75bec4a69b14b5d2e842261f7c5067965b681f3f824",
+      "rightsEvidence": "content/research/p6-si-duomo-rights.json",
+      "variants": [
+        {
+          "src": "/images/p6-si-duomo-480w.webp",
+          "width": 480,
+          "height": 480,
+          "sha256": "8b06dabab2e92ca7c49f581c6dd19b851138e7e60d27c54683c2dded2efc1af1"
+        },
+        {
+          "src": "/images/p6-si-duomo-800w.webp",
+          "width": 800,
+          "height": 800,
+          "sha256": "5afe476da1d1943f0f1287f8019eb066f92288614ce6cbb7107ac680bf18a983"
+        },
+        {
+          "src": "/images/p6-si-duomo.webp",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "e39b7e0b4d76f5e0a93dc75bec4a69b14b5d2e842261f7c5067965b681f3f824"
+        }
+      ],
+      "preparedOriginalFile": "editorial/pending/siena/originals/p6-si-duomo.jpg"
+    },
+    {
+      "id": "p6-si-scala",
+      "src": "/images/p6-si-scala.webp",
+      "alt": {
+        "es": "Fachada del antiguo hospital Santa Maria della Scala frente a la catedral de Siena",
+        "en": "Façade of the former Santa Maria della Scala hospital opposite Siena Cathedral"
+      },
+      "credit": "Richard Mortel / Flickr · resized and converted to WebP by MaletaFeliz",
+      "sourceUrl": "https://www.flickr.com/photos/prof_richard/48774421463/",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "verifiedAt": "2026-11-06T16:52:58.283Z",
+      "destinationIds": [
+        "siena"
+      ],
+      "originalUrl": "https://live.staticflickr.com/65535/48774421463_046c3f4533_b.jpg",
+      "originalFinalUrl": "https://live.staticflickr.com/65535/48774421463_046c3f4533_b.jpg",
+      "originalFetchedAt": "2026-11-06T16:57:42.111Z",
+      "originalHttpStatus": 200,
+      "originalWidth": 1024,
+      "originalHeight": 683,
+      "originalSha256": "e5bd3758d668351e01622568c634679aafa8a130d2e532ec416d58f09d4a0ef6",
+      "modifications": "Resized and converted to WebP, without upscaling or generated edits; original CC licence retained. Archive documentary photograph; it does not guarantee current access or conditions.",
+      "width": 1024,
+      "height": 683,
+      "sha256": "41da7c52c23dabefcd8dc7d6f2bcb73519c6097811372036a9e8e94942b69b70",
+      "rightsEvidence": "content/research/p6-si-scala-rights.json",
+      "variants": [
+        {
+          "src": "/images/p6-si-scala-480w.webp",
+          "width": 480,
+          "height": 320,
+          "sha256": "d08077a407a2eaf4efb281ecd27af5d9e22b36026de81c2487d4a87095e68305"
+        },
+        {
+          "src": "/images/p6-si-scala-800w.webp",
+          "width": 800,
+          "height": 534,
+          "sha256": "9deb16f3b0c8776b3fffe6e566c869d0fcd468a069cfb83cc335330ff5bf7d8a"
+        },
+        {
+          "src": "/images/p6-si-scala.webp",
+          "width": 1024,
+          "height": 683,
+          "sha256": "41da7c52c23dabefcd8dc7d6f2bcb73519c6097811372036a9e8e94942b69b70"
+        }
+      ],
+      "preparedOriginalFile": "editorial/pending/siena/originals/p6-si-scala.jpg"
+    },
+    {
+      "id": "p6-si-domenico",
+      "src": "/images/p6-si-domenico.webp",
+      "alt": {
+        "es": "Basílica de San Domenico de Siena sobre los tejados de la ciudad",
+        "en": "Siena's Basilica of San Domenico above the city rooftops"
+      },
+      "credit": "David Stanley / Flickr · resized and converted to WebP by MaletaFeliz",
+      "sourceUrl": "https://www.flickr.com/photos/davidstanleytravel/54352918608/",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "verifiedAt": "2026-11-06T16:52:58.283Z",
+      "destinationIds": [
+        "siena"
+      ],
+      "originalUrl": "https://live.staticflickr.com/65535/54352918608_994dece286_b.jpg",
+      "originalFinalUrl": "https://live.staticflickr.com/65535/54352918608_994dece286_b.jpg",
+      "originalFetchedAt": "2026-11-06T16:57:42.671Z",
+      "originalHttpStatus": 200,
+      "originalWidth": 1024,
+      "originalHeight": 768,
+      "originalSha256": "89a3abed24d2d237b46917e76c2c0d7c00af08777c61b5a0450c5f2c1734f883",
+      "modifications": "Resized and converted to WebP, without upscaling or generated edits; original CC licence retained. Archive documentary photograph; it does not guarantee current access or conditions.",
+      "width": 1024,
+      "height": 768,
+      "sha256": "6428574b332a03790f69de1385b689193eeaae5e7ef07cc30867cdf60a0a50e7",
+      "rightsEvidence": "content/research/p6-si-domenico-rights.json",
+      "variants": [
+        {
+          "src": "/images/p6-si-domenico-480w.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "d6450a1dbfe4a9c3e84a601320813db8572837fe5dd5e5cad40de7d13a69f645"
+        },
+        {
+          "src": "/images/p6-si-domenico-800w.webp",
+          "width": 800,
+          "height": 600,
+          "sha256": "81626ae0631d21d954ec0bb49b4c640aaf35d2d1cb7376bc59739b43a27353ac"
+        },
+        {
+          "src": "/images/p6-si-domenico.webp",
+          "width": 1024,
+          "height": 768,
+          "sha256": "6428574b332a03790f69de1385b689193eeaae5e7ef07cc30867cdf60a0a50e7"
+        }
+      ],
+      "preparedOriginalFile": "editorial/pending/siena/originals/p6-si-domenico.jpg"
+    },
+    {
+      "id": "p6-si-fortezza",
+      "src": "/images/p6-si-fortezza.webp",
+      "alt": {
+        "es": "Jardines y caminos dentro de la Fortezza Medicea de Siena",
+        "en": "Gardens and paths inside Siena's Fortezza Medicea"
+      },
+      "credit": "Michela Simoncini / Flickr · resized and converted to WebP by MaletaFeliz",
+      "sourceUrl": "https://www.flickr.com/photos/comunicati/3196788629/",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "verifiedAt": "2026-11-06T16:52:58.692Z",
+      "destinationIds": [
+        "siena"
+      ],
+      "originalUrl": "https://live.staticflickr.com/3392/3196788629_56e18a85c4_b.jpg",
+      "originalFinalUrl": "https://live.staticflickr.com/3392/3196788629_56e18a85c4_b.jpg",
+      "originalFetchedAt": "2026-11-06T16:57:43.223Z",
+      "originalHttpStatus": 200,
+      "originalWidth": 1024,
+      "originalHeight": 768,
+      "originalSha256": "9e1b2f88f74193ec4b21473e69c172821f6c9591388c3923873b9bdc5eb0f9c4",
+      "modifications": "Resized and converted to WebP, without upscaling or generated edits; original CC licence retained. Archive documentary photograph; it does not guarantee current access or conditions.",
+      "width": 1024,
+      "height": 768,
+      "sha256": "e3c6c695a5d18164e007da375197eb8d363d352a3027ebe152804e9f91e7cec7",
+      "rightsEvidence": "content/research/p6-si-fortezza-rights.json",
+      "variants": [
+        {
+          "src": "/images/p6-si-fortezza-480w.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "354e400a964bd4bbf5e0a828ff63c3d37801584b7ce9f1d8f20c6500f4e443cb"
+        },
+        {
+          "src": "/images/p6-si-fortezza-800w.webp",
+          "width": 800,
+          "height": 600,
+          "sha256": "237ec85d3a994eb649f497d3518c3202d5cac3b941dda9687ddc94433dd31097"
+        },
+        {
+          "src": "/images/p6-si-fortezza.webp",
+          "width": 1024,
+          "height": 768,
+          "sha256": "e3c6c695a5d18164e007da375197eb8d363d352a3027ebe152804e9f91e7cec7"
+        }
+      ],
+      "preparedOriginalFile": "editorial/pending/siena/originals/p6-si-fortezza.jpg"
+    }
+  ],
+  "assetsDirectory": "editorial/pending/siena/images",
+  "note": "Future intended /images/ paths are metadata only; files remain outside the public directory and are not in the published manifest. Recheck sources, licences and public demand/intents before resuming."
+}

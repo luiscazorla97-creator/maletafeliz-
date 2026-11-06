@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-06",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-06T16:47:30.347Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "san-diego",
+    "siena",
+    "san-miguel-de-allende"
+  ],
+  "requestedCount": 3,
+  "publishedCount": 0,
+  "errors": [],
+  "authorization": {
+    "type": "explicit-manual-three-originals",
+    "request": "publica 3 articulos nuevos super seo con titulos seo para posicionar bien en google",
+    "earlierUniqueVerifiedTopicsToday": 0,
+    "dailyTargetUnchanged": 2,
+    "schedulerChanged": false
+  },
+  "execution": {
+    "executionId": "d28476ce-7dcd-4866-b493-f4d19aecde70",
+    "status": "active",
+    "startedAt": "2026-11-06T16:47:30.389467+00:00",
+    "heartbeatAt": "2026-11-06T16:47:30.389467+00:00",
+    "leaseUntil": "2026-11-06T20:47:30.389467+00:00",
+    "baseCommit": "525fd4064715c85e35cd77d6a04f9518cf8634c0",
+    "coordination": "No competing active leases or verified originals today at start. Explicit owner manual3; daily executor must not duplicate an active batch. No original ranking or traffic guarantee."
+  }
+}

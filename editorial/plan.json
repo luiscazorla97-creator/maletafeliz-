@@ -8690,5 +8690,200 @@
     },
     "pendingResources": "editorial/pending/siena/photos.json",
     "deferralReason": "Latest user reduced the same in-progress batch from3to2; source/rights/photo work preserved, article not published."
+  },
+  {
+    "id": "christmas-turin",
+    "city": {
+      "es": "Navidad en Turín",
+      "en": "Christmas in Turin"
+    },
+    "countryId": "it",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture",
+      "festivals"
+    ],
+    "placeCount": 3,
+    "intent": "christmas-turin-seasonal-trip-planning",
+    "status": "planned",
+    "titles": {
+      "es": "Navidad en Turín 2026: Luci d’Artista y ruta de luces",
+      "en": "Christmas in Turin 2026: Luci d’Artista and a lights walk"
+    },
+    "slugs": {
+      "es": "navidad-en-turin-2026",
+      "en": "christmas-in-turin-2026"
+    },
+    "researchCandidates": [
+      "https://turismotorino.org/en/visit/events/luci-dartista"
+    ],
+    "researchStatus": "pending",
+    "imageStatus": "pending",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    }
+  },
+  {
+    "id": "christmas-naples",
+    "city": {
+      "es": "Navidad en Nápoles",
+      "en": "Christmas in Naples"
+    },
+    "countryId": "it",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture",
+      "festivals"
+    ],
+    "placeCount": 3,
+    "intent": "christmas-naples-seasonal-trip-planning",
+    "status": "planned",
+    "titles": {
+      "es": "Navidad en Nápoles: ruta de belenes y San Gregorio Armeno",
+      "en": "Christmas in Naples: nativity scenes and San Gregorio Armeno"
+    },
+    "slugs": {
+      "es": "navidad-en-napoles",
+      "en": "christmas-in-naples"
+    },
+    "researchCandidates": [
+      "https://www.monasterodisantachiara.it/il-presepe/"
+    ],
+    "researchStatus": "pending",
+    "imageStatus": "pending",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    }
+  },
+  {
+    "id": "christmas-yokohama",
+    "city": {
+      "es": "Navidad en Yokohama",
+      "en": "Christmas in Yokohama"
+    },
+    "countryId": "jp",
+    "country": {
+      "es": "Japón",
+      "en": "Japan"
+    },
+    "continent": "asia",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture",
+      "festivals"
+    ],
+    "placeCount": 3,
+    "intent": "christmas-yokohama-seasonal-trip-planning",
+    "status": "planned",
+    "titles": {
+      "es": "Navidad en Yokohama 2026: mercado, luces y entradas",
+      "en": "Christmas in Yokohama 2026: market, lights and tickets"
+    },
+    "slugs": {
+      "es": "navidad-en-yokohama-2026",
+      "en": "christmas-in-yokohama-2026"
+    },
+    "researchCandidates": [
+      "https://www.yokohama-akarenga.jp/christmas/"
+    ],
+    "researchStatus": "pending",
+    "imageStatus": "pending",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    }
+  },
+  {
+    "id": "christmas-boston",
+    "city": {
+      "es": "Navidad en Boston",
+      "en": "Christmas in Boston"
+    },
+    "countryId": "us",
+    "country": {
+      "es": "Estados Unidos",
+      "en": "United States"
+    },
+    "continent": "america",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture",
+      "festivals"
+    ],
+    "placeCount": 3,
+    "intent": "christmas-boston-seasonal-trip-planning",
+    "status": "planned",
+    "titles": {
+      "es": "Navidad en Boston 2026: luces, mercados y fechas",
+      "en": "Christmas in Boston 2026: lights, markets and dates"
+    },
+    "slugs": {
+      "es": "navidad-en-boston-2026",
+      "en": "christmas-in-boston-2026"
+    },
+    "researchCandidates": [
+      "https://www.boston.gov/calendar/boston-common-tree-lighting"
+    ],
+    "researchStatus": "pending",
+    "imageStatus": "pending",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    }
+  },
+  {
+    "id": "christmas-san-francisco",
+    "city": {
+      "es": "Navidad en San Francisco",
+      "en": "Christmas in San Francisco"
+    },
+    "countryId": "us",
+    "country": {
+      "es": "Estados Unidos",
+      "en": "United States"
+    },
+    "continent": "america",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture",
+      "festivals"
+    ],
+    "placeCount": 3,
+    "intent": "christmas-san-francisco-seasonal-trip-planning",
+    "status": "planned",
+    "titles": {
+      "es": "Navidad en San Francisco 2026: hielo, luces y tres lugares",
+      "en": "Christmas in San Francisco 2026: skating, lights and 3 places"
+    },
+    "slugs": {
+      "es": "navidad-en-san-francisco-2026",
+      "en": "christmas-in-san-francisco-2026"
+    },
+    "researchCandidates": [
+      "https://unionsquareicerink.com/"
+    ],
+    "researchStatus": "pending",
+    "imageStatus": "pending",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    }
   }
 ]

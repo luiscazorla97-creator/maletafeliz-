@@ -1,0 +1,40 @@
+{
+  "id": "2026-11-06-christmas-five-manual",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-06T23:23:45.447189+00:00",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "christmas-turin",
+    "christmas-naples",
+    "christmas-yokohama",
+    "christmas-boston",
+    "christmas-san-francisco"
+  ],
+  "requestedCount": 5,
+  "publishedCount": 0,
+  "errors": [],
+  "priorSameDayPublishedTopicIds": [
+    "san-diego",
+    "san-miguel-de-allende"
+  ],
+  "authorization": {
+    "type": "explicit-five-additional-Christmas-originals",
+    "request": "PUBLICA 5 ARTICULOS DE NAVIDAD",
+    "earlierUniqueVerifiedTopicsToday": 2,
+    "dailyTargetUnchanged": 2,
+    "schedulerChanged": false
+  },
+  "reservationCommand": {
+    "command": "npm run editorial:batch -- 5",
+    "result": "Returned already completed daily2 batch; inspected/preserved. New exclusive manual5 batch for this explicit additional request."
+  },
+  "execution": {
+    "executionId": "326faf6c-87cd-47e8-be78-3ffc824553e9",
+    "status": "active",
+    "startedAt": "2026-11-06T23:23:45.447189+00:00",
+    "heartbeatAt": "2026-11-06T23:23:45.447189+00:00",
+    "leaseUntil": "2026-11-07T03:23:45.447189+00:00",
+    "baseCommit": "75cc2067c225c19e6b27c24b605b29fd16841b9d",
+    "coordination": "No other active lease. Existing daily batch, pending Siena work and all inventories preserved."
+  }
+}

@@ -8579,7 +8579,7 @@
     ],
     "placeCount": 7,
     "intent": "first-visit-highlights",
-    "status": "planned",
+    "status": "published",
     "titles": {
       "es": "Qué ver en San Diego: 7 lugares para tu primer viaje",
       "en": "7 places to visit in San Diego on your first trip"
@@ -8591,11 +8591,18 @@
     "researchCandidates": [
       "https://www.sandiego.org/"
     ],
-    "researchStatus": "pending",
-    "imageStatus": "pending",
+    "researchStatus": "verified",
+    "imageStatus": "verified",
     "locales": {
-      "es": "pending",
-      "en": "pending"
+      "es": "published",
+      "en": "published"
+    },
+    "publiclyVerifiedAt": "2026-11-06T17:35:23.981419+00:00",
+    "publishedCommit": "e399ee058e3492568951a1e44c9247a0f1aea9c5",
+    "publicVerification": "editorial/verification/2026-11-06-two-publication.json",
+    "publicUrls": {
+      "es": "https://maletafeliz.com/es/guias/que-ver-en-san-diego-7-lugares/",
+      "en": "https://maletafeliz.com/en/guides/7-places-to-visit-san-diego/"
     }
   },
   {
@@ -8618,7 +8625,7 @@
     ],
     "placeCount": 5,
     "intent": "first-visit-highlights",
-    "status": "planned",
+    "status": "published",
     "titles": {
       "es": "Qué ver en San Miguel de Allende: 5 lugares que visitar",
       "en": "5 places to visit in San Miguel de Allende"
@@ -8630,11 +8637,18 @@
     "researchCandidates": [
       "https://elcharco.org.mx/"
     ],
-    "researchStatus": "pending",
-    "imageStatus": "pending",
+    "researchStatus": "verified",
+    "imageStatus": "verified",
     "locales": {
-      "es": "pending",
-      "en": "pending"
+      "es": "published",
+      "en": "published"
+    },
+    "publiclyVerifiedAt": "2026-11-06T17:35:23.981419+00:00",
+    "publishedCommit": "e399ee058e3492568951a1e44c9247a0f1aea9c5",
+    "publicVerification": "editorial/verification/2026-11-06-two-publication.json",
+    "publicUrls": {
+      "es": "https://maletafeliz.com/es/guias/que-ver-en-san-miguel-de-allende-5-lugares/",
+      "en": "https://maletafeliz.com/en/guides/5-places-to-visit-san-miguel-de-allende/"
     }
   },
   {
@@ -8673,6 +8687,8 @@
     "locales": {
       "es": "pending",
       "en": "pending"
-    }
+    },
+    "pendingResources": "editorial/pending/siena/photos.json",
+    "deferralReason": "Latest user reduced the same in-progress batch from3to2; source/rights/photo work preserved, article not published."
   }
 ]

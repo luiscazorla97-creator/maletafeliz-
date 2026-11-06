@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-06T00:39:18.498936+00:00",
+  "verifiedAt": "2026-11-06T17:35:23.981419+00:00",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 166,
-  "localizations": 332,
-  "photos": 738,
-  "httpChecks": 340,
+  "originals": 168,
+  "localizations": 336,
+  "photos": 750,
+  "httpChecks": 344,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "0554bdfc-a9db-40bf-b9c7-214736f0c7a2",
-      "commit": "0f5402c950039b96c6587f03ee141074e9c42a27",
+      "deploymentId": "86418952-7d58-4236-8f00-5e6fb3f98a0f",
+      "commit": "e399ee058e3492568951a1e44c9247a0f1aea9c5",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "9fdfc06e-7bb8-4fe0-b03c-06c9a292e7b1",
-      "commit": "0f5402c950039b96c6587f03ee141074e9c42a27",
+      "deploymentId": "659a2f5e-8384-45f1-99e5-4c2a43769bc0",
+      "commit": "e399ee058e3492568951a1e44c9247a0f1aea9c5",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,19 +45,19 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 737,
-  "latestBatch": "2026-11-05-new-three-manual",
-  "verificationFile": "editorial/verification/2026-11-05-new-three-publication.json",
+  "citedSourceDocuments": 755,
+  "latestBatch": "2026-11-06",
+  "verificationFile": "editorial/verification/2026-11-06-two-publication.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 340,
-    "batchBrowserSeoDiscoveryAndPhotoCheckRecords": 108,
-    "note": "Batch records combine browser, SEO, discovery and byte checks; not one HTTP request per record."
+    "siteAndRedirects": 344,
+    "batchBrowserSeoDiscoveryAndPhotoCheckRecords": 91,
+    "note": "Batch records combine browser,SEO,discovery,exclusion and byte checks; not one HTTP request per record."
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-05-new-three-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-06T00:39:18.498936+00:00",
+  "latestDeploymentVerification": "editorial/verification/2026-11-06-two-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-06T17:35:23.981419+00:00",
   "photoCoverage": {
-    "originalRecommendations": 736,
-    "localizedRecommendations": 1472,
+    "originalRecommendations": 748,
+    "localizedRecommendations": 1496,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -122,9 +122,9 @@
       "height": 250
     }
   },
-  "batchChecks": 108,
+  "batchChecks": 91,
   "performanceVerification": "editorial/verification/2026-11-04-mobile-performance-publication.json",
-  "verificationChecksTotal": 448,
+  "verificationChecksTotal": 435,
   "countrySeoStrategy": {
     "priorityCountries": [
       "it",
@@ -132,9 +132,9 @@
       "mx",
       "us"
     ],
-    "priorityOriginals": 48,
+    "priorityOriginals": 50,
     "initialTargetOriginals": 100,
-    "remainingOriginals": 52,
-    "verification": "editorial/verification/2026-11-05-new-three-publication.json"
+    "remainingOriginals": 50,
+    "verification": "editorial/verification/2026-11-06-two-publication.json"
   }
 }

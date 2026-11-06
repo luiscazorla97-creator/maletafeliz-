@@ -1,19 +1,31 @@
 # Estado del proyecto
 
-Verificado el 5 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
+Verificado el 6 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
 
 ## Publicación verificada
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 166 guías originales y 332 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 737 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 738 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 168 guías originales y 336 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 755 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 750 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
 
 Registro histórico de la campaña de festividades: commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. El despliegue vigente y sus comprobaciones se detallan a continuación. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
+
+## Dos originales nuevos: 6 de noviembre de 2026
+
+Publicadas San Diego (siete lugares) y San Miguel de Allende (cinco): dos originales y cuatro versiones completas ES/EN, con títulos/slugs localizados, respuesta inicial, lugares desarrollados, itinerario, FAQ y enlaces relacionados. Se leyeron dieciocho documentos primarios y doce licencias específicas; se sirvieron doce fotos documentales mediante 36 archivos WebP responsivos con ALT, dimensiones y hashes.
+
+La orden inicial de tres fue reducida por la instrucción posterior expresa de DOS. Se reutilizó la reserva y lease existentes: el inventario inicial de tres permanece, pero `publishedTopicIds` y las cuatro URLs acreditan únicamente dos. Siena no está publicada y sus recursos originales/optimizados se conservaron en `editorial/pending/siena/`; no aparecen en el manifiesto, sitemap ni páginas públicas. No se inició una segunda tanda concurrente ni se cambió la tarea diaria.
+
+Las guías distinguen el cierre durante todo el año de Point La Jolla/Boomer Beach, el municipio de Coronado, el cierre del Midway en Acción de Gracias y Navidad y su parque futuro de 2028. En San Miguel se explican la fachada neogótica, los horarios propios de La Aurora y el botánico como una salida diferenciada. Se descartó una foto de Cabrillo para Sunset Cliffs tras leer las coordenadas. No se repitió una fecha histórica errónea de Parque Juárez ni un precio actual no contrastado del botánico.
+
+Pasaron tipos, 68 pruebas unitarias, 28 de navegación y 52 de producción pertinentes. La compilación obligatoria `npm run build:release` generó 820 páginas, sin rebajar controles. GitHub Actions completó 68 pruebas unitarias, 28 de navegación y las 716 de producción del catálogo completo, todas correctamente, en el commit `e399ee058e3492568951a1e44c9247a0f1aea9c5`. Se revisaron 40979 enlaces y fragmentos, las 332 versiones previas por texto/fecha/SEO, los 36 archivos nuevos por hash y las cuatro versiones en escritorio/móvil. Sitemap: 796 URLs.
+
+Ambos proyectos de Cloudflare completaron el mismo commit. Pasaron 344 comprobaciones HTTP del catálogo/redirecciones y 91 registros públicos del lote, incluidos los cuatro 404 esperados de Siena aplazada. Evidencia: `editorial/verification/2026-11-06-two-publication.json`. Se conservan artículos/fotos/diseño 3D/anuncios/Analytics/código/configuraciones/frecuencia y el backlog previo. El catálogo suma 168 originales, 336 versiones, 750 fotos y 748 lugares fotografiados. Cobertura: Italia 12/30, Japón 11/25, México 12/25 y Estados Unidos 15/20: 50/100, faltan 50. Hoy se acreditan exactamente dos originales únicos. No se afirman posicionamiento, indexación, visitas ni atribución desatendida.
 
 ## Tres ciudades nuevas: 5 de noviembre de 2026
 

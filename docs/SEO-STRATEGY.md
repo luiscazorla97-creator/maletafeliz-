@@ -65,3 +65,7 @@ El 5 de noviembre se publicaron Venecia, Osaka y Miami para Navidad, con seis ve
 ## Tres ciudades nuevas verificadas
 
 El 5 de noviembre se publicaron Guanajuato, Lucca y Nikko: tres guías con cinco lugares cada una y seis versiones completas ES/EN, 18 documentos oficiales y 15 fotos documentales. Cobertura: Italia 12/30, Japón 11/25, México 11/25 y Estados Unidos 14/20: 48/100, faltan 52. El backlog previo permanece íntegro. El catálogo suma 166 originales y 332 versiones. Ambos proyectos, seis URLs, fotos, descubrimiento interno y metadatos se verificaron. Frecuencia diaria sin cambios. Evidencia: `editorial/verification/2026-11-05-new-three-publication.json`.
+
+## Dos temas verificados el 6 de noviembre
+
+San Diego y San Miguel de Allende se publicaron con cuatro versiones completas y doce lugares fotografiados. La instrucción posterior de dos prevaleció sobre la reserva inicial de tres; Siena queda pendiente fuera de las páginas y activos públicos. Cobertura real: Italia 12/30, Japón 11/25, México 12/25 y Estados Unidos 15/20: 50/100, faltan 50. Se preservan los 73 candidatos previos y todos los contenidos publicados. Catálogo 168 originales/336 versiones. Ambos proyectos y las cuatro URLs se verificaron. La frecuencia diaria no cambió. Evidencia: `editorial/verification/2026-11-06-two-publication.json`.

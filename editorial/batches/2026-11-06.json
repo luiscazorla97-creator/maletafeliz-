@@ -2,14 +2,14 @@
   "id": "2026-11-06",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-06T16:47:30.347Z",
-  "status": "reviewed-selected-for-release-not-public",
+  "status": "published",
   "topicIds": [
     "san-diego",
     "siena",
     "san-miguel-de-allende"
   ],
   "requestedCount": 3,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "authorization": {
     "type": "latest-owner-instruction-two-originals",
@@ -22,12 +22,13 @@
   },
   "execution": {
     "executionId": "d28476ce-7dcd-4866-b493-f4d19aecde70",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-06T16:47:30.389467+00:00",
-    "heartbeatAt": "2026-11-06T17:04:53.726Z",
-    "leaseUntil": "2026-11-06T20:47:30.389467+00:00",
+    "heartbeatAt": "2026-11-06T17:35:23.981419+00:00",
+    "leaseUntil": "2026-11-06T17:35:23.981419+00:00",
     "baseCommit": "525fd4064715c85e35cd77d6a04f9518cf8634c0",
-    "coordination": "No competing active leases or verified originals today at start. Explicit owner manual3; daily executor must not duplicate an active batch. No original ranking or traffic guarantee."
+    "coordination": "No competing active leases or verified originals today at start. Explicit owner manual3; daily executor must not duplicate an active batch. No original ranking or traffic guarantee.",
+    "completedAt": "2026-11-06T17:35:23.981419+00:00"
   },
   "authorizationHistory": [
     {
@@ -55,5 +56,32 @@
   "localizedVersionCount": 4,
   "documentaryPhotoCount": 12,
   "sourceCount": 18,
-  "reviewedAt": "2026-11-06T17:04:53.726Z"
+  "reviewedAt": "2026-11-06T17:04:53.726Z",
+  "publishedTopicIds": [
+    "san-diego",
+    "san-miguel-de-allende"
+  ],
+  "verifiedTopicCount": 2,
+  "sameDayUniqueVerifiedTopics": [
+    "san-diego",
+    "san-miguel-de-allende"
+  ],
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 12,
+  "optimizedPhotoFiles": 36,
+  "citedSourceDocuments": 18,
+  "publishedCommit": "e399ee058e3492568951a1e44c9247a0f1aea9c5",
+  "publiclyVerifiedAt": "2026-11-06T17:35:23.981419+00:00",
+  "publicVerification": "editorial/verification/2026-11-06-two-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-san-diego-7-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-san-miguel-de-allende-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/7-places-to-visit-san-diego/",
+      "https://maletafeliz.com/en/guides/5-places-to-visit-san-miguel-de-allende/"
+    ]
+  },
+  "inventoryNote": "topicIds/requestedCount retain the original3-topic reservation. Only publishedTopicIds (2), the4 verified URLs and the publication proof represent public success. Siena remains deferred, not a verified third topic."
 }

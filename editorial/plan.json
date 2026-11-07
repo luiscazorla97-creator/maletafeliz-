@@ -8920,5 +8920,47 @@
       "es": "https://maletafeliz.com/es/guias/navidad-en-san-francisco-2026/",
       "en": "https://maletafeliz.com/en/guides/christmas-in-san-francisco-2026/"
     }
+  },
+  {
+    "id": "nara-day-trip-transport",
+    "destinationId": "nara",
+    "city": {
+      "es": "Nara",
+      "en": "Nara"
+    },
+    "countryId": "jp",
+    "country": {
+      "es": "Japón",
+      "en": "Japan"
+    },
+    "continent": "asia",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "placeCount": 2,
+    "intent": "osaka-to-nara-jr-kintetsu-station-choice",
+    "status": "planned",
+    "titles": {
+      "es": "Cómo ir de Osaka a Nara: JR, Kintetsu y qué estación elegir",
+      "en": "Osaka to Nara: JR vs Kintetsu and which station to choose"
+    },
+    "slugs": {
+      "es": "como-ir-de-osaka-a-nara",
+      "en": "osaka-to-nara-jr-kintetsu"
+    },
+    "researchCandidates": [
+      "https://www.visitnara.jp/travel-to-nara/",
+      "https://www.kintetsu.co.jp/foreign/english/faq/",
+      "https://www.westjr.co.jp/global/en/"
+    ],
+    "researchStatus": "pending",
+    "imageStatus": "pending",
+    "locales": {
+      "es": "pending",
+      "en": "pending"
+    },
+    "differentiation": "Dedicated Osaka-to-Nara operator/station/ticket decision guide. Existing Nara Todaiji/Kasuga/park itinerary and Osaka guide unchanged; arrival stations receive their own documentary photos."
   }
 ]

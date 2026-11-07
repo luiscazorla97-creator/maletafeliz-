@@ -1,0 +1,207 @@
+{
+  "id": "nara-day-trip-transport",
+  "destinationId": "nara",
+  "locale": "en",
+  "slug": "osaka-to-nara-jr-kintetsu",
+  "title": "Osaka to Nara: JR vs Kintetsu and which station to choose",
+  "description": "Osaka to Nara by train: compare JR and Kintetsu, arrival stations, indicative journey times, tickets and supplements to plan a practical day trip.",
+  "keyword": "Osaka to Nara",
+  "relatedQueries": [
+    "Osaka to Nara JR or Kintetsu",
+    "JR Nara vs Kintetsu Nara station"
+  ],
+  "intent": "osaka-to-nara-jr-kintetsu-station-choice",
+  "status": "published",
+  "coverImageId": "p7-nara-kintetsu-a",
+  "intro": [
+    "For an Osaka-to-Nara trip, first choose the operator and correct stations. JR West arrives at JR Nara; Kintetsu arrives at Kintetsu-Nara. They are different stations. From the Osaka/Umeda area, compare the JR option; near Osaka-Namba, investigate Kintetsu. Then adjust the choice to your accommodation, any pass you hold and where you want to start exploring.",
+    "This guide addresses the transfer rather than repeating the Todaiji, Kasugataisha and park itinerary in MaletaFeliz’s existing Nara guide. It explains official tourism journey-time references, basic fares versus Limited Express tickets, two arrival stations with their own photographs and a practical way to organize the return. Times are indicative and the documentary images are archive photographs, not evidence of current operating conditions."
+  ],
+  "quickFacts": [
+    {
+      "label": "Different arrivals",
+      "value": "JR Nara and Kintetsu-Nara are two stations"
+    },
+    {
+      "label": "From Osaka/Umeda",
+      "value": "Official tourism lists about 52 minutes by train to JR Nara"
+    },
+    {
+      "label": "From Osaka-Namba",
+      "value": "Official tourism lists about 34 minutes to Kintetsu-Nara"
+    },
+    {
+      "label": "Fair comparison",
+      "value": "Those times begin at different stations and exclude access and waits"
+    }
+  ],
+  "sections": [
+    {
+      "id": "jr-nara",
+      "kind": "place",
+      "heading": "1. JR Nara: an arrival planned through the JR network",
+      "paragraphs": [
+        "JR Nara is the station to select when planning the journey with JR West. The official map distinguishes the Yamatoji Line, identified as JR Q, from the JR D Nara Line connecting the Kyoto side. The city name alone is not enough to choose a line. From Osaka, check the complete itinerary and train destination, particularly when your search includes a section of the Osaka Loop Line.",
+        "Official Nara tourism publishes about 52 minutes from Osaka Station to Nara Station on a JR rapid service. That reference does not establish that every departure is direct and excludes the trip from your hotel. Osaka and Shin-Osaka are also different stations. If arriving on an intercity service, allow for the local connection shown for your date; a short transfer on a map can still require time to get your bearings.",
+        "For the park, the tourism information describes walking along Sanjo-dori from JR Nara and gives roughly twenty minutes. This refers to the park area rather than the door of every temple within it. The photograph shows the main station and its plaza during an earlier visit. Use it to recognize the setting while following current signs and checking the access arrangements on arrival."
+      ],
+      "sourceIds": [
+        "d7-nr-arrival",
+        "d7-nr-jr-map",
+        "d7-nr-park"
+      ],
+      "imageId": "p7-nara-jr"
+    },
+    {
+      "id": "kintetsu-nara",
+      "kind": "place",
+      "heading": "2. Kintetsu-Nara: another station and another starting point",
+      "paragraphs": [
+        "Kintetsu-Nara is Kintetsu’s arrival station and a particularly logical option to compare when starting near Osaka-Namba. Official Nara tourism publishes about 34 minutes for that express journey. It is not a same-origin comparison with JR’s 52-minute reference: add the connection from your accommodation before deciding which option actually reduces overall travelling time.",
+        "The tourism office places the park a short walk east of Kintetsu-Nara. That may suit a visit beginning in that area, while a hotel or other commitment beside JR Nara can change the decision. Do not choose only from the word “Nara” on a map. Save the full arrival-station name and the station you intend to use when returning.",
+        "The operator provides a station map identified as current on August 1, 2026. Use it to orient yourself towards the exit and services you need, checking local notices as well. The archive photograph shows the entrance area in 2020; it does not guarantee unchanged conditions at an exit, staircase or lift. With reduced mobility, confirm the access route before committing to a tightly timed connection."
+      ],
+      "sourceIds": [
+        "d7-nr-arrival",
+        "d7-nr-kintetsu-station",
+        "d7-nr-park"
+      ],
+      "imageId": "p7-nara-kintetsu-a"
+    },
+    {
+      "id": "origen",
+      "kind": "practical",
+      "heading": "Choose the real departure: Osaka, Shin-Osaka and Namba",
+      "paragraphs": [
+        "Enter the place from which you will actually start. Osaka Station, Shin-Osaka, JR Namba and Osaka-Namba are different references. A hotel booking labelled “Osaka” does not establish the closest station, and arriving on an intercity train does not mean you are already on the platform for Nara. Check that initial connection first, then compare the operators and arrival options.",
+        "In Namba, pay particular attention to the prefix: JR Namba and Kintetsu’s Osaka-Namba are not interchangeable ticket-purchase names. Look for the operator shown in your itinerary and follow its signs. If you change the starting point while planning, recalculate the full route rather than retaining a duration, fare or last departure from an earlier search with different stations."
+      ],
+      "sourceIds": [
+        "d7-nr-arrival",
+        "d7-nr-jr-map",
+        "d7-nr-kintetsu-faq"
+      ]
+    },
+    {
+      "id": "billetes",
+      "kind": "practical",
+      "heading": "Basic ticket, IC card and rail pass are different products",
+      "paragraphs": [
+        "Official tourism information states that IC cards such as Suica and ICOCA can be used on both networks, while rail passes have different restrictions. An IC card is a way to pay for compatible journeys, rather than unlimited access to every train. Check its balance, your route and the gate arrangements. If using a paper ticket, retain whatever you need until the journey is complete.",
+        "Kintetsu explains that basic tickets are sold at station machines and that some Express and Local services can be used with the basic fare or an eligible pass. A pass covers only its specified area and terms. Do not assume a JR product also covers Kintetsu or that the word “Kansai” includes every connection. Read the operators, coverage map and validity dates of the particular product."
+      ],
+      "sourceIds": [
+        "d7-nr-arrival",
+        "d7-nr-kintetsu-faq"
+      ]
+    },
+    {
+      "id": "limited-express",
+      "kind": "practical",
+      "heading": "Limited Express: check the supplement and reserved seat",
+      "paragraphs": [
+        "On Kintetsu, Limited Express is a specific category: the operator states that seats are reserved and a Limited Express ticket is required in addition to the basic fare ticket. Do not confuse this with an ordinary Express or assume that a pass includes the supplement. Before paying, check the date, section, departure and seat covered by the reservation you are selecting.",
+        "Suitable ordinary services can support the journey without making a special train compulsory. The choice depends on available departures and what matters to you: a reserved seat, timing or flexibility. With children, check fare categories and exceptions relating to occupying a seat. A general assumption that every child below a particular age always travels free can miss conditions that apply to the actual booking."
+      ],
+      "sourceIds": [
+        "d7-nr-kintetsu-faq"
+      ]
+    },
+    {
+      "id": "tiempo-presupuesto",
+      "kind": "practical",
+      "heading": "Compare total time and cost on the same basis",
+      "paragraphs": [
+        "The 52-minute reference from Osaka Station and 34-minute reference from Osaka-Namba describe different journeys. For a useful comparison, add access to the train, waiting or transfers and the final walk or local transport. A shorter train ride does not necessarily produce a shorter overall journey from your hotel. Also check whether the option you choose suits the place where the day’s sightseeing will finish.",
+        "Look up the exact journey with the operator for your date and train category. Separate basic fare, possible supplements and any additional Nara transport. An airport product page or regional-pass price is not the fare for an ordinary Osaka–Nara ticket. Likewise, buying a pass makes sense only after comparing its coverage with the journeys you actually intend to take, rather than assuming every advertised product creates a saving."
+      ],
+      "sourceIds": [
+        "d7-nr-arrival",
+        "d7-nr-kintetsu-faq",
+        "d7-nr-jr-map"
+      ]
+    },
+    {
+      "id": "regreso",
+      "kind": "practical",
+      "heading": "Return travel, luggage and a day trip with flexibility",
+      "paragraphs": [
+        "Choose a return option before starting the visits and keep a sensible alternative earlier than the last useful service. You may consider returning from another station, but check the fare and validity again. Changing operators does not turn a one-way ticket into an included return journey. Save the route and retain a way to consult operating notices while you are out.",
+        "With luggage, consult operator conditions and avoid depending on unconfirmed storage availability. With a stroller or wheelchair, check the station plan and obtain the assistance information you need. Stations and the park have specific access points: a photograph or network diagram does not establish a completely level route. Include these practical needs in the schedule rather than considering them only after reaching an unfamiliar gate."
+      ],
+      "sourceIds": [
+        "d7-nr-kintetsu-faq",
+        "d7-nr-kintetsu-station",
+        "d7-nr-park"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Before leaving, establish your hotel or actual departure station, select JR Nara or Kintetsu-Nara and compare the full route with any pass you hold. The time reference helps size the outing; check the actual train and connections for the travel date. Prepare a valid way to pay the fare and any supplements required by your chosen service.",
+    "On arrival, identify the exit you need and the last section to the first visit. If heading towards the park, remember that it is extensive and reaching its edge is different from arriving at every building. Continue with the related Nara sightseeing guide to organize the visits, rather than automatically adding every temple to this day.",
+    "Before returning, recheck the full departure-station name and destination in Osaka, especially if finishing somewhere different from the morning plan. Leave time to get your bearings and avoid extending an interior visit on the assumption that the final possible train will work. A clear return makes it easier to enjoy the outing without improvising every connection."
+  ],
+  "faq": [
+    {
+      "question": "How long does the train from Osaka to Nara take?",
+      "answer": "Official tourism lists about 52 minutes from Osaka Station to JR Nara and about 34 minutes from Osaka-Namba to Kintetsu-Nara. These are indicative times for different journeys, rather than door-to-door guarantees. Check your chosen service, access and connections for the actual date."
+    },
+    {
+      "question": "Is JR Nara or Kintetsu-Nara better for the park?",
+      "answer": "Official information places the park a short walk east of Kintetsu-Nara. From JR Nara it describes roughly twenty minutes along Sanjo-dori. The park is large, so a particular temple has a different arrival time. Accommodation, mobility and pass coverage can also change which station best serves your day."
+    },
+    {
+      "question": "Must I use a Limited Express train?",
+      "answer": "Not to organize this trip. Kintetsu has ordinary services that can be used with the basic fare or an eligible pass according to coverage. If choosing Limited Express, the operator requires its additional ticket and reserved seat. Check the category before interpreting a quoted price or boarding."
+    },
+    {
+      "question": "Can I use Suica or ICOCA to reach Nara?",
+      "answer": "Official tourism says these IC cards can be used on JR and Kintetsu networks under the applicable conditions. They do not replace every supplement or constitute unlimited rail passes. Check balance and route; rail passes have their own specified operators and coverage areas."
+    }
+  ],
+  "conclusion": "Choose the Osaka–Nara transfer in this order: your actual starting point, the arrival station and a ticket valid for the specific train. Compare total journey time and keep a margin for the return. You can then focus on the visit itself, using the related Nara places guide as a complement rather than duplicating transport planning.",
+  "sources": [
+    {
+      "id": "d7-nr-arrival",
+      "url": "https://www.visitnara.jp/travel-to-nara/",
+      "title": "Travel to Nara — official prefectural tourism guide",
+      "accessedAt": "2026-11-07T17:05:59.802Z",
+      "evidenceFile": "content/research/d7-nr-arrival.json"
+    },
+    {
+      "id": "d7-nr-kintetsu-faq",
+      "url": "https://www.kintetsu.co.jp/foreign/english/faq/",
+      "title": "Passenger FAQ — Kintetsu Railway",
+      "accessedAt": "2026-11-07T17:05:59.806Z",
+      "evidenceFile": "content/research/d7-nr-kintetsu-faq.json"
+    },
+    {
+      "id": "d7-nr-jr-map",
+      "url": "https://www.westjr.co.jp/global/en/timetable/pdf/ubn_en.pdf",
+      "title": "JR Line Route Map, March 2026 — JR West",
+      "accessedAt": "2026-11-07T17:06:02.246Z",
+      "evidenceFile": "content/research/d7-nr-jr-map.json"
+    },
+    {
+      "id": "d7-nr-kintetsu-station",
+      "url": "https://www.kintetsu.co.jp/foreign/english/about/station/yard/nara.html",
+      "title": "Kintetsu-Nara Station map — Kintetsu Railway",
+      "accessedAt": "2026-11-07T17:06:02.246Z",
+      "evidenceFile": "content/research/d7-nr-kintetsu-station.json"
+    },
+    {
+      "id": "d7-nr-park",
+      "url": "https://www.visitnara.jp/destinations/area/nara-park/",
+      "title": "Nara Park access — official Nara tourism",
+      "accessedAt": "2026-11-07T17:12:30.252Z",
+      "evidenceFile": "content/research/d7-nr-park.json"
+    }
+  ],
+  "relatedIds": [
+    "nara",
+    "osaka",
+    "kyoto"
+  ],
+  "publishedAt": "2026-11-07T12:19:43-05:00",
+  "updatedAt": "2026-11-07T12:19:43-05:00"
+}

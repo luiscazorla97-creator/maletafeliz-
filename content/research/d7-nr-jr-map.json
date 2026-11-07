@@ -1,0 +1,16 @@
+{
+  "url": "https://www.westjr.co.jp/global/en/timetable/pdf/ubn_en.pdf",
+  "fetchedAt": "2026-11-07T17:06:02.246Z",
+  "facts": [
+    {
+      "fact": "The actual JRWest PDF is an image-only rail map, visually rendered/read after pdftotext returned no text. Legend/map show YamatojiLineJRQ, OsakaLoopLineJRO, NaraLineJRD fromKyoto, and Nara/Osaka/Tennoji/JRNamba locations. Current asof14March2026. It is a network map, not a timetable or confirmation that a particular train is direct.",
+      "excerpt": "JR Q Yamatoji Line",
+      "location": "Actual page body/FAQ read in retained capture; JR network PDF rendered and visually read."
+    }
+  ],
+  "notes": "Actual primary consultation; conflicts, product mismatches and unsupported guarantees excluded. Short extract only. Raw bytes/HTTP/finalURL/time/SHA256 retained.",
+  "finalUrl": "https://www.westjr.co.jp/global/en/timetable/pdf/ubn_en.pdf",
+  "httpStatus": 200,
+  "contentType": "application/pdf",
+  "contentSha256": "b5b185addd464b19b08c3928f1e2ddcd7ff2994d965f07096e07e8c6dc8c0225"
+}

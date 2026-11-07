@@ -1,0 +1,137 @@
+{
+  "reviewedAt": "2026-11-07T17:19:43.469Z",
+  "publicationLocalDate": "2026-11-07",
+  "timeZone": "America/New_York",
+  "authorization": {
+    "type": "daily-two-originals",
+    "requestedOriginals": 2,
+    "sameDayUniqueVerifiedAtStart": 0,
+    "scheduleChanged": false
+  },
+  "topicIds": [
+    "siena",
+    "nara-day-trip-transport"
+  ],
+  "versions": [
+    {
+      "id": "nara-day-trip-transport",
+      "destinationId": "nara",
+      "locale": "en",
+      "words": 1626,
+      "title": "Osaka to Nara: JR vs Kintetsu and which station to choose",
+      "slug": "osaka-to-nara-jr-kintetsu",
+      "contentHash": "85b76393d3a6e24f89d07aafa7b1310adad4d8f763262368c9bffa63e1d0db8e",
+      "places": 2,
+      "sourceIds": [
+        "d7-nr-arrival",
+        "d7-nr-kintetsu-faq",
+        "d7-nr-jr-map",
+        "d7-nr-kintetsu-station",
+        "d7-nr-park"
+      ],
+      "imageIds": [
+        "p7-nara-jr",
+        "p7-nara-kintetsu-a"
+      ]
+    },
+    {
+      "id": "nara-day-trip-transport",
+      "destinationId": "nara",
+      "locale": "es",
+      "words": 1719,
+      "title": "Cómo ir de Osaka a Nara: JR, Kintetsu y qué estación elegir",
+      "slug": "como-ir-de-osaka-a-nara",
+      "contentHash": "4c0b52405b3840fcb75d2682e551b72eb00747ca529e50493b14de33090ff664",
+      "places": 2,
+      "sourceIds": [
+        "d7-nr-arrival",
+        "d7-nr-kintetsu-faq",
+        "d7-nr-jr-map",
+        "d7-nr-kintetsu-station",
+        "d7-nr-park"
+      ],
+      "imageIds": [
+        "p7-nara-jr",
+        "p7-nara-kintetsu-a"
+      ]
+    },
+    {
+      "id": "siena",
+      "destinationId": "siena",
+      "locale": "en",
+      "words": 1782,
+      "title": "What to see in Siena: 5 places and a walking route",
+      "slug": "5-places-to-visit-siena",
+      "contentHash": "459c9c6180d037be8cdc2694c9749a996b75025624fc09871f82bdb049207525",
+      "places": 5,
+      "sourceIds": [
+        "d7-si-campo",
+        "d7-si-cathedral",
+        "d7-si-scala",
+        "d7-si-domenico",
+        "d7-si-fortezza",
+        "d7-si-faq",
+        "d7-si-access"
+      ],
+      "imageIds": [
+        "p6-si-campo",
+        "p6-si-duomo",
+        "p6-si-scala",
+        "p6-si-domenico",
+        "p6-si-fortezza"
+      ]
+    },
+    {
+      "id": "siena",
+      "destinationId": "siena",
+      "locale": "es",
+      "words": 1867,
+      "title": "Qué ver en Siena: 5 lugares y una ruta a pie",
+      "slug": "que-ver-en-siena-5-lugares",
+      "contentHash": "39c9c0e88e311c30b78cbcefd513fea60f282d64e4fd127953d10003e9a98806",
+      "places": 5,
+      "sourceIds": [
+        "d7-si-campo",
+        "d7-si-cathedral",
+        "d7-si-scala",
+        "d7-si-domenico",
+        "d7-si-fortezza",
+        "d7-si-faq",
+        "d7-si-access"
+      ],
+      "imageIds": [
+        "p6-si-campo",
+        "p6-si-duomo",
+        "p6-si-scala",
+        "p6-si-domenico",
+        "p6-si-fortezza"
+      ]
+    }
+  ],
+  "citedOfficialDocuments": 12,
+  "documentaryPhotos": 7,
+  "optimizedPhotoFiles": 21,
+  "checks": {
+    "actualSourcesReadWithHttpFinalUrlTimestampHashesAndShortExtracts": true,
+    "specificPhotoLicencesAndDeedsRead": true,
+    "allPlacePhotosMatched": true,
+    "originalAndOptimizedPhotosVisuallyReviewed": true,
+    "bilingualParity": true,
+    "noParagraphRepeatedAgainst346PriorVersions": true,
+    "internalLinksExist": true,
+    "oldContentDatesCodeAndAssetsPreserved": true
+  },
+  "resumedPreparation": {
+    "topicId": "siena",
+    "originalBatch": "2026-11-06",
+    "resources": "editorial/pending/siena/photos.json",
+    "originalPhotosPreserved": 5,
+    "preparedDerivativesPreserved": 15,
+    "previousPublishedArticles": 0
+  },
+  "notes": [
+    "Codex self-review, not independent human approval.",
+    "No paid APIs/services/images, generated documentary photos or third-party messages.",
+    "Release build and both exact-source deployments/public URL checks remain mandatory."
+  ]
+}

@@ -2,7 +2,7 @@
   "id": "2026-11-07",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-07T17:04:22.681Z",
-  "status": "reserved-not-generated",
+  "status": "reviewed-selected-for-release-not-public",
   "topicIds": [
     "siena"
   ],
@@ -13,7 +13,7 @@
     "executionId": "3d0c0998-e875-4097-8fce-5be4ddc18d37",
     "status": "active",
     "startedAt": "2026-11-07T17:05:29.204124+00:00",
-    "heartbeatAt": "2026-11-07T17:05:29.204124+00:00",
+    "heartbeatAt": "2026-11-07T17:19:43.469Z",
     "leaseUntil": "2026-11-07T21:05:29.204124+00:00",
     "baseCommit": "a398600b150439d73894f4bac879f69c654e1db5",
     "coordination": "No other active lease or verified originals on New York2026-11-07. Original Siena-only reservation retained; Nara topic added to plan before explicit extension/reuse."
@@ -48,5 +48,11 @@
   "effectiveTopicIds": [
     "siena",
     "nara-day-trip-transport"
-  ]
+  ],
+  "selectedCount": 2,
+  "localizedVersionCount": 4,
+  "documentaryPhotoCount": 7,
+  "optimizedPhotoFiles": 21,
+  "sourceCount": 12,
+  "reviewedAt": "2026-11-07T17:19:43.469Z"
 }

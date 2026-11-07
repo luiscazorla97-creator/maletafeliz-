@@ -1,19 +1,31 @@
 # Estado del proyecto
 
-Verificado el 6 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
+Verificado el 7 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
 
 ## Publicación verificada
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 173 guías originales y 346 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 773 documentos de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 765 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 175 guías originales y 350 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 785 registros de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 772 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
 
 Registro histórico de la campaña de festividades: commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. El despliegue vigente y sus comprobaciones se detallan a continuación. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
+
+## Dos originales nuevos: 7 de noviembre de 2026
+
+Publicadas Siena (cinco lugares y ruta a pie) y la guía de traslado Osaka–Nara (JR, Kintetsu y dos estaciones): dos temas distintos y cuatro versiones completas ES/EN, con títulos/slugs/metadatos localizados, itinerario, FAQ y enlaces pertinentes. Se leyeron doce documentos oficiales y siete licencias específicas. Siete fotos documentales se sirven mediante 21 archivos WebP responsivos con ALT, crédito, licencia, dimensiones y hashes.
+
+Se retomó Siena, nunca publicada, conservando la reserva y los cinco originales/quince derivados preparados el día anterior. Sus licencias se comprobaron de nuevo. El inventario inicial del lote conserva únicamente Siena; Nara se añadió al plan antes de reutilizar y extender expresamente la reserva, y `publishedTopicIds` acredita los dos temas reales. No se modificaron el artículo turístico previo de Nara, su portada de destino ni las URLs existentes. El censo revisa los 23 archivos de lotes y las fechas iniciales en America/New_York: antes de esta ejecución había cero originales de hoy; después hay dos. La verificación UTC del lote manual anterior no lo convierte en publicación del día local siguiente.
+
+La guía de Siena diferencia productos cívicos y de la catedral, sin tarjeta universal ni precios/calendarios inventados. Se excluyó una redirección del operador con texto de plantilla. La de transporte distingue Osaka, Shin-Osaka, JR Namba y Osaka-Namba; JR Nara y Kintetsu-Nara; las referencias orientativas de 52/34 minutos desde orígenes distintos; tarifa básica, tarjeta IC, pase y suplemento Limited Express. Se leyó el mapa JR actual como imagen. El producto ferroviario del aeropuerto y el estado en vivo bloqueado no se presentan como tarifas ordinarias ni circulación confirmada.
+
+Pasaron tipos, 68 pruebas unitarias, 28 de navegación y 52 de producción pertinentes. GitHub Actions aprobó la batería completa del commit `af30711eb7d83b7f5a5303b871b52240b2b9c3c1`: 68 unitarias, 28 de navegación y 744 de producción, 840 en total. `npm run build:release` generó 846 páginas sin rebajar controles. Se verificaron 42381 enlaces/fragmentos y la conservación de las 840 rutas HTML y las 346 versiones anteriores por texto/fecha/SEO. Sitemap: 822 URLs. Las cuatro versiones nuevas se revisaron en escritorio/móvil y los 21 archivos servidos coinciden por hash.
+
+Ambos proyectos de Cloudflare completaron ese mismo commit. Pasaron 358 comprobaciones HTTPS del catálogo/redirecciones y 72 registros públicos del lote. Evidencia: `editorial/verification/2026-11-07-two-publication.json`. Catálogo: 175 originales, 350 versiones, 772 fotos y 770 lugares fotografiados; Navidad permanece en 50 originales. Cobertura: Italia 15/30, Japón 13/25, México 12/25 y Estados Unidos 17/20: 57/100, faltan 43. Se conservan diseño 3D, anuncios, Analytics/consentimiento, popunder desactivado, configuraciones, historial y frecuencia diaria. No se afirma disparo desatendido, posicionamiento, indexación ni visitas garantizadas.
 
 ## Cinco guías nuevas de Navidad: 6 de noviembre de 2026
 

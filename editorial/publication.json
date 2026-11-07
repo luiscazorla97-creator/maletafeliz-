@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-07T00:12:41.212074+00:00",
+  "verifiedAt": "2026-11-07T17:47:24.957251+00:00",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 173,
-  "localizations": 346,
-  "photos": 765,
-  "httpChecks": 354,
+  "originals": 175,
+  "localizations": 350,
+  "photos": 772,
+  "httpChecks": 358,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "2a8c9736-b310-46d7-ae17-072d69ae16b8",
-      "commit": "45aec02c50c468dd91b772d7f22b82fea34a5e1e",
+      "deploymentId": "c0c1ec47-8874-4490-a241-cd8c1d8989b0",
+      "commit": "af30711eb7d83b7f5a5303b871b52240b2b9c3c1",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "07dca0fa-e76b-431d-ab72-91bf0bcdcde7",
-      "commit": "45aec02c50c468dd91b772d7f22b82fea34a5e1e",
+      "deploymentId": "4595007b-73f9-46b8-a215-dd7afc834332",
+      "commit": "af30711eb7d83b7f5a5303b871b52240b2b9c3c1",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,19 +45,19 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 773,
-  "latestBatch": "2026-11-06-christmas-five-manual",
-  "verificationFile": "editorial/verification/2026-11-06-christmas-five-publication.json",
+  "citedSourceDocuments": 785,
+  "latestBatch": "2026-11-07",
+  "verificationFile": "editorial/verification/2026-11-07-two-publication.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 354,
-    "batchBrowserSeoDiscoveryAndPhotoCheckRecords": 138,
-    "note": "Batch records combine browser, SEO, discovery, exclusion and byte checks; not one HTTP request per record."
+    "siteAndRedirects": 358,
+    "batchBrowserSeoDiscoveryAndPhotoCheckRecords": 72,
+    "note": "Batch records combine browser,SEO,discovery and byte checks; not one network request per record."
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-06-christmas-five-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-07T00:12:41.212074+00:00",
+  "latestDeploymentVerification": "editorial/verification/2026-11-07-two-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-07T17:47:24.957251+00:00",
   "photoCoverage": {
-    "originalRecommendations": 763,
-    "localizedRecommendations": 1526,
+    "originalRecommendations": 770,
+    "localizedRecommendations": 1540,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -122,9 +122,9 @@
       "height": 250
     }
   },
-  "batchChecks": 138,
+  "batchChecks": 72,
   "performanceVerification": "editorial/verification/2026-11-04-mobile-performance-publication.json",
-  "verificationChecksTotal": 492,
+  "verificationChecksTotal": 430,
   "countrySeoStrategy": {
     "priorityCountries": [
       "it",
@@ -132,9 +132,9 @@
       "mx",
       "us"
     ],
-    "priorityOriginals": 55,
+    "priorityOriginals": 57,
     "initialTargetOriginals": 100,
-    "remainingOriginals": 45,
-    "verification": "editorial/verification/2026-11-06-christmas-five-publication.json"
+    "remainingOriginals": 43,
+    "verification": "editorial/verification/2026-11-07-two-publication.json"
   }
 }

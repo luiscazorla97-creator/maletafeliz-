@@ -8670,7 +8670,7 @@
     ],
     "placeCount": 5,
     "intent": "first-visit-highlights",
-    "status": "planned",
+    "status": "published",
     "titles": {
       "es": "Qué ver en Siena: 5 lugares y una ruta a pie",
       "en": "What to see in Siena: 5 places and a walking route"
@@ -8682,14 +8682,25 @@
     "researchCandidates": [
       "https://www.visitsiena.it/"
     ],
-    "researchStatus": "pending",
-    "imageStatus": "pending",
+    "researchStatus": "verified",
+    "imageStatus": "verified",
     "locales": {
-      "es": "pending",
-      "en": "pending"
+      "es": "published",
+      "en": "published"
     },
     "pendingResources": "editorial/pending/siena/photos.json",
-    "deferralReason": "Latest user reduced the same in-progress batch from3to2; source/rights/photo work preserved, article not published."
+    "deferralReason": "Latest user reduced the same in-progress batch from3to2; source/rights/photo work preserved, article not published.",
+    "publiclyVerifiedAt": "2026-11-07T17:47:24.957251+00:00",
+    "publishedCommit": "af30711eb7d83b7f5a5303b871b52240b2b9c3c1",
+    "publicVerification": "editorial/verification/2026-11-07-two-publication.json",
+    "publicUrls": {
+      "es": "https://maletafeliz.com/es/guias/que-ver-en-siena-5-lugares/",
+      "en": "https://maletafeliz.com/en/guides/5-places-to-visit-siena/"
+    },
+    "resumedFromBatch": "2026-11-06",
+    "resumedFromPreservedPreparation": "editorial/pending/siena/photos.json",
+    "preparationSnapshotStatus": "historical-Nov6-pending-snapshot-preserved; promoted-and-publicly-verified-Nov7",
+    "resumedAt": "2026-11-07T17:47:24.957251+00:00"
   },
   {
     "id": "christmas-turin",
@@ -8941,7 +8952,7 @@
     ],
     "placeCount": 2,
     "intent": "osaka-to-nara-jr-kintetsu-station-choice",
-    "status": "planned",
+    "status": "published",
     "titles": {
       "es": "Cómo ir de Osaka a Nara: JR, Kintetsu y qué estación elegir",
       "en": "Osaka to Nara: JR vs Kintetsu and which station to choose"
@@ -8955,12 +8966,19 @@
       "https://www.kintetsu.co.jp/foreign/english/faq/",
       "https://www.westjr.co.jp/global/en/"
     ],
-    "researchStatus": "pending",
-    "imageStatus": "pending",
+    "researchStatus": "verified",
+    "imageStatus": "verified",
     "locales": {
-      "es": "pending",
-      "en": "pending"
+      "es": "published",
+      "en": "published"
     },
-    "differentiation": "Dedicated Osaka-to-Nara operator/station/ticket decision guide. Existing Nara Todaiji/Kasuga/park itinerary and Osaka guide unchanged; arrival stations receive their own documentary photos."
+    "differentiation": "Dedicated Osaka-to-Nara operator/station/ticket decision guide. Existing Nara Todaiji/Kasuga/park itinerary and Osaka guide unchanged; arrival stations receive their own documentary photos.",
+    "publiclyVerifiedAt": "2026-11-07T17:47:24.957251+00:00",
+    "publishedCommit": "af30711eb7d83b7f5a5303b871b52240b2b9c3c1",
+    "publicVerification": "editorial/verification/2026-11-07-two-publication.json",
+    "publicUrls": {
+      "es": "https://maletafeliz.com/es/guias/como-ir-de-osaka-a-nara/",
+      "en": "https://maletafeliz.com/en/guides/osaka-to-nara-jr-kintetsu/"
+    }
   }
 ]

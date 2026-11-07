@@ -2,21 +2,22 @@
   "id": "2026-11-07",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-07T17:04:22.681Z",
-  "status": "reviewed-selected-for-release-not-public",
+  "status": "published",
   "topicIds": [
     "siena"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "3d0c0998-e875-4097-8fce-5be4ddc18d37",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-07T17:05:29.204124+00:00",
-    "heartbeatAt": "2026-11-07T17:19:43.469Z",
-    "leaseUntil": "2026-11-07T21:05:29.204124+00:00",
+    "heartbeatAt": "2026-11-07T17:47:24.957251+00:00",
+    "leaseUntil": "2026-11-07T17:47:24.957251+00:00",
     "baseCommit": "a398600b150439d73894f4bac879f69c654e1db5",
-    "coordination": "No other active lease or verified originals on New York2026-11-07. Original Siena-only reservation retained; Nara topic added to plan before explicit extension/reuse."
+    "coordination": "No other active lease or verified originals on New York2026-11-07. Original Siena-only reservation retained; Nara topic added to plan before explicit extension/reuse.",
+    "completedAt": "2026-11-07T17:47:24.957251+00:00"
   },
   "authorization": {
     "type": "daily-two-originals",
@@ -54,5 +55,31 @@
   "documentaryPhotoCount": 7,
   "optimizedPhotoFiles": 21,
   "sourceCount": 12,
-  "reviewedAt": "2026-11-07T17:19:43.469Z"
+  "reviewedAt": "2026-11-07T17:19:43.469Z",
+  "publishedTopicIds": [
+    "siena",
+    "nara-day-trip-transport"
+  ],
+  "verifiedTopicCount": 2,
+  "sameDayUniqueVerifiedTopics": [
+    "siena",
+    "nara-day-trip-transport"
+  ],
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 7,
+  "citedSourceDocuments": 12,
+  "publishedCommit": "af30711eb7d83b7f5a5303b871b52240b2b9c3c1",
+  "publiclyVerifiedAt": "2026-11-07T17:47:24.957251+00:00",
+  "publicVerification": "editorial/verification/2026-11-07-two-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-siena-5-lugares/",
+      "https://maletafeliz.com/es/guias/como-ir-de-osaka-a-nara/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/5-places-to-visit-siena/",
+      "https://maletafeliz.com/en/guides/osaka-to-nara-jr-kintetsu/"
+    ]
+  },
+  "inventoryNote": "Original Siena-only topicIds retained; Nara was appended to the plan before reservation reuse and explicitly reserved as additionalReservedTopicIds. Only effectiveTopicIds/publishedTopicIds and the four verified URLs represent the two successful originals. Earlier-day reservations and preparation snapshots remain intact."
 }

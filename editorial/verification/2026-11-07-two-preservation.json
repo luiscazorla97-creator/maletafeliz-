@@ -1,10 +1,38 @@
 {
-  "checkedAt": "2026-11-07T17:20:24.365503+00:00",
+  "checkedAt": "2026-11-07T17:47:25.809636+00:00",
   "baseline": "a398600b150439d73894f4bac879f69c654e1db5",
-  "protectedTrackedFilesCompared": 5658,
-  "changedProtectedFiles": [],
+  "protectedTrackedBlobsCompared": 5653,
+  "changedProtectedBlobs": [],
   "previousArticleVersionsUnchanged": 346,
-  "priorPlanEntriesIdentical": 174,
+  "priorPublishedPlanEntriesIdentical": 173,
+  "previouslyPendingPlanPromotedOnly": "siena",
+  "pendingSienaCoreFieldsAndOriginalDeferralPreserved": true,
   "priorPhotoEntriesIdentical": 765,
-  "scope": "All previous article text/dates/reviews/source evidence, photos/assets, app/style/brand/advertising/Analytics, site.json, scheduler, SEO/CI configuration and historic batches preserved. Only one specialized plan entry appended; Siena preparation and original reservation inventory intact."
+  "backlogEntriesUnchanged": 73,
+  "implementationChanges": [],
+  "authorizedPublicationBookkeeping": [
+    "docs/SEO-STRATEGY.md",
+    "docs/STATUS.md",
+    "editorial/activity.jsonl",
+    "editorial/publication.json",
+    "editorial/seo-strategy.json"
+  ],
+  "resumedSiena": {
+    "firstPublishedOnLocalDate": "2026-11-07",
+    "originalPreparationSnapshotUnchanged": true,
+    "originalFilesPreserved": 5,
+    "preparedDerivativeFilesPreserved": 15,
+    "newPublicCopiesMatchPreparedHashes": true
+  },
+  "scope": "Every prior published article, date, review, source, photo/asset and all app/design/brand/ad/Analytics/SEO/CI/site/schedule configuration and historic reservations preserved. Only previously pending Siena plan promoted, one specialized plan entry appended, new source/photo entries and post-verification bookkeeping.",
+  "prePublicationAudit": {
+    "checkedAt": "2026-11-07T17:20:24.365503+00:00",
+    "baseline": "a398600b150439d73894f4bac879f69c654e1db5",
+    "protectedTrackedFilesCompared": 5658,
+    "changedProtectedFiles": [],
+    "previousArticleVersionsUnchanged": 346,
+    "priorPlanEntriesIdentical": 174,
+    "priorPhotoEntriesIdentical": 765,
+    "scope": "All previous article text/dates/reviews/source evidence, photos/assets, app/style/brand/advertising/Analytics, site.json, scheduler, SEO/CI configuration and historic batches preserved. Only one specialized plan entry appended; Siena preparation and original reservation inventory intact."
+  }
 }

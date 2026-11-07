@@ -69,3 +69,7 @@ El 5 de noviembre se publicaron Guanajuato, Lucca y Nikko: tres guías con cinco
 ## Dos temas verificados el 6 de noviembre
 
 San Diego y San Miguel de Allende se publicaron con cuatro versiones completas y doce lugares fotografiados. La instrucción posterior de dos prevaleció sobre la reserva inicial de tres; Siena queda pendiente fuera de las páginas y activos públicos. Cobertura real: Italia 12/30, Japón 11/25, México 12/25 y Estados Unidos 15/20: 50/100, faltan 50. Se preservan los 73 candidatos previos y todos los contenidos publicados. Catálogo 168 originales/336 versiones. Ambos proyectos y las cuatro URLs se verificaron. La frecuencia diaria no cambió. Evidencia: `editorial/verification/2026-11-06-two-publication.json`.
+
+## Cinco originales navideños adicionales, 6 de noviembre
+
+Turín, Nápoles, Yokohama, Boston y San Francisco tienen diez versiones completas y quince lugares con fotografías documentales propias. Títulos, slugs y metadatos localizados, calendarios confirmados y diferencias prácticas de acceso. La solicitud manual expresa de cinco es adicional a los dos temas verificados antes; no cambia la frecuencia diaria. Cobertura real: Italia 14/30, Japón 12/25, México 12/25 y Estados Unidos 17/20: 55/100, faltan 45. Se preservan los 73 candidatos previos, las reservas y todo el contenido publicado. Catálogo: 173 originales/346 versiones; Navidad: 50 originales. Ambos proyectos y las diez URLs se verificaron. Evidencia: `editorial/verification/2026-11-06-christmas-five-publication.json`.

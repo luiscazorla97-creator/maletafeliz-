@@ -2,7 +2,7 @@
   "id": "2026-11-06-christmas-five-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-06T23:23:45.447189+00:00",
-  "status": "reviewed-selected-for-release-not-public",
+  "status": "published",
   "topicIds": [
     "christmas-turin",
     "christmas-naples",
@@ -11,7 +11,7 @@
     "christmas-san-francisco"
   ],
   "requestedCount": 5,
-  "publishedCount": 0,
+  "publishedCount": 5,
   "errors": [],
   "priorSameDayPublishedTopicIds": [
     "san-diego",
@@ -30,16 +30,58 @@
   },
   "execution": {
     "executionId": "326faf6c-87cd-47e8-be78-3ffc824553e9",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-06T23:23:45.447189+00:00",
-    "heartbeatAt": "2026-11-06T23:42:17.260Z",
-    "leaseUntil": "2026-11-07T03:23:45.447189+00:00",
+    "heartbeatAt": "2026-11-07T00:12:41.212074+00:00",
+    "leaseUntil": "2026-11-07T00:12:41.212074+00:00",
     "baseCommit": "75cc2067c225c19e6b27c24b605b29fd16841b9d",
-    "coordination": "No other active lease. Existing daily batch, pending Siena work and all inventories preserved."
+    "coordination": "No other active lease. Existing daily batch, pending Siena work and all inventories preserved.",
+    "completedAt": "2026-11-07T00:12:41.212074+00:00"
   },
   "selectedCount": 5,
   "localizedVersionCount": 10,
   "documentaryPhotoCount": 15,
   "sourceCount": 18,
-  "reviewedAt": "2026-11-06T23:42:17.260Z"
+  "reviewedAt": "2026-11-06T23:42:17.260Z",
+  "publishedTopicIds": [
+    "christmas-turin",
+    "christmas-naples",
+    "christmas-yokohama",
+    "christmas-boston",
+    "christmas-san-francisco"
+  ],
+  "verifiedTopicCount": 5,
+  "sameDayUniqueVerifiedTopics": [
+    "christmas-boston",
+    "christmas-naples",
+    "christmas-san-francisco",
+    "christmas-turin",
+    "christmas-yokohama",
+    "san-diego",
+    "san-miguel-de-allende"
+  ],
+  "localizedVersionsPublished": 10,
+  "documentaryPhotosPublished": 15,
+  "optimizedPhotoFiles": 41,
+  "citedSourceDocuments": 18,
+  "publishedCommit": "45aec02c50c468dd91b772d7f22b82fea34a5e1e",
+  "publiclyVerifiedAt": "2026-11-07T00:12:41.212074+00:00",
+  "publicVerification": "editorial/verification/2026-11-06-christmas-five-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/navidad-en-turin-2026/",
+      "https://maletafeliz.com/es/guias/navidad-en-napoles/",
+      "https://maletafeliz.com/es/guias/navidad-en-yokohama-2026/",
+      "https://maletafeliz.com/es/guias/navidad-en-boston-2026/",
+      "https://maletafeliz.com/es/guias/navidad-en-san-francisco-2026/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/christmas-in-turin-2026/",
+      "https://maletafeliz.com/en/guides/christmas-in-naples/",
+      "https://maletafeliz.com/en/guides/christmas-in-yokohama-2026/",
+      "https://maletafeliz.com/en/guides/christmas-in-boston-2026/",
+      "https://maletafeliz.com/en/guides/christmas-in-san-francisco-2026/"
+    ]
+  },
+  "inventoryNote": "Five additional manual Christmas originals explicitly requested after the two earlier verified originals today. Earlier batch and pending Siena inventory preserved. Daily2/noonMiami configuration unchanged."
 }

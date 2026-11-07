@@ -1,10 +1,35 @@
 {
-  "checkedAt": "2026-11-06T23:43:01.087691+00:00",
+  "checkedAt": "2026-11-07T00:12:42.041954+00:00",
   "baseline": "75cc2067c225c19e6b27c24b605b29fd16841b9d",
-  "protectedTrackedFiles": 5543,
-  "changedProtectedFiles": [],
+  "protectedTrackedBlobsCompared": 5538,
+  "changedProtectedBlobs": [],
   "previousArticleVersionsUnchanged": 336,
   "priorPlanEntriesIdentical": 169,
   "priorPhotoEntriesIdentical": 750,
-  "scope": "Existing article texts/dates/reviews/source evidence, all prior photos and assets, app/style/brand/ad/Analytics code, site.json, schedule, SEO configuration, CI workflow and historical batches unchanged. Only new plan/photo entries appended. Five additional Christmas originals only; daily2 unchanged, Siena and all backlog reservations preserved."
+  "backlogEntriesUnchanged": 73,
+  "implementationChanges": [],
+  "authorizedPublicationBookkeeping": [
+    "docs/SEO-STRATEGY.md",
+    "docs/STATUS.md",
+    "editorial/activity.jsonl",
+    "editorial/publication.json",
+    "editorial/seo-strategy.json"
+  ],
+  "deferredSiena": {
+    "published": false,
+    "originalFilesPreserved": 5,
+    "optimizedFilesPreservedOutsidePublic": 15,
+    "articleFiles": 0
+  },
+  "scope": "All previous article text/dates/reviews/source evidence, photos/assets, app/style/brand/ads/Analytics, site.json, schedule, SEO/CI configuration and historical batch inventories unchanged. Five new topics and post-verification bookkeeping only. Activity history is append-only.",
+  "prePublicationAudit": {
+    "checkedAt": "2026-11-06T23:49:11.085092+00:00",
+    "baseline": "75cc2067c225c19e6b27c24b605b29fd16841b9d",
+    "protectedTrackedFiles": 5543,
+    "changedProtectedFiles": [],
+    "previousArticleVersionsUnchanged": 336,
+    "priorPlanEntriesIdentical": 169,
+    "priorPhotoEntriesIdentical": 750,
+    "scope": "Existing article texts/dates/reviews/source evidence, all prior photos and assets, app/style/brand/ad/Analytics code, site.json, schedule, SEO configuration, CI workflow and historical batches unchanged. Only new plan/photo entries appended. Five additional Christmas originals only; daily2 unchanged, Siena and all backlog reservations preserved."
+  }
 }

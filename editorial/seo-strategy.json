@@ -1391,19 +1391,21 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-06T17:35:23.981419+00:00",
+    "verifiedAt": "2026-11-07T00:12:41.212074+00:00",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 12,
-        "localizedVersions": 24,
+        "publishedOriginals": 14,
+        "localizedVersions": 28,
         "targetOriginals": 30,
-        "missingOriginals": 18,
+        "missingOriginals": 16,
         "articleIds": [
           "amalfi-coast",
           "christmas-florence",
           "christmas-milan",
+          "christmas-naples",
           "christmas-rome",
+          "christmas-turin",
           "christmas-venice",
           "florence",
           "lucca",
@@ -1416,13 +1418,14 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 11,
-        "localizedVersions": 22,
+        "publishedOriginals": 12,
+        "localizedVersions": 24,
         "targetOriginals": 25,
-        "missingOriginals": 14,
+        "missingOriginals": 13,
         "articleIds": [
           "christmas-osaka",
           "christmas-tokyo",
+          "christmas-yokohama",
           "halloween-japan",
           "hiroshima",
           "kanazawa",
@@ -1457,15 +1460,17 @@
       },
       {
         "countryId": "us",
-        "publishedOriginals": 15,
-        "localizedVersions": 30,
+        "publishedOriginals": 17,
+        "localizedVersions": 34,
         "targetOriginals": 20,
-        "missingOriginals": 5,
+        "missingOriginals": 3,
         "articleIds": [
           "buffalo",
+          "christmas-boston",
           "christmas-chicago",
           "christmas-miami",
           "christmas-new-york",
+          "christmas-san-francisco",
           "columbus",
           "greenville-sc",
           "halloween-usa",
@@ -1480,9 +1485,9 @@
         ]
       }
     ],
-    "priorityOriginals": 50,
-    "missingToInitial100": 50,
-    "publicVerification": "editorial/verification/2026-11-06-two-publication.json"
+    "priorityOriginals": 55,
+    "missingToInitial100": 45,
+    "publicVerification": "editorial/verification/2026-11-06-christmas-five-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1519,6 +1524,20 @@
       "commit": "e399ee058e3492568951a1e44c9247a0f1aea9c5",
       "publicVerification": "editorial/verification/2026-11-06-two-publication.json",
       "note": "Latest two-original instruction fulfilled in the existing in-progress batch; earlier3-topic reservation retained. Siena deferred outside public assets. No existing backlog entries reclassified or overwritten."
+    },
+    {
+      "batch": "2026-11-06-christmas-five-manual",
+      "topicIds": [
+        "christmas-turin",
+        "christmas-naples",
+        "christmas-yokohama",
+        "christmas-boston",
+        "christmas-san-francisco"
+      ],
+      "status": "published-verified",
+      "commit": "45aec02c50c468dd91b772d7f22b82fea34a5e1e",
+      "publicVerification": "editorial/verification/2026-11-06-christmas-five-publication.json",
+      "note": "Latest explicit manual request authorizes five additional Christmas originals; daily2 unchanged. Existing backlog entries and pending reservations preserved."
     }
   ]
 }

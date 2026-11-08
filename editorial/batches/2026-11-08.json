@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-08",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-08T17:03:56.320Z",
+  "status": "reviewed-selected-for-release-not-public",
+  "topicIds": [
+    "queretaro",
+    "padua"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "db431062-e34e-4fdc-9de0-249630a34ce7",
+    "status": "active",
+    "startedAt": "2026-11-08T17:03:56.381001+00:00",
+    "heartbeatAt": "2026-11-08T17:46:24.898604+00:00",
+    "leaseUntil": "2026-11-08T21:03:56.381001+00:00",
+    "baseCommit": "7325092d89b5c9b040aa25aa0765f8a7898b8924",
+    "coordination": "All previous batches read, zero unique first publications verified on 2026-11-08 America/New_York, no active execution. Daily two topics added before exclusive reservation."
+  },
+  "priorSameDayPublishedTopicIds": [],
+  "selectedCount": 2,
+  "localizedVersionCount": 4,
+  "documentaryPhotoCount": 10,
+  "optimizedPhotoFiles": 30,
+  "sourceCount": 17,
+  "reviewedAt": "2026-11-08T17:24:57.849Z"
+}

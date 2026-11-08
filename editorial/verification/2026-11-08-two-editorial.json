@@ -1,0 +1,144 @@
+{
+  "reviewedAt": "2026-11-08T17:24:57.849Z",
+  "publicationLocalDate": "2026-11-08",
+  "timeZone": "America/New_York",
+  "topicIds": [
+    "queretaro",
+    "padua"
+  ],
+  "versions": [
+    {
+      "id": "padua",
+      "destinationId": "padua",
+      "locale": "en",
+      "words": 1694,
+      "title": "Things to do in Padua: 5 places and how to plan your visits",
+      "slug": "things-to-do-padua-5-places",
+      "contentHash": "b6aa76bcb75041b64e35a67ebb38f720f00f372347d52d71b7cba8b0e90513fe",
+      "places": 5,
+      "sourceIds": [
+        "d8-pa-ten",
+        "d8-pa-chapel",
+        "d8-pa-route",
+        "d8-pa-book",
+        "d8-pa-garden",
+        "d8-pa-tickets",
+        "d8-pa-basilica",
+        "d8-pa-train"
+      ],
+      "imageIds": [
+        "d8-pa-chapel",
+        "d8-pa-ragione",
+        "d8-pa-basilica",
+        "d8-pa-garden",
+        "d8-pa-prato"
+      ]
+    },
+    {
+      "id": "padua",
+      "destinationId": "padua",
+      "locale": "es",
+      "words": 1765,
+      "title": "Qué ver en Padua: 5 lugares y cómo organizar las reservas",
+      "slug": "que-ver-en-padua-5-lugares",
+      "contentHash": "8db764ea4bd400cc8e2909ada8b10ff91ff05c4ce047a4c198225832e4548bf1",
+      "places": 5,
+      "sourceIds": [
+        "d8-pa-ten",
+        "d8-pa-chapel",
+        "d8-pa-route",
+        "d8-pa-book",
+        "d8-pa-garden",
+        "d8-pa-tickets",
+        "d8-pa-basilica",
+        "d8-pa-train"
+      ],
+      "imageIds": [
+        "d8-pa-chapel",
+        "d8-pa-ragione",
+        "d8-pa-basilica",
+        "d8-pa-garden",
+        "d8-pa-prato"
+      ]
+    },
+    {
+      "id": "queretaro",
+      "destinationId": "queretaro",
+      "locale": "en",
+      "words": 1643,
+      "title": "Things to do in Querétaro: 5 places in the historic centre",
+      "slug": "things-to-do-queretaro-5-places",
+      "contentHash": "22ba059129b4181432b7aca5ad14eae5ca95e5dbfa26d749acc37941c4550928",
+      "places": 5,
+      "sourceIds": [
+        "d8-qr-city",
+        "d8-qr-museums",
+        "d8-qr-regional",
+        "d8-qr-art",
+        "d8-qr-unesco",
+        "d8-qr-day",
+        "d8-qr-viterbo-sic",
+        "d8-qr-inah-city",
+        "d8-qr-plaza-inah"
+      ],
+      "imageIds": [
+        "d8-qr-plaza",
+        "d8-qr-regional",
+        "d8-qr-art",
+        "d8-qr-viterbo",
+        "d8-qr-aqueduct"
+      ]
+    },
+    {
+      "id": "queretaro",
+      "destinationId": "queretaro",
+      "locale": "es",
+      "words": 1639,
+      "title": "Qué ver en Querétaro: 5 lugares del centro y el Acueducto",
+      "slug": "que-ver-en-queretaro-5-lugares",
+      "contentHash": "c80bba4eec893a27c2b456e2f8edd01ec7fa626df12deb2848a47c585063fcf9",
+      "places": 5,
+      "sourceIds": [
+        "d8-qr-city",
+        "d8-qr-museums",
+        "d8-qr-regional",
+        "d8-qr-art",
+        "d8-qr-unesco",
+        "d8-qr-day",
+        "d8-qr-viterbo-sic",
+        "d8-qr-inah-city",
+        "d8-qr-plaza-inah"
+      ],
+      "imageIds": [
+        "d8-qr-plaza",
+        "d8-qr-regional",
+        "d8-qr-art",
+        "d8-qr-viterbo",
+        "d8-qr-aqueduct"
+      ]
+    }
+  ],
+  "citedOfficialDocuments": 17,
+  "documentaryPhotos": 10,
+  "optimizedPhotoFiles": 30,
+  "previousCompleteVersionsCompared": 364,
+  "checks": {
+    "actualSourceBodiesRead": true,
+    "shortExcerptsAndCaptureHashes": true,
+    "specificPhotographLicencesAndDeedsRead": true,
+    "originalsRetainedAndServedImagesReviewed": true,
+    "bilingualFactsAligned": true,
+    "allPlacePhotosMatched": true,
+    "noExactParagraphDuplicates": true,
+    "relatedGuidesExistBothLanguages": true
+  },
+  "notes": [
+    "Codex bilingual editorial self-review (AI-assisted); no independent human reviewer claimed. All four complete manuscripts read and compared for factual parity, natural ES/EN, distinct destination intent, localized titles/slugs/descriptions, practical decisions, itinerary, FAQ and useful related links. Both topics absent from the earlier182originals. No copied paragraphs, personal-visit claims, fabricated demand/rankings or traffic/indexing guarantees.",
+    "Seventeen cited official documents actually read. UTC capture time, final URL, HTTP200, retained response SHA256, specific facts and short locating excerpts checked. Initial Viterbo404 and rejected unidentified ArtMuseum photo retained without simulated consultation. State tourism founding-date typo excluded; INAH used for aqueduct chronology and UNESCO for urban context. Old2020Padua station page only supports geography, not fares, timetables, luggage services or assistance lead times.",
+    "Querétaro distinguishes RegionalMuseum historical interpretation, MuseumofArt collections and sculpted SanAgustín cloister, Plaza de Armas versus JardínZenea, and SantaRosa church versus associated siteMuseum. Current recorded museum hours are labelled checked8November2026, Tuesday–Sunday with reconfirmation; no invented church hours or admission prices. The aqueduct is a separate leg; proposed walking sequence is advice, not a promised journey time. Related regional cities are not falsely described as short day trips.",
+    "Padua explicitly highlights the operator-announced16–27November2026Scrovegni closure, no same-day booking and late-arrival risk. No universal45minute rule copied from group-only instructions. Palazzo upper hall versus ground-floor market, free Basilica versus associated museums, interior photography prohibition, and old garden holiday exceptions distinguished. Audio languages accurately Italian/English/German; mixed2024/2025/2026garden calendar is not presented as a confirmed2026holiday timetable. Current booking calendar takes precedence.",
+    "All10 recommended places have distinct appropriate documentary photographs, retained originals with actual download metadata and SHA256, optimized responsive derivatives, explicit dimensions, bilingual ALT, exact supplied title/creator/source/licence/change credit. Individual Flickr permissions and applicableCCdeeds read; candidateCommons permissions also inspected but those files not served; search filters alone do not prove rights. Rejected ambiguous courtyard not used. All served renditions visually inspected, including the two distinct alternative Flickr photographs. Basilica photo is an exterior black-and-white image, not a claimed permitted interior visit. No generated imagery.",
+    "Image-server429 and Retry-After600 recorded and respected before further original-image requests to that origin; no proxy, URL variation, mirror or earlyretry used. Two distinct photographs by otherauthors onFlickr selected instead; no blockedCommonsoriginal represented as downloaded. Rights and source capture body hashes checked independently of optimized photo hashes.",
+    "All364 previous article versions, dates, reviews, sources, URLs,801photo entries/assets and182plan entries preserved. No app/design3D/logo/advertising scripts,IDs,slots,dimensions/Analytics/consent/popunder/SEO/schedule/DNS/project changes. Local published only selects content for compilation; normal and mandatory release gates, exact-source Cloudflare deployments and real public checks still required."
+  ]
+}

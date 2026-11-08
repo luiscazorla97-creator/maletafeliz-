@@ -2,22 +2,23 @@
   "id": "2026-11-08",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-08T17:03:56.320Z",
-  "status": "reviewed-selected-for-release-not-public",
+  "status": "published",
   "topicIds": [
     "queretaro",
     "padua"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "db431062-e34e-4fdc-9de0-249630a34ce7",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-08T17:03:56.381001+00:00",
-    "heartbeatAt": "2026-11-08T17:46:24.898604+00:00",
-    "leaseUntil": "2026-11-08T21:03:56.381001+00:00",
+    "heartbeatAt": "2026-11-08T18:06:19.638638+00:00",
+    "leaseUntil": "2026-11-08T18:06:19.638638+00:00",
     "baseCommit": "7325092d89b5c9b040aa25aa0765f8a7898b8924",
-    "coordination": "All previous batches read, zero unique first publications verified on 2026-11-08 America/New_York, no active execution. Daily two topics added before exclusive reservation."
+    "coordination": "All previous batches read, zero unique first publications verified on 2026-11-08 America/New_York, no active execution. Daily two topics added before exclusive reservation.",
+    "completedAt": "2026-11-08T18:06:19.638638+00:00"
   },
   "priorSameDayPublishedTopicIds": [],
   "selectedCount": 2,
@@ -25,5 +26,31 @@
   "documentaryPhotoCount": 10,
   "optimizedPhotoFiles": 30,
   "sourceCount": 17,
-  "reviewedAt": "2026-11-08T17:24:57.849Z"
+  "reviewedAt": "2026-11-08T17:24:57.849Z",
+  "publishedTopicIds": [
+    "queretaro",
+    "padua"
+  ],
+  "verifiedTopicCount": 2,
+  "sameDayUniqueVerifiedTopics": [
+    "padua",
+    "queretaro"
+  ],
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "citedSourceDocuments": 17,
+  "publishedCommit": "301fb044c4d6fd351868181fa7cc85c28b4e2dbc",
+  "publiclyVerifiedAt": "2026-11-08T18:06:19.638638+00:00",
+  "publicVerification": "editorial/verification/2026-11-08-two-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-queretaro-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-padua-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-queretaro-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-padua-5-places/"
+    ]
+  },
+  "inventoryNote": "Daily target fulfilled: exactly two unique originals first published on8November2026 America/New_York. Seven previous manual originals verified after UTCmidnight belong to7November inNewYork and are not counted twice. All older reservations, inventories and publication dates preserved."
 }

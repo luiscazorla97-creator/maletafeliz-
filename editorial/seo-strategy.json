@@ -1391,14 +1391,14 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-08T01:54:34.144313+00:00",
+    "verifiedAt": "2026-11-08T18:06:19.638638+00:00",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 17,
-        "localizedVersions": 34,
+        "publishedOriginals": 18,
+        "localizedVersions": 36,
         "targetOriginals": 30,
-        "missingOriginals": 13,
+        "missingOriginals": 12,
         "articleIds": [
           "amalfi-coast",
           "bologna",
@@ -1412,6 +1412,7 @@
           "florence",
           "lucca",
           "milan",
+          "padua",
           "pisa",
           "rome",
           "siena",
@@ -1445,10 +1446,10 @@
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 13,
-        "localizedVersions": 26,
+        "publishedOriginals": 14,
+        "localizedVersions": 28,
         "targetOriginals": 25,
-        "missingOriginals": 12,
+        "missingOriginals": 11,
         "articleIds": [
           "cancun",
           "guanajuato",
@@ -1461,6 +1462,7 @@
           "muertos-puebla",
           "oaxaca",
           "puebla",
+          "queretaro",
           "riviera-maya",
           "san-miguel-de-allende"
         ]
@@ -1494,9 +1496,9 @@
         ]
       }
     ],
-    "priorityOriginals": 64,
-    "missingToInitial100": 36,
-    "publicVerification": "editorial/verification/2026-11-07-seven-publication.json"
+    "priorityOriginals": 66,
+    "missingToInitial100": 34,
+    "publicVerification": "editorial/verification/2026-11-08-two-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1574,6 +1576,18 @@
       "commit": "522f30650669bea470684c366b40efc34f10cd67",
       "publicVerification": "editorial/verification/2026-11-07-seven-publication.json",
       "note": "Explicit manual4evergreen+3Christmas request. All73 previous backlog records preserved; no unrelated candidate marked resolved by seasonal guides."
+    },
+    {
+      "batch": "2026-11-08",
+      "topicIds": [
+        "queretaro",
+        "padua"
+      ],
+      "type": "daily-two-researched-city-gaps",
+      "status": "published-verified",
+      "commit": "301fb044c4d6fd351868181fa7cc85c28b4e2dbc",
+      "publicVerification": "editorial/verification/2026-11-08-two-publication.json",
+      "note": "Two daily originals, not an extra manual batch. All73backlog records preserved; neither newcity duplicates an earlier destination or intent."
     }
   ]
 }

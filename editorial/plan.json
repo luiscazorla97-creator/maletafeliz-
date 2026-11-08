@@ -9312,7 +9312,7 @@
     ],
     "placeCount": 5,
     "intent": "queretaro-first-visit-five-places-practical-route",
-    "status": "planned",
+    "status": "published",
     "titles": {
       "es": "Qué ver en Querétaro: 5 lugares del centro y el Acueducto",
       "en": "Things to do in Querétaro: 5 places in the historic centre"
@@ -9322,13 +9322,20 @@
       "en": "things-to-do-queretaro-5-places"
     },
     "researchCandidates": [],
-    "researchStatus": "pending",
-    "imageStatus": "pending",
+    "researchStatus": "verified",
+    "imageStatus": "verified",
     "locales": {
-      "es": "pending",
-      "en": "pending"
+      "es": "published",
+      "en": "published"
     },
-    "differentiation": "Distinct new city, five individually documented places with practical walking route and entry decisions; no duplicate destination or intent in existing 182 originals."
+    "differentiation": "Distinct new city, five individually documented places with practical walking route and entry decisions; no duplicate destination or intent in existing 182 originals.",
+    "publiclyVerifiedAt": "2026-11-08T18:06:19.638638+00:00",
+    "publishedCommit": "301fb044c4d6fd351868181fa7cc85c28b4e2dbc",
+    "publicVerification": "editorial/verification/2026-11-08-two-publication.json",
+    "publicUrls": {
+      "es": "https://maletafeliz.com/es/guias/que-ver-en-queretaro-5-lugares/",
+      "en": "https://maletafeliz.com/en/guides/things-to-do-queretaro-5-places/"
+    }
   },
   {
     "id": "padua",
@@ -9349,7 +9356,7 @@
     ],
     "placeCount": 5,
     "intent": "padua-first-visit-five-places-practical-route",
-    "status": "planned",
+    "status": "published",
     "titles": {
       "es": "Qué ver en Padua: 5 lugares y cómo organizar las reservas",
       "en": "Things to do in Padua: 5 places and how to plan your visits"
@@ -9359,12 +9366,19 @@
       "en": "things-to-do-padua-5-places"
     },
     "researchCandidates": [],
-    "researchStatus": "pending",
-    "imageStatus": "pending",
+    "researchStatus": "verified",
+    "imageStatus": "verified",
     "locales": {
-      "es": "pending",
-      "en": "pending"
+      "es": "published",
+      "en": "published"
     },
-    "differentiation": "Distinct new city, five individually documented places with practical walking route and entry decisions; no duplicate destination or intent in existing 182 originals."
+    "differentiation": "Distinct new city, five individually documented places with practical walking route and entry decisions; no duplicate destination or intent in existing 182 originals.",
+    "publiclyVerifiedAt": "2026-11-08T18:06:19.638638+00:00",
+    "publishedCommit": "301fb044c4d6fd351868181fa7cc85c28b4e2dbc",
+    "publicVerification": "editorial/verification/2026-11-08-two-publication.json",
+    "publicUrls": {
+      "es": "https://maletafeliz.com/es/guias/que-ver-en-padua-5-lugares/",
+      "en": "https://maletafeliz.com/en/guides/things-to-do-padua-5-places/"
+    }
   }
 ]

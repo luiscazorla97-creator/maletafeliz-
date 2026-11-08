@@ -6,14 +6,24 @@ Verificado el 7 de noviembre de 2026 en America/New_York. Especificación vigent
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 175 guías originales y 350 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 785 registros de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 772 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 182 guías originales y 364 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 823 registros de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 801 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
 
 Registro histórico de la campaña de festividades: commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. El despliegue vigente y sus comprobaciones se detallan a continuación. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
+
+## Siete originales adicionales: 7 de noviembre de 2026
+
+Por pedido manual explícito se publicaron cuatro guías permanentes —Bolonia, Takayama, Puebla y cinco monumentos de Washington D. C.— y tres de Navidad: Verona, Fukuoka y Filadelfia. Son siete originales y catorce versiones completas ES/EN de 1.204–1.618 palabras, con títulos, slugs y metadatos localizados, itinerarios, FAQ y enlaces relacionados. Se leyeron 38 documentos oficiales y 29 licencias fotográficas específicas. Cada uno de los 29 lugares recomendados tiene su propia foto documental; se conservan los originales y 85 archivos WebP responsivos, dimensiones, ALT, créditos y hashes.
+
+Las guías resuelven decisiones concretas: salas reservadas y pórticos de Bolonia; mercado matinal y museo rural de Takayama; un paseo permanente por Puebla diferente del Día de Muertos; monumentos de Washington con distinción entre exterior, mirador y museo inferior. Las tres navideñas separan sedes, períodos, excepciones y actividades de pago. Tenjin cierra el 28–29 de noviembre; Kihinkan distingue mercado hasta las 22:00 y luces hasta medianoche. Filadelfia explicita la pausa de noviembre y los cierres festivos. La contradicción oficial de enero/febrero para el final de la pista de Dilworth queda declarada, sin presentar una fecha como confirmada. Las imágenes de archivo no simulan instalaciones de 2026; no se usaron imágenes generadas.
+
+Pasaron tipos y 68 pruebas unitarias, 28 de navegación y 72 de producción seleccionadas. GitHub Actions aprobó la batería completa del commit `522f30650669bea470684c366b40efc34f10cd67`: 68 unitarias, 28 de navegación y 772 de producción, 868 en total. La compilación obligatoria `npm run build:release` produjo 872 páginas. Se comprobaron 43775 enlaces/fragmentos, las 846 rutas HTML anteriores y las 350 versiones previas por texto, fechas y SEO, sin regresiones. Sitemap: 848 URLs, incluidas las 364 versiones. Se revisaron las catorce nuevas en escritorio y móvil, sus fotos, buscador, destinos, páginas de países, colección de Navidad, metadatos y selector de idioma.
+
+Ambos proyectos de Cloudflare completaron el mismo commit; 372 comprobaciones HTTPS del catálogo y 206 registros públicos del lote pasaron, junto con los 85 hashes fotográficos y las redirecciones www. Evidencia: `editorial/verification/2026-11-07-seven-publication.json`. Catálogo: 182 originales, 364 versiones, 801 fotos y 799 lugares documentados. Navidad: 53 originales, con los 50 anteriores conservados. Cobertura: Italia 17/30, Japón 15/25, México 13/25 y Estados Unidos 19/20: 64/100; faltan 36. No se modificaron diseño 3D, logo, publicidad, Analytics/consentimiento, popunder desactivado, SEO, configuración o frecuencia diaria. Se conservan reservas e inventarios: dos originales diarios previos y siete adicionales autorizados suman nueve en la fecha de Nueva York. No se afirma disparo desatendido ni resultados garantizados de tráfico o indexación.
 
 ## Dos originales nuevos: 7 de noviembre de 2026
 

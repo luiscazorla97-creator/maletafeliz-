@@ -1391,22 +1391,24 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-07T17:47:24.957251+00:00",
+    "verifiedAt": "2026-11-08T01:54:34.144313+00:00",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 15,
-        "localizedVersions": 30,
+        "publishedOriginals": 17,
+        "localizedVersions": 34,
         "targetOriginals": 30,
-        "missingOriginals": 15,
+        "missingOriginals": 13,
         "articleIds": [
           "amalfi-coast",
+          "bologna",
           "christmas-florence",
           "christmas-milan",
           "christmas-naples",
           "christmas-rome",
           "christmas-turin",
           "christmas-venice",
+          "christmas-verona",
           "florence",
           "lucca",
           "milan",
@@ -1419,11 +1421,12 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 13,
-        "localizedVersions": 26,
+        "publishedOriginals": 15,
+        "localizedVersions": 30,
         "targetOriginals": 25,
-        "missingOriginals": 12,
+        "missingOriginals": 10,
         "articleIds": [
+          "christmas-fukuoka",
           "christmas-osaka",
           "christmas-tokyo",
           "christmas-yokohama",
@@ -1436,15 +1439,16 @@
           "nara-day-trip-transport",
           "nikko",
           "osaka",
+          "takayama",
           "tokyo"
         ]
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 12,
-        "localizedVersions": 24,
+        "publishedOriginals": 13,
+        "localizedVersions": 26,
         "targetOriginals": 25,
-        "missingOriginals": 13,
+        "missingOriginals": 12,
         "articleIds": [
           "cancun",
           "guanajuato",
@@ -1456,22 +1460,24 @@
           "muertos-oaxaca",
           "muertos-puebla",
           "oaxaca",
+          "puebla",
           "riviera-maya",
           "san-miguel-de-allende"
         ]
       },
       {
         "countryId": "us",
-        "publishedOriginals": 17,
-        "localizedVersions": 34,
+        "publishedOriginals": 19,
+        "localizedVersions": 38,
         "targetOriginals": 20,
-        "missingOriginals": 3,
+        "missingOriginals": 1,
         "articleIds": [
           "buffalo",
           "christmas-boston",
           "christmas-chicago",
           "christmas-miami",
           "christmas-new-york",
+          "christmas-philadelphia",
           "christmas-san-francisco",
           "columbus",
           "greenville-sc",
@@ -1483,13 +1489,14 @@
           "miami",
           "new-york",
           "orlando",
-          "san-diego"
+          "san-diego",
+          "washington-dc"
         ]
       }
     ],
-    "priorityOriginals": 57,
-    "missingToInitial100": 43,
-    "publicVerification": "editorial/verification/2026-11-07-two-publication.json"
+    "priorityOriginals": 64,
+    "missingToInitial100": 36,
+    "publicVerification": "editorial/verification/2026-11-07-seven-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1551,6 +1558,22 @@
       "commit": "af30711eb7d83b7f5a5303b871b52240b2b9c3c1",
       "publicVerification": "editorial/verification/2026-11-07-two-publication.json",
       "note": "Daily2 execution. Siena resumes preserved preparation; Osaka-to-Nara guide answers a distinct transport/station decision and does not replace the existing Nara sightseeing article. Original backlog records retained, with the new scope documented here."
+    },
+    {
+      "batch": "2026-11-07-seven-manual",
+      "topicIds": [
+        "bologna",
+        "takayama",
+        "puebla",
+        "washington-dc",
+        "christmas-verona",
+        "christmas-fukuoka",
+        "christmas-philadelphia"
+      ],
+      "status": "published-verified",
+      "commit": "522f30650669bea470684c366b40efc34f10cd67",
+      "publicVerification": "editorial/verification/2026-11-07-seven-publication.json",
+      "note": "Explicit manual4evergreen+3Christmas request. All73 previous backlog records preserved; no unrelated candidate marked resolved by seasonal guides."
     }
   ]
 }

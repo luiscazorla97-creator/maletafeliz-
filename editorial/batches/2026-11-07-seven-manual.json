@@ -2,7 +2,7 @@
   "id": "2026-11-07-seven-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-08T00:45:24.028537+00:00",
-  "status": "reviewed-selected-for-release-not-public",
+  "status": "published",
   "topicIds": [
     "bologna",
     "takayama",
@@ -13,7 +13,7 @@
     "christmas-philadelphia"
   ],
   "requestedCount": 7,
-  "publishedCount": 0,
+  "publishedCount": 7,
   "errors": [],
   "priorSameDayPublishedTopicIds": [
     "siena",
@@ -29,12 +29,13 @@
   },
   "execution": {
     "executionId": "0507f3b0-419a-474f-836f-3d4a6cc9945c",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-08T00:45:24.028537+00:00",
-    "heartbeatAt": "2026-11-08T01:30:18.774509+00:00",
-    "leaseUntil": "2026-11-08T04:45:24.028537+00:00",
+    "heartbeatAt": "2026-11-08T01:54:34.144313+00:00",
+    "leaseUntil": "2026-11-08T01:54:34.144313+00:00",
     "baseCommit": "90526866a4acc584ec1704a24867c2dbb43b8233",
-    "coordination": "No other active lease. Completed daily two and all older batches/inventories preserved. Seven topics added to plan before inspecting reservation command reuse."
+    "coordination": "No other active lease. Completed daily two and all older batches/inventories preserved. Seven topics added to plan before inspecting reservation command reuse.",
+    "completedAt": "2026-11-08T01:54:34.144313+00:00"
   },
   "reservationCommand": {
     "command": [
@@ -48,5 +49,53 @@
   "documentaryPhotoCount": 29,
   "optimizedPhotoFiles": 85,
   "sourceCount": 38,
-  "reviewedAt": "2026-11-08T01:04:51.384Z"
+  "reviewedAt": "2026-11-08T01:04:51.384Z",
+  "publishedTopicIds": [
+    "bologna",
+    "takayama",
+    "puebla",
+    "washington-dc",
+    "christmas-verona",
+    "christmas-fukuoka",
+    "christmas-philadelphia"
+  ],
+  "verifiedTopicCount": 7,
+  "sameDayUniqueVerifiedTopics": [
+    "bologna",
+    "christmas-fukuoka",
+    "christmas-philadelphia",
+    "christmas-verona",
+    "nara-day-trip-transport",
+    "puebla",
+    "siena",
+    "takayama",
+    "washington-dc"
+  ],
+  "localizedVersionsPublished": 14,
+  "documentaryPhotosPublished": 29,
+  "citedSourceDocuments": 38,
+  "publishedCommit": "522f30650669bea470684c366b40efc34f10cd67",
+  "publiclyVerifiedAt": "2026-11-08T01:54:34.144313+00:00",
+  "publicVerification": "editorial/verification/2026-11-07-seven-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-bolonia-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-takayama-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-puebla-5-lugares/",
+      "https://maletafeliz.com/es/guias/washington-dc-5-monumentos-national-mall/",
+      "https://maletafeliz.com/es/guias/navidad-en-verona-2026/",
+      "https://maletafeliz.com/es/guias/navidad-en-fukuoka-2026/",
+      "https://maletafeliz.com/es/guias/navidad-en-filadelfia-2026/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-bologna-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-takayama-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-puebla-5-places/",
+      "https://maletafeliz.com/en/guides/washington-dc-5-national-mall-monuments/",
+      "https://maletafeliz.com/en/guides/christmas-in-verona-2026/",
+      "https://maletafeliz.com/en/guides/christmas-in-fukuoka-2026/",
+      "https://maletafeliz.com/en/guides/christmas-in-philadelphia-2026/"
+    ]
+  },
+  "inventoryNote": "Seven additional originals explicitly requested after the completed daily two: four evergreen and three Christmas. Original daily batch, all inventories and reservations preserved; no change to two/day noonMiami schedule."
 }

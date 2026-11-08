@@ -2,7 +2,7 @@
   "id": "2026-11-07-seven-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-08T00:45:24.028537+00:00",
-  "status": "reserved-not-generated",
+  "status": "reviewed-selected-for-release-not-public",
   "topicIds": [
     "bologna",
     "takayama",
@@ -31,7 +31,7 @@
     "executionId": "0507f3b0-419a-474f-836f-3d4a6cc9945c",
     "status": "active",
     "startedAt": "2026-11-08T00:45:24.028537+00:00",
-    "heartbeatAt": "2026-11-08T00:45:24.028537+00:00",
+    "heartbeatAt": "2026-11-08T01:30:18.774509+00:00",
     "leaseUntil": "2026-11-08T04:45:24.028537+00:00",
     "baseCommit": "90526866a4acc584ec1704a24867c2dbb43b8233",
     "coordination": "No other active lease. Completed daily two and all older batches/inventories preserved. Seven topics added to plan before inspecting reservation command reuse."
@@ -42,5 +42,11 @@
       "npm run editorial:batch -- 3"
     ],
     "note": "Repository command supports up to five and only one automatic date inventory. Inspect and preserve returned daily2; separate exclusive manual7 inventory for this explicit request."
-  }
+  },
+  "selectedCount": 7,
+  "localizedVersionCount": 14,
+  "documentaryPhotoCount": 29,
+  "optimizedPhotoFiles": 85,
+  "sourceCount": 38,
+  "reviewedAt": "2026-11-08T01:04:51.384Z"
 }

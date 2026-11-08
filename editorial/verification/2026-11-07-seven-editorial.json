@@ -1,0 +1,378 @@
+{
+  "reviewedAt": "2026-11-08T01:04:51.384Z",
+  "publicationLocalDate": "2026-11-07",
+  "timeZone": "America/New_York",
+  "authorization": {
+    "type": "explicit-four-regular-plus-three-christmas-additional",
+    "request": "sube 4 articulos nuevos y otros 3 de navidad",
+    "regularOriginals": 4,
+    "ChristmasOriginals": 3,
+    "dailyTargetUnchanged": 2,
+    "schedulerChanged": false
+  },
+  "topicIds": [
+    "bologna",
+    "takayama",
+    "puebla",
+    "washington-dc",
+    "christmas-verona",
+    "christmas-fukuoka",
+    "christmas-philadelphia"
+  ],
+  "versions": [
+    {
+      "id": "bologna",
+      "destinationId": "bologna",
+      "locale": "en",
+      "words": 1556,
+      "title": "Things to do in Bologna: 5 places, porticoes and San Luca",
+      "slug": "things-to-do-bologna-5-places",
+      "contentHash": "b1a5199ba4a3551c4cd925cc9dca72245dedc78862958c9913688772494974da",
+      "places": 5,
+      "sourceIds": [
+        "m7-bo-maggiore",
+        "m7-bo-petronio",
+        "m7-bo-archiginnasio",
+        "m7-bo-stefano",
+        "m7-bo-luca"
+      ],
+      "imageIds": [
+        "m7-bo-maggiore",
+        "m7-bo-petronio",
+        "m7-bo-archiginnasio",
+        "m7-bo-stefano",
+        "m7-bo-luca"
+      ]
+    },
+    {
+      "id": "bologna",
+      "destinationId": "bologna",
+      "locale": "es",
+      "words": 1618,
+      "title": "Qué ver en Bolonia: 5 lugares entre plazas, pórticos y San Luca",
+      "slug": "que-ver-en-bolonia-5-lugares",
+      "contentHash": "c98c5006de32c61758b8621e5154f24556f06d35b1504f122bfc1dbe519e288e",
+      "places": 5,
+      "sourceIds": [
+        "m7-bo-maggiore",
+        "m7-bo-petronio",
+        "m7-bo-archiginnasio",
+        "m7-bo-stefano",
+        "m7-bo-luca"
+      ],
+      "imageIds": [
+        "m7-bo-maggiore",
+        "m7-bo-petronio",
+        "m7-bo-archiginnasio",
+        "m7-bo-stefano",
+        "m7-bo-luca"
+      ]
+    },
+    {
+      "id": "christmas-fukuoka",
+      "destinationId": "christmas-fukuoka",
+      "locale": "en",
+      "words": 1204,
+      "title": "Christmas in Fukuoka 2026: Hakata, Tenjin and Kihinkan markets",
+      "slug": "christmas-in-fukuoka-2026",
+      "contentHash": "d0bb6795551d740fabac1b6ce8653b48db3b0e5a6af171d6881ae4f45835c9bd",
+      "places": 3,
+      "sourceIds": [
+        "m7-cf-hakata",
+        "m7-cf-tenjin",
+        "m7-cf-kihinkan",
+        "m7-cf-tourism"
+      ],
+      "imageIds": [
+        "m7-cf-hakata",
+        "m7-cf-cityhall",
+        "m7-cf-kihinkan"
+      ]
+    },
+    {
+      "id": "christmas-fukuoka",
+      "destinationId": "christmas-fukuoka",
+      "locale": "es",
+      "words": 1311,
+      "title": "Navidad en Fukuoka 2026: mercados de Hakata, Tenjin y Kihinkan",
+      "slug": "navidad-en-fukuoka-2026",
+      "contentHash": "30b6eda9acbfb83417a26856005f37988d537690af99d0b8dcd4113d205934b6",
+      "places": 3,
+      "sourceIds": [
+        "m7-cf-hakata",
+        "m7-cf-tenjin",
+        "m7-cf-kihinkan",
+        "m7-cf-tourism"
+      ],
+      "imageIds": [
+        "m7-cf-hakata",
+        "m7-cf-cityhall",
+        "m7-cf-kihinkan"
+      ]
+    },
+    {
+      "id": "christmas-philadelphia",
+      "destinationId": "christmas-philadelphia",
+      "locale": "en",
+      "words": 1227,
+      "title": "Christmas in Philadelphia 2026: markets, skating and city lights",
+      "slug": "christmas-in-philadelphia-2026",
+      "contentHash": "0d0be61ce3372457f46d9d864d7d752c68499e6eb78419af9d88e529b49b4ef3",
+      "places": 3,
+      "sourceIds": [
+        "m7-cp-market",
+        "m7-cp-dilworth",
+        "m7-cp-winter",
+        "m7-cp-rink",
+        "m7-cp-franklin",
+        "m7-cp-spectacle"
+      ],
+      "imageIds": [
+        "m7-cp-love",
+        "m7-cp-dilworth",
+        "m7-cp-franklin"
+      ]
+    },
+    {
+      "id": "christmas-philadelphia",
+      "destinationId": "christmas-philadelphia",
+      "locale": "es",
+      "words": 1337,
+      "title": "Navidad en Filadelfia 2026: mercados, hielo y luces del centro",
+      "slug": "navidad-en-filadelfia-2026",
+      "contentHash": "d814ce29028f902f6022fd475ab44af7106fd7d3142c677c4330e0e3ba924cc3",
+      "places": 3,
+      "sourceIds": [
+        "m7-cp-market",
+        "m7-cp-dilworth",
+        "m7-cp-winter",
+        "m7-cp-rink",
+        "m7-cp-franklin",
+        "m7-cp-spectacle"
+      ],
+      "imageIds": [
+        "m7-cp-love",
+        "m7-cp-dilworth",
+        "m7-cp-franklin"
+      ]
+    },
+    {
+      "id": "christmas-verona",
+      "destinationId": "verona",
+      "locale": "en",
+      "words": 1228,
+      "title": "Christmas in Verona 2026: markets, dates and three squares",
+      "slug": "christmas-in-verona-2026",
+      "contentHash": "affff644c7bbec058e0eacc0ae33f0b4e12624882d3ee4aca85c6a6f3ec88d50",
+      "places": 3,
+      "sourceIds": [
+        "m7-cv-market",
+        "m7-cv-bra-place",
+        "m7-cv-signori-place",
+        "m7-cv-arsenale-place"
+      ],
+      "imageIds": [
+        "m7-cv-bra",
+        "m7-cv-signori",
+        "m7-cv-arsenale"
+      ]
+    },
+    {
+      "id": "christmas-verona",
+      "destinationId": "verona",
+      "locale": "es",
+      "words": 1329,
+      "title": "Navidad en Verona 2026: mercados, fechas y ruta por tres plazas",
+      "slug": "navidad-en-verona-2026",
+      "contentHash": "8d0739f5470a5037848017ee060e156f88ffcffb0d79b2a05e2d7af7a9df2bba",
+      "places": 3,
+      "sourceIds": [
+        "m7-cv-market",
+        "m7-cv-bra-place",
+        "m7-cv-signori-place",
+        "m7-cv-arsenale-place"
+      ],
+      "imageIds": [
+        "m7-cv-bra",
+        "m7-cv-signori",
+        "m7-cv-arsenale"
+      ]
+    },
+    {
+      "id": "puebla",
+      "destinationId": "puebla",
+      "locale": "en",
+      "words": 1372,
+      "title": "Things to do in Puebla: 5 historic centre places to walk between",
+      "slug": "things-to-do-puebla-5-places",
+      "contentHash": "68abd6844b873abcd3a05228564bd156cf0f0c9d62396ced1741a066510103f0",
+      "places": 5,
+      "sourceIds": [
+        "m7-pu-unesco",
+        "m7-pu-library-national",
+        "m7-pu-rosario",
+        "m7-pu-amparo-visit",
+        "m7-pu-amparo-terrace",
+        "m7-pu-walk-pdf"
+      ],
+      "imageIds": [
+        "m7-pu-cathedral",
+        "m7-pu-library",
+        "m7-pu-rosario",
+        "m7-pu-amparo",
+        "m7-pu-sapos"
+      ]
+    },
+    {
+      "id": "puebla",
+      "destinationId": "puebla",
+      "locale": "es",
+      "words": 1545,
+      "title": "Qué ver en Puebla: 5 lugares del centro histórico para ir a pie",
+      "slug": "que-ver-en-puebla-5-lugares",
+      "contentHash": "9f7afd2051bd39b59d4f7d3678bb459c3f58c3db76ea6c8134b11ccee5034cc7",
+      "places": 5,
+      "sourceIds": [
+        "m7-pu-unesco",
+        "m7-pu-library-national",
+        "m7-pu-rosario",
+        "m7-pu-amparo-visit",
+        "m7-pu-amparo-terrace",
+        "m7-pu-walk-pdf"
+      ],
+      "imageIds": [
+        "m7-pu-cathedral",
+        "m7-pu-library",
+        "m7-pu-rosario",
+        "m7-pu-amparo",
+        "m7-pu-sapos"
+      ]
+    },
+    {
+      "id": "takayama",
+      "destinationId": "takayama",
+      "locale": "en",
+      "words": 1448,
+      "title": "Things to do in Takayama: 5 places, markets and traditional houses",
+      "slug": "things-to-do-takayama-5-places",
+      "contentHash": "0579227d80998d30c05bc9491becf752a3642dc11e0489acb36c26adea64cf3f",
+      "places": 5,
+      "sourceIds": [
+        "m7-ta-sanmachi",
+        "m7-ta-government",
+        "m7-ta-miyagawa",
+        "m7-ta-village",
+        "m7-ta-shrine",
+        "m7-ta-tour"
+      ],
+      "imageIds": [
+        "m7-ta-old",
+        "m7-ta-jinya",
+        "m7-ta-market",
+        "m7-ta-village",
+        "m7-ta-shrine"
+      ]
+    },
+    {
+      "id": "takayama",
+      "destinationId": "takayama",
+      "locale": "es",
+      "words": 1578,
+      "title": "Qué ver en Takayama: 5 lugares entre mercados y casas tradicionales",
+      "slug": "que-ver-en-takayama-5-lugares",
+      "contentHash": "ed07c079f78db284f1f07718aae44b80797940eae0a08ca07fc9e20af177b60c",
+      "places": 5,
+      "sourceIds": [
+        "m7-ta-sanmachi",
+        "m7-ta-government",
+        "m7-ta-miyagawa",
+        "m7-ta-village",
+        "m7-ta-shrine",
+        "m7-ta-tour"
+      ],
+      "imageIds": [
+        "m7-ta-old",
+        "m7-ta-jinya",
+        "m7-ta-market",
+        "m7-ta-village",
+        "m7-ta-shrine"
+      ]
+    },
+    {
+      "id": "washington-dc",
+      "destinationId": "washington-dc",
+      "locale": "en",
+      "words": 1394,
+      "title": "Washington, DC: 5 National Mall monuments and how to visit",
+      "slug": "washington-dc-5-national-mall-monuments",
+      "contentHash": "d0db8ae7449627a5923db5743041960e742b41c778468d3333d495efed0d6411",
+      "places": 5,
+      "sourceIds": [
+        "m7-dc-washington",
+        "m7-dc-ww2",
+        "m7-dc-lincoln",
+        "m7-dc-mlk",
+        "m7-dc-mlk-history",
+        "m7-dc-jefferson",
+        "m7-dc-general"
+      ],
+      "imageIds": [
+        "m7-dc-washington",
+        "m7-dc-ww",
+        "m7-dc-lincoln",
+        "m7-dc-mlk",
+        "m7-dc-jefferson"
+      ]
+    },
+    {
+      "id": "washington-dc",
+      "destinationId": "washington-dc",
+      "locale": "es",
+      "words": 1560,
+      "title": "Washington D. C.: 5 monumentos del National Mall y cómo recorrerlos",
+      "slug": "washington-dc-5-monumentos-national-mall",
+      "contentHash": "34b0f6e1213734af3bc5d71ad84f3350f81c63f63484586b823d39e08de27091",
+      "places": 5,
+      "sourceIds": [
+        "m7-dc-washington",
+        "m7-dc-ww2",
+        "m7-dc-lincoln",
+        "m7-dc-mlk",
+        "m7-dc-mlk-history",
+        "m7-dc-jefferson",
+        "m7-dc-general"
+      ],
+      "imageIds": [
+        "m7-dc-washington",
+        "m7-dc-ww",
+        "m7-dc-lincoln",
+        "m7-dc-mlk",
+        "m7-dc-jefferson"
+      ]
+    }
+  ],
+  "citedOfficialDocuments": 38,
+  "documentaryPhotos": 29,
+  "optimizedPhotoFiles": 85,
+  "previousCompleteVersionsCompared": 350,
+  "checks": {
+    "actualSourceBodiesRead": true,
+    "shortExcerptsAndCaptureHashes": true,
+    "specificPhotographLicencesAndDeedsRead": true,
+    "originalsRetainedAndServedImagesReviewed": true,
+    "bilingualFactsAligned": true,
+    "allPlacePhotosMatched": true,
+    "noExactParagraphDuplicates": true,
+    "relatedGuidesExistBothLanguages": true
+  },
+  "notes": [
+    "Codex bilingual editorial self-review; no independent human reviewer is claimed. Both full manuscripts read for factual parity, natural language, useful choices, localized titles/slugs/descriptions and relevant internal links. Four evergreen originals plus three explicitly requested Christmas originals, not an additional automatic daily execution.",
+    "All38 cited primary-source captures actually read, HTTP200, finalURL/timestamp/SHA256 retained with short locating excerpts. Captured503s and failed INAH request excluded; thin municipal pages, Matsumoto candidate mismatch, older price tables and conflicting seasonal pages are not used as operational proof. Puebla municipal65pagePDF actually text-extracted and relevant chapters read; older guide is cultural context, not live market hours.",
+    "Bologna distinguishes square/building access, San Petronio chapel tickets, Archiginnasio booked rooms versus research-only library and uphill SanLuca. Takayama separates morning market, Jinya admission, shrine/festival and HidaFolkVillage, with no old price or Shirakawago photo substitution. Puebla evergreen city walk differs from existing DayoftheDead regional events; documentary versus WorldHeritage recognition and museum Tuesdayclosure clear.",
+    "Washington distinguishes timed monument elevator, Lincoln free chamber versus ticketed lowerlevelmuseum, outdoor memorials versus facilities and seasonal fountains. Historical wording and unverified exact operations, fares and programmes are not copied. Route organisation is editorial, not a guaranteed timed connection.",
+    "Christmas calendars individually checked. Verona2026organiserhomepage20Nov–27Dec and21Novceremony distinguished; conflicting older21Nov–28Declogistics/shuttle promises excluded, rinkcalendar not inferred. Fukuoka3 venues, Tenjin28–29Novclosures and Kihinkan22market/24lights distinguished. Philadelphia23–25Novpause,ChristmasDay/Thanksgivingclosures and paidrink versus freeshow distinguished. Actual official rink January/Februaryend-date conflict visibly retained as uncertainty, not falsely resolved.",
+    "All29 recommended places have their own relevant documentary photo, original bytes and SHA256, optimized responsive derivatives, bilingualALT, dimensions, exact title/creator/source/licence/change credit. Specific Flickr/Commons permissions and corresponding CCdeeds read; all29 served photos visually reviewed. Publicgeo is corroboration, sometimes coarse, not sole identity proof. NC/ND/all-rights-reserved candidates not used. CommonsCityHallENEview is labelled as opposite side to westsideevent, KihinkanAugust2017 and Franklinfountain2013 images explicitly nonseasonal. No generated imagery or false2026event photograph.",
+    "Original paragraph review and exact duplicate comparison against350 previous versions and all14 manuscripts; no article copies, claimed personal visits, fabricated demand/rankings, traffic or indexing guarantees. Every selected related article exists in both languages, including the two new linked topics approved in the same release.",
+    "All previous source/article/date/review/photo/URL blobs and implementation preserved. App/design3D, logos, advertising IDs/scripts/slots/dimensions, Analytics/consent, popunderdisabled, sitemap/SEO rules, schedule, DNS and existing Cloudflare projects unchanged. Local published only selects for compilation; buildrelease, both exact-source deployments and public checks remain mandatory."
+  ]
+}

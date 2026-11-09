@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-08-two-manual",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-09T03:07:49.746384+00:00",
+  "status": "reviewed-selected-for-release-not-public",
+  "topicIds": [
+    "sapporo",
+    "new-orleans"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "priorSameDayPublishedTopicIds": [
+    "padua",
+    "queretaro"
+  ],
+  "authorization": {
+    "type": "explicit-new-manual-two-originals-after-completed-daily-batch",
+    "request": "publica 2 articulos nuevos",
+    "interpretation": "New direct request after the completed two-guide reply; two additional original themes, not a repeated scheduled execution. This interpretation stated to the user before research and reservation.",
+    "dailyTargetUnchanged": 2,
+    "schedulerChanged": false
+  },
+  "execution": {
+    "executionId": "71bb7f2f-c2a9-49f8-9bc9-89d519a927ae",
+    "status": "active",
+    "startedAt": "2026-11-09T03:07:49.746384+00:00",
+    "heartbeatAt": "2026-11-09T03:42:25.140258+00:00",
+    "leaseUntil": "2026-11-09T07:07:49.746384+00:00",
+    "baseCommit": "264927a98e36f15aef8d2f6ea17e8a4281b03ddd",
+    "coordination": "No other active batch. Both prior same-day originals counted and their batch/inventory preserved. Plan extended before inspecting reservation-command reuse."
+  },
+  "reservationCommand": {
+    "command": "npm run editorial:batch -- 2",
+    "reusedDailyBatch": "2026-11-08",
+    "dailyInventoryPreserved": true,
+    "manualInventoryCreatedExclusively": true
+  },
+  "selectedCount": 2,
+  "localizedVersionCount": 4,
+  "documentaryPhotoCount": 10,
+  "optimizedPhotoFiles": 29,
+  "sourceCount": 16,
+  "reviewedAt": "2026-11-09T03:23:48.707Z"
+}

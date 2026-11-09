@@ -1,0 +1,142 @@
+{
+  "reviewedAt": "2026-11-09T03:23:48.707Z",
+  "publicationLocalDate": "2026-11-08",
+  "timeZone": "America/New_York",
+  "topicIds": [
+    "sapporo",
+    "new-orleans"
+  ],
+  "versions": [
+    {
+      "id": "new-orleans",
+      "destinationId": "new-orleans",
+      "locale": "en",
+      "words": 1586,
+      "title": "Things to do in New Orleans: 5 places by neighbourhood",
+      "slug": "things-to-do-new-orleans-5-places",
+      "contentHash": "91b31050692925d4a4f07e603df2d9f34d38bde8a0af47bfeeca8523ee647bfe",
+      "places": 5,
+      "sourceIds": [
+        "m8-no-jackson",
+        "m8-no-market",
+        "m8-no-citypark",
+        "m8-no-audubon",
+        "m8-no-audubon-nps",
+        "m8-no-museum",
+        "m8-no-museum-route",
+        "m8-no-rta",
+        "m8-no-museum-about"
+      ],
+      "imageIds": [
+        "m8-no-jackson",
+        "m8-no-market",
+        "m8-no-museum",
+        "m8-no-citypark",
+        "m8-no-audubon"
+      ]
+    },
+    {
+      "id": "new-orleans",
+      "destinationId": "new-orleans",
+      "locale": "es",
+      "words": 1698,
+      "title": "Qué ver en Nueva Orleans: 5 lugares por barrios",
+      "slug": "que-ver-en-nueva-orleans-5-lugares",
+      "contentHash": "4747c89542c2c716de3b59bbaaef8f8db0033de5ffbdba0c695d4a893cbbbb5b",
+      "places": 5,
+      "sourceIds": [
+        "m8-no-jackson",
+        "m8-no-market",
+        "m8-no-citypark",
+        "m8-no-audubon",
+        "m8-no-audubon-nps",
+        "m8-no-museum",
+        "m8-no-museum-route",
+        "m8-no-rta",
+        "m8-no-museum-about"
+      ],
+      "imageIds": [
+        "m8-no-jackson",
+        "m8-no-market",
+        "m8-no-museum",
+        "m8-no-citypark",
+        "m8-no-audubon"
+      ]
+    },
+    {
+      "id": "sapporo",
+      "destinationId": "sapporo",
+      "locale": "en",
+      "words": 1529,
+      "title": "Things to do in Sapporo: 5 places and routes by area",
+      "slug": "things-to-do-sapporo-5-places",
+      "contentHash": "1e946de17ffd06e42371a6d6c026945a00e2ecbabeec1b35f53ab403009bc481",
+      "places": 5,
+      "sourceIds": [
+        "m8-sp-odori-operator",
+        "m8-sp-clock",
+        "m8-sp-redbrick",
+        "m8-sp-redbrick-live",
+        "m8-sp-moiwa",
+        "m8-sp-ropeway",
+        "m8-sp-village"
+      ],
+      "imageIds": [
+        "m8-sp-odori",
+        "m8-sp-clock",
+        "m8-sp-redbrick",
+        "m8-sp-moiwa",
+        "m8-sp-village"
+      ]
+    },
+    {
+      "id": "sapporo",
+      "destinationId": "sapporo",
+      "locale": "es",
+      "words": 1681,
+      "title": "Qué ver en Sapporo: 5 lugares y rutas por zonas",
+      "slug": "que-ver-en-sapporo-5-lugares",
+      "contentHash": "cf09792c32a0db2a1a03fa10e2e16d4ad16d6b0ec385e2f260987d8964559112",
+      "places": 5,
+      "sourceIds": [
+        "m8-sp-odori-operator",
+        "m8-sp-clock",
+        "m8-sp-redbrick",
+        "m8-sp-redbrick-live",
+        "m8-sp-moiwa",
+        "m8-sp-ropeway",
+        "m8-sp-village"
+      ],
+      "imageIds": [
+        "m8-sp-odori",
+        "m8-sp-clock",
+        "m8-sp-redbrick",
+        "m8-sp-moiwa",
+        "m8-sp-village"
+      ]
+    }
+  ],
+  "citedOfficialDocuments": 16,
+  "documentaryPhotos": 10,
+  "optimizedPhotoFiles": 29,
+  "previousCompleteVersionsCompared": 368,
+  "checks": {
+    "actualSourceBodiesRead": true,
+    "shortExcerptsAndCaptureHashes": true,
+    "specificPhotographLicencesAndDeedsRead": true,
+    "originalsRetainedAndServedImagesReviewed": true,
+    "bilingualFactsAligned": true,
+    "allPlacePhotosMatched": true,
+    "noExactParagraphDuplicates": true,
+    "relatedGuidesExistBothLanguages": true
+  },
+  "notes": [
+    "Codex bilingual editorial self-review (AI-assisted), with no independent human reviewer claimed. Four complete manuscripts read for natural language, factual parity, useful five-place scope, localized titles/slugs/descriptions, route choices, FAQ and existing internal links. Sapporo and NewOrleans are absent from the earlier184originals. Both drafts compared against368previous complete versions; no exact paragraph copies or claimed personal visits.",
+    "All16 cited official-source passages read and checked against retained bodies. UTCcapture times, finalURLs, HTTP200, responseSHA256, concrete facts and short locating excerpts preserved. Failed RTAcandidate404 retained and excluded; corrected official landingpage separately captured. InitialKamakura proposal excluded after KotokuinFAQ explicitly required an application for reusing existing images. No permission request or third-party message sent.",
+    "Sapporo separates three central stops from Moiwa and the outdoorHistoricalVillage. ClockTower1878building/1881clock and historical2018/2019closure notices distinguished. RedBrickcurrentoperator used for admission and domebooking, with old2025inspection exception excluded. Moiwacablemaintenance29March–28April2027 is distinct from touristroad winterclosure21November2026 onward and weather interruptions. No promised snowfall, view, summitdrive or festivalcalendar.",
+    "HistoricalVillage is a museum of52restored/reconstructed buildings, not an intacthistoriccity or a currentJRstation. Its entrance is a four-fifths replica. October–AprilMondayholidayexceptions and lastentry versus closing are preserved. ShinSapporo is distinct fromSapporoStation; no oldbusfare or guaranteedconnection copied. Japaneseoperator9Novemberlocalnotices were genuinely accessible during8NovemberNewYork research, with no invented future consultation.",
+    "NewOrleans separates FrenchQuarter, Arts/Warehouse, CityPark andUptown. JacksonSquaregarden hours do not apply to surroundingstreets. FrenchMarketbody/footerhourconflict visibly qualified without selecting an unsupportedclosingtime. Museumgeneraladmission versus twoadd-ons, private nonprofit status and nationalparkpass exclusion checked, with allfourlistedholidayclosures includingChristmasEve. Parkgrounds versus paidattractions and Audubon versusCityPark distinguished. No rankings, fabricated demand, public-safety guarantees or unverified transport fares/frequencies.",
+    "All10 individually recommended places have appropriate documentary images with actual downloaded originals, dimensions, SHA256,29optimized responsive derivatives, bilingualALT and exact title/creator/source/licence/change credits. SpecificFlickrpermissions and bothCC2.0deeds read. All optimizedrenditions visually inspected. Clockphoto is exterior; WWIIimage is explicitly2011andRedBrickimage predatesrenovation. Villageimage shows the reconstructedstation, not downtownSapporo. Coarse or inconsistentpublicgeo is not sole identity proof; title,captionandarchitecture were also checked. Rejected sky/gammaeditedOdori candidate notserved. No generated images.",
+    "Only two new originals in this explicitmanual request. The earlierverified8Novemberdaily2 and its reservation/inventory remain intact; totalfirstpublications today will be4 only after thismanualpair is publiclyverified. No scheduler or frequency change. All368priorarticleversions/texts/dates/reviews/URLs,811photoentries/assets,184topicentries and application/design3D/logo/advertising/Analytics/consent/SEOconfig preserved. Localpublished remains selection for compilation, with mandatorybuilds, exact-source deployments and publicchecks stillrequired."
+  ]
+}

@@ -1391,7 +1391,7 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-08T18:06:19.638638+00:00",
+    "verifiedAt": "2026-11-09T04:06:33.609483+00:00",
     "countries": [
       {
         "countryId": "it",
@@ -1422,10 +1422,10 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 15,
-        "localizedVersions": 30,
+        "publishedOriginals": 16,
+        "localizedVersions": 32,
         "targetOriginals": 25,
-        "missingOriginals": 10,
+        "missingOriginals": 9,
         "articleIds": [
           "christmas-fukuoka",
           "christmas-osaka",
@@ -1440,6 +1440,7 @@
           "nara-day-trip-transport",
           "nikko",
           "osaka",
+          "sapporo",
           "takayama",
           "tokyo"
         ]
@@ -1469,10 +1470,10 @@
       },
       {
         "countryId": "us",
-        "publishedOriginals": 19,
-        "localizedVersions": 38,
+        "publishedOriginals": 20,
+        "localizedVersions": 40,
         "targetOriginals": 20,
-        "missingOriginals": 1,
+        "missingOriginals": 0,
         "articleIds": [
           "buffalo",
           "christmas-boston",
@@ -1489,6 +1490,7 @@
           "las-vegas",
           "los-angeles",
           "miami",
+          "new-orleans",
           "new-york",
           "orlando",
           "san-diego",
@@ -1496,9 +1498,9 @@
         ]
       }
     ],
-    "priorityOriginals": 66,
-    "missingToInitial100": 34,
-    "publicVerification": "editorial/verification/2026-11-08-two-publication.json"
+    "priorityOriginals": 68,
+    "missingToInitial100": 32,
+    "publicVerification": "editorial/verification/2026-11-08-manual-two-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1588,6 +1590,18 @@
       "commit": "301fb044c4d6fd351868181fa7cc85c28b4e2dbc",
       "publicVerification": "editorial/verification/2026-11-08-two-publication.json",
       "note": "Two daily originals, not an extra manual batch. All73backlog records preserved; neither newcity duplicates an earlier destination or intent."
+    },
+    {
+      "batch": "2026-11-08-two-manual",
+      "topicIds": [
+        "sapporo",
+        "new-orleans"
+      ],
+      "type": "explicit-new-manual-two-originals",
+      "status": "published-verified",
+      "commit": "95b3a12d7e40236ce647bed09c412cf02af1cca9",
+      "publicVerification": "editorial/verification/2026-11-08-manual-two-publication.json",
+      "note": "Two new topics requested after completed daily2, with interpretation stated before work. Prior184originals and73backlog records preserved; no frequency change."
     }
   ]
 }

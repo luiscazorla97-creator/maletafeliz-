@@ -9400,7 +9400,7 @@
     ],
     "placeCount": 5,
     "intent": "sapporo-first-visit-five-places-by-area",
-    "status": "planned",
+    "status": "published",
     "titles": {
       "es": "Qué ver en Sapporo: 5 lugares y rutas por zonas",
       "en": "Things to do in Sapporo: 5 places and routes by area"
@@ -9410,13 +9410,20 @@
       "en": "things-to-do-sapporo-5-places"
     },
     "researchCandidates": [],
-    "researchStatus": "pending",
-    "imageStatus": "pending",
+    "researchStatus": "verified",
+    "imageStatus": "verified",
     "locales": {
-      "es": "pending",
-      "en": "pending"
+      "es": "published",
+      "en": "published"
     },
-    "differentiation": "New distinct city absent from184originals; practical five-place route across central and outlying areas. No unsupported search-volume or traffic claims."
+    "differentiation": "New distinct city absent from184originals; practical five-place route across central and outlying areas. No unsupported search-volume or traffic claims.",
+    "publiclyVerifiedAt": "2026-11-09T04:06:33.609483+00:00",
+    "publishedCommit": "95b3a12d7e40236ce647bed09c412cf02af1cca9",
+    "publicVerification": "editorial/verification/2026-11-08-manual-two-publication.json",
+    "publicUrls": {
+      "es": "https://maletafeliz.com/es/guias/que-ver-en-sapporo-5-lugares/",
+      "en": "https://maletafeliz.com/en/guides/things-to-do-sapporo-5-places/"
+    }
   },
   {
     "id": "new-orleans",
@@ -9437,7 +9444,7 @@
     ],
     "placeCount": 5,
     "intent": "new-orleans-first-visit-five-places-by-area",
-    "status": "planned",
+    "status": "published",
     "titles": {
       "es": "Qué ver en Nueva Orleans: 5 lugares por barrios",
       "en": "Things to do in New Orleans: 5 places by neighbourhood"
@@ -9447,12 +9454,19 @@
       "en": "things-to-do-new-orleans-5-places"
     },
     "researchCandidates": [],
-    "researchStatus": "pending",
-    "imageStatus": "pending",
+    "researchStatus": "verified",
+    "imageStatus": "verified",
     "locales": {
-      "es": "pending",
-      "en": "pending"
+      "es": "published",
+      "en": "published"
     },
-    "differentiation": "New distinct city absent from184originals; practical five-place route across central and outlying areas. No unsupported search-volume or traffic claims."
+    "differentiation": "New distinct city absent from184originals; practical five-place route across central and outlying areas. No unsupported search-volume or traffic claims.",
+    "publiclyVerifiedAt": "2026-11-09T04:06:33.609483+00:00",
+    "publishedCommit": "95b3a12d7e40236ce647bed09c412cf02af1cca9",
+    "publicVerification": "editorial/verification/2026-11-08-manual-two-publication.json",
+    "publicUrls": {
+      "es": "https://maletafeliz.com/es/guias/que-ver-en-nueva-orleans-5-lugares/",
+      "en": "https://maletafeliz.com/en/guides/things-to-do-new-orleans-5-places/"
+    }
   }
 ]

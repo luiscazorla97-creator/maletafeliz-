@@ -85,3 +85,7 @@ El 7 de noviembre se verificaron Bolonia, Takayama, Puebla y Washington D. C., m
 ## Dos ciudades nuevas, 8 de noviembre de 2026
 
 Verificadas Querétaro y Padua, dos originales diarios y cuatro versiones, con cinco lugares y foto documental individual por guía. Consultas nuevas de ciudades ausentes del catálogo; se conserva el backlog de 73 candidatos y todo el contenido anterior. Cobertura: Italia 18/30, Japón 15/25, México 14/25 y Estados Unidos 19/20: 66/100, faltan 34. Catálogo: 184 originales/368 versiones; Navidad: 53 originales anteriores conservados. Ambos proyectos, las cuatro URLs, imágenes, descubrimiento interno y SEO verificados. La tarea de dos originales a las 12:00 de Miami no cambia. Evidencia: `editorial/verification/2026-11-08-two-publication.json`.
+
+## Dos originales manuales adicionales: Sapporo y Nueva Orleans
+
+El 8 de noviembre se verificaron dos originales nuevos y cuatro versiones por el nuevo pedido directo posterior a la tanda diaria. No cambia la programación: se conserva el lote previo y se cuentan cuatro originales únicos del día de Nueva York. Diez lugares con foto documental propia, dieciséis documentos oficiales y veintinueve variantes optimizadas. Cobertura: Italia 18/30, Japón 16/25, México 14/25 y Estados Unidos 20/20: 68/100, faltan 32. Catálogo: 186 originales/372 versiones; los 53 de Navidad y el backlog de 73 candidatos se conservan. Ambos proyectos, las cuatro URLs, fotos y SEO verificados. Evidencia: `editorial/verification/2026-11-08-manual-two-publication.json`.

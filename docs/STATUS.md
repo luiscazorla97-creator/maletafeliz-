@@ -6,14 +6,26 @@ Verificado el 8 de noviembre de 2026 en America/New_York. Especificación vigent
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 184 guías originales y 368 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 840 registros de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 811 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 186 guías originales y 372 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 856 registros de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 821 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.
 
 Registro histórico de la campaña de festividades: commit `f2144ca1cb32dc36dfb91ea88c9452d336f529b9`. El despliegue vigente y sus comprobaciones se detallan a continuación. Los dos builds de Cloudflare terminaron correctamente. Se verificaron 98 rutas públicas y redirecciones, los dos índices de festividades y 114 variantes de fotografías nuevas por sus bytes exactos: 214 registros HTTP. Evidencia: `editorial/verification/2026-10-30-seasonal.json`.
+
+## Dos originales manuales adicionales: 8 de noviembre de 2026
+
+Publicadas Sapporo y Nueva Orleans por el nuevo pedido directo «publica 2 articulos nuevos», posterior a la respuesta que confirmó la tanda diaria. La interpretación como dos adicionales se comunicó antes de investigar y reservar. Se conservaron el lote diario de Querétaro/Padua y los demás inventarios. Son cuatro originales únicos verificados hoy en Nueva York, con frecuencia de dos al mediodía de Miami y tarea externa intactas.
+
+Las cuatro versiones completas ES/EN tienen cinco lugares desarrollados cada una, títulos y slugs localizados, metadatos, rutas por zonas, FAQ y enlaces relacionados. Se leyeron 16 documentos oficiales y 10 licencias fotográficas individuales. Los diez originales documentales se conservan con hashes; se sirven 29 archivos WebP responsivos con dimensiones, crédito, licencia y ALT bilingüe. Las versiones tienen 1529–1698 palabras útiles. No se usaron imágenes generadas.
+
+Sapporo distingue la visita central, Moiwa y la Villa Histórica; advierte calendarios separados de carretera y transporte por cable, reservas de cúpula y arquitectura reconstruida. Las clausuras antiguas de 2018/2019 y la inspección de 2025 no se presentan como cierres de 2026. Nueva Orleans agrupa barrios y diferencia entradas del museo, atracciones y parques, y los cuatro festivos de cierre, incluida Nochebuena. La contradicción de horarios del French Market queda explícita. Se retuvo un 404 y se excluyó la propuesta de Kamakura al leer que la reutilización de imágenes de Kotokuin exige una solicitud; no se enviaron mensajes ni se eludieron restricciones.
+
+Pasaron tipos, 68 pruebas unitarias, 28 de navegación y 52 de producción pertinentes. GitHub Actions completó el commit `95b3a12d7e40236ce647bed09c412cf02af1cca9` con 68 unitarias, 28 de navegación y 788 de producción: 884 pruebas aprobadas. Ambas compilaciones, incluida `npm run build:release`, generaron 888 páginas. Se comprobaron 44623 enlaces/fragmentos, las 880 rutas HTML anteriores y los 368 artículos previos por texto, fechas y metadatos, sin regresiones. Sitemap: 864 URLs. Se revisaron las cuatro versiones en escritorio/móvil, fotos, búsqueda, destinos, países, portada, Navidad, canonical, hreflang y Article JSON-LD.
+
+Ambos proyectos completaron el mismo commit, con checkout real confirmado en sus registros. Pasaron 380 comprobaciones HTTPS del catálogo y 80 registros públicos del lote, incluidos los 29 archivos fotográficos y las cuatro redirecciones www. Evidencia: `editorial/verification/2026-11-08-manual-two-publication.json`. Catálogo: 186 originales, 372 versiones, 821 fotos y 819 lugares fotografiados. Los 53 originales de Navidad se conservan. Cobertura: Italia 18/30, Japón 16/25, México 14/25 y Estados Unidos 20/20: 68/100; faltan 32. Todo el diseño, publicidad, Analytics/consentimiento, popunder desactivado, configuración SEO, artículos, fechas, fotos y backlog previos permanecen íntegros. No se afirma tráfico, indexación ni disparo desatendido garantizados.
 
 ## Dos originales nuevos: 8 de noviembre de 2026
 

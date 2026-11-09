@@ -2,13 +2,13 @@
   "id": "2026-11-08-two-manual",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-09T03:07:49.746384+00:00",
-  "status": "reviewed-selected-for-release-not-public",
+  "status": "published",
   "topicIds": [
     "sapporo",
     "new-orleans"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "priorSameDayPublishedTopicIds": [
     "padua",
@@ -23,12 +23,13 @@
   },
   "execution": {
     "executionId": "71bb7f2f-c2a9-49f8-9bc9-89d519a927ae",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-09T03:07:49.746384+00:00",
-    "heartbeatAt": "2026-11-09T03:42:25.140258+00:00",
-    "leaseUntil": "2026-11-09T07:07:49.746384+00:00",
+    "heartbeatAt": "2026-11-09T04:06:33.609483+00:00",
+    "leaseUntil": "2026-11-09T04:06:33.609483+00:00",
     "baseCommit": "264927a98e36f15aef8d2f6ea17e8a4281b03ddd",
-    "coordination": "No other active batch. Both prior same-day originals counted and their batch/inventory preserved. Plan extended before inspecting reservation-command reuse."
+    "coordination": "No other active batch. Both prior same-day originals counted and their batch/inventory preserved. Plan extended before inspecting reservation-command reuse.",
+    "completedAt": "2026-11-09T04:06:33.609483+00:00"
   },
   "reservationCommand": {
     "command": "npm run editorial:batch -- 2",
@@ -41,5 +42,33 @@
   "documentaryPhotoCount": 10,
   "optimizedPhotoFiles": 29,
   "sourceCount": 16,
-  "reviewedAt": "2026-11-09T03:23:48.707Z"
+  "reviewedAt": "2026-11-09T03:23:48.707Z",
+  "publishedTopicIds": [
+    "sapporo",
+    "new-orleans"
+  ],
+  "verifiedTopicCount": 2,
+  "sameDayUniqueVerifiedTopics": [
+    "new-orleans",
+    "padua",
+    "queretaro",
+    "sapporo"
+  ],
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "citedSourceDocuments": 16,
+  "publishedCommit": "95b3a12d7e40236ce647bed09c412cf02af1cca9",
+  "publiclyVerifiedAt": "2026-11-09T04:06:33.609483+00:00",
+  "publicVerification": "editorial/verification/2026-11-08-manual-two-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-sapporo-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-nueva-orleans-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-sapporo-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-new-orleans-5-places/"
+    ]
+  },
+  "inventoryNote": "Two additional originals from the new explicit manual request after the earlier completed daily-two reply. Prior daily2 and its lease/reservation inventory preserved byte-for-byte. Four unique originals verified on8NovemberNewYork; scheduler remains2atnoonMiami."
 }

@@ -20,7 +20,7 @@ No hay una conexión directa a la propiedad de Search Console ni una lista de su
 
 La auditoría inicial comprende 864 URLs del sitemap: las 864 respondieron HTTP 200, permitieron rastreo, utilizaron canonical hacia su propia URL y no mostraron noindex ni contradicciones de hreflang. Se analizaron también los enlaces HTML y el recorrido desde las portadas española e inglesa. Los archivos de evidencia se conservan en `/workspace/artifacts/maletafeliz-indexing-n9/`.
 
-## Problemas comprobados y correcciones preparadas
+## Problemas comprobados y correcciones publicadas
 
 | Hallazgo inicial | Corrección técnica |
 | --- | --- |
@@ -33,7 +33,7 @@ La auditoría inicial comprende 864 URLs del sitemap: las 864 respondieron HTTP 
 
 Las 82 URLs de países no se equiparan con las 79 URLs descubiertas de Search Console: son conjuntos cuya relación no se puede establecer sin los ejemplos del informe. El sitemap permitía descubrir esos países, pero faltaba un recorrido de navegación desde las portadas.
 
-**Estado de estas correcciones:** preparadas en el código. Las comprobaciones posteriores, los commits y el despliegue deberán registrarse en la sección final antes de considerar cerrado este trabajo.
+**Estado de estas correcciones:** publicadas y verificadas. La sección final registra pruebas, despliegues y comprobaciones HTTPS. Esto no acredita un cambio en los estados privados de Search Console.
 
 ## Revisión de todos los artículos
 
@@ -50,6 +50,12 @@ Se examinaron los 186 originales, con sus 372 versiones completas en español e 
 
 Esta revisión detecta integridad técnica, estructura y posibles duplicaciones. No sustituye una evaluación editorial independiente de cada experiencia ni una nueva consulta de todas las fuentes externas. Tampoco demuestra que Google deba indexar cualquier página que responda HTTP 200.
 
+### Revisión de utilidad de fichas de país y destino
+
+El inventario de solo lectura examinó las 462 páginas de archivo localizadas: 100 de países y 362 de destinos. Hay 176 destinos con una sola guía —352 fichas localizadas— y 17 países con una sola guía —34 páginas localizadas—. Las introducciones breves de 92 páginas de países comparten dos textos, uno por idioma. Las fichas de destino resumen el título de su propia guía y enlazan al artículo completo.
+
+Son candidatos para una futura revisión editorial de utilidad y diferenciación: contexto propio, organización clara y enlaces pertinentes. Una ficha con una única guía no es automáticamente una página errónea o de poco valor. Estos datos no identifican la causa de las 79 URLs descubiertas o las 11 rastreadas del informe privado. No se añadieron párrafos de relleno, páginas artificiales, redirecciones ni exclusiones noindex por estos recuentos. El informe completo se conserva con su hash en la evidencia, sin copiar su inventario extenso al registro de publicación.
+
 ## Robots.txt, noindex y errores 404
 
 Robots.txt permite el sitio y restringe únicamente `/es/buscar/` y `/en/search/`. Son páginas de resultados internos, no artículos. Mantener esas restricciones evita ampliar el rastreo a combinaciones ilimitadas de búsquedas.
@@ -65,6 +71,12 @@ Se hicieron 24 comprobaciones HTTP sobre ocho rutas, con tres agentes de usuario
 Estas solicitudes proceden del ejecutor de auditoría, no de direcciones IP verificadas de Google. Por ello, el resultado no descarta todas las reglas posibles aplicadas al Googlebot real.
 
 El acceso autorizado permitió consultar la zona y los proyectos Pages. Las lecturas de controles de seguridad, bots y reglas devolvieron HTTP 403 por falta de permisos; Analytics tampoco permitió consultar los datos solicitados. No se desactivaron protecciones ni se modificaron Cloudflare, DNS o sus proyectos para eludir esa limitación. No se pudieron obtener los registros de Googlebot real o la ruta 404 del informe mediante esas interfaces.
+
+### Comprobación posterior del acceso al sitemap
+
+Una solicitud con el agente predeterminado `Python-urllib/3.12` recibió HTTP 403 y un cuerpo de 17 bytes con `error code: 1010`. Se conserva este fallo. Otras dos solicitudes al mismo sitemap, identificadas como `MaletaFeliz-Indexability-Audit/1.0` y `Googlebot/2.1`, respondieron HTTP 200 con la misma huella SHA-256 del XML.
+
+La [documentación de Cloudflare sobre el error 1010](https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/) describe comprobaciones de firma del navegador, incluidas las gestionadas para dominios personalizados de Pages, y recomienda un agente de usuario descriptivo para clientes HTTP. El auditor descriptivo ya se utilizaba en la comprobación inicial. No se alteraron ajustes de seguridad para estas pruebas. El error observado para Python no demuestra que Cloudflare bloquee las IP verificadas de Google ni que explique los estados privados de Search Console.
 
 ## Incorporación automática de futuras publicaciones
 
@@ -85,15 +97,35 @@ El sitemap y la solicitud de rastreo ayudan a Google a descubrir y revisar conte
 
 ## Pruebas y publicación de las correcciones
 
-**Pendiente de completar por el responsable de la publicación:**
+Verificado el 2026-11-09 11:37 EST. El commit de aplicación `7d7a8c83db5f43beb9148ce4adf62646a44bab98` completó ambos proyectos existentes de Cloudflare, con checkout confirmado en sus registros. La evidencia pública está en `editorial/verification/2026-11-09-indexing-publication.json`. Un commit posterior guarda únicamente este registro y la documentación.
 
-- Resultado de tipos, pruebas unitarias, compilación normal, navegación y la compilación obligatoria `npm run build:release`.
-- Comprobación posterior de las 882 entradas esperadas, conservación de las 864 iniciales, enlaces directos a todas las guías y accesibilidad de los países desde las portadas.
-- Revisión de escritorio y móvil, HTML sin JavaScript, metadatos y datos estructurados.
-- Auditoría de conservación de todos los artículos, fechas, imágenes, diseño 3D, anuncios, Analytics, consentimiento, rutas y sistema de publicación.
-- Commit publicado, resultados de GitHub Actions y despliegues de los proyectos existentes de Cloudflare, con comprobaciones HTTPS posteriores.
+| Control | Resultado verificado |
+| --- | --- |
+| Tipos | 0 errores |
+| Pruebas unitarias locales | 80 aprobadas |
+| Navegación local | 28 aprobadas |
+| Compilación normal y `npm run build:release` | 888 páginas en cada compilación |
+| Producción local seleccionada | 52 aprobadas |
+| Batería completa de GitHub Actions | 80 unitarias + 28 de navegación + 796 de producción: 904 aprobadas |
+| Auditoría HTTPS posterior | 882 de 882 URLs con HTTP 200 y sin problemas de indexabilidad detectados |
+| Sitemap | Las 864 entradas anteriores conservadas y 18 páginas informativas ya existentes incorporadas |
+| Enlaces HTML | 186 guías por idioma enlazadas directamente desde el índice; todas las guías a dos clics o menos desde una portada |
+| Países sin recorrido desde portadas | 82 antes; 0 después |
+| Metadescripciones del grupo repetido | Las 118 ahora distintas; 116 ajustadas y las dos portadas conservadas |
+| Navegador | 24 registros privados y 26 públicos; la repetición pública completó 236 solicitudes HTTP y 10 capturas, con escritorio, móvil y directorios sin JavaScript |
+| Conservación | 372 artículos, sus fechas, 821 fotos y las 888 rutas HTML existentes conservados |
 
-Hasta incorporar esos resultados no se afirma que las correcciones estén desplegadas ni que los estados privados de Search Console hayan cambiado.
+GitHub Actions: [corrida verificada](https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/42652405361). Se conservan huellas de los registros completos, las capturas revisadas y los resultados por URL en la evidencia. No se publicaron artículos o rutas nuevos y no se modificaron reservas, programación, diseño 3D, anuncios, Analytics ni consentimiento.
+
+El primer intento público agotó la espera de 30 segundos al cargar la portada de Barcelona. Ese intento no conservó el estado HTTP de la solicitud que falló, y queda registrado. La comprobación posterior con el mismo agente de usuario obtuvo HTTP 200 y las huellas exactas del manifiesto para 4 archivos de la portada. La repetición de la prueba, con las mismas condiciones y persistencia de diagnóstico, pasó los 26 registros y 236 solicitudes, con diez capturas revisadas y sin errores de navegador. No se atribuye una causa al primer timeout ni se afirma haber reparado una imagen rota reproducible.
+
+La entrada `/` respondió HTTP 200 con noindex previsto. Una ruta sintética inexistente respondió HTTP 404 con noindex. Esta prueba comprueba un 404 auténtico; no identifica la URL privada con error 404 de Search Console.
+
+El cambio técnico está publicado y comprobado. La cuenta privada de Search Console no está conectada: los estados de sus 79 URLs descubiertas, 11 rastreadas y la URL con error 404 no se dan por resueltos. Las acciones manuales indicadas arriba siguen siendo necesarias para comprobar el siguiente rastreo de Google. No se promete indexación, plazos o visitas.
+
+## Títulos de las fichas de navegación
+
+Los títulos de los 372 artículos son únicos. Se registran tres pares de fichas de ciudad y país que comparten nombre propio: Singapore en inglés, Singapur en español y Túnez en español. Sus descripciones y URLs canónicas son distintas. Se conserva la organización por país y ciudad; esta coincidencia de nombres no demuestra que los artículos estén duplicados ni identifica las URLs excluidas de Search Console.
 
 ## Documentación de Google consultada
 

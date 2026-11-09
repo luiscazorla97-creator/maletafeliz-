@@ -1,0 +1,979 @@
+{
+  "verifiedAt": "2026-11-09T16:37:28.691378+00:00",
+  "timeZone": "America/New_York",
+  "verifiedLocalTime": "2026-11-09 11:37 EST",
+  "type": "technical-indexability-audit-verified",
+  "baselineCommit": "1bb940a66aa149092c89ed06d5d94b44730bd52c",
+  "publishedSourceCommit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+  "newArticles": 0,
+  "newPublicRoutes": 0,
+  "sourceAudit": "editorial/verification/2026-11-09-indexing-source-audit.json",
+  "ownerReportedGscCounts": {
+    "discoveredNotIndexed": 79,
+    "crawledNotIndexed": 11,
+    "noindex": 6,
+    "robots": 2,
+    "notFound": 1
+  },
+  "privateSearchConsoleAccess": false,
+  "googleIndexationVerified": false,
+  "specific79And11UrlsIdentified": false,
+  "specific404UrlIdentified": false,
+  "beforeAfter": {
+    "sitemapUrls": {
+      "before": 864,
+      "after": 882,
+      "previousUrlsRetained": 864,
+      "existingInformationPagesAdded": [
+        "https://maletafeliz.com/en/information/about/",
+        "https://maletafeliz.com/en/information/ai/",
+        "https://maletafeliz.com/en/information/contact/",
+        "https://maletafeliz.com/en/information/cookies/",
+        "https://maletafeliz.com/en/information/corrections/",
+        "https://maletafeliz.com/en/information/editorial/",
+        "https://maletafeliz.com/en/information/photography/",
+        "https://maletafeliz.com/en/information/privacy/",
+        "https://maletafeliz.com/en/information/terms/",
+        "https://maletafeliz.com/es/informacion/about/",
+        "https://maletafeliz.com/es/informacion/ai/",
+        "https://maletafeliz.com/es/informacion/contact/",
+        "https://maletafeliz.com/es/informacion/cookies/",
+        "https://maletafeliz.com/es/informacion/corrections/",
+        "https://maletafeliz.com/es/informacion/editorial/",
+        "https://maletafeliz.com/es/informacion/photography/",
+        "https://maletafeliz.com/es/informacion/privacy/",
+        "https://maletafeliz.com/es/informacion/terms/"
+      ]
+    },
+    "countryHubsUnreachableFromLocalizedHomes": {
+      "before": 82,
+      "after": 0
+    },
+    "allSitemapPagesReachableFromLocalizedHomes": true,
+    "guideDirectoryLinks": {
+      "localizedArticleVersions": 372,
+      "perLanguage": 186,
+      "allDirectHtmlLinks": true,
+      "maximumClicksFromHome": 2
+    },
+    "descriptions": {
+      "pagesInPreviousDuplicateGroups": 118,
+      "previousDuplicateGroups": 2,
+      "all118NowDistinct": true,
+      "descriptionsChanged": 116,
+      "homepageDescriptionsPreserved": 2
+    },
+    "publicHttpChecks": {
+      "urls": 882,
+      "statuses": {
+        "200": 882
+      },
+      "indexabilityIssues": []
+    },
+    "publicClickDepthDistribution": {
+      "0": 2,
+      "1": 108,
+      "2": 704,
+      "3": 68
+    },
+    "existingHtmlRoutesPreserved": 888
+  },
+  "contentAudit": {
+    "auditedAt": "2026-11-09T16:26:04.143765+00:00",
+    "scope": {
+      "publishedOriginals": 186,
+      "localizedVersions": 372,
+      "httpArticleBodiesRead": 372,
+      "completeLocalizedPairs": 186,
+      "sourceDocuments": 856
+    },
+    "hardIssues": [],
+    "translationPairIssues": [],
+    "exactDuplicateArticles": [],
+    "exactRepeatedParagraphs": [],
+    "nearDuplicateCandidates": [],
+    "duplicateArticleTitles": [],
+    "duplicateArticleDescriptions": [],
+    "wordRange": [
+      1067,
+      2393
+    ],
+    "relatedLinkAndDocumentaryImageVerification": {
+      "verifiedAt": "2026-11-09T16:37:26.518179+00:00",
+      "relatedGuideLinksVerified": 872,
+      "localizedDocumentaryPlaceSlotsVerified": 1638,
+      "issues": [],
+      "method": "Fresh verification against all372 actual post-deployment HTTPS bodies: localized related anchors and per-place documentary image src/ALT/explicit dimensions, excluding festive illustration figures."
+    },
+    "limits": [
+      "No connection to the owner’s private Search Console URL examples or URL Inspection; cannot identify which exact URLs are the79discovered or11crawled exceptions from aggregate screenshot counts.",
+      "Technical HTML availability and metadata do not establish actual Google indexing, search demand, rankings or factual quality. This does not claim an independent native-language human review or renewed verification of every external source.",
+      "Content preservation was mandatory. No article, publication/update date, approval, photo or application file was edited by this audit."
+    ]
+  },
+  "localProductionRegression": {
+    "checkedAt": "2026-11-09T16:09:32.503024+00:00",
+    "htmlPages": 888,
+    "sitemapUrls": 882,
+    "indexableHtmlPages": 882,
+    "preservedPreviousSitemapUrls": 864,
+    "existingInformationPagesAdded": 18,
+    "intentionalNoindexUrls": [
+      "https://maletafeliz.com/",
+      "https://maletafeliz.com/404/",
+      "https://maletafeliz.com/en/explore/antarctica/",
+      "https://maletafeliz.com/en/search/",
+      "https://maletafeliz.com/es/buscar/",
+      "https://maletafeliz.com/es/explorar/antarctica/"
+    ],
+    "unreachableFromLocalizedHomes": [],
+    "clickDepthDistribution": {
+      "0": 2,
+      "1": 108,
+      "2": 704,
+      "3": 68
+    },
+    "articleVersions": 372,
+    "maximumGuideClickDepth": 2,
+    "allGuidesDirectlyLinkedFromDirectory": true,
+    "previousArticleMetadataChanges": [],
+    "previous118RepeatedCollectionDescriptionsNowUnique": true,
+    "limits": "Local production HTML regression test; not Google indexation status."
+  },
+  "archiveQualityReview": {
+    "reviewedAt": "2026-11-09T16:19:45.453857+00:00",
+    "scope": "Read-only inventory of all existing country and city/destination archive pages from retained actual public HTML before the technical corrections.",
+    "sourceSnapshotSha256": "f4d7a98e9f3d81354da6caeee30545c8674f7958b713cd461c69a901ce0fbaae",
+    "summary": {
+      "publishedOriginalGuides": 186,
+      "localizedArticles": 372,
+      "countryHubs": 50,
+      "localizedCountryHubs": 100,
+      "destinationHubs": 181,
+      "localizedDestinationHubs": 362,
+      "localizedArchivePagesReviewed": 462,
+      "countriesWithOneGuide": 17,
+      "localizedCountryHubsWithOneGuide": 34,
+      "destinationsWithOneGuide": 176,
+      "localizedDestinationHubsWithOneGuide": 352,
+      "destinationGuideCountDistribution": {
+        "1": 176,
+        "2": 5
+      },
+      "countryGuideCountDistribution": {
+        "1": 17,
+        "5": 4,
+        "4": 3,
+        "8": 1,
+        "2": 17,
+        "6": 2,
+        "12": 1,
+        "3": 1,
+        "18": 1,
+        "16": 1,
+        "14": 1,
+        "20": 1
+      },
+      "destinationPagesWithDirectLinksToAllOwnGuides": 362,
+      "countryPagesWithLinksToAllOwnDestinations": 100,
+      "countryPagesWithoutHomeTraversalBefore": 82,
+      "sharedMainParagraphGroups": 2,
+      "destinationPagesWhoseIntroMatchesTheirOwnGuideTitle": 362
+    },
+    "sharedIntroductionGroups": [
+      {
+        "locale": "en",
+        "localizedPages": 46,
+        "classification": "Shared archive introduction or contextual navigation text; not a duplicate full article."
+      },
+      {
+        "locale": "es",
+        "localizedPages": 46,
+        "classification": "Shared archive introduction or contextual navigation text; not a duplicate full article."
+      }
+    ],
+    "conclusions": [
+      "A country or city index containing one guide is a review candidate, not automatically a low-value or erroneous page. Its distinct navigation purpose and real links must be assessed, rather than imposing a word target.",
+      "The simple destination pages summarize a guide topic and link to the full article. A heading/title reused as that short introduction is expected collection context, not duplication of the full researched article.",
+      "Shared short country introductions are template text. They can limit differentiation of archive pages, but do not establish an indexing cause for a particular article. Country and destination links retain their actual geographic organization.",
+      "This inventory does not identify the 79 discovered or 11 crawled-but-not-indexed Search Console URLs. No coverage export or URL Inspection data is connected; Google indexing decisions cannot be inferred from these HTML observations.",
+      "No articles, photos, dates, URLs, application code, indexation directives, layouts, advertising, publication settings or frequencies were changed. No filler, artificial pages, redirects or automatic noindex decisions were introduced by this review."
+    ],
+    "fullArtifact": {
+      "file": "archive-quality-review.json",
+      "bytes": 766073,
+      "sha256": "c6eebb7164eb7da45b5148eab0bbe69b6f7c7de0b502d86371ce77496bb0aa58"
+    },
+    "notAConfirmedCauseOfPrivate79Or11Urls": true
+  },
+  "sourcePreservation": {
+    "protectedTrackedFiles": 6019,
+    "allUnchanged": true,
+    "publishedArticleVersions": 372,
+    "photoManifestEntries": 821,
+    "advertisingAndAnalyticsLayoutScriptsUnchanged": true
+  },
+  "finalBytePreservation": {
+    "unchangedOldTrackedFilesOutsideApprovedChanges": 6130,
+    "protectedChanges": [],
+    "articles": 372,
+    "originals": 186,
+    "photoManifestEntries": 821,
+    "planReservationsReviewsDatesImagesAndPublishingConfigPreserved": true
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-09T16:23:29.594428+00:00",
+    "commit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "4e57deee-6974-4264-9d0b-193ef5f689b5",
+        "canonicalCommit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+        "deploymentId": "4e57deee-6974-4264-9d0b-193ef5f689b5",
+        "commit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-09T16:23:01.288245Z",
+          "ended_on": "2026-11-09T16:23:18.831484Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-09T16:12:45.911987Z",
+            "ended_on": "2026-11-09T16:12:45.919559Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-09T16:12:45.919559Z",
+            "ended_on": "2026-11-09T16:12:48.91726Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-09T16:12:48.91726Z",
+            "ended_on": "2026-11-09T16:13:15.217951Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-09T16:13:15.217951Z",
+            "ended_on": "2026-11-09T16:23:01.288245Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-09T16:23:01.288245Z",
+            "ended_on": "2026-11-09T16:23:18.831484Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "772cfc35-cf05-4554-84fb-195bed6f5d23",
+        "canonicalCommit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+        "deploymentId": "772cfc35-cf05-4554-84fb-195bed6f5d23",
+        "commit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-09T16:14:11.780866Z",
+          "ended_on": "2026-11-09T16:14:22.891005Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-09T16:12:47.954925Z",
+            "ended_on": "2026-11-09T16:12:47.956386Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-09T16:12:47.956386Z",
+            "ended_on": "2026-11-09T16:12:51.552179Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-09T16:12:51.552179Z",
+            "ended_on": "2026-11-09T16:14:08.368374Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-09T16:14:08.368374Z",
+            "ended_on": "2026-11-09T16:14:11.780866Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-09T16:14:11.780866Z",
+            "ended_on": "2026-11-09T16:14:22.891005Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true
+  },
+  "cloudflareActualSourceCheckouts": {
+    "checkedAt": "2026-11-09T16:23:47.352282+00:00",
+    "commit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "deploymentId": "4e57deee-6974-4264-9d0b-193ef5f689b5",
+        "canonicalCommit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+        "httpStatus": 200,
+        "checkoutPrefixes": [
+          "7d7a8c8"
+        ],
+        "expectedSourceCheckoutConfirmed": true,
+        "completeLogEntries": 990,
+        "completeLogSha256": "dcd5a21a1bf0e49c9b0010d16e596de055f781115185b7eb596d5c85f65f9512"
+      },
+      {
+        "name": "maletafeliz-www",
+        "deploymentId": "772cfc35-cf05-4554-84fb-195bed6f5d23",
+        "canonicalCommit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+        "httpStatus": 200,
+        "checkoutPrefixes": [
+          "7d7a8c8"
+        ],
+        "expectedSourceCheckoutConfirmed": true,
+        "completeLogEntries": 23,
+        "completeLogSha256": "444862146ab9ff39a573aa3346ae4ca578912ee63636e5935853dc7cbcf68fb1"
+      }
+    ]
+  },
+  "cloudflareBuildProofs": {
+    "web": {
+      "checkedAt": "2026-11-09T16:23:29.594428+00:00",
+      "project": "maletafeliz-web",
+      "deploymentId": "4e57deee-6974-4264-9d0b-193ef5f689b5",
+      "commit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+      "entries": 990,
+      "logSha256": "dcd5a21a1bf0e49c9b0010d16e596de055f781115185b7eb596d5c85f65f9512",
+      "releaseCommandPresent": true,
+      "builtPages": "888"
+    },
+    "www": {
+      "checkedAt": "2026-11-09T16:23:29.594428+00:00",
+      "project": "maletafeliz-www",
+      "deploymentId": "772cfc35-cf05-4554-84fb-195bed6f5d23",
+      "commit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+      "entries": 23,
+      "logSha256": "444862146ab9ff39a573aa3346ae4ca578912ee63636e5935853dc7cbcf68fb1",
+      "releaseCommandPresent": false,
+      "builtPages": null
+    }
+  },
+  "cloudflareBotAudit": {
+    "probes": 24,
+    "summary": {
+      "requests": 24,
+      "http200": 24,
+      "challenges": 0,
+      "htmlMainEquivalentUrls": 6,
+      "xmlAndRobotsEquivalentAcrossUserAgents": true,
+      "zoneSecuritySettingsAccess": "denied403",
+      "zoneTrafficAnalyticsAccess": "deniedGraphQLAuthz",
+      "exactSearchConsole404Identified": false,
+      "configurationsChanged": false
+    },
+    "limitations": [
+      "Changing the User-Agent is not a verified Googlebot request from a Google-owned IP.",
+      "Search Console affected URLs and URL-inspection data are not connected to this executor. Aggregate screenshot counts cannot identify particular 404 or discovered/crawled-not-indexed pages.",
+      "HTTP200 and identical HTML show technical accessibility from this executor; they do not establish Google indexing or rule out IP-specific security treatment.",
+      "No Cloudflare setting, DNS, project, article, image or advertising configuration was changed."
+    ],
+    "verifiedGoogleIpTrafficExamined": false,
+    "securityBotSettingsOrDnsChanged": false
+  },
+  "postdeploymentSitemapAccessProbes": {
+    "actualRequests": [
+      {
+        "at": "2026-11-09T16:24:17.447676+00:00",
+        "url": "https://maletafeliz.com/sitemap.xml",
+        "userAgent": "Python-urllib/3.12",
+        "httpStatus": 403,
+        "headers": {
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Server": "envoy",
+          "CF-Ray": "a57e2ab4c8c8b45f-MSP"
+        },
+        "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+        "bytes": 17,
+        "bodyPreview": "error code: 1010\n"
+      },
+      {
+        "at": "2026-11-09T16:24:17.858485+00:00",
+        "url": "https://maletafeliz.com/sitemap.xml",
+        "userAgent": "MaletaFeliz-Indexability-Audit/1.0",
+        "httpStatus": 200,
+        "headers": {
+          "Content-Type": "application/xml",
+          "Server": "envoy",
+          "CF-Ray": "a57e2ab5df2bad1a-MSP"
+        },
+        "sha256": "b4051389d7463c4301790fc5e5c405d79e0cdaf73c94646bb2139ce6b415f705",
+        "bytes": 289225,
+        "bodyPreview": null
+      },
+      {
+        "at": "2026-11-09T16:24:18.071628+00:00",
+        "url": "https://maletafeliz.com/sitemap.xml",
+        "userAgent": "Googlebot/2.1 (+http://www.google.com/bot.html)",
+        "httpStatus": 200,
+        "headers": {
+          "Content-Type": "application/xml",
+          "Server": "envoy",
+          "CF-Ray": "a57e2ab84ae8ad1a-MSP"
+        },
+        "sha256": "b4051389d7463c4301790fc5e5c405d79e0cdaf73c94646bb2139ce6b415f705",
+        "bytes": 289225,
+        "bodyPreview": null
+      }
+    ],
+    "defaultPythonClientBlocked403Error1010": true,
+    "descriptiveAuditorAndGooglebotUserAgentsBoth200WithIdenticalSha256": true,
+    "verifiedGoogleIpTrafficExamined": false,
+    "cloudflareConfigurationChanged": false,
+    "documentation": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/",
+    "interpretation": "Error 1010 is compatible with Cloudflare browser-signature checking. Cloudflare documents managed checks on Pages custom domains and recommends an appropriately identified HTTP client. The descriptive Auditor UA was also used before this audit. These requests do not establish a block of verified Google IP traffic or a cause for the private Search Console exceptions."
+  },
+  "githubActions": {
+    "runId": 42652405361,
+    "url": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/42652405361",
+    "headSha": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "id": 129281955511,
+        "conclusion": "success"
+      }
+    ]
+  },
+  "githubCompleteLogProof": {
+    "checkedAt": "2026-11-09T16:36:26.307530+00:00",
+    "runId": 42652405361,
+    "jobIds": [
+      129281955511
+    ],
+    "commit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+    "decodedLogSha256": "bc51950515efd182903b6a58f9d5809f43d4bea02197c33ce2c51e440e5e115b",
+    "counts": {
+      "unit": 80,
+      "navigation": 28,
+      "production": 796
+    },
+    "allTestsPassed": 904,
+    "normalAndMandatoryProductionBuildPages": 888,
+    "completeJobLogRead": true
+  },
+  "localTests": {
+    "check": {
+      "exitCode": 0,
+      "logSha256": "186bc41e96539b8ad912af5a76c2f2c0f0faaabb79ed2f62c114fa4507c35fbc"
+    },
+    "tests": {
+      "exitCode": 0,
+      "logSha256": "795dc1607fb5e6f6b9343b1eb78876470ba925b0804f830d20b6bc70d7b9173f"
+    },
+    "build": {
+      "exitCode": 0,
+      "logSha256": "33f8e2de760707f65af2f8c77b037edaf14b22ac3ca5aed08ff4f321f9840da4"
+    },
+    "e2e": {
+      "exitCode": 0,
+      "logSha256": "98c73f90129a0d10e34ab193eaf7da0c1970c0488014c1bdc7e8f48ccd390a2a"
+    },
+    "release": {
+      "exitCode": 0,
+      "logSha256": "5c491c22a57468e5663320328535f24560a78aac692cdbefc0d9b347a5fdb384"
+    },
+    "release-tests": {
+      "exitCode": 0,
+      "logSha256": "2e1739684ea6d1b83aa265fb25ac367ab74c9aa36bb579a16b36a2f8fd8a6f86"
+    }
+  },
+  "privateBrowser": {
+    "checkedAt": "2026-11-09T16:10:35.073Z",
+    "success": true,
+    "counts": {
+      "records": 24,
+      "requests": 6,
+      "screenshots": 10,
+      "jsDisabledDirectoryViews": 4,
+      "articleCountryRoutes": 4,
+      "cityCountryLanguageRoutes": 4,
+      "legacySearchViews": 4
+    }
+  },
+  "publicBrowser": {
+    "checkedAt": "2026-11-09T16:27:29.287Z",
+    "origin": "https://maletafeliz.com",
+    "success": true,
+    "counts": {
+      "records": 26,
+      "requests": 236,
+      "screenshots": 10,
+      "jsDisabledDirectoryViews": 4,
+      "articleCountryRoutes": 4,
+      "cityCountryLanguageRoutes": 4,
+      "legacySearchViews": 4
+    }
+  },
+  "earlierPublicBrowserAttempt": {
+    "failure": {
+      "recordedAt": "2026-11-09T16:26:58.436043+00:00",
+      "attempt": 1,
+      "success": false,
+      "failure": "Timeout30000ms waiting for BarcelonaESdesktop articlecover naturalWidth inBrowser",
+      "logFile": "public-indexing-browser-qa-attempt1.log",
+      "logSha256": "4915a1101c2838780a88c33e9b962f73d3d1632687d27bc24497fee95c38e2d1",
+      "requestRecordsAvailable": false,
+      "followUpEvidence": "public-image-diagnostic.json",
+      "note": "Initial harness did not persist request records after a failure. Direct same-UA follow-up showed all four cover resources200 with exact manifest SHA. No inference about the first failed request status."
+    },
+    "sameUserAgentImageFollowUp": {
+      "files": 4,
+      "allHttp200": true,
+      "allSha256MatchExistingManifest": true,
+      "artifact": {
+        "file": "public-image-diagnostic.json",
+        "bytes": 2094,
+        "sha256": "0775fc9d61b8724150c15ccb48e00fe4532263c70e4f449112205eaf2b640e77"
+      }
+    },
+    "successfulRepeat": {
+      "records": 26,
+      "httpRequests": 236,
+      "screenshots": 10,
+      "browserErrors": []
+    },
+    "limits": "The initial timeout did not retain the failing request status. No cause, image defect or connection to the Python1010 probe is inferred. The repeat used the same UA, network, assertions and site configuration, with diagnostic persistence added."
+  },
+  "supplementalPublicChecks": {
+    "records": [
+      {
+        "url": "https://maletafeliz.com/",
+        "httpStatus": 200,
+        "robotsMeta": [
+          "noindex,follow"
+        ],
+        "checkedAt": "2026-11-09T16:28:32.878060+00:00",
+        "sha256": "46859982bb9befca045c9f0ab9951639021957571d725ec861a041d3fcc4bcef",
+        "note": "Intentional language gateway"
+      },
+      {
+        "url": "https://maletafeliz.com/maletafeliz-launch-check-nonexistent/",
+        "httpStatus": 404,
+        "robotsMeta": [
+          "noindex,follow"
+        ],
+        "checkedAt": "2026-11-09T16:28:33.112710+00:00",
+        "sha256": "7d9531c8bc1dd2c3a644d62cb2964f06a2b15d3a1169645b3781c7d07e0f6893",
+        "note": "Known synthetic check of genuine404 handling; not identified as the private SearchConsole404 URL."
+      }
+    ],
+    "rootGatewayIntentionalNoindexConfirmed": true,
+    "genuine404HandlingConfirmed": true,
+    "synthetic404IsNotIdentifiedAsPrivateSearchConsole404": true
+  },
+  "privateVisualReview": {
+    "reviewedAt": "2026-11-09T16:12:01.860393+00:00",
+    "origin": "http://127.0.0.1:4349",
+    "success": true,
+    "scope": "Ten production-preview screenshots reviewed using three montage images and four individual full-resolution screenshots. ES/EN guide directories and Barcelona article in desktop1440/mobile390; home ES desktop and EN mobile.",
+    "verdict": "Readable titles, descriptions and photo credits. The existing 3D brand, dark-blue header, globe hero, menu layout and advertising slots remain visible with no clipping or overlapping controls. Country label links retain the existing visual treatment. No horizontal overflow in tested pages. External advertising/Analytics isolated for QA, with no claim of live creative delivery.",
+    "javaScriptDisabledDirectoryViews": 4,
+    "functionalRecords": 24,
+    "screenshots": [
+      {
+        "file": "private-guides-es-desktop.png",
+        "sha256": "36359723338503c1c8a0c38eae18cd02af85dc4d232c25981686dfbcdb602c55"
+      },
+      {
+        "file": "private-article-es-desktop.png",
+        "sha256": "fa179abd5768eca6c65d597a4bc2b8e3413468f5368cde87e0b92245d37d19f0"
+      },
+      {
+        "file": "private-home-es-desktop.png",
+        "sha256": "ad5fa9c934901fe3d84fba6deac7857fdb7e87a166a14b3c9882f7ad9ec85f2e"
+      },
+      {
+        "file": "private-guides-en-desktop.png",
+        "sha256": "76078dce5630904332e29adf9fa7ea6186d9bc1895a20580bb9fcb8a9cd3665f"
+      },
+      {
+        "file": "private-article-en-desktop.png",
+        "sha256": "1d1981284136c36482fba2e1aaa53113b9b931264c02c054292df580498729c2"
+      },
+      {
+        "file": "private-guides-es-mobile.png",
+        "sha256": "40644b49b418b3a33c958ef3a49f2cc883d3b160835fc00f6a1057719e52fbc1"
+      },
+      {
+        "file": "private-article-es-mobile.png",
+        "sha256": "087e9e50d4b88b0da0db753f6fb64a6db5de021b550bf1271f7371273b5e3012"
+      },
+      {
+        "file": "private-guides-en-mobile.png",
+        "sha256": "e847d4aae0598d2d4f36e14a4083c24af1615c45cfc97eb06f5376c4272b6068"
+      },
+      {
+        "file": "private-article-en-mobile.png",
+        "sha256": "da07a6e9b0d9154ae3ced555207395eab7cea9a7a49a0c16e44cbf5ebaf84cd1"
+      },
+      {
+        "file": "private-home-en-mobile.png",
+        "sha256": "694c28360ed9435d1adcabd375fea9062ec5e10a1d8f425898e085b199a56f49"
+      }
+    ],
+    "montages": [
+      {
+        "file": "private-guides-final-review.jpg",
+        "sha256": "e99c7fe1dd99d235b2d1a7a928fe840c9dc5b1ff95b511f61e7f4966f21313c4"
+      },
+      {
+        "file": "private-article-final-review.jpg",
+        "sha256": "9c0a50e748802bb535999bb4aa9816302b2af80325867e4e8a837314a95f79ed"
+      },
+      {
+        "file": "private-home-final-review.jpg",
+        "sha256": "410d35e4d0c882ec39d5c4cd51537cae454b07fb6ea6bfed6e29792e3bc68d68"
+      }
+    ],
+    "individualScreenshotsViewed": [
+      "private-guides-es-mobile.png",
+      "private-guides-en-desktop.png",
+      "private-article-es-mobile.png",
+      "private-article-en-desktop.png"
+    ],
+    "documentaryPhotoFilesChecked": 2,
+    "captureNote": "Final capture uses instant scroll plus a zero-scroll-position wait. This is a test-only capture adjustment; no application source, stylesheet, content, URL, ad or publication setting was changed."
+  },
+  "publicVisualReview": {
+    "reviewedAt": "2026-11-09T16:28:10.777076+00:00",
+    "origin": "https://maletafeliz.com",
+    "success": true,
+    "scope": "Ten screenshots of the actual public HTTPS site viewed using three montage images and four individual full-resolution screenshots. ES/EN guide directories and Barcelona article at desktop1440/mobile390; Spanish desktop home and English mobile home.",
+    "verdict": "The existing 3D brand, blue header, globe hero, menu and advertisement slots retain their layout. Titles, descriptions and photo credits are readable; no clipping, overlapping controls or horizontal overflow detected. Barcelona cover and country links render normally. External advertising/Analytics providers isolated for QA; no live-creative delivery claim.",
+    "functionalRecords": 26,
+    "actualNetworkRequests": 236,
+    "httpStatuses": {
+      "200": 234,
+      "301": 2
+    },
+    "browserErrors": [],
+    "screenshots": [
+      {
+        "file": "public-guides-es-desktop.png",
+        "sha256": "36359723338503c1c8a0c38eae18cd02af85dc4d232c25981686dfbcdb602c55"
+      },
+      {
+        "file": "public-article-es-desktop.png",
+        "sha256": "fa179abd5768eca6c65d597a4bc2b8e3413468f5368cde87e0b92245d37d19f0"
+      },
+      {
+        "file": "public-home-es-desktop.png",
+        "sha256": "ad5fa9c934901fe3d84fba6deac7857fdb7e87a166a14b3c9882f7ad9ec85f2e"
+      },
+      {
+        "file": "public-guides-en-desktop.png",
+        "sha256": "76078dce5630904332e29adf9fa7ea6186d9bc1895a20580bb9fcb8a9cd3665f"
+      },
+      {
+        "file": "public-article-en-desktop.png",
+        "sha256": "1d1981284136c36482fba2e1aaa53113b9b931264c02c054292df580498729c2"
+      },
+      {
+        "file": "public-guides-es-mobile.png",
+        "sha256": "40644b49b418b3a33c958ef3a49f2cc883d3b160835fc00f6a1057719e52fbc1"
+      },
+      {
+        "file": "public-article-es-mobile.png",
+        "sha256": "087e9e50d4b88b0da0db753f6fb64a6db5de021b550bf1271f7371273b5e3012"
+      },
+      {
+        "file": "public-guides-en-mobile.png",
+        "sha256": "e847d4aae0598d2d4f36e14a4083c24af1615c45cfc97eb06f5376c4272b6068"
+      },
+      {
+        "file": "public-article-en-mobile.png",
+        "sha256": "da07a6e9b0d9154ae3ced555207395eab7cea9a7a49a0c16e44cbf5ebaf84cd1"
+      },
+      {
+        "file": "public-home-en-mobile.png",
+        "sha256": "694c28360ed9435d1adcabd375fea9062ec5e10a1d8f425898e085b199a56f49"
+      }
+    ],
+    "montages": [
+      {
+        "file": "public-guides-review.jpg",
+        "sha256": "e99c7fe1dd99d235b2d1a7a928fe840c9dc5b1ff95b511f61e7f4966f21313c4"
+      },
+      {
+        "file": "public-article-review.jpg",
+        "sha256": "9c0a50e748802bb535999bb4aa9816302b2af80325867e4e8a837314a95f79ed"
+      },
+      {
+        "file": "public-home-review.jpg",
+        "sha256": "410d35e4d0c882ec39d5c4cd51537cae454b07fb6ea6bfed6e29792e3bc68d68"
+      }
+    ],
+    "individualScreenshotsViewed": [
+      "public-guides-es-mobile.png",
+      "public-guides-en-desktop.png",
+      "public-article-es-mobile.png",
+      "public-article-en-desktop.png"
+    ],
+    "documentaryPhotoFilesChecked": 2,
+    "earlierAttempt": {
+      "result": "failed timeout waiting for cover image; no first-attempt network status retained",
+      "evidence": "public-indexing-browser-attempt1-failure.json",
+      "sameUserAgentFollowUp": "public-image-diagnostic.json",
+      "repeat": "Same user agent, network, assertions and site settings; added diagnostic persistence only. Repeat passed. No reproducible broken image or confirmed cause established."
+    },
+    "limits": [
+      "HTTP technical accessibility and browser success do not establish Google indexing.",
+      "User-Agent probes are not verified Googlebot IP traffic."
+    ]
+  },
+  "intentionalNoindexUrls": [
+    "https://maletafeliz.com/",
+    "https://maletafeliz.com/404/",
+    "https://maletafeliz.com/en/explore/antarctica/",
+    "https://maletafeliz.com/en/search/",
+    "https://maletafeliz.com/es/buscar/",
+    "https://maletafeliz.com/es/explorar/antarctica/"
+  ],
+  "robotsRestrictionsPreserved": [
+    "/es/buscar/",
+    "/en/search/"
+  ],
+  "manualSearchConsoleActions": [
+    "Reenviar https://maletafeliz.com/sitemap.xml en la propiedad correcta de Search Console.",
+    "Inspeccionar en directo guías importantes en ambos idiomas y solicitar rastreo donde corresponda.",
+    "Abrir los ejemplos de 79 descubiertas y 11 rastreadas para conocer URLs, fechas, canonical elegido y HTML de Google.",
+    "Validar las correcciones concretas cuando Search Console lo permita; conservar exclusiones intencionales.",
+    "Identificar la URL con error 404 antes de corregir su enlace o redirigirla a una sustituta realmente equivalente.",
+    "Si Google registra bloqueo de Cloudflare, contrastar URL/hora/IP verificada con eventos de seguridad de la cuenta."
+  ],
+  "limits": [
+    "HTTP200, a valid sitemap and complete HTML do not prove Google indexation or rankings.",
+    "The 82 country hub reachability failures are not asserted to be the 79 private Search Console URLs.",
+    "Cloudflare User-Agent probes are not requests from verified Google IPs. Security/bot reads were permission-limited; no security configuration was changed.",
+    "A default Python-urllib sitemap request returned 403/error 1010; the failed probe is preserved, while descriptive Auditor and Googlebot-UA probes returned 200 with the same sitemap hash. This does not show a failure of the verified Google crawler.",
+    "Single-guide archives and shared short introductions are future editorial-utility candidates, not proven indexing blockers or a justification for artificial content, deletions or blanket noindex.",
+    "The reported 404 remains unidentified; no generic redirect or soft404 was introduced.",
+    "No article text/date/photo/URL, 3D design, ad ID/slot/dimensions, Analytics consent or publishing frequency was changed.",
+    "This is a technical audit deployment, not a new content batch or evidence of unattended publication."
+  ],
+  "artifactHashes": [
+    {
+      "file": "source-commit.txt",
+      "bytes": 41,
+      "sha256": "10547bab93c380ebebe04518cc86b318e5f0a479f4278244344b0834571e6057"
+    },
+    {
+      "file": "source-files.json",
+      "bytes": 373,
+      "sha256": "b1595605caa4534432726ef5ed967bf6c4df292cbf36bc46f18afe5ccc077007"
+    },
+    {
+      "file": "crawl-before.json",
+      "bytes": 2441664,
+      "sha256": "f4d7a98e9f3d81354da6caeee30545c8674f7958b713cd461c69a901ce0fbaae"
+    },
+    {
+      "file": "crawl-after.json",
+      "bytes": 2516259,
+      "sha256": "662a10b9c008ab42c8e26d6a828f0e9dabff7323fc80c963051c8aa9fda2378c"
+    },
+    {
+      "file": "content-audit.json",
+      "bytes": 291945,
+      "sha256": "82fb4f84d38c9a4e47ebe92f62786de33608a8af0ca6a41c5003f54617a5be1c"
+    },
+    {
+      "file": "content-audit-after.json",
+      "bytes": 271902,
+      "sha256": "287150db647fe7810d8fb3b75dab4d1cf668f38a38a31f0a0ac0a1337aa64f98"
+    },
+    {
+      "file": "static-after.json",
+      "bytes": 915,
+      "sha256": "920a08ff6a657ef6df266a8bd1295b536b8ac34dd8bd6c0a0157f125c5c51dad"
+    },
+    {
+      "file": "preservation.json",
+      "bytes": 183,
+      "sha256": "c0039c2b8c19142964b2fa2834908e349fe6c783a11ced4d8b25c39a82affeeb"
+    },
+    {
+      "file": "private-indexing-browser-qa.json",
+      "bytes": 10426,
+      "sha256": "26904e69b4c26a5b651eeabb8dc92207452852e6e533716a59c6762eaf57e3fb"
+    },
+    {
+      "file": "private-visual-review.json",
+      "bytes": 3154,
+      "sha256": "cca64bc671972a7dd18797d04b9f4ed9215636e9602f1420396efc8ac3305767"
+    },
+    {
+      "file": "public-indexing-browser-qa.json",
+      "bytes": 122957,
+      "sha256": "40139265f96c62fe2694538febd1dd52989de89110909ee64a4ea04b631ae7da"
+    },
+    {
+      "file": "public-visual-review.json",
+      "bytes": 3585,
+      "sha256": "3f62f412ee2a6f00db0198fe2391a9f2ae7a74483a46bfbba54d59dbad673973"
+    },
+    {
+      "file": "cloudflare-success.json",
+      "bytes": 3749,
+      "sha256": "630903aeaf4eef9102e5c6a6c4e21c27a233adaab2ef696304aaee456e694bf5"
+    },
+    {
+      "file": "cloudflare-source-checkout-proof.json",
+      "bytes": 991,
+      "sha256": "edcd71c003185c4855fc4ef04ba3f1f72c144d2f72210690ff1ef5e596efde75"
+    },
+    {
+      "file": "cloudflare-maletafeliz-web-build-proof.json",
+      "bytes": 357,
+      "sha256": "345b67938b2b6cb0cd228d7d7b877792b50d4d28b2f207769c9752fbf4bffb36"
+    },
+    {
+      "file": "cloudflare-maletafeliz-www-build-proof.json",
+      "bytes": 356,
+      "sha256": "fe5864e32dc8a008789fb10c8cde78bc9afb6945f65825c956aa9a767082fb6f"
+    },
+    {
+      "file": "github-success.json",
+      "bytes": 4132,
+      "sha256": "2f37175f8b627d85dbfeb78271dfc6a7e424ed5bb2344a84e51c18d6f1f8f5f0"
+    },
+    {
+      "file": "github-log-proof.json",
+      "bytes": 443,
+      "sha256": "cce6f50786eed269718799719c24312e7b6d6d15f4eef35d879ae6022f62723d"
+    },
+    {
+      "file": "cloudflare-crawl-audit.json",
+      "bytes": 25891,
+      "sha256": "180cf9cd4c33d10e137656afd04690b0fcb1f511df48b9aa447a44c1ed7a1938"
+    },
+    {
+      "file": "postdeploy-sitemap-access-probes.json",
+      "bytes": 1339,
+      "sha256": "b5756a91c4abb329cdc1fc24527dc15d584df0a181733b249e36a02f95da2926"
+    },
+    {
+      "file": "archive-quality-review.json",
+      "bytes": 766073,
+      "sha256": "c6eebb7164eb7da45b5148eab0bbe69b6f7c7de0b502d86371ce77496bb0aa58"
+    },
+    {
+      "file": "public-image-diagnostic.json",
+      "bytes": 2094,
+      "sha256": "0775fc9d61b8724150c15ccb48e00fe4532263c70e4f449112205eaf2b640e77"
+    },
+    {
+      "file": "public-indexing-browser-attempt1-failure.json",
+      "bytes": 633,
+      "sha256": "abd051a5f5145732b093f144c4a9025c3e9ab6165475a5fd58cc4a1d40975ae4"
+    },
+    {
+      "file": "supplemental-public-checks.json",
+      "bytes": 707,
+      "sha256": "fb319fe1d8a8b84b14bb195979010c7c70efba734b1524d86037c4a61c9b0c16"
+    },
+    {
+      "file": "check.log",
+      "bytes": 240,
+      "sha256": "186bc41e96539b8ad912af5a76c2f2c0f0faaabb79ed2f62c114fa4507c35fbc"
+    },
+    {
+      "file": "tests.log",
+      "bytes": 2412,
+      "sha256": "795dc1607fb5e6f6b9343b1eb78876470ba925b0804f830d20b6bc70d7b9173f"
+    },
+    {
+      "file": "build.log",
+      "bytes": 62292,
+      "sha256": "33f8e2de760707f65af2f8c77b037edaf14b22ac3ca5aed08ff4f321f9840da4"
+    },
+    {
+      "file": "e2e.log",
+      "bytes": 4922,
+      "sha256": "98c73f90129a0d10e34ab193eaf7da0c1970c0488014c1bdc7e8f48ccd390a2a"
+    },
+    {
+      "file": "release.log",
+      "bytes": 62346,
+      "sha256": "5c491c22a57468e5663320328535f24560a78aac692cdbefc0d9b347a5fdb384"
+    },
+    {
+      "file": "release-tests.log",
+      "bytes": 9127,
+      "sha256": "2e1739684ea6d1b83aa265fb25ac367ab74c9aa36bb579a16b36a2f8fd8a6f86"
+    }
+  ],
+  "navigationTitleReview": {
+    "sameLanguageDuplicateTitles": [
+      {
+        "locale": "en",
+        "title": "Singapore | MaletaFeliz",
+        "urls": [
+          "https://maletafeliz.com/en/destinations/singapore/",
+          "https://maletafeliz.com/en/explore/country-sg/"
+        ]
+      },
+      {
+        "locale": "es",
+        "title": "Singapur | MaletaFeliz",
+        "urls": [
+          "https://maletafeliz.com/es/destinos/singapore/",
+          "https://maletafeliz.com/es/explorar/country-sg/"
+        ]
+      },
+      {
+        "locale": "es",
+        "title": "Túnez | MaletaFeliz",
+        "urls": [
+          "https://maletafeliz.com/es/destinos/tunis/",
+          "https://maletafeliz.com/es/explorar/country-tn/"
+        ]
+      }
+    ],
+    "note": "Proper place names can recur on country and city navigation; Article titles are separately unique. Different locale versions are not treated as title duplication errors.",
+    "artifactSha256": "b9bc0b7a4bd7fdbe960625c8463804148903438d4bbb5af3ad4f2d7d0297c088",
+    "classification": "Three country/city archive pairs share a proper place name; their descriptions and canonical URLs remain distinct. Article titles are unique. No mapping to the private GSC exceptions is claimed."
+  }
+}

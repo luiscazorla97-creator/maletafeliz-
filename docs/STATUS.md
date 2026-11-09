@@ -1,6 +1,16 @@
 # Estado del proyecto
 
-Verificado el 8 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
+Verificado el 9 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
+
+## Auditoría técnica de indexación: 9 de noviembre de 2026
+
+Publicado y verificado el commit `7d7a8c83db5f43beb9148ce4adf62646a44bab98` en ambos proyectos existentes de Cloudflare. Esta tanda es una corrección técnica: cero artículos o rutas nuevos. Se conservan 186 originales, 372 versiones y 821 fotos, todas las fechas anteriores, diseño 3D, publicidad, Analytics, consentimiento y frecuencia de publicación.
+
+La auditoría pública pasó de 864 a 882 URLs de sitemap al incorporar 18 páginas informativas existentes y conservar todas las entradas anteriores. Las 882 respondieron HTTP 200, sin problemas de indexabilidad detectados. Las 82 páginas de países sin recorrido desde las portadas ahora son alcanzables. El índice enlaza directamente las 186 guías de cada idioma, y las 372 están a dos clics o menos desde una portada. Se ajustaron 116 metadescripciones; las 118 páginas del grupo antes repetido tienen descripciones distintas y las dos portadas conservaron sus textos.
+
+Pasaron tipos, 80 pruebas unitarias, 28 de navegación y 52 de producción seleccionadas. GitHub Actions aprobó 80 unitarias, 28 de navegación y 796 de producción: 904 en total. Las compilaciones normal y obligatoria `npm run build:release` produjeron 888 páginas; no desapareció ninguna ruta. Se revisaron escritorio, móvil y enlaces de directorios sin JavaScript, con 24 registros privados y 26 públicos.
+
+Informe: `docs/INDEXING-AUDIT-2026-11-09.md`. Evidencia: `editorial/verification/2026-11-09-indexing-publication.json`. Los datos privados de Search Console —79 descubiertas, 11 rastreadas, 6 noindex, 2 robots y un 404— no incluyen ejemplos accesibles al ejecutor. No se afirma que Google ya haya indexado las pendientes. Las 24 sondas de Cloudflare fueron correctas, pero no procedían de IPs verificadas de Google; faltan permisos para registros de seguridad/Analytics. Se mantienen exclusiones intencionales, el404 verdadero y las acciones manuales de Search Console del informe.
 
 ## Publicación verificada
 

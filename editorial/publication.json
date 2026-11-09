@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "e1a90a0e-4b5c-4dde-8123-6fd40b0cce46",
-      "commit": "95b3a12d7e40236ce647bed09c412cf02af1cca9",
+      "deploymentId": "4e57deee-6974-4264-9d0b-193ef5f689b5",
+      "commit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "be7ba6cb-0b03-4b81-8a4a-5835f992c386",
-      "commit": "95b3a12d7e40236ce647bed09c412cf02af1cca9",
+      "deploymentId": "772cfc35-cf05-4554-84fb-195bed6f5d23",
+      "commit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -53,8 +53,8 @@
     "batchBrowserSeoDiscoveryAndPhotoCheckRecords": 80,
     "note": "Browser,SEO,discovery and image-byte records; actual network request counts retained separately."
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-08-manual-two-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-09T04:06:33.609483+00:00",
+  "latestDeploymentVerification": "editorial/verification/2026-11-09-indexing-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-09T16:37:28.691378+00:00",
   "photoCoverage": {
     "originalRecommendations": 819,
     "localizedRecommendations": 1638,
@@ -136,5 +136,16 @@
     "initialTargetOriginals": 100,
     "remainingOriginals": 32,
     "verification": "editorial/verification/2026-11-08-manual-two-publication.json"
+  },
+  "technicalIndexability": {
+    "verifiedAt": "2026-11-09T16:37:28.691378+00:00",
+    "verificationFile": "editorial/verification/2026-11-09-indexing-publication.json",
+    "sourceCommit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+    "sitemapUrls": 882,
+    "httpUrlsChecked": 882,
+    "newArticles": 0,
+    "unreachableSitemapPages": 0,
+    "maximumGuideClickDepth": 2,
+    "googleIndexationVerified": false
   }
 }

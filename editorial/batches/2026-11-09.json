@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-09",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-09T17:06:35.011Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "morelia",
+    "bergamo"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "3ae2babf-ad9d-4306-953e-b6b28aa2aaa2",
+    "status": "active",
+    "startedAt": "2026-11-09T17:06:49.043400+00:00",
+    "heartbeatAt": "2026-11-09T17:06:49.043400+00:00",
+    "leaseUntil": "2026-11-09T21:06:49.043400+00:00",
+    "baseCommit": "4615f2397820b6703bc528f9faa0cbf3e2a2d9d8",
+    "coordination": "All prior batches and verification records read; zero unique verified first publications on9NovemberNewYork. Reservation returned Morelia thenBergamo under country prioritization; this existing order preserved. No other active lease."
+  },
+  "authorization": {
+    "request": "Two original travel themes, each complete ES/EN, daily execution",
+    "dailyTarget": 2,
+    "newYorkDate": "2026-11-09",
+    "priorVerifiedOriginalsToday": 0
+  }
+}

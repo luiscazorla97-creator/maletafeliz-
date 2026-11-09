@@ -27,6 +27,10 @@ import { legal, type LegalId } from '../../data/legal';
 import { route } from '../../lib/routes';
 import { absolute, production } from '../../lib/site';
 import {
+  collectionDescription,
+  compactDescription,
+} from '../../lib/collection-seo';
+import {
   publishedArticles,
   forLocale,
   articlePath,
@@ -155,8 +159,12 @@ for (const locale of locales) {
 const destinationArticles = destination
   ? forLocale(lang).filter((a) => a.destinationId === destination.id)
   : [];
-const coverArticle = article || destinationArticles.find((a) => a.id === destination?.id) || destinationArticles[0];
+const coverArticle =
+  article ||
+  destinationArticles.find((a) => a.id === destination?.id) ||
+  destinationArticles[0];
 const photo = coverArticle && photoFor(coverArticle.coverImageId);
+const guideArticles = kind === 'guides' && !article ? forLocale(lang) : [];
 const jsonLd = article
   ? {
       '@context': 'https://schema.org',
@@ -268,7 +276,30 @@ const jsonLd = article
           },
         ],
       }
-    : undefined;
+    : guideArticles.length
+      ? {
+          '@context': 'https://schema.org',
+          '@graph': [
+            {
+              '@type': 'CollectionPage',
+              '@id': absolute(route(lang, 'guides')),
+              url: absolute(route(lang, 'guides')),
+              name: title,
+              inLanguage: lang,
+              mainEntity: {
+                '@type': 'ItemList',
+                numberOfItems: guideArticles.length,
+                itemListElement: guideArticles.map((a, i) => ({
+                  '@type': 'ListItem',
+                  position: i + 1,
+                  name: a.title,
+                  item: absolute(articlePath(a)),
+                })),
+              },
+            },
+          ],
+        }
+      : undefined;
 const items = all.flatMap((d) => {
   const matches = forLocale(lang).filter((a) => a.destinationId === d.id);
   return (matches.length ? matches : [undefined]).map((a) => ({
@@ -287,6 +318,19 @@ const empty = destination
   : kind === 'guides'
     ? forLocale(lang).length === 0
     : selection.length === 0;
+const selectedGuideCount = forLocale(lang).filter((a) =>
+  selection.some((d) => d.id === a.destinationId),
+).length;
+const collectionMetadata =
+  kind !== 'info' && kind !== 'search'
+    ? collectionDescription({
+        lang,
+        kind,
+        id,
+        title,
+        guideCount: selectedGuideCount,
+      })
+    : undefined;
 ---
 
 <Layout
@@ -295,11 +339,13 @@ const empty = destination
   description={
     article?.description ||
     countryGuide?.description ||
+    (info && compactDescription(info.sections[0]?.[1] || info.title)) ||
     (id === 'category-festivals'
       ? lang === 'es'
         ? 'Guías de Navidad, Halloween y Día de Muertos: destinos, fotografías y consejos para organizar una visita y comprobar las fechas de cada celebración.'
         : 'Christmas, Halloween and Day of the Dead guides: destinations, photographs and practical advice for planning a visit and checking seasonal dates.'
       : undefined) ||
+    collectionMetadata ||
     (destination ? destination.titles[lang] : t.footerText)
   }
   alternates={alternates}
@@ -362,7 +408,17 @@ const empty = destination
             </div>
             <div>
               <dt>{t.country}</dt>
-              <dd>{destination.country[lang]}</dd>
+              <dd>
+                <a
+                  href={route(
+                    lang,
+                    'explore',
+                    `country-${destination.countryId}`,
+                  )}
+                >
+                  {destination.country[lang]}
+                </a>
+              </dd>
             </div>
           </dl>
         </div>
@@ -475,10 +531,24 @@ const empty = destination
               {t.previewNote}
             </p>
           )}
+          {selection.length > 0 && (
+            <h2 class="sr-only">
+              {kind === 'guides' ? t.available : t.destinationsTitle}
+            </h2>
+          )}
           <div class="card-grid">
-            {selection.map((d) => (
-              <Card destination={d} lang={lang} />
-            ))}
+            {kind === 'guides'
+              ? guideArticles.map((a) => (
+                  <Card
+                    destination={destinations.find(
+                      (d) => d.id === a.destinationId,
+                    )!}
+                    lang={lang}
+                    articleId={a.id}
+                    href={articlePath(a)}
+                  />
+                ))
+              : selection.map((d) => <Card destination={d} lang={lang} />)}
           </div>
           {!selection.length && (
             <div class="empty-state">

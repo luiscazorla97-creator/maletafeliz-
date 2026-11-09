@@ -1,0 +1,3233 @@
+{
+  "auditedAt": "2026-11-09T16:10:01.788414+00:00",
+  "baselineCommit": "1bb940a66aa149092c89ed06d5d94b44730bd52c",
+  "scope": "Technical indexability fixes; zero new articles or public routes. Deployment and Google indexation not yet claimed.",
+  "ownerReportedGscCounts": {
+    "discoveredNotIndexed": 79,
+    "crawledNotIndexed": 11,
+    "noindex": 6,
+    "robots": 2,
+    "notFound": 1
+  },
+  "gscDirectAccess": false,
+  "before": {
+    "sitemapUrls": 864,
+    "checked": 864,
+    "httpStatuses": {
+      "200": 864
+    },
+    "indexabilityIssues": [],
+    "unreachableFromLocalizedHomes": [
+      "https://maletafeliz.com/es/explorar/country-es/",
+      "https://maletafeliz.com/es/explorar/country-pt/",
+      "https://maletafeliz.com/es/explorar/country-th/",
+      "https://maletafeliz.com/es/explorar/country-id/",
+      "https://maletafeliz.com/es/explorar/country-za/",
+      "https://maletafeliz.com/es/explorar/country-ma/",
+      "https://maletafeliz.com/es/explorar/country-au/",
+      "https://maletafeliz.com/es/explorar/country-nz/",
+      "https://maletafeliz.com/es/explorar/country-ca/",
+      "https://maletafeliz.com/es/explorar/country-ch/",
+      "https://maletafeliz.com/es/explorar/country-kr/",
+      "https://maletafeliz.com/es/explorar/country-ke/",
+      "https://maletafeliz.com/es/explorar/country-sg/",
+      "https://maletafeliz.com/es/explorar/country-tz/",
+      "https://maletafeliz.com/es/explorar/country-ie/",
+      "https://maletafeliz.com/es/explorar/country-de/",
+      "https://maletafeliz.com/es/explorar/country-nl/",
+      "https://maletafeliz.com/es/explorar/country-co/",
+      "https://maletafeliz.com/es/explorar/country-eg/",
+      "https://maletafeliz.com/es/explorar/country-cn/",
+      "https://maletafeliz.com/es/explorar/country-tr/",
+      "https://maletafeliz.com/es/explorar/country-cz/",
+      "https://maletafeliz.com/es/explorar/country-at/",
+      "https://maletafeliz.com/es/explorar/country-gr/",
+      "https://maletafeliz.com/es/explorar/country-ae/",
+      "https://maletafeliz.com/es/explorar/country-tw/",
+      "https://maletafeliz.com/es/explorar/country-kh/",
+      "https://maletafeliz.com/es/explorar/country-cl/",
+      "https://maletafeliz.com/es/explorar/country-dk/",
+      "https://maletafeliz.com/es/explorar/country-hu/",
+      "https://maletafeliz.com/es/explorar/country-my/",
+      "https://maletafeliz.com/es/explorar/country-vn/",
+      "https://maletafeliz.com/es/explorar/country-tn/",
+      "https://maletafeliz.com/es/explorar/country-fi/",
+      "https://maletafeliz.com/es/explorar/country-ee/",
+      "https://maletafeliz.com/es/explorar/country-se/",
+      "https://maletafeliz.com/es/explorar/country-be/",
+      "https://maletafeliz.com/es/explorar/country-ec/",
+      "https://maletafeliz.com/es/explorar/country-in/",
+      "https://maletafeliz.com/es/explorar/country-qa/",
+      "https://maletafeliz.com/es/explorar/country-si/",
+      "https://maletafeliz.com/en/explore/country-es/",
+      "https://maletafeliz.com/en/explore/country-pt/",
+      "https://maletafeliz.com/en/explore/country-th/",
+      "https://maletafeliz.com/en/explore/country-id/",
+      "https://maletafeliz.com/en/explore/country-za/",
+      "https://maletafeliz.com/en/explore/country-ma/",
+      "https://maletafeliz.com/en/explore/country-au/",
+      "https://maletafeliz.com/en/explore/country-nz/",
+      "https://maletafeliz.com/en/explore/country-ca/",
+      "https://maletafeliz.com/en/explore/country-ch/",
+      "https://maletafeliz.com/en/explore/country-kr/",
+      "https://maletafeliz.com/en/explore/country-ke/",
+      "https://maletafeliz.com/en/explore/country-sg/",
+      "https://maletafeliz.com/en/explore/country-tz/",
+      "https://maletafeliz.com/en/explore/country-ie/",
+      "https://maletafeliz.com/en/explore/country-de/",
+      "https://maletafeliz.com/en/explore/country-nl/",
+      "https://maletafeliz.com/en/explore/country-co/",
+      "https://maletafeliz.com/en/explore/country-eg/",
+      "https://maletafeliz.com/en/explore/country-cn/",
+      "https://maletafeliz.com/en/explore/country-tr/",
+      "https://maletafeliz.com/en/explore/country-cz/",
+      "https://maletafeliz.com/en/explore/country-at/",
+      "https://maletafeliz.com/en/explore/country-gr/",
+      "https://maletafeliz.com/en/explore/country-ae/",
+      "https://maletafeliz.com/en/explore/country-tw/",
+      "https://maletafeliz.com/en/explore/country-kh/",
+      "https://maletafeliz.com/en/explore/country-cl/",
+      "https://maletafeliz.com/en/explore/country-dk/",
+      "https://maletafeliz.com/en/explore/country-hu/",
+      "https://maletafeliz.com/en/explore/country-my/",
+      "https://maletafeliz.com/en/explore/country-vn/",
+      "https://maletafeliz.com/en/explore/country-tn/",
+      "https://maletafeliz.com/en/explore/country-fi/",
+      "https://maletafeliz.com/en/explore/country-ee/",
+      "https://maletafeliz.com/en/explore/country-se/",
+      "https://maletafeliz.com/en/explore/country-be/",
+      "https://maletafeliz.com/en/explore/country-ec/",
+      "https://maletafeliz.com/en/explore/country-in/",
+      "https://maletafeliz.com/en/explore/country-qa/",
+      "https://maletafeliz.com/en/explore/country-si/"
+    ],
+    "clickDepthDistribution": {
+      "0": 2,
+      "1": 90,
+      "2": 536,
+      "3": 154
+    }
+  },
+  "contentAudit": {
+    "auditedAt": "2026-11-09T15:50:33.970033+00:00",
+    "scope": {
+      "publishedOriginals": 186,
+      "localizedVersions": 372,
+      "httpArticleBodiesRead": 372,
+      "completeLocalizedPairs": 186,
+      "sourceDocuments": 856
+    },
+    "method": [
+      "All published JSON manuscripts and actual HTTPS HTML captured in parent crawl examined; no content mutations.",
+      "Compared every introduction, place/practical paragraph, itinerary item, FAQ question/answer and conclusion against server HTML with Unicode/whitespace normalization, excluding script/style text. Collapsed FAQ details are server HTML, not JavaScript-dependent content.",
+      "Checked one H1, all recommendation/practical H2 headings, title/metadescription/canonical, reciprocal ES/EN hreflang, Article schema type/headline/language/URL/unchanged dates, full editorial structure, source-evidence presence, and final content approval hashes.",
+      "Compared exact complete-body fingerprints, repeated paragraphs of at least12words and eight-word-shingle similarity within each language. Similarity is a triage measure, not a plagiarism verdict or Google indexing rule.",
+      "Length is descriptive, not a ranking requirement. Shorter entries retained for editorial review rather than padded, removed or assigned noindex."
+    ],
+    "hardIssues": [],
+    "translationPairIssues": [],
+    "exactDuplicateArticles": [],
+    "exactRepeatedParagraphs": [],
+    "nearDuplicateCandidates": [],
+    "duplicateArticleTitles": [],
+    "duplicateArticleDescriptions": [],
+    "under1200WordsForReview": [
+      {
+        "id": "verona",
+        "locale": "en",
+        "words": 1067,
+        "places": 5,
+        "practicalSections": 1,
+        "faq": 4,
+        "intent": "5-distinct-places-first-visit-evergreen",
+        "url": "https://maletafeliz.com/en/guides/verona-5-places-to-visit/"
+      },
+      {
+        "id": "los-cabos",
+        "locale": "en",
+        "words": 1091,
+        "places": 5,
+        "practicalSections": 1,
+        "faq": 4,
+        "intent": "5-distinct-places-first-visit-evergreen",
+        "url": "https://maletafeliz.com/en/guides/los-cabos-5-places-to-visit/"
+      },
+      {
+        "id": "oaxaca",
+        "locale": "en",
+        "words": 1109,
+        "places": 5,
+        "practicalSections": 1,
+        "faq": 4,
+        "intent": "5-distinct-places-first-visit-evergreen",
+        "url": "https://maletafeliz.com/en/guides/oaxaca-5-places-to-visit/"
+      },
+      {
+        "id": "pisa",
+        "locale": "en",
+        "words": 1110,
+        "places": 5,
+        "practicalSections": 1,
+        "faq": 4,
+        "intent": "5-distinct-places-first-visit-evergreen",
+        "url": "https://maletafeliz.com/en/guides/pisa-5-places-to-visit/"
+      },
+      {
+        "id": "kanazawa",
+        "locale": "en",
+        "words": 1112,
+        "places": 5,
+        "practicalSections": 1,
+        "faq": 4,
+        "intent": "5-distinct-places-first-visit-evergreen",
+        "url": "https://maletafeliz.com/en/guides/kanazawa-5-places-to-visit/"
+      },
+      {
+        "id": "verona",
+        "locale": "es",
+        "words": 1135,
+        "places": 5,
+        "practicalSections": 1,
+        "faq": 4,
+        "intent": "5-distinct-places-first-visit-evergreen",
+        "url": "https://maletafeliz.com/es/guias/que-ver-en-verona-5-lugares/"
+      },
+      {
+        "id": "mount-fuji",
+        "locale": "en",
+        "words": 1141,
+        "places": 5,
+        "practicalSections": 1,
+        "faq": 4,
+        "intent": "5-distinct-places-first-visit-selection-foothills-not-summit-climb",
+        "url": "https://maletafeliz.com/en/guides/5-places-near-mount-fuji/"
+      },
+      {
+        "id": "christmas-venice",
+        "locale": "en",
+        "words": 1154,
+        "places": 3,
+        "practicalSections": 2,
+        "faq": 4,
+        "intent": "venice-christmas-2026-verified-programmes-practical-planning",
+        "url": "https://maletafeliz.com/en/guides/christmas-in-venice-2026/"
+      },
+      {
+        "id": "christmas-osaka",
+        "locale": "en",
+        "words": 1168,
+        "places": 3,
+        "practicalSections": 2,
+        "faq": 4,
+        "intent": "osaka-christmas-2026-verified-programmes-practical-planning",
+        "url": "https://maletafeliz.com/en/guides/christmas-in-osaka-2026/"
+      },
+      {
+        "id": "los-cabos",
+        "locale": "es",
+        "words": 1182,
+        "places": 5,
+        "practicalSections": 1,
+        "faq": 4,
+        "intent": "5-distinct-places-first-visit-evergreen",
+        "url": "https://maletafeliz.com/es/guias/que-ver-en-los-cabos-5-lugares/"
+      },
+      {
+        "id": "christmas-fukuoka",
+        "locale": "en",
+        "words": 1185,
+        "places": 3,
+        "practicalSections": 3,
+        "faq": 4,
+        "intent": "fukuoka-christmas-advent-2026-three-venues",
+        "url": "https://maletafeliz.com/en/guides/christmas-in-fukuoka-2026/"
+      },
+      {
+        "id": "cancun",
+        "locale": "en",
+        "words": 1187,
+        "places": 5,
+        "practicalSections": 1,
+        "faq": 4,
+        "intent": "5-distinct-places-first-visit-selection-evergreen",
+        "url": "https://maletafeliz.com/en/guides/5-places-to-visit-in-cancun/"
+      },
+      {
+        "id": "christmas-miami",
+        "locale": "en",
+        "words": 1187,
+        "places": 3,
+        "practicalSections": 2,
+        "faq": 4,
+        "intent": "miami-christmas-2026-verified-programmes-practical-planning",
+        "url": "https://maletafeliz.com/en/guides/christmas-in-miami-2026/"
+      },
+      {
+        "id": "christmas-philadelphia",
+        "locale": "en",
+        "words": 1192,
+        "places": 3,
+        "practicalSections": 3,
+        "faq": 4,
+        "intent": "philadelphia-christmas-2026-centre-market-skating-lights",
+        "url": "https://maletafeliz.com/en/guides/christmas-in-philadelphia-2026/"
+      },
+      {
+        "id": "christmas-verona",
+        "locale": "en",
+        "words": 1195,
+        "places": 3,
+        "practicalSections": 3,
+        "faq": 4,
+        "intent": "verona-christmas-2026-markets-location-calendar",
+        "url": "https://maletafeliz.com/en/guides/christmas-in-verona-2026/"
+      },
+      {
+        "id": "pisa",
+        "locale": "es",
+        "words": 1199,
+        "places": 5,
+        "practicalSections": 1,
+        "faq": 4,
+        "intent": "5-distinct-places-first-visit-evergreen",
+        "url": "https://maletafeliz.com/es/guias/que-ver-en-pisa-5-lugares/"
+      }
+    ],
+    "wordRange": [
+      1067,
+      2393
+    ],
+    "translationPairs": [
+      {
+        "id": "adelaide",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.992,
+        "issues": []
+      },
+      {
+        "id": "amalfi-coast",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.946,
+        "issues": []
+      },
+      {
+        "id": "atacama",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.913,
+        "issues": []
+      },
+      {
+        "id": "athens",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.972,
+        "issues": []
+      },
+      {
+        "id": "bali",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.914,
+        "issues": []
+      },
+      {
+        "id": "bangkok",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.923,
+        "issues": []
+      },
+      {
+        "id": "barcelona",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.93,
+        "issues": []
+      },
+      {
+        "id": "bariloche",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.997,
+        "issues": []
+      },
+      {
+        "id": "beijing",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.952,
+        "issues": []
+      },
+      {
+        "id": "bogota",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.965,
+        "issues": []
+      },
+      {
+        "id": "bologna",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.96,
+        "issues": []
+      },
+      {
+        "id": "brisbane",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.029,
+        "issues": []
+      },
+      {
+        "id": "budapest",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.97,
+        "issues": []
+      },
+      {
+        "id": "buenos-aires",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.971,
+        "issues": []
+      },
+      {
+        "id": "buffalo",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.975,
+        "issues": []
+      },
+      {
+        "id": "cairo",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.935,
+        "issues": []
+      },
+      {
+        "id": "cancun",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.932,
+        "issues": []
+      },
+      {
+        "id": "cape-town",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.979,
+        "issues": []
+      },
+      {
+        "id": "cartagena",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.016,
+        "issues": []
+      },
+      {
+        "id": "christchurch",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.963,
+        "issues": []
+      },
+      {
+        "id": "christmas-amsterdam",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.978,
+        "issues": []
+      },
+      {
+        "id": "christmas-barcelona",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.962,
+        "issues": []
+      },
+      {
+        "id": "christmas-basel",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.993,
+        "issues": []
+      },
+      {
+        "id": "christmas-berlin",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.977,
+        "issues": []
+      },
+      {
+        "id": "christmas-boston",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.904,
+        "issues": []
+      },
+      {
+        "id": "christmas-bruges",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.989,
+        "issues": []
+      },
+      {
+        "id": "christmas-brussels",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.012,
+        "issues": []
+      },
+      {
+        "id": "christmas-budapest",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.002,
+        "issues": []
+      },
+      {
+        "id": "christmas-chicago",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.009,
+        "issues": []
+      },
+      {
+        "id": "christmas-colmar",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.995,
+        "issues": []
+      },
+      {
+        "id": "christmas-cologne",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.973,
+        "issues": []
+      },
+      {
+        "id": "christmas-copenhagen",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.024,
+        "issues": []
+      },
+      {
+        "id": "christmas-dresden",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.979,
+        "issues": []
+      },
+      {
+        "id": "christmas-dublin",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.981,
+        "issues": []
+      },
+      {
+        "id": "christmas-edinburgh",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.987,
+        "issues": []
+      },
+      {
+        "id": "christmas-florence",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.982,
+        "issues": []
+      },
+      {
+        "id": "christmas-fukuoka",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.92,
+        "issues": []
+      },
+      {
+        "id": "christmas-helsinki",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.985,
+        "issues": []
+      },
+      {
+        "id": "christmas-innsbruck",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.998,
+        "issues": []
+      },
+      {
+        "id": "christmas-london",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.017,
+        "issues": []
+      },
+      {
+        "id": "christmas-lucerne",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.963,
+        "issues": []
+      },
+      {
+        "id": "christmas-madrid",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.977,
+        "issues": []
+      },
+      {
+        "id": "christmas-malaga",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.973,
+        "issues": []
+      },
+      {
+        "id": "christmas-miami",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.929,
+        "issues": []
+      },
+      {
+        "id": "christmas-milan",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.005,
+        "issues": []
+      },
+      {
+        "id": "christmas-montreal",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.01,
+        "issues": []
+      },
+      {
+        "id": "christmas-munich",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.983,
+        "issues": []
+      },
+      {
+        "id": "christmas-naples",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.921,
+        "issues": []
+      },
+      {
+        "id": "christmas-new-york",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.002,
+        "issues": []
+      },
+      {
+        "id": "christmas-nuremberg",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.017,
+        "issues": []
+      },
+      {
+        "id": "christmas-osaka",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.91,
+        "issues": []
+      },
+      {
+        "id": "christmas-paris",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.989,
+        "issues": []
+      },
+      {
+        "id": "christmas-philadelphia",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.917,
+        "issues": []
+      },
+      {
+        "id": "christmas-prague",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.022,
+        "issues": []
+      },
+      {
+        "id": "christmas-quebec",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.999,
+        "issues": []
+      },
+      {
+        "id": "christmas-rome",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.004,
+        "issues": []
+      },
+      {
+        "id": "christmas-rovaniemi",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.983,
+        "issues": []
+      },
+      {
+        "id": "christmas-salzburg",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.02,
+        "issues": []
+      },
+      {
+        "id": "christmas-san-francisco",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.925,
+        "issues": []
+      },
+      {
+        "id": "christmas-seville",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.987,
+        "issues": []
+      },
+      {
+        "id": "christmas-singapore",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.956,
+        "issues": []
+      },
+      {
+        "id": "christmas-stockholm",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.982,
+        "issues": []
+      },
+      {
+        "id": "christmas-strasbourg",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.998,
+        "issues": []
+      },
+      {
+        "id": "christmas-sydney",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.01,
+        "issues": []
+      },
+      {
+        "id": "christmas-tallinn",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.983,
+        "issues": []
+      },
+      {
+        "id": "christmas-tokyo",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.975,
+        "issues": []
+      },
+      {
+        "id": "christmas-turin",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.96,
+        "issues": []
+      },
+      {
+        "id": "christmas-venice",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.896,
+        "issues": []
+      },
+      {
+        "id": "christmas-verona",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.928,
+        "issues": []
+      },
+      {
+        "id": "christmas-vienna",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.987,
+        "issues": []
+      },
+      {
+        "id": "christmas-vigo",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.989,
+        "issues": []
+      },
+      {
+        "id": "christmas-yokohama",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.906,
+        "issues": []
+      },
+      {
+        "id": "christmas-zurich",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.996,
+        "issues": []
+      },
+      {
+        "id": "columbus",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.951,
+        "issues": []
+      },
+      {
+        "id": "copenhagen",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.982,
+        "issues": []
+      },
+      {
+        "id": "cordoba",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.012,
+        "issues": []
+      },
+      {
+        "id": "cusco",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.962,
+        "issues": []
+      },
+      {
+        "id": "doha",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.949,
+        "issues": []
+      },
+      {
+        "id": "dubai",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.946,
+        "issues": []
+      },
+      {
+        "id": "dunedin",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.986,
+        "issues": []
+      },
+      {
+        "id": "durban",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.958,
+        "issues": []
+      },
+      {
+        "id": "edinburgh",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.982,
+        "issues": []
+      },
+      {
+        "id": "essaouira",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.003,
+        "issues": []
+      },
+      {
+        "id": "florence",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.024,
+        "issues": []
+      },
+      {
+        "id": "goa",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.935,
+        "issues": []
+      },
+      {
+        "id": "granada",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.977,
+        "issues": []
+      },
+      {
+        "id": "greenville-sc",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.946,
+        "issues": []
+      },
+      {
+        "id": "guanajuato",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.928,
+        "issues": []
+      },
+      {
+        "id": "halloween-australia",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.977,
+        "issues": []
+      },
+      {
+        "id": "halloween-canada",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.954,
+        "issues": []
+      },
+      {
+        "id": "halloween-france",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.984,
+        "issues": []
+      },
+      {
+        "id": "halloween-germany",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.96,
+        "issues": []
+      },
+      {
+        "id": "halloween-ireland",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.981,
+        "issues": []
+      },
+      {
+        "id": "halloween-japan",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.987,
+        "issues": []
+      },
+      {
+        "id": "halloween-netherlands",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.968,
+        "issues": []
+      },
+      {
+        "id": "halloween-spain",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.986,
+        "issues": []
+      },
+      {
+        "id": "halloween-uk",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.007,
+        "issues": []
+      },
+      {
+        "id": "halloween-usa",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.964,
+        "issues": []
+      },
+      {
+        "id": "hanoi",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.991,
+        "issues": []
+      },
+      {
+        "id": "hawaii",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.972,
+        "issues": []
+      },
+      {
+        "id": "hilo",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.982,
+        "issues": []
+      },
+      {
+        "id": "hiroshima",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.951,
+        "issues": []
+      },
+      {
+        "id": "hobart",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.001,
+        "issues": []
+      },
+      {
+        "id": "hoi-an",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.94,
+        "issues": []
+      },
+      {
+        "id": "hong-kong",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.003,
+        "issues": []
+      },
+      {
+        "id": "iguazu",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.969,
+        "issues": []
+      },
+      {
+        "id": "istanbul",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.001,
+        "issues": []
+      },
+      {
+        "id": "kanazawa",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.918,
+        "issues": []
+      },
+      {
+        "id": "kuala-lumpur",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.976,
+        "issues": []
+      },
+      {
+        "id": "kyoto",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.935,
+        "issues": []
+      },
+      {
+        "id": "las-vegas",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.936,
+        "issues": []
+      },
+      {
+        "id": "lima",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.958,
+        "issues": []
+      },
+      {
+        "id": "lisbon",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.949,
+        "issues": []
+      },
+      {
+        "id": "ljubljana",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.946,
+        "issues": []
+      },
+      {
+        "id": "london",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.978,
+        "issues": []
+      },
+      {
+        "id": "los-angeles",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.935,
+        "issues": []
+      },
+      {
+        "id": "los-cabos",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.923,
+        "issues": []
+      },
+      {
+        "id": "lucca",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.934,
+        "issues": []
+      },
+      {
+        "id": "lucerne",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.999,
+        "issues": []
+      },
+      {
+        "id": "luxor",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.006,
+        "issues": []
+      },
+      {
+        "id": "madrid",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.018,
+        "issues": []
+      },
+      {
+        "id": "marrakech",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.967,
+        "issues": []
+      },
+      {
+        "id": "melbourne",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.01,
+        "issues": []
+      },
+      {
+        "id": "mexico-city",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.914,
+        "issues": []
+      },
+      {
+        "id": "miami",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.977,
+        "issues": []
+      },
+      {
+        "id": "milan",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.917,
+        "issues": []
+      },
+      {
+        "id": "mount-fuji",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.94,
+        "issues": []
+      },
+      {
+        "id": "muertos-merida",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.938,
+        "issues": []
+      },
+      {
+        "id": "muertos-mexico-city",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.919,
+        "issues": []
+      },
+      {
+        "id": "muertos-mixquic",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.938,
+        "issues": []
+      },
+      {
+        "id": "muertos-oaxaca",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.94,
+        "issues": []
+      },
+      {
+        "id": "muertos-puebla",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.928,
+        "issues": []
+      },
+      {
+        "id": "nairobi",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.948,
+        "issues": []
+      },
+      {
+        "id": "nara",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.004,
+        "issues": []
+      },
+      {
+        "id": "nara-day-trip-transport",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.943,
+        "issues": []
+      },
+      {
+        "id": "new-orleans",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.931,
+        "issues": []
+      },
+      {
+        "id": "new-york",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.95,
+        "issues": []
+      },
+      {
+        "id": "nikko",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.895,
+        "issues": []
+      },
+      {
+        "id": "oaxaca",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.91,
+        "issues": []
+      },
+      {
+        "id": "orlando",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.92,
+        "issues": []
+      },
+      {
+        "id": "osaka",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.98,
+        "issues": []
+      },
+      {
+        "id": "ottawa",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.984,
+        "issues": []
+      },
+      {
+        "id": "padua",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.962,
+        "issues": []
+      },
+      {
+        "id": "paris",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.962,
+        "issues": []
+      },
+      {
+        "id": "perth",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.938,
+        "issues": []
+      },
+      {
+        "id": "phuket",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.928,
+        "issues": []
+      },
+      {
+        "id": "pisa",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.926,
+        "issues": []
+      },
+      {
+        "id": "porto",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.993,
+        "issues": []
+      },
+      {
+        "id": "prague",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.98,
+        "issues": []
+      },
+      {
+        "id": "puebla",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.887,
+        "issues": []
+      },
+      {
+        "id": "puri",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.928,
+        "issues": []
+      },
+      {
+        "id": "quebec",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.024,
+        "issues": []
+      },
+      {
+        "id": "queenstown",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.949,
+        "issues": []
+      },
+      {
+        "id": "queretaro",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.004,
+        "issues": []
+      },
+      {
+        "id": "quito",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.022,
+        "issues": []
+      },
+      {
+        "id": "rabat",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.939,
+        "issues": []
+      },
+      {
+        "id": "rio",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.963,
+        "issues": []
+      },
+      {
+        "id": "riviera-maya",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.93,
+        "issues": []
+      },
+      {
+        "id": "rome",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.951,
+        "issues": []
+      },
+      {
+        "id": "rotorua",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.931,
+        "issues": []
+      },
+      {
+        "id": "salvador",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.949,
+        "issues": []
+      },
+      {
+        "id": "san-diego",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.896,
+        "issues": []
+      },
+      {
+        "id": "san-miguel-de-allende",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.908,
+        "issues": []
+      },
+      {
+        "id": "sapporo",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.909,
+        "issues": []
+      },
+      {
+        "id": "seoul",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.951,
+        "issues": []
+      },
+      {
+        "id": "seville",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.999,
+        "issues": []
+      },
+      {
+        "id": "siem-reap",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.943,
+        "issues": []
+      },
+      {
+        "id": "siena",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.953,
+        "issues": []
+      },
+      {
+        "id": "singapore",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.969,
+        "issues": []
+      },
+      {
+        "id": "stone-town",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.976,
+        "issues": []
+      },
+      {
+        "id": "sydney",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.018,
+        "issues": []
+      },
+      {
+        "id": "taipei",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.955,
+        "issues": []
+      },
+      {
+        "id": "takayama",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.912,
+        "issues": []
+      },
+      {
+        "id": "tangier",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.922,
+        "issues": []
+      },
+      {
+        "id": "tokyo",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.002,
+        "issues": []
+      },
+      {
+        "id": "tunis",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.994,
+        "issues": []
+      },
+      {
+        "id": "udaipur",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.943,
+        "issues": []
+      },
+      {
+        "id": "ushuaia",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 1.022,
+        "issues": []
+      },
+      {
+        "id": "valencia",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.968,
+        "issues": []
+      },
+      {
+        "id": "vancouver",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.983,
+        "issues": []
+      },
+      {
+        "id": "venice",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.975,
+        "issues": []
+      },
+      {
+        "id": "verona",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.94,
+        "issues": []
+      },
+      {
+        "id": "vienna",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.983,
+        "issues": []
+      },
+      {
+        "id": "villa-carlos-paz",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.993,
+        "issues": []
+      },
+      {
+        "id": "washington-dc",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.893,
+        "issues": []
+      },
+      {
+        "id": "wellington",
+        "locales": [
+          "en",
+          "es"
+        ],
+        "englishSpanishWordRatio": 0.952,
+        "issues": []
+      }
+    ],
+    "limits": [
+      "No connection to the owner’s private Search Console URL examples or URL Inspection; cannot identify which exact URLs are the79discovered or11crawled exceptions from aggregate screenshot counts.",
+      "Technical HTML availability and metadata do not establish actual Google indexing, search demand, rankings or factual quality. This does not claim an independent native-language human review or renewed verification of every external source.",
+      "Content preservation was mandatory. No article, publication/update date, approval, photo or application file was edited by this audit."
+    ],
+    "explicitPlaceholderMarkers": [],
+    "editorialTriage": {
+      "scope": "Outline-level editorial triage of all16versions below1200words: titles, stated search intent, introduction, developed section headings/paragraph lengths, logistics and specificFAQ answers examined. Full server HTML presence and source metadata checked for all372versions.",
+      "shorterVersions": 16,
+      "shorterOriginals": 13,
+      "findings": [
+        "The16shorter versions are1067–1199words and have complete introductions, itineraries, conclusions and fourFAQanswers; they are not empty pages or teaser translations.",
+        "Examples: Verona andPisa each develop five distinct places plus admission/route planning; Osaka, Venice andFukuokaChristmas guides each develop three actual venues plus programme-specific dates, transport, booking and holiday distinctions.",
+        "Concise five-place lists and three-venue event guides can answer a proportionate intent. No automatic rewrite, padding, deletion or noindex is warranted from these lengths.",
+        "No exact duplicate article bodies, paragraph copies≥12words, duplicate localized article titles or duplicate localized article descriptions found. No pair crossed the stated shingle-similarity triage thresholds.",
+        "No explicit Lorem Ipsum, uppercase TBD/TODO:, or INSERT placeholders in published manuscript bodies. Ordinary Spanish «todo:» is not a placeholder."
+      ],
+      "limits": "This identifies technical completeness and duplication candidates, not a Google quality score or a guarantee that Google will index every useful article. No minimum word count is asserted. None of the private79discovered or11crawled URL examples is available in this audit."
+    },
+    "relatedLinkAndDocumentaryImageVerification": {
+      "relatedGuideLinksVerified": 872,
+      "localizedDocumentaryPlaceSlotsVerified": 1638,
+      "issues": []
+    }
+  },
+  "cloudflareAudit": {
+    "checkedAt": "2026-11-09T15:50:10.556387+00:00",
+    "scope": "Read-only Cloudflare/HTTP technical crawl audit",
+    "probes": [
+      {
+        "url": "https://maletafeliz.com/es/",
+        "userAgentName": "audit",
+        "checkedAt": "2026-11-09T15:50:06.821641+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "2b65feb08c97a2ded30c9c51e44c18f9e69e8e8754b3cc28ca90d6854be5290e",
+        "mainContentSha256": "de3eb1571197cdb21cdefb9c18fd27ef76c7dee5b614e669776bf7ef8f7f0459",
+        "title": [
+          "Viaja con curiosidad | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/es/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/es/",
+        "userAgentName": "googlebot",
+        "checkedAt": "2026-11-09T15:50:06.822736+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "2b65feb08c97a2ded30c9c51e44c18f9e69e8e8754b3cc28ca90d6854be5290e",
+        "mainContentSha256": "de3eb1571197cdb21cdefb9c18fd27ef76c7dee5b614e669776bf7ef8f7f0459",
+        "title": [
+          "Viaja con curiosidad | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/es/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/es/",
+        "userAgentName": "inspection",
+        "checkedAt": "2026-11-09T15:50:06.823428+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "2b65feb08c97a2ded30c9c51e44c18f9e69e8e8754b3cc28ca90d6854be5290e",
+        "mainContentSha256": "de3eb1571197cdb21cdefb9c18fd27ef76c7dee5b614e669776bf7ef8f7f0459",
+        "title": [
+          "Viaja con curiosidad | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/es/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/en/",
+        "userAgentName": "audit",
+        "checkedAt": "2026-11-09T15:50:07.024559+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "e387d16a0e7ff649e5031fc0bfaea6419dd4399633925d23af1ca344feda7737",
+        "mainContentSha256": "841466c859ea7cdccbef5e0c451642b9859dfacc3a61ce9683214735d02968c4",
+        "title": [
+          "Follow your curiosity | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/en/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/en/",
+        "userAgentName": "googlebot",
+        "checkedAt": "2026-11-09T15:50:07.028103+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "e387d16a0e7ff649e5031fc0bfaea6419dd4399633925d23af1ca344feda7737",
+        "mainContentSha256": "841466c859ea7cdccbef5e0c451642b9859dfacc3a61ce9683214735d02968c4",
+        "title": [
+          "Follow your curiosity | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/en/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/en/",
+        "userAgentName": "inspection",
+        "checkedAt": "2026-11-09T15:50:07.106881+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "e387d16a0e7ff649e5031fc0bfaea6419dd4399633925d23af1ca344feda7737",
+        "mainContentSha256": "841466c859ea7cdccbef5e0c451642b9859dfacc3a61ce9683214735d02968c4",
+        "title": [
+          "Follow your curiosity | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/en/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/robots.txt",
+        "userAgentName": "audit",
+        "checkedAt": "2026-11-09T15:50:07.222746+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/robots.txt",
+        "headers": {
+          "Content-Type": "text/plain; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "REVALIDATED"
+        },
+        "responseSha256": "26887a2a2424f17bdac9b4f8f10cf551ff4de82fd9930429009a060f4d18c79d",
+        "mainContentSha256": null,
+        "title": [],
+        "robotsMeta": [],
+        "canonical": [],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/robots.txt",
+        "userAgentName": "googlebot",
+        "checkedAt": "2026-11-09T15:50:07.225606+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/robots.txt",
+        "headers": {
+          "Content-Type": "text/plain; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "REVALIDATED"
+        },
+        "responseSha256": "26887a2a2424f17bdac9b4f8f10cf551ff4de82fd9930429009a060f4d18c79d",
+        "mainContentSha256": null,
+        "title": [],
+        "robotsMeta": [],
+        "canonical": [],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/robots.txt",
+        "userAgentName": "inspection",
+        "checkedAt": "2026-11-09T15:50:07.291897+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/robots.txt",
+        "headers": {
+          "Content-Type": "text/plain; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "REVALIDATED"
+        },
+        "responseSha256": "26887a2a2424f17bdac9b4f8f10cf551ff4de82fd9930429009a060f4d18c79d",
+        "mainContentSha256": null,
+        "title": [],
+        "robotsMeta": [],
+        "canonical": [],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/sitemap.xml",
+        "userAgentName": "audit",
+        "checkedAt": "2026-11-09T15:50:07.317081+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/sitemap.xml",
+        "headers": {
+          "Content-Type": "application/xml",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "279a214f344518eff7949f24dd053345e7f8be9809f3e077f9ab401759a384fd",
+        "mainContentSha256": null,
+        "title": [],
+        "robotsMeta": [],
+        "canonical": [],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/sitemap.xml",
+        "userAgentName": "googlebot",
+        "checkedAt": "2026-11-09T15:50:07.398353+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/sitemap.xml",
+        "headers": {
+          "Content-Type": "application/xml",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "279a214f344518eff7949f24dd053345e7f8be9809f3e077f9ab401759a384fd",
+        "mainContentSha256": null,
+        "title": [],
+        "robotsMeta": [],
+        "canonical": [],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/sitemap.xml",
+        "userAgentName": "inspection",
+        "checkedAt": "2026-11-09T15:50:07.399345+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/sitemap.xml",
+        "headers": {
+          "Content-Type": "application/xml",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "279a214f344518eff7949f24dd053345e7f8be9809f3e077f9ab401759a384fd",
+        "mainContentSha256": null,
+        "title": [],
+        "robotsMeta": [],
+        "canonical": [],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "userAgentName": "audit",
+        "checkedAt": "2026-11-09T15:50:07.472880+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "72c4e82578f490cf24f534dbd0085f0693fd79b4821b662c956ba1a83ef2550a",
+        "mainContentSha256": "8ac7030c730d1e9efa24f46a0087d473ab16af408c9af7aa2473c98f728d443d",
+        "title": [
+          "10 lugares imprescindibles que visitar en Miami | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "userAgentName": "googlebot",
+        "checkedAt": "2026-11-09T15:50:07.543169+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "72c4e82578f490cf24f534dbd0085f0693fd79b4821b662c956ba1a83ef2550a",
+        "mainContentSha256": "8ac7030c730d1e9efa24f46a0087d473ab16af408c9af7aa2473c98f728d443d",
+        "title": [
+          "10 lugares imprescindibles que visitar en Miami | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "userAgentName": "inspection",
+        "checkedAt": "2026-11-09T15:50:07.567275+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "72c4e82578f490cf24f534dbd0085f0693fd79b4821b662c956ba1a83ef2550a",
+        "mainContentSha256": "8ac7030c730d1e9efa24f46a0087d473ab16af408c9af7aa2473c98f728d443d",
+        "title": [
+          "10 lugares imprescindibles que visitar en Miami | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/",
+        "userAgentName": "audit",
+        "checkedAt": "2026-11-09T15:50:07.607499+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "3f72cc6b454736af98a6f7d0e5e5e51439951472e8186a37e76833e28f4edb00",
+        "mainContentSha256": "98836d15bb8e048927b18a04932066a0b60c9f36ccf326751a870d862ab1e9cb",
+        "title": [
+          "10 essential places to visit in Miami | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/",
+        "userAgentName": "googlebot",
+        "checkedAt": "2026-11-09T15:50:07.673977+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "3f72cc6b454736af98a6f7d0e5e5e51439951472e8186a37e76833e28f4edb00",
+        "mainContentSha256": "98836d15bb8e048927b18a04932066a0b60c9f36ccf326751a870d862ab1e9cb",
+        "title": [
+          "10 essential places to visit in Miami | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/",
+        "userAgentName": "inspection",
+        "checkedAt": "2026-11-09T15:50:07.709081+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "3f72cc6b454736af98a6f7d0e5e5e51439951472e8186a37e76833e28f4edb00",
+        "mainContentSha256": "98836d15bb8e048927b18a04932066a0b60c9f36ccf326751a870d862ab1e9cb",
+        "title": [
+          "10 essential places to visit in Miami | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/en/guides/10-essential-places-to-visit-in-miami/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/es/guias/que-ver-en-sapporo-5-lugares/",
+        "userAgentName": "audit",
+        "checkedAt": "2026-11-09T15:50:07.717470+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-sapporo-5-lugares/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "a78d3633724866d18782dae302b7243ccbee087995da09dd7065ce4f2a7cc5c5",
+        "mainContentSha256": "8aab428eef16245ea89f6407975f6a78d34c223d33e055c252d6254aa353770f",
+        "title": [
+          "Qué ver en Sapporo: 5 lugares y rutas por zonas | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/es/guias/que-ver-en-sapporo-5-lugares/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/es/guias/que-ver-en-sapporo-5-lugares/",
+        "userAgentName": "googlebot",
+        "checkedAt": "2026-11-09T15:50:07.846148+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-sapporo-5-lugares/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "a78d3633724866d18782dae302b7243ccbee087995da09dd7065ce4f2a7cc5c5",
+        "mainContentSha256": "8aab428eef16245ea89f6407975f6a78d34c223d33e055c252d6254aa353770f",
+        "title": [
+          "Qué ver en Sapporo: 5 lugares y rutas por zonas | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/es/guias/que-ver-en-sapporo-5-lugares/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/es/guias/que-ver-en-sapporo-5-lugares/",
+        "userAgentName": "inspection",
+        "checkedAt": "2026-11-09T15:50:07.848202+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/es/guias/que-ver-en-sapporo-5-lugares/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "a78d3633724866d18782dae302b7243ccbee087995da09dd7065ce4f2a7cc5c5",
+        "mainContentSha256": "8aab428eef16245ea89f6407975f6a78d34c223d33e055c252d6254aa353770f",
+        "title": [
+          "Qué ver en Sapporo: 5 lugares y rutas por zonas | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/es/guias/que-ver-en-sapporo-5-lugares/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/en/guides/things-to-do-sapporo-5-places/",
+        "userAgentName": "audit",
+        "checkedAt": "2026-11-09T15:50:07.890168+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-sapporo-5-places/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "09bd7852837da094eb4b4dddb1d4d38cabc388e72e8527a2fb2cb03feb623be2",
+        "mainContentSha256": "2d19f04e60df1ec735a41e253b1de4a6089baf5f78eea750cee08122e5e00625",
+        "title": [
+          "Things to do in Sapporo: 5 places and routes by area | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/en/guides/things-to-do-sapporo-5-places/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/en/guides/things-to-do-sapporo-5-places/",
+        "userAgentName": "googlebot",
+        "checkedAt": "2026-11-09T15:50:08.004590+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-sapporo-5-places/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "09bd7852837da094eb4b4dddb1d4d38cabc388e72e8527a2fb2cb03feb623be2",
+        "mainContentSha256": "2d19f04e60df1ec735a41e253b1de4a6089baf5f78eea750cee08122e5e00625",
+        "title": [
+          "Things to do in Sapporo: 5 places and routes by area | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/en/guides/things-to-do-sapporo-5-places/"
+        ],
+        "challenge": false
+      },
+      {
+        "url": "https://maletafeliz.com/en/guides/things-to-do-sapporo-5-places/",
+        "userAgentName": "inspection",
+        "checkedAt": "2026-11-09T15:50:08.013508+00:00",
+        "status": 200,
+        "finalUrl": "https://maletafeliz.com/en/guides/things-to-do-sapporo-5-places/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Server": "envoy",
+          "CF-Cache-Status": "DYNAMIC"
+        },
+        "responseSha256": "09bd7852837da094eb4b4dddb1d4d38cabc388e72e8527a2fb2cb03feb623be2",
+        "mainContentSha256": "2d19f04e60df1ec735a41e253b1de4a6089baf5f78eea750cee08122e5e00625",
+        "title": [
+          "Things to do in Sapporo: 5 places and routes by area | MaletaFeliz"
+        ],
+        "robotsMeta": [
+          "index,follow,max-image-preview:large"
+        ],
+        "canonical": [
+          "https://maletafeliz.com/en/guides/things-to-do-sapporo-5-places/"
+        ],
+        "challenge": false
+      }
+    ],
+    "comparisons": [
+      {
+        "path": "/es/",
+        "statuses": [
+          200,
+          200,
+          200
+        ],
+        "mainContentIdenticalAcrossUserAgents": true,
+        "noChallengeAcrossUserAgents": true,
+        "robotsIdentical": true
+      },
+      {
+        "path": "/en/",
+        "statuses": [
+          200,
+          200,
+          200
+        ],
+        "mainContentIdenticalAcrossUserAgents": true,
+        "noChallengeAcrossUserAgents": true,
+        "robotsIdentical": true
+      },
+      {
+        "path": "/robots.txt",
+        "statuses": [
+          200,
+          200,
+          200
+        ],
+        "mainContentIdenticalAcrossUserAgents": null,
+        "noChallengeAcrossUserAgents": true,
+        "robotsIdentical": true
+      },
+      {
+        "path": "/sitemap.xml",
+        "statuses": [
+          200,
+          200,
+          200
+        ],
+        "mainContentIdenticalAcrossUserAgents": null,
+        "noChallengeAcrossUserAgents": true,
+        "robotsIdentical": true
+      },
+      {
+        "path": "/es/guias/10-lugares-imprescindibles-que-visitar-en-miami/",
+        "statuses": [
+          200,
+          200,
+          200
+        ],
+        "mainContentIdenticalAcrossUserAgents": true,
+        "noChallengeAcrossUserAgents": true,
+        "robotsIdentical": true
+      },
+      {
+        "path": "/en/guides/10-essential-places-to-visit-in-miami/",
+        "statuses": [
+          200,
+          200,
+          200
+        ],
+        "mainContentIdenticalAcrossUserAgents": true,
+        "noChallengeAcrossUserAgents": true,
+        "robotsIdentical": true
+      },
+      {
+        "path": "/es/guias/que-ver-en-sapporo-5-lugares/",
+        "statuses": [
+          200,
+          200,
+          200
+        ],
+        "mainContentIdenticalAcrossUserAgents": true,
+        "noChallengeAcrossUserAgents": true,
+        "robotsIdentical": true
+      },
+      {
+        "path": "/en/guides/things-to-do-sapporo-5-places/",
+        "statuses": [
+          200,
+          200,
+          200
+        ],
+        "mainContentIdenticalAcrossUserAgents": true,
+        "noChallengeAcrossUserAgents": true,
+        "robotsIdentical": true
+      }
+    ],
+    "zone": {
+      "id": "729e50fce3363602a97395cf181248df",
+      "name": "maletafeliz.com",
+      "status": "active",
+      "plan": "Free Website"
+    },
+    "zoneSettings": [],
+    "analytics404": null,
+    "apiCalls": [
+      {
+        "path": "/zones?name=maletafeliz.com",
+        "method": "GET",
+        "checkedAt": "2026-11-09T15:50:08.169187+00:00",
+        "status": 200,
+        "responseSha256": "dce2adb12e282d3c21182d32023165a0f50d7038819a0061864e4cbb8febc1fa",
+        "success": true
+      },
+      {
+        "path": "/zones/729e50fce3363602a97395cf181248df/settings/security_level",
+        "method": "GET",
+        "checkedAt": "2026-11-09T15:50:08.811771+00:00",
+        "status": 403,
+        "retryAfter": null,
+        "responseSha256": "bc484b5271bfb57d45898e53524ade34de83b5b97ebf37577b8c69f54eb16cbe",
+        "errors": [
+          {
+            "code": 9109,
+            "message": "Unauthorized to access requested resource"
+          }
+        ],
+        "success": false
+      },
+      {
+        "path": "/zones/729e50fce3363602a97395cf181248df/settings/browser_check",
+        "method": "GET",
+        "checkedAt": "2026-11-09T15:50:09.062542+00:00",
+        "status": 403,
+        "retryAfter": null,
+        "responseSha256": "bc484b5271bfb57d45898e53524ade34de83b5b97ebf37577b8c69f54eb16cbe",
+        "errors": [
+          {
+            "code": 9109,
+            "message": "Unauthorized to access requested resource"
+          }
+        ],
+        "success": false
+      },
+      {
+        "path": "/zones/729e50fce3363602a97395cf181248df/bot_management",
+        "method": "GET",
+        "checkedAt": "2026-11-09T15:50:09.319680+00:00",
+        "status": 403,
+        "retryAfter": null,
+        "responseSha256": "753767d1b96893d61206c023e95753ae1a66d3cd425d2c0f18a993f8177e16a2",
+        "errors": [
+          {
+            "code": 10000,
+            "message": "Authentication error",
+            "documentation_url": "https://developers.cloudflare.com/api/resources/bot_management/methods/get"
+          }
+        ],
+        "success": false
+      },
+      {
+        "path": "/zones/729e50fce3363602a97395cf181248df/rulesets",
+        "method": "GET",
+        "checkedAt": "2026-11-09T15:50:09.608645+00:00",
+        "status": 403,
+        "retryAfter": null,
+        "responseSha256": "6759e51e3942bff0d582d1af57ca2a5e39c57b69a3776e41411796dcc7b34786",
+        "errors": [
+          {
+            "code": 10000,
+            "message": "Authentication error",
+            "documentation_url": "https://developers.cloudflare.com/api/resources/rulesets/methods/list"
+          }
+        ],
+        "success": false
+      },
+      {
+        "path": "/graphql",
+        "method": "POST (read-only GraphQL)",
+        "checkedAt": "2026-11-09T15:50:09.818698+00:00",
+        "status": 200,
+        "responseSha256": "ab1b98a6bafeaf895a537dcd3a62a549350ee32dcab6e6a887c3c76ef48751c6",
+        "errors": [
+          {
+            "message": "Actor '[configured-token]' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone 729e50fce3363602a97395cf181248df",
+            "path": null,
+            "extensions": {
+              "code": "authz",
+              "timestamp": "2026-11-09T15:50:10.516916691Z",
+              "ray_id": "a57df8b7c8479b4f-SEA"
+            }
+          }
+        ],
+        "success": false
+      }
+    ],
+    "limitations": [
+      "Changing the User-Agent is not a verified Googlebot request from a Google-owned IP.",
+      "Search Console affected URLs and URL-inspection data are not connected to this executor. Aggregate screenshot counts cannot identify particular 404 or discovered/crawled-not-indexed pages.",
+      "HTTP200 and identical HTML show technical accessibility from this executor; they do not establish Google indexing or rule out IP-specific security treatment.",
+      "No Cloudflare setting, DNS, project, article, image or advertising configuration was changed."
+    ],
+    "summary": {
+      "requests": 24,
+      "http200": 24,
+      "challenges": 0,
+      "htmlMainEquivalentUrls": 6,
+      "xmlAndRobotsEquivalentAcrossUserAgents": true,
+      "zoneSecuritySettingsAccess": "denied403",
+      "zoneTrafficAnalyticsAccess": "deniedGraphQLAuthz",
+      "exactSearchConsole404Identified": false,
+      "configurationsChanged": false
+    }
+  },
+  "localProductionRegression": {
+    "checkedAt": "2026-11-09T16:09:32.503024+00:00",
+    "htmlPages": 888,
+    "sitemapUrls": 882,
+    "indexableHtmlPages": 882,
+    "preservedPreviousSitemapUrls": 864,
+    "existingInformationPagesAdded": 18,
+    "intentionalNoindexUrls": [
+      "https://maletafeliz.com/",
+      "https://maletafeliz.com/404/",
+      "https://maletafeliz.com/en/explore/antarctica/",
+      "https://maletafeliz.com/en/search/",
+      "https://maletafeliz.com/es/buscar/",
+      "https://maletafeliz.com/es/explorar/antarctica/"
+    ],
+    "unreachableFromLocalizedHomes": [],
+    "clickDepthDistribution": {
+      "0": 2,
+      "1": 108,
+      "2": 704,
+      "3": 68
+    },
+    "articleVersions": 372,
+    "maximumGuideClickDepth": 2,
+    "allGuidesDirectlyLinkedFromDirectory": true,
+    "previousArticleMetadataChanges": [],
+    "previous118RepeatedCollectionDescriptionsNowUnique": true,
+    "limits": "Local production HTML regression test; not Google indexation status."
+  },
+  "privateBrowserQa": {
+    "checkedAt": "2026-11-09T16:10:35.073Z",
+    "origin": "http://127.0.0.1:4349",
+    "public": false,
+    "success": true,
+    "transport": "Local mandatory production build; external providers isolated.",
+    "records": [
+      {
+        "type": "guide-directory",
+        "lang": "es",
+        "device": "desktop",
+        "javaScriptEnabled": false,
+        "directArticleLinks": 186,
+        "reciprocalHreflang": true,
+        "collectionSchema": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-country-route",
+        "lang": "es",
+        "device": "desktop",
+        "id": "barcelona",
+        "javaScriptEnabled": false,
+        "fullProseInHtml": true,
+        "articleMetadataAndDatesPreserved": true,
+        "placePhotos": 10,
+        "country": "es",
+        "countryReachableByHtml": true,
+        "countryDescription": "España: 12 guías publicadas. Lugares para conocer, rutas y consejos prácticos para organizar tu viaje por el país."
+      },
+      {
+        "type": "city-country-language-route",
+        "lang": "es",
+        "device": "desktop",
+        "javaScriptEnabled": false,
+        "existingCityUrl": "/es/destinos/barcelona/",
+        "country": "es",
+        "translatedCountryNavigation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "homepage",
+        "lang": "es",
+        "device": "desktop",
+        "javaScriptEnabled": false,
+        "threeDimensionalBrandPreserved": true,
+        "noOverflow": true
+      },
+      {
+        "type": "guide-directory",
+        "lang": "en",
+        "device": "desktop",
+        "javaScriptEnabled": false,
+        "directArticleLinks": 186,
+        "reciprocalHreflang": true,
+        "collectionSchema": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-country-route",
+        "lang": "en",
+        "device": "desktop",
+        "id": "barcelona",
+        "javaScriptEnabled": false,
+        "fullProseInHtml": true,
+        "articleMetadataAndDatesPreserved": true,
+        "placePhotos": 10,
+        "country": "es",
+        "countryReachableByHtml": true,
+        "countryDescription": "Spain: 12 published guides. Find places to visit, routes and practical advice to help organise your trip around the country."
+      },
+      {
+        "type": "city-country-language-route",
+        "lang": "en",
+        "device": "desktop",
+        "javaScriptEnabled": false,
+        "existingCityUrl": "/en/destinations/barcelona/",
+        "country": "es",
+        "translatedCountryNavigation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "guide-directory",
+        "lang": "es",
+        "device": "mobile",
+        "javaScriptEnabled": false,
+        "directArticleLinks": 186,
+        "reciprocalHreflang": true,
+        "collectionSchema": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-country-route",
+        "lang": "es",
+        "device": "mobile",
+        "id": "barcelona",
+        "javaScriptEnabled": false,
+        "fullProseInHtml": true,
+        "articleMetadataAndDatesPreserved": true,
+        "placePhotos": 10,
+        "country": "es",
+        "countryReachableByHtml": true,
+        "countryDescription": "España: 12 guías publicadas. Lugares para conocer, rutas y consejos prácticos para organizar tu viaje por el país."
+      },
+      {
+        "type": "city-country-language-route",
+        "lang": "es",
+        "device": "mobile",
+        "javaScriptEnabled": false,
+        "existingCityUrl": "/es/destinos/barcelona/",
+        "country": "es",
+        "translatedCountryNavigation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "guide-directory",
+        "lang": "en",
+        "device": "mobile",
+        "javaScriptEnabled": false,
+        "directArticleLinks": 186,
+        "reciprocalHreflang": true,
+        "collectionSchema": true,
+        "noOverflow": true
+      },
+      {
+        "type": "article-country-route",
+        "lang": "en",
+        "device": "mobile",
+        "id": "barcelona",
+        "javaScriptEnabled": false,
+        "fullProseInHtml": true,
+        "articleMetadataAndDatesPreserved": true,
+        "placePhotos": 10,
+        "country": "es",
+        "countryReachableByHtml": true,
+        "countryDescription": "Spain: 12 published guides. Find places to visit, routes and practical advice to help organise your trip around the country."
+      },
+      {
+        "type": "city-country-language-route",
+        "lang": "en",
+        "device": "mobile",
+        "javaScriptEnabled": false,
+        "existingCityUrl": "/en/destinations/barcelona/",
+        "country": "es",
+        "translatedCountryNavigation": true,
+        "noOverflow": true
+      },
+      {
+        "type": "homepage",
+        "lang": "en",
+        "device": "mobile",
+        "javaScriptEnabled": false,
+        "threeDimensionalBrandPreserved": true,
+        "noOverflow": true
+      },
+      {
+        "type": "legacy-search-and-navigation",
+        "lang": "es",
+        "device": "desktop",
+        "javaScriptEnabled": true,
+        "searchFindsExistingArticle": true,
+        "navigationToDirectory": true,
+        "noOverflow": true
+      },
+      {
+        "type": "legacy-search-and-navigation",
+        "lang": "en",
+        "device": "desktop",
+        "javaScriptEnabled": true,
+        "searchFindsExistingArticle": true,
+        "navigationToDirectory": true,
+        "noOverflow": true
+      },
+      {
+        "type": "legacy-search-and-navigation",
+        "lang": "es",
+        "device": "mobile",
+        "javaScriptEnabled": true,
+        "searchFindsExistingArticle": true,
+        "navigationToDirectory": true,
+        "noOverflow": true
+      },
+      {
+        "type": "legacy-search-and-navigation",
+        "lang": "en",
+        "device": "mobile",
+        "javaScriptEnabled": true,
+        "searchFindsExistingArticle": true,
+        "navigationToDirectory": true,
+        "noOverflow": true
+      },
+      {
+        "type": "sitemap",
+        "status": 200,
+        "urls": 882,
+        "publishedArticleVersions": 372,
+        "noDuplicateLocs": true,
+        "noSearchOrLanguageGateway": true
+      },
+      {
+        "type": "robots",
+        "status": 200,
+        "publicContentAllowed": true,
+        "searchExclusionsPreserved": true
+      },
+      {
+        "type": "intentional-empty-page-exclusion",
+        "lang": "es",
+        "noindex": true
+      },
+      {
+        "type": "intentional-empty-page-exclusion",
+        "lang": "en",
+        "noindex": true
+      },
+      {
+        "type": "documentary-photo-bytes",
+        "src": "/images/barcelona-sagrada.webp",
+        "sha256": "9aa0d40a64e4e5c2e14f1adbabcab0cd96f9763ccf7ca2ca782a94545fca69f4",
+        "status": 200
+      },
+      {
+        "type": "documentary-photo-bytes",
+        "src": "/images/place-barcelona-park-guell.webp",
+        "sha256": "af50ae8fc77bca959af56476edbf4311c7a34e656e43db59d5a25510180acea1",
+        "status": 200
+      }
+    ],
+    "requests": [
+      {
+        "url": "http://127.0.0.1:4349/sitemap.xml",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4349/sitemap.xml",
+        "checkedAt": "2026-11-09T16:10:35.032Z",
+        "sha256": "b4051389d7463c4301790fc5e5c405d79e0cdaf73c94646bb2139ce6b415f705",
+        "contentType": "text/xml",
+        "xRobotsTag": null
+      },
+      {
+        "url": "http://127.0.0.1:4349/robots.txt",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4349/robots.txt",
+        "checkedAt": "2026-11-09T16:10:35.041Z",
+        "sha256": "26887a2a2424f17bdac9b4f8f10cf551ff4de82fd9930429009a060f4d18c79d",
+        "contentType": "text/plain",
+        "xRobotsTag": null
+      },
+      {
+        "url": "http://127.0.0.1:4349/es/explorar/antarctica/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4349/es/explorar/antarctica/",
+        "checkedAt": "2026-11-09T16:10:35.049Z",
+        "sha256": "ae0e6a0c5fa75f5d2108f963fafd7016b4d96a3ec56cb2e4905f0ee9d98a68ad",
+        "contentType": "text/html",
+        "xRobotsTag": null,
+        "bodyFile": "private-http-3.html"
+      },
+      {
+        "url": "http://127.0.0.1:4349/en/explore/antarctica/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4349/en/explore/antarctica/",
+        "checkedAt": "2026-11-09T16:10:35.059Z",
+        "sha256": "af0886e06c3046b2f8099ea426fe5354cec46a65f8e7263b40898dc400d68b0c",
+        "contentType": "text/html",
+        "xRobotsTag": null,
+        "bodyFile": "private-http-4.html"
+      },
+      {
+        "url": "http://127.0.0.1:4349/images/barcelona-sagrada.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4349/images/barcelona-sagrada.webp",
+        "checkedAt": "2026-11-09T16:10:35.068Z",
+        "sha256": "9aa0d40a64e4e5c2e14f1adbabcab0cd96f9763ccf7ca2ca782a94545fca69f4",
+        "contentType": "image/webp",
+        "xRobotsTag": null
+      },
+      {
+        "url": "http://127.0.0.1:4349/images/place-barcelona-park-guell.webp",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:4349/images/place-barcelona-park-guell.webp",
+        "checkedAt": "2026-11-09T16:10:35.073Z",
+        "sha256": "af50ae8fc77bca959af56476edbf4311c7a34e656e43db59d5a25510180acea1",
+        "contentType": "image/webp",
+        "xRobotsTag": null
+      }
+    ],
+    "screenshots": [
+      {
+        "file": "private-guides-es-desktop.png",
+        "sha256": "36359723338503c1c8a0c38eae18cd02af85dc4d232c25981686dfbcdb602c55"
+      },
+      {
+        "file": "private-article-es-desktop.png",
+        "sha256": "fa179abd5768eca6c65d597a4bc2b8e3413468f5368cde87e0b92245d37d19f0"
+      },
+      {
+        "file": "private-home-es-desktop.png",
+        "sha256": "ad5fa9c934901fe3d84fba6deac7857fdb7e87a166a14b3c9882f7ad9ec85f2e"
+      },
+      {
+        "file": "private-guides-en-desktop.png",
+        "sha256": "76078dce5630904332e29adf9fa7ea6186d9bc1895a20580bb9fcb8a9cd3665f"
+      },
+      {
+        "file": "private-article-en-desktop.png",
+        "sha256": "1d1981284136c36482fba2e1aaa53113b9b931264c02c054292df580498729c2"
+      },
+      {
+        "file": "private-guides-es-mobile.png",
+        "sha256": "40644b49b418b3a33c958ef3a49f2cc883d3b160835fc00f6a1057719e52fbc1"
+      },
+      {
+        "file": "private-article-es-mobile.png",
+        "sha256": "087e9e50d4b88b0da0db753f6fb64a6db5de021b550bf1271f7371273b5e3012"
+      },
+      {
+        "file": "private-guides-en-mobile.png",
+        "sha256": "e847d4aae0598d2d4f36e14a4083c24af1615c45cfc97eb06f5376c4272b6068"
+      },
+      {
+        "file": "private-article-en-mobile.png",
+        "sha256": "da07a6e9b0d9154ae3ced555207395eab7cea9a7a49a0c16e44cbf5ebaf84cd1"
+      },
+      {
+        "file": "private-home-en-mobile.png",
+        "sha256": "694c28360ed9435d1adcabd375fea9062ec5e10a1d8f425898e085b199a56f49"
+      }
+    ],
+    "counts": {
+      "records": 24,
+      "requests": 6,
+      "screenshots": 10,
+      "jsDisabledDirectoryViews": 4,
+      "articleCountryRoutes": 4,
+      "cityCountryLanguageRoutes": 4,
+      "legacySearchViews": 4
+    }
+  },
+  "preservation": {
+    "protectedTrackedFiles": 6019,
+    "allUnchanged": true,
+    "publishedArticleVersions": 372,
+    "photoManifestEntries": 821,
+    "advertisingAndAnalyticsLayoutScriptsUnchanged": true
+  },
+  "tests": {
+    "check": {
+      "sha256": "186bc41e96539b8ad912af5a76c2f2c0f0faaabb79ed2f62c114fa4507c35fbc",
+      "exitCode": 0
+    },
+    "tests": {
+      "sha256": "795dc1607fb5e6f6b9343b1eb78876470ba925b0804f830d20b6bc70d7b9173f",
+      "exitCode": 0
+    },
+    "build": {
+      "sha256": "33f8e2de760707f65af2f8c77b037edaf14b22ac3ca5aed08ff4f321f9840da4",
+      "exitCode": 0
+    },
+    "e2e": {
+      "sha256": "98c73f90129a0d10e34ab193eaf7da0c1970c0488014c1bdc7e8f48ccd390a2a",
+      "exitCode": 0
+    },
+    "release": {
+      "sha256": "5c491c22a57468e5663320328535f24560a78aac692cdbefc0d9b347a5fdb384",
+      "exitCode": 0
+    },
+    "release-tests": {
+      "sha256": "2e1739684ea6d1b83aa265fb25ac367ab74c9aa36bb579a16b36a2f8fd8a6f86",
+      "exitCode": 0
+    }
+  },
+  "artifactHashes": {
+    "crawl-before.json": "f4d7a98e9f3d81354da6caeee30545c8674f7958b713cd461c69a901ce0fbaae",
+    "content-audit.json": "82fb4f84d38c9a4e47ebe92f62786de33608a8af0ca6a41c5003f54617a5be1c",
+    "cloudflare-crawl-audit.json": "180cf9cd4c33d10e137656afd04690b0fcb1f511df48b9aa447a44c1ed7a1938",
+    "static-after.json": "920a08ff6a657ef6df266a8bd1295b536b8ac34dd8bd6c0a0157f125c5c51dad"
+  },
+  "manualActions": "After public verification: submit existing sitemap.xml in Search Console, inspect important updated URLs in both languages and request recrawl where appropriate. Identify the specific404 before choosing a relevant redirect. No mass noindex removal or indexing guarantees.",
+  "privateVisualReview": {
+    "reviewedAt": "2026-11-09T16:12:01.860393+00:00",
+    "origin": "http://127.0.0.1:4349",
+    "success": true,
+    "scope": "Ten production-preview screenshots reviewed using three montage images and four individual full-resolution screenshots. ES/EN guide directories and Barcelona article in desktop1440/mobile390; home ES desktop and EN mobile.",
+    "verdict": "Readable titles, descriptions and photo credits. The existing 3D brand, dark-blue header, globe hero, menu layout and advertising slots remain visible with no clipping or overlapping controls. Country label links retain the existing visual treatment. No horizontal overflow in tested pages. External advertising/Analytics isolated for QA, with no claim of live creative delivery.",
+    "javaScriptDisabledDirectoryViews": 4,
+    "functionalRecords": 24,
+    "screenshots": [
+      {
+        "file": "private-guides-es-desktop.png",
+        "sha256": "36359723338503c1c8a0c38eae18cd02af85dc4d232c25981686dfbcdb602c55"
+      },
+      {
+        "file": "private-article-es-desktop.png",
+        "sha256": "fa179abd5768eca6c65d597a4bc2b8e3413468f5368cde87e0b92245d37d19f0"
+      },
+      {
+        "file": "private-home-es-desktop.png",
+        "sha256": "ad5fa9c934901fe3d84fba6deac7857fdb7e87a166a14b3c9882f7ad9ec85f2e"
+      },
+      {
+        "file": "private-guides-en-desktop.png",
+        "sha256": "76078dce5630904332e29adf9fa7ea6186d9bc1895a20580bb9fcb8a9cd3665f"
+      },
+      {
+        "file": "private-article-en-desktop.png",
+        "sha256": "1d1981284136c36482fba2e1aaa53113b9b931264c02c054292df580498729c2"
+      },
+      {
+        "file": "private-guides-es-mobile.png",
+        "sha256": "40644b49b418b3a33c958ef3a49f2cc883d3b160835fc00f6a1057719e52fbc1"
+      },
+      {
+        "file": "private-article-es-mobile.png",
+        "sha256": "087e9e50d4b88b0da0db753f6fb64a6db5de021b550bf1271f7371273b5e3012"
+      },
+      {
+        "file": "private-guides-en-mobile.png",
+        "sha256": "e847d4aae0598d2d4f36e14a4083c24af1615c45cfc97eb06f5376c4272b6068"
+      },
+      {
+        "file": "private-article-en-mobile.png",
+        "sha256": "da07a6e9b0d9154ae3ced555207395eab7cea9a7a49a0c16e44cbf5ebaf84cd1"
+      },
+      {
+        "file": "private-home-en-mobile.png",
+        "sha256": "694c28360ed9435d1adcabd375fea9062ec5e10a1d8f425898e085b199a56f49"
+      }
+    ],
+    "montages": [
+      {
+        "file": "private-guides-final-review.jpg",
+        "sha256": "e99c7fe1dd99d235b2d1a7a928fe840c9dc5b1ff95b511f61e7f4966f21313c4"
+      },
+      {
+        "file": "private-article-final-review.jpg",
+        "sha256": "9c0a50e748802bb535999bb4aa9816302b2af80325867e4e8a837314a95f79ed"
+      },
+      {
+        "file": "private-home-final-review.jpg",
+        "sha256": "410d35e4d0c882ec39d5c4cd51537cae454b07fb6ea6bfed6e29792e3bc68d68"
+      }
+    ],
+    "individualScreenshotsViewed": [
+      "private-guides-es-mobile.png",
+      "private-guides-en-desktop.png",
+      "private-article-es-mobile.png",
+      "private-article-en-desktop.png"
+    ],
+    "documentaryPhotoFilesChecked": 2,
+    "captureNote": "Final capture uses instant scroll plus a zero-scroll-position wait. This is a test-only capture adjustment; no application source, stylesheet, content, URL, ad or publication setting was changed."
+  }
+}

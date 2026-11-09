@@ -35,6 +35,11 @@ const t = dictionary[lang];
 const other = otherLocale(lang);
 const canonical = absolute(Astro.url.pathname);
 const alternate = alternates[other];
+const structuredData = jsonLd as
+  { '@type'?: string; '@graph'?: { '@type'?: string }[] } | undefined;
+const isArticle =
+  structuredData?.['@type'] === 'Article' ||
+  structuredData?.['@graph']?.some((node) => node['@type'] === 'Article');
 const links = [
   ['destinations', t.destinations],
   ['guides', t.guides],
@@ -100,7 +105,7 @@ const links = [
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content={lang === 'es' ? 'es_ES' : 'en_US'} />
-    <meta property="og:type" content={jsonLd ? 'article' : 'website'} />
+    <meta property="og:type" content={isArticle ? 'article' : 'website'} />
     {image && <meta property="og:image" content={absolute(image)} />}
     <meta
       name="twitter:card"

@@ -48,7 +48,10 @@ const format = (s?: string) =>
       <a href={destinationUrl(d, lang)}>{d.city[lang]}</a>
     </nav>
     <span class="eyebrow orange">
-      {t.guide} · {d.country[lang]}
+      {t.guide} ·{' '}
+      <a href={route(lang, 'explore', `country-${d.countryId}`)}>
+        {d.country[lang]}
+      </a>
     </span>
     <h1>{a.title}</h1>
     <p>{a.description}</p>

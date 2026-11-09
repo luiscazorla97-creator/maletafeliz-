@@ -2,22 +2,23 @@
   "id": "2026-11-09",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-09T17:06:35.011Z",
-  "status": "reviewed-selected-for-release-not-public",
+  "status": "published",
   "topicIds": [
     "morelia",
     "bergamo"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "3ae2babf-ad9d-4306-953e-b6b28aa2aaa2",
-    "status": "active",
+    "status": "completed-verified",
     "startedAt": "2026-11-09T17:06:49.043400+00:00",
-    "heartbeatAt": "2026-11-09T17:41:10.332130+00:00",
-    "leaseUntil": "2026-11-09T21:06:49.043400+00:00",
+    "heartbeatAt": "2026-11-09T18:10:26.624162+00:00",
+    "leaseUntil": "2026-11-09T18:10:26.624162+00:00",
     "baseCommit": "4615f2397820b6703bc528f9faa0cbf3e2a2d9d8",
-    "coordination": "All prior batches and verification records read; zero unique verified first publications on9NovemberNewYork. Reservation returned Morelia thenBergamo under country prioritization; this existing order preserved. No other active lease."
+    "coordination": "All prior batches and verification records read; zero unique verified first publications on9NovemberNewYork. Reservation returned Morelia thenBergamo under country prioritization; this existing order preserved. No other active lease.",
+    "completedAt": "2026-11-09T18:10:26.624162+00:00"
   },
   "authorization": {
     "request": "Two original travel themes, each complete ES/EN, daily execution",
@@ -30,5 +31,31 @@
   "documentaryPhotoCount": 10,
   "optimizedPhotoFiles": 30,
   "sourceCount": 17,
-  "reviewedAt": "2026-11-09T17:21:51.582Z"
+  "reviewedAt": "2026-11-09T17:21:51.582Z",
+  "publishedTopicIds": [
+    "morelia",
+    "bergamo"
+  ],
+  "verifiedTopicCount": 2,
+  "sameDayUniqueVerifiedTopics": [
+    "bergamo",
+    "morelia"
+  ],
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "citedSourceDocuments": 17,
+  "publishedCommit": "0ff1bad02bb13cb6bab8413d44b20adc4d2e35ee",
+  "publiclyVerifiedAt": "2026-11-09T18:10:26.624162+00:00",
+  "publicVerification": "editorial/verification/2026-11-09-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-morelia-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-bergamo-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-morelia-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-bergamo-5-places/"
+    ]
+  },
+  "inventoryNote": "Daily pair completed after a census of zero unique verified originals on 9 November in New York. Two originals and four localized versions now verified. Earlier batches, reservations and inventories retained. Existing daily target remains two at noon Miami."
 }

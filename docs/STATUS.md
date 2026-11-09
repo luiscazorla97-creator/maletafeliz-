@@ -2,6 +2,18 @@
 
 Verificado el 9 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
 
+## Dos originales diarios: 9 de noviembre de 2026
+
+Publicadas Morelia y Bérgamo: dos originales nuevos, cada uno completo en español e inglés, con cinco lugares desarrollados. Se conservó el orden de la reserva Morelia–Bérgamo y el censo inicial de cero originales únicos verificados hoy en Nueva York; después de comprobar esta tanda el total del día es dos. No se modificó el horario de mediodía de Miami, la frecuencia ni el programador externo.
+
+Se leyeron 17 documentos oficiales citados y las licencias de diez fotos documentales individuales. Los originales se conservan con hashes; se sirven treinta archivos WebP responsivos con dimensiones, créditos, licencia y ALT bilingüe. Las cuatro versiones tienen 1714–1923 palabras útiles. La revisión editorial independiente de Codex se identifica como asistencia de IA, sin afirmar revisión humana. La aprobación final utiliza el hash exacto del contenido publicado.
+
+Morelia distingue la visita urbana, los espacios culturales y el Santuario de Guadalupe sin inventar precios o aperturas. Bérgamo separa las plazas y exteriores de las entradas: el Museo dell’Ottocento de la Rocca permanece cerrado según el aviso consultado, y el acceso a torre, baluartes y terraza tiene condiciones distintas. La basílica diferencia culto y turismo; no se copian horarios ni edades contradictorios. Las fotografías son documentales de archivo, sin imágenes generadas como evidencia de lugares.
+
+Pasaron tipos, 80 pruebas unitarias, 28 de navegación y 60 de producción seleccionadas. GitHub Actions completó el commit `0ff1bad02bb13cb6bab8413d44b20adc4d2e35ee` con 80 unitarias, 28 de navegación y 804 de producción: 912 pruebas aprobadas. Ambas compilaciones, incluida `npm run build:release`, generaron 896 páginas. Se comprobaron 45799 enlaces y fragmentos, las 888 rutas HTML anteriores y los 372 artículos previos por texto, fechas y metadatos, sin regresiones. Sitemap: 890 URLs con las 376 versiones de artículos. Se revisaron las cuatro nuevas en escritorio y móvil, fotos, búsqueda, destinos, países, portada, Navidad, canonical, hreflang y Article JSON-LD.
+
+Ambos proyectos existentes de Cloudflare completaron el commit correcto, comprobado por su checkout real y registros de compilación. Pasaron 384 comprobaciones HTTPS del catálogo y 81 registros públicos del lote, incluidos los treinta archivos fotográficos y las cuatro redirecciones www. Evidencia: `editorial/verification/2026-11-09-publication.json`. Catálogo: 188 originales, 376 versiones, 831 fotos y 829 lugares fotografiados. Cobertura prioritaria: Italia 19/30, Japón 16/25, México 15/25 y Estados Unidos 20/20: 70/100; faltan 30. Se conservan los 53 originales de Navidad, los 73 candidatos del backlog y la auditoría SEO anterior. Todo el código del diseño 3D, logo, anuncios, Analytics/consentimiento, popunder desactivado, SEO y publicación permanece byte por byte sin cambios desde la base de esta ejecución. No se afirman tráfico, indexación ni ejecución desatendida garantizados.
+
 ## Auditoría técnica de indexación: 9 de noviembre de 2026
 
 Publicado y verificado el commit `7d7a8c83db5f43beb9148ce4adf62646a44bab98` en ambos proyectos existentes de Cloudflare. Esta tanda es una corrección técnica: cero artículos o rutas nuevos. Se conservan 186 originales, 372 versiones y 821 fotos, todas las fechas anteriores, diseño 3D, publicidad, Analytics, consentimiento y frecuencia de publicación.
@@ -16,9 +28,9 @@ Informe: `docs/INDEXING-AUDIT-2026-11-09.md`. Evidencia: `editorial/verification
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 186 guías originales y 372 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 856 registros de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 821 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 188 guías originales y 376 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 873 registros de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 831 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.

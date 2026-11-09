@@ -1391,16 +1391,17 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-09T04:06:33.609483+00:00",
+    "verifiedAt": "2026-11-09T18:10:26.624162+00:00",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 18,
-        "localizedVersions": 36,
+        "publishedOriginals": 19,
+        "localizedVersions": 38,
         "targetOriginals": 30,
-        "missingOriginals": 12,
+        "missingOriginals": 11,
         "articleIds": [
           "amalfi-coast",
+          "bergamo",
           "bologna",
           "christmas-florence",
           "christmas-milan",
@@ -1447,15 +1448,16 @@
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 14,
-        "localizedVersions": 28,
+        "publishedOriginals": 15,
+        "localizedVersions": 30,
         "targetOriginals": 25,
-        "missingOriginals": 11,
+        "missingOriginals": 10,
         "articleIds": [
           "cancun",
           "guanajuato",
           "los-cabos",
           "mexico-city",
+          "morelia",
           "muertos-merida",
           "muertos-mexico-city",
           "muertos-mixquic",
@@ -1498,9 +1500,9 @@
         ]
       }
     ],
-    "priorityOriginals": 68,
-    "missingToInitial100": 32,
-    "publicVerification": "editorial/verification/2026-11-08-manual-two-publication.json"
+    "priorityOriginals": 70,
+    "missingToInitial100": 30,
+    "publicVerification": "editorial/verification/2026-11-09-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1602,6 +1604,18 @@
       "commit": "95b3a12d7e40236ce647bed09c412cf02af1cca9",
       "publicVerification": "editorial/verification/2026-11-08-manual-two-publication.json",
       "note": "Two new topics requested after completed daily2, with interpretation stated before work. Prior184originals and73backlog records preserved; no frequency change."
+    },
+    {
+      "batch": "2026-11-09",
+      "topicIds": [
+        "morelia",
+        "bergamo"
+      ],
+      "type": "authorized-daily-two-originals",
+      "status": "published-verified",
+      "commit": "0ff1bad02bb13cb6bab8413d44b20adc4d2e35ee",
+      "publicVerification": "editorial/verification/2026-11-09-publication.json",
+      "note": "Daily execution: zero previously verified originals on 9 November New York; only two added. Prior backlog and owner-requested topic records preserved, with no schedule change."
     }
   ]
 }

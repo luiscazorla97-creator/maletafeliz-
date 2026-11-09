@@ -1,0 +1,21 @@
+{
+  "url": "https://atb.bergamo.it/en/public-transport/routes-stops-and-timetables",
+  "fetchedAt": "2026-11-09T17:08:38.695Z",
+  "facts": [
+    {
+      "fact": "ATB separates winter and summer timetables and holiday exceptions. The city and San Vigilio funiculars appear as separate routes.",
+      "excerpt": "Bus and funicular timetables are divided into winter and summer",
+      "location": "Named main description, visitor conditions, or current operator notice actually read in retained response."
+    },
+    {
+      "fact": "Route 1 lists Upper Town, Porta Nuova, the railway station and airport. Branches and actual stops must be checked rather than assuming every departure follows an identical itinerary.",
+      "excerpt": "Città Alta - Porta Nuova - Stazione FS - Aeroporto",
+      "location": "Named main description, visitor conditions, or current operator notice actually read in retained response."
+    }
+  ],
+  "notes": "Relevant official passages actually read. Raw body, UTC capture, final URL, HTTP status and SHA-256 are retained. Route order and visit priorities are original editorial advice. No personal experience, search-demand ranking or unchecked ticket price is claimed.",
+  "finalUrl": "https://atb.bergamo.it/en/public-transport/routes-stops-and-timetables",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "427e26aaa7d530fcbdccfb287f155507e3e2eea42736259e3b0cf71755faa15b"
+}

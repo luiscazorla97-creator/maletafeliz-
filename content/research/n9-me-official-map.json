@@ -1,0 +1,21 @@
+{
+  "url": "https://salud.michoacan.gob.mx/wp-content/uploads/2024/09/Mapa-1.pdf",
+  "fetchedAt": "2026-11-09T17:09:45.277Z",
+  "facts": [
+    {
+      "fact": "The actual government-hosted tourist map was viewed. Cathedral and Las Rosas lie in the central/western group, while Fuente de Las Tarascas and the aqueduct are on the eastern side. Route grouping is editorial advice based on that map, not a timed transport connection.",
+      "excerpt": "Centro Histórico de Morelia",
+      "location": "Map at the top of the PDF"
+    },
+    {
+      "fact": "Only cartographic labels and positions are used. Some descriptive blocks are repeated or inconsistent: Tarascas reuses the Guadalupe text, Museo del Estado repeats Casa Morelos, and the aqueduct length differs from INAH. Those details were excluded.",
+      "excerpt": "Fuente de",
+      "location": "Map symbol3 and lower map keyA; PDF also visually inspected"
+    }
+  ],
+  "notes": "Actual official-source passages read and checked against retained response bytes. Historical context distinguished from present visitor operations; no unverified opening times, prices, transport frequencies or live event programmes inferred. Route priorities and pacing are original editorial advice. Raw bodies and extracted text remain outside Git.",
+  "finalUrl": "https://salud.michoacan.gob.mx/wp-content/uploads/2024/09/Mapa-1.pdf",
+  "httpStatus": 200,
+  "contentType": "application/pdf",
+  "contentSha256": "018b457ee7455f1cf392a367f022b3f2a83ec2b04f786b2d611eea923f4c6c32"
+}

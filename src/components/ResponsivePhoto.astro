@@ -1,0 +1,36 @@
+---
+import { photoSrcSet, type Photo } from '../lib/content';
+import { homeAvifSrcSet } from '../lib/home-photo-variants';
+import type { Locale } from '../i18n';
+
+interface Props {
+  photo: Photo;
+  lang: Locale;
+  sizes?: string;
+  width?: number;
+  height?: number;
+  loading?: 'eager' | 'lazy';
+  decoding?: 'async' | 'sync' | 'auto';
+}
+const { photo, lang, sizes, width = photo.width, height = photo.height, loading, decoding } = Astro.props;
+const avif = homeAvifSrcSet(photo.id);
+const attributes = {
+  src: photo.src,
+  srcset: photoSrcSet(photo),
+  sizes,
+  width,
+  height,
+  alt: photo.alt[lang],
+  loading,
+  decoding,
+};
+---
+
+{avif ? (
+  <picture class="home-photo">
+    <source type="image/avif" srcset={avif} sizes={sizes} />
+    <img {...attributes} />
+  </picture>
+) : (
+  <img {...attributes} />
+)}

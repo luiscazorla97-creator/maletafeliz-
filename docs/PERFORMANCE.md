@@ -59,3 +59,36 @@ Datos: [antes](performance/2026-11-04-before.json), [después](performance/2026-
 Publicación comprobada: los proyectos `maletafeliz-web` y `maletafeliz-www` completaron el commit `690d24f03b5c6fc77f97c6efcf59d5f8c569c8e2`. Las 284 páginas de portadas/artículos coinciden semánticamente con la compilación final. Los cinco recursos nuevos entregan los bytes esperados y `Cache-Control: public, max-age=31536000, immutable`. Pasaron además 290 comprobaciones de catálogo/redirecciones, 48 de guías/idiomas/fotos/descubrimiento y 13 de tamaños/prioridad/idioma. AdSense, su metaetiqueta y ads.txt están comprobados públicamente sin duplicaciones; no se acredita aprobación de la cuenta por Google.
 
 Archivos de implementación: `src/components/{Article,DestinationCard,Home,TravelGlobe}.astro`, `src/layouts/Layout.astro`, `src/pages/index.astro`, `src/styles/global.css`, `src/lib/{hero-image,image-sizes}.ts` y cinco derivados en `src/assets/atlas/`. Documentación y pruebas conservadas en este documento, `docs/performance/` y las verificaciones `2026-11-04-mobile-performance-*.json`. Los registros de despliegue y actividad se actualizan por separado, sin añadir temas al lote.
+
+
+## Actualización del 9 de noviembre de 2026
+
+Página medida: `https://maletafeliz.com/en/`. El informe real aportado por el titular (ID `01qu6wdoid`, 16:58 de Nueva York) se descargó y leyó completo: rendimiento 46, FCP 4,047 s, LCP 6,017 s, CLS 0,447 y TBT 1 ms. La captura identifica `img.earth`; su AVIF ya tenía carga anticipada, prioridad alta y carga inmediata. En la traza observada aparecen 106 ms de espera, 226 ms de descarga y 2.001 ms de demora de renderizado. Esas subfases sin simulación no se suman para explicar el LCP móvil simulado. El único desplazamiento señalado afecta a `body`; no se reprodujo en las mediciones instrumentadas, por lo que no se atribuye a una causa de aplicación confirmada ni se afirma haber corregido ese valor de Google.
+
+Cambios finales: 73 derivados AVIF para quince fotografías existentes del inicio y un AVIF adicional de 960×640 del mismo globo ilustrado. Se conservan los WebP, todos los originales y variantes anteriores, los créditos, las licencias, los ALT, las medidas, las rutas y el diseño 3D. El nuevo globo pesa 92.856 bytes frente a 115.586: 19,7 % menos y resolución suficiente para los 959 píxeles requeridos por el móvil emulado. La carga anticipada usa el mismo conjunto de tamaños que la imagen; se comprobó una única petición del globo con prioridad alta. Los demás navegadores mantienen su alternativa WebP.
+
+La hoja CSS compartida permanece en caché. Se probó incrustarla completa en las portadas y se descartó porque aumentaba el HTML sin una mejora global consistente. Los informes experimentales permanecen separados. El nuevo contenedor de imágenes requiere ocultar su etiqueta auxiliar `source`: de otro modo Chromium la cuenta como un elemento vacío entre las miniaturas y sus títulos. La regla afecta solo a esa etiqueta auxiliar, mantiene la selección AVIF y restaura las cajas originales. No se modifican anuncios, orden de scripts, consentimiento de Analytics ni frecuencia de publicación.
+
+Comparación controlada: Lighthouse 13.6.0 y Chrome 157.0.8103.38, configuración móvil de 412×823 y densidad 1,75, tres perfiles nuevos consecutivos por versión. Los archivos locales se descargan de forma nativa desde el mismo servidor HTTP; las solicitudes externas reciben sus respuestas reales mediante Node con proxy y confianza TLS heredados. No hay anuncios simulados ni bloqueados para estas métricas. No se ejecutan compilaciones ni codificaciones al mismo tiempo. Este laboratorio no reproduce la compresión, ubicación ni caché de Google o Cloudflare.
+
+| Métrica, mediana local | Antes | Después |
+| --- | ---: | ---: |
+| Rendimiento | 95 | 97 |
+| Accesibilidad | 100 | 100 |
+| Prácticas recomendadas | 96 | 96 |
+| SEO | 100 | 100 |
+| FCP | 1.207 s | 1.205 s |
+| LCP | 2.633 s | 2.406 s |
+| TBT | 140 ms | 118 ms |
+| CLS | 0 | 0 |
+| Speed Index | 2.284 s | 2.117 s |
+
+Las puntuaciones finales fueron 95, 97 y 97; los tres LCP finales quedaron por debajo de 2,5 s. La reducción de la mediana del LCP es del 8,6 %. Las imágenes propias observadas en cada corrida pasaron de 1,055,348 a 738,379 bytes, un 30.0 % menos; esta cifra incluye las imágenes activadas por la corrida y no es el peso de todo el catálogo ni un presupuesto exclusivo de la primera pantalla. El TBT de terceros varía: no se atribuye una reducción causal del JavaScript del sitio, que permanece igual.
+
+La comparación estática cubre las 896 páginas, conserva los 188 originales y sus 376 versiones, 831 registros fotográficos y las 890 URLs del sitemap. Canonical, hreflang, títulos, metadescripciones, JSON-LD, fechas, textos, anuncios y atributos originales de imágenes se conservan; la excepción documentada es el nuevo candidato del globo y su indicación de carga. Se revisaron geometría y capturas a 390, 412 y 1440 px en ambos idiomas. Pasaron tipos, 80 pruebas unitarias y 64 pruebas locales de producción seleccionadas, incluidas publicidad, consentimiento, formatos y reserva de espacio. La compilación final obligatoria `npm run build:release` generó 896 páginas. El build normal y las 28 pruebas de navegación previas corresponden a la implementación preliminar; la comprobación del código final en GitHub deberá completar ambas compilaciones y toda la batería antes de registrar éxito público. Las pruebas funcionales aíslan proveedores; sus resultados no se usan como métricas de rendimiento real.
+
+Los cuatro puntos de prácticas recomendadas del informe de Google corresponden a tres respuestas HTTP 402 del proveedor publicitario `bauval.org`; las peticiones reales desde este laboratorio devolvieron 403. Se conservan los anuncios y no se ocultan esos fallos. La API de PageSpeed devolvió HTTP 429 por cuota; no se reintentó ni se cambiaron claves o cuentas para evitarlo. Por eso no hay una nueva puntuación de Google comprobada y estos resultados no deben presentarse como una subida de 46 a 97 en PageSpeed ni como datos de usuarios reales.
+
+El titular pidió instalar el complemento APO que compró. La [documentación oficial de Cloudflare](https://developers.cloudflare.com/automatic-platform-optimization/) exige el plugin de WordPress. Este proyecto utiliza Astro y Cloudflare Pages, no WordPress: el complemento no se instaló, no se cambió el alojamiento y no se modificó la suscripción ni la facturación.
+
+Datos: [antes](performance/2026-11-09-before.json), [después](performance/2026-11-09-after.json), [fotos](performance/2026-11-09-photo-variants.json), [globo](performance/2026-11-09-hero-variant.json) y [validación previa al despliegue](performance/2026-11-09-validation.json). La publicación pública se acredita por separado después de los despliegues y las comprobaciones HTTPS.

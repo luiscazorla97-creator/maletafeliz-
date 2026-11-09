@@ -1,0 +1,500 @@
+{
+  "phase": "after",
+  "referenceUrl": "https://maletafeliz.com/en/",
+  "measuredUrl": "http://127.0.0.1:4353/en/",
+  "environment": "Controlled local production build, Python HTTP server, Lighthouse13.6.0 and Chrome157.0.8103.38; native local HTTP requests and real third-party HTTPS responses via inherited Node proxy and CA trust.",
+  "method": "Three sequential new Chrome profiles, no concurrent builds or encoders. Same relay, mobile defaults, browser cache and consent reset, no blocked URL patterns or advertising stubs. This is not Google PSI or real-user data.",
+  "runnerSha256": "bc888266de48cf801a02759873fd56bbfd2df816d5a4c7fa33086bab4730182e",
+  "lighthouseVersion": "13.6.0",
+  "browserVersion": "157.0.8103.38",
+  "config": {
+    "output": "json",
+    "maxWaitForFcp": 30000,
+    "maxWaitForLoad": 60000,
+    "pauseAfterFcpMs": 1000,
+    "pauseAfterLoadMs": 1000,
+    "networkQuietThresholdMs": 1000,
+    "cpuQuietThresholdMs": 1000,
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+    "auditMode": false,
+    "gatherMode": false,
+    "clearStorageTypes": [
+      "file_systems",
+      "shader_cache",
+      "service_workers",
+      "cache_storage"
+    ],
+    "disableStorageReset": false,
+    "debugNavigation": false,
+    "channel": "node",
+    "usePassiveGathering": false,
+    "disableFullPageScreenshot": false,
+    "skipAboutBlank": false,
+    "blankPage": "about:blank",
+    "ignoreStatusCode": false,
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": null,
+    "extraHeaders": null,
+    "precomputedLanternData": null,
+    "onlyAudits": null,
+    "onlyCategories": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo"
+    ],
+    "skipAudits": null
+  },
+  "medianScores": {
+    "performance": 97,
+    "accessibility": 100,
+    "best-practices": 96,
+    "seo": 100
+  },
+  "medianMetrics": {
+    "first-contentful-paint": 1204.9817626908787,
+    "largest-contentful-paint": 2405.9113129453835,
+    "total-blocking-time": 118,
+    "cumulative-layout-shift": 0,
+    "speed-index": 2116.6591355390024
+  },
+  "runs": [
+    {
+      "checkedAt": "2026-11-09T23:21:17.704Z",
+      "rawReport": "after-final-960-1.json",
+      "rawReportSha256": "5e048ba7c3a4a9f78b77f72ff450caaa372cf2d5eb78b21d821b6795acf840f3",
+      "traceSha256": "f23a5d31945366f3c2964e1235b6647c4e600dfe128800523f114c01c6398750",
+      "requestEvidenceSha256": "069e7207329d0bf771161bde78dd22765b31dc20e49a449c5972d0103f76e0f6",
+      "scores": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1203.8282521955953,
+        "largest-contentful-paint": 2404.7911686537755,
+        "total-blocking-time": 165.5,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2116.6591355390024
+      },
+      "lcpBreakdown": {
+        "type": "list",
+        "items": [
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "label",
+                "valueType": "text",
+                "label": "Subpart"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "subpart": "timeToFirstByte",
+                "label": "Time to first byte",
+                "duration": 17.76
+              },
+              {
+                "subpart": "resourceLoadDelay",
+                "label": "Resource load delay",
+                "duration": 24.288
+              },
+              {
+                "subpart": "resourceLoadDuration",
+                "label": "Resource load duration",
+                "duration": 11.02
+              },
+              {
+                "subpart": "elementRenderDelay",
+                "label": "Element render delay",
+                "duration": 164.44
+              }
+            ]
+          },
+          {
+            "type": "node",
+            "lhId": "page-6-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,1,MAIN,0,SECTION,1,DIV,1,PICTURE,1,IMG",
+            "selector": "section.shell > div.travel-globe > picture.earth-picture > img.earth",
+            "boundingRect": {
+              "top": 532,
+              "bottom": 897,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 365
+            },
+            "snippet": "<img class=\"earth\" src=\"http://127.0.0.1:4353/_astro/earth-atlas-960.BGoc9Xk8.avif\" srcset=\"/_astro/earth-atlas-768.BqteDlgk.webp 768w, /_astro/earth-atlas-1023.BJ1XK…\" sizes=\"(max-width: 540px) 548px, (max-width: 800px) 720px, 1005px\" width=\"1536\" height=\"1024\" loading=\"eager\" fetchpriority=\"high\" alt=\"Illustrated globe showing Europe, Africa and the Americas\">",
+            "nodeLabel": "Illustrated globe showing Europe, Africa and the Americas"
+          }
+        ]
+      },
+      "providerResponses": [
+        {
+          "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1382859681401211",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://bauval.org/21/baf26907b67b4fd5cdb22901aa38108e",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://bauval.org/21/baf26907b67b4fd5cdb22901aa38108e",
+          "httpStatus": 0
+        },
+        {
+          "url": "https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e",
+          "httpStatus": 0
+        },
+        {
+          "url": "https://bauval.org/22/54722d11ca1374a1fe221435ad9001ac",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://bauval.org/22/54722d11ca1374a1fe221435ad9001ac",
+          "httpStatus": 0
+        }
+      ],
+      "relayedExternalRequestCount": 19,
+      "totalBrowserNetworkRequests": 35,
+      "firstPartyImageBytes": 738379,
+      "renderBlockingStylesheets": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Transfer Size"
+          },
+          {
+            "key": "wastedMs",
+            "valueType": "timespanMs",
+            "label": "Duration"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:4353/_astro/Layout.KEqsC28V.css",
+            "totalBytes": 48563,
+            "wastedMs": 302
+          }
+        ]
+      }
+    },
+    {
+      "checkedAt": "2026-11-09T23:21:28.313Z",
+      "rawReport": "after-final-960-2.json",
+      "rawReportSha256": "0a087ded3365ed9eccc550575cddd707dd93d4b083e33d625bd4ce16e3350f7a",
+      "traceSha256": "9c15c6cc2abb9e29fa953f595415a31d6d5e9525013e356ceb808c8ab12ec8be",
+      "requestEvidenceSha256": "77072260e92420009188885388400c90d330928f06e977eb424f1f7aadec57b3",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1205.2760689585573,
+        "largest-contentful-paint": 2407.4578942366343,
+        "total-blocking-time": 118,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2148.9852672707843
+      },
+      "lcpBreakdown": {
+        "type": "list",
+        "items": [
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "label",
+                "valueType": "text",
+                "label": "Subpart"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "subpart": "timeToFirstByte",
+                "label": "Time to first byte",
+                "duration": 11.198
+              },
+              {
+                "subpart": "resourceLoadDelay",
+                "label": "Resource load delay",
+                "duration": 64.558
+              },
+              {
+                "subpart": "resourceLoadDuration",
+                "label": "Resource load duration",
+                "duration": 24.923
+              },
+              {
+                "subpart": "elementRenderDelay",
+                "label": "Element render delay",
+                "duration": 98.87
+              }
+            ]
+          },
+          {
+            "type": "node",
+            "lhId": "page-6-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,1,MAIN,0,SECTION,1,DIV,1,PICTURE,1,IMG",
+            "selector": "section.shell > div.travel-globe > picture.earth-picture > img.earth",
+            "boundingRect": {
+              "top": 532,
+              "bottom": 897,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 365
+            },
+            "snippet": "<img class=\"earth\" src=\"http://127.0.0.1:4353/_astro/earth-atlas-960.BGoc9Xk8.avif\" srcset=\"/_astro/earth-atlas-768.BqteDlgk.webp 768w, /_astro/earth-atlas-1023.BJ1XK…\" sizes=\"(max-width: 540px) 548px, (max-width: 800px) 720px, 1005px\" width=\"1536\" height=\"1024\" loading=\"eager\" fetchpriority=\"high\" alt=\"Illustrated globe showing Europe, Africa and the Americas\">",
+            "nodeLabel": "Illustrated globe showing Europe, Africa and the Americas"
+          }
+        ]
+      },
+      "providerResponses": [
+        {
+          "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1382859681401211",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://bauval.org/21/baf26907b67b4fd5cdb22901aa38108e",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://bauval.org/21/baf26907b67b4fd5cdb22901aa38108e",
+          "httpStatus": 0
+        },
+        {
+          "url": "https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e",
+          "httpStatus": 0
+        },
+        {
+          "url": "https://bauval.org/22/54722d11ca1374a1fe221435ad9001ac",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://bauval.org/22/54722d11ca1374a1fe221435ad9001ac",
+          "httpStatus": 0
+        }
+      ],
+      "relayedExternalRequestCount": 19,
+      "totalBrowserNetworkRequests": 35,
+      "firstPartyImageBytes": 738379,
+      "renderBlockingStylesheets": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Transfer Size"
+          },
+          {
+            "key": "wastedMs",
+            "valueType": "timespanMs",
+            "label": "Duration"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:4353/_astro/Layout.KEqsC28V.css",
+            "totalBytes": 48563,
+            "wastedMs": 302
+          }
+        ]
+      }
+    },
+    {
+      "checkedAt": "2026-11-09T23:21:38.203Z",
+      "rawReport": "after-final-960-3.json",
+      "rawReportSha256": "4e5008424a6ceb42e32c47edc4625415a043bac7c8771a3d237556432801a0c0",
+      "traceSha256": "2d86479406feb46c48304755cb0fbfd0921e3da969e1fb45231fe9245825eba4",
+      "requestEvidenceSha256": "d727f191b47bc9d9baebf98c7ef88797e2d3d02b4f84f09cec19c7f0a5d3e6bb",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1204.9817626908787,
+        "largest-contentful-paint": 2405.9113129453835,
+        "total-blocking-time": 98.5,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2013.5371912162357
+      },
+      "lcpBreakdown": {
+        "type": "list",
+        "items": [
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "label",
+                "valueType": "text",
+                "label": "Subpart"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "subpart": "timeToFirstByte",
+                "label": "Time to first byte",
+                "duration": 7.619
+              },
+              {
+                "subpart": "resourceLoadDelay",
+                "label": "Resource load delay",
+                "duration": 13.307
+              },
+              {
+                "subpart": "resourceLoadDuration",
+                "label": "Resource load duration",
+                "duration": 18.206
+              },
+              {
+                "subpart": "elementRenderDelay",
+                "label": "Element render delay",
+                "duration": 107.254
+              }
+            ]
+          },
+          {
+            "type": "node",
+            "lhId": "page-0-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,1,MAIN,0,SECTION,1,DIV,1,PICTURE,1,IMG",
+            "selector": "section.shell > div.travel-globe > picture.earth-picture > img.earth",
+            "boundingRect": {
+              "top": 532,
+              "bottom": 897,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 365
+            },
+            "snippet": "<img class=\"earth\" src=\"http://127.0.0.1:4353/_astro/earth-atlas-960.BGoc9Xk8.avif\" srcset=\"/_astro/earth-atlas-768.BqteDlgk.webp 768w, /_astro/earth-atlas-1023.BJ1XK…\" sizes=\"(max-width: 540px) 548px, (max-width: 800px) 720px, 1005px\" width=\"1536\" height=\"1024\" loading=\"eager\" fetchpriority=\"high\" alt=\"Illustrated globe showing Europe, Africa and the Americas\">",
+            "nodeLabel": "Illustrated globe showing Europe, Africa and the Americas"
+          }
+        ]
+      },
+      "providerResponses": [
+        {
+          "url": "https://bauval.org/21/baf26907b67b4fd5cdb22901aa38108e",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://bauval.org/21/baf26907b67b4fd5cdb22901aa38108e",
+          "httpStatus": 0
+        },
+        {
+          "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1382859681401211",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://bauval.org/22/c5a78736a50be383ac6b05853c770b4e",
+          "httpStatus": 0
+        },
+        {
+          "url": "https://bauval.org/22/54722d11ca1374a1fe221435ad9001ac",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://bauval.org/22/54722d11ca1374a1fe221435ad9001ac",
+          "httpStatus": 0
+        }
+      ],
+      "relayedExternalRequestCount": 19,
+      "totalBrowserNetworkRequests": 35,
+      "firstPartyImageBytes": 738379,
+      "renderBlockingStylesheets": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Transfer Size"
+          },
+          {
+            "key": "wastedMs",
+            "valueType": "timespanMs",
+            "label": "Duration"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:4353/_astro/Layout.KEqsC28V.css",
+            "totalBytes": 48563,
+            "wastedMs": 302
+          }
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "Local HTTP does not reproduce Cloudflare compression, CDN cache or Google network location. Third-party responses can vary.",
+    "Subparts of LCP come from the observed trace and must not be summed to explain the simulated mobile LCP.",
+    "The public PSI report supplied by the owner is a different environment and is not the before value in this controlled comparison."
+  ]
+}

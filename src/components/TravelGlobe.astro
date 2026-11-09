@@ -1,8 +1,9 @@
 ---
 import type { Locale } from '../i18n';
-import { forLocale, photoFor, photoSrcSet, articlePath } from '../lib/content';
+import { forLocale, photoFor, articlePath } from '../lib/content';
 import { destinations } from '../data/destinations';
 import Icon from './Icon.astro';
+import ResponsivePhoto from './ResponsivePhoto.astro';
 import { heroAvifSrcSet, heroWebpSrcSet, heroSizes } from '../lib/hero-image';
 const { lang } = Astro.props as { lang: Locale };
 const articles = forLocale(lang);
@@ -22,7 +23,7 @@ const picks = ['lisbon', 'tokyo'].map(id => articles.find(a => a.destinationId =
     const photo = photoFor(a!.coverImageId)!;
     const d = destinations.find(d => d.id === a!.destinationId)!;
     return <a class={`globe-card globe-card-${i}`} href={articlePath(a!)}>
-      <img src={photo.src} srcset={photoSrcSet(photo)} sizes="160px" width={photo.width} height={photo.height} alt={photo.alt[lang]} loading={i === 0 ? 'eager' : 'lazy'} />
+      <ResponsivePhoto photo={photo} lang={lang} sizes="160px" loading={i === 0 ? 'eager' : 'lazy'} />
       <span class="globe-card-copy"><small>{d.country[lang]}</small><strong>{d.city[lang]}</strong><Icon size={16}/></span>
       <span class="globe-credit">{photo.credit} · {photo.license}</span>
     </a>;

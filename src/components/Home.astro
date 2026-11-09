@@ -3,10 +3,11 @@ import { dictionary, continents, type Locale } from '../i18n';
 import { destinations } from '../data/destinations';
 import { route } from '../lib/routes';
 import { production } from '../lib/site';
-import { forLocale, articlePath, photoFor, photoSrcSet } from '../lib/content';
+import { forLocale, articlePath, photoFor } from '../lib/content';
 import Icon from './Icon.astro';
 import TravelGlobe from './TravelGlobe.astro';
 import Card from './DestinationCard.astro';
+import ResponsivePhoto from './ResponsivePhoto.astro';
 import Advertisement from './Advertisement.astro';
 import { continentImageSizes, homeCardImageSizes } from '../lib/image-sizes';
 const { lang, showHeroAdvertisement = false } = Astro.props as { lang: Locale; showHeroAdvertisement?: boolean };
@@ -75,7 +76,7 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
         const a = d && articles.find(a => a.destinationId === d.id);
         const image = a && photoFor(a.coverImageId);
         return image && <a href={route(lang, 'explore', key)} class="continent-photo">
-          <img src={image.src} srcset={photoSrcSet(image)} sizes={continentImageSizes(image.width / image.height, showHeroAdvertisement)} width={image.width} height={image.height} alt={image.alt[lang]} loading="lazy" decoding="async" />
+          <ResponsivePhoto photo={image} lang={lang} sizes={continentImageSizes(image.width / image.height, showHeroAdvertisement)} loading="lazy" decoding="async" />
           <span class="continent-photo-copy"><small>{lang === 'es' ? 'EXPLORA' : 'EXPLORE'}</small><strong>{names[lang]}</strong><span class="continent-description">{descriptions[key][lang === 'es' ? 0 : 1]}</span><Icon/></span>
           <span class="continent-photo-credit">{image.credit} · {image.license}</span>
         </a>;
@@ -95,7 +96,7 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
         {lang === 'es' ? 'Ver todas las guías de Navidad' : 'Explore all Christmas guides'} <Icon />
       </a>
     </div>
-    <div class="card-grid">{christmas.map((d) => <Card destination={d!} lang={lang} imageSizes={cardSizes(d!)} />)}</div>
+    <div class="card-grid">{christmas.map((d) => <Card destination={d!} lang={lang} imageSizes={cardSizes(d!)} optimizeForHome />)}</div>
   </section>
 )}
 <section class="shell section">
@@ -116,7 +117,7 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
   </div>
   <div class="featured-grid">
     {chosen.map((d, index) => (
-      <Card destination={d!} lang={lang} large imageSizes={cardSizes(d!, index)} />
+      <Card destination={d!} lang={lang} large imageSizes={cardSizes(d!, index)} optimizeForHome />
     ))}
   </div>
   {!production && <p class="preview-explanation">{t.previewNote}</p>}
@@ -142,7 +143,7 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
       .map((id) => available.find((d) => d.id === id))
       .filter(Boolean)
       .map((d) => (
-        <Card destination={d!} lang={lang} imageSizes={cardSizes(d!)} />
+        <Card destination={d!} lang={lang} imageSizes={cardSizes(d!)} optimizeForHome />
       ))}
   </div>
 </section>
@@ -179,7 +180,7 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
       </a>
     </div>
     <div class="card-grid">
-      {seasonal.map((d) => <Card destination={d!} lang={lang} imageSizes={cardSizes(d!)} />)}
+      {seasonal.map((d) => <Card destination={d!} lang={lang} imageSizes={cardSizes(d!)} optimizeForHome />)}
     </div>
   </section>
 )}
@@ -237,7 +238,7 @@ const christmas = ['christmas-new-york', 'christmas-strasbourg', 'christmas-vien
         .slice(0, 6)
         .map((a) => (
           <a href={articlePath(a)}>
-            {photoFor(a.coverImageId) && <img src={photoFor(a.coverImageId)!.src} srcset={photoSrcSet(photoFor(a.coverImageId)!)} sizes="100px" width="100" height="75" alt={photoFor(a.coverImageId)!.alt[lang]} loading="lazy" />}
+            {photoFor(a.coverImageId) && <ResponsivePhoto photo={photoFor(a.coverImageId)!} lang={lang} sizes="100px" width={100} height={75} loading="lazy" />}
             <span>{a.title}</span>
             <Icon />
           </a>

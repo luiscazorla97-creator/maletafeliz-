@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-11-09T23:24:39.214148+00:00",
+  "baselineCommit": "5d7d413a3f1056b1aaf4dc6a640ecb1248d8d92f",
+  "readyForDeployment": true,
+  "publiclyPublishedClaimed": false,
+  "newOriginals": 0,
+  "census": {
+    "originals": 188,
+    "localizedVersions": 376,
+    "locales": {
+      "en": 188,
+      "es": 188
+    },
+    "documentaryPhotoManifestEntries": 831,
+    "individuallyPhotographedRecommendations": 829,
+    "baselineArticleFiles": 376,
+    "baselineContentFiles": 2941,
+    "allContentFilesByteIdentical": true
+  },
+  "localChecks": {
+    "typesErrors": 0,
+    "unitTests": 80,
+    "selectedProductionTests": 64,
+    "finalMandatoryProductionBuildPages": 896,
+    "preliminaryNormalBuildPages": 896,
+    "preliminaryNavigationTests": 28,
+    "finalExactSourceCiStillRequired": true
+  },
+  "controlledMeasurements": {
+    "before": {
+      "first-contentful-paint": 1206.988933113313,
+      "largest-contentful-paint": 2633.289670771027,
+      "total-blocking-time": 140,
+      "cumulative-layout-shift": 0,
+      "speed-index": 2283.6109684369435
+    },
+    "after": {
+      "first-contentful-paint": 1204.9817626908787,
+      "largest-contentful-paint": 2405.9113129453835,
+      "total-blocking-time": 118,
+      "cumulative-layout-shift": 0,
+      "speed-index": 2116.6591355390024
+    },
+    "beforeScores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100
+    },
+    "afterScores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100
+    },
+    "source": "Three before-native and three after-final-960 profiles; raw reports/traces and all rejected experiments retained outside Git."
+  },
+  "observedFirstPartyImageBytes": {
+    "before": 1055348,
+    "after": 738379,
+    "savingPercent": 30.034547845829053
+  },
+  "sourcePreservation": {
+    "allContentFilesByteIdentical": true,
+    "sitemapAndRobotsUnchanged": true,
+    "htmlPagesCompared": 896,
+    "oldPhotoManifestEntries": 831,
+    "oldArticleVersions": 376,
+    "newDocumentaryPhotoFamilies": 0,
+    "existingPhotoFamiliesOptimized": 15,
+    "newPhotoAvifFiles": 73,
+    "newIllustrationVariants": 1,
+    "totalNewAvifAssets": 74
+  },
+  "staticProofSha256": "6dfb5c4d55682a2e5556ec12f981ebf3bdc72fe9b3c7f1ddc63328ba81a520c0",
+  "geometryProofSha256": "9974828f5a957e6ee42216797a337098d5cd95bcf665d9c2273d0ca98c90204e",
+  "googleApi": {
+    "requestedAt": "2026-11-09T22:06:27.175262+00:00",
+    "url": "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fmaletafeliz.com%2Fen%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo",
+    "httpStatus": 429,
+    "retryAfter": null,
+    "responseSha256": "18542a47bae86b30c86c7300453dc10c5ec1ebb90e7c514b357c3c63fed74a81"
+  },
+  "apo": {
+    "appFramework": "Astro",
+    "hosting": "Cloudflare Pages",
+    "wordPressPluginCompatible": false,
+    "pluginInstalled": false,
+    "billingChanged": false,
+    "officialReference": "https://developers.cloudflare.com/automatic-platform-optimization/"
+  },
+  "limits": [
+    "Original Google46/CLS0.447 is not comparable to local before95/after97; updated Google measurement unavailable after HTTP429.",
+    "No public success or unattended scheduling attribution is claimed by this local document.",
+    "Google original CLS was not reproduced; no unsupported cause or guaranteed field result is claimed."
+  ]
+}

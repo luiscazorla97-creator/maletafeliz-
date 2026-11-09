@@ -1,0 +1,3290 @@
+{
+  "generatedAt": "2026-11-09T22:20:03.901Z",
+  "scope": "Optional presentation assets for photographs already rendered by the unchanged production homepage snapshot. No new editorial photographs or invented page content.",
+  "homeFiles": [
+    {
+      "file": "dist/es/index.html",
+      "sha256": "91b785cbc99780e5730fa2451750a8eb4f6c02529efd1709e315c48be7b37ec0"
+    },
+    {
+      "file": "dist/en/index.html",
+      "sha256": "a06ce131d91342a5b90ca76077e7ea5d8bced7a61e5a65320def63bfcb533a72"
+    }
+  ],
+  "sourceManifestSha256": "ba3c1a117f2781fb141442bf0bdec081e8aad0e870085dd66e68de0200333599",
+  "pickedPhotoIds": [
+    "bali-jatiluwih",
+    "cape-town-cover",
+    "d8-pa-ragione",
+    "d8-qr-aqueduct",
+    "kyoto-kiyomizu",
+    "lisbon-alfama",
+    "m8-no-market",
+    "m8-sp-redbrick",
+    "miami-cover",
+    "n9-bg-piazza-vecchia",
+    "n9-me-cathedral",
+    "paris-eiffel",
+    "queenstown-cover",
+    "rio-sugarloaf",
+    "rome-colosseum",
+    "season-disneyland",
+    "season-meridasansebastian",
+    "season-trim",
+    "season-zocalo",
+    "tokyo-skyline",
+    "xmas-new-york-p1",
+    "xmas-rovaniemi-p1",
+    "xmas-strasbourg-p1",
+    "xmas-vienna-p1"
+  ],
+  "optimizedPhotos": 15,
+  "optimizedFiles": 73,
+  "allOriginalAndPublishedWebpFilesUnchanged": true,
+  "minimumMeasuredTransferSavingFraction": 0.15,
+  "metricsMethod": "PSNR compares decoded AVIF to the existing WebP at equal target pixel dimensions. At responsive gaps the old image is resized only for this diagnostic metric, including an at-most one-pixel height rounding adjustment. This is not a fixed 38 dB approval or a claim that every candidate has equal pixel values. Separate CSS-scale A/B inspection checks perceived quality, framing and colour.",
+  "rows": [
+    {
+      "photoId": "paris-eiffel",
+      "sourceFile": "public/images/paris-eiffel.webp",
+      "sourceSha256": "aa1ec1485efb7d079d7f69e62785a5a21f253658db9670d88be867583b906d04",
+      "sourceWidth": 1600,
+      "sourceHeight": 1067,
+      "existingSizesAttributes": [
+        "(max-width: 540px) calc((100vw - 32px) * 1.03416), (max-width: 800px) calc((100vw - 70px) * 0.34472), (max-width: 1100px) calc((100vw - 92px) * 0.34472), (max-width: 1439px) min(373.551px, calc((100vw - 144px) * 0.313382)), (max-width: 1640px) calc((100vw - 544px) * 0.313382), 343.466px"
+      ],
+      "maximumPresentationWidth": 1600,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_The_Eiffel_Tower_in_spring_-_2307.jpg",
+      "credit": "Jorge Royan · Wikimedia Commons · resized/WebP",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "existingRightsEvidence": {
+        "file": "content/research/paris-eiffel-license.json",
+        "sha256": "c4fd75e771953377120f61d6ca68adb5a7659d4d39a098c04ec4dfaa95fc05fd",
+        "verifiedAt": "2026-10-28T22:47:23.037396Z"
+      },
+      "sourceRightsVerifiedAt": "2026-10-28T22:47:23.037396Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY-SA 3.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/paris-eiffel-480w.avif",
+          "width": 480,
+          "height": 320,
+          "bytes": 55857,
+          "sha256": "a577eb35b555a1c7c360de66f0936ce9a8e49dfad3305820235e3682d118acde",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 29.445946170323197,
+          "legacyReference": {
+            "file": "public/images/paris-eiffel-480w.webp",
+            "width": 480,
+            "bytes": 72840,
+            "sha256": "099eb6c4c6f2932960bf10ec0389b08185b7d45dff1cbf87da83030cde4e5c5b",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.2331548599670511,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 66064,
+              "nativePsnrDb": 30.839360741015565,
+              "savingsFraction": 0.09302580999450849
+            },
+            {
+              "quality": 65,
+              "bytes": 55857,
+              "nativePsnrDb": 29.445946170323197,
+              "savingsFraction": 0.2331548599670511
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/paris-eiffel-640w.avif",
+          "width": 640,
+          "height": 427,
+          "bytes": 118873,
+          "sha256": "4a4bb868acf9b9abb95ccfb303522450f38d054c67581f71bdc66f356420e776",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 25.95993154274337,
+          "legacyReference": {
+            "file": "public/images/paris-eiffel-800w.webp",
+            "width": 800,
+            "bytes": 211192,
+            "sha256": "efde9c1178c5603f649fb52e0ada28540cb2585fd6c83e6d6a6fac4598ba7a03",
+            "resizedToWidthForMetric": 640
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.4371330353422478,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 118873,
+              "nativePsnrDb": 25.95993154274337,
+              "savingsFraction": 0.4371330353422478
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/paris-eiffel-800w.avif",
+          "width": 800,
+          "height": 534,
+          "bytes": 163629,
+          "sha256": "59d15f2be8e566126b916185cdeabf8b2477b14374a1518f9c8faa0bf7706684",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 29.54236468467591,
+          "legacyReference": {
+            "file": "public/images/paris-eiffel-800w.webp",
+            "width": 800,
+            "bytes": 211192,
+            "sha256": "efde9c1178c5603f649fb52e0ada28540cb2585fd6c83e6d6a6fac4598ba7a03",
+            "resizedToWidthForMetric": 800
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.22521212924731993,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 191541,
+              "nativePsnrDb": 30.87489173493958,
+              "savingsFraction": 0.09304803212242885
+            },
+            {
+              "quality": 65,
+              "bytes": 163629,
+              "nativePsnrDb": 29.54236468467591,
+              "savingsFraction": 0.22521212924731993
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/paris-eiffel-960w.avif",
+          "width": 960,
+          "height": 640,
+          "bytes": 260946,
+          "sha256": "007b19bfd6ef28c58d747756c3445ef3b6c95c8c7bc04683b5fc98db8cc20683",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 26.63018984282699,
+          "legacyReference": {
+            "file": "public/images/paris-eiffel-1200w.webp",
+            "width": 1200,
+            "bytes": 437088,
+            "sha256": "58f4fe3ffa96ee70ec5106b38549b2d957a424bfd1e1d44a6a6f399b533c73e8",
+            "resizedToWidthForMetric": 960
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.40298978695365695,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 260946,
+              "nativePsnrDb": 26.63018984282699,
+              "savingsFraction": 0.40298978695365695
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/paris-eiffel-1200w.avif",
+          "width": 1200,
+          "height": 800,
+          "bytes": 334103,
+          "sha256": "5c40e55ad1a3db903181c2fe74144cb5624014d7292025f7966b8bd5db15754a",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 30.21039315480199,
+          "legacyReference": {
+            "file": "public/images/paris-eiffel-1200w.webp",
+            "width": 1200,
+            "bytes": 437088,
+            "sha256": "58f4fe3ffa96ee70ec5106b38549b2d957a424bfd1e1d44a6a6f399b533c73e8",
+            "resizedToWidthForMetric": 1200
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.23561616882641478,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 392706,
+              "nativePsnrDb": 31.706436100895093,
+              "savingsFraction": 0.10154019327915664
+            },
+            {
+              "quality": 65,
+              "bytes": 334103,
+              "nativePsnrDb": 30.21039315480199,
+              "savingsFraction": 0.23561616882641478
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/paris-eiffel-1600w.avif",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 647314,
+          "sha256": "be576eb045156a57b3821e68522dce81b57f9366e57dfd72fa959717eeadb355",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.04986743073768,
+          "legacyReference": {
+            "file": "public/images/paris-eiffel.webp",
+            "width": 1600,
+            "bytes": 857414,
+            "sha256": "aa1ec1485efb7d079d7f69e62785a5a21f253658db9670d88be867583b906d04",
+            "resizedToWidthForMetric": 1600
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.24503915261472287,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 755106,
+              "nativePsnrDb": 33.28621655575331,
+              "savingsFraction": 0.11932158793768233
+            },
+            {
+              "quality": 65,
+              "bytes": 647314,
+              "nativePsnrDb": 31.04986743073768,
+              "savingsFraction": 0.24503915261472287
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "paris"
+      ],
+      "alt": {
+        "es": "Torre Eiffel entre árboles en primavera, fotografía de archivo",
+        "en": "Eiffel Tower among trees in spring, archive photograph"
+      },
+      "approvedOriginalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Paris_-_The_Eiffel_Tower_in_spring_-_2307.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceModifications": "Resized and converted to WebP; no content changes. Derivative supplied under the same license.",
+      "existingWebpFiles": [
+        {
+          "file": "public/images/paris-eiffel-480w.webp",
+          "sha256": "099eb6c4c6f2932960bf10ec0389b08185b7d45dff1cbf87da83030cde4e5c5b",
+          "bytes": 72840
+        },
+        {
+          "file": "public/images/paris-eiffel-800w.webp",
+          "sha256": "efde9c1178c5603f649fb52e0ada28540cb2585fd6c83e6d6a6fac4598ba7a03",
+          "bytes": 211192
+        },
+        {
+          "file": "public/images/paris-eiffel-1200w.webp",
+          "sha256": "58f4fe3ffa96ee70ec5106b38549b2d957a424bfd1e1d44a6a6f399b533c73e8",
+          "bytes": 437088
+        },
+        {
+          "file": "public/images/paris-eiffel.webp",
+          "sha256": "aa1ec1485efb7d079d7f69e62785a5a21f253658db9670d88be867583b906d04",
+          "bytes": 857414
+        }
+      ]
+    },
+    {
+      "photoId": "kyoto-kiyomizu",
+      "sourceFile": "public/images/kyoto-kiyomizu.webp",
+      "sourceSha256": "422646e0f7229e3cc05ceb9046558686256f298906b7ce7b2e8ce7b35bc11182",
+      "sourceWidth": 1600,
+      "sourceHeight": 984,
+      "existingSizesAttributes": [
+        "(max-width: 540px) calc((100vw - 45px) * 0.813008), (max-width: 800px) calc((100vw - 72px) * 0.542005), (max-width: 1100px) calc((100vw - 120px) * 0.325203), (max-width: 1439px) min(382.439px, calc((100vw - 160px) * 0.325203)), (max-width: 1640px) calc((100vw - 560px) * 0.325203), 351.22px"
+      ],
+      "maximumPresentationWidth": 1600,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-01.jpg",
+      "credit": "Martin Falbisoner / Wikimedia Commons · CC BY-SA 4.0 · resized and converted to WebP",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "existingRightsEvidence": {
+        "file": "content/research/kyoto-kiyomizu-image.json",
+        "sha256": "bf7bed4368336f98cf84533cfeb65781bed9b58c9f8101adfa2b45f4fdd11bbf",
+        "verifiedAt": "2026-10-28T22:54:26.511Z"
+      },
+      "sourceRightsVerifiedAt": "2026-10-28T22:54:26.511Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY-SA 4.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/kyoto-kiyomizu-480w.avif",
+          "width": 480,
+          "height": 295,
+          "bytes": 28906,
+          "sha256": "a766d7e4d25b38336376316d6428cb66e03b3c59f152e0ffc407c1e06ebc0453",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.61821219687043,
+          "legacyReference": {
+            "file": "public/images/kyoto-kiyomizu-480w.webp",
+            "width": 480,
+            "bytes": 38310,
+            "sha256": "a68d1fdf16f2ade228286392ed881eb6b9db0d08f1f593ad05a4b973e04b7900",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.24547115635604277,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 35042,
+              "nativePsnrDb": 32.61637800845613,
+              "savingsFraction": 0.08530409814669804
+            },
+            {
+              "quality": 65,
+              "bytes": 28906,
+              "nativePsnrDb": 31.61821219687043,
+              "savingsFraction": 0.24547115635604277
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/kyoto-kiyomizu-640w.avif",
+          "width": 640,
+          "height": 394,
+          "bytes": 62159,
+          "sha256": "5ba995738e75f58ebb5c3f38a156354f60fb445e35743b067699cc8c60436ece",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 30.409087313441525,
+          "legacyReference": {
+            "file": "public/images/kyoto-kiyomizu-800w.webp",
+            "width": 800,
+            "bytes": 112202,
+            "sha256": "ad929c65d1a5e39ec9b28dbea6c2b8ce5610b141393dc080aa5d9a59d57990c4",
+            "resizedToWidthForMetric": 640
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.44600809254736995,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 62159,
+              "nativePsnrDb": 30.409087313441525,
+              "savingsFraction": 0.44600809254736995
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/kyoto-kiyomizu-800w.avif",
+          "width": 800,
+          "height": 492,
+          "bytes": 85434,
+          "sha256": "a21f3b55c34e2f11b46b28d42fe9a944359a76f5008b59384a6f194377cedc8e",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.331957823093756,
+          "legacyReference": {
+            "file": "public/images/kyoto-kiyomizu-800w.webp",
+            "width": 800,
+            "bytes": 112202,
+            "sha256": "ad929c65d1a5e39ec9b28dbea6c2b8ce5610b141393dc080aa5d9a59d57990c4",
+            "resizedToWidthForMetric": 800
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.2385697224648402,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 103839,
+              "nativePsnrDb": 32.59633083774602,
+              "savingsFraction": 0.07453521327605572
+            },
+            {
+              "quality": 65,
+              "bytes": 85434,
+              "nativePsnrDb": 31.331957823093756,
+              "savingsFraction": 0.2385697224648402
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/kyoto-kiyomizu-960w.avif",
+          "width": 960,
+          "height": 590,
+          "bytes": 136828,
+          "sha256": "6c560beace1ac2a8f48fb87473cff4f73fe862df566981c7bdd01a66fdc7a8f7",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 30.893986758143246,
+          "legacyReference": {
+            "file": "public/images/kyoto-kiyomizu-1200w.webp",
+            "width": 1200,
+            "bytes": 225360,
+            "sha256": "721f502a21f14168914f948088c7385bf78265c673eb2de0debe2394343c8b4f",
+            "resizedToWidthForMetric": 960
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.39284700035498754,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 136828,
+              "nativePsnrDb": 30.893986758143246,
+              "savingsFraction": 0.39284700035498754
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/kyoto-kiyomizu-1200w.avif",
+          "width": 1200,
+          "height": 738,
+          "bytes": 171290,
+          "sha256": "9897ee75c3829c68a87143592eca06b75bfee8c33783f19973d5c19e9e29f340",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.95938574268263,
+          "legacyReference": {
+            "file": "public/images/kyoto-kiyomizu-1200w.webp",
+            "width": 1200,
+            "bytes": 225360,
+            "sha256": "721f502a21f14168914f948088c7385bf78265c673eb2de0debe2394343c8b4f",
+            "resizedToWidthForMetric": 1200
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.23992722754703588,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 208295,
+              "nativePsnrDb": 33.287666673920434,
+              "savingsFraction": 0.07572328718494847
+            },
+            {
+              "quality": 65,
+              "bytes": 171290,
+              "nativePsnrDb": 31.95938574268263,
+              "savingsFraction": 0.23992722754703588
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/kyoto-kiyomizu-1600w.avif",
+          "width": 1600,
+          "height": 984,
+          "bytes": 340374,
+          "sha256": "cae7ed7c44c17b4b61c745bda5d5f489e2ed6209e758e2bdabb16c87970035ad",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 32.99962384803812,
+          "legacyReference": {
+            "file": "public/images/kyoto-kiyomizu.webp",
+            "width": 1600,
+            "bytes": 472066,
+            "sha256": "422646e0f7229e3cc05ceb9046558686256f298906b7ce7b2e8ce7b35bc11182",
+            "resizedToWidthForMetric": 1600
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.2789694661339728,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 407053,
+              "nativePsnrDb": 35.489047229180755,
+              "savingsFraction": 0.13772014930115706
+            },
+            {
+              "quality": 65,
+              "bytes": 340374,
+              "nativePsnrDb": 32.99962384803812,
+              "savingsFraction": 0.2789694661339728
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "kyoto"
+      ],
+      "alt": {
+        "es": "Templo Kiyomizu-dera y follaje otoñal en Kioto, fotografiados en 2016",
+        "en": "Kiyomizu-dera and autumn foliage in Kyoto, photographed in 2016"
+      },
+      "approvedOriginalUrl": null,
+      "sourceModifications": null,
+      "existingWebpFiles": [
+        {
+          "file": "public/images/kyoto-kiyomizu-480w.webp",
+          "sha256": "a68d1fdf16f2ade228286392ed881eb6b9db0d08f1f593ad05a4b973e04b7900",
+          "bytes": 38310
+        },
+        {
+          "file": "public/images/kyoto-kiyomizu-800w.webp",
+          "sha256": "ad929c65d1a5e39ec9b28dbea6c2b8ce5610b141393dc080aa5d9a59d57990c4",
+          "bytes": 112202
+        },
+        {
+          "file": "public/images/kyoto-kiyomizu-1200w.webp",
+          "sha256": "721f502a21f14168914f948088c7385bf78265c673eb2de0debe2394343c8b4f",
+          "bytes": 225360
+        },
+        {
+          "file": "public/images/kyoto-kiyomizu.webp",
+          "sha256": "422646e0f7229e3cc05ceb9046558686256f298906b7ce7b2e8ce7b35bc11182",
+          "bytes": 472066
+        }
+      ]
+    },
+    {
+      "photoId": "tokyo-skyline",
+      "sourceFile": "public/images/tokyo-skyline.webp",
+      "sourceSha256": "a1077dec2b03609769730e3a798269b8555196e44135882b78e1f40730b0b6cb",
+      "sourceWidth": 1600,
+      "sourceHeight": 900,
+      "existingSizesAttributes": [
+        "160px",
+        "(max-width: 540px) calc((100vw - 32px) * 1.226054), (max-width: 800px) calc((100vw - 70px) * 0.408685), (max-width: 1100px) calc((100vw - 92px) * 0.408685), (max-width: 1439px) min(575.725px, calc((100vw - 144px) * 0.482991)), (max-width: 1640px) calc((100vw - 544px) * 0.482991), 529.358px"
+      ],
+      "maximumPresentationWidth": 1600,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan.jpg",
+      "credit": "David Kernan / Wikimedia Commons · CC BY 4.0 · resized and converted to WebP",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "existingRightsEvidence": {
+        "file": "content/research/tokyo-skyline-image.json",
+        "sha256": "b6278407ab555d9b2da888532769353f6f6c5400159cdc74fa89850b4176b039",
+        "verifiedAt": "2026-10-28T22:41:40.285Z"
+      },
+      "sourceRightsVerifiedAt": "2026-10-28T22:41:40.285Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY 4.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/tokyo-skyline-240w.avif",
+          "width": 240,
+          "height": 135,
+          "bytes": 6718,
+          "sha256": "88a98753e2e2dad4787aff5abc5c420b5407955df3269f1b182b8429e191e4a2",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 30.414067783834497,
+          "legacyReference": {
+            "file": "public/images/tokyo-skyline-480w.webp",
+            "width": 480,
+            "bytes": 25612,
+            "sha256": "1b7451075308143b4942b44bcb4c344c56aa8e27c8f3f19f286f2392a80dcded",
+            "resizedToWidthForMetric": 240
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.7377010776198657,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 6718,
+              "nativePsnrDb": 30.414067783834497,
+              "savingsFraction": 0.7377010776198657
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/tokyo-skyline-320w.avif",
+          "width": 320,
+          "height": 180,
+          "bytes": 11368,
+          "sha256": "9957e4132604de4d80dcd6284a3b4b855f457a2740379e51d1a533c0e281a55f",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 30.805512309143875,
+          "legacyReference": {
+            "file": "public/images/tokyo-skyline-480w.webp",
+            "width": 480,
+            "bytes": 25612,
+            "sha256": "1b7451075308143b4942b44bcb4c344c56aa8e27c8f3f19f286f2392a80dcded",
+            "resizedToWidthForMetric": 320
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.556145556770264,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 11368,
+              "nativePsnrDb": 30.805512309143875,
+              "savingsFraction": 0.556145556770264
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/tokyo-skyline-480w.avif",
+          "width": 480,
+          "height": 270,
+          "bytes": 18608,
+          "sha256": "1a1e0687b648beecf217aecf2a4b84c4e5d5cb8d69f79eb749d9fd9a0148d305",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 32.063278030548965,
+          "legacyReference": {
+            "file": "public/images/tokyo-skyline-480w.webp",
+            "width": 480,
+            "bytes": 25612,
+            "sha256": "1b7451075308143b4942b44bcb4c344c56aa8e27c8f3f19f286f2392a80dcded",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.2734655630173356,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 22977,
+              "nativePsnrDb": 32.91132088961216,
+              "savingsFraction": 0.10288146181477431
+            },
+            {
+              "quality": 65,
+              "bytes": 18608,
+              "nativePsnrDb": 32.063278030548965,
+              "savingsFraction": 0.2734655630173356
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/tokyo-skyline-640w.avif",
+          "width": 640,
+          "height": 360,
+          "bytes": 39239,
+          "sha256": "3d612ada6199a7c2ade1da6b249290da92975de022f76d0778d9427e55357658",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 30.714078771616776,
+          "legacyReference": {
+            "file": "public/images/tokyo-skyline-800w.webp",
+            "width": 800,
+            "bytes": 72484,
+            "sha256": "40a0e10f1c498240f5906843359dd72db9c367b3c33a29028aa718767d0679b3",
+            "resizedToWidthForMetric": 640
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.45865294409800783,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 39239,
+              "nativePsnrDb": 30.714078771616776,
+              "savingsFraction": 0.45865294409800783
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/tokyo-skyline-800w.avif",
+          "width": 800,
+          "height": 450,
+          "bytes": 51721,
+          "sha256": "fba57a8975042e7bdc1fb7e864f26dd8d37c10e5650746e7d5f5c85860b3f3f0",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 32.0669996125537,
+          "legacyReference": {
+            "file": "public/images/tokyo-skyline-800w.webp",
+            "width": 800,
+            "bytes": 72484,
+            "sha256": "40a0e10f1c498240f5906843359dd72db9c367b3c33a29028aa718767d0679b3",
+            "resizedToWidthForMetric": 800
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.28644942332100876,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 63806,
+              "nativePsnrDb": 33.09821829141733,
+              "savingsFraction": 0.11972297334584181
+            },
+            {
+              "quality": 65,
+              "bytes": 51721,
+              "nativePsnrDb": 32.0669996125537,
+              "savingsFraction": 0.28644942332100876
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/tokyo-skyline-960w.avif",
+          "width": 960,
+          "height": 540,
+          "bytes": 81314,
+          "sha256": "97b34bbfb8be1b8e29ad7f17e05a418660b3bbb115e00cf6c142a68002075ae1",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.806041072231345,
+          "legacyReference": {
+            "file": "public/images/tokyo-skyline-1200w.webp",
+            "width": 1200,
+            "bytes": 139726,
+            "sha256": "b3402be66e5d3ea6f97724ed45bf2781e9652049451ef19e4174a29b8ab1a0f1",
+            "resizedToWidthForMetric": 960
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.4180467486366174,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 81314,
+              "nativePsnrDb": 31.806041072231345,
+              "savingsFraction": 0.4180467486366174
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/tokyo-skyline-1200w.avif",
+          "width": 1200,
+          "height": 675,
+          "bytes": 97966,
+          "sha256": "e94e6fb235dddb0029a9c51134fe05989bcaaa6da97c3f1388b38802dae26c5c",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 33.31763552008891,
+          "legacyReference": {
+            "file": "public/images/tokyo-skyline-1200w.webp",
+            "width": 1200,
+            "bytes": 139726,
+            "sha256": "b3402be66e5d3ea6f97724ed45bf2781e9652049451ef19e4174a29b8ab1a0f1",
+            "resizedToWidthForMetric": 1200
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.29887064683738174,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 121199,
+              "nativePsnrDb": 34.292395166707486,
+              "savingsFraction": 0.13259522207749452
+            },
+            {
+              "quality": 65,
+              "bytes": 97966,
+              "nativePsnrDb": 33.31763552008891,
+              "savingsFraction": 0.29887064683738174
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/tokyo-skyline-1600w.avif",
+          "width": 1600,
+          "height": 900,
+          "bytes": 181404,
+          "sha256": "df29bf4b69fb2a4d16bd380e433e24a0bbd4b3fac08b0a2e3ec2f95550a6a082",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 34.402954802238156,
+          "legacyReference": {
+            "file": "public/images/tokyo-skyline.webp",
+            "width": 1600,
+            "bytes": 266604,
+            "sha256": "a1077dec2b03609769730e3a798269b8555196e44135882b78e1f40730b0b6cb",
+            "resizedToWidthForMetric": 1600
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.31957510014853485,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 228322,
+              "nativePsnrDb": 36.67205076538346,
+              "savingsFraction": 0.14359124394232647
+            },
+            {
+              "quality": 65,
+              "bytes": 181404,
+              "nativePsnrDb": 34.402954802238156,
+              "savingsFraction": 0.31957510014853485
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "tokyo"
+      ],
+      "alt": {
+        "es": "Panorámica de Minato con Tokyo Tower entre los edificios de Tokio",
+        "en": "Minato skyline with Tokyo Tower among the buildings of Tokyo"
+      },
+      "approvedOriginalUrl": null,
+      "sourceModifications": null,
+      "existingWebpFiles": [
+        {
+          "file": "public/images/tokyo-skyline-480w.webp",
+          "sha256": "1b7451075308143b4942b44bcb4c344c56aa8e27c8f3f19f286f2392a80dcded",
+          "bytes": 25612
+        },
+        {
+          "file": "public/images/tokyo-skyline-800w.webp",
+          "sha256": "40a0e10f1c498240f5906843359dd72db9c367b3c33a29028aa718767d0679b3",
+          "bytes": 72484
+        },
+        {
+          "file": "public/images/tokyo-skyline-1200w.webp",
+          "sha256": "b3402be66e5d3ea6f97724ed45bf2781e9652049451ef19e4174a29b8ab1a0f1",
+          "bytes": 139726
+        },
+        {
+          "file": "public/images/tokyo-skyline.webp",
+          "sha256": "a1077dec2b03609769730e3a798269b8555196e44135882b78e1f40730b0b6cb",
+          "bytes": 266604
+        }
+      ]
+    },
+    {
+      "photoId": "queenstown-cover",
+      "sourceFile": "public/images/queenstown-cover.webp",
+      "sourceSha256": "d3b303e4f53444ef7db1c46c53797e78ac38e59f4a68fe01dc133a63f7553dd8",
+      "sourceWidth": 1280,
+      "sourceHeight": 853,
+      "existingSizesAttributes": [
+        "(max-width: 540px) calc((100vw - 45px) * 0.750293), (max-width: 800px) calc((100vw - 72px) * 0.500195), (max-width: 1100px) calc((100vw - 120px) * 0.300117), (max-width: 1439px) min(352.938px, calc((100vw - 160px) * 0.300117)), (max-width: 1640px) calc((100vw - 560px) * 0.300117), 324.127px",
+        "(max-width: 540px) calc((100vw - 45px) * 0.577149), (max-width: 800px) calc((100vw - 60px) * 0.577149), (max-width: 1100px) calc((100vw - 125px) * 0.288574), (max-width: 1439px) min(337.92px, calc((100vw - 165px) * 0.288574)), (max-width: 1640px) calc((100vw - 565px) * 0.288574), 310.217px"
+      ],
+      "maximumPresentationWidth": 1280,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queenstown_Bay_Lake_Wakatipu_01.jpg",
+      "credit": "Krzysztof Golik / Wikimedia Commons · resized and converted to WebP by MaletaFeliz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "existingRightsEvidence": {
+        "file": "content/research/queenstown-cover-photo-license.json",
+        "sha256": "19b2cdafa6e34a8c05eeee459c2289310cf1d2738fbab90cf10a5cddf5e7ad92",
+        "verifiedAt": "2026-10-28T22:45:05.095289Z"
+      },
+      "sourceRightsVerifiedAt": "2026-10-28T22:45:05.095289Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY-SA 4.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/queenstown-cover-480w.avif",
+          "width": 480,
+          "height": 320,
+          "bytes": 23184,
+          "sha256": "2a85bedc51c28f35e01365b7e5b44d8f7bf6e83e0be7c2645c26e27ff039e260",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 33.55181585215128,
+          "legacyReference": {
+            "file": "public/images/queenstown-cover-480w.webp",
+            "width": 480,
+            "bytes": 31508,
+            "sha256": "a6e089dcadda814dd3c9c9be2190283767255cc1b820ad59f5f7c7a7819fd0d3",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.2641868731750666,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 28665,
+              "nativePsnrDb": 35.00413255716472,
+              "savingsFraction": 0.09023105243112861
+            },
+            {
+              "quality": 65,
+              "bytes": 23184,
+              "nativePsnrDb": 33.55181585215128,
+              "savingsFraction": 0.2641868731750666
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/queenstown-cover-640w.avif",
+          "width": 640,
+          "height": 426,
+          "bytes": 52820,
+          "sha256": "c7af2fc9db06fec1ecd026fd666d4d5fe89746955d87cc125211972f4f1ab650",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 29.663724663135707,
+          "legacyReference": {
+            "file": "public/images/queenstown-cover-800w.webp",
+            "width": 800,
+            "bytes": 86828,
+            "sha256": "d7b8d5471a792be3428a54d4a6c05d793ee82391b8c69934e3bf2a002a2e1ae9",
+            "resizedToWidthForMetric": 640
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.39167088957479157,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 52820,
+              "nativePsnrDb": 29.663724663135707,
+              "savingsFraction": 0.39167088957479157
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/queenstown-cover-800w.avif",
+          "width": 800,
+          "height": 533,
+          "bytes": 62199,
+          "sha256": "f6072a3310cc39f98db9b299458636d5de83319ec021d20057e8bffcd9be008d",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 33.538281890402956,
+          "legacyReference": {
+            "file": "public/images/queenstown-cover-800w.webp",
+            "width": 800,
+            "bytes": 86828,
+            "sha256": "d7b8d5471a792be3428a54d4a6c05d793ee82391b8c69934e3bf2a002a2e1ae9",
+            "resizedToWidthForMetric": 800
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.28365273874786934,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 76573,
+              "nativePsnrDb": 35.09166363251608,
+              "savingsFraction": 0.11810706223798773
+            },
+            {
+              "quality": 65,
+              "bytes": 62199,
+              "nativePsnrDb": 33.538281890402956,
+              "savingsFraction": 0.28365273874786934
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/queenstown-cover-960w.avif",
+          "width": 960,
+          "height": 640,
+          "bytes": 106222,
+          "sha256": "39ffd67804b2b04108b34be31f192eff7a3763a096870cdfe4ac9373ef5c387c",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.16015249687315,
+          "legacyReference": {
+            "file": "public/images/queenstown-cover-1200w.webp",
+            "width": 1200,
+            "bytes": 177894,
+            "sha256": "b846a5e81d67221c893843eeb083b5d391eb3687087969d997cd6bbe1f37a9cb",
+            "resizedToWidthForMetric": 960
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.4028916096102173,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 106222,
+              "nativePsnrDb": 31.16015249687315,
+              "savingsFraction": 0.4028916096102173
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/queenstown-cover-1200w.avif",
+          "width": 1200,
+          "height": 800,
+          "bytes": 126266,
+          "sha256": "ca4a26b1a19b12cd56dc927cf09847ebe20d4be9cb6bdfbcd98fe27c9e8abcfb",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 34.11546846138192,
+          "legacyReference": {
+            "file": "public/images/queenstown-cover-1200w.webp",
+            "width": 1200,
+            "bytes": 177894,
+            "sha256": "b846a5e81d67221c893843eeb083b5d391eb3687087969d997cd6bbe1f37a9cb",
+            "resizedToWidthForMetric": 1200
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.2902177701327757,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 155012,
+              "nativePsnrDb": 35.482385339826166,
+              "savingsFraction": 0.12862715999415386
+            },
+            {
+              "quality": 65,
+              "bytes": 126266,
+              "nativePsnrDb": 34.11546846138192,
+              "savingsFraction": 0.2902177701327757
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/queenstown-cover-1280w.avif",
+          "width": 1280,
+          "height": 853,
+          "bytes": 218867,
+          "sha256": "e3a2c0f94333dec698ba1714aadc1ff303c35073fd690a78a05c5d53bcc25dd0",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 37.73410851906226,
+          "legacyReference": {
+            "file": "public/images/queenstown-cover.webp",
+            "width": 1280,
+            "bytes": 261914,
+            "sha256": "d3b303e4f53444ef7db1c46c53797e78ac38e59f4a68fe01dc133a63f7553dd8",
+            "resizedToWidthForMetric": 1280
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.16435547546141105,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 218867,
+              "nativePsnrDb": 37.73410851906226,
+              "savingsFraction": 0.16435547546141105
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "queenstown"
+      ],
+      "alt": {
+        "es": "Bahía de Queenstown en el lago Wakatipu",
+        "en": "Queenstown Bay on Lake Wakatipu"
+      },
+      "approvedOriginalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Queenstown_Bay_Lake_Wakatipu_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceModifications": "Resized and converted to WebP; same license retained.",
+      "existingWebpFiles": [
+        {
+          "file": "public/images/queenstown-cover-480w.webp",
+          "sha256": "a6e089dcadda814dd3c9c9be2190283767255cc1b820ad59f5f7c7a7819fd0d3",
+          "bytes": 31508
+        },
+        {
+          "file": "public/images/queenstown-cover-800w.webp",
+          "sha256": "d7b8d5471a792be3428a54d4a6c05d793ee82391b8c69934e3bf2a002a2e1ae9",
+          "bytes": 86828
+        },
+        {
+          "file": "public/images/queenstown-cover-1200w.webp",
+          "sha256": "b846a5e81d67221c893843eeb083b5d391eb3687087969d997cd6bbe1f37a9cb",
+          "bytes": 177894
+        },
+        {
+          "file": "public/images/queenstown-cover.webp",
+          "sha256": "d3b303e4f53444ef7db1c46c53797e78ac38e59f4a68fe01dc133a63f7553dd8",
+          "bytes": 261914
+        }
+      ]
+    },
+    {
+      "photoId": "xmas-new-york-p1",
+      "sourceFile": "public/images/xmas-new-york-p1.webp",
+      "sourceSha256": "2e0964c60b34ebdace8fe58233d10b43ba55150e4bb7ac2ffaada0a86fd420ea",
+      "sourceWidth": 1280,
+      "sourceHeight": 474,
+      "existingSizesAttributes": [
+        "(max-width: 540px) calc((100vw - 45px) * 1.038624), (max-width: 800px) calc((100vw - 60px) * 1.038624), (max-width: 1100px) calc((100vw - 125px) * 0.519312), (max-width: 1439px) min(608.114px, calc((100vw - 165px) * 0.519312)), (max-width: 1640px) calc((100vw - 565px) * 0.519312), 558.26px"
+      ],
+      "maximumPresentationWidth": 1280,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christmas_Tree_and_Decoration_in_front_of_Rockefeller_Center_Manhattan_NYC.jpg",
+      "credit": "Daniel Dimitrov / Wikimedia Commons · archivo / archive · resized and converted to WebP by MaletaFeliz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "existingRightsEvidence": {
+        "file": "content/images/evidence/xmas-new-york-p1.json",
+        "sha256": "2ef6a1678e64ddd58b2779204a3e1e087233b3947ed3186d4cbf51df2a0be19b",
+        "verifiedAt": "2026-11-01T17:32:24.111Z"
+      },
+      "sourceRightsVerifiedAt": "2026-11-01T17:32:24.111Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY-SA 4.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/xmas-new-york-p1-480w.avif",
+          "width": 480,
+          "height": 178,
+          "bytes": 22940,
+          "sha256": "51741891e2ca4454627c2d9cdaa2e78e8137896a00a28753bb613ef8332b7dd5",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 30.759888941295586,
+          "legacyReference": {
+            "file": "public/images/xmas-new-york-p1-480w.webp",
+            "width": 480,
+            "bytes": 29588,
+            "sha256": "7590819d209a603170df889314e3af8f3fcd691c07484e870cb688c5f91fa62e",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.22468568338515615,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 27456,
+              "nativePsnrDb": 31.859325460616013,
+              "savingsFraction": 0.07205623901581726
+            },
+            {
+              "quality": 65,
+              "bytes": 22940,
+              "nativePsnrDb": 30.759888941295586,
+              "savingsFraction": 0.22468568338515615
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/xmas-new-york-p1-640w.avif",
+          "width": 640,
+          "height": 237,
+          "bytes": 47795,
+          "sha256": "3b906e09584509aae1fb842dbf097eccf0b90e897f38c437a60ac72be09b7733",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 25.266264770156912,
+          "legacyReference": {
+            "file": "public/images/xmas-new-york-p1-800w.webp",
+            "width": 800,
+            "bytes": 71526,
+            "sha256": "59c284472c97f8fb20b6d8bdc53a5c21ffceb4defd83b3d799cb1a1fed4cf63a",
+            "resizedToWidthForMetric": 640
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.33178145010206084,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 47795,
+              "nativePsnrDb": 25.266264770156912,
+              "savingsFraction": 0.33178145010206084
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/xmas-new-york-p1-800w.avif",
+          "width": 800,
+          "height": 296,
+          "bytes": 54465,
+          "sha256": "10819ac0008e2e2919c393980333bc1fd35860f239065aae40b68c2fb7adb79c",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.676681607312446,
+          "legacyReference": {
+            "file": "public/images/xmas-new-york-p1-800w.webp",
+            "width": 800,
+            "bytes": 71526,
+            "sha256": "59c284472c97f8fb20b6d8bdc53a5c21ffceb4defd83b3d799cb1a1fed4cf63a",
+            "resizedToWidthForMetric": 800
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.2385286469255935,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 65108,
+              "nativePsnrDb": 32.63878027903332,
+              "savingsFraction": 0.08972960881357828
+            },
+            {
+              "quality": 65,
+              "bytes": 54465,
+              "nativePsnrDb": 31.676681607312446,
+              "savingsFraction": 0.2385286469255935
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/xmas-new-york-p1-960w.avif",
+          "width": 960,
+          "height": 356,
+          "bytes": 87842,
+          "sha256": "dc97b4531c32a58a71e07327cb5c81c3171a3218505a0c2280596acd0fa179ff",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 29.699911761028737,
+          "legacyReference": {
+            "file": "public/images/xmas-new-york-p1-1200w.webp",
+            "width": 1200,
+            "bytes": 133462,
+            "sha256": "27021c0b0a90b5c553e3a5e5f1047c4b6b581458c2fd180c8388b82e2b5fdade",
+            "resizedToWidthForMetric": 960
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.3418201435614632,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 87842,
+              "nativePsnrDb": 29.699911761028737,
+              "savingsFraction": 0.3418201435614632
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/xmas-new-york-p1-1200w.avif",
+          "width": 1200,
+          "height": 444,
+          "bytes": 100475,
+          "sha256": "e7155854140dd35226fca12ecca10de200332bc6065d17fc87aee5085bd4b94e",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 32.71775329596104,
+          "legacyReference": {
+            "file": "public/images/xmas-new-york-p1-1200w.webp",
+            "width": 1200,
+            "bytes": 133462,
+            "sha256": "27021c0b0a90b5c553e3a5e5f1047c4b6b581458c2fd180c8388b82e2b5fdade",
+            "resizedToWidthForMetric": 1200
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.24716398675278362,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 120372,
+              "nativePsnrDb": 33.57857022402544,
+              "savingsFraction": 0.09808035245987623
+            },
+            {
+              "quality": 65,
+              "bytes": 100475,
+              "nativePsnrDb": 32.71775329596104,
+              "savingsFraction": 0.24716398675278362
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/xmas-new-york-p1-1280w.avif",
+          "width": 1280,
+          "height": 474,
+          "bytes": 163046,
+          "sha256": "26659849ac363bd554453ee7e417ccf4a76d36aede1bef534d6f12d47700b5eb",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 35.59045378671841,
+          "legacyReference": {
+            "file": "public/images/xmas-new-york-p1.webp",
+            "width": 1280,
+            "bytes": 194064,
+            "sha256": "2e0964c60b34ebdace8fe58233d10b43ba55150e4bb7ac2ffaada0a86fd420ea",
+            "resizedToWidthForMetric": 1280
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.15983386923901388,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 163046,
+              "nativePsnrDb": 35.59045378671841,
+              "savingsFraction": 0.15983386923901388
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "christmas-new-york"
+      ],
+      "alt": {
+        "es": "Árbol y adornos navideños frente a Rockefeller Center, Nueva York, en 2011 · fotografía de archivo anterior a 2026",
+        "en": "Christmas tree and decorations outside Rockefeller Center, New York, in 2011 · archive photograph taken before 2026"
+      },
+      "approvedOriginalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Christmas_Tree_and_Decoration_in_front_of_Rockefeller_Center_Manhattan_NYC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceModifications": "Resized and converted to WebP; same license retained.",
+      "existingWebpFiles": [
+        {
+          "file": "public/images/xmas-new-york-p1-480w.webp",
+          "sha256": "7590819d209a603170df889314e3af8f3fcd691c07484e870cb688c5f91fa62e",
+          "bytes": 29588
+        },
+        {
+          "file": "public/images/xmas-new-york-p1-800w.webp",
+          "sha256": "59c284472c97f8fb20b6d8bdc53a5c21ffceb4defd83b3d799cb1a1fed4cf63a",
+          "bytes": 71526
+        },
+        {
+          "file": "public/images/xmas-new-york-p1-1200w.webp",
+          "sha256": "27021c0b0a90b5c553e3a5e5f1047c4b6b581458c2fd180c8388b82e2b5fdade",
+          "bytes": 133462
+        },
+        {
+          "file": "public/images/xmas-new-york-p1.webp",
+          "sha256": "2e0964c60b34ebdace8fe58233d10b43ba55150e4bb7ac2ffaada0a86fd420ea",
+          "bytes": 194064
+        }
+      ]
+    },
+    {
+      "photoId": "rio-sugarloaf",
+      "sourceFile": "public/images/rio-sugarloaf.webp",
+      "sourceSha256": "778ec3d971e918798c44652fe34cec7a18dc78398f5ccb2b1963cefac8536804",
+      "sourceWidth": 1280,
+      "sourceHeight": 783,
+      "existingSizesAttributes": [
+        "(max-width: 540px) calc((100vw - 45px) * 0.817369), (max-width: 800px) calc((100vw - 72px) * 0.544913), (max-width: 1100px) calc((100vw - 120px) * 0.326948), (max-width: 1439px) min(384.49px, calc((100vw - 160px) * 0.326948)), (max-width: 1640px) calc((100vw - 560px) * 0.326948), 353.103px"
+      ],
+      "maximumPresentationWidth": 1280,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rio_de_Janeiro_skyline_and_Sugarloaf_Mountain_at_sunset,_Brazil_3.jpg",
+      "credit": "Wilfredor · WebP resize / redimensionado",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "existingRightsEvidence": {
+        "file": "content/research/rio-sugarloaf-photo-license.json",
+        "sha256": "0afac6d1c8769bb6a1a2cef599eb8eb3feb23ed003683c0d56173d6682b00642",
+        "verifiedAt": "2026-10-28T22:44:54.549Z"
+      },
+      "sourceRightsVerifiedAt": "2026-10-28T22:44:54.549Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/rio-sugarloaf-480w.avif",
+          "width": 480,
+          "height": 294,
+          "bytes": 20922,
+          "sha256": "614a47f444b4b8552e34c1caa55ee727e2edc4873c4fe931806cb7f23ad41510",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 34.782444195975984,
+          "legacyReference": {
+            "file": "public/images/rio-sugarloaf-480w.webp",
+            "width": 480,
+            "bytes": 25904,
+            "sha256": "e506ccd54f4c260c9776355261b2b315a0060f3eb6a111002975cc6a17f7ac67",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.192325509573811,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 25272,
+              "nativePsnrDb": 35.79191319056479,
+              "savingsFraction": 0.024397776405188365
+            },
+            {
+              "quality": 65,
+              "bytes": 20922,
+              "nativePsnrDb": 34.782444195975984,
+              "savingsFraction": 0.192325509573811
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/rio-sugarloaf-640w.avif",
+          "width": 640,
+          "height": 392,
+          "bytes": 44552,
+          "sha256": "5e6063f16cbd8342452845b3ba73cbfaeedbc3bc96d028d07ec1f1917d138880",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.374869266908686,
+          "legacyReference": {
+            "file": "public/images/rio-sugarloaf-800w.webp",
+            "width": 800,
+            "bytes": 66896,
+            "sha256": "eaa7debe45a18517edd150b5b30034d8fb3bf4602d341a571135cf4d83cc7015",
+            "resizedToWidthForMetric": 640
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.33401100215259505,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 44552,
+              "nativePsnrDb": 31.374869266908686,
+              "savingsFraction": 0.33401100215259505
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/rio-sugarloaf-800w.avif",
+          "width": 800,
+          "height": 489,
+          "bytes": 52787,
+          "sha256": "f0e7fb0d31b29a2b26eaf57b576429b0f3aa4cc501699f83de339b693d4dfa4f",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 34.89398297700219,
+          "legacyReference": {
+            "file": "public/images/rio-sugarloaf-800w.webp",
+            "width": 800,
+            "bytes": 66896,
+            "sha256": "eaa7debe45a18517edd150b5b30034d8fb3bf4602d341a571135cf4d83cc7015",
+            "resizedToWidthForMetric": 800
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.21090947141832095,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 64634,
+              "nativePsnrDb": 36.01232043890745,
+              "savingsFraction": 0.03381368093757475
+            },
+            {
+              "quality": 65,
+              "bytes": 52787,
+              "nativePsnrDb": 34.89398297700219,
+              "savingsFraction": 0.21090947141832095
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/rio-sugarloaf-960w.avif",
+          "width": 960,
+          "height": 587,
+          "bytes": 89328,
+          "sha256": "55864eff7fa4363b4618051563fc0777e76a389b9252d0f12364cd5dc5067840",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 33.96041466963791,
+          "legacyReference": {
+            "file": "public/images/rio-sugarloaf-1200w.webp",
+            "width": 1200,
+            "bytes": 133726,
+            "sha256": "ec863e7a803b9a7f73feba20f5b5868ddb0bd7d1797b5534cb5372c3d58d7d74",
+            "resizedToWidthForMetric": 960
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.33200723868208126,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 89328,
+              "nativePsnrDb": 33.96041466963791,
+              "savingsFraction": 0.33200723868208126
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/rio-sugarloaf-1200w.avif",
+          "width": 1200,
+          "height": 734,
+          "bytes": 105383,
+          "sha256": "39254b9ef1d7986a67f0bbf0b3cef4c0de5aec5378527b8ba7edd8b68e27a4cb",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 35.389653686900424,
+          "legacyReference": {
+            "file": "public/images/rio-sugarloaf-1200w.webp",
+            "width": 1200,
+            "bytes": 133726,
+            "sha256": "ec863e7a803b9a7f73feba20f5b5868ddb0bd7d1797b5534cb5372c3d58d7d74",
+            "resizedToWidthForMetric": 1200
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.21194831222051058,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 129189,
+              "nativePsnrDb": 36.40974150680753,
+              "savingsFraction": 0.03392758326727785
+            },
+            {
+              "quality": 65,
+              "bytes": 105383,
+              "nativePsnrDb": 35.389653686900424,
+              "savingsFraction": 0.21194831222051058
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/rio-sugarloaf-1280w.avif",
+          "width": 1280,
+          "height": 783,
+          "bytes": 147976,
+          "sha256": "dfade9a6234af0f84a23928bf2b3fd4f1137ed278696e03b409b7ad05dc2f1d9",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 36.345146728107196,
+          "legacyReference": {
+            "file": "public/images/rio-sugarloaf.webp",
+            "width": 1280,
+            "bytes": 201358,
+            "sha256": "778ec3d971e918798c44652fe34cec7a18dc78398f5ccb2b1963cefac8536804",
+            "resizedToWidthForMetric": 1280
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.2651099037535136,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 178134,
+              "nativePsnrDb": 38.860813535659105,
+              "savingsFraction": 0.11533686270225174
+            },
+            {
+              "quality": 65,
+              "bytes": 147976,
+              "nativePsnrDb": 36.345146728107196,
+              "savingsFraction": 0.2651099037535136
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "rio"
+      ],
+      "alt": {
+        "es": "Bahía, edificios y montañas de Río de Janeiro al atardecer",
+        "en": "Bay, buildings and mountains of Rio de Janeiro at sunset"
+      },
+      "approvedOriginalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Rio_de_Janeiro_skyline_and_Sugarloaf_Mountain_at_sunset%2C_Brazil_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceModifications": "Resized and converted to WebP; no crop. Derivative retains the original license.",
+      "existingWebpFiles": [
+        {
+          "file": "public/images/rio-sugarloaf-480w.webp",
+          "sha256": "e506ccd54f4c260c9776355261b2b315a0060f3eb6a111002975cc6a17f7ac67",
+          "bytes": 25904
+        },
+        {
+          "file": "public/images/rio-sugarloaf-800w.webp",
+          "sha256": "eaa7debe45a18517edd150b5b30034d8fb3bf4602d341a571135cf4d83cc7015",
+          "bytes": 66896
+        },
+        {
+          "file": "public/images/rio-sugarloaf-1200w.webp",
+          "sha256": "ec863e7a803b9a7f73feba20f5b5868ddb0bd7d1797b5534cb5372c3d58d7d74",
+          "bytes": 133726
+        },
+        {
+          "file": "public/images/rio-sugarloaf.webp",
+          "sha256": "778ec3d971e918798c44652fe34cec7a18dc78398f5ccb2b1963cefac8536804",
+          "bytes": 201358
+        }
+      ]
+    },
+    {
+      "photoId": "rome-colosseum",
+      "sourceFile": "public/images/rome-colosseum.webp",
+      "sourceSha256": "d18e792f24ead7ab5e275374855bbc190bfc555ecfbbbc13c25f7cd0c60b73e4",
+      "sourceWidth": 1600,
+      "sourceHeight": 939,
+      "existingSizesAttributes": [
+        "(max-width: 540px) calc((100vw - 45px) * 0.85197), (max-width: 800px) calc((100vw - 72px) * 0.56798), (max-width: 1100px) calc((100vw - 120px) * 0.340788), (max-width: 1439px) min(400.767px, calc((100vw - 160px) * 0.340788)), (max-width: 1640px) calc((100vw - 560px) * 0.340788), 368.051px",
+        "(max-width: 540px) calc((100vw - 45px) * 0.655362), (max-width: 800px) calc((100vw - 60px) * 0.655362), (max-width: 1100px) calc((100vw - 125px) * 0.327681), (max-width: 1439px) min(383.714px, calc((100vw - 165px) * 0.327681)), (max-width: 1640px) calc((100vw - 565px) * 0.327681), 352.257px"
+      ],
+      "maximumPresentationWidth": 1600,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome,_Italy_-_April_2007.jpg",
+      "credit": "Diliff · Wikimedia Commons · resized/WebP",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "existingRightsEvidence": {
+        "file": "content/research/rome-colosseum-license.json",
+        "sha256": "3f2d746e73e398839cfccdc1d83a93ae52fc5eae6e24153a99f4baf776a19cfb",
+        "verifiedAt": "2026-10-28T22:47:30.905103Z"
+      },
+      "sourceRightsVerifiedAt": "2026-10-28T22:47:30.905103Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY-SA 2.5; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/rome-colosseum-480w.avif",
+          "width": 480,
+          "height": 282,
+          "bytes": 19518,
+          "sha256": "31c6eca4c37d1a72eb5f55a122eeb8c599970b34e861e8f31832c6674736df55",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 33.12309009040194,
+          "legacyReference": {
+            "file": "public/images/rome-colosseum-480w.webp",
+            "width": 480,
+            "bytes": 24588,
+            "sha256": "e951fbe35f84e46cf7eabde06b07861bf3973b642ad0f73e92231b1950a0d087",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.20619814543679849,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 23494,
+              "nativePsnrDb": 33.753166834529836,
+              "savingsFraction": 0.044493248739222335
+            },
+            {
+              "quality": 65,
+              "bytes": 19518,
+              "nativePsnrDb": 33.12309009040194,
+              "savingsFraction": 0.20619814543679849
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/rome-colosseum-640w.avif",
+          "width": 640,
+          "height": 376,
+          "bytes": 38714,
+          "sha256": "e8d8cbcd3a35d47c29785c07df67d3a1475087c44567f9a0aca9c1d2bb4f8a87",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 32.53410223811384,
+          "legacyReference": {
+            "file": "public/images/rome-colosseum-800w.webp",
+            "width": 800,
+            "bytes": 65202,
+            "sha256": "91f3a3abf8dbeb1e3f375d9a08f751acb8728832f4fb1303edbb65146dce6f57",
+            "resizedToWidthForMetric": 640
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.406245207202233,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 38714,
+              "nativePsnrDb": 32.53410223811384,
+              "savingsFraction": 0.406245207202233
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/rome-colosseum-800w.avif",
+          "width": 800,
+          "height": 470,
+          "bytes": 50136,
+          "sha256": "5b875b9a3a24e15ebcc3fa5adf321f46250c7ae0bd18c7473e77f0e1c520407a",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 33.54572270507786,
+          "legacyReference": {
+            "file": "public/images/rome-colosseum-800w.webp",
+            "width": 800,
+            "bytes": 65202,
+            "sha256": "91f3a3abf8dbeb1e3f375d9a08f751acb8728832f4fb1303edbb65146dce6f57",
+            "resizedToWidthForMetric": 800
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.2310665317014815,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 62287,
+              "nativePsnrDb": 34.25434970680885,
+              "savingsFraction": 0.04470721757001317
+            },
+            {
+              "quality": 65,
+              "bytes": 50136,
+              "nativePsnrDb": 33.54572270507786,
+              "savingsFraction": 0.2310665317014815
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/rome-colosseum-960w.avif",
+          "width": 960,
+          "height": 563,
+          "bytes": 83711,
+          "sha256": "5b75dc1babccd6c7d64eb0d40cbcd18940cb59d9e3f645bfd5aa132971ff60ba",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 33.60246288389193,
+          "legacyReference": {
+            "file": "public/images/rome-colosseum-1200w.webp",
+            "width": 1200,
+            "bytes": 127930,
+            "sha256": "756a079a6a70016e88255b7ec2bffc4cdfa4709c923e99053c86dedfa5ba9d17",
+            "resizedToWidthForMetric": 960
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.3456499648245134,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 83711,
+              "nativePsnrDb": 33.60246288389193,
+              "savingsFraction": 0.3456499648245134
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/rome-colosseum-1200w.avif",
+          "width": 1200,
+          "height": 704,
+          "bytes": 99730,
+          "sha256": "d1b0f856a21bb5643aac0e53396dea3a2d72f03ee7c7487804c44675f0060259",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 34.56860555524826,
+          "legacyReference": {
+            "file": "public/images/rome-colosseum-1200w.webp",
+            "width": 1200,
+            "bytes": 127930,
+            "sha256": "756a079a6a70016e88255b7ec2bffc4cdfa4709c923e99053c86dedfa5ba9d17",
+            "resizedToWidthForMetric": 1200
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.220433049323849,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 123233,
+              "nativePsnrDb": 35.38881915793712,
+              "savingsFraction": 0.036715391229578676
+            },
+            {
+              "quality": 65,
+              "bytes": 99730,
+              "nativePsnrDb": 34.56860555524826,
+              "savingsFraction": 0.220433049323849
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/rome-colosseum-1600w.avif",
+          "width": 1600,
+          "height": 939,
+          "bytes": 207972,
+          "sha256": "ebfaa4403d889673cbc77d3f9dc5817310a98b0e89b401f0ccf7d75375051505",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 35.58651197735752,
+          "legacyReference": {
+            "file": "public/images/rome-colosseum.webp",
+            "width": 1600,
+            "bytes": 270740,
+            "sha256": "d18e792f24ead7ab5e275374855bbc190bfc555ecfbbbc13c25f7cd0c60b73e4",
+            "resizedToWidthForMetric": 1600
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.23183866440127054,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 253785,
+              "nativePsnrDb": 38.14899265302485,
+              "savingsFraction": 0.06262465834379849
+            },
+            {
+              "quality": 65,
+              "bytes": 207972,
+              "nativePsnrDb": 35.58651197735752,
+              "savingsFraction": 0.23183866440127054
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "rome"
+      ],
+      "alt": {
+        "es": "Exterior del Coliseo de Roma al anochecer, abril de 2007",
+        "en": "Exterior of the Colosseum in Rome at dusk, April 2007"
+      },
+      "approvedOriginalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceModifications": "Resized and converted to WebP; no content changes. Derivative supplied under the same license.",
+      "existingWebpFiles": [
+        {
+          "file": "public/images/rome-colosseum-480w.webp",
+          "sha256": "e951fbe35f84e46cf7eabde06b07861bf3973b642ad0f73e92231b1950a0d087",
+          "bytes": 24588
+        },
+        {
+          "file": "public/images/rome-colosseum-800w.webp",
+          "sha256": "91f3a3abf8dbeb1e3f375d9a08f751acb8728832f4fb1303edbb65146dce6f57",
+          "bytes": 65202
+        },
+        {
+          "file": "public/images/rome-colosseum-1200w.webp",
+          "sha256": "756a079a6a70016e88255b7ec2bffc4cdfa4709c923e99053c86dedfa5ba9d17",
+          "bytes": 127930
+        },
+        {
+          "file": "public/images/rome-colosseum.webp",
+          "sha256": "d18e792f24ead7ab5e275374855bbc190bfc555ecfbbbc13c25f7cd0c60b73e4",
+          "bytes": 270740
+        }
+      ]
+    },
+    {
+      "photoId": "lisbon-alfama",
+      "sourceFile": "public/images/lisbon-alfama.webp",
+      "sourceSha256": "b60dcdc6a84299afafaf7ecfe2ceb39be1eb77978d25b76ec8bddc24759e039b",
+      "sourceWidth": 1280,
+      "sourceHeight": 855,
+      "existingSizesAttributes": [
+        "160px"
+      ],
+      "maximumPresentationWidth": 800,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2015_9043.jpg",
+      "credit": "Jakub Hałun · WebP resize / redimensionado",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "existingRightsEvidence": {
+        "file": "content/research/lisbon-alfama-photo-license.json",
+        "sha256": "866e5a705800330fa4cce8125f8889a6330dfbc2808ee56c7a2793b859e52ec7",
+        "verifiedAt": "2026-10-28T22:44:55.541Z"
+      },
+      "sourceRightsVerifiedAt": "2026-10-28T22:44:55.541Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY 4.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/lisbon-alfama-240w.avif",
+          "width": 240,
+          "height": 160,
+          "bytes": 8347,
+          "sha256": "ff5ded3ccd420fc5e84111f762a490ae6d52e0566dad7ad0bff4ddc9691083f5",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.94557604889987,
+          "legacyReference": {
+            "file": "public/images/lisbon-alfama-480w.webp",
+            "width": 480,
+            "bytes": 30080,
+            "sha256": "7128858b3e3904bcef9a278ed3467bc568741df66b2a6bda244fd08bb25ccd1f",
+            "resizedToWidthForMetric": 240
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.7225066489361702,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 8347,
+              "nativePsnrDb": 31.94557604889987,
+              "savingsFraction": 0.7225066489361702
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/lisbon-alfama-320w.avif",
+          "width": 320,
+          "height": 214,
+          "bytes": 13744,
+          "sha256": "d1a7244080605d70b7fd17ed5eaf3073838b0b52f89ce6f329062a67f560f068",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.427600282741093,
+          "legacyReference": {
+            "file": "public/images/lisbon-alfama-480w.webp",
+            "width": 480,
+            "bytes": 30080,
+            "sha256": "7128858b3e3904bcef9a278ed3467bc568741df66b2a6bda244fd08bb25ccd1f",
+            "resizedToWidthForMetric": 320
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.5430851063829787,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 13744,
+              "nativePsnrDb": 31.427600282741093,
+              "savingsFraction": 0.5430851063829787
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/lisbon-alfama-480w.avif",
+          "width": 480,
+          "height": 321,
+          "bytes": 22635,
+          "sha256": "eae5c636e728ae91bea19d8b0554049d6440bd95bf0adf20c879b6af26998464",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 32.993021923449135,
+          "legacyReference": {
+            "file": "public/images/lisbon-alfama-480w.webp",
+            "width": 480,
+            "bytes": 30080,
+            "sha256": "7128858b3e3904bcef9a278ed3467bc568741df66b2a6bda244fd08bb25ccd1f",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.24750664893617025,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 27192,
+              "nativePsnrDb": 34.022740847164094,
+              "savingsFraction": 0.09601063829787237
+            },
+            {
+              "quality": 65,
+              "bytes": 22635,
+              "nativePsnrDb": 32.993021923449135,
+              "savingsFraction": 0.24750664893617025
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/lisbon-alfama-640w.avif",
+          "width": 640,
+          "height": 428,
+          "bytes": 48060,
+          "sha256": "374fcac16d05ad16b51fdefce22d06f19bdd88fa151d68b064f26c4258e9886d",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 29.335857603832714,
+          "legacyReference": {
+            "file": "public/images/lisbon-alfama-800w.webp",
+            "width": 800,
+            "bytes": 76144,
+            "sha256": "889f92f9810727e36d61e95c36f6572294cf81cb81276b76e8d10db879b0ef50",
+            "resizedToWidthForMetric": 640
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.36882748476570704,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 48060,
+              "nativePsnrDb": 29.335857603832714,
+              "savingsFraction": 0.36882748476570704
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/lisbon-alfama-800w.avif",
+          "width": 800,
+          "height": 534,
+          "bytes": 55339,
+          "sha256": "10258eaf6756b9f66c584be28b6c2688578c3f31780b39e7f144fee643eaa1ce",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 33.72085735089066,
+          "legacyReference": {
+            "file": "public/images/lisbon-alfama-800w.webp",
+            "width": 800,
+            "bytes": 76144,
+            "sha256": "889f92f9810727e36d61e95c36f6572294cf81cb81276b76e8d10db879b0ef50",
+            "resizedToWidthForMetric": 800
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.2732322967009876,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 67742,
+              "nativePsnrDb": 34.85852129972203,
+              "savingsFraction": 0.11034355957133857
+            },
+            {
+              "quality": 65,
+              "bytes": 55339,
+              "nativePsnrDb": 33.72085735089066,
+              "savingsFraction": 0.2732322967009876
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "lisbon"
+      ],
+      "alt": {
+        "es": "Tejados de Alfama desde el mirador de Santa Luzia en Lisboa",
+        "en": "Alfama rooftops viewed from Santa Luzia viewpoint in Lisbon"
+      },
+      "approvedOriginalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/View_from_Miradouro_de_Santa_Luzia%2C_Lisbon%2C_20250603_2015_9043.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceModifications": "Resized and converted to WebP; no crop. Derivative retains the original license.",
+      "existingWebpFiles": [
+        {
+          "file": "public/images/lisbon-alfama-480w.webp",
+          "sha256": "7128858b3e3904bcef9a278ed3467bc568741df66b2a6bda244fd08bb25ccd1f",
+          "bytes": 30080
+        },
+        {
+          "file": "public/images/lisbon-alfama-800w.webp",
+          "sha256": "889f92f9810727e36d61e95c36f6572294cf81cb81276b76e8d10db879b0ef50",
+          "bytes": 76144
+        },
+        {
+          "file": "public/images/lisbon-alfama-1200w.webp",
+          "sha256": "b4b0333365632f556e8b02f7f463301d20133750fe553beab7da83d90a40cc0c",
+          "bytes": 152572
+        },
+        {
+          "file": "public/images/lisbon-alfama.webp",
+          "sha256": "b60dcdc6a84299afafaf7ecfe2ceb39be1eb77978d25b76ec8bddc24759e039b",
+          "bytes": 222136
+        }
+      ]
+    },
+    {
+      "photoId": "cape-town-cover",
+      "sourceFile": "public/images/cape-town-cover.webp",
+      "sourceSha256": "2acadd1055789118ee9f2f9ddcc6a98544ff63be62dd718c08f61c38b3fd07bd",
+      "sourceWidth": 1280,
+      "sourceHeight": 860,
+      "existingSizesAttributes": [
+        "(max-width: 540px) calc((100vw - 45px) * 0.744186), (max-width: 800px) calc((100vw - 72px) * 0.496124), (max-width: 1100px) calc((100vw - 120px) * 0.297674), (max-width: 1439px) min(350.065px, calc((100vw - 160px) * 0.297674)), (max-width: 1640px) calc((100vw - 560px) * 0.297674), 321.488px",
+        "(max-width: 540px) calc((100vw - 45px) * 0.572451), (max-width: 800px) calc((100vw - 60px) * 0.572451), (max-width: 1100px) calc((100vw - 125px) * 0.286225), (max-width: 1439px) min(335.17px, calc((100vw - 165px) * 0.286225)), (max-width: 1640px) calc((100vw - 565px) * 0.286225), 307.692px"
+      ],
+      "maximumPresentationWidth": 1280,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Table_Mountain_--_2024_--_2762%2B64%2B66%2B68%2B70%2B72.jpg",
+      "credit": "Dietmar Rabich / Wikimedia Commons · resized and converted to WebP by MaletaFeliz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "existingRightsEvidence": {
+        "file": "content/research/cape-town-cover-photo-license.json",
+        "sha256": "703349ad73d192ad82ca35cd911f46af93bf40a6c537df2a7ac5ba0146261cc5",
+        "verifiedAt": "2026-10-28T22:45:00.414484Z"
+      },
+      "sourceRightsVerifiedAt": "2026-10-28T22:45:00.414484Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY-SA 4.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/cape-town-cover-480w.avif",
+          "width": 480,
+          "height": 322,
+          "bytes": 31238,
+          "sha256": "78be73aea510db9f34baa530ea035c9246abe8b38bbd136a15544131f5805be6",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 32.92116377686652,
+          "legacyReference": {
+            "file": "public/images/cape-town-cover-480w.webp",
+            "width": 480,
+            "bytes": 38978,
+            "sha256": "ed214ffa5c1fbd7d89c77affeddf48f985f36071823e4a8dee612463de72ef80",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.1985735543126892,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 37650,
+              "nativePsnrDb": 34.29856128996483,
+              "savingsFraction": 0.03407050130843037
+            },
+            {
+              "quality": 65,
+              "bytes": 31238,
+              "nativePsnrDb": 32.92116377686652,
+              "savingsFraction": 0.1985735543126892
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/cape-town-cover-640w.avif",
+          "width": 640,
+          "height": 430,
+          "bytes": 71988,
+          "sha256": "b072b479916e4a42e2c45fa9a625d02be19a345e3015459ea1dfd8fbaed2e1e2",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 28.523255942681356,
+          "legacyReference": {
+            "file": "public/images/cape-town-cover-800w.webp",
+            "width": 800,
+            "bytes": 109138,
+            "sha256": "8e17dfde40b0f74049b393b3f4abac1dbdac0ae14d6aabc443c2a1ac5fd0bf70",
+            "resizedToWidthForMetric": 640
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.3403947296083857,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 71988,
+              "nativePsnrDb": 28.523255942681356,
+              "savingsFraction": 0.3403947296083857
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/cape-town-cover-800w.avif",
+          "width": 800,
+          "height": 538,
+          "bytes": 86123,
+          "sha256": "109362a27c5b3b3dad2b68b5e9a4fa772b8ff1c1d9e3551211d2394478012b43",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 32.53919969849051,
+          "legacyReference": {
+            "file": "public/images/cape-town-cover-800w.webp",
+            "width": 800,
+            "bytes": 109138,
+            "sha256": "8e17dfde40b0f74049b393b3f4abac1dbdac0ae14d6aabc443c2a1ac5fd0bf70",
+            "resizedToWidthForMetric": 800
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.21087980355146696,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 104377,
+              "nativePsnrDb": 34.09988609828047,
+              "savingsFraction": 0.04362366911616489
+            },
+            {
+              "quality": 65,
+              "bytes": 86123,
+              "nativePsnrDb": 32.53919969849051,
+              "savingsFraction": 0.21087980355146696
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/cape-town-cover-960w.avif",
+          "width": 960,
+          "height": 645,
+          "bytes": 147720,
+          "sha256": "ab472905948eccdcb35d22bd251379b9a40623b720112e91905f1e95d1fde4bc",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.256160984939978,
+          "legacyReference": {
+            "file": "public/images/cape-town-cover-1200w.webp",
+            "width": 1200,
+            "bytes": 235664,
+            "sha256": "990ef58fdef5b6e252b7374fbb858869935cabbca92651cf070836c28266abb9",
+            "resizedToWidthForMetric": 960
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.3731753683209994,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 147720,
+              "nativePsnrDb": 31.256160984939978,
+              "savingsFraction": 0.3731753683209994
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/cape-town-cover-1200w.avif",
+          "width": 1200,
+          "height": 806,
+          "bytes": 175562,
+          "sha256": "cac217afe4544aab02c4c07335b850ee18cd851c940cedf7accd6cb389928305",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 32.82444588176401,
+          "legacyReference": {
+            "file": "public/images/cape-town-cover-1200w.webp",
+            "width": 1200,
+            "bytes": 235664,
+            "sha256": "990ef58fdef5b6e252b7374fbb858869935cabbca92651cf070836c28266abb9",
+            "resizedToWidthForMetric": 1200
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.2550325887704529,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 213593,
+              "nativePsnrDb": 34.27178085906366,
+              "savingsFraction": 0.09365452508656391
+            },
+            {
+              "quality": 65,
+              "bytes": 175562,
+              "nativePsnrDb": 32.82444588176401,
+              "savingsFraction": 0.2550325887704529
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/cape-town-cover-1280w.avif",
+          "width": 1280,
+          "height": 860,
+          "bytes": 245596,
+          "sha256": "bd86dc449f3e71d295b3715cd12658bda82be60bafe84228ba8916d77e5a138c",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 33.38827531838786,
+          "legacyReference": {
+            "file": "public/images/cape-town-cover.webp",
+            "width": 1280,
+            "bytes": 339996,
+            "sha256": "2acadd1055789118ee9f2f9ddcc6a98544ff63be62dd718c08f61c38b3fd07bd",
+            "resizedToWidthForMetric": 1280
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.27765032529794464,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 289740,
+              "nativePsnrDb": 36.32459221712024,
+              "savingsFraction": 0.14781350368827872
+            },
+            {
+              "quality": 65,
+              "bytes": 245596,
+              "nativePsnrDb": 33.38827531838786,
+              "savingsFraction": 0.27765032529794464
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "cape-town"
+      ],
+      "alt": {
+        "es": "Montaña de la Mesa y el litoral de Ciudad del Cabo",
+        "en": "Table Mountain and the Cape Town coastline"
+      },
+      "approvedOriginalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Cape_Town_%28ZA%29%2C_Table_Mountain_--_2024_--_2762%2B64%2B66%2B68%2B70%2B72.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceModifications": "Resized and converted to WebP; same license retained.",
+      "existingWebpFiles": [
+        {
+          "file": "public/images/cape-town-cover-480w.webp",
+          "sha256": "ed214ffa5c1fbd7d89c77affeddf48f985f36071823e4a8dee612463de72ef80",
+          "bytes": 38978
+        },
+        {
+          "file": "public/images/cape-town-cover-800w.webp",
+          "sha256": "8e17dfde40b0f74049b393b3f4abac1dbdac0ae14d6aabc443c2a1ac5fd0bf70",
+          "bytes": 109138
+        },
+        {
+          "file": "public/images/cape-town-cover-1200w.webp",
+          "sha256": "990ef58fdef5b6e252b7374fbb858869935cabbca92651cf070836c28266abb9",
+          "bytes": 235664
+        },
+        {
+          "file": "public/images/cape-town-cover.webp",
+          "sha256": "2acadd1055789118ee9f2f9ddcc6a98544ff63be62dd718c08f61c38b3fd07bd",
+          "bytes": 339996
+        }
+      ]
+    },
+    {
+      "photoId": "d8-pa-ragione",
+      "sourceFile": "public/images/d8-pa-ragione.webp",
+      "sourceSha256": "9c424bf8f29ab0fe26659f3821b03f2c2fb7c69bd64011926ecced131a91360a",
+      "sourceWidth": 1024,
+      "sourceHeight": 640,
+      "existingSizesAttributes": [
+        "100px"
+      ],
+      "maximumPresentationWidth": 480,
+      "sourceUrl": "https://www.flickr.com/photos/rda-ch/53795242784/",
+      "credit": "Padoue, palazzo dela Ragione & piazze 1 — RdA Suisse / Flickr · resized and converted to WebP by MaletaFeliz",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "existingRightsEvidence": {
+        "file": "content/research/d8-pa-ragione-rights.json",
+        "sha256": "dd6c7053d27f3c41f004e8150f894d71a3d98c5e46d296203b9e4ad2e4157d21",
+        "verifiedAt": "2026-11-08T17:05:45.348Z"
+      },
+      "sourceRightsVerifiedAt": "2026-11-08T17:05:45.348Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY 2.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/d8-pa-ragione-240w.avif",
+          "width": 240,
+          "height": 150,
+          "bytes": 9917,
+          "sha256": "f991420b8875ff664ec77bdf8858d2a912632bcfb230ab86f08cecd4e517c4e4",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 30.745691919363797,
+          "legacyReference": {
+            "file": "public/images/d8-pa-ragione-480w.webp",
+            "width": 480,
+            "bytes": 41050,
+            "sha256": "4c027f432b6ba85defeaf838db8b337b0fc6902c49276ddc478d47c84e186ab5",
+            "resizedToWidthForMetric": 240
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.7584165651644337,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 9917,
+              "nativePsnrDb": 30.745691919363797,
+              "savingsFraction": 0.7584165651644337
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/d8-pa-ragione-320w.avif",
+          "width": 320,
+          "height": 200,
+          "bytes": 15616,
+          "sha256": "cc2c6d8a1f30ac7858aaa3055d9604a11507cab032caecebb83b7b67473c87d9",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.72548459972149,
+          "legacyReference": {
+            "file": "public/images/d8-pa-ragione-480w.webp",
+            "width": 480,
+            "bytes": 41050,
+            "sha256": "4c027f432b6ba85defeaf838db8b337b0fc6902c49276ddc478d47c84e186ab5",
+            "resizedToWidthForMetric": 320
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.6195858708891595,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 15616,
+              "nativePsnrDb": 31.72548459972149,
+              "savingsFraction": 0.6195858708891595
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/d8-pa-ragione-480w.avif",
+          "width": 480,
+          "height": 300,
+          "bytes": 32919,
+          "sha256": "dd357ed9053fa5e85d51acab12f96577ee1f8ae90fba76a03d7ec030187ddd09",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 30.872099634111485,
+          "legacyReference": {
+            "file": "public/images/d8-pa-ragione-480w.webp",
+            "width": 480,
+            "bytes": 41050,
+            "sha256": "4c027f432b6ba85defeaf838db8b337b0fc6902c49276ddc478d47c84e186ab5",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.19807551766138853,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 32919,
+              "nativePsnrDb": 30.872099634111485,
+              "savingsFraction": 0.19807551766138853
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "padua"
+      ],
+      "alt": {
+        "es": "Palazzo della Ragione y sus galerías porticadas en Padua, fotografía de archivo",
+        "en": "Palazzo della Ragione and its arcaded galleries in Padua, archive photograph"
+      },
+      "approvedOriginalUrl": "https://live.staticflickr.com/65535/53795242784_a956cf674d_b.jpg",
+      "sourceModifications": "Resized and converted to WebP without enlargement; no generated edits. Archive documentary photograph; current access and displays may differ.",
+      "approvedOriginalFile": {
+        "file": "content/images/originals/d8-pa-ragione.jpg",
+        "sha256": "a6b9ab18bb3b323b691695f0b7b06eb7b628ab227346d3ba5a9371aab3c59e04"
+      },
+      "existingWebpFiles": [
+        {
+          "file": "public/images/d8-pa-ragione-480w.webp",
+          "sha256": "4c027f432b6ba85defeaf838db8b337b0fc6902c49276ddc478d47c84e186ab5",
+          "bytes": 41050
+        },
+        {
+          "file": "public/images/d8-pa-ragione-800w.webp",
+          "sha256": "92d46e5765c221214b0dbf928a1612470192f3a676d321ff41bf02c450b8b961",
+          "bytes": 107778
+        },
+        {
+          "file": "public/images/d8-pa-ragione.webp",
+          "sha256": "9c424bf8f29ab0fe26659f3821b03f2c2fb7c69bd64011926ecced131a91360a",
+          "bytes": 198760
+        }
+      ]
+    },
+    {
+      "photoId": "d8-qr-aqueduct",
+      "sourceFile": "public/images/d8-qr-aqueduct.webp",
+      "sourceSha256": "a77a928bef8718dc7f450752de663d4969ebac8ab27637c6fa4b1ce3ce42d370",
+      "sourceWidth": 1024,
+      "sourceHeight": 696,
+      "existingSizesAttributes": [
+        "100px"
+      ],
+      "maximumPresentationWidth": 480,
+      "sourceUrl": "https://www.flickr.com/photos/comefilm/41500964322/",
+      "credit": "Acueducto, Querétaro — Comisión Mexicana de Filmaciones / Flickr · resized and converted to WebP by MaletaFeliz",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "existingRightsEvidence": {
+        "file": "content/research/d8-qr-aqueduct-rights.json",
+        "sha256": "5ef130e2f41c2a7ac39d4e47a521ca6808e4d4f21cf7d0164e7c877d2e6fd04b",
+        "verifiedAt": "2026-11-08T17:05:44.821Z"
+      },
+      "sourceRightsVerifiedAt": "2026-11-08T17:05:44.821Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY-SA 2.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/d8-qr-aqueduct-240w.avif",
+          "width": 240,
+          "height": 163,
+          "bytes": 8450,
+          "sha256": "91a0b94fde11f0705a200cf622cfcf2c1e3e56e08fd14b7b6d43ee42f77bd62d",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.536662495899645,
+          "legacyReference": {
+            "file": "public/images/d8-qr-aqueduct-480w.webp",
+            "width": 480,
+            "bytes": 34182,
+            "sha256": "bcd2e96c276c0c62b1f4c419583c0f1178fc4aeefd883aadb201a8cabe26a0e6",
+            "resizedToWidthForMetric": 240
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.7527938681177228,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 8450,
+              "nativePsnrDb": 31.536662495899645,
+              "savingsFraction": 0.7527938681177228
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/d8-qr-aqueduct-320w.avif",
+          "width": 320,
+          "height": 218,
+          "bytes": 14365,
+          "sha256": "5a4efede93f2dad0a246dfbbbbb779f711cdf8305afa0b6b5231ce6323d35d0c",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.60349187473387,
+          "legacyReference": {
+            "file": "public/images/d8-qr-aqueduct-480w.webp",
+            "width": 480,
+            "bytes": 34182,
+            "sha256": "bcd2e96c276c0c62b1f4c419583c0f1178fc4aeefd883aadb201a8cabe26a0e6",
+            "resizedToWidthForMetric": 320
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.5797495758001288,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 14365,
+              "nativePsnrDb": 31.60349187473387,
+              "savingsFraction": 0.5797495758001288
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/d8-qr-aqueduct-480w.avif",
+          "width": 480,
+          "height": 326,
+          "bytes": 24776,
+          "sha256": "7b388b53ecdd76744ed91f8205875990ebc481313b23dcac90c4899729fc2842",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 31.381731028356946,
+          "legacyReference": {
+            "file": "public/images/d8-qr-aqueduct-480w.webp",
+            "width": 480,
+            "bytes": 34182,
+            "sha256": "bcd2e96c276c0c62b1f4c419583c0f1178fc4aeefd883aadb201a8cabe26a0e6",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.27517406822304136,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 30260,
+              "nativePsnrDb": 31.965871948588887,
+              "savingsFraction": 0.11473875138962031
+            },
+            {
+              "quality": 65,
+              "bytes": 24776,
+              "nativePsnrDb": 31.381731028356946,
+              "savingsFraction": 0.27517406822304136
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "queretaro"
+      ],
+      "alt": {
+        "es": "Arcos del Acueducto de Querétaro vistos de lado, fotografía de archivo",
+        "en": "Arches of Querétaro’s aqueduct seen from the side, archive photograph"
+      },
+      "approvedOriginalUrl": "https://live.staticflickr.com/931/41500964322_4ab4bbf09c_b.jpg",
+      "sourceModifications": "Resized and converted to WebP without enlargement; no generated edits. Archive documentary photograph; current access and displays may differ.",
+      "approvedOriginalFile": {
+        "file": "content/images/originals/d8-qr-aqueduct.jpg",
+        "sha256": "d4bbd004afe3198c571c69c719d39cbadb26ff663613d1b28e34adbc0dcadc04"
+      },
+      "existingWebpFiles": [
+        {
+          "file": "public/images/d8-qr-aqueduct-480w.webp",
+          "sha256": "bcd2e96c276c0c62b1f4c419583c0f1178fc4aeefd883aadb201a8cabe26a0e6",
+          "bytes": 34182
+        },
+        {
+          "file": "public/images/d8-qr-aqueduct-800w.webp",
+          "sha256": "3855a3605aab524c95060f28db493b82e6af417acbeb5dd3887585b2b23567c1",
+          "bytes": 96428
+        },
+        {
+          "file": "public/images/d8-qr-aqueduct.webp",
+          "sha256": "a77a928bef8718dc7f450752de663d4969ebac8ab27637c6fa4b1ce3ce42d370",
+          "bytes": 190104
+        }
+      ]
+    },
+    {
+      "photoId": "m8-no-market",
+      "sourceFile": "public/images/m8-no-market.webp",
+      "sourceSha256": "5b0e067c0243b7a3acb17761063df6d8984e6d89c5076f3cb02431c6297dee47",
+      "sourceWidth": 1024,
+      "sourceHeight": 768,
+      "existingSizesAttributes": [
+        "100px"
+      ],
+      "maximumPresentationWidth": 480,
+      "sourceUrl": "https://www.flickr.com/photos/infrogmation/47516410292/",
+      "credit": "Lower French Quarter, New Orleans — Infrogmation of New Orleans / Flickr · resized and converted to WebP by MaletaFeliz",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "existingRightsEvidence": {
+        "file": "content/research/m8-no-market-rights.json",
+        "sha256": "bdc9c7d9a3090cfa0a07394ca9ef56c94fc1f93782a943328e85856b24dc9c69",
+        "verifiedAt": "2026-11-09T03:09:48.493Z"
+      },
+      "sourceRightsVerifiedAt": "2026-11-09T03:09:48.493Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY 2.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/m8-no-market-240w.avif",
+          "width": 240,
+          "height": 180,
+          "bytes": 7465,
+          "sha256": "bc38e051842a61338c0daa72ff5063f51fad4a8bae982afb1457e5d76403908f",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 34.17604983431447,
+          "legacyReference": {
+            "file": "public/images/m8-no-market-480w.webp",
+            "width": 480,
+            "bytes": 24472,
+            "sha256": "5d21a8667da69ca0e8039d2106f3d2310cc26a70abf5d234352870a8678db0df",
+            "resizedToWidthForMetric": 240
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.6949575024517816,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 7465,
+              "nativePsnrDb": 34.17604983431447,
+              "savingsFraction": 0.6949575024517816
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/m8-no-market-320w.avif",
+          "width": 320,
+          "height": 240,
+          "bytes": 11421,
+          "sha256": "37527fe452510221931c44608bb70b7a7c06a28e579f02f91bc5a29eae7ac514",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 35.48509086665207,
+          "legacyReference": {
+            "file": "public/images/m8-no-market-480w.webp",
+            "width": 480,
+            "bytes": 24472,
+            "sha256": "5d21a8667da69ca0e8039d2106f3d2310cc26a70abf5d234352870a8678db0df",
+            "resizedToWidthForMetric": 320
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.5333033671134357,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 11421,
+              "nativePsnrDb": 35.48509086665207,
+              "savingsFraction": 0.5333033671134357
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/m8-no-market-480w.avif",
+          "width": 480,
+          "height": 360,
+          "bytes": 18174,
+          "sha256": "9a15ae63f15ce69322b172859461eaabe7b0e9a53c641db8eb911118424ecff0",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 34.443936523688706,
+          "legacyReference": {
+            "file": "public/images/m8-no-market-480w.webp",
+            "width": 480,
+            "bytes": 24472,
+            "sha256": "5d21a8667da69ca0e8039d2106f3d2310cc26a70abf5d234352870a8678db0df",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.25735534488394896,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 22206,
+              "nativePsnrDb": 35.097761167521824,
+              "savingsFraction": 0.09259561948349138
+            },
+            {
+              "quality": 65,
+              "bytes": 18174,
+              "nativePsnrDb": 34.443936523688706,
+              "savingsFraction": 0.25735534488394896
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "new-orleans"
+      ],
+      "alt": {
+        "es": "Puestos bajo la cubierta del French Market de Nueva Orleans, fotografía de archivo",
+        "en": "Stalls beneath the covered French Market in New Orleans, archive photograph"
+      },
+      "approvedOriginalUrl": "https://live.staticflickr.com/7814/47516410292_dce70320dc_b.jpg",
+      "sourceModifications": "Resized and converted to WebP without enlargement; no generated edits. Archive documentary photograph; current access and displays may differ.",
+      "approvedOriginalFile": {
+        "file": "content/images/originals/m8-no-market.jpg",
+        "sha256": "1df7c633dd6121c865ac14fadcdcb4bf884cc72d1ae549a0a86ac8355b50d7e3"
+      },
+      "existingWebpFiles": [
+        {
+          "file": "public/images/m8-no-market-480w.webp",
+          "sha256": "5d21a8667da69ca0e8039d2106f3d2310cc26a70abf5d234352870a8678db0df",
+          "bytes": 24472
+        },
+        {
+          "file": "public/images/m8-no-market-800w.webp",
+          "sha256": "807d381b6f94f556fa8c4e4dab1f90e11c1ed930647d3c630e2ffe19eced41bf",
+          "bytes": 58990
+        },
+        {
+          "file": "public/images/m8-no-market.webp",
+          "sha256": "5b0e067c0243b7a3acb17761063df6d8984e6d89c5076f3cb02431c6297dee47",
+          "bytes": 106914
+        }
+      ]
+    },
+    {
+      "photoId": "m8-sp-redbrick",
+      "sourceFile": "public/images/m8-sp-redbrick.webp",
+      "sourceSha256": "f4a6db9c8cd5e5978f04eb352b7cec1d133cbef34b3a528e367707854d239dac",
+      "sourceWidth": 1024,
+      "sourceHeight": 752,
+      "existingSizesAttributes": [
+        "100px"
+      ],
+      "maximumPresentationWidth": 480,
+      "sourceUrl": "https://www.flickr.com/photos/kevinpoh/4543284533/",
+      "credit": "Old Hokkaido Government Office Building — Kevin Poh / Flickr · resized and converted to WebP by MaletaFeliz",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "existingRightsEvidence": {
+        "file": "content/research/m8-sp-redbrick-rights.json",
+        "sha256": "a999f013cc47ba679535e947cfe59e8ec040754bbfa0bdd0e565b1f732da0d07",
+        "verifiedAt": "2026-11-09T03:09:47.830Z"
+      },
+      "sourceRightsVerifiedAt": "2026-11-09T03:09:47.830Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY 2.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/m8-sp-redbrick-240w.avif",
+          "width": 240,
+          "height": 176,
+          "bytes": 6789,
+          "sha256": "189667d59d96f9b6e2110a6e9daa6d19ecb428a7478ccd1eab6942ddb4733271",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 35.2686315201764,
+          "legacyReference": {
+            "file": "public/images/m8-sp-redbrick-480w.webp",
+            "width": 480,
+            "bytes": 25040,
+            "sha256": "d430d5cb1e2981452bf0991768beaead189631d08c75a8ac470995d5eaa1d4cd",
+            "resizedToWidthForMetric": 240
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.728873801916933,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 6789,
+              "nativePsnrDb": 35.2686315201764,
+              "savingsFraction": 0.728873801916933
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/m8-sp-redbrick-320w.avif",
+          "width": 320,
+          "height": 235,
+          "bytes": 11568,
+          "sha256": "a32a1c679ed60e4a31286c2e3e8f898410f737ab0d63dfe7021db69848ebed7e",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 35.60097004315808,
+          "legacyReference": {
+            "file": "public/images/m8-sp-redbrick-480w.webp",
+            "width": 480,
+            "bytes": 25040,
+            "sha256": "d430d5cb1e2981452bf0991768beaead189631d08c75a8ac470995d5eaa1d4cd",
+            "resizedToWidthForMetric": 320
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.5380191693290735,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 11568,
+              "nativePsnrDb": 35.60097004315808,
+              "savingsFraction": 0.5380191693290735
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/m8-sp-redbrick-480w.avif",
+          "width": 480,
+          "height": 352,
+          "bytes": 18585,
+          "sha256": "c63f8daa3ae23992677fe69ff9c3de1a8965e368cec4ff45480796f31d278712",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 33.84046411323573,
+          "legacyReference": {
+            "file": "public/images/m8-sp-redbrick-480w.webp",
+            "width": 480,
+            "bytes": 25040,
+            "sha256": "d430d5cb1e2981452bf0991768beaead189631d08c75a8ac470995d5eaa1d4cd",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.25778753993610226,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 22802,
+              "nativePsnrDb": 34.22352188767209,
+              "savingsFraction": 0.0893769968051118
+            },
+            {
+              "quality": 65,
+              "bytes": 18585,
+              "nativePsnrDb": 33.84046411323573,
+              "savingsFraction": 0.25778753993610226
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "sapporo"
+      ],
+      "alt": {
+        "es": "Fachada del antiguo Gobierno de Hokkaido en Sapporo antes de su renovación, fotografía de archivo",
+        "en": "Façade of the former Hokkaido Government Office in Sapporo before renovation, archive photograph"
+      },
+      "approvedOriginalUrl": "https://live.staticflickr.com/4006/4543284533_36e3b635eb_b.jpg",
+      "sourceModifications": "Resized and converted to WebP without enlargement; no generated edits. Archive documentary photograph; current access and displays may differ.",
+      "approvedOriginalFile": {
+        "file": "content/images/originals/m8-sp-redbrick.jpg",
+        "sha256": "7ef29f3b99bd7e75420da98bcfe270f46a574b1ac0279f819c16b506062e251a"
+      },
+      "existingWebpFiles": [
+        {
+          "file": "public/images/m8-sp-redbrick-480w.webp",
+          "sha256": "d430d5cb1e2981452bf0991768beaead189631d08c75a8ac470995d5eaa1d4cd",
+          "bytes": 25040
+        },
+        {
+          "file": "public/images/m8-sp-redbrick-800w.webp",
+          "sha256": "2b33f8ed0d262a11048d281c3a8ac91397362d4346c505b8f3003049e62126b5",
+          "bytes": 61854
+        },
+        {
+          "file": "public/images/m8-sp-redbrick.webp",
+          "sha256": "f4a6db9c8cd5e5978f04eb352b7cec1d133cbef34b3a528e367707854d239dac",
+          "bytes": 109238
+        }
+      ]
+    },
+    {
+      "photoId": "n9-bg-piazza-vecchia",
+      "sourceFile": "public/images/n9-bg-piazza-vecchia.webp",
+      "sourceSha256": "22c946a4f2eb7fff741b6b6cb62655295e3ba310029aa912b7c03513b1137ea2",
+      "sourceWidth": 1280,
+      "sourceHeight": 848,
+      "existingSizesAttributes": [
+        "100px"
+      ],
+      "maximumPresentationWidth": 480,
+      "sourceUrl": "https://www.flickr.com/photos/pedrocaetano/7180785072/",
+      "credit": "Ending the afternoon at Piazza Vecchia — Pedro / Flickr · resized and converted to WebP by MaletaFeliz",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "existingRightsEvidence": {
+        "file": "content/research/n9-bg-piazza-vecchia-rights.json",
+        "sha256": "c6275663df2262d8c22911132e5dd5cf53a876b31024c0bcff60afac1b8bbf4c",
+        "verifiedAt": "2026-11-09T17:10:31.612Z"
+      },
+      "sourceRightsVerifiedAt": "2026-11-09T17:10:31.612Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY 2.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/n9-bg-piazza-vecchia-240w.avif",
+          "width": 240,
+          "height": 159,
+          "bytes": 6743,
+          "sha256": "c406670d8cb46c087e878f94a0a5ccee2a3c8ad5d5afee028c49ea7cdc3c0965",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 36.010491844921084,
+          "legacyReference": {
+            "file": "public/images/n9-bg-piazza-vecchia-480w.webp",
+            "width": 480,
+            "bytes": 20218,
+            "sha256": "cdba59f468869c6ceef9368805581b66008250699d7c82f26474ff1b719c203b",
+            "resizedToWidthForMetric": 240
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.6664853101196953,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 6743,
+              "nativePsnrDb": 36.010491844921084,
+              "savingsFraction": 0.6664853101196953
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/n9-bg-piazza-vecchia-320w.avif",
+          "width": 320,
+          "height": 212,
+          "bytes": 10755,
+          "sha256": "d8d11b01a321f26cbd71392e706de1a180ce00b9f1b82cb3833ae9c341408218",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 36.27661219371801,
+          "legacyReference": {
+            "file": "public/images/n9-bg-piazza-vecchia-480w.webp",
+            "width": 480,
+            "bytes": 20218,
+            "sha256": "cdba59f468869c6ceef9368805581b66008250699d7c82f26474ff1b719c203b",
+            "resizedToWidthForMetric": 320
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.46804827381541203,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 10755,
+              "nativePsnrDb": 36.27661219371801,
+              "savingsFraction": 0.46804827381541203
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/n9-bg-piazza-vecchia-480w.avif",
+          "width": 480,
+          "height": 318,
+          "bytes": 16178,
+          "sha256": "fec46af7b79ba2ca021caa7af972c8e5a4fc437d3b8b511c6ccda9653049372a",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 35.82615874737871,
+          "legacyReference": {
+            "file": "public/images/n9-bg-piazza-vecchia-480w.webp",
+            "width": 480,
+            "bytes": 20218,
+            "sha256": "cdba59f468869c6ceef9368805581b66008250699d7c82f26474ff1b719c203b",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.19982194084479177,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 19488,
+              "nativePsnrDb": 36.26041439225122,
+              "savingsFraction": 0.03610643980611339
+            },
+            {
+              "quality": 65,
+              "bytes": 16178,
+              "nativePsnrDb": 35.82615874737871,
+              "savingsFraction": 0.19982194084479177
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "bergamo"
+      ],
+      "alt": {
+        "es": "Piazza Vecchia de Bérgamo con el Palazzo della Ragione y la torre cívica, fotografía de archivo",
+        "en": "Bergamo’s Piazza Vecchia with Palazzo della Ragione and the Civic Tower, archive photograph"
+      },
+      "approvedOriginalUrl": "https://live.staticflickr.com/7083/7180785072_4244f6f989_h.jpg",
+      "sourceModifications": "Resized from the publicly supplied Flickr1600px rendition and converted to WebP, without enlargement or generated edits. Archive documentary photograph; current access and appearances may differ.",
+      "approvedOriginalFile": {
+        "file": "content/images/originals/n9-bg-piazza-vecchia.jpg",
+        "sha256": "8bb6c423709b64e13d223d5bd6119230a2c727bfe1fbf6ef4f2d9eed355732b0"
+      },
+      "existingWebpFiles": [
+        {
+          "file": "public/images/n9-bg-piazza-vecchia-480w.webp",
+          "sha256": "cdba59f468869c6ceef9368805581b66008250699d7c82f26474ff1b719c203b",
+          "bytes": 20218
+        },
+        {
+          "file": "public/images/n9-bg-piazza-vecchia-800w.webp",
+          "sha256": "b6f3a3f1f4470f57b118e35b73c00a09e233a035161142c58f05de35d061cf1a",
+          "bytes": 46720
+        },
+        {
+          "file": "public/images/n9-bg-piazza-vecchia.webp",
+          "sha256": "22c946a4f2eb7fff741b6b6cb62655295e3ba310029aa912b7c03513b1137ea2",
+          "bytes": 112214
+        }
+      ]
+    },
+    {
+      "photoId": "n9-me-cathedral",
+      "sourceFile": "public/images/n9-me-cathedral.webp",
+      "sourceSha256": "72b810e0d86d8a7a668af12bccb5f808940f58f0fc16b94ec55c43693ace7b5e",
+      "sourceWidth": 1046,
+      "sourceHeight": 705,
+      "existingSizesAttributes": [
+        "100px"
+      ],
+      "maximumPresentationWidth": 480,
+      "sourceUrl": "https://www.flickr.com/photos/eltb/7799524344/",
+      "credit": "Santa Iglesia Catedral,Morelia,Estado de Michoacán,México — Catedrales  e Iglesias/Cathedrals and Churches / Flickr · resized and converted to WebP by MaletaFeliz",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "existingRightsEvidence": {
+        "file": "content/research/n9-me-cathedral-rights.json",
+        "sha256": "eecf09dc09cfceb203710032b28aa2cb7ec18b50e101bf3368a3649eb7c644f6",
+        "verifiedAt": "2026-11-09T17:11:12.619Z"
+      },
+      "sourceRightsVerifiedAt": "2026-11-09T17:11:12.619Z",
+      "modifications": "Additional AVIF presentation derivatives of the approved largest WebP, resized without enlargement or cropping. No generated edit, colour retouch or subject change. Same attribution and licence retained; published WebP files, URLs and manifest records unchanged. These additional derivatives remain under CC BY 2.0; original author attribution and the original licence link remain rendered beside each corresponding photograph.",
+      "variants": [
+        {
+          "file": "src/assets/home-photos/n9-me-cathedral-240w.avif",
+          "width": 240,
+          "height": 162,
+          "bytes": 6866,
+          "sha256": "2bbbbce400547b612ce0b73081fe9af6b927a028b07d17ae9a5f6eb89c41d178",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 30.224430371509143,
+          "legacyReference": {
+            "file": "public/images/n9-me-cathedral-480w.webp",
+            "width": 480,
+            "bytes": 23464,
+            "sha256": "63ecbececc7983660f10a8667ffe40b12d9d8e4bcaf17302ca8ada00d9c9d9c0",
+            "resizedToWidthForMetric": 240
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.7073815206273439,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 6866,
+              "nativePsnrDb": 30.224430371509143,
+              "savingsFraction": 0.7073815206273439
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/n9-me-cathedral-320w.avif",
+          "width": 320,
+          "height": 216,
+          "bytes": 10829,
+          "sha256": "760431a2b1fe7b72ec98637358009c53755694952393f37025774b2d26e2debe",
+          "quality": 70,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 30.313210051455485,
+          "legacyReference": {
+            "file": "public/images/n9-me-cathedral-480w.webp",
+            "width": 480,
+            "bytes": 23464,
+            "sha256": "63ecbececc7983660f10a8667ffe40b12d9d8e4bcaf17302ca8ada00d9c9d9c0",
+            "resizedToWidthForMetric": 320
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.5384844868735084,
+          "dimensionGapContributesToSaving": true,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 10829,
+              "nativePsnrDb": 30.313210051455485,
+              "savingsFraction": 0.5384844868735084
+            }
+          ]
+        },
+        {
+          "file": "src/assets/home-photos/n9-me-cathedral-480w.avif",
+          "width": 480,
+          "height": 324,
+          "bytes": 17380,
+          "sha256": "e273e7498964cb617cd14bee4c8d209e5c0b8cb958a21346c1cd45f010c873dc",
+          "quality": 65,
+          "effort": 4,
+          "chromaSubsampling": "4:2:0",
+          "nativePsnrDbAgainstResizedExistingWebP": 32.29009584195582,
+          "legacyReference": {
+            "file": "public/images/n9-me-cathedral-480w.webp",
+            "width": 480,
+            "bytes": 23464,
+            "sha256": "63ecbececc7983660f10a8667ffe40b12d9d8e4bcaf17302ca8ada00d9c9d9c0",
+            "resizedToWidthForMetric": 480
+          },
+          "savingsAgainstExistingDeliveryFraction": 0.25929082850323903,
+          "dimensionGapContributesToSaving": false,
+          "candidateAttempts": [
+            {
+              "quality": 70,
+              "bytes": 20959,
+              "nativePsnrDb": 32.54250463309109,
+              "savingsFraction": 0.10675929082850322
+            },
+            {
+              "quality": 65,
+              "bytes": 17380,
+              "nativePsnrDb": 32.29009584195582,
+              "savingsFraction": 0.25929082850323903
+            }
+          ]
+        }
+      ],
+      "destinationIds": [
+        "morelia"
+      ],
+      "alt": {
+        "es": "Fachada y dos torres de la Catedral de Morelia vistas desde un portal, fotografía de archivo",
+        "en": "Façade and two towers of Morelia Cathedral seen from an arcade, archive photograph"
+      },
+      "approvedOriginalUrl": "https://live.staticflickr.com/8424/7799524344_b98d96f91e_o.jpg",
+      "sourceModifications": "Resized and converted to WebP by MaletaFeliz without enlargement, cropping or generated edits. Archive documentary photograph; current conditions may differ.",
+      "approvedOriginalFile": {
+        "file": "content/images/originals/n9-me-cathedral.jpg",
+        "sha256": "b7539435a282cf67bce6ca66aa90f56c00466e5b1a8104ee1c4b1085dd7ac50c"
+      },
+      "existingWebpFiles": [
+        {
+          "file": "public/images/n9-me-cathedral-480w.webp",
+          "sha256": "63ecbececc7983660f10a8667ffe40b12d9d8e4bcaf17302ca8ada00d9c9d9c0",
+          "bytes": 23464
+        },
+        {
+          "file": "public/images/n9-me-cathedral-800w.webp",
+          "sha256": "f49c50cf2cfc044643853618ff06dce47293e70d16a28419d42898ccaba25c87",
+          "bytes": 50058
+        },
+        {
+          "file": "public/images/n9-me-cathedral.webp",
+          "sha256": "72b810e0d86d8a7a668af12bccb5f808940f58f0fc16b94ec55c43693ace7b5e",
+          "bytes": 89374
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "photoId": "bali-jatiluwih",
+      "reason": "Kept original WebP: outside the initial PSI image-opportunity and small-recent-photo optimization scope; no replacement asset generated."
+    },
+    {
+      "photoId": "miami-cover",
+      "reason": "Kept original WebP: outside the initial PSI image-opportunity and small-recent-photo optimization scope; no replacement asset generated."
+    },
+    {
+      "photoId": "season-disneyland",
+      "reason": "Kept original WebP: outside the initial PSI image-opportunity and small-recent-photo optimization scope; no replacement asset generated."
+    },
+    {
+      "photoId": "season-meridasansebastian",
+      "reason": "Kept original WebP: outside the initial PSI image-opportunity and small-recent-photo optimization scope; no replacement asset generated."
+    },
+    {
+      "photoId": "season-trim",
+      "reason": "Kept original WebP: outside the initial PSI image-opportunity and small-recent-photo optimization scope; no replacement asset generated."
+    },
+    {
+      "photoId": "season-zocalo",
+      "reason": "Kept original WebP: outside the initial PSI image-opportunity and small-recent-photo optimization scope; no replacement asset generated."
+    },
+    {
+      "photoId": "xmas-rovaniemi-p1",
+      "reason": "Kept original WebP: outside the initial PSI image-opportunity and small-recent-photo optimization scope; no replacement asset generated."
+    },
+    {
+      "photoId": "xmas-strasbourg-p1",
+      "reason": "Kept original WebP: outside the initial PSI image-opportunity and small-recent-photo optimization scope; no replacement asset generated."
+    },
+    {
+      "photoId": "xmas-vienna-p1",
+      "reason": "Kept original WebP: outside the initial PSI image-opportunity and small-recent-photo optimization scope; no replacement asset generated."
+    }
+  ],
+  "pending": [],
+  "finalizedAt": "2026-11-09T22:20:09.440Z",
+  "encoder": {
+    "library": "sharp",
+    "version": "0.35.5",
+    "codec": "libheif 1.23.5",
+    "effort": 4,
+    "chromaSubsampling": "4:2:0",
+    "colourspace": "sRGB",
+    "candidateQualities": [
+      70,
+      65,
+      60
+    ],
+    "selection": "Highest tested quality saving at least 15% against the existing WebP browser-delivery candidate. If any width cannot meet that, retain that complete photo family as original WebP."
+  },
+  "provenanceMethod": "Only existing approved homepage photographs are used. Each presentation asset derives from the largest published WebP for that same photo ID, not a generated image or a remote replacement. Existing licence, credit, ALT text, original files, WebP URLs, responsive WebP sets and manifest entries remain intact.",
+  "checkedExistingSourceAndWebpFiles": 60,
+  "totalAuxiliaryBytes": 6076049,
+  "cssScaleVisualReview": {
+    "reviewedAt": "2026-11-09T22:20:09.528Z",
+    "reviewer": "Codex visual inspection",
+    "comparisonSource": "Actual image CSS bounding boxes and legacy resource URLs recorded in the original PSI report at mobile 412px / DPR1.75.",
+    "photoIds": [
+      "paris-eiffel",
+      "kyoto-kiyomizu",
+      "tokyo-skyline",
+      "queenstown-cover"
+    ],
+    "verdict": "Side-by-side visual inspection at the actual displayed CSS dimensions found preserved framing, colour, tree/building detail and apparent sharpness, with no visible blocking, halos or objectionable smoothing. Metrics remain recorded without asserting pixel identity.",
+    "comparisonSha256": "2cd80a72fbb2e343aad856b6d459002490fe2f3eb7b30a4b09b8534c58d71b8e",
+    "montageSha256": "6b30e2c6c788e954bfa78b0c56af715ce22636c43defe84072efb4d8cfda579c",
+    "comparisons": [
+      {
+        "photoId": "paris-eiffel",
+        "legacyFile": "public/images/paris-eiffel-800w.webp",
+        "legacyBytes": 211192,
+        "avifFile": "src/assets/home-photos/paris-eiffel-800w.avif",
+        "avifBytes": 163629,
+        "quality": 65,
+        "cssBox": {
+          "width": 380,
+          "height": 262
+        },
+        "measuredPsiDevicePixelRatio": 1.75,
+        "comparison": "Both decoded resources resized to their actual PSI CSS box with the same centre-cover framing. This is a CSS-scale visual reference, not a new Lighthouse run.",
+        "cssScalePsnrDb": 28.08522013446257,
+        "nativeVariantPsnrDb": 29.54236468467591,
+        "actualTransferSavingBytesForComparedResources": 47563
+      },
+      {
+        "photoId": "kyoto-kiyomizu",
+        "legacyFile": "public/images/kyoto-kiyomizu-800w.webp",
+        "legacyBytes": 112202,
+        "avifFile": "src/assets/home-photos/kyoto-kiyomizu-640w.avif",
+        "avifBytes": 62159,
+        "quality": 70,
+        "cssBox": {
+          "width": 184,
+          "height": 184
+        },
+        "measuredPsiDevicePixelRatio": 1.75,
+        "comparison": "Both decoded resources resized to their actual PSI CSS box with the same centre-cover framing. This is a CSS-scale visual reference, not a new Lighthouse run.",
+        "cssScalePsnrDb": 33.726649608230176,
+        "nativeVariantPsnrDb": 30.409087313441525,
+        "actualTransferSavingBytesForComparedResources": 50043
+      },
+      {
+        "photoId": "tokyo-skyline",
+        "legacyFile": "public/images/tokyo-skyline-1200w.webp",
+        "legacyBytes": 139726,
+        "avifFile": "src/assets/home-photos/tokyo-skyline-960w.avif",
+        "avifBytes": 81314,
+        "quality": 70,
+        "cssBox": {
+          "width": 380,
+          "height": 262
+        },
+        "measuredPsiDevicePixelRatio": 1.75,
+        "comparison": "Both decoded resources resized to their actual PSI CSS box with the same centre-cover framing. This is a CSS-scale visual reference, not a new Lighthouse run.",
+        "cssScalePsnrDb": 34.25761454861733,
+        "nativeVariantPsnrDb": 31.806041072231345,
+        "actualTransferSavingBytesForComparedResources": 58412
+      },
+      {
+        "photoId": "queenstown-cover",
+        "legacyFile": "public/images/queenstown-cover-800w.webp",
+        "legacyBytes": 86828,
+        "avifFile": "src/assets/home-photos/queenstown-cover-640w.avif",
+        "avifBytes": 52820,
+        "quality": 70,
+        "cssBox": {
+          "width": 184,
+          "height": 184
+        },
+        "measuredPsiDevicePixelRatio": 1.75,
+        "comparison": "Both decoded resources resized to their actual PSI CSS box with the same centre-cover framing. This is a CSS-scale visual reference, not a new Lighthouse run.",
+        "cssScalePsnrDb": 34.74984212147717,
+        "nativeVariantPsnrDb": 29.663724663135707,
+        "actualTransferSavingBytesForComparedResources": 34008
+      }
+    ]
+  },
+  "auxiliarySourceLayoutFix": {
+    "selector": ".home-photo > source",
+    "display": "none",
+    "reason": "A source element inside display:contents otherwise becomes a zero-size flex item and contributes an extra gap in Chromium. Hiding the non-rendered source preserves AVIF selection and restores legacy image/text/footer geometry.",
+    "evidence": [
+      "child-geometry-diagnosis.json",
+      "child-source-css-confirm.json"
+    ],
+    "existingVisibleDeclarationsUnchanged": true
+  },
+  "localValidationReference": "docs/performance/2026-11-09-validation.json",
+  "publicPerformanceClaimed": false
+}

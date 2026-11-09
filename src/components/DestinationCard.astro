@@ -4,6 +4,7 @@ import { destinationUrl, type Destination } from '../data/destinations';
 import { publishedArticles, photoFor, photoSrcSet } from '../lib/content';
 import Scenery from './Scenery.astro';
 import Icon from './Icon.astro';
+import ResponsivePhoto from './ResponsivePhoto.astro';
 interface Props {
   destination: Destination;
   lang: Locale;
@@ -11,8 +12,9 @@ interface Props {
   href?: string;
   articleId?: string;
   imageSizes?: string;
+  optimizeForHome?: boolean;
 }
-const { destination: d, lang, large = false, href, articleId, imageSizes = '(max-width: 540px) 100vw, (max-width: 800px) 50vw, 33vw' } = Astro.props;
+const { destination: d, lang, large = false, href, articleId, imageSizes = '(max-width: 540px) 100vw, (max-width: 800px) 50vw, 33vw', optimizeForHome = false } = Astro.props;
 const t = dictionary[lang];
 const article = publishedArticles.find(
   (a) => a.locale === lang && a.id === (articleId || d.id),
@@ -24,7 +26,9 @@ const image = article && photoFor(article.coverImageId);
 
 <a class:list={['destination-card', { large }]} href={href || destinationUrl(d, lang)}>
   <div class="card-image">
-    {image ? (
+    {image && optimizeForHome ? (
+      <ResponsivePhoto photo={image} lang={lang} sizes={imageSizes} loading="lazy" decoding="async" />
+    ) : image ? (
       <img
         src={image.src}
         srcset={photoSrcSet(image)}

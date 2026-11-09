@@ -1,0 +1,27 @@
+{
+  "createdAt": "2026-11-09T23:12:23.188987+00:00",
+  "role": "Responsive derivative of the existing illustrated 3D globe, not a documentary place photograph",
+  "sourceFile": "public/design/earth-atlas.webp",
+  "sourceSha256": "09ac7cc03f29de4c6a98b87ca81d3e4cf761e3fef1f0159a428d110237082599",
+  "originalAndPreviousVariantsUnchanged": true,
+  "file": "src/assets/atlas/earth-atlas-960.avif",
+  "width": 960,
+  "height": 640,
+  "bytes": 92856,
+  "sha256": "83362ddb27e8a00b09d8f1254b3c132ae67a97f84197322c8f9477fe1bc6a9ec",
+  "quality": 70,
+  "effort": 7,
+  "chromaSubsampling": "4:4:4",
+  "nativePsnrDbAgainstSameSizeSource": 38.29605479148271,
+  "existing1023AvifBytes": 115586,
+  "requiredPixelsAtPsiMobileDpr": 959,
+  "savingPercentAgainstPreviouslySelected1023": 19.665011333552506,
+  "visualReview": {
+    "reviewer": "Codex root",
+    "comparison": "Same 412x365 CSS object-fit cover crop of existing 1023 AVIF and the new 960 AVIF",
+    "result": "Same composition, night lights, cloud detail, colours and 3D appearance at the actual mobile display size; no material visual degradation seen",
+    "artifact": "earth-960-ab-mobile.png",
+    "artifactSha256": "e9e956c8cb88d01bf12abbf83730dfa3312047d39c1d46841b594c723451bf8d"
+  },
+  "modifications": "Resize the same approved original to960x640 and encode AVIF; no generative edits, content changes or upscaling. The existing WebP fallback and768/1023/1536AVIF assets remain unchanged."
+}

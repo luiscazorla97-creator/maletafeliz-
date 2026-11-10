@@ -1,0 +1,69 @@
+{
+  "url": "https://www.flickr.com/photos/sltcjp/15695063850/",
+  "finalUrl": "https://www.flickr.com/photos/sltcjp/15695063850/",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-10T15:43:26.612Z",
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "e1b91033eab280a5794d5a2da2f229b6b4f2c7eaf01a08304a301b24471b042b",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The specific individual file page identifies this title and creator and explicitly grants the selected licence. The supplied title and creator are retained in the credit; this is not a search-result-only permission.",
+      "excerpt": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "location": "Individual ImageObject JSON-LD:name,author.name,license; specific main photo model."
+    },
+    {
+      "fact": "The individual description explicitly links nakamachi-street.com and names 蔵のあるまち中町. Publicgeo36.233889,137.969269 and the visually inspected street/storehouse frontage corroborate Nakamachi in Matsumoto.",
+      "excerpt": "蔵のあるまち中町",
+      "location": "Individual file title/description, available publicgeo and actual visual inspection of the documentary photo."
+    },
+    {
+      "fact": "The applicable CreativeCommons deed was actually read: commercial sharing and adaptation are permitted with attribution, licence link and indication of changes; ShareAlike applies when stated. No generated edit or endorsement is claimed.",
+      "excerpt": "ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.",
+      "location": "Applicable CC deed:You are free/Under the following terms. Actual deed capture retained with finalURL,date,HTTP and bodySHA256."
+    },
+    {
+      "fact": "The provided public image rendition was downloaded and archived byte-for-byte. Its actual dimensions and SHA256 were read; three responsive WebP derivatives were created with orientation/resizing/conversion only, without enlargement. It is not claimed to be the upstream full-resolution camera original.",
+      "excerpt": "Public image rendition listed by the individual photo model or returned by the Commons imageinfo API.",
+      "location": "Actual download capture; Sharp dimensions and derivative file hashes."
+    }
+  ],
+  "notes": "Individual file page and selected applicable CC deed actually read; supplied photos and optimized outputs visually inspected. Attribution, licence link and ShareAlike where applicable are retained. Archive documentation does not establish current access/appearance. Original supplied renditions are archived without claiming full-resolution originals. Final editorial approval remains with root.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-10T15:43:27.657Z",
+    "contentSha256": "6d15fd2f2ccc7258f39befc9f13f5154f9851e49a9e90ec43c7e22d660ae0e84",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "url": "https://live.staticflickr.com/8620/15695063850_2e530a0246_h.jpg",
+    "finalUrl": "https://live.staticflickr.com/8620/15695063850_2e530a0246_h.jpg",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "fetchedAt": "2026-11-10T15:49:31.659Z",
+    "contentSha256": "7ceeb73c84b168159a7200079d85b88b184b92d7f5be8760af371e3a72f85a98",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "publicPhotoId": "15695063850",
+    "providedRendition": "Flickr h",
+    "declaredRenditionWidth": 1600,
+    "declaredRenditionHeight": 1200,
+    "publicGeo": [
+      {
+        "data": {
+          "_flickrModelRegistry": "photo-geo-models",
+          "hasGeo": true,
+          "latitude": 36.233889,
+          "longitude": 137.969269,
+          "accuracy": 15,
+          "isPublic": true,
+          "id": "15695063850"
+        },
+        "exportMetaType": "model"
+      }
+    ]
+  }
+}

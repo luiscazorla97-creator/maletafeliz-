@@ -1,0 +1,134 @@
+{
+  "url": "https://www.flickr.com/photos/diocrio/54192852601/",
+  "finalUrl": "https://www.flickr.com/photos/diocrio/54192852601/",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-10T15:43:26.328Z",
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "4cb0ee01ab11c20866c726b6a4f440ebca64cdfdb1439da097859d6361f85b0b",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "This individual file identifies the pictured landmark.",
+      "excerpt": "Arco Etrusco",
+      "location": "Individual photo description; visually cross-checked against the selected file."
+    },
+    {
+      "fact": "The named creator and specific licence permit reuse with attribution and share-alike",
+      "excerpt": "Perugia, Italia — Angel  de los Rios; CC BY-SA 2.0; https://creativecommons.org/licenses/by-sa/2.0/",
+      "location": "Individual file JSON-LD author/license (Flickr) or Summary/Licensing blocks (Wikimedia Commons). Read actual individual HTML page, not only search metadata."
+    },
+    {
+      "fact": "The Creative Commons deed permits copying and adaptation for commercial use with appropriate credit, licence link, changes indicated and no additional restrictions; adapted contributions retain the same licence.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially. Adapt — remix, transform, and build upon the material for any purpose, even commercially.",
+      "location": "https://creativecommons.org/licenses/by-sa/2.0/"
+    },
+    {
+      "fact": "The technical licence conditions were read and are retained.",
+      "excerpt": "Original creator, supplied title, source URL and licence URL retained. Optimized sizes and WebP conversion explicitly indicated; existing source edits preserved.",
+      "location": "https://creativecommons.org/licenses/by-sa/2.0/legalcode.en"
+    }
+  ],
+  "notes": "Specific individual photo page, applicable CC deed and legal code actually fetched and read. Documentary archive photograph, not evidence of current access, hours, events or appearance. No generated image, licence inference from search filter, paywall bypass or paid service. Exterior view shows the Etruscan Arch and flanking stone towers; source description explicitly names Arco Etrusco.",
+  "licenceReadEvidence": {
+    "deed": {
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "finalUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "httpStatus": 200,
+      "fetchedAt": "2026-11-10T15:45:19.869Z",
+      "contentType": "text/html",
+      "contentSha256": "6d15fd2f2ccc7258f39befc9f13f5154f9851e49a9e90ec43c7e22d660ae0e84",
+      "retryAfter": null
+    },
+    "legalCode": {
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/legalcode.en",
+      "finalUrl": "https://creativecommons.org/licenses/by-sa/2.0/legalcode.en",
+      "httpStatus": 200,
+      "fetchedAt": "2026-11-10T15:46:30.594Z",
+      "contentType": "text/html",
+      "contentSha256": "a90434ea9f88eb5c29eec63113a9902ac116be6f9c2061dc1fa66283610557b2",
+      "retryAfter": null
+    }
+  },
+  "individualPhotoEvidence": {
+    "individualJsonLd": {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://live.staticflickr.com/65535/54192852601_fca0d757b9_b.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "acquireLicensePage": "https://www.flickr.com/photos/diocrio/54192852601",
+      "author": {
+        "@type": "Person",
+        "name": "Angel  de los Rios",
+        "url": "https://www.flickr.com/photos/diocrio",
+        "image": "https://live.staticflickr.com/3843/buddyicons/35303249@N00.jpg?1406997249#35303249@N00"
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "Angel  de los Rios",
+        "url": "https://www.flickr.com/photos/diocrio",
+        "image": "https://live.staticflickr.com/3843/buddyicons/35303249@N00.jpg?1406997249#35303249@N00"
+      }
+    },
+    "publicGeo": [
+      {
+        "data": {
+          "_flickrModelRegistry": "photo-geo-models",
+          "hasGeo": true,
+          "latitude": 43.114478,
+          "longitude": 12.389659,
+          "accuracy": 16,
+          "isPublic": true,
+          "id": "54192852601"
+        },
+        "exportMetaType": "model"
+      }
+    ],
+    "photoModelSize": {
+      "displayUrl": "//live.staticflickr.com/65535/54192852601_d333b384ec_h.jpg",
+      "width": 1600,
+      "height": 1067,
+      "url": "//live.staticflickr.com/65535/54192852601_d333b384ec_h.jpg"
+    }
+  },
+  "download": {
+    "id": "n10-pg-arco",
+    "requestedUrl": "https://live.staticflickr.com/65535/54192852601_d333b384ec_h.jpg",
+    "finalUrl": "https://live.staticflickr.com/65535/54192852601_d333b384ec_h.jpg",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-10T15:51:55.123Z",
+    "contentType": "image/jpeg",
+    "retryAfter": null,
+    "contentSha256": "2cdb3601cacd2eb2d2044fc28e2a30d6e618198f862316d052cbfa6ebefdcbb5",
+    "bytes": 471492,
+    "width": 1600,
+    "height": 1067,
+    "orientation": null
+  },
+  "modifications": "Resized from the publicly supplied Flickr 1600px rendition and converted to optimized WebP without enlargement, generated edits or added elements. Source photographer’s existing edits are retained. Archive documentary photograph; current access and appearance may differ.",
+  "derivedFiles": [
+    {
+      "src": "/images/n10-pg-arco-480w.webp",
+      "width": 480,
+      "height": 320,
+      "sha256": "2daf0224583f5e7a91bae828514bcf7dc6f07b640daab15304d41d48f63ccddd"
+    },
+    {
+      "src": "/images/n10-pg-arco-800w.webp",
+      "width": 800,
+      "height": 534,
+      "sha256": "a880cc191c76556d06a5c4abcf725c5ceec6118e938123f01faf977a6623e161"
+    },
+    {
+      "src": "/images/n10-pg-arco.webp",
+      "width": 1280,
+      "height": 854,
+      "sha256": "2bbb3a120ee2f11e12ec37800144d607e4ac02c5518214b3cd6094d9c7b555ee"
+    }
+  ],
+  "visualCheck": {
+    "status": "Source and optimized output visually inspected by photo preparer; independent root approval pending",
+    "observation": "Exterior view shows the Etruscan Arch and flanking stone towers; source description explicitly names Arco Etrusco.",
+    "checkedAt": "2026-11-10T15:52:28.588Z",
+    "contactSheet": "/workspace/artifacts/maletafeliz-manual-three-n10/photos/perugia/contactsheet-optimized-five.jpg"
+  }
+}

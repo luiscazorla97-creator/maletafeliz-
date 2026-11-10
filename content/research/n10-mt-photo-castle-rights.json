@@ -1,0 +1,63 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:130608_Matsumoto_Castle_Matsumoto_Nagano_pref_Japan01bs5.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:130608_Matsumoto_Castle_Matsumoto_Nagano_pref_Japan01bs5.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-10T15:45:56.974Z",
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "5a5af42abfcd609b9cbf2055dac38de8c99abd3c3e717d9bb41ad86e42354d41",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The specific individual file page identifies this title and creator and explicitly grants the selected licence. The supplied title and creator are retained in the credit; this is not a search-result-only permission.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution 2.5 Generic license. You may select the license of your choice.",
+      "location": "Individual Commons file page:Information(author,description,date) and explicit selected licensing box."
+    },
+    {
+      "fact": "The individual file describes Matsumoto Castle in Matsumoto, Nagano, and identifies author663highland/date8June2013. The castle keep, moat and red bridge were visually compared with the subject; this is a wide exterior documentary view, not an operator-owned image.",
+      "excerpt": "Matsumoto Castle is a National Treasure of Japan in Matsumoto, Nagano prefecture, Japan.",
+      "location": "Individual file title/description, available publicgeo and actual visual inspection of the documentary photo."
+    },
+    {
+      "fact": "The applicable CreativeCommons deed was actually read: commercial sharing and adaptation are permitted with attribution, licence link and indication of changes; ShareAlike applies when stated. No generated edit or endorsement is claimed.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Applicable CC deed:You are free/Under the following terms. Actual deed capture retained with finalURL,date,HTTP and bodySHA256."
+    },
+    {
+      "fact": "The provided public image rendition was downloaded and archived byte-for-byte. Its actual dimensions and SHA256 were read; five responsive WebP derivatives were created with orientation/resizing/conversion only, without enlargement. It is not claimed to be the upstream full-resolution camera original.",
+      "excerpt": "Public image rendition listed by the individual photo model or returned by the Commons imageinfo API.",
+      "location": "Actual download capture; Sharp dimensions and derivative file hashes."
+    }
+  ],
+  "notes": "Individual file page and selected applicable CC deed actually read; supplied photos and optimized outputs visually inspected. Attribution, licence link and ShareAlike where applicable are retained. Archive documentation does not establish current access/appearance. Original supplied renditions are archived without claiming full-resolution originals. Final editorial approval remains with root.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by/2.5/",
+    "finalUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "fetchedAt": "2026-11-10T15:47:00.684Z",
+    "contentSha256": "2834834b7be12c823e54df7de4390ebda8fcc4c6229c548913307a8379570532",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/130608_Matsumoto_Castle_Matsumoto_Nagano_pref_Japan01bs5.jpg/1280px-130608_Matsumoto_Castle_Matsumoto_Nagano_pref_Japan01bs5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/130608_Matsumoto_Castle_Matsumoto_Nagano_pref_Japan01bs5.jpg/1280px-130608_Matsumoto_Castle_Matsumoto_Nagano_pref_Japan01bs5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-10T15:45:57.544Z",
+    "contentSha256": "dfc2e03eb1aacbb81088d6444d395b31c54e7ff3ccaf87e1a03516be16ccb614",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/130608_Matsumoto_Castle_Matsumoto_Nagano_pref_Japan01bs5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4800,
+    "height": 3200,
+    "bytes": 13248264,
+    "providedRendition": "Commons API-provided1280px thumbnail",
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/130608_Matsumoto_Castle_Matsumoto_Nagano_pref_Japan01bs5.jpg/1280px-130608_Matsumoto_Castle_Matsumoto_Nagano_pref_Japan01bs5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "dateTaken": "2013-06-08",
+    "publicGeo": {
+      "latitude": "36.239083",
+      "longitude": "137.969083"
+    },
+    "fullResolutionOriginalDownloaded": false
+  }
+}

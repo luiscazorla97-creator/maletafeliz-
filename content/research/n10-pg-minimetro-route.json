@@ -1,0 +1,22 @@
+{
+  "url": "https://www.minimetrospa.it/percorso-e-stazioni/",
+  "requestedUrl": "https://www.minimetrospa.it/percorso-e-stazioni/",
+  "finalUrl": "https://www.minimetrospa.it/percorso-e-stazioni/",
+  "fetchedAt": "2026-11-10T15:42:02.701Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "e536e3e6cc7bd0dad77d07290cc4b781dbf37c8d90fb7408f1785167a864a14a",
+  "facts": [
+    {
+      "fact": "The official station list includes Fontivegge between Madonna Alta and Case Bruciate, and names Pincetto and Pian di Massiano as the two terminals.",
+      "excerpt": "Stazione Fontivegge",
+      "location": "“Le stazioni”."
+    },
+    {
+      "fact": "The route page links separately to service hours, escalator/lift hours and service-change notices. Availability of a particular lift at a future visit is not inferred.",
+      "excerpt": "Orari scale mobili e ascensore",
+      "location": "Linked service-information list under the station sequence."
+    }
+  ],
+  "notes": "Official regional, municipal or directly identified operator page actually fetched and read. Raw response and visible-text extraction are retained outside Git in the cloud task artifacts. No personal travel experience, search-volume claim or fixed future timetable is asserted; route sequencing and visit priorities are original editorial advice."
+}

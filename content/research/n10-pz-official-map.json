@@ -1,0 +1,27 @@
+{
+  "url": "https://www.patzcuaro.gob.mx/wp-content/uploads/2024/10/Mapa-de-Patzcuaro.pdf",
+  "finalUrl": "https://www.patzcuaro.gob.mx/wp-content/uploads/2024/10/Mapa-de-Patzcuaro.pdf",
+  "fetchedAt": "2026-11-10T15:39:18.383Z",
+  "httpStatus": 200,
+  "contentType": "application/pdf",
+  "contentSha256": "6bf242668dac74a8f2f35449fe1edfc91719517b6fb869353006b5a6ce173f2d",
+  "facts": [
+    {
+      "fact": "The legend names Plaza Gertrudis Bocanegra, Plaza Vasco de Quiroga, Casa de los Once Patios, El Sagrario and Basilica de Nuestra Señora de la Salud. All five stops are in the historic-centre map; printed numbering is not used because the legend and schematic are inconsistent for the Basilica.",
+      "excerpt": "LUGARES DE INTERÉS",
+      "location": "PDF page 1, upper-right numbered legend"
+    },
+    {
+      "fact": "The schematic places Gertrudis Bocanegra north of Vasco de Quiroga, the Basilica northeast of the main square, and Sagrario/Once Patios in the eastern/southeastern cluster. This supports an editorial walking sequence, without a precise scale or guaranteed time.",
+      "excerpt": "PÁTZCUARO",
+      "location": "PDF page 1, visually read title and city-centre schematic with north arrow; relative positions are interpreted from the map, not a prose quotation"
+    },
+    {
+      "fact": "The map depicts arrival roads, a bus-station symbol and the lake separately from the central stops. It is used for orientation only, not to verify currently operating routes, departures, fares or lake conditions.",
+      "excerpt": "SIMBOLOGÍA",
+      "location": "PDF page 1, transport symbols and inset lake map"
+    }
+  ],
+  "notes": "Downloaded municipal PDF dated2024 in its metadata. Page1 was rendered and visually inspected; text extraction was also read. The municipal homepage contains unrelated spam and is excluded as a tourism fact source. The separate static map is used only for its visible geography/labels. No map image is served in the article and no2024transport information is presented as a current timetable. Review correction: legend labels and visually verified geography are used without attraction numbers; the Basilica is16in the legend but appears as15on the schematic.",
+  "readMethod": "Actual PDF bytes, pdfinfo/pdftotext and rendered page1 visually inspected."
+}

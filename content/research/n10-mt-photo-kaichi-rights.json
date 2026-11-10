@@ -1,0 +1,69 @@
+{
+  "url": "https://www.flickr.com/photos/tmizo/8144923073/",
+  "finalUrl": "https://www.flickr.com/photos/tmizo/8144923073/",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-10T15:43:26.283Z",
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "01a392046294a0136b60517a848c758c3e443ad644f38cae5be74e6a3692b5bb",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The specific individual file page identifies this title and creator and explicitly grants the selected licence. The supplied title and creator are retained in the credit; this is not a search-result-only permission.",
+      "excerpt": "https://creativecommons.org/licenses/by/2.0/",
+      "location": "Individual ImageObject JSON-LD:name,author.name,license; specific main photo model."
+    },
+    {
+      "fact": "The individual title identifies KaichiSchoolMuseum in Matsumoto, Nagano; publicgeo36.243044,137.968175 and the visually inspected octagonal-tower facade corroborate the specific school. This is not the formerHigherSchool at Agatanomori.",
+      "excerpt": "Kaichi School Museum (Matsumoto, Nagano, Japan)",
+      "location": "Individual file title/description, available publicgeo and actual visual inspection of the documentary photo."
+    },
+    {
+      "fact": "The applicable CreativeCommons deed was actually read: commercial sharing and adaptation are permitted with attribution, licence link and indication of changes; ShareAlike applies when stated. No generated edit or endorsement is claimed.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Applicable CC deed:You are free/Under the following terms. Actual deed capture retained with finalURL,date,HTTP and bodySHA256."
+    },
+    {
+      "fact": "The provided public image rendition was downloaded and archived byte-for-byte. Its actual dimensions and SHA256 were read; three responsive WebP derivatives were created with orientation/resizing/conversion only, without enlargement. It is not claimed to be the upstream full-resolution camera original.",
+      "excerpt": "Public image rendition listed by the individual photo model or returned by the Commons imageinfo API.",
+      "location": "Actual download capture; Sharp dimensions and derivative file hashes."
+    }
+  ],
+  "notes": "Individual file page and selected applicable CC deed actually read; supplied photos and optimized outputs visually inspected. Attribution, licence link and ShareAlike where applicable are retained. Archive documentation does not establish current access/appearance. Original supplied renditions are archived without claiming full-resolution originals. Final editorial approval remains with root.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by/2.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-10T15:43:27.348Z",
+    "contentSha256": "bbb0dcc37f02552e7270e6d2e06be02672ce29ada816107d6fa91e1e6809714b",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "url": "https://live.staticflickr.com/8325/8144923073_044a5fbeea_h.jpg",
+    "finalUrl": "https://live.staticflickr.com/8325/8144923073_044a5fbeea_h.jpg",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "fetchedAt": "2026-11-10T15:49:30.762Z",
+    "contentSha256": "c515b8d48de42f263e2fa1914549f7ebd97b7732f76851a1cd83ebb6b056e8d7",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "publicPhotoId": "8144923073",
+    "providedRendition": "Flickr h",
+    "declaredRenditionWidth": 1600,
+    "declaredRenditionHeight": 1067,
+    "publicGeo": [
+      {
+        "data": {
+          "_flickrModelRegistry": "photo-geo-models",
+          "hasGeo": true,
+          "latitude": 36.243044,
+          "longitude": 137.968175,
+          "accuracy": 15,
+          "isPublic": true,
+          "id": "8144923073"
+        },
+        "exportMetaType": "model"
+      }
+    ]
+  }
+}

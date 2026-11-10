@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-11-10T15:45:13.107633+00:00",
+  "purpose": "Actual research attempts not used as factual source evidence",
+  "attempts": [
+    {
+      "url": "https://www.cultura.gob.mx/turismocultural/patzcuaro/puntos_interes_patz.html",
+      "finalUrl": "https://www.cultura.gob.mx/turismocultural/patzcuaro/puntos_interes_patz.html",
+      "fetchedAt": "2026-11-10T15:39:18.382Z",
+      "httpStatus": 404,
+      "contentType": "text/html; charset=utf-8",
+      "contentSha256": "4722756f20c96946c20728e1ce9025d0ad541f11c0b421bec3ecce5ca6d8ae87",
+      "bytes": 6659,
+      "retryAfter": null
+    },
+    {
+      "url": "https://difusion.inah.gob.mx/images/guias/patzcuaro.pdf",
+      "fetchedAt": "2026-11-10T15:39:53.653Z",
+      "httpStatus": 0,
+      "error": "TypeError"
+    },
+    {
+      "url": "https://catalogonacionalmhi.inah.gob.mx/consulta_publica/detalle/36017",
+      "fetchedAt": "2026-11-10T15:39:18.384Z",
+      "httpStatus": 0,
+      "error": "TypeError"
+    },
+    {
+      "url": "https://catalogonacionalmhi.inah.gob.mx/consulta_publica/detalle/35986",
+      "fetchedAt": "2026-11-10T15:39:18.385Z",
+      "httpStatus": 0,
+      "error": "TypeError"
+    },
+    {
+      "url": "https://sectur.michoacan.gob.mx/patzcuaro-el-encantador-pueblo-magico-celebra-su-490-aniversario/",
+      "finalUrl": "https://sectur.michoacan.gob.mx/patzcuaro-el-encantador-pueblo-magico-celebra-su-490-aniversario/",
+      "fetchedAt": "2026-11-10T15:39:53.668Z",
+      "httpStatus": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "contentSha256": "8db9c43365c9505426002506b48ce347be60b4fda81f37c4c2a6cc9f2af67a7e",
+      "bytes": 35987,
+      "retryAfter": null
+    },
+    {
+      "url": "https://www.gob.mx/sectur/articulos/patzcuaro-michoacan",
+      "finalUrl": "https://www.gob.mx/sectur/articulos/patzcuaro-michoacan",
+      "fetchedAt": "2026-11-10T15:38:30.205Z",
+      "httpStatus": 403,
+      "contentType": "text/html",
+      "contentSha256": "ddd7bc554722b179ebacdae503220c6f1f4e88f7f7e913b177b3e6bd606ebcc7",
+      "bytes": 412,
+      "retryAfter": null
+    },
+    {
+      "url": "https://visitmichoacan.com.mx/patzcuaro/",
+      "finalUrl": "https://visitmichoacan.com.mx/patzcuaro/",
+      "fetchedAt": "2026-11-10T15:38:30.218Z",
+      "httpStatus": 403,
+      "contentType": "text/html",
+      "contentSha256": "10b3dda153375e6f772b14c8e9c81f5393667624dbaf435dd238a2d4ffb62fde",
+      "bytes": 919,
+      "retryAfter": null
+    },
+    {
+      "url": "https://www.visitmichoacan.com.mx/patzcuaro/",
+      "fetchedAt": "2026-11-10T15:38:30.220Z",
+      "httpStatus": 0,
+      "error": "TypeError"
+    }
+  ],
+  "notes": "No failed URL is presented as consulted. No proxy/credential or waiting-limit workaround was attempted."
+}

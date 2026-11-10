@@ -1,0 +1,37 @@
+{
+  "url": "https://www.matsumoto-castle.jp/eng/info",
+  "finalUrl": "https://www.matsumoto-castle.jp/eng/info",
+  "fetchedAt": "2026-11-10T15:38:48.721Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "8e62f3959cacc37540054b3daccba9534a18c23068e259c3c684c0ea5d401bd4",
+  "title": "General Information — National Treasure Matsumoto Castle",
+  "facts": [
+    {
+      "fact": "The current operator distinguishes timed-entry electronic tickets from on-site paper tickets.",
+      "excerpt": "Timed Entry Only",
+      "location": "Admission table"
+    },
+    {
+      "fact": "The Great Keep has six stories with steep narrow stairs and no elevator; shoes must be removed inside.",
+      "excerpt": "The Great Keep is a six-story building with steep, narrow stairs and no elevator.",
+      "location": "Please Note, first item"
+    },
+    {
+      "fact": "Access is through Kuromon Gate; the red Uzumibashi Bridge is closed as an entrance.",
+      "excerpt": "Visitors must enter the grounds through the Kuromon Gate in front.",
+      "location": "Please Note, third item"
+    },
+    {
+      "fact": "The operator warns that admission limits can create queues and restrict some garden areas during crowded periods.",
+      "excerpt": "limits may be placed on the number of people allowed inside the castle at a single time.",
+      "location": "Hours > busy-period visitor notice"
+    },
+    {
+      "fact": "Combination tickets are sold online; the castle and other facilities have distinct access arrangements.",
+      "excerpt": "Combined tickets are only available online.",
+      "location": "Combo Tickets section"
+    }
+  ],
+  "notes": "Official page actually fetched and the named passages read; raw response and extracted text retained outside Git. Route choices and priorities are original editorial advice. No personal visit, demand ranking, guaranteed mountain view, price or timetable is claimed."
+}

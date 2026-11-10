@@ -1,0 +1,63 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:220728_Agata-no-mori_park_Matsumoto_Japan01s3.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:220728_Agata-no-mori_park_Matsumoto_Japan01s3.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-10T15:43:31.896Z",
+  "contentSha256": "d5b63043d841acc67380dea3d0b64c8659540eb1b2ad7103743e758e6a7252ba",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The specific individual file page identifies this title and creator and explicitly grants the selected licence. The supplied title and creator are retained in the credit; this is not a search-result-only permission.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.",
+      "location": "Individual Commons file page:Information(author,description,date) and explicit selected licensing box."
+    },
+    {
+      "fact": "The individual file explicitly identifies Agata-no-moriPark in Matsumoto and date28July2022, creator663highland and geo36.230656,137.981336. The visibly wooded park path matches that subject. This photograph does not depict the facade of the formerHigherSchool and its ALT does not claim that it does.",
+      "excerpt": "Agata-no-mori park in Matsumoto, Nagano prefecture, Japan.",
+      "location": "Individual file title/description, available publicgeo and actual visual inspection of the documentary photo."
+    },
+    {
+      "fact": "The applicable CreativeCommons deed was actually read: commercial sharing and adaptation are permitted with attribution, licence link and indication of changes; ShareAlike applies when stated. No generated edit or endorsement is claimed.",
+      "excerpt": "ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.",
+      "location": "Applicable CC deed:You are free/Under the following terms. Actual deed capture retained with finalURL,date,HTTP and bodySHA256."
+    },
+    {
+      "fact": "The provided public image rendition was downloaded and archived byte-for-byte. Its actual dimensions and SHA256 were read; three responsive WebP derivatives were created with orientation/resizing/conversion only, without enlargement. It is not claimed to be the upstream full-resolution camera original.",
+      "excerpt": "Public image rendition listed by the individual photo model or returned by the Commons imageinfo API.",
+      "location": "Actual download capture; Sharp dimensions and derivative file hashes."
+    }
+  ],
+  "notes": "Individual file page and selected applicable CC deed actually read; supplied photos and optimized outputs visually inspected. Attribution, licence link and ShareAlike where applicable are retained. Archive documentation does not establish current access/appearance. Original supplied renditions are archived without claiming full-resolution originals. Final editorial approval remains with root.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "fetchedAt": "2026-11-10T15:45:33.908Z",
+    "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/220728_Agata-no-mori_park_Matsumoto_Japan01s3.jpg/1280px-220728_Agata-no-mori_park_Matsumoto_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/220728_Agata-no-mori_park_Matsumoto_Japan01s3.jpg/1280px-220728_Agata-no-mori_park_Matsumoto_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "fetchedAt": "2026-11-10T15:47:00.479Z",
+    "contentSha256": "7bb3477809c7350e86d0159ad9ff0950697abdb22c4760dd231e09caa2eb8f83",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/220728_Agata-no-mori_park_Matsumoto_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6000,
+    "height": 4000,
+    "bytes": 19469296,
+    "providedRendition": "Commons API-provided1280px thumbnail",
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/220728_Agata-no-mori_park_Matsumoto_Japan01s3.jpg/1280px-220728_Agata-no-mori_park_Matsumoto_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "dateTaken": "2022-07-28",
+    "publicGeo": {
+      "latitude": "36.230656",
+      "longitude": "137.981336"
+    },
+    "fullResolutionOriginalDownloaded": false
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "id": "perugia",
+  "destinationId": "perugia",
+  "intent": "perugia-first-visit-five-heritage-places",
+  "status": "published",
+  "coverImageId": "n10-pg-fontana",
+  "sources": [
+    {
+      "id": "n10-pg-palazzo",
+      "url": "https://www.umbriatourism.it/en/w/palazzo-dei-priori-perugia-en",
+      "title": "Palazzo dei Priori - Perugia — Umbriatourism",
+      "accessedAt": "2026-11-10T15:37:56.311Z",
+      "evidenceFile": "content/research/n10-pg-palazzo.json"
+    },
+    {
+      "id": "n10-pg-city",
+      "url": "https://www.umbriatourism.it/en/perugia",
+      "title": "Perugia — official regional destination overview",
+      "accessedAt": "2026-11-10T15:38:51.206Z",
+      "evidenceFile": "content/research/n10-pg-city.json"
+    },
+    {
+      "id": "n10-pg-fontana",
+      "url": "https://www.umbriatourism.it/en/w/the-fontana-maggiore-in-perugia",
+      "title": "The Fontana Maggiore in Perugia — Umbriatourism",
+      "accessedAt": "2026-11-10T15:39:08.139Z",
+      "evidenceFile": "content/research/n10-pg-fontana.json"
+    },
+    {
+      "id": "n10-pg-arco",
+      "url": "https://www.umbriatourism.it/en/w/etruscan-arch-of-perugia",
+      "title": "Etruscan arch of Perugia — Umbriatourism",
+      "accessedAt": "2026-11-10T15:39:08.158Z",
+      "evidenceFile": "content/research/n10-pg-arco.json"
+    },
+    {
+      "id": "n10-pg-sciri",
+      "url": "https://www.comune.perugia.it/luogo/torre-degli-sciri/",
+      "title": "Torre degli Sciri – Sciri Tower — Comune di Perugia",
+      "accessedAt": "2026-11-10T15:40:41.988Z",
+      "evidenceFile": "content/research/n10-pg-sciri.json"
+    },
+    {
+      "id": "n10-pg-sciri-access",
+      "url": "https://www.visitaperugia.it/torre-degli-sciri/",
+      "title": "Torre degli Sciri — Associazione Priori visitor information",
+      "accessedAt": "2026-11-10T15:40:42.004Z",
+      "evidenceFile": "content/research/n10-pg-sciri-access.json"
+    },
+    {
+      "id": "n10-pg-carducci",
+      "url": "https://www.comune.perugia.it/luogo/giardini-carducci/",
+      "title": "Giardini Carducci – Carducci Garden — Comune di Perugia",
+      "accessedAt": "2026-11-10T15:40:42.003Z",
+      "evidenceFile": "content/research/n10-pg-carducci.json"
+    },
+    {
+      "id": "n10-pg-minimetro",
+      "url": "https://www.minimetrospa.it/",
+      "title": "Minimetrò Perugia — operator route and service notices",
+      "accessedAt": "2026-11-10T15:39:08.161Z",
+      "evidenceFile": "content/research/n10-pg-minimetro.json"
+    },
+    {
+      "id": "n10-pg-minimetro-route",
+      "url": "https://www.minimetrospa.it/percorso-e-stazioni/",
+      "title": "Percorso e stazioni — Minimetrò official station list",
+      "accessedAt": "2026-11-10T15:42:02.701Z",
+      "evidenceFile": "content/research/n10-pg-minimetro-route.json"
+    }
+  ],
+  "relatedIds": [
+    "siena",
+    "florence",
+    "bologna"
+  ],
+  "locale": "es",
+  "slug": "que-ver-en-perugia-5-lugares",
+  "title": "Qué ver en Perugia: 5 lugares y una ruta por el centro histórico",
+  "description": "Qué ver en Perugia: cinco lugares del centro histórico, con Fontana Maggiore, Arco Etrusco, torre Sciri y consejos de transporte, entradas y recorrido.",
+  "keyword": "qué ver en Perugia",
+  "relatedQueries": [
+    "lugares que visitar en Perugia",
+    "Perugia centro histórico recorrido",
+    "Torre degli Sciri visitas"
+  ],
+  "intro": [
+    "Si buscás qué ver en Perugia en una primera visita, organizá el paseo alrededor de cinco lugares: Fontana Maggiore, Palazzo dei Priori, Arco Etrusco, Torre degli Sciri y Giardini Carducci. La selección reúne una fuente monumental, un palacio cívico, una puerta antigua, una torre familiar medieval y un mirador público. Así podés reconocer distintas etapas de la capital de Umbría sin depender de entrar a todos sus museos ni convertir la jornada en una carrera de entradas.",
+    "La clave práctica es separar el acceso al centro histórico del recorrido dentro de él. El Minimetrò llega a Pincetto; desde allí todavía hay que caminar hacia los lugares de la guía. También conviene distinguir los exteriores de las visitas sujetas a apertura: la subida a Sciri requiere comprobar la programación del gestor y tiene 232 escalones. Esta propuesta permite conocer los cinco entornos y elegir después qué interior merece un bloque adicional de tiempo."
+  ],
+  "quickFacts": [
+    {
+      "label": "Recorrido",
+      "value": "Cinco lugares del centro histórico, con cambios de nivel"
+    },
+    {
+      "label": "Transporte",
+      "value": "Minimetrò hasta Pincetto y continuación a pie"
+    },
+    {
+      "label": "Torre Sciri",
+      "value": "Exterior independiente de la subida; 232 escalones hasta la cubierta"
+    },
+    {
+      "label": "Planificación",
+      "value": "Verificar aperturas interiores y el transporte de regreso"
+    }
+  ],
+  "sections": [
+    {
+      "id": "fontana-maggiore",
+      "kind": "place",
+      "heading": "1. Fontana Maggiore: mirar los relieves de Piazza IV Novembre",
+      "paragraphs": [
+        "Fontana Maggiore ocupa el centro de Piazza IV Novembre, el núcleo cívico y religioso de Perugia. Acercate para observar sus dos pilas de mármol superpuestas: la inferior desarrolla un repertorio que mezcla meses, signos del zodíaco, artes y relatos; la superior incorpora figuras históricas, sagradas y simbólicas. No hace falta identificar cada escena para disfrutarla. Elegí un tema, buscá sus detalles y cambiá de posición antes de seguir: una fotografía frontal no muestra todo el programa escultórico.",
+        "Usá la fuente como punto de orientación para entender la plaza y la relación con el Palazzo dei Priori. Son dos paradas cercanas, pero ofrecen lecturas diferentes: en una importan las figuras y la circulación alrededor de la obra; en la otra, la arquitectura del gobierno urbano. Dejá un momento para mirar el conjunto desde un poco más lejos. Si viajás con chicos o con alguien que prefiere visitas cortas, buscar una escena concreta puede funcionar mejor que una explicación larga de todas las caras de la fuente."
+      ],
+      "sourceIds": [
+        "n10-pg-fontana",
+        "n10-pg-city"
+      ],
+      "imageId": "n10-pg-fontana"
+    },
+    {
+      "id": "palazzo-priori",
+      "kind": "place",
+      "heading": "2. Palazzo dei Priori: dos fachadas para entender el poder cívico",
+      "paragraphs": [
+        "El Palazzo dei Priori tiene frente hacia Piazza IV Novembre y hacia Corso Vannucci. Mirá ambos lados: las ventanas agrupadas, los accesos y las proporciones ayudan a entender un edificio ampliado en distintas etapas. Sobre el portal de la plaza aparecen el grifo y el león de bronce; las piezas expuestas allí son copias, mientras que los originales se conservan en el atrio del palacio. Ese detalle evita confundir la contemplación del exterior con la visita a las obras originales.",
+        "El palacio sigue vinculado a la administración municipal y alberga espacios culturales como la Galleria Nazionale dell’Umbria. La Sala dei Notari y los ámbitos de los antiguos gremios tienen identidades propias: ver una puerta abierta no significa que todos los sectores compartan acceso, entrada u horario. Para este recorrido, la fachada y su relación con la plaza ya constituyen una parada completa. Si te interesa la pintura o una sala concreta, consultá su información específica y reservá tiempo para ella, en lugar de sumar varios interiores de manera improvisada."
+      ],
+      "sourceIds": [
+        "n10-pg-palazzo"
+      ],
+      "imageId": "n10-pg-priori"
+    },
+    {
+      "id": "arco-etrusco",
+      "kind": "place",
+      "heading": "3. Arco Etrusco: reconocer las distintas épocas de una puerta",
+      "paragraphs": [
+        "El Arco Etrusco, también llamado Arco de Augusto, es una puerta del antiguo recinto situada en el sector norte del centro. Sus dos torres laterales y el gran paso central permiten distinguir una construcción defensiva de un arco aislado de carácter decorativo. La inscripción Augusta Perusia remite a la reconstrucción romana posterior a la guerra de Perusia; la logia de uno de los lados corresponde a una intervención renacentista. La lectura interesante está en reconocer esas capas, sin atribuir todo lo que se ve a una sola época.",
+        "Dedicá una primera mirada al conjunto y otra a los cambios entre la masa de piedra, las inscripciones y el remate superior. Es una parada que permite hablar de la ciudad anterior al gran palacio medieval, por lo que encaja bien al comienzo del recorrido si llegás por el norte. Si tu entrada es por Pincetto, podés visitarla después de la plaza y reorganizar la vuelta. El orden debe responder a tu llegada y al esfuerzo de las pendientes, sin exigir una secuencia rígida para apreciar el monumento."
+      ],
+      "sourceIds": [
+        "n10-pg-arco"
+      ],
+      "imageId": "n10-pg-arco"
+    },
+    {
+      "id": "torre-sciri",
+      "kind": "place",
+      "heading": "4. Torre degli Sciri: una torre medieval y una subida opcional",
+      "paragraphs": [
+        "La Torre degli Sciri, en el entorno de Via dei Priori, se reconoce por su altura aproximada de 42 metros, la piedra clara y las pocas aberturas. Su aspecto contrasta con la decoración del palacio cívico: aquí domina un volumen estrecho y vertical asociado a las familias de la Perugia medieval. Desde la calle, fijate en cómo sobresale sobre los edificios próximos y en la escasez de ventanas. Esa observación da contenido a la parada aunque no haya una visita interior disponible durante tu viaje.",
+        "Para subir, revisá antes la programación de la Associazione Priori. La información municipal consultada señala visitas para grupos con reserva, y el gestor publica aperturas y actividades mediante sus canales; no conviene asumir una apertura turística diaria. La cubierta se alcanza por 232 escalones y el Ayuntamiento advierte que la torre no es accesible para personas con discapacidad motora. Si esa subida no se adapta a tu movilidad o no coincide con una apertura confirmada, mantené el exterior en el paseo y dedicá la pausa panorámica a Giardini Carducci, comprobando también cómo llegar hasta ese jardín."
+      ],
+      "sourceIds": [
+        "n10-pg-sciri",
+        "n10-pg-sciri-access"
+      ],
+      "imageId": "n10-pg-sciri"
+    },
+    {
+      "id": "giardini-carducci",
+      "kind": "place",
+      "heading": "5. Giardini Carducci: terminar con el paisaje de Perugia",
+      "paragraphs": [
+        "Los Giardini Carducci están junto al sector de Piazza Italia, en Largo della Libertà, y ofrecen una perspectiva abierta hacia la ciudad y el paisaje de valles y montañas. Funcionan como cierre del paseo porque cambian la escala: después de observar relieves, puertas y fachadas de cerca, podés volver a mirar la posición de Perugia sobre el terreno. La visibilidad depende del tiempo; organizá la parada por el interés del lugar y por tu recorrido, sin contar con una vista lejana idéntica a la de una fotografía.",
+        "El jardín recuerda al poeta Giosuè Carducci y también contiene un monumento al pintor Pietro Vannucci, conocido como Perugino. Podés alternar esas referencias con una pausa, sin convertir el espacio en una lista de monumentos que haya que completar. El Ayuntamiento lo describe como un lugar accesible para personas en silla de ruedas, pero eso no certifica todos los trayectos que conducen a él desde otras partes de la ciudad. Si necesitás evitar escalones, verificá el acceso concreto desde tu punto de llegada y no uses la accesibilidad del jardín como garantía para toda la caminata."
+      ],
+      "sourceIds": [
+        "n10-pg-carducci",
+        "n10-pg-city"
+      ],
+      "imageId": "n10-pg-carducci"
+    },
+    {
+      "id": "transporte",
+      "kind": "practical",
+      "heading": "Cómo llegar al centro de Perugia y resolver el regreso",
+      "paragraphs": [
+        "El Minimetrò conecta Pian di Massiano con Pincetto, el extremo de la línea que sirve al centro histórico. Entre ambos figuran cinco estaciones intermedias, incluida Fontivegge. Usá el plano oficial para elegir dónde subir según tu alojamiento o tu llegada, y diferenciá ese desplazamiento del tramo a pie posterior. La información turística de Fontana Maggiore indica Pincetto como parada para continuar caminando hasta Piazza IV Novembre: el transporte no te deja en el centro de la plaza ni junto a cada uno de los cinco lugares.",
+        "Si llegás en auto, Pian di Massiano es una opción que el operador presenta para combinar estacionamiento y Minimetrò. Antes de decidirla, consultá las condiciones y el horario vigente del servicio. Revisá el regreso al mismo tiempo que la ida, sobre todo si pensás quedarte a cenar o incorporar una visita interior. El operador publica avisos de cambios y horarios separados para escaleras mecánicas y ascensores; no presupongas que todos esos elementos funcionan hasta la misma hora ni que una ampliación por un evento sea el horario habitual."
+      ],
+      "sourceIds": [
+        "n10-pg-minimetro",
+        "n10-pg-minimetro-route",
+        "n10-pg-fontana"
+      ]
+    },
+    {
+      "id": "planificacion",
+      "kind": "practical",
+      "heading": "Entradas, movilidad y prioridades para una primera visita",
+      "paragraphs": [
+        "Separá el mapa en dos decisiones: los cinco lugares que querés observar y los interiores que realmente te interesan. Una visita a la galería de arte puede modificar todo el ritmo de la jornada; una subida a Sciri depende además de una apertura confirmada. Revisá cada operador antes de comprar o reservar. Esta guía no presupone una entrada conjunta ni ofrece precios o franjas horarias que puedan cambiar. Para una salida más corta, priorizá la fuente y el palacio, y elegí después entre la puerta antigua y el sector de la torre.",
+        "El recorrido necesita adaptarse a las pendientes y a la movilidad del grupo. Que dos puntos estén próximos en el mapa no significa que el traslado sea igual de cómodo para todas las personas. Con lluvia, reducí las pausas expuestas y elegí un interior cuya apertura hayas comprobado; con poca visibilidad, no alargues el día esperando una panorámica garantizada. Para continuar el viaje por Italia, las guías de Siena, Florencia y Bolonia enlazadas al final ayudan a comparar plazas, arquitectura y ritmos de visita. Son otras etapas posibles, no partes de esta ruta urbana ni excursiones breves que esta guía haya comprobado."
+      ],
+      "sourceIds": [
+        "n10-pg-sciri",
+        "n10-pg-sciri-access",
+        "n10-pg-palazzo",
+        "n10-pg-carducci"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Si entrás por el sector norte, empezá por el Arco Etrusco y seguí hacia Piazza IV Novembre. Dedicá allí dos momentos distintos a Fontana Maggiore y al Palazzo dei Priori: primero los detalles de la fuente y después las fachadas del palacio. Si llegás por Pincetto, podés comenzar en la plaza y colocar el arco en el bloque siguiente, adaptando el esfuerzo a tu ritmo.",
+    "Dejá la Torre degli Sciri para un bloque propio en el sector de Via dei Priori. Su exterior encaja aunque no subas; si reservaste una apertura, usá ese compromiso como referencia para organizar el resto. Después recuperá el eje de Corso Vannucci hacia Piazza Italia y Giardini Carducci, donde la visita pasa de los detalles urbanos al paisaje.",
+    "Con una jornada tranquila podés repartir estas cinco paradas y una pausa, pero los interiores pueden exigir reducir otras actividades. Con menos tiempo, agrupá fuente y palacio y elegí una ampliación según tu interés; priorizá las paradas que mejor se adapten a tu movilidad. Antes de sentarte a descansar al final, comprobá cómo y cuándo vas a volver."
+  ],
+  "faq": [
+    {
+      "question": "¿Cuáles son los cinco lugares principales de esta ruta por Perugia?",
+      "answer": "Fontana Maggiore, Palazzo dei Priori, Arco Etrusco, Torre degli Sciri y Giardini Carducci. La propuesta combina escultura, arquitectura cívica, historia antigua, una torre medieval y un mirador, con los interiores como decisiones adicionales."
+    },
+    {
+      "question": "¿Se pueden conocer estos lugares de Perugia en un día?",
+      "answer": "Podés organizar los cinco entornos en una jornada a pie si el ritmo y tu movilidad lo permiten. Entrar a una galería o subir a la torre modifica el tiempo necesario; conviene elegir un interior prioritario y dejar margen para pausas y transporte."
+    },
+    {
+      "question": "¿El Minimetrò llega directamente a Piazza IV Novembre?",
+      "answer": "No. La información oficial indica bajar en Pincetto y continuar a pie hacia la plaza. Revisá el plano y los avisos del operador, incluidos los horarios propios de escaleras mecánicas y ascensores cuando formen parte de tu acceso."
+    },
+    {
+      "question": "¿La Torre degli Sciri está abierta todos los días y tiene ascensor?",
+      "answer": "No conviene contar con una apertura diaria: consultá la programación del gestor y las reservas para grupos. La información municipal describe 232 escalones hasta la cubierta y señala que no es accesible para personas con discapacidad motora."
+    },
+    {
+      "question": "¿Vale la pena el recorrido si no quiero entrar a museos?",
+      "answer": "Sí. La selección propone observar la fuente, las fachadas del palacio, la puerta antigua, el exterior de la torre y el jardín panorámico. Los museos y la subida son ampliaciones opcionales; verificá sus condiciones si decidís incorporarlos."
+    }
+  ],
+  "conclusion": "Para disfrutar Perugia, elegí un punto de llegada, reservá solamente los interiores que te interesan y dejá que los cinco lugares expliquen distintas escalas de la ciudad. La fuente invita a mirar detalles; el palacio y la puerta, a reconocer su historia; la torre y el jardín, a entender su altura. Con el regreso resuelto y las aperturas comprobadas, el paseo puede adaptarse a tu tiempo sin depender de completar todas las entradas.",
+  "publishedAt": "2026-11-10T11:06:52-05:00",
+  "updatedAt": "2026-11-10T11:06:52-05:00"
+}

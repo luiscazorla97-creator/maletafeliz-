@@ -1,0 +1,32 @@
+{
+  "id": "2026-11-10",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-10T15:44:01.956Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "matsumoto",
+    "patzcuaro",
+    "perugia"
+  ],
+  "requestedCount": 3,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "33d7762b-3533-4f19-baee-4d2923f6a9ed",
+    "startedAt": "2026-11-10T15:43:26.655417+00:00",
+    "heartbeatAt": "2026-11-10T15:43:26.655417+00:00",
+    "leaseUntil": "2026-11-10T19:43:26.655417+00:00",
+    "status": "in-progress",
+    "baseCommit": "716a6fdd84311b05bc368c6a07fdddb6d7c678b5",
+    "coordination": "Explicit new manual request for three originals, ES/EN each; zero unique verified new originals on10NovemberNewYork, no active pre-existing lease. Preserve all older batches and daily2/noonMiami; do not start a concurrent automatic batch while this lease is active."
+  },
+  "authorization": {
+    "request": "publica 3 articulos",
+    "type": "explicit-new-manual-three-originals",
+    "requestedCount": 3,
+    "defaultDailyTargetPreserved": 2,
+    "newYorkDate": "2026-11-10",
+    "priorVerifiedOriginalsToday": 0,
+    "scheduleChanged": false
+  }
+}

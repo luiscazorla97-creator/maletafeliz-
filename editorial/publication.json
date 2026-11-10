@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "09fa7615-7458-4d84-8672-02a038904ea3",
-      "commit": "0ff1bad02bb13cb6bab8413d44b20adc4d2e35ee",
+      "deploymentId": "ef2ac978-a603-4e67-bdb4-dd92fd9eae7e",
+      "commit": "709e495d1042bb4d2fd86b38e83c403306fc29ef",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "734635a2-b14e-48d0-b7c6-654e31e259e2",
-      "commit": "0ff1bad02bb13cb6bab8413d44b20adc4d2e35ee",
+      "deploymentId": "4eb858a2-64cd-4a72-91de-977f3405a9ed",
+      "commit": "709e495d1042bb4d2fd86b38e83c403306fc29ef",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -53,8 +53,8 @@
     "batchBrowserSeoDiscoveryAndPhotoCheckRecords": 81,
     "note": "Browser, metadata, discovery and photo-byte records; actual network requests retained separately."
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-09-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-09T18:10:26.624162+00:00",
+  "latestDeploymentVerification": "editorial/verification/2026-11-09-mobile-performance-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-10T00:27:13.086746+00:00",
   "photoCoverage": {
     "originalRecommendations": 829,
     "localizedRecommendations": 1658,
@@ -123,7 +123,7 @@
     }
   },
   "batchChecks": 81,
-  "performanceVerification": "editorial/verification/2026-11-04-mobile-performance-publication.json",
+  "performanceVerification": "editorial/verification/2026-11-09-mobile-performance-publication.json",
   "verificationChecksTotal": 465,
   "countrySeoStrategy": {
     "priorityCountries": [
@@ -147,5 +147,55 @@
     "unreachableSitemapPages": 0,
     "maximumGuideClickDepth": 2,
     "googleIndexationVerified": false
+  },
+  "mobilePerformance": {
+    "verifiedAt": "2026-11-10T00:27:13.086746+00:00",
+    "verificationFile": "editorial/verification/2026-11-09-mobile-performance-publication.json",
+    "sourceCommit": "709e495d1042bb4d2fd86b38e83c403306fc29ef",
+    "referenceUrl": "https://maletafeliz.com/en/",
+    "newOriginals": 0,
+    "method": "Controlled local mobile Lighthouse comparison; actual public resources and geometry separately verified.",
+    "browserVersion": "157.0.8103.38",
+    "lighthouseVersion": "13.6.0",
+    "beforeMedianScores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100
+    },
+    "afterMedianScores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100
+    },
+    "beforeMedianMetrics": {
+      "first-contentful-paint": 1206.988933113313,
+      "largest-contentful-paint": 2633.289670771027,
+      "total-blocking-time": 140,
+      "cumulative-layout-shift": 0,
+      "speed-index": 2283.6109684369435
+    },
+    "afterMedianMetrics": {
+      "first-contentful-paint": 1204.7630689134298,
+      "largest-contentful-paint": 2404.0381318088666,
+      "total-blocking-time": 126.5,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1648.709340966774
+    },
+    "lcpReductionPercent": 8.705898994205052,
+    "controlledMedianLcpAtMost2500ms": true,
+    "googlePsi90Verified": false,
+    "realUserCoreWebVitalsVerified": false,
+    "apoWordPressCompatibility": false,
+    "apoBillingOrSettingsChanged": false,
+    "rocketLoaderExclusion": {
+      "provenanceFile": "docs/performance/2026-11-09-rocket-loader-exclusion.json",
+      "provenanceSha256": "557aabc09831652000438a01795525602984f98e4669cdf920b2cf8bd08d4ec3",
+      "publicCompatibilityVerified": true,
+      "zoneSettingValueKnown": false,
+      "zoneSettingsChanged": false,
+      "scriptBodiesAndOrderPreserved": true
+    }
   }
 }

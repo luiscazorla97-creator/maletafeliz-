@@ -10,7 +10,9 @@
   ],
   "requestedCount": 3,
   "publishedCount": 0,
-  "errors": [],
+  "errors": [
+    "Execution interrupted: managed cloud executor is offline/unavailable; final editorial/image review, build:release, deployment and public verification have not completed. No new article is publicly verified by this execution."
+  ],
   "execution": {
     "executionId": "33d7762b-3533-4f19-baee-4d2923f6a9ed",
     "startedAt": "2026-11-10T15:43:26.655417+00:00",
@@ -18,7 +20,44 @@
     "leaseUntil": "2026-11-10T19:43:26.655417+00:00",
     "status": "in-progress",
     "baseCommit": "716a6fdd84311b05bc368c6a07fdddb6d7c678b5",
-    "coordination": "Explicit new manual request for three originals, ES/EN each; zero unique verified new originals on10NovemberNewYork, no active pre-existing lease. Preserve all older batches and daily2/noonMiami; do not start a concurrent automatic batch while this lease is active."
+    "coordination": "Explicit new manual request for three originals, ES/EN each; zero unique verified new originals on10NovemberNewYork, no active pre-existing lease. Preserve all older batches and daily2/noonMiami; do not start a concurrent automatic batch while this lease is active.",
+    "interruption": {
+      "observedAt": "2026-11-10T15:56:45Z",
+      "environmentId": "ccarenv_b64_Y2NhcmVudl82ZmI4YTdiYjBmODQ4MTkxOTJlODcyN2M0NGVjODhjYg",
+      "connectivity": "offline",
+      "environmentStatus": "unavailable",
+      "processError": "exec-server transport disconnected; No usable execution environment",
+      "publicArticlesVerified": 0,
+      "pending": [
+        "Complete independent text and image review",
+        "Merge verified image manifests without changing historical entries",
+        "Assign final publication dates and hash-bound approvals",
+        "Run repository checks including npm run build:release",
+        "Push reviewed source without overwriting other commits",
+        "Verify both existing Cloudflare Pages deployments and all six localized URLs"
+      ],
+      "recovery": {
+        "instructions": "Resume this same reserved batch; do not reserve replacement topics. Reconcile remote main before editing and inspect the existing lease and all publications for the New York date. The disconnected workspace reportedly contains drafts and images, but recover and verify their actual files before relying on them. No publication or final review is claimed.",
+        "workspace": "/workspace/maletafeliz-",
+        "artifacts": "/workspace/artifacts/maletafeliz-manual-three-n10",
+        "drafts": [
+          "content/articles/matsumoto.es.json",
+          "content/articles/matsumoto.en.json",
+          "content/articles/patzcuaro.es.json",
+          "content/articles/patzcuaro.en.json",
+          "content/articles/perugia.es.json",
+          "content/articles/perugia.en.json"
+        ],
+        "photoFragments": [
+          "/workspace/artifacts/maletafeliz-manual-three-n10/photos/matsumoto/photos-fragment.json",
+          "/workspace/artifacts/maletafeliz-manual-three-n10/photos/perugia/photos-fragment.json",
+          "/workspace/artifacts/maletafeliz-manual-three-n10/photos/patzcuaro/photos-fragment.json"
+        ],
+        "reportedWorkNotCommitted": "Six drafts, official-source evidence, fifteen documentary photos and fifty-one optimized WebP derivatives are reported in the disconnected workspace; final consolidated verification is incomplete and these assets are not saved in GitHub.",
+        "lastSuccessfulSourceCommit": "709e495d1042bb4d2fd86b38e83c403306fc29ef",
+        "scheduleChanged": false
+      }
+    }
   },
   "authorization": {
     "request": "publica 3 articulos",

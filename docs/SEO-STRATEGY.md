@@ -93,3 +93,7 @@ El 8 de noviembre se verificaron dos originales nuevos y cuatro versiones por el
 ## Dos originales diarios verificados: 9 de noviembre de 2026
 
 Morelia y Bérgamo añaden dos originales y cuatro versiones completas ES/EN. El censo inicial fue cero; el total único verificado del día de Nueva York queda en dos. Se conservan todos los lotes anteriores y la frecuencia de dos originales al mediodía de Miami. Diez lugares cuentan con fotos documentales propias, treinta variantes optimizadas y 17 documentos oficiales citados. Cobertura: Italia 19/30, Japón 16/25, México 15/25 y Estados Unidos 20/20: 70/100; faltan 30. Catálogo: 188 originales/376 versiones, con los 53 de Navidad y el backlog de 73 candidatos intactos. La auditoría técnica SEO ya publicada y sus correcciones se mantienen. Evidencia: `editorial/verification/2026-11-09-publication.json`.
+
+## Tres originales manuales verificados: 10 de noviembre de 2026
+
+Matsumoto, Pátzcuaro y Perugia añaden tres originales y seis versiones completas; 15 lugares tienen fotos propias, 51 WebP responsivos y 24 documentos oficiales citados. Cobertura: Italia 20/30, Japón 17/25, México 16/25 y Estados Unidos 20/20: 73/100; faltan 27. Catálogo 191/382, con 53 originales de Navidad intactos. Los 73 registros del backlog y los pedidos anteriores permanecen sin cambios; únicamente latestVerifiedCoverage se actualizó después de las pruebas públicas. Frecuencia diaria de dos al mediodía de Miami intacta. Evidencia: `editorial/verification/2026-11-10-manual-three-publication.json`.

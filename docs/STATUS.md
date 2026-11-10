@@ -1,6 +1,18 @@
 # Estado del proyecto
 
-Verificado el 9 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
+Verificado el 10 de noviembre de 2026 en America/New_York. Especificación vigente: `requirements.md`.
+
+## Tres originales manuales: 10 de noviembre de 2026
+
+Publicadas Matsumoto, Pátzcuaro y Perugia por el pedido manual explícito de tres artículos: tres originales nuevos y seis versiones completas ES/EN. La reserva y su interrupción quedaron conservadas, y el trabajo se retomó en el mismo lote. El censo inicial fue cero; esta ejecución verifica tres temas únicos en la fecha de Nueva York. La frecuencia diaria de dos al mediodía de Miami y el programador externo no cambiaron.
+
+Se leyeron 24 documentos oficiales citados y las licencias específicas de 15 fotografías documentales, una por lugar. Sus originales se conservan y se sirven 51 WebP responsivos con hashes, dimensiones, crédito, licencia y ALT bilingüe. La revisión editorial asistida por Codex y la comprobación independiente de IA precedieron las aprobaciones por hash; no se afirma revisión humana. Se distinguen accesos e interiores, calendarios y limitaciones de movilidad, sin inventar precios, demanda, aperturas o experiencias personales.
+
+GitHub Actions aprobó el commit `a0910c74c099b2e3e31800309823077d891def63`: 87 unitarias, 28 de navegación y 820 de producción, 935 pruebas en total. Las compilaciones normal y obligatoria `npm run build:release` generaron 908 HTML. Se preservaron las 896 rutas anteriores y los 376 artículos por bytes, fechas y metadatos; se comprobaron 46447 enlaces y fragmentos. El sitemap contiene 902 URLs, incluidas las 382 versiones. Las seis nuevas guías tienen canonical, hreflang recíprocos, Article JSON-LD, texto HTML, fotos y enlaces desde buscador, ciudad, país e índices.
+
+Ambos proyectos existentes de Cloudflare completaron el mismo commit, con checkout y registros reales comprobados. Pasaron 390 comprobaciones HTTPS del catálogo completo de 382 versiones y rutas auxiliares. Además se verificaron las seis URLs nuevas, 51 archivos fotográficos exactos y seis redirecciones www; las cuatro combinaciones de idioma/escritorio/móvil completaron doce recorridos de búsqueda, navegación y traducción. Los proveedores externos se aislaron solamente en el navegador funcional para evitar impresiones y colección de Analytics; no se afirma entrega de creatividades ni rendimiento PageSpeed. La sonda con UA de Googlebot no acredita IP de Google, rastreo ni indexación.
+
+Catálogo: 191 originales, 382 versiones, 846 fotos, 844 lugares fotografiados y 897 fuentes citadas. Los 53 originales de Navidad, 73 candidatos del backlog, contenidos, diseño 3D, logo, anuncios, Analytics/consentimiento, popunder desactivado, SEO y configuración de publicación permanecen intactos. Cobertura: Italia 20/30, Japón 17/25, México 16/25, Estados Unidos 20/20; 73/100, con 27 pendientes. Evidencia: `editorial/verification/2026-11-10-manual-three-publication.json`. No se garantizan visitas, posicionamiento, indexación ni atribución desatendida.
 
 ## Dos originales diarios: 9 de noviembre de 2026
 
@@ -28,9 +40,9 @@ Informe: `docs/INDEXING-AUDIT-2026-11-09.md`. Evidencia: `editorial/verification
 
 https://maletafeliz.com/es/ y /en/ responden por HTTPS. El host www redirige con HTTP 301 al dominio principal conservando rutas y parámetros. `editorial/publication.json` registra el despliegue y sus comprobaciones públicas.
 
-- 188 guías originales y 376 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
-- 873 registros de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
-- 831 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
+- 191 guías originales y 382 versiones completas en español e inglés, con profundidad según la consulta, itinerarios, preguntas, fuentes y enlaces relacionados.
+- 897 registros de fuentes citadas con fechas, estado HTTP, huellas y hechos conservados. Las revisiones se identifican como asistidas por Codex; no se afirma revisión humana independiente.
+- 846 fotografías publicadas con procedencia, autor, licencia, ALT bilingüe, dimensiones, hashes y derivados WebP. Las fotos de archivo no acreditan disponibilidad de un evento actual.
 - La campaña de diez países para Halloween y cinco guías mexicanas de Día de Muertos está publicada en ambos idiomas. Tiene una categoría propia, enlaces desde la portada y presencia en el sitemap. No se afirma un ranking de volumen de búsquedas sin datos.
 - Las guías distinguen fechas de 2026, eventos ya concluidos, productos separados y entradas agotadas. Oaxaca se presenta como estancia cultural: no se inventa un calendario local de comparsas ni ceremonias en Monte Albán.
 - Canonical y hreflang recíprocos, selector al mismo artículo traducido, JSON-LD, sitemap, robots de producción y respuesta 404. Búsqueda y páginas vacías no indexables.

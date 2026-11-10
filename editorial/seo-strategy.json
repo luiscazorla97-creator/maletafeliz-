@@ -1391,14 +1391,14 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-09T18:10:26.624162+00:00",
+    "verifiedAt": "2026-11-10T16:45:40.156062+00:00",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 19,
-        "localizedVersions": 38,
+        "publishedOriginals": 20,
+        "localizedVersions": 40,
         "targetOriginals": 30,
-        "missingOriginals": 11,
+        "missingOriginals": 10,
         "articleIds": [
           "amalfi-coast",
           "bergamo",
@@ -1414,6 +1414,7 @@
           "lucca",
           "milan",
           "padua",
+          "perugia",
           "pisa",
           "rome",
           "siena",
@@ -1423,10 +1424,10 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 16,
-        "localizedVersions": 32,
+        "publishedOriginals": 17,
+        "localizedVersions": 34,
         "targetOriginals": 25,
-        "missingOriginals": 9,
+        "missingOriginals": 8,
         "articleIds": [
           "christmas-fukuoka",
           "christmas-osaka",
@@ -1436,6 +1437,7 @@
           "hiroshima",
           "kanazawa",
           "kyoto",
+          "matsumoto",
           "mount-fuji",
           "nara",
           "nara-day-trip-transport",
@@ -1448,10 +1450,10 @@
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 15,
-        "localizedVersions": 30,
+        "publishedOriginals": 16,
+        "localizedVersions": 32,
         "targetOriginals": 25,
-        "missingOriginals": 10,
+        "missingOriginals": 9,
         "articleIds": [
           "cancun",
           "guanajuato",
@@ -1464,6 +1466,7 @@
           "muertos-oaxaca",
           "muertos-puebla",
           "oaxaca",
+          "patzcuaro",
           "puebla",
           "queretaro",
           "riviera-maya",
@@ -1500,9 +1503,9 @@
         ]
       }
     ],
-    "priorityOriginals": 70,
-    "missingToInitial100": 30,
-    "publicVerification": "editorial/verification/2026-11-09-publication.json"
+    "priorityOriginals": 73,
+    "missingToInitial100": 27,
+    "publicVerification": "editorial/verification/2026-11-10-manual-three-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {

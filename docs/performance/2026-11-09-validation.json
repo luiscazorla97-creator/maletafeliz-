@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-09T23:24:39.214148+00:00",
+  "checkedAt": "2026-11-10T00:03:31.135701+00:00",
   "baselineCommit": "5d7d413a3f1056b1aaf4dc6a640ecb1248d8d92f",
   "readyForDeployment": true,
   "publiclyPublishedClaimed": false,
@@ -19,7 +19,7 @@
   },
   "localChecks": {
     "typesErrors": 0,
-    "unitTests": 80,
+    "unitTests": 87,
     "selectedProductionTests": 64,
     "finalMandatoryProductionBuildPages": 896,
     "preliminaryNormalBuildPages": 896,
@@ -35,11 +35,11 @@
       "speed-index": 2283.6109684369435
     },
     "after": {
-      "first-contentful-paint": 1204.9817626908787,
-      "largest-contentful-paint": 2405.9113129453835,
-      "total-blocking-time": 118,
+      "first-contentful-paint": 1204.7630689134298,
+      "largest-contentful-paint": 2404.0381318088666,
+      "total-blocking-time": 126.5,
       "cumulative-layout-shift": 0,
-      "speed-index": 2116.6591355390024
+      "speed-index": 1648.709340966774
     },
     "beforeScores": {
       "performance": 95,
@@ -48,12 +48,12 @@
       "seo": 100
     },
     "afterScores": {
-      "performance": 97,
+      "performance": 96,
       "accessibility": 100,
       "best-practices": 96,
       "seo": 100
     },
-    "source": "Three before-native and three after-final-960 profiles; raw reports/traces and all rejected experiments retained outside Git."
+    "source": "Three before-native and three after-final-script-exclusion runs; earlier iteration separately retained."
   },
   "observedFirstPartyImageBytes": {
     "before": 1055348,
@@ -70,10 +70,14 @@
     "existingPhotoFamiliesOptimized": 15,
     "newPhotoAvifFiles": 73,
     "newIllustrationVariants": 1,
-    "totalNewAvifAssets": 74
+    "totalNewAvifAssets": 74,
+    "astroConfigUnchangedExceptPinnedRocketLoaderHook": true,
+    "packageAndLockUnchangedExceptPinnedBuildParser": true,
+    "scriptBodiesOrderAndAdConfigurationPreserved": true,
+    "rocketLoaderOptOutAnnotationsAdded": 8887
   },
-  "staticProofSha256": "6dfb5c4d55682a2e5556ec12f981ebf3bdc72fe9b3c7f1ddc63328ba81a520c0",
-  "geometryProofSha256": "9974828f5a957e6ee42216797a337098d5cd95bcf665d9c2273d0ca98c90204e",
+  "staticProofSha256": "f705d6295c21cdfaf1740d19357d6f5ec4b640633edeb3e139e616aec3da4c43",
+  "geometryProofSha256": "b21edb6a68fc09d67d3e81b9525fe3dd23d752e45594a576e72be755074d46a2",
   "googleApi": {
     "requestedAt": "2026-11-09T22:06:27.175262+00:00",
     "url": "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fmaletafeliz.com%2Fen%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo",
@@ -93,5 +97,16 @@
     "Original Google46/CLS0.447 is not comparable to local before95/after97; updated Google measurement unavailable after HTTP429.",
     "No public success or unattended scheduling attribution is claimed by this local document.",
     "Google original CLS was not reproduced; no unsupported cause or guaranteed field result is claimed."
-  ]
+  ],
+  "sourceIteration": "Final script-exclusion revision",
+  "firstPerformanceSourceCommit": "574c3a891f35a1d262bf72fefb4fcf00ab4e58ec",
+  "rocketLoaderExclusion": {
+    "provenanceFile": "docs/performance/2026-11-09-rocket-loader-exclusion.json",
+    "provenanceSha256": "557aabc09831652000438a01795525602984f98e4669cdf920b2cf8bd08d4ec3",
+    "zoneApiHttpStatus": 403,
+    "zoneSettingsChanged": false,
+    "publicRevisionVerified": false
+  },
+  "staticProofReferenceUpdatedAt": "2026-11-10T00:04:09.735533+00:00",
+  "staticProofReferenceUpdateReason": "Final independent proof rerun after allowed preparation documentation was written; same compiled HTML fingerprint and approved build source."
 }

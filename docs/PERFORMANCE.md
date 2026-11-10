@@ -61,7 +61,9 @@ Publicación comprobada: los proyectos `maletafeliz-web` y `maletafeliz-www` com
 Archivos de implementación: `src/components/{Article,DestinationCard,Home,TravelGlobe}.astro`, `src/layouts/Layout.astro`, `src/pages/index.astro`, `src/styles/global.css`, `src/lib/{hero-image,image-sizes}.ts` y cinco derivados en `src/assets/atlas/`. Documentación y pruebas conservadas en este documento, `docs/performance/` y las verificaciones `2026-11-04-mobile-performance-*.json`. Los registros de despliegue y actividad se actualizan por separado, sin añadir temas al lote.
 
 
-## Actualización del 9 de noviembre de 2026
+## Primera revisión del 9 de noviembre de 2026
+
+Esta sección registra la primera revisión, commit `574c3a891f35a1d262bf72fefb4fcf00ab4e58ec`. La segunda revisión de abajo añade la protección de scripts y tiene sus propias mediciones finales.
 
 Página medida: `https://maletafeliz.com/en/`. El informe real aportado por el titular (ID `01qu6wdoid`, 16:58 de Nueva York) se descargó y leyó completo: rendimiento 46, FCP 4,047 s, LCP 6,017 s, CLS 0,447 y TBT 1 ms. La captura identifica `img.earth`; su AVIF ya tenía carga anticipada, prioridad alta y carga inmediata. En la traza observada aparecen 106 ms de espera, 226 ms de descarga y 2.001 ms de demora de renderizado. Esas subfases sin simulación no se suman para explicar el LCP móvil simulado. El único desplazamiento señalado afecta a `body`; no se reprodujo en las mediciones instrumentadas, por lo que no se atribuye a una causa de aplicación confirmada ni se afirma haber corregido ese valor de Google.
 
@@ -91,4 +93,17 @@ Los cuatro puntos de prácticas recomendadas del informe de Google corresponden 
 
 El titular pidió instalar el complemento APO que compró. La [documentación oficial de Cloudflare](https://developers.cloudflare.com/automatic-platform-optimization/) exige el plugin de WordPress. Este proyecto utiliza Astro y Cloudflare Pages, no WordPress: el complemento no se instaló, no se cambió el alojamiento y no se modificó la suscripción ni la facturación.
 
-Datos: [antes](performance/2026-11-09-before.json), [después](performance/2026-11-09-after.json), [fotos](performance/2026-11-09-photo-variants.json), [globo](performance/2026-11-09-hero-variant.json) y [validación previa al despliegue](performance/2026-11-09-validation.json). La publicación pública se acredita por separado después de los despliegues y las comprobaciones HTTPS.
+Datos de la primera revisión: [antes](performance/2026-11-09-before.json), [después](https://github.com/luiscazorla97-creator/maletafeliz-/blob/574c3a891f35a1d262bf72fefb4fcf00ab4e58ec/docs/performance/2026-11-09-after.json), [fotos](performance/2026-11-09-photo-variants.json), [globo](performance/2026-11-09-hero-variant.json) y [validación previa al despliegue](performance/2026-11-09-validation.json). La publicación pública se acredita por separado después de los despliegues y las comprobaciones HTTPS.
+
+
+## Segunda revisión: conservar la ejecución de scripts con Rocket Loader
+
+La primera revisión completó ambos proyectos Pages y 916 pruebas CI. Las 384 rutas HTTPS, 74 AVIF y CSS eran correctos, pero la comprobación estricta detectó Rocket Loader activado en la respuesta pública: reescribía once scripts e inyectaba su cargador. Esa transformación no estaba en el HTML público inicial ni en las 34 solicitudes del informe original de Google. No se atribuye a ella el CLS original de 0,447. La evidencia parcial se conservó expresamente como no aprobada.
+
+La consulta de la zona por la API de Cloudflare devolvió HTTP403; no se cambió ningún ajuste de zona, seguridad, caché, APO, DNS ni facturación. La alternativa oficial es añadir `data-cfasync="false"` antes de `src`, también en dependencias. Un hook de compilación lo inserta después de que Astro genere sus módulos. `parse5` 8.1.1 se usa exclusivamente en el proceso de build, nunca en el navegador. No se añaden atributos directamente a scripts Astro porque eso podría desactivar su compilación. Se conservan cuerpos, orden, IDs, URLs, dimensiones y anuncios; JSON-LD, mapas de importación y scripts inertes quedan idénticos. Los atributos existentes con posiciones o valores incompatibles hacen fallar el build.
+
+El revisor independiente reconstruyó el HTML anterior retirando solo las inserciones verificadas y comprobó las 896 páginas, los archivos JavaScript y todos los contenidos protegidos. Pasaron tipos, 87 pruebas unitarias y 64 pruebas locales de producción; la compilación obligatoria volvió a generar 896 páginas. El build normal y la navegación local siguen siendo preliminares: el código final deberá completar ambos builds y las 28 pruebas de navegación más 808 de producción en CI antes del cierre público.
+
+Tres nuevas corridas finales con el mismo Chrome, Lighthouse y configuración: rendimiento mediano 96; LCP 2.404 s; FCP 1.205 s; TBT 126.5 ms; CLS 0. La referencia controlada sigue en 95 puntos y LCP 2.633 s. Son mediciones locales, no una nueva puntuación de Google. La API pública respondió429 y no se eludió su cuota.
+
+Datos de esta revisión: [antes](performance/2026-11-09-before.json), [después](performance/2026-11-09-after.json), [exclusión de scripts](performance/2026-11-09-rocket-loader-exclusion.json) y [validación privada](performance/2026-11-09-validation.json). Los informes anteriores, incluidos los 97 puntos y 2,406 s de la primera revisión, se conservan en el commit `574c3a8` y sus artefactos separados. La publicación y compatibilidad pública de esta revisión siguen pendientes en este registro previo al despliegue.

@@ -28,6 +28,7 @@ import { route } from '../../lib/routes';
 import { absolute, production } from '../../lib/site';
 import {
   collectionDescription,
+  countryCollectionTitle,
   compactDescription,
 } from '../../lib/collection-seo';
 import {
@@ -331,11 +332,25 @@ const collectionMetadata =
         guideCount: selectedGuideCount,
       })
     : undefined;
+const metadataTitle =
+  countryGuide?.seoTitle ||
+  (isCountry
+    ? countryCollectionTitle({
+        lang,
+        countryId,
+        title: title!,
+        publishedCities: selection.filter((d) =>
+          publishedArticles.some(
+            (a) => a.locale === lang && a.destinationId === d.id,
+          ),
+        ),
+      })
+    : title!);
 ---
 
 <Layout
   lang={lang}
-  title={countryGuide?.seoTitle || title!}
+  title={metadataTitle}
   description={
     article?.description ||
     countryGuide?.description ||

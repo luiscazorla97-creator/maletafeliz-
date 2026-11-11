@@ -1,0 +1,27 @@
+{
+  "url": "https://www.leon.gob.mx/visita-leon.php",
+  "fetchedAt": "2026-11-11T17:05:05.616Z",
+  "finalUrl": "https://www.leon.gob.mx/visita-leon.php",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "026257b62bee4643c06614a2c47e39c76e017cc97d7cfa6992d74df875d8cb75",
+  "bytes": 19183,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The municipal tourism page identifies Templo Expiatorio as neo-Gothic with modern elements. The copied Fuente de los Leones text under the park heading is excluded.",
+      "excerpt": "Es de estilo neogótico con elementos modernos.",
+      "location": "Municipal tourism main body, item 3 Templo Expiatorio; item 1 is not used.",
+      "excerptLocations": [
+        {
+          "text": "Es de estilo neogótico con elementos modernos.",
+          "extractedTextLine": 36
+        }
+      ]
+    }
+  ],
+  "notes": "Municipal tourism source supports only the Expiatorio architecture and official tourism-site context. A copied paragraph under the park heading is not treated as evidence about the park.",
+  "readMethod": "Actual captured body read in extracted text; facts checked against the named body sections.",
+  "traceabilityNote": "Short verbatim excerpts locate the read passages; structured numeric/address fields are factual transcription. The original captured body and its SHA-256, final URL, HTTP status and capture time remain unchanged. No recapture or date refresh.",
+  "excerptWordCount": 7
+}

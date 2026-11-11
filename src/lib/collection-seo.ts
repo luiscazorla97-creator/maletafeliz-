@@ -10,6 +10,28 @@ export type CollectionSeoInput = {
   guideCount: number;
 };
 
+/** Distinguish a country archive from a same-named published city page. */
+export function countryCollectionTitle({
+  lang,
+  countryId,
+  title,
+  publishedCities,
+}: {
+  lang: Locale;
+  countryId: string;
+  title: string;
+  publishedCities: readonly {
+    countryId: string;
+    city: Record<Locale, string>;
+  }[];
+}): string {
+  const sameNamedCity = publishedCities.some(
+    (city) => city.countryId === countryId && city.city[lang] === title,
+  );
+  if (!sameNamedCity) return title;
+  return lang === 'es' ? `Guías de viaje por ${title}` : `${title} travel guides`;
+}
+
 /** Prefer word boundaries when shortening plain source text for metadata. */
 export function compactDescription(text: string, maxLength = 160): string {
   if (!Number.isSafeInteger(maxLength) || maxLength < 1)

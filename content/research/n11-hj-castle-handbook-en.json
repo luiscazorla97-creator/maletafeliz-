@@ -1,0 +1,32 @@
+{
+  "url": "https://www.himejicastle.jp/en/",
+  "finalUrl": "https://www.himejicastle.jp/en/",
+  "fetchedAt": "2026-11-11T17:06:33.784Z",
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "contentSha256": "cd914d9bf895047f55cf5105e5d9c7a93a18a3eed6e4fef770e077dc5c78b518",
+  "title": "Himeji Castle — official visitor information",
+  "facts": [
+    {
+      "fact": "The official castle handbook distinguishes regular adult admission, Himeji resident admission and a castle/Koko-en combination; its current table must be used rather than pre-2026 rates.",
+      "excerpt": "Combined ticket for Himeji Castle and Kokoen Garden",
+      "location": "Admission fee table"
+    },
+    {
+      "fact": "Visitors remove outdoor shoes inside the main keep and other buildings; the operator recommends bringing a shoe bag and thick socks or suitable indoor shoes.",
+      "excerpt": "Please bring thick socks or comfortable indoor shoes.\nThe inside of the buildings (Main Keep etc.) is a wooden floor.\nBecause it is slippery and dangerous, also there is a risk of damaging cultural properties with heels of shoes, please do not use the provided shoe bags as shoe covers.\nNo outdoor shoes are allowed inside the buildings (Main keep. etc.).",
+      "location": "2026.11.01 visitor notice, raw extracted TXT lines15–19. Line15 asks for a shoe bag; line19 explicitly disallows outdoor shoes. The quoted sentences establish permitted/recommended indoor footwear."
+    },
+    {
+      "fact": "Historic tower and turret interiors have no elevator and steep narrow stairs; wheelchairs cannot enter those buildings.",
+      "excerpt": "There are no elevators in the castle tower or turrets.\nAlthough there are handrails, the stairs are very steep and narrow.\nPlease note that wheelchairs are not accessible inside buildings such as the main keep and turrets.",
+      "location": "2026.11.01 visitor notice, raw extracted TXT lines27–29"
+    },
+    {
+      "fact": "The station-side arrival references are JR Himeji and Sanyo Himeji; the official handbook describes walking or a bus from the north exit to Otemon-mae.",
+      "excerpt": "North Exit of Himeji Station",
+      "location": "Access section"
+    }
+  ],
+  "notes": "Official response actually fetched and cited passages read on the recorded date. Raw HTML, extracted text and response metadata retained outside Git under artifacts/maletafeliz-daily-two-n11/himeji/research. Route choices are original editorial advice. No personal visit, demand volume, rankings or guaranteed access inferred from archive photographs. Numerical prices and routine departure times intentionally omitted; consult the linked operator for date-specific conditions."
+}

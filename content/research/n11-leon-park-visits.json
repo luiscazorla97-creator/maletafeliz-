@@ -1,0 +1,58 @@
+{
+  "url": "https://www.parquemetroleon.mx/visitas/",
+  "fetchedAt": "2026-11-11T17:08:02.925Z",
+  "finalUrl": "https://www.parquemetroleon.mx/visitas/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "619f018355d238af619113b7254807cd3386f53dcb8c7ad65deca88548326df4",
+  "bytes": 162240,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The operator explicitly lists walking, recreational cycling, bird observation and viewing the reservoir as possible activities. No particular sighting, water level or equipment availability is guaranteed.",
+      "excerpt": "Caminar … Ciclismo recreativo (Renta de bicicletas) … Observación de aves … Observación de la presa",
+      "location": "Qué hacer en el parque, active and contemplative activity lists.",
+      "excerptLocations": [
+        {
+          "text": "Caminar",
+          "extractedTextLine": 39
+        },
+        {
+          "text": "Ciclismo recreativo (Renta de bicicletas)",
+          "extractedTextLine": 38
+        },
+        {
+          "text": "Observación de aves",
+          "extractedTextLine": 48
+        },
+        {
+          "text": "Observación de la presa",
+          "extractedTextLine": 51
+        }
+      ]
+    },
+    {
+      "fact": "Its activity groupings include social, active and contemplative options. The guide’s suggestion of a selected walk is editorial planning advice rather than a mandatory full circuit.",
+      "excerpt": "Actividades de convivencia … Movilidad / activo … Actividades contemplativas",
+      "location": "Activity-list headings.",
+      "excerptLocations": [
+        {
+          "text": "Actividades de convivencia",
+          "extractedTextLine": 28
+        },
+        {
+          "text": "Movilidad / activo",
+          "extractedTextLine": 37
+        },
+        {
+          "text": "Actividades contemplativas",
+          "extractedTextLine": 46
+        }
+      ]
+    }
+  ],
+  "notes": "Operator visiting page read. The itinerary avoids depending on a boat, kayak, train or bicycle rental. Current water levels and weather-dependent operations were not independently measured.",
+  "readMethod": "Actual captured body read in extracted text; facts checked against the named body sections.",
+  "traceabilityNote": "Short verbatim excerpts locate the read passages; structured numeric/address fields are factual transcription. The original captured body and its SHA-256, final URL, HTTP status and capture time remain unchanged. No recapture or date refresh.",
+  "excerptWordCount": 21
+}

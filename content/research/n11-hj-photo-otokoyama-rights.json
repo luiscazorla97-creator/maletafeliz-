@@ -1,0 +1,65 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Mt-otokoyama03.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Mt-otokoyama03.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-11T17:06:32.619Z",
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "0e564fc38ba19bf70de31449ffe6b122f9ebfcbe73b6f0dcd5fcb75908905ac9",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The individual Commons file page was actually read. It identifies the supplied title and named creator and explicitly grants the selected licence. Other listed alternatives are not needed for this use.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.",
+      "location": "Individual file page, Information table and selected Licensing box; title and author retained in credit."
+    },
+    {
+      "fact": "The individual file description explicitly identifies Otokoyama Reservoir Park/男山配水池公園 in Himeji. The image visibly shows its lawn and planted borders with Himeji Castle in the background. It documents the recommended hilltop park itself, not a photograph taken only from castle grounds or a separate shrine.",
+      "excerpt": "Otokoyama Reservoir Park in Himeji, Hyogo, Japan",
+      "location": "Individual file page, Description and Date/Author fields, matched with visual inspection of the supplied documentary image."
+    },
+    {
+      "fact": "The selected licence deed was actually read. Sharing and adaptation for commercial use are permitted with attribution, licence link, indication of changes and ShareAlike where applicable. No endorsement is implied.",
+      "excerpt": "ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.",
+      "location": "Applicable Creative Commons deed, You are free / Under the following terms; dated HTTP 200 capture and hash retained."
+    },
+    {
+      "fact": "The source-provided image was downloaded, its exact bytes, dimensions and SHA-256 recorded, and three responsive WebP derivatives were generated without enlargement or generative changes. Final editorial review remains separate.",
+      "excerpt": "API-provided image URL and actual downloaded bytes; Sharp dimensions and optimized derivative hash ledger.",
+      "location": "Documentary download capture and staged originals/variants."
+    }
+  ],
+  "notes": "Archive documentary photograph. This record does not establish current access, scaffolding status, seasonal appearance or exhibition content. The old source-provided resolution is preserved byte-for-byte; no source full-resolution download is claimed unless it is the API-provided unscaled file. Source page, applicable deed, response bodies and SHA-256 captures retained outside Git.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-11T17:06:33.199Z",
+    "contentType": "text/html",
+    "contentSha256": "9a17cd36de36b242cbe4234773116f2036f86a8ce4459af8b37fd120482ca931",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Mt-otokoyama03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Mt-otokoyama03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-11T17:06:33.088Z",
+    "contentType": "image/jpeg",
+    "contentSha256": "457051edff4fc692e0a686bac160c9fe2154071a5aa24ccfeda2e37537afcfa3",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "title": "File:Mt-otokoyama03.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Mt-otokoyama03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1000,
+    "height": 750,
+    "bytes": 115367,
+    "dateTaken": "2011-08-17",
+    "providedUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Mt-otokoyama03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "providedRendition": "Commons API-provided unscaled image",
+    "fullResolutionOriginalDownloaded": true,
+    "publicGeo": {
+      "latitude": null,
+      "longitude": null
+    }
+  }
+}

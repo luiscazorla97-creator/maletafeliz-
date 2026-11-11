@@ -1,8 +1,77 @@
 import { describe, expect, it } from 'vitest';
 import {
   collectionDescription,
+  countryCollectionTitle,
   compactDescription,
 } from '../src/lib/collection-seo';
+
+describe('country and city title scope', () => {
+  const singapore = {
+    countryId: 'sg',
+    city: { es: 'Singapur', en: 'Singapore' },
+  };
+  const tunis = {
+    countryId: 'tn',
+    city: { es: 'Túnez', en: 'Tunis' },
+  };
+
+  it('qualifies homonyms in their own language and keeps Tunisia distinct from Tunis', () => {
+    expect(
+      countryCollectionTitle({
+        lang: 'es',
+        countryId: 'sg',
+        title: 'Singapur',
+        publishedCities: [singapore],
+      }),
+    ).toBe('Guías de viaje por Singapur');
+    expect(
+      countryCollectionTitle({
+        lang: 'en',
+        countryId: 'sg',
+        title: 'Singapore',
+        publishedCities: [singapore],
+      }),
+    ).toBe('Singapore travel guides');
+    expect(
+      countryCollectionTitle({
+        lang: 'es',
+        countryId: 'tn',
+        title: 'Túnez',
+        publishedCities: [tunis],
+      }),
+    ).toBe('Guías de viaje por Túnez');
+    expect(
+      countryCollectionTitle({
+        lang: 'en',
+        countryId: 'tn',
+        title: 'Tunisia',
+        publishedCities: [tunis],
+      }),
+    ).toBe('Tunisia');
+  });
+
+  it('ignores names shared only by a city in another country', () => {
+    expect(
+      countryCollectionTitle({
+        lang: 'en',
+        countryId: 'different-country',
+        title: 'Singapore',
+        publishedCities: [singapore],
+      }),
+    ).toBe('Singapore');
+  });
+
+  it('keeps country titles when no same-named city has a published guide', () => {
+    expect(
+      countryCollectionTitle({
+        lang: 'es',
+        countryId: 'sg',
+        title: 'Singapur',
+        publishedCities: [],
+      }),
+    ).toBe('Singapur');
+  });
+});
 
 describe('collection metadata', () => {
   it('distinguishes the three localized navigation indexes', () => {

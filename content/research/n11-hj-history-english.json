@@ -1,0 +1,27 @@
+{
+  "url": "https://rekihaku.pref.hyogo.lg.jp/en/",
+  "finalUrl": "https://rekihaku.pref.hyogo.lg.jp/en/",
+  "fetchedAt": "2026-11-11T17:05:43.875Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "51dec21c968011a798ac4e1e0e7d463de3044c62779e6eca8c96735f8e7d0c9b",
+  "title": "Hyogo Prefectural Museum of History — exhibitions and floor guide",
+  "facts": [
+    {
+      "fact": "The museum describes displays about the main keep's East Main Pillar and restoration-related shachihoko, plus Showa-restoration footage in the free 1F area; the quoted description does not establish the physical originality of every displayed object. The 2F has charged exhibition areas.",
+      "excerpt": "Anatomy of Himeji Castle\n1F\nFree Area\nYou can see exhibits showcasing the East Main Pillar of the World Heritage Site and National Treasure, Himeji Castle's main keep, as well as the shachihoko, which played a crucial role in the repair at the Showa era(1956-64). We recommend visiting this exhibition before exploring the castle.\nTheater\n1F\nFree Area\nYou can see valuable footage of the major repairs during the Showa era, completed in 1964.\nSpecial Exhibition Room\n2F\nCharged Area",
+      "location": "Permanent Exhibitions, raw extracted TXT lines83–93; no authenticity inference from English showcases wording"
+    },
+    {
+      "fact": "Exhibitions cover Hyogo's five historic provinces, everyday objects, children's culture, festivals and Japanese castle models.",
+      "excerpt": "In this room, you can see the history from ancient to modern times, encompassing the former five provinces of Settsu, Harima, Tajima, Tamba, and Awaji, which laid the foundation for present-day Hyogo Prefecture.",
+      "location": "History of Hyogo, 2F Charged Area, raw extracted TXT lines95–98; children/festivals/castle models continue in later named sections"
+    },
+    {
+      "fact": "Certain galleries may be used for large exhibitions, so permanent-room availability is not guaranteed during all exhibition arrangements.",
+      "excerpt": "Please note that this space may be utilized as a venue for large-scale exhibitions.",
+      "location": "History of Hyogo, raw extracted TXT line98 final notice"
+    }
+  ],
+  "notes": "Official response actually fetched and cited passages read on the recorded date. Raw HTML, extracted text and response metadata retained outside Git under artifacts/maletafeliz-daily-two-n11/himeji/research. Route choices are original editorial advice. No personal visit, demand volume, rankings or guaranteed access inferred from archive photographs. Numerical prices and routine departure times intentionally omitted; consult the linked operator for date-specific conditions."
+}

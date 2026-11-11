@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
+import { parse } from 'parse5';
+import { robotsAllows } from '../../scripts/lib/live-seo.mjs';
 
 const articles = readdirSync('content/articles')
   .filter((file) => file.endsWith('.json'))
@@ -11,6 +13,95 @@ const articles = readdirSync('content/articles')
 const plan = JSON.parse(readFileSync('editorial/plan.json', 'utf8'));
 const pathFor = (a: any) =>
   `/${a.locale}/${a.locale === 'es' ? 'guias' : 'guides'}/${a.slug}/`;
+
+type HtmlNode = {
+  tagName?: string;
+  value?: string;
+  attrs?: { name: string; value: string }[];
+  childNodes?: HtmlNode[];
+};
+const nodes = (node: HtmlNode): HtmlNode[] => [
+  node,
+  ...(node.childNodes || []).flatMap(nodes),
+];
+const attribute = (node: HtmlNode, name: string) =>
+  node.attrs?.find((item) => item.name === name)?.value;
+const text = (node: HtmlNode): string =>
+  node.value || (node.childNodes || []).map(text).join('');
+const htmlFiles = (directory: string): string[] =>
+  readdirSync(directory, { withFileTypes: true }).flatMap((entry) =>
+    entry.isDirectory()
+      ? htmlFiles(join(directory, entry.name))
+      : entry.name.endsWith('.html')
+        ? [join(directory, entry.name)]
+        : [],
+  );
+
+test('indexable pages expose valid metadata and distinct titles within each language', () => {
+  const titlesByLanguage = new Map<string, Map<string, string[]>>();
+  for (const file of htmlFiles('dist')) {
+    const elements = nodes(parse(readFileSync(file, 'utf8')) as HtmlNode);
+    const meta = elements.filter((node) => node.tagName === 'meta');
+    if (
+      meta.some(
+        (node) =>
+          attribute(node, 'name') === 'robots' &&
+          /noindex/i.test(attribute(node, 'content') || ''),
+      )
+    )
+      continue;
+    const titles = elements.filter((node) => node.tagName === 'title');
+    const descriptions = meta.filter(
+      (node) => attribute(node, 'name') === 'description',
+    );
+    const headings = elements.filter((node) => node.tagName === 'h1');
+    const canonicals = elements.filter(
+      (node) =>
+        node.tagName === 'link' && attribute(node, 'rel') === 'canonical',
+    );
+    expect(titles, file).toHaveLength(1);
+    expect(descriptions, file).toHaveLength(1);
+    expect(headings, file).toHaveLength(1);
+    expect(canonicals, file).toHaveLength(1);
+    expect(text(titles[0]).trim(), file).not.toBe('');
+    expect(attribute(descriptions[0], 'content')?.trim(), file).toBeTruthy();
+    expect(text(headings[0]).trim(), file).not.toBe('');
+    const html = elements.find((node) => node.tagName === 'html')!;
+    const lang = attribute(html, 'lang')!;
+    expect(['es', 'en'], file).toContain(lang);
+    const title = text(titles[0]).trim();
+    const canonical = attribute(canonicals[0], 'href')!;
+    const byTitle = titlesByLanguage.get(lang) || new Map<string, string[]>();
+    byTitle.set(title, [...(byTitle.get(title) || []), canonical]);
+    titlesByLanguage.set(lang, byTitle);
+  }
+  // Translations can legitimately share a place name. Distinct pages within
+  // one language must identify their scope, including country/city homonyms.
+  for (const lang of ['es', 'en'])
+    expect(titlesByLanguage.get(lang)?.size, `${lang}: production must contain indexable pages`)
+      .toBeGreaterThanOrEqual(articles.filter((article) => article.locale === lang).length);
+  const duplicates = [...titlesByLanguage].flatMap(([lang, titles]) =>
+    [...titles]
+      .filter(([, urls]) => urls.length > 1)
+      .map(([title, urls]) => ({ lang, title, urls })),
+  );
+  expect(titlesByLanguage.size).toBe(2);
+  expect(duplicates).toEqual([]);
+});
+
+test('production robots allows every published guide and destination route', () => {
+  const robots = readFileSync('dist/robots.txt', 'utf8');
+  const required = new Set(
+    articles.flatMap((article) => [
+      pathFor(article),
+      `/${article.locale}/${article.locale === 'es' ? 'destinos' : 'destinations'}/${article.destinationId}/`,
+    ]),
+  );
+  for (const path of required) {
+    expect(robotsAllows(robots, path), `Googlebot: ${path}`).toBe(true);
+    expect(robotsAllows(robots, path, '*'), `Wildcard: ${path}`).toBe(true);
+  }
+});
 
 for (const lang of ['es', 'en']) {
   test(`${lang}: guide directory exposes every article without JavaScript`, async ({

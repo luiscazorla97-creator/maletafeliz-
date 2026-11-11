@@ -1,0 +1,65 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Hyogo_Prefectural_Museum_of_History02s3872.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Hyogo_Prefectural_Museum_of_History02s3872.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-11T17:05:40.373Z",
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "8210a3afab3357744e5626c9d623cf3a4965aef92192fffb25244d28fbf30970",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The individual Commons file page was actually read. It identifies the supplied title and named creator and explicitly grants the selected licence. Other listed alternatives are not needed for this use.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution 2.5 Generic license.",
+      "location": "Individual file page, Information table and selected Licensing box; title and author retained in credit."
+    },
+    {
+      "fact": "The individual file explicitly identifies Hyogo Prefectural Museum of History in Himeji. The selected exterior view shows the museum architecture across its lawn, not an exhibition reproduction or the closed City Museum of Art. It avoids the foreground sculptural object dominating the alternative first candidate.",
+      "excerpt": "Hyogo Prefectural Museum of History in Himeji , Hyogo prefecture, Japan",
+      "location": "Individual file page, Description and Date/Author fields, matched with visual inspection of the supplied documentary image."
+    },
+    {
+      "fact": "The selected licence deed was actually read. Sharing and adaptation for commercial use are permitted with attribution, licence link, indication of changes and ShareAlike where applicable. No endorsement is implied.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Applicable Creative Commons deed, You are free / Under the following terms; dated HTTP 200 capture and hash retained."
+    },
+    {
+      "fact": "The source-provided image was downloaded, its exact bytes, dimensions and SHA-256 recorded, and three responsive WebP derivatives were generated without enlargement or generative changes. Final editorial review remains separate.",
+      "excerpt": "API-provided image URL and actual downloaded bytes; Sharp dimensions and optimized derivative hash ledger.",
+      "location": "Documentary download capture and staged originals/variants."
+    }
+  ],
+  "notes": "Archive documentary photograph. This record does not establish current access, scaffolding status, seasonal appearance or exhibition content. The old source-provided resolution is preserved byte-for-byte; no source full-resolution download is claimed unless it is the API-provided unscaled file. Source page, applicable deed, response bodies and SHA-256 captures retained outside Git.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by/2.5/",
+    "finalUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-11T17:05:40.969Z",
+    "contentType": "text/html",
+    "contentSha256": "2834834b7be12c823e54df7de4390ebda8fcc4c6229c548913307a8379570532",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Hyogo_Prefectural_Museum_of_History02s3872.jpg/1280px-Hyogo_Prefectural_Museum_of_History02s3872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Hyogo_Prefectural_Museum_of_History02s3872.jpg/1280px-Hyogo_Prefectural_Museum_of_History02s3872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-11T17:05:40.731Z",
+    "contentType": "image/jpeg",
+    "contentSha256": "0b53144bd3b70dbf6de745209d1a94be4f7de15f27dc132e9b756b1d4df53b77",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "title": "File:Hyogo Prefectural Museum of History02s3872.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Hyogo_Prefectural_Museum_of_History02s3872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3872,
+    "height": 2592,
+    "bytes": 3487731,
+    "dateTaken": "2007-05-12",
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Hyogo_Prefectural_Museum_of_History02s3872.jpg/1280px-Hyogo_Prefectural_Museum_of_History02s3872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided 1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "publicGeo": {
+      "latitude": null,
+      "longitude": null
+    }
+  }
+}

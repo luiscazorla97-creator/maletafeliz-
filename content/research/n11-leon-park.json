@@ -1,0 +1,54 @@
+{
+  "url": "https://www.parquemetroleon.mx/preguntas-frecuentes/",
+  "fetchedAt": "2026-11-11T17:05:05.633Z",
+  "finalUrl": "https://www.parquemetroleon.mx/preguntas-frecuentes/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "0a0c67d160df77270b3755804f948a4a8d7632c93f970181aa4a7e860527db11",
+  "bytes": 106743,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "For ordinary visits the operator says no reservation is required, payment is at the ticket office, and pets need a pasapet. These rules are not extended to special events.",
+      "excerpt": "No se requiere reservación. … pago de acceso directamente en taquillas. … pasapet",
+      "location": "FAQ reservation answer, next sentence and pet paragraph.",
+      "excerptLocations": [
+        {
+          "text": "No se requiere reservación.",
+          "extractedTextLine": 30
+        },
+        {
+          "text": "pago de acceso directamente en taquillas.",
+          "extractedTextLine": 30
+        },
+        {
+          "text": "pasapet",
+          "extractedTextLine": 29
+        }
+      ]
+    },
+    {
+      "fact": "The FAQ’s ordinary general schedule must be cross-checked with the entrance-specific schedule, especially the conditional north entrance.",
+      "excerpt": "Lunes a sábado 6:00 a 21:20 h. Domingo 6:00 a 20:00 h.",
+      "location": "FAQ Horarios paragraph; north-entrance difference documented separately in access evidence.",
+      "excerptLocations": [
+        {
+          "text": "Lunes a sábado 6:00 a 21:20 h. Domingo 6:00 a 20:00 h.",
+          "extractedTextLine": 22
+        }
+      ]
+    }
+  ],
+  "notes": "Operator FAQ read in full. Prices, pet documentation and photography arrangements are not inferred as a blanket permission for commercial sessions. No numerical admission price used in manuscript.",
+  "readMethod": "Actual captured body read in extracted text; facts checked against the named body sections.",
+  "extractedData": {
+    "ordinaryVisits": {
+      "reservationRequired": false,
+      "payment": "ticket office"
+    },
+    "pets": "pasapet required",
+    "eventAdmission": "not established by ordinary-visit FAQ"
+  },
+  "traceabilityNote": "Short verbatim excerpts locate the read passages; structured numeric/address fields are factual transcription. The original captured body and its SHA-256, final URL, HTTP status and capture time remain unchanged. No recapture or date refresh.",
+  "excerptWordCount": 23
+}

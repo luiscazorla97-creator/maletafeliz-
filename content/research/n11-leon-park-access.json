@@ -1,0 +1,58 @@
+{
+  "url": "https://www.parquemetroleon.mx/como-llegar/",
+  "fetchedAt": "2026-11-11T17:05:09.142Z",
+  "finalUrl": "https://www.parquemetroleon.mx/como-llegar/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "691f90b14232f8d4ce9ac0d4c289e059fe5f4749291a1948bd36138d5011ae97",
+  "bytes": 114893,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "South access on Prolongación Boulevard Adolfo López Mateos publishes ordinary Monday–Saturday 06:00–21:20 and Sunday 06:00–20:00. Its full address is factual transcription below.",
+      "excerpt": "Acceso Sur … Lunes a sábado: 6:00 a 21:20 h. … Domingo: 6:00 a 20:00 h.",
+      "location": "Acceso Sur block, address followed by its two schedule lines.",
+      "excerptLocations": [
+        {
+          "text": "Acceso Sur",
+          "extractedTextLine": 20
+        },
+        {
+          "text": "Lunes a sábado: 6:00 a 21:20 h.",
+          "extractedTextLine": 23
+        },
+        {
+          "text": "Domingo: 6:00 a 20:00 h.",
+          "extractedTextLine": 24
+        }
+      ]
+    },
+    {
+      "fact": "North access is conditional on Sundays, public holidays or special days, 08:00–20:00. It is not represented as an ordinary daily entrance.",
+      "excerpt": "Domingos, días festivos o especiales: 8:00 a 20:00 h.",
+      "location": "Acceso Norte block, its complete published schedule line.",
+      "excerptLocations": [
+        {
+          "text": "Domingos, días festivos o especiales: 8:00 a 20:00 h.",
+          "extractedTextLine": 38
+        }
+      ]
+    }
+  ],
+  "notes": "All four access blocks actually read. These are ordinary operator listings, not a promise that event-day controls are identical. The guide uses south access as a clear reference and says to confirm the intended entrance.",
+  "readMethod": "Actual captured body read in extracted text; facts checked against the named body sections.",
+  "extractedData": {
+    "south": {
+      "address": "Prol. Blvd. Adolfo López Mateos Nte. S/N, El Palote, 37130 León, Gto.",
+      "Monday-Saturday": "06:00–21:20",
+      "Sunday": "06:00–20:00"
+    },
+    "north": {
+      "availableDays": "Sundays, public holidays or special days",
+      "hours": "08:00–20:00"
+    },
+    "eventDayCaveat": "Entrance-specific ordinary listings do not establish special-event gate availability."
+  },
+  "traceabilityNote": "Short verbatim excerpts locate the read passages; structured numeric/address fields are factual transcription. The original captured body and its SHA-256, final URL, HTTP status and capture time remain unchanged. No recapture or date refresh.",
+  "excerptWordCount": 23
+}

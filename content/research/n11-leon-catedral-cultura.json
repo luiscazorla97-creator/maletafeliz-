@@ -1,0 +1,50 @@
+{
+  "url": "https://sitiosymonumentos.cultura.gob.mx/iii-estudios-monograficos/nuestra-senora-de-la-luz-catedral/",
+  "fetchedAt": "2026-11-11T17:05:41.722Z",
+  "finalUrl": "https://sitiosymonumentos.cultura.gob.mx/iii-estudios-monograficos/nuestra-senora-de-la-luz-catedral/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "cf9720054abb23bf973d39b0222ce860fb3218e5e81433716fda715ae9bbdb75",
+  "bytes": 511037,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The architectural study describes an eclectic accumulation of styles: the cathedral has neoclassical elements and late-Baroque atrium portals; it should not be classified wholesale as neo-Gothic.",
+      "excerpt": "neoclásico en su planta … barroco tardío en las afiligranadas portadas atriales",
+      "location": "Section 4 architectural description, paragraph beginning La labor decorativa.",
+      "excerptLocations": [
+        {
+          "text": "neoclásico en su planta",
+          "extractedTextLine": 92
+        },
+        {
+          "text": "barroco tardío en las afiligranadas portadas atriales",
+          "extractedTextLine": 92
+        }
+      ]
+    },
+    {
+      "fact": "The same section identifies the triple atrium portal, ironwork and coloured stained glass, supporting the selected architectural details. The historical study does not establish current interior access.",
+      "excerpt": "magnífica triple portada atrial … rejería … vitrales multicolores",
+      "location": "Section 4, paragraphs on the atrium and the decorated domes.",
+      "excerptLocations": [
+        {
+          "text": "magnífica triple portada atrial",
+          "extractedTextLine": 101
+        },
+        {
+          "text": "rejería",
+          "extractedTextLine": 101
+        },
+        {
+          "text": "vitrales multicolores",
+          "extractedTextLine": 100
+        }
+      ]
+    }
+  ],
+  "notes": "Read the identifying heading, architectural-description section and relevant historical paragraphs. This historical monograph is not used for current visiting hours, fees or closure claims.",
+  "readMethod": "Actual captured body read in extracted text; facts checked against the named body sections.",
+  "traceabilityNote": "Short verbatim excerpts locate the read passages; structured numeric/address fields are factual transcription. The original captured body and its SHA-256, final URL, HTTP status and capture time remain unchanged. No recapture or date refresh.",
+  "excerptWordCount": 18
+}

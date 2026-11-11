@@ -1,0 +1,50 @@
+{
+  "url": "https://guanajuato.mx/municipios/recomendaciones/el-corazon-de-leon-un-recorrido-por-su-centro-historico/",
+  "fetchedAt": "2026-11-11T17:05:41.707Z",
+  "finalUrl": "https://guanajuato.mx/municipios/recomendaciones/el-corazon-de-leon-un-recorrido-por-su-centro-historico/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "388cd7e65dd61671cc3faab66739ab1c6c9e40f3924c98c3100256dc90175912",
+  "bytes": 226721,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "State tourism presents the Cathedral, Expiatorio and Arco as distinct stops in that sequence. This supports the proposed central walking order, without guaranteeing distance or duration.",
+      "excerpt": "Catedral de León … Templo Expiatorio del Sagrado Corazón de Jesús … Arco Triunfal Calzada de los Héroes",
+      "location": "Consecutive named subsections in the main article.",
+      "excerptLocations": [
+        {
+          "text": "Catedral de León",
+          "extractedTextLine": 93
+        },
+        {
+          "text": "Templo Expiatorio del Sagrado Corazón de Jesús",
+          "extractedTextLine": 95
+        },
+        {
+          "text": "Arco Triunfal Calzada de los Héroes",
+          "extractedTextLine": 97
+        }
+      ]
+    },
+    {
+      "fact": "The Arco is crowned by a lion and is described in the context of Mexican independence commemorations; no exact construction date is used.",
+      "excerpt": "león en la cima … independencia de México",
+      "location": "Arco Triunfal subsection, first and second sentences.",
+      "excerptLocations": [
+        {
+          "text": "león en la cima",
+          "extractedTextLine": 98
+        },
+        {
+          "text": "independencia de México",
+          "extractedTextLine": 98
+        }
+      ]
+    }
+  ],
+  "notes": "Read the actual state-tourism article. Its promotional rankings and promises are not reproduced. The guide does not claim catacomb admission, unconditional access, timed light shows or unverified fees.",
+  "readMethod": "Actual captured body read in extracted text; facts checked against the named body sections.",
+  "traceabilityNote": "Short verbatim excerpts locate the read passages; structured numeric/address fields are factual transcription. The original captured body and its SHA-256, final URL, HTTP status and capture time remain unchanged. No recapture or date refresh.",
+  "excerptWordCount": 23
+}

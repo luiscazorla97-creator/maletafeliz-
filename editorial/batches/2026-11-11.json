@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-11",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-11T17:08:02.817Z",
+  "status": "reviewed-for-release",
+  "topicIds": [
+    "leon-guanajuato",
+    "himeji"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "625af0af-bab2-4dd1-95c8-7d26441335ca",
+    "status": "in-progress",
+    "startedAt": "2026-11-11T17:06:26.458111+00:00",
+    "heartbeatAt": "2026-11-11T17:18:47.933Z",
+    "leaseUntil": "2026-11-11T19:08:02.817000+00:00",
+    "baseCommit": "8666f876605ea8b7128b8307e168b8f83e41d921",
+    "coordinator": "/root",
+    "reservationCoordinator": "/root/catalog_n10",
+    "coordination": "One coordinated execution with the active SEO audit. All 28 prior batches and 23 public publication receipts read; zero unique originals first published and publicly verified on 11 November 2026 in America/New_York. No other active or future batch lease. Each writer confirmed five individual places, accessible official sources and licensed photograph bytes before appending topics and executing the exclusive reservation. Returned country-priority order León then Himeji preserved. Root owns the final build, Git and both Cloudflare deployment checks. No scheduler-run attribution claimed."
+  },
+  "authorization": {
+    "request": "Two original travel themes, each complete in Spanish and English, current daily execution",
+    "dailyTarget": 2,
+    "newYorkDate": "2026-11-11",
+    "priorVerifiedOriginalsToday": 0,
+    "scheduleChanged": false
+  },
+  "census": {
+    "checkedAt": "2026-11-11T17:08:22.702970+00:00",
+    "publiclyVerifiedUniqueFirstPublishedToday": [],
+    "examinedPriorBatches": 28,
+    "examinedPublicationReceipts": 23,
+    "localCatalogOriginals": 191,
+    "localCatalogVersions": 382
+  },
+  "selectedCount": 2,
+  "localizedVersionCount": 4,
+  "documentaryPhotoCount": 10,
+  "optimizedPhotoFiles": 40,
+  "sourceCount": 23,
+  "reviewedAt": "2026-11-11T17:18:47.933Z"
+}

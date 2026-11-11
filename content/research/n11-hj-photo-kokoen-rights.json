@@ -1,0 +1,65 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Himeji_Koukoen32n4592.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Himeji_Koukoen32n4592.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-11T17:05:37.254Z",
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "229799b6cfff79d5d12a612eac3d24067d7e00a7a4d3d5f4a563ed7b4aab2917",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The individual Commons file page was actually read. It identifies the supplied title and named creator and explicitly grants the selected licence. Other listed alternatives are not needed for this use.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution 2.5 Generic license.",
+      "location": "Individual file page, Information table and selected Licensing box; title and author retained in credit."
+    },
+    {
+      "fact": "The individual file names Koukoen/Kōko-en in Himeji, and the Japanese description identifies 好古園. Visually the documentary view shows a garden pond, rocks and autumn-coloured foliage, not the castle garden interior by inference. Archival foliage does not predict the travel-date season.",
+      "excerpt": "Koukoen , Himeji , Hyogo prefecture, Japan",
+      "location": "Individual file page, Description and Date/Author fields, matched with visual inspection of the supplied documentary image."
+    },
+    {
+      "fact": "The selected licence deed was actually read. Sharing and adaptation for commercial use are permitted with attribution, licence link, indication of changes and ShareAlike where applicable. No endorsement is implied.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Applicable Creative Commons deed, You are free / Under the following terms; dated HTTP 200 capture and hash retained."
+    },
+    {
+      "fact": "The source-provided image was downloaded, its exact bytes, dimensions and SHA-256 recorded, and three responsive WebP derivatives were generated without enlargement or generative changes. Final editorial review remains separate.",
+      "excerpt": "API-provided image URL and actual downloaded bytes; Sharp dimensions and optimized derivative hash ledger.",
+      "location": "Documentary download capture and staged originals/variants."
+    }
+  ],
+  "notes": "Archive documentary photograph. This record does not establish current access, scaffolding status, seasonal appearance or exhibition content. The old source-provided resolution is preserved byte-for-byte; no source full-resolution download is claimed unless it is the API-provided unscaled file. Source page, applicable deed, response bodies and SHA-256 captures retained outside Git.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by/2.5/",
+    "finalUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-11T17:05:40.969Z",
+    "contentType": "text/html",
+    "contentSha256": "2834834b7be12c823e54df7de4390ebda8fcc4c6229c548913307a8379570532",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Himeji_Koukoen32n4592.jpg/1280px-Himeji_Koukoen32n4592.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Himeji_Koukoen32n4592.jpg/1280px-Himeji_Koukoen32n4592.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-11T17:05:37.636Z",
+    "contentType": "image/jpeg",
+    "contentSha256": "aaf65a4cf768f2186f78985521da9bfdb45b5a6759132cbb7736e9cdf5f9f709",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "title": "File:Himeji Koukoen32n4592.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Himeji_Koukoen32n4592.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4592,
+    "height": 3056,
+    "bytes": 5317870,
+    "dateTaken": "2008-11-22",
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Himeji_Koukoen32n4592.jpg/1280px-Himeji_Koukoen32n4592.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided 1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "publicGeo": {
+      "latitude": null,
+      "longitude": null
+    }
+  }
+}

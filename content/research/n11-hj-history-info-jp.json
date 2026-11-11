@@ -1,0 +1,27 @@
+{
+  "url": "https://rekihaku.pref.hyogo.lg.jp/guide/information/",
+  "finalUrl": "https://rekihaku.pref.hyogo.lg.jp/guide/information/",
+  "fetchedAt": "2026-11-11T17:06:37.393Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "2dc01af86192ec4b5e48264f44ea7d448e5196860abe1aacb298ed8eea13ca76",
+  "title": "Hyogo Prefectural Museum of History — Japanese current visitor conditions",
+  "facts": [
+    {
+      "fact": "The usual weekly closure is Monday; if Monday is a holiday, the museum opens then and closes on the next weekday.",
+      "excerpt": "月曜日が祝日・休日の場合は開館。翌平日が休館",
+      "location": "休館日"
+    },
+    {
+      "fact": "First-floor exhibition access is free; second-floor special and planned exhibitions can change the applicable charge.",
+      "excerpt": "1階 無料ゾーン\n1階は無料ゾーンです。",
+      "location": "観覧料金, raw extracted TXT under heading1階無料ゾーン; separate heading2階常設有料ゾーン states special/planned exhibition charges may change"
+    },
+    {
+      "fact": "Second-floor paid-zone entry uses a ticket QR code, including a ticket issued for high-school-age or younger visitors whose admission is free.",
+      "excerpt": "2階有料ゾーンは、チケットのQRコードを使用した入場となります。",
+      "location": "2階 常設有料ゾーン, visitor ticket paragraph; following sentence specifies ticket issuance for high-school-age or younger visitors"
+    }
+  ],
+  "notes": "Official response actually fetched and cited passages read on the recorded date. Raw HTML, extracted text and response metadata retained outside Git under artifacts/maletafeliz-daily-two-n11/himeji/research. Route choices are original editorial advice. No personal visit, demand volume, rankings or guaranteed access inferred from archive photographs. Numerical prices and routine departure times intentionally omitted; consult the linked operator for date-specific conditions. The English visitor page has inconsistent December-closure labels; use the Japanese weekly rule and current calendar, without asserting those ambiguous dates."
+}

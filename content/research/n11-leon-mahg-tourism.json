@@ -1,0 +1,82 @@
+{
+  "url": "https://guanajuato.mx/municipios/recomendaciones/museo-de-arte-e-historia-de-guanajuato/",
+  "fetchedAt": "2026-11-11T17:05:09.143Z",
+  "finalUrl": "https://guanajuato.mx/municipios/recomendaciones/museo-de-arte-e-historia-de-guanajuato/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "c595b83833d9715b67e74fe3090e6916f2100853b4e64b9caa83a7fcc6c3dd7f",
+  "bytes": 226339,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "State tourism gives the museum address in León and describes a regional-culture gallery including Chupícuaro; location and numeric visiting times are transcribed below.",
+      "excerpt": "Calzada de los Héroes No. 908 … cultura Chupícuaro",
+      "location": "Main body, regional-history paragraph and final Ubicación block.",
+      "excerptLocations": [
+        {
+          "text": "Calzada de los Héroes No. 908",
+          "extractedTextLine": 104
+        },
+        {
+          "text": "cultura Chupícuaro",
+          "extractedTextLine": 93
+        }
+      ]
+    },
+    {
+      "fact": "The classical sculptures are explicitly reproductions. Its visiting schedule agrees with SIC on Tuesday–Friday 10:00–17:00 and weekend/public-holiday 11:00–18:00.",
+      "excerpt": "son réplicas fieles … De martes a viernes … Sábados, domingos y días festivos",
+      "location": "Classical-sculpture paragraph and Información práctica schedule lines; actual numeric ranges transcribed below.",
+      "excerptLocations": [
+        {
+          "text": "son réplicas fieles",
+          "extractedTextLine": 91
+        },
+        {
+          "text": "De martes a viernes",
+          "extractedTextLine": 98
+        },
+        {
+          "text": "Sábados, domingos y días festivos",
+          "extractedTextLine": 99
+        }
+      ]
+    },
+    {
+      "fact": "It states permanent exhibitions are free, while SIC lists a general charge. The final manuscript asks readers to check the applicable gallery/admission conditions.",
+      "excerpt": "Entrada a exposiciones permanentes: ¡Gratuita!",
+      "location": "Información práctica, admission line. Compare SIC general-admission line rather than silently treating these as identical products.",
+      "excerptLocations": [
+        {
+          "text": "Entrada a exposiciones permanentes: ¡Gratuita!",
+          "extractedTextLine": 100
+        }
+      ]
+    }
+  ],
+  "notes": "Actual state tourism body read. No claim that specific temporary exhibitions or interactive components will necessarily operate on the travel date; no invented universal ticket price.",
+  "readMethod": "Actual captured body read in extracted text; facts checked against the named body sections.",
+  "extractedData": {
+    "address": {
+      "street": "Calzada de los Héroes",
+      "number": 908,
+      "neighbourhood": "La Martinica",
+      "city": "León",
+      "state": "Guanajuato"
+    },
+    "publishedVisitingHours": {
+      "Tuesday-Friday": {
+        "opens": "10:00",
+        "closes": "17:00"
+      },
+      "Saturday-Sunday-publicHolidays": {
+        "opens": "11:00",
+        "closes": "18:00"
+      }
+    },
+    "permanentExhibitionsAdmission": "free according to this page; differs from SIC general-admission listing",
+    "classicalSculptures": "reproductions, not ancient originals"
+  },
+  "traceabilityNote": "Short verbatim excerpts locate the read passages; structured numeric/address fields are factual transcription. The original captured body and its SHA-256, final URL, HTTP status and capture time remain unchanged. No recapture or date refresh.",
+  "excerptWordCount": 25
+}

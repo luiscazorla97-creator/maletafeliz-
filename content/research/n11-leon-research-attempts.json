@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-11-11T17:08:57.126788+00:00",
+  "purpose": "Actual failed or unused source attempts; not factual citation evidence",
+  "attempts": [
+    {
+      "id": "n11-leon-cultura",
+      "url": "https://www.cultura.gob.mx/turismocultural/destino_mes/guanajuato/leon.html",
+      "fetchedAt": "2026-11-11T17:05:09.146Z",
+      "finalUrl": "https://www.cultura.gob.mx/turismocultural/destino_mes/guanajuato/leon.html",
+      "httpStatus": 404,
+      "contentType": "text/html; charset=utf-8",
+      "contentSha256": "4722756f20c96946c20728e1ce9025d0ad541f11c0b421bec3ecce5ca6d8ae87",
+      "bytes": 6659,
+      "retryAfter": null,
+      "reasonNotCited": "404, not read as factual source"
+    },
+    {
+      "id": "n11-leon-mahg-operator",
+      "url": "https://mahgforum.guanajuato.gob.mx/",
+      "fetchedAt": "2026-11-11T17:05:41.724Z",
+      "httpStatus": 0,
+      "error": "TypeError",
+      "message": "fetch failed",
+      "reasonNotCited": "Network fetch failed; no access simulated or workaround attempted"
+    },
+    {
+      "id": "n11-leon-park-events",
+      "url": "https://www.parquemetroleon.mx/eventos/",
+      "fetchedAt": "2026-11-11T17:06:29.194Z",
+      "finalUrl": "https://www.parquemetroleon.mx/eventos/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "contentSha256": "4ec8b23911853426ea808fe02e5c6aca628d512ca145130ad4dcb76be4a70a69",
+      "bytes": 104538,
+      "retryAfter": null,
+      "reasonNotCited": "Read body mixes December 2022 classes and September 2026 heading; excluded as current programming"
+    },
+    {
+      "id": "n11-leon-arrival",
+      "url": "https://www.leon.gob.mx/como-llegar.php",
+      "fetchedAt": "2026-11-11T17:08:02.907Z",
+      "finalUrl": "https://www.leon.gob.mx/como-llegar.php",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "contentSha256": "5ce24665e8572d55f8c20a9c88645bc156da351894dcc08cdc6b368e95dbf68c",
+      "bytes": 13301,
+      "retryAfter": null,
+      "reasonNotCited": "HTML has air/road tabs but no useful travel-detail text in captured body; not used to invent routes"
+    },
+    {
+      "id": "n11-leon-park-services",
+      "url": "https://www.parquemetroleon.mx/servicios/",
+      "fetchedAt": "2026-11-11T17:08:02.926Z",
+      "finalUrl": "https://www.parquemetroleon.mx/servicios/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "contentSha256": "278c7a4690bf40a048c95555b44b1635ad5d11d7d9bd4a807b9d8fbad362fb72",
+      "bytes": 150038,
+      "retryAfter": null,
+      "reasonNotCited": "Read for contextual cross-check; activity times/fares not needed for selected walking guide"
+    }
+  ]
+}

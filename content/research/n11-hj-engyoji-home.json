@@ -1,0 +1,27 @@
+{
+  "url": "https://www.shosha.or.jp/",
+  "finalUrl": "https://www.shosha.or.jp/",
+  "fetchedAt": "2026-11-11T17:05:01.545Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "955dbd74aaf965c06f50cbe06df5bba9d5c599d1f6f11c7c4ee14ac8f249afff",
+  "title": "Engyoji Temple — current notices and 2027 ropeway suspension",
+  "facts": [
+    {
+      "fact": "The temple announces a planned Mt Shosha ropeway suspension from 5 February to 28 October 2027 for major works; the temple remains open for walking approaches during that period.",
+      "excerpt": "運休期間：令和9年（2027年）2月5日（金）～10月28日（木）\n書写山ロープウェイは、大規模改修工事のため、上記の期間、運休となります。運休期間中も、書寫山圓教寺は変わらず皆さまをお迎えいたします。\nロープウェイはご利用いただけませんが、徒歩での登拝が可能です。",
+      "location": "Raw extracted TXT lines24–26, official ropeway works notice explicitly giving2027 and continued temple access on foot"
+    },
+    {
+      "fact": "The temple's mountain shuttle will also stop during that ropeway closure; walking pilgrimage routes remain possible.",
+      "excerpt": "山内シャトルバスの運休について\nロープウェイの運休に伴い、山内シャトルバスも運休いたします。",
+      "location": "Raw extracted TXT lines38–39, same2027closure announcement"
+    },
+    {
+      "fact": "Engyoji is an active religious site with Mani-den, the Three Halls and an inner sanctuary, not a single building at the upper ropeway station.",
+      "excerpt": "中谷｜摩尼殿へ",
+      "location": "山を歩けば、物語に出会う / temple areas"
+    }
+  ],
+  "notes": "Official response actually fetched and cited passages read on the recorded date. Raw HTML, extracted text and response metadata retained outside Git under artifacts/maletafeliz-daily-two-n11/himeji/research. Route choices are original editorial advice. No personal visit, demand volume, rankings or guaranteed access inferred from archive photographs. Numerical prices and routine departure times intentionally omitted; consult the linked operator for date-specific conditions."
+}

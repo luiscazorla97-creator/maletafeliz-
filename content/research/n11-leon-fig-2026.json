@@ -1,0 +1,59 @@
+{
+  "url": "https://enterate.leon.gob.mx/leon-se-prepara-para-recibir-al-mundo-en-la-edicion-25-del-festival-internacional-del-globo/",
+  "fetchedAt": "2026-11-11T17:05:41.723Z",
+  "finalUrl": "https://enterate.leon.gob.mx/leon-se-prepara-para-recibir-al-mundo-en-la-edicion-25-del-festival-internacional-del-globo/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "99fbb14a69a12de5971ec54a85bc392ebf4c1df65dcda686382c6e4bd508b74c",
+  "bytes": 164330,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The municipal press release dated 6 October 2026 announces the Festival Internacional del Globo at Parque Metropolitano for 13–16 November in that year. A dated planning notice carries these dates, without inferring closure details or event prices.",
+      "excerpt": "A 06 de octubre de 2026. … Del 13 al 16 de noviembre",
+      "location": "Identified event release dateline and first event-detail paragraph; unrelated infinite-scroll articles excluded.",
+      "excerptLocations": [
+        {
+          "text": "A 06 de octubre de 2026.",
+          "extractedTextLine": 48
+        },
+        {
+          "text": "Del 13 al 16 de noviembre",
+          "extractedTextLine": 49
+        }
+      ]
+    },
+    {
+      "fact": "The same release describes morning balloon activities and evening programming. Event-specific entry, gates and transport must be checked; the announcement does not guarantee a visitor balloon flight.",
+      "excerpt": "tradicional inflado y despegue de los globos … Noches Mágicas",
+      "location": "MÚSICA, COLOR Y ESPECTÁCULO EN EL CIELO section.",
+      "excerptLocations": [
+        {
+          "text": "tradicional inflado y despegue de los globos",
+          "extractedTextLine": 56
+        },
+        {
+          "text": "Noches Mágicas",
+          "extractedTextLine": 56
+        }
+      ]
+    }
+  ],
+  "notes": "Read only the identified 6 October release as event evidence, excluding infinite-scroll unrelated later articles. A separate park events page is stale (December 2022 listings alongside September 2026 heading) and is excluded.",
+  "readMethod": "Actual captured body read in extracted text; facts checked against the named body sections.",
+  "extractedData": {
+    "announcedEvent": "Festival Internacional del Globo",
+    "announcementDate": "2026-10-06",
+    "announcedStartDate": "2026-11-13",
+    "announcedEndDate": "2026-11-16",
+    "venue": "Parque Metropolitano de León",
+    "notEstablished": [
+      "exact ordinary-park closures",
+      "event ticket prices",
+      "authorised event gates",
+      "guaranteed passenger balloon flights"
+    ]
+  },
+  "traceabilityNote": "Short verbatim excerpts locate the read passages; structured numeric/address fields are factual transcription. The original captured body and its SHA-256, final URL, HTTP status and capture time remain unchanged. No recapture or date refresh.",
+  "excerptWordCount": 21
+}

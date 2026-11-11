@@ -1,0 +1,1895 @@
+{
+  "checkedAt": "2026-11-11T17:18:47.933Z",
+  "status": "editorially-approved-selected-for-release-not-public",
+  "publicVerified": false,
+  "batch": "2026-11-11",
+  "newOriginals": 2,
+  "newLocalizations": 4,
+  "citedOfficialSources": 23,
+  "documentaryPhotos": 10,
+  "optimizedWebPFiles": 40,
+  "rootReview": {
+    "reviewer": "Codex root AI reviewer",
+    "allFourManuscriptsRead": true,
+    "finalCorrectionsRead": true,
+    "sourceEvidenceRead": true,
+    "allFortyOptimizedVariantsActuallyViewed": true,
+    "photoPeerSha256": "4d10fb9e43aae77a1ba860d80334830e061d722d0a1347f7abb8aa2fc2a25da8",
+    "editorialPeerSha256": "c174249bcf0f3bb83d0441094abbe5a124198bab046ebd128246c92d05349a87",
+    "checks": {
+      "facts": true,
+      "sourceRelevance": true,
+      "imageRights": true,
+      "imageRelevance": true,
+      "language": true,
+      "originality": true,
+      "usefulness": true,
+      "timeSensitiveFacts": true,
+      "internalLinks": true
+    },
+    "notes": [
+      "Root Codex read all four complete manuscripts and the final targeted corrections. An independent Codex AI reviewer read both languages, checked all nine editorial criteria and compared against382 previous localized versions. No human or first-hand travel experience is claimed.",
+      "Twenty-three actual official HTTP200 captures with final URLs, original UTC timestamps, SHA256,59 facts and locating excerpts were read and independently rehashed. Expanded excerpts use retained real captures; failed/unused attempts remain in the execution evidence. No conflicting MAHG ticket price, unverified current exhibition or fabricated search-volume ranking is published.",
+      "Himeji separates the partial2026–2027 castle works, closed Art Museum and recommended History Museum, numbered1F/2F levels, displays about the pillar without an authenticity claim, and the future2027 ropeway/shuttle suspension. Closed Art Museum is not one of the five recommended places.",
+      "León means Guanajuato in Mexico. Cathedral and Expiatorio remain distinct; museum is inLeón, notGuanajuatoCity; park entrances have different hours. November13–16FIG is a dated special-event notice, with no promise that ordinary admission includes the event or a balloon flight. Querétaro is related regionally rather than incorrectly placed withinGuanajuato state.",
+      "Each of ten places has its own documentary photograph, specific file licence/credit/source, archive disclosure, bilingual ALT, dimensions, original and optimized hashes. Root and independent reviewers actually viewed all40WebP variants. Ten individual file pages and four applicable deeds were independently read/rehashed from fresh writer captures, with zero new HTTP requests falsely attributed to the peer. Cathedral attribution retains©ProtoplasmaKid. No paid/generated images, cropping or enlargement.",
+      "The two intents/slugs are new. Real geographic grouping, practical itineraries, FAQs and published bilingual internal-link targets were checked. All prior article bodies/dates/images, advertisements, Analytics consent, disabledpopunder,3Ddesign, routes and daily2/noonMiami schedule remain unchanged. Localpublished selects the mandatory release build and does not assert public publication."
+    ]
+  },
+  "versions": [
+    {
+      "id": "himeji",
+      "locale": "es",
+      "contentHash": "181cfee0dbeacf2575e4659332a6929fa1ac03ffc261149e9b2b2783fff6e89d",
+      "publishedAt": "2026-11-11T17:18:47.933Z",
+      "words": 2106,
+      "independentDraftHash": "7ffd12a1a681e8bf23b9f57b4629467658f0a22065f613f91a3ad1159e5de135",
+      "reviewedEditorialPayloadHash": "6a028276b04e23be1cfd5e56cd795fd32641319a306d8db79a9d4f1864761aee"
+    },
+    {
+      "id": "himeji",
+      "locale": "en",
+      "contentHash": "53709f7ee2a72aa180cfa9903feb61c4eec1cdb7b225ab70b41f21df0d5f722a",
+      "publishedAt": "2026-11-11T17:18:47.933Z",
+      "words": 1914,
+      "independentDraftHash": "26fafd8f69b0068716fc7acbc8b18bde229e17068b8d28fc2d251061c2b071dd",
+      "reviewedEditorialPayloadHash": "53e23e69b3d8cbd4db05c643b954a63a9575cc91eaf7c3860532455f8acd088d"
+    },
+    {
+      "id": "leon-guanajuato",
+      "locale": "es",
+      "contentHash": "03fd504fd865ca817679146cd388b8e1e83886ba53942f99d9f8de0c32eb27d4",
+      "publishedAt": "2026-11-11T17:18:47.933Z",
+      "words": 1844,
+      "independentDraftHash": "16a55dd3546858d22278363a49df310b38b239c3c9e981fd2588615ddeaf806b",
+      "reviewedEditorialPayloadHash": "70725e4fabf09dafc1b22130bb009aa871552f2eadd59a81b0e2038872bfb99c"
+    },
+    {
+      "id": "leon-guanajuato",
+      "locale": "en",
+      "contentHash": "ec6b4cfb33e67f9cc3b08dba476aa0bc721a5060fdedb7804f9bbec2bc8e27ed",
+      "publishedAt": "2026-11-11T17:18:47.933Z",
+      "words": 1690,
+      "independentDraftHash": "e9257a587fdff36859e5aadf4698493d3dae4c1c8f5e0b8160945a13a7bbf043",
+      "reviewedEditorialPayloadHash": "0d9e41b56a554981b82a51e78f6069661f1bf568bb98db8801f56a80fa53da67"
+    }
+  ],
+  "independentEditorialReview": {
+    "status": "PASS",
+    "success": true,
+    "reviewedAt": "2026-11-11T17:16:52.680078Z",
+    "reviewer": {
+      "identity": "Codex independent AI editorial verifier /root/editorial_review_n9",
+      "humanReviewer": false
+    },
+    "scope": "Independent review of four final staged review-status manuscripts and their cited source/photo evidence. This is not publication, a rendered-page/build check, or root’s final hash-bound approval after dates/status are assigned.",
+    "hashMethod": {
+      "contentHash": "Repository hashArticle(article): SHA-256(JSON.stringify(article)); property order preserved.",
+      "editorialPayloadHash": "SHA-256(JSON.stringify(Object.fromEntries(Object.entries(article).filter(([key]) => ![status,publishedAt,updatedAt].includes(key))))); only those three fields omitted, original field order preserved.",
+      "authority": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-review/schema-and-js-hashes.json",
+      "authoritySha256": "89af27e5437eac52c521ffac1d69a76ce8fef4fc004f736df9985e1c656ad06d"
+    },
+    "versions": [
+      {
+        "file": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/content/articles/himeji.es.json",
+        "id": "himeji",
+        "locale": "es",
+        "fileSha256": "39ae736f728e6564a85b58d0d275f224a77defd4074d0884ce7740943cb63eac",
+        "contentHash": "7ffd12a1a681e8bf23b9f57b4629467658f0a22065f613f91a3ad1159e5de135",
+        "editorialPayloadHash": "6a028276b04e23be1cfd5e56cd795fd32641319a306d8db79a9d4f1864761aee",
+        "words": 2106,
+        "schemaPass": true,
+        "status": "PASS",
+        "fullNarrativeRead": true,
+        "finalMuseumPatchReread": true,
+        "checks": {
+          "facts": true,
+          "sourceRelevance": true,
+          "imageRights": true,
+          "imageRelevance": true,
+          "language": true,
+          "originality": true,
+          "usefulness": true,
+          "timeSensitiveFacts": true,
+          "internalLinks": true
+        },
+        "placeDevelopment": [
+          {
+            "id": "castle",
+            "heading": "1. Castillo de Himeji: arquitectura, recorridos y obras actuales",
+            "paragraphs": 2,
+            "words": 185,
+            "imageId": "n11-hj-castle",
+            "sourceIds": [
+              "n11-hj-castle-handbook-en",
+              "n11-hj-castle-repairs",
+              "n11-hj-otokoyama-tourism"
+            ]
+          },
+          {
+            "id": "kokoen",
+            "heading": "2. Koko-en: nueve jardines con una historia distinta del castillo",
+            "paragraphs": 2,
+            "words": 193,
+            "imageId": "n11-hj-kokoen",
+            "sourceIds": [
+              "n11-hj-kokoen-history",
+              "n11-hj-kokoen-guidance"
+            ]
+          },
+          {
+            "id": "history-museum",
+            "heading": "3. Museo de Historia de Hyogo: poner en contexto el castillo y la región",
+            "paragraphs": 2,
+            "words": 180,
+            "imageId": "n11-hj-history-museum",
+            "sourceIds": [
+              "n11-hj-history-english",
+              "n11-hj-history-info-jp"
+            ]
+          },
+          {
+            "id": "otokoyama",
+            "heading": "4. Otokoyama Haisuiike Park: subir para leer la ciudad desde afuera",
+            "paragraphs": 2,
+            "words": 173,
+            "imageId": "n11-hj-otokoyama",
+            "sourceIds": [
+              "n11-hj-otokoyama-tourism",
+              "n11-hj-otokoyama-city",
+              "n11-hj-castle-repairs"
+            ]
+          },
+          {
+            "id": "engyoji",
+            "heading": "5. Engyoji: caminar entre los edificios del monte Shosha",
+            "paragraphs": 2,
+            "words": 208,
+            "imageId": "n11-hj-engyoji",
+            "sourceIds": [
+              "n11-hj-engyoji-home",
+              "n11-hj-engyoji-access",
+              "n11-hj-engyoji-story"
+            ]
+          }
+        ],
+        "internalRelatedTargets": [
+          {
+            "id": "osaka",
+            "publishedBilingually": true
+          },
+          {
+            "id": "kyoto",
+            "publishedBilingually": true
+          },
+          {
+            "id": "nara",
+            "publishedBilingually": true
+          }
+        ],
+        "oldCatalogMatches": [
+          {
+            "file": "milan.es.json",
+            "common8grams": 1,
+            "newCoverage": 0.000501002004008016,
+            "smallerCoverage": 0.0007616146230007616,
+            "examples": [
+              "al tiempo y a las necesidades del grupo"
+            ]
+          },
+          {
+            "file": "queenstown.es.json",
+            "common8grams": 1,
+            "newCoverage": 0.000501002004008016,
+            "smallerCoverage": 0.0005339028296849973,
+            "examples": [
+              "la oficina de turismo lo incluye entre los"
+            ]
+          }
+        ],
+        "exactRepeatedNarrativeParagraphsAtLeast15Words": 0,
+        "finalApprovedHash": "181cfee0dbeacf2575e4659332a6929fa1ac03ffc261149e9b2b2783fff6e89d",
+        "finalPublishedAt": "2026-11-11T17:18:47.933Z"
+      },
+      {
+        "file": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/content/articles/himeji.en.json",
+        "id": "himeji",
+        "locale": "en",
+        "fileSha256": "52564cc1195198760e0b49ba9cc184bdf5a78334f006518d0220b09ab8563082",
+        "contentHash": "26fafd8f69b0068716fc7acbc8b18bde229e17068b8d28fc2d251061c2b071dd",
+        "editorialPayloadHash": "53e23e69b3d8cbd4db05c643b954a63a9575cc91eaf7c3860532455f8acd088d",
+        "words": 1914,
+        "schemaPass": true,
+        "status": "PASS",
+        "fullNarrativeRead": true,
+        "finalMuseumPatchReread": true,
+        "checks": {
+          "facts": true,
+          "sourceRelevance": true,
+          "imageRights": true,
+          "imageRelevance": true,
+          "language": true,
+          "originality": true,
+          "usefulness": true,
+          "timeSensitiveFacts": true,
+          "internalLinks": true
+        },
+        "placeDevelopment": [
+          {
+            "id": "castle",
+            "heading": "1. Himeji Castle: understand the architecture and current works",
+            "paragraphs": 2,
+            "words": 178,
+            "imageId": "n11-hj-castle",
+            "sourceIds": [
+              "n11-hj-castle-handbook-en",
+              "n11-hj-castle-repairs",
+              "n11-hj-otokoyama-tourism"
+            ]
+          },
+          {
+            "id": "kokoen",
+            "heading": "2. Koko-en: nine gardens with a different history from the castle",
+            "paragraphs": 2,
+            "words": 169,
+            "imageId": "n11-hj-kokoen",
+            "sourceIds": [
+              "n11-hj-kokoen-history",
+              "n11-hj-kokoen-guidance"
+            ]
+          },
+          {
+            "id": "history-museum",
+            "heading": "3. Hyogo Prefectural Museum of History: place the castle in context",
+            "paragraphs": 2,
+            "words": 157,
+            "imageId": "n11-hj-history-museum",
+            "sourceIds": [
+              "n11-hj-history-english",
+              "n11-hj-history-info-jp"
+            ]
+          },
+          {
+            "id": "otokoyama",
+            "heading": "4. Otokoyama Haisuiike Park: see the city from the hill",
+            "paragraphs": 2,
+            "words": 162,
+            "imageId": "n11-hj-otokoyama",
+            "sourceIds": [
+              "n11-hj-otokoyama-tourism",
+              "n11-hj-otokoyama-city",
+              "n11-hj-castle-repairs"
+            ]
+          },
+          {
+            "id": "engyoji",
+            "heading": "5. Engyoji: walk between the buildings of Mt Shosha",
+            "paragraphs": 2,
+            "words": 184,
+            "imageId": "n11-hj-engyoji",
+            "sourceIds": [
+              "n11-hj-engyoji-home",
+              "n11-hj-engyoji-access",
+              "n11-hj-engyoji-story"
+            ]
+          }
+        ],
+        "internalRelatedTargets": [
+          {
+            "id": "osaka",
+            "publishedBilingually": true
+          },
+          {
+            "id": "kyoto",
+            "publishedBilingually": true
+          },
+          {
+            "id": "nara",
+            "publishedBilingually": true
+          }
+        ],
+        "oldCatalogMatches": [
+          {
+            "file": "luxor.en.json",
+            "common8grams": 1,
+            "newCoverage": 0.0005488474204171241,
+            "smallerCoverage": 0.0007698229407236335,
+            "examples": [
+              "if you need assistance or step free access"
+            ]
+          },
+          {
+            "file": "milan.en.json",
+            "common8grams": 1,
+            "newCoverage": 0.0005488474204171241,
+            "smallerCoverage": 0.0008244023083264633,
+            "examples": [
+              "to the weather and your group s needs"
+            ]
+          }
+        ],
+        "exactRepeatedNarrativeParagraphsAtLeast15Words": 0,
+        "finalApprovedHash": "53709f7ee2a72aa180cfa9903feb61c4eec1cdb7b225ab70b41f21df0d5f722a",
+        "finalPublishedAt": "2026-11-11T17:18:47.933Z"
+      },
+      {
+        "file": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/articles/leon-guanajuato.es.json",
+        "id": "leon-guanajuato",
+        "locale": "es",
+        "fileSha256": "b3e28e62fe88f2a169a29df1132fb7a7220612c06f523304a4edd60acde6b6f3",
+        "contentHash": "16a55dd3546858d22278363a49df310b38b239c3c9e981fd2588615ddeaf806b",
+        "editorialPayloadHash": "70725e4fabf09dafc1b22130bb009aa871552f2eadd59a81b0e2038872bfb99c",
+        "words": 1844,
+        "schemaPass": true,
+        "status": "PASS",
+        "fullNarrativeRead": true,
+        "finalMuseumPatchReread": false,
+        "checks": {
+          "facts": true,
+          "sourceRelevance": true,
+          "imageRights": true,
+          "imageRelevance": true,
+          "language": true,
+          "originality": true,
+          "usefulness": true,
+          "timeSensitiveFacts": true,
+          "internalLinks": true
+        },
+        "placeDevelopment": [
+          {
+            "id": "catedral",
+            "heading": "1. Catedral Basílica: mirá la portada y la mezcla de estilos",
+            "paragraphs": 2,
+            "words": 159,
+            "imageId": "n11-leon-catedral",
+            "sourceIds": [
+              "n11-leon-catedral-cultura",
+              "n11-leon-centre"
+            ]
+          },
+          {
+            "id": "templo-expiatorio",
+            "heading": "2. Templo Expiatorio: arquitectura neogótica y vitrales",
+            "paragraphs": 2,
+            "words": 165,
+            "imageId": "n11-leon-expiatorio",
+            "sourceIds": [
+              "n11-leon-municipal",
+              "n11-leon-expiatorio-cvb",
+              "n11-leon-centre"
+            ]
+          },
+          {
+            "id": "arco-calzada",
+            "heading": "3. Arco de la Calzada: el león y el paisaje de la avenida",
+            "paragraphs": 2,
+            "words": 167,
+            "imageId": "n11-leon-arco",
+            "sourceIds": [
+              "n11-leon-centre",
+              "n11-leon-mahg-sic"
+            ]
+          },
+          {
+            "id": "museo-arte-historia",
+            "heading": "4. Museo de Arte e Historia de Guanajuato: contexto regional en el Forum",
+            "paragraphs": 2,
+            "words": 171,
+            "imageId": "n11-leon-mahg",
+            "sourceIds": [
+              "n11-leon-mahg-sic",
+              "n11-leon-mahg-tourism"
+            ]
+          },
+          {
+            "id": "parque-metropolitano",
+            "heading": "5. Parque Metropolitano: elegí un acceso y un paseo junto a la presa",
+            "paragraphs": 2,
+            "words": 169,
+            "imageId": "n11-leon-parque",
+            "sourceIds": [
+              "n11-leon-park-visits",
+              "n11-leon-park-access",
+              "n11-leon-park"
+            ]
+          }
+        ],
+        "internalRelatedTargets": [
+          {
+            "id": "guanajuato",
+            "publishedBilingually": true
+          },
+          {
+            "id": "san-miguel-de-allende",
+            "publishedBilingually": true
+          },
+          {
+            "id": "queretaro",
+            "publishedBilingually": true
+          }
+        ],
+        "oldCatalogMatches": [
+          {
+            "file": "buenos-aires.es.json",
+            "common8grams": 1,
+            "newCoverage": 0.0005858230814294083,
+            "smallerCoverage": 0.000612369871402327,
+            "examples": [
+              "exterior sigue teniendo sentido por sí misma después"
+            ]
+          },
+          {
+            "file": "ottawa.es.json",
+            "common8grams": 1,
+            "newCoverage": 0.0005858230814294083,
+            "smallerCoverage": 0.0006648936170212766,
+            "examples": [
+              "la fotografía de esta guía muestra un detalle"
+            ]
+          },
+          {
+            "file": "perth.es.json",
+            "common8grams": 1,
+            "newCoverage": 0.0005858230814294083,
+            "smallerCoverage": 0.0006915629322268327,
+            "examples": [
+              "llevá agua y protección para el tiempo previsto"
+            ]
+          }
+        ],
+        "exactRepeatedNarrativeParagraphsAtLeast15Words": 0,
+        "finalApprovedHash": "03fd504fd865ca817679146cd388b8e1e83886ba53942f99d9f8de0c32eb27d4",
+        "finalPublishedAt": "2026-11-11T17:18:47.933Z"
+      },
+      {
+        "file": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/articles/leon-guanajuato.en.json",
+        "id": "leon-guanajuato",
+        "locale": "en",
+        "fileSha256": "a653f945ae3ad9c0ff04d78fef392195f575aa77cf63d1ea8d75a5e2f0431f0d",
+        "contentHash": "e9257a587fdff36859e5aadf4698493d3dae4c1c8f5e0b8160945a13a7bbf043",
+        "editorialPayloadHash": "0d9e41b56a554981b82a51e78f6069661f1bf568bb98db8801f56a80fa53da67",
+        "words": 1690,
+        "schemaPass": true,
+        "status": "PASS",
+        "fullNarrativeRead": true,
+        "finalMuseumPatchReread": false,
+        "checks": {
+          "facts": true,
+          "sourceRelevance": true,
+          "imageRights": true,
+          "imageRelevance": true,
+          "language": true,
+          "originality": true,
+          "usefulness": true,
+          "timeSensitiveFacts": true,
+          "internalLinks": true
+        },
+        "placeDevelopment": [
+          {
+            "id": "catedral",
+            "heading": "1. Cathedral Basilica: study the portal and its mixture of styles",
+            "paragraphs": 2,
+            "words": 150,
+            "imageId": "n11-leon-catedral",
+            "sourceIds": [
+              "n11-leon-catedral-cultura",
+              "n11-leon-centre"
+            ]
+          },
+          {
+            "id": "templo-expiatorio",
+            "heading": "2. Templo Expiatorio: neo-Gothic architecture and stained glass",
+            "paragraphs": 2,
+            "words": 156,
+            "imageId": "n11-leon-expiatorio",
+            "sourceIds": [
+              "n11-leon-municipal",
+              "n11-leon-expiatorio-cvb",
+              "n11-leon-centre"
+            ]
+          },
+          {
+            "id": "arco-calzada",
+            "heading": "3. Arco de la Calzada: the lion and the avenue around it",
+            "paragraphs": 2,
+            "words": 150,
+            "imageId": "n11-leon-arco",
+            "sourceIds": [
+              "n11-leon-centre",
+              "n11-leon-mahg-sic"
+            ]
+          },
+          {
+            "id": "museo-arte-historia",
+            "heading": "4. Museo de Arte e Historia de Guanajuato: regional context at the Forum",
+            "paragraphs": 2,
+            "words": 145,
+            "imageId": "n11-leon-mahg",
+            "sourceIds": [
+              "n11-leon-mahg-sic",
+              "n11-leon-mahg-tourism"
+            ]
+          },
+          {
+            "id": "parque-metropolitano",
+            "heading": "5. Parque Metropolitano: choose an entrance and a reservoir-side walk",
+            "paragraphs": 2,
+            "words": 153,
+            "imageId": "n11-leon-parque",
+            "sourceIds": [
+              "n11-leon-park-visits",
+              "n11-leon-park-access",
+              "n11-leon-park"
+            ]
+          }
+        ],
+        "internalRelatedTargets": [
+          {
+            "id": "guanajuato",
+            "publishedBilingually": true
+          },
+          {
+            "id": "san-miguel-de-allende",
+            "publishedBilingually": true
+          },
+          {
+            "id": "queretaro",
+            "publishedBilingually": true
+          }
+        ],
+        "oldCatalogMatches": [],
+        "exactRepeatedNarrativeParagraphsAtLeast15Words": 0,
+        "finalApprovedHash": "ec6b4cfb33e67f9cc3b08dba476aa0bc721a5060fdedb7804f9bbec2bc8e27ed",
+        "finalPublishedAt": "2026-11-11T17:18:47.933Z"
+      }
+    ],
+    "checks": {
+      "facts": true,
+      "sourceRelevance": true,
+      "imageRights": true,
+      "imageRelevance": true,
+      "language": true,
+      "originality": true,
+      "usefulness": true,
+      "timeSensitiveFacts": true,
+      "internalLinks": true
+    },
+    "findingsByTheme": {
+      "himeji": {
+        "factsAndSourceRelevance": "Read complete ES/EN and13 cited sources. Castle white-plaster/heritage context, Koko-en1992 design over excavated residences, History Museum floor/exhibition coverage, Otokoyama viewpoint/shrines and Engyoji halls/access are supported. Museum exposition is about the east main pillar, without unproven original/replica attribution. Conflicting198/200 stair counts omitted.",
+        "timeSensitiveFacts": "Castle partial conservation works run earlyJuly2026 to approximately lateJuly2027, with scaffolding and route/view effects, not a whole-castle closure. Engyoji ropeway and mountain shuttle suspension is FUTURE5February–28October2027; temple remains open on foot. Art Museum interiors are closedApril2026–endDecember2027 tentative and are not confused with the open History Museum. Koko-en24February–10March2026 closure is past and not presented as current. Museum Monday/holiday rule uses current Japanese information; ambiguous EnglishDecember date labels are not copied.",
+        "languageAndParity": "Full ES/EN compared, including localized metadata, quick facts, five places, planning, itinerary,5FAQs and related targets. Facts, dates, caveats, source and image identities agree. Spanish uses coherent voseo; English is a complete natural localization. Final two Museum paragraphs reread after1F/2F and pillar-wording patch.",
+        "usefulness": "Five distinct visits, each two developed paragraphs, with station/operator distinction, shoes/steep stairs/no lifts, accessible garden routes, museum choices, hill effort and a separate mountain outing. No invented prices, transfers, reservations, current seasonal colours or firsthand visit.",
+        "internalLinks": "Osaka, Kyoto and Nara all exist as complete published ES/EN guides. Regional continuation advice avoids a guaranteed transfer duration."
+      },
+      "leon-guanajuato": {
+        "factsAndSourceRelevance": "Read complete ES/EN and10 cited sources. Federal Cathedral monograph supports its eclectic phases/triple atrium portal, not a blanket neo-Gothic identity; municipal and destination pages support distinct Expiatorio architecture. Arco/lion, MAHG regional culture and2008 opening/address inLeón, classical reproductions and park-reservoir activities match captured bodies.",
+        "timeSensitiveFacts": "MAHG two official sources agreeTue–Fri10–17 andweekend/public holiday11–18; Monday not inferred open. Contradictory admission prices are omitted and require date-specific confirmation. Park SOUTHordinary hours differ from NORTHSunday/holiday/special-day08–20 availability. Ordinary ticket-office/no-reservation rule is not applied toFIG. Municipal6October2026 release confirmsFIG13–16November2026; dated note does not guarantee ordinary access or a balloon flight.",
+        "languageAndParity": "Full ES/EN compared, including localized metadata, quick facts, five places, planning, itinerary,5FAQs and related targets. Same facts and constraints; Spanish coherent voseo and English complete natural localization. Both correctly say region forGuanajuato/SanMiguel/Querétaro rather than puttingQuerétaro inGuanajuato state.",
+        "usefulness": "Five distinct places with two developed paragraphs each. Central walk is separated fromForum museum and park transfers. Religious interiors/crypts, mobility access, temporary exhibitions and event gates are treated conditionally, not promised. Cathedral photo is explicitly a portal detail and park photo archival2009, without asserting current water level.",
+        "internalLinks": "Guanajuato city, SanMiguel deAllende andQuerétaro all exist as complete publishedES/EN guides; onward travel is a regional choice, not a promised day-trip duration."
+      }
+    },
+    "sourceCaptureProof": {
+      "path": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-review/source-capture-proof.json",
+      "sha256": "6d1a946dbe68bbcdea105e34ba90892d9a10f4dd57f0161270631cb8c1a3db6a",
+      "officialSourceCount": 23,
+      "structuredFactExcerpts": 59,
+      "allRawHashesVerified": true,
+      "allHTTP200": true,
+      "allArticleUrlAndAccessedAtMatch": true,
+      "allStructuredExcerptSegmentsMatchedAtRecordedLocations": true,
+      "actualReadMethod": "Original HTTP 200 writer captures retained with original UTC, URL and SHA; independently rehashed all 23 and read relevant raw-body passages. Each quote or separately recorded segment matched literally after HTML-entity and whitespace normalization. Explicit ellipses are not treated as contiguous quotations. No candidate or failed URL is counted as consulted evidence.",
+      "independentHttpRequests": 0
+    },
+    "photoPeerProof": {
+      "path": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-review.json",
+      "sha256": "4d10fb9e43aae77a1ba860d80334830e061d722d0a1347f7abb8aa2fc2a25da8",
+      "peer": "Codex independent photo reviewer /root/perugia_n10",
+      "basis": "Peer independently read10 exact Commons file pages and4 distinct applicable CreativeCommons deeds, rehashed originals/40derivatives and visually reviewed. I consumed all10 detailed findings, independently rehashed74 referenced body/media/fragment/contact-sheet files, matched place imageIDs and personally viewed both contact sheets with40variants.",
+      "ownContactSheetsActuallyViewed": [
+        {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-himeji.jpg",
+          "sha256": "4da7698d67a4511877ea866d79855a5e5c3d2b8912e620d9b082a93423145e97",
+          "actuallyViewedByIndependentReviewer": true
+        },
+        {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-leon.jpg",
+          "sha256": "258cd58db5710330fbbc508f54882bfbf0013d988011dfe3bf6356586b7dab50",
+          "actuallyViewedByIndependentReviewer": true
+        }
+      ],
+      "ownReferenceHashesVerified": 74,
+      "photos": 10,
+      "actualRightsReader": "/root/perugia_n10",
+      "ownRightsScope": "Read documented per-file peer findings and rehashed captured bodies; do not claim I separately read every full rights page.",
+      "importantIdentityChecks": [
+        "HistoryMuseum02 is not the closedArtMuseum",
+        "Otokoyama is the exactHimeji viewpoint",
+        "Cathedral shows portal detail and requires©ProtoplasmaKid credit",
+        "Leon9 isPresaElPalote2009, not currentwater/event evidence"
+      ]
+    },
+    "originality": {
+      "path": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-review/probe.json",
+      "sha256": "74438b9de5bd08bfac6afc30c7af8639949d1b948ba9187740abc434046a1f16",
+      "oldVersionsCompared": 382,
+      "method": "Normalized8-word narrative shingles withinlocale excluding standard headings, exact narrative paragraphs ofatleast15words, manually assessed disclosed matches and semantic structure; also compared original prose with23 captured source texts.",
+      "crossNewPairs": [
+        {
+          "a": "himeji.es.json",
+          "b": "leon-guanajuato.es.json",
+          "locale": "es",
+          "common8grams": 0,
+          "examples": []
+        },
+        {
+          "a": "himeji.en.json",
+          "b": "leon-guanajuato.en.json",
+          "locale": "en",
+          "common8grams": 0,
+          "examples": []
+        }
+      ],
+      "finding": "No repeated narrative paragraphs. Highest old-version match is one8-word ordinary phrase perpair, <0.1%ofsmaller text; not copied passages. Source overlaps are only long proper institutional names inLeónSpanish. Two new guides have0common8-word narrative shingles withinlocale. No first-person fabricated experience or source-promotional prose copied.",
+      "limitation": "Systematic old-catalog/source comparison and independent reading; not an exhaustive search of every text on the internet."
+    },
+    "preservationObserved": {
+      "scope": "Old article files only; broader release/source/assets/config preservation remains root technical gate.",
+      "baseCommit": "8666f876605ea8b7128b8307e168b8f83e41d921",
+      "oldVersions": 382,
+      "trackedArticleDiffAgainstHead": [],
+      "snapshot": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-review/existing-article-snapshot.json",
+      "snapshotSha256": "082ebf1214c9aa43505ba7731623ff86089c74ac7ba0bec59969170c4fcc920b",
+      "repoFilesEditedByThisReviewer": []
+    },
+    "resolvedIssues": [
+      {
+        "theme": "himeji",
+        "issue": "Floor-number localization ambiguity and unsupported physical-original inference for east principal pillar.",
+        "resolution": "Writer changed only two Museum paragraphs perlocale to level1F/2F and displays ABOUT the pillar; final passages actually reread."
+      },
+      {
+        "theme": "leon-guanajuato",
+        "issue": "Cathedral source/artist metadata inversion and full-building versus portal detail.",
+        "resolution": "Photopeer verifiedProtoplasmaKid and explicit©credit; finalALT/prose correctly describe portal detail."
+      }
+    ],
+    "requiredFixes": [],
+    "unresolvedIssues": [],
+    "limitations": [
+      "No new HTTP request made by this independent reviewer; consulted fresh same-day writer captures, retaining their real HTTP/UTC/SHA provenance.",
+      "Archive photos establish documentary identity, not current access, restoration state, reservoir water levels, seasonal appearance or event operation.",
+      "No human or firsthand visit claimed. Root still owns finalstatus/date assignment, exact finalhash approvals, integration, production gates and publicverification.",
+      "Old seasonal maintenance proposals are not applied and are not claimed as the cause of SearchConsole impression changes."
+    ]
+  },
+  "independentPhotoReview": {
+    "reviewer": "Codex independent photo reviewer /root/perugia_n10",
+    "checkedAt": "2026-11-11T17:12:35.267Z",
+    "scope": "Daily two Nov11 Himeji and León Guanajuato, staged files only. No publication or final article approval asserted.",
+    "networkMethod": "No HTTP requests made by independent reviewer: fresh writer captures explicitly read and SHA-256 rehashed; original capture timestamps retained.",
+    "photos": [
+      {
+        "id": "n11-hj-castle",
+        "subject": "Himeji Castle white keep and surrounding white walls",
+        "subjectFinding": "Archive2015, confirms castle and no current scaffolding or access claim.",
+        "pageCapture": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/castle-file.html",
+          "url": "https://commons.wikimedia.org/wiki/File:Himeji_castle_in_may_2015.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Himeji_castle_in_may_2015.jpg",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:05:36.571Z",
+          "contentType": "text/html; charset=UTF-8",
+          "contentSha256": "012a3d78fb8449b8e80b3e8bae0f0a35e5d15df278729ca3c5294c0c93044b00",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.299Z",
+          "rehashVerified": true
+        },
+        "sourceUrlMatchesCapture": true,
+        "selectedLicense": "CC BY-SA 4.0",
+        "licenseOfferedOnIndividualPage": true,
+        "licenseDeed": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/cc-by-sa-4.html",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:05:41.128Z",
+          "contentType": "text/html",
+          "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.398Z",
+          "rehashVerified": true
+        },
+        "creator": "Nikos Kitsakis",
+        "dateTakenAsSupplied": "2015-05-10",
+        "credit": "Himeji castle in may 2015.jpg — Nikos Kitsakis / Wikimedia Commons · resized and converted to WebP by MaletaFeliz",
+        "modifications": "Automatic orientation, resizing from the publicly supplied Commons rendition and conversion to WebP, without enlargement, cropping, generated edits or changed subject matter. The provided image is archived byte-for-byte. Archive photograph; current access and appearances may differ. Same selected licence retained.",
+        "alt": {
+          "es": "Torres blancas y murallas del castillo de Himeji, fotografía de archivo de 2015",
+          "en": "White towers and walls of Himeji Castle, archive photograph from 2015"
+        },
+        "original": {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/content/images/originals/n11-hj-castle.jpg",
+          "width": 1280,
+          "height": 853,
+          "bytes": 359074,
+          "sha256": "639e9114ea4382ee13405ce60072631af36f9292a8cca7d577f81e4fa52597eb",
+          "hashAndDimensionsVerified": true,
+          "providedRenditionNotFullOriginal": true
+        },
+        "variants": [
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-castle-480w.webp",
+            "src": "/images/n11-hj-castle-480w.webp",
+            "width": 480,
+            "height": 320,
+            "sha256": "d290d26a7906125a39ef4c9d1ce6077389aab83ceef2d70dd558fd4fb48340a5",
+            "bytes": 37474,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-castle-800w.webp",
+            "src": "/images/n11-hj-castle-800w.webp",
+            "width": 800,
+            "height": 533,
+            "sha256": "0383a0675597fe6ab4cc6df1eca257ca177d1e047e31e51ccd8155a60ec983d4",
+            "bytes": 107094,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-castle.webp",
+            "src": "/images/n11-hj-castle.webp",
+            "width": 1280,
+            "height": 853,
+            "sha256": "03b31ff49b5581fb8917fed59567cf11ad0d7a5657a4519897af38e5cb1a8a29",
+            "bytes": 302366,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          }
+        ],
+        "visualReview": {
+          "sourcePhotoSeen": true,
+          "optimizedVariantsActuallyViewed": true,
+          "allVariantsSeenIn": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-himeji.jpg",
+          "visualFindings": "Selected source identity and both ALT texts match the actual scene; aspect ratio and scene boundaries preserved across all listed variants, with no generated edits, clipping or conspicuous compression defect. Documentary archive label retained; no inference of current access, season, exhibition or event."
+        },
+        "generatedEdits": false,
+        "paidSource": false,
+        "status": "pass staged photographic rights, relevance, archival disclosure, bilingual ALT, dimensions, original and responsive-byte checks",
+        "captionCreditHasNamedAuthor": true,
+        "attributionLicenseAndSourceLinksProvided": true,
+        "archiveDisclosureInBothAlt": true
+      },
+      {
+        "id": "n11-hj-kokoen",
+        "subject": "Koko-en pond, rocks and autumn foliage in Himeji",
+        "subjectFinding": "Archive2008 seasonal appearance, no current foliage promise. Individually offered CC BY2.5 selected from optional licences.",
+        "pageCapture": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/kokoen-file.html",
+          "url": "https://commons.wikimedia.org/wiki/File:Himeji_Koukoen32n4592.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Himeji_Koukoen32n4592.jpg",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:05:37.254Z",
+          "contentType": "text/html; charset=UTF-8",
+          "contentSha256": "229799b6cfff79d5d12a612eac3d24067d7e00a7a4d3d5f4a563ed7b4aab2917",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.399Z",
+          "rehashVerified": true
+        },
+        "sourceUrlMatchesCapture": true,
+        "selectedLicense": "CC BY 2.5",
+        "licenseOfferedOnIndividualPage": true,
+        "licenseDeed": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/cc-by-2-5.html",
+          "url": "https://creativecommons.org/licenses/by/2.5/",
+          "finalUrl": "https://creativecommons.org/licenses/by/2.5/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:05:40.969Z",
+          "contentType": "text/html",
+          "contentSha256": "2834834b7be12c823e54df7de4390ebda8fcc4c6229c548913307a8379570532",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.447Z",
+          "rehashVerified": true
+        },
+        "creator": "663highland",
+        "dateTakenAsSupplied": "2008-11-22",
+        "credit": "Himeji Koukoen32n4592.jpg — 663highland / Wikimedia Commons · resized and converted to WebP by MaletaFeliz",
+        "modifications": "Automatic orientation, resizing from the publicly supplied Commons rendition and conversion to WebP, without enlargement, cropping, generated edits or changed subject matter. The provided image is archived byte-for-byte. Archive photograph; current access and appearances may differ. Same selected licence retained.",
+        "alt": {
+          "es": "Estanque y rocas del jardín Koko-en de Himeji entre hojas otoñales, fotografía de archivo de 2008",
+          "en": "Pond and rocks at Himeji’s Koko-en Garden among autumn leaves, archive photograph from 2008"
+        },
+        "original": {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/content/images/originals/n11-hj-kokoen.jpg",
+          "width": 1280,
+          "height": 852,
+          "bytes": 468939,
+          "sha256": "aaf65a4cf768f2186f78985521da9bfdb45b5a6759132cbb7736e9cdf5f9f709",
+          "hashAndDimensionsVerified": true,
+          "providedRenditionNotFullOriginal": true
+        },
+        "variants": [
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-kokoen-480w.webp",
+            "src": "/images/n11-hj-kokoen-480w.webp",
+            "width": 480,
+            "height": 320,
+            "sha256": "f8d4c576ca7cf70dfbc261c9ba5f6a4b6d4236aef8efa8996649747dffaea734",
+            "bytes": 51388,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-kokoen-800w.webp",
+            "src": "/images/n11-hj-kokoen-800w.webp",
+            "width": 800,
+            "height": 533,
+            "sha256": "0b3f517a92fc343639b29f1c0039dfcf312555112db01da29430c9725357cd73",
+            "bytes": 146700,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-kokoen.webp",
+            "src": "/images/n11-hj-kokoen.webp",
+            "width": 1280,
+            "height": 852,
+            "sha256": "eaf6a1d646c3e684ea7e627009fa9e21cdf89e051ec19ee38611d814dcab80dd",
+            "bytes": 409026,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          }
+        ],
+        "visualReview": {
+          "sourcePhotoSeen": true,
+          "optimizedVariantsActuallyViewed": true,
+          "allVariantsSeenIn": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-himeji.jpg",
+          "visualFindings": "Selected source identity and both ALT texts match the actual scene; aspect ratio and scene boundaries preserved across all listed variants, with no generated edits, clipping or conspicuous compression defect. Documentary archive label retained; no inference of current access, season, exhibition or event."
+        },
+        "generatedEdits": false,
+        "paidSource": false,
+        "status": "pass staged photographic rights, relevance, archival disclosure, bilingual ALT, dimensions, original and responsive-byte checks",
+        "captionCreditHasNamedAuthor": true,
+        "attributionLicenseAndSourceLinksProvided": true,
+        "archiveDisclosureInBothAlt": true
+      },
+      {
+        "id": "n11-hj-engyoji",
+        "subject": "Engyoji timber halls around an open courtyard in Himeji",
+        "subjectFinding": "Archive2008 exterior court, no claim of current access or an unpictured temple interior.",
+        "pageCapture": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/engyoji-file.html",
+          "url": "https://commons.wikimedia.org/wiki/File:Engyoji05s4592.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Engyoji05s4592.jpg",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:05:38.049Z",
+          "contentType": "text/html; charset=UTF-8",
+          "contentSha256": "a8332e1750833704543e343eae1f91ceb0c8a65b4a520f176727b8365353b232",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.447Z",
+          "rehashVerified": true
+        },
+        "sourceUrlMatchesCapture": true,
+        "selectedLicense": "CC BY 2.5",
+        "licenseOfferedOnIndividualPage": true,
+        "licenseDeed": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/cc-by-2-5.html",
+          "url": "https://creativecommons.org/licenses/by/2.5/",
+          "finalUrl": "https://creativecommons.org/licenses/by/2.5/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:05:40.969Z",
+          "contentType": "text/html",
+          "contentSha256": "2834834b7be12c823e54df7de4390ebda8fcc4c6229c548913307a8379570532",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.478Z",
+          "rehashVerified": true
+        },
+        "creator": "663highland",
+        "dateTakenAsSupplied": "2008-11-22",
+        "credit": "Engyoji05s4592.jpg — 663highland / Wikimedia Commons · resized and converted to WebP by MaletaFeliz",
+        "modifications": "Automatic orientation, resizing from the publicly supplied Commons rendition and conversion to WebP, without enlargement, cropping, generated edits or changed subject matter. The provided image is archived byte-for-byte. Archive photograph; current access and appearances may differ. Same selected licence retained.",
+        "alt": {
+          "es": "Patio y edificios de madera del templo Engyoji en Himeji, fotografía de archivo de 2008",
+          "en": "Courtyard and wooden buildings of Engyoji Temple in Himeji, archive photograph from 2008"
+        },
+        "original": {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/content/images/originals/n11-hj-engyoji.jpg",
+          "width": 1280,
+          "height": 852,
+          "bytes": 272867,
+          "sha256": "ca649dac5dea8b7905cdc1b0bd9405c29e2401b0a7be26915df94986e9315339",
+          "hashAndDimensionsVerified": true,
+          "providedRenditionNotFullOriginal": true
+        },
+        "variants": [
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-engyoji-480w.webp",
+            "src": "/images/n11-hj-engyoji-480w.webp",
+            "width": 480,
+            "height": 320,
+            "sha256": "3e58a59c0f86ba3be147ce041781cfe42bb9f80d5dffcf11c03f627d8fe45501",
+            "bytes": 28650,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-engyoji-800w.webp",
+            "src": "/images/n11-hj-engyoji-800w.webp",
+            "width": 800,
+            "height": 533,
+            "sha256": "feb7e78ec417f5e610fc8b327df8c80d6e3f45530a7054418317d5dd96f517cb",
+            "bytes": 78160,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-engyoji.webp",
+            "src": "/images/n11-hj-engyoji.webp",
+            "width": 1280,
+            "height": 852,
+            "sha256": "dc9ec28fe8a5f179155738e07ed4be983028f04ae7e635e197e39d09520fb0ea",
+            "bytes": 214772,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          }
+        ],
+        "visualReview": {
+          "sourcePhotoSeen": true,
+          "optimizedVariantsActuallyViewed": true,
+          "allVariantsSeenIn": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-himeji.jpg",
+          "visualFindings": "Selected source identity and both ALT texts match the actual scene; aspect ratio and scene boundaries preserved across all listed variants, with no generated edits, clipping or conspicuous compression defect. Documentary archive label retained; no inference of current access, season, exhibition or event."
+        },
+        "generatedEdits": false,
+        "paidSource": false,
+        "status": "pass staged photographic rights, relevance, archival disclosure, bilingual ALT, dimensions, original and responsive-byte checks",
+        "captionCreditHasNamedAuthor": true,
+        "attributionLicenseAndSourceLinksProvided": true,
+        "archiveDisclosureInBothAlt": true
+      },
+      {
+        "id": "n11-hj-history-museum",
+        "subject": "Hyogo Prefectural Museum of History building and open lawn",
+        "subjectFinding": "Selected file History02, not discarded History01, not Himeji City Museum of Art. Archive2007.",
+        "pageCapture": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/history-museum-alt-file.html",
+          "url": "https://commons.wikimedia.org/wiki/File:Hyogo_Prefectural_Museum_of_History02s3872.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Hyogo_Prefectural_Museum_of_History02s3872.jpg",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:05:40.373Z",
+          "contentType": "text/html; charset=UTF-8",
+          "contentSha256": "8210a3afab3357744e5626c9d623cf3a4965aef92192fffb25244d28fbf30970",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.478Z",
+          "rehashVerified": true
+        },
+        "sourceUrlMatchesCapture": true,
+        "selectedLicense": "CC BY 2.5",
+        "licenseOfferedOnIndividualPage": true,
+        "licenseDeed": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/cc-by-2-5.html",
+          "url": "https://creativecommons.org/licenses/by/2.5/",
+          "finalUrl": "https://creativecommons.org/licenses/by/2.5/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:05:40.969Z",
+          "contentType": "text/html",
+          "contentSha256": "2834834b7be12c823e54df7de4390ebda8fcc4c6229c548913307a8379570532",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.505Z",
+          "rehashVerified": true
+        },
+        "creator": "663highland",
+        "dateTakenAsSupplied": "2007-05-12",
+        "credit": "Hyogo Prefectural Museum of History02s3872.jpg — 663highland / Wikimedia Commons · resized and converted to WebP by MaletaFeliz",
+        "modifications": "Automatic orientation, resizing from the publicly supplied Commons rendition and conversion to WebP, without enlargement, cropping, generated edits or changed subject matter. The provided image is archived byte-for-byte. Archive photograph; current access and appearances may differ. Same selected licence retained.",
+        "alt": {
+          "es": "Edificio y explanada del Museo de Historia de la Prefectura de Hyogo en Himeji, fotografía de archivo de 2007",
+          "en": "Building and lawn of the Hyogo Prefectural Museum of History in Himeji, archive photograph from 2007"
+        },
+        "original": {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/content/images/originals/n11-hj-history-museum.jpg",
+          "width": 1280,
+          "height": 857,
+          "bytes": 387158,
+          "sha256": "0b53144bd3b70dbf6de745209d1a94be4f7de15f27dc132e9b756b1d4df53b77",
+          "hashAndDimensionsVerified": true,
+          "providedRenditionNotFullOriginal": true
+        },
+        "variants": [
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-history-museum-480w.webp",
+            "src": "/images/n11-hj-history-museum-480w.webp",
+            "width": 480,
+            "height": 321,
+            "sha256": "cca84bc1463b28d8804f2bacb53fe526d1b9fcfdc813c4080274f0d9d51b611c",
+            "bytes": 35502,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-history-museum-800w.webp",
+            "src": "/images/n11-hj-history-museum-800w.webp",
+            "width": 800,
+            "height": 536,
+            "sha256": "9db6e8cc59e0be1a4525537a3b003b7f63aaf22c53f7d2f529c5f215710447de",
+            "bytes": 112636,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-history-museum.webp",
+            "src": "/images/n11-hj-history-museum.webp",
+            "width": 1280,
+            "height": 857,
+            "sha256": "1c6af889997fd491209ebdff7a8eb165c0057a15fa4ede13b3329a27f1a310b8",
+            "bytes": 347176,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          }
+        ],
+        "visualReview": {
+          "sourcePhotoSeen": true,
+          "optimizedVariantsActuallyViewed": true,
+          "allVariantsSeenIn": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-himeji.jpg",
+          "visualFindings": "Selected source identity and both ALT texts match the actual scene; aspect ratio and scene boundaries preserved across all listed variants, with no generated edits, clipping or conspicuous compression defect. Documentary archive label retained; no inference of current access, season, exhibition or event."
+        },
+        "generatedEdits": false,
+        "paidSource": false,
+        "status": "pass staged photographic rights, relevance, archival disclosure, bilingual ALT, dimensions, original and responsive-byte checks",
+        "captionCreditHasNamedAuthor": true,
+        "attributionLicenseAndSourceLinksProvided": true,
+        "archiveDisclosureInBothAlt": true
+      },
+      {
+        "id": "n11-hj-otokoyama",
+        "subject": "Otokoyama Reservoir Park lawn/viewpoint with Himeji Castle beyond",
+        "subjectFinding": "Commons exact description explicitly Otokoyama Reservoir Park in Himeji, not a generic hill. Archive2011.",
+        "pageCapture": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/otokoyama-file.html",
+          "url": "https://commons.wikimedia.org/wiki/File:Mt-otokoyama03.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Mt-otokoyama03.jpg",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:06:32.619Z",
+          "contentType": "text/html; charset=UTF-8",
+          "contentSha256": "0e564fc38ba19bf70de31449ffe6b122f9ebfcbe73b6f0dcd5fcb75908905ac9",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.506Z",
+          "rehashVerified": true
+        },
+        "sourceUrlMatchesCapture": true,
+        "selectedLicense": "CC BY-SA 3.0",
+        "licenseOfferedOnIndividualPage": true,
+        "licenseDeed": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/cc-by-sa-3.html",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:06:33.199Z",
+          "contentType": "text/html",
+          "contentSha256": "9a17cd36de36b242cbe4234773116f2036f86a8ce4459af8b37fd120482ca931",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.520Z",
+          "rehashVerified": true
+        },
+        "creator": "Terumasa",
+        "dateTakenAsSupplied": "2011-08-17",
+        "credit": "Mt-otokoyama03.jpg — Terumasa / Wikimedia Commons · resized and converted to WebP by MaletaFeliz",
+        "modifications": "Automatic orientation, resizing from the publicly supplied Commons rendition and conversion to WebP, without enlargement, cropping, generated edits or changed subject matter. The provided image is archived byte-for-byte. Archive photograph; current access and appearances may differ. Same selected licence retained.",
+        "alt": {
+          "es": "Césped y mirador del parque Otokoyama con el castillo de Himeji al fondo, fotografía de archivo de 2011",
+          "en": "Lawn and viewpoint at Otokoyama Park with Himeji Castle in the background, archive photograph from 2011"
+        },
+        "original": {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/content/images/originals/n11-hj-otokoyama.jpg",
+          "width": 1000,
+          "height": 750,
+          "bytes": 115367,
+          "sha256": "457051edff4fc692e0a686bac160c9fe2154071a5aa24ccfeda2e37537afcfa3",
+          "hashAndDimensionsVerified": true,
+          "providedRenditionNotFullOriginal": true
+        },
+        "variants": [
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-otokoyama-480w.webp",
+            "src": "/images/n11-hj-otokoyama-480w.webp",
+            "width": 480,
+            "height": 360,
+            "sha256": "b68a205cf90ec36b2fa13e7c277ad26339a997498dc105041dd0a51125b0ddf8",
+            "bytes": 28210,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-otokoyama-800w.webp",
+            "src": "/images/n11-hj-otokoyama-800w.webp",
+            "width": 800,
+            "height": 600,
+            "sha256": "75a654732d72285f5caeac1da516f073f7bc463f95ba5933f2a2798e310c50cf",
+            "bytes": 65272,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/staged/public/images/n11-hj-otokoyama.webp",
+            "src": "/images/n11-hj-otokoyama.webp",
+            "width": 1000,
+            "height": 750,
+            "sha256": "5e36b6175088e1275adbb411ca23bc25ebadb8963ab02809cccf3f1c2bc88b10",
+            "bytes": 108494,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          }
+        ],
+        "visualReview": {
+          "sourcePhotoSeen": true,
+          "optimizedVariantsActuallyViewed": true,
+          "allVariantsSeenIn": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-himeji.jpg",
+          "visualFindings": "Selected source identity and both ALT texts match the actual scene; aspect ratio and scene boundaries preserved across all listed variants, with no generated edits, clipping or conspicuous compression defect. Documentary archive label retained; no inference of current access, season, exhibition or event."
+        },
+        "generatedEdits": false,
+        "paidSource": false,
+        "status": "pass staged photographic rights, relevance, archival disclosure, bilingual ALT, dimensions, original and responsive-byte checks",
+        "captionCreditHasNamedAuthor": true,
+        "attributionLicenseAndSourceLinksProvided": true,
+        "archiveDisclosureInBothAlt": true
+      },
+      {
+        "id": "n11-leon-expiatorio",
+        "subject": "Neo-Gothic exterior of León Guanajuato Templo Expiatorio",
+        "subjectFinding": "Mexico, not León Spain. Documentary street view with incidental people and vehicles; archive2016.",
+        "pageCapture": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/raw/n11-leon-file-50506764.body",
+          "id": "n11-leon-file-50506764",
+          "url": "https://commons.wikimedia.org/wiki/File:Templo_Expiatorio_del_Sagrado_Coraz%C3%B3n_de_Jes%C3%BAs_(Le%C3%B3n,_Guanajuato)_-_exterior.jpg",
+          "fetchedAt": "2026-11-11T17:06:27.867Z",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Templo_Expiatorio_del_Sagrado_Coraz%C3%B3n_de_Jes%C3%BAs_(Le%C3%B3n,_Guanajuato)_-_exterior.jpg",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "contentSha256": "dc46e82ed4775e53922f37b26c75d387d0cec2a560b09681b40a9bc4f3d472ee",
+          "bytes": 117276,
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.526Z",
+          "rehashVerified": true
+        },
+        "sourceUrlMatchesCapture": true,
+        "selectedLicense": "CC BY-SA 4.0",
+        "licenseOfferedOnIndividualPage": true,
+        "licenseDeed": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/cc-by-sa-4.html",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:05:41.128Z",
+          "contentType": "text/html",
+          "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.561Z",
+          "rehashVerified": true
+        },
+        "creator": "Nheyob",
+        "dateTakenAsSupplied": "2016-06-28",
+        "credit": "Templo Expiatorio del Sagrado Corazón de Jesús (León, Guanajuato) - exterior — Nheyob / Wikimedia Commons · resized and converted to WebP by MaletaFeliz",
+        "modifications": "Resized from the downloaded 3430×2452 original and converted to WebP without enlargement, cropping or generated edits. Source photograph taken in 2016; current appearance, access and water levels may differ. Derivatives retain CC BY-SA 4.0.",
+        "alt": {
+          "es": "Fachada neogótica del Templo Expiatorio del Sagrado Corazón de Jesús en León, Guanajuato, fotografía de archivo",
+          "en": "Neo-Gothic façade of the Templo Expiatorio del Sagrado Corazón de Jesús in León, Guanajuato, archive photograph"
+        },
+        "original": {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/originals/n11-leon-expiatorio.jpg",
+          "width": 3430,
+          "height": 2452,
+          "bytes": 1011493,
+          "sha256": "d3935ad2ff58d7d609fa1a47a728c3ccbb66794346d793b1d376949083a93142",
+          "hashAndDimensionsVerified": true,
+          "providedRenditionNotFullOriginal": false
+        },
+        "variants": [
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-expiatorio-240w.webp",
+            "src": "/images/n11-leon-expiatorio-240w.webp",
+            "width": 240,
+            "height": 172,
+            "sha256": "9ed18dfd71b49bc559aa3d0b7a45b446ba66aa72623e54c2b8a967c104501fe9",
+            "bytes": 7108,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-expiatorio-320w.webp",
+            "src": "/images/n11-leon-expiatorio-320w.webp",
+            "width": 320,
+            "height": 229,
+            "sha256": "9d84a326f0050f66ed4da2baacf6dfe6f8391833933f55b80fddd48e1b947e72",
+            "bytes": 10954,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-expiatorio-480w.webp",
+            "src": "/images/n11-leon-expiatorio-480w.webp",
+            "width": 480,
+            "height": 343,
+            "sha256": "6d39e02baa1ac886997d9643daecfc65a3be363e03fe12deb5f07c1b4d3b936f",
+            "bytes": 21296,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-expiatorio-800w.webp",
+            "src": "/images/n11-leon-expiatorio-800w.webp",
+            "width": 800,
+            "height": 572,
+            "sha256": "8cfec7ee51c35e48795002948d39e8f7f7c9a2547e8634fc826bc363fd4b90f5",
+            "bytes": 47770,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-expiatorio.webp",
+            "src": "/images/n11-leon-expiatorio.webp",
+            "width": 1280,
+            "height": 915,
+            "sha256": "f0d8e8b97d0362768edb59ccdfae08815812ce885dfd26864a6a52de6c4b79ef",
+            "bytes": 97550,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          }
+        ],
+        "visualReview": {
+          "sourcePhotoSeen": true,
+          "optimizedVariantsActuallyViewed": true,
+          "allVariantsSeenIn": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-leon.jpg",
+          "visualFindings": "Selected source identity and both ALT texts match the actual scene; aspect ratio and scene boundaries preserved across all listed variants, with no generated edits, clipping or conspicuous compression defect. Documentary archive label retained; no inference of current access, season, exhibition or event."
+        },
+        "generatedEdits": false,
+        "paidSource": false,
+        "status": "pass staged photographic rights, relevance, archival disclosure, bilingual ALT, dimensions, original and responsive-byte checks",
+        "captionCreditHasNamedAuthor": true,
+        "attributionLicenseAndSourceLinksProvided": true,
+        "archiveDisclosureInBothAlt": true
+      },
+      {
+        "id": "n11-leon-arco",
+        "subject": "Arco de la Calzada in León Guanajuato with lion sculpture on top",
+        "subjectFinding": "Commons exact file category Arco de la calzada León and source attribution Comisión Mexicana de Filmaciones; archive2010. Incidental people are visible, not claimed empty.",
+        "pageCapture": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/raw/n11-leon-file-66033624.body",
+          "id": "n11-leon-file-66033624",
+          "url": "https://commons.wikimedia.org/wiki/File:Arco_de_la_Calzada,_Guanajuato_(33173084256).jpg",
+          "fetchedAt": "2026-11-11T17:06:28.152Z",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Arco_de_la_Calzada,_Guanajuato_(33173084256).jpg",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "contentSha256": "6058aebf2d49ad6987251c73eff69dcadb5967a18321391380a4b80ade6282da",
+          "bytes": 133066,
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.563Z",
+          "rehashVerified": true
+        },
+        "sourceUrlMatchesCapture": true,
+        "selectedLicense": "CC BY-SA 2.0",
+        "licenseOfferedOnIndividualPage": true,
+        "licenseDeed": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/raw/n11-leon-cc-bysa2.body",
+          "id": "n11-leon-cc-bysa2",
+          "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "fetchedAt": "2026-11-11T17:06:29.197Z",
+          "finalUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "contentSha256": "6d15fd2f2ccc7258f39befc9f13f5154f9851e49a9e90ec43c7e22d660ae0e84",
+          "bytes": 35429,
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.634Z",
+          "rehashVerified": true
+        },
+        "creator": "Comisión Mexicana de Filmaciones",
+        "dateTakenAsSupplied": "2010-03-06",
+        "credit": "Arco de la Calzada, Guanajuato (33173084256) — Comisión Mexicana de Filmaciones / Wikimedia Commons · resized and converted to WebP by MaletaFeliz",
+        "modifications": "Resized from the downloaded 5079×3386 original and converted to WebP without enlargement, cropping or generated edits. Source photograph taken in 2010; current appearance, access and water levels may differ. Derivatives retain CC BY-SA 2.0.",
+        "alt": {
+          "es": "Arco de la Calzada de los Héroes en León, Guanajuato, coronado por la escultura de un león, fotografía de archivo",
+          "en": "Arco de la Calzada de los Héroes in León, Guanajuato, crowned by a lion sculpture, archive photograph"
+        },
+        "original": {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/originals/n11-leon-arco.jpg",
+          "width": 5079,
+          "height": 3386,
+          "bytes": 8365869,
+          "sha256": "c3c896b1e071571f4e970e390266a2ec8ee461e9fa60592024eb81d0bf5247eb",
+          "hashAndDimensionsVerified": true,
+          "providedRenditionNotFullOriginal": false
+        },
+        "variants": [
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-arco-240w.webp",
+            "src": "/images/n11-leon-arco-240w.webp",
+            "width": 240,
+            "height": 160,
+            "sha256": "dee1f6e05e29d3f85362d764d8053db0d9bbfd0299b6389fb9147fda33df1ce3",
+            "bytes": 9068,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-arco-320w.webp",
+            "src": "/images/n11-leon-arco-320w.webp",
+            "width": 320,
+            "height": 214,
+            "sha256": "526ee7a11bed8140b758daa8153c46a66c6b05641f339caf31e8e647d6dcd31f",
+            "bytes": 13956,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-arco-480w.webp",
+            "src": "/images/n11-leon-arco-480w.webp",
+            "width": 480,
+            "height": 320,
+            "sha256": "f5d18003b83800641f52746219d9c219372fbda0ec95a4cf84c79bc6746b0bac",
+            "bytes": 26506,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-arco-800w.webp",
+            "src": "/images/n11-leon-arco-800w.webp",
+            "width": 800,
+            "height": 533,
+            "sha256": "c46f64e008be84bfe04454145bc0fa982d5de3cd12d0f4a253d0d176449e2d50",
+            "bytes": 60406,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-arco.webp",
+            "src": "/images/n11-leon-arco.webp",
+            "width": 1280,
+            "height": 854,
+            "sha256": "293853d1e894cc3c88d1319c38dfa7abda14b4bb9f73ae540c9b3cf64316ab0c",
+            "bytes": 132892,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          }
+        ],
+        "visualReview": {
+          "sourcePhotoSeen": true,
+          "optimizedVariantsActuallyViewed": true,
+          "allVariantsSeenIn": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-leon.jpg",
+          "visualFindings": "Selected source identity and both ALT texts match the actual scene; aspect ratio and scene boundaries preserved across all listed variants, with no generated edits, clipping or conspicuous compression defect. Documentary archive label retained; no inference of current access, season, exhibition or event."
+        },
+        "generatedEdits": false,
+        "paidSource": false,
+        "status": "pass staged photographic rights, relevance, archival disclosure, bilingual ALT, dimensions, original and responsive-byte checks",
+        "captionCreditHasNamedAuthor": true,
+        "attributionLicenseAndSourceLinksProvided": true,
+        "archiveDisclosureInBothAlt": true
+      },
+      {
+        "id": "n11-leon-catedral",
+        "subject": "Close-up detail of the atrium portal at Cathedral Basilica of Our Lady of the Light, León Guanajuato",
+        "subjectFinding": "The page Source/Author table is reversed, but explicit Permission, required attribution, Structured Data creator and file-history uploader identify ProtoplasmaKid. ALT correctly says portal detail; photo does not show full church or towers. Preserve supplied © notice and requested visible credit. Archive2024.",
+        "pageCapture": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/raw/n11-leon-file-145726283.body",
+          "id": "n11-leon-file-145726283",
+          "url": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Le%C3%B3n,_Guanajuato_-_1_01.jpg",
+          "fetchedAt": "2026-11-11T17:06:28.852Z",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Le%C3%B3n,_Guanajuato_-_1_01.jpg",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "contentSha256": "aac5cbd906af68e9b0a6242e79c3cb30a79e949e66807e43943c96eabdf836aa",
+          "bytes": 129790,
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.644Z",
+          "rehashVerified": true
+        },
+        "sourceUrlMatchesCapture": true,
+        "selectedLicense": "CC BY-SA 4.0",
+        "licenseOfferedOnIndividualPage": true,
+        "licenseDeed": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/cc-by-sa-4.html",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:05:41.128Z",
+          "contentType": "text/html",
+          "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.761Z",
+          "rehashVerified": true
+        },
+        "creator": "ProtoplasmaKid",
+        "dateTakenAsSupplied": "2024-02-20",
+        "credit": "© ProtoplasmaKid / Wikimedia Commons / CC-BY-SA 4.0 · resized and converted to WebP by MaletaFeliz",
+        "modifications": "Resized from the downloaded 5568×3712 original and converted to WebP without enlargement, cropping or generated edits. Source photograph taken in 2024; current appearance, access and water levels may differ. Derivatives retain CC BY-SA 4.0.",
+        "alt": {
+          "es": "Detalle de la portada atrial de la Catedral Basílica de Nuestra Señora de la Luz en León, Guanajuato, fotografía de archivo",
+          "en": "Detail of the atrium portal at the Cathedral Basilica of Our Lady of the Light in León, Guanajuato, archive photograph"
+        },
+        "original": {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/originals/n11-leon-catedral.jpg",
+          "width": 5568,
+          "height": 3712,
+          "bytes": 17080387,
+          "sha256": "6788c751b48e3ebafafc61186ec72b633cde3f7ddbb8c8110fe7814e7098b640",
+          "hashAndDimensionsVerified": true,
+          "providedRenditionNotFullOriginal": false
+        },
+        "variants": [
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-catedral-240w.webp",
+            "src": "/images/n11-leon-catedral-240w.webp",
+            "width": 240,
+            "height": 160,
+            "sha256": "4231eaa208a6435421460122e56f2955f9fab687a26ff6ccf7a55e176b5a2ecc",
+            "bytes": 13270,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-catedral-320w.webp",
+            "src": "/images/n11-leon-catedral-320w.webp",
+            "width": 320,
+            "height": 213,
+            "sha256": "3873fe3f381730befa17eafc01adb144a3d584f795d02b1594c988dfbb7f9c73",
+            "bytes": 22612,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-catedral-480w.webp",
+            "src": "/images/n11-leon-catedral-480w.webp",
+            "width": 480,
+            "height": 320,
+            "sha256": "53a4cd73b1edac71bb59bc45a7d2b2dd943ffe4e3bf4ec9f764511d021c8882c",
+            "bytes": 45904,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-catedral-800w.webp",
+            "src": "/images/n11-leon-catedral-800w.webp",
+            "width": 800,
+            "height": 533,
+            "sha256": "5aa58fc474aadece1f8893cf826d7bca049ead610708b156928e582f977af426",
+            "bytes": 118950,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-catedral.webp",
+            "src": "/images/n11-leon-catedral.webp",
+            "width": 1280,
+            "height": 853,
+            "sha256": "397beb6f2f531201203703cd55083aeb2c8253f56a58d2fb944fa6d175d1f717",
+            "bytes": 291210,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          }
+        ],
+        "visualReview": {
+          "sourcePhotoSeen": true,
+          "optimizedVariantsActuallyViewed": true,
+          "allVariantsSeenIn": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-leon.jpg",
+          "visualFindings": "Selected source identity and both ALT texts match the actual scene; aspect ratio and scene boundaries preserved across all listed variants, with no generated edits, clipping or conspicuous compression defect. Documentary archive label retained; no inference of current access, season, exhibition or event."
+        },
+        "generatedEdits": false,
+        "paidSource": false,
+        "status": "pass staged photographic rights, relevance, archival disclosure, bilingual ALT, dimensions, original and responsive-byte checks",
+        "captionCreditHasNamedAuthor": true,
+        "attributionLicenseAndSourceLinksProvided": true,
+        "archiveDisclosureInBothAlt": true,
+        "attributionFinding": "Supplied © copyright notice preserved, together with the exact requested visible credit ProtoplasmaKid / Wikimedia Commons / CC-BY-SA 4.0. Optional notification request does not require sending messages; no third party contacted."
+      },
+      {
+        "id": "n11-leon-mahg",
+        "subject": "MAHG entrance and forecourt in León Guanajuato, name readable on entrance",
+        "subjectFinding": "Exact photographed Museo de Arte e Historia de Guanajuato building, not a generic Forum or a museum in Guanajuato city. Archive2023.",
+        "pageCapture": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/raw/n11-leon-file-132578069.body",
+          "id": "n11-leon-file-132578069",
+          "url": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_e_Historia_de_Guanajuato_(Le%C3%B3n,_Gto.)_2023.jpg",
+          "fetchedAt": "2026-11-11T17:06:28.474Z",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_e_Historia_de_Guanajuato_(Le%C3%B3n,_Gto.)_2023.jpg",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "contentSha256": "2a0935d4656fcbb7a8cf8b3e2db71d02d48ad3772e1aa0744b7d995929aeef60",
+          "bytes": 108341,
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.780Z",
+          "rehashVerified": true
+        },
+        "sourceUrlMatchesCapture": true,
+        "selectedLicense": "CC BY-SA 4.0",
+        "licenseOfferedOnIndividualPage": true,
+        "licenseDeed": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/cc-by-sa-4.html",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:05:41.128Z",
+          "contentType": "text/html",
+          "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.829Z",
+          "rehashVerified": true
+        },
+        "creator": "Juan Carlos Fonseca Mata",
+        "dateTakenAsSupplied": "2023-05-31",
+        "credit": "Museo de Arte e Historia de Guanajuato (León, Gto.) 2023 — Juan Carlos Fonseca Mata / Wikimedia Commons · resized and converted to WebP by MaletaFeliz",
+        "modifications": "Resized from the downloaded 3034×2276 original and converted to WebP without enlargement, cropping or generated edits. Source photograph taken in 2023; current appearance, access and water levels may differ. Derivatives retain CC BY-SA 4.0.",
+        "alt": {
+          "es": "Exterior y explanada del Museo de Arte e Historia de Guanajuato en el Forum Cultural de León, fotografía de archivo",
+          "en": "Exterior and forecourt of the Museo de Arte e Historia de Guanajuato at León’s Forum Cultural, archive photograph"
+        },
+        "original": {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/originals/n11-leon-mahg.jpg",
+          "width": 3034,
+          "height": 2276,
+          "bytes": 1755243,
+          "sha256": "919105ed258c3d0df1b31789039e338fdd25559991c773503ab05e010f452900",
+          "hashAndDimensionsVerified": true,
+          "providedRenditionNotFullOriginal": false
+        },
+        "variants": [
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-mahg-240w.webp",
+            "src": "/images/n11-leon-mahg-240w.webp",
+            "width": 240,
+            "height": 180,
+            "sha256": "15828731d4e55c918a754931db26b17398c69f73e2ff2c0d5b63eb8231154ebd",
+            "bytes": 7676,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-mahg-320w.webp",
+            "src": "/images/n11-leon-mahg-320w.webp",
+            "width": 320,
+            "height": 240,
+            "sha256": "21d5ff763413eceef09d9500fc3f80c5abb6a104402ee36449c8b06a09367550",
+            "bytes": 12558,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-mahg-480w.webp",
+            "src": "/images/n11-leon-mahg-480w.webp",
+            "width": 480,
+            "height": 360,
+            "sha256": "4d3f85ee741afdd1e5836838f3ab37973682c2de5bc9b03edcced4d95a30c24e",
+            "bytes": 26898,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-mahg-800w.webp",
+            "src": "/images/n11-leon-mahg-800w.webp",
+            "width": 800,
+            "height": 600,
+            "sha256": "96f3dac812988c8189a01efa6a6721a85dc9ab6aa3aa1ade8faa01d035039597",
+            "bytes": 64718,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-mahg.webp",
+            "src": "/images/n11-leon-mahg.webp",
+            "width": 1280,
+            "height": 960,
+            "sha256": "9213a7fa85933afe1e45f134d615979804485a4b7bd587bb3cc7c2c07e1571fb",
+            "bytes": 138388,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          }
+        ],
+        "visualReview": {
+          "sourcePhotoSeen": true,
+          "optimizedVariantsActuallyViewed": true,
+          "allVariantsSeenIn": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-leon.jpg",
+          "visualFindings": "Selected source identity and both ALT texts match the actual scene; aspect ratio and scene boundaries preserved across all listed variants, with no generated edits, clipping or conspicuous compression defect. Documentary archive label retained; no inference of current access, season, exhibition or event."
+        },
+        "generatedEdits": false,
+        "paidSource": false,
+        "status": "pass staged photographic rights, relevance, archival disclosure, bilingual ALT, dimensions, original and responsive-byte checks",
+        "captionCreditHasNamedAuthor": true,
+        "attributionLicenseAndSourceLinksProvided": true,
+        "archiveDisclosureInBothAlt": true
+      },
+      {
+        "id": "n11-leon-parque",
+        "subject": "Railed path and rocky edge beside Presa El Palote at León Parque Metropolitano",
+        "subjectFinding": "Generic main caption says León, but exact individual file category Presa El Palote and visible reservoir edge establish the feature. Appropriate as park-reservoir edge archival2009; not evidence of present water level, access or balloon festival.",
+        "pageCapture": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/raw/n11-leon-file-7308089.body",
+          "id": "n11-leon-file-7308089",
+          "url": "https://commons.wikimedia.org/wiki/File:Leon9_guanajuato.jpg",
+          "fetchedAt": "2026-11-11T17:06:27.565Z",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Leon9_guanajuato.jpg",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "contentSha256": "e74d612fd11467dbd42ab5ea0fcf3c672ecb91148d747a841aedf7afcb52eee9",
+          "bytes": 92351,
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.831Z",
+          "rehashVerified": true
+        },
+        "sourceUrlMatchesCapture": true,
+        "selectedLicense": "CC BY-SA 3.0",
+        "licenseOfferedOnIndividualPage": true,
+        "licenseDeed": {
+          "provenance": "REUSED writer capture; independently read and SHA-256 rehashed, not a new HTTP request",
+          "bodyFile": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/cc-by-sa-3.html",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-11T17:06:33.199Z",
+          "contentType": "text/html",
+          "contentSha256": "9a17cd36de36b242cbe4234773116f2036f86a8ce4459af8b37fd120482ca931",
+          "retryAfter": null,
+          "independentlyReadAt": "2026-11-11T17:11:35.859Z",
+          "rehashVerified": true
+        },
+        "creator": "Anders Lagerås",
+        "dateTakenAsSupplied": "2009-06-24",
+        "credit": "Leon9 guanajuato — Anders Lagerås / Wikimedia Commons · resized and converted to WebP by MaletaFeliz",
+        "modifications": "Resized from the downloaded 2592×1944 original and converted to WebP without enlargement, cropping or generated edits. Source photograph taken in 2009; current appearance, access and water levels may differ. Derivatives retain CC BY-SA 3.0.",
+        "alt": {
+          "es": "Sendero con barandilla junto a la presa El Palote del Parque Metropolitano de León, fotografía de archivo de 2009",
+          "en": "Path with a railing beside the El Palote reservoir at León’s Parque Metropolitano, archive photograph from 2009"
+        },
+        "original": {
+          "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/originals/n11-leon-parque.jpg",
+          "width": 2592,
+          "height": 1944,
+          "bytes": 2476890,
+          "sha256": "945b346d408851994a0ae38644203eee1cb14f52f871c618811e33337ca34614",
+          "hashAndDimensionsVerified": true,
+          "providedRenditionNotFullOriginal": false
+        },
+        "variants": [
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-parque-240w.webp",
+            "src": "/images/n11-leon-parque-240w.webp",
+            "width": 240,
+            "height": 180,
+            "sha256": "2a0a71e1a725f34ea6f1b5de380cb5bab19d82d2eedd91b8dd6901180fcbc562",
+            "bytes": 8052,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-parque-320w.webp",
+            "src": "/images/n11-leon-parque-320w.webp",
+            "width": 320,
+            "height": 240,
+            "sha256": "a1bf615b4cae8d78695acf0ae22b46badb5c125f4a78e4694fe0ed8cd0435c29",
+            "bytes": 13708,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-parque-480w.webp",
+            "src": "/images/n11-leon-parque-480w.webp",
+            "width": 480,
+            "height": 360,
+            "sha256": "316f18edfb58c146cab7a27fe520be8123810620d698873598928fab606bc807",
+            "bytes": 28636,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-parque-800w.webp",
+            "src": "/images/n11-leon-parque-800w.webp",
+            "width": 800,
+            "height": 600,
+            "sha256": "943e190d1199f93938b2c12bec9df207dacc80e0469b095aaf271d5b06aeea32",
+            "bytes": 78226,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          },
+          {
+            "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/images/n11-leon-parque.webp",
+            "src": "/images/n11-leon-parque.webp",
+            "width": 1280,
+            "height": 960,
+            "sha256": "540368704a6a726484a1e64e658c7418d6d4bf871824e5804335b5d47d6edb70",
+            "bytes": 189654,
+            "format": "webp",
+            "hashVerified": true,
+            "dimensionsVerified": true,
+            "noEnlargement": true
+          }
+        ],
+        "visualReview": {
+          "sourcePhotoSeen": true,
+          "optimizedVariantsActuallyViewed": true,
+          "allVariantsSeenIn": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-leon.jpg",
+          "visualFindings": "Selected source identity and both ALT texts match the actual scene; aspect ratio and scene boundaries preserved across all listed variants, with no generated edits, clipping or conspicuous compression defect. Documentary archive label retained; no inference of current access, season, exhibition or event."
+        },
+        "generatedEdits": false,
+        "paidSource": false,
+        "status": "pass staged photographic rights, relevance, archival disclosure, bilingual ALT, dimensions, original and responsive-byte checks",
+        "captionCreditHasNamedAuthor": true,
+        "attributionLicenseAndSourceLinksProvided": true,
+        "archiveDisclosureInBothAlt": true
+      }
+    ],
+    "contactSheets": [
+      "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-himeji.jpg",
+      "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-leon.jpg"
+    ],
+    "pending": [],
+    "templateReadEvidence": {
+      "path": "/workspace/maletafeliz-/src/components/Article.astro",
+      "coverCaptionLines": [
+        91,
+        100
+      ],
+      "placeCaptionLines": [
+        163,
+        168
+      ],
+      "finding": "Existing HTML figure captions visibly render photo credit, source link, licence name/link and archival ALT description for both cover and each individual place. Template was read; no code edit and no rendered-page claim is made."
+    },
+    "counts": {
+      "photos": 10,
+      "sourceProvidedOriginals": 10,
+      "optimizedVariants": 40,
+      "individualFilePagesReadAndRehashed": 10,
+      "distinctApplicableDeedsReadAndRehashed": 4,
+      "independentHttpRequests": 0
+    },
+    "status": "PASS — independent staged photographic review only",
+    "fragmentSnapshots": [
+      {
+        "path": "/workspace/artifacts/maletafeliz-daily-two-n11/himeji/photos/photos-fragment.json",
+        "sha256": "a936817a3f5e0f375a9b75af54d9ce903aef8ba8364db819161472718e1a57c7"
+      },
+      {
+        "path": "/workspace/artifacts/maletafeliz-daily-two-n11/leon-guanajuato/photos-fragment.json",
+        "sha256": "47f70e815aeecd359f9bb2c29a7e4afb6f957285e2f1ed19a4940734bcded8cd"
+      }
+    ],
+    "contactSheetSnapshots": [
+      {
+        "path": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-himeji.jpg",
+        "sha256": "4da7698d67a4511877ea866d79855a5e5c3d2b8912e620d9b082a93423145e97",
+        "actuallyViewedByIndependentReviewer": true
+      },
+      {
+        "path": "/workspace/artifacts/maletafeliz-daily-two-n11/independent-photo-contact-leon.jpg",
+        "sha256": "258cd58db5710330fbbc508f54882bfbf0013d988011dfe3bf6356586b7dab50",
+        "actuallyViewedByIndependentReviewer": true
+      }
+    ],
+    "limitations": [
+      "No new HTTP request by independent reviewer; reused fresh writer captures actually read and rehashed with their original HTTP timestamps, URLs and SHA-256 retained.",
+      "Archive photographs do not certify current access, scaffolding, reservoir water levels, seasonal colours or event conditions.",
+      "Final article approval, rendered-page validation, build and deployment remain with the publishing workflow."
+    ]
+  },
+  "limitations": [
+    "Not yet a public publication receipt. Mandatory checks, GitHub, both Cloudflare source deployments and public HTTPS/browser verification remain pending.",
+    "No actual Google crawl/indexing/ranking or unattended scheduler attribution claimed."
+  ]
+}

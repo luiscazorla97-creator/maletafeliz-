@@ -1,0 +1,27 @@
+{
+  "url": "https://www.city.himeji.lg.jp/castle/0000033820.html",
+  "finalUrl": "https://www.city.himeji.lg.jp/castle/0000033820.html",
+  "fetchedAt": "2026-11-11T17:06:17.321Z",
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "contentSha256": "3d4465be7ad2bf89e027a189d7bc05fb3f780ecc54aa1bd6ac9e89756ee161b0",
+  "title": "Himeji Castle — official conservation works notice, July 2026–July 2027",
+  "facts": [
+    {
+      "fact": "Current preservation works are scheduled from early July 2026 to approximately late July 2027 around Ni-no-yagura, Mizu-no-ni-mon and associated walls/gates near the main keep.",
+      "excerpt": "工事期間\n令和8年7月上旬から令和9年7月下旬頃まで\n工事場所\n・ニの櫓、ニの櫓南方土塀、水の一門、水の一門北方築地塀、水の一門西方土塀、水の二門",
+      "location": "Raw extracted TXT under工事期間/工事場所; Reiwa8=2026, Reiwa9=2027. Approximation頃 retained in article asapproximately."
+    },
+    {
+      "fact": "The municipality warns that work affects the visiting environment, main-keep views and nighttime lighting; scaffolding is installed around the work sites.",
+      "excerpt": "今年度は、ニの櫓や水の二門など、大天守周辺での工事となることから、見学環境や大天守の景観および夜間のライトアップに支障が出ます。",
+      "location": "Introductory paragraph immediately before工事期間; scaffolding stated under工事箇所 and工事内容"
+    },
+    {
+      "fact": "Some visiting-route sections are narrowed by the works, and construction vehicles may enter.",
+      "excerpt": "工事の影響で、見学ルートの一部が狭くなっているところがあります。\n工事期間中、関係車両が進入することがあります。",
+      "location": "Raw extracted TXT lines178–180, 注意事項"
+    }
+  ],
+  "notes": "Official response actually fetched and cited passages read on the recorded date. Raw HTML, extracted text and response metadata retained outside Git under artifacts/maletafeliz-daily-two-n11/himeji/research. Route choices are original editorial advice. No personal visit, demand volume, rankings or guaranteed access inferred from archive photographs. Numerical prices and routine departure times intentionally omitted; consult the linked operator for date-specific conditions."
+}

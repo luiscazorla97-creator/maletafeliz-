@@ -1,0 +1,88 @@
+{
+  "url": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1274",
+  "fetchedAt": "2026-11-11T17:05:05.632Z",
+  "finalUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1274",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "d64135a94a2b2ecbe7ab8437da2f8adc6411779ea8358e0105e015c575537a0a",
+  "bytes": 45762,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The SIC identifies the Museo de Arte e Historia de Guanajuato in León at Prolongación Calzada de los Héroes 908, La Martinica, as part of Forum Cultural Guanajuato; it opened on 27 November 2008.",
+      "excerpt": "27 de noviembre de 2008",
+      "location": "Institution/address block and Datos generales.",
+      "excerptLocations": [
+        {
+          "text": "27 de noviembre de 2008",
+          "extractedTextLine": 165
+        }
+      ]
+    },
+    {
+      "fact": "Its weekday schedule is Tuesday–Friday 10:00–17:00.",
+      "excerpt": "Martes a viernes de 10 a 17 h",
+      "location": "Horarios y costos, weekday line.",
+      "excerptLocations": [
+        {
+          "text": "Martes a viernes de 10 a 17 h",
+          "extractedTextLine": 158
+        }
+      ]
+    },
+    {
+      "fact": "Its weekend/public-holiday schedule is 11:00–18:00; Monday is not included in the usual listed days.",
+      "excerpt": "Sábado y domingo y días feriados … 11 a 18",
+      "location": "Horarios y costos, next line, whose full numeric range is also transcribed below.",
+      "excerptLocations": [
+        {
+          "text": "Sábado y domingo y días feriados",
+          "extractedTextLine": 159
+        },
+        {
+          "text": "11 a 18",
+          "extractedTextLine": 159
+        }
+      ]
+    },
+    {
+      "fact": "SIC lists a 45 MXN general admission, which conflicts with state tourism’s claim of free permanent exhibitions. Neither is published in the manuscript as a universal current price.",
+      "excerpt": "Entrada general: $45",
+      "location": "Horarios y costos, general-admission line; cross-check n11-leon-mahg-tourism.",
+      "excerptLocations": [
+        {
+          "text": "Entrada general: $45",
+          "extractedTextLine": 160
+        }
+      ]
+    }
+  ],
+  "notes": "SIC entry says last modified 20 July 2026. Retrieval on 11 November 2026 is recorded separately; the two dates are not conflated. Fees and temporary shows require direct reconfirmation.",
+  "readMethod": "Actual captured body read in extracted text; facts checked against the named body sections.",
+  "extractedData": {
+    "address": {
+      "street": "Prol. Calz. de los Héroes",
+      "number": 908,
+      "neighbourhood": "La Martinica",
+      "city": "León de los Aldama",
+      "state": "Guanajuato"
+    },
+    "opened": "2008-11-27",
+    "publishedVisitingHours": {
+      "Tuesday-Friday": {
+        "opens": "10:00",
+        "closes": "17:00"
+      },
+      "Saturday-Sunday-publicHolidays": {
+        "opens": "11:00",
+        "closes": "18:00"
+      },
+      "Monday": "not included in ordinary published schedule"
+    },
+    "publishedGeneralAdmissionMXN": 45,
+    "sourceLastModified": "2026-07-20",
+    "priceTreatment": "Numeric general price not used because of conflict with state tourism permanent-gallery free-admission claim."
+  },
+  "traceabilityNote": "Short verbatim excerpts locate the read passages; structured numeric/address fields are factual transcription. The original captured body and its SHA-256, final URL, HTTP status and capture time remain unchanged. No recapture or date refresh.",
+  "excerptWordCount": 25
+}

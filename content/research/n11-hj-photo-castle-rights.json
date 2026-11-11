@@ -1,0 +1,65 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Himeji_castle_in_may_2015.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Himeji_castle_in_may_2015.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-11T17:05:36.571Z",
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "012a3d78fb8449b8e80b3e8bae0f0a35e5d15df278729ca3c5294c0c93044b00",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The individual Commons file page was actually read. It identifies the supplied title and named creator and explicitly grants the selected licence. Other listed alternatives are not needed for this use.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.",
+      "location": "Individual file page, Information table and selected Licensing box; title and author retained in credit."
+    },
+    {
+      "fact": "The named individual file and creator identify Himeji Castle, dated 10 May 2015. Its exterior keep and fortifications are visible. This archival photo documents the place, not its current scaffolding or repair status in 2026–2027.",
+      "excerpt": "Himeji castle in may 2015 after the five year renovation of the roof and walls.",
+      "location": "Individual file page, Description and Date/Author fields, matched with visual inspection of the supplied documentary image."
+    },
+    {
+      "fact": "The selected licence deed was actually read. Sharing and adaptation for commercial use are permitted with attribution, licence link, indication of changes and ShareAlike where applicable. No endorsement is implied.",
+      "excerpt": "ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.",
+      "location": "Applicable Creative Commons deed, You are free / Under the following terms; dated HTTP 200 capture and hash retained."
+    },
+    {
+      "fact": "The source-provided image was downloaded, its exact bytes, dimensions and SHA-256 recorded, and three responsive WebP derivatives were generated without enlargement or generative changes. Final editorial review remains separate.",
+      "excerpt": "API-provided image URL and actual downloaded bytes; Sharp dimensions and optimized derivative hash ledger.",
+      "location": "Documentary download capture and staged originals/variants."
+    }
+  ],
+  "notes": "Archive documentary photograph. This record does not establish current access, scaffolding status, seasonal appearance or exhibition content. The old source-provided resolution is preserved byte-for-byte; no source full-resolution download is claimed unless it is the API-provided unscaled file. Source page, applicable deed, response bodies and SHA-256 captures retained outside Git.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-11T17:05:41.128Z",
+    "contentType": "text/html",
+    "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Himeji_castle_in_may_2015.jpg/1280px-Himeji_castle_in_may_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Himeji_castle_in_may_2015.jpg/1280px-Himeji_castle_in_may_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-11T17:05:36.845Z",
+    "contentType": "image/jpeg",
+    "contentSha256": "639e9114ea4382ee13405ce60072631af36f9292a8cca7d577f81e4fa52597eb",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "title": "File:Himeji castle in may 2015.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Himeji_castle_in_may_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5632,
+    "height": 3754,
+    "bytes": 19145677,
+    "dateTaken": "2015-05-10",
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Himeji_castle_in_may_2015.jpg/1280px-Himeji_castle_in_may_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided 1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "publicGeo": {
+      "latitude": "34.839423",
+      "longitude": "134.693851"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "url": "https://www.leon-mexico.com/blog/templo-expiatorio/",
+  "fetchedAt": "2026-11-11T17:08:02.926Z",
+  "finalUrl": "https://leon-mexico.com/blog/lugares-que-conocer/templo-expiatorio/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "03d16ccc63a42dd9268bcbf98b1ed5741e6e5864b8a7c016e8da87b395461d01",
+  "bytes": 360841,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The destination tourism article describes the Expiatorio’s neo-Gothic character, grey/pink stone and bronze doors with reliefs. Promotional popularity and speculative completion claims are excluded.",
+      "excerpt": "belleza neogótica … paredes de piedra gris y rosa … puertas de bronce esculpidas en sobre relieve",
+      "location": "Main article, architectural and material-description paragraphs.",
+      "excerptLocations": [
+        {
+          "text": "belleza neogótica",
+          "extractedTextLine": 31
+        },
+        {
+          "text": "paredes de piedra gris y rosa",
+          "extractedTextLine": 35
+        },
+        {
+          "text": "puertas de bronce esculpidas en sobre relieve",
+          "extractedTextLine": 35
+        }
+      ]
+    },
+    {
+      "fact": "It describes scenes in the stained glass, including Christ the King, supporting a suggested look at the windows when visitor access is permitted.",
+      "excerpt": "imagen de Cristo Rey del Universo",
+      "location": "Main stained-glass paragraph. The article supplies no verified present religious visiting schedule.",
+      "excerptLocations": [
+        {
+          "text": "imagen de Cristo Rey del Universo",
+          "extractedTextLine": 35
+        }
+      ]
+    }
+  ],
+  "notes": "Requested URL redirects to the final municipal-linked destination article. Read actual body; rankings, speculative completion statements, every-hour visiting and social-media feed are not factual claims in the manuscript.",
+  "readMethod": "Actual captured body read in extracted text; facts checked against the named body sections.",
+  "traceabilityNote": "Short verbatim excerpts locate the read passages; structured numeric/address fields are factual transcription. The original captured body and its SHA-256, final URL, HTTP status and capture time remain unchanged. No recapture or date refresh.",
+  "excerptWordCount": 21
+}

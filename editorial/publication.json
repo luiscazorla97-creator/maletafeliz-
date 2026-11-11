@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-10T16:45:40.156062+00:00",
+  "verifiedAt": "2026-11-11T18:10:44.807Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 191,
-  "localizations": 382,
-  "photos": 846,
-  "httpChecks": 390,
+  "originals": 193,
+  "localizations": 386,
+  "photos": 856,
+  "httpChecks": 920,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "46238e55-2edd-43a9-80ca-fab1a763f5d0",
-      "commit": "a0910c74c099b2e3e31800309823077d891def63",
+      "deploymentId": "d9db6070-4dfa-4beb-b64c-bdc7fd56bd58",
+      "commit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "034561c0-bcb4-4b6b-b014-c8696f504fdc",
-      "commit": "a0910c74c099b2e3e31800309823077d891def63",
+      "deploymentId": "4b9de219-8d4d-4f1b-bed4-eec9cd61b0cf",
+      "commit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,23 +45,25 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 897,
-  "latestBatch": "2026-11-10",
-  "verificationFile": "editorial/verification/2026-11-10-manual-three-publication.json",
+  "citedSourceDocuments": 920,
+  "latestBatch": "2026-11-11",
+  "verificationFile": "editorial/verification/2026-11-11-publication.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 390,
-    "batchActualHttpsRequests": 101,
-    "batchHttpsAuditRecords": 93,
+    "siteAndRedirects": 920,
+    "batchActualHttpsRequests": 76,
+    "batchHttpsAuditRecords": 70,
     "browserCombinations": 4,
-    "browserFlows": 12,
-    "browserFirstPartyResourceRequests": 82,
-    "note": "All382 guide versions plus eight site/redirect checks. Actual batch HTTPS requests and browser flows are distinct scopes; this is not a recrawl of all902 sitemap URLs."
+    "browserFlows": 8,
+    "browserFirstPartyResourceRequests": 67,
+    "note": "The whole current sitemap and every localized guide were checked by normal HTTPS. Batch requests, browser flows and exact new photo checks are separate evidence scopes, not unique visitor counts or Google crawls.",
+    "allSitemapHtmlPages": 910,
+    "allLocalizedGuideHtmlPages": 386
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-10-manual-three-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-10T16:45:40.156062+00:00",
+  "latestDeploymentVerification": "editorial/verification/2026-11-11-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-11T18:10:44.807Z",
   "photoCoverage": {
-    "originalRecommendations": 844,
-    "localizedRecommendations": 1688,
+    "originalRecommendations": 854,
+    "localizedRecommendations": 1708,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -126,9 +128,9 @@
       "height": 250
     }
   },
-  "batchChecks": 93,
+  "batchChecks": 70,
   "performanceVerification": "editorial/verification/2026-11-09-mobile-performance-publication.json",
-  "verificationChecksTotal": 483,
+  "verificationChecksTotal": 990,
   "countrySeoStrategy": {
     "priorityCountries": [
       "it",
@@ -136,21 +138,26 @@
       "mx",
       "us"
     ],
-    "priorityOriginals": 73,
+    "priorityOriginals": 75,
     "initialTargetOriginals": 100,
-    "remainingOriginals": 27,
-    "verification": "editorial/verification/2026-11-10-manual-three-publication.json"
+    "remainingOriginals": 25,
+    "verification": "editorial/verification/2026-11-11-publication.json"
   },
   "technicalIndexability": {
-    "verifiedAt": "2026-11-09T16:37:28.691378+00:00",
-    "verificationFile": "editorial/verification/2026-11-09-indexing-publication.json",
-    "sourceCommit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
-    "sitemapUrls": 882,
-    "httpUrlsChecked": 882,
-    "newArticles": 0,
+    "verifiedAt": "2026-11-11T18:10:44.807Z",
+    "verificationFile": "editorial/verification/2026-11-11-seo-audit.json",
+    "sourceCommit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+    "sitemapUrls": 910,
+    "httpUrlsChecked": 910,
+    "localizedGuidesCheckedInHtml": 386,
+    "allSitemapPagesReachableThroughHtml": true,
     "unreachableSitemapPages": 0,
     "maximumGuideClickDepth": 2,
-    "googleIndexationVerified": false
+    "duplicateTitlesWithinLocale": 0,
+    "newArticles": 0,
+    "newLocalizations": 0,
+    "googleIndexationVerified": false,
+    "scope": "Every current sitemap URL received a normal HTTPS HTML/indexability check, including every Spanish and English guide. Technical eligibility does not establish Google crawling, indexing, impressions or rankings."
   },
   "mobilePerformance": {
     "verifiedAt": "2026-11-10T00:27:13.086746+00:00",
@@ -201,5 +208,18 @@
       "zoneSettingsChanged": false,
       "scriptBodiesAndOrderPreserved": true
     }
-  }
+  },
+  "technicalIndexabilityHistory": [
+    {
+      "verifiedAt": "2026-11-09T16:37:28.691378+00:00",
+      "verificationFile": "editorial/verification/2026-11-09-indexing-publication.json",
+      "sourceCommit": "7d7a8c83db5f43beb9148ce4adf62646a44bab98",
+      "sitemapUrls": 882,
+      "httpUrlsChecked": 882,
+      "newArticles": 0,
+      "unreachableSitemapPages": 0,
+      "maximumGuideClickDepth": 2,
+      "googleIndexationVerified": false
+    }
+  ]
 }

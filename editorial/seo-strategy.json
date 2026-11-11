@@ -1391,7 +1391,7 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-10T16:45:40.156062+00:00",
+    "verifiedAt": "2026-11-11T18:10:44.807Z",
     "countries": [
       {
         "countryId": "it",
@@ -1424,16 +1424,17 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 17,
-        "localizedVersions": 34,
+        "publishedOriginals": 18,
+        "localizedVersions": 36,
         "targetOriginals": 25,
-        "missingOriginals": 8,
+        "missingOriginals": 7,
         "articleIds": [
           "christmas-fukuoka",
           "christmas-osaka",
           "christmas-tokyo",
           "christmas-yokohama",
           "halloween-japan",
+          "himeji",
           "hiroshima",
           "kanazawa",
           "kyoto",
@@ -1450,13 +1451,14 @@
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 16,
-        "localizedVersions": 32,
+        "publishedOriginals": 17,
+        "localizedVersions": 34,
         "targetOriginals": 25,
-        "missingOriginals": 9,
+        "missingOriginals": 8,
         "articleIds": [
           "cancun",
           "guanajuato",
+          "leon-guanajuato",
           "los-cabos",
           "mexico-city",
           "morelia",
@@ -1503,9 +1505,9 @@
         ]
       }
     ],
-    "priorityOriginals": 73,
-    "missingToInitial100": 27,
-    "publicVerification": "editorial/verification/2026-11-10-manual-three-publication.json"
+    "priorityOriginals": 75,
+    "missingToInitial100": 25,
+    "publicVerification": "editorial/verification/2026-11-11-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1619,6 +1621,137 @@
       "commit": "0ff1bad02bb13cb6bab8413d44b20adc4d2e35ee",
       "publicVerification": "editorial/verification/2026-11-09-publication.json",
       "note": "Daily execution: zero previously verified originals on 9 November New York; only two added. Prior backlog and owner-requested topic records preserved, with no schedule change."
+    },
+    {
+      "batch": "2026-11-11",
+      "topicIds": [
+        "leon-guanajuato",
+        "himeji"
+      ],
+      "type": "authorized-daily-two-originals",
+      "status": "published-verified",
+      "commit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+      "publicVerification": "editorial/verification/2026-11-11-publication.json",
+      "note": "Daily execution after a zero-original census for 11 November in New York. Two distinct evergreen city gaps researched. All 73 older backlog entries and owner-request histories preserved; no schedule change or unattended-run attribution."
+    }
+  ],
+  "verifiedCoverageHistory": [
+    {
+      "verifiedAt": "2026-11-10T16:45:40.156062+00:00",
+      "countries": [
+        {
+          "countryId": "it",
+          "publishedOriginals": 20,
+          "localizedVersions": 40,
+          "targetOriginals": 30,
+          "missingOriginals": 10,
+          "articleIds": [
+            "amalfi-coast",
+            "bergamo",
+            "bologna",
+            "christmas-florence",
+            "christmas-milan",
+            "christmas-naples",
+            "christmas-rome",
+            "christmas-turin",
+            "christmas-venice",
+            "christmas-verona",
+            "florence",
+            "lucca",
+            "milan",
+            "padua",
+            "perugia",
+            "pisa",
+            "rome",
+            "siena",
+            "venice",
+            "verona"
+          ]
+        },
+        {
+          "countryId": "jp",
+          "publishedOriginals": 17,
+          "localizedVersions": 34,
+          "targetOriginals": 25,
+          "missingOriginals": 8,
+          "articleIds": [
+            "christmas-fukuoka",
+            "christmas-osaka",
+            "christmas-tokyo",
+            "christmas-yokohama",
+            "halloween-japan",
+            "hiroshima",
+            "kanazawa",
+            "kyoto",
+            "matsumoto",
+            "mount-fuji",
+            "nara",
+            "nara-day-trip-transport",
+            "nikko",
+            "osaka",
+            "sapporo",
+            "takayama",
+            "tokyo"
+          ]
+        },
+        {
+          "countryId": "mx",
+          "publishedOriginals": 16,
+          "localizedVersions": 32,
+          "targetOriginals": 25,
+          "missingOriginals": 9,
+          "articleIds": [
+            "cancun",
+            "guanajuato",
+            "los-cabos",
+            "mexico-city",
+            "morelia",
+            "muertos-merida",
+            "muertos-mexico-city",
+            "muertos-mixquic",
+            "muertos-oaxaca",
+            "muertos-puebla",
+            "oaxaca",
+            "patzcuaro",
+            "puebla",
+            "queretaro",
+            "riviera-maya",
+            "san-miguel-de-allende"
+          ]
+        },
+        {
+          "countryId": "us",
+          "publishedOriginals": 20,
+          "localizedVersions": 40,
+          "targetOriginals": 20,
+          "missingOriginals": 0,
+          "articleIds": [
+            "buffalo",
+            "christmas-boston",
+            "christmas-chicago",
+            "christmas-miami",
+            "christmas-new-york",
+            "christmas-philadelphia",
+            "christmas-san-francisco",
+            "columbus",
+            "greenville-sc",
+            "halloween-usa",
+            "hawaii",
+            "hilo",
+            "las-vegas",
+            "los-angeles",
+            "miami",
+            "new-orleans",
+            "new-york",
+            "orlando",
+            "san-diego",
+            "washington-dc"
+          ]
+        }
+      ],
+      "priorityOriginals": 73,
+      "missingToInitial100": 27,
+      "publicVerification": "editorial/verification/2026-11-10-manual-three-publication.json"
     }
   ]
 }

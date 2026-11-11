@@ -97,3 +97,8 @@ Morelia y Bérgamo añaden dos originales y cuatro versiones completas ES/EN. El
 ## Tres originales manuales verificados: 10 de noviembre de 2026
 
 Matsumoto, Pátzcuaro y Perugia añaden tres originales y seis versiones completas; 15 lugares tienen fotos propias, 51 WebP responsivos y 24 documentos oficiales citados. Cobertura: Italia 20/30, Japón 17/25, México 16/25 y Estados Unidos 20/20: 73/100; faltan 27. Catálogo 191/382, con 53 originales de Navidad intactos. Los 73 registros del backlog y los pedidos anteriores permanecen sin cambios; únicamente latestVerifiedCoverage se actualizó después de las pruebas públicas. Frecuencia diaria de dos al mediodía de Miami intacta. Evidencia: `editorial/verification/2026-11-10-manual-three-publication.json`.
+
+
+## Dos ciudades nuevas verificadas: 11 de noviembre de 2026
+
+León, Guanajuato, e Himeji añaden dos originales y cuatro versiones completas después de un censo diario inicial de cero. Diez lugares tienen fotos documentales individuales y se citan 23 documentos oficiales. Cobertura verificada: Italia 20/30, Japón 18/25, México 17/25 y Estados Unidos 20/20; 75/100 y 25 pendientes. El catálogo conserva 193 originales y 386 versiones. Los 73 registros previos del backlog, los lotes anteriores y la frecuencia siguen intactos. Ambos proyectos, las cuatro URLs nuevas y toda la indexabilidad técnica de las 910 URLs públicas del sitemap fueron comprobados. Las correcciones de títulos de países no implican una causa demostrada del descenso de impresiones ni una promesa de indexación. Evidencia: `editorial/verification/2026-11-11-publication.json` y `editorial/verification/2026-11-11-seo-audit.json`.

@@ -2,24 +2,25 @@
   "id": "2026-11-11",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-11T17:08:02.817Z",
-  "status": "reviewed-for-release",
+  "status": "published",
   "topicIds": [
     "leon-guanajuato",
     "himeji"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "625af0af-bab2-4dd1-95c8-7d26441335ca",
-    "status": "in-progress",
+    "status": "completed-verified",
     "startedAt": "2026-11-11T17:06:26.458111+00:00",
-    "heartbeatAt": "2026-11-11T17:18:47.933Z",
-    "leaseUntil": "2026-11-11T19:08:02.817000+00:00",
+    "heartbeatAt": "2026-11-11T18:10:44.807Z",
+    "leaseUntil": "2026-11-11T18:10:44.807Z",
     "baseCommit": "8666f876605ea8b7128b8307e168b8f83e41d921",
     "coordinator": "/root",
     "reservationCoordinator": "/root/catalog_n10",
-    "coordination": "One coordinated execution with the active SEO audit. All 28 prior batches and 23 public publication receipts read; zero unique originals first published and publicly verified on 11 November 2026 in America/New_York. No other active or future batch lease. Each writer confirmed five individual places, accessible official sources and licensed photograph bytes before appending topics and executing the exclusive reservation. Returned country-priority order León then Himeji preserved. Root owns the final build, Git and both Cloudflare deployment checks. No scheduler-run attribution claimed."
+    "coordination": "One coordinated execution with the active SEO audit. All 28 prior batches and 23 public publication receipts read; zero unique originals first published and publicly verified on 11 November 2026 in America/New_York. No other active or future batch lease. Each writer confirmed five individual places, accessible official sources and licensed photograph bytes before appending topics and executing the exclusive reservation. Returned country-priority order León then Himeji preserved. Root owns the final build, Git and both Cloudflare deployment checks. No scheduler-run attribution claimed.",
+    "completedAt": "2026-11-11T18:10:44.807Z"
   },
   "authorization": {
     "request": "Two original travel themes, each complete in Spanish and English, current daily execution",
@@ -41,5 +42,31 @@
   "documentaryPhotoCount": 10,
   "optimizedPhotoFiles": 40,
   "sourceCount": 23,
-  "reviewedAt": "2026-11-11T17:18:47.933Z"
+  "reviewedAt": "2026-11-11T17:18:47.933Z",
+  "publishedTopicIds": [
+    "leon-guanajuato",
+    "himeji"
+  ],
+  "verifiedTopicCount": 2,
+  "sameDayUniqueVerifiedTopics": [
+    "himeji",
+    "leon-guanajuato"
+  ],
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "citedSourceDocuments": 23,
+  "publishedCommit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+  "publiclyVerifiedAt": "2026-11-11T18:10:44.807Z",
+  "publicVerification": "editorial/verification/2026-11-11-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-leon-guanajuato-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-himeji-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-leon-guanajuato-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-himeji-5-places/"
+    ]
+  },
+  "inventoryNote": "Two daily originals and four complete localizations verified after the initial census of zero. The same release also corrects collection metadata and verifies every sitemap URL. Previous batches, articles, dates, photographs and the two-at-noon-Miami schedule are preserved. No scheduler attribution or Google indexing claim."
 }

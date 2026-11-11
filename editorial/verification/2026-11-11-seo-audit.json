@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-11T18:10:44.807Z",
+  "commit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+  "sourceCommit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+  "googleIndexationVerified": false,
+  "googleImpressionRecoveryVerified": false,
+  "status": "public-technical-verification-complete",
+  "newArticles": 0,
+  "newLocalizations": 0,
+  "causeOfImpressionDropConfirmed": null,
+  "scope": "Technical audit and verified corrections across the entire public sitemap; separate authorized daily-two publication recorded independently.",
+  "publicScope": {
+    "before": {
+      "sitemapUrls": 902,
+      "guideVersions": 382,
+      "originals": 191
+    },
+    "after": {
+      "sitemapUrls": 910,
+      "guideVersions": 386,
+      "originals": 193
+    },
+    "verification": {
+      "checkedAt": "2026-11-11T18:05:06.238Z",
+      "httpVerified": true,
+      "origin": "https://maletafeliz.com",
+      "checkedRequests": 920,
+      "sitemapUrls": 910,
+      "guideVersions": 386,
+      "reachableSitemapPages": 910,
+      "guideMaximumHtmlDistance": 2,
+      "maximumConcurrentRequests": 2,
+      "errors": [],
+      "outputSha256": "87e4ec85a7124b8f33e882fa466cea0f6c3cb4773b5e03a820070fcdd44823e9",
+      "invocation": {
+        "sourceCommit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+        "startedAt": "2026-11-11T18:04:11.541Z",
+        "finishedAt": "2026-11-11T18:05:06.399Z",
+        "exitCode": 0,
+        "outputSha256": "87e4ec85a7124b8f33e882fa466cea0f6c3cb4773b5e03a820070fcdd44823e9",
+        "httpVerified": true,
+        "checkedRequests": 920,
+        "sitemapUrls": 910,
+        "guideVersions": 386
+      }
+    }
+  },
+  "fixes": {
+    "countryTitles": {
+      "https://maletafeliz.com/es/explorar/country-sg/": "Guías de viaje por Singapur | MaletaFeliz",
+      "https://maletafeliz.com/en/explore/country-sg/": "Singapore travel guides | MaletaFeliz",
+      "https://maletafeliz.com/es/explorar/country-tn/": "Guías de viaje por Túnez | MaletaFeliz"
+    },
+    "sameLanguageDuplicateTitlesAfter": 0,
+    "sourceFiles": [
+      "scripts/verify-live.mjs",
+      "src/lib/collection-seo.ts",
+      "src/pages/[lang]/[...route].astro",
+      "tests/collection-seo.test.ts",
+      "tests/release/indexability.spec.ts",
+      "scripts/lib/live-seo.mjs",
+      "tests/live-seo.test.ts"
+    ],
+    "validation": [
+      "Actual canonical element and HTTP/meta directives",
+      "Googlebot/wildcard robots group and published path checks",
+      "Full production sitemap coverage and reciprocal ES/EN",
+      "Every guide manuscript and Article metadata present in HTML",
+      "Crawlable HTML links, orphan/broken target checks",
+      "Two-request cap and immediate HTTP429/Retry-After stop"
+    ]
+  },
+  "publicMetadataComparison": {
+    "checkedAt": "2026-11-11T18:06:55.533Z",
+    "success": true,
+    "sourceCommit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+    "sitemapUrlsCompared": 910,
+    "guideVersionsCompared": 386,
+    "duplicateTitlesWithinLocale": 0,
+    "proofSha256": "5efbe1f94fa733c56fdf96b33f9007c46e2de59fed1a6c506eb8dcd1e92bac39"
+  },
+  "tests": {
+    "local": {
+      "typeCheck": {
+        "errors": 0,
+        "warnings": 0,
+        "logSha256": "7b07057f8c294b7bc5ca34c07a1cd0ef41539e7b58cda331cec3247f580f1d3a"
+      },
+      "unit": {
+        "passed": 107,
+        "logSha256": "9561d68d35b62d6c43cd9a1d2efe34eb84dd053bb246a0ae8a8bf0e410ddb418"
+      },
+      "navigation": {
+        "passed": 28,
+        "logSha256": "5d252987a3219829bac74e21d575f029c0d79372cf10588eab380ce45beba0ae"
+      },
+      "release": {
+        "passed": 832,
+        "logSha256": "33e5b6325cbea9004e68d214d9975ff8363699c27d11ee5eef35b05c17ccaecc"
+      },
+      "mandatoryRelease": {
+        "exitCode": 0,
+        "htmlPages": 916,
+        "logSha256": "47f19152901e9739e7b7ca12a53fcaa5ce553afaec4a73122deccb1bb02455de"
+      }
+    },
+    "github": {
+      "checkedAt": "2026-11-11T18:05:46.105Z",
+      "id": 43070498842,
+      "name": "Build and editorial checks",
+      "event": "push",
+      "head_branch": "main",
+      "head_sha": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/43070498842",
+      "jobs": [
+        {
+          "id": 130696747550,
+          "head_sha": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T17:41:01Z",
+              "completed_at": "2026-11-11T17:41:02Z"
+            },
+            {
+              "name": "Run actions/checkout@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T17:41:02Z",
+              "completed_at": "2026-11-11T17:41:23Z"
+            },
+            {
+              "name": "Run actions/setup-node@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T17:41:23Z",
+              "completed_at": "2026-11-11T17:41:29Z"
+            },
+            {
+              "name": "Run npm ci",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T17:41:29Z",
+              "completed_at": "2026-11-11T17:41:36Z"
+            },
+            {
+              "name": "Install Chromium before unit and end-to-end browser tests",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T17:41:36Z",
+              "completed_at": "2026-11-11T17:41:57Z"
+            },
+            {
+              "name": "Run npm run check",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T17:41:57Z",
+              "completed_at": "2026-11-11T17:42:05Z"
+            },
+            {
+              "name": "Run npm test",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T17:42:05Z",
+              "completed_at": "2026-11-11T17:42:13Z"
+            },
+            {
+              "name": "Run npm run build",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T17:42:13Z",
+              "completed_at": "2026-11-11T17:49:07Z"
+            },
+            {
+              "name": "Run npm run test:e2e",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T17:49:07Z",
+              "completed_at": "2026-11-11T17:49:40Z"
+            },
+            {
+              "name": "Run npm run build:release",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T17:49:40Z",
+              "completed_at": "2026-11-11T17:56:35Z"
+            },
+            {
+              "name": "Run npm run test:release",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T17:56:35Z",
+              "completed_at": "2026-11-11T18:05:15Z"
+            },
+            {
+              "name": "Run npm run editorial:report > editorial-report.json",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T18:05:15Z",
+              "completed_at": "2026-11-11T18:05:17Z"
+            },
+            {
+              "name": "Run actions/upload-artifact@v6",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T18:05:17Z",
+              "completed_at": "2026-11-11T18:05:19Z"
+            },
+            {
+              "name": "Post Run actions/setup-node@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T18:05:19Z",
+              "completed_at": "2026-11-11T18:05:19Z"
+            },
+            {
+              "name": "Post Run actions/checkout@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T18:05:19Z",
+              "completed_at": "2026-11-11T18:05:19Z"
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-11T18:05:19Z",
+              "completed_at": "2026-11-11T18:05:19Z"
+            }
+          ]
+        }
+      ],
+      "decodedLogEvidence": {
+        "checkedAt": "2026-11-11T18:07:50.898Z",
+        "success": true,
+        "sourceCommit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+        "runId": 43070498842,
+        "jobId": 130696747550,
+        "workflowUrl": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/43070498842",
+        "logFile": "github-job-130696747550.log",
+        "decodedLogSha256": "a747841c0c181d5167bf1a58009a02e8cb93c511296226db268bfa7cbcc87389",
+        "bytes": 301644,
+        "lines": 2461,
+        "counts": {
+          "unit": 107,
+          "navigation": 28,
+          "production": 832,
+          "total": 967
+        },
+        "builtHtmlPages": [
+          916,
+          916
+        ],
+        "sourceCommitPresentInDecodedLog": true,
+        "allSixRequiredVerificationStepsSucceeded": true,
+        "method": "Actual decoded GitHub job log fetched through the authorized GitHub connector after completion; saved as UTF-8 with LF newlines. No storage redirect workaround, guessed log or reconstructed test output."
+      }
+    }
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-11T18:09:11.009Z",
+    "commit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "d9db6070-4dfa-4beb-b64c-bdc7fd56bd58",
+        "canonicalCommit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+        "deploymentId": "d9db6070-4dfa-4beb-b64c-bdc7fd56bd58",
+        "commit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-11T17:59:35.898035Z",
+          "ended_on": "2026-11-11T17:59:56.213342Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-11T17:41:20.646904Z",
+            "ended_on": "2026-11-11T17:41:20.65564Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-11T17:41:20.65564Z",
+            "ended_on": "2026-11-11T17:41:28.088506Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-11T17:41:28.088506Z",
+            "ended_on": "2026-11-11T17:42:12.64396Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-11T17:42:12.64396Z",
+            "ended_on": "2026-11-11T17:59:35.898035Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-11T17:59:35.898035Z",
+            "ended_on": "2026-11-11T17:59:56.213342Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "4b9de219-8d4d-4f1b-bed4-eec9cd61b0cf",
+        "canonicalCommit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+        "deploymentId": "4b9de219-8d4d-4f1b-bed4-eec9cd61b0cf",
+        "commit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-11T17:41:56.238234Z",
+          "ended_on": "2026-11-11T17:42:04.538894Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-11T17:41:22.457283Z",
+            "ended_on": "2026-11-11T17:41:22.460379Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-11T17:41:22.460379Z",
+            "ended_on": "2026-11-11T17:41:25.071284Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-11T17:41:25.071284Z",
+            "ended_on": "2026-11-11T17:41:53.782176Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-11T17:41:53.782176Z",
+            "ended_on": "2026-11-11T17:41:56.238234Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-11T17:41:56.238234Z",
+            "ended_on": "2026-11-11T17:42:04.538894Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true
+  },
+  "cloudflareCheckoutProof": {
+    "checkedAt": "2026-11-11T18:03:06.636Z",
+    "success": true,
+    "sourceCommit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+    "proofs": [
+      {
+        "checkedAt": "2026-11-11T18:03:02.474Z",
+        "project": "maletafeliz-web",
+        "deploymentId": "d9db6070-4dfa-4beb-b64c-bdc7fd56bd58",
+        "commit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+        "entries": 1020,
+        "logSha256": "b7a51c534ed6b50fe74c259cf535ba7235822d3874100fc649342d207fe89366",
+        "releaseCommandPresent": true,
+        "checkoutMarkerPresent": true,
+        "builtPages": "916"
+      },
+      {
+        "checkedAt": "2026-11-11T18:03:02.474Z",
+        "project": "maletafeliz-www",
+        "deploymentId": "4b9de219-8d4d-4f1b-bed4-eec9cd61b0cf",
+        "commit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+        "entries": 23,
+        "logSha256": "bff6fc6ba43da1c8de031b6c627fd04f0e32565252bee6878b17a9088ecd9ded",
+        "releaseCommandPresent": false,
+        "checkoutMarkerPresent": true
+      }
+    ],
+    "method": "Actual Cloudflare build log HEAD marker, matching deployment full commit metadata and canonical production state. WWW is the existing redirect project, not an Astro build."
+  },
+  "preservation": {
+    "success": true,
+    "oldHtmlRetained": 908,
+    "oldSitemapUrlsRetained": 902,
+    "oldArticleVersionsUnchanged": 382,
+    "historicalImageSourceFilesCompared": 3087,
+    "changedCountryTitles": [
+      {
+        "path": "/en/explore/country-sg/",
+        "before": [
+          "Singapore | MaletaFeliz"
+        ],
+        "after": [
+          "Singapore travel guides | MaletaFeliz"
+        ],
+        "ogTitleBefore": "Singapore",
+        "ogTitleAfter": "Singapore travel guides"
+      },
+      {
+        "path": "/es/explorar/country-sg/",
+        "before": [
+          "Singapur | MaletaFeliz"
+        ],
+        "after": [
+          "Guías de viaje por Singapur | MaletaFeliz"
+        ],
+        "ogTitleBefore": "Singapur",
+        "ogTitleAfter": "Guías de viaje por Singapur"
+      },
+      {
+        "path": "/es/explorar/country-tn/",
+        "before": [
+          "Túnez | MaletaFeliz"
+        ],
+        "after": [
+          "Guías de viaje por Túnez | MaletaFeliz"
+        ],
+        "ogTitleBefore": "Túnez",
+        "ogTitleAfter": "Guías de viaje por Túnez"
+      }
+    ],
+    "countOnlyDescriptionUpdates": 14,
+    "noH1CanonicalHreflangRobotsOrScriptChanges": true,
+    "noAdvertisementsConsentHeaderLogoOrHeroChanges": true,
+    "proofSha256": "86d4960a128a55fc50887ad7bfe8e91ecf2b5ac72ac3ba40efc2f0872dad42ca"
+  },
+  "intentionalExclusions": {
+    "noindex": [
+      "/",
+      "/404.html",
+      "/es/buscar/",
+      "/en/search/",
+      "/es/explorar/antarctica/",
+      "/en/explore/antarctica/"
+    ],
+    "robots": [
+      "/es/buscar/",
+      "/en/search/"
+    ],
+    "note": "These app classifications do not identify the private Search Console exclusion rows without their URL export."
+  },
+  "accessLimits": {
+    "authenticatedSearchConsoleRead": false,
+    "authenticatedGooglebotLogsRead": false,
+    "cloudflareWafBotsSettingsAnalyticsRead": false,
+    "googleCrawlIndexingOrVisibilityRecoveryClaimed": false
+  },
+  "technicalConclusions": [
+    "No current global noindex, robots or incorrect-canonical block was found in the public sitemap.",
+    "Three ambiguous country/city metadata titles and weaknesses of the verifier were corrected; these findings do not establish the cause of an impression change.",
+    "Historical review found release-mode builds and indexable metadata for retained deployment observations; historical WAF/headers cannot be reconstructed fully."
+  ],
+  "auxiliaryFindings": [
+    "Raw initial audit retains twelve Cloudflare email-obfuscation anchors; actual decoder behavior confirmed mailto, separately classified rather than erased.",
+    "Initial Node/proxy HTTP failures retained; ordinary curl verified HTTPS301 with exact path/query."
+  ],
+  "newPublicationReceipt": "editorial/verification/2026-11-11-publication.json",
+  "ownerPrivatePerformanceDataIncluded": false,
+  "limitations": [
+    "Technical eligibility is verified; actual Google indexing, Search Console cause and recovered impressions remain unverified.",
+    "Private owner screenshots and performance metrics stay in the local report and are not published in this repository receipt."
+  ]
+}

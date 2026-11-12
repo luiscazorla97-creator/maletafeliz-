@@ -1,0 +1,26 @@
+{
+  "url": "https://travel.gc.ca/destinations/morocco",
+  "fetchedAt": "2026-11-12T16:22:27.663Z",
+  "finalUrl": "https://travel.gc.ca/destinations/morocco",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "a0246579a1accb40691a58452bd6c642813c953b698a5586f14946d33b85ed9f",
+  "bytes": 80782,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "Canadian government guidance advises conservative dress and respect for religious/social traditions in Morocco. The guide uses this narrow cultural-practice point rather than reproducing unrelated travel warnings or entry requirements.",
+      "excerpt": "Dress conservatively, behave discreetly and respect religious and social traditions",
+      "location": "Dress and behaviour subsection.",
+      "excerptLocations": [
+        {
+          "text": "Dress conservatively, behave discreetly and respect religious and social traditions",
+          "extractedTextLine": 391
+        }
+      ]
+    }
+  ],
+  "notes": "Actual advice body read. Other entry, health, currency, security and Ramadan material is outside this city guide’s sourced claims.",
+  "readMethod": "Actual captured HTML body read in extracted text; quoted passages and locating line numbers matched to the retained extraction.",
+  "excerptWordCount": 10
+}

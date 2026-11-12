@@ -1,0 +1,22 @@
+{
+  "url": "https://se-braga.pt/horarios/",
+  "finalUrl": "https://se-braga.pt/horarios/",
+  "fetchedAt": "2026-11-12T16:17:25.539Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "28d1c35806c898bc8139edc78c1c91bfcb447db3c2fffc2fe53af5f17e53f82c",
+  "bytes": 46241,
+  "facts": [
+    {
+      "fact": "The operator lists tourist visits in separate morning and afternoon blocks with the last ticket issued thirty minutes before closure. Route 1, the Treasury Museum, closes on Mondays. Tourist visits to the cathedral route are not allowed during religious services.",
+      "excerpt": "encerra à segunda-feira",
+      "location": "Horários de visitas / Percursos / Dias de encerramento das visitas."
+    },
+    {
+      "fact": "The named museum’s Monday closure is not stated as closure of the whole cathedral. The page also lists January1, Easter Sunday and Monday, and December25 as days without tourist visits.",
+      "excerpt": "durante os serviços religiosos",
+      "location": "Percursos and closure-days list."
+    }
+  ],
+  "notes": "Actual operator timetable checked. General footer opening hours differ from tourist visiting blocks; no inference that worship access equals a tourist visit."
+}

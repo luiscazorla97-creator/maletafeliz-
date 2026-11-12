@@ -1,0 +1,18 @@
+{
+  "url": "https://tub.pt/core/request.php?module=news&action=getnoticia&params=%7B%22id%22%3A1725%7D",
+  "finalUrl": "https://tub.pt/core/request.php?module=news&action=getnoticia&params=%7B%22id%22%3A1725%7D",
+  "fetchedAt": "2026-11-12T16:20:45.481Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "e01331b2a2756f31d192d74ad2b68665afb290ef66ad4e87136f9c84f78bdbe3",
+  "bytes": 9441,
+  "facts": [
+    {
+      "fact": "Public TUB notice 1725, dated 26 September 2026, says elevator maintenance led to a replacement shuttle between the Pórtico area, where Line 2 terminates, and Bom Jesus sanctuary. It describes the connection to Line 2 and has no announced end date.",
+      "excerpt": "serviço de transporte de substituição",
+      "location": "Public getnoticia response, result.object.desclonga; datainiciopubli and semfimprevisto fields."
+    }
+  ],
+  "notes": "Actual HTTP200 public Angular content retrieved and read. The ordinary human page https://tub.pt/noticia/1725/ returned an Angular shell; its app.js and frontoffice/news/controllers.js identify the standard GET service, and services.js identifies core/request.php. No authentication, challenge bypass or private endpoint used. Exact retrieval URL, final URL, UTC and bodySHA preserved. No claim of a witnessed shuttle departure, fixed future operating hours or later reopening.",
+  "humanPage": "https://tub.pt/noticia/1725/"
+}

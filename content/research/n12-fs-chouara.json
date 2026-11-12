@@ -1,0 +1,41 @@
+{
+  "url": "https://festourism.org/ficheitem.php?id=92&lang=fr",
+  "fetchedAt": "2026-11-12T16:19:15.546Z",
+  "finalUrl": "https://festourism.org/ficheitem.php?id=92&lang=fr",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "1f0675a722203ccaaf21ff8251254aac6c9dcac1b077b44499459525ffa9c518",
+  "bytes": 70656,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "CRT identifies the Chouara tanneries near the Fez watercourse and describes leather processing and craftsmen’s work. It recommends observing from nearby terraces rather than establishing a visitor walkway among the vats.",
+      "excerpt": "Les tanneries Chouara … Des terrasses avoisinantes vous pouvez admirer le travail acharné des artisans peaussiers.",
+      "location": "Main tannery description.",
+      "excerptLocations": [
+        {
+          "text": "Les tanneries Chouara",
+          "extractedTextLine": 175
+        },
+        {
+          "text": "Des terrasses avoisinantes vous pouvez admirer le travail acharné des artisans peaussiers.",
+          "extractedTextLine": 175
+        }
+      ]
+    },
+    {
+      "fact": "The article mentions leather becoming bags, coats and shoes. It does not establish a universal public terrace, a free visit, an opening timetable or passenger access to industrial areas.",
+      "excerpt": "sacs, manteaux, chaussures",
+      "location": "Final sentence and absence of an admission/schedule block; access cautions are editorial planning advice.",
+      "excerptLocations": [
+        {
+          "text": "sacs, manteaux, chaussures",
+          "extractedTextLine": 175
+        }
+      ]
+    }
+  ],
+  "notes": "Terrace ownership and access conditions are not inferred from a tourist recommendation. The manuscript advises asking each operator about permission, charges and shop arrangements before entering; no shop, price or compulsory purchase is invented.",
+  "readMethod": "Actual captured HTML body read in extracted text; quoted passages and locating line numbers matched to the retained extraction.",
+  "excerptWordCount": 18
+}

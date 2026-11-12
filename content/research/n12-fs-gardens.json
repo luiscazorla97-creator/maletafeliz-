@@ -1,0 +1,34 @@
+{
+  "url": "https://www.visitmorocco.com/en/see-do/nature/discover-moroccan-gardens",
+  "fetchedAt": "2026-11-12T16:19:15.547Z",
+  "finalUrl": "https://www.visitmorocco.com/en/see-do/nature/discover-moroccan-gardens",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "6870bd0ea04542b9f26dd9cb0f1e4c0291835a460879af1145b20510a292bd04",
+  "bytes": 175073,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "ONMT describes Jnan Sbil as a public garden divided into distinct planted spaces, suitable for walking and rest amid trees and fountains. No current water flow or flowering condition is inferred.",
+      "excerpt": "garden is divided into several spaces … walk, stroll and rest … trees of all kinds and fountains",
+      "location": "Jnan sbil Gardens subsection, excluding other Moroccan gardens on the same page.",
+      "excerptLocations": [
+        {
+          "text": "garden is divided into several spaces",
+          "extractedTextLine": 258
+        },
+        {
+          "text": "walk, stroll and rest",
+          "extractedTextLine": 259
+        },
+        {
+          "text": "trees of all kinds and fountains",
+          "extractedTextLine": 259
+        }
+      ]
+    }
+  ],
+  "notes": "Founder/date and precise area are omitted: this listing and CRT give differing area figures, and no current botanical inventory, admission timetable or fountain operation was verified.",
+  "readMethod": "Actual captured HTML body read in extracted text; quoted passages and locating line numbers matched to the retained extraction.",
+  "excerptWordCount": 16
+}

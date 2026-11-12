@@ -1,0 +1,95 @@
+{
+  "reviewedAt": "2026-11-12T16:33:07.817Z",
+  "status": "Selected for mandatory production checks; not publicly verified",
+  "publiclyVerified": false,
+  "executionId": "8a33e04c-8ff9-47a1-b856-51a6a38a6e6e",
+  "topicIds": [
+    "braga",
+    "fes"
+  ],
+  "originals": 2,
+  "localizedVersions": 4,
+  "photos": 10,
+  "optimizedPhotoFiles": 50,
+  "sourceDocuments": 23,
+  "versions": [
+    {
+      "id": "braga",
+      "locale": "es",
+      "words": 1995,
+      "draftContentHash": "e8954cccb52edd31ab4f1da78f0b2c1014f0dec91fc3fcc4bb08fec5b2e5a18a",
+      "contentHash": "22eff18d2762c09def345799b06d680ec39428bf5f2923ed3d43dcb515b9c23f",
+      "fileSha256": "5f152fd02ad8bd0061f4dc9b3da1bf39e1095571c649758c06162207b21a2081",
+      "sourceDocuments": 13
+    },
+    {
+      "id": "braga",
+      "locale": "en",
+      "words": 1877,
+      "draftContentHash": "dcf496b9e61bf8a1010b9b1ab98d7a7e629a22f8d1aa40f591ff59aa3b4be9c3",
+      "contentHash": "cdaa05f6fded74b5af75d5081a6700b3d80998c9f453a699c5555ec8a6bc1fe6",
+      "fileSha256": "a51ae96b784b7166c9289544e0602878a2cfbf784bb33e09a0b21b40097bb306",
+      "sourceDocuments": 13
+    },
+    {
+      "id": "fes",
+      "locale": "es",
+      "words": 1902,
+      "draftContentHash": "6b04c3f9c9bea936f4747b437d87fc4eebaadcef0764748a3a20f297de770200",
+      "contentHash": "15aff4471810b158cd76966b4b5d4d01cb41e694d1794f957a522b105287e2c5",
+      "fileSha256": "465bc4a2735eb2ba744b9e5a348e3698da9b1868a3d850e54e42e42aa7b6bcb2",
+      "sourceDocuments": 10
+    },
+    {
+      "id": "fes",
+      "locale": "en",
+      "words": 1758,
+      "draftContentHash": "1e8557d9a61eaf747c434cee09d0fa67a5326c1a4d1274b37d64126f4814cda3",
+      "contentHash": "7de14275788a18e502c898af7b2fa8af663a0fad919022a892f5d35f691ecdc5",
+      "fileSha256": "3b9184c3ea3a82b22faf5b0369d56c50bb0a718ee47046ef8cc226fe0c068487",
+      "sourceDocuments": 10
+    }
+  ],
+  "independentReview": [
+    {
+      "topic": "braga",
+      "path": "/workspace/artifacts/maletafeliz-manual-three-n12/independent-review/braga-draft-editorial-review.json",
+      "sha256": "4954c940cf435eb0bc0e2d7c52959d669aa2dd6b8004c9e5c36d96b7cedc2bc1",
+      "reviewedAt": "2026-11-12T16:27:49.274269+00:00"
+    },
+    {
+      "topic": "fes",
+      "path": "/workspace/artifacts/maletafeliz-manual-three-n12/independent-review/fes-draft-editorial-review.json",
+      "sha256": "96ed55525b361986c91ce181c8101c50bc7fe3be4c7d60e0d0b6e8e5da84296c",
+      "reviewedAt": "2026-11-12T16:31:47.573002+00:00"
+    }
+  ],
+  "rootVisualReview": {
+    "actuallyViewed": true,
+    "method": "All50selected optimized variants actually viewed through Braga and Fez final contact sheets; not a full-pixel inspection claim.",
+    "contacts": [
+      {
+        "file": "/workspace/artifacts/maletafeliz-manual-three-n12/braga/photos/final-variants-contact.jpg",
+        "sha256": "ac0d2571e08c2e4e4477136f9ff8fda2ae2b0baa16f47f624992121ce587c90b"
+      },
+      {
+        "file": "/workspace/artifacts/maletafeliz-manual-three-n12/fes/final-25-derivatives-contact.jpg",
+        "sha256": "1b1a7fb180029cff6a00095c698a326d902547cedf88136960e5a40c95a927df"
+      }
+    ]
+  },
+  "historicalContentPreserved": true,
+  "scheduleChanged": false,
+  "scopeAmendedAt": "2026-11-12T17:01:48.727Z",
+  "authorizationAmendment": {
+    "type": "latest-owner-two-original-limit",
+    "requestedOriginals": 2,
+    "localizedVersions": 4,
+    "scheduleChanged": false,
+    "updatedAt": "2026-11-12T17:01:48.727Z"
+  },
+  "deferredTopicIds": [
+    "george-town-penang"
+  ],
+  "olderThreeSelectionSnapshot": "/workspace/artifacts/maletafeliz-manual-three-n12/three-selection-snapshot"
+}

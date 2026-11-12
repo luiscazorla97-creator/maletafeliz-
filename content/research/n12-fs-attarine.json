@@ -1,0 +1,62 @@
+{
+  "url": "https://festourism.org/ficheitem.php?id=35&lang=fr",
+  "fetchedAt": "2026-11-12T16:19:15.528Z",
+  "finalUrl": "https://festourism.org/ficheitem.php?id=35&lang=fr",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "ae507213f8405279a994d21511962f86b434a0151ebb274307b777037ca19410",
+  "bytes": 70772,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "CRT places Al-Attarine near the Attarine souk and Al Quaraouiyine, with Marinid construction dated 1323–1325. This is a madrasa, distinct from the neighbouring mosque.",
+      "excerpt": "entre 1323 et 1325",
+      "location": "Main La Médersa Attarine description.",
+      "excerptLocations": [
+        {
+          "text": "entre 1323 et 1325",
+          "extractedTextLine": 175
+        }
+      ]
+    },
+    {
+      "fact": "The same description highlights mosaic decoration, cedar ceiling, doors and calligraphy.",
+      "excerpt": "ses mosaïques, de son plafond en cèdre",
+      "location": "Architectural description paragraph.",
+      "excerptLocations": [
+        {
+          "text": "ses mosaïques, de son plafond en cèdre",
+          "extractedTextLine": 176
+        }
+      ]
+    },
+    {
+      "fact": "The undated official tourism listing publishes paid admission and split visiting windows, 08:30–12:00 and 14:30–18:30 daily. Retrieval verifies the listing, not uninterrupted operation on a future visit; the article tells readers to reconfirm access and the midday break.",
+      "excerpt": "8h30 à 12h00 et de 14h30 à 18h30. … L'entrée est payante.",
+      "location": "Final visiting-hours and admission lines.",
+      "excerptLocations": [
+        {
+          "text": "8h30 à 12h00 et de 14h30 à 18h30.",
+          "extractedTextLine": 177
+        },
+        {
+          "text": "L'entrée est payante.",
+          "extractedTextLine": 178
+        }
+      ]
+    }
+  ],
+  "notes": "The CRT page has no clear update date. No numerical price is invented and no present student-room or all-floor access is promised.",
+  "readMethod": "Actual captured HTML body read in extracted text; quoted passages and locating line numbers matched to the retained extraction.",
+  "excerptWordCount": 22,
+  "extractedData": {
+    "listedVisitingHours": {
+      "daily": [
+        "08:30–12:00",
+        "14:30–18:30"
+      ]
+    },
+    "admission": "paid; no amount supplied",
+    "conditions": "Undated official listing, reconfirm for travel date."
+  }
+}

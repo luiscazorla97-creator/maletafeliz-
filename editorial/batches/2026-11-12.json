@@ -2,7 +2,7 @@
   "id": "2026-11-12",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-12T16:21:23.571762+00:00",
-  "status": "reserved-not-generated",
+  "status": "reviewed-for-release",
   "topicIds": [
     "braga",
     "fes",
@@ -15,7 +15,7 @@
     "executionId": "8a33e04c-8ff9-47a1-b856-51a6a38a6e6e",
     "status": "in-progress",
     "startedAt": "2026-11-12T16:19:10.618009+00:00",
-    "heartbeatAt": "2026-11-12T16:21:23.571762+00:00",
+    "heartbeatAt": "2026-11-12T17:01:48.727Z",
     "leaseUntil": "2026-11-12T19:19:10.618009+00:00",
     "baseCommit": "4e58ffe6daea04133941db0f1c422161b8f4219a",
     "coordinator": "/root",
@@ -46,5 +46,42 @@
     "examinedPublicationReceipts": 24,
     "localCatalogOriginals": 193,
     "localCatalogVersions": 386
-  }
+  },
+  "reviewedAt": "2026-11-12T16:33:07.817Z",
+  "originalsPrepared": 2,
+  "localizedVersionsPrepared": 4,
+  "documentaryPhotoCount": 10,
+  "optimizedPhotoFiles": 50,
+  "sourceCount": 23,
+  "effectiveRequestedCount": 2,
+  "activeTopicIds": [
+    "braga",
+    "fes"
+  ],
+  "effectiveTopicIds": [
+    "braga",
+    "fes"
+  ],
+  "deferredTopicIds": [
+    "george-town-penang"
+  ],
+  "authorizationAmendment": {
+    "type": "latest-owner-two-original-limit",
+    "requestedOriginals": 2,
+    "localizedVersions": 4,
+    "scheduleChanged": false,
+    "updatedAt": "2026-11-12T17:01:48.727Z"
+  },
+  "authorizationIsOriginalReservation": true,
+  "preparationHistory": [
+    {
+      "reviewedAt": "2026-11-12T16:33:07.817Z",
+      "originalsPrepared": 3,
+      "localizedVersionsPrepared": 6,
+      "documentaryPhotoCount": 15,
+      "optimizedPhotoFiles": 75,
+      "sourceCount": 37,
+      "publiclyVerified": false
+    }
+  ]
 }

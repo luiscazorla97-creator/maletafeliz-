@@ -1,0 +1,59 @@
+{
+  "url": "https://festourism.org/ficheitem.php?id=62&lang=fr",
+  "fetchedAt": "2026-11-12T16:17:23.562Z",
+  "finalUrl": "https://festourism.org/ficheitem.php?id=62&lang=fr",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "7f0b34c883d48fda29bd80ad589885b8d8525d5a3e99aef15903c585316de056",
+  "bytes": 72593,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "Nejjarine is a former funduq/caravanserai converted to a museum of wooden arts and crafts. The historic lodging/trading building and its courtyard are part of the visit.",
+      "excerpt": "Le fondouk ou caravansérail hébergeait jadis",
+      "location": "Museum main body, former function paragraph.",
+      "excerptLocations": [
+        {
+          "text": "Le fondouk ou caravansérail hébergeait jadis",
+          "extractedTextLine": 176
+        }
+      ]
+    },
+    {
+      "fact": "The described collection themes are domestic, architectural and liturgical uses of wood, with tools and woodworking/cabinetmaking pieces.",
+      "excerpt": "le bois domestique, le bois d'architecture et le bois liturgique",
+      "location": "Collection themes paragraph.",
+      "excerptLocations": [
+        {
+          "text": "le bois domestique, le bois d'architecture et le bois liturgique",
+          "extractedTextLine": 178
+        }
+      ]
+    },
+    {
+      "fact": "CRT publishes paid museum admission and a daily 10:00–17:30 listing, without a numerical price. Any terrace/café availability must be checked independently for the visit.",
+      "excerpt": "10h à 17h30. … L'entrée est payante.",
+      "location": "Final visiting-information lines.",
+      "excerptLocations": [
+        {
+          "text": "10h à 17h30.",
+          "extractedTextLine": 179
+        },
+        {
+          "text": "L'entrée est payante.",
+          "extractedTextLine": 180
+        }
+      ]
+    }
+  ],
+  "notes": "A sentence in this page incorrectly attributes a UNESCO designation to 1916; it is expressly excluded. The actual medina World Heritage date is checked separately with UNESCO. Former-funduq/museum identity and architecture are cross-checked with the visually read ONMT brochure. The operator website returned503; no operator consultation is simulated.",
+  "readMethod": "Actual captured HTML body read in extracted text; quoted passages and locating line numbers matched to the retained extraction.",
+  "excerptWordCount": 22,
+  "extractedData": {
+    "listedVisitingHours": {
+      "daily": "10:00–17:30"
+    },
+    "admission": "paid; no amount supplied",
+    "updateDate": "not stated on page"
+  }
+}

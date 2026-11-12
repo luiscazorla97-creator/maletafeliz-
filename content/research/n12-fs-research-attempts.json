@@ -1,0 +1,102 @@
+{
+  "checkedAt": "2026-11-12T16:26:43.187439+00:00",
+  "attempts": [
+    {
+      "id": "n12-fs-nejjarine-operator",
+      "url": "https://www.nejjarine.co.ma/",
+      "fetchedAt": "2026-11-12T16:17:23.563Z",
+      "finalUrl": "https://www.nejjarine.co.ma/",
+      "httpStatus": 503,
+      "contentType": "text/plain",
+      "contentSha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909",
+      "bytes": 98,
+      "retryAfter": null,
+      "reasonNotUsed": "HTTP503; no current operator access simulated"
+    },
+    {
+      "id": "n12-fs-religious-entry",
+      "url": "https://www.smartraveller.gov.au/destinations/africa/morocco",
+      "fetchedAt": "2026-11-12T16:20:03.675Z",
+      "finalUrl": "https://www.smartraveller.gov.au/destinations/africa/morocco",
+      "httpStatus": 503,
+      "contentType": "text/plain",
+      "contentSha256": "e482a48fef03d183029fa2edf995fc8e9ce023f18649fd1d9149958e977068a1",
+      "bytes": 85,
+      "retryAfter": null,
+      "reasonNotUsed": "Australian advice HTTP503; no alternate bypass attempted"
+    },
+    {
+      "id": "n12-fs-foreign-ministry",
+      "url": "https://in.diplomatie.ma/en/culture-and-tourism",
+      "fetchedAt": "2026-11-12T16:20:03.694Z",
+      "finalUrl": "https://in.diplomatie.ma/en/culture-and-tourism",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "contentSha256": "ab3010eb6b42c165dd41110ed538f57697d414a11710a8882b5f4be6737238fc",
+      "bytes": 244,
+      "retryAfter": null,
+      "reasonNotUsed": "HTTP200 but body is Request Rejected, not destination information; not a consulted factual source"
+    },
+    {
+      "id": "n12-fs-bab-crt",
+      "url": "https://festourism.org/ficheitem.php?id=82&lang=fr",
+      "fetchedAt": "2026-11-12T16:17:42.764Z",
+      "finalUrl": "https://festourism.org/ficheitem.php?id=82&lang=fr",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "contentSha256": "e38bf856dde39c6df0cbfe2eba6b2142d3ff964baf1e79712e94eb10129d8e04",
+      "bytes": 70363,
+      "retryAfter": null,
+      "reasonNotUsed": "Contains unreliable gate dating; dates are excluded and clean ONMT visual/entry facts used instead"
+    },
+    {
+      "id": "n12-fs-arrival",
+      "url": "https://www.visitmorocco.com/en/travel/fez/how-to-get-there",
+      "fetchedAt": "2026-11-12T16:17:42.784Z",
+      "finalUrl": "https://www.visitmorocco.com/en/travel/fez",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentSha256": "3162b8f321e1e0f8f60e817dc601d6b2947dbf9139f269e555ab95566bc54ee2",
+      "bytes": 175377,
+      "retryAfter": null,
+      "reasonNotUsed": "Redirects to already captured general Fez page; no specific arrival information verified"
+    },
+    {
+      "id": "n12-fs-local-info",
+      "url": "https://festourism.org/info.php",
+      "fetchedAt": "2026-11-12T16:19:15.548Z",
+      "finalUrl": "https://festourism.org/info.php",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "contentSha256": "a55a8a92af795e6aa4e56d0235bc393c4e6e6c08034811ba7d6dcaf50a381b23",
+      "bytes": 66362,
+      "retryAfter": null,
+      "reasonNotUsed": "Read general contact directory; no hours/transport or telephone availability inferred"
+    },
+    {
+      "id": "n12-fs-nature",
+      "url": "https://www.visitmorocco.com/en/travel/fez/nature",
+      "fetchedAt": "2026-11-12T16:18:19.821Z",
+      "finalUrl": "https://www.visitmorocco.com/en/travel/fez/nature",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentSha256": "366d38f32ee06f739972d28a4e0365fa0a8eae8355746bef794e3f7033a29ed5",
+      "bytes": 146584,
+      "retryAfter": null,
+      "reasonNotUsed": "Read but covers regional excursions, outside this five-stop urban scope"
+    },
+    {
+      "id": "n12-fs-shopping",
+      "url": "https://www.visitmorocco.com/en/travel/fez/shopping",
+      "fetchedAt": "2026-11-12T16:18:19.821Z",
+      "finalUrl": "https://www.visitmorocco.com/en/travel/fez/shopping",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentSha256": "558432c11f00e32e6a78d9b313a48f35d0170b69718c26afca91c7a5c0d76c40",
+      "bytes": 146692,
+      "retryAfter": null,
+      "reasonNotUsed": "Read for context; not required as an additional public bibliography source"
+    }
+  ],
+  "noAccessCircumvention": true
+}

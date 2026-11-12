@@ -1,0 +1,42 @@
+{
+  "url": "https://revues.imist.ma/index.php/EGSM/article/download/54012/27957/151862",
+  "fetchedAt": "2026-11-12T16:23:30.606Z",
+  "finalUrl": "https://revues.imist.ma/index.php/EGSM/article/download/54012/27957/151862",
+  "httpStatus": 200,
+  "contentType": "application/pdf",
+  "contentSha256": "ef79f8bdaaf620bcc1efc5aa692323f9ce5479a39608ac6b0e2752aff786c27f",
+  "bytes": 913499,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "Mehdi Boukil’s academic study distinguishes tourist heritage visits to madrasas from the restriction on mosque entry for non-Muslims. The manuscript does not extend madrasa admission to adjacent religious prayer spaces.",
+      "excerpt": "d’entrée aux mosquées pour les non musulmans",
+      "location": "Printed page70, discussion of prayer spaces and visitor interpretation.",
+      "excerptLocations": [
+        {
+          "text": "d’entrée aux mosquées pour les non musulmans",
+          "extractedTextLine": 591
+        }
+      ]
+    },
+    {
+      "fact": "It describes madrasa decorative arts in plaster, zellij and wood, and the role of calligraphy. This provides academic context for reading Al-Attarine decoration, rather than a current ticket schedule.",
+      "excerpt": "le gypse, le zellige et le … bois.",
+      "location": "Printed page69, architecture-interpretation bullet; actual pdftotext splitlines 571–572 (same paragraph, separated by a PDF line wrap).",
+      "excerptLocations": [
+        {
+          "text": "le gypse, le zellige et le",
+          "extractedTextLine": 571
+        },
+        {
+          "text": "bois.",
+          "extractedTextLine": 572
+        }
+      ]
+    }
+  ],
+  "notes": "Actual academic PDF on the IMIST journal platform read at title/abstract, Al-Attarine section and printedpp69–70. No research interview, legal statute or current admission inspection is claimed. PDF metadata modified2025 does not establish a2026 publication date.",
+  "readMethod": "Actual PDF bytes downloaded; pdftotext output read at named printed pages. This source is used for architectural/religious-access context, not operational fees or hours.",
+  "excerptWordCount": 14,
+  "locatorCorrection": "The second excerpt is located after its adjacent plaster/zellij clause, rather than the first isolated occurrence of bois elsewhere in the PDF. Capture URL/status/UTC/body SHA-256 unchanged."
+}

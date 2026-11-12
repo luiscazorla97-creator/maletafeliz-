@@ -1,0 +1,271 @@
+{
+  "id": "braga",
+  "destinationId": "braga",
+  "intent": "braga-first-visit-five-heritage-places",
+  "status": "published",
+  "coverImageId": "n12-br-bom-jesus",
+  "sources": [
+    {
+      "id": "n12-br-se-history",
+      "url": "https://visitbraga.travel/highlights/monumentos/se-de-braga/",
+      "title": "Sé Primacial de Braga — Visit Braga",
+      "accessedAt": "2026-11-12T16:19:03.192Z",
+      "evidenceFile": "content/research/n12-br-se-history.json"
+    },
+    {
+      "id": "n12-br-se-visits",
+      "url": "https://se-braga.pt/horarios/",
+      "title": "Horários — Sé de Braga",
+      "accessedAt": "2026-11-12T16:17:25.539Z",
+      "evidenceFile": "content/research/n12-br-se-visits.json"
+    },
+    {
+      "id": "n12-br-se-tickets",
+      "url": "https://se-braga.pt/bilheteira/",
+      "title": "Bilheteira — Sé de Braga",
+      "accessedAt": "2026-11-12T16:17:28.158Z",
+      "evidenceFile": "content/research/n12-br-se-tickets.json"
+    },
+    {
+      "id": "n12-br-arco",
+      "url": "https://visitbraga.travel/highlights/monumentos/arco-da-porta-nova/",
+      "title": "Arco da Porta Nova — Visit Braga",
+      "accessedAt": "2026-11-12T16:18:02.113Z",
+      "evidenceFile": "content/research/n12-br-arco.json"
+    },
+    {
+      "id": "n12-br-garden",
+      "url": "https://visitbraga.travel/highlights/monumentos/jardim-de-santa-barbara/",
+      "title": "Jardim de Santa Bárbara — Visit Braga",
+      "accessedAt": "2026-11-12T16:18:03.484Z",
+      "evidenceFile": "content/research/n12-br-garden.json"
+    },
+    {
+      "id": "n12-br-bom-jesus",
+      "url": "https://visitbraga.travel/highlights/monumentos/bom-jesus/",
+      "title": "Bom Jesus do Monte — Visit Braga",
+      "accessedAt": "2026-11-12T16:18:04.248Z",
+      "evidenceFile": "content/research/n12-br-bom-jesus.json"
+    },
+    {
+      "id": "n12-br-bom-info",
+      "url": "https://bomjesus.pt/informacoes/",
+      "title": "Informações — Confraria do Bom Jesus do Monte",
+      "accessedAt": "2026-11-12T16:17:29.594Z",
+      "evidenceFile": "content/research/n12-br-bom-info.json"
+    },
+    {
+      "id": "n12-br-tub-substitution",
+      "url": "https://tub.pt/core/request.php?module=news&action=getnoticia&params=%7B%22id%22%3A1725%7D",
+      "title": "TUB — Shuttle de Substituição: Elevador do Bom Jesus (public notice content)",
+      "accessedAt": "2026-11-12T16:20:45.481Z",
+      "evidenceFile": "content/research/n12-br-tub-substitution.json"
+    },
+    {
+      "id": "n12-br-sameiro",
+      "url": "https://visitbraga.travel/highlights/monumentos/basilica-do-sameiro/",
+      "title": "Santuário de Nossa Senhora do Sameiro — Visit Braga",
+      "accessedAt": "2026-11-12T16:18:04.985Z",
+      "evidenceFile": "content/research/n12-br-sameiro.json"
+    },
+    {
+      "id": "n12-br-sameiro-access",
+      "url": "https://santuariodosameiro.pt/contatos-e-horarios/",
+      "title": "Contactos e Horários — Santuário do Sameiro",
+      "accessedAt": "2026-11-12T16:18:05.766Z",
+      "evidenceFile": "content/research/n12-br-sameiro-access.json"
+    },
+    {
+      "id": "n12-br-sameiro-update",
+      "url": "https://santuariodosameiro.pt/noticias/basilica-do-sameiro-atualiza-o-seu-horario-de-abertura/",
+      "title": "Basílica do Sameiro atualiza o seu horário de abertura — Confraria do Sameiro",
+      "accessedAt": "2026-11-12T16:18:10.041Z",
+      "evidenceFile": "content/research/n12-br-sameiro-update.json"
+    },
+    {
+      "id": "n12-br-arrival",
+      "url": "https://santuariodosameiro.pt/visitar/como-chegar/",
+      "title": "Como chegar — Santuário do Sameiro",
+      "accessedAt": "2026-11-12T16:18:13.497Z",
+      "evidenceFile": "content/research/n12-br-arrival.json"
+    },
+    {
+      "id": "n12-br-municipal-map",
+      "url": "https://visitbraga.travel/wp-content/uploads/2025/11/Plano_Turistico_Oficial_De_Braga_Espanol.pdf",
+      "title": "Plano Turístico Oficial de Braga — Visit Braga (mapa en español)",
+      "accessedAt": "2026-11-12T16:24:43.344Z",
+      "evidenceFile": "content/research/n12-br-municipal-map.json"
+    }
+  ],
+  "relatedIds": [
+    "porto",
+    "lisbon"
+  ],
+  "locale": "es",
+  "slug": "que-ver-en-braga-5-lugares",
+  "title": "Qué ver en Braga: 5 lugares entre el centro y sus santuarios",
+  "description": "Qué ver en Braga: Sé, Arco da Porta Nova, Jardim de Santa Bárbara, Bom Jesus y Sameiro, con una ruta práctica, visitas y aviso actual del elevador.",
+  "keyword": "qué ver en Braga",
+  "relatedQueries": [
+    "Braga lugares que visitar",
+    "Braga centro histórico y santuarios",
+    "Bom Jesus elevador transporte sustitutorio"
+  ],
+  "intro": [
+    "Para una primera visita a Braga, combiná cinco lugares con funciones distintas: la Sé, el Arco da Porta Nova y el Jardim de Santa Bárbara en el centro histórico, más los santuarios de Bom Jesus do Monte y Sameiro en altura. Los tres primeros permiten armar un paseo urbano; los otros dos requieren decidir cómo subir, cuánto tiempo dedicarles y cómo volver. Esa separación ayuda más que intentar encadenar todo como si fueran cinco paradas contiguas.",
+    "La selección combina arquitectura religiosa, un acceso monumental, un jardín y dos paisajes de santuario. Podés centrarte en exteriores o sumar visitas interiores según tus intereses, pero hay diferencias importantes: la Sé organiza varios recorridos, el culto condiciona el acceso turístico y un aviso de TUB anuncia transporte sustitutorio por mantenimiento del elevador de Bom Jesus. Revisado el 12 de noviembre de 2026, ese aviso obliga a comprobar la operación antes del viaje; una foto histórica del funicular no demuestra que esté funcionando."
+  ],
+  "quickFacts": [
+    {
+      "label": "Centro histórico",
+      "value": "Sé, Arco da Porta Nova y Jardim de Santa Bárbara en un mismo bloque de paseo"
+    },
+    {
+      "label": "Santuarios",
+      "value": "Bom Jesus y Sameiro necesitan plan de traslado y regreso propios"
+    },
+    {
+      "label": "Sé de Braga",
+      "value": "Tesouro-Museu cerrado los lunes; otros recorridos y culto tienen condiciones diferentes"
+    },
+    {
+      "label": "Bom Jesus",
+      "value": "Aviso publicado de shuttle sustitutorio del elevador; comprobar vigencia con TUB"
+    }
+  ],
+  "sections": [
+    {
+      "id": "se-braga",
+      "kind": "place",
+      "heading": "1. Sé de Braga: elegir qué parte de la catedral querés visitar",
+      "paragraphs": [
+        "La Sé permite empezar por la historia de Braga sin salir del centro. Sus fachadas y paredes reúnen elementos románicos y góticos, mientras que el interior incorpora una fuerte presencia barroca. La construcción comenzó a finales del siglo XI, antes de la formación de Portugal como nación. Observá primero el frente y sus diferentes partes, en lugar de buscar un único estilo que lo explique todo. El edificio fue cambiando durante siglos y esa mezcla es una de las claves de la visita.",
+        "Para entrar, elegí un recorrido concreto: Tesouro-Museu, capillas y coro alto, o catedral. La recepción y la venta de entradas están en el claustro; no conviene asumir que cualquier billete incluye todos los ámbitos. El museo cierra los lunes y las visitas turísticas a la catedral se interrumpen durante los servicios religiosos. Si te interesan especialmente los órganos y el coro alto, revisá la modalidad que los incluye antes de comprar. Una mañana con culto o un lunes no debe traducirse automáticamente en que todo el conjunto está cerrado."
+      ],
+      "sourceIds": [
+        "n12-br-se-history",
+        "n12-br-se-visits",
+        "n12-br-se-tickets"
+      ],
+      "imageId": "n12-br-cathedral"
+    },
+    {
+      "id": "arco-porta-nova",
+      "kind": "place",
+      "heading": "2. Arco da Porta Nova: cruzar el umbral del casco histórico",
+      "paragraphs": [
+        "El Arco da Porta Nova se encuentra en Rua D. Diogo de Sousa y funciona como una entrada reconocible al centro de Braga. El plano oficial distingue dos momentos: la apertura del paso en 1512 por iniciativa del arzobispo Diogo de Sousa y la construcción del arco monumental actual en 1772–1773. Miralo desde ambos lados y prestá atención a cómo los edificios encuadran el paso. Es una parada para leer la relación entre la calle y la antigua entrada urbana.",
+        "La información municipal lo presenta como un monumento de acceso gratuito. No necesitás convertirlo en una visita interior ni buscar una subida a la parte superior para que tenga interés. Aprovechá el cruce para orientar el recorrido hacia la Sé y el resto del centro, dejando espacio a quienes usan la calle. Una foto amplia ayuda a recordar la situación del arco entre las fachadas; otra más cercana permite observar la composición de piedra. Son dos maneras complementarias de mirar el mismo lugar, sin añadir otra entrada al día."
+      ],
+      "sourceIds": [
+        "n12-br-arco",
+        "n12-br-municipal-map"
+      ],
+      "imageId": "n12-br-arco"
+    },
+    {
+      "id": "jardim-santa-barbara",
+      "kind": "place",
+      "heading": "3. Jardim de Santa Bárbara: flores, una fuente y el antiguo palacio",
+      "paragraphs": [
+        "El Jardim de Santa Bárbara cambia el ritmo del paseo por el centro. Está en Rua Dr. Justino Cruz y reúne parterres, una fuente coronada por la figura de la santa y el fondo de piedra del Paço Episcopal. Aunque esa pared con almenas recuerda un castillo, la información oficial aclara que pertenece al antiguo palacio episcopal. También conviene separar las épocas: el jardín se trazó en el siglo XX y la fuente es del XVII. No todo lo que se ve corresponde a un jardín medieval conservado sin cambios.",
+        "Buscá un punto desde el que se relacionen los parterres con la arquitectura y después acercate a la fuente para ver el jardín a otra escala. La entrada es gratuita y el espacio puede servir como pausa entre la catedral y el traslado a los santuarios. Las flores de la fotografía son de archivo: su presencia y color varían con la temporada y el mantenimiento. Si la visita coincide con lluvia o con menos floración, el conjunto de caminos, fuente y fachada sigue ofreciendo algo más que una imagen de flores."
+      ],
+      "sourceIds": [
+        "n12-br-garden"
+      ],
+      "imageId": "n12-br-garden"
+    },
+    {
+      "id": "bom-jesus",
+      "kind": "place",
+      "heading": "4. Bom Jesus do Monte: recorrer la escalinata por etapas",
+      "paragraphs": [
+        "Bom Jesus do Monte merece un bloque propio. Su conjunto de escalinatas, capillas, fuentes, esculturas y basílica organiza una subida religiosa por la ladera, y está reconocido como Patrimonio Mundial desde 2019. La foto de esta guía muestra la escalinata superior de las Virtudes y la basílica; no representa toda la subida desde el Pórtico. Elegí qué tramo querés observar y dejá pausas para mirar cómo las escaleras y las figuras ordenan la perspectiva. La visita no necesita reducirse a llegar arriba y tomar una única fotografía.",
+        "La forma de llegar cambia el esfuerzo de la jornada. El elevador histórico aparece en muchas imágenes y descripciones del santuario, pero TUB publica un aviso de mantenimiento con shuttle entre el Pórtico, final de la línea 2, y el santuario. Comprobá que ese dispositivo siga vigente y dónde se realiza el embarque. Si llegás por carretera al sector superior, el circuito de escaleras que elijas será diferente al de quien comienza abajo. La basílica y el espacio del coro alto y torre también tienen condiciones propias: las celebraciones religiosas pueden interrumpir las visitas y no se debe dar por incluido el acceso a todos los sectores."
+      ],
+      "sourceIds": [
+        "n12-br-bom-jesus",
+        "n12-br-bom-info",
+        "n12-br-tub-substitution"
+      ],
+      "imageId": "n12-br-bom-jesus"
+    },
+    {
+      "id": "sameiro",
+      "kind": "place",
+      "heading": "5. Sameiro: distinguir la basílica de la visita al recinto",
+      "paragraphs": [
+        "El Santuário de Nossa Senhora do Sameiro es otro conjunto, con identidad y accesos propios. Su basílica neoclásica, la gran cúpula, las dos torres y los espacios abiertos permiten una lectura diferente a la escalinata de Bom Jesus. Empezá por reconocer el edificio desde el exterior y la amplitud de su entorno; después decidí si querés entrar. El sitio se desarrolló a partir de una iniciativa mariana del siglo XIX. No es una prolongación de la catedral del centro ni otro nombre para Bom Jesus.",
+        "El santuario diferencia el recinto público de la apertura de la basílica y del acceso al zimbório, la cúpula. La actualización oficial de septiembre de 2026 sitúa el cierre de la basílica en noviembre a las 18:00; confirmá el horario y las celebraciones para tu fecha. La visita exterior sigue teniendo sentido sin subir a la cúpula, que cuenta con reglas propias. Para personas con movilidad reducida, el operador identifica estacionamiento próximo a la basílica; eso no acredita que todos los caminos, escaleras o accesos del conjunto carezcan de barreras. Planificá el tramo concreto que necesitás recorrer."
+      ],
+      "sourceIds": [
+        "n12-br-sameiro",
+        "n12-br-sameiro-access",
+        "n12-br-sameiro-update",
+        "n12-br-arrival"
+      ],
+      "imageId": "n12-br-sameiro"
+    },
+    {
+      "id": "transportes",
+      "kind": "practical",
+      "heading": "Cómo organizar el centro, Bom Jesus y Sameiro sin confundir los traslados",
+      "paragraphs": [
+        "Armá primero un bloque a pie con el arco, la Sé y el jardín; elegí el sentido según tu alojamiento o tu llegada a Braga. Para el resto, mirá un mapa completo y resolvé cada traslado antes de salir del centro. La información del operador de Sameiro señala conexiones ferroviarias de CP con Braga y transporte urbano de TUB en el municipio. No supongas que llegar a la estación de tren significa estar ya en alguno de los santuarios, ni que ambos están incluidos en una caminata breve por el casco antiguo.",
+        "El aviso específico de TUB del 26 de septiembre de 2026 describe una sustitución del elevador por mantenimiento y no anuncia fecha de finalización. Esta guía lo comprobó publicado el 12 de noviembre; no es una constatación de una salida del vehículo ni una garantía de futuros horarios. Consultá los avisos del operador, el servicio desde el Pórtico y la vuelta. Para Sameiro, organizá por separado el transporte disponible para tu fecha o el acceso en vehículo. No se presupone un enlace directo entre ambos santuarios ni se ofrece un tiempo de trayecto que no haya sido verificado."
+      ],
+      "sourceIds": [
+        "n12-br-tub-substitution",
+        "n12-br-bom-info",
+        "n12-br-arrival",
+        "n12-br-municipal-map"
+      ]
+    },
+    {
+      "id": "visitas-practicas",
+      "kind": "practical",
+      "heading": "Entradas, culto y ritmo: tres decisiones antes de salir",
+      "paragraphs": [
+        "Elegí primero qué interior te interesa de verdad. En la Sé, diferenciar los tres recorridos evita comprar una modalidad que no contiene lo que buscás; en los santuarios, distinguir basílica, torre o cúpula evita dar por hecha una apertura común. Después comprobá el calendario religioso y las últimas admisiones. La página propia de la catedral tiene información turística más específica que una franja general de apertura: usala como referencia para organizar el acceso, especialmente si viajás un lunes.",
+        "Por último, adaptá la parte en altura al grupo y al tiempo disponible. Las escalinatas requieren una decisión consciente sobre esfuerzo y movilidad, y la lluvia o la poca visibilidad pueden cambiar las prioridades. Las fotos son documentales de archivo y no prometen un paisaje o una apertura actuales. Si seguís recorriendo Portugal, la guía de Oporto enlazada abajo desarrolla el puente de Luis I y Serralves; la de Lisboa ofrece otra selección urbana. Sirven para organizar otras etapas, sin tratarlas como paradas adicionales de esta ruta por Braga."
+      ],
+      "sourceIds": [
+        "n12-br-se-tickets",
+        "n12-br-se-visits",
+        "n12-br-bom-jesus",
+        "n12-br-sameiro-access"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Para el centro histórico, podés comenzar por el Arco da Porta Nova, seguir con el exterior y el recorrido elegido de la Sé y dedicar una pausa al Jardim de Santa Bárbara. Cambiá el orden si una visita interior tiene una hora asignada o si tu llegada hace más práctico empezar por otro punto. Ese primer bloque ya ofrece tres lugares con historias y formas distintas.",
+    "Reservá después una salida específica para Bom Jesus. Definí si vas a comenzar en el Pórtico o en el sector superior, verificá el transporte vigente y elegí la parte de escalinata acorde con tu movilidad. Incluí la basílica únicamente dentro de sus condiciones de visita y culto; no añadas una subida a la torre por inercia si eso complica el regreso.",
+    "Sumá Sameiro cuando tengas resuelto el traslado y tiempo suficiente para conocer el recinto con calma. Si una sola jornada se vuelve demasiado ajustada, repartí los dos santuarios en salidas diferentes o conservá uno para otra visita. Con pocos días, comprobar accesos y seleccionar prioridades suele dar una experiencia más completa que correr para poder afirmar que hiciste las cinco paradas."
+  ],
+  "faq": [
+    {
+      "question": "¿Cuáles son los cinco lugares de esta primera visita a Braga?",
+      "answer": "La Sé de Braga, el Arco da Porta Nova, el Jardim de Santa Bárbara, Bom Jesus do Monte y el santuario de Sameiro. Los tres primeros pertenecen al paseo por el centro; los dos santuarios requieren planificar traslados y accesos aparte."
+    },
+    {
+      "question": "¿La Sé de Braga está cerrada los lunes?",
+      "answer": "El aviso oficial de cierre de los lunes corresponde al Tesouro-Museu, el recorrido 1. No debe aplicarse automáticamente a todo el conjunto. La visita turística a la catedral tiene además restricciones durante el culto; revisá el recorrido concreto."
+    },
+    {
+      "question": "¿Puedo contar con el elevador del Bom Jesus funcionando?",
+      "answer": "No conviene darlo por hecho. El 12 de noviembre de 2026 seguía publicado un aviso de TUB de transporte sustitutorio por mantenimiento, con conexión desde el Pórtico. Comprobá el estado actual y la operación antes del viaje, sin basarte solo en horarios generales o fotos antiguas."
+    },
+    {
+      "question": "¿Bom Jesus y Sameiro son el mismo santuario?",
+      "answer": "No. Bom Jesus destaca por su recorrido de escalinatas y su basílica; Sameiro es otro santuario, con cúpula, torres y recinto propios. Visitarlos requiere resolver el traslado entre zonas, sin suponer una conexión directa o una caminata corta."
+    },
+    {
+      "question": "¿Es necesario subir a una torre o cúpula para disfrutar Braga?",
+      "answer": "No. La selección permite observar los cinco lugares desde sus entornos y añadir interiores de forma voluntaria. Torres, coro alto y cúpula tienen reglas diferentes a las de una plaza o recinto abierto; elegí esas ampliaciones por interés y según tu movilidad."
+    }
+  ],
+  "conclusion": "Braga se entiende mejor cuando alternás la escala del centro con la de los santuarios. El arco ayuda a entrar en la ciudad, la Sé reúne siglos de arquitectura y el jardín ofrece una pausa; Bom Jesus y Sameiro amplían la visita hacia la ladera. Elegí los interiores, comprobá el transporte vigente y dejá margen para mirar los lugares en vez de limitarte a enlazarlos.",
+  "publishedAt": "2026-11-12T16:33:07.817Z",
+  "updatedAt": "2026-11-12T16:33:07.817Z"
+}

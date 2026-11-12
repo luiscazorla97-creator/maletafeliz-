@@ -1,0 +1,41 @@
+{
+  "url": "https://www.visitmorocco.com/en/travel/fez/medina",
+  "fetchedAt": "2026-11-12T16:18:19.820Z",
+  "finalUrl": "https://www.visitmorocco.com/en/travel/fez/medina",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "8e38b4225343bda8f2c341df580313575185c42d0819e9c7bded2f5b833bd875",
+  "bytes": 146368,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "ONMT identifies Bab Boujloud as an entry into the medina and describes its blue/jade zellij and carved openings.",
+      "excerpt": "Enter the Bab Boujloud gate … zelliges of blue and jade",
+      "location": "Main medina article, paragraph beginning Stroll through the interlacing alleys.",
+      "excerptLocations": [
+        {
+          "text": "Enter the Bab Boujloud gate",
+          "extractedTextLine": 253
+        },
+        {
+          "text": "zelliges of blue and jade",
+          "extractedTextLine": 253
+        }
+      ]
+    },
+    {
+      "fact": "The article identifies working crafts including tanning, weaving, metalwork and pottery within the medina. No worldwide age/size ranking or event calendar is reproduced.",
+      "excerpt": "from tanners to weavers, dinandiers and potters",
+      "location": "Main medina article, opening paragraph.",
+      "excerptLocations": [
+        {
+          "text": "from tanners to weavers, dinandiers and potters",
+          "extractedTextLine": 252
+        }
+      ]
+    }
+  ],
+  "notes": "Actual ONMT body read. Promotional superlatives, unverified festival dates, university rankings and implied mosque entry are excluded.",
+  "readMethod": "Actual captured HTML body read in extracted text; quoted passages and locating line numbers matched to the retained extraction.",
+  "excerptWordCount": 17
+}

@@ -1,0 +1,24 @@
+{
+  "id": "municipal-map-es",
+  "url": "https://visitbraga.travel/wp-content/uploads/2025/11/Plano_Turistico_Oficial_De_Braga_Espanol.pdf",
+  "finalUrl": "https://visitbraga.travel/wp-content/uploads/2025/11/Plano_Turistico_Oficial_De_Braga_Espanol.pdf",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-12T16:24:43.344Z",
+  "contentType": "application/pdf",
+  "contentSha256": "fde068df1e4455945499139aa795c75de21396b9c7ef183f51b879175d16830e",
+  "bytes": 12071933,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The official Spanish tourism map explicitly distinguishes the new gateway opened in 1512 under Archbishop Diogo de Sousa from the present monumental arch built in 1772/73.",
+      "excerpt": "en 1772/73",
+      "location": "PDF page1, lower-left column, heading5 ARCO DA PORTA NOVA."
+    },
+    {
+      "fact": "The enlarged historic-centre map places the Arco da Porta Nova, cathedral and Santa Bárbara Garden within the central walking area. Separate maps place Bom Jesus and Sameiro outside that compact group.",
+      "excerpt": "Casco Viejo Ampliado",
+      "location": "PDF page1 enlarged-centre map and sanctuary inset; page2 wider location map."
+    }
+  ],
+  "notes": "Actual HTTP200 PDF captured and SHA checked. Document has image-only pages; pdftotext returned no substantive text. Both pages were rendered locally with pdftoppm and visually read as JPEGs. No OCR or cached search snippet counted as reading. Only facts used; no copyrighted map graphics are served publicly."
+}

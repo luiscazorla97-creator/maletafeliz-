@@ -9810,7 +9810,7 @@
     ],
     "placeCount": 5,
     "intent": "braga-first-visit-five-heritage-places",
-    "status": "planned",
+    "status": "published",
     "titles": {
       "es": "Qué ver en Braga: 5 lugares entre el centro y sus santuarios",
       "en": "Things to do in Braga: 5 places from the centre to its sanctuaries"
@@ -9826,10 +9826,10 @@
       "https://santuariodosameiro.pt/contatos-e-horarios/"
     ],
     "researchStatus": "verified",
-    "imageStatus": "individual-licences-read-derivatives-review-pending",
+    "imageStatus": "verified",
     "locales": {
-      "es": "pending",
-      "en": "pending"
+      "es": "published",
+      "en": "published"
     },
     "differentiation": "First-visit Braga guide absent from the existing 193-topic catalogue. Three historic-centre places are distinguished from uphill Bom Jesus and Sameiro sanctuary outings, with current official visitor/access checks and one specific licensed documentary image per place. No demand, ranking or rapid-indexing claims. New worldwide manual request supersedes ordinary four-country preference for this batch only."
   },
@@ -9853,7 +9853,7 @@
     ],
     "placeCount": 5,
     "intent": "fes-first-visit-five-medina-gardens-places",
-    "status": "planned",
+    "status": "published",
     "titles": {
       "es": "Qué ver en Fez: 5 lugares entre la medina y sus jardines",
       "en": "5 places to visit in Fez: medina landmarks and Jnan Sbil"
@@ -9869,11 +9869,11 @@
       "https://festourism.org/ficheitem.php?id=62&lang=fr",
       "https://festourism.org/ficheitem.php?id=92&lang=fr"
     ],
-    "researchStatus": "in-progress",
-    "imageStatus": "individual-licences-read",
+    "researchStatus": "verified",
+    "imageStatus": "verified",
     "locales": {
-      "es": "pending",
-      "en": "pending"
+      "es": "published",
+      "en": "published"
     }
   },
   {
@@ -9895,10 +9895,10 @@
     ],
     "placeCount": 5,
     "intent": "george-town-penang-first-visit-five-heritage-places",
-    "status": "planned",
+    "status": "deferred",
     "titles": {
       "es": "Qué ver en George Town, Penang: 5 lugares para entender su historia",
-      "en": "5 places to visit in George Town, Penang: mansions, fort and jetties"
+      "en": "5 places to visit in George Town, Penang: mansions, fort and jetty"
     },
     "slugs": {
       "es": "que-ver-george-town-penang-5-lugares",
@@ -9909,12 +9909,14 @@
       "https://mypenang.gov.my/view_itenary.php?id=THVMRHBRb2V2ODlQc3hRTEkvalB4QT09",
       "https://gtwhi.com.my/about-us/george-town-unesco-world-heritage-site/"
     ],
-    "researchStatus": "in-progress",
-    "imageStatus": "individual-licences-read-derivatives-review-pending",
+    "researchStatus": "verified-private-staging",
+    "imageStatus": "verified-private-staging",
     "locales": {
-      "es": "pending",
-      "en": "pending"
+      "es": "review",
+      "en": "review"
     },
-    "differentiation": "New Malaysian city and first-visit heritage intent absent from all 193 published originals and editorial plan when checked 12 November 2026. Five separately developed places: Blue Mansion, Khoo Kongsi, Pinang Peranakan Mansion, Fort Cornwallis and Chew Jetty. Explicit manual request for three worldwide originals; no demand ranking, paid service or indexing promise."
+    "differentiation": "New Malaysian city and first-visit heritage intent absent from all 193 published originals and editorial plan when checked 12 November 2026. Five separately developed places: Blue Mansion, Khoo Kongsi, Pinang Peranakan Mansion, Fort Cornwallis and Chew Jetty. Explicit manual request for three worldwide originals; no demand ranking, paid service or indexing promise.",
+    "deferredAt": "2026-11-12T17:01:48.727Z",
+    "deferredReason": "Latest owner limit of two originals; fully reviewed private work retained, no public publication claimed."
   }
 ]

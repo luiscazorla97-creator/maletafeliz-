@@ -1,0 +1,41 @@
+{
+  "url": "https://whc.unesco.org/en/list/170/",
+  "fetchedAt": "2026-11-12T16:17:23.561Z",
+  "finalUrl": "https://whc.unesco.org/en/list/170/",
+  "httpStatus": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "contentSha256": "17a7f4ef744c897489b2731cb1b2204c8f61df0e9a49f563827162cb8b1ceba8",
+  "bytes": 148564,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "UNESCO describes ninth-century foundations and a thirteenth/fourteenth-century Marinid high point; the historic urban fabric includes madrasas, fondouks, mosques and craft traditions.",
+      "excerpt": "Founded in the 9th century … 13th–14th centuries under the Marinids",
+      "location": "English Description and Outstanding Universal Value synthesis.",
+      "excerptLocations": [
+        {
+          "text": "Founded in the 9th century",
+          "extractedTextLine": 197
+        },
+        {
+          "text": "13th–14th centuries under the Marinids",
+          "extractedTextLine": 197
+        }
+      ]
+    },
+    {
+      "fact": "The Medina of Fez was inscribed on the World Heritage List in 1981. This is the medina designation, not a separate 1916 UNESCO inscription for Nejjarine.",
+      "excerpt": "Date of Inscription: 1981",
+      "location": "Property information block, separate from national-protection decree history.",
+      "excerptLocations": [
+        {
+          "text": "Date of Inscription: 1981",
+          "extractedTextLine": 259
+        }
+      ]
+    }
+  ],
+  "notes": "UNESCO identification and English/Spanish descriptions read, together with the inscription field and historical urban synthesis. No promise that every building is medieval or every street is free of vehicles is inferred.",
+  "readMethod": "Actual captured HTML body read in extracted text; quoted passages and locating line numbers matched to the retained extraction.",
+  "excerptWordCount": 14
+}

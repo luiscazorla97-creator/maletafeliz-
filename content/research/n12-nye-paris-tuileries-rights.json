@@ -1,0 +1,121 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg",
+  "fetchedAt": "2026-11-12T16:29:41.442Z",
+  "httpStatus": 200,
+  "contentSha256": "841bce33658cda5c4c9ffb4a95bcdaebb50594aa4d75831d36480eee0d7e176c",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The exact individual file page and selected licence deed were actually read. Named creator, supplied title and licence match the reuse metadata. This is a documentary archive photograph dated 2011-11-21, not evidence of a 2026/27 event, current opening or access layout.",
+      "excerpt": "CC BY-SA 3.0",
+      "location": "Specific Commons file Information/Licensing blocks and supplied Date; original capture and actual response hash retained."
+    },
+    {
+      "fact": "Previously published served bytes are reused without editing or regeneration. All existing responsive variants were locally decoded and SHA-256/dimensions checked against the unchanged original manifest entry. Attribution, source, licence, previous edits and sharing conditions are retained.",
+      "excerpt": "",
+      "location": "Original manifest entry and local byte ledger, private Europe reuse review."
+    }
+  ],
+  "licenseDeedCapture": {
+    "id": "cc-bysa3",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:29:45.283Z",
+    "contentType": "text/html",
+    "contentSha256": "9a17cd36de36b242cbe4234773116f2036f86a8ce4459af8b37fd120482ca931",
+    "bytes": 35431,
+    "retryAfter": null,
+    "bodyFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/europe/raw/cc-bysa3.body",
+    "actuallyRead": true,
+    "rehashVerified": true
+  },
+  "reuseOf": "place-paris-tuileries",
+  "originalManifestSnapshot": {
+    "id": "place-paris-tuileries",
+    "src": "/images/place-paris-tuileries.webp",
+    "alt": {
+      "es": "Jardín de las Tullerías",
+      "en": "Tuileries Garden"
+    },
+    "credit": "Moonik / Wikimedia Commons · archivo / archive · resized and converted to WebP by MaletaFeliz",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "verifiedAt": "2026-10-30T01:46:49.934Z",
+    "destinationIds": [
+      "paris"
+    ],
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "modifications": "Resized and converted to WebP; same license retained.",
+    "width": 1280,
+    "height": 857,
+    "sha256": "c6db53ca04b485f37339bcd7fb3aef065c45b5bd400054f41c47d9b755a8c001",
+    "variants": [
+      {
+        "src": "/images/place-paris-tuileries-480w.webp",
+        "width": 480,
+        "height": 321,
+        "sha256": "9924449c3baa7c7024eaa5fc5dae3167e4d6b457c1805008c30023a50bfab6f6"
+      },
+      {
+        "src": "/images/place-paris-tuileries-800w.webp",
+        "width": 800,
+        "height": 536,
+        "sha256": "4c352fd837d2d5bc32b94448c57e4b63026b60e7bc74e7eca0e56ccf219de24a"
+      },
+      {
+        "src": "/images/place-paris-tuileries-1200w.webp",
+        "width": 1200,
+        "height": 803,
+        "sha256": "ef6410a1097564b0747828e8cfe553dab28b3736c546f4860a4d78af782f4750"
+      },
+      {
+        "src": "/images/place-paris-tuileries.webp",
+        "width": 1280,
+        "height": 857,
+        "sha256": "c6db53ca04b485f37339bcd7fb3aef065c45b5bd400054f41c47d9b755a8c001"
+      }
+    ]
+  },
+  "variantsChecked": [
+    {
+      "src": "/images/place-paris-tuileries-480w.webp",
+      "width": 480,
+      "height": 321,
+      "sha256": "9924449c3baa7c7024eaa5fc5dae3167e4d6b457c1805008c30023a50bfab6f6",
+      "path": "/workspace/maletafeliz-/public/images/place-paris-tuileries-480w.webp",
+      "bytes": 30740,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/place-paris-tuileries-800w.webp",
+      "width": 800,
+      "height": 536,
+      "sha256": "4c352fd837d2d5bc32b94448c57e4b63026b60e7bc74e7eca0e56ccf219de24a",
+      "path": "/workspace/maletafeliz-/public/images/place-paris-tuileries-800w.webp",
+      "bytes": 83298,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/place-paris-tuileries-1200w.webp",
+      "width": 1200,
+      "height": 803,
+      "sha256": "ef6410a1097564b0747828e8cfe553dab28b3736c546f4860a4d78af782f4750",
+      "path": "/workspace/maletafeliz-/public/images/place-paris-tuileries-1200w.webp",
+      "bytes": 174774,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/place-paris-tuileries.webp",
+      "width": 1280,
+      "height": 857,
+      "sha256": "c6db53ca04b485f37339bcd7fb3aef065c45b5bd400054f41c47d9b755a8c001",
+      "path": "/workspace/maletafeliz-/public/images/place-paris-tuileries.webp",
+      "bytes": 276552,
+      "hashAndDimensionsVerified": true
+    }
+  ],
+  "notes": "Append-only alias for a new topic; original article, original image record, assets and dates are untouched. No commercial endorsement or event photograph is implied. Changes to metadata only add archive disclosure and fuller title/attribution."
+}

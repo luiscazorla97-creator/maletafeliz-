@@ -1,0 +1,92 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:The_National_Museum_of_Scotland,_Chambers_Street_-_geograph.org.uk_-_6233184.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:The_National_Museum_of_Scotland,_Chambers_Street_-_geograph.org.uk_-_6233184.jpg",
+  "fetchedAt": "2026-11-12T16:29:41.041Z",
+  "httpStatus": 200,
+  "contentSha256": "617de376a28bf5b3ebe52cae550899062850532fedc44ab4163670b38d55c394",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The exact individual file page and selected licence deed were actually read. Named creator, supplied title and licence match the reuse metadata. This is a documentary archive photograph dated 2019-08-03, not evidence of a 2026/27 event, current opening or access layout.",
+      "excerpt": "CC BY-SA 2.0",
+      "location": "Specific Commons file Information/Licensing blocks and supplied Date; original capture and actual response hash retained."
+    },
+    {
+      "fact": "Previously published served bytes are reused without editing or regeneration. All existing responsive variants were locally decoded and SHA-256/dimensions checked against the unchanged original manifest entry. Attribution, source, licence, previous edits and sharing conditions are retained.",
+      "excerpt": "",
+      "location": "Original manifest entry and local byte ledger, private Europe reuse review."
+    }
+  ],
+  "licenseDeedCapture": {
+    "id": "cc-bysa2",
+    "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:29:45.376Z",
+    "contentType": "text/html",
+    "contentSha256": "6d15fd2f2ccc7258f39befc9f13f5154f9851e49a9e90ec43c7e22d660ae0e84",
+    "bytes": 35429,
+    "retryAfter": null,
+    "bodyFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/europe/raw/cc-bysa2.body",
+    "actuallyRead": true,
+    "rehashVerified": true
+  },
+  "reuseOf": "edinburgh-2",
+  "originalManifestSnapshot": {
+    "id": "edinburgh-2",
+    "src": "/images/edinburgh-2.webp",
+    "width": 800,
+    "height": 600,
+    "credit": "David Dixon  · 2019 / Wikimedia Commons · WebP: MaletaFeliz",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_National_Museum_of_Scotland,_Chambers_Street_-_geograph.org.uk_-_6233184.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/The_National_Museum_of_Scotland%2C_Chambers_Street_-_geograph.org.uk_-_6233184.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "verifiedAt": "2026-10-29T16:19:54.451Z",
+    "destinationIds": [
+      "edinburgh"
+    ],
+    "sha256": "50e653bb091fca242e6ec7336de62cb91cdb198c6ae4ba21023a1923a99095dd",
+    "photoDate": "2019-08-03",
+    "alt": {
+      "es": "Museo Nacional de Escocia en Chambers Street · 2019",
+      "en": "National Museum of Scotland on Chambers Street · 2019"
+    },
+    "modifications": "Converted to WebP; original license retained.",
+    "variants": [
+      {
+        "src": "/images/edinburgh-2-480w.webp",
+        "width": 480,
+        "height": 360,
+        "sha256": "1eaf06eddab9ba21f35e738b410d1269289d38fd53979018b97faace77fb1cd3"
+      },
+      {
+        "src": "/images/edinburgh-2.webp",
+        "width": 800,
+        "height": 600,
+        "sha256": "50e653bb091fca242e6ec7336de62cb91cdb198c6ae4ba21023a1923a99095dd"
+      }
+    ]
+  },
+  "variantsChecked": [
+    {
+      "src": "/images/edinburgh-2-480w.webp",
+      "width": 480,
+      "height": 360,
+      "sha256": "1eaf06eddab9ba21f35e738b410d1269289d38fd53979018b97faace77fb1cd3",
+      "path": "/workspace/maletafeliz-/public/images/edinburgh-2-480w.webp",
+      "bytes": 41074,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/edinburgh-2.webp",
+      "width": 800,
+      "height": 600,
+      "sha256": "50e653bb091fca242e6ec7336de62cb91cdb198c6ae4ba21023a1923a99095dd",
+      "path": "/workspace/maletafeliz-/public/images/edinburgh-2.webp",
+      "bytes": 136600,
+      "hashAndDimensionsVerified": true
+    }
+  ],
+  "notes": "Append-only alias for a new topic; original article, original image record, assets and dates are untouched. No commercial endorsement or event photograph is implied. Changes to metadata only add archive disclosure and fuller title/attribution."
+}

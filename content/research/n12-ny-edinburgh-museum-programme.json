@@ -1,0 +1,22 @@
+{
+  "url": "https://www.nms.ac.uk/national-museum-of-scotland",
+  "finalUrl": "https://www.nms.ac.uk/national-museum-of-scotland",
+  "fetchedAt": "2026-11-12T16:43:26.376Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "5ff4e5d6807e553b20e8673420a71f0d5767b8bdcba8b463ae75251f94f149aa",
+  "bytes": 207431,
+  "facts": [
+    {
+      "fact": "The museum states general admission is free, with charges for some special exhibitions. The actual programme dates Roman Scotland: Life on the Edge of Empire from 14 November 2026 to 18 April 2027, spanning the coming New Year period.",
+      "excerpt": "Roman Scotland: Life on the Edge of Empire",
+      "location": "Main visitor information and Featured Exhibition block; current homepage actually read."
+    },
+    {
+      "fact": "The same page confirms 1 January opening noon–5 pm. A general-free-admission statement does not establish free admission to every special exhibition.",
+      "excerpt": "Admission details:",
+      "location": "Main Opening hours and admission blocks."
+    }
+  ],
+  "notes": "Actual HTTP 200 body read, complete SHA rechecked. No unverified particular object or exhibition price supplied."
+}

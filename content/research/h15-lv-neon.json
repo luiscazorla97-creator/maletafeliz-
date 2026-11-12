@@ -1,0 +1,46 @@
+{
+  "id": "h15-lv-neon",
+  "url": "https://neonmuseum.org/your-visit/",
+  "finalUrl": "https://neonmuseum.org/your-visit/",
+  "startedAt": "2026-11-12T21:34:24.664Z",
+  "fetchedAt": "2026-11-12T21:34:26.479Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "485273c18b7dcf014d5ca4dec7c14646b91985f16d556608f7341988db490215",
+  "textSha256": "a3a6348923f0e21acd63b4ec9ddef2cedb934292e12e7e8eb3cc2b6da37f782d",
+  "bytes": 153575,
+  "rawFile": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/authors/vegas-vancouver/las-vegas-new-year-2027/captures/h15-lv-neon.html",
+  "textFile": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/authors/vegas-vancouver/las-vegas-new-year-2027/captures/h15-lv-neon.txt",
+  "facts": [
+    {
+      "fact": "Bookingreleases60daysahead",
+      "excerpt": "The Neon Museum releases their tickets 60 days in advance.",
+      "location": "Read rendered-text extraction from actual HTTP response"
+    },
+    {
+      "fact": "Jan1,2027newout-of-slotpricingrule",
+      "excerpt": "Starting January 1, 2027, admission earlier or later than your selected ticket time may have a higher ticket price, requiring an additional charge payable prior to entry.",
+      "location": "Read rendered-text extraction from actual HTTP response"
+    },
+    {
+      "fact": "Museumannouncesyear-roundopeningnotaspecificNYEparty",
+      "excerpt": "The Neon Museum is open 365 days a year.",
+      "location": "Read rendered-text extraction from actual HTTP response"
+    },
+    {
+      "fact": "Advancebookingrecommended",
+      "excerpt": "Due to frequent sell-out nights, advance ticket purchase is highly recommended.",
+      "location": "Read rendered-text extraction from actual HTTP response"
+    },
+    {
+      "fact": "Cashlesspayments",
+      "excerpt": "The Neon Museum is a cashless venue.",
+      "location": "Read rendered-text extraction from actual HTTP response"
+    }
+  ],
+  "requestedUrl": "https://neonmuseum.org/visit/",
+  "reviewedAt": "2026-11-12T21:46:22.494Z",
+  "readBy": "Codex author /vegas_vancouver_holidays (AI-assisted editorial research)",
+  "readingCompleted": true
+}

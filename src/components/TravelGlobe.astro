@@ -7,7 +7,7 @@ import ResponsivePhoto from './ResponsivePhoto.astro';
 import { heroAvifSrcSet, heroWebpSrcSet, heroSizes } from '../lib/hero-image';
 const { lang } = Astro.props as { lang: Locale };
 const articles = forLocale(lang);
-const picks = ['lisbon', 'tokyo'].map(id => articles.find(a => a.destinationId === id)).filter(a => a && photoFor(a.coverImageId));
+const picks = ['lisbon', 'tokyo'].map(id => articles.find(a => a.id === id) || articles.find(a => a.destinationId === id)).filter(a => a && photoFor(a.coverImageId));
 ---
 <div class="travel-globe">
   <span class="globe-caption" aria-hidden="true">MALETAFELIZ · {lang === 'es' ? 'ATLAS DEL MUNDO' : 'WORLD ATLAS'}</span>

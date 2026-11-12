@@ -1,0 +1,23 @@
+{
+  "url": "https://edwinterfest.com/hogmanay/whats-on/street-party",
+  "finalUrl": "https://edwinterfest.com/hogmanay/whats-on/street-party",
+  "fetchedAt": "2026-11-12T16:31:02.287Z",
+  "httpStatus": 200,
+  "contentType": "text/html;charset=utf-8",
+  "contentSha256": "363bed56bd8ce3637d0144ebf8caa9c40b62f0a0c1af5131c075eb549eb03482",
+  "bytes": 147125,
+  "facts": [
+    {
+      "fact": "The event page explicitly lists 31 December 2026, start 8 pm, location Princes Street Edinburgh and age 12+. It provides current booking links and says only its named official sellers are valid.",
+      "excerpt": "31 Dec 2026",
+      "location": "Date/time/location/age fields and ImportantReminder."
+    },
+    {
+      "fact": "The dated page lists specific 2026/27 entertainment across named street stages. This is more current and specific than the generic About page that still says 2026 tickets are coming soon. The guide does not claim a different event ticket admits to all concerts.",
+      "excerpt": "Princes Street, Edinburgh",
+      "location": "Stage descriptions, dated event fields and ticket reminder."
+    }
+  ],
+  "notes": "Actual date-specific event body read. No sale availability, ticket price or a guaranteed arrival slot inferred from headline listings. A separate Gardens concert is not included by assumption.",
+  "readMethod": "Actual captured body read in the cloud; complete responseSHA rechecked. No search snippet counted as access."
+}

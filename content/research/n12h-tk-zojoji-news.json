@@ -1,0 +1,31 @@
+{
+  "url": "https://www.zojoji.or.jp/news/1415.html",
+  "finalUrl": "https://www.zojoji.or.jp/news/1415.html",
+  "fetchedAt": "2026-11-12T21:36:16.971Z",
+  "httpStatus": 200,
+  "contentSha256": "fc72f89efc90f41e645e3d3db79ccf854999dd790866004e2924fb02d7827f56",
+  "textSha256": "b7e838102823ef6dfc90994dbfd381023befd9614af4765a0c41a74b646d30f9",
+  "facts": [
+    {
+      "claim": "The dated notice is November 1, 2026.",
+      "evidenceExcerpt": "2026.11.01",
+      "confidence": "checked-against-source",
+      "timeSensitive": true
+    },
+    {
+      "claim": "From the 2026 year-end event, the revised ceremony is at 21:30, ringing begins at 21:45 December 31, and is expected to end around 23:00. The 23:45/midnight block is explicitly the BEFORE schedule, not the new one.",
+      "evidenceExcerpt": "【変更後】 除夜の鐘法要：12月31日（大晦日）21:30～ 撞き始め：12月31日（大晦日）21:45～（23:00頃 終了予定）",
+      "confidence": "checked-against-source",
+      "timeSensitive": true
+    },
+    {
+      "claim": "The public ticket allocation is scheduled from December 1 at 09:00 at the second-floor temple office, subject to the separate detailed conditions.",
+      "evidenceExcerpt": "鐘撞券（一般頒布分） 12月1日 9:00より会館2階寺務所にて頒布予定です。",
+      "confidence": "checked-against-source",
+      "timeSensitive": true
+    }
+  ],
+  "rawArchive": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/authors/tokyo-seoul/tokyo-new-year-2027/raw/n12h-tk-zojoji-news.html",
+  "textArchive": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/authors/tokyo-seoul/tokyo-new-year-2027/raw/n12h-tk-zojoji-news.txt",
+  "notes": "Actual successful HTTPS response saved and read. Facts selected conservatively. Dates and exceptional arrangements distinguish the announced 2026–2027 edition from annual context and older seasonal pages. No search-volume or first-person-experience claims."
+}

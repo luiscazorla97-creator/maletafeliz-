@@ -1,0 +1,121 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_de_l%27%C3%89toile_at_night_vertical_fix.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_de_l%27%C3%89toile_at_night_vertical_fix.jpg",
+  "fetchedAt": "2026-11-12T16:29:41.806Z",
+  "httpStatus": 200,
+  "contentSha256": "61a7de59a159bb0824452c9280fffd5f0688b10c1a21bf03161c13a79e091937",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The exact individual file page and selected licence deed were actually read. Named creator, supplied title and licence match the reuse metadata. This is a documentary archive photograph dated 2024-01-26, not evidence of a 2026/27 event, current opening or access layout.",
+      "excerpt": "CC0",
+      "location": "Specific Commons file Information/Licensing blocks and supplied Date; original capture and actual response hash retained."
+    },
+    {
+      "fact": "Previously published served bytes are reused without editing or regeneration. All existing responsive variants were locally decoded and SHA-256/dimensions checked against the unchanged original manifest entry. Attribution, source, licence, previous edits and sharing conditions are retained.",
+      "excerpt": "",
+      "location": "Original manifest entry and local byte ledger, private Europe reuse review."
+    }
+  ],
+  "licenseDeedCapture": {
+    "id": "cc-zero",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "finalUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:29:45.427Z",
+    "contentType": "text/html",
+    "contentSha256": "abb4d48fc8b85de52b377dd105532c6c549f515d492a8e1712bc99e7316a1f12",
+    "bytes": 30248,
+    "retryAfter": null,
+    "bodyFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/europe/raw/cc-zero.body",
+    "actuallyRead": true,
+    "rehashVerified": true
+  },
+  "reuseOf": "place-paris-arc-triomphe",
+  "originalManifestSnapshot": {
+    "id": "place-paris-arc-triomphe",
+    "src": "/images/place-paris-arc-triomphe.webp",
+    "alt": {
+      "es": "Arco del Triunfo",
+      "en": "Arc de Triomphe"
+    },
+    "credit": "Wilfredor / Wikimedia Commons · archivo / archive · resized and converted to WebP by MaletaFeliz",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_de_l%27%C3%89toile_at_night_vertical_fix.jpg",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "verifiedAt": "2026-10-30T01:47:16.176Z",
+    "destinationIds": [
+      "paris"
+    ],
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Arc_de_Triomphe_de_l%27%C3%89toile_at_night_vertical_fix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "modifications": "Resized and converted to WebP; same license retained.",
+    "width": 1280,
+    "height": 918,
+    "sha256": "b931fc6d715cc7777858e7e0ad68b2b5c35e1987b21fedfbe09434600511b978",
+    "variants": [
+      {
+        "src": "/images/place-paris-arc-triomphe-480w.webp",
+        "width": 480,
+        "height": 344,
+        "sha256": "1f19041ae0eab940cbb56e497129ba7b446502efb9b97a1d6751fe4355adacb8"
+      },
+      {
+        "src": "/images/place-paris-arc-triomphe-800w.webp",
+        "width": 800,
+        "height": 574,
+        "sha256": "4e89464dab6be1137840e0af8c4f1a3ec398116e6b849b1f5116c3514d3849ed"
+      },
+      {
+        "src": "/images/place-paris-arc-triomphe-1200w.webp",
+        "width": 1200,
+        "height": 861,
+        "sha256": "6f979bf5795be1d6422588a8e03383a0bbe8d4e9c392ee00e4605af90f69f18e"
+      },
+      {
+        "src": "/images/place-paris-arc-triomphe.webp",
+        "width": 1280,
+        "height": 918,
+        "sha256": "b931fc6d715cc7777858e7e0ad68b2b5c35e1987b21fedfbe09434600511b978"
+      }
+    ]
+  },
+  "variantsChecked": [
+    {
+      "src": "/images/place-paris-arc-triomphe-480w.webp",
+      "width": 480,
+      "height": 344,
+      "sha256": "1f19041ae0eab940cbb56e497129ba7b446502efb9b97a1d6751fe4355adacb8",
+      "path": "/workspace/maletafeliz-/public/images/place-paris-arc-triomphe-480w.webp",
+      "bytes": 24926,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/place-paris-arc-triomphe-800w.webp",
+      "width": 800,
+      "height": 574,
+      "sha256": "4e89464dab6be1137840e0af8c4f1a3ec398116e6b849b1f5116c3514d3849ed",
+      "path": "/workspace/maletafeliz-/public/images/place-paris-arc-triomphe-800w.webp",
+      "bytes": 63760,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/place-paris-arc-triomphe-1200w.webp",
+      "width": 1200,
+      "height": 861,
+      "sha256": "6f979bf5795be1d6422588a8e03383a0bbe8d4e9c392ee00e4605af90f69f18e",
+      "path": "/workspace/maletafeliz-/public/images/place-paris-arc-triomphe-1200w.webp",
+      "bytes": 129814,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/place-paris-arc-triomphe.webp",
+      "width": 1280,
+      "height": 918,
+      "sha256": "b931fc6d715cc7777858e7e0ad68b2b5c35e1987b21fedfbe09434600511b978",
+      "path": "/workspace/maletafeliz-/public/images/place-paris-arc-triomphe.webp",
+      "bytes": 199714,
+      "hashAndDimensionsVerified": true
+    }
+  ],
+  "notes": "Append-only alias for a new topic; original article, original image record, assets and dates are untouched. No commercial endorsement or event photograph is implied. Changes to metadata only add archive disclosure and fuller title/attribution."
+}

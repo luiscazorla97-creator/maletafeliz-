@@ -1,0 +1,197 @@
+{
+  "id": "vienna-new-year-2027",
+  "destinationId": "vienna",
+  "intent": "vienna-new-year-2026-2027-trail-bookings-holiday-visits",
+  "status": "published",
+  "coverImageId": "n12-nye-vienna-rathaus",
+  "sources": [
+    {
+      "id": "n12-ny-vienna-event",
+      "url": "https://www.wien.info/en/now-on/christmas/new-years-eve-354224",
+      "title": "New Year’s Eve in Vienna — Vienna Tourist Board",
+      "accessedAt": "2026-11-12T16:25:35.436Z",
+      "evidenceFile": "content/research/n12-ny-vienna-event.json"
+    },
+    {
+      "id": "n12-ny-vienna-organiser",
+      "url": "https://wienersilvesterpfad.at/",
+      "title": "Wiener Silvesterpfad — organiser",
+      "accessedAt": "2026-11-12T16:31:03.187Z",
+      "evidenceFile": "content/research/n12-ny-vienna-organiser.json"
+    },
+    {
+      "id": "n12-ny-vienna-schonbrunn",
+      "url": "https://www.schoenbrunn.at/en/visitor-information/opening-times",
+      "title": "Opening Times — Schönbrunn Palace",
+      "accessedAt": "2026-11-12T16:29:33.060Z",
+      "evidenceFile": "content/research/n12-ny-vienna-schonbrunn.json"
+    },
+    {
+      "id": "n12-ny-vienna-belvedere",
+      "url": "https://www.belvedere.at/en/visit/upper-belvedere",
+      "title": "Upper Belvedere — Belvedere Museum",
+      "accessedAt": "2026-11-12T16:29:35.398Z",
+      "evidenceFile": "content/research/n12-ny-vienna-belvedere.json"
+    },
+    {
+      "id": "n12-ny-vienna-belvedere-booking",
+      "url": "https://www.belvedere.at/en/faq",
+      "title": "FAQ — Belvedere Museum",
+      "accessedAt": "2026-11-12T16:36:00.574Z",
+      "evidenceFile": "content/research/n12-ny-vienna-belvedere-booking.json"
+    },
+    {
+      "id": "n12-ny-vienna-transit",
+      "url": "https://www.wienerlinien.at/",
+      "title": "Wiener Linien — route planning and service information",
+      "accessedAt": "2026-11-12T16:35:58.098Z",
+      "evidenceFile": "content/research/n12-ny-vienna-transit.json"
+    }
+  ],
+  "relatedIds": [
+    "vienna",
+    "christmas-vienna",
+    "prague"
+  ],
+  "locale": "es",
+  "slug": "ano-nuevo-viena-2027",
+  "title": "Año Nuevo en Viena 2027: Silvesterpfad, entradas y visitas",
+  "description": "Organizá Año Nuevo en Viena 2027: Silvesterpfad gratuito el 31 de diciembre de 2026, Rathausplatz, reservas y visitas durante el feriado.",
+  "keyword": "Año Nuevo en Viena 2027",
+  "relatedQueries": [
+    "Silvesterpfad 2026 horarios",
+    "Viena 31 de diciembre de 2026",
+    "qué hacer el 1 de enero en Viena"
+  ],
+  "intro": [
+    "Para recibir 2027 en Viena, el recorrido público anunciado es el Silvesterpfad, el recorrido festivo que la oficina de turismo anuncia para el 31 de diciembre de 2026, de 14:00 a 02:00, con acceso gratuito en ocho espacios. Rathausplatz es uno de ellos. La propuesta de esta guía combina esa noche con dos visitas que requieren decisiones distintas: el Belvedere Superior y Schönbrunn. El objetivo es organizar el cambio de año, sin tratar los palacios como lugares para esperar la medianoche.",
+    "La información fue revisada el 12 de noviembre de 2026. Están publicados el calendario del recorrido y una retransmisión pública del Concierto de Año Nuevo del 1 de enero de 2027. Los horarios precisos de transporte, posibles cierres de estaciones y las franjas disponibles para cada entrada deben comprobarse de nuevo antes del viaje. Las fotografías son de archivo: la de Rathausplatz muestra un mercado navideño de 2005, no el montaje del Silvesterpfad de 2026."
+  ],
+  "quickFacts": [
+    {
+      "label": "Noche principal",
+      "value": "31 de diciembre de 2026; Silvesterpfad anunciado de 14:00 a 02:00"
+    },
+    {
+      "label": "Entrada exterior",
+      "value": "Gratuita; no incluye una gala, cena ni asiento reservado"
+    },
+    {
+      "label": "1 de enero",
+      "value": "Retransmisión pública anunciada del concierto a las 11:15"
+    },
+    {
+      "label": "Reservas",
+      "value": "Elegir fecha y modalidad de palacio/museo por separado"
+    }
+  ],
+  "sections": [
+    {
+      "id": "rathausplatz",
+      "kind": "place",
+      "heading": "Rathausplatz: una parada concreta dentro del Silvesterpfad",
+      "paragraphs": [
+        "La plaza del Ayuntamiento figura en los ocho espacios del recorrido anunciado. Sirve para elegir una zona de la celebración en vez de intentar visitar todos los escenarios. El organizador describe música de estilos variados y actividades relacionadas con el vals. Antes de fijar tu noche, mirá el programa actualizado del espacio que te interese y pensá si preferís llegar durante la tarde o permanecer hasta el cambio de año. Un evento distribuido permite seleccionar una parte, sin convertir la celebración en una caminata obligatoria por todo el centro.",
+        "El acceso gratuito al recorrido exterior no reserva una mesa ni da entrada a una gala en el Ayuntamiento. Si comparás una cena o fiesta de pago con el Silvesterpfad, revisá exactamente qué compra cada producto. La imagen de esta sección documenta la plaza durante un antiguo mercado de Navidad; no permite deducir dónde estarán los escenarios o los accesos en 2026. Organizá el punto de encuentro según el plano y las instrucciones actuales, conservando una alternativa para reunirte con tu grupo si se separa."
+      ],
+      "sourceIds": [
+        "n12-ny-vienna-event",
+        "n12-ny-vienna-organiser"
+      ],
+      "imageId": "n12-nye-vienna-rathaus"
+    },
+    {
+      "id": "belvedere",
+      "kind": "place",
+      "heading": "Belvedere Superior: una visita con hora que no compita con la noche",
+      "paragraphs": [
+        "El Belvedere Superior funciona como contrapunto cultural a la celebración callejera. La decisión importante es reservar el edificio correcto: el complejo tiene varias sedes y una combinación de entradas puede exigir organizar más de un acceso. La FAQ del museo explica que la entrada ordinaria al Belvedere Superior utiliza una franja horaria, mientras que esa franja no limita por sí misma cuánto dura la visita. Elegí un horario que te permita apreciar las salas y regresar sin apuros antes del compromiso de la noche.",
+        "La página de la sede muestra un horario regular de 09:00 a 18:00; una ampliación estival de 2026 no debe copiarse como horario especial de Año Nuevo. Comprobá la fecha concreta en el calendario de venta y la información vigente. Si comprás un combinado, el museo asigna la franja al Belvedere Superior y sitúa las otras visitas en el mismo día, antes o después. Eso puede cargar demasiado el 31 de diciembre: para esta escapada, una sola sede bien elegida suele encajar mejor que acumular entradas que después no disfrutás."
+      ],
+      "sourceIds": [
+        "n12-ny-vienna-belvedere",
+        "n12-ny-vienna-belvedere-booking"
+      ],
+      "imageId": "n12-nye-vienna-belvedere"
+    },
+    {
+      "id": "schonbrunn",
+      "kind": "place",
+      "heading": "Schönbrunn: una alternativa comprobada para el día festivo",
+      "paragraphs": [
+        "Schönbrunn permite planear una actividad con un calendario que sí menciona esta temporada. El operador declara apertura diaria, incluidos los feriados, y publica una ampliación del 25 de diciembre de 2026 al 6 de enero de 2027, de 08:30 a 17:30. La última admisión se produce 45 minutos antes del cierre. Esa información da una base para considerar el palacio el 1 de enero, aunque la disponibilidad de la entrada elegida debe verificarse al reservar y no nace de que el edificio abra.",
+        "Separá el palacio del parque y de los sectores especiales del jardín. Las fuentes no funcionan desde mediados de octubre hasta mediados de abril y varias atracciones exteriores tienen calendarios estacionales. No proyectes sobre el invierno una fotografía de verano ni cuentes con recorrer todos los jardines de pago. Si la noche anterior termina tarde, elegí una franja razonable y dejá un margen para el traslado. Una visita interior con un paseo exterior breve, si las condiciones acompañan, evita empezar el año persiguiendo demasiadas actividades."
+      ],
+      "sourceIds": [
+        "n12-ny-vienna-schonbrunn"
+      ],
+      "imageId": "n12-nye-vienna-schonbrunn"
+    },
+    {
+      "id": "programa",
+      "kind": "practical",
+      "heading": "Qué está anunciado para el 31 de diciembre y el 1 de enero",
+      "paragraphs": [
+        "El calendario turístico fecha el Silvesterpfad para el 31 de diciembre de 2026 y presenta el vals y el sonido de la Pummerin, la campana de San Esteban, como parte del cambio de año. La página del organizador confirma la distribución entre distintos espacios, pero su texto general no debe convertirse en una lista de artistas u horarios de escenarios que no estén fechados para esta edición. Para elegir tu zona, usá la programación final; para decidir el viaje, ya existe una fecha oficial concreta.",
+        "Para el 1 de enero de 2027, la oficina de turismo anuncia la retransmisión del concierto desde el Musikverein a las 11:15 en Stephansplatz y Riesenradplatz. Ver una pantalla pública es distinto de tener una localidad dentro de la sala. Si esa mañana te interesa la música, no reserves al mismo tiempo una entrada en otro punto de Viena. También podés seguir la retransmisión donde hayas confirmado que la ofrecen y mover el palacio a otro día. Elegir una prioridad permite disfrutar del feriado con un ritmo más realista."
+      ],
+      "sourceIds": [
+        "n12-ny-vienna-event",
+        "n12-ny-vienna-organiser"
+      ]
+    },
+    {
+      "id": "reservas",
+      "kind": "practical",
+      "heading": "Qué conviene reservar y qué no incluye una entrada gratuita",
+      "paragraphs": [
+        "Empezá por alojamiento y por el compromiso que realmente condiciona tu noche: una cena con horario, una función o una visita con admisión asignada. Compará las condiciones finales del producto, su ubicación y el regreso; no hace falta añadir una gala para participar del recorrido público. En el museo, guardá el billete y la fecha de entrada de forma accesible. La FAQ del Belvedere advierte que incluso con franja puede existir cierta espera, de modo que no coloques otra reserva importante inmediatamente después.",
+        "Para una escapada corta, reservá un bloque cultural principal por día. El 31 puede ser Belvedere y celebración; el 1, concierto o Schönbrunn, según la prioridad. No son tres actividades que debas completar obligatoriamente entre el desayuno y el almuerzo del feriado. Si viajás con personas que necesitan accesos adaptados, comprobá la entrada y el recorrido concreto con cada institución. La admisión general a un edificio y la asistencia disponible durante un evento multitudinario requieren consultas diferentes."
+      ],
+      "sourceIds": [
+        "n12-ny-vienna-belvedere-booking",
+        "n12-ny-vienna-schonbrunn",
+        "n12-ny-vienna-event"
+      ]
+    },
+    {
+      "id": "transporte",
+      "kind": "practical",
+      "heading": "Regreso después de medianoche y desplazamientos del día 1",
+      "paragraphs": [
+        "Wiener Linien ofrece un planificador, información de operación y herramientas de WienMobil para rutas y billetes. Usalos con la fecha y el horario reales de la salida; en las fuentes verificadas para esta guía no se confirmó un plan especial completo del 31 de diciembre de 2026. Por eso no se repiten intervalos, gratuidades o cierres de estaciones de años anteriores. Prepará la vuelta desde el espacio del Silvesterpfad elegido y una alternativa si el acceso a una parada cambia por gestión de público.",
+        "Para el 1 de enero, calculá el traslado según la hora de admisión que hayas reservado y consultá los avisos vigentes antes de salir. Llegar al entorno de un palacio no equivale a estar ya en la puerta de las salas. Si llevás equipaje por una llegada o salida ese mismo día, resolvé su guarda antes de la visita: la FAQ del Belvedere indica que no admite almacenamiento de equipaje. Una conexión ferroviaria o aérea cercana al mediodía puede resultar incompatible con la retransmisión o con una visita que empiece tarde."
+      ],
+      "sourceIds": [
+        "n12-ny-vienna-transit",
+        "n12-ny-vienna-belvedere-booking"
+      ]
+    }
+  ],
+  "itinerary": [
+    "30 de diciembre o día de llegada: resolvé la llegada al alojamiento y comprobá el programa de la zona elegida del Silvesterpfad. Si tenés una tarde disponible, dedicá el bloque al Belvedere solo cuando la fecha y la franja estén confirmadas. Conservá el resto para una comida y para orientarte, sin depender de improvisar una entrada justo antes de cerrar.",
+    "31 de diciembre: una visita diurna seleccionada, pausa y preparación para el recorrido público. Rathausplatz puede ser tu zona de celebración, sin obligación de completar las ocho. Elegí un punto de reunión y revisá cómo volver antes de salir. La oficina de turismo recuerda que los cohetes y petardos de categoría F2 están prohibidos en Viena; el vals y la música no requieren llevar pirotecnia propia.",
+    "1 de enero: elegí entre la retransmisión anunciada a las 11:15 y una visita a Schönbrunn con franja disponible, o repartilas en días distintos. Revisá el transporte y los avisos del operador. Para ampliar la estancia, la guía general de Viena y la de su Navidad enlazadas abajo aportan otros contextos, sin sustituir los horarios específicos de esta edición."
+  ],
+  "faq": [
+    {
+      "question": "¿El Silvesterpfad de Viena 2026 tiene entrada gratuita?",
+      "answer": "La oficina de turismo anuncia acceso gratuito al recorrido del 31 de diciembre de 2026. Eso no incluye una cena, gala interior, asiento reservado ni las entradas a museos o palacios que puedas añadir durante el viaje."
+    },
+    {
+      "question": "¿Puedo visitar Schönbrunn el 1 de enero de 2027?",
+      "answer": "El operador publica apertura en feriados y una ampliación de 08:30 a 17:30 entre el 25 de diciembre de 2026 y el 6 de enero de 2027. Comprobá disponibilidad y modalidad de billete; la última admisión es 45 minutos antes del cierre."
+    },
+    {
+      "question": "¿La retransmisión pública da acceso al Concierto de Año Nuevo?",
+      "answer": "No. La retransmisión anunciada para el 1 de enero de 2027 permite seguir el concierto en espacios públicos; una localidad dentro del Musikverein corresponde a otro acceso y no se obtiene por asistir al Silvesterpfad."
+    },
+    {
+      "question": "¿Está confirmado el transporte de toda la noche para 2026–2027?",
+      "answer": "Esta guía no verificó un plan especial completo para esa noche. Consultá Wiener Linien y WienMobil con la fecha del viaje y los avisos finales. No uses como garantía una frecuencia o un cierre de estación publicado para otra edición."
+    }
+  ],
+  "conclusion": "La clave del Año Nuevo vienés es combinar una celebración pública bien elegida con reservas culturales que dejen margen. Rathausplatz aporta una zona concreta del Silvesterpfad; Belvedere y Schönbrunn permiten construir el resto de la escapada. Con fechas comprobadas, transporte revisado y una prioridad para el día 1, el viaje gana claridad sin necesidad de comprar todas las actividades posibles.",
+  "publishedAt": "2026-11-12T21:57:37.035Z",
+  "updatedAt": "2026-11-12T21:57:37.035Z"
+}

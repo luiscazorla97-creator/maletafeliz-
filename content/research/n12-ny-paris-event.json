@@ -1,0 +1,23 @@
+{
+  "url": "https://parisjetaime.com/eng/event/31-december-champs-elysees-e081",
+  "finalUrl": "https://parisjetaime.com/eng/event/31-december-champs-elysees-e081",
+  "fetchedAt": "2026-11-12T16:25:37.188Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "476638cb57186d3d09442a0dc4cc9d3226000cc1e04f694190f76f4725de09dc",
+  "bytes": 438273,
+  "facts": [
+    {
+      "fact": "The official tourism event page explicitly dates a free public evening on Champs-Élysées to 31 December 2026, with public access announced from 7 pm, crowd/security checks and designated entrances. It locates the event on the avenue between Arc de Triomphe and Concorde.",
+      "excerpt": "31 December 2026",
+      "location": "Event header, main description and public-access block."
+    },
+    {
+      "fact": "The page discourages pushchairs and lists prohibited items such as glass and alcohol. It also lists detailed transport claims, but the RATP primary page still defers its new 2026 programme; those unconfirmed transport details are not repeated as settled facts.",
+      "excerpt": "Prohibited items",
+      "location": "Practical advice and transport sections, cross-checked against captured RATP page."
+    }
+  ],
+  "notes": "Fresh catalog capture actually read and rehashed. Event announcement attributed to tourism authority; no guaranteed sightline, crowd access or public-transport free-service promise.",
+  "readMethod": "Actual captured body read in the cloud; complete responseSHA rechecked. No search snippet counted as access."
+}

@@ -2,7 +2,7 @@
   "id": "2026-11-12-manual-holidays-fifteen",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-12T21:42:37.301Z",
-  "status": "reserved-not-generated",
+  "status": "reviewed-for-release",
   "topicIds": [
     "vienna-new-year-2027",
     "paris-new-year-2027",
@@ -77,7 +77,7 @@
     "baseCommit": "c0cbf667bab14d2062186e72aa4f3196526642b6",
     "coordinator": "Codex root in configured cloud checkout",
     "status": "in-progress",
-    "heartbeatAt": "2026-11-12T21:42:37.302Z",
+    "heartbeatAt": "2026-11-12T21:57:37.035Z",
     "leaseUntil": "2026-11-13T03:37:58.238688+00:00",
     "coordination": "One root repository writer; author/review agents only write private staging. All fifteen belong to this single current manual order."
   },
@@ -98,5 +98,16 @@
       "editorial/verification/2026-11-12-publication.json",
       "editorial/verification/2026-11-12-manual-new-year-five-publication.json"
     ]
-  }
+  },
+  "reviewedAt": "2026-11-12T21:57:37.035Z",
+  "originalsPrepared": 15,
+  "localizedVersionsPrepared": 30,
+  "documentaryPhotoCount": 44,
+  "photos": 44,
+  "newPhotoMetadataRecords": 42,
+  "optimizedPhotoFiles": 203,
+  "newOptimizedFiles": 120,
+  "reusedOptimizedFiles": 83,
+  "providedOriginals": 34,
+  "sourceDocuments": 80
 }

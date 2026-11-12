@@ -1,0 +1,184 @@
+{
+  "id": "christmas-vancouver",
+  "destinationId": "vancouver",
+  "intent": "christmas-vancouver-three-places-booking-and-calendar",
+  "status": "published",
+  "coverImageId": "h15-van-vandusen",
+  "sources": [
+    {
+      "id": "h15-van-vandusen",
+      "url": "https://vancouver.ca/parks-recreation-culture/festival-of-lights.aspx",
+      "title": "City of Vancouver: VanDusen Festival of Lights 2026–2027",
+      "accessedAt": "2026-11-12T21:34:25.400Z",
+      "evidenceFile": "content/research/h15-van-vandusen.json"
+    },
+    {
+      "id": "h15-van-capilano",
+      "url": "https://www.capbridge.com/events/canyon-lights/",
+      "title": "Capilano Suspension Bridge Park: Canyon Lights 2026–2027",
+      "accessedAt": "2026-11-12T21:34:26.429Z",
+      "evidenceFile": "content/research/h15-van-capilano.json"
+    },
+    {
+      "id": "h15-van-granville",
+      "url": "https://granvilleisland.com/public-market",
+      "title": "Granville Island: Public Market and holiday closures",
+      "accessedAt": "2026-11-12T21:34:25.954Z",
+      "evidenceFile": "content/research/h15-van-granville.json"
+    }
+  ],
+  "relatedIds": [
+    "vancouver"
+  ],
+  "festivity": "christmas",
+  "festive_image_enhancement": false,
+  "locale": "es",
+  "slug": "navidad-vancouver-2026",
+  "title": "Navidad en Vancouver 2026: luces, entradas y tres lugares",
+  "description": "Navidad en Vancouver 2026 con fechas confirmadas de VanDusen y Canyon Lights, paseo por Granville Island, reservas, transporte y cierres del 25 de diciembre.",
+  "keyword": "Navidad en Vancouver 2026",
+  "relatedQueries": [
+    "luces de Navidad Vancouver 2026",
+    "VanDusen Festival of Lights entradas",
+    "Canyon Lights Capilano Navidad fechas"
+  ],
+  "intro": [
+    "Para disfrutar la Navidad en Vancouver 2026, combiná una noche de luces en VanDusen Botanical Garden, otra en Canyon Lights de Capilano y un paseo diurno por Granville Island Public Market. Las dos instalaciones luminosas tienen fechas de esta temporada publicadas por sus organizadores; el mercado aporta comida y regalos artesanales sin depender de un evento navideño adicional. La advertencia más importante es de calendario: los tres lugares seleccionados cierran el 25 de diciembre, y el Public Market también cierra el 26 y el 1 de enero.",
+    "Este recorrido funciona mejor con dos noches disponibles y una mañana libre que tratando de unir todos los lugares después de cenar. VanDusen está en Vancouver; Capilano está en North Vancouver, con un traslado propio; y el mercado conviene durante su actividad diurna. No hace falta contratar todo para encontrar ambiente festivo: elegí uno de los espectáculos si el presupuesto es limitado y guardá espacio para el paseo gastronómico. Las fotos de archivo muestran los lugares reales; no documentan el montaje luminoso anunciado para 2026."
+  ],
+  "quickFacts": [
+    {
+      "label": "VanDusen Festival of Lights",
+      "value": "27 de noviembre de 2026 al 3 de enero de 2027; cerrado el 25 de diciembre"
+    },
+    {
+      "label": "Canyon Lights",
+      "value": "20 de noviembre de 2026 al 10 de enero de 2027; cerrado el 25 de diciembre"
+    },
+    {
+      "label": "Public Market",
+      "value": "Horario habitual 9:00–18:00; cerrado 25/26 de diciembre y 1 de enero"
+    },
+    {
+      "label": "Entradas de luces",
+      "value": "Reservar fecha y hora en los sitios oficiales"
+    },
+    {
+      "label": "Ritmo recomendado",
+      "value": "Una instalación de luces por noche y mercado durante el día"
+    }
+  ],
+  "sections": [
+    {
+      "id": "vandusen",
+      "kind": "place",
+      "heading": "1. VanDusen Festival of Lights: un jardín para recorrer después de anochecer",
+      "imageId": "h15-van-vandusen",
+      "sourceIds": [
+        "h15-van-vandusen"
+      ],
+      "paragraphs": [
+        "VanDusen ofrece la experiencia de caminar por un jardín transformado por la iluminación, en lugar de quedarse frente a un único árbol. El Ayuntamiento confirma Festival of Lights del 27 de noviembre de 2026 al 3 de enero de 2027, excepto el 25 de diciembre. El horario publicado es de 16:00 a 22:00, con última entrada a las 21:00. La selección de hora importa: la propia página municipal advierte que, tras el cambio de Columbia Británica a la hora del Pacífico permanente, el atardecer llega aproximadamente una hora más tarde que en temporadas anteriores. Si buscás el efecto nocturno, comprobá la hora local de tu fecha antes de elegir la primera franja.",
+        "Las entradas se compran por adelantado en línea para una franja concreta, y el acceso debe escanearse dentro de la media hora asignada. La venta es no reembolsable, aunque se permiten cambios hasta 12 horas antes del inicio del turno según la política publicada. No se admite reingreso: resolvé baños, abrigo y lo necesario para el grupo antes de salir del recinto. Hay una noche sensorialmente adaptada el martes 1 de diciembre, con ajustes de aforo, sonido e iluminación; buscala en la opción de eventos especiales si esas condiciones mejoran tu experiencia. Que una fecha aparezca dentro de la temporada no garantiza que aún tenga plazas."
+      ]
+    },
+    {
+      "id": "capilano",
+      "kind": "place",
+      "heading": "2. Canyon Lights en Capilano: reservar una noche para el bosque",
+      "imageId": "h15-van-capilano",
+      "sourceIds": [
+        "h15-van-capilano"
+      ],
+      "paragraphs": [
+        "Canyon Lights cambia el entorno de jardín por pasarelas, árboles y el puente de Capilano iluminado sobre el cañón. El parque publica la edición del 20 de noviembre de 2026 al 10 de enero de 2027, cerrando el 25 de diciembre. Anuncia horario de 11:00 a 22:00 y última entrada a las 21:00. Para este plan interesa el tramo oscuro del día; no confundas la apertura diurna del parque con la misma experiencia visual de una visita nocturna. La programación anunciada incluye iluminación en el puente y propuestas de luz en el bosque, pero el recorrido efectivo puede depender de las condiciones de operación.",
+        "La actividad está incluida en la entrada al parque o el pase anual correspondiente; no se trata de un espectáculo independiente que se compra necesariamente por separado. Aun así, los titulares de BC Annual Pass deben reservar en línea para las franjas de mayor demanda, con cupos limitados por hora. El parque está en 3735 Capilano Road, North Vancouver. Separá el traslado y el regreso de tus otras reservas. El operador recomienda entrada anticipada y consultar su shuttle gratuito desde downtown; revisá el horario de tu fecha antes de depender de él. Si las alturas, las escaleras o la movilidad condicionan tu visita, pedí al parque el detalle de las áreas que podés recorrer antes de pagar."
+      ]
+    },
+    {
+      "id": "granville",
+      "kind": "place",
+      "heading": "3. Granville Island Public Market: una mañana de comida y regalos",
+      "imageId": "h15-van-publicmarket",
+      "sourceIds": [
+        "h15-van-granville"
+      ],
+      "paragraphs": [
+        "Granville Island equilibra las noches de luces con una visita centrada en comida y productos artesanales. El Public Market es un mercado cubierto con puestos de alimentos y artesanos; organizá el paseo alrededor de lo que quieras probar o llevar de regalo, en lugar de llegar con una lista de platos que todos los vendedores deban ofrecer. Podés comparar productos, hacer una pausa para comer y mirar la actividad de la isla durante el día. La fotografía de archivo de 2019 muestra el edificio del Public Market con su cartel identificable, sin presentar el lugar como un mercado navideño temporal ni documentar una decoración de 2026.",
+        "El horario habitual publicado del Public Market es de 9:00 a 18:00. Cierra el 25 y el 26 de diciembre y el 1 de enero; además, anuncia cierres de mantenimiento los lunes de enero. Esa información es especialmente útil para quienes llegan en Navidad y esperan comprar allí el desayuno del día siguiente. Los restaurantes, teatros, estudios y otros negocios de la isla tienen horarios propios, que deben comprobarse en el directorio o con cada establecimiento. No traslades el cierre del mercado a todos los negocios, ni la apertura de un restaurante al mercado entero. Para esta ruta, reservá Granville Island para una fecha en la que el mercado confirme apertura."
+      ]
+    },
+    {
+      "id": "calendario",
+      "kind": "practical",
+      "heading": "Qué días elegir y cómo evitar las tres visitas cerradas",
+      "sourceIds": [
+        "h15-van-vandusen",
+        "h15-van-capilano",
+        "h15-van-granville"
+      ],
+      "paragraphs": [
+        "La coincidencia de los dos festivales va del 27 de noviembre al 3 de enero, descontando el 25 de diciembre. Dentro de ese período, elegí primero las noches con entradas disponibles y después encajá el mercado en un día abierto. El 24 y el 27 de diciembre pueden servir como referencias de organización, sin prometer disponibilidad: una mañana de mercado y una noche de luces cada día. Si tu viaje empieza el 26, podés consultar las instalaciones luminosas para esa noche, pero mové el Public Market a partir del 27. El 1 de enero vuelve a estar cerrado el mercado aunque ambas temporadas de luces continúen.",
+        "Para una escapada alrededor del 25, no construyas el día principal sobre estas tres opciones: los organizadores publican cierre. Reservá alojamiento y comidas con información específica para esa fecha, y evitá comprar una entrada de otro día pensando usarla indistintamente en Navidad. Si viajás después del 3 de enero, VanDusen habrá terminado su edición anunciada; Capilano continúa hasta el 10, salvo cambios operativos. Esas ventanas distintas permiten elegir el evento compatible con tu viaje, sin presentar toda la temporada como un único calendario idéntico para ambos parques."
+      ]
+    },
+    {
+      "id": "transporte",
+      "kind": "practical",
+      "heading": "Traslados y entradas: una noche en cada parque",
+      "sourceIds": [
+        "h15-van-vandusen",
+        "h15-van-capilano",
+        "h15-van-granville"
+      ],
+      "paragraphs": [
+        "VanDusen indica acceso mediante la línea de autobús 17 Oak y una caminata aproximada de 15 minutos desde la estación Oakridge de Canada Line. El Ayuntamiento advierte que el estacionamiento es limitado y recomienda alternativas al automóvil. Elegí el medio de llegada antes de reservar la franja: la media hora para escanear la entrada no es un tiempo adicional para buscar estacionamiento. Comprobá el servicio de transporte de la fecha, especialmente en feriados, y calculá tu margen desde el alojamiento real, no desde un punto genérico del centro.",
+        "Capilano requiere su propio plan hacia North Vancouver. Consultá el enlace de transporte del parque para conocer salidas y regreso del shuttle en tu día; que sea gratuito no demuestra que haya un servicio continuo a cualquier hora. No proponemos enlazar las dos instalaciones en una misma noche con horarios ajustados: los traslados restan tiempo al paseo y ambos lugares merecen recorrido. Granville Island funciona mejor como bloque diurno separado. Compará el lugar de tu comida con el comienzo de la visita nocturna y dejá una pausa en el alojamiento si necesitás cambiar ropa mojada o descansar con chicos."
+      ]
+    },
+    {
+      "id": "lluvia",
+      "kind": "practical",
+      "heading": "Lluvia, accesibilidad y presupuesto para disfrutar sin apuro",
+      "sourceIds": [
+        "h15-van-vandusen",
+        "h15-van-capilano",
+        "h15-van-granville"
+      ],
+      "paragraphs": [
+        "Las luces se recorren al aire libre. Para VanDusen, el Ayuntamiento señala funcionamiento con lluvia y la posibilidad de cierre por nieve intensa, viento u otras circunstancias extraordinarias. Llevá una capa exterior impermeable, calzado cómodo y abrigo que puedas regular durante el paseo. Consultá el aviso operativo antes de salir si el pronóstico es adverso. No tomes una foto de suelo seco ni una noche despejada de una temporada anterior como garantía del estado del recorrido. Una entrada comprada tampoco asegura que las condiciones permitan exactamente el mismo itinerario del material promocional.",
+        "VanDusen admite cochecitos y sillas de ruedas, y publica una noche sensorialmente adaptada; confirmá el recorrido apropiado según tus necesidades. Capilano tiene una geografía y unas pasarelas diferentes: no extrapoles esa accesibilidad de un lugar al otro. Para controlar gastos, compará el total final de cada reserva, traslados y comida, sin suponer que todas las bebidas o actividades complementarias estén incluidas. Si solo elegís un parque, priorizá el tipo de recorrido que te entusiasme y sea accesible para tu grupo. El mercado puede completar el viaje con compras voluntarias; no hace falta llenar cada día con otra entrada pagada."
+      ]
+    }
+  ],
+  "itinerary": [
+    "Primer día, con mercado abierto: dedicá la mañana o el almuerzo al Public Market de Granville Island. Revisá las opciones de los puestos en el momento y dejá margen para regresar al alojamiento. Por la tarde, salí hacia VanDusen según la ruta elegida y tu entrada. Buscá un horario compatible con el anochecer si querés ver las luces plenamente de noche, y llegá para escanear dentro de la media hora asignada.",
+    "Segundo día: dejá el comienzo del día libre para descansar y reorganizar el equipaje. Reservá la segunda tarde y noche para Canyon Lights en Capilano, con el traslado de North Vancouver resuelto de antemano. Comprobá la última salida de regreso si utilizás el shuttle. La visita tiene entrada y ritmo propios; evitá una cena no reembolsable inmediatamente después que te obligue a abandonar el bosque con apuro.",
+    "Si esos días caen el 25 o 26 de diciembre, modificá el orden: el 25 no opera ninguno de los tres lugares elegidos; el 26 el mercado sigue cerrado, aunque los calendarios publicados de los parques sí incluyen esa fecha. Si solo tenés una noche disponible, elegí VanDusen o Capilano y conservá el mercado para una mañana abierta. Esta versión corta es más realista que intentar ambas luces con dos entradas consecutivas."
+  ],
+  "faq": [
+    {
+      "question": "¿Qué fechas tienen las luces de Navidad de Vancouver en 2026?",
+      "answer": "VanDusen Festival of Lights anuncia del 27 de noviembre de 2026 al 3 de enero de 2027; Canyon Lights, del 20 de noviembre al 10 de enero. Ambos cierran el 25 de diciembre. Las fechas de temporada no garantizan entradas para cada turno: comprobá el calendario del operador antes de cerrar el resto del viaje."
+    },
+    {
+      "question": "¿Granville Island es un mercado navideño con entrada?",
+      "answer": "El lugar recomendado es el Public Market permanente, cubierto, con alimentos y productos artesanales. No lo presentamos como un evento navideño temporal con una entrada de espectáculo. El gasto depende de lo que compres o consumas; otros negocios de la isla pueden tener propuestas y horarios diferentes que debés revisar por separado."
+    },
+    {
+      "question": "¿Se pueden visitar estos tres lugares el 25 de diciembre?",
+      "answer": "No. VanDusen, Canyon Lights y el Public Market publican cierre ese día. Además, el mercado cierra el 26 de diciembre y el 1 de enero. Si tu estancia se concentra en Navidad, asigná las luces a una fecha abierta con reserva y verificá aparte las comidas y servicios que necesites para el 25."
+    },
+    {
+      "question": "¿Canyon Lights requiere otra entrada si ya tengo pase anual?",
+      "answer": "El parque indica que Canyon Lights está incluido en la admisión o el pase anual correspondiente. Los titulares de BC Annual Pass deben reservar en línea en los horarios de mayor demanda y las plazas por franja son limitadas. Un pase no equivale a disponibilidad garantizada ni elimina la necesidad de revisar las condiciones de acceso."
+    },
+    {
+      "question": "¿Qué hago si llueve la noche de mi visita a VanDusen?",
+      "answer": "El evento municipal se desarrolla al aire libre y anuncia funcionamiento con lluvia. Prepará ropa impermeable y consultá el estado operativo, porque la nieve intensa, el viento o condiciones extraordinarias pueden motivar cierres. Las entradas son no reembolsables, con posibilidad de cambio hasta 12 horas antes según la política publicada: revisala antes de esperar al último momento."
+    }
+  ],
+  "conclusion": "La Navidad de Vancouver se disfruta mejor distinguiendo el jardín luminoso de VanDusen, el bosque de Capilano y la mañana de mercado en Granville Island. Las fechas de 2026 permiten armar un viaje concreto, pero los cierres y las franjas reservadas mandan. Elegí una instalación por noche, ajustá el mercado al calendario real y dejá espacio para el clima y los traslados. Así el ambiente festivo acompaña el viaje sin convertirlo en una carrera entre entradas.",
+  "publishedAt": "2026-11-12T21:57:37.035Z",
+  "updatedAt": "2026-11-12T21:57:37.035Z"
+}

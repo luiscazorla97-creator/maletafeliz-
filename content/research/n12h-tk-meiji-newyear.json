@@ -1,0 +1,31 @@
+{
+  "url": "https://www.meijijingu.or.jp/hatsumoude/",
+  "finalUrl": "https://www.meijijingu.or.jp/hatsumoude/",
+  "fetchedAt": "2026-11-12T21:36:00.714Z",
+  "httpStatus": 200,
+  "contentSha256": "de096c14ec7eb90dc10657b8908cc9092f50aa3830ec904551567fe08b15947c",
+  "textSha256": "0cd97ffba3cd6117b1331cb48ecde69ca6dfa15133f77baf713e41b16a3fda89",
+  "facts": [
+    {
+      "claim": "The page still labels the special New Year information as Reiwa 8 (2026); its special hours are not transferred to 2027.",
+      "evidenceExcerpt": "令和8年の厄年表",
+      "confidence": "checked-against-source",
+      "timeSensitive": true
+    },
+    {
+      "claim": "The stable access descriptions name Harajuku and Meiji-jingumae for the southern entrance.",
+      "evidenceExcerpt": "JR原宿駅・地下鉄千代田線 副都心線 明治神宮前〈原宿〉駅より徒歩1分",
+      "confidence": "checked-against-source",
+      "timeSensitive": false
+    },
+    {
+      "claim": "The page explicitly identifies its year-specific horse objects as Reiwa 8; do not use it as a 2027 timetable.",
+      "evidenceExcerpt": "令和8年の干支（うま＝午）が描かれた土鈴と絵馬を授与所でおわかちしています。",
+      "confidence": "checked-against-source",
+      "timeSensitive": true
+    }
+  ],
+  "rawArchive": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/authors/tokyo-seoul/tokyo-new-year-2027/raw/n12h-tk-meiji-newyear.html",
+  "textArchive": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/authors/tokyo-seoul/tokyo-new-year-2027/raw/n12h-tk-meiji-newyear.txt",
+  "notes": "Actual successful HTTPS response saved and read. Facts selected conservatively. Dates and exceptional arrangements distinguish the announced 2026–2027 edition from annual context and older seasonal pages. No search-volume or first-person-experience claims."
+}

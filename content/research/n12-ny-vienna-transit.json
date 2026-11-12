@@ -1,0 +1,18 @@
+{
+  "url": "https://www.wienerlinien.at/",
+  "finalUrl": "https://www.wienerlinien.at/",
+  "fetchedAt": "2026-11-12T16:35:58.098Z",
+  "httpStatus": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "contentSha256": "a903c754013bcea067c3d11377b2234c19b0318b931b34aa37872e73f9537869",
+  "bytes": 629715,
+  "facts": [
+    {
+      "fact": "The transport operator publishes route planning, Betriebsinfo and network/timetable tools and identifies WienMobil as its official app for tickets and routes. The captured homepage does not establish a specific 31 December 2026 or 1 January 2027 operating plan.",
+      "excerpt": "Route planen",
+      "location": "Navigation, WienMobil App description and travel-planning footer."
+    }
+  ],
+  "notes": "Actual homepage read; regular tools are linked for later event/date checks. No overnight intervals, station closure hour, free travel or airport routing copied from prior-year reports.",
+  "readMethod": "Actual captured body read in the cloud; complete responseSHA rechecked. No search snippet counted as access."
+}

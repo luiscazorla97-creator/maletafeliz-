@@ -1,0 +1,121 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Wien,_Schloss_Sch%C3%B6nbrunn_--_2018_--_3260.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Wien,_Schloss_Sch%C3%B6nbrunn_--_2018_--_3260.jpg",
+  "fetchedAt": "2026-11-12T16:29:42.691Z",
+  "httpStatus": 200,
+  "contentSha256": "0abc194551eeece06df29b80c4698d4b1341f08650aaba1747871114530c0d74",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The exact individual file page and selected licence deed were actually read. Named creator, supplied title and licence match the reuse metadata. This is a documentary archive photograph dated 2018-06-16, not evidence of a 2026/27 event, current opening or access layout.",
+      "excerpt": "CC BY-SA 4.0",
+      "location": "Specific Commons file Information/Licensing blocks and supplied Date; original capture and actual response hash retained."
+    },
+    {
+      "fact": "Previously published served bytes are reused without editing or regeneration. All existing responsive variants were locally decoded and SHA-256/dimensions checked against the unchanged original manifest entry. Attribution, source, licence, previous edits and sharing conditions are retained.",
+      "excerpt": "",
+      "location": "Original manifest entry and local byte ledger, private Europe reuse review."
+    }
+  ],
+  "licenseDeedCapture": {
+    "id": "cc-bysa4",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:29:45.097Z",
+    "contentType": "text/html",
+    "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+    "bytes": 35530,
+    "retryAfter": null,
+    "bodyFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/europe/raw/cc-bysa4.body",
+    "actuallyRead": true,
+    "rehashVerified": true
+  },
+  "reuseOf": "october-vienna-schonbrunn",
+  "originalManifestSnapshot": {
+    "id": "october-vienna-schonbrunn",
+    "src": "/images/october-vienna-schonbrunn.webp",
+    "alt": {
+      "es": "Detalle de la fachada del Palacio de Schönbrunn, Viena",
+      "en": "Detail of the façade of Schönbrunn Palace, Vienna"
+    },
+    "credit": "Dietmar Rabich / Wikimedia Commons · archivo / archive · resized and converted to WebP by MaletaFeliz",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wien,_Schloss_Sch%C3%B6nbrunn_--_2018_--_3260.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "verifiedAt": "2026-10-31T00:01:26.135Z",
+    "destinationIds": [
+      "vienna"
+    ],
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Wien%2C_Schloss_Sch%C3%B6nbrunn_--_2018_--_3260.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "modifications": "Resized and converted to WebP; same license retained.",
+    "width": 1280,
+    "height": 853,
+    "sha256": "aeacc59c19a2a2107437f59af4af06dc6dc4b6ba77fafa9d01cac09bfe10e474",
+    "variants": [
+      {
+        "src": "/images/october-vienna-schonbrunn-480w.webp",
+        "width": 480,
+        "height": 320,
+        "sha256": "08c74fde8b463cb6b2da340fae956cf7b07a06e65c9f00fda810189d7344227f"
+      },
+      {
+        "src": "/images/october-vienna-schonbrunn-800w.webp",
+        "width": 800,
+        "height": 533,
+        "sha256": "2192cfaf8ff9b65e0f1db9f23d41128b187cf10d1367bda3172d99392b770f05"
+      },
+      {
+        "src": "/images/october-vienna-schonbrunn-1200w.webp",
+        "width": 1200,
+        "height": 800,
+        "sha256": "c4384d2d06249f8206e103142b40ffaa96868a70101bc48bd32a7b21e6bb790b"
+      },
+      {
+        "src": "/images/october-vienna-schonbrunn.webp",
+        "width": 1280,
+        "height": 853,
+        "sha256": "aeacc59c19a2a2107437f59af4af06dc6dc4b6ba77fafa9d01cac09bfe10e474"
+      }
+    ]
+  },
+  "variantsChecked": [
+    {
+      "src": "/images/october-vienna-schonbrunn-480w.webp",
+      "width": 480,
+      "height": 320,
+      "sha256": "08c74fde8b463cb6b2da340fae956cf7b07a06e65c9f00fda810189d7344227f",
+      "path": "/workspace/maletafeliz-/public/images/october-vienna-schonbrunn-480w.webp",
+      "bytes": 25048,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/october-vienna-schonbrunn-800w.webp",
+      "width": 800,
+      "height": 533,
+      "sha256": "2192cfaf8ff9b65e0f1db9f23d41128b187cf10d1367bda3172d99392b770f05",
+      "path": "/workspace/maletafeliz-/public/images/october-vienna-schonbrunn-800w.webp",
+      "bytes": 63700,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/october-vienna-schonbrunn-1200w.webp",
+      "width": 1200,
+      "height": 800,
+      "sha256": "c4384d2d06249f8206e103142b40ffaa96868a70101bc48bd32a7b21e6bb790b",
+      "path": "/workspace/maletafeliz-/public/images/october-vienna-schonbrunn-1200w.webp",
+      "bytes": 122264,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/october-vienna-schonbrunn.webp",
+      "width": 1280,
+      "height": 853,
+      "sha256": "aeacc59c19a2a2107437f59af4af06dc6dc4b6ba77fafa9d01cac09bfe10e474",
+      "path": "/workspace/maletafeliz-/public/images/october-vienna-schonbrunn.webp",
+      "bytes": 183596,
+      "hashAndDimensionsVerified": true
+    }
+  ],
+  "notes": "Append-only alias for a new topic; original article, original image record, assets and dates are untouched. No commercial endorsement or event photograph is implied. Changes to metadata only add archive disclosure and fuller title/attribution."
+}

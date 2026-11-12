@@ -1,0 +1,25 @@
+{
+  "url": "https://www.meijijingu.or.jp/en/access/",
+  "finalUrl": "https://www.meijijingu.or.jp/en/access/",
+  "fetchedAt": "2026-11-12T21:38:34.397Z",
+  "httpStatus": 200,
+  "contentSha256": "ed75be3bd8a8c2250ed1e1e1829d3a86e828497a81a3c0bf778e4e7b06ea35b6",
+  "textSha256": "1b9b2df0cfcf28099150cfe937c1dd7d688b73445bd54ca835d6faa31ba0c301",
+  "facts": [
+    {
+      "claim": "The shrine warns that walking time to the entrance is followed by at least ten more minutes to the main buildings.",
+      "evidenceExcerpt": "It takes at least another ten minutes from the entrance to the main shrine buildings.",
+      "confidence": "checked-against-source",
+      "timeSensitive": false
+    },
+    {
+      "claim": "Wheelchairs are listed as available at shrine entrances; this does not guarantee availability or a reserved service.",
+      "evidenceExcerpt": "Wheelchairs are available at the entrance of the shrine grounds.",
+      "confidence": "checked-against-source",
+      "timeSensitive": true
+    }
+  ],
+  "rawArchive": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/authors/tokyo-seoul/tokyo-new-year-2027/raw/n12h-tk-meiji-access.html",
+  "textArchive": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/authors/tokyo-seoul/tokyo-new-year-2027/raw/n12h-tk-meiji-access.txt",
+  "notes": "Actual successful HTTPS response saved and read. Facts selected conservatively. Dates and exceptional arrangements distinguish the announced 2026–2027 edition from annual context and older seasonal pages. No search-volume or first-person-experience claims."
+}

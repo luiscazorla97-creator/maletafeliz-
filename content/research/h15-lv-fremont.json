@@ -1,0 +1,53 @@
+{
+  "id": "h15-lv-fremont",
+  "url": "https://fremontstreetexperience.com/countdown-under-the-canopy/",
+  "finalUrl": "https://fremontstreetexperience.com/countdown-under-the-canopy/",
+  "startedAt": "2026-11-12T21:34:24.596Z",
+  "fetchedAt": "2026-11-12T21:34:26.840Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "9650d95fff1a90a6cd85babbf8be7fe4fce95b4bb772d567d2cc4cb65a3e73c8",
+  "textSha256": "041daedab43f6b88961dabccc45140c8d0c22e17f0ec4b2407f49cefdbb67665",
+  "bytes": 185361,
+  "rawFile": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/authors/vegas-vancouver/las-vegas-new-year-2027/captures/h15-lv-fremont.html",
+  "textFile": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/authors/vegas-vancouver/las-vegas-new-year-2027/captures/h15-lv-fremont.txt",
+  "facts": [
+    {
+      "fact": "Current event advertises December31 doors19:00 and age21+",
+      "excerpt": "DECEMBER 31 | 7PM",
+      "location": "Read rendered-text extraction from actual HTTP response"
+    },
+    {
+      "fact": "Current music event includes Hoobastank and Petey Pablo, subject to linked change terms",
+      "excerpt": "live performances by Hoobastank, Petey Pablo",
+      "location": "Read rendered-text extraction from actual HTTP response"
+    },
+    {
+      "fact": "Age requirement is21+",
+      "excerpt": "This party is strictly a 21+ event.",
+      "location": "Read rendered-text extraction from actual HTTP response"
+    },
+    {
+      "fact": "Each holder must be present withID for advancewristbandcollection;IDagainatentry",
+      "excerpt": "All ticket holders can pick up wristbands prior to Dec 31 at the SlotZilla Box Office with ticket confirmation. Each ticket holder must present a valid ID and be present to pick up wristbands. On Dec 31, all guests with a wristband will be required to show valid ID prior to event entry.",
+      "location": "Read rendered-text extraction from actual HTTP response"
+    },
+    {
+      "fact": "Noautomaticweatherorillnessrefund",
+      "excerpt": "All ticket sales are final. No refunds, exchanges, or cancellations will be issued for any reason, including illness, weather, or scheduling conflicts.",
+      "location": "Read rendered-text extraction from actual HTTP response"
+    }
+  ],
+  "requestedUrl": "https://vegasexperience.com/nye/",
+  "reviewedAt": "2026-11-12T21:46:22.492Z",
+  "readBy": "Codex author /vegas_vancouver_holidays (AI-assisted editorial research)",
+  "readingCompleted": true,
+  "editionEvidence": {
+    "pageModifiedAt": "2026-10-28T12:08:33-07:00",
+    "imageUrl": "https://fremontstreetexperience.com/wp-content/uploads/2026/10/NYE27_Logo-Stacked-e1793127499701.png",
+    "imageSha256": "4aa5cb4e01630a9465de86198bdf9087f58bdecffd2f9c4aeb388e730181532e",
+    "visuallyRead": "Official linked graphic reads NEW YEAR’S EVE 2027; inspected image using view_image",
+    "warning": "FAQ page says Wednesday December31 (2025); old permit/map links and conflicting stage schedules deliberately not transferred to 2026–27. Current event page and linked current terms control the facts used."
+  }
+}

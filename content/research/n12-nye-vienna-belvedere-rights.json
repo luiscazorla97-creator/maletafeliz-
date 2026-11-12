@@ -1,0 +1,121 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Upper_Belvedere_LCD-toneedit2_NR.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Upper_Belvedere_LCD-toneedit2_NR.jpg",
+  "fetchedAt": "2026-11-12T16:29:44.484Z",
+  "httpStatus": 200,
+  "contentSha256": "11acc6f810c5a3723297aef74652ee39b6c8392ba5476455a8e8f3246dd26e70",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The exact individual file page and selected licence deed were actually read. Named creator, supplied title and licence match the reuse metadata. This is a documentary archive photograph dated 2011-02-14, not evidence of a 2026/27 event, current opening or access layout.",
+      "excerpt": "CC BY 3.0",
+      "location": "Specific Commons file Information/Licensing blocks and supplied Date; original capture and actual response hash retained."
+    },
+    {
+      "fact": "Previously published served bytes are reused without editing or regeneration. All existing responsive variants were locally decoded and SHA-256/dimensions checked against the unchanged original manifest entry. Attribution, source, licence, previous edits and sharing conditions are retained.",
+      "excerpt": "",
+      "location": "Original manifest entry and local byte ledger, private Europe reuse review."
+    }
+  ],
+  "licenseDeedCapture": {
+    "id": "cc-by3",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:29:45.212Z",
+    "contentType": "text/html",
+    "contentSha256": "befae005d7dc8701eed58fe2080fda2889c3749272d6c8aba8e8310114112095",
+    "bytes": 31824,
+    "retryAfter": null,
+    "bodyFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/europe/raw/cc-by3.body",
+    "actuallyRead": true,
+    "rehashVerified": true
+  },
+  "reuseOf": "october-vienna-belvedere",
+  "originalManifestSnapshot": {
+    "id": "october-vienna-belvedere",
+    "src": "/images/october-vienna-belvedere.webp",
+    "alt": {
+      "es": "Belvedere Superior iluminado y su reflejo, Viena",
+      "en": "Illuminated Upper Belvedere and its reflection, Vienna"
+    },
+    "credit": "Murdockcrc; noise reduction by Julia W / Wikimedia Commons · archivo / archive · resized and converted to WebP by MaletaFeliz",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Upper_Belvedere_LCD-toneedit2_NR.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "verifiedAt": "2026-11-01T18:12:31.656Z",
+    "destinationIds": [
+      "vienna"
+    ],
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Upper_Belvedere_LCD-toneedit2_NR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "modifications": "Source photograph includes noise reduction by Julia W; resized and converted to WebP by MaletaFeliz; CC BY 3.0 retained.",
+    "width": 1280,
+    "height": 853,
+    "sha256": "78c250ff82be1e91cacb53634e86d28be0332f39f3d1ec48a0ac714a950cab0f",
+    "variants": [
+      {
+        "src": "/images/october-vienna-belvedere-480w.webp",
+        "width": 480,
+        "height": 320,
+        "sha256": "31c39e4df9c97358d5cc1825e2f92ea807700368416841f02efcd7aabc47bcb6"
+      },
+      {
+        "src": "/images/october-vienna-belvedere-800w.webp",
+        "width": 800,
+        "height": 533,
+        "sha256": "1a2eb079ecca7749f8ddf393558135ee61833306f5de1e995fc2c1ce1c3f617d"
+      },
+      {
+        "src": "/images/october-vienna-belvedere-1200w.webp",
+        "width": 1200,
+        "height": 800,
+        "sha256": "e82d483d3cfc0d81fa61894b6961decc194d2aeba692035b16e8fc148f7c4359"
+      },
+      {
+        "src": "/images/october-vienna-belvedere.webp",
+        "width": 1280,
+        "height": 853,
+        "sha256": "78c250ff82be1e91cacb53634e86d28be0332f39f3d1ec48a0ac714a950cab0f"
+      }
+    ]
+  },
+  "variantsChecked": [
+    {
+      "src": "/images/october-vienna-belvedere-480w.webp",
+      "width": 480,
+      "height": 320,
+      "sha256": "31c39e4df9c97358d5cc1825e2f92ea807700368416841f02efcd7aabc47bcb6",
+      "path": "/workspace/maletafeliz-/public/images/october-vienna-belvedere-480w.webp",
+      "bytes": 14714,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/october-vienna-belvedere-800w.webp",
+      "width": 800,
+      "height": 533,
+      "sha256": "1a2eb079ecca7749f8ddf393558135ee61833306f5de1e995fc2c1ce1c3f617d",
+      "path": "/workspace/maletafeliz-/public/images/october-vienna-belvedere-800w.webp",
+      "bytes": 34742,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/october-vienna-belvedere-1200w.webp",
+      "width": 1200,
+      "height": 800,
+      "sha256": "e82d483d3cfc0d81fa61894b6961decc194d2aeba692035b16e8fc148f7c4359",
+      "path": "/workspace/maletafeliz-/public/images/october-vienna-belvedere-1200w.webp",
+      "bytes": 65466,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/october-vienna-belvedere.webp",
+      "width": 1280,
+      "height": 853,
+      "sha256": "78c250ff82be1e91cacb53634e86d28be0332f39f3d1ec48a0ac714a950cab0f",
+      "path": "/workspace/maletafeliz-/public/images/october-vienna-belvedere.webp",
+      "bytes": 101328,
+      "hashAndDimensionsVerified": true
+    }
+  ],
+  "notes": "Append-only alias for a new topic; original article, original image record, assets and dates are untouched. No commercial endorsement or event photograph is implied. Changes to metadata only add archive disclosure and fuller title/attribution."
+}

@@ -1,0 +1,56 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Cheonggyecheon_Seoul_1.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Cheonggyecheon_Seoul_1.jpg",
+  "fetchedAt": "2026-11-12T21:38:40.886Z",
+  "httpStatus": 200,
+  "contentSha256": "50cea7335028066c50fb38ce031152db9d57d3fa577807d2279edb532d22ce59",
+  "facts": [
+    {
+      "claim": "The file-specific source identifies kallerna as author of this exact documentary photograph and applies CC BY-SA 4.0.",
+      "evidenceExcerpt": "kallerna; This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.",
+      "confidence": "checked-against-source",
+      "timeSensitive": false
+    }
+  ],
+  "license": {
+    "name": "CC BY-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercialUse": true,
+    "derivativesAllowed": true,
+    "shareAlike": true,
+    "author": "kallerna",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Cheonggyecheon_Seoul_1.jpg",
+    "deed": {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "httpStatus": 200,
+      "fetchedAt": "2026-11-12T21:38:41.173Z",
+      "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+      "evidenceExcerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially. Adapt — remix, transform, and build upon the material for any purpose, even commercially."
+    }
+  },
+  "original": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Cheonggyecheon_Seoul_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "file": "content/images/originals/n12h-sl-stream-photo.jpg",
+    "sha256": "1a5f3c257d65088d47ecc9c421f5c86df848184916949d404df253caa9cebed3",
+    "width": 4910,
+    "height": 3280,
+    "download": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Cheonggyecheon_Seoul_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Cheonggyecheon_Seoul_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "fetchedAt": "2026-11-12T21:40:54.984Z",
+      "startedAt": "2026-11-12T21:40:54.351Z",
+      "httpStatus": 200,
+      "retryAfter": null,
+      "bytes": 6778340,
+      "contentSha256": "1a5f3c257d65088d47ecc9c421f5c86df848184916949d404df253caa9cebed3"
+    }
+  },
+  "usage": {
+    "documentary": true,
+    "notCurrentEventPhoto": true,
+    "modifications": "Resized proportionally and converted to WebP. No generative changes; no festive decorations added. Same source license retained.",
+    "reusedExistingPhotoId": null
+  },
+  "notes": "Specific Commons file page and license deed actually read on fetch date. Archive photograph identifies the place and does not claim to document the 2026–2027 celebration."
+}

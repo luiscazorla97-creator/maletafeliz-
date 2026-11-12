@@ -28,6 +28,17 @@ const groups = [
   { ids: ['us', 'ca', 'au'], es: 'Navidad en América y Australia', en: 'Christmas in the Americas and Australia' },
   { ids: [...new Set(selection.filter((d) => d.continent === 'asia').map((d) => d.countryId))], es: 'Navidad en Asia', en: 'Christmas in Asia' },
 ];
+// Include published seasonal destinations in countries outside the named groups.
+const groupedCountryIds = new Set(groups.flatMap((group) => group.ids));
+const remainingCountryIds = [...new Set(selection.map((d) => d.countryId))]
+  .filter((countryId) => !groupedCountryIds.has(countryId));
+if (remainingCountryIds.length > 0) {
+  groups.push({
+    ids: remainingCountryIds,
+    es: 'Más ciudades para Navidad',
+    en: 'More Christmas cities',
+  });
+}
 ---
 
 <Layout

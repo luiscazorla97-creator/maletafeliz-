@@ -1,0 +1,121 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Christmas_Market_Vienna_(375795453).jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Christmas_Market_Vienna_(375795453).jpg",
+  "fetchedAt": "2026-11-12T16:32:34.601Z",
+  "httpStatus": 200,
+  "contentSha256": "e2ae309991ba0ec2c77343958dc3a5b5f158a3ff95e4a9a6b7b3ded7a84de815",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The exact individual file page and selected licence deed were actually read. Named creator, supplied title and licence match the reuse metadata. This is a documentary archive photograph dated 2005-12-04, not evidence of a 2026/27 event, current opening or access layout.",
+      "excerpt": "CC BY 2.0",
+      "location": "Specific Commons file Information/Licensing blocks and supplied Date; original capture and actual response hash retained."
+    },
+    {
+      "fact": "Previously published served bytes are reused without editing or regeneration. All existing responsive variants were locally decoded and SHA-256/dimensions checked against the unchanged original manifest entry. Attribution, source, licence, previous edits and sharing conditions are retained.",
+      "excerpt": "",
+      "location": "Original manifest entry and local byte ledger, private Europe reuse review."
+    }
+  ],
+  "licenseDeedCapture": {
+    "id": "cc-by2",
+    "url": "https://creativecommons.org/licenses/by/2.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:32:35.277Z",
+    "contentType": "text/html",
+    "contentSha256": "bbb0dcc37f02552e7270e6d2e06be02672ce29ada816107d6fa91e1e6809714b",
+    "bytes": 31822,
+    "retryAfter": null,
+    "bodyFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/europe/raw/cc-by2.body",
+    "actuallyRead": true,
+    "rehashVerified": true
+  },
+  "reuseOf": "xmas-vienna-p1",
+  "originalManifestSnapshot": {
+    "id": "xmas-vienna-p1",
+    "src": "/images/xmas-vienna-p1.webp",
+    "alt": {
+      "es": "Mercado de Navidad de Rathausplatz visto desde el ayuntamiento de Viena en 2005 · fotografía de archivo anterior a 2026",
+      "en": "Rathausplatz Christmas market viewed from Vienna City Hall in 2005 · archive photograph taken before 2026"
+    },
+    "credit": "Tony Hisgett from Birmingham, UK / Wikimedia Commons · archivo / archive · resized and converted to WebP by MaletaFeliz",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christmas_Market_Vienna_(375795453).jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "verifiedAt": "2026-11-01T17:43:22.242Z",
+    "destinationIds": [
+      "christmas-vienna"
+    ],
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Christmas_Market_Vienna_%28375795453%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "modifications": "Resized and converted to WebP; same license retained.",
+    "width": 1280,
+    "height": 853,
+    "sha256": "aca7b4b0aff4442edd038da835fb79ceb69e360f95dc81a551e480a881d56901",
+    "variants": [
+      {
+        "src": "/images/xmas-vienna-p1-480w.webp",
+        "width": 480,
+        "height": 320,
+        "sha256": "4a53dfef65e825f1fe68ff85356375d917248d36a6d2486f9cf679c9b50676c1"
+      },
+      {
+        "src": "/images/xmas-vienna-p1-800w.webp",
+        "width": 800,
+        "height": 533,
+        "sha256": "f9ba5011abd2775ac92a01053cd408101463230f7748475c73af43de888779f8"
+      },
+      {
+        "src": "/images/xmas-vienna-p1-1200w.webp",
+        "width": 1200,
+        "height": 800,
+        "sha256": "eec1d406fe48006c9e9241e33d643a7c783b6f5b0ea9a1530f5e0e9f0dfc5190"
+      },
+      {
+        "src": "/images/xmas-vienna-p1.webp",
+        "width": 1280,
+        "height": 853,
+        "sha256": "aca7b4b0aff4442edd038da835fb79ceb69e360f95dc81a551e480a881d56901"
+      }
+    ]
+  },
+  "variantsChecked": [
+    {
+      "src": "/images/xmas-vienna-p1-480w.webp",
+      "width": 480,
+      "height": 320,
+      "sha256": "4a53dfef65e825f1fe68ff85356375d917248d36a6d2486f9cf679c9b50676c1",
+      "path": "/workspace/maletafeliz-/public/images/xmas-vienna-p1-480w.webp",
+      "bytes": 25348,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/xmas-vienna-p1-800w.webp",
+      "width": 800,
+      "height": 533,
+      "sha256": "f9ba5011abd2775ac92a01053cd408101463230f7748475c73af43de888779f8",
+      "path": "/workspace/maletafeliz-/public/images/xmas-vienna-p1-800w.webp",
+      "bytes": 71828,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/xmas-vienna-p1-1200w.webp",
+      "width": 1200,
+      "height": 800,
+      "sha256": "eec1d406fe48006c9e9241e33d643a7c783b6f5b0ea9a1530f5e0e9f0dfc5190",
+      "path": "/workspace/maletafeliz-/public/images/xmas-vienna-p1-1200w.webp",
+      "bytes": 146218,
+      "hashAndDimensionsVerified": true
+    },
+    {
+      "src": "/images/xmas-vienna-p1.webp",
+      "width": 1280,
+      "height": 853,
+      "sha256": "aca7b4b0aff4442edd038da835fb79ceb69e360f95dc81a551e480a881d56901",
+      "path": "/workspace/maletafeliz-/public/images/xmas-vienna-p1.webp",
+      "bytes": 275248,
+      "hashAndDimensionsVerified": true
+    }
+  ],
+  "notes": "Append-only alias for a new topic; original article, original image record, assets and dates are untouched. No commercial endorsement or event photograph is implied. Changes to metadata only add archive disclosure and fuller title/attribution."
+}

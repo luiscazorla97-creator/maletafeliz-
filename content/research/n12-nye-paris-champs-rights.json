@@ -1,0 +1,50 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Avenue_des_Champs-%C3%89lys%C3%A9es_July_24,_2009_N1.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Avenue_des_Champs-%C3%89lys%C3%A9es_July_24,_2009_N1.jpg",
+  "fetchedAt": "2026-11-12T16:52:13.679Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "347bbcc8989ba4f09fa96fc8461018ec24818f2d2dbfecd5260a0ab20e875b44",
+  "facts": [
+    {
+      "fact": "The individual file page identifies the daytime avenue view from the Arc de Triomphe, author Josh Hallett, taken 24 July 2009. Its specific licence is CC BY-SA 2.0; that deed was actually read in this same research session.",
+      "excerpt": "Avenue des Champs-Élysées view from the Arc de Triomphe",
+      "location": "Individual file Description, Date, Source, Author and Licensing boxes; actual downloaded image visually inspected."
+    },
+    {
+      "fact": "The source-provided 1280-pixel JPEG rendition is archived byte-for-byte, not claimed to be the full 3449×2299 file. Five proportional WebP variants are created without cropping or generated content, retaining attribution, source/licence links and ShareAlike. The daytime photograph proves the boulevard, not access to the terrace at midnight.",
+      "excerpt": "CC BY-SA 2.0",
+      "location": "Specific file licensing box, downloaded image metadata and local derivative ledger."
+    }
+  ],
+  "licenseDeedCapture": {
+    "id": "cc-bysa2",
+    "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:29:45.376Z",
+    "contentType": "text/html",
+    "contentSha256": "6d15fd2f2ccc7258f39befc9f13f5154f9851e49a9e90ec43c7e22d660ae0e84",
+    "bytes": 35429,
+    "retryAfter": null,
+    "bodyFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/europe/raw/cc-bysa2.body",
+    "readMethod": "Deed actually read earlier in the same session, SHA rechecked for this reuse; no new HTTP claim."
+  },
+  "downloadCapture": {
+    "id": "paris-champs-day-download",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Avenue_des_Champs-%C3%89lys%C3%A9es_July_24%2C_2009_N1.jpg/1280px-Avenue_des_Champs-%C3%89lys%C3%A9es_July_24%2C_2009_N1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Avenue_des_Champs-%C3%89lys%C3%A9es_July_24%2C_2009_N1.jpg/1280px-Avenue_des_Champs-%C3%89lys%C3%A9es_July_24%2C_2009_N1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:52:14.271Z",
+    "contentType": "image/jpeg",
+    "contentSha256": "a81606f05e6c4acd829d1407427ee19f06bc91e10ff4d39f09648dd9e5b3bbfc",
+    "bytes": 512873,
+    "retryAfter": null
+  },
+  "originalProvidedDimensions": [
+    1280,
+    853
+  ],
+  "fullResolutionOriginalDownloaded": false,
+  "notes": "Replaces only the proposed NEW NYE photo. The old Champs-Élysées lighting photograph, original published article, asset and image record remain intact. No future event image, guaranteed sightline or late terrace access implied."
+}

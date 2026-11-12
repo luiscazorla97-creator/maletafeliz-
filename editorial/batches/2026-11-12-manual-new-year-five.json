@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-12-manual-new-year-five",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-12T19:26:51.155Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "sydney-new-year-2027",
+    "singapore-new-year-2027",
+    "london-new-year-2027",
+    "new-york-new-year-2027",
+    "rio-new-year-2027"
+  ],
+  "requestedCount": 5,
+  "effectiveRequestedCount": 5,
+  "publishedCount": 0,
+  "errors": [],
+  "authorization": {
+    "type": "explicit-manual-five-new-year-originals",
+    "ownerRequest": "sube 5 articulos supero seo de ciudades muy buscadas en google para visitar en año nuevo",
+    "requestedOriginals": 5,
+    "additionalToPriorVerifiedOriginalsToday": true,
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false,
+    "countryPriorityOverrideForThisBatchOnly": true,
+    "noSearchVolumeOrRankingClaim": true,
+    "priorVerifiedOriginalsToday": 2,
+    "priorVerifiedTopicIdsToday": [
+      "braga",
+      "fes"
+    ],
+    "authorizedTotalUniqueOriginalsTodayAfterThisManualBatch": 7
+  },
+  "reservationMethod": "exclusive-manual-additional-batch-after-default-command-reused-completed-day-batch",
+  "reservationCommand": "npm run editorial:batch -- 5",
+  "reservationCommandExitCode": 0,
+  "reservationCommandStdoutSha256": "15bb605f479c66cd9fe28f5b85b05f9de3319c178ce76d3f7b0097e7312737f3",
+  "reservationFallbackReason": "The daily command reused the already verified Braga/Fez batch. The newer explicit owner request authorizes five additional New Year originals in one separate manual batch; do not modify or duplicate the prior daily publication.",
+  "execution": {
+    "executionId": "453cb84b-f1a6-454a-8e67-3fada19e26e1",
+    "startedAt": "2026-11-12T19:23:48.640668+00:00",
+    "baseCommit": "71fb4567fab8426190634d9f73ccaeaab71c9019",
+    "coordinator": "Codex root in configured cloud checkout",
+    "status": "in-progress",
+    "heartbeatAt": "2026-11-12T19:26:51.156Z",
+    "leaseUntil": "2026-11-12T23:23:48.640668+00:00",
+    "coordination": "One root writer; research and QA preparation agents only write private artifacts."
+  },
+  "census": {
+    "checkedAt": "2026-11-12T19:23:48.640668+00:00",
+    "sourceHead": "71fb4567fab8426190634d9f73ccaeaab71c9019",
+    "uniqueFirstPublishedAndVerifiedToday": [
+      "braga",
+      "fes"
+    ],
+    "count": 2,
+    "priorPublicVerification": "editorial/verification/2026-11-12-publication.json"
+  }
+}

@@ -2,25 +2,26 @@
   "id": "2026-11-12",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-12T16:21:23.571762+00:00",
-  "status": "reviewed-for-release",
+  "status": "published",
   "topicIds": [
     "braga",
     "fes",
     "george-town-penang"
   ],
   "requestedCount": 3,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "8a33e04c-8ff9-47a1-b856-51a6a38a6e6e",
-    "status": "in-progress",
+    "status": "completed-verified",
     "startedAt": "2026-11-12T16:19:10.618009+00:00",
-    "heartbeatAt": "2026-11-12T17:01:48.727Z",
-    "leaseUntil": "2026-11-12T19:19:10.618009+00:00",
+    "heartbeatAt": "2026-11-12T17:43:44.196Z",
+    "leaseUntil": "2026-11-12T17:43:44.196Z",
     "baseCommit": "4e58ffe6daea04133941db0f1c422161b8f4219a",
     "coordinator": "/root",
     "reservationCoordinator": "/root/catalog_n10",
-    "coordination": "One explicitly authorized manual execution for three worldwide originals. All 29 older batches and 24 public publication receipts were read; zero unique originals were first published and publicly verified today in New York, and no active prior lease was found. This primary dated reservation is exclusively created so a daily invocation must inspect and reuse it instead of starting another batch. Root owns final approval, build, Git and public deployment. No scheduler-run attribution or publication is claimed."
+    "coordination": "One explicitly authorized manual execution for three worldwide originals. All 29 older batches and 24 public publication receipts were read; zero unique originals were first published and publicly verified today in New York, and no active prior lease was found. This primary dated reservation is exclusively created so a daily invocation must inspect and reuse it instead of starting another batch. Root owns final approval, build, Git and public deployment. No scheduler-run attribution or publication is claimed.",
+    "completedAt": "2026-11-12T17:43:44.196Z"
   },
   "authorization": {
     "type": "explicit-manual-three-worldwide-originals",
@@ -83,5 +84,31 @@
       "sourceCount": 37,
       "publiclyVerified": false
     }
-  ]
+  ],
+  "publishedTopicIds": [
+    "braga",
+    "fes"
+  ],
+  "verifiedTopicCount": 2,
+  "sameDayUniqueVerifiedTopics": [
+    "braga",
+    "fes"
+  ],
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "citedSourceDocuments": 23,
+  "publishedCommit": "8e8183ebaeef02935182108481295bf84b975a75",
+  "publiclyVerifiedAt": "2026-11-12T17:43:44.196Z",
+  "publicVerification": "editorial/verification/2026-11-12-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-braga-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-fez-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-braga-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-fez-5-places/"
+    ]
+  },
+  "inventoryNote": "Only Braga and Fez, two originals and four versions, are verified under the latest owner instruction. Original requestedCount3 and three-topic reservation remain historical; effectiveRequestedCount2 and deferredTopicIds identify George Town as private preparation. Initial same-day census was zero. Existing daily-two schedule, prior inventories, articles, photos, advertising and SEO code remain unchanged. All ten New Year topics remain private outside this source release."
 }

@@ -1,0 +1,102 @@
+{
+  "id": "2026-11-12-manual-holidays-fifteen",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-12T21:42:37.301Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "vienna-new-year-2027",
+    "paris-new-year-2027",
+    "edinburgh-hogmanay-2027",
+    "madrid-new-year-2027",
+    "cape-town-new-year-2027",
+    "dubai-new-year-2027",
+    "las-vegas-new-year-2027",
+    "bangkok-new-year-2027",
+    "tokyo-new-year-2027",
+    "hong-kong-new-year-2027",
+    "christmas-vancouver",
+    "christmas-lisbon",
+    "christmas-hong-kong",
+    "christmas-seoul",
+    "christmas-los-angeles"
+  ],
+  "newYearTopicIds": [
+    "vienna-new-year-2027",
+    "paris-new-year-2027",
+    "edinburgh-hogmanay-2027",
+    "madrid-new-year-2027",
+    "cape-town-new-year-2027",
+    "dubai-new-year-2027",
+    "las-vegas-new-year-2027",
+    "bangkok-new-year-2027",
+    "tokyo-new-year-2027",
+    "hong-kong-new-year-2027"
+  ],
+  "christmasTopicIds": [
+    "christmas-vancouver",
+    "christmas-lisbon",
+    "christmas-hong-kong",
+    "christmas-seoul",
+    "christmas-los-angeles"
+  ],
+  "requestedCount": 15,
+  "effectiveRequestedCount": 15,
+  "publishedCount": 0,
+  "errors": [],
+  "authorization": {
+    "type": "explicit-manual-ten-new-year-five-christmas-originals",
+    "ownerRequest": "Subir10artículos más de AñoNuevo y5nuevosdeNavidad, originales bien desarrollados ySEO",
+    "requestedOriginals": 15,
+    "newYearOriginals": 10,
+    "christmasOriginals": 5,
+    "additionalToPriorVerifiedOriginalsToday": true,
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false,
+    "countryPriorityOverrideForThisBatchOnly": true,
+    "noSearchVolumeRankingIndexingRevenueGuarantee": true,
+    "priorVerifiedOriginalsToday": 7,
+    "priorVerifiedTopicIdsToday": [
+      "braga",
+      "fes",
+      "london-new-year-2027",
+      "new-york-new-year-2027",
+      "rio-new-year-2027",
+      "singapore-new-year-2027",
+      "sydney-new-year-2027"
+    ],
+    "authorizedTotalUniqueOriginalsTodayAfterThisManualBatch": 22
+  },
+  "reservationMethod": "exclusive-manual-aggregate-fifteen-after-default-up-to-five-command-reused-completed-daily-batch",
+  "reservationCommand": "npm run editorial:batch -- 5",
+  "reservationCommandExitCode": 0,
+  "reservationCommandStdoutSha256": "15bb605f479c66cd9fe28f5b85b05f9de3319c178ce76d3f7b0097e7312737f3",
+  "reservationFallbackReason": "The unchanged reservation CLI accepts at mostfive and reused the completed daily batch. The newer owner explicitly requests fifteen additional originals. Root exclusively reserves one coordinated manualaggregate of15; no duplicate daily task, parallel publisher, prior reservation overwrite or command-cap change.",
+  "execution": {
+    "executionId": "6d30d380-2c3e-4d0c-b7c6-cebfaae5ae7d",
+    "startedAt": "2026-11-12T21:37:58.238688+00:00",
+    "baseCommit": "c0cbf667bab14d2062186e72aa4f3196526642b6",
+    "coordinator": "Codex root in configured cloud checkout",
+    "status": "in-progress",
+    "heartbeatAt": "2026-11-12T21:42:37.302Z",
+    "leaseUntil": "2026-11-13T03:37:58.238688+00:00",
+    "coordination": "One root repository writer; author/review agents only write private staging. All fifteen belong to this single current manual order."
+  },
+  "census": {
+    "checkedAt": "2026-11-12T21:37:58.238688+00:00",
+    "sourceHead": "c0cbf667bab14d2062186e72aa4f3196526642b6",
+    "count": 7,
+    "uniqueFirstPublishedAndVerifiedToday": [
+      "braga",
+      "fes",
+      "london-new-year-2027",
+      "new-york-new-year-2027",
+      "rio-new-year-2027",
+      "singapore-new-year-2027",
+      "sydney-new-year-2027"
+    ],
+    "priorPublicVerificationFiles": [
+      "editorial/verification/2026-11-12-publication.json",
+      "editorial/verification/2026-11-12-manual-new-year-five-publication.json"
+    ]
+  }
+}

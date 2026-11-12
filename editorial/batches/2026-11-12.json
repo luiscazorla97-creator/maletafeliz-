@@ -1,0 +1,50 @@
+{
+  "id": "2026-11-12",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-12T16:21:23.571762+00:00",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "braga",
+    "fes",
+    "george-town-penang"
+  ],
+  "requestedCount": 3,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "8a33e04c-8ff9-47a1-b856-51a6a38a6e6e",
+    "status": "in-progress",
+    "startedAt": "2026-11-12T16:19:10.618009+00:00",
+    "heartbeatAt": "2026-11-12T16:21:23.571762+00:00",
+    "leaseUntil": "2026-11-12T19:19:10.618009+00:00",
+    "baseCommit": "4e58ffe6daea04133941db0f1c422161b8f4219a",
+    "coordinator": "/root",
+    "reservationCoordinator": "/root/catalog_n10",
+    "coordination": "One explicitly authorized manual execution for three worldwide originals. All 29 older batches and 24 public publication receipts were read; zero unique originals were first published and publicly verified today in New York, and no active prior lease was found. This primary dated reservation is exclusively created so a daily invocation must inspect and reuse it instead of starting another batch. Root owns final approval, build, Git and public deployment. No scheduler-run attribution or publication is claimed."
+  },
+  "authorization": {
+    "type": "explicit-manual-three-worldwide-originals",
+    "requestedOriginals": 3,
+    "localizedVersions": 6,
+    "newYorkDate": "2026-11-12",
+    "priorVerifiedOriginalsToday": 0,
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false,
+    "globalSelectionForThisExecution": true,
+    "countryPriorityOverrideForThisBatchOnly": true,
+    "reason": "The latest explicit owner request authorizes three new worldwide travel articles for this execution. It takes precedence over the ordinary two-original execution size and four-country selection preference for this manual batch only. The existing strategy backlog, scheduler configuration and publication checks remain intact."
+  },
+  "reservationMethod": "exclusive-manual-after-official-command-no-eligible-priority-topics",
+  "reservationCommand": "npm run editorial:batch -- 3",
+  "reservationCommandExitCode": 0,
+  "reservationCommandStdoutSha256": "3aa98e7a92437201c50d4b34829bc9706c0f7f10443986a84b6aae2a752b13fd",
+  "reservationFallbackReason": "The enabled selector considers pending topics from Italy, Japan, Mexico and the United States only; those topics are all complete. The three appended worldwide candidates are outside that filter, so the actual official command returned no selection and created no file. Root explicitly authorized creating this dated manual reservation with wx without altering selector source, strategy or quality gates.",
+  "census": {
+    "checkedAt": "2026-11-12T16:21:23.571762+00:00",
+    "publiclyVerifiedUniqueFirstPublishedToday": [],
+    "examinedPriorBatches": 29,
+    "examinedPublicationReceipts": 24,
+    "localCatalogOriginals": 193,
+    "localCatalogVersions": 386
+  }
+}

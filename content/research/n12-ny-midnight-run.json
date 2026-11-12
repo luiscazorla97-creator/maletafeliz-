@@ -1,0 +1,74 @@
+{
+  "url": "https://prod.nyrr.org/races-and-events/2026/nyrr-midnight-run",
+  "finalUrl": "https://prod.nyrr.org/races-and-events/2026/nyrr-midnight-run",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-12T16:25:51.722Z",
+  "contentType": "text/html",
+  "contentSha256": "e95ffd1d04bfbd898997327699e069008967fd594f77ad2823f99993ef819411",
+  "bytes": 300495,
+  "retryAfter": null,
+  "provenance": {
+    "method": "Teammate capture reused byte-for-byte and independently read; no additional HTTP request claimed",
+    "metadataFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/captures/nyc-midnight-run.json"
+  },
+  "facts": [
+    {
+      "fact": "The actual NYRR 2026 race page identifies 31 December 2026 in Central Park. It lists 23:59 as the event/countdown time and describes the 4 mile race beginning as the clock reaches midnight, with an announced fireworks display.",
+      "excerpt": "December 31, 2026 … 2027 starts at 11:59 p.m. … 4-mile race",
+      "location": "Race date/header and Race Details.",
+      "excerptLocations": [
+        {
+          "text": "December 31, 2026",
+          "extractedTextLine": 263
+        },
+        {
+          "text": "2027 starts at 11:59 p.m.",
+          "extractedTextLine": 266
+        },
+        {
+          "text": "4-mile race",
+          "extractedTextLine": 266
+        }
+      ]
+    },
+    {
+      "fact": "This is a registration event. Bib materials must be collected at RUNCENTER in advance, with no race-day collection in Central Park; last listed 31 Dec pickup is 22:00.",
+      "excerpt": "There will be no bib pickup at Central Park",
+      "location": "Race-Day Number Pickup Policy.",
+      "excerptLocations": [
+        {
+          "text": "There will be no bib pickup at Central Park",
+          "extractedTextLine": 330
+        }
+      ]
+    },
+    {
+      "fact": "The page says participants receive a wristband for one accompanying spectator; start/course and some other race-day arrangements say to check back later. This does not establish unrestricted general spectating.",
+      "excerpt": "wristband for their +1 guest",
+      "location": "Race Day Information; Start Location / The Course and related pending fields.",
+      "excerptLocations": [
+        {
+          "text": "wristband for their +1 guest",
+          "extractedTextLine": 332
+        }
+      ]
+    }
+  ],
+  "notes": "Teammate capture independently read; no refetch claimed. Dynamic registration prices/availability are recorded only as a snapshot, not guaranteed in the public manuscript. Race start/countdown distinction, advance bib collection and guest rule retained.",
+  "excerptWordCount": 24,
+  "extractedData": {
+    "date": "2026-12-31",
+    "eventListingTime": "23:59 America/New_York",
+    "raceDistanceMiles": 4,
+    "announcedFireworks": "midnight according to organizer; not a visibility guarantee throughout the park",
+    "bibCollection": "RUNCENTER in advance, not Central Park",
+    "lastListedBibPickup": "2026-12-31 22:00",
+    "guest": "participant +1 wristband",
+    "pendingAtCapture": [
+      "start point",
+      "course details",
+      "some bag-check/amenity details"
+    ],
+    "registrationSnapshot": "one option near capacity; another sold out; no availability promise"
+  }
+}

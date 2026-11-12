@@ -1,0 +1,86 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Supertree_Grove,_Gardens_by_the_Bay,_Singapore1.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Supertree_Grove,_Gardens_by_the_Bay,_Singapore1.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-12T16:27:37.333Z",
+  "contentSha256": "beecb70a847752f3de70b91917bb11e478c57ca8d4e8af2b9d3328a280790080",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The current individual file page was actually reread and still explicitly offers the selected open licence. The supplied author and title are retained in the new private alias credit. No old manifest row or image bytes are edited.",
+      "excerpt": "This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication .",
+      "location": "Current Commons individual file page, Information and Licensing sections."
+    },
+    {
+      "fact": "The source identifies the actual Supertree Grove viewed from Marina Bay Sands in November 2024, with a Flickr source and a Commons licence-review record. The existing bytes show the grove and gardens, not a New Year event, future fireworks or a guaranteed view from ground level.",
+      "excerpt": "Supertree Grove from the observation platform on top of the Marina Bay Sands hotel.",
+      "location": "Individual source description/title, verified source date and actual visual inspection of unchanged locally served image."
+    },
+    {
+      "fact": "The applicable licence deed was actually read and archived. Attribution, supplied title, licence/source links, change indication and ShareAlike are retained where applicable. CC0 status does not imply endorsement or future event occurrence.",
+      "excerpt": "You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+      "location": "Applicable CC deed read on the recorded date; HTTP status, body and SHA-256 archived."
+    },
+    {
+      "fact": "The already served main WebP and every listed responsive variant were read byte-for-byte. Each current SHA-256 and dimensions exactly match the old manifest. This revalidation does not claim a new download of the source full-resolution original or a current photograph.",
+      "excerpt": "Unchanged served-asset SHA-256 and dimension ledger attached as localAssetVerification.",
+      "location": "Existing public/images files, Sharp metadata and SHA-256 verification."
+    }
+  ],
+  "sourcePhotoDate": "2024-11-01",
+  "sourcePhotoTitle": "Supertree Grove, Gardens by the Bay, Singapore1.jpg",
+  "sourcePhotoAuthor": "Mustang Joe",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "finalUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:27:38.001Z",
+    "contentType": "text/html",
+    "contentSha256": "abb4d48fc8b85de52b377dd105532c6c549f515d492a8e1712bc99e7316a1f12",
+    "retryAfter": null
+  },
+  "localAssetVerification": {
+    "existingImageId": "singapore-1",
+    "servedSrc": "/images/singapore-1.webp",
+    "servedSha256": "69c7caa8de31b9448bed88620a21800bd24245aecb192e59e802b7468ba0bf32",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "variants": [
+      {
+        "src": "/images/singapore-1-480w.webp",
+        "width": 480,
+        "height": 270,
+        "sha256": "f496fdf36e72eee3e39f80b0b912fa2e77a3a2132feabacf3ccc858e682ab15d",
+        "bytes": 47020
+      },
+      {
+        "src": "/images/singapore-1-800w.webp",
+        "width": 800,
+        "height": 450,
+        "sha256": "2c5fdf0d13b3661133ffe328dd33a7cc0af019f82070128d308ac4a12804ce49",
+        "bytes": 133386
+      },
+      {
+        "src": "/images/singapore-1-1200w.webp",
+        "width": 1200,
+        "height": 675,
+        "sha256": "891377443ac94695506bbf59b74371f9224c10e880be258462ea2a5db52cd402",
+        "bytes": 289356
+      },
+      {
+        "src": "/images/singapore-1.webp",
+        "width": 1280,
+        "height": 720,
+        "sha256": "69c7caa8de31b9448bed88620a21800bd24245aecb192e59e802b7468ba0bf32",
+        "bytes": 427438
+      }
+    ],
+    "oldManifestRowSha256": "b44fb89a5bbd76def98dbc47822c26c5b5d1df7d32647492e121bcb2b83ff6bc",
+    "assetBytesEdited": false,
+    "oldMetadataEdited": false,
+    "sourceFullResolutionDownloaded": false
+  },
+  "notes": "All photographs are archival place documentation. No historical or future New Year event, fireworks, crowd arrangement, venue admission or event viewing position is depicted or guaranteed. Only new private aliases and evidence are prepared; no repository file is changed."
+}

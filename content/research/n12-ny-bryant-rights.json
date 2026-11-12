@@ -1,0 +1,52 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Lawn_at_Bryant_Park,_NYC_IMG_1243.JPG",
+  "fetchedAt": "2026-11-12T16:36:18.527Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Lawn_at_Bryant_Park,_NYC_IMG_1243.JPG",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "b8d606380d9b2d94c578168dc130dd167b78274b565b8bebb482f2e1def528a9",
+  "bytes": 115120,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The individual file identifies the pictured place and names Billy Hathorn at English Wikipedia. Its actual scene and archival date/season were checked against the reused or newly selected image. It is not a photograph of the upcoming 2026/27 celebration.",
+      "excerpt": "Billy Hathorn at English Wikipedia … 28 July 2009 … CC BY-SA 3.0",
+      "location": "Individually read file description/author/date and actual source/served image inspection.",
+      "excerptLocations": [
+        {
+          "text": "Billy Hathorn at English Wikipedia",
+          "extractedTextLine": 99
+        },
+        {
+          "text": "28 July 2009",
+          "extractedTextLine": 93
+        },
+        {
+          "text": "CC BY-SA 3.0",
+          "extractedTextLine": 108
+        }
+      ]
+    },
+    {
+      "fact": "The file explicitly offers CC BY-SA 3.0; that exact option and the applicable CC deed were read. Author/source/licence credit and modifications are retained, including required share-alike conditions.",
+      "excerpt": "CC BY-SA 3.0",
+      "location": "Individual file Licensing/Permission and current captured n12-ny-cc-bysa3 deed.",
+      "excerptLocations": [
+        {
+          "text": "CC BY-SA 3.0",
+          "extractedTextLine": 108
+        }
+      ]
+    }
+  ],
+  "notes": "The summer-lawn photo is deliberately labelled as archive 2009 rather than current ice-rink scenery. Its required attribution wording Billy Hathorn at English Wikipedia is preserved in this new metadata alias; old manifest entries/assets remain untouched.",
+  "excerptWordCount": 11,
+  "rawCaptureFile": "raw/n12-new-york-bryant-park-file.body",
+  "licenceDeedEvidence": "content/research/n12-ny-cc-bysa3.json",
+  "binaryEvidence": {
+    "fact": "The source JPEG was actually downloaded at 1280×960 and hashed. Existing published main/larger WebP hashes are unchanged, and fresh smaller renditions were measured.",
+    "location": "Actual download capture metadata and measured original/derivative bytes.",
+    "evidenceType": "Binary file hashes and dimensions, not an additional quoted text extract.",
+    "sourceCaptureFile": "raw/n12-new-york-bryant-park-photo.json"
+  }
+}

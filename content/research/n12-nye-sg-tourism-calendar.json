@@ -1,0 +1,23 @@
+{
+  "url": "https://www.visitsingapore.com/en/",
+  "finalUrl": "https://www.visitsingapore.com/",
+  "fetchedAt": "2026-11-12T16:25:30.714Z",
+  "httpStatus": 200,
+  "contentType": "text/html;charset=utf-8",
+  "contentSha256": "e8c856132901cd7b181e4b801c6224470950ac91e122a5eac355c9cb50df0fe2",
+  "bytes": 98333,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The current official tourism homepage lists Marina Bay Countdown 2027 with the human-readable date 31 December 2026–1 January 2027. Internal timestamp fields are not used as public event times.",
+      "excerpt": "31 DEC ’26 - 01 JAN ’27",
+      "location": "Public embedded eventSlider[1].eventDate in stb event component, decoded capture [8].data."
+    },
+    {
+      "fact": "The named future edition is 2027, independently of older body text on linked pages.",
+      "excerpt": "Marina Bay Countdown 2027",
+      "location": "Public embedded [8].data.eventSlider[1].eventTitle_t."
+    }
+  ],
+  "notes": "Actual official HTTP200 capture shared by the parent research task and read here from archived rawHTML/text/public JSON. No new fetch is claimed for this derivative evidence. Date, finalURL and raw-byte SHA256 are copied from the checked original capture. Internal CMS timestamps, old2026 operational content and mismatched structured hours are not presented as verified2027 event operations. Facts and schedules were checked12November2026; recheck time-sensitive notices before publication/travel."
+}

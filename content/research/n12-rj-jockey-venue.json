@@ -1,0 +1,46 @@
+{
+  "url": "https://bravaarenajockey.com.br/",
+  "fetchedAt": "2026-11-12T16:36:15.481Z",
+  "finalUrl": "https://bravaarenajockey.com.br/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "fccab8f9027b21200cae9620229f7167d8e0f227b2943a037fcd9253b451a88a",
+  "bytes": 62134,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The operator’s 2026 calendar lists Réveillon Tropical with João Gomes for 31 December. The venue is located at Jockey Club Brasileiro, Praça Santos Dumont 31.",
+      "excerpt": "Réveillon Tropical com João Gomes … Praça Santos Dumont, 31",
+      "location": "Calendar row and venue location block.",
+      "excerptLocations": [
+        {
+          "text": "Réveillon Tropical com João Gomes",
+          "extractedTextLine": 119
+        },
+        {
+          "text": "Praça Santos Dumont, 31",
+          "extractedTextLine": 142
+        }
+      ]
+    },
+    {
+      "fact": "General season age rules expressly may vary by event. Those general conditions are not presented as a specific guaranteed NYE admission rule.",
+      "excerpt": "podendo variar conforme o evento",
+      "location": "Age-classification FAQ.",
+      "excerptLocations": [
+        {
+          "text": "podendo variar conforme o evento",
+          "extractedTextLine": 125
+        }
+      ]
+    }
+  ],
+  "notes": "Actual operator calendar and FAQ read. Other 2026 concerts, general door-opening times and variable age exceptions are not copied to the NYE product.",
+  "excerptWordCount": 14,
+  "extractedData": {
+    "calendarDate": "2026-12-31",
+    "districtAsOperatorLists": "Gávea",
+    "addressNumber": 31,
+    "ageRules": "event-specific confirmation needed"
+  }
+}

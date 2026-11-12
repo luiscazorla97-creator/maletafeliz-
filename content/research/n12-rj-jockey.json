@@ -1,0 +1,68 @@
+{
+  "url": "https://riotur.rio/evento-calendario/joao-gomes-na-brava-arena-jockey/",
+  "finalUrl": "https://riotur.rio/evento-calendario/joao-gomes-na-brava-arena-jockey/",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-12T16:25:49.874Z",
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "414a762ffbdc0ef059a7d5f8c1db0344d544f34c0ea8e745966d64a75ab69a3a",
+  "bytes": 54874,
+  "retryAfter": null,
+  "provenance": {
+    "method": "Teammate capture reused byte-for-byte and independently read; no additional HTTP request claimed",
+    "metadataFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/captures/rio-jockey.json"
+  },
+  "facts": [
+    {
+      "fact": "Riotur explicitly announces João Gomes at Brava Arena Jockey during Réveillon Tropical 2027, on 31 December for the transition from 2026 to 2027. This is a separately ticketed venue event, not the Copacabana public-stage line-up.",
+      "excerpt": "João Gomes … Réveillon Tropical 2027 … virada de 2026 para 2027",
+      "location": "Event’s opening paragraph.",
+      "excerptLocations": [
+        {
+          "text": "João Gomes",
+          "extractedTextLine": 1
+        },
+        {
+          "text": "Réveillon Tropical 2027",
+          "extractedTextLine": 39
+        },
+        {
+          "text": "virada de 2026 para 2027",
+          "extractedTextLine": 39
+        }
+      ]
+    },
+    {
+      "fact": "The event service box gives a start from 20:00 and Praça Santos Dumont 31; it links ticket acquisition but does not supply a numeric price.",
+      "excerpt": "Horário: a partir de 20h … Praça Santos Dumont, 31 … Ingressos:",
+      "location": "Serviço box and ticket link.",
+      "excerptLocations": [
+        {
+          "text": "Horário: a partir de 20h",
+          "extractedTextLine": 42
+        },
+        {
+          "text": "Praça Santos Dumont, 31",
+          "extractedTextLine": 44
+        },
+        {
+          "text": "Ingressos:",
+          "extractedTextLine": 45
+        }
+      ]
+    }
+  ],
+  "notes": "Reused catalog-agent capture independently read and rehashed, with original timestamp retained. Venue calendar confirms 31 Dec 2026. No all-inclusive benefits, exact end time, age entitlement or public-beach programme is invented.",
+  "excerptWordCount": 20,
+  "extractedData": {
+    "eventDate": "2026-12-31",
+    "yearTransition": [
+      "2026",
+      "2027"
+    ],
+    "listedFrom": "20:00",
+    "venue": "Brava Arena Jockey",
+    "address": "Praça Santos Dumont, 31, Rio de Janeiro",
+    "listedArtist": "João Gomes",
+    "ticketPrice": "not stated in captured Riotur listing"
+  }
+}

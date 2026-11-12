@@ -1,0 +1,91 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_The_Rocks_--_2019_--_2133.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_The_Rocks_--_2019_--_2133.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-12T16:27:35.564Z",
+  "contentSha256": "d279df0b0299cefd4a365fc91353cc4026c45c9af39b572a2058dbad442c8b20",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The current individual file page was actually reread and still explicitly offers the selected open licence. The supplied author and title are retained in the new private alias credit. No old manifest row or image bytes are edited.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.",
+      "location": "Current Commons individual file page, Information and Licensing sections."
+    },
+    {
+      "fact": "The specific source names The Rocks in Sydney. Its waterfront buildings and shoreline are visible. This is not proof of access to any New Year viewing zone, a restaurant event or an unobstructed midnight view.",
+      "excerpt": "The Rocks , Sydney , New South Wales , Australia",
+      "location": "Individual source description/title, verified source date and actual visual inspection of unchanged locally served image."
+    },
+    {
+      "fact": "The applicable licence deed was actually read and archived. Attribution, supplied title, licence/source links, change indication and ShareAlike are retained where applicable. CC0 status does not imply endorsement or future event occurrence.",
+      "excerpt": "ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.",
+      "location": "Applicable CC deed read on the recorded date; HTTP status, body and SHA-256 archived."
+    },
+    {
+      "fact": "The already served main WebP and every listed responsive variant were read byte-for-byte. Each current SHA-256 and dimensions exactly match the old manifest. This revalidation does not claim a new download of the source full-resolution original or a current photograph.",
+      "excerpt": "Unchanged served-asset SHA-256 and dimension ledger attached as localAssetVerification.",
+      "location": "Existing public/images files, Sharp metadata and SHA-256 verification."
+    },
+    {
+      "fact": "The current file page names a specific attribution form. The new alias supplies it in full; existing historical metadata is preserved and any wider historical attribution correction is for root to coordinate separately.",
+      "excerpt": "The attribution should be done as follows: Dietmar Rabich / Wikimedia Commons / “Sydney (AU), The Rocks -- 2019 -- 2133” / CC BY-SA 4.0",
+      "location": "Specific individual file page, Permission/Attribution requirement."
+    }
+  ],
+  "sourcePhotoDate": "2019-10-23",
+  "sourcePhotoTitle": "Sydney (AU), The Rocks -- 2019 -- 2133.jpg",
+  "sourcePhotoAuthor": "Dietmar Rabich",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:27:37.812Z",
+    "contentType": "text/html",
+    "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+    "retryAfter": null
+  },
+  "localAssetVerification": {
+    "existingImageId": "place-sydney-the-rocks-neighbourhood",
+    "servedSrc": "/images/place-sydney-the-rocks-neighbourhood.webp",
+    "servedSha256": "a161b6a46f7ce8dfe7c82ecb36a328455d848bc19dc77922b01312786374f88b",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "variants": [
+      {
+        "src": "/images/place-sydney-the-rocks-neighbourhood-480w.webp",
+        "width": 480,
+        "height": 270,
+        "sha256": "8ff5ac77e3b1d4ff20521b0311f753d4681e5af45e0ccd1a7943113c4220f117",
+        "bytes": 27546
+      },
+      {
+        "src": "/images/place-sydney-the-rocks-neighbourhood-800w.webp",
+        "width": 800,
+        "height": 450,
+        "sha256": "6eefdefb5ab977240e8033ba56387700e9ed0b76894584f0ba1d0d30e7796f0a",
+        "bytes": 72260
+      },
+      {
+        "src": "/images/place-sydney-the-rocks-neighbourhood-1200w.webp",
+        "width": 1200,
+        "height": 675,
+        "sha256": "97d6b7920ecd04d2177295e4f6cfc5985dfd3fd49cd337bca70439b4e19945a2",
+        "bytes": 147814
+      },
+      {
+        "src": "/images/place-sydney-the-rocks-neighbourhood.webp",
+        "width": 1280,
+        "height": 720,
+        "sha256": "a161b6a46f7ce8dfe7c82ecb36a328455d848bc19dc77922b01312786374f88b",
+        "bytes": 223206
+      }
+    ],
+    "oldManifestRowSha256": "5b9e21e183e56f14402a47ed2135dc887eb3b45156b312540668d928d5ca8f41",
+    "assetBytesEdited": false,
+    "oldMetadataEdited": false,
+    "sourceFullResolutionDownloaded": false
+  },
+  "notes": "All photographs are archival place documentation. No historical or future New Year event, fireworks, crowd arrangement, venue admission or event viewing position is depicted or guaranteed. Only new private aliases and evidence are prepared; no repository file is changed."
+}

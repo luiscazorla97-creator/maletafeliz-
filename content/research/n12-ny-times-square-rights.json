@@ -1,0 +1,52 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Times_Square,New_York_CC-BY-SA.jpg",
+  "fetchedAt": "2026-11-12T16:36:18.188Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Times_Square,New_York_CC-BY-SA.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "ef0fc9ef53d372f11d222a5f6f5c83d92e54808671909159117b2c0384bf4ba7",
+  "bytes": 127506,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The individual file identifies the pictured place and names Jorge Láscar. Its actual scene and archival date/season were checked against the reused or newly selected image. It is not a photograph of the upcoming 2026/27 celebration.",
+      "excerpt": "Jorge Láscar … Taken on 30 December 2010 … CC BY-SA 2.0",
+      "location": "Individually read file description/author/date and actual source/served image inspection.",
+      "excerptLocations": [
+        {
+          "text": "Jorge Láscar",
+          "extractedTextLine": 97
+        },
+        {
+          "text": "Taken on 30 December 2010",
+          "extractedTextLine": 93
+        },
+        {
+          "text": "CC BY-SA 2.0",
+          "extractedTextLine": 106
+        }
+      ]
+    },
+    {
+      "fact": "The file explicitly offers CC BY-SA 2.0; that exact option and the applicable CC deed were read. Author/source/licence credit and modifications are retained, including required share-alike conditions.",
+      "excerpt": "CC BY-SA 2.0",
+      "location": "Individual file Licensing/Permission and current captured n12-ny-cc-bysa2 deed.",
+      "excerptLocations": [
+        {
+          "text": "CC BY-SA 2.0",
+          "extractedTextLine": 106
+        }
+      ]
+    }
+  ],
+  "notes": "Archive disclosure, actual place identity and permissions were read and retained. Existing article/image metadata is preserved; this new alias serves only the new guide.",
+  "excerptWordCount": 10,
+  "rawCaptureFile": "raw/n12-new-york-times-square-view-file.body",
+  "licenceDeedEvidence": "content/research/n12-ny-cc-bysa2.json",
+  "binaryEvidence": {
+    "fact": "The source JPEG was actually downloaded at 1280×850 and hashed. Existing published main/larger WebP hashes are unchanged, and fresh smaller renditions were measured.",
+    "location": "Actual download capture metadata and measured original/derivative bytes.",
+    "evidenceType": "Binary file hashes and dimensions, not an additional quoted text extract.",
+    "sourceCaptureFile": "raw/n12-new-york-times-square-view-photo.json"
+  }
+}

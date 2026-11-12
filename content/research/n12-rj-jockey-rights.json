@@ -1,0 +1,52 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Jockey_Club_Brasileiro_by_Diego_Baravelli.jpg",
+  "fetchedAt": "2026-11-12T16:37:50.380Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Jockey_Club_Brasileiro_by_Diego_Baravelli.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "bc9991a05a3783d7fe817efd012b9d8de27a8c84d66813122613f2304c25e0f9",
+  "bytes": 119111,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The individual file identifies the pictured place and names Diego Baravelli. Its actual scene and archival date/season were checked against the reused or newly selected image. It is not a photograph of the upcoming 2026/27 celebration.",
+      "excerpt": "Diego Baravelli … 15 October 2016 … CC BY-SA 4.0",
+      "location": "Individually read file description/author/date and actual source/served image inspection.",
+      "excerptLocations": [
+        {
+          "text": "Diego Baravelli",
+          "extractedTextLine": 1
+        },
+        {
+          "text": "15 October 2016",
+          "extractedTextLine": 93
+        },
+        {
+          "text": "CC BY-SA 4.0",
+          "extractedTextLine": 107
+        }
+      ]
+    },
+    {
+      "fact": "The file explicitly offers CC BY-SA 4.0; that exact option and the applicable CC deed were read. Author/source/licence credit and modifications are retained, including required share-alike conditions.",
+      "excerpt": "CC BY-SA 4.0",
+      "location": "Individual file Licensing/Permission and current captured n12-rj-cc-bysa4 deed.",
+      "excerptLocations": [
+        {
+          "text": "CC BY-SA 4.0",
+          "extractedTextLine": 107
+        }
+      ]
+    }
+  ],
+  "notes": "The photograph shows the correct Rio Hipódromo da Gávea/Jockey complex, corroborated by operator/club location. A visible public VRT permission notice was read, but no restricted correspondence was accessed. No temporary stage layout or 2027 view is inferred.",
+  "excerptWordCount": 8,
+  "rawCaptureFile": "raw/n12-rj-jockey-file.body",
+  "licenceDeedEvidence": "content/research/n12-rj-cc-bysa4.json",
+  "binaryEvidence": {
+    "fact": "The source JPEG was actually downloaded at 1280×853 and hashed. New optimized variants were measured and hashed.",
+    "location": "Actual download capture metadata and measured original/derivative bytes.",
+    "evidenceType": "Binary file hashes and dimensions, not an additional quoted text extract.",
+    "sourceCaptureFile": "raw/n12-rj-jockey-photo.json"
+  }
+}

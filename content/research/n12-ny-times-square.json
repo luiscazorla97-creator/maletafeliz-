@@ -1,0 +1,33 @@
+{
+  "url": "https://www.timessquarenyc.org/nye",
+  "finalUrl": "https://www.timessquarenyc.org/nye/nye-landing",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-12T16:25:50.959Z",
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "a6b2f8e4af45884b82284826e97502aa6a56a9432747d2c587fc432b0c31c108",
+  "bytes": 144947,
+  "retryAfter": null,
+  "provenance": {
+    "method": "Teammate capture reused byte-for-byte and independently read; no additional HTTP request claimed",
+    "metadataFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/captures/nyc-times-square.json"
+  },
+  "facts": [
+    {
+      "fact": "The live organizer landing page has a 2027 heading but its welcoming prose still refers to 2025. It establishes the annual Ball Drop tradition at One Times Square, not a fully checked 2026/27 performer or operational programme.",
+      "excerpt": "2027 … New Year’s Eve 2025",
+      "location": "Main event heading and final sentence of opening description.",
+      "excerptLocations": [
+        {
+          "text": "2027",
+          "extractedTextLine": 63
+        },
+        {
+          "text": "New Year's Eve 2025",
+          "extractedTextLine": 67
+        }
+      ]
+    }
+  ],
+  "notes": "Actual catalog-agent HTTP capture reused byte-for-byte and independently read. No additional request or refreshed timestamp claimed. Old-year prose, live schedules and access maps are not promoted to 2027.",
+  "excerptWordCount": 5
+}

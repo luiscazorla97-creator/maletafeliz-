@@ -1,0 +1,91 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-12T16:27:33.235Z",
+  "contentSha256": "160bb77f27341d2a114c873f91548440e0e85c67161b40e1c73c9f2b04b5f1d7",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The current individual file page was actually reread and still explicitly offers the selected open licence. The supplied author and title are retained in the new private alias credit. No old manifest row or image bytes are edited.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.",
+      "location": "Current Commons individual file page, Information and Licensing sections."
+    },
+    {
+      "fact": "The archival exterior photograph shows Sydney Opera House and its surrounding waterfront platform from Harbour Bridge. It documents the opera-house place, not a New Year event, a reserved viewing position or a guaranteed view from the Forecourt. The source describes exposure blending by the original photographer; no new blending or generative alteration is performed.",
+      "excerpt": "A exposure blended photo of the Sydney Opera House , as viewed from the Sydney Harbour Bridge .",
+      "location": "Individual source description/title, verified source date and actual visual inspection of unchanged locally served image."
+    },
+    {
+      "fact": "The applicable licence deed was actually read and archived. Attribution, supplied title, licence/source links, change indication and ShareAlike are retained where applicable. CC0 status does not imply endorsement or future event occurrence.",
+      "excerpt": "ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.",
+      "location": "Applicable CC deed read on the recorded date; HTTP status, body and SHA-256 archived."
+    },
+    {
+      "fact": "The already served main WebP and every listed responsive variant were read byte-for-byte. Each current SHA-256 and dimensions exactly match the old manifest. This revalidation does not claim a new download of the source full-resolution original or a current photograph.",
+      "excerpt": "Unchanged served-asset SHA-256 and dimension ledger attached as localAssetVerification.",
+      "location": "Existing public/images files, Sharp metadata and SHA-256 verification."
+    },
+    {
+      "fact": "The current file page names a specific attribution form. The new alias supplies it in full; existing historical metadata is preserved and any wider historical attribution correction is for root to coordinate separately.",
+      "excerpt": "Attribution of this image to the author (DAVID ILIFF) is also required",
+      "location": "Specific individual file page, Permission/Attribution requirement."
+    }
+  ],
+  "sourcePhotoDate": "2008-12-02",
+  "sourcePhotoTitle": "Sydney Opera House - Dec 2008.jpg",
+  "sourcePhotoAuthor": "DAVID ILIFF",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:27:37.671Z",
+    "contentType": "text/html",
+    "contentSha256": "9a17cd36de36b242cbe4234773116f2036f86a8ce4459af8b37fd120482ca931",
+    "retryAfter": null
+  },
+  "localAssetVerification": {
+    "existingImageId": "sydney-detail",
+    "servedSrc": "/images/sydney-detail.webp",
+    "servedSha256": "5db29ac9d9efcd6b96192c0988e473cb6947b47475ed3999a4649eb7ff061c51",
+    "dimensions": [
+      1280,
+      707
+    ],
+    "variants": [
+      {
+        "src": "/images/sydney-detail-480w.webp",
+        "width": 480,
+        "height": 265,
+        "sha256": "7c5baf05e1c9f1491edc00e377b202f1bd6c216ac24c2839e62a12fa2de9a0ed",
+        "bytes": 20020
+      },
+      {
+        "src": "/images/sydney-detail-800w.webp",
+        "width": 800,
+        "height": 442,
+        "sha256": "816d14de49b44f127d3cf5bac0d11bb104c40d925888e7a8dc2b0ae69ec57763",
+        "bytes": 49928
+      },
+      {
+        "src": "/images/sydney-detail-1200w.webp",
+        "width": 1200,
+        "height": 663,
+        "sha256": "442ca653104642eb90f403279d1d59ec716c509752ffd06f481c821b50da965d",
+        "bytes": 96646
+      },
+      {
+        "src": "/images/sydney-detail.webp",
+        "width": 1280,
+        "height": 707,
+        "sha256": "5db29ac9d9efcd6b96192c0988e473cb6947b47475ed3999a4649eb7ff061c51",
+        "bytes": 149592
+      }
+    ],
+    "oldManifestRowSha256": "639fc6d925291c3f5879dd0093f21541aee50389ce1756ff16dc70b9191fafe4",
+    "assetBytesEdited": false,
+    "oldMetadataEdited": false,
+    "sourceFullResolutionDownloaded": false
+  },
+  "notes": "All photographs are archival place documentation. No historical or future New Year event, fireworks, crowd arrangement, venue admission or event viewing position is depicted or guaranteed. Only new private aliases and evidence are prepared; no repository file is changed."
+}

@@ -1,0 +1,91 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Royal_Botanic_Gardens_--_2019_--_3079.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Royal_Botanic_Gardens_--_2019_--_3079.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-12T16:27:34.897Z",
+  "contentSha256": "6244f84f955cd012d74342934c37dc054075099052e09bc09289a9d115164e15",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The current individual file page was actually reread and still explicitly offers the selected open licence. The supplied author and title are retained in the new private alias credit. No old manifest row or image bytes are edited.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.",
+      "location": "Current Commons individual file page, Information and Licensing sections."
+    },
+    {
+      "fact": "The specific source names Sydney Royal Botanic Gardens and visually shows a planted garden specimen and paths. It documents the garden as a place; it does not show or promise a particular New Year ticket area, harbour viewing line or future crowd layout.",
+      "excerpt": "Royal Botanic Gardens , Sydney , New South Wales , Australia",
+      "location": "Individual source description/title, verified source date and actual visual inspection of unchanged locally served image."
+    },
+    {
+      "fact": "The applicable licence deed was actually read and archived. Attribution, supplied title, licence/source links, change indication and ShareAlike are retained where applicable. CC0 status does not imply endorsement or future event occurrence.",
+      "excerpt": "ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.",
+      "location": "Applicable CC deed read on the recorded date; HTTP status, body and SHA-256 archived."
+    },
+    {
+      "fact": "The already served main WebP and every listed responsive variant were read byte-for-byte. Each current SHA-256 and dimensions exactly match the old manifest. This revalidation does not claim a new download of the source full-resolution original or a current photograph.",
+      "excerpt": "Unchanged served-asset SHA-256 and dimension ledger attached as localAssetVerification.",
+      "location": "Existing public/images files, Sharp metadata and SHA-256 verification."
+    },
+    {
+      "fact": "The current file page names a specific attribution form. The new alias supplies it in full; existing historical metadata is preserved and any wider historical attribution correction is for root to coordinate separately.",
+      "excerpt": "The attribution should be done as follows: Dietmar Rabich / Wikimedia Commons / “Sydney (AU), Royal Botanic Gardens -- 2019 -- 3079” / CC BY-SA 4.0",
+      "location": "Specific individual file page, Permission/Attribution requirement."
+    }
+  ],
+  "sourcePhotoDate": "2019-10-25",
+  "sourcePhotoTitle": "Sydney (AU), Royal Botanic Gardens -- 2019 -- 3079.jpg",
+  "sourcePhotoAuthor": "Dietmar Rabich",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:27:37.812Z",
+    "contentType": "text/html",
+    "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+    "retryAfter": null
+  },
+  "localAssetVerification": {
+    "existingImageId": "place-sydney-botanic-garden",
+    "servedSrc": "/images/place-sydney-botanic-garden.webp",
+    "servedSha256": "5ab1a9f44300072f60e0522880bca6491ff399b794c574d52c17628d3a39088f",
+    "dimensions": [
+      1280,
+      853
+    ],
+    "variants": [
+      {
+        "src": "/images/place-sydney-botanic-garden-480w.webp",
+        "width": 480,
+        "height": 320,
+        "sha256": "2a4dff6e1aad6a6820f9c8f93c0524395cadd126e192dc6e39977ca19b7221a1",
+        "bytes": 54262
+      },
+      {
+        "src": "/images/place-sydney-botanic-garden-800w.webp",
+        "width": 800,
+        "height": 533,
+        "sha256": "c8977d9b2d5921db0d0932b36751947c2e8d6b2890c07ec5ab25ee7e612e1a3d",
+        "bytes": 154778
+      },
+      {
+        "src": "/images/place-sydney-botanic-garden-1200w.webp",
+        "width": 1200,
+        "height": 800,
+        "sha256": "6965dd07d91c2843db8d0cab69c741310b04018562e7634aeaab26bc5a64d041",
+        "bytes": 331086
+      },
+      {
+        "src": "/images/place-sydney-botanic-garden.webp",
+        "width": 1280,
+        "height": 853,
+        "sha256": "5ab1a9f44300072f60e0522880bca6491ff399b794c574d52c17628d3a39088f",
+        "bytes": 491042
+      }
+    ],
+    "oldManifestRowSha256": "2727ce1ecea61d30bb4366914110ca2ffb79def92808dc0f49ca5cbe97f5093a",
+    "assetBytesEdited": false,
+    "oldMetadataEdited": false,
+    "sourceFullResolutionDownloaded": false
+  },
+  "notes": "All photographs are archival place documentation. No historical or future New Year event, fireworks, crowd arrangement, venue admission or event viewing position is depicted or guaranteed. Only new private aliases and evidence are prepared; no repository file is changed."
+}

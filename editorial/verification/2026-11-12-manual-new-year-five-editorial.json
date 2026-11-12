@@ -1,0 +1,3620 @@
+{
+  "reviewedAt": "2026-11-12T19:33:45.034Z",
+  "status": "Selected for mandatory production checks; not publicly verified",
+  "publiclyVerified": false,
+  "executionId": "453cb84b-f1a6-454a-8e67-3fada19e26e1",
+  "topicIds": [
+    "sydney-new-year-2027",
+    "singapore-new-year-2027",
+    "london-new-year-2027",
+    "new-york-new-year-2027",
+    "rio-new-year-2027"
+  ],
+  "originals": 5,
+  "localizedVersions": 10,
+  "photos": 15,
+  "optimizedPhotoFiles": 72,
+  "newOptimizedFiles": 28,
+  "reusedOptimizedFiles": 44,
+  "providedOriginals": 8,
+  "sourceDocuments": 34,
+  "versions": [
+    {
+      "id": "sydney-new-year-2027",
+      "locale": "es",
+      "words": 1595,
+      "file": "content/articles/sydney-new-year-2027.es.json",
+      "fileSha256": "198214b0c0573bdaff51b3072a222a2cb2fe869321ce5aea5b0df4ffb42f5c6c",
+      "contentHash": "e0c5e3690552ea6996c758d6ced5f96cd7a3df45425f5e0a50fd07032f0d5142",
+      "draftContentHash": "7408bab113bf2dc942b79f3b7af1a834fcd49941831bfb3f19d045833ffcdee9",
+      "reviewedDraftFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/sydney-new-year-2027/content/articles/sydney-new-year-2027.es.json",
+      "reviewedDraftFileSha256": "6d7499d146decc63c5c0b172d77f3d2d3d693d45108632a17885b1f9602f15b1",
+      "fullTextActuallyRead": true,
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "imageRights": true,
+        "imageRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "reviewEvidence": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/asia-london-editorial.json",
+          "sha256": "e26155471771fed83b7a10c882fe8d7cd8849322783a3e81c67b0a58a8e3de8a"
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/asia-revalidation.json",
+          "sha256": "2d6f2079606a1791ba8e01bda064688965b408ae2c47c7ecf56e327a806404e8"
+        }
+      ]
+    },
+    {
+      "id": "sydney-new-year-2027",
+      "locale": "en",
+      "words": 1427,
+      "file": "content/articles/sydney-new-year-2027.en.json",
+      "fileSha256": "536ddb948d44f03dd96ac0b9c9cba118c6d62f04657aa45c3122204b88b4c030",
+      "contentHash": "956fc109ab267c9d7de8c0d7af1dd54b8a1bd28a2ac1de267f3f035926613cb5",
+      "draftContentHash": "d96fa68ab4794e533ced36cca0a818ca64350b7be9d654a69820950e39b3d75d",
+      "reviewedDraftFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/sydney-new-year-2027/content/articles/sydney-new-year-2027.en.json",
+      "reviewedDraftFileSha256": "a8b6defee14a0ff57954972393295f1d6781d09d359c7a9c25494681f9bfeccf",
+      "fullTextActuallyRead": true,
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "imageRights": true,
+        "imageRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "reviewEvidence": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/asia-london-editorial.json",
+          "sha256": "e26155471771fed83b7a10c882fe8d7cd8849322783a3e81c67b0a58a8e3de8a"
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/asia-revalidation.json",
+          "sha256": "2d6f2079606a1791ba8e01bda064688965b408ae2c47c7ecf56e327a806404e8"
+        }
+      ]
+    },
+    {
+      "id": "singapore-new-year-2027",
+      "locale": "es",
+      "words": 2035,
+      "file": "content/articles/singapore-new-year-2027.es.json",
+      "fileSha256": "948b3d535bda25acd4f7aafd9c10feacf4f9343da5599be4c9ebc3906d3d43d9",
+      "contentHash": "a6fcacce5d4b9c20770e4ecc6473557b2ce88f002304b378d151e1656dbcd9af",
+      "draftContentHash": "bb23299d9dc401f24d873c2aca3e7e32e52b0864351ad79022acab56a45f2133",
+      "reviewedDraftFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/singapore-new-year-2027/staged/content/articles/singapore-new-year-2027.es.json",
+      "reviewedDraftFileSha256": "ae82a2df791c666b9ced6006a22a56d2f6f484622aab30ef189d10e198d1c4ec",
+      "fullTextActuallyRead": true,
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "imageRights": true,
+        "imageRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "reviewEvidence": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/asia-london-editorial.json",
+          "sha256": "e26155471771fed83b7a10c882fe8d7cd8849322783a3e81c67b0a58a8e3de8a"
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/asia-revalidation.json",
+          "sha256": "2d6f2079606a1791ba8e01bda064688965b408ae2c47c7ecf56e327a806404e8"
+        }
+      ]
+    },
+    {
+      "id": "singapore-new-year-2027",
+      "locale": "en",
+      "words": 1905,
+      "file": "content/articles/singapore-new-year-2027.en.json",
+      "fileSha256": "7c4d17f5e37dcda043a5d8333e76f5df981ea0eeaede571d0d8f6657a88ccf13",
+      "contentHash": "2b8f9a93365600c9bd9b81ec4453d50ef0d5979efe465fcedb33c753b833237a",
+      "draftContentHash": "7a626d04065c120589f86a41d7250a4c6ac2007f4f0ab4f5563541addce2eb11",
+      "reviewedDraftFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/singapore-new-year-2027/staged/content/articles/singapore-new-year-2027.en.json",
+      "reviewedDraftFileSha256": "9fc3a6b0a1dc2584e22c0e4c67b465cbeac1ec57def58273b6c7eff960cec8f0",
+      "fullTextActuallyRead": true,
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "imageRights": true,
+        "imageRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "reviewEvidence": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/asia-london-editorial.json",
+          "sha256": "e26155471771fed83b7a10c882fe8d7cd8849322783a3e81c67b0a58a8e3de8a"
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/asia-revalidation.json",
+          "sha256": "2d6f2079606a1791ba8e01bda064688965b408ae2c47c7ecf56e327a806404e8"
+        }
+      ]
+    },
+    {
+      "id": "london-new-year-2027",
+      "locale": "es",
+      "words": 1598,
+      "file": "content/articles/london-new-year-2027.es.json",
+      "fileSha256": "dd4b5bcab9641c3b9c8de42d7ff65111042718b61c9bb55c14989dd74172ab62",
+      "contentHash": "9c8da7569ea3a3d4b237d16eb79120f7d4b4d9c5993a073d2e511143ed81722a",
+      "draftContentHash": "27ad70d4387ad00956e8ded0a6daf8768663eeeea6e367dc9624f1ab7920ff23",
+      "reviewedDraftFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/content/articles/london-new-year-2027.es.json",
+      "reviewedDraftFileSha256": "9510e53690541352ef19cb23fedf67af4461ca85e2050dc59a6031e29e18e925",
+      "fullTextActuallyRead": true,
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "imageRights": true,
+        "imageRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "reviewEvidence": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/asia-london-editorial.json",
+          "sha256": "e26155471771fed83b7a10c882fe8d7cd8849322783a3e81c67b0a58a8e3de8a"
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/review-report.json",
+          "sha256": "99e932b5bcd0c479d6921db1b70386ce6a3c59fbc8b4388a129cd4de3a4c15e7"
+        }
+      ]
+    },
+    {
+      "id": "london-new-year-2027",
+      "locale": "en",
+      "words": 1407,
+      "file": "content/articles/london-new-year-2027.en.json",
+      "fileSha256": "f5bd6a19f36f94a98941c00e0a4576450f977f905d71c9e53e592182e9c68ebc",
+      "contentHash": "66eed84a2f62d12f1e9a90dc19ad536101390b25a5701f9539d0cacf675116dc",
+      "draftContentHash": "0111be6406847201ff1fad6b3cf9b9ca68b6e158c2247c92d52622f2212fab34",
+      "reviewedDraftFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/content/articles/london-new-year-2027.en.json",
+      "reviewedDraftFileSha256": "dfb7845aa2c7b411dbbde81fa28511304d4f9fef3a574985285878717aac18f5",
+      "fullTextActuallyRead": true,
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "imageRights": true,
+        "imageRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "reviewEvidence": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/asia-london-editorial.json",
+          "sha256": "e26155471771fed83b7a10c882fe8d7cd8849322783a3e81c67b0a58a8e3de8a"
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/review-report.json",
+          "sha256": "99e932b5bcd0c479d6921db1b70386ce6a3c59fbc8b4388a129cd4de3a4c15e7"
+        }
+      ]
+    },
+    {
+      "id": "new-york-new-year-2027",
+      "locale": "es",
+      "words": 1669,
+      "file": "content/articles/new-york-new-year-2027.es.json",
+      "fileSha256": "477cdb3b7bc002b91a1b5c8f3a3ce039a2d4313ba569c8038c044bfb4971dd4e",
+      "contentHash": "a3dcb1dafe3b5b0a31cb730fece0fc2aa203f5e58ea6bd2aa65a9220cb900b3f",
+      "draftContentHash": "f99c6b427992bf180d99e27a1398c32f11ab4ad8c2f7166ee64aaa0e5a5199f3",
+      "reviewedDraftFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/articles/new-york-new-year-2027.es.json",
+      "reviewedDraftFileSha256": "f55c96149c74efa658029049ad70f84ec73ea1a671643c2736302d83545cf4e4",
+      "fullTextActuallyRead": true,
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "imageRights": true,
+        "imageRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "reviewEvidence": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/nyc-rio-editorial.json",
+          "sha256": "780fe46605ba375ea2453e182c771616298ba1b62b23e68c1ee221883e968bc2"
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/americas-revalidated-review.json",
+          "sha256": "0e9331d4bcbe46fbe84f17c0287fcc8bc5ba1edc1537d6a82c46d3cbbb17fe97"
+        }
+      ]
+    },
+    {
+      "id": "new-york-new-year-2027",
+      "locale": "en",
+      "words": 1481,
+      "file": "content/articles/new-york-new-year-2027.en.json",
+      "fileSha256": "bf5e08bc6a66b1dcdc302795639b9dc97f999bfbf1450dca59e444a538f3fc72",
+      "contentHash": "ba6bd900537d9851bf94f5c1c7b9d05752136dfc010b1318e8cc1a8f0fadc05c",
+      "draftContentHash": "9fb28349ce06c0fbb101f75b8a1cd7ab6cc813b6c89acc37891342ce31f8e5f3",
+      "reviewedDraftFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/articles/new-york-new-year-2027.en.json",
+      "reviewedDraftFileSha256": "1d5193e541b1491bfc7513fefdac2927a7f8340aa35f54baa5a61b8f491721c2",
+      "fullTextActuallyRead": true,
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "imageRights": true,
+        "imageRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "reviewEvidence": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/nyc-rio-editorial.json",
+          "sha256": "780fe46605ba375ea2453e182c771616298ba1b62b23e68c1ee221883e968bc2"
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/americas-revalidated-review.json",
+          "sha256": "0e9331d4bcbe46fbe84f17c0287fcc8bc5ba1edc1537d6a82c46d3cbbb17fe97"
+        }
+      ]
+    },
+    {
+      "id": "rio-new-year-2027",
+      "locale": "es",
+      "words": 1707,
+      "file": "content/articles/rio-new-year-2027.es.json",
+      "fileSha256": "f1a042731c28bee36220ae0a522392b3140288886e9826a508475e95cb965c1f",
+      "contentHash": "8321f45182c15e084dfac4e5258c9564be64401966c0573123d28d4c7c90d6b0",
+      "draftContentHash": "4629c1cb0da7adf42034fb37c58a3480cbee95f8d097211863e25802531de840",
+      "reviewedDraftFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/staged/articles/rio-new-year-2027.es.json",
+      "reviewedDraftFileSha256": "6ac8841267a4815d40f7e0eadf98c873988f8eed87a2025d261d714f3c1217fd",
+      "fullTextActuallyRead": true,
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "imageRights": true,
+        "imageRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "reviewEvidence": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/nyc-rio-editorial.json",
+          "sha256": "780fe46605ba375ea2453e182c771616298ba1b62b23e68c1ee221883e968bc2"
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/americas-revalidated-review.json",
+          "sha256": "0e9331d4bcbe46fbe84f17c0287fcc8bc5ba1edc1537d6a82c46d3cbbb17fe97"
+        }
+      ]
+    },
+    {
+      "id": "rio-new-year-2027",
+      "locale": "en",
+      "words": 1531,
+      "file": "content/articles/rio-new-year-2027.en.json",
+      "fileSha256": "4e8cb461663499d617ecbbb25675f11480a61c68fdba980641ba00346bbfa164",
+      "contentHash": "90709d573c26d770cf802048de30407b65f4f3d3df5cc20732cf6a705b48e4df",
+      "draftContentHash": "8bc41ff345aa01f5a265785f6e9a9dabd114ed624cf49804be8cd402e8a83273",
+      "reviewedDraftFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/staged/articles/rio-new-year-2027.en.json",
+      "reviewedDraftFileSha256": "161f1f2f912a6ae6c86881ab84cbf5e6deaa902492f5285c2cdd37f4717d6324",
+      "fullTextActuallyRead": true,
+      "checks": {
+        "facts": true,
+        "sourceRelevance": true,
+        "imageRights": true,
+        "imageRelevance": true,
+        "language": true,
+        "originality": true,
+        "usefulness": true,
+        "timeSensitiveFacts": true,
+        "internalLinks": true
+      },
+      "reviewEvidence": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/nyc-rio-editorial.json",
+          "sha256": "780fe46605ba375ea2453e182c771616298ba1b62b23e68c1ee221883e968bc2"
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/americas-revalidated-review.json",
+          "sha256": "0e9331d4bcbe46fbe84f17c0287fcc8bc5ba1edc1537d6a82c46d3cbbb17fe97"
+        }
+      ]
+    }
+  ],
+  "independentReview": [
+    {
+      "topic": "sydney-new-year-2027",
+      "path": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/asia-revalidation.json",
+      "sha256": "2d6f2079606a1791ba8e01bda064688965b408ae2c47c7ecf56e327a806404e8",
+      "reviewedAt": "2026-11-12T19:27:09.481237+00:00"
+    },
+    {
+      "topic": "singapore-new-year-2027",
+      "path": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/asia-revalidation.json",
+      "sha256": "2d6f2079606a1791ba8e01bda064688965b408ae2c47c7ecf56e327a806404e8",
+      "reviewedAt": "2026-11-12T19:27:09.481237+00:00"
+    },
+    {
+      "topic": "london-new-year-2027",
+      "path": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/review-report.json",
+      "sha256": "99e932b5bcd0c479d6921db1b70386ce6a3c59fbc8b4388a129cd4de3a4c15e7",
+      "reviewedAt": "2026-11-12T19:24:38.662Z"
+    },
+    {
+      "topic": "new-york-new-year-2027",
+      "path": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/americas-revalidated-review.json",
+      "sha256": "0e9331d4bcbe46fbe84f17c0287fcc8bc5ba1edc1537d6a82c46d3cbbb17fe97",
+      "reviewedAt": "2026-11-12T19:30:02.281Z"
+    },
+    {
+      "topic": "rio-new-year-2027",
+      "path": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/americas-revalidated-review.json",
+      "sha256": "0e9331d4bcbe46fbe84f17c0287fcc8bc5ba1edc1537d6a82c46d3cbbb17fe97",
+      "reviewedAt": "2026-11-12T19:30:02.281Z"
+    }
+  ],
+  "rootVisualReview": {
+    "actuallyViewed": true,
+    "contacts": [
+      {
+        "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/photos/contact-sydney.jpg",
+        "sha256": "794052afe7ffa1240aff25b9693ccc67846863d8c6fe8ef813c378963031e83b"
+      },
+      {
+        "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/photos/contact-singapore.jpg",
+        "sha256": "512fa2f9d4a95380a89ed21ad1015545f920676fdfaa106e77412e56805bb591"
+      },
+      {
+        "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/photos/contact-london.jpg",
+        "sha256": "e97a7aff34cfabbd021fbe3d82007cd90dae98290c19ad8c1f09a002b4c01afd"
+      },
+      {
+        "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/photos/contact-new-york.jpg",
+        "sha256": "45a8145320ec2238a84ad6174efa1ca41335818d0c920e05df987da1a70f56f4"
+      },
+      {
+        "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/photos/contact-rio.jpg",
+        "sha256": "6a4c96699d3d1c2a9c9fc721cf7d7926c5cbc31fcb1410f31eb4f924f5afc968"
+      }
+    ]
+  },
+  "historicalContentPreserved": true,
+  "scheduleChanged": false,
+  "priorVerifiedOriginalsToday": 2,
+  "expectedUniqueOriginalsTodayAfterVerification": 7,
+  "revalidationEvidence": {
+    "originalCitedCapturePolicy": "Genuine initial same-day citation records are retained; later real HTTP revalidation is supplemental and is not relabelled as the original download.",
+    "freshOfficialSources": [
+      {
+        "id": "n12-nye-syd-city",
+        "url": "https://www.sydneynewyearseve.com/",
+        "kind": "official-event",
+        "startedAt": "2026-11-12T19:22:26.218Z",
+        "fetchedAt": "2026-11-12T19:22:27.202Z",
+        "finalUrl": "https://www.sydneynewyearseve.com/",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "retryAfter": null,
+        "bytes": 183733,
+        "contentSha256": "30a9a5524b9a8849640d3e1955a20eaca127872feb9d2dc1740f3a9495fb7e84",
+        "textSha256": "9d78531ad2c5a89b027ff627a46443de062ee82aa5b3aeaa0f21e32ace4e418b",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-city.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-city.txt",
+        "facts": [
+          {
+            "fact": "The City of Sydney advertises fireworks at 9pm and midnight; viewing arrangements must be checked by location rather than assuming all harbour access is identical.",
+            "excerpt": "Fireworks light the harbour at 9pm and midnight.",
+            "location": "Homepage event introduction; current site copyright 2026 and linked 2026 venue pages establish edition",
+            "normalizedCharacterOffset": 564,
+            "currentContext": "ear's Eve like nowhere else The countdown is on. Come and celebrate on the harbour. Plan your night Countdown to midnight 0 Days 00 Hours 00 Minutes 00 Seconds Fireworks light the harbour at 9pm and midnight. Plan your NYE Everything you need to get to the harbour, find a view, and get home safely. Ticketed Secure your spot for Sydney's biggest night. Find out more Vantage points Plan "
+          }
+        ],
+        "actuallyRead": true,
+        "readScope": "All cited factual excerpts and surrounding relevant source sections, compared with both complete manuscripts; boilerplate not claimed as read."
+      },
+      {
+        "id": "n12-nye-syd-dawes",
+        "url": "https://www.sydneynewyearseve.com/vantage-points/dawes-point-tar-ra-park-the-rocks",
+        "kind": "official-event",
+        "startedAt": "2026-11-12T19:22:27.203Z",
+        "fetchedAt": "2026-11-12T19:22:27.818Z",
+        "finalUrl": "https://www.sydneynewyearseve.com/vantage-points/dawes-point-tar-ra-park-the-rocks",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "retryAfter": null,
+        "bytes": 291684,
+        "contentSha256": "bc339f873ca7a7028967a7a5ae62126b482c3605d335322deef69107c7f0e8f5",
+        "textSha256": "cc2276b55d67427f43a3d808b028747a7a10acabe8204491479a64942dbd4712",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-dawes.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-dawes.txt",
+        "facts": [
+          {
+            "fact": "Dawes Point offers partial fireworks views under the bridge on the southern side; there is no booking or registration requirement for this public site.",
+            "excerpt": "Offers partial fireworks views that become congested during the evening.",
+            "location": "Location introduction; Admission says no ticket, booking or registration required",
+            "normalizedCharacterOffset": 601,
+            "currentContext": " Park Free Alcohol prohibited Toilets Accessible Dawes Point Located under the Sydney Harbour Bridge and Bradfield Highway on the southern side of the harbour. Offers partial fireworks views that become congested during the evening. Previous photo Next photo 1 of 3 Admission, hours and capacity Admission No ticket required. You do not need to book or register to enter. Hours 10am – 1am Capacity Holds up to 32"
+          },
+          {
+            "fact": "Current conditions prohibit re-entry and alcohol; food may be bought or brought, and water/toilet facilities are listed.",
+            "excerpt": "You can buy food here or bring your own",
+            "location": "Food and beverages; restriction list includes no re-entry and no BYO alcohol",
+            "normalizedCharacterOffset": 946,
+            "currentContext": "book or register to enter. Hours 10am – 1am Capacity Holds up to 32,000 people This venue reached capacity at 7:30pm in 2025* About the Site Food and beverages You can buy food here or bring your own Alcohol Alcohol isn’t allowed here Toilets Toilets are available, including accessible facilities Drinking water Drinking water stations are available Restrictions No glass No cam"
+          },
+          {
+            "fact": "The 2025 time at which the venue reached capacity is historical evidence, not a predicted 2026 closing time.",
+            "excerpt": "This venue reached capacity at 7:30pm in 2025",
+            "location": "Admission, hours and capacity; the guide does not publish this as current deadline",
+            "normalizedCharacterOffset": 865,
+            "currentContext": "3 Admission, hours and capacity Admission No ticket required. You do not need to book or register to enter. Hours 10am – 1am Capacity Holds up to 32,000 people This venue reached capacity at 7:30pm in 2025* About the Site Food and beverages You can buy food here or bring your own Alcohol Alcohol isn’t allowed here Toilets Toilets are available, including accessible facilities Drinki"
+          }
+        ],
+        "actuallyRead": true,
+        "readScope": "All cited factual excerpts and surrounding relevant source sections, compared with both complete manuscripts; boilerplate not claimed as read."
+      },
+      {
+        "id": "n12-nye-syd-forecourt",
+        "url": "https://www.sydneyoperahouse.com/experiences/new-years-eve-forecourt",
+        "kind": "official-event",
+        "startedAt": "2026-11-12T19:22:27.819Z",
+        "fetchedAt": "2026-11-12T19:22:28.207Z",
+        "finalUrl": "https://www.sydneyoperahouse.com/experiences/new-years-eve-forecourt",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "retryAfter": null,
+        "bytes": 251568,
+        "contentSha256": "c3d2b811e4a04317936355a9b9342c71d901065ac9fbb52766d2cd19a52a55c8",
+        "textSha256": "65d787fe17b4461489be9bc84200e97bcd294d94ed902c1ec2eb4c1f3581bb64",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-forecourt.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-forecourt.txt",
+        "facts": [
+          {
+            "fact": "The Forecourt event is dated 31 December 2026; bookings are essential and entry is not available without a ticket.",
+            "excerpt": "New Year’s Eve on the Opera House Forecourt is a free ticketed event and bookings are essential. A ticket guarantees your entry. You won’t be able to access the Forecourt without a ticket.",
+            "location": "Plan your visit, free Forecourt conditions",
+            "normalizedCharacterOffset": 2650,
+            "currentContext": "dday and 3pm Free event Arrow Down 1 Streamline Icon: https://streamlinehq.com Ticket* Price General Admission Free *There is a limit of six tickets per person New Year’s Eve on the Opera House Forecourt is a free ticketed event and bookings are essential. A ticket guarantees your entry. You won’t be able to access the Forecourt without a ticket. The only authorised ticket agency for this event is Sydney Opera House . For more information about Authorised Agencies, see the frequently asked questions below. Accessibility Ar"
+          },
+          {
+            "fact": "The operator announces booking release at 10am on 26 December, with at most six tickets per booking; no present-day availability is inferred.",
+            "excerpt": "Bookings open 10am on 26 December. There is a limit of six tickets per booking.",
+            "location": "Event introduction. Footer says Friday 26 December 2026 although calendar gives Saturday; weekday is omitted rather than copied.",
+            "normalizedCharacterOffset": 2058,
+            "currentContext": "rive later in the day - you can enter from 12pm to 3pm. We also want to ensure everyone has a safe and enjoyable time as you celebrate with family and friends. Bookings open 10am on 26 December. There is a limit of six tickets per booking. Sign up now to be reminded to book. Or visit this page on 26 December to get your tickets. Plan your visit Image: Destination NSW More detail Arrow Down 1 Streamline Icon: https:/"
+          },
+          {
+            "fact": "Forecourt admission is fromnoon to 3pm on 31 December 2026, via Macquarie Street only; this differs from paid-event entry hours.",
+            "excerpt": "Access for Forecourt ticket holders is between 12 midday and 3pm on Thursday 31 December 2026. No entry will be permitted for Public Forecourt ticket holders after 3pm.",
+            "location": "Plan your visit > arrival information",
+            "normalizedCharacterOffset": 4199,
+            "currentContext": "to significantly exceed supply. We apologise in advance for any disappointment if you miss out. Warnings Arrow Down 1 Streamline Icon: https://streamlinehq.com Access for Forecourt ticket holders is between 12 midday and 3pm on Thursday 31 December 2026. No entry will be permitted for Public Forecourt ticket holders after 3pm. Entry to the Opera House Forecourt will be via Macquarie Street only. All tickets will be scanned on Macquarie Street, prior to entry to the Sydney Opera House site. Screenshots o"
+          },
+          {
+            "fact": "Food, beverages and glass may not be brought in; an empty water bottle is permitted subject to material/size rules and on-site water stations.",
+            "excerpt": "Empty water bottles are allowed (no metal or glass, and no larger than 1 litre) – free water stations are available on the Forecourt. No BYO alcohol, beverages, food or glass.",
+            "location": "Conditions of entry",
+            "normalizedCharacterOffset": 6588,
+            "currentContext": "rsonal belongings for visual inspection or x-ray screening as a condition of entry. Ticketholders may be electronically screened by Opera House security staff. Empty water bottles are allowed (no metal or glass, and no larger than 1 litre) – free water stations are available on the Forecourt. No BYO alcohol, beverages, food or glass. If you choose to sit on the Monumental Steps, you’re welcome to bring a cushion for comfort, maximum size is 40cm x 40cm and maximum width is 5cm. Cushions should be held when sta"
+          },
+          {
+            "fact": "Registration for the dedicated accessible Forecourt viewing area closed at the end of October 2026; ordinary admission must not be presented as that registration.",
+            "excerpt": "Registrations for this dedicated area closed at the end of October 2026.",
+            "location": "Plan your visit > accessible viewing",
+            "normalizedCharacterOffset": 3380,
+            "currentContext": "s available at the Opera House for registered guests. The area is reserved for d/Deaf people and people with disability to enjoy with their friends and family. Registrations for this dedicated area closed at the end of October 2026. To explore other accessible viewing areas around Sydney, please visit: Accessibility | Sydney New Year's Eve . For any general enquiries, please email accessiblity@sydneyoperahous"
+          }
+        ],
+        "actuallyRead": true,
+        "readScope": "All cited factual excerpts and surrounding relevant source sections, compared with both complete manuscripts; boilerplate not claimed as read."
+      },
+      {
+        "id": "n12-nye-syd-garden",
+        "url": "https://www.botanicgardens.org.au/whats-on/new-years-eve",
+        "kind": "official-event",
+        "startedAt": "2026-11-12T19:22:28.208Z",
+        "fetchedAt": "2026-11-12T19:22:29.347Z",
+        "finalUrl": "https://www.botanicgardens.org.au/whats-on/new-years-eve",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "retryAfter": null,
+        "bytes": 208776,
+        "contentSha256": "e52565c459bb604800de14fb4d956d17278f5a4173e91e4b2a0d20b429cc6b1c",
+        "textSha256": "75074da4d8f3ae29db970eef0f62cb2b8a64d0137e1d61de088ba60a8c9b92b3",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-garden.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-garden.txt",
+        "facts": [
+          {
+            "fact": "The operator announces four free viewing areas for 31 December 2026 across Royal Botanic Garden/The Domain:Mrs Macquaries Point,Fleet Steps,Tarpeian Lawn,Bennelong Lawn.",
+            "excerpt": "Ring in 2027 with the spectacular Sydney New Year's Eve fireworks from four fantastic free vantage points",
+            "location": "Opening introduction and Viewing areas list",
+            "normalizedCharacterOffset": 3949,
+            "currentContext": "Toggle Sub Menu Excursions Early years learning excursions Teacher resources Planning your excursion Vacation Care map Map Donate Home What's on New Year's Eve Ring in 2027 with the spectacular Sydney New Year's Eve fireworks from four fantastic free vantage points across the Royal Botanic Garden Sydney and The Domain Sydney. place place Location Royal Botanic Garden Sydney Mrs Macquarie’s Point and Fleet Steps: entry via Mrs Macquaries Road"
+          },
+          {
+            "fact": "Admission is managed by capacity, with no re-entry after leaving and no movement between separate viewing sites.",
+            "excerpt": "There are no pass outs on New Year’s Eve, if you leave the site, you will not be re-admitted",
+            "location": "Managed entry; following statement prohibits movement between sites",
+            "normalizedCharacterOffset": 5371,
+            "currentContext": "r everyone. Entry to Bennelong Lawn will be from 9am Entry to Tarpeian Lawn will be from 9.30am Entry to Fleet Steps and Mrs Macquaries Point will be from 10am There are no pass outs on New Year’s Eve, if you leave the site, you will not be re-admitted Security bag checks will be in operation at all entry gates and restricted items will not be permitted Each site is self-contained, and no movement is permitted between different "
+          },
+          {
+            "fact": "Public areas require no pre-registration; picnic food is allowed, but outside alcohol is prohibited, contrasting with Forecourt food rules.",
+            "excerpt": "Yes, picnic foods are permitted.",
+            "location": "FAQ > Can I bring my own food? No BYO alcohol and no-pre-registration answers read in same FAQ.",
+            "normalizedCharacterOffset": 9818,
+            "currentContext": "ortable shoes Suitable clothing for all weather conditions An empty water bottle (to be filled on site) or water in a sealed container Can I bring my own food? Yes, picnic foods are permitted. What can't I bring? The following items cannot be brought on site: No glass (including bottles or containers of any kind) No umbrellas over 50cm No tents, cabanas, or gazebos No l"
+          },
+          {
+            "fact": "Accessible viewing uses a separate ballot; the same page gives conflicting application closing dates, so the guide does not publish a deadline and directs applicants to verify the live form.",
+            "excerpt": "Botanic Gardens of Sydney offers a ballot ticketing system to cater for people with disability",
+            "location": "Accessibility section; later accessible FAQ repeats the ballot with conflicting dates. No date is selected as authoritative.",
+            "normalizedCharacterOffset": 6490,
+            "currentContext": "updates on venue capacities across Sydney on 31 December, visit the official New Year's Eve event website at https://www.sydneynewyearseve.com/ . Accessibility Botanic Gardens of Sydney offers a ballot ticketing system to cater for people with disability to create a safe, inclusive, and enjoyable event for all. People with accessibility needs are invited to enter the accessible viewing area ballot to enjoy the fireworks with their"
+          }
+        ],
+        "actuallyRead": true,
+        "readScope": "All cited factual excerpts and surrounding relevant source sections, compared with both complete manuscripts; boilerplate not claimed as read."
+      },
+      {
+        "id": "n12-nye-syd-opera",
+        "url": "https://www.sydneyoperahouse.com/visit/new-years-eve",
+        "kind": "official-event",
+        "startedAt": "2026-11-12T19:22:29.348Z",
+        "fetchedAt": "2026-11-12T19:22:29.715Z",
+        "finalUrl": "https://www.sydneyoperahouse.com/visit/new-years-eve",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "retryAfter": null,
+        "bytes": 185575,
+        "contentSha256": "f0f1a7599bcdd70a2b5c8680b2f5ae06c991a0bb472cc47fea432b3fca38f660",
+        "textSha256": "5bee6ce5acd4a3ee76cf044c50fdefed852aad78e6fa5197748e49bc74ebf4fe",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-opera.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-opera.txt",
+        "facts": [
+          {
+            "fact": "The Opera House explicitly identifies the 2026 edition, separates paid events from the free Forecourt and requires a booking for the free Forecourt.",
+            "excerpt": "This year we are ticketing the Forecourt to make it easier for people to access the site. It's still free but bookings are essential.",
+            "location": "Plan your visit, following New Year’s Eve 2026 event listings",
+            "normalizedCharacterOffset": 2577,
+            "currentContext": "nd significant road closures will be in place. Important information for the free Forecourt viewing area Arrow Down 1 Streamline Icon: https://streamlinehq.com This year we are ticketing the Forecourt to make it easier for people to access the site. It's still free but bookings are essential. Find more information. Important information for paid ticketed events Arrow Down 1 Streamline Icon: https://streamlinehq.com Access to the Opera House precinct for paid event tick"
+          },
+          {
+            "fact": "Paid-event access is via Macquarie Street during its own entry window; screenshots are not accepted, and entry after the advertised cutoff is denied.",
+            "excerpt": "All tickets will be scanned on Macquarie Street, prior to entry to the Sydney Opera House site. Screenshots of tickets will not be accepted.",
+            "location": "Important information for paid ticketed events",
+            "normalizedCharacterOffset": 3061,
+            "currentContext": "will be from 4pm to 10pm via Macquarie Street. Event ticketholders will not be able to access the Opera House site after 10pm. Latecomers will not be admitted. All tickets will be scanned on Macquarie Street, prior to entry to the Sydney Opera House site. Screenshots of tickets will not be accepted. A temporary box office will be open on Macquarie Street from 4pm to 10pm on Thursday 31 December for general ticket holder enquiries and ticket collection. Public transport Arrow "
+          }
+        ],
+        "actuallyRead": true,
+        "readScope": "All cited factual excerpts and surrounding relevant source sections, compared with both complete manuscripts; boilerplate not claimed as read."
+      },
+      {
+        "id": "n12-nye-syd-rocks",
+        "url": "https://www.therocks.com/whats-on/campaigns/new-years-eve",
+        "kind": "official-event",
+        "startedAt": "2026-11-12T19:22:29.716Z",
+        "fetchedAt": "2026-11-12T19:22:31.604Z",
+        "finalUrl": "https://www.therocks.com/whats-on/campaigns/new-years-eve",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "retryAfter": null,
+        "bytes": 87537,
+        "contentSha256": "56db7469327459673d547d0f016db6492db88296d049cf535049663a1bd2bc1d",
+        "textSha256": "81cb9890cd33b342b57af658439476b340781b70e9f688801296c97a689ed40c",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-rocks.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-rocks.txt",
+        "facts": [
+          {
+            "fact": "The page dates the celebration 31 December 2026 and names free, non-ticketed waterfront sites including Dawes Point,Hickson Road Reserve,Campbells Cove and Circular Quay sectors.",
+            "excerpt": "This year, all vantage points will be FREE - No tickets required.",
+            "location": "New Year’s Eve 2026 page introduction and free public-site list; does not include private dining events",
+            "normalizedCharacterOffset": 901,
+            "currentContext": " on how you can experience the ultimate New Year's Eve at The Rocks, where you'll find the most incredible views to witness the breathtaking fireworks display. This year, all vantage points will be FREE - No tickets required. Join the fun at places like Dawes Point Park, Hickson Rd Reserve, Campbells Cove, West Circular Quay, and East Circular Quay. No special spots or reservations, it's first-come, fi"
+          },
+          {
+            "fact": "Entry to those public viewing areas is first-come and subject to capacity, with no pass-outs; private restaurants and rooftops use separate arrangements.",
+            "excerpt": "No special spots or reservations, it's first-come, first-served.",
+            "location": "Introduction; generic later FAQ contains mixed ticket wording and cutoff inconsistencies, which are not adopted.",
+            "normalizedCharacterOffset": 1093,
+            "currentContext": "ll be FREE - No tickets required. Join the fun at places like Dawes Point Park, Hickson Rd Reserve, Campbells Cove, West Circular Quay, and East Circular Quay. No special spots or reservations, it's first-come, first-served. We'll make sure it's safe with capacity limits. Once a spot's full, it's closed, so come early! No pass outs this time, though. Check the vantage point map for up-to-date closures"
+          }
+        ],
+        "actuallyRead": true,
+        "readScope": "All cited factual excerpts and surrounding relevant source sections, compared with both complete manuscripts; boilerplate not claimed as read."
+      },
+      {
+        "id": "n12-nye-syd-transport",
+        "url": "https://www.sydneynewyearseve.com/transport",
+        "kind": "official-event",
+        "startedAt": "2026-11-12T19:22:31.604Z",
+        "fetchedAt": "2026-11-12T19:22:32.192Z",
+        "finalUrl": "https://www.sydneynewyearseve.com/transport",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "retryAfter": null,
+        "bytes": 88088,
+        "contentSha256": "173811467a7c5d6f129b8c46a9aca2b4093802179bea612cad1ec8317ad23032",
+        "textSha256": "174b32c278ce4de532147209769ceb6e483e0ba96b674685a6509e596ad15de1",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-transport.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/n12-nye-syd-transport.txt",
+        "facts": [
+          {
+            "fact": "The event transport plan says trains do not stop at Circular Quay from 3pm until midnight; alternatives include Wynyard,St James and Martin Place followed by walking.",
+            "excerpt": "from 3pm until midnight trains will not stop at Circular Quay station.",
+            "location": "Trains > Circular Quay",
+            "normalizedCharacterOffset": 1741,
+            "currentContext": "s Eve and into the early hours of the new year. To safely manage crowds the following stations have different arrangements for New Year’s Eve: · Circular Quay: from 3pm until midnight trains will not stop at Circular Quay station. For access to harbour foreshore vantage points, use Wynyard, St James or Martin Place stations and continue on foot. · Milsons Point: from 6pm until midnight, trains from the city"
+          },
+          {
+            "fact": "The return journey can differ from arrival because of closures and crowds; vantage-point capacity should be checked while travelling.",
+            "excerpt": "The way you arrive during the day will be different to the way you leave after the midnight fireworks.",
+            "location": "Getting there",
+            "normalizedCharacterOffset": 1021,
+            "currentContext": " Once vantage points are full, they will be closed. You can tap on and off public transport services using an Opal card, debit or credit card or linked device. The way you arrive during the day will be different to the way you leave after the midnight fireworks. Transport services will be affected by road closures and crowds throughout the night. Be patient and follow the directions of event staff and volunteers. Consider travelling home "
+          },
+          {
+            "fact": "The Harbour Bridge pedestrian/cycleway closes for the event, so it cannot be treated as an ordinary way to cross between viewpoints at night.",
+            "excerpt": "The Sydney Harbour Bridge walkway and cycleway will close from 6pm",
+            "location": "Walking and riding; full source states closure until 2am New Year’s Day",
+            "normalizedCharacterOffset": 8063,
+            "currentContext": "o large crowds and road closures. Continue on foot towards Central for trains home. Walking and riding Some roads will be closed to people walking and cycling. The Sydney Harbour Bridge walkway and cycleway will close from 6pm on New Year’s Eve until 2am on New Year’s Day. The Cahill Expressway walkway over Circular Quay will close from 4am Thursday 31 December until 6am on Friday 1 January. The Western"
+          }
+        ],
+        "actuallyRead": true,
+        "readScope": "All cited factual excerpts and surrounding relevant source sections, compared with both complete manuscripts; boilerplate not claimed as read."
+      },
+      {
+        "id": "n12-nye-sg-borealis",
+        "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/borealis.html",
+        "finalUrl": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/borealis.html",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:43.938Z",
+        "contentSha256": "0b8b9430fcfa774249a9373ce08eaf0ce40000616f387efe4621ccb31ee5a61b",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/n12-nye-sg-borealis.html",
+        "facts": [
+          {
+            "fact": "The specific festive notice announces an extraBorealis light installation show31December2026 and1January2027 at9.05pm–9.30pm. This is not an aurora in nature, a fireworks show or a midnight event.",
+            "excerpt": "31 Dec 2026 & 1 Jan 2027, there will be an additional Borealis show at 9.05pm - 9.30pm",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The operator explicitly cancelsBorealis when rain occurs during showtimes, so the guide includes a weather-dependent alternative rather than guaranteeing the programme.",
+            "excerpt": "will be cancelled in the event of rain during show times.",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          }
+        ],
+        "reviewedAt": "2026-11-12T19:25:05.536751+00:00",
+        "reviewer": "Codex Asia revalidation AI; both manuscripts and factual extracts actually read",
+        "noNewNetworkRequestFromExtraction": true,
+        "sourceRepresentation": "Normal requested public HTML and its embedded JSON payloads; no protected endpoint, access-control or waiting workaround."
+      },
+      {
+        "id": "n12-nye-sg-christmas-wonderland",
+        "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/christmas-wonderland-2026.html",
+        "finalUrl": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/christmas-wonderland-2026.html",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:42.607Z",
+        "contentSha256": "aa44bdfd9fda0b62c855e46835ef6da4e9631d731f4d87f99509ca16c476aa69",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/n12-nye-sg-christmas-wonderland.html",
+        "facts": [
+          {
+            "fact": "ChristmasWonderland runs27November2026–3January2027 and charges admission. The listed location isSupertreeGrove andTheMeadow.",
+            "excerpt": "Fri, 27 Nov 2026 - Sun, 3 Jan 2027",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The festival’s published daily hours end11pm with last admission10.15pm. It must not be presented as a midnight countdown or as a ticket for a MarinaBay event.",
+            "excerpt": "6.30pm - 11.00pm (Last admission at 10.15pm)",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          }
+        ],
+        "reviewedAt": "2026-11-12T19:25:05.551271+00:00",
+        "reviewer": "Codex Asia revalidation AI; both manuscripts and factual extracts actually read",
+        "noNewNetworkRequestFromExtraction": true,
+        "sourceRepresentation": "Normal requested public HTML and its embedded JSON payloads; no protected endpoint, access-control or waiting workaround."
+      },
+      {
+        "id": "n12-nye-sg-coastes-operator",
+        "url": "https://www.coastes.com/promotions-happenings/",
+        "finalUrl": "https://www.coastes.com/promotions-happenings/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:38.575Z",
+        "contentSha256": "391ae17f680f46ccbaf4e200533755992ba7a3c5180177cc75516bb7e0144cd6",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/n12-nye-sg-coastes-operator.html",
+        "facts": [
+          {
+            "fact": "The operator explicitly says the final sunset of2026 and lists31December from6pm, corroborating the future dated event and the public displayed time. Prices, remaining inventory and final event conditions are not assumed.",
+            "excerpt": "The final sunset of 2026 will be an experience to remember this NYE",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The promoted evening begins31December from6pm, as corroboration of Sentosa’s human-readable event details.",
+            "excerpt": "31 Dec | 6PM onwards",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The operator address is50SilosoBeachWalk inSingapore; this identifies the named venue separately from a generic beach visit.",
+            "excerpt": "Address: 50 Siloso Beach Walk Singapore 099000",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          }
+        ],
+        "reviewedAt": "2026-11-12T19:25:05.555775+00:00",
+        "reviewer": "Codex Asia revalidation AI; both manuscripts and factual extracts actually read",
+        "noNewNetworkRequestFromExtraction": true,
+        "sourceRepresentation": "Normal requested public HTML and its embedded JSON payloads; no protected endpoint, access-control or waiting workaround."
+      },
+      {
+        "id": "n12-nye-sg-countdown-organizer",
+        "url": "https://www.marinabaycountdown.gov.sg/",
+        "finalUrl": "https://www.marinabaycountdown.gov.sg/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:33.770Z",
+        "contentSha256": "6ab363406cc8bf4fb10f44f7f4768a9d61333c286366acdbf84f27fe63c20712",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/n12-nye-sg-countdown-organizer.html",
+        "facts": [
+          {
+            "fact": "At this actual source capture the organizer homepage still displays the 2026 edition. The guide therefore distinguishes the officially listed 2027 date from operational information still needing a specific 2027 update.",
+            "excerpt": "Marina Bay Singapore Countdown 2026",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The transport planning card explicitly refers to MBSC2026, so it is not presented as verified extended public-transport service for New Year2027.",
+            "excerpt": "Public transport is encouraged for travel to MBSC 2026.",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          }
+        ],
+        "reviewedAt": "2026-11-12T19:25:05.562401+00:00",
+        "reviewer": "Codex Asia revalidation AI; both manuscripts and factual extracts actually read",
+        "noNewNetworkRequestFromExtraction": true,
+        "sourceRepresentation": "Normal requested public HTML and its embedded JSON payloads; no protected endpoint, access-control or waiting workaround."
+      },
+      {
+        "id": "n12-nye-sg-countdown-tourism",
+        "url": "https://www.visitsingapore.com/content/visitsingapore/en/whats-happening/all-happenings/events/marina-bay-countdown/",
+        "finalUrl": "https://www.visitsingapore.com/content/visitsingapore/en/whats-happening/all-happenings/events/marina-bay-countdown/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:32.191Z",
+        "contentSha256": "4dfd234712bc2db13294aa41b3e6272cb2e6cf14ed1e806f533b3993bc516b20",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/n12-nye-sg-countdown-tourism.html",
+        "facts": [
+          {
+            "fact": "The current tourism event masthead names Marina Bay Countdown 2027 and locates the event at Marina Bay. No exact 2027 fireworks time or entrance plan is inferred from internal timestamps.",
+            "excerpt": "Marina Bay Countdown 2027",
+            "location": [
+              "visible main text",
+              "$[1].data.breadcrumbItems[3].title",
+              "$[2].data.mastheadHeader_t"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "Its What to Know body is retrospective about welcoming 2026. Those past-edition claims do not establish 2027 operational details, ticket rules, crowd maps or a new exact fireworks schedule.",
+            "excerpt": "Singapore rang in 2026 with a bang at its largest countdown celebration",
+            "location": [
+              "$[5].data.description_t"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          }
+        ],
+        "reviewedAt": "2026-11-12T19:25:05.571570+00:00",
+        "reviewer": "Codex Asia revalidation AI; both manuscripts and factual extracts actually read",
+        "noNewNetworkRequestFromExtraction": true,
+        "sourceRepresentation": "Normal requested public HTML and its embedded JSON payloads; no protected endpoint, access-control or waiting workaround."
+      },
+      {
+        "id": "n12-nye-sg-garden-rhapsody",
+        "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/garden-rhapsody.html",
+        "finalUrl": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/garden-rhapsody.html",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:40.586Z",
+        "contentSha256": "80bcfee2c0d4332384f77808d1e50cd1679f47ca2f9398c3d8a6b5cb1af50322",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/n12-nye-sg-garden-rhapsody.html",
+        "facts": [
+          {
+            "fact": "On31December2026–3January2027 the specific festive notice gives Garden Rhapsody shows at7.45pm,8.45pm and9.35pm. These are light-show times, not midnight countdown times.",
+            "excerpt": "From 27 Nov - 11 Dec 2026 & 31 Dec 2026 - 3 Jan 2027, show timings are at 7.45pm, 8.45pm and 9.35pm daily.",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The official notice differentiates ChristmasWonderland ticket-holder viewing atSupertreeGrove from non-ticket-holder viewing points atWorldofPlants. Free general light-show wording does not make Grove entry universally free during ticketed events.",
+            "excerpt": "Christmas Wonderland ticket holders will be able to enjoy the shows at Supertree Grove while non-ticket holders will be able to enjoy the Garden Rhapsody light show from vantage points at World of Plants.",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The Christmas Special programme runs27November2026–3January2027.",
+            "excerpt": "The Christmas Special (27 Nov 2026 – 3 Jan 2027)",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          }
+        ],
+        "reviewedAt": "2026-11-12T19:25:05.585632+00:00",
+        "reviewer": "Codex Asia revalidation AI; both manuscripts and factual extracts actually read",
+        "noNewNetworkRequestFromExtraction": true,
+        "sourceRepresentation": "Normal requested public HTML and its embedded JSON payloads; no protected endpoint, access-control or waiting workaround."
+      },
+      {
+        "id": "n12-nye-sg-marina-area",
+        "url": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/marina-bay/",
+        "finalUrl": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/marina-bay/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:34.008Z",
+        "contentSha256": "819f6b6db1a27aa374388bcc3d9702e4aa714562cb40a8450e2b7e725a778902",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/n12-nye-sg-marina-area.html",
+        "facts": [
+          {
+            "fact": "The official neighbourhood description places architectural landmarks along Marina Bay Waterfront Promenade, supporting a waterfront place section rather than a promise of a particular event viewing zone.",
+            "excerpt": "Architectural icons and majestic landmarks like the Singapore Flyer abound in the Marina Bay district, some of which line the Marina Bay Waterfront Promenade.",
+            "location": [
+              "$[9].data.description_t"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "Bayfront and Promenade are listed among the area MRT stations. They are general orientation points; no New Year station exit, last train or unrestricted access is assumed.",
+            "excerpt": "Bayfront (DT16/CE1)",
+            "location": [
+              "$[16].data.description_t"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          }
+        ],
+        "reviewedAt": "2026-11-12T19:25:05.603483+00:00",
+        "reviewer": "Codex Asia revalidation AI; both manuscripts and factual extracts actually read",
+        "noNewNetworkRequestFromExtraction": true,
+        "sourceRepresentation": "Normal requested public HTML and its embedded JSON payloads; no protected endpoint, access-control or waiting workaround."
+      },
+      {
+        "id": "n12-nye-sg-sentosa-access",
+        "url": "https://www.sentosa.com.sg/en/getting-to-sentosa/",
+        "finalUrl": "https://www.sentosa.com.sg/en/getting-to-sentosa/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:48.199Z",
+        "contentSha256": "6bd68deee86af30d539d30d9e879818c81e54725e2ce0396ef252577e69e88ee",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/n12-nye-sg-sentosa-access.html",
+        "facts": [
+          {
+            "fact": "The official general approach bySentosaExpress is fromVivoCity LobbyL Level3, reached fromHarbourFrontMRT. No special New Year last service or transport extension is claimed.",
+            "excerpt": "Take the Sentosa Express from VivoCity shopping mall, Lobby L, Level 3 into Sentosa.",
+            "location": [
+              "$[0].data.sitecore.route.placeholders.jss-main[3].fields.tilesSelection[1].fields.richTextField.value"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The walking approach toSentosaBoardwalk starts atVivoCity LobbyF Level1; part of the Boardwalk is closed for works and pedestrians use a covered-linkway diversion. This is ordinary routing information requiring final event-day checks.",
+            "excerpt": "You can travel into Sentosa on foot via the Sentosa Boardwalk. To get to the Boardwalk, alight at Harbourfront MRT and make your way to VivoCity Lobby F, Level 1.",
+            "location": [
+              "$[0].data.sitecore.route.placeholders.jss-main[3].fields.tilesSelection[4].fields.richTextField.value"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The operator explicitly redirects pedestrians and cyclists to a new covered linkway during ongoing works.",
+            "excerpt": "Pedestrians and cyclists will be redirected to Sentosa via a new covered linkway",
+            "location": [
+              "$[0].data.sitecore.route.placeholders.jss-main[3].fields.tilesSelection[4].fields.richTextField.value"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          }
+        ],
+        "reviewedAt": "2026-11-12T19:25:05.645698+00:00",
+        "reviewer": "Codex Asia revalidation AI; both manuscripts and factual extracts actually read",
+        "noNewNetworkRequestFromExtraction": true,
+        "sourceRepresentation": "Normal requested public HTML and its embedded JSON payloads; no protected endpoint, access-control or waiting workaround."
+      },
+      {
+        "id": "n12-nye-sg-sentosa-coastes",
+        "url": "https://www.sentosa.com.sg/en/things-to-do/events/coastes-new-years-eve-2026/",
+        "finalUrl": "https://www.sentosa.com.sg/en/things-to-do/events/coastes-new-years-eve-2026/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:35.699Z",
+        "contentSha256": "6d9d4e44ad3d6bf90103aeca5ffff5884bc0c02f763b92ce208f48b228137332",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/n12-nye-sg-sentosa-coastes.html",
+        "facts": [
+          {
+            "fact": "The official Sentosa event description explicitly welcomes2027 at Coastes Sentosa. It is not a citation of an older New Year party inferred merely from a URL.",
+            "excerpt": "Ring in 2027 with a spectacular beachfront celebration at Coastes Sentosa!",
+            "location": [
+              "$[0].data.sitecore.context.pageData.dataSourceFields.description.value"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The displayed event details give31December2026,6pm until late. Structured startDate carries a different time, so the guide uses only the public human-readable event time corroborated on the operator site.",
+            "excerpt": "31 Dec 2026",
+            "location": [
+              "$[0].data.sitecore.context.pageData.dataSourceFields.hoursDetails.value"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The event is tagged at Siloso Beach and identifies Coastes as venue. Access to an organized venue event is not treated as equivalent to access to the whole beach.",
+            "excerpt": "Siloso Beach",
+            "location": [
+              "$[0].data.sitecore.context.pageData.dataSourceFields.accordion.fields.accordianItems[0].fields.description.value",
+              "$[0].data.sitecore.context.pageData.dataSourceFields.locationTagging[0].fields.title.value",
+              "$[0].data.sitecore.route.placeholders.jss-main[7].fields.associatedEvents.events[3].locations[0]"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The event listing offers live music, a barbecue and a midnight countdown. It advertises views of Sentosa fireworks; this promotional statement is attributed to the listing, not turned into a guarantee of fireworks visible from every part of the beach.",
+            "excerpt": "Midnight Countdown with Views of Sentosa's Fireworks",
+            "location": [
+              "$[0].data.sitecore.context.pageData.dataSourceFields.description.value"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          }
+        ],
+        "reviewedAt": "2026-11-12T19:25:05.683379+00:00",
+        "reviewer": "Codex Asia revalidation AI; both manuscripts and factual extracts actually read",
+        "noNewNetworkRequestFromExtraction": true,
+        "sourceRepresentation": "Normal requested public HTML and its embedded JSON payloads; no protected endpoint, access-control or waiting workaround."
+      },
+      {
+        "id": "n12-nye-sg-supertree-grove",
+        "url": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/supertree-grove.html",
+        "finalUrl": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/supertree-grove.html",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:45.612Z",
+        "contentSha256": "1248ae264f8f10262c8ad96fb4b3c075ab5cea64c828821603877d613d70eabf",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/n12-nye-sg-supertree-grove.html",
+        "facts": [
+          {
+            "fact": "Supertrees are vertical gardens rather than a standalone New Year venue promise. Observatory access is a different attraction from simply visiting the grove at ground level.",
+            "excerpt": "the Supertrees present a bold new way to grow and display plants.",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The ordinary attraction page says the lights switch off11.30pm. The guide instead relies on the specific dated festive show notices and does not infer a midnight lights or fireworks programme.",
+            "excerpt": "The Supertrees lights will be switched off at 11.30pm every night.",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The page’s current works advisory preserves pedestrian access to WaterfrontPromenade with a diversion, while restricting cyclists during bridge construction. The guide asks readers to use the current walking route rather than promising the shortest historic route.",
+            "excerpt": "Pedestrians may still access the Waterfront Promenade, with a slight diversion to their route.",
+            "location": [
+              "visible main text"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          }
+        ],
+        "reviewedAt": "2026-11-12T19:25:05.710651+00:00",
+        "reviewer": "Codex Asia revalidation AI; both manuscripts and factual extracts actually read",
+        "noNewNetworkRequestFromExtraction": true,
+        "sourceRepresentation": "Normal requested public HTML and its embedded JSON payloads; no protected endpoint, access-control or waiting workaround."
+      },
+      {
+        "id": "n12-nye-sg-tourism-calendar",
+        "url": "https://www.visitsingapore.com/en/",
+        "finalUrl": "https://www.visitsingapore.com/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:32.026Z",
+        "contentSha256": "a21854fcc5bdacbf701494f90cb2bd7cb490ea7f360ba486f918e1284af6d5e8",
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/n12-nye-sg-tourism-calendar.html",
+        "facts": [
+          {
+            "fact": "The current official tourism homepage lists Marina Bay Countdown 2027 with the human-readable date 31 December 2026–1 January 2027. Internal timestamp fields are not used as public event times.",
+            "excerpt": "31 DEC ’26 - 01 JAN ’27",
+            "location": [
+              "$[8].data.eventSlider[1].eventDate"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          },
+          {
+            "fact": "The named future edition is 2027, independently of older body text on linked pages.",
+            "excerpt": "Marina Bay Countdown 2027",
+            "location": [
+              "$[8].data.eventSlider[1].eventImageAltText_t",
+              "$[8].data.eventSlider[1].eventTitle_t"
+            ],
+            "excerptMatchedFreshCapture": true,
+            "actuallyReadByReviewer": true
+          }
+        ],
+        "reviewedAt": "2026-11-12T19:25:05.720747+00:00",
+        "reviewer": "Codex Asia revalidation AI; both manuscripts and factual extracts actually read",
+        "noNewNetworkRequestFromExtraction": true,
+        "sourceRepresentation": "Normal requested public HTML and its embedded JSON payloads; no protected endpoint, access-control or waiting workaround."
+      },
+      {
+        "id": "n12-nye-lon-cityhall",
+        "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",
+        "finalUrl": "https://www.london.gov.uk/events/london-new-years-eve-2026",
+        "fetchedAt": "2026-11-12T19:22:25.044Z",
+        "startedAt": "2026-11-12T19:22:24.547Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "contentSha256": "62d6a0569eb92e41f018dd3e1090289d1473a71b898af0f4e167b26f35a1ac1d",
+        "bytes": 324641,
+        "retryAfter": null,
+        "oldSha256": "43827b7396feb075ac98f740a2a87c4edb859fcfb9fdb1cf17d621a363089e2b",
+        "bodyMatchesEarlierCapture": false,
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-cityhall.json.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-cityhall.json.txt",
+        "fullExtractedDocumentActuallyRead": true,
+        "factsAndExcerptsConfirmed": true
+      },
+      {
+        "id": "n12-nye-lon-covent",
+        "url": "https://www.coventgarden.london/experience/new-year-s-eve",
+        "finalUrl": "https://www.coventgarden.london/experience/new-year-s-eve",
+        "fetchedAt": "2026-11-12T19:22:25.959Z",
+        "startedAt": "2026-11-12T19:22:24.562Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "contentSha256": "1882ab84c499df8d800ef210d8fe5deef47e5f5d0b9b16560f3f3a3e86cf670f",
+        "bytes": 281161,
+        "retryAfter": null,
+        "oldSha256": "1882ab84c499df8d800ef210d8fe5deef47e5f5d0b9b16560f3f3a3e86cf670f",
+        "bodyMatchesEarlierCapture": true,
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-covent.json.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-covent.json.txt",
+        "fullExtractedDocumentActuallyRead": true,
+        "factsAndExcerptsConfirmed": true
+      },
+      {
+        "id": "n12-nye-lon-parade-home",
+        "url": "https://londonparade.co.uk/",
+        "finalUrl": "https://londonparade.com/",
+        "fetchedAt": "2026-11-12T19:22:26.216Z",
+        "startedAt": "2026-11-12T19:22:24.563Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "contentSha256": "e0dc645a10ca51702dd3b6ab6275367cf6dad5e74ce7804f993d4910a0b58a98",
+        "bytes": 80590,
+        "retryAfter": null,
+        "oldSha256": "ec6489143caed263bfa52b1f7a69f3cc162a077caf9f7eb9bc8fa474aa831c1f",
+        "bodyMatchesEarlierCapture": false,
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-parade-home.json.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-parade-home.json.txt",
+        "fullExtractedDocumentActuallyRead": true,
+        "factsAndExcerptsConfirmed": true
+      },
+      {
+        "id": "n12-nye-lon-parade",
+        "url": "https://londonparade.com/parade-location-timing/",
+        "finalUrl": "https://londonparade.com/parade-location-timing/",
+        "fetchedAt": "2026-11-12T19:22:25.156Z",
+        "startedAt": "2026-11-12T19:22:24.563Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "contentSha256": "61318e485f100f6afdb05e8f897b3d44d06aaa7e93df3e848964b2336b0dbbd9",
+        "bytes": 40629,
+        "retryAfter": null,
+        "oldSha256": "d2f3b8fd757a44202d68e982fe53efbf298ed8dcce33ef18171403be2f907e54",
+        "bodyMatchesEarlierCapture": false,
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-parade.json.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-parade.json.txt",
+        "fullExtractedDocumentActuallyRead": true,
+        "factsAndExcerptsConfirmed": true
+      },
+      {
+        "id": "n12-nye-lon-tourism",
+        "url": "https://www.visitlondon.com/things-to-do/event/42844535-new-year-s-day-in-london",
+        "finalUrl": "https://www.visitlondon.com/things-to-do/event/42844535-new-year-s-day-in-london",
+        "fetchedAt": "2026-11-12T19:22:26.137Z",
+        "startedAt": "2026-11-12T19:22:24.564Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "contentSha256": "e259f8d17ca15ee9de965095d2253b69fa32165039da06e89fe6e7d3b4e68813",
+        "bytes": 69466,
+        "retryAfter": null,
+        "oldSha256": "67d196bdc5361e9ef1d75b411338e20cd070146d049e79803dfce91343fae5fe",
+        "bodyMatchesEarlierCapture": false,
+        "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-tourism.json.html",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-tourism.json.txt",
+        "fullExtractedDocumentActuallyRead": true,
+        "factsAndExcerptsConfirmed": true
+      },
+      {
+        "id": "n12-ny-times-square",
+        "city": "new-york",
+        "url": "https://www.timessquarenyc.org/nye",
+        "finalUrl": "https://www.timessquarenyc.org/nye/nye-landing",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:59.587Z",
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 144863,
+        "contentSha256": "8a80197a94a3ceb6727d6158e4937344c666ba3faffab1a53d790abad86352c7",
+        "extractedTextSha256": "dc6a51ce83d5d06a9e3427c753e71d5abfea960538652efc2221e44758cbd90c",
+        "retryAfter": null,
+        "bodyFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-times-square.body",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-times-square.txt",
+        "originalEvidence": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-times-square.json",
+        "facts": [
+          {
+            "fact": "The portal identifies the annual Times Square celebration and a2027heading, but retains2025body wording; it does not justify importing old checkpoints into2027.",
+            "excerpt": "2027 Times Square New Year's Eve",
+            "location": {
+              "normalizedTextStart": 991,
+              "normalizedTextEnd": 1023,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "The portal still contains old2025wording as disclosed in both manuscripts.",
+            "excerpt": "Times Square New Year's Eve 2025!",
+            "location": {
+              "normalizedTextStart": 1707,
+              "normalizedTextEnd": 1740,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.095225+00:00"
+      },
+      {
+        "id": "n12-ny-faq",
+        "city": "new-york",
+        "url": "https://www.timessquarenyc.org/nye/nye-faq",
+        "finalUrl": "https://www.timessquarenyc.org/nye/nye-faq",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:22:59.607Z",
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 154187,
+        "contentSha256": "28e9343d32cf9ad74868252b8ae293ed6cd96f4a5679b2901dc14515a78333d1",
+        "extractedTextSha256": "84580527e7427e2bc94b5e326f1326df07691103f13513efe2443443e531bb6a",
+        "retryAfter": null,
+        "bodyFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-faq.body",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-faq.txt",
+        "originalEvidence": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-faq.json",
+        "facts": [
+          {
+            "fact": "The organiser's general outdoor public celebration rule is free, first-come access, while restaurants/hotels are private ticketed products.",
+            "excerpt": "No tickets are needed for the annual outdoor New Year’s Eve in Times Square celebration",
+            "location": {
+              "normalizedTextStart": 3890,
+              "normalizedTextEnd": 3977,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Public viewing spaces are not sold.",
+            "excerpt": "There are no public viewing spaces available for sale.",
+            "location": {
+              "normalizedTextStart": 4054,
+              "normalizedTextEnd": 4108,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Multiple-venue passes do not establish police checkpoint admission.",
+            "excerpt": "Such Multiple Venue/Pay-One-Price/All Access passes presume the holder will be able to get past police security lines.",
+            "location": {
+              "normalizedTextStart": 4766,
+              "normalizedTextEnd": 4884,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.096876+00:00"
+      },
+      {
+        "id": "n12-ny-midnight-run",
+        "city": "new-york",
+        "url": "https://prod.nyrr.org/races-and-events/2026/nyrr-midnight-run",
+        "finalUrl": "https://prod.nyrr.org/races-and-events/2026/nyrr-midnight-run",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:23:00.118Z",
+        "contentType": "text/html",
+        "bytes": 300496,
+        "contentSha256": "7aef1161530995dc4a7fb87d0d871554f455622aaca530ac96f0b1059b3de558",
+        "extractedTextSha256": "faa94c0f9509d1bef77cb80b2f64f66b08199c16e4c45ba054c0111e42b8eccb",
+        "retryAfter": null,
+        "bodyFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-midnight-run.body",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-midnight-run.txt",
+        "originalEvidence": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-midnight-run.json",
+        "facts": [
+          {
+            "fact": "NYRR confirms31December2026CentralPark, countdown23:59 and a4mile race starting at midnight.",
+            "excerpt": "The countdown to 2027 starts at 11:59 p.m.",
+            "location": {
+              "normalizedTextStart": 4715,
+              "normalizedTextEnd": 4757,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Race-day bib collection is atRUNCENTER beforehand, notCentralPark.",
+            "excerpt": "There will be no bib pickup at Central Park on Race Day.",
+            "location": {
+              "normalizedTextStart": 8455,
+              "normalizedTextEnd": 8511,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Last listed31December collection is22:00.",
+            "excerpt": "The last bib pickup on race day (Thursday, December 31) will be at 10:00 p.m.",
+            "location": {
+              "normalizedTextStart": 8578,
+              "normalizedTextEnd": 8655,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Participants receive a guest wristband; start and course still request a later check.",
+            "excerpt": "All participants will get a wristband for their +1 guest to spectate in the park.",
+            "location": {
+              "normalizedTextStart": 8825,
+              "normalizedTextEnd": 8906,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "The source leaves start/course details pending, so both drafts preserve that limit.",
+            "excerpt": "Start Location / The Course Check back closer to the race for more details.",
+            "location": {
+              "normalizedTextStart": 8907,
+              "normalizedTextEnd": 8982,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.098443+00:00"
+      },
+      {
+        "id": "n12-ny-bryant",
+        "city": "new-york",
+        "url": "https://bryantpark.org/activities/bank-of-america-winter-village-at-bryant-park",
+        "finalUrl": "https://bryantpark.org/activities/bank-of-america-winter-village-at-bryant-park",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:23:00.255Z",
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 287009,
+        "contentSha256": "ab8524e36841c20dfdfbc41cbd861f704fa2610386ee317ea87500bc47aee1f3",
+        "extractedTextSha256": "a9d4f231df96c159050d43ebc60cab1512d423a844a4ab7b14536b43e1401299",
+        "retryAfter": null,
+        "bodyFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-bryant.body",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-bryant.txt",
+        "originalEvidence": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-bryant.json",
+        "facts": [
+          {
+            "fact": "WinterVillage season remains28October2026–28February2027.",
+            "excerpt": "Oct 28, 2026 – Feb 28, 2027",
+            "location": {
+              "normalizedTextStart": 650,
+              "normalizedTextEnd": 677,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "HolidayShops season ends3January2027.",
+            "excerpt": "Oct 28, 2026 – Jan 3, 2027",
+            "location": {
+              "normalizedTextStart": 753,
+              "normalizedTextEnd": 779,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.100773+00:00"
+      },
+      {
+        "id": "n12-ny-rink",
+        "city": "new-york",
+        "url": "https://bryantpark.org/activities/the-rink",
+        "finalUrl": "https://bryantpark.org/activities/the-rink",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:23:00.910Z",
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 55963,
+        "contentSha256": "580d7662d14dfe09770ad5031ad784fbcc2cd8c26be45fc6292800f23788f155",
+        "extractedTextSha256": "05882840c76a920b8b638ade76ca9c29b1ef62e7624a204a9816decbf35bf96d",
+        "retryAfter": null,
+        "bodyFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-rink.body",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-rink.txt",
+        "originalEvidence": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-rink.json",
+        "facts": [
+          {
+            "fact": "A reservation lasts about70minutes including preparation, rather than70uninterrupted minutes on the ice.",
+            "excerpt": "Skating reservations are approximately 70 minutes from arrival time on your ticket to departure",
+            "location": {
+              "normalizedTextStart": 7584,
+              "normalizedTextEnd": 7679,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Skater wristband required.",
+            "excerpt": "You must have a Winter Village skater wristband to enter the ice rink.",
+            "location": {
+              "normalizedTextStart": 7805,
+              "normalizedTextEnd": 7875,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Free admission requires own-skate/reservation conditions, distinct from paid rentals.",
+            "excerpt": "The Rink at Bank of America Winter Village is NYC’s largest free admission ice skating rink.",
+            "location": {
+              "normalizedTextStart": 15947,
+              "normalizedTextEnd": 16039,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.103245+00:00"
+      },
+      {
+        "id": "n12-ny-mta",
+        "city": "new-york",
+        "url": "https://www.mta.info/alerts",
+        "finalUrl": "https://www.mta.info/alerts",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:23:02.021Z",
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 44045,
+        "contentSha256": "3b11ad6f2fad8b985b7a54c15a53134056f10fff1095dcabfd7f4fd3f5eba3f3",
+        "extractedTextSha256": "f550b5843069faa4bb104617edba8c844bc586a17c827a8697590f51af226f49",
+        "retryAfter": null,
+        "bodyFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-mta.body",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-ny-mta.txt",
+        "originalEvidence": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-mta.json",
+        "facts": [
+          {
+            "fact": "Official planning interface is accessible; no future31December service operation is inferred.",
+            "excerpt": "Planned Service Changes",
+            "location": {
+              "normalizedTextStart": 4,
+              "normalizedTextEnd": 27,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.103643+00:00"
+      },
+      {
+        "id": "n12-rj-copacabana",
+        "city": "rio",
+        "url": "https://riotur.rio/que_fazer/copacabana-e-leme/",
+        "finalUrl": "https://riotur.rio/que_fazer/copacabana-e-leme/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:23:02.115Z",
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 57715,
+        "contentSha256": "37da0b56b7b29b0ca47710f638e2f53acaf17a956fa27df41a2f08a8b22a8bd4",
+        "extractedTextSha256": "b9e92739c33b3310060cfcfc4815ef9245bad721d7322474ca0350ad46eafa19",
+        "retryAfter": null,
+        "bodyFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-rj-copacabana.body",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-rj-copacabana.txt",
+        "originalEvidence": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-copacabana.json",
+        "facts": [
+          {
+            "fact": "Riotur describesCopacabana/Leme and the wave-paved waterfront; annual tradition is not an edition-specific2027programme.",
+            "excerpt": "mosaico no formato de ondas",
+            "location": {
+              "normalizedTextStart": 1046,
+              "normalizedTextEnd": 1073,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.104296+00:00"
+      },
+      {
+        "id": "n12-rj-ipanema",
+        "city": "rio",
+        "url": "https://riotur.rio/que_fazer/ipanema/",
+        "finalUrl": "https://riotur.rio/que_fazer/ipanema/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:23:02.811Z",
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 56691,
+        "contentSha256": "8a8dedfa6505b1060ee663505ec722b67acf5d783c2916888fc7412023ca2496",
+        "extractedTextSha256": "9bfc68fa7836776995236d4112fb5e3bf823059e3625b44977b1a7ff95b57c0a",
+        "retryAfter": null,
+        "bodyFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-rj-ipanema.body",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-rj-ipanema.txt",
+        "originalEvidence": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-ipanema.json",
+        "facts": [
+          {
+            "fact": "The official place listing identifies Ipanema fromArpoador toJardim deAlah.",
+            "excerpt": "do Arpoador ao Jardim de Alah",
+            "location": {
+              "normalizedTextStart": 672,
+              "normalizedTextEnd": 701,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Ordinary Sunday closures are explicitly Sunday rules and not applied toThursday31December2026.",
+            "excerpt": "Aos domingos, as pistas da orla são interditadas até as 18h",
+            "location": {
+              "normalizedTextStart": 1101,
+              "normalizedTextEnd": 1160,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.104831+00:00"
+      },
+      {
+        "id": "n12-rj-jockey",
+        "city": "rio",
+        "url": "https://riotur.rio/evento-calendario/joao-gomes-na-brava-arena-jockey/",
+        "finalUrl": "https://riotur.rio/evento-calendario/joao-gomes-na-brava-arena-jockey/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:23:03.984Z",
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 54874,
+        "contentSha256": "414a762ffbdc0ef059a7d5f8c1db0344d544f34c0ea8e745966d64a75ab69a3a",
+        "extractedTextSha256": "c96c5776a8d977cf6bdf892537fc3cadc5af6db4b91b09b18e476dd4ea8463a3",
+        "retryAfter": null,
+        "bodyFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-rj-jockey.body",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-rj-jockey.txt",
+        "originalEvidence": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-jockey.json",
+        "facts": [
+          {
+            "fact": "Riotur confirmsJoãoGomes at RéveillonTropical2027 for the2026–2027transition.",
+            "excerpt": "O show integra a programação especial de Ano-Novo do espaço, que recebe o público para a celebração da virada de 2026 para 2027.",
+            "location": {
+              "normalizedTextStart": 529,
+              "normalizedTextEnd": 657,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "The event-specific listing starts from20:00.",
+            "excerpt": "Horário: a partir de 20h",
+            "location": {
+              "normalizedTextStart": 1014,
+              "normalizedTextEnd": 1038,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Venue address isPraçaSantosDumont31.",
+            "excerpt": "Praça Santos Dumont, 31",
+            "location": {
+              "normalizedTextStart": 1075,
+              "normalizedTextEnd": 1098,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.107565+00:00"
+      },
+      {
+        "id": "n12-rj-jockey-venue",
+        "city": "rio",
+        "url": "https://bravaarenajockey.com.br/",
+        "finalUrl": "https://bravaarenajockey.com.br/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:23:05.346Z",
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 62321,
+        "contentSha256": "4cac92bd05a255dcdce70b68b3e1ac1b36012e77d67024e79e0976fdd7367275",
+        "extractedTextSha256": "50d161b11b4834a5cc3bf824a28fda1683c2568bc7144633935dbe1efabf1031",
+        "retryAfter": null,
+        "bodyFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-rj-jockey-venue.body",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-rj-jockey-venue.txt",
+        "originalEvidence": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-jockey-venue.json",
+        "facts": [
+          {
+            "fact": "Venue's own calendar independently lists31December2026 andJoãoGomes.",
+            "excerpt": "31 dez 2026 Réveillon Tropical com João Gomes",
+            "location": {
+              "normalizedTextStart": 1287,
+              "normalizedTextEnd": 1332,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.108260+00:00"
+      },
+      {
+        "id": "n12-rj-jockey-club",
+        "city": "rio",
+        "url": "https://jcbinforma.com.br/arena26/",
+        "finalUrl": "https://jcbinforma.com.br/arena26/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:23:06.571Z",
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 91082,
+        "contentSha256": "f1b527d2c44dbc39136f52544546c7614f3f8f12087ea07f7813d7b5a4ef5e57",
+        "extractedTextSha256": "1bad5b2fe24f446b482d64b89b5cc751a66c83e2ca9854edef044e9b5657a5ff",
+        "retryAfter": null,
+        "bodyFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-rj-jockey-club.body",
+        "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/captures/n12-rj-jockey-club.txt",
+        "originalEvidence": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-jockey-club.json",
+        "facts": [
+          {
+            "fact": "JockeyClub identifiesBravaArena in itsPião doPrado complex for the2026season; ordinary concert hours are not substituted for the event-specifictime.",
+            "excerpt": "Pião do Prado",
+            "location": {
+              "normalizedTextStart": 1158,
+              "normalizedTextEnd": 1171,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "The source's2026season dates corroborate its period and location.",
+            "excerpt": "Datas: 04/11 a 31/12/2026",
+            "location": {
+              "normalizedTextStart": 3412,
+              "normalizedTextEnd": 3437,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.110268+00:00"
+      }
+    ],
+    "reportEvidence": [
+      {
+        "group": "asia",
+        "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/asia-revalidation.json",
+        "sha256": "2d6f2079606a1791ba8e01bda064688965b408ae2c47c7ecf56e327a806404e8",
+        "report": {
+          "reviewedAt": "2026-11-12T19:27:09.481237+00:00",
+          "reviewer": "Codex Asia AI and delegated independent Sydney AI, no human/firsthand claim",
+          "verdict": "PASS for both unchanged bilingual drafts; root final status/date/hash approval and production/public gates remain required",
+          "topics": [
+            "sydney-new-year-2027",
+            "singapore-new-year-2027"
+          ],
+          "originals": 2,
+          "localizedVersions": 4,
+          "articles": [
+            {
+              "id": "sydney-new-year-2027",
+              "locale": "es",
+              "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/sydney-new-year-2027/content/articles/sydney-new-year-2027.es.json",
+              "status": "draft",
+              "contentHash": "7408bab113bf2dc942b79f3b7af1a834fcd49941831bfb3f19d045833ffcdee9",
+              "fileSha256": "6d7499d146decc63c5c0b172d77f3d2d3d693d45108632a17885b1f9602f15b1",
+              "fullManuscriptActuallyRead": true,
+              "narrativeChanged": false,
+              "wordCount": 1595,
+              "placeCount": 3,
+              "relatedLinks": [
+                {
+                  "id": "sydney",
+                  "bothLocales": true
+                },
+                {
+                  "id": "melbourne",
+                  "bothLocales": true
+                },
+                {
+                  "id": "brisbane",
+                  "bothLocales": true
+                }
+              ],
+              "exactParagraphReuseAgainstCurrentPublishedVersions": 0,
+              "checks": {
+                "facts": true,
+                "sourceRelevance": true,
+                "imageRights": true,
+                "imageRelevance": true,
+                "language": true,
+                "originality": true,
+                "usefulness": true,
+                "timeSensitiveFacts": true,
+                "internalLinks": true
+              }
+            },
+            {
+              "id": "sydney-new-year-2027",
+              "locale": "en",
+              "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/sydney-new-year-2027/content/articles/sydney-new-year-2027.en.json",
+              "status": "draft",
+              "contentHash": "d96fa68ab4794e533ced36cca0a818ca64350b7be9d654a69820950e39b3d75d",
+              "fileSha256": "a8b6defee14a0ff57954972393295f1d6781d09d359c7a9c25494681f9bfeccf",
+              "fullManuscriptActuallyRead": true,
+              "narrativeChanged": false,
+              "wordCount": 1427,
+              "placeCount": 3,
+              "relatedLinks": [
+                {
+                  "id": "sydney",
+                  "bothLocales": true
+                },
+                {
+                  "id": "melbourne",
+                  "bothLocales": true
+                },
+                {
+                  "id": "brisbane",
+                  "bothLocales": true
+                }
+              ],
+              "exactParagraphReuseAgainstCurrentPublishedVersions": 0,
+              "checks": {
+                "facts": true,
+                "sourceRelevance": true,
+                "imageRights": true,
+                "imageRelevance": true,
+                "language": true,
+                "originality": true,
+                "usefulness": true,
+                "timeSensitiveFacts": true,
+                "internalLinks": true
+              }
+            },
+            {
+              "id": "singapore-new-year-2027",
+              "locale": "es",
+              "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/singapore-new-year-2027/staged/content/articles/singapore-new-year-2027.es.json",
+              "fileSha256": "ae82a2df791c666b9ced6006a22a56d2f6f484622aab30ef189d10e198d1c4ec",
+              "contentHash": "bb23299d9dc401f24d873c2aca3e7e32e52b0864351ad79022acab56a45f2133",
+              "status": "draft",
+              "title": "Año Nuevo 2027 en Singapur: 3 lugares y cómo organizar la noche",
+              "fullManuscriptActuallyRead": true,
+              "wordCountFromPriorCompleteReview": 2035,
+              "places": 3,
+              "checks": {
+                "facts": true,
+                "sourceRelevance": true,
+                "imageRights": true,
+                "imageRelevance": true,
+                "language": true,
+                "originality": true,
+                "usefulness": true,
+                "timeSensitiveFacts": true,
+                "internalLinks": true
+              },
+              "relatedLinks": {
+                "singapore": {
+                  "es": true,
+                  "en": true
+                },
+                "kuala-lumpur": {
+                  "es": true,
+                  "en": true
+                },
+                "bangkok": {
+                  "es": true,
+                  "en": true
+                }
+              },
+              "exactParagraphReuseAgainstCurrentSelectedVersions": []
+            },
+            {
+              "id": "singapore-new-year-2027",
+              "locale": "en",
+              "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/singapore-new-year-2027/staged/content/articles/singapore-new-year-2027.en.json",
+              "fileSha256": "9fc3a6b0a1dc2584e22c0e4c67b465cbeac1ec57def58273b6c7eff960cec8f0",
+              "contentHash": "7a626d04065c120589f86a41d7250a4c6ac2007f4f0ab4f5563541addce2eb11",
+              "status": "draft",
+              "title": "Singapore New Year 2027: 3 places to plan your evening",
+              "fullManuscriptActuallyRead": true,
+              "wordCountFromPriorCompleteReview": 1905,
+              "places": 3,
+              "checks": {
+                "facts": true,
+                "sourceRelevance": true,
+                "imageRights": true,
+                "imageRelevance": true,
+                "language": true,
+                "originality": true,
+                "usefulness": true,
+                "timeSensitiveFacts": true,
+                "internalLinks": true
+              },
+              "relatedLinks": {
+                "singapore": {
+                  "es": true,
+                  "en": true
+                },
+                "kuala-lumpur": {
+                  "es": true,
+                  "en": true
+                },
+                "bangkok": {
+                  "es": true,
+                  "en": true
+                }
+              },
+              "exactParagraphReuseAgainstCurrentSelectedVersions": []
+            }
+          ],
+          "reports": [
+            {
+              "topic": "sydney-new-year-2027",
+              "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/sydney/sydney-revalidation.json",
+              "sha256": "c53cf6486fbc3508bc6185ae8620b997a1da810b17c95f70f398eb201862ed96"
+            },
+            {
+              "topic": "singapore-new-year-2027",
+              "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/singapore/singapore-revalidation.json",
+              "sha256": "502b9c14ed2cd5a31dd5d07794c782fb64ba71e4d20d61ba940347713b5267d9"
+            }
+          ],
+          "freshOfficialSources": 18,
+          "freshOfficialFactsMatchedAndActuallyRead": 48,
+          "documentaryPhotoRecords": 6,
+          "uniqueOptimizedFilesChecked": 26,
+          "newOptimizedFilesToImport": 10,
+          "reusedExistingOptimizedFiles": 16,
+          "newProvidedOriginalsToImport": 2,
+          "photoFragment": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/asia/asia-six-photos-fragment.json",
+          "photoFragmentSha256": "fcfca62fa2b8de617d404b74beeb00b36af8934dc2e0d50a7dc604c066c31a95",
+          "noManuscriptCorrectionsRequired": true,
+          "citedResearchPolicy": "Preserve genuine same-day original citation evidence and accessedAt; fresh actual HTTP revalidation supplemental proof is stored here with raw snapshots, hashes and read factual extracts. Do not replace cited records or dates without retaining originals.",
+          "repositoryFilesModified": [],
+          "publiclyVerified": false,
+          "releaseApproved": false,
+          "googleSearchVolumeClaimed": false,
+          "importantLimits": [
+            "Sydney garden source has conflicting8Dec/11Decaccessible ballot deadlines, already omitted by drafts. No unverified futureticket availability guaranteed.",
+            "Singapore organizer still2026 despitecalendar2027; drafts explicitly distinguish dates from future operational details. No promise of final2027fireworks timing/access.",
+            "All photos are actual archival place documentation; each of sixplace sections hasitsownphoto. No generatedeventillustrations.",
+            "Sydney child actually reread3freshindividualCommons pagesand2CCdeeds; Singapore revalidator reread3retainedsame-dayactualindividualfilecaptures+2deeds andviewedall14derivatives, notafreshrightsHTTPclaim."
+          ],
+          "draftNarrativeAndSourcePhotoMappingsUnchanged": true
+        }
+      },
+      {
+        "group": "london",
+        "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/review-report.json",
+        "sha256": "99e932b5bcd0c479d6921db1b70386ce6a3c59fbc8b4388a129cd4de3a4c15e7",
+        "report": {
+          "reviewedAt": "2026-11-12T19:24:38.662Z",
+          "reviewer": "Codex London revalidation AI; no personal visit or human review claim",
+          "verdict": "PASS on both reviewed private drafts; root assigns real publication dates, hashes final approvals and performs production/CI/deployment/public verification.",
+          "topicId": "london-new-year-2027",
+          "articles": [
+            {
+              "id": "london-new-year-2027",
+              "locale": "es",
+              "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/content/articles/london-new-year-2027.es.json",
+              "originalFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/london-new-year-2027/content/articles/london-new-year-2027.es.json",
+              "title": "Año Nuevo en Londres 2027: fuegos, Covent Garden y el desfile",
+              "slug": "ano-nuevo-londres-2027",
+              "status": "draft",
+              "words": 1635,
+              "contentHash": "27ad70d4387ad00956e8ded0a6daf8768663eeeea6e367dc9624f1ab7920ff23",
+              "fileSha256": "9510e53690541352ef19cb23fedf67af4461ca85e2050dc59a6031e29e18e925",
+              "frozenDraftContentHash": "42867e246dee14cd872d9607470139ac27a5ab6ae4f5ab2a166b70e07ad6f432",
+              "frozenDraftFileSha256": "659ac1b0187c76153151304807937a4ba1e26afc40394e968003fbb5e75d6ab2",
+              "fullManuscriptActuallyRead": true,
+              "narrativeUnchanged": true,
+              "onlySourceAccessDatesUpdated": true,
+              "checks": {
+                "facts": true,
+                "sourceRelevance": true,
+                "imageRights": true,
+                "imageRelevance": true,
+                "language": true,
+                "originality": true,
+                "usefulness": true,
+                "timeSensitiveFacts": true,
+                "internalLinks": true
+              },
+              "exactOldParagraphReuse": [],
+              "relatedIds": [
+                "london",
+                "christmas-london",
+                "edinburgh"
+              ],
+              "relatedIdsPublishedInBothLanguages": true
+            },
+            {
+              "id": "london-new-year-2027",
+              "locale": "en",
+              "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/content/articles/london-new-year-2027.en.json",
+              "originalFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/london-new-year-2027/content/articles/london-new-year-2027.en.json",
+              "title": "New Year in London 2027: fireworks, Covent Garden and the parade",
+              "slug": "new-year-london-2027",
+              "status": "draft",
+              "words": 1443,
+              "contentHash": "0111be6406847201ff1fad6b3cf9b9ca68b6e158c2247c92d52622f2212fab34",
+              "fileSha256": "dfb7845aa2c7b411dbbde81fa28511304d4f9fef3a574985285878717aac18f5",
+              "frozenDraftContentHash": "7f98e8fffc064e73aa2c9c338ad3972421218fb86d0d78a9ee38746c76cec7f5",
+              "frozenDraftFileSha256": "c583a8fb3806040f3902ee37ffdde1bf3f0f9d2e20baf5f7434960cf51568818",
+              "fullManuscriptActuallyRead": true,
+              "narrativeUnchanged": true,
+              "onlySourceAccessDatesUpdated": true,
+              "checks": {
+                "facts": true,
+                "sourceRelevance": true,
+                "imageRights": true,
+                "imageRelevance": true,
+                "language": true,
+                "originality": true,
+                "usefulness": true,
+                "timeSensitiveFacts": true,
+                "internalLinks": true
+              },
+              "exactOldParagraphReuse": [],
+              "relatedIds": [
+                "london",
+                "christmas-london",
+                "edinburgh"
+              ],
+              "relatedIdsPublishedInBothLanguages": true
+            }
+          ],
+          "sources": [
+            {
+              "id": "n12-nye-lon-cityhall",
+              "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",
+              "finalUrl": "https://www.london.gov.uk/events/london-new-years-eve-2026",
+              "fetchedAt": "2026-11-12T19:22:25.044Z",
+              "startedAt": "2026-11-12T19:22:24.547Z",
+              "httpStatus": 200,
+              "contentType": "text/html; charset=utf-8",
+              "contentSha256": "62d6a0569eb92e41f018dd3e1090289d1473a71b898af0f4e167b26f35a1ac1d",
+              "bytes": 324641,
+              "retryAfter": null,
+              "oldSha256": "43827b7396feb075ac98f740a2a87c4edb859fcfb9fdb1cf17d621a363089e2b",
+              "bodyMatchesEarlierCapture": false,
+              "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-cityhall.json.html",
+              "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-cityhall.json.txt",
+              "fullExtractedDocumentActuallyRead": true,
+              "factsAndExcerptsConfirmed": true
+            },
+            {
+              "id": "n12-nye-lon-covent",
+              "url": "https://www.coventgarden.london/experience/new-year-s-eve",
+              "finalUrl": "https://www.coventgarden.london/experience/new-year-s-eve",
+              "fetchedAt": "2026-11-12T19:22:25.959Z",
+              "startedAt": "2026-11-12T19:22:24.562Z",
+              "httpStatus": 200,
+              "contentType": "text/html; charset=utf-8",
+              "contentSha256": "1882ab84c499df8d800ef210d8fe5deef47e5f5d0b9b16560f3f3a3e86cf670f",
+              "bytes": 281161,
+              "retryAfter": null,
+              "oldSha256": "1882ab84c499df8d800ef210d8fe5deef47e5f5d0b9b16560f3f3a3e86cf670f",
+              "bodyMatchesEarlierCapture": true,
+              "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-covent.json.html",
+              "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-covent.json.txt",
+              "fullExtractedDocumentActuallyRead": true,
+              "factsAndExcerptsConfirmed": true
+            },
+            {
+              "id": "n12-nye-lon-parade-home",
+              "url": "https://londonparade.co.uk/",
+              "finalUrl": "https://londonparade.com/",
+              "fetchedAt": "2026-11-12T19:22:26.216Z",
+              "startedAt": "2026-11-12T19:22:24.563Z",
+              "httpStatus": 200,
+              "contentType": "text/html; charset=UTF-8",
+              "contentSha256": "e0dc645a10ca51702dd3b6ab6275367cf6dad5e74ce7804f993d4910a0b58a98",
+              "bytes": 80590,
+              "retryAfter": null,
+              "oldSha256": "ec6489143caed263bfa52b1f7a69f3cc162a077caf9f7eb9bc8fa474aa831c1f",
+              "bodyMatchesEarlierCapture": false,
+              "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-parade-home.json.html",
+              "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-parade-home.json.txt",
+              "fullExtractedDocumentActuallyRead": true,
+              "factsAndExcerptsConfirmed": true
+            },
+            {
+              "id": "n12-nye-lon-parade",
+              "url": "https://londonparade.com/parade-location-timing/",
+              "finalUrl": "https://londonparade.com/parade-location-timing/",
+              "fetchedAt": "2026-11-12T19:22:25.156Z",
+              "startedAt": "2026-11-12T19:22:24.563Z",
+              "httpStatus": 200,
+              "contentType": "text/html; charset=UTF-8",
+              "contentSha256": "61318e485f100f6afdb05e8f897b3d44d06aaa7e93df3e848964b2336b0dbbd9",
+              "bytes": 40629,
+              "retryAfter": null,
+              "oldSha256": "d2f3b8fd757a44202d68e982fe53efbf298ed8dcce33ef18171403be2f907e54",
+              "bodyMatchesEarlierCapture": false,
+              "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-parade.json.html",
+              "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-parade.json.txt",
+              "fullExtractedDocumentActuallyRead": true,
+              "factsAndExcerptsConfirmed": true
+            },
+            {
+              "id": "n12-nye-lon-tourism",
+              "url": "https://www.visitlondon.com/things-to-do/event/42844535-new-year-s-day-in-london",
+              "finalUrl": "https://www.visitlondon.com/things-to-do/event/42844535-new-year-s-day-in-london",
+              "fetchedAt": "2026-11-12T19:22:26.137Z",
+              "startedAt": "2026-11-12T19:22:24.564Z",
+              "httpStatus": 200,
+              "contentType": "text/html; charset=utf-8",
+              "contentSha256": "e259f8d17ca15ee9de965095d2253b69fa32165039da06e89fe6e7d3b4e68813",
+              "bytes": 69466,
+              "retryAfter": null,
+              "oldSha256": "67d196bdc5361e9ef1d75b411338e20cd070146d049e79803dfce91343fae5fe",
+              "bodyMatchesEarlierCapture": false,
+              "rawFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-tourism.json.html",
+              "textFile": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/current/n12-nye-lon-tourism.json.txt",
+              "fullExtractedDocumentActuallyRead": true,
+              "factsAndExcerptsConfirmed": true
+            }
+          ],
+          "sourceImports": [
+            {
+              "target": "content/research/n12-nye-lon-cityhall.json",
+              "source": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/content/research/n12-nye-lon-cityhall.json",
+              "sha256": "20b6d9c6eefb957ed94da4356bba3a0288b39a6ebe60bddbd057d93139547015"
+            },
+            {
+              "target": "content/research/n12-nye-lon-covent.json",
+              "source": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/content/research/n12-nye-lon-covent.json",
+              "sha256": "af0102e8eee24f892bc373c07e3cd632a03216086c8eb7e8660233fe6f3d5a61"
+            },
+            {
+              "target": "content/research/n12-nye-lon-parade-home.json",
+              "source": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/content/research/n12-nye-lon-parade-home.json",
+              "sha256": "fe793456f12073b6a3d202877a57c49a21129aaed8ae806d0736dba727f6240d"
+            },
+            {
+              "target": "content/research/n12-nye-lon-parade.json",
+              "source": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/content/research/n12-nye-lon-parade.json",
+              "sha256": "aab675d29aff0bfa45595cb00a0c24645a235250cdb5bdb1508fc09c3c7b8ed4"
+            },
+            {
+              "target": "content/research/n12-nye-lon-tourism.json",
+              "source": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/content/research/n12-nye-lon-tourism.json",
+              "sha256": "2d048748d0417b2f81654547586ed4c0a000753d20ea36a37d1673628ad196b9"
+            },
+            {
+              "target": "content/research/n12-nye-photo-london-eye-revalidation.json",
+              "source": "/workspace/artifacts/maletafeliz-new-year-ten-n12/photos-sydney-singapore-london/staged/content/research/n12-nye-photo-london-eye-revalidation.json",
+              "sha256": "c7526184f9954ee735ce6aa16261b14d80327ef1d3e51d36941fbac689616702"
+            },
+            {
+              "target": "content/research/n12-nye-photo-london-trafalgar-revalidation.json",
+              "source": "/workspace/artifacts/maletafeliz-new-year-ten-n12/photos-sydney-singapore-london/staged/content/research/n12-nye-photo-london-trafalgar-revalidation.json",
+              "sha256": "2a3fc8751f55bed9b169861e81bed8278b84085abbacbfe53dedb59a61234d33"
+            },
+            {
+              "target": "content/research/n12-nye-photo-london-covent-revalidation.json",
+              "source": "/workspace/artifacts/maletafeliz-new-year-ten-n12/photos-sydney-singapore-london/staged/content/research/n12-nye-photo-london-covent-revalidation.json",
+              "sha256": "567e97765fcf7aa5d7f787f2550ca2eb2e01105e27bd67dcddb8728178fd2bd4"
+            }
+          ],
+          "photoManifestFragment": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/london/photos-fragment.json",
+          "photoManifestFragmentSha256": "4450870875c1e1cb2f1f8bf3e1a37dac1304f75b88e416697b92f5fe6d411db8",
+          "photos": [
+            {
+              "id": "n12-nye-london-eye",
+              "license": "CC BY 2.5",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_Eye_Twilight_April_2006.jpg",
+              "specificPermissionRawFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/photos-sydney-singapore-london/place-london-london-eye-file.html",
+              "specificPermissionRawSha256": "807d0b8f90525dd48ee13c1cb763564af3fe61c1ac0535f0b23165812721ccba",
+              "permissionRecord": "/workspace/artifacts/maletafeliz-new-year-ten-n12/photos-sydney-singapore-london/staged/content/research/n12-nye-photo-london-eye-revalidation.json",
+              "permissionRecordSha256": "c7526184f9954ee735ce6aa16261b14d80327ef1d3e51d36941fbac689616702",
+              "licenceReadFromActualPreservedCapture": true,
+              "originalPermissionCapturedAt": "2026-11-12T16:27:36.171Z",
+              "actuallyViewedMainImage": true,
+              "noNewDownloadOfFullResolutionOriginalClaimed": true,
+              "mainImageFile": "/workspace/maletafeliz-/public/images/place-london-london-eye.webp",
+              "archiveContextCorrect": true,
+              "mandatorySpecificAttributionIncluded": true
+            },
+            {
+              "id": "n12-nye-london-trafalgar",
+              "license": "CC BY-SA 3.0",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trafalgar_Square_360_Panorama_Cropped_Sky,_London_-_Jun_2009.jpg",
+              "specificPermissionRawFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/photos-sydney-singapore-london/london-trafalgar-file.html",
+              "specificPermissionRawSha256": "c31200a934dc7519fe34bd7d13f74ffd1ed59c7862403f33587a62885f036c8d",
+              "permissionRecord": "/workspace/artifacts/maletafeliz-new-year-ten-n12/photos-sydney-singapore-london/staged/content/research/n12-nye-photo-london-trafalgar-revalidation.json",
+              "permissionRecordSha256": "2a3fc8751f55bed9b169861e81bed8278b84085abbacbfe53dedb59a61234d33",
+              "licenceReadFromActualPreservedCapture": true,
+              "originalPermissionCapturedAt": "2026-11-12T16:27:36.632Z",
+              "actuallyViewedMainImage": true,
+              "noNewDownloadOfFullResolutionOriginalClaimed": true,
+              "mainImageFile": "/workspace/maletafeliz-/public/images/london-trafalgar.webp",
+              "archiveContextCorrect": true,
+              "mandatorySpecificAttributionIncluded": true
+            },
+            {
+              "id": "n12-nye-london-covent",
+              "license": "CC BY-SA 4.0",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:London,_Covent_Garden_--_2016_--_4879.jpg",
+              "specificPermissionRawFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/photos-sydney-singapore-london/place-london-covent-garden-file.html",
+              "specificPermissionRawSha256": "43be55946adecd64a4f515c06aa689a90458782a316cb4da46c0248e75a9832a",
+              "permissionRecord": "/workspace/artifacts/maletafeliz-new-year-ten-n12/photos-sydney-singapore-london/staged/content/research/n12-nye-photo-london-covent-revalidation.json",
+              "permissionRecordSha256": "567e97765fcf7aa5d7f787f2550ca2eb2e01105e27bd67dcddb8728178fd2bd4",
+              "licenceReadFromActualPreservedCapture": true,
+              "originalPermissionCapturedAt": "2026-11-12T16:27:36.981Z",
+              "actuallyViewedMainImage": true,
+              "noNewDownloadOfFullResolutionOriginalClaimed": true,
+              "mainImageFile": "/workspace/maletafeliz-/public/images/place-london-covent-garden.webp",
+              "archiveContextCorrect": true,
+              "mandatorySpecificAttributionIncluded": true
+            }
+          ],
+          "uniqueExistingOptimizedFiles": [
+            {
+              "src": "/images/place-london-london-eye.webp",
+              "source": "/workspace/maletafeliz-/public/images/place-london-london-eye.webp",
+              "sha256": "fc1ad17d3997002dc96236af85fdc1f49c10cd7a0db6b02f3ddd9c38b8cca582",
+              "width": 1280,
+              "height": 853,
+              "bytes": 326318,
+              "reusedHistoricalFile": true
+            },
+            {
+              "src": "/images/place-london-london-eye-480w.webp",
+              "source": "/workspace/maletafeliz-/public/images/place-london-london-eye-480w.webp",
+              "sha256": "b69e93e09ecc3e9901fc9491f665e661e3826cef02991f84b54833cfe21f71e1",
+              "width": 480,
+              "height": 320,
+              "bytes": 42738,
+              "reusedHistoricalFile": true
+            },
+            {
+              "src": "/images/place-london-london-eye-800w.webp",
+              "source": "/workspace/maletafeliz-/public/images/place-london-london-eye-800w.webp",
+              "sha256": "74bbb19a2a76d214306dc2593f2b1faeed971d32816539be666d77bca5dbf122",
+              "width": 800,
+              "height": 533,
+              "bytes": 110068,
+              "reusedHistoricalFile": true
+            },
+            {
+              "src": "/images/place-london-london-eye-1200w.webp",
+              "source": "/workspace/maletafeliz-/public/images/place-london-london-eye-1200w.webp",
+              "sha256": "44a542024df5bfabef571f5d8eab24d771af8cec40f581dcb98b3d2e86cb6563",
+              "width": 1200,
+              "height": 800,
+              "bytes": 215802,
+              "reusedHistoricalFile": true
+            },
+            {
+              "src": "/images/london-trafalgar.webp",
+              "source": "/workspace/maletafeliz-/public/images/london-trafalgar.webp",
+              "sha256": "ed7fc5feaf6522ef70fa32404db53cb870b097b69629d2c1d3a21363c7b94a40",
+              "width": 1600,
+              "height": 334,
+              "bytes": 91110,
+              "reusedHistoricalFile": true
+            },
+            {
+              "src": "/images/london-trafalgar-480w.webp",
+              "source": "/workspace/maletafeliz-/public/images/london-trafalgar-480w.webp",
+              "sha256": "00ca92b137611557038d81a553407102cadadb00501754840cb9c69b0073f131",
+              "width": 480,
+              "height": 100,
+              "bytes": 9926,
+              "reusedHistoricalFile": true
+            },
+            {
+              "src": "/images/london-trafalgar-800w.webp",
+              "source": "/workspace/maletafeliz-/public/images/london-trafalgar-800w.webp",
+              "sha256": "96cedb47a0681cd5dd98067b183ae57ce28f45f71c6288a0d09953a90f05311d",
+              "width": 800,
+              "height": 167,
+              "bytes": 25842,
+              "reusedHistoricalFile": true
+            },
+            {
+              "src": "/images/london-trafalgar-1200w.webp",
+              "source": "/workspace/maletafeliz-/public/images/london-trafalgar-1200w.webp",
+              "sha256": "1a29bd3ef4815bb7c9437e3ea9a36f581ba731d102156cc8e7b04d206d531b9b",
+              "width": 1200,
+              "height": 250,
+              "bytes": 45670,
+              "reusedHistoricalFile": true
+            },
+            {
+              "src": "/images/place-london-covent-garden.webp",
+              "source": "/workspace/maletafeliz-/public/images/place-london-covent-garden.webp",
+              "sha256": "a8b042916ba74c46f6e5acf2a919255b4acc39aa3f7d4d5bd22743c5305b2c1f",
+              "width": 1280,
+              "height": 853,
+              "bytes": 291842,
+              "reusedHistoricalFile": true
+            },
+            {
+              "src": "/images/place-london-covent-garden-480w.webp",
+              "source": "/workspace/maletafeliz-/public/images/place-london-covent-garden-480w.webp",
+              "sha256": "e5639340a2a3414664f90da8302be5da3dfa68dbbe3c69a50010c104dd4e97ee",
+              "width": 480,
+              "height": 320,
+              "bytes": 42800,
+              "reusedHistoricalFile": true
+            },
+            {
+              "src": "/images/place-london-covent-garden-800w.webp",
+              "source": "/workspace/maletafeliz-/public/images/place-london-covent-garden-800w.webp",
+              "sha256": "f12fe1c869cb48baf98ab9e6c954074aa9528731047d3227163ddf21a60d8731",
+              "width": 800,
+              "height": 533,
+              "bytes": 103486,
+              "reusedHistoricalFile": true
+            },
+            {
+              "src": "/images/place-london-covent-garden-1200w.webp",
+              "source": "/workspace/maletafeliz-/public/images/place-london-covent-garden-1200w.webp",
+              "sha256": "45004d4df65b43be6e235179d9294b4da9a00d53a5aec769e15bc65dcb149b9c",
+              "width": 1200,
+              "height": 800,
+              "bytes": 186482,
+              "reusedHistoricalFile": true
+            }
+          ],
+          "newProvidedOriginals": 0,
+          "newOptimizedFiles": 0,
+          "reusedOptimizedFiles": 12,
+          "exactPlacePhotoCount": 3,
+          "priorIndependentReview": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/asia-london-editorial.json",
+          "originalityScope": "Both complete manuscripts read, all390 currently published localized article narratives compared for exact long paragraph reuse; previous independent eight-word/semantic review against386 old plusBraga/Fez retained. No external web-wide plagiarism or search-volume guarantee.",
+          "criticalFacts": [
+            "Official London fireworks31Dec2026/1Jan2027 requireTicketmasterticket andoneofsixfixedviewingareas.",
+            "Greenarea behindLondonEye, southbank viaWaterloo; Orangeaccessible area haspartialsideview.",
+            "Organizer announces1January2027parade13:00–16:30 throughTrafalgarSquare; free standing differsfromreservedseat.",
+            "CoventGardenofficialneighborhoodpagewelcomes2027butdoesnotestablishfreepublicparty/fireworksview.",
+            "No live ticket stock, exactTfLholidaytimetable, prices or Googlepopularityrank claimed."
+          ],
+          "issues": [],
+          "repositoryFilesModified": [],
+          "publiclyVerified": false,
+          "releaseApproved": false
+        }
+      },
+      {
+        "group": "americas",
+        "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/americas-revalidated-review.json",
+        "sha256": "0e9331d4bcbe46fbe84f17c0287fcc8bc5ba1edc1537d6a82c46d3cbbb17fe97",
+        "report": {
+          "reviewedAt": "2026-11-12T19:30:02.281Z",
+          "reviewer": "Codex /root/revalidate_nye_americas, revalidation reviewer; root-requested wording polish in private Rio copies only",
+          "verdict": "PASS four reviewed current drafts; not public verification or final publication-date/status approval",
+          "topics": [
+            "new-york-new-year-2027",
+            "rio-new-year-2027"
+          ],
+          "newOriginals": 2,
+          "localizedDrafts": 4,
+          "articles": [
+            {
+              "id": "new-york-new-year-2027",
+              "locale": "es",
+              "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/articles/new-york-new-year-2027.es.json",
+              "fileSha256": "f55c96149c74efa658029049ad70f84ec73ea1a671643c2736302d83545cf4e4",
+              "draftContentHash": "f99c6b427992bf180d99e27a1398c32f11ab4ad8c2f7166ee64aaa0e5a5199f3",
+              "frozenFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/articles/new-york-new-year-2027.es.json",
+              "frozenFileSha256": "f55c96149c74efa658029049ad70f84ec73ea1a671643c2736302d83545cf4e4",
+              "frozenDraftContentHash": "f99c6b427992bf180d99e27a1398c32f11ab4ad8c2f7166ee64aaa0e5a5199f3",
+              "changesFromFrozen": [],
+              "title": "Nochevieja en Nueva York 2026–2027: 3 lugares y qué reservar",
+              "slug": "nochevieja-nueva-york-2027-3-lugares",
+              "description": "Times Square, Central Park y Bryant Park para fin de año en Nueva York 2026–2027: entradas, carrera Midnight Run, patinaje y cómo elegir tu plan.",
+              "status": "draft",
+              "words": 1669,
+              "placeCount": 3,
+              "photos": [
+                "n12-ny-times-square",
+                "n12-ny-central-park",
+                "n12-ny-bryant"
+              ],
+              "sourceIds": [
+                "n12-ny-times-square",
+                "n12-ny-faq",
+                "n12-ny-midnight-run",
+                "n12-ny-bryant",
+                "n12-ny-rink",
+                "n12-ny-mta"
+              ],
+              "related": [
+                {
+                  "id": "new-york",
+                  "es": true,
+                  "en": true
+                },
+                {
+                  "id": "washington-dc",
+                  "es": true,
+                  "en": true
+                },
+                {
+                  "id": "miami",
+                  "es": true,
+                  "en": true
+                }
+              ],
+              "fullManuscriptActuallyRead": true,
+              "changedRioEndpointsActuallyRereadInContext": false,
+              "allNineChecksActuallyPerformed": true,
+              "checks": {
+                "facts": true,
+                "sourceRelevance": true,
+                "imageRights": true,
+                "imageRelevance": true,
+                "language": true,
+                "originality": true,
+                "usefulness": true,
+                "timeSensitiveFacts": true,
+                "internalLinks": true
+              },
+              "originality": {
+                "baselineCommit": "71fb4567fab8426190634d9f73ccaeaab71c9019",
+                "baselineLocalizedVersions": 390,
+                "exactParagraphDuplicates": [],
+                "earlierIndependentEightWordReview": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/nyc-rio-editorial.json",
+                "finding": "No exact substantive prose paragraph duplicates in the actual390-version baseline; earlier independent8word-window review also coveredBraga/Fez and found only generic dates/instructions."
+              }
+            },
+            {
+              "id": "new-york-new-year-2027",
+              "locale": "en",
+              "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/articles/new-york-new-year-2027.en.json",
+              "fileSha256": "1d5193e541b1491bfc7513fefdac2927a7f8340aa35f54baa5a61b8f491721c2",
+              "draftContentHash": "9fb28349ce06c0fbb101f75b8a1cd7ab6cc813b6c89acc37891342ce31f8e5f3",
+              "frozenFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/articles/new-york-new-year-2027.en.json",
+              "frozenFileSha256": "1d5193e541b1491bfc7513fefdac2927a7f8340aa35f54baa5a61b8f491721c2",
+              "frozenDraftContentHash": "9fb28349ce06c0fbb101f75b8a1cd7ab6cc813b6c89acc37891342ce31f8e5f3",
+              "changesFromFrozen": [],
+              "title": "New Year’s Eve in New York 2026–2027: 3 places to plan",
+              "slug": "new-york-new-years-eve-2027-3-places",
+              "description": "Plan New Year’s Eve in New York with Times Square, Central Park’s Midnight Run and Bryant Park: official dates, booking rules and public versus ticketed access.",
+              "status": "draft",
+              "words": 1481,
+              "placeCount": 3,
+              "photos": [
+                "n12-ny-times-square",
+                "n12-ny-central-park",
+                "n12-ny-bryant"
+              ],
+              "sourceIds": [
+                "n12-ny-times-square",
+                "n12-ny-faq",
+                "n12-ny-midnight-run",
+                "n12-ny-bryant",
+                "n12-ny-rink",
+                "n12-ny-mta"
+              ],
+              "related": [
+                {
+                  "id": "new-york",
+                  "es": true,
+                  "en": true
+                },
+                {
+                  "id": "washington-dc",
+                  "es": true,
+                  "en": true
+                },
+                {
+                  "id": "miami",
+                  "es": true,
+                  "en": true
+                }
+              ],
+              "fullManuscriptActuallyRead": true,
+              "changedRioEndpointsActuallyRereadInContext": false,
+              "allNineChecksActuallyPerformed": true,
+              "checks": {
+                "facts": true,
+                "sourceRelevance": true,
+                "imageRights": true,
+                "imageRelevance": true,
+                "language": true,
+                "originality": true,
+                "usefulness": true,
+                "timeSensitiveFacts": true,
+                "internalLinks": true
+              },
+              "originality": {
+                "baselineCommit": "71fb4567fab8426190634d9f73ccaeaab71c9019",
+                "baselineLocalizedVersions": 390,
+                "exactParagraphDuplicates": [],
+                "earlierIndependentEightWordReview": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/nyc-rio-editorial.json",
+                "finding": "No exact substantive prose paragraph duplicates in the actual390-version baseline; earlier independent8word-window review also coveredBraga/Fez and found only generic dates/instructions."
+              }
+            },
+            {
+              "id": "rio-new-year-2027",
+              "locale": "es",
+              "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/staged/articles/rio-new-year-2027.es.json",
+              "fileSha256": "6ac8841267a4815d40f7e0eadf98c873988f8eed87a2025d261d714f3c1217fd",
+              "draftContentHash": "4629c1cb0da7adf42034fb37c58a3480cbee95f8d097211863e25802531de840",
+              "frozenFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/articles/rio-new-year-2027.es.json",
+              "frozenFileSha256": "b724e3ffec845deff06ec05891cfdda8c62be25b9a8361adb7c2207879ea3c75",
+              "frozenDraftContentHash": "c2828a6b09869302f0b7465fcbe8f65e078faf6a51306498361e4a23cadb35c0",
+              "changesFromFrozen": [
+                {
+                  "field": "sections.0.heading",
+                  "before": "1. Copacabana: elegí la costa sin inventar el programa de 2027",
+                  "after": "1. Copacabana: qué comprobar para organizar la noche de Réveillon"
+                },
+                {
+                  "field": "conclusion",
+                  "before": "El mejor punto de partida para el fin de año en Río es una decisión clara: costa o fiesta privada como plan principal, con Ipanema como posible visita diurna. El evento del Jockey tiene una confirmación concreta para 2026–2027; los detalles públicos de Copacabana requieren una actualización que esta guía no inventa. Con la reserva entendida y el regreso pensado, podés organizar la noche alrededor de información comprobada.",
+                  "after": "El mejor punto de partida para el fin de año en Río es una decisión clara: costa o fiesta privada como plan principal, con Ipanema como posible visita diurna. El evento del Jockey tiene una confirmación concreta para 2026–2027; los detalles públicos de Copacabana requieren consultar las actualizaciones oficiales antes del viaje. Con la reserva entendida y el regreso pensado, podés organizar la noche alrededor de información comprobada."
+                }
+              ],
+              "title": "Fin de año en Río 2026–2027: 3 lugares y qué reservar",
+              "slug": "fin-de-ano-rio-2027-3-lugares",
+              "description": "Organizá el fin de año en Río con Copacabana, Ipanema y Brava Arena Jockey: qué está confirmado para 2027, qué reservar y cómo elegir tu noche.",
+              "status": "draft",
+              "words": 1707,
+              "placeCount": 3,
+              "photos": [
+                "n12-rj-copacabana",
+                "n12-rj-ipanema",
+                "n12-rj-jockey"
+              ],
+              "sourceIds": [
+                "n12-rj-copacabana",
+                "n12-rj-ipanema",
+                "n12-rj-jockey",
+                "n12-rj-jockey-venue",
+                "n12-rj-jockey-club"
+              ],
+              "related": [
+                {
+                  "id": "rio",
+                  "es": true,
+                  "en": true
+                },
+                {
+                  "id": "buenos-aires",
+                  "es": true,
+                  "en": true
+                },
+                {
+                  "id": "lima",
+                  "es": true,
+                  "en": true
+                }
+              ],
+              "fullManuscriptActuallyRead": true,
+              "changedRioEndpointsActuallyRereadInContext": true,
+              "allNineChecksActuallyPerformed": true,
+              "checks": {
+                "facts": true,
+                "sourceRelevance": true,
+                "imageRights": true,
+                "imageRelevance": true,
+                "language": true,
+                "originality": true,
+                "usefulness": true,
+                "timeSensitiveFacts": true,
+                "internalLinks": true
+              },
+              "originality": {
+                "baselineCommit": "71fb4567fab8426190634d9f73ccaeaab71c9019",
+                "baselineLocalizedVersions": 390,
+                "exactParagraphDuplicates": [],
+                "earlierIndependentEightWordReview": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/nyc-rio-editorial.json",
+                "finding": "No exact substantive prose paragraph duplicates in the actual390-version baseline; earlier independent8word-window review also coveredBraga/Fez and found only generic dates/instructions."
+              }
+            },
+            {
+              "id": "rio-new-year-2027",
+              "locale": "en",
+              "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/staged/articles/rio-new-year-2027.en.json",
+              "fileSha256": "161f1f2f912a6ae6c86881ab84cbf5e6deaa902492f5285c2cdd37f4717d6324",
+              "draftContentHash": "8bc41ff345aa01f5a265785f6e9a9dabd114ed624cf49804be8cd402e8a83273",
+              "frozenFile": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/articles/rio-new-year-2027.en.json",
+              "frozenFileSha256": "c98029aa7539fa4de13ef6045542c5b1ca352b164e82d3a3a0cccc050e6ec86c",
+              "frozenDraftContentHash": "62fbc0c55d32698af24da18caab1dc2aaf7378dbd24d145961cb29e3c2dc5110",
+              "changesFromFrozen": [
+                {
+                  "field": "sections.0.heading",
+                  "before": "1. Copacabana: choose the coast without inventing a 2027 programme",
+                  "after": "1. Copacabana: what to check before planning your Réveillon night"
+                },
+                {
+                  "field": "conclusion",
+                  "before": "A clear decision is the best starting point for New Year’s Eve in Rio: the coast or a private party as the main plan, with Ipanema as a possible daytime visit. The Jockey event has specific confirmation for 2026–2027; Copacabana’s public details require an update this guide does not invent. With the booking understood and the return considered, you can organise the night around verified information.",
+                  "after": "A clear decision is the best starting point for New Year’s Eve in Rio: the coast or a private party as the main plan, with Ipanema as a possible daytime visit. The Jockey event has specific confirmation for 2026–2027; check official updates for Copacabana’s public programme before travelling. With the booking understood and the return considered, you can organise the night around verified information."
+                }
+              ],
+              "title": "New Year’s Eve in Rio 2026–2027: 3 places to plan",
+              "slug": "rio-new-years-eve-2027-3-places",
+              "description": "Plan New Year’s Eve in Rio with Copacabana, Ipanema and Brava Arena Jockey: confirmed 2027 event details, booking questions and public-programme limits.",
+              "status": "draft",
+              "words": 1531,
+              "placeCount": 3,
+              "photos": [
+                "n12-rj-copacabana",
+                "n12-rj-ipanema",
+                "n12-rj-jockey"
+              ],
+              "sourceIds": [
+                "n12-rj-copacabana",
+                "n12-rj-ipanema",
+                "n12-rj-jockey",
+                "n12-rj-jockey-venue",
+                "n12-rj-jockey-club"
+              ],
+              "related": [
+                {
+                  "id": "rio",
+                  "es": true,
+                  "en": true
+                },
+                {
+                  "id": "buenos-aires",
+                  "es": true,
+                  "en": true
+                },
+                {
+                  "id": "lima",
+                  "es": true,
+                  "en": true
+                }
+              ],
+              "fullManuscriptActuallyRead": true,
+              "changedRioEndpointsActuallyRereadInContext": true,
+              "allNineChecksActuallyPerformed": true,
+              "checks": {
+                "facts": true,
+                "sourceRelevance": true,
+                "imageRights": true,
+                "imageRelevance": true,
+                "language": true,
+                "originality": true,
+                "usefulness": true,
+                "timeSensitiveFacts": true,
+                "internalLinks": true
+              },
+              "originality": {
+                "baselineCommit": "71fb4567fab8426190634d9f73ccaeaab71c9019",
+                "baselineLocalizedVersions": 390,
+                "exactParagraphDuplicates": [],
+                "earlierIndependentEightWordReview": "/workspace/artifacts/maletafeliz-new-year-ten-n12/independent-review/nyc-rio-editorial.json",
+                "finding": "No exact substantive prose paragraph duplicates in the actual390-version baseline; earlier independent8word-window review also coveredBraga/Fez and found only generic dates/instructions."
+              }
+            }
+          ],
+          "sourceRechecks": {
+            "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/read-source-rechecks.json",
+            "sha256": "574de367a2158c0e57a15cc63cf3d9fe77ace4e904830f7c08c3ced22f4daf3e",
+            "actualOfficialCitedRequests": 11,
+            "additionalOfficialRequests": 2,
+            "actualPhotoPageRequests": 6,
+            "actualDeedRequests": 4,
+            "all23HttpStatus200": true,
+            "failures": [],
+            "freshRawAndExtractedBodiesRetained": true,
+            "allRelevantFactsAndExcerptsActuallyRead": true
+          },
+          "photoRechecks": {
+            "file": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/assets-proof.json",
+            "sha256": "76e5bb8e39ed54ea32b8b71d35a9ec3a48b148619cc941c41fd386543fa7cc49",
+            "photos": 6,
+            "providedSourceJpegs": 6,
+            "optimizedFiles": 34,
+            "newWebpFiles": 18,
+            "existingWebpFilesReusedUnchanged": 16,
+            "all34VariantsActuallyViewedInTwoContacts": true
+          },
+          "importMap": {
+            "articles": [
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/articles/new-york-new-year-2027.es.json",
+                "to": "content/articles/new-york-new-year-2027.es.json",
+                "draftContentHash": "f99c6b427992bf180d99e27a1398c32f11ab4ad8c2f7166ee64aaa0e5a5199f3",
+                "fileSha256": "f55c96149c74efa658029049ad70f84ec73ea1a671643c2736302d83545cf4e4"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/articles/new-york-new-year-2027.en.json",
+                "to": "content/articles/new-york-new-year-2027.en.json",
+                "draftContentHash": "9fb28349ce06c0fbb101f75b8a1cd7ab6cc813b6c89acc37891342ce31f8e5f3",
+                "fileSha256": "1d5193e541b1491bfc7513fefdac2927a7f8340aa35f54baa5a61b8f491721c2"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/staged/articles/rio-new-year-2027.es.json",
+                "to": "content/articles/rio-new-year-2027.es.json",
+                "draftContentHash": "4629c1cb0da7adf42034fb37c58a3480cbee95f8d097211863e25802531de840",
+                "fileSha256": "6ac8841267a4815d40f7e0eadf98c873988f8eed87a2025d261d714f3c1217fd"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/staged/articles/rio-new-year-2027.en.json",
+                "to": "content/articles/rio-new-year-2027.en.json",
+                "draftContentHash": "8bc41ff345aa01f5a265785f6e9a9dabd114ed624cf49804be8cd402e8a83273",
+                "fileSha256": "161f1f2f912a6ae6c86881ab84cbf5e6deaa902492f5285c2cdd37f4717d6324"
+              }
+            ],
+            "plans": [
+              {
+                "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/plan-entry.json",
+                "sha256": "fe7eea14e78e7c216e1e35cf67327ea334df1669f7cf4b51c01f5ac2fe00eb1e"
+              },
+              {
+                "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/plan-entry.json",
+                "sha256": "08e2003c187900ae652023c072adc072feb1179ecaff8bd44bb3eae23f0e1fa7"
+              }
+            ],
+            "photoFragments": [
+              {
+                "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/images-fragment.json",
+                "sha256": "a710a29b994d59cddacccb42cbc4c20f652d11d3e68a69ca783ad6f20464bbd3"
+              },
+              {
+                "file": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images-fragment.json",
+                "sha256": "4b476b1ffde8da0cc965f8e6a17222463e738d9e70548355520fff494c75c099"
+              }
+            ],
+            "newOptimizedAssets": [
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/images/n12-ny-times-square-240w.webp",
+                "to": "public/images/n12-ny-times-square-240w.webp",
+                "sha256": "774531d64fee885d35e2a2257bc3113e4c220b32e7fb9e9f0d18cf41921596ce"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/images/n12-ny-times-square-320w.webp",
+                "to": "public/images/n12-ny-times-square-320w.webp",
+                "sha256": "ac1121ce29a33f0fa0fd74e15698cc44ebbe7247f31e01d6cb0252cb1417d2a6"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/images/n12-ny-central-park-240w.webp",
+                "to": "public/images/n12-ny-central-park-240w.webp",
+                "sha256": "35d4e502f94e161c7e4fc45ccd5dd6d9109d409310d6c52a6be87ff10bd77716"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/images/n12-ny-central-park-320w.webp",
+                "to": "public/images/n12-ny-central-park-320w.webp",
+                "sha256": "8a53210900ae2dbaa65dd6dd6ec6b7ce45e6ca70112a08bd9688d3b4cf4000ab"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/images/n12-ny-bryant-240w.webp",
+                "to": "public/images/n12-ny-bryant-240w.webp",
+                "sha256": "d071fa0ffcee26cf579d219b4f43d9227f0d1cc054a10e735d50af38fa32b4a4"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/images/n12-ny-bryant-320w.webp",
+                "to": "public/images/n12-ny-bryant-320w.webp",
+                "sha256": "4da4186f5d91cb2f61f01541b80f4b7fa180e1aaf3d4dd56f0520cda1528cac8"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-ipanema-240w.webp",
+                "to": "public/images/n12-rj-ipanema-240w.webp",
+                "sha256": "8e583ef5f0bc829ab9be144814651b68955e899dc87571b2e73b2a3fd8c5dca1"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-ipanema-320w.webp",
+                "to": "public/images/n12-rj-ipanema-320w.webp",
+                "sha256": "db7c27f36d14ae4fee5fabfa67d1b18f9eb550445b5945320982dcf8aa260316"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-copacabana.webp",
+                "to": "public/images/n12-rj-copacabana.webp",
+                "sha256": "416b0590e44cd4b7808d3f7c05325b6ca184e740288611213f759b673db88028"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-copacabana-240w.webp",
+                "to": "public/images/n12-rj-copacabana-240w.webp",
+                "sha256": "102647c507f0703b0701361b77a60b20f7ffbc76f738a0bbbbdf50c9694afbf9"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-copacabana-320w.webp",
+                "to": "public/images/n12-rj-copacabana-320w.webp",
+                "sha256": "0159ff55b391a8f92fcff7fa587671def2fdc5492eb79bbc8fc59d644384857d"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-copacabana-480w.webp",
+                "to": "public/images/n12-rj-copacabana-480w.webp",
+                "sha256": "bc4e181c0f8a7bd712788bd4cc828595f438396758505302eed9884a362b13ae"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-copacabana-800w.webp",
+                "to": "public/images/n12-rj-copacabana-800w.webp",
+                "sha256": "4a548c0a0e4473b64039c08ebcee765498dc06a1210fdca488f1bc8d93795d36"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-jockey.webp",
+                "to": "public/images/n12-rj-jockey.webp",
+                "sha256": "c77cf9c799d7159b984985722d64f0b29bea6e524f5c14cb6525d5859ec93b80"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-jockey-240w.webp",
+                "to": "public/images/n12-rj-jockey-240w.webp",
+                "sha256": "46385d8067f88db179051d872752440bfedc3b6e7e938e07198dcde4c0487f75"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-jockey-320w.webp",
+                "to": "public/images/n12-rj-jockey-320w.webp",
+                "sha256": "9a6fbc5b5d22b29ec63035bc78ff1b78923b9b4be0996951e279f961dd8e6e1f"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-jockey-480w.webp",
+                "to": "public/images/n12-rj-jockey-480w.webp",
+                "sha256": "7d44d4ea6c740c4abf4c90802937a917af8280e28e4c3b187f2f2244a613da99"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/images/n12-rj-jockey-800w.webp",
+                "to": "public/images/n12-rj-jockey-800w.webp",
+                "sha256": "e998c58b88d4b204242695053e3e60a55280c8968975238835034b9ea62e8ceb"
+              }
+            ],
+            "providedOriginals": [
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/originals/n12-ny-times-square.jpg",
+                "to": "content/images/originals/n12-ny-times-square.jpg",
+                "sha256": "33816a346d3823e7f933b655829cef72a3ab8a27d09935eb9f90f789dbea9a22"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/originals/n12-ny-central-park.jpg",
+                "to": "content/images/originals/n12-ny-central-park.jpg",
+                "sha256": "89ea256bf706ddd60b626406dab76d39e1aea01b09de3faf8a2cf75513cfc52b"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/originals/n12-ny-bryant.jpg",
+                "to": "content/images/originals/n12-ny-bryant.jpg",
+                "sha256": "9bd50b409e84e7b998b79490d7d034a4edf0501685259ec7e1a3da0517d23947"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/originals/n12-rj-ipanema.jpg",
+                "to": "content/images/originals/n12-rj-ipanema.jpg",
+                "sha256": "bba538c0c5b2fcf394d124d5d4e11ed8b3e97b11fddd24b2cc4c37542c17b6bd"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/originals/n12-rj-copacabana.jpg",
+                "to": "content/images/originals/n12-rj-copacabana.jpg",
+                "sha256": "3197e83b505baeae9a2a2335b4793eba36dc1fb6f2641760bcde212a85d936ae"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/originals/n12-rj-jockey.jpg",
+                "to": "content/images/originals/n12-rj-jockey.jpg",
+                "sha256": "74bd722d80802af8fdb9e6d6f8f37e461cd47629ffd6ea25cec8482cebf57f9d"
+              }
+            ],
+            "research": [
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-bryant-rights.json",
+                "to": "content/research/n12-ny-bryant-rights.json",
+                "sha256": "49ec9e5f370fb4ad322634dcdb8a62f59b3657d3eb19ddd6807e36fe8b1dd5ba"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-bryant.json",
+                "to": "content/research/n12-ny-bryant.json",
+                "sha256": "93d06f41df4c7714afd0acda10d15d09eb2f22b514ddc93532e63cbe44e4f449"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-cc-bysa2.json",
+                "to": "content/research/n12-ny-cc-bysa2.json",
+                "sha256": "46fccac0f248a5d536c57edf4e9bc58a3d3696e27e68106c9f3204b4c7d3f72d"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-cc-bysa3.json",
+                "to": "content/research/n12-ny-cc-bysa3.json",
+                "sha256": "2d532d898a69068a3448870054d3d49f690c13a46efe798355aa37c98926b4d2"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-central-park-rights.json",
+                "to": "content/research/n12-ny-central-park-rights.json",
+                "sha256": "983aca8faaeaf0b515296aefb18aca9207041db67ff7f83ff07eeaae6f7669fe"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-faq.json",
+                "to": "content/research/n12-ny-faq.json",
+                "sha256": "bad6cc8bb0404081b8df2d4d665dd62a766926fffaf4b4be93570b682bd58d29"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-midnight-run.json",
+                "to": "content/research/n12-ny-midnight-run.json",
+                "sha256": "921dfb2ab6bbd871ffb0600593264eca21adc5ad9396bdc7d2350ae2b4030154"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-mta.json",
+                "to": "content/research/n12-ny-mta.json",
+                "sha256": "fe110fd21347866985fb110c037413e09d084578df453d1ccf0f0838313b7d75"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-pdmark.json",
+                "to": "content/research/n12-ny-pdmark.json",
+                "sha256": "0fbd70fcd0526d8808967c18464e222a4d00ce21e8dcc8a5901fb736e94f7e38"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-research-status.json",
+                "to": "content/research/n12-ny-research-status.json",
+                "sha256": "56a06cdb383764164c11b8f70efec8cff01d64d659a7aee50b368088107f8307"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-rink.json",
+                "to": "content/research/n12-ny-rink.json",
+                "sha256": "0c5321cde5ba324dc1c45e95937e3dd0b9fea4343222d723f8e302b7fa6d1e0a"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-times-square-rights.json",
+                "to": "content/research/n12-ny-times-square-rights.json",
+                "sha256": "ebbb50c3ba9735a72c33a62145136060bb27f303616306d7f167b6db5cae061b"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/new-york/research/n12-ny-times-square.json",
+                "to": "content/research/n12-ny-times-square.json",
+                "sha256": "b17f3e8cc31caec8812197bf6ae1e2386c763d6465e89f5587d2a712ba37b93e"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-cc-bysa4.json",
+                "to": "content/research/n12-rj-cc-bysa4.json",
+                "sha256": "347140ff61173eafd0c7aad5c2d03b6f94341477689ef345176f8c13f886426f"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-copacabana-rights.json",
+                "to": "content/research/n12-rj-copacabana-rights.json",
+                "sha256": "39d1bd5ae7dea3076c403473ce459e983391ea65d397fdc95e1800559c2532fb"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-copacabana.json",
+                "to": "content/research/n12-rj-copacabana.json",
+                "sha256": "f9aea4fb3a83f81a29154f6f972bddbaa573808fb04f3e4c8a216007e0b82f51"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-ipanema-rights.json",
+                "to": "content/research/n12-rj-ipanema-rights.json",
+                "sha256": "e0b53894f213ae0fa3bfbc82679aabcc78854ce74ae76d454c14aa510e8bb148"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-ipanema.json",
+                "to": "content/research/n12-rj-ipanema.json",
+                "sha256": "4756d97753fa6d210b1b42630a38c9bc6fe41b07de36b6451a33978c0b764afb"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-jockey-club.json",
+                "to": "content/research/n12-rj-jockey-club.json",
+                "sha256": "ca0806869cec7950bedbf747af10b4e0c333529653a112fbc7c3584a0fd19067"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-jockey-rights.json",
+                "to": "content/research/n12-rj-jockey-rights.json",
+                "sha256": "7ccb9049f0163887623fe9a057d0c585be3d3701b16fa42b92fd6cf89c11e042"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-jockey-venue.json",
+                "to": "content/research/n12-rj-jockey-venue.json",
+                "sha256": "f08e6827cc6341d266c250f994109e96a3035bdc5b47aa0217380101f93cf808"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-jockey.json",
+                "to": "content/research/n12-rj-jockey.json",
+                "sha256": "1a772477319b71049d275a5717acb7d6ee9267e8fd6f69caf1b77a6d906c07b2"
+              },
+              {
+                "from": "/workspace/artifacts/maletafeliz-new-year-ten-n12/rio/research/n12-rj-research-status.json",
+                "to": "content/research/n12-rj-research-status.json",
+                "sha256": "49eebb63635d6d074d9985808f1e0e9a8d1f88e7065c37959f5c35a6e42e47c6"
+              }
+            ],
+            "existingAssets": [
+              {
+                "path": "/images/place-new-york-times-square-view.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-times-square-view.webp",
+                "sha256": "d4a857353f8b0d7c0fd9fb7a620ce1cc29951ae1fb5727186eddd8142d67de8f",
+                "width": 1280,
+                "height": 850,
+                "bytes": 199934,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-new-york-times-square-view-480w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-times-square-view-480w.webp",
+                "sha256": "91ccde7b6d39f5d01f0696f7ec2ee690e66a7e0615c0f2356f1af6a02af9afb3",
+                "width": 480,
+                "height": 319,
+                "bytes": 30528,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-new-york-times-square-view-800w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-times-square-view-800w.webp",
+                "sha256": "0f0770ade9df2fab8c3a0a4296a85c2bb7b76567c7b604c6477a5c28928203b4",
+                "width": 800,
+                "height": 531,
+                "bytes": 70210,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-new-york-times-square-view-1200w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-times-square-view-1200w.webp",
+                "sha256": "0e0ada393a398acffb4eda24255033aafb8d8fef7a4c986c974669215f2dc25c",
+                "width": 1200,
+                "height": 797,
+                "bytes": 125192,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-new-york-central-park.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-central-park.webp",
+                "sha256": "2b3624b4ee92b47b25217a14dbfc31bab3bd8eb8b6776192e5cbf4535bb4b408",
+                "width": 1280,
+                "height": 894,
+                "bytes": 391162,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-new-york-central-park-480w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-central-park-480w.webp",
+                "sha256": "b88c96dbeb473e5a81213977d99688542892ef0f38374db71109321fd1777c5e",
+                "width": 480,
+                "height": 335,
+                "bytes": 51246,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-new-york-central-park-800w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-central-park-800w.webp",
+                "sha256": "59cd430e95c089544f9de91a5c2619f88ad3fd8557967abef1924ab40f97525b",
+                "width": 800,
+                "height": 559,
+                "bytes": 132250,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-new-york-central-park-1200w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-central-park-1200w.webp",
+                "sha256": "7d9641cab2d17babe2bd2b8ec1ac4e44418dba25d3999b19bb0938689cf1bc99",
+                "width": 1200,
+                "height": 838,
+                "bytes": 258582,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-new-york-bryant-park.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-bryant-park.webp",
+                "sha256": "f6cbeca505c89eefffd907b3897409837ebc43181de5702e38dbb68d9889d8c3",
+                "width": 1280,
+                "height": 960,
+                "bytes": 443370,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-new-york-bryant-park-480w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-bryant-park-480w.webp",
+                "sha256": "fb73e35e706146c107a73345306c0d9ab8ee097dcf7cb5683ba8054248087312",
+                "width": 480,
+                "height": 360,
+                "bytes": 51986,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-new-york-bryant-park-800w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-bryant-park-800w.webp",
+                "sha256": "4ef946e59734ddca8cee82570af172636a8639a5c3f6df3deb68c3e957f33a2e",
+                "width": 800,
+                "height": 600,
+                "bytes": 141624,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-new-york-bryant-park-1200w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-new-york-bryant-park-1200w.webp",
+                "sha256": "1cd7489bca95962866be91e90795ee6e52a82965d866277675abf854f3bafd98",
+                "width": 1200,
+                "height": 900,
+                "bytes": 289154,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-rio-ipanema.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-rio-ipanema.webp",
+                "sha256": "97877924b031ab1200e75ef273f3d0991ea4718e1e6ef6582d9d2188efcdb405",
+                "width": 1280,
+                "height": 794,
+                "bytes": 206360,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-rio-ipanema-480w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-rio-ipanema-480w.webp",
+                "sha256": "763f65476c9651422c5095c648d07fa2e655cd07feb46a45b20de962aabbfc29",
+                "width": 480,
+                "height": 298,
+                "bytes": 20116,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-rio-ipanema-800w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-rio-ipanema-800w.webp",
+                "sha256": "df0b7bbf7c18e2a88091667689c1e06ed834b8a8f116ce36a3ffe83f927463c1",
+                "width": 800,
+                "height": 496,
+                "bytes": 56958,
+                "requiresImport": false
+              },
+              {
+                "path": "/images/place-rio-ipanema-1200w.webp",
+                "file": "/workspace/maletafeliz-/public/images/place-rio-ipanema-1200w.webp",
+                "sha256": "de6f68d8589ab1591deab1e0a9e6cd9e79531e3b0c44e685a1fd92d28cbfd0fe",
+                "width": 1200,
+                "height": 744,
+                "bytes": 124606,
+                "requiresImport": false
+              }
+            ],
+            "freshRecheckEvidence": "/workspace/artifacts/maletafeliz-manual-nye-five-n12/revalidation/americas/read-source-rechecks.json"
+          },
+          "criticalLimits": [
+            "TimesSquare still mixes2027heading with2025operational text; neither manuscript transfersold checkpoints or arrival maps.",
+            "NYRR2026date/countdown/midnightstart/4miles/22:00pickup/+1guest retained withpendingstart/course; no availability promise.",
+            "Bryant2026–2027dates/freeadmission versusrentals/70minincludingpreparation andarchivephoto preserved.",
+            "Dedicated officialRioturmanagedhttps://reveillon.rio/ homepage checkednow, still highlightsprevious2026celebration. This is a source-limit observation, not proof no2027notice existsanywhere.",
+            "Riotur+venue independentlyconfirmtheprivateJockey31December2026event; no Copacabana2027publicprogramme or Ipanemafireworksinvented.",
+            "MetrôRiohomepage checkednow; no readable2026–2027operatingplan inferred from current generalinterface.",
+            "Archivephotos documentplaces, notfutureNYEsetups; exactcredits/licencelinks/modifications andsharealike conditions retained.",
+            "No Googlevolume/ranking/indexation or firsthandvisitclaim."
+          ],
+          "issues": [],
+          "repositoryFilesModifiedByThisReviewer": [],
+          "frozenDraftsAndEarlierEvidenceUnchanged": true,
+          "publiclyVerified": false,
+          "releaseApproved": false,
+          "finalizationRequires": "Root must assign actual selection/publication dates, bind finalstatus/datecontenthash approvals, preserve allhistoricalcontent andads, pass mandatoryrelease+browser/SEOtests andverify exact-source deployments andactualpublicURLs before recordingpublished."
+        }
+      }
+    ],
+    "additionalOfficialRechecks": [
+      {
+        "id": "rio-official-reveillon",
+        "url": "https://reveillon.rio/",
+        "finalUrl": "https://reveillon.rio/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:25:32.824Z",
+        "bytes": 257601,
+        "contentType": "text/html; charset=UTF-8",
+        "contentSha256": "44132da9246574d2ffb1f362ffb3a5d73cf9023aa9688e6fbca57bb809c47ebd",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "The officialRiotur-managed dedicated event homepage still highlights the preceding2026celebration, not an official full2027programme; this describes this homepage only, not universal absence.",
+            "excerpt": "1 de janeiro de 2026 Confira como foi o Réveillon 2026 em cada palco",
+            "location": {
+              "normalizedTextStart": 196,
+              "normalizedTextEnd": 264,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "The homepage identifiesRiotur as its manager.",
+            "excerpt": "Este site foi criado e é gerenciado pela Coordenação de Comunicação Social da Riotur.",
+            "location": {
+              "normalizedTextStart": 3492,
+              "normalizedTextEnd": 3577,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.113969+00:00"
+      },
+      {
+        "id": "rio-metro-current",
+        "url": "https://www.metrorio.com.br/",
+        "finalUrl": "https://www.metrorio.com.br/",
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-12T19:25:34.481Z",
+        "bytes": 65722,
+        "contentType": "text/html; charset=utf-8",
+        "contentSha256": "9c0fd8e8b9df52b7812c46df3ae2c35cb3b0f4e806e118830d944fc25260524e",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "The MetrôRiohomepage is accessible but has no readable2026–2027NYEoperatingplan in this captured interface; no specificfuturestations/hours/tickets/fares inferred.",
+            "excerpt": "MetrôRio - Página Inicial",
+            "location": {
+              "normalizedTextStart": 0,
+              "normalizedTextEnd": 25,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.114548+00:00"
+      }
+    ],
+    "rightsRechecks": [
+      {
+        "id": "n12-ny-times-square-rights",
+        "url": "https://commons.wikimedia.org/wiki/File:Times_Square,New_York_CC-BY-SA.jpg",
+        "city": "new-york",
+        "fetchedAt": "2026-11-12T19:24:15.292Z",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Times_Square,New_York_CC-BY-SA.jpg",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 127506,
+        "contentSha256": "ef0fc9ef53d372f11d222a5f6f5c83d92e54808671909159117b2c0384bf4ba7",
+        "extractedTextSha256": "5c8519fa876f7a203a8d0e3e877f5189d82115492b3508811287198418f18a70",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "The file namesJorgeLáscar and explicitly offersCCBY-SA2.0.",
+            "excerpt": "Jorge Láscar",
+            "location": {
+              "normalizedTextStart": 2691,
+              "normalizedTextEnd": 2703,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Exact licence option confirmed.",
+            "excerpt": "CC BY-SA 2.0",
+            "location": {
+              "normalizedTextStart": 3392,
+              "normalizedTextEnd": 3404,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Archive date identifies2010rather thanfutureeventsetup.",
+            "excerpt": "30 December 2010",
+            "location": {
+              "normalizedTextStart": 2586,
+              "normalizedTextEnd": 2602,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.115370+00:00"
+      },
+      {
+        "id": "n12-ny-central-park-rights",
+        "url": "https://commons.wikimedia.org/wiki/File:Central_Park_New_York_City_New_York_23_cropped.jpg",
+        "city": "new-york",
+        "fetchedAt": "2026-11-12T19:24:15.315Z",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Central_Park_New_York_City_New_York_23_cropped.jpg",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 178274,
+        "contentSha256": "8427e82b9c4e02759779808a17bcf7d8eb158ff6c528cc9aa50540f2d6c296fa",
+        "extractedTextSha256": "02d5da0e296e5967308b70d4058aaa4b62f5e5a3a6ae3f5b8778da6fdff9a350",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "The file identifiesJetLowe and anNPSemployee work made in official duties, public domain inUnitedStates.",
+            "excerpt": "such work is in the public domain in the United States.",
+            "location": {
+              "normalizedTextStart": 4878,
+              "normalizedTextEnd": 4933,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "NPS/HAER provenance is retained, withoutinventingphotodatefromuploaddate.",
+            "excerpt": "Survey number HAER NY-194-7",
+            "location": {
+              "normalizedTextStart": 5105,
+              "normalizedTextEnd": 5132,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.117379+00:00"
+      },
+      {
+        "id": "n12-ny-bryant-rights",
+        "url": "https://commons.wikimedia.org/wiki/File:Lawn_at_Bryant_Park,_NYC_IMG_1243.JPG",
+        "city": "new-york",
+        "fetchedAt": "2026-11-12T19:24:15.687Z",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Lawn_at_Bryant_Park,_NYC_IMG_1243.JPG",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 115120,
+        "contentSha256": "b8d606380d9b2d94c578168dc130dd167b78274b565b8bebb482f2e1def528a9",
+        "extractedTextSha256": "92eaf77fad23c2a275be553c2b147f052a02e5305f7aa81de995e56989cd7e2b",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "Specific author attribution required by file retained.",
+            "excerpt": "Attribution: Billy Hathorn at English Wikipedia",
+            "location": {
+              "normalizedTextStart": 1789,
+              "normalizedTextEnd": 1836,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Exact offeredCCBY-SA3.0option confirmed.",
+            "excerpt": "CC BY-SA 3.0",
+            "location": {
+              "normalizedTextStart": 2398,
+              "normalizedTextEnd": 2410,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Archive2009lawnnotcurrentrinksetup.",
+            "excerpt": "28 July 2009",
+            "location": {
+              "normalizedTextStart": 1409,
+              "normalizedTextEnd": 1421,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.118318+00:00"
+      },
+      {
+        "id": "n12-rj-ipanema-rights",
+        "url": "https://commons.wikimedia.org/wiki/File:1_ipanema_beach_vidigal_sunset.jpg",
+        "city": "rio",
+        "fetchedAt": "2026-11-12T19:24:15.743Z",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:1_ipanema_beach_vidigal_sunset.jpg",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 126438,
+        "contentSha256": "52b5192beeb2f0fe8c265768b84cb22bf3609e4c21514a9a1f4d6e3470465a22",
+        "extractedTextSha256": "14103896e3ba514e4666eecd44010572e0d1c1ff7584cc96242f15ae19373d37",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "The file identifieschensiyuan and2010archivecaption.",
+            "excerpt": "ipanema beach rio de janeiro vidigal favela sunset 2010",
+            "location": {
+              "normalizedTextStart": 1366,
+              "normalizedTextEnd": 1421,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Exact selectedCCBY-SA4.0option available among offeredlicences.",
+            "excerpt": "CC BY-SA 4.0",
+            "location": {
+              "normalizedTextStart": 2735,
+              "normalizedTextEnd": 2747,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.119830+00:00"
+      },
+      {
+        "id": "n12-rj-copacabana-rights",
+        "url": "https://commons.wikimedia.org/wiki/File:Praia_de_Copacabana_2023.jpg",
+        "city": "rio",
+        "fetchedAt": "2026-11-12T19:24:15.810Z",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Praia_de_Copacabana_2023.jpg",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 116553,
+        "contentSha256": "f60b7ab413d554b20679a02954130dab47f2fe7260803873b7ea08d71db7a2e8",
+        "extractedTextSha256": "93fab7b20472943adf3f751be41b5d458102b88e2e55a0d38db4677588b55449",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "The file identifiesBoaventuravinicius and26February2023documentaryarchive.",
+            "excerpt": "26 February 2023",
+            "location": {
+              "normalizedTextStart": 1404,
+              "normalizedTextEnd": 1420,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Author retained.",
+            "excerpt": "Boaventuravinicius",
+            "location": {
+              "normalizedTextStart": 1469,
+              "normalizedTextEnd": 1487,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "ExactCCBY-SA4.0option confirmed.",
+            "excerpt": "CC BY-SA 4.0",
+            "location": {
+              "normalizedTextStart": 2253,
+              "normalizedTextEnd": 2265,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.120815+00:00"
+      },
+      {
+        "id": "n12-rj-jockey-rights",
+        "url": "https://commons.wikimedia.org/wiki/File:Jockey_Club_Brasileiro_by_Diego_Baravelli.jpg",
+        "city": "rio",
+        "fetchedAt": "2026-11-12T19:24:15.854Z",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Jockey_Club_Brasileiro_by_Diego_Baravelli.jpg",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 119111,
+        "contentSha256": "33dc324b49293549cccfbe8de3bd5b6497e0475f92ecd1fe2195a1c76241b403",
+        "extractedTextSha256": "763819ab07f3846c50b812d0a446ffc2c52ef85e4f905660555d0a55a2a70973",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "The file identifiesDiegoBaravelli and15October2016Jockey/Lagoaarchive.",
+            "excerpt": "15 October 2016",
+            "location": {
+              "normalizedTextStart": 1514,
+              "normalizedTextEnd": 1529,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Creator credit retained.",
+            "excerpt": "Diego Baravelli",
+            "location": {
+              "normalizedTextStart": 31,
+              "normalizedTextEnd": 46,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "ExactCCBY-SA4.0option confirmed.",
+            "excerpt": "CC BY-SA 4.0",
+            "location": {
+              "normalizedTextStart": 2337,
+              "normalizedTextEnd": 2349,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.121773+00:00"
+      },
+      {
+        "id": "cc-bysa2-deed",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "fetchedAt": "2026-11-12T19:24:16.182Z",
+        "finalUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "httpStatus": 200,
+        "contentType": "text/html",
+        "bytes": 35429,
+        "contentSha256": "6d15fd2f2ccc7258f39befc9f13f5154f9851e49a9e90ec43c7e22d660ae0e84",
+        "extractedTextSha256": "796bd603689d1a31e3ecd5bc9a8d77a02a288a732435e86239bf5be929c483bd",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "Commercial adaptation allowed subject to the stated conditions.",
+            "excerpt": "for any purpose, even commercially.",
+            "location": {
+              "normalizedTextStart": 1506,
+              "normalizedTextEnd": 1541,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Credit, licence link and changes must be stated.",
+            "excerpt": "You must give appropriate credit",
+            "location": {
+              "normalizedTextStart": 1756,
+              "normalizedTextEnd": 1788,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "ShareAlike condition requires the same licence for contributions.",
+            "excerpt": "you must distribute your contributions under the same license as the original.",
+            "location": {
+              "normalizedTextStart": 2036,
+              "normalizedTextEnd": 2114,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "No additional legal or technical restrictions.",
+            "excerpt": "No additional restrictions",
+            "location": {
+              "normalizedTextStart": 2115,
+              "normalizedTextEnd": 2141,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.122469+00:00"
+      },
+      {
+        "id": "cc-bysa3-deed",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "fetchedAt": "2026-11-12T19:24:16.291Z",
+        "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "httpStatus": 200,
+        "contentType": "text/html",
+        "bytes": 35431,
+        "contentSha256": "9a17cd36de36b242cbe4234773116f2036f86a8ce4459af8b37fd120482ca931",
+        "extractedTextSha256": "df07c2abdb7d023d830136cff48c69a9fc0e776532d43789dd9f45079b97ce3d",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "Commercial adaptation allowed subject to the stated conditions.",
+            "excerpt": "for any purpose, even commercially.",
+            "location": {
+              "normalizedTextStart": 1508,
+              "normalizedTextEnd": 1543,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Credit, licence link and changes must be stated.",
+            "excerpt": "You must give appropriate credit",
+            "location": {
+              "normalizedTextStart": 1758,
+              "normalizedTextEnd": 1790,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "ShareAlike condition requires the same licence for contributions.",
+            "excerpt": "you must distribute your contributions under the same license as the original.",
+            "location": {
+              "normalizedTextStart": 2038,
+              "normalizedTextEnd": 2116,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "No additional legal or technical restrictions.",
+            "excerpt": "No additional restrictions",
+            "location": {
+              "normalizedTextStart": 2117,
+              "normalizedTextEnd": 2143,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.123138+00:00"
+      },
+      {
+        "id": "cc-bysa4-deed",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "fetchedAt": "2026-11-12T19:24:16.345Z",
+        "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "httpStatus": 200,
+        "contentType": "text/html",
+        "bytes": 35530,
+        "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+        "extractedTextSha256": "8274dcd8b6d6572bec621884196008c8e21bb906347b32b72ed14345121f38c3",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "Commercial adaptation allowed subject to the stated conditions.",
+            "excerpt": "for any purpose, even commercially.",
+            "location": {
+              "normalizedTextStart": 1202,
+              "normalizedTextEnd": 1237,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Credit, licence link and changes must be stated.",
+            "excerpt": "You must give appropriate credit",
+            "location": {
+              "normalizedTextStart": 1452,
+              "normalizedTextEnd": 1484,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "ShareAlike condition requires the same licence for contributions.",
+            "excerpt": "you must distribute your contributions under the same license as the original.",
+            "location": {
+              "normalizedTextStart": 1732,
+              "normalizedTextEnd": 1810,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "No additional legal or technical restrictions.",
+            "excerpt": "No additional restrictions",
+            "location": {
+              "normalizedTextStart": 1811,
+              "normalizedTextEnd": 1837,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.123872+00:00"
+      },
+      {
+        "id": "pdmark-deed",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "fetchedAt": "2026-11-12T19:24:16.465Z",
+        "finalUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "httpStatus": 200,
+        "contentType": "text/html",
+        "bytes": 31377,
+        "contentSha256": "28b3199d4df73c35c3593b1b42b41300fdfbd9a22ca851fd18e1c87a506f43ff",
+        "extractedTextSha256": "b92ed6c3ef16fa4d6af828148c768cf240d129921a0ab64c1dc73f3afc0406a2",
+        "retryAfter": null,
+        "facts": [
+          {
+            "fact": "PublicDomainMark identifies a work as free of knowncopyright restrictions, not a new author licence.",
+            "excerpt": "This work has been identified as being free of known restrictions under copyright law",
+            "location": {
+              "normalizedTextStart": 1094,
+              "normalizedTextEnd": 1179,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          },
+          {
+            "fact": "Otherjurisdictions/personalityrights limitations retained.",
+            "excerpt": "The work may not be free of known copyright restrictions in all jurisdictions",
+            "location": {
+              "normalizedTextStart": 1390,
+              "normalizedTextEnd": 1467,
+              "normalization": "whitespacecollapsedonly"
+            },
+            "actuallyRead": true
+          }
+        ],
+        "actualContentRead": true,
+        "reviewer": "Codex /root/revalidate_nye_americas",
+        "reviewedAt": "2026-11-12T19:27:23.124617+00:00"
+      }
+    ]
+  }
+}

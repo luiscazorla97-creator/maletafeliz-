@@ -1,0 +1,65 @@
+{
+  "url": "https://bryantpark.org/activities/bank-of-america-winter-village-at-bryant-park",
+  "fetchedAt": "2026-11-12T16:36:12.357Z",
+  "finalUrl": "https://bryantpark.org/activities/bank-of-america-winter-village-at-bryant-park",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "a781bfbd94acdac7d10d75687fe1af1da9a26ab4787dba93f11ddf7304f7e3c2",
+  "bytes": 287126,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "Winter Village’s published 2026/27 season covers 28 October 2026–28 February 2027; Holiday Shops continue through 3 January 2027. This supports a 31 December seasonal stop rather than an invented public-midnight concert.",
+      "excerpt": "Oct 28, 2026 … Feb 28, 2027 … Jan 3, 2027",
+      "location": "Season heading and Holiday Shops information.",
+      "excerptLocations": [
+        {
+          "text": "Oct 28, 2026",
+          "extractedTextLine": 17
+        },
+        {
+          "text": "Feb 28, 2027",
+          "extractedTextLine": 17
+        },
+        {
+          "text": "Jan 3, 2027",
+          "extractedTextLine": 21
+        }
+      ]
+    },
+    {
+      "fact": "Skating admission and rentals are different products. The page offers reserved skating tickets and lists rental charges separately; free admission does not make an equipment-rental package free.",
+      "excerpt": "Reserve tickets … Admission … Free … Skate Rentals",
+      "location": "Booking and Pricing + storage sections.",
+      "excerptLocations": [
+        {
+          "text": "Reserve tickets",
+          "extractedTextLine": 12
+        },
+        {
+          "text": "Admission",
+          "extractedTextLine": 42
+        },
+        {
+          "text": "Free",
+          "extractedTextLine": 43
+        },
+        {
+          "text": "Skate Rentals",
+          "extractedTextLine": 44
+        }
+      ]
+    }
+  ],
+  "notes": "Only actual 2026/27 season, booking and access/product distinctions used. Numerical rentals, upsells and a guaranteed midnight celebration are not inferred. Holiday shops/skating are a different plan from entering Times Square pens.",
+  "excerptWordCount": 15,
+  "extractedData": {
+    "winterSeason": [
+      "2026-10-28",
+      "2027-02-28"
+    ],
+    "holidayShopsEnd": "2027-01-03",
+    "skatingAdmission": "free; timed booking and applicable services separate",
+    "rentals": "charged separately; no fixed number reproduced"
+  }
+}

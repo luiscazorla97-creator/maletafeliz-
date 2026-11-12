@@ -1,0 +1,52 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Praia_de_Copacabana_2023.jpg",
+  "fetchedAt": "2026-11-12T16:38:17.914Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Praia_de_Copacabana_2023.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "2e93d2ba66bcfbeb717df11e60397a62925fe91ed62c3280e18b40cea137b1b8",
+  "bytes": 116553,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The individual file identifies the pictured place and names Boaventuravinicius. Its actual scene and archival date/season were checked against the reused or newly selected image. It is not a photograph of the upcoming 2026/27 celebration.",
+      "excerpt": "Boaventuravinicius … 26 February 2023 … CC BY-SA 4.0",
+      "location": "Individually read file description/author/date and actual source/served image inspection.",
+      "excerptLocations": [
+        {
+          "text": "Boaventuravinicius",
+          "extractedTextLine": 97
+        },
+        {
+          "text": "26 February 2023",
+          "extractedTextLine": 93
+        },
+        {
+          "text": "CC BY-SA 4.0",
+          "extractedTextLine": 106
+        }
+      ]
+    },
+    {
+      "fact": "The file explicitly offers CC BY-SA 4.0; that exact option and the applicable CC deed were read. Author/source/licence credit and modifications are retained, including required share-alike conditions.",
+      "excerpt": "CC BY-SA 4.0",
+      "location": "Individual file Licensing/Permission and current captured n12-rj-cc-bysa4 deed.",
+      "excerptLocations": [
+        {
+          "text": "CC BY-SA 4.0",
+          "extractedTextLine": 106
+        }
+      ]
+    }
+  ],
+  "notes": "Archive disclosure, actual place identity and permissions were read and retained. Existing article/image metadata is preserved; this new alias serves only the new guide.",
+  "excerptWordCount": 7,
+  "rawCaptureFile": "raw/n12-rj-copa-file.body",
+  "licenceDeedEvidence": "content/research/n12-rj-cc-bysa4.json",
+  "binaryEvidence": {
+    "fact": "The source JPEG was actually downloaded at 1280×960 and hashed. New optimized variants were measured and hashed.",
+    "location": "Actual download capture metadata and measured original/derivative bytes.",
+    "evidenceType": "Binary file hashes and dimensions, not an additional quoted text extract.",
+    "sourceCaptureFile": "raw/n12-rj-copa-photo.json"
+  }
+}

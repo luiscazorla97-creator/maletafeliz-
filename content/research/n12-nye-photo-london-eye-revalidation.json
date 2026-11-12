@@ -1,0 +1,86 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:London_Eye_Twilight_April_2006.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:London_Eye_Twilight_April_2006.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-12T16:27:36.171Z",
+  "contentSha256": "807d0b8f90525dd48ee13c1cb763564af3fe61c1ac0535f0b23165812721ccba",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The current individual file page was actually reread and still explicitly offers the selected open licence. The supplied author and title are retained in the new private alias credit. No old manifest row or image bytes are edited.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution 2.5 Generic license.",
+      "location": "Current Commons individual file page, Information and Licensing sections."
+    },
+    {
+      "fact": "The individual source explicitly identifies London Eye from the rear. Visually the wheel and surrounding trees are illuminated at twilight. Those lights do not document a New Year show, fireworks, event ticket coverage or current viewing access.",
+      "excerpt": "This photo is of the London Eye on the 7th of April 2006 as viewed from the rear.",
+      "location": "Individual source description/title, verified source date and actual visual inspection of unchanged locally served image."
+    },
+    {
+      "fact": "The applicable licence deed was actually read and archived. Attribution, supplied title, licence/source links, change indication and ShareAlike are retained where applicable. CC0 status does not imply endorsement or future event occurrence.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Applicable CC deed read on the recorded date; HTTP status, body and SHA-256 archived."
+    },
+    {
+      "fact": "The already served main WebP and every listed responsive variant were read byte-for-byte. Each current SHA-256 and dimensions exactly match the old manifest. This revalidation does not claim a new download of the source full-resolution original or a current photograph.",
+      "excerpt": "Unchanged served-asset SHA-256 and dimension ledger attached as localAssetVerification.",
+      "location": "Existing public/images files, Sharp metadata and SHA-256 verification."
+    }
+  ],
+  "sourcePhotoDate": "2006-04-07",
+  "sourcePhotoTitle": "London Eye Twilight April 2006.jpg",
+  "sourcePhotoAuthor": "User:Diliff",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by/2.5/",
+    "finalUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:27:37.924Z",
+    "contentType": "text/html",
+    "contentSha256": "2834834b7be12c823e54df7de4390ebda8fcc4c6229c548913307a8379570532",
+    "retryAfter": null
+  },
+  "localAssetVerification": {
+    "existingImageId": "place-london-london-eye",
+    "servedSrc": "/images/place-london-london-eye.webp",
+    "servedSha256": "fc1ad17d3997002dc96236af85fdc1f49c10cd7a0db6b02f3ddd9c38b8cca582",
+    "dimensions": [
+      1280,
+      853
+    ],
+    "variants": [
+      {
+        "src": "/images/place-london-london-eye-480w.webp",
+        "width": 480,
+        "height": 320,
+        "sha256": "b69e93e09ecc3e9901fc9491f665e661e3826cef02991f84b54833cfe21f71e1",
+        "bytes": 42738
+      },
+      {
+        "src": "/images/place-london-london-eye-800w.webp",
+        "width": 800,
+        "height": 533,
+        "sha256": "74bbb19a2a76d214306dc2593f2b1faeed971d32816539be666d77bca5dbf122",
+        "bytes": 110068
+      },
+      {
+        "src": "/images/place-london-london-eye-1200w.webp",
+        "width": 1200,
+        "height": 800,
+        "sha256": "44a542024df5bfabef571f5d8eab24d771af8cec40f581dcb98b3d2e86cb6563",
+        "bytes": 215802
+      },
+      {
+        "src": "/images/place-london-london-eye.webp",
+        "width": 1280,
+        "height": 853,
+        "sha256": "fc1ad17d3997002dc96236af85fdc1f49c10cd7a0db6b02f3ddd9c38b8cca582",
+        "bytes": 326318
+      }
+    ],
+    "oldManifestRowSha256": "cb16ec5963ec7f56f9bb9db282696609d84194957c057a7e3722b9969bf43bfe",
+    "assetBytesEdited": false,
+    "oldMetadataEdited": false,
+    "sourceFullResolutionDownloaded": false
+  },
+  "notes": "All photographs are archival place documentation. No historical or future New Year event, fireworks, crowd arrangement, venue admission or event viewing position is depicted or guaranteed. Only new private aliases and evidence are prepared; no repository file is changed."
+}

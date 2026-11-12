@@ -1,0 +1,23 @@
+{
+  "url": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/marina-bay/",
+  "finalUrl": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/marina-bay/",
+  "fetchedAt": "2026-11-12T16:30:10.587Z",
+  "httpStatus": 200,
+  "contentType": "text/html;charset=utf-8",
+  "contentSha256": "0485df1829a010a4b87a889184e6d451843d6c414fe900545b61f162489ce152",
+  "bytes": 158323,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The official neighbourhood description places architectural landmarks along Marina Bay Waterfront Promenade, supporting a waterfront place section rather than a promise of a particular event viewing zone.",
+      "excerpt": "Architectural icons and majestic landmarks like the Singapore Flyer abound in the Marina Bay district, some of which line the Marina Bay Waterfront Promenade.",
+      "location": "Public embedded [9].data.description_t decoded from actual HTML attributes."
+    },
+    {
+      "fact": "Bayfront and Promenade are listed among the area MRT stations. They are general orientation points; no New Year station exit, last train or unrestricted access is assumed.",
+      "excerpt": "Bayfront (DT16/CE1)",
+      "location": "Public embedded [16].data.description_t; same field also lists Promenade (CC4/DT15)."
+    }
+  ],
+  "notes": "Actual official HTTP200 capture shared by the parent research task and read here from archived rawHTML/text/public JSON. No new fetch is claimed for this derivative evidence. Date, finalURL and raw-byte SHA256 are copied from the checked original capture. Internal CMS timestamps, old2026 operational content and mismatched structured hours are not presented as verified2027 event operations. Facts and schedules were checked12November2026; recheck time-sensitive notices before publication/travel."
+}

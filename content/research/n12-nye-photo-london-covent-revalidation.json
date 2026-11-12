@@ -1,0 +1,91 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:London,_Covent_Garden_--_2016_--_4879.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:London,_Covent_Garden_--_2016_--_4879.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-12T16:27:36.981Z",
+  "contentSha256": "43be55946adecd64a4f515c06aa689a90458782a316cb4da46c0248e75a9832a",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The current individual file page was actually reread and still explicitly offers the selected open licence. The supplied author and title are retained in the new private alias credit. No old manifest row or image bytes are edited.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.",
+      "location": "Current Commons individual file page, Information and Licensing sections."
+    },
+    {
+      "fact": "The specific source identifies Covent Garden Market Building and the photograph visibly shows its permanent covered-market roof. It does not show a current festival installation, future New Year decorations, party or firework viewing area.",
+      "excerpt": "Covent Garden , London , England , United Kingdom",
+      "location": "Individual source description/title, verified source date and actual visual inspection of unchanged locally served image."
+    },
+    {
+      "fact": "The applicable licence deed was actually read and archived. Attribution, supplied title, licence/source links, change indication and ShareAlike are retained where applicable. CC0 status does not imply endorsement or future event occurrence.",
+      "excerpt": "ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.",
+      "location": "Applicable CC deed read on the recorded date; HTTP status, body and SHA-256 archived."
+    },
+    {
+      "fact": "The already served main WebP and every listed responsive variant were read byte-for-byte. Each current SHA-256 and dimensions exactly match the old manifest. This revalidation does not claim a new download of the source full-resolution original or a current photograph.",
+      "excerpt": "Unchanged served-asset SHA-256 and dimension ledger attached as localAssetVerification.",
+      "location": "Existing public/images files, Sharp metadata and SHA-256 verification."
+    },
+    {
+      "fact": "The current file page names a specific attribution form. The new alias supplies it in full; existing historical metadata is preserved and any wider historical attribution correction is for root to coordinate separately.",
+      "excerpt": "The attribution should be done as follows: Dietmar Rabich / Wikimedia Commons / “London, Covent Garden -- 2016 -- 4879” / CC BY-SA 4.0",
+      "location": "Specific individual file page, Permission/Attribution requirement."
+    }
+  ],
+  "sourcePhotoDate": "2016-10-10",
+  "sourcePhotoTitle": "London, Covent Garden -- 2016 -- 4879.jpg",
+  "sourcePhotoAuthor": "Dietmar Rabich",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:27:37.812Z",
+    "contentType": "text/html",
+    "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+    "retryAfter": null
+  },
+  "localAssetVerification": {
+    "existingImageId": "place-london-covent-garden",
+    "servedSrc": "/images/place-london-covent-garden.webp",
+    "servedSha256": "a8b042916ba74c46f6e5acf2a919255b4acc39aa3f7d4d5bd22743c5305b2c1f",
+    "dimensions": [
+      1280,
+      853
+    ],
+    "variants": [
+      {
+        "src": "/images/place-london-covent-garden-480w.webp",
+        "width": 480,
+        "height": 320,
+        "sha256": "e5639340a2a3414664f90da8302be5da3dfa68dbbe3c69a50010c104dd4e97ee",
+        "bytes": 42800
+      },
+      {
+        "src": "/images/place-london-covent-garden-800w.webp",
+        "width": 800,
+        "height": 533,
+        "sha256": "f12fe1c869cb48baf98ab9e6c954074aa9528731047d3227163ddf21a60d8731",
+        "bytes": 103486
+      },
+      {
+        "src": "/images/place-london-covent-garden-1200w.webp",
+        "width": 1200,
+        "height": 800,
+        "sha256": "45004d4df65b43be6e235179d9294b4da9a00d53a5aec769e15bc65dcb149b9c",
+        "bytes": 186482
+      },
+      {
+        "src": "/images/place-london-covent-garden.webp",
+        "width": 1280,
+        "height": 853,
+        "sha256": "a8b042916ba74c46f6e5acf2a919255b4acc39aa3f7d4d5bd22743c5305b2c1f",
+        "bytes": 291842
+      }
+    ],
+    "oldManifestRowSha256": "ff72d74951bdf2c9dd284c06dab95a425f9e565f8cc51346b65dce0b1bd31e64",
+    "assetBytesEdited": false,
+    "oldMetadataEdited": false,
+    "sourceFullResolutionDownloaded": false
+  },
+  "notes": "All photographs are archival place documentation. No historical or future New Year event, fireworks, crowd arrangement, venue admission or event viewing position is depicted or guaranteed. Only new private aliases and evidence are prepared; no repository file is changed."
+}

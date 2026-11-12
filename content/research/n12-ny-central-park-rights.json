@@ -1,0 +1,52 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Central_Park_New_York_City_New_York_23_cropped.jpg",
+  "fetchedAt": "2026-11-12T16:36:17.617Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Central_Park_New_York_City_New_York_23_cropped.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "8427e82b9c4e02759779808a17bcf7d8eb158ff6c528cc9aa50540f2d6c296fa",
+  "bytes": 178274,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The individual file identifies the pictured place and names Jet Lowe / Library of Congress, HAER. Its actual scene and archival date/season were checked against the reused or newly selected image. It is not a photograph of the upcoming 2026/27 celebration.",
+      "excerpt": "Jet Lowe … National Park Service … public domain in the United States",
+      "location": "Individually read file description/author/date and actual source/served image inspection.",
+      "excerptLocations": [
+        {
+          "text": "Jet Lowe",
+          "extractedTextLine": 129
+        },
+        {
+          "text": "National Park Service",
+          "extractedTextLine": 139
+        },
+        {
+          "text": "public domain in the United States",
+          "extractedTextLine": 152
+        }
+      ]
+    },
+    {
+      "fact": "The individual permission notice identifies an official National Park Service employee work from HAER, public domain in the United States. Public Domain Mark is an identification mark, not a new licence grant. Creator credit and the supplied crop provenance are retained.",
+      "excerpt": "public domain in the United States",
+      "location": "Individual file Permission, NPS/HAER provenance and Public Domain Mark explanatory page.",
+      "excerptLocations": [
+        {
+          "text": "public domain in the United States",
+          "extractedTextLine": 152
+        }
+      ]
+    }
+  ],
+  "notes": "The picture is Gothic Arch north of the reservoir, not an image of the future race start. No shooting date is invented from the 2005 upload date.",
+  "excerptWordCount": 11,
+  "rawCaptureFile": "raw/n12-new-york-central-park-file.body",
+  "licenceDeedEvidence": "content/research/n12-ny-pdmark.json",
+  "binaryEvidence": {
+    "fact": "The source JPEG was actually downloaded at 1280×894 and hashed. Existing published main/larger WebP hashes are unchanged, and fresh smaller renditions were measured.",
+    "location": "Actual download capture metadata and measured original/derivative bytes.",
+    "evidenceType": "Binary file hashes and dimensions, not an additional quoted text extract.",
+    "sourceCaptureFile": "raw/n12-new-york-central-park-photo.json"
+  }
+}

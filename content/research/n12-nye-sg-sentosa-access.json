@@ -1,0 +1,28 @@
+{
+  "url": "https://www.sentosa.com.sg/en/getting-to-sentosa/",
+  "finalUrl": "https://www.sentosa.com.sg/en/getting-to-sentosa/",
+  "fetchedAt": "2026-11-12T16:30:08.810Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "d83f59bd745a19997adc42093cd140496ede6142da40d29451f7f3faea2d0093",
+  "bytes": 383755,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The official general approach bySentosaExpress is fromVivoCity LobbyL Level3, reached fromHarbourFrontMRT. No special New Year last service or transport extension is claimed.",
+      "excerpt": "Take the Sentosa Express from VivoCity shopping mall, Lobby L, Level 3 into Sentosa.",
+      "location": "Public __JSS_STATE__, sitecore.route.placeholders.jss-main[3].fields.tilesSelection[1].fields.richTextField.value."
+    },
+    {
+      "fact": "The walking approach toSentosaBoardwalk starts atVivoCity LobbyF Level1; part of the Boardwalk is closed for works and pedestrians use a covered-linkway diversion. This is ordinary routing information requiring final event-day checks.",
+      "excerpt": "You can travel into Sentosa on foot via the Sentosa Boardwalk. To get to the Boardwalk, alight at Harbourfront MRT and make your way to VivoCity Lobby F, Level 1.",
+      "location": "Public __JSS_STATE__, sitecore.route.placeholders.jss-main[3].fields.tilesSelection[4].fields.richTextField.value."
+    },
+    {
+      "fact": "The operator explicitly redirects pedestrians and cyclists to a new covered linkway during ongoing works.",
+      "excerpt": "Pedestrians and cyclists will be redirected to Sentosa via a new covered linkway",
+      "location": "Same public Boardwalk field, work-diversion paragraph."
+    }
+  ],
+  "notes": "Actual official HTTP200 capture shared by the parent research task and read here from archived rawHTML/text/public JSON. No new fetch is claimed for this derivative evidence. Date, finalURL and raw-byte SHA256 are copied from the checked original capture. Internal CMS timestamps, old2026 operational content and mismatched structured hours are not presented as verified2027 event operations. Facts and schedules were checked12November2026; recheck time-sensitive notices before publication/travel."
+}

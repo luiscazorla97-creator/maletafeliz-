@@ -1,0 +1,25 @@
+{
+  "url": "https://www.mta.info/alerts",
+  "fetchedAt": "2026-11-12T16:36:14.225Z",
+  "finalUrl": "https://www.mta.info/alerts",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "8d74dc4bfcb72e568f3bfdac6be4473fa562d3515599aaabdd03e2c809a0f180",
+  "bytes": 44045,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "MTA’s accessible interface directs users to planned current/future subway, bus and rail changes. It is a place to check travel arrangements, not proof of a specific 2026/27 NYE service plan.",
+      "excerpt": "current and future subway, bus, Long Island Rail Road, and Metro-North Railroad planned service changes",
+      "location": "Main Planned Service Changes description.",
+      "excerptLocations": [
+        {
+          "text": "current and future subway, bus, Long Island Rail Road, and Metro-North Railroad planned service changes",
+          "extractedTextLine": 44
+        }
+      ]
+    }
+  ],
+  "notes": "Actual static interface body read, including its old-browser notice. No unrendered alert results or 31 Dec train service, station opening or journey time is claimed.",
+  "excerptWordCount": 15
+}

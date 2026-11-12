@@ -1,0 +1,91 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Trafalgar_Square_360_Panorama_Cropped_Sky,_London_-_Jun_2009.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Trafalgar_Square_360_Panorama_Cropped_Sky,_London_-_Jun_2009.jpg",
+  "httpStatus": 200,
+  "fetchedAt": "2026-11-12T16:27:36.632Z",
+  "contentSha256": "c31200a934dc7519fe34bd7d13f74ffd1ed59c7862403f33587a62885f036c8d",
+  "contentType": "text/html; charset=UTF-8",
+  "facts": [
+    {
+      "fact": "The current individual file page was actually reread and still explicitly offers the selected open licence. The supplied author and title are retained in the new private alias credit. No old manifest row or image bytes are edited.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.",
+      "location": "Current Commons individual file page, Information and Licensing sections."
+    },
+    {
+      "fact": "The title and visually inspected panoramic image identify Trafalgar Square, National Gallery and Nelson’s Column. The source is an eight-segment panorama cropped by its creator. Existing WebP bytes remain unchanged; this is not a picture of a New Year party or a current permitted gathering.",
+      "excerpt": "An 8 segment, 360 degree panoramic image taken with a Canon 5D and 17-40mm f/4L lens at 17mm and panoramic head on tripod.",
+      "location": "Individual source description/title, verified source date and actual visual inspection of unchanged locally served image."
+    },
+    {
+      "fact": "The applicable licence deed was actually read and archived. Attribution, supplied title, licence/source links, change indication and ShareAlike are retained where applicable. CC0 status does not imply endorsement or future event occurrence.",
+      "excerpt": "ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.",
+      "location": "Applicable CC deed read on the recorded date; HTTP status, body and SHA-256 archived."
+    },
+    {
+      "fact": "The already served main WebP and every listed responsive variant were read byte-for-byte. Each current SHA-256 and dimensions exactly match the old manifest. This revalidation does not claim a new download of the source full-resolution original or a current photograph.",
+      "excerpt": "Unchanged served-asset SHA-256 and dimension ledger attached as localAssetVerification.",
+      "location": "Existing public/images files, Sharp metadata and SHA-256 verification."
+    },
+    {
+      "fact": "The current file page names a specific attribution form. The new alias supplies it in full; existing historical metadata is preserved and any wider historical attribution correction is for root to coordinate separately.",
+      "excerpt": "Attribution of this image to the author (DAVID ILIFF) is also required",
+      "location": "Specific individual file page, Permission/Attribution requirement."
+    }
+  ],
+  "sourcePhotoDate": "2009-06-12",
+  "sourcePhotoTitle": "Trafalgar Square 360 Panorama Cropped Sky, London - Jun 2009.jpg",
+  "sourcePhotoAuthor": "DAVID ILIFF",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "httpStatus": 200,
+    "fetchedAt": "2026-11-12T16:27:37.671Z",
+    "contentType": "text/html",
+    "contentSha256": "9a17cd36de36b242cbe4234773116f2036f86a8ce4459af8b37fd120482ca931",
+    "retryAfter": null
+  },
+  "localAssetVerification": {
+    "existingImageId": "london-trafalgar",
+    "servedSrc": "/images/london-trafalgar.webp",
+    "servedSha256": "ed7fc5feaf6522ef70fa32404db53cb870b097b69629d2c1d3a21363c7b94a40",
+    "dimensions": [
+      1600,
+      334
+    ],
+    "variants": [
+      {
+        "src": "/images/london-trafalgar-480w.webp",
+        "width": 480,
+        "height": 100,
+        "sha256": "00ca92b137611557038d81a553407102cadadb00501754840cb9c69b0073f131",
+        "bytes": 9926
+      },
+      {
+        "src": "/images/london-trafalgar-800w.webp",
+        "width": 800,
+        "height": 167,
+        "sha256": "96cedb47a0681cd5dd98067b183ae57ce28f45f71c6288a0d09953a90f05311d",
+        "bytes": 25842
+      },
+      {
+        "src": "/images/london-trafalgar-1200w.webp",
+        "width": 1200,
+        "height": 250,
+        "sha256": "1a29bd3ef4815bb7c9437e3ea9a36f581ba731d102156cc8e7b04d206d531b9b",
+        "bytes": 45670
+      },
+      {
+        "src": "/images/london-trafalgar.webp",
+        "width": 1600,
+        "height": 334,
+        "sha256": "ed7fc5feaf6522ef70fa32404db53cb870b097b69629d2c1d3a21363c7b94a40",
+        "bytes": 91110
+      }
+    ],
+    "oldManifestRowSha256": "846c4fc70edb2b2dc17b12a30adbb23f85852a3b3d8360158c60c7e6177648b2",
+    "assetBytesEdited": false,
+    "oldMetadataEdited": false,
+    "sourceFullResolutionDownloaded": false
+  },
+  "notes": "All photographs are archival place documentation. No historical or future New Year event, fireworks, crowd arrangement, venue admission or event viewing position is depicted or guaranteed. Only new private aliases and evidence are prepared; no repository file is changed."
+}

@@ -1,0 +1,59 @@
+{
+  "url": "https://www.timessquarenyc.org/nye/nye-faq",
+  "fetchedAt": "2026-11-12T16:36:12.325Z",
+  "finalUrl": "https://www.timessquarenyc.org/nye/nye-faq",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "bffa34baa0d5ece916497d3e1dc105c0aa29bfdcacb38fd86ec1d8bba6f14a2d",
+  "bytes": 154241,
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "As a general organizer rule, outdoor public viewing is free, first-come/first-served and has no public viewing spaces for sale. No 2027 checkpoint or arrival-hour guarantee is inferred.",
+      "excerpt": "free event … first-come, first-serve basis … There are no public viewing spaces available for sale.",
+      "location": "Do I need a ticket? answer.",
+      "excerptLocations": [
+        {
+          "text": "free event",
+          "extractedTextLine": 79
+        },
+        {
+          "text": "first-come, first-serve basis",
+          "extractedTextLine": 79
+        },
+        {
+          "text": "There are no public viewing spaces available for sale.",
+          "extractedTextLine": 79
+        }
+      ]
+    },
+    {
+      "fact": "Private restaurant/hotel parties need separate tickets; the organizer warns that all-access passes do not ensure passage through police controls.",
+      "excerpt": "private party … All Access passes",
+      "location": "Ticket answer and MULTIPLE VENUE/PAY-ONE-PRICE/ALL ACCESS PASS ALERT.",
+      "excerptLocations": [
+        {
+          "text": "private party",
+          "extractedTextLine": 80
+        },
+        {
+          "text": "All Access passes",
+          "extractedTextLine": 84
+        }
+      ]
+    },
+    {
+      "fact": "The FAQ introduction still says New Year’s Eve 2025. Only its general ticket/public-viewing distinction is used, not historic access streets or dated instructions.",
+      "excerpt": "New Year’s Eve 2025",
+      "location": "FAQ introduction.",
+      "excerptLocations": [
+        {
+          "text": "New Year's Eve 2025",
+          "extractedTextLine": 65
+        }
+      ]
+    }
+  ],
+  "notes": "Read actual complete FAQ ticket/access distinctions. Specific 2027 security entrances, viewing maps, performers and arrival cutoff times remain unverified.",
+  "excerptWordCount": 23
+}

@@ -2,7 +2,7 @@
   "id": "2026-11-12-manual-new-year-five",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-12T19:26:51.155Z",
-  "status": "reviewed-for-release",
+  "status": "published",
   "topicIds": [
     "sydney-new-year-2027",
     "singapore-new-year-2027",
@@ -12,7 +12,7 @@
   ],
   "requestedCount": 5,
   "effectiveRequestedCount": 5,
-  "publishedCount": 0,
+  "publishedCount": 5,
   "errors": [],
   "authorization": {
     "type": "explicit-manual-five-new-year-originals",
@@ -40,10 +40,11 @@
     "startedAt": "2026-11-12T19:23:48.640668+00:00",
     "baseCommit": "71fb4567fab8426190634d9f73ccaeaab71c9019",
     "coordinator": "Codex root in configured cloud checkout",
-    "status": "in-progress",
-    "heartbeatAt": "2026-11-12T19:33:45.034Z",
-    "leaseUntil": "2026-11-12T23:23:48.640668+00:00",
-    "coordination": "One root writer; research and QA preparation agents only write private artifacts."
+    "status": "completed-verified",
+    "heartbeatAt": "2026-11-12T20:15:31.051Z",
+    "leaseUntil": "2026-11-12T20:15:31.051Z",
+    "coordination": "One root writer; research and QA preparation agents only write private artifacts.",
+    "completedAt": "2026-11-12T20:15:31.051Z"
   },
   "census": {
     "checkedAt": "2026-11-12T19:23:48.640668+00:00",
@@ -63,5 +64,50 @@
   "newOptimizedFiles": 28,
   "reusedOptimizedFiles": 44,
   "providedOriginals": 8,
-  "sourceCount": 34
+  "sourceCount": 34,
+  "publishedTopicIds": [
+    "sydney-new-year-2027",
+    "singapore-new-year-2027",
+    "london-new-year-2027",
+    "new-york-new-year-2027",
+    "rio-new-year-2027"
+  ],
+  "verifiedTopicCount": 5,
+  "localizedVersionsPublished": 10,
+  "documentaryPhotoRecordsPublished": 15,
+  "historicalOptimizedFilesReused": 44,
+  "citedSourceDocuments": 34,
+  "publishedCommit": "6597f0aac2448bc691a139db2682c6c994ee2978",
+  "publiclyVerifiedAt": "2026-11-12T20:15:31.051Z",
+  "publicVerification": "editorial/verification/2026-11-12-manual-new-year-five-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/ano-nuevo-sidney-2027/",
+      "https://maletafeliz.com/es/guias/ano-nuevo-2027-singapur-3-lugares/",
+      "https://maletafeliz.com/es/guias/ano-nuevo-londres-2027/",
+      "https://maletafeliz.com/es/guias/nochevieja-nueva-york-2027-3-lugares/",
+      "https://maletafeliz.com/es/guias/fin-de-ano-rio-2027-3-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/new-years-eve-sydney-2027/",
+      "https://maletafeliz.com/en/guides/singapore-new-year-2027-3-places/",
+      "https://maletafeliz.com/en/guides/new-year-london-2027/",
+      "https://maletafeliz.com/en/guides/new-york-new-years-eve-2027-3-places/",
+      "https://maletafeliz.com/en/guides/rio-new-years-eve-2027-3-places/"
+    ]
+  },
+  "priorSameDayUniqueVerifiedTopics": [
+    "braga",
+    "fes"
+  ],
+  "sameDayUniqueVerifiedTopics": [
+    "braga",
+    "fes",
+    "london-new-year-2027",
+    "new-york-new-year-2027",
+    "rio-new-year-2027",
+    "singapore-new-year-2027",
+    "sydney-new-year-2027"
+  ],
+  "inventoryNote": "Five additional New Year originals and ten versions were explicitly authorized in this separate manual batch. EarlierBraga/Fez2 and their batch/receipt are preserved. Daily2atnoonMiami, priorarticles/images/ads/SEO/design/backlog unchanged. NoGoogleindexing/search-volume/ranking/scheduler-run attribution claimed."
 }

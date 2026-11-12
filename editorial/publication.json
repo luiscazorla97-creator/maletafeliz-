@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-12T17:43:44.196Z",
+  "verifiedAt": "2026-11-12T20:15:31.051Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 195,
-  "localizations": 390,
-  "photos": 866,
-  "httpChecks": 928,
+  "originals": 200,
+  "localizations": 400,
+  "photos": 881,
+  "httpChecks": 938,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "d33c0874-01e0-4f72-9ca1-b74e6d53e188",
-      "commit": "8e8183ebaeef02935182108481295bf84b975a75",
+      "deploymentId": "b517e519-7d63-4047-b541-7db427360b38",
+      "commit": "6597f0aac2448bc691a139db2682c6c994ee2978",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "462b066f-4b59-48ff-86ab-0dbcb58327a9",
-      "commit": "8e8183ebaeef02935182108481295bf84b975a75",
+      "deploymentId": "84b9ea3d-c0f4-4c51-9694-e4f88179d3e1",
+      "commit": "6597f0aac2448bc691a139db2682c6c994ee2978",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,25 +45,25 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 943,
-  "latestBatch": "2026-11-12",
-  "verificationFile": "editorial/verification/2026-11-12-publication.json",
+  "citedSourceDocuments": 977,
+  "latestBatch": "2026-11-12-manual-new-year-five",
+  "verificationFile": "editorial/verification/2026-11-12-manual-new-year-five-publication.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 928,
-    "batchActualHttpsRequests": 86,
-    "batchHttpsAuditRecords": 80,
+    "siteAndRedirects": 938,
+    "batchActualHttpsRequests": 148,
+    "batchHttpsAuditRecords": 138,
     "browserCombinations": 4,
-    "browserFlows": 8,
-    "browserFirstPartyResourceRequests": 67,
-    "note": "Actual whole-sitemap HTTPS, batch photo/search/redirect records and browser resources are separate scopes, not unique visitors or Google crawls.",
-    "allSitemapHtmlPages": 918,
-    "allLocalizedGuideHtmlPages": 390
+    "browserFlows": 20,
+    "browserFirstPartyResourceRequests": 92,
+    "note": "Whole-sitemap HTTPS, selectedphoto/search/redirect records and browserresource requests are separate scopes, not unique visitors or authenticated Google crawls.",
+    "allSitemapHtmlPages": 928,
+    "allLocalizedGuideHtmlPages": 400
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-12-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-12T17:43:44.196Z",
+  "latestDeploymentVerification": "editorial/verification/2026-11-12-manual-new-year-five-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-12T20:15:31.051Z",
   "photoCoverage": {
-    "originalRecommendations": 864,
-    "localizedRecommendations": 1728,
+    "originalRecommendations": 879,
+    "localizedRecommendations": 1758,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -128,9 +128,9 @@
       "height": 250
     }
   },
-  "batchChecks": 80,
+  "batchChecks": 138,
   "performanceVerification": "editorial/verification/2026-11-09-mobile-performance-publication.json",
-  "verificationChecksTotal": 1008,
+  "verificationChecksTotal": 1076,
   "countrySeoStrategy": {
     "priorityCountries": [
       "it",
@@ -138,10 +138,13 @@
       "mx",
       "us"
     ],
-    "priorityOriginals": 75,
+    "priorityOriginals": 76,
     "initialTargetOriginals": 100,
     "remainingOriginals": 25,
-    "verification": "editorial/verification/2026-11-12-publication.json"
+    "verification": "editorial/verification/2026-11-12-manual-new-year-five-publication.json",
+    "targetCoveredOriginals": 75,
+    "aboveTargetOriginals": 1,
+    "note": "Actual76priorityoriginals; countrycappedcoverage75/100, with25stillmissing. The21stUSguide does not replace a missingguide inanotherprioritycountry."
   },
   "technicalIndexability": {
     "verifiedAt": "2026-11-11T18:10:44.807Z",
@@ -223,17 +226,17 @@
     }
   ],
   "latestFullSitePublicationVerification": {
-    "verifiedAt": "2026-11-12T17:43:44.196Z",
-    "sourceCommit": "8e8183ebaeef02935182108481295bf84b975a75",
-    "verificationFile": "editorial/verification/2026-11-12-publication.json",
-    "sitemapUrls": 918,
-    "localizedGuideHtmlPages": 390,
+    "verifiedAt": "2026-11-12T20:15:31.051Z",
+    "sourceCommit": "6597f0aac2448bc691a139db2682c6c994ee2978",
+    "verificationFile": "editorial/verification/2026-11-12-manual-new-year-five-publication.json",
+    "sitemapUrls": 928,
+    "localizedGuideHtmlPages": 400,
     "allSitemapPagesReachableThroughHtml": true,
     "maximumGuideClickDepth": 2,
     "duplicateTitlesWithinLocale": 0,
     "metadataMatchesRelease": true,
     "seoCodeChanges": false,
     "googleIndexationVerified": false,
-    "scope": "Post-publication validation for two worldwide originals under the latest owner limit; historical three-topic reservation and prior technical-audit history remain intact."
+    "scope": "Five additional manual NewYear originals, ten versions, existingcitydestinations; prior dailybatch/history preserved."
   }
 }

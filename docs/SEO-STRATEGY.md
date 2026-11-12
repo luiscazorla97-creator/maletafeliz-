@@ -107,3 +107,10 @@ León, Guanajuato, e Himeji añaden dos originales y cuatro versiones completas 
 ## Dos originales mundiales: 12 de noviembre de 2026
 
 Dos guías nuevas verificadas: Braga (Portugal) y Fez (Marruecos), con cuatro versiones completas y 10 fotografías documentales individuales. Se aplica el límite vigente de dos originales sin modificar la estrategia general ni el horario. La cobertura prioritaria permanece en Italia 20/30, Japón 18/25, México 17/25 y Estados Unidos 20/20: 75/100 y 25 pendientes. Los 73 registros anteriores del backlog, las reservas e historiales se conservan. Las 918 URLs públicas del sitemap y las cuatro combinaciones de idioma/tamaño de pantalla se comprobaron sin afirmar indexación o tráfico de Google. George Town y los diez temas preparados de Año Nuevo permanecen privados y no se cuentan como publicados. Evidencia: `editorial/verification/2026-11-12-publication.json`.
+
+
+## Cinco originales manuales de Año Nuevo: 12 de noviembre de 2026
+
+Cinco necesidades estacionales distintas para Sídney, Singapur, Londres, Nueva York y Río. No se publican cifras de volumen ni rankings de Google sin medición. Las ciudades conservan sus destinos y URLs; las diez guías ES/EN se incorporan a los enlaces HTML, búsqueda y sitemap. La orden manual de cinco originales mantiene el horario diario de dos y conserva la tanda de Braga y Fez ya verificada.
+
+Cobertura prioritaria: Italia 20/30, Japón 18/25, México 17/25 y Estados Unidos 21/20. Hay 76 originales en esos países; al limitar la contribución de cada país a su meta se cubren 75 de 100 objetivos y quedan 25 faltantes. La guía estadounidense adicional no sustituye una faltante italiana, japonesa o mexicana. Los 73 registros del backlog y las historias anteriores se conservan. Evidencia: `editorial/verification/2026-11-12-manual-new-year-five-publication.json`.

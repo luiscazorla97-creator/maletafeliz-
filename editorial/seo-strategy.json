@@ -1391,14 +1391,16 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-12T17:43:44.196Z",
+    "verifiedAt": "2026-11-12T20:15:31.051Z",
     "countries": [
       {
         "countryId": "it",
         "publishedOriginals": 20,
         "localizedVersions": 40,
         "targetOriginals": 30,
+        "targetCoveredOriginals": 20,
         "missingOriginals": 10,
+        "aboveTargetOriginals": 0,
         "articleIds": [
           "amalfi-coast",
           "bergamo",
@@ -1427,7 +1429,9 @@
         "publishedOriginals": 18,
         "localizedVersions": 36,
         "targetOriginals": 25,
+        "targetCoveredOriginals": 18,
         "missingOriginals": 7,
+        "aboveTargetOriginals": 0,
         "articleIds": [
           "christmas-fukuoka",
           "christmas-osaka",
@@ -1454,7 +1458,9 @@
         "publishedOriginals": 17,
         "localizedVersions": 34,
         "targetOriginals": 25,
+        "targetCoveredOriginals": 17,
         "missingOriginals": 8,
+        "aboveTargetOriginals": 0,
         "articleIds": [
           "cancun",
           "guanajuato",
@@ -1477,10 +1483,12 @@
       },
       {
         "countryId": "us",
-        "publishedOriginals": 20,
-        "localizedVersions": 40,
+        "publishedOriginals": 21,
+        "localizedVersions": 42,
         "targetOriginals": 20,
+        "targetCoveredOriginals": 20,
         "missingOriginals": 0,
+        "aboveTargetOriginals": 1,
         "articleIds": [
           "buffalo",
           "christmas-boston",
@@ -1499,15 +1507,19 @@
           "miami",
           "new-orleans",
           "new-york",
+          "new-york-new-year-2027",
           "orlando",
           "san-diego",
           "washington-dc"
         ]
       }
     ],
-    "priorityOriginals": 75,
+    "priorityOriginals": 76,
+    "targetCoveredOriginals": 75,
+    "aboveTargetOriginals": 1,
     "missingToInitial100": 25,
-    "publicVerification": "editorial/verification/2026-11-12-publication.json"
+    "publicVerification": "editorial/verification/2026-11-12-manual-new-year-five-publication.json",
+    "coverageNote": "Targets capped by country: actual76priorityoriginals cover75of100targetslots, leaving25country-specific gaps. US21/20 contributes only20targetslots."
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1654,6 +1666,24 @@
       "publicVerification": "editorial/verification/2026-11-12-publication.json",
       "countryPriorityOverrideForThisBatchOnly": true,
       "note": "Two worldwide first-visit guides published under the latest owner limit; zero initial same-day verified originals. The historical three-topic reservation is retained with George Town deferred privately. The 73 previous backlog records, two-at-noon-Miami schedule and priority-country coverage 75/100 with 25 remaining are unchanged. Ten New Year drafts remain private and are not counted."
+    },
+    {
+      "batch": "2026-11-12-manual-new-year-five",
+      "topicIds": [
+        "sydney-new-year-2027",
+        "singapore-new-year-2027",
+        "london-new-year-2027",
+        "new-york-new-year-2027",
+        "rio-new-year-2027"
+      ],
+      "type": "explicit-manual-five-new-year-originals",
+      "status": "published-verified",
+      "commit": "6597f0aac2448bc691a139db2682c6c994ee2978",
+      "publicVerification": "editorial/verification/2026-11-12-manual-new-year-five-publication.json",
+      "countryPriorityOverrideForThisBatchOnly": true,
+      "priorSameDayVerifiedOriginals": 2,
+      "sameDayUniqueVerifiedOriginalsAfter": 7,
+      "note": "Latest explicit owner request authorizes five additionalmanualNewYearoriginals; usualdaily2atnoonMiami unchanged. PriorBraga/Fezbatch,73backlogentries and all historicalcontent preserved. Actualpriority76, capped75/100,25missing; noGoogle-demand/indexing claim."
     }
   ],
   "verifiedCoverageHistory": [
@@ -1892,6 +1922,125 @@
       "priorityOriginals": 75,
       "missingToInitial100": 25,
       "publicVerification": "editorial/verification/2026-11-11-publication.json"
+    },
+    {
+      "verifiedAt": "2026-11-12T17:43:44.196Z",
+      "countries": [
+        {
+          "countryId": "it",
+          "publishedOriginals": 20,
+          "localizedVersions": 40,
+          "targetOriginals": 30,
+          "missingOriginals": 10,
+          "articleIds": [
+            "amalfi-coast",
+            "bergamo",
+            "bologna",
+            "christmas-florence",
+            "christmas-milan",
+            "christmas-naples",
+            "christmas-rome",
+            "christmas-turin",
+            "christmas-venice",
+            "christmas-verona",
+            "florence",
+            "lucca",
+            "milan",
+            "padua",
+            "perugia",
+            "pisa",
+            "rome",
+            "siena",
+            "venice",
+            "verona"
+          ]
+        },
+        {
+          "countryId": "jp",
+          "publishedOriginals": 18,
+          "localizedVersions": 36,
+          "targetOriginals": 25,
+          "missingOriginals": 7,
+          "articleIds": [
+            "christmas-fukuoka",
+            "christmas-osaka",
+            "christmas-tokyo",
+            "christmas-yokohama",
+            "halloween-japan",
+            "himeji",
+            "hiroshima",
+            "kanazawa",
+            "kyoto",
+            "matsumoto",
+            "mount-fuji",
+            "nara",
+            "nara-day-trip-transport",
+            "nikko",
+            "osaka",
+            "sapporo",
+            "takayama",
+            "tokyo"
+          ]
+        },
+        {
+          "countryId": "mx",
+          "publishedOriginals": 17,
+          "localizedVersions": 34,
+          "targetOriginals": 25,
+          "missingOriginals": 8,
+          "articleIds": [
+            "cancun",
+            "guanajuato",
+            "leon-guanajuato",
+            "los-cabos",
+            "mexico-city",
+            "morelia",
+            "muertos-merida",
+            "muertos-mexico-city",
+            "muertos-mixquic",
+            "muertos-oaxaca",
+            "muertos-puebla",
+            "oaxaca",
+            "patzcuaro",
+            "puebla",
+            "queretaro",
+            "riviera-maya",
+            "san-miguel-de-allende"
+          ]
+        },
+        {
+          "countryId": "us",
+          "publishedOriginals": 20,
+          "localizedVersions": 40,
+          "targetOriginals": 20,
+          "missingOriginals": 0,
+          "articleIds": [
+            "buffalo",
+            "christmas-boston",
+            "christmas-chicago",
+            "christmas-miami",
+            "christmas-new-york",
+            "christmas-philadelphia",
+            "christmas-san-francisco",
+            "columbus",
+            "greenville-sc",
+            "halloween-usa",
+            "hawaii",
+            "hilo",
+            "las-vegas",
+            "los-angeles",
+            "miami",
+            "new-orleans",
+            "new-york",
+            "orlando",
+            "san-diego",
+            "washington-dc"
+          ]
+        }
+      ],
+      "priorityOriginals": 75,
+      "missingToInitial100": 25,
+      "publicVerification": "editorial/verification/2026-11-12-publication.json"
     }
   ]
 }

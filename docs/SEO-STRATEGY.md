@@ -114,3 +114,10 @@ Dos guías nuevas verificadas: Braga (Portugal) y Fez (Marruecos), con cuatro ve
 Cinco necesidades estacionales distintas para Sídney, Singapur, Londres, Nueva York y Río. No se publican cifras de volumen ni rankings de Google sin medición. Las ciudades conservan sus destinos y URLs; las diez guías ES/EN se incorporan a los enlaces HTML, búsqueda y sitemap. La orden manual de cinco originales mantiene el horario diario de dos y conserva la tanda de Braga y Fez ya verificada.
 
 Cobertura prioritaria: Italia 20/30, Japón 18/25, México 17/25 y Estados Unidos 21/20. Hay 76 originales en esos países; al limitar la contribución de cada país a su meta se cubren 75 de 100 objetivos y quedan 25 faltantes. La guía estadounidense adicional no sustituye una faltante italiana, japonesa o mexicana. Los 73 registros del backlog y las historias anteriores se conservan. Evidencia: `editorial/verification/2026-11-12-manual-new-year-five-publication.json`.
+
+
+## Quince originales festivos publicados el 12 de noviembre de 2026: cierre de verificación el 13
+
+Quince necesidades estacionales distintas: diez guías de Año Nuevo y cinco nuevas de Navidad. Se conserva cada destino existente y se incorporan treinta URLs ES/EN a enlaces HTML, búsqueda y sitemap. No se publican cifras de búsquedas ni rankings sin medición. La orden manual no cambia la frecuencia diaria ni las siete publicaciones previamente verificadas el 12 de noviembre. Las quince guías se publicaron el día 12; el cierre de verificación del día 13 no cuenta como quince originales nuevos de ese día.
+
+Cobertura prioritaria: Italia 20/30, Japón 19/25, México 17/25 y Estados Unidos 23/20. Los 79 originales reales cubren 76 de 100 objetivos al limitar cada país a su meta; faltan 24 objetivos específicos y sobran tres en Estados Unidos. Esos tres excesos no sustituyen guías italianas, japonesas o mexicanas. Se conservan 73 registros del backlog e historias anteriores. Evidencia: `editorial/verification/2026-11-12-manual-holidays-fifteen-publication.json`.

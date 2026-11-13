@@ -2,7 +2,7 @@
   "id": "2026-11-12-manual-holidays-fifteen",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-12T21:42:37.301Z",
-  "status": "reviewed-for-release",
+  "status": "published",
   "topicIds": [
     "vienna-new-year-2027",
     "paris-new-year-2027",
@@ -41,7 +41,7 @@
   ],
   "requestedCount": 15,
   "effectiveRequestedCount": 15,
-  "publishedCount": 0,
+  "publishedCount": 15,
   "errors": [],
   "authorization": {
     "type": "explicit-manual-ten-new-year-five-christmas-originals",
@@ -76,10 +76,28 @@
     "startedAt": "2026-11-12T21:37:58.238688+00:00",
     "baseCommit": "c0cbf667bab14d2062186e72aa4f3196526642b6",
     "coordinator": "Codex root in configured cloud checkout",
-    "status": "in-progress",
-    "heartbeatAt": "2026-11-12T21:57:37.035Z",
-    "leaseUntil": "2026-11-13T03:37:58.238688+00:00",
-    "coordination": "One root repository writer; author/review agents only write private staging. All fifteen belong to this single current manual order."
+    "status": "completed-verified",
+    "heartbeatAt": "2026-11-13T17:13:01.996Z",
+    "leaseUntil": "2026-11-13T17:13:01.996Z",
+    "coordination": "One root repository writer; author/review agents only write private staging. All fifteen belong to this single current manual order.",
+    "originalLeaseUntil": "2026-11-13T03:37:58.238688+00:00",
+    "continuation": {
+      "executionId": "6d30d380-2c3e-4d0c-b7c6-cebfaae5ae7d",
+      "sourceCommit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
+      "contractSha256": "67f2e6d09117e484aa3aa19683fd404974a1e327f1d13d18a11cdf457a16a9d5",
+      "createdAt": "2026-11-13T17:04:10.359532+00:00",
+      "originalLeaseUntil": "2026-11-13T03:37:58.238688+00:00",
+      "renewedPrivateLeaseUntil": "2026-11-13T19:04:10.359532+00:00",
+      "freshTodayCensus": {
+        "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/fresh-today-census.json",
+        "sha256": "7b6a52bc3a3a3005e7f33440e02c41ad8b9afcbdf9e441bc8e29f5aae34233ee"
+      },
+      "recoveryObservation": {
+        "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/recovery-observation.json",
+        "sha256": "4d934a2d6ac95baedd31ca2aa877f3c43336fa87395d2925b34394b070be7a43"
+      }
+    },
+    "completedAt": "2026-11-13T17:13:01.996Z"
   },
   "census": {
     "checkedAt": "2026-11-12T21:37:58.238688+00:00",
@@ -109,5 +127,125 @@
   "newOptimizedFiles": 120,
   "reusedOptimizedFiles": 83,
   "providedOriginals": 34,
-  "sourceDocuments": 80
+  "sourceDocuments": 80,
+  "firstPublicationDateNY": "2026-11-12",
+  "firstPublishedAt": "2026-11-12T23:47:45.997Z",
+  "firstHttpsVerifiedAt": "2026-11-12T23:56:06.888Z",
+  "verificationCompletedDateNY": "2026-11-13",
+  "verificationCompletedAt": "2026-11-13T17:13:01.996Z",
+  "lateVerificationClosure": true,
+  "newOriginalsFirstPublishedOnCompletionDate": 0,
+  "publicationDayCohortUniqueOriginals": 22,
+  "continuation": {
+    "executionId": "6d30d380-2c3e-4d0c-b7c6-cebfaae5ae7d",
+    "sourceCommit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
+    "contractSha256": "67f2e6d09117e484aa3aa19683fd404974a1e327f1d13d18a11cdf457a16a9d5",
+    "createdAt": "2026-11-13T17:04:10.359532+00:00",
+    "originalLeaseUntil": "2026-11-13T03:37:58.238688+00:00",
+    "renewedPrivateLeaseUntil": "2026-11-13T19:04:10.359532+00:00",
+    "freshTodayCensus": {
+      "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/fresh-today-census.json",
+      "sha256": "7b6a52bc3a3a3005e7f33440e02c41ad8b9afcbdf9e441bc8e29f5aae34233ee"
+    },
+    "recoveryObservation": {
+      "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/recovery-observation.json",
+      "sha256": "4d934a2d6ac95baedd31ca2aa877f3c43336fa87395d2925b34394b070be7a43"
+    }
+  },
+  "publishedTopicIds": [
+    "vienna-new-year-2027",
+    "paris-new-year-2027",
+    "edinburgh-hogmanay-2027",
+    "madrid-new-year-2027",
+    "cape-town-new-year-2027",
+    "dubai-new-year-2027",
+    "las-vegas-new-year-2027",
+    "bangkok-new-year-2027",
+    "tokyo-new-year-2027",
+    "hong-kong-new-year-2027",
+    "christmas-vancouver",
+    "christmas-lisbon",
+    "christmas-hong-kong",
+    "christmas-seoul",
+    "christmas-los-angeles"
+  ],
+  "verifiedTopicCount": 15,
+  "localizedVersionsPublished": 30,
+  "documentaryPhotoRecordsPublished": 44,
+  "newPhotoMetadataRecordsPublished": 42,
+  "historicalOptimizedFilesReused": 83,
+  "citedSourceDocuments": 80,
+  "publishedCommit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
+  "publiclyVerifiedAt": "2026-11-13T17:13:01.996Z",
+  "publicVerification": "editorial/verification/2026-11-12-manual-holidays-fifteen-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/ano-nuevo-viena-2027/",
+      "https://maletafeliz.com/es/guias/ano-nuevo-paris-2027/",
+      "https://maletafeliz.com/es/guias/hogmanay-edimburgo-2027/",
+      "https://maletafeliz.com/es/guias/ano-nuevo-madrid-2027/",
+      "https://maletafeliz.com/es/guias/ano-nuevo-ciudad-del-cabo-2027/",
+      "https://maletafeliz.com/es/guias/ano-nuevo-dubai-2027-3-zonas/",
+      "https://maletafeliz.com/es/guias/ano-nuevo-las-vegas-2027/",
+      "https://maletafeliz.com/es/guias/ano-nuevo-bangkok-2027/",
+      "https://maletafeliz.com/es/guias/ano-nuevo-tokio-2027-3-templos/",
+      "https://maletafeliz.com/es/guias/ano-nuevo-hong-kong-2027-3-zonas/",
+      "https://maletafeliz.com/es/guias/navidad-vancouver-2026/",
+      "https://maletafeliz.com/es/guias/navidad-lisboa-2026/",
+      "https://maletafeliz.com/es/guias/navidad-hong-kong-2026-3-zonas/",
+      "https://maletafeliz.com/es/guias/navidad-seul-2026-3-lugares/",
+      "https://maletafeliz.com/es/guias/navidad-los-angeles-2026-3-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/vienna-new-year-2027/",
+      "https://maletafeliz.com/en/guides/paris-new-year-2027/",
+      "https://maletafeliz.com/en/guides/edinburgh-hogmanay-2027/",
+      "https://maletafeliz.com/en/guides/madrid-new-year-2027/",
+      "https://maletafeliz.com/en/guides/cape-town-new-year-2027/",
+      "https://maletafeliz.com/en/guides/dubai-new-year-2027-3-areas/",
+      "https://maletafeliz.com/en/guides/las-vegas-new-year-2027/",
+      "https://maletafeliz.com/en/guides/bangkok-new-year-2027/",
+      "https://maletafeliz.com/en/guides/tokyo-new-year-2027-3-temples-shrines/",
+      "https://maletafeliz.com/en/guides/hong-kong-new-years-eve-2027-3-areas/",
+      "https://maletafeliz.com/en/guides/vancouver-christmas-2026/",
+      "https://maletafeliz.com/en/guides/christmas-lisbon-2026/",
+      "https://maletafeliz.com/en/guides/christmas-hong-kong-2026-3-areas/",
+      "https://maletafeliz.com/en/guides/christmas-seoul-2026-3-places/",
+      "https://maletafeliz.com/en/guides/christmas-los-angeles-2026-3-places/"
+    ]
+  },
+  "priorSameDayUniqueVerifiedTopics": [
+    "braga",
+    "fes",
+    "london-new-year-2027",
+    "new-york-new-year-2027",
+    "rio-new-year-2027",
+    "singapore-new-year-2027",
+    "sydney-new-year-2027"
+  ],
+  "sameDayUniqueVerifiedTopics": [
+    "bangkok-new-year-2027",
+    "braga",
+    "cape-town-new-year-2027",
+    "christmas-hong-kong",
+    "christmas-lisbon",
+    "christmas-los-angeles",
+    "christmas-seoul",
+    "christmas-vancouver",
+    "dubai-new-year-2027",
+    "edinburgh-hogmanay-2027",
+    "fes",
+    "hong-kong-new-year-2027",
+    "las-vegas-new-year-2027",
+    "london-new-year-2027",
+    "madrid-new-year-2027",
+    "new-york-new-year-2027",
+    "paris-new-year-2027",
+    "rio-new-year-2027",
+    "singapore-new-year-2027",
+    "sydney-new-year-2027",
+    "tokyo-new-year-2027",
+    "vienna-new-year-2027"
+  ],
+  "inventoryNote": "Ten New Year and five Christmas originals, 30 versions, were explicitly authorized in this separate manual batch. All seven prior same-day originals, 31 earlier batches and 26 publication receipts are preserved. Daily two at noon Miami, prior articles/images/ads/SEO/design/backlog unchanged. No Google indexing, search-volume, ranking or scheduler-run attribution claimed."
 }

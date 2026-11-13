@@ -1391,7 +1391,31 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-12T20:15:31.051Z",
+    "verifiedAt": "2026-11-13T17:13:01.996Z",
+    "firstPublicationDateNY": "2026-11-12",
+    "firstPublishedAt": "2026-11-12T23:47:45.997Z",
+    "firstHttpsVerifiedAt": "2026-11-12T23:56:06.888Z",
+    "verificationCompletedDateNY": "2026-11-13",
+    "verificationCompletedAt": "2026-11-13T17:13:01.996Z",
+    "lateVerificationClosure": true,
+    "newOriginalsFirstPublishedOnCompletionDate": 0,
+    "publicationDayCohortUniqueOriginals": 22,
+    "continuation": {
+      "executionId": "6d30d380-2c3e-4d0c-b7c6-cebfaae5ae7d",
+      "sourceCommit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
+      "contractSha256": "67f2e6d09117e484aa3aa19683fd404974a1e327f1d13d18a11cdf457a16a9d5",
+      "createdAt": "2026-11-13T17:04:10.359532+00:00",
+      "originalLeaseUntil": "2026-11-13T03:37:58.238688+00:00",
+      "renewedPrivateLeaseUntil": "2026-11-13T19:04:10.359532+00:00",
+      "freshTodayCensus": {
+        "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/fresh-today-census.json",
+        "sha256": "7b6a52bc3a3a3005e7f33440e02c41ad8b9afcbdf9e441bc8e29f5aae34233ee"
+      },
+      "recoveryObservation": {
+        "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/recovery-observation.json",
+        "sha256": "4d934a2d6ac95baedd31ca2aa877f3c43336fa87395d2925b34394b070be7a43"
+      }
+    },
     "countries": [
       {
         "countryId": "it",
@@ -1426,11 +1450,11 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 18,
-        "localizedVersions": 36,
+        "publishedOriginals": 19,
+        "localizedVersions": 38,
         "targetOriginals": 25,
-        "targetCoveredOriginals": 18,
-        "missingOriginals": 7,
+        "targetCoveredOriginals": 19,
+        "missingOriginals": 6,
         "aboveTargetOriginals": 0,
         "articleIds": [
           "christmas-fukuoka",
@@ -1450,7 +1474,8 @@
           "osaka",
           "sapporo",
           "takayama",
-          "tokyo"
+          "tokyo",
+          "tokyo-new-year-2027"
         ]
       },
       {
@@ -1483,16 +1508,17 @@
       },
       {
         "countryId": "us",
-        "publishedOriginals": 21,
-        "localizedVersions": 42,
+        "publishedOriginals": 23,
+        "localizedVersions": 46,
         "targetOriginals": 20,
         "targetCoveredOriginals": 20,
         "missingOriginals": 0,
-        "aboveTargetOriginals": 1,
+        "aboveTargetOriginals": 3,
         "articleIds": [
           "buffalo",
           "christmas-boston",
           "christmas-chicago",
+          "christmas-los-angeles",
           "christmas-miami",
           "christmas-new-york",
           "christmas-philadelphia",
@@ -1503,6 +1529,7 @@
           "hawaii",
           "hilo",
           "las-vegas",
+          "las-vegas-new-year-2027",
           "los-angeles",
           "miami",
           "new-orleans",
@@ -1514,12 +1541,12 @@
         ]
       }
     ],
-    "priorityOriginals": 76,
-    "targetCoveredOriginals": 75,
-    "aboveTargetOriginals": 1,
-    "missingToInitial100": 25,
-    "publicVerification": "editorial/verification/2026-11-12-manual-new-year-five-publication.json",
-    "coverageNote": "Targets capped by country: actual76priorityoriginals cover75of100targetslots, leaving25country-specific gaps. US21/20 contributes only20targetslots."
+    "priorityOriginals": 79,
+    "targetCoveredOriginals": 76,
+    "aboveTargetOriginals": 3,
+    "missingToInitial100": 24,
+    "publicVerification": "editorial/verification/2026-11-12-manual-holidays-fifteen-publication.json",
+    "coverageNote": "Targets capped by country: actual 79 priority originals cover 76 of 100 target slots, leaving 24 country-specific gaps. US 23/20 contributes only 20 target slots."
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1684,6 +1711,58 @@
       "priorSameDayVerifiedOriginals": 2,
       "sameDayUniqueVerifiedOriginalsAfter": 7,
       "note": "Latest explicit owner request authorizes five additionalmanualNewYearoriginals; usualdaily2atnoonMiami unchanged. PriorBraga/Fezbatch,73backlogentries and all historicalcontent preserved. Actualpriority76, capped75/100,25missing; noGoogle-demand/indexing claim."
+    },
+    {
+      "batch": "2026-11-12-manual-holidays-fifteen",
+      "firstPublicationDateNY": "2026-11-12",
+      "firstPublishedAt": "2026-11-12T23:47:45.997Z",
+      "firstHttpsVerifiedAt": "2026-11-12T23:56:06.888Z",
+      "verificationCompletedDateNY": "2026-11-13",
+      "verificationCompletedAt": "2026-11-13T17:13:01.996Z",
+      "lateVerificationClosure": true,
+      "newOriginalsFirstPublishedOnCompletionDate": 0,
+      "publicationDayCohortUniqueOriginals": 22,
+      "continuation": {
+        "executionId": "6d30d380-2c3e-4d0c-b7c6-cebfaae5ae7d",
+        "sourceCommit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
+        "contractSha256": "67f2e6d09117e484aa3aa19683fd404974a1e327f1d13d18a11cdf457a16a9d5",
+        "createdAt": "2026-11-13T17:04:10.359532+00:00",
+        "originalLeaseUntil": "2026-11-13T03:37:58.238688+00:00",
+        "renewedPrivateLeaseUntil": "2026-11-13T19:04:10.359532+00:00",
+        "freshTodayCensus": {
+          "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/fresh-today-census.json",
+          "sha256": "7b6a52bc3a3a3005e7f33440e02c41ad8b9afcbdf9e441bc8e29f5aae34233ee"
+        },
+        "recoveryObservation": {
+          "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/recovery-observation.json",
+          "sha256": "4d934a2d6ac95baedd31ca2aa877f3c43336fa87395d2925b34394b070be7a43"
+        }
+      },
+      "topicIds": [
+        "vienna-new-year-2027",
+        "paris-new-year-2027",
+        "edinburgh-hogmanay-2027",
+        "madrid-new-year-2027",
+        "cape-town-new-year-2027",
+        "dubai-new-year-2027",
+        "las-vegas-new-year-2027",
+        "bangkok-new-year-2027",
+        "tokyo-new-year-2027",
+        "hong-kong-new-year-2027",
+        "christmas-vancouver",
+        "christmas-lisbon",
+        "christmas-hong-kong",
+        "christmas-seoul",
+        "christmas-los-angeles"
+      ],
+      "type": "explicit-manual-ten-new-year-five-christmas-originals",
+      "status": "published-verified",
+      "commit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
+      "publicVerification": "editorial/verification/2026-11-12-manual-holidays-fifteen-publication.json",
+      "countryPriorityOverrideForThisBatchOnly": true,
+      "priorSameDayVerifiedOriginals": 7,
+      "sameDayUniqueVerifiedOriginalsAfter": 22,
+      "note": "Latest explicit owner request authorizes ten additional New Year and five Christmas originals; usual daily two at noon Miami unchanged. All seven prior same-day topics, 31 batches, 26 receipts, 73 backlog entries and historical content preserved. Actual priority 79, capped 76/100, 24 missing; no Google demand or indexing claim."
     }
   ],
   "verifiedCoverageHistory": [
@@ -2041,6 +2120,137 @@
       "priorityOriginals": 75,
       "missingToInitial100": 25,
       "publicVerification": "editorial/verification/2026-11-12-publication.json"
+    },
+    {
+      "verifiedAt": "2026-11-12T20:15:31.051Z",
+      "countries": [
+        {
+          "countryId": "it",
+          "publishedOriginals": 20,
+          "localizedVersions": 40,
+          "targetOriginals": 30,
+          "targetCoveredOriginals": 20,
+          "missingOriginals": 10,
+          "aboveTargetOriginals": 0,
+          "articleIds": [
+            "amalfi-coast",
+            "bergamo",
+            "bologna",
+            "christmas-florence",
+            "christmas-milan",
+            "christmas-naples",
+            "christmas-rome",
+            "christmas-turin",
+            "christmas-venice",
+            "christmas-verona",
+            "florence",
+            "lucca",
+            "milan",
+            "padua",
+            "perugia",
+            "pisa",
+            "rome",
+            "siena",
+            "venice",
+            "verona"
+          ]
+        },
+        {
+          "countryId": "jp",
+          "publishedOriginals": 18,
+          "localizedVersions": 36,
+          "targetOriginals": 25,
+          "targetCoveredOriginals": 18,
+          "missingOriginals": 7,
+          "aboveTargetOriginals": 0,
+          "articleIds": [
+            "christmas-fukuoka",
+            "christmas-osaka",
+            "christmas-tokyo",
+            "christmas-yokohama",
+            "halloween-japan",
+            "himeji",
+            "hiroshima",
+            "kanazawa",
+            "kyoto",
+            "matsumoto",
+            "mount-fuji",
+            "nara",
+            "nara-day-trip-transport",
+            "nikko",
+            "osaka",
+            "sapporo",
+            "takayama",
+            "tokyo"
+          ]
+        },
+        {
+          "countryId": "mx",
+          "publishedOriginals": 17,
+          "localizedVersions": 34,
+          "targetOriginals": 25,
+          "targetCoveredOriginals": 17,
+          "missingOriginals": 8,
+          "aboveTargetOriginals": 0,
+          "articleIds": [
+            "cancun",
+            "guanajuato",
+            "leon-guanajuato",
+            "los-cabos",
+            "mexico-city",
+            "morelia",
+            "muertos-merida",
+            "muertos-mexico-city",
+            "muertos-mixquic",
+            "muertos-oaxaca",
+            "muertos-puebla",
+            "oaxaca",
+            "patzcuaro",
+            "puebla",
+            "queretaro",
+            "riviera-maya",
+            "san-miguel-de-allende"
+          ]
+        },
+        {
+          "countryId": "us",
+          "publishedOriginals": 21,
+          "localizedVersions": 42,
+          "targetOriginals": 20,
+          "targetCoveredOriginals": 20,
+          "missingOriginals": 0,
+          "aboveTargetOriginals": 1,
+          "articleIds": [
+            "buffalo",
+            "christmas-boston",
+            "christmas-chicago",
+            "christmas-miami",
+            "christmas-new-york",
+            "christmas-philadelphia",
+            "christmas-san-francisco",
+            "columbus",
+            "greenville-sc",
+            "halloween-usa",
+            "hawaii",
+            "hilo",
+            "las-vegas",
+            "los-angeles",
+            "miami",
+            "new-orleans",
+            "new-york",
+            "new-york-new-year-2027",
+            "orlando",
+            "san-diego",
+            "washington-dc"
+          ]
+        }
+      ],
+      "priorityOriginals": 76,
+      "targetCoveredOriginals": 75,
+      "aboveTargetOriginals": 1,
+      "missingToInitial100": 25,
+      "publicVerification": "editorial/verification/2026-11-12-manual-new-year-five-publication.json",
+      "coverageNote": "Targets capped by country: actual76priorityoriginals cover75of100targetslots, leaving25country-specific gaps. US21/20 contributes only20targetslots."
     }
   ]
 }

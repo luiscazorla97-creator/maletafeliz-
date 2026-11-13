@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-13T17:13:01.996Z",
+  "verifiedAt": "2026-11-13T20:01:11.641Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 215,
-  "localizations": 430,
+  "originals": 220,
+  "localizations": 440,
   "photos": 923,
-  "httpChecks": 968,
+  "httpChecks": 978,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "0ce50bf5-1be8-4b26-8c4f-341585c17551",
-      "commit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
+      "deploymentId": "dbc3f8c8-8a8d-4495-9cc0-6a8f3d672996",
+      "commit": "bff45b36eeb2ec5501195360ac91385e47d8a5cc",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "e729ca81-08d0-42be-a57d-1c0f2df60e77",
-      "commit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
+      "deploymentId": "daaab28c-4423-445b-9065-3c5e5c30007e",
+      "commit": "bff45b36eeb2ec5501195360ac91385e47d8a5cc",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,25 +45,21 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 1057,
-  "latestBatch": "2026-11-12-manual-holidays-fifteen",
-  "verificationFile": "editorial/verification/2026-11-12-manual-holidays-fifteen-publication.json",
+  "citedSourceDocuments": 1081,
+  "latestBatch": "2026-11-13-manual-seo-five",
+  "verificationFile": "editorial/verification/2026-11-13-manual-seo-five-publication.json",
   "httpCheckBreakdown": {
-    "siteAndRedirects": 968,
-    "batchActualHttpsRequests": 391,
-    "batchHttpsAuditRecords": 389,
-    "browserCombinations": 4,
-    "browserFlows": 60,
-    "browserFirstPartyResourceRequests": 196,
-    "note": "Whole-sitemap HTTPS, selectedphoto/search/redirect records and browserresource requests are separate scopes, not unique visitors or authenticated Google crawls.",
-    "allSitemapHtmlPages": 958,
-    "allLocalizedGuideHtmlPages": 430
+    "siteAndRedirects": 978,
+    "allSitemapHtmlPages": 968,
+    "allLocalizedGuideHtmlPages": 440,
+    "localProductionBrowserTests": 50,
+    "note": "Read-only whole-sitemap verification, at most two concurrent requests; no Google indexing claim."
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-12-manual-holidays-fifteen-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-13T17:13:01.996Z",
+  "latestDeploymentVerification": "editorial/verification/2026-11-13-manual-seo-five-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-13T19:59:25.672Z",
   "photoCoverage": {
-    "originalRecommendations": 924,
-    "localizedRecommendations": 1848,
+    "originalRecommendations": 937,
+    "localizedRecommendations": 1874,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -138,29 +134,26 @@
       "mx",
       "us"
     ],
-    "priorityOriginals": 79,
+    "priorityOriginals": 84,
     "initialTargetOriginals": 100,
-    "remainingOriginals": 24,
-    "verification": "editorial/verification/2026-11-12-manual-holidays-fifteen-publication.json",
-    "targetCoveredOriginals": 76,
-    "aboveTargetOriginals": 3,
-    "note": "Actual 79 priority originals; country-capped coverage 76/100, with 24 still missing. The three US excess guides do not replace missing guides in other priority countries."
+    "remainingOriginals": 19,
+    "verification": "editorial/verification/2026-11-13-manual-seo-five-publication.json",
+    "targetCoveredOriginals": 81,
+    "aboveTargetOriginals": 3
   },
   "technicalIndexability": {
-    "verifiedAt": "2026-11-11T18:10:44.807Z",
-    "verificationFile": "editorial/verification/2026-11-11-seo-audit.json",
-    "sourceCommit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
-    "sitemapUrls": 910,
-    "httpUrlsChecked": 910,
-    "localizedGuidesCheckedInHtml": 386,
+    "verifiedAt": "2026-11-13T20:01:11.641Z",
+    "verificationFile": "editorial/verification/2026-11-13-manual-seo-five-publication.json",
+    "sourceCommit": "bff45b36eeb2ec5501195360ac91385e47d8a5cc",
+    "sitemapUrls": 968,
+    "httpUrlsChecked": 968,
+    "localizedGuidesCheckedInHtml": 440,
     "allSitemapPagesReachableThroughHtml": true,
-    "unreachableSitemapPages": 0,
     "maximumGuideClickDepth": 2,
     "duplicateTitlesWithinLocale": 0,
-    "newArticles": 0,
-    "newLocalizations": 0,
-    "googleIndexationVerified": false,
-    "scope": "Every current sitemap URL received a normal HTTPS HTML/indexability check, including every Spanish and English guide. Technical eligibility does not establish Google crawling, indexing, impressions or rankings."
+    "newArticles": 5,
+    "newLocalizations": 10,
+    "googleIndexationVerified": false
   },
   "mobilePerformance": {
     "verifiedAt": "2026-11-10T00:27:13.086746+00:00",
@@ -223,72 +216,42 @@
       "unreachableSitemapPages": 0,
       "maximumGuideClickDepth": 2,
       "googleIndexationVerified": false
+    },
+    {
+      "verifiedAt": "2026-11-11T18:10:44.807Z",
+      "verificationFile": "editorial/verification/2026-11-11-seo-audit.json",
+      "sourceCommit": "24ea29a5f711cfddedbc2de0a74281d5fce576e3",
+      "sitemapUrls": 910,
+      "httpUrlsChecked": 910,
+      "localizedGuidesCheckedInHtml": 386,
+      "allSitemapPagesReachableThroughHtml": true,
+      "unreachableSitemapPages": 0,
+      "maximumGuideClickDepth": 2,
+      "duplicateTitlesWithinLocale": 0,
+      "newArticles": 0,
+      "newLocalizations": 0,
+      "googleIndexationVerified": false,
+      "scope": "Every current sitemap URL received a normal HTTPS HTML/indexability check, including every Spanish and English guide. Technical eligibility does not establish Google crawling, indexing, impressions or rankings."
     }
   ],
   "latestFullSitePublicationVerification": {
-    "verifiedAt": "2026-11-13T17:13:01.996Z",
-    "sourceCommit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
-    "verificationFile": "editorial/verification/2026-11-12-manual-holidays-fifteen-publication.json",
-    "sitemapUrls": 958,
-    "localizedGuideHtmlPages": 430,
+    "verifiedAt": "2026-11-13T20:01:11.641Z",
+    "verificationFile": "editorial/verification/2026-11-13-manual-seo-five-publication.json",
+    "sourceCommit": "bff45b36eeb2ec5501195360ac91385e47d8a5cc",
+    "sitemapUrls": 968,
+    "httpUrlsChecked": 968,
+    "localizedGuidesCheckedInHtml": 440,
     "allSitemapPagesReachableThroughHtml": true,
     "maximumGuideClickDepth": 2,
     "duplicateTitlesWithinLocale": 0,
-    "metadataMatchesRelease": true,
-    "seoConfigurationChanges": false,
-    "minimalRendererSourceFixes": [
-      {
-        "file": "src/components/TravelGlobe.astro",
-        "beforeSha256": "8c05d6f0806bd6026e2b8f6eadce901b99e2dd5abc6fe88a34862538066b6bfd",
-        "afterSha256": "f2bae123f4457871779df5f8aee148cc0c35922e14de1975ec91aba14f004e63",
-        "reason": "Retain the original city showcase guide, AVIF sources and 3D hero appearance as specialized holiday guides are added.",
-        "reviewEvidence": [
-          {
-            "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/fixes/applied-source-correction-review.json",
-            "sha256": "2ae87769161d496db7ba077262cb8338aa14933469019a46a4551f2f47ec7822"
-          }
-        ]
-      },
-      {
-        "file": "src/pages/[lang]/[season].astro",
-        "beforeSha256": "ab8f8c8a62e24182f33046fd153db77ec3a94e3bfbdaab6563bc61a7435d46c2",
-        "afterSha256": "39de31101c0485431fae0846ae308fd6647fb8e3e0fa04a975d7984b6e629091",
-        "reason": "Include all published seasonal countries in crawlable cards through the existing grid; keep six existing groups unchanged.",
-        "reviewEvidence": [
-          {
-            "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/fixes/applied-source-correction-review.json",
-            "sha256": "2ae87769161d496db7ba077262cb8338aa14933469019a46a4551f2f47ec7822"
-          }
-        ]
-      }
-    ],
-    "googleIndexationVerified": false,
-    "scope": "Ten additional manual New Year and five Christmas originals, 30 versions, existing city destinations; prior daily batch/history preserved."
+    "newArticles": 5,
+    "newLocalizations": 10,
+    "googleIndexationVerified": false
   },
   "latestBatchVerificationClosure": {
-    "firstPublicationDateNY": "2026-11-12",
-    "firstPublishedAt": "2026-11-12T23:47:45.997Z",
-    "firstHttpsVerifiedAt": "2026-11-12T23:56:06.888Z",
-    "verificationCompletedDateNY": "2026-11-13",
-    "verificationCompletedAt": "2026-11-13T17:13:01.996Z",
-    "lateVerificationClosure": true,
-    "newOriginalsFirstPublishedOnCompletionDate": 0,
-    "publicationDayCohortUniqueOriginals": 22,
-    "continuation": {
-      "executionId": "6d30d380-2c3e-4d0c-b7c6-cebfaae5ae7d",
-      "sourceCommit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
-      "contractSha256": "67f2e6d09117e484aa3aa19683fd404974a1e327f1d13d18a11cdf457a16a9d5",
-      "createdAt": "2026-11-13T17:04:10.359532+00:00",
-      "originalLeaseUntil": "2026-11-13T03:37:58.238688+00:00",
-      "renewedPrivateLeaseUntil": "2026-11-13T19:04:10.359532+00:00",
-      "freshTodayCensus": {
-        "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/fresh-today-census.json",
-        "sha256": "7b6a52bc3a3a3005e7f33440e02c41ad8b9afcbdf9e441bc8e29f5aae34233ee"
-      },
-      "recoveryObservation": {
-        "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/recovery-observation.json",
-        "sha256": "4d934a2d6ac95baedd31ca2aa877f3c43336fa87395d2925b34394b070be7a43"
-      }
-    }
+    "verificationCompletedAt": "2026-11-13T20:01:11.641Z",
+    "lateVerificationClosure": false,
+    "newOriginalsFirstPublishedOnCompletionDate": 5,
+    "dailyReservationUnchanged": true
   }
 }

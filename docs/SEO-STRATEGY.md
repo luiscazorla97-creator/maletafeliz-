@@ -121,3 +121,8 @@ Cobertura prioritaria: Italia 20/30, Japón 18/25, México 17/25 y Estados Unido
 Quince necesidades estacionales distintas: diez guías de Año Nuevo y cinco nuevas de Navidad. Se conserva cada destino existente y se incorporan treinta URLs ES/EN a enlaces HTML, búsqueda y sitemap. No se publican cifras de búsquedas ni rankings sin medición. La orden manual no cambia la frecuencia diaria ni las siete publicaciones previamente verificadas el 12 de noviembre. Las quince guías se publicaron el día 12; el cierre de verificación del día 13 no cuenta como quince originales nuevos de ese día.
 
 Cobertura prioritaria: Italia 20/30, Japón 19/25, México 17/25 y Estados Unidos 23/20. Los 79 originales reales cubren 76 de 100 objetivos al limitar cada país a su meta; faltan 24 objetivos específicos y sobran tres en Estados Unidos. Esos tres excesos no sustituyen guías italianas, japonesas o mexicanas. Se conservan 73 registros del backlog e historias anteriores. Evidencia: `editorial/verification/2026-11-12-manual-holidays-fifteen-publication.json`.
+
+
+## Cinco guías prácticas extensas: 13 de noviembre de 2026
+
+Coliseo/Foro, Uffizi y vaporetto desarrollan tres consultas especializadas del backlog; Higashiyama y Chapultepec añaden itinerarios por zona con decisiones de tiempo, acceso y visitas. Se mantienen las guías generales y sus URLs. Cobertura verificada: Italia 23/30, Japón 20/25, México 18/25 y Estados Unidos 23/20; 84 originales prioritarios y cobertura limitada por país de 81/100, con 19 pendientes. Las cinco publicaciones manuales no alteran la reserva diaria ni la programación. Evidencia: `editorial/verification/2026-11-13-manual-seo-five-publication.json`.

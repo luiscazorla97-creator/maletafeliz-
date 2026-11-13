@@ -136,14 +136,22 @@
       },
       "type": "attraction",
       "intent": "rome-colosseum-visit",
-      "status": "candidate-not-researched",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
       "evidenceStatus": "not-yet-approved",
       "existingCoverageIds": [
         "rome",
         "christmas-rome"
       ],
-      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
+      "statusHistory": [
+        {
+          "status": "candidate-not-researched",
+          "supersededAt": "2026-11-13T20:01:11.641Z"
+        }
+      ],
+      "publishedArticleId": "rome-colosseum-visit",
+      "publicVerification": "editorial/verification/2026-11-13-manual-seo-five-publication.json"
     },
     {
       "id": "rome-city-pass-comparison",
@@ -194,13 +202,21 @@
       },
       "type": "transport",
       "intent": "venice-vaporetto",
-      "status": "candidate-not-researched",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
       "evidenceStatus": "not-yet-approved",
       "existingCoverageIds": [
         "venice"
       ],
-      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
+      "statusHistory": [
+        {
+          "status": "candidate-not-researched",
+          "supersededAt": "2026-11-13T20:01:11.641Z"
+        }
+      ],
+      "publishedArticleId": "venice-vaporetto",
+      "publicVerification": "editorial/verification/2026-11-13-manual-seo-five-publication.json"
     },
     {
       "id": "venice-airport-transfer",
@@ -305,14 +321,22 @@
       },
       "type": "attraction",
       "intent": "florence-uffizi",
-      "status": "candidate-not-researched",
+      "status": "published-verified",
       "requiresUsefulnessReview": true,
       "evidenceStatus": "not-yet-approved",
       "existingCoverageIds": [
         "florence",
         "christmas-florence"
       ],
-      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content."
+      "differentiationRequired": "Compare the existing guides and their itinerary/FAQ coverage before promoting this candidate; develop a distinct useful query or replace it. Not commissioned, researched or approved content.",
+      "statusHistory": [
+        {
+          "status": "candidate-not-researched",
+          "supersededAt": "2026-11-13T20:01:11.641Z"
+        }
+      ],
+      "publishedArticleId": "florence-uffizi",
+      "publicVerification": "editorial/verification/2026-11-13-manual-seo-five-publication.json"
     },
     {
       "id": "florence-accademia",
@@ -1391,39 +1415,15 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-13T17:13:01.996Z",
-    "firstPublicationDateNY": "2026-11-12",
-    "firstPublishedAt": "2026-11-12T23:47:45.997Z",
-    "firstHttpsVerifiedAt": "2026-11-12T23:56:06.888Z",
-    "verificationCompletedDateNY": "2026-11-13",
-    "verificationCompletedAt": "2026-11-13T17:13:01.996Z",
-    "lateVerificationClosure": true,
-    "newOriginalsFirstPublishedOnCompletionDate": 0,
-    "publicationDayCohortUniqueOriginals": 22,
-    "continuation": {
-      "executionId": "6d30d380-2c3e-4d0c-b7c6-cebfaae5ae7d",
-      "sourceCommit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
-      "contractSha256": "67f2e6d09117e484aa3aa19683fd404974a1e327f1d13d18a11cdf457a16a9d5",
-      "createdAt": "2026-11-13T17:04:10.359532+00:00",
-      "originalLeaseUntil": "2026-11-13T03:37:58.238688+00:00",
-      "renewedPrivateLeaseUntil": "2026-11-13T19:04:10.359532+00:00",
-      "freshTodayCensus": {
-        "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/fresh-today-census.json",
-        "sha256": "7b6a52bc3a3a3005e7f33440e02c41ad8b9afcbdf9e441bc8e29f5aae34233ee"
-      },
-      "recoveryObservation": {
-        "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/recovery-observation.json",
-        "sha256": "4d934a2d6ac95baedd31ca2aa877f3c43336fa87395d2925b34394b070be7a43"
-      }
-    },
+    "verifiedAt": "2026-11-13T20:01:11.641Z",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 20,
-        "localizedVersions": 40,
+        "publishedOriginals": 23,
+        "localizedVersions": 46,
         "targetOriginals": 30,
-        "targetCoveredOriginals": 20,
-        "missingOriginals": 10,
+        "targetCoveredOriginals": 23,
+        "missingOriginals": 7,
         "aboveTargetOriginals": 0,
         "articleIds": [
           "amalfi-coast",
@@ -1437,24 +1437,27 @@
           "christmas-venice",
           "christmas-verona",
           "florence",
+          "florence-uffizi",
           "lucca",
           "milan",
           "padua",
           "perugia",
           "pisa",
           "rome",
+          "rome-colosseum-visit",
           "siena",
           "venice",
+          "venice-vaporetto",
           "verona"
         ]
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 19,
-        "localizedVersions": 38,
+        "publishedOriginals": 20,
+        "localizedVersions": 40,
         "targetOriginals": 25,
-        "targetCoveredOriginals": 19,
-        "missingOriginals": 6,
+        "targetCoveredOriginals": 20,
+        "missingOriginals": 5,
         "aboveTargetOriginals": 0,
         "articleIds": [
           "christmas-fukuoka",
@@ -1466,6 +1469,7 @@
           "hiroshima",
           "kanazawa",
           "kyoto",
+          "kyoto-higashiyama-walk",
           "matsumoto",
           "mount-fuji",
           "nara",
@@ -1480,14 +1484,15 @@
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 17,
-        "localizedVersions": 34,
+        "publishedOriginals": 18,
+        "localizedVersions": 36,
         "targetOriginals": 25,
-        "targetCoveredOriginals": 17,
-        "missingOriginals": 8,
+        "targetCoveredOriginals": 18,
+        "missingOriginals": 7,
         "aboveTargetOriginals": 0,
         "articleIds": [
           "cancun",
+          "chapultepec-museums-day",
           "guanajuato",
           "leon-guanajuato",
           "los-cabos",
@@ -1541,12 +1546,11 @@
         ]
       }
     ],
-    "priorityOriginals": 79,
-    "targetCoveredOriginals": 76,
+    "priorityOriginals": 84,
+    "targetCoveredOriginals": 81,
     "aboveTargetOriginals": 3,
-    "missingToInitial100": 24,
-    "publicVerification": "editorial/verification/2026-11-12-manual-holidays-fifteen-publication.json",
-    "coverageNote": "Targets capped by country: actual 79 priority originals cover 76 of 100 target slots, leaving 24 country-specific gaps. US 23/20 contributes only 20 target slots."
+    "missingToInitial100": 19,
+    "publicVerification": "editorial/verification/2026-11-13-manual-seo-five-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1763,6 +1767,22 @@
       "priorSameDayVerifiedOriginals": 7,
       "sameDayUniqueVerifiedOriginalsAfter": 22,
       "note": "Latest explicit owner request authorizes ten additional New Year and five Christmas originals; usual daily two at noon Miami unchanged. All seven prior same-day topics, 31 batches, 26 receipts, 73 backlog entries and historical content preserved. Actual priority 79, capped 76/100, 24 missing; no Google demand or indexing claim."
+    },
+    {
+      "batch": "2026-11-13-manual-seo-five",
+      "topicIds": [
+        "rome-colosseum-visit",
+        "florence-uffizi",
+        "venice-vaporetto",
+        "kyoto-higashiyama-walk",
+        "chapultepec-museums-day"
+      ],
+      "type": "explicit-manual-five-extensive-seo-originals",
+      "status": "published-verified",
+      "commit": "bff45b36eeb2ec5501195360ac91385e47d8a5cc",
+      "publicVerification": "editorial/verification/2026-11-13-manual-seo-five-publication.json",
+      "verifiedAt": "2026-11-13T20:01:11.641Z",
+      "note": "Five new planning intents; three backlog candidates fulfilled, Higashiyama walk and Chapultepec combined museum day separately scoped. Existing daily two-topic reservation and noon-Miami schedule unchanged; no Google volume or ranking claims."
     }
   ],
   "verifiedCoverageHistory": [
@@ -2251,6 +2271,302 @@
       "missingToInitial100": 25,
       "publicVerification": "editorial/verification/2026-11-12-manual-new-year-five-publication.json",
       "coverageNote": "Targets capped by country: actual76priorityoriginals cover75of100targetslots, leaving25country-specific gaps. US21/20 contributes only20targetslots."
+    },
+    {
+      "verifiedAt": "2026-11-13T17:13:01.996Z",
+      "firstPublicationDateNY": "2026-11-12",
+      "firstPublishedAt": "2026-11-12T23:47:45.997Z",
+      "firstHttpsVerifiedAt": "2026-11-12T23:56:06.888Z",
+      "verificationCompletedDateNY": "2026-11-13",
+      "verificationCompletedAt": "2026-11-13T17:13:01.996Z",
+      "lateVerificationClosure": true,
+      "newOriginalsFirstPublishedOnCompletionDate": 0,
+      "publicationDayCohortUniqueOriginals": 22,
+      "continuation": {
+        "executionId": "6d30d380-2c3e-4d0c-b7c6-cebfaae5ae7d",
+        "sourceCommit": "e98a2d6a8660f845758f52c5d8e11a83a7daf911",
+        "contractSha256": "67f2e6d09117e484aa3aa19683fd404974a1e327f1d13d18a11cdf457a16a9d5",
+        "createdAt": "2026-11-13T17:04:10.359532+00:00",
+        "originalLeaseUntil": "2026-11-13T03:37:58.238688+00:00",
+        "renewedPrivateLeaseUntil": "2026-11-13T19:04:10.359532+00:00",
+        "freshTodayCensus": {
+          "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/fresh-today-census.json",
+          "sha256": "7b6a52bc3a3a3005e7f33440e02c41ad8b9afcbdf9e441bc8e29f5aae34233ee"
+        },
+        "recoveryObservation": {
+          "file": "/workspace/artifacts/maletafeliz-manual-holidays-fifteen-n12/continuation-n13/recovery-observation.json",
+          "sha256": "4d934a2d6ac95baedd31ca2aa877f3c43336fa87395d2925b34394b070be7a43"
+        }
+      },
+      "countries": [
+        {
+          "countryId": "it",
+          "publishedOriginals": 20,
+          "localizedVersions": 40,
+          "targetOriginals": 30,
+          "targetCoveredOriginals": 20,
+          "missingOriginals": 10,
+          "aboveTargetOriginals": 0,
+          "articleIds": [
+            "amalfi-coast",
+            "bergamo",
+            "bologna",
+            "christmas-florence",
+            "christmas-milan",
+            "christmas-naples",
+            "christmas-rome",
+            "christmas-turin",
+            "christmas-venice",
+            "christmas-verona",
+            "florence",
+            "lucca",
+            "milan",
+            "padua",
+            "perugia",
+            "pisa",
+            "rome",
+            "siena",
+            "venice",
+            "verona"
+          ]
+        },
+        {
+          "countryId": "jp",
+          "publishedOriginals": 19,
+          "localizedVersions": 38,
+          "targetOriginals": 25,
+          "targetCoveredOriginals": 19,
+          "missingOriginals": 6,
+          "aboveTargetOriginals": 0,
+          "articleIds": [
+            "christmas-fukuoka",
+            "christmas-osaka",
+            "christmas-tokyo",
+            "christmas-yokohama",
+            "halloween-japan",
+            "himeji",
+            "hiroshima",
+            "kanazawa",
+            "kyoto",
+            "matsumoto",
+            "mount-fuji",
+            "nara",
+            "nara-day-trip-transport",
+            "nikko",
+            "osaka",
+            "sapporo",
+            "takayama",
+            "tokyo",
+            "tokyo-new-year-2027"
+          ]
+        },
+        {
+          "countryId": "mx",
+          "publishedOriginals": 17,
+          "localizedVersions": 34,
+          "targetOriginals": 25,
+          "targetCoveredOriginals": 17,
+          "missingOriginals": 8,
+          "aboveTargetOriginals": 0,
+          "articleIds": [
+            "cancun",
+            "guanajuato",
+            "leon-guanajuato",
+            "los-cabos",
+            "mexico-city",
+            "morelia",
+            "muertos-merida",
+            "muertos-mexico-city",
+            "muertos-mixquic",
+            "muertos-oaxaca",
+            "muertos-puebla",
+            "oaxaca",
+            "patzcuaro",
+            "puebla",
+            "queretaro",
+            "riviera-maya",
+            "san-miguel-de-allende"
+          ]
+        },
+        {
+          "countryId": "us",
+          "publishedOriginals": 23,
+          "localizedVersions": 46,
+          "targetOriginals": 20,
+          "targetCoveredOriginals": 20,
+          "missingOriginals": 0,
+          "aboveTargetOriginals": 3,
+          "articleIds": [
+            "buffalo",
+            "christmas-boston",
+            "christmas-chicago",
+            "christmas-los-angeles",
+            "christmas-miami",
+            "christmas-new-york",
+            "christmas-philadelphia",
+            "christmas-san-francisco",
+            "columbus",
+            "greenville-sc",
+            "halloween-usa",
+            "hawaii",
+            "hilo",
+            "las-vegas",
+            "las-vegas-new-year-2027",
+            "los-angeles",
+            "miami",
+            "new-orleans",
+            "new-york",
+            "new-york-new-year-2027",
+            "orlando",
+            "san-diego",
+            "washington-dc"
+          ]
+        }
+      ],
+      "priorityOriginals": 79,
+      "targetCoveredOriginals": 76,
+      "aboveTargetOriginals": 3,
+      "missingToInitial100": 24,
+      "publicVerification": "editorial/verification/2026-11-12-manual-holidays-fifteen-publication.json",
+      "coverageNote": "Targets capped by country: actual 79 priority originals cover 76 of 100 target slots, leaving 24 country-specific gaps. US 23/20 contributes only 20 target slots."
+    },
+    {
+      "verifiedAt": "2026-11-13T20:01:11.641Z",
+      "countries": [
+        {
+          "countryId": "it",
+          "publishedOriginals": 23,
+          "localizedVersions": 46,
+          "targetOriginals": 30,
+          "targetCoveredOriginals": 23,
+          "missingOriginals": 7,
+          "aboveTargetOriginals": 0,
+          "articleIds": [
+            "amalfi-coast",
+            "bergamo",
+            "bologna",
+            "christmas-florence",
+            "christmas-milan",
+            "christmas-naples",
+            "christmas-rome",
+            "christmas-turin",
+            "christmas-venice",
+            "christmas-verona",
+            "florence",
+            "florence-uffizi",
+            "lucca",
+            "milan",
+            "padua",
+            "perugia",
+            "pisa",
+            "rome",
+            "rome-colosseum-visit",
+            "siena",
+            "venice",
+            "venice-vaporetto",
+            "verona"
+          ]
+        },
+        {
+          "countryId": "jp",
+          "publishedOriginals": 20,
+          "localizedVersions": 40,
+          "targetOriginals": 25,
+          "targetCoveredOriginals": 20,
+          "missingOriginals": 5,
+          "aboveTargetOriginals": 0,
+          "articleIds": [
+            "christmas-fukuoka",
+            "christmas-osaka",
+            "christmas-tokyo",
+            "christmas-yokohama",
+            "halloween-japan",
+            "himeji",
+            "hiroshima",
+            "kanazawa",
+            "kyoto",
+            "kyoto-higashiyama-walk",
+            "matsumoto",
+            "mount-fuji",
+            "nara",
+            "nara-day-trip-transport",
+            "nikko",
+            "osaka",
+            "sapporo",
+            "takayama",
+            "tokyo",
+            "tokyo-new-year-2027"
+          ]
+        },
+        {
+          "countryId": "mx",
+          "publishedOriginals": 18,
+          "localizedVersions": 36,
+          "targetOriginals": 25,
+          "targetCoveredOriginals": 18,
+          "missingOriginals": 7,
+          "aboveTargetOriginals": 0,
+          "articleIds": [
+            "cancun",
+            "chapultepec-museums-day",
+            "guanajuato",
+            "leon-guanajuato",
+            "los-cabos",
+            "mexico-city",
+            "morelia",
+            "muertos-merida",
+            "muertos-mexico-city",
+            "muertos-mixquic",
+            "muertos-oaxaca",
+            "muertos-puebla",
+            "oaxaca",
+            "patzcuaro",
+            "puebla",
+            "queretaro",
+            "riviera-maya",
+            "san-miguel-de-allende"
+          ]
+        },
+        {
+          "countryId": "us",
+          "publishedOriginals": 23,
+          "localizedVersions": 46,
+          "targetOriginals": 20,
+          "targetCoveredOriginals": 20,
+          "missingOriginals": 0,
+          "aboveTargetOriginals": 3,
+          "articleIds": [
+            "buffalo",
+            "christmas-boston",
+            "christmas-chicago",
+            "christmas-los-angeles",
+            "christmas-miami",
+            "christmas-new-york",
+            "christmas-philadelphia",
+            "christmas-san-francisco",
+            "columbus",
+            "greenville-sc",
+            "halloween-usa",
+            "hawaii",
+            "hilo",
+            "las-vegas",
+            "las-vegas-new-year-2027",
+            "los-angeles",
+            "miami",
+            "new-orleans",
+            "new-york",
+            "new-york-new-year-2027",
+            "orlando",
+            "san-diego",
+            "washington-dc"
+          ]
+        }
+      ],
+      "priorityOriginals": 84,
+      "targetCoveredOriginals": 81,
+      "aboveTargetOriginals": 3,
+      "missingToInitial100": 19,
+      "publicVerification": "editorial/verification/2026-11-13-manual-seo-five-publication.json"
     }
   ]
 }

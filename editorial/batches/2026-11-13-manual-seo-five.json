@@ -2,7 +2,7 @@
   "id": "2026-11-13-manual-seo-five",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-13T19:15:33.191306+00:00",
-  "status": "validated-awaiting-deployment",
+  "status": "published",
   "topicIds": [
     "rome-colosseum-visit",
     "florence-uffizi",
@@ -11,16 +11,44 @@
     "chapultepec-museums-day"
   ],
   "requestedCount": 5,
-  "publishedCount": 0,
+  "publishedCount": 5,
   "authorization": "Explicit current user request to publish five new extensive SEO articles on maletafeliz.com. Additional manual batch; preserve daily reservation and frequency.",
-  "errors": [
+  "errors": [],
+  "approvedCount": 5,
+  "selectedLocalizedVersions": 10,
+  "validatedAt": "2026-11-13T19:46:31.622350+00:00",
+  "researchLimitations": [
     {
       "source": "colosseo.it",
       "status": 503,
       "note": "Direct source fetch failed; finding accessible official evidence."
     }
   ],
-  "approvedCount": 5,
-  "selectedLocalizedVersions": 10,
-  "validatedAt": "2026-11-13T19:46:31.622350+00:00"
+  "publishedLocalizations": 10,
+  "verifiedAt": "2026-11-13T20:01:11.641Z",
+  "sourceCommit": "bff45b36eeb2ec5501195360ac91385e47d8a5cc",
+  "publicationVerification": "editorial/verification/2026-11-13-manual-seo-five-publication.json",
+  "publicUrls": {
+    "venice-vaporetto": {
+      "es": "https://maletafeliz.com/es/guias/vaporetto-venecia-billetes-abonos-como-usarlo/",
+      "en": "https://maletafeliz.com/en/guides/venice-vaporetto-tickets-passes-guide/"
+    },
+    "kyoto-higashiyama-walk": {
+      "es": "https://maletafeliz.com/es/guias/higashiyama-ruta-pie-kiyomizudera-gion-kioto/",
+      "en": "https://maletafeliz.com/en/guides/higashiyama-walk-kiyomizudera-gion-kyoto/"
+    },
+    "florence-uffizi": {
+      "es": "https://maletafeliz.com/es/guias/visitar-uffizi-entradas-obras-consejos/",
+      "en": "https://maletafeliz.com/en/guides/visiting-uffizi-tickets-art-planning/"
+    },
+    "rome-colosseum-visit": {
+      "es": "https://maletafeliz.com/es/guias/visitar-coliseo-foro-romano-entradas-recorrido/",
+      "en": "https://maletafeliz.com/en/guides/colosseum-roman-forum-tickets-visit/"
+    },
+    "chapultepec-museums-day": {
+      "es": "https://maletafeliz.com/es/guias/chapultepec-un-dia-castillo-antropologia-bosque/",
+      "en": "https://maletafeliz.com/en/guides/chapultepec-one-day-castle-anthropology-park/"
+    }
+  },
+  "deploymentVerifiedAt": "2026-11-13T19:59:25.672Z"
 }

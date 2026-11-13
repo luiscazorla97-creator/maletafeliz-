@@ -388,7 +388,7 @@
       ]
     },
     "releaseGate": "passed: npm run build:release, 974 pages",
-    "productionVerified": false,
+    "productionVerified": true,
     "newArticleVisualQA": [
       {
         "id": "rome-colosseum-visit",
@@ -472,6 +472,8 @@
     "productionBrowserTests": {
       "passed": 50,
       "scope": "All ten new versions on desktop/mobile, country hubs, global HTML metadata, robots, sitemap, language alternates and crawlable directories."
-    }
+    },
+    "productionVerifiedAt": "2026-11-13T20:01:11.641Z",
+    "publicVerification": "editorial/verification/2026-11-13-manual-seo-five-publication.json"
   }
 }

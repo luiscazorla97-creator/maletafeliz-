@@ -1,0 +1,212 @@
+{
+  "id": "venice-vaporetto",
+  "destinationId": "venice",
+  "locale": "es",
+  "slug": "vaporetto-venecia-billetes-abonos-como-usarlo",
+  "title": "Vaporetto en Venecia: billetes, abonos y cómo usarlo",
+  "description": "Aprendé a usar el vaporetto en Venecia: precios verificados, cuándo conviene un abono, validación, embarcaderos, equipaje y conexiones por el Gran Canal.",
+  "keyword": "vaporetto en Venecia",
+  "relatedQueries": [
+    "billetes vaporetto Venecia",
+    "abono transporte Venecia",
+    "cómo validar billete ACTV"
+  ],
+  "intent": "venice-vaporetto-practical-planning",
+  "status": "published",
+  "coverImageId": "newten-venice-rialto",
+  "intro": [
+    "El vaporetto es una herramienta para moverte por Venecia, pero usarlo bien exige algo más que subir a cualquier barco. Hay que identificar el operador, el embarcadero, el sentido de la línea y el billete válido para ese trayecto. Entender esas cuatro cosas te permite aprovechar el transporte sin perder tiempo en colas equivocadas ni pagar un abono que apenas vas a usar.",
+    "Esta guía explica la red urbana de AVM/ACTV y propone dos referencias para orientarte: Rialto y el entorno de San Marcos. No es un horario en tiempo real. Los precios citados se comprobaron en la página oficial el 13 de noviembre de 2026; consultá esa misma fuente antes de comprar, porque tarifas, condiciones y servicios pueden cambiar."
+  ],
+  "quickFacts": [
+    {
+      "label": "Operador tratado",
+      "value": "AVM/ACTV, transporte público urbano"
+    },
+    {
+      "label": "Billete de referencia",
+      "value": "Rete Unica de 75 minutos: 9,50 € en la consulta"
+    },
+    {
+      "label": "Abonos",
+      "value": "24, 48, 72 y 168 horas según producto"
+    },
+    {
+      "label": "Regla esencial",
+      "value": "Validar al comenzar y al cambiar de servicio"
+    }
+  ],
+  "sections": [
+    {
+      "id": "billetes",
+      "kind": "practical",
+      "heading": "Billete de 75 minutos o abono: comparar viajes reales",
+      "paragraphs": [
+        "La tarifa oficial consultada publica 9,50 € para el billete estándar Rete Unica de 75 minutos, 25 € para el Venezia Daily Pass de 24 horas, 35 € para 48 horas, 45 € para 72 horas y 65 € para siete días. No confundas el billete de navegación con el billete terrestre de 1,50 € que aparece en la misma página: son productos distintos y no ofrecen idéntica cobertura.",
+        "Compará ventanas de uso, no solo trayectos dibujados en el mapa. Dos billetes separados de 9,50 € suman 19 €; tres suman 28,50 €, por encima del abono de 24 horas de 25 €. Esa cuenta orienta si realmente necesitás tres billetes distintos dentro de veinticuatro horas. Si varios transbordos quedan cubiertos por un mismo billete temporal, la comparación cambia. No compres viajes por anticipado solo para justificar un pase."
+      ],
+      "sourceIds": [
+        "r13-ven-tickets"
+      ]
+    },
+    {
+      "id": "cobertura",
+      "kind": "practical",
+      "heading": "Qué cubre ACTV y qué no debés dar por incluido",
+      "paragraphs": [
+        "La cobertura publicada incluye servicios urbanos de navegación y determinados servicios terrestres, pero enumera exclusiones: líneas 16 y 19, servicio del Casino y todos los servicios de Alilaguna. Los desplazamientos desde o hacia el aeropuerto Marco Polo tampoco están incluidos automáticamente en las modalidades urbanas mencionadas. Para algunos pases existe suplemento de autobús aeroportuario con condiciones de compra específicas; verificá el producto completo.",
+        "Una góndola, un taxi acuático, un barco de otro operador y un vaporetto público no son formas equivalentes de usar el mismo abono. Identificá el nombre del transportista antes de seguir una señal hacia un muelle. Tampoco extiendas a cualquier pase una ventaja de otro: el Venezia Daily Pass publica una cobertura ferroviaria urbana concreta de Trenitalia que no debe atribuirse sin comprobar a todos los abonos de varios días."
+      ],
+      "sourceIds": [
+        "r13-ven-tickets"
+      ]
+    },
+    {
+      "id": "validacion",
+      "kind": "practical",
+      "heading": "Comprar no es validar: el paso que activa el viaje",
+      "paragraphs": [
+        "Las instrucciones de ACTV piden validar al comienzo de cada viaje y cada vez que cambiás de servicio o vehículo. En la navegación, buscá el lector del acceso al embarcadero y seguí el procedimiento correspondiente al soporte de tu billete. Comprobá la confirmación del equipo antes de avanzar. Un recibo de compra no demuestra por sí solo que el título ya se haya validado correctamente.",
+        "La duración de los productos citados se cuenta desde la primera validación: veinticuatro horas no significa necesariamente hasta la medianoche del día de compra. Por ejemplo, un pase de 24 horas validado a las 15:00 está pensado para esa ventana continua de tiempo, sujeto a sus condiciones. Conservá el título y revisá las instrucciones de la app si lo comprás en el móvil. No supongas que una captura de pantalla sustituye cualquier formato de billete."
+      ],
+      "sourceIds": [
+        "r13-ven-tickets",
+        "r13-ven-rules"
+      ]
+    },
+    {
+      "id": "muelles",
+      "kind": "practical",
+      "heading": "Cómo encontrar el embarcadero y el sentido correctos",
+      "paragraphs": [
+        "Buscá primero la parada de salida y la de llegada en el planificador oficial para la fecha y la hora que necesitás. Después comprobá la línea, la dirección y la identificación del embarcadero. Un mismo nombre de zona puede tener varios puntos de embarque. Mirar solo el número de línea sin su sentido es una forma fácil de terminar navegando en la dirección opuesta.",
+        "Al llegar, contrastá el panel con tu búsqueda y leé los avisos de servicio. Dejá bajar a los pasajeros y seguí las indicaciones de la tripulación antes de subir. El tiempo del trayecto no incluye necesariamente la caminata desde el hotel, la espera, la fila y el recorrido desde el muelle de llegada. Si tenés una visita reservada, calculá todo ese margen, no solo los minutos de navegación."
+      ],
+      "sourceIds": [
+        "r13-ven-map",
+        "r13-ven-times"
+      ]
+    },
+    {
+      "id": "rialto",
+      "kind": "place",
+      "heading": "1. Rialto: una referencia para combinar barco y paseo",
+      "paragraphs": [
+        "El puente de Rialto cruza el Gran Canal y ayuda a situarte en el centro histórico. Para organizar un trayecto, sin embargo, «ir a Rialto» todavía es demasiado impreciso: localizá el embarcadero concreto y su relación con la orilla a la que querés llegar. El puente, la zona comercial y una parada de transporte son referencias próximas, pero no intercambiables a la hora de buscar una ruta.",
+        "Usá esta parada como un punto de decisión. Si después querés recorrer calles cercanas, puede tener sentido continuar a pie y guardar el siguiente viaje para otro tramo. Si elegís navegar por el Gran Canal, consultá qué servicio efectúa las paradas necesarias y disfrutá el recorrido sin bloquear accesos con la cámara. La foto muestra el puente, no la posición actual de un muelle ni la cobertura de una línea específica."
+      ],
+      "sourceIds": [
+        "r13-ven-rialto",
+        "r13-ven-map"
+      ],
+      "imageId": "newten-venice-rialto"
+    },
+    {
+      "id": "san-marcos",
+      "kind": "place",
+      "heading": "2. Entorno de San Marcos: elegir la llegada antes de reservar",
+      "paragraphs": [
+        "En el entorno de San Marcos, el paseo monumental y la actividad de los embarcaderos conviven en un espacio muy transitado. La fotografía del Palacio Ducal sirve como referencia del sector, no como señal de la puerta del barco. Cuando prepares una visita a un monumento, ubicá por separado el muelle de llegada y la entrada de esa actividad, incluyendo el tramo que tendrás que hacer caminando.",
+        "La cartografía oficial de embarcaderos permite distinguir los puntos de esta zona. No elijas una llegada solo porque el nombre contenga «San Marco» si otra parada encaja mejor con tu línea y destino. Hacé el mismo ejercicio para la vuelta: salí del monumento con tiempo para identificar el muelle, validar y esperar. Una reserva en el centro no convierte cualquier barco que pase por delante en tu conexión de regreso."
+      ],
+      "sourceIds": [
+        "r13-ven-map",
+        "r13-ven-times"
+      ],
+      "imageId": "newten-venice-palace"
+    },
+    {
+      "id": "equipaje",
+      "kind": "practical",
+      "heading": "Equipaje y movilidad: preparar el embarque",
+      "paragraphs": [
+        "Las condiciones de transporte indican que el equipaje no debe ocupar asientos, bloquear pasos ni incomodar a otros pasajeros; la tripulación puede limitar su admisión por capacidad o seguridad. Consultá las condiciones de tamaño y los posibles suplementos para tus bultos antes del viaje. Una maleta que cabe en el avión no tiene por qué cumplir automáticamente las condiciones de cualquier medio de transporte urbano.",
+        "Con movilidad reducida, revisá el embarcadero y el trayecto concreto, y pedí asistencia al personal antes de embarcar. El acceso entre muelle y barco puede depender de las condiciones del momento. Si llegás con varios bultos, valorá dejar el equipaje antes de empezar las visitas. Subir y bajar repetidamente por hacer turismo con todas las maletas transforma un paseo agradable en una maniobra constante."
+      ],
+      "sourceIds": [
+        "r13-ven-rules",
+        "r13-ven-times"
+      ]
+    },
+    {
+      "id": "avisos",
+      "kind": "practical",
+      "heading": "Niebla, agua alta y un plan que permita cambios",
+      "paragraphs": [
+        "AVM informa que la niebla y el agua alta pueden provocar modificaciones en los servicios de navegación. Publica cambios mediante los paneles de los embarcaderos, sus canales oficiales y la información de movilidad. Consultá esos avisos antes de desplazamientos importantes y al volver de una excursión. Un mapa de líneas describe la red, pero no acredita que todos sus servicios estén funcionando normalmente en ese momento.",
+        "Si una conexión es esencial para tomar un tren o llegar a una reserva, dejá más margen y estudiá alternativas antes de necesitarlo. Para un día de paseo, en cambio, permitite cambiar el orden de las visitas. El mejor uso del vaporetto combina navegación y caminatas razonables, en lugar de encadenar trayectos por el simple hecho de tener un pase ilimitado."
+      ],
+      "sourceIds": [
+        "r13-ven-times"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Antes de comprar: anotá los trayectos que realmente harás, sus horarios aproximados y el operador. Compará billetes separados y pases dentro de su ventana de validez.",
+    "Al comenzar: buscá línea, sentido y embarcadero; validá con el soporte correcto y comprobá la confirmación antes de embarcar.",
+    "Durante el día: combiná Rialto y el entorno de San Marcos con paseos a pie. Revisá los avisos antes del regreso y reservá margen para conexiones importantes."
+  ],
+  "faq": [
+    {
+      "question": "¿Cuánto cuesta el vaporetto en Venecia?",
+      "answer": "En la página oficial consultada el 13 de noviembre de 2026, el billete estándar Rete Unica de 75 minutos cuesta 9,50 €. Comprobá la tarifa vigente antes de comprar y no lo confundas con el billete terrestre más económico."
+    },
+    {
+      "question": "¿Cuándo conviene el abono de 24 horas?",
+      "answer": "Con las tarifas consultadas, tres billetes separados de 9,50 € suman 28,50 €, frente a 25 € del Daily Pass. Conviene hacer esa comparación solo si necesitás tres billetes independientes dentro de las 24 horas y sus trayectos están incluidos."
+    },
+    {
+      "question": "¿Hay que validar también si tengo un abono?",
+      "answer": "Sí: ACTV indica validación al comenzar cada viaje y al cambiar de servicio o vehículo. Usá el procedimiento de tu soporte y comprobá la confirmación; la compra o posesión del pase no sustituye ese paso."
+    },
+    {
+      "question": "¿El abono sirve para Alilaguna o el aeropuerto?",
+      "answer": "Las modalidades urbanas citadas excluyen Alilaguna y no incluyen automáticamente los trayectos de Marco Polo. Hay productos o suplementos específicos; verificá operador, recorrido y condiciones antes de pagar."
+    }
+  ],
+  "conclusion": "El vaporetto resulta sencillo cuando separás la elección del billete de la elección del barco. Compará viajes reales, validá correctamente y comprobá cada embarcadero con el mapa y los avisos del día. Para decidir qué visitar entre trayectos, continuá con la guía de Venecia y organizá las reservas de monumentos por separado.",
+  "sources": [
+    {
+      "id": "r13-ven-tickets",
+      "url": "https://actv.avmspa.it/en/node/5153",
+      "title": "Venice Urban Services | ACTV",
+      "accessedAt": "2026-11-13T19:15:04.414728+00:00",
+      "evidenceFile": "content/research/r13-ven-tickets.json"
+    },
+    {
+      "id": "r13-ven-rules",
+      "url": "https://actv.avmspa.it/en/AVM-Actv-general-transport-conditions",
+      "title": "AVM/Actv general transport conditions | ACTV",
+      "accessedAt": "2026-11-13T19:15:06.146002+00:00",
+      "evidenceFile": "content/research/r13-ven-rules.json"
+    },
+    {
+      "id": "r13-ven-map",
+      "url": "https://actv.avmspa.it/en/content/consult-map",
+      "title": "Consult a map | ACTV",
+      "accessedAt": "2026-11-13T19:15:05.977844+00:00",
+      "evidenceFile": "content/research/r13-ven-map.json"
+    },
+    {
+      "id": "r13-ven-times",
+      "url": "https://avm.avmspa.it/en/content/water-bus-service-timetable-0",
+      "title": "TIMETABLES AND ROUTES | AVM",
+      "accessedAt": "2026-11-13T19:15:07.139988+00:00",
+      "evidenceFile": "content/research/r13-ven-times.json"
+    },
+    {
+      "id": "r13-ven-rialto",
+      "url": "https://www.italia.it/en/veneto/venice/rialto-bridge",
+      "title": "Must-see in Venice: Rialto Bridge - Italia.it",
+      "accessedAt": "2026-11-13T19:15:13.711220+00:00",
+      "evidenceFile": "content/research/r13-ven-rialto.json"
+    }
+  ],
+  "relatedIds": [
+    "venice",
+    "padua",
+    "verona"
+  ],
+  "publishedAt": "2026-11-13T19:29:57.420Z",
+  "updatedAt": "2026-11-13T19:29:57.420Z"
+}

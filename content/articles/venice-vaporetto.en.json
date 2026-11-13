@@ -1,0 +1,212 @@
+{
+  "id": "venice-vaporetto",
+  "destinationId": "venice",
+  "locale": "en",
+  "slug": "venice-vaporetto-tickets-passes-guide",
+  "title": "Venice vaporetto guide: tickets, passes and how to ride",
+  "description": "Use Venice’s vaporetto with confidence: checked fares, when passes make sense, ticket validation, boarding points, luggage and Grand Canal planning.",
+  "keyword": "Venice vaporetto guide",
+  "relatedQueries": [
+    "Venice vaporetto tickets",
+    "Venice transport passes",
+    "how to validate ACTV tickets"
+  ],
+  "intent": "venice-vaporetto-practical-planning",
+  "status": "published",
+  "coverImageId": "newten-venice-rialto",
+  "intro": [
+    "The vaporetto is a useful way to move around Venice, but using it well involves more than boarding the first boat. You need the correct operator, boarding point, direction and ticket for your journey. Understanding those four elements helps prevent wasted time in the wrong queue and avoids buying a pass you barely use.",
+    "This guide covers AVM/ACTV urban services and uses Rialto and the San Marco area as practical orientation points. It is not a live timetable. Fares were checked on the official website on 13 November 2026; consult that source again before purchasing because prices, conditions and services can change. The aim is to make your own journey decisions, rather than memorise a route that may not fit your stay."
+  ],
+  "quickFacts": [
+    {
+      "label": "Operator covered",
+      "value": "AVM/ACTV urban public transport"
+    },
+    {
+      "label": "Reference fare",
+      "value": "75-minute Rete Unica ticket: €9.50 when checked"
+    },
+    {
+      "label": "Pass durations",
+      "value": "24, 48, 72 or 168 hours, depending on product"
+    },
+    {
+      "label": "Essential step",
+      "value": "Validate at the start and when changing services"
+    }
+  ],
+  "sections": [
+    {
+      "id": "billetes",
+      "kind": "practical",
+      "heading": "Single tickets or a pass: compare journeys you will actually make",
+      "paragraphs": [
+        "The official fares checked list €9.50 for the standard 75-minute Rete Unica ticket, €25 for the 24-hour Venezia Daily Pass, €35 for 48 hours, €45 for 72 hours and €65 for seven days. Do not confuse the waterborne ticket with the €1.50 road-network ticket appearing on the same page. These are different products with different coverage.",
+        "Compare periods of use, rather than simply counting lines on a map. Two separate €9.50 tickets cost €19; three cost €28.50, exceeding the €25 daily pass. That calculation is useful if you genuinely need three separate tickets within twenty-four hours. If several connections fit inside one timed ticket, the comparison changes. Do not add unnecessary journeys merely to justify a pass you have already decided to buy."
+      ],
+      "sourceIds": [
+        "r13-ven-tickets"
+      ]
+    },
+    {
+      "id": "cobertura",
+      "kind": "practical",
+      "heading": "What ACTV coverage includes, and what it does not",
+      "paragraphs": [
+        "Published coverage includes urban waterborne services and specified land services, but lists exclusions: routes 16 and 19, the Casino service and all Alilaguna services. Journeys to or from Marco Polo Airport are not automatically included in the urban products described here. Certain passes offer an airport-bus supplement with specific purchasing conditions; check the complete product before relying on it.",
+        "A gondola, water taxi, another company's boat and an ACTV waterbus are not interchangeable uses of one pass. Identify the carrier before following signs towards a pier. Also avoid extending one product's benefits to every other pass. The Venezia Daily Pass lists specific urban Trenitalia rail coverage, which should not be assumed to apply to all multi-day tickets without checking their conditions."
+      ],
+      "sourceIds": [
+        "r13-ven-tickets"
+      ]
+    },
+    {
+      "id": "validacion",
+      "kind": "practical",
+      "heading": "Buying a ticket and validating it are separate steps",
+      "paragraphs": [
+        "ACTV instructs passengers to validate at the start of each journey and whenever changing service or vehicle. For waterborne travel, find the reader at the boarding-point entrance and follow the procedure for your ticket medium. Check that the machine confirms successful validation before continuing. A purchase receipt alone does not establish that your travel document has been correctly validated.",
+        "The durations listed for these products run from first validation: twenty-four hours does not simply mean until midnight on the purchase date. For example, a 24-hour pass first validated at 3pm is intended for that continuous time window, subject to its conditions. Keep the ticket and read the app instructions if using a phone. Do not assume a screenshot substitutes for every type of digital travel document."
+      ],
+      "sourceIds": [
+        "r13-ven-tickets",
+        "r13-ven-rules"
+      ]
+    },
+    {
+      "id": "muelles",
+      "kind": "practical",
+      "heading": "Find the right boarding point and direction",
+      "paragraphs": [
+        "Start by searching the official planner for your departure and arrival stops on the date and at the time you need. Then verify the route, direction and boarding-point identifier. A single area name can cover several boarding locations. Checking only the route number, without its destination or direction, is an easy way to set off the wrong way.",
+        "At the stop, compare the information panel with your search and read service notices. Allow passengers to disembark and follow the crew's instructions before boarding. The displayed journey time does not necessarily include walking from your hotel, waiting, queuing or reaching your final destination from the arrival pier. For a timed attraction booking, allow for the entire journey rather than just minutes spent on the water."
+      ],
+      "sourceIds": [
+        "r13-ven-map",
+        "r13-ven-times"
+      ]
+    },
+    {
+      "id": "rialto",
+      "kind": "place",
+      "heading": "1. Rialto: combine the boat with a walk",
+      "paragraphs": [
+        "Rialto Bridge crosses the Grand Canal and provides a useful reference in the historic centre. For transport planning, however, “going to Rialto” is still too vague: locate the actual boarding point and its relationship to the bank you want to reach. The bridge, surrounding shopping area and transport stop are nearby references, but they are not interchangeable when searching for a route.",
+        "Treat Rialto as a decision point. If your next plans involve nearby streets, continuing on foot may make sense, saving another boat trip for a more useful leg. For a Grand Canal journey, check which service makes the stops you need and enjoy the view without blocking entrances with your camera. The photograph shows the bridge, rather than today's precise pier position or the coverage of a particular route."
+      ],
+      "sourceIds": [
+        "r13-ven-rialto",
+        "r13-ven-map"
+      ],
+      "imageId": "newten-venice-rialto"
+    },
+    {
+      "id": "san-marcos",
+      "kind": "place",
+      "heading": "2. The San Marco area: choose your arrival before booking attractions",
+      "paragraphs": [
+        "Around San Marco, monumental waterfront walks and busy boarding points share a heavily used area. The photograph of the Doge's Palace is a landmark reference, not a sign directing you to a boat entrance. When planning a monument visit, locate the arrival pier and the attraction's entrance separately, allowing for the walk between them.",
+        "The official boarding-point maps help distinguish locations in this area. Do not choose an arrival solely because its name includes “San Marco” if another stop works better for your service and destination. Repeat the exercise for the return: leave enough time to find the correct pier, validate and wait. A reservation in the centre does not make every boat passing the waterfront an appropriate connection back."
+      ],
+      "sourceIds": [
+        "r13-ven-map",
+        "r13-ven-times"
+      ],
+      "imageId": "newten-venice-palace"
+    },
+    {
+      "id": "equipaje",
+      "kind": "practical",
+      "heading": "Luggage and mobility: prepare for boarding",
+      "paragraphs": [
+        "The transport conditions state that luggage must not occupy seats, block passageways or inconvenience passengers; the crew can restrict carriage for capacity or safety reasons. Check the applicable size rules and any additional charges for your belongings beforehand. A suitcase accepted on an aircraft does not automatically meet every condition imposed by urban transport services.",
+        "With reduced mobility, check the specific boarding point and journey and ask staff about assistance before boarding. The transition between pier and boat can depend on conditions at the time. If arriving with several bags, consider leaving them before beginning sightseeing. Repeated boarding and disembarking with all your luggage can turn an otherwise enjoyable outing into a series of awkward manoeuvres."
+      ],
+      "sourceIds": [
+        "r13-ven-rules",
+        "r13-ven-times"
+      ]
+    },
+    {
+      "id": "avisos",
+      "kind": "practical",
+      "heading": "Fog, high water and a plan that can change",
+      "paragraphs": [
+        "AVM warns that fog and high water can lead to changes in navigation services. Updates are communicated through boarding-point panels, official channels and mobility information. Check before important journeys and again before returning from an excursion. A network map describes available routes in principle; it does not prove that every service is operating normally at that moment.",
+        "For a connection needed to catch a train or reach a timed reservation, allow extra margin and investigate alternatives before you need them. On a flexible sightseeing day, change the order of visits when necessary. Effective vaporetto use combines useful boat journeys with manageable walks, rather than linking endless rides simply because your pass permits them."
+      ],
+      "sourceIds": [
+        "r13-ven-times"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Before buying: list the journeys you will actually make, approximate times and operators. Compare separate tickets with passes within their validity periods.",
+    "At the first stop: identify the route, direction and boarding point. Validate using the correct method and check the confirmation before boarding.",
+    "During the day: combine Rialto and San Marco with walks. Check service notices before returning and preserve a margin for important onward connections."
+  ],
+  "faq": [
+    {
+      "question": "How much does a Venice vaporetto ticket cost?",
+      "answer": "The official fare page checked on 13 November 2026 lists €9.50 for the standard 75-minute Rete Unica ticket. Check the current fare before purchasing and do not confuse it with the cheaper road-network ticket."
+    },
+    {
+      "question": "When is a 24-hour pass worth buying?",
+      "answer": "At the checked prices, three separate €9.50 tickets total €28.50, compared with €25 for the Daily Pass. That comparison applies only if you need three independent tickets within twenty-four hours and the journeys are covered."
+    },
+    {
+      "question": "Do I need to validate a transport pass?",
+      "answer": "Yes. ACTV instructs passengers to validate at the beginning of each journey and whenever changing service or vehicle. Follow the procedure for your ticket medium and check confirmation; merely owning or buying a pass does not replace validation."
+    },
+    {
+      "question": "Does the pass cover Alilaguna or the airport?",
+      "answer": "The urban products described exclude Alilaguna and do not automatically include Marco Polo Airport journeys. Specific products or supplements are available; verify the operator, route and conditions before paying."
+    }
+  ],
+  "conclusion": "Vaporetto travel becomes clearer when you separate choosing a ticket from choosing a boat. Compare actual journeys, validate correctly and check each boarding point against the current map and notices. Use the Venice sightseeing guide to decide what to visit between rides, arranging monument reservations separately.",
+  "sources": [
+    {
+      "id": "r13-ven-tickets",
+      "url": "https://actv.avmspa.it/en/node/5153",
+      "title": "Venice Urban Services | ACTV",
+      "accessedAt": "2026-11-13T19:15:04.414728+00:00",
+      "evidenceFile": "content/research/r13-ven-tickets.json"
+    },
+    {
+      "id": "r13-ven-rules",
+      "url": "https://actv.avmspa.it/en/AVM-Actv-general-transport-conditions",
+      "title": "AVM/Actv general transport conditions | ACTV",
+      "accessedAt": "2026-11-13T19:15:06.146002+00:00",
+      "evidenceFile": "content/research/r13-ven-rules.json"
+    },
+    {
+      "id": "r13-ven-map",
+      "url": "https://actv.avmspa.it/en/content/consult-map",
+      "title": "Consult a map | ACTV",
+      "accessedAt": "2026-11-13T19:15:05.977844+00:00",
+      "evidenceFile": "content/research/r13-ven-map.json"
+    },
+    {
+      "id": "r13-ven-times",
+      "url": "https://avm.avmspa.it/en/content/water-bus-service-timetable-0",
+      "title": "TIMETABLES AND ROUTES | AVM",
+      "accessedAt": "2026-11-13T19:15:07.139988+00:00",
+      "evidenceFile": "content/research/r13-ven-times.json"
+    },
+    {
+      "id": "r13-ven-rialto",
+      "url": "https://www.italia.it/en/veneto/venice/rialto-bridge",
+      "title": "Must-see in Venice: Rialto Bridge - Italia.it",
+      "accessedAt": "2026-11-13T19:15:13.711220+00:00",
+      "evidenceFile": "content/research/r13-ven-rialto.json"
+    }
+  ],
+  "relatedIds": [
+    "venice",
+    "padua",
+    "verona"
+  ],
+  "publishedAt": "2026-11-13T19:29:57.420Z",
+  "updatedAt": "2026-11-13T19:29:57.420Z"
+}

@@ -1,0 +1,181 @@
+{
+  "id": "rome-colosseum-visit",
+  "destinationId": "rome",
+  "locale": "es",
+  "slug": "visitar-coliseo-foro-romano-entradas-recorrido",
+  "title": "Visitar el Coliseo y el Foro Romano: entradas y recorrido",
+  "description": "Organizá la visita al Coliseo, Foro Romano y Palatino: cómo elegir entradas, ordenar el recorrido, calcular tiempos y evitar errores de acceso.",
+  "keyword": "visitar el Coliseo y el Foro Romano",
+  "relatedQueries": [
+    "entradas Coliseo y Foro Romano",
+    "cuánto tiempo dedicar al Coliseo",
+    "recorrido Foro Romano y Palatino"
+  ],
+  "intent": "rome-colosseum-visit-practical-planning",
+  "status": "published",
+  "coverImageId": "rome-colosseum",
+  "intro": [
+    "Visitar el Coliseo y el Foro Romano funciona mejor cuando lo pensás como una jornada arqueológica con dos accesos y ritmos distintos. El anfiteatro concentra la atención en un edificio; el Foro y el Palatino requieren orientarse entre caminos, ruinas y desniveles. Comprar una entrada es solo la primera decisión: después hay que ordenar la visita para aprovecharla sin correr.",
+    "Esta guía te ayuda a elegir el alcance de la entrada, distribuir el tiempo y reconocer qué estás viendo. Las duraciones propuestas son márgenes de planificación, no tiempos oficiales ni una promesa de acceso. Para tu fecha, la información del billete y los avisos del parque tienen prioridad sobre cualquier itinerario. Si tu viaje es corto, dedicá esta parte de Roma a una mañana larga o a buena parte del día."
+  ],
+  "quickFacts": [
+    {
+      "label": "Zona",
+      "value": "Centro arqueológico de Roma"
+    },
+    {
+      "label": "Recorrido",
+      "value": "Coliseo + área conjunta Foro Romano y Palatino"
+    },
+    {
+      "label": "Tiempo sugerido",
+      "value": "Entre cuatro y seis horas con accesos y descansos"
+    },
+    {
+      "label": "Prioridad",
+      "value": "Comprobar qué incluye el billete antes de reservar"
+    }
+  ],
+  "sections": [
+    {
+      "id": "coliseo",
+      "kind": "place",
+      "heading": "1. Coliseo: entender el edificio antes de buscar la foto",
+      "paragraphs": [
+        "El Coliseo, también llamado Anfiteatro Flavio, fue construido bajo Vespasiano e inaugurado durante el gobierno de Tito. Su función era albergar espectáculos públicos, entre ellos combates de gladiadores. Mirarlo desde fuera ayuda a reconocer la sucesión de arcos; dentro, lo interesante es relacionar las gradas, el espacio de la arena y las estructuras que hacían posible el espectáculo. Son partes diferentes de un mismo sistema, no una colección de ruinas aisladas.",
+        "Durante la visita, alterná la mirada general con los detalles. Buscá un punto desde el que entender la forma del recinto y después seguí las explicaciones de la señalización o de una audioguía. La arena y los espacios subterráneos no son lo mismo: ver las estructuras desde arriba no equivale a recorrerlas. Si te interesa una zona concreta, comprobá que figure expresamente en el producto elegido; una fotografía comercial no define el acceso.",
+        "La imagen que acompaña esta sección muestra el exterior histórico, no una puerta de ingreso garantizada para hoy. Antes de acercarte, leé el acceso indicado en tu confirmación y localizalo en el mapa vigente. No calcules la llegada como si bastara con alcanzar cualquier lado del monumento: reconocer la fila correcta, orientarte y pasar los controles también consume tiempo."
+      ],
+      "sourceIds": [
+        "r13-col-tourism"
+      ],
+      "imageId": "rome-colosseum"
+    },
+    {
+      "id": "foro-palatino",
+      "kind": "place",
+      "heading": "2. Foro Romano y Palatino: una visita continua, no dos salidas",
+      "paragraphs": [
+        "El Foro Romano permite entender el centro de la vida pública antigua: templos, espacios administrativos y basílicas civiles fueron creciendo a lo largo de los siglos. El Palatino aporta otra escala, la de las residencias imperiales y las vistas sobre el conjunto. La oficina de turismo de Roma los presenta como una misma área arqueológica y advierte que, una vez que salís, no podés volver a entrar con ese mismo acceso.",
+        "Por eso conviene llevar decidida una secuencia, sin fijar cada minuto. Empezá por orientarte con el plano y elegí varios elementos que quieras comprender, como el arco de Septimio Severo o la basílica de Majencio; después incorporá el ascenso al Palatino si el tiempo y las fuerzas acompañan. La meta no es identificar cada columna, sino distinguir el espacio público del Foro de la parte elevada y palaciega.",
+        "No confundas una vista panorámica desde fuera con haber visitado el recinto. Tampoco programes una salida para comer a mitad del recorrido esperando regresar sin condiciones. Organizá el descanso antes o después, y consultá al personal si tenés una necesidad particular. Los recorridos internos pueden cambiar por conservación; el mapa del día es más útil que una ruta rígida guardada meses antes."
+      ],
+      "sourceIds": [
+        "r13-col-forum",
+        "r13-col-tourism"
+      ],
+      "imageId": "place-rome-forum-palatine"
+    },
+    {
+      "id": "elegir-entrada",
+      "kind": "practical",
+      "heading": "Cómo elegir la entrada sin pagar por un recorrido que no querés",
+      "paragraphs": [
+        "Entrá al sistema de venta desde el enlace de la web oficial de turismo o del parque. Compará el nombre completo del producto, los lugares incluidos, los accesos permitidos y las condiciones de la hora reservada. Separá el coste de entrada de cualquier guía, asistencia o servicio adicional. Un resultado destacado en un buscador no demuestra que se trate de la taquilla oficial.",
+        "Si tu prioridad es una primera visita general, buscá una opción que corresponda a ese objetivo. Si querés arena, subterráneos u otro recorrido especial, verificá su inclusión, idioma cuando corresponda y condiciones de acceso. No supongas que palabras como «completo» o «sin colas» eliminan controles o permiten entrar en cualquier zona. Guardá la confirmación y revisá nombres, fecha y documentos exigidos antes de cerrar la compra."
+      ],
+      "sourceIds": [
+        "r13-col-tourism",
+        "r13-col-forum"
+      ]
+    },
+    {
+      "id": "orden-visita",
+      "kind": "practical",
+      "heading": "Qué visitar primero y cuánto tiempo reservar",
+      "paragraphs": [
+        "La hora que figure en la reserva del Coliseo debe organizar el resto de la jornada. Con una entrada temprana, suele ser práctico empezar por el anfiteatro y continuar después al Foro y Palatino. Si reservás más tarde, revisá si la validez y las condiciones de tu producto permiten hacer primero el área arqueológica. No deduzcas ese permiso solo porque ambos lugares aparecen en el nombre.",
+        "Como propuesta de ritmo, reservá entre cuatro y seis horas para el conjunto, incluyendo orientación, accesos y pausas. No significa que puedas permanecer ese tiempo dentro del Coliseo: respetá el límite concreto de tu entrada. El Foro y el Palatino son el tramo que más fácilmente se alarga. Evitá colocar una reserva inamovible inmediatamente después; una visita apurada suele sacrificar precisamente la parte que más contexto aporta."
+      ],
+      "sourceIds": [
+        "r13-col-tourism",
+        "r13-col-forum"
+      ]
+    },
+    {
+      "id": "horarios",
+      "kind": "practical",
+      "heading": "Horarios de invierno y por qué importa la última admisión",
+      "paragraphs": [
+        "En la consulta del 13 de noviembre de 2026, Turismo Roma publica para el período del 25 de octubre de 2026 al 28 de febrero de 2027 el cierre de ambos recintos a las 16:30, con última admisión a las 15:30. Para ese período señala apertura a las 8:30 en el Coliseo y a las 9:00 en Foro y Palatino. Es una referencia fechada: confirmá el calendario si viajás en otras fechas o ante avisos especiales.",
+        "La última admisión no equivale a la hora recomendable para comenzar una visita extensa. Entrar al área arqueológica al final de la tarde deja mucho menos margen para explorarla. En jornadas cortas, protegé las horas de luz para el Foro y el Palatino y dejá los paseos exteriores para después. La misma fuente anuncia cierres el 25 de diciembre y el 1 de enero; comprobá siempre el año y la fecha de tu reserva."
+      ],
+      "sourceIds": [
+        "r13-col-tourism",
+        "r13-col-forum"
+      ]
+    },
+    {
+      "id": "preparacion",
+      "kind": "practical",
+      "heading": "Calzado, accesibilidad y preparación del recorrido",
+      "paragraphs": [
+        "El conjunto combina un edificio monumental con un área arqueológica al aire libre. Llevá calzado adecuado para caminar y planificá la protección frente al sol o la lluvia según la previsión. Un equipaje ligero simplifica los controles y los desniveles. Antes de salir, consultá las condiciones vigentes sobre bolsos y objetos permitidos: una recomendación genérica no sustituye el reglamento de entrada.",
+        "Si viajás con silla de ruedas, movilidad reducida o cochecito, prepará el acceso específico con la información de accesibilidad oficial. Que un monumento disponga de servicios accesibles no significa que todos los senderos, niveles o experiencias especiales tengan las mismas condiciones. Elegí un recorrido viable para todo el grupo y preguntá al personal por alternativas antes de comprometerte con un tramo que luego resulte difícil."
+      ],
+      "sourceIds": [
+        "r13-col-tourism",
+        "r13-col-forum"
+      ]
+    },
+    {
+      "id": "errores",
+      "kind": "practical",
+      "heading": "Errores que conviene resolver antes de llegar",
+      "paragraphs": [
+        "Revisá tres cosas la noche anterior: el producto que compraste, la hora que te obliga a estar en un acceso concreto y el cierre de las otras áreas. Después comprobá el camino desde tu alojamiento. No uses como tiempo de traslado la distancia hasta una foto del Coliseo en el mapa; la puerta, los controles y la orientación final forman parte del trayecto real.",
+        "Otro error es convertir la mañana en una lista demasiado larga. Si el Foro te interesa especialmente, reducí las visitas posteriores. Si viajás con chicos, proponé búsquedas visuales sencillas —arcos, gradas y columnas— y momentos de descanso. Para una explicación profunda, valorá una visita guiada cuyo contenido entiendas antes de contratarla. La utilidad depende del enfoque y del idioma, no de añadir más paradas."
+      ],
+      "sourceIds": [
+        "r13-col-tourism",
+        "r13-col-forum"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Antes de entrar: comprobá reserva, puerta y avisos; llegá con el margen indicado por el operador y separá el tiempo de control del de visita.",
+    "Primer bloque: recorré el Coliseo según las zonas incluidas en tu entrada. Después pasá al área del Foro y el Palatino en el orden que permita tu billete.",
+    "Segundo bloque: orientate en el Foro, elegí varios monumentos para leer con calma y decidí cuánto subir al Palatino. Organizá la comida sin depender de una salida y reentrada."
+  ],
+  "faq": [
+    {
+      "question": "¿Coliseo, Foro y Palatino son una sola visita?",
+      "answer": "Pertenecen al mismo parque, pero el Coliseo tiene su propio acceso y el Foro con el Palatino forman otra área conjunta. Revisá los derechos de entrada y la validez del producto que compres; no equivale a circular libremente entre todos los accesos."
+    },
+    {
+      "question": "¿Puedo salir del Foro Romano y volver después?",
+      "answer": "Turismo Roma advierte que el Foro y el Palatino comparten área y que no se permite un segundo acceso con el mismo billete una vez que salís. Planificá la visita como un bloque continuo y consultá cualquier excepción directamente al personal."
+    },
+    {
+      "question": "¿Cuántas horas hacen falta para verlo con calma?",
+      "answer": "Entre cuatro y seis horas es una propuesta razonable para organizar el conjunto con accesos y pausas, según tu interés. No es un tiempo oficial ni altera los límites de permanencia que pueda imponer tu entrada al Coliseo."
+    },
+    {
+      "question": "¿Todas las entradas permiten visitar los subterráneos?",
+      "answer": "No des por incluida ninguna zona especial. Comprobá que el nombre y la descripción de tu producto especifiquen el acceso que querés, además de las condiciones, el horario y el idioma si incorpora acompañamiento."
+    }
+  ],
+  "conclusion": "La mejor visita empieza por una entrada que corresponda a tus intereses y continúa con tiempo suficiente para comprender el paisaje arqueológico. Con la reserva bien leída y el Foro y Palatino organizados como un solo bloque, el recorrido gana claridad. Para completar el resto del viaje, seguí con la guía general de Roma y distribuí las otras visitas en jornadas diferentes.",
+  "sources": [
+    {
+      "id": "r13-col-tourism",
+      "url": "https://www.turismoroma.it/en/node/1155",
+      "title": "The Flavian Amphitheatre (The Colosseum) | Turismo Roma",
+      "accessedAt": "2026-11-13T19:16:20.126084+00:00",
+      "evidenceFile": "content/research/r13-col-tourism.json"
+    },
+    {
+      "id": "r13-col-forum",
+      "url": "https://www.turismoroma.it/en/places/roman-forum-and-palatine",
+      "title": "The Roman Forum and the Palatine | Turismo Roma",
+      "accessedAt": "2026-11-13T19:15:10.884055+00:00",
+      "evidenceFile": "content/research/r13-col-forum.json"
+    }
+  ],
+  "relatedIds": [
+    "rome",
+    "florence"
+  ],
+  "publishedAt": "2026-11-13T19:29:57.420Z",
+  "updatedAt": "2026-11-13T19:29:57.420Z"
+}

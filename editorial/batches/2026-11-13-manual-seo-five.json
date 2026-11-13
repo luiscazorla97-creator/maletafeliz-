@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-13-manual-seo-five",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-13T19:15:33.191306+00:00",
+  "status": "validated-awaiting-deployment",
+  "topicIds": [
+    "rome-colosseum-visit",
+    "florence-uffizi",
+    "venice-vaporetto",
+    "kyoto-higashiyama-walk",
+    "chapultepec-museums-day"
+  ],
+  "requestedCount": 5,
+  "publishedCount": 0,
+  "authorization": "Explicit current user request to publish five new extensive SEO articles on maletafeliz.com. Additional manual batch; preserve daily reservation and frequency.",
+  "errors": [
+    {
+      "source": "colosseo.it",
+      "status": 503,
+      "note": "Direct source fetch failed; finding accessible official evidence."
+    }
+  ],
+  "approvedCount": 5,
+  "selectedLocalizedVersions": 10,
+  "validatedAt": "2026-11-13T19:46:31.622350+00:00"
+}

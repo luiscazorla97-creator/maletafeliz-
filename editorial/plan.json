@@ -11042,5 +11042,224 @@
       "en": "draft"
     },
     "differentiation": "New Mexican city and city-specific first-visit intent absent from215 existing bilingual originals. Five different stops: Cathedral/Plaza de Armas, Museo Regional Potosino, Museo Nacional de la Máscara, Museo del Ferrocarril Jesús García Corona, Parque Tangamanga I. Distinguishes the capital from the state and Huasteca travel; practical central walking sequence plus separate park outing. No popularity/volume/indexation claim."
+  },
+  {
+    "city": {
+      "es": "Roma",
+      "en": "Rome"
+    },
+    "countryId": "it",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "id": "rome-colosseum-visit",
+    "destinationId": "rome",
+    "placeCount": 2,
+    "intent": "rome-colosseum-visit-practical-planning",
+    "status": "published",
+    "titles": {
+      "es": "Visitar el Coliseo y el Foro Romano: entradas y recorrido",
+      "en": "Colosseum and Roman Forum: tickets and a practical visit"
+    },
+    "slugs": {
+      "es": "visitar-coliseo-foro-romano-entradas-recorrido",
+      "en": "colosseum-roman-forum-tickets-visit"
+    },
+    "researchCandidates": [
+      "https://www.turismoroma.it/en/node/1155",
+      "https://www.turismoroma.it/en/places/roman-forum-and-palatine"
+    ],
+    "researchStatus": "verified",
+    "imageStatus": "verified",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    },
+    "differentiation": "Manual owner request for five extensive evergreen guides. Dedicated planning intent beyond the short landmark summaries in existing city guides; preserve their URLs, dates and content. Existing daily two-topic reservation remains untouched."
+  },
+  {
+    "city": {
+      "es": "Florencia",
+      "en": "Florence"
+    },
+    "countryId": "it",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "id": "florence-uffizi",
+    "destinationId": "florence",
+    "placeCount": 2,
+    "intent": "florence-uffizi-practical-planning",
+    "status": "published",
+    "titles": {
+      "es": "Visitar los Uffizi: entradas, obras y cómo organizar la visita",
+      "en": "Visiting the Uffizi: tickets, art and planning your visit"
+    },
+    "slugs": {
+      "es": "visitar-uffizi-entradas-obras-consejos",
+      "en": "visiting-uffizi-tickets-art-planning"
+    },
+    "researchCandidates": [
+      "https://www.uffizi.it/en/the-uffizi",
+      "https://www.uffizi.it/en/tickets",
+      "https://www.uffizi.it/en/pages/how-to-purchase-tickets",
+      "https://www.uffizi.it/en/artworks/birth-of-venus",
+      "https://www.uffizi.it/en/artworks/botticelli-spring",
+      "https://www.uffizi.it/en/pages/rules-to-visit-the-uffizi-galleries",
+      "https://www.visittuscany.com/en/attractions/ponte-vecchio/"
+    ],
+    "researchStatus": "verified",
+    "imageStatus": "verified",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    },
+    "differentiation": "Manual owner request for five extensive evergreen guides. Dedicated planning intent beyond the short landmark summaries in existing city guides; preserve their URLs, dates and content. Existing daily two-topic reservation remains untouched."
+  },
+  {
+    "city": {
+      "es": "Venecia",
+      "en": "Venice"
+    },
+    "countryId": "it",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "continent": "europe",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "id": "venice-vaporetto",
+    "destinationId": "venice",
+    "placeCount": 2,
+    "intent": "venice-vaporetto-practical-planning",
+    "status": "published",
+    "titles": {
+      "es": "Vaporetto en Venecia: billetes, abonos y cómo usarlo",
+      "en": "Venice vaporetto guide: tickets, passes and how to ride"
+    },
+    "slugs": {
+      "es": "vaporetto-venecia-billetes-abonos-como-usarlo",
+      "en": "venice-vaporetto-tickets-passes-guide"
+    },
+    "researchCandidates": [
+      "https://actv.avmspa.it/en/node/5153",
+      "https://actv.avmspa.it/en/AVM-Actv-general-transport-conditions",
+      "https://actv.avmspa.it/en/content/consult-map",
+      "https://avm.avmspa.it/en/content/water-bus-service-timetable-0",
+      "https://www.italia.it/en/veneto/venice/rialto-bridge"
+    ],
+    "researchStatus": "verified",
+    "imageStatus": "verified",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    },
+    "differentiation": "Manual owner request for five extensive evergreen guides. Dedicated planning intent beyond the short landmark summaries in existing city guides; preserve their URLs, dates and content. Existing daily two-topic reservation remains untouched."
+  },
+  {
+    "city": {
+      "es": "Kioto",
+      "en": "Kyoto"
+    },
+    "countryId": "jp",
+    "country": {
+      "es": "Japón",
+      "en": "Japan"
+    },
+    "continent": "asia",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "id": "kyoto-higashiyama-walk",
+    "destinationId": "kyoto",
+    "placeCount": 4,
+    "intent": "kyoto-higashiyama-walk-practical-planning",
+    "status": "published",
+    "titles": {
+      "es": "Higashiyama a pie: ruta de Kiyomizu-dera a Gion en Kioto",
+      "en": "Higashiyama walking route: Kiyomizu-dera to Gion in Kyoto"
+    },
+    "slugs": {
+      "es": "higashiyama-ruta-pie-kiyomizudera-gion-kioto",
+      "en": "higashiyama-walk-kiyomizudera-gion-kyoto"
+    },
+    "researchCandidates": [
+      "https://www.kiyomizudera.or.jp/en/location/",
+      "https://kyoto.travel/en/travel-inspiration/how-to-avoid-the-crowds-while-accessing-kiyomizu-temple-and-higashiyama-areas/",
+      "https://kyoto.travel/en/destinations/kodaiji-temple/",
+      "https://kyoto.travel/en/destinations/maruyama-park/",
+      "https://kyoto.travel/en/destinations/yasakajinja-shrine/",
+      "https://kyoto.travel/en/responsible-travel/"
+    ],
+    "researchStatus": "verified",
+    "imageStatus": "verified",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    },
+    "differentiation": "Manual owner request for five extensive evergreen guides. Dedicated planning intent beyond the short landmark summaries in existing city guides; preserve their URLs, dates and content. Existing daily two-topic reservation remains untouched."
+  },
+  {
+    "city": {
+      "es": "Ciudad de México",
+      "en": "Mexico City"
+    },
+    "countryId": "mx",
+    "country": {
+      "es": "México",
+      "en": "Mexico"
+    },
+    "continent": "america",
+    "category": "cities",
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "id": "chapultepec-museums-day",
+    "destinationId": "mexico-city",
+    "placeCount": 3,
+    "intent": "chapultepec-museums-day-practical-planning",
+    "status": "published",
+    "titles": {
+      "es": "Chapultepec en un día: Castillo, Antropología y bosque",
+      "en": "Chapultepec in one day: castle, anthropology museum and park"
+    },
+    "slugs": {
+      "es": "chapultepec-un-dia-castillo-antropologia-bosque",
+      "en": "chapultepec-one-day-castle-anthropology-park"
+    },
+    "researchCandidates": [
+      "https://mnh.inah.gob.mx/general-information",
+      "https://mexicocity.cdmx.gob.mx/venues/chapultepec-castle/",
+      "https://mexicocity.cdmx.gob.mx/venues/national-museum-of-anthropology/",
+      "https://mexicocity.cdmx.gob.mx/locations/chapultepec-park/"
+    ],
+    "researchStatus": "verified",
+    "imageStatus": "verified",
+    "locales": {
+      "es": "published",
+      "en": "published"
+    },
+    "differentiation": "Manual owner request for five extensive evergreen guides. Dedicated planning intent beyond the short landmark summaries in existing city guides; preserve their URLs, dates and content. Existing daily two-topic reservation remains untouched."
   }
 ]

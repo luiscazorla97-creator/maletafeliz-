@@ -2,7 +2,7 @@
   "id": "2026-11-13",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-13T17:19:56.838Z",
-  "status": "reserved-not-generated",
+  "status": "reserved-for-reviewed-continuation",
   "topicIds": [
     "san-luis-potosi",
     "nagasaki"
@@ -15,9 +15,23 @@
     "executionId": "6f16953e-24be-45be-b52a-9ac619f49133",
     "baseCommit": "43ec749a8ba8d89a2098203ed2c09c2335734072",
     "startedAt": "2026-11-13T16:56:11.000Z",
-    "heartbeatAt": "2026-11-13T17:19:56.918822+00:00",
-    "leaseUntil": "2026-11-13T23:18:03.431273+00:00",
-    "status": "in-progress"
+    "heartbeatAt": "2026-11-14T17:28:44.770090+00:00",
+    "leaseUntil": "2026-11-14T23:28:44.770090+00:00",
+    "status": "in-progress",
+    "previousLeaseUntil": "2026-11-13T23:18:03.431273+00:00",
+    "resumedAt": "2026-11-14T17:28:44.770090+00:00",
+    "resumedAgainstCommit": "38bda91fbfbbbcded6a98020708c1b840e256287",
+    "publicationDay": "2026-11-14",
+    "continuations": [
+      {
+        "resumptionId": "405d3e31-d4b3-49ab-8499-fa42e794fa48",
+        "resumedAt": "2026-11-14T17:28:44.770090+00:00",
+        "previousLeaseUntil": "2026-11-13T23:18:03.431273+00:00",
+        "leaseUntil": "2026-11-14T23:28:44.770090+00:00",
+        "baselineCommit": "38bda91fbfbbbcded6a98020708c1b840e256287",
+        "reason": "Recover unpublished work after executor connection failure; no new reservation or extra topic."
+      }
+    ]
   },
   "authorization": {
     "type": "owner-current-daily-two-originals",
@@ -26,5 +40,6 @@
     "dailyScheduleTargetUnchanged": 2,
     "scheduleChanged": false
   },
-  "countingPolicy": "FirstpublicationdayAmerica/New_York; lateclosureoftheNov12manual15doesnotcreateNov13originals."
+  "countingPolicy": "FirstpublicationdayAmerica/New_York; lateclosureoftheNov12manual15doesnotcreateNov13originals.",
+  "preparedForNewYorkPublicationDate": "2026-11-14"
 }

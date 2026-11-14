@@ -1,0 +1,44 @@
+{
+  "id": "n13-slp-state-railway",
+  "url": "https://slp.gob.mx/lugares/museo-del-ferrocarril/",
+  "finalUrl": "https://slp.gob.mx/lugares/museo-del-ferrocarril/",
+  "fetchedAt": "2026-11-14T17:09:21.543Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "3ac66045ec2a4db74f1be12f1a7fee708e71c9f2f565f323a3028d350f62afd1",
+  "rawFile": "content/research/revalidation/2026-11-14/raw/n13-slp-state-railway.html",
+  "textFile": "content/research/revalidation/2026-11-14/raw/n13-slp-state-railway.txt",
+  "textSha256": "b206bb447e5638ea073e26575f51bee27d5cd8738ec5de3b9be5e87b24580193",
+  "facts": [
+    {
+      "fact": "StateGovernmentconfirmsrailwaymuseumManuelJoséOthónatChicoSein.",
+      "excerpt": "Manuel José Othón esq. Chico Sein, San Luis Potosí Centro, 78000, San Luis Potosí, San Luis Potosí, México",
+      "location": "Actual retained raw-derived text read; named main content and visitor-information blocks, excluding navigation.",
+      "revalidatedAt": "2026-11-14T17:11:46.271004+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "Institucionales MUSEO DEL FERROCARRIL MUSEOS MUSEO DEL FERROCARRIL MUSEO DEL FERROCARRIL Dirección: Manuel José Othón esq. Chico Sein, San Luis Potosí Centro, 78000, San Luis Potosí, San Luis Potosí, México Ver en Mapa Teléfono(s): 444 443 15 00 Fecha de Actualización: 17/02/2026 Preguntas Frecuentes Sitios Recomendados Periódico Oficial Números de Emergencia Prot",
+      "actuallyRead": true
+    }
+  ],
+  "notes": "Read fresh named museum address block: ManuelJoseOthonatChicoSein. Address and operator identification remain; exact currentclosing not inferred from directory. Supplementary fresh14November evidence only. Original13NovemberprimaryJSON/raw/text and article citations are preserved; this is not final article/publication approval.",
+  "actuallyRead": true,
+  "reviewedAt": "2026-11-14T17:11:46.271004+00:00",
+  "revalidationOf": {
+    "primaryEvidenceFile": "content/research/n13-slp-state-railway.json",
+    "metadataSha256": "60bb62f37a28a3dc52789b96a0cce3ec1fd4c5337ca04dd1d1f6105c175383ff",
+    "fetchedAt": "2026-11-13T17:06:23.971Z",
+    "url": "https://slp.gob.mx/lugares/museo-del-ferrocarril/",
+    "finalUrl": "https://slp.gob.mx/lugares/museo-del-ferrocarril/",
+    "rawFile": "content/research/n13-slp-state-railway.raw",
+    "contentSha256": "3ac66045ec2a4db74f1be12f1a7fee708e71c9f2f565f323a3028d350f62afd1",
+    "textFile": "content/research/n13-slp-state-railway.txt",
+    "textSha256": "b206bb447e5638ea073e26575f51bee27d5cd8738ec5de3b9be5e87b24580193"
+  },
+  "comparison": {
+    "readDerivedTextByteIdentical": true,
+    "rawResponseByteIdentical": true,
+    "allPreviousFactExcerptsPresent": true,
+    "bodyFactChangesRequired": [],
+    "previousFactCount": 1
+  }
+}

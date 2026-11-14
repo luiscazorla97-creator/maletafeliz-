@@ -1,0 +1,51 @@
+{
+  "id": "n13-ns-jr-relay",
+  "url": "https://www.jrkyushu.co.jp/english/train/relay_kamome.html",
+  "finalUrl": "https://www.jrkyushu.co.jp/english/train/relay_kamome.html",
+  "fetchedAt": "2026-11-14T17:09:15.301Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "ac6d9be58dd6478367c196523056cb52365ae04b0ea600fd0e72ab5204f578a2",
+  "rawFile": "content/research/revalidation/2026-11-14/raw/n13-ns-jr-relay.html",
+  "textFile": "content/research/revalidation/2026-11-14/raw/n13-ns-jr-relay.txt",
+  "textSha256": "693410aaebc2aeab8defae984347583a97945319f42c604bf7a8abb91cba2c1b",
+  "facts": [
+    {
+      "fact": "RelayKamome runs betweenHakata andTakeo-onsen and connects across the platform withNishiKyushuShinkansen.",
+      "excerpt": "Routing Hakata - Takeo-onsen",
+      "location": "Relay KAMOME > Routing",
+      "revalidatedAt": "2026-11-14T17:13:25.788571+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": " Info Company Summary Investor Relations Material Procurement Recommended Hardware / Software Kyushu Railway Company Current Operating Information JR Kyushu Official Twitter @jrkyushu_all_en Train Varieties Relay KAMOME Routing Hakata - Takeo-onsen On-board sales/Green Car services Please be advised that on-board sales and Green Car services are not available on “Relay KAMOME”. Timetable Timetable Timetables (major trains, 2026.3.14-2027.2.28) Click here for connection information. *Timetables may remain valid for only a few months. About Transfers to Nishi Kyushu Shinkansen About Transfers to Nishi Kyushu Shinkansen Transfer to a Limited express train that arrives the opposite of the same platform at Takeo-o",
+      "actuallyRead": true
+    }
+  ],
+  "notes": "ReadHakata–TakeoOnsenrouting andsame/oppositeplatform transfer note; donotassertdirectShinkansenHakata–Nagasaki.",
+  "actuallyRead": true,
+  "reviewedAt": "2026-11-14T17:13:25.788571+00:00",
+  "reviewer": "Codex source reviewer /root/revalidate_sources_n14",
+  "revalidationOf": {
+    "evidenceFile": "content/research/n13-ns-jr-relay.json",
+    "metadataSha256": "7df8b571ad8b26a59d3f4c819448e4968bc48dd9e40fbcd8f2b7f0c8f038357f",
+    "fetchedAt": "2026-11-13T17:06:02.275Z",
+    "rawFile": "content/research/raw/n13-ns-jr-relay.html",
+    "contentSha256": "dd2f900ad58a7a0499de5528d5914fd5f8a07ad6c46dd1b009ad30a1572ea372",
+    "textFile": "content/research/raw/n13-ns-jr-relay.txt",
+    "textSha256": "693410aaebc2aeab8defae984347583a97945319f42c604bf7a8abb91cba2c1b",
+    "originalRecordAndRawArchivesPreserved": true
+  },
+  "comparison": {
+    "rawBodyIdentical": false,
+    "visibleTextSameUnderSameExtractor": true,
+    "locatedOldFactExcerptsPresent": 1,
+    "bodyFactChangesRequired": [],
+    "sourceVisibleChangesRead": []
+  },
+  "additionalReadPassages": [
+    {
+      "term": "About Transfers to Nishi",
+      "actuallyRead": true,
+      "passage": "s and Green Car services are not available on “Relay KAMOME”. Timetable Timetable Timetables (major trains, 2026.3.14-2027.2.28) Click here for connection information. *Timetables may remain valid for only a few months. About Transfers to Nishi Kyushu Shinkansen About Transfers to Nishi Kyushu Shinkansen Transfer to a Limited express train that arrives the opposite of the same platform at Takeo-onsen Station.(Please purchase a Shinkansen/Limited express ticket covering your traveling distance in advance of boarding.) *If you are traveling to Nagasaki, please make a transit from Limited express to Nishi Kyushu Shinkansen at Takeo Onsen Station. *If you transfer to the \"\"Nishi Kyushu Shinkansen KAMOME\"\" without exiting the ticket gate on the day of boarding, a single ticket will be issued. In this case, your reservations for the continual reserved seats (free) with the JR Kyushu Rail Pass will be counted together as one. *\"\"Relay KAMOME\"\" and \"\"Nishi Kyushu Shinkansen KAMOME\"\" are not covered by the JR KYUSHU RAIL PASS Online Booking service. If you are a JR Kyushu Rail Pass holder and would like to reserve a seat, please contact us to inquire at the ticket counter in a JR station after your arrival in Japan. (If you would lik"
+    }
+  ]
+}

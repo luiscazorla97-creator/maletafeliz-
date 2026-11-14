@@ -1,0 +1,86 @@
+{
+  "id": "megane-file-page",
+  "url": "https://commons.wikimedia.org/wiki/File:Megane_Bridge_in_Nagasaki,_Japan,_20240815_1441_3704.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Megane_Bridge_in_Nagasaki,_Japan,_20240815_1441_3704.jpg",
+  "fetchedAt": "2026-11-13T17:01:43.321Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "93ed8d8df3a1be88ca509de95324294096c7c0e53bdb3d1ebe0502bfc2cabad8",
+  "bytes": 135984,
+  "rawFile": "content/research/raw/n13-ns-photo-megane-file-page.html",
+  "textFile": "content/research/raw/n13-ns-photo-megane-file-page.txt",
+  "textSha256": "2d0d2ce63467c1f8f1a452f08b0413fd9b9887981ad820f123b681739baebc7c",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The specific file page was actually read and identifies the named creator and selected copyright licence. The provided file is an archival documentary photograph of the named Nagasaki place.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution 4.0 International license.",
+      "location": "Individual Commons file page: Information/Summary and selected Licensing box; author and date retained in attribution."
+    },
+    {
+      "fact": "Source-identified subject and date were compared with an actual visual inspection of the provided and optimized photograph.",
+      "excerpt": "Megane Bridge in Nagasaki, Japan",
+      "location": "Specific file Description/Date/Author fields, API metadata and actual contact-sheet inspection."
+    },
+    {
+      "fact": "The applicable Creative Commons deed was actually read: commercial sharing/adaptation is permitted with attribution, licence link, indication of changes and ShareAlike where selected. No endorsement is implied.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Retained applicable PD-self template or Creative Commons deed, explicit permission and conditions."
+    },
+    {
+      "fact": "The API-provided rendition was downloaded over ordinary HTTPS and retained byte-for-byte. Dimensions and SHA256 were measured. Four responsive WebP files were generated, decoded and hashed without enlargement or cropping.",
+      "excerpt": "Provided rendition, actual download capture and optimized-file inventory; no full-resolution upstream original download is claimed.",
+      "location": "downloadCapture, upstreamSource, providedOriginals and optimizedFiles inventories."
+    }
+  ],
+  "notes": "Archive documentary image, not evidence of present-day opening, works, events or unchanged appearance. A copyright licence does not itself grant property access, commercial filming permission or override a venue contract. Same selected copyright licence retained on resized derivatives.",
+  "licenseDeedCapture": {
+    "id": "deed-cc-by-4",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "fetchedAt": "2026-11-13T17:01:44.724Z",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentSha256": "8dda1ccec4be91fc80821d4e4fd5c568072b9a3a74b2fdc07c249a27e920ef01",
+    "bytes": 31950,
+    "rawFile": "content/research/raw/n13-ns-photo-deed-cc-by-4.html",
+    "textFile": "content/research/raw/n13-ns-photo-deed-cc-by-4.txt",
+    "textSha256": "cf37e676279f78e4df9ac8dce6509362dacef1294c22254aa16a67ba9bc035c7",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "id": "megane-provided-image",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Megane_Bridge_in_Nagasaki%2C_Japan%2C_20240815_1441_3704.jpg/1280px-Megane_Bridge_in_Nagasaki%2C_Japan%2C_20240815_1441_3704.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Megane_Bridge_in_Nagasaki%2C_Japan%2C_20240815_1441_3704.jpg/1280px-Megane_Bridge_in_Nagasaki%2C_Japan%2C_20240815_1441_3704.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fetchedAt": "2026-11-13T17:02:13.636Z",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "6406865dd4ea0531122d4d6b4b6eeb7513165ba4e91e2dbdc275ff8ffff3b2de",
+    "bytes": 458439,
+    "rawFile": "content/images/originals/n13-ns-megane.jpg",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "title": "File:Megane Bridge in Nagasaki, Japan, 20240815 1441 3704.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Megane_Bridge_in_Nagasaki%2C_Japan%2C_20240815_1441_3704.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5756,
+    "height": 3843,
+    "bytes": 22212466,
+    "dateTaken": "15 August 2024, 14:41:43",
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Megane_Bridge_in_Nagasaki%2C_Japan%2C_20240815_1441_3704.jpg/1280px-Megane_Bridge_in_Nagasaki%2C_Japan%2C_20240815_1441_3704.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "publicGeo": {
+      "latitude": "32.746829",
+      "longitude": "129.879420"
+    }
+  },
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent",
+    "reviewedAt": "2026-11-13T17:06:40.330Z",
+    "actuallyViewed": true,
+    "observation": "The twin stone arches and their reflection over the river are visible, with the urban embankments. The photograph is not the nearby tram stop or another Megane bridge.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n13/nagasaki/photos/photo-contact-final.jpg",
+    "contactSha256": "b26dc8832ad621061264a888fbbe2f03b9b957da83b3b41bee6829eb07493277"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "n13-slp-park-faq",
+  "url": "https://cecurt.slp.gob.mx/faq/",
+  "finalUrl": "https://cecurt.slp.gob.mx/faq/",
+  "fetchedAt": "2026-11-14T17:09:18.243Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "a6ffcdb6ea61a4ae09057cd49103e120e579b0084d216d9fc925b6173945709d",
+  "rawFile": "content/research/revalidation/2026-11-14/raw/n13-slp-park-faq.html",
+  "textFile": "content/research/revalidation/2026-11-14/raw/n13-slp-park-faq.txt",
+  "textSha256": "710058f2251bd0027e5b26ba4edb991e888e12342b0b5a4011202acc8e496109",
+  "facts": [
+    {
+      "fact": "TangamangaI Mondaymaintenancehours05–11,lastentry10:30.",
+      "excerpt": "Lunes: \n5:00 am a 11:00 am \ncon el ultimo acceso a las 10:30 horas",
+      "location": "Actual retained raw-derived text read; named main content and visitor-information blocks, excluding navigation.",
+      "revalidatedAt": "2026-11-14T17:11:46.271004+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "d Normatividad SEvAC SIA Transparencia Lugares Preguntas Frecuentes horario del parque Tangamanga I Lunes: 5:00 am a 11:00 am con el ultimo acceso a las 10:30 horas horario por mantenimiento y limpieza. Martes a Sábado: 5:00 am a 22:30 pm con el ultimo acceso a las 21:30 horas Domingo: 5:00 am a 18:00 horas con el ultimo a",
+      "actuallyRead": true
+    },
+    {
+      "fact": "Tuesday–Saturday05–22:30,lastentry21:30; typographicpmnotinterpretedasextra24hours.",
+      "excerpt": "con el ultimo acceso a las 21:30 horas",
+      "location": "Actual retained raw-derived text read; named main content and visitor-information blocks, excluding navigation.",
+      "revalidatedAt": "2026-11-14T17:11:46.271004+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": " acceso a las 10:30 horas horario por mantenimiento y limpieza. Martes a Sábado: 5:00 am a 22:30 pm con el ultimo acceso a las 21:30 horas Domingo: 5:00 am a 18:00 horas con el ultimo acceso a las 17:00 horas teléfono y correo electrónico para info. parque Tangamanga I AV. SALVADOR NAVA MARTÍNEZ 3",
+      "actuallyRead": true
+    },
+    {
+      "fact": "Sunday05–18,lastentry17.",
+      "excerpt": "5:00 am a 18:00 horas\ncon el ultimo acceso a las 17:00 horas",
+      "location": "Actual retained raw-derived text read; named main content and visitor-information blocks, excluding navigation.",
+      "revalidatedAt": "2026-11-14T17:11:46.271004+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "nto y limpieza. Martes a Sábado: 5:00 am a 22:30 pm con el ultimo acceso a las 21:30 horas Domingo: 5:00 am a 18:00 horas con el ultimo acceso a las 17:00 horas teléfono y correo electrónico para info. parque Tangamanga I AV. SALVADOR NAVA MARTÍNEZ 3055 FRAC. TANGAMANGASAN LUIS POTOSÍ, SLP CP: 78260 TEL: 01 (444) 817-6",
+      "actuallyRead": true
+    },
+    {
+      "fact": "FAQ saysUMA/zootemporarilyclosedforrenovation; do notpromiseopenzoo.",
+      "excerpt": "Temporalmente cerrado por remodelación.",
+      "location": "Actual retained raw-derived text read; named main content and visitor-information blocks, excluding navigation.",
+      "revalidatedAt": "2026-11-14T17:11:46.271004+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "5 AVIACIÓN INDUSTRIAL CP: 78140 San Luis Potosí, SLP TEL: (444) 475-23-85 horario del Zoológico UMA Temporalmente cerrado por remodelación. horarios gimnasio de alto rendimiento del Parque Tangamanga 1? Horario: lunes de 6:00 a 11:00 horas; martes a viernes de 6:00 a 21:00 horas y sábado de 7:00 a ",
+      "actuallyRead": true
+    }
+  ],
+  "notes": "Read full fresh FAQ. Monday05–11last10:30; Tue–Sat05–22:30last21:30; Sun05–18last17; explicit UMA temporary renovation closure all remain. Preserve source typographic22:30pm in capture, interpret article consistently as24h22:30. Supplementary fresh14November evidence only. Original13NovemberprimaryJSON/raw/text and article citations are preserved; this is not final article/publication approval.",
+  "actuallyRead": true,
+  "reviewedAt": "2026-11-14T17:11:46.271004+00:00",
+  "revalidationOf": {
+    "primaryEvidenceFile": "content/research/n13-slp-park-faq.json",
+    "metadataSha256": "242d1372858dc563cbda62ae6edd100cf49811ab45f87ed188b5897f598a6704",
+    "fetchedAt": "2026-11-13T17:07:39.940Z",
+    "url": "https://cecurt.slp.gob.mx/faq/",
+    "finalUrl": "https://cecurt.slp.gob.mx/faq/",
+    "rawFile": "content/research/n13-slp-park-faq.raw",
+    "contentSha256": "a6ffcdb6ea61a4ae09057cd49103e120e579b0084d216d9fc925b6173945709d",
+    "textFile": "content/research/n13-slp-park-faq.txt",
+    "textSha256": "710058f2251bd0027e5b26ba4edb991e888e12342b0b5a4011202acc8e496109"
+  },
+  "comparison": {
+    "readDerivedTextByteIdentical": true,
+    "rawResponseByteIdentical": true,
+    "allPreviousFactExcerptsPresent": true,
+    "bodyFactChangesRequired": [],
+    "previousFactCount": 4
+  }
+}

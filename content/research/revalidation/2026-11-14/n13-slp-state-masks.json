@@ -1,0 +1,44 @@
+{
+  "id": "n13-slp-state-masks",
+  "url": "https://slp.gob.mx/lugares/museo-nacional-de-la-mascara/",
+  "finalUrl": "https://slp.gob.mx/lugares/museo-nacional-de-la-mascara/",
+  "fetchedAt": "2026-11-14T17:09:21.192Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentSha256": "963ea3f1213cde51a9c7f12a9ac905819416cf2b51364e3a8e3ac20eb3b63a6d",
+  "rawFile": "content/research/revalidation/2026-11-14/raw/n13-slp-state-masks.html",
+  "textFile": "content/research/revalidation/2026-11-14/raw/n13-slp-state-masks.txt",
+  "textSha256": "341c5d61617914b3557f3a68453138c7fea96202570aa7155e1b12f71198e749",
+  "facts": [
+    {
+      "fact": "StateGovernmentconfirmsNationalMaskMuseumaddressVillerías2.",
+      "excerpt": "Villerías 2,, San Luis Potosí Centro, 78000, San Luis Potosí, San Luis Potosí, México",
+      "location": "Actual retained raw-derived text read; named main content and visitor-information blocks, excluding navigation.",
+      "revalidatedAt": "2026-11-14T17:11:46.271004+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": " NACIONAL DE LA MÁSCARA MUSEOS MUSEO NACIONAL DE LA MÁSCARA MUSEO NACIONAL DE LA MÁSCARA Dirección: Villerías 2,, San Luis Potosí Centro, 78000, San Luis Potosí, San Luis Potosí, México Ver en Mapa Fecha de Actualización: 17/02/2026 Preguntas Frecuentes Sitios Recomendados Periódico Oficial Números de Emergencia Protección Civil - 4448143028 B",
+      "actuallyRead": true
+    }
+  ],
+  "notes": "Read fresh named museum address block: Villerias2, capital historiccentre. Same page updated17Feb2026; no invented daily opening schedule. Supplementary fresh14November evidence only. Original13NovemberprimaryJSON/raw/text and article citations are preserved; this is not final article/publication approval.",
+  "actuallyRead": true,
+  "reviewedAt": "2026-11-14T17:11:46.271004+00:00",
+  "revalidationOf": {
+    "primaryEvidenceFile": "content/research/n13-slp-state-masks.json",
+    "metadataSha256": "4a0ba00b6ea38f5e81a1ba2efea9c58742362dc5694853a3731eb0d9ea4034d8",
+    "fetchedAt": "2026-11-13T17:06:46.026Z",
+    "url": "https://slp.gob.mx/lugares/museo-nacional-de-la-mascara/",
+    "finalUrl": "https://slp.gob.mx/lugares/museo-nacional-de-la-mascara/",
+    "rawFile": "content/research/n13-slp-state-masks.raw",
+    "contentSha256": "963ea3f1213cde51a9c7f12a9ac905819416cf2b51364e3a8e3ac20eb3b63a6d",
+    "textFile": "content/research/n13-slp-state-masks.txt",
+    "textSha256": "341c5d61617914b3557f3a68453138c7fea96202570aa7155e1b12f71198e749"
+  },
+  "comparison": {
+    "readDerivedTextByteIdentical": true,
+    "rawResponseByteIdentical": true,
+    "allPreviousFactExcerptsPresent": true,
+    "bodyFactChangesRequired": [],
+    "previousFactCount": 1
+  }
+}

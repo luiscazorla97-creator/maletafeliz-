@@ -1,0 +1,100 @@
+{
+  "id": "glover-file-page",
+  "url": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5415.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5415.jpg",
+  "fetchedAt": "2026-11-13T17:01:42.456Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "f6776941d59e6ab431136a447d0cc9e0c8917de30bfb0d6f14cf7ffc9667196c",
+  "bytes": 103555,
+  "rawFile": "content/research/raw/n13-ns-photo-glover-file-page.html",
+  "textFile": "content/research/raw/n13-ns-photo-glover-file-page.txt",
+  "textSha256": "41bb70b9fca19125f8867110c50f87a0065d6bfe9e28fdc916479e6c78cdd6fa",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The specific file page was actually read and identifies the named creator and selected copyright licence. The provided file is an archival documentary photograph of the named Nagasaki place.",
+      "excerpt": "I, the copyright holder of this work, release this work into the public domain .",
+      "location": "Individual Commons file page: Information/Summary and selected Licensing box; author and date retained in attribution."
+    },
+    {
+      "fact": "Source-identified subject and date were compared with an actual visual inspection of the provided and optimized photograph.",
+      "excerpt": "旧グラバー住宅",
+      "location": "Specific file Description/Date/Author fields, API metadata and actual contact-sheet inspection."
+    },
+    {
+      "fact": "The photographer explicitly released the photo to the public domain worldwide, permitting any purpose to the extent legally possible. No commercial on-site photography or venue-contract permission is claimed.",
+      "excerpt": "I grant anyone the right to use this work for any purpose , without any conditions, unless such conditions are required by law.",
+      "location": "Retained applicable PD-self template or Creative Commons deed, explicit permission and conditions."
+    },
+    {
+      "fact": "The API-provided rendition was downloaded over ordinary HTTPS and retained byte-for-byte. Dimensions and SHA256 were measured. Four responsive WebP files were generated, decoded and hashed without enlargement or cropping.",
+      "excerpt": "Provided rendition, actual download capture and optimized-file inventory; no full-resolution upstream original download is claimed.",
+      "location": "downloadCapture, upstreamSource, providedOriginals and optimizedFiles inventories."
+    }
+  ],
+  "notes": "Archive documentary image, not evidence of present-day opening, works, events or unchanged appearance. A copyright licence does not itself grant property access, commercial filming permission or override a venue contract. Same selected copyright licence retained on resized derivatives.",
+  "licenseDeedCapture": {
+    "id": "deed-pd-self",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+    "finalUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+    "fetchedAt": "2026-11-13T17:01:45.543Z",
+    "httpStatus": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "contentSha256": "ad73d2dabc10c767de89cf42e5ee59b6e7bac425d9d17cc482580e639c6785a8",
+    "bytes": 115614,
+    "rawFile": "content/research/raw/n13-ns-photo-deed-pd-self.html",
+    "textFile": "content/research/raw/n13-ns-photo-deed-pd-self.txt",
+    "textSha256": "4833b0f33bbb43727f4d57888bdc8cea53216c129e2487755137bd60615f5365",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "id": "glover-provided-image",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Nagasaki-Glover-Garden-5415.jpg/1280px-Nagasaki-Glover-Garden-5415.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Nagasaki-Glover-Garden-5415.jpg/1280px-Nagasaki-Glover-Garden-5415.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fetchedAt": "2026-11-13T17:02:10.259Z",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "b247ca5b3fe61e4ea624d6d9baaca4ac731816b264a91c9975624d5db054f2b7",
+    "bytes": 326624,
+    "rawFile": "content/images/originals/n13-ns-glover.jpg",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "title": "File:Nagasaki-Glover-Garden-5415.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Nagasaki-Glover-Garden-5415.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1500,
+    "height": 1000,
+    "bytes": 700725,
+    "dateTaken": "2007",
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Nagasaki-Glover-Garden-5415.jpg/1280px-Nagasaki-Glover-Garden-5415.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "publicGeo": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent",
+    "reviewedAt": "2026-11-13T17:06:39.823Z",
+    "actuallyViewed": true,
+    "observation": "The low former Glover residence, tiled roof, front veranda and garden approach are clearly visible; no generated elements, seasonal event claim or current-access inference.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n13/nagasaki/photos/photo-contact-final.jpg",
+    "contactSha256": "b26dc8832ad621061264a888fbbe2f03b9b957da83b3b41bee6829eb07493277"
+  },
+  "venueConditionContext": {
+    "sourceFile": "content/research/n13-ns-glover-guide.json",
+    "sourceFileSha256": "7a766844617a5efd3997b31ca2eaa48ee40ce5ee772e4999e0d4260601d2a02c",
+    "sourceUrl": "https://glover-garden.jp/guide/",
+    "officialRawSha256": "b89faa7126edea7ba36382de949aeeb17217807a0f99946554f24c8a01a8a853",
+    "notice": "Current visitor photography rules allow individual enjoyment but require prior permission for commercial-purpose use and prohibit disruptive filming/drones; see the full official capture.",
+    "scope": "A current on-site photography condition is retained separately from the2007 photographer public-domain dedication. No new on-site shoot, venue booking, commercial filming or permission request was commissioned; no assertion that PD copyright waiver overrides venue contracts.",
+    "rootDecisionRequired": "Root review should retain this distinction in visitor guidance and rights notes; no explicit third-party archival-PD-reuse ban was identified in the retained notice.",
+    "originalParentSourceFile": "content/research/n13-ns-glover-guide.json",
+    "actuallyReadByPhotoReviewer": true,
+    "excerpt": "その他、商用目的でのご使用を希望される場合は、事前に許可が必要となります。",
+    "location": "Official Glover Garden visitor guide, 撮影 heading, after the prohibited disruptive/livestream and drone-filming bullets.",
+    "originalSourceFileSha256": "39b8a3d41f24f3b2e1e712649271cb509039a76fff5b9564947a7e759eb36688"
+  }
+}

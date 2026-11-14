@@ -1,0 +1,56 @@
+{
+  "id": "n13-ns-dejima-tourism",
+  "url": "https://www.discover-nagasaki.com/en/sightseeing/63",
+  "finalUrl": "https://www.discover-nagasaki.com/en/sightseeing/63",
+  "fetchedAt": "2026-11-14T17:09:10.026Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "a09caa6fbfe8bc7b7a391f817dc42a37fb067ceb50fd477320a5dfe9934676cc",
+  "rawFile": "content/research/revalidation/2026-11-14/raw/n13-ns-dejima-tourism.html",
+  "textFile": "content/research/revalidation/2026-11-14/raw/n13-ns-dejima-tourism.txt",
+  "textSha256": "1d75feeb2266ccae54e71ccf93a7f22c4406e51ee64d31e39b6abe4ee40867ca",
+  "facts": [
+    {
+      "fact": "The Dejima exhibitions address trade and cultural exchange, with models/graphics and archaeological finds in the former stone warehouse.",
+      "excerpt": "contains exhibits of archeological finds on Dejima.",
+      "location": "See & Do > Dejima description",
+      "revalidatedAt": "2026-11-14T17:13:25.788571+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "ure. It is full of highly interesting discoveries as well as buildings currently undergoing restoration. For example, the annex building, a restored former stone warehouse constructed after Japan's opening to the world, contains exhibits of archeological finds on Dejima. Information Address 850-0862 長崎県長崎市出島町6-1 TEL 095-821-7200 FAX 095-826-0335 Hours of Operation 8:00～21:00（Last entry at 20:40） Price JPY 1,100 Website https://nagasakidejima.jp/english/ Nearby Sightseeing Spots Irohaya Dejima-Honten store Nagasaki Dejima Wharf Nagasaki Prefectural Art Museum Nagasaki Chinatown Mid-Autumn Moon Festival Shinchi Chinatown Noguchi Yataro Art Museum Nagasaki Port Ohato Terminal Hamanmachi Arcade Dutch Slope Higashi Yamate 13 Higashi Yam",
+      "actuallyRead": true
+    }
+  ],
+  "notes": "Read all cited factualpassages withsurroundingcontext; no changes todevelopedplaces/history/access facts. Tourismviewcounts/promotionalrankings areexcludedfromarticleclaims.",
+  "actuallyRead": true,
+  "reviewedAt": "2026-11-14T17:13:25.788571+00:00",
+  "reviewer": "Codex source reviewer /root/revalidate_sources_n14",
+  "revalidationOf": {
+    "evidenceFile": "content/research/n13-ns-dejima-tourism.json",
+    "metadataSha256": "d29b41fec48fde08a0f3d73f1b6734bd77cd933cab22c94686018611cfd0e55a",
+    "fetchedAt": "2026-11-13T17:01:29.771Z",
+    "rawFile": "content/research/raw/n13-ns-dejima-tourism.html",
+    "contentSha256": "65dd42eec7ed284baadedcac137251796ccaebf22cb58454c9cb80bcbffc167a",
+    "textFile": "content/research/raw/n13-ns-dejima-tourism.txt",
+    "textSha256": "046b71918de03de61913221afee40e0790daef75c7a300b6a262a35219f4f121",
+    "originalRecordAndRawArchivesPreserved": true
+  },
+  "comparison": {
+    "rawBodyIdentical": false,
+    "visibleTextSameUnderSameExtractor": false,
+    "locatedOldFactExcerptsPresent": 1,
+    "bodyFactChangesRequired": [],
+    "sourceVisibleChangesRead": [
+      {
+        "id": "n13-ns-dejima-tourism",
+        "changes": [
+          {
+            "tag": "replace",
+            "old": "tion period. Area Nagasaki City Category History＆Culture 1058644 views View in slideshow mode Dejima Protestant Seminary, a ",
+            "new": "tion period. Area Nagasaki City Category History＆Culture 1059099 views View in slideshow mode Dejima Protestant Seminary, a "
+          }
+        ]
+      }
+    ]
+  },
+  "additionalReadPassages": []
+}

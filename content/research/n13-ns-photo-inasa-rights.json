@@ -1,0 +1,86 @@
+{
+  "id": "inasa-file-page",
+  "url": "https://commons.wikimedia.org/wiki/File:Nagasaki_panorama_from_Mount_Inasa_02.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Nagasaki_panorama_from_Mount_Inasa_02.jpg",
+  "fetchedAt": "2026-11-13T17:01:44.242Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "1a064a4f5a50ab35d322277e3d3cb50a7ba8973cea9989976027ed5460e1e75b",
+  "bytes": 91079,
+  "rawFile": "content/research/raw/n13-ns-photo-inasa-file-page.html",
+  "textFile": "content/research/raw/n13-ns-photo-inasa-file-page.txt",
+  "textSha256": "d5dce0af5e8c116f134e3fb50f6626a870260d0adbf2b0d2f4524fb7874510bb",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The specific file page was actually read and identifies the named creator and selected copyright licence. The provided file is an archival documentary photograph of the named Nagasaki place.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported , 2.5 Generic , 2.0 Generic and 1.0 Generic license.",
+      "location": "Individual Commons file page: Information/Summary and selected Licensing box; author and date retained in attribution."
+    },
+    {
+      "fact": "Source-identified subject and date were compared with an actual visual inspection of the provided and optimized photograph.",
+      "excerpt": "Nagasaki city panorama from Mount Inasa",
+      "location": "Specific file Description/Date/Author fields, API metadata and actual contact-sheet inspection."
+    },
+    {
+      "fact": "The applicable Creative Commons deed was actually read: commercial sharing/adaptation is permitted with attribution, licence link, indication of changes and ShareAlike where selected. No endorsement is implied.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Retained applicable PD-self template or Creative Commons deed, explicit permission and conditions."
+    },
+    {
+      "fact": "The API-provided rendition was downloaded over ordinary HTTPS and retained byte-for-byte. Dimensions and SHA256 were measured. Four responsive WebP files were generated, decoded and hashed without enlargement or cropping.",
+      "excerpt": "Provided rendition, actual download capture and optimized-file inventory; no full-resolution upstream original download is claimed.",
+      "location": "downloadCapture, upstreamSource, providedOriginals and optimizedFiles inventories."
+    }
+  ],
+  "notes": "Archive documentary image, not evidence of present-day opening, works, events or unchanged appearance. A copyright licence does not itself grant property access, commercial filming permission or override a venue contract. Same selected copyright licence retained on resized derivatives.",
+  "licenseDeedCapture": {
+    "id": "deed-cc-by-sa-3",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "fetchedAt": "2026-11-13T17:01:45.365Z",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentSha256": "9a17cd36de36b242cbe4234773116f2036f86a8ce4459af8b37fd120482ca931",
+    "bytes": 35431,
+    "rawFile": "content/research/raw/n13-ns-photo-deed-cc-by-sa-3.html",
+    "textFile": "content/research/raw/n13-ns-photo-deed-cc-by-sa-3.txt",
+    "textSha256": "0deb7e4e5475e4177927d351bae871d0e9f1963199c0db64cefda9d9dc1326ae",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "id": "inasa-provided-image",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Nagasaki_panorama_from_Mount_Inasa_02.jpg/1280px-Nagasaki_panorama_from_Mount_Inasa_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Nagasaki_panorama_from_Mount_Inasa_02.jpg/1280px-Nagasaki_panorama_from_Mount_Inasa_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fetchedAt": "2026-11-13T17:02:17.822Z",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "1d226aa7aa1aa1d1f36541cccfb613bb24bc9c3abc5fd54b5dd602086291afa4",
+    "bytes": 318919,
+    "rawFile": "content/images/originals/n13-ns-inasa.jpg",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "title": "File:Nagasaki panorama from Mount Inasa 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Nagasaki_panorama_from_Mount_Inasa_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2048,
+    "height": 1536,
+    "bytes": 540426,
+    "dateTaken": "2010-08-24",
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Nagasaki_panorama_from_Mount_Inasa_02.jpg/1280px-Nagasaki_panorama_from_Mount_Inasa_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "publicGeo": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent",
+    "reviewedAt": "2026-11-13T17:06:40.771Z",
+    "actuallyViewed": true,
+    "observation": "An elevated daytime city and harbor panorama from the source-identified Mount Inasa viewpoint, with foreground vegetation and surrounding hills. It is not represented as a current skyline or guaranteed night view.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n13/nagasaki/photos/photo-contact-final.jpg",
+    "contactSha256": "b26dc8832ad621061264a888fbbe2f03b9b957da83b3b41bee6829eb07493277"
+  }
+}

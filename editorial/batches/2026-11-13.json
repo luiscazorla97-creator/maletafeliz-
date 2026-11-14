@@ -2,7 +2,7 @@
   "id": "2026-11-13",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-13T17:19:56.838Z",
-  "status": "reserved-for-reviewed-continuation",
+  "status": "reviewed-for-release",
   "topicIds": [
     "san-luis-potosi",
     "nagasaki"
@@ -15,7 +15,7 @@
     "executionId": "6f16953e-24be-45be-b52a-9ac619f49133",
     "baseCommit": "43ec749a8ba8d89a2098203ed2c09c2335734072",
     "startedAt": "2026-11-13T16:56:11.000Z",
-    "heartbeatAt": "2026-11-14T17:28:44.770090+00:00",
+    "heartbeatAt": "2026-11-14T17:37:46.918Z",
     "leaseUntil": "2026-11-14T23:28:44.770090+00:00",
     "status": "in-progress",
     "previousLeaseUntil": "2026-11-13T23:18:03.431273+00:00",
@@ -41,5 +41,18 @@
     "scheduleChanged": false
   },
   "countingPolicy": "FirstpublicationdayAmerica/New_York; lateclosureoftheNov12manual15doesnotcreateNov13originals.",
-  "preparedForNewYorkPublicationDate": "2026-11-14"
+  "reviewedAt": "2026-11-14T17:37:46.918Z",
+  "originalsPrepared": 2,
+  "localizedVersionsPrepared": 4,
+  "documentaryPhotoCount": 10,
+  "photos": 10,
+  "newPhotoMetadataRecords": 10,
+  "optimizedPhotoFiles": 45,
+  "newOptimizedFiles": 45,
+  "reusedOptimizedFiles": 0,
+  "providedOriginals": 10,
+  "sourceDocuments": 25,
+  "preparedForNewYorkPublicationDate": "2026-11-14",
+  "revalidatedOfficialDocuments": 25,
+  "supplementalRevalidationFiles": 75
 }

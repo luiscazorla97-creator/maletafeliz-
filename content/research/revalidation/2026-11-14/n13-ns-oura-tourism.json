@@ -1,0 +1,79 @@
+{
+  "id": "n13-ns-oura-tourism",
+  "url": "https://www.discover-nagasaki.com/en/sightseeing/102",
+  "finalUrl": "https://www.discover-nagasaki.com/en/sightseeing/102",
+  "fetchedAt": "2026-11-14T17:09:19.709Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "699f723c7aac0239873e9d8817693140eaa7c1d209d5eaa03b9f6da291ad02c4",
+  "rawFile": "content/research/revalidation/2026-11-14/raw/n13-ns-oura-tourism.html",
+  "textFile": "content/research/revalidation/2026-11-14/raw/n13-ns-oura-tourism.txt",
+  "textSha256": "a42f5b591d903d69964e121339e3a7370b0d6157ce00aa9047150e9f6561d6a4",
+  "facts": [
+    {
+      "fact": "Oura stands on a hill facing the port in the former foreign settlement; the church building was built in1864, with the appearance expanded in1879.",
+      "excerpt": "the church building itself was built in 1864.",
+      "location": "See & Do > Oura Cathedral history",
+      "revalidatedAt": "2026-11-14T17:13:25.788571+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": " Paris Foreign Missions Society selected the location to construct the church for use as the base of the Society’s mission in Nagasaki. Within the precincts of the cathedral, a parish house was built first in 1863, then the church building itself was built in 1864. It had a Gothic-style exterior with three belfries. The floor plan had three naves, and its façade had a building plaque just like Buddhist temples, reading ‘Tenshudo’ (literally meaning ‘church’). It was dedicated to the 26 Catholics who were martyred in Nagasaki in the 16th century and canonised in 1862. The building faces in the direction of Nishizaka, their martyrdom site. In 1865, soon after the dedication ceremony, a dozen Hidden Christians from Urakami Villa",
+      "actuallyRead": true
+    },
+    {
+      "fact": "The1865meeting with Hidden Christians is central to the site's history; the building is a component of the Hidden Christian heritage sites.",
+      "excerpt": "In 1865, soon after the dedication ceremony, a dozen Hidden Christians from Urakami Village",
+      "location": "See & Do > Discovery of Hidden Christians",
+      "revalidatedAt": "2026-11-14T17:13:25.788571+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "nshudo’ (literally meaning ‘church’). It was dedicated to the 26 Catholics who were martyred in Nagasaki in the 16th century and canonised in 1862. The building faces in the direction of Nishizaka, their martyrdom site. In 1865, soon after the dedication ceremony, a dozen Hidden Christians from Urakami Village in Nagasaki visited the church, and one of them approached Father Petitjean saying ‘We are of one heart with you’, and revealed their secret faith. News of this dramatic event, which came to be called the ‘Discovery of Hidden Christians’, immediately reached the Hidden Christian communities in the Nagasaki region, encouraging their leaders to visit the missionaries at the church as well. Such contact with the missionaries brought about a transitional phase of the H",
+      "actuallyRead": true
+    },
+    {
+      "fact": "The present scale and appearance followed enlargement in1879, so the current exterior should not be described as wholly unchanged since1864.",
+      "excerpt": "in 1879 the scale and the appearance of the building took on the form that is seen today.",
+      "location": "See & Do > later church history",
+      "revalidatedAt": "2026-11-14T17:13:25.788571+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "ians into the more conventional rituals and customs of Catholicism. The church building underwent extension work to deal with an increasing number of Catholics attending church services after the lifting of the ban, and in 1879 the scale and the appearance of the building took on the form that is seen today. Within its precincts, the Latin Seminary and the Catechist School were established for the purpose of training Japanese clergy. The Latin Seminary was constructed in 1875, and the Japanese graduates were sent to the remaining Hidden Christian communities following the first graduation ceremony in 1879. The Catechist School was established around 1883 in order to train catechists to give catechistical instruction in the remaining Hidden Christian villages, in place ",
+      "actuallyRead": true
+    }
+  ],
+  "notes": "Read all cited factualpassages withsurroundingcontext; no changes todevelopedplaces/history/access facts. Tourismviewcounts/promotionalrankings areexcludedfromarticleclaims.",
+  "actuallyRead": true,
+  "reviewedAt": "2026-11-14T17:13:25.788571+00:00",
+  "reviewer": "Codex source reviewer /root/revalidate_sources_n14",
+  "revalidationOf": {
+    "evidenceFile": "content/research/n13-ns-oura-tourism.json",
+    "metadataSha256": "84a0a57f97cc66329087d3614e661d6a1112cf64501f8311ede9aa6d5587c06b",
+    "fetchedAt": "2026-11-13T17:01:30.898Z",
+    "rawFile": "content/research/raw/n13-ns-oura-tourism.html",
+    "contentSha256": "f02bec0e3ace1a35df2bed20e59b318e41f03af1d7a0915d52db8cdc3d7f9c41",
+    "textFile": "content/research/raw/n13-ns-oura-tourism.txt",
+    "textSha256": "58daf6ad2b5b49d54b006c0d32d315906817d41760fe85c586c48848ffc7b877",
+    "originalRecordAndRawArchivesPreserved": true
+  },
+  "comparison": {
+    "rawBodyIdentical": false,
+    "visibleTextSameUnderSameExtractor": false,
+    "locatedOldFactExcerptsPresent": 3,
+    "bodyFactChangesRequired": [],
+    "sourceVisibleChangesRead": [
+      {
+        "id": "n13-ns-oura-tourism",
+        "changes": [
+          {
+            "tag": "insert",
+            "old": "ea Nagasaki City Category History＆Culture World Heritage 477076 views View in slideshow mode Oura Cathedral is one of th",
+            "new": "ea Nagasaki City Category History＆Culture World Heritage 477220 views View in slideshow mode Oura Cathedral is one of the "
+          },
+          {
+            "tag": "delete",
+            "old": "a Nagasaki City Category History＆Culture World Heritage 477076 views View in slideshow mode Oura Cathedral is one of the c",
+            "new": "Nagasaki City Category History＆Culture World Heritage 477220 views View in slideshow mode Oura Cathedral is one of the c"
+          }
+        ]
+      }
+    ]
+  },
+  "additionalReadPassages": []
+}

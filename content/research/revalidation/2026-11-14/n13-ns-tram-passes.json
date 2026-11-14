@@ -1,0 +1,63 @@
+{
+  "id": "n13-ns-tram-passes",
+  "url": "https://www.discover-nagasaki.com/en/featured-topics/usefultickets",
+  "finalUrl": "https://www.discover-nagasaki.com/en/featured-topics/usefultickets",
+  "fetchedAt": "2026-11-14T17:09:21.493Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "7518fdd58e87dd2e790b7a486f154a08c4bb6aeac183f754eba6e29d1b800436",
+  "rawFile": "content/research/revalidation/2026-11-14/raw/n13-ns-tram-passes.html",
+  "textFile": "content/research/revalidation/2026-11-14/raw/n13-ns-tram-passes.txt",
+  "textSha256": "8dd3d3a29c2032e0e73aacc2f7594fb271d2c4aec46aa5875ac818eb1354ca50",
+  "facts": [
+    {
+      "fact": "Nagasaki city tram offers mobile1day/24hour and paper1day passes, with different validity definitions; a calendar-day ticket is not automatically24hours.",
+      "excerpt": "When you purchase a-day use ticket, you can only use it during the date.",
+      "location": "Nagasaki city > One-day /24hour Pass for Nagasaki City Tram",
+      "revalidatedAt": "2026-11-14T17:13:25.788571+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "can be quickly purchased. After your purchase is confirmed, you can freely travel around Nagasaki city by showing a screen of your smartphone when you get off. You can select the length of validity from 1day or 24hour. *When you purchase a-day use ticket, you can only use it during the date. Whereus, for 24-hour use, you can use the ticket even crossing over the days when its within 24 hours. ２．One-day Pass (Paper) Paper passes can be purchased at specified locations in Nagasaki city including Nagasaki city general tourist information center. Regarding other locations, here would be helpful. (Japanese only) Note; Ticket is not sold in the tram and you need to buy it before you get on. For the first-time visitors, general information for taking trams (i",
+      "actuallyRead": true
+    },
+    {
+      "fact": "The paper tram day pass is not sold on the tram and must be bought before boarding.",
+      "excerpt": "Ticket is not sold in the tram and you need to buy it before you get on.",
+      "location": "One-day Pass (Paper)",
+      "revalidatedAt": "2026-11-14T17:13:25.788571+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "-day Pass (Paper) Paper passes can be purchased at specified locations in Nagasaki city including Nagasaki city general tourist information center. Regarding other locations, here would be helpful. (Japanese only) Note; Ticket is not sold in the tram and you need to buy it before you get on. For the first-time visitors, general information for taking trams (including how to board and exit, etc...) in Nagasaki city is on website . One-day Pass (Mobile) 24-hour Pass (Mobile) One-day Pass (Paper) *in Japanese One-Day/24-hours Pass for Nagasaki Bus, Nagasaki city This pass can be used for one day of unlimited bus rides within the designated area of Nagasaki City and there are 2ways (mobile/paper) to purchase the pass. １．One-day/24-hour Pass (Mobile) You ca",
+      "actuallyRead": true
+    },
+    {
+      "fact": "Nagasaki Bus has its own1day/24hour options within designated areas, separate from the tram offer; a visitor should check operator and coverage.",
+      "excerpt": "within the designated area of Nagasaki City",
+      "location": "One-Day/24-hours Pass for Nagasaki Bus",
+      "revalidatedAt": "2026-11-14T17:13:25.788571+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": " Nagasaki city is on website . One-day Pass (Mobile) 24-hour Pass (Mobile) One-day Pass (Paper) *in Japanese One-Day/24-hours Pass for Nagasaki Bus, Nagasaki city This pass can be used for one day of unlimited bus rides within the designated area of Nagasaki City and there are 2ways (mobile/paper) to purchase the pass. １．One-day/24-hour Pass (Mobile) You can confirm purchase proceedings via mobile application and select the length of validity from 1day or 24hour. ２．One-day Pass (Paper) Paper passes can be purchased at Nagasaki Shichi Bus Terminal , Cocowalk Service Center , Nagasaki City General Tourist Information Center (inside Nagasaki Station）and each Nagasaki Bus business office. *When you purchase a-day use ticket, yo",
+      "actuallyRead": true
+    }
+  ],
+  "notes": "Readmobile1day/24hourvaliditydistinction,paperpassnotonboard, separateNagasakiBusproducts/coverage. No universalall-operatorpassclaim.",
+  "actuallyRead": true,
+  "reviewedAt": "2026-11-14T17:13:25.788571+00:00",
+  "reviewer": "Codex source reviewer /root/revalidate_sources_n14",
+  "revalidationOf": {
+    "evidenceFile": "content/research/n13-ns-tram-passes.json",
+    "metadataSha256": "08c838afce3c3d30fea344721da212e077e70c57ce664070f1cea72f81187283",
+    "fetchedAt": "2026-11-13T17:02:39.733Z",
+    "rawFile": "content/research/raw/n13-ns-tram-passes.html",
+    "contentSha256": "6148643f85a90635836a17d45ebe8e997ff4eafd7b5b1a12d06a8ebbfaaf331e",
+    "textFile": "content/research/raw/n13-ns-tram-passes.txt",
+    "textSha256": "6d880780f30b41627e0f1f12f5d426cf64e9798911244c1419912762f41ea564",
+    "originalRecordAndRawArchivesPreserved": true
+  },
+  "comparison": {
+    "rawBodyIdentical": false,
+    "visibleTextSameUnderSameExtractor": true,
+    "locatedOldFactExcerptsPresent": 3,
+    "bodyFactChangesRequired": [],
+    "sourceVisibleChangesRead": []
+  },
+  "additionalReadPassages": []
+}

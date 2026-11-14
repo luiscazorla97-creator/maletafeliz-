@@ -1,0 +1,70 @@
+{
+  "id": "n13-ns-inasa-tourism",
+  "url": "https://www.discover-nagasaki.com/en/sightseeing/115",
+  "finalUrl": "https://www.discover-nagasaki.com/en/sightseeing/115",
+  "fetchedAt": "2026-11-14T17:09:14.381Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "9addb1cf9688ceae4a3d6bd3259c8ac0149214d1b43d307dd7036d5fdebf3e82",
+  "rawFile": "content/research/revalidation/2026-11-14/raw/n13-ns-inasa-tourism.html",
+  "textFile": "content/research/revalidation/2026-11-14/raw/n13-ns-inasa-tourism.txt",
+  "textSha256": "6532188b062853b28e6983859bcda1ef837693da9b6ee5a461a8454581855d32",
+  "facts": [
+    {
+      "fact": "MountInasa rises333m and its summit observatory provides a panoramic view of the city, coastline and port; distant visibility depends on clear weather.",
+      "excerpt": "Rising 333 meters above sea level",
+      "location": "See & Do > Mt Inasa",
+      "revalidatedAt": "2026-11-14T17:13:25.788571+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "Mt. Inasa & Nagasaki Ropeway （イナサヤマ） 中文繁體 中文简体 한국어 Selected as one of the Top 3 Night Views in the World in 2021 with Shanghai and Monaco Area Nagasaki City Category Nature＆Hot Spring 647834 views View in slideshow mode Rising 333 meters above sea level in the center of Nagasaki, Mount Inasa Park in the Inasa mountain range is a natural park beloved by the residents of the city. It is renowned for its displays of azaleas in the spring. The summit features a glass-enclosed circular domed lookout from which one can enjoy a 360-degree view of the spectacular scenery. On clear days, one can even see Mt. Unzen, the Amakusa area, and the Goto chain of islands. The summit can be reached by a ropeway operating from Fuchi ",
+      "actuallyRead": true
+    },
+    {
+      "fact": "The ropeway approaches the summit from Fuchi Shrine in Fuchimachi.",
+      "excerpt": "a ropeway operating from Fuchi Shrine",
+      "location": "See & Do > Mt Inasa description",
+      "revalidatedAt": "2026-11-14T17:13:25.788571+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "osed circular domed lookout from which one can enjoy a 360-degree view of the spectacular scenery. On clear days, one can even see Mt. Unzen, the Amakusa area, and the Goto chain of islands. The summit can be reached by a ropeway operating from Fuchi Shrine (in Fuchimachi). The picturesque scenery and natural beauty of Nagasaki's mountains and coastline are all here to enjoy - including the tour boats entering the Port of Nagasaki, the historical settlements of foreign residents, and the rows of buildings in each district. Information Address 長崎県長崎市稲佐町 TEL 095-861-7742 (稲佐山公園管理事務所) Hours of Operation 8:00～22:00 Nearby Sightseeing Spots Nagasaki Ropeway Nagasaki Inasayama Slope Car Nagasaki City General Tourist Informa",
+      "actuallyRead": true
+    }
+  ],
+  "notes": "Read all cited factualpassages withsurroundingcontext; no changes todevelopedplaces/history/access facts. Tourismviewcounts/promotionalrankings areexcludedfromarticleclaims.",
+  "actuallyRead": true,
+  "reviewedAt": "2026-11-14T17:13:25.788571+00:00",
+  "reviewer": "Codex source reviewer /root/revalidate_sources_n14",
+  "revalidationOf": {
+    "evidenceFile": "content/research/n13-ns-inasa-tourism.json",
+    "metadataSha256": "f5045e7305548c151b44299b6a2444790a3effafa1dbafa665929c4211247b1c",
+    "fetchedAt": "2026-11-13T17:01:03.089Z",
+    "rawFile": "content/research/raw/n13-ns-inasa-tourism.html",
+    "contentSha256": "3652d716323b93f7bca600b7e445a3a04d6f2a57c6f5fb0e07a89e7ce9425079",
+    "textFile": "content/research/raw/n13-ns-inasa-tourism.txt",
+    "textSha256": "555c0c5d620dda55fd28ec1dc957c65be24e430187d98c505ae3c6403b79b1eb",
+    "originalRecordAndRawArchivesPreserved": true
+  },
+  "comparison": {
+    "rawBodyIdentical": false,
+    "visibleTextSameUnderSameExtractor": false,
+    "locatedOldFactExcerptsPresent": 2,
+    "bodyFactChangesRequired": [],
+    "sourceVisibleChangesRead": [
+      {
+        "id": "n13-ns-inasa-tourism",
+        "changes": [
+          {
+            "tag": "replace",
+            "old": "and Monaco Area Nagasaki City Category Nature＆Hot Spring 647633 views View in slideshow mode Rising 333 meters above sea ",
+            "new": "and Monaco Area Nagasaki City Category Nature＆Hot Spring 647834 views View in slideshow mode Rising 333 meters above sea "
+          },
+          {
+            "tag": "replace",
+            "old": "d Monaco Area Nagasaki City Category Nature＆Hot Spring 647633 views View in slideshow mode Rising 333 meters above sea le",
+            "new": "d Monaco Area Nagasaki City Category Nature＆Hot Spring 647834 views View in slideshow mode Rising 333 meters above sea le"
+          }
+        ]
+      }
+    ]
+  },
+  "additionalReadPassages": []
+}

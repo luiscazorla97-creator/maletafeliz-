@@ -1,0 +1,62 @@
+{
+  "id": "n13-slp-regional",
+  "url": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=660",
+  "finalUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=660",
+  "fetchedAt": "2026-11-14T17:09:19.990Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "b9dbfb0e14080dd1472cbdb1d75d376d58ac08a54189b6d815c848951c2aad3b",
+  "rawFile": "content/research/revalidation/2026-11-14/raw/n13-slp-regional.html",
+  "textFile": "content/research/revalidation/2026-11-14/raw/n13-slp-regional.txt",
+  "textSha256": "394b6de891e173734bc36a555026af962cb125b5ffc92df7c2464704b939fa45",
+  "facts": [
+    {
+      "fact": "SIC describes archaeologyandviceroyalcollections inregionalmuseum and an upstairs chapel.",
+      "excerpt": "Entre las colecciones más importantes, destacan la de arqueología y la del virreinato.",
+      "location": "Actual retained raw-derived text read; named main content and visitor-information blocks, excluding navigation.",
+      "revalidatedAt": "2026-11-14T17:11:46.271004+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "apacidad motriz, visual y auditiva mediante la adecuación de sus instalaciones. Salas de exhibición Entre las colecciones más importantes, destacan la de arqueología y la del virreinato. El museo se encuentra distribuido en cuatro salas: Huasteca Potosina Se presenta una descripción del ambiente geográfico de la Huasteca, de los primeros poblad",
+      "actuallyRead": true
+    },
+    {
+      "fact": "SIC lists photographic rights charges for camerause; no claim personalpicturepermission grantscommercialreproductionrights.",
+      "excerpt": "La utilización de videocámara casera y cámara fotográfica está sujeta al pago de derechos",
+      "location": "Actual retained raw-derived text read; named main content and visitor-information blocks, excluding navigation.",
+      "revalidatedAt": "2026-11-14T17:11:46.271004+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": " años, estudiantes, docentes y personas adultas mayores Entrada libre: domingos (solo a nacionales) La utilización de videocámara casera y cámara fotográfica está sujeta al pago de derechos abrir en google maps Datos generales Este espacio, el cual se abrió al público el 20 de noviembre de 1952, forma parte de un convento franciscano cuya construc",
+      "actuallyRead": true
+    },
+    {
+      "fact": "SIC75 generalfee conflicts withcurrentINAHpage; exclusionofuniversalprice deliberate.",
+      "excerpt": "Entrada general: $75",
+      "location": "Actual retained raw-derived text read; named main content and visitor-information blocks, excluding navigation.",
+      "revalidatedAt": "2026-11-14T17:11:46.271004+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": "nlace página 3 Enlace página 4 facebook 7 @MuseoRP Horarios y costos Martes a domingo de 9 h a 18 h Entrada general: $75 Entrada gratuita (aplica únicamente al presentar credencial oficial vigente): menores de 13 años, estudiantes, docentes y personas adultas mayores Entrada libr",
+      "actuallyRead": true
+    }
+  ],
+  "notes": "Read fresh fee/camera/collection contexts. SIC75 remains inconsistent withINAH145/80; no universalquotedprice. Camera-usefees concern onsiteuse, not a blanketretroactivecopyrightlicence claim. Supplementary fresh14November evidence only. Original13NovemberprimaryJSON/raw/text and article citations are preserved; this is not final article/publication approval.",
+  "actuallyRead": true,
+  "reviewedAt": "2026-11-14T17:11:46.271004+00:00",
+  "revalidationOf": {
+    "primaryEvidenceFile": "content/research/n13-slp-regional.json",
+    "metadataSha256": "bfc11b5425ff0967283ed96c8f3cb6285ec8207766db2b17704de150083ce939",
+    "fetchedAt": "2026-11-13T17:04:31.972Z",
+    "url": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=660",
+    "finalUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=660",
+    "rawFile": "content/research/n13-slp-regional.raw",
+    "contentSha256": "20872f91244c59796fc86e3c512e6834fc5675c00e87c23b4bb889f740acda69",
+    "textFile": "content/research/n13-slp-regional.txt",
+    "textSha256": "394b6de891e173734bc36a555026af962cb125b5ffc92df7c2464704b939fa45"
+  },
+  "comparison": {
+    "readDerivedTextByteIdentical": true,
+    "rawResponseByteIdentical": false,
+    "allPreviousFactExcerptsPresent": true,
+    "bodyFactChangesRequired": [],
+    "previousFactCount": 3
+  }
+}

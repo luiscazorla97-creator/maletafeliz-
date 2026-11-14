@@ -1,0 +1,45 @@
+{
+  "id": "n13-ns-jr-shinkansen",
+  "url": "https://www.jrkyushu.co.jp/english/train/shinkansen_kamome.html",
+  "finalUrl": "https://www.jrkyushu.co.jp/english/train/shinkansen_kamome.html",
+  "fetchedAt": "2026-11-14T17:09:15.656Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "990cb4abc986ce062c7e210bb2764483ffc0e4b2f777503ba38cfe5a39cfe1e2",
+  "rawFile": "content/research/revalidation/2026-11-14/raw/n13-ns-jr-shinkansen.html",
+  "textFile": "content/research/revalidation/2026-11-14/raw/n13-ns-jr-shinkansen.txt",
+  "textSha256": "d81d3aa5df8858ff3847c3bfd8ba0dc00cb3650cfeb21bcdba0394c378beab95",
+  "facts": [
+    {
+      "fact": "Trips to Nagasaki require transfer from the limited express to the NishiKyushuShinkansen atTakeoOnsen; avoid implying a through Shinkansen fromHakata.",
+      "excerpt": "If you are traveling to Nagasaki, please make a transit from Limited express to Nishi Kyushu Shinkansen at Takeo Onsen Station.",
+      "location": "About Transfers from Limited Express Trains",
+      "revalidatedAt": "2026-11-14T17:13:25.788571+00:00",
+      "normalizedExcerptFound": true,
+      "supportingContext": " Transfer to a Limited express train that arrives the opposite of the same platform at Takeo-onsen Station. (Please purchase a Shinkansen/Limited express ticket covering your traveling distance in advance of boarding.) *If you are traveling to Nagasaki, please make a transit from Limited express to Nishi Kyushu Shinkansen at Takeo Onsen Station. *If you transfer to the \"\"Nishi Kyushu Shinkansen KAMOME\"\" without exiting the ticket gate on the day of boarding, a single ticket will be issued. In this case, your reservations for the continual reserved seats (free) with the JR Kyushu Rail Pass will be counted together as one. *\"\"Relay KAMOME\"\" and \"\"Nishi Kyushu Shinkansen KAMOME\"\" are not covered by the JR KYUSHU RAIL PASS Online Booking service. If you are a JR Kyushu Rail Pass holder and would like to reserv",
+      "actuallyRead": true
+    }
+  ],
+  "notes": "Read explicitLimitedExpress→NishiKyushuShinkansen transferatTakeoOnsenforNagasaki. No fares/traveltimes introduced.",
+  "actuallyRead": true,
+  "reviewedAt": "2026-11-14T17:13:25.788571+00:00",
+  "reviewer": "Codex source reviewer /root/revalidate_sources_n14",
+  "revalidationOf": {
+    "evidenceFile": "content/research/n13-ns-jr-shinkansen.json",
+    "metadataSha256": "29b04dc41776de83a170646f9adb9d0680505ece636e9d422f60c500254e961d",
+    "fetchedAt": "2026-11-13T17:06:01.328Z",
+    "rawFile": "content/research/raw/n13-ns-jr-shinkansen.html",
+    "contentSha256": "b8b2e825bad44d0f404575255e9e011255c33fc512077eb0367b8364c39f5d00",
+    "textFile": "content/research/raw/n13-ns-jr-shinkansen.txt",
+    "textSha256": "d81d3aa5df8858ff3847c3bfd8ba0dc00cb3650cfeb21bcdba0394c378beab95",
+    "originalRecordAndRawArchivesPreserved": true
+  },
+  "comparison": {
+    "rawBodyIdentical": false,
+    "visibleTextSameUnderSameExtractor": true,
+    "locatedOldFactExcerptsPresent": 1,
+    "bodyFactChangesRequired": [],
+    "sourceVisibleChangesRead": []
+  },
+  "additionalReadPassages": []
+}

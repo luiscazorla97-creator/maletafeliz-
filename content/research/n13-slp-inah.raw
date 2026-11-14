@@ -1,0 +1,3302 @@
+<!DOCTYPE html>
+<html lang="es-ES" dir="ltr">
+        
+<head>
+    
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+
+        
+            
+         <meta charset="utf-8">
+	<meta name="rights" content="inah, cultura, arqueología, zonas arqueológicas, monumentos, monumentos históricos, patrimonio, prensa, boletines, investigación, museos, paseos virtuales, animaciones, reseñas">
+	<meta name="description" content="Museo Regional Potosino">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>Museo Regional Potosino</title>
+	<link href="/templates/g5_inah/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+
+    <link href="/media/gantry5/assets/css/lightcase.css" rel="stylesheet">
+	<link href="/media/gantry5/engines/nucleus/css-compiled/nucleus.css" rel="stylesheet">
+	<link href="/templates/g5_inah/custom/css-compiled/inah_72.css" rel="stylesheet">
+	<link href="/media/gantry5/engines/nucleus/css-compiled/bootstrap5.css" rel="stylesheet">
+	<link href="/media/system/css/joomla-fontawesome.min.css" rel="stylesheet">
+	<link href="/media/plg_system_debug/css/debug.css" rel="stylesheet">
+	<link href="/media/gantry5/assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/templates/g5_inah/custom/css-compiled/inah-joomla_72.css" rel="stylesheet">
+	<link href="/templates/g5_inah/custom/css-compiled/custom_72.css" rel="stylesheet">
+	<link href="/templates/g5_inah/css/animate.css" rel="stylesheet">
+	<style>#g-seccsearch-logo{
+  margin-top: 1rem;
+}
+uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+.uk-h5,
+.uk-h6,
+.uk-heading-2xlarge,
+.uk-heading-large,
+.uk-heading-medium,
+.uk-heading-small,
+.uk-heading-xlarge,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans" !important;
+}</style>
+	<style>.hidden {
+    display: none;
+    visibility: hidden;
+  }
+  
+  .uk-background-cover {
+    background-size: cover;
+  }
+  
+  .uk-panel {
+    display: flow-root;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .uk-background-cover {
+    background-size: cover;
+  }
+  
+  .uk-background-contain,
+  .uk-background-cover,
+  .uk-background-height-1-1,
+  .uk-background-width-1-1 {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  
+  .uk-height-medium {
+    height: 300px;
+  }
+  
+  .uk-margin {
+    margin-bottom: 20px;
+  }
+  
+  .uk-flex-middle {
+    align-items: center;
+  }
+  
+  .uk-flex-center {
+    justify-content: center;
+  }
+  
+  .uk-flex {
+    display: flex;
+  }
+  
+  .uk-grid-collapse,
+  .uk-grid-column-collapse {
+    margin-left: 0;
+  }
+  
+  .uk-h1,
+  h1 {
+    font-size: 2.23125rem;
+    line-height: 1.2;
+  }
+  
+  .uk-h1,
+  .uk-h2,
+  .uk-h3,
+  .uk-h4,
+  .uk-h5,
+  .uk-h6,
+  .uk-heading-2xlarge,
+  .uk-heading-large,
+  .uk-heading-medium,
+  .uk-heading-small,
+  .uk-heading-xlarge,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    color: #333;
+    text-transform: none;
+  }
+  
+  .uk-width-auto {
+    width: auto;
+  }
+  
+  .uk-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .uk-tab::before {
+    border-bottom: inherit !important;
+  }
+  
+  .uk-tab-left::before {
+    border-left: inherit !important;
+  }
+  
+  .uk-tab-left::before {
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: none;
+  }
+  
+  .uk-tab::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .uk-switcher {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .uk-panel> :last-child {
+    margin-bottom: 0;
+  }
+  
+  .uk-grid>*>:last-child {
+    margin-bottom: 0;
+  }
+  
+  .uk-active a h3 {
+    color: #fdc654 !important;
+  }
+  .back-arrow-left {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    /* top: 0; */
+    padding: 10px !important;
+    font-size: 1.5rem;
+    color: #424242;
+}
+  .mo-margin-top {
+    margin-top: 5%;
+  }
+  
+  .mo-title-za {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px #00000073;
+  }
+  
+  .mo-title-desc-za {
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    font-size: 1.5rem !important;
+  }
+  
+  .mo-link-za {
+    color: #edc061;
+    font-weight: 700;
+    font-size: 16px;
+    text-shadow: 2px 2px 7px #000;
+  }
+  
+  .mo-link-za:hover {
+    color: #fff !important;
+  }
+  
+  .mo-telho-za {
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    text-shadow: 1px 1px 3px #00000073;
+  }
+  
+  .mo-360 {
+    padding: 15px;
+    backdrop-filter: blur(1px);
+    background: #fdc65452;
+    border-radius: 10px;
+    width: fit-content;
+  }
+  
+  .mo-icon-scale {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  .mo-color-whatsapp {
+    color: #198754;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .uk-overlay {
+    padding: 30px 30px;
+  }
+  
+  
+  .uk-h2,
+  h2 {
+    font-size: 1.7rem;
+    line-height: 1.3;
+  }
+  
+  .uk-h1,
+  .uk-h2,
+  .uk-h3,
+  .uk-h4,
+  .uk-h5,
+  .uk-h6,
+  .uk-heading-2xlarge,
+  .uk-heading-large,
+  .uk-heading-medium,
+  .uk-heading-small,
+  .uk-heading-xlarge,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    color: #333;
+    text-transform: none;
+  }
+  
+  .mo-h2 {
+    color: #fff !important;
+    font-weight: 700 !important;
+  }
+  
+  .mo-sect-left {
+    text-align: right;
+  }
+  
+  .mo-overlay-primary {
+    background-color: #00000066;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    box-shadow: rgb(50 50 93 / 25%) 0 50px 100px -20px, rgb(0 0 0 / 30%) 0 30px 60px -30px;
+  }
+  
+  .mo-margin-overlay {
+    margin: 3% 20% 3% 20%;
+    margin-bottom: 3%;
+  }
+  
+  
+  .uk-tab-left,
+  .uk-tab-right {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  
+  .uk-tab {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    padding: 0;
+    list-style: none;
+    position: relative;
+  }
+
+  .uk-tab>.uk-active>a{
+    color: #333;
+    border-color: #1e87f0;
+  }
+  
+  ol,
+  ul {
+    padding-left: 30px;
+  }
+  
+  .uk-tab>* {
+    flex: none;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  ul li {
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+  }
+  
+  .page-header,
+  .article-info,
+  .text-muted {
+    display: none;
+  }
+  
+  .text-muted {
+    color: #6c757d !important;
+  }
+  
+  #mapDiv {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+   
+  @media (max-width: 639px) {
+    .uk-child-width-1-2\@s>* {
+      width: 50%;
+    }
+
+  }
+  @media (min-width: 640px) {
+    .uk-child-width-1-2\@s>* {
+      width: 50%;
+    }
+  }
+  @media (max-width: 460px) {
+    .mo-margin-overlay {
+        margin: 3% 2% 3% 2%;
+        padding: 5px !important;
+    }
+    
+}
+  @media (max-width: 768px) {
+    .mo-title-za {
+        font-size: 1.8rem;
+    }
+    .mo-title-desc-za {
+        font-size: 1.3rem;
+    }
+}
+  @media (min-width: 960px) {
+  
+    .uk-h1,
+    h1 {
+      font-size: 2.625rem;
+    }
+  
+    .uk-h2,
+    h2 {
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 959px) {
+    .mo-title-za {
+        font-size: 3.3rem;
+    }
+    .mo-margin-overlay {
+        margin: 3% 10% 3% 10%;
+    } 
+    .uk-tab>.uk-active>a {
+        border-color: transparent;
+    }
+    .mo-margin-overlay {
+        margin: 3% 10% 3% 10%;
+    }
+}
+
+  
+@media (max-width: 639px) {
+    .mo-title-za {
+        font-size: 3rem;
+        margin-top: 12%;
+    }
+    .mo-sect-left {
+        text-align: center;
+    }
+}
+  @media (min-width: 1200px) {
+    .uk-grid {
+      margin-left: -40px;
+    }
+  
+    .uk-padding {
+      padding: 40px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .mo-containerSShare {
+        position: inherit;
+    }
+
+    .mo-socialContainer {
+        position: inherit;
+        background: none;
+        text-align: center;
+    }
+    .mo-containerSShare {
+        position: absolute;
+    }
+}</style>
+	<style>    #g-navigation {
+           background: rgba(12, 35, 30, 0.4)!important;
+</style>
+	<style>     @media only screen and (max-width: 768px) {
+
+          div#jevents {
+               width: 100% !important;
+          }
+     }</style>
+	<style>    body {
+  cursor: default;
+}
+
+/* Estilos para la imagen personalizada del cursor */
+#custom_cursor {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  pointer-events: none;
+  background-image: url('/images/icons/icon_Liston_Naranja.png');
+  background-size: cover;
+  z-index: 1000;
+}</style>
+	<style>.social-share{display:flex;flex-direction:column}.btn{height:70px;width:70px;border-radius:50%;box-shadow:4px 2px 10px 1px rgba(0,0,0,.2);display:flex;align-items:center;justify-content:center;font-size:24px;color:#999;cursor:pointer;position:relative;background:#fff}.btn .fa-share-alt{margin-right:2px}.btn>i:hover{color:#405de6}.btn:active:not(:focus-within){box-shadow:-2px 2px 8px rgba(0,0,0,.2) inset}.btn:active:not(:focus-within)>i{transform:translate(.8px,.8px)}.social{box-shadow:4px 2px 10px 1px rgba(0,0,0,.2);position:absolute;bottom:70px;display:none;justify-content:space-between;background-color:#fff;border-radius:50px;padding:10px}.toggle input[type=checkbox]:checked+.btn .social{animation:fadeIn 1s;display:flex;flex-direction:column;align-items:center}.toggle input[type=checkbox]:not(:checked)+.btn .social{animation:fadeOut 1s}.toggle input[type=checkbox]:checked+.btn .fa-universal-access{display:none}.toggle input[type=checkbox]:not(:checked)+.btn .fa-times{display:none}.social button{margin:0 15px;font-size:32px;color:#999}.fa-vk:hover{color:#4c75a3}.fa-behance-square:hover{color:#000}input[type=checkbox]{display:none}@keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeOut{from{opacity:1}to{opacity:0}}.buttons{margin-top:0}button{background:0 0;border:none;cursor:pointer;height:48px;outline:0;padding:0;width:48px}#play{font-size:xx-large}#pause{font-size:xx-large}#stop{font-size:xx-large}#play.played{color:#000}#pause.paused{color:#000}#stop.stopped{color:#000}.text-access{font-size:x-small}
+</style>
+	<style>  .g-social a {
+  display: inline-block;
+  background: #ffffff1c;
+  color: #000;
+  border-radius: 0.1875rem;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.3rem 0.25rem;
+  margin: 0.3em;
+  top:40px;
+  position: relative;
+}
+
+@media only all and (max-width:1950px) {
+#g-navigation .g-social {
+    top: 200px !important;
+}
+}
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.navbar-mo {
+  margin-bottom: 0 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  height: 60px !important;
+  position: relative;
+  padding-top: 0 !important;
+}
+.navbar-inverse-mo {
+  background-color: #611232;
+  border-color: transparent;
+}
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.55);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+.nav-mo {
+  list-style: none;
+  display: flex;
+}
+
+.nav-gob-ri {
+  position: absolute;
+  right: 3%;
+}
+.nav-mo li a {
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav .indicator {
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+}
+#g-navigation.g-home{
+  background: rgb(0 0 0);
+  color: #fff;
+  position: absolute;
+  z-index: 1001;
+  width: 100%;
+}
+
+#g-container-overlay.open {
+  z-index: 1000;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+#g-container-overlay.open {
+  visibility: visible;
+  opacity: 1;
+}
+#g-container-overlay {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0s 0.5s;
+}
+#g-container-overlay {
+  background: rgba(24, 24, 24, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.g-accordionmenu .nav {
+  line-height: 1.2;
+}
+.g-accordionmenu ol, .g-accordionmenu ul {
+  list-style: none;
+  margin: 0;
+}
+.g-accordionmenu-group {
+  line-height: inherit !important;
+}
+.g-accordionmenu .g-accordionmenu-group-list {
+  margin-top: 0.625rem;
+  height: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.g-accordionmenu .g-accordionmenu-group-list li {
+  border-radius: 8px;
+  border: 1px solid;
+  background: linear-gradient(90deg, #5056a930, #c0c0c030);
+  margin-bottom: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.g-accordionmenu .nav .g-accordionmenu-group-title, .g-accordionmenu .nav .indicator {
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+}
+.g-accordionmenu .nav a, .g-accordionmenu .nav label {
+  display: inline-block;
+  transition: all 0.25s ease-in;
+  margin: 0;
+}
+
+.g-accordionmenu-group a {
+  color: #fff;
+}
+
+
+.img-85aniv img {
+    width: 200px;
+}
+
+.g-overlaytoggle .g-overlaytoggle-bar-wrapper {
+  left: 16px !important;
+  top: 19px !important;
+}
+.g-overlaytoggle .g-overlaytoggle-bar-wrapper {
+  padding: 10px 0px 16px 30px;
+  position: absolute;
+  right: 0;
+  top: 6px;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+
+@media (max-width: 321px) {
+  .g-accordionmenu .g-accordionmenu-group-title {
+      font-size: 1.3rem !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .separator-gob {
+      position: relative;
+  }
+}
+
+@media only all and (max-width: 47.99rem) {
+  .g-overlaytoggle {
+      display: block;
+  }
+  .hidden-phone {
+    display: none !important;
+}
+}
+
+@media only all and (max-width: 59.99rem) {
+  .navbar .container {
+      width: auto;
+      padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+      padding-left: 0 !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .nav-mo {
+      display: block;
+      text-align: left;
+      padding: 0;
+  }
+
+    .nav-mo li {
+        padding: 18px;
+    }
+}
+</style>
+	<style>
+  #g-footer {
+  background: #f8f8f8;
+  color: #686868;
+  font-size: 14px;
+}
+
+.footer-pleca {
+  background-color: #12322b;
+  background-image: url(https://framework-gb.cdn.gob.mx/landing/img/pleca.svg);
+  background-repeat: repeat-x;
+}
+
+.main-footer {
+  background-color:#611232;
+  min-height: 56px;
+  color: #fff;
+  padding: 0 0 0;
+  text-align: left;
+  font-weight: 300;
+}
+
+.main-footer .list-info {
+  line-height: auto;
+  color: #fff;
+  background-size: cover;
+  background-position: bottom;
+  padding: 30px 10px 10px;
+}
+
+.main-footer .list-info h5 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.main-footer .list-info ul {
+  margin: 0 0 60px;
+  padding: 0;
+}
+
+.list-inline {
+list-style: none;
+}
+.white-mo-h5 {
+  color: #fff;
+}
+
+
+@media (min-width: 768px) {
+  .main-footer {
+      text-align: left;
+  }
+}
+</style>
+
+    <script type="application/json" class="joomla-script-options new">{"system.paths":{"root":"","rootFull":"https:\/\/www.inah.gob.mx\/","base":"","baseFull":"https:\/\/www.inah.gob.mx\/"},"csrf.token":"871ccd6f83d70de3eba7520a02d138a8"}</script>
+	<script src="/media/system/js/core.min.js?a3d8f8"></script>
+	<script src="/media/vendor/webcomponentsjs/js/webcomponents-bundle.min.js?2.8.0" nomodule defer></script>
+	<script src="/media/system/js/joomla-hidden-mail.min.js?80d9c7" type="module"></script>
+	<script src="/media/vendor/jquery/js/jquery.min.js?3.7.1"></script>
+	<script src="/media/legacy/js/jquery-noconflict.min.js?504da4"></script>
+	<script src="/media/vendor/bootstrap/js/alert.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/button.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/carousel.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/collapse.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/dropdown.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/modal.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/offcanvas.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/popover.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/scrollspy.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/tab.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/toast.min.js?5.3.8" type="module"></script>
+	<script src="/templates/g5_inah/js/chart.js"></script>
+	<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.inah.gob.mx/#/schema/Organization/base","name":"Bienvenidos al INAH","url":"https://www.inah.gob.mx/"},{"@type":"WebSite","@id":"https://www.inah.gob.mx/#/schema/WebSite/base","url":"https://www.inah.gob.mx/","name":"Bienvenidos al INAH","publisher":{"@id":"https://www.inah.gob.mx/#/schema/Organization/base"},"potentialAction":{"@type":"SearchAction","target":"https://www.inah.gob.mx/search?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://www.inah.gob.mx/#/schema/WebPage/base","url":"https://www.inah.gob.mx/museos/museo-regional-potosino","name":"Museo Regional Potosino","description":"Museo Regional Potosino","isPartOf":{"@id":"https://www.inah.gob.mx/#/schema/WebSite/base"},"about":{"@id":"https://www.inah.gob.mx/#/schema/Organization/base"},"inLanguage":"es-ES"},{"@type":"Article","@id":"https://www.inah.gob.mx/#/schema/com_content/article/523","name":"Museo Regional Potosino","headline":"Museo Regional Potosino","inLanguage":"es-ES","dateCreated":"2022-10-04T14:54:43+00:00","dateModified":"2026-01-06T00:00:00+00:00","isPartOf":{"@id":"https://www.inah.gob.mx/#/schema/WebPage/base"}}]}</script>
+	<script>    const customCursor = document.getElementById('custom_cursor');
+    document.addEventListener('mousemove', (e) => {
+        customCursor.style.left = e.pageX + 5 + 'px';
+        customCursor.style.top = e.pageY + 5 + 'px';
+    });</script>
+	<meta property="og:image" itemprop="image" content="" />
+  <meta property="og:title" content="Museo Regional Potosino"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="https://www.inah.gob.mx/museos/museo-regional-potosino">
+  <meta property="og:description" content=""/>
+  <meta name="twitter:title" content="Museo Regional Potosino">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://www.inah.gob.mx/museos/museo-regional-potosino">
+  <meta name="twitter:description" content=""/>
+  <meta name="twitter:image" content="">
+  <style>.hid{display: block !important;}.g-title{display:none;}.item-image{max-height:100% !important;}.fotodia-nombre{font-size:1.5rem;margin-top:40px;display:block!important;color: #804000;font-weight: 600 !important;}.hidden-block{display:none}</style>
+
+    
+                    	<!-- Google Analytics (loader externo permitido por CSP) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DQ1QLRY49H"></script>
+	<script src="/recursos/gtag_init.js"></script>
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DQ1QLRY49H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-DQ1QLRY49H');
+</script>
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="/templates/g5_inah/uikit/uikit.min.css" />
+<link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- UIkit JS -->
+<script src="/templates/g5_inah/uikit/uikit.min.js"></script>
+<script src="/templates/g5_inah/uikit/uikit-icons.min.js"></script>
+            
+<script>var __uzdbm_1 = "fe201eb9-9438-4ab3-b1d5-4a72a63ca627";var __uzdbm_2 = "MjE1OWE1YmMtZWFnaS00MzQ4LTg5MzUtYzgxZjk0YmY2ZWQ0JDkwLjk2LjE4My4w";var __uzdbm_3 = "";var __uzdbm_4 = "false";var __uzdbm_5 = "";var __uzdbm_6 = "";var __uzdbm_7 = "";</script> <script>   (function (w, d, e, u, c, g, a, b) {     w["SSJSConnectorObj"] = w["SSJSConnectorObj"] || {       ss_cid: c,       domain_info: "auto",     };     w[g] = function (i, j) {       w["SSJSConnectorObj"][i] = j;     };     a = d.createElement(e);     a.async = true;     if (       navigator.userAgent.indexOf('MSIE') !== -1 ||       navigator.appVersion.indexOf('Trident/') > -1     ) {       u = u.replace("/advanced/", "/advanced/ie/");     }     a.src = u;     b = d.getElementsByTagName(e)[0];     b.parentNode.insertBefore(a, b);   })(     window, document, "script", "/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js", "eagk", "ssConf"   );   ssConf("c1", "https://www.inah.gob.mx");   ssConf("c3", "c99a4269-161c-4242-a3f0-28d44fa6ce24");   ssConf("au", "inah.gob.mx");   ssConf("cu", "validate.perfdrive.com, ssc"); </script> </head>
+
+    <body class="site com_content view-article no-layout no-task dir-ltr itemid-291 outline-72 g-default-over g-style-preset1">
+        
+                    
+
+        
+        <div id="g-page-surround">
+                                    
+
+                
+                                
+                
+    
+                <section id="g-container-overlay" class="g-wrapper">
+                <div class="g-container">                    <div class="g-grid">                        
+
+        <div class="g-block size-40">
+             <section id="g-sideoverlay">
+                                        <div class="g-grid">                        
+
+        <div class="g-block size-100 nopaddingall largemargintop">
+             <div id="custom-9793-particle" class="g-content g-particle">            <div class="g-grid">
+    <div class="g-block size-100" style="margin-top: 80px; display: flex; justify-content: center;">
+        <div id="logo-9912-particle" class="g-content g-particle">
+            <a href="https://inah.gob.mx/">
+                <img src="/images/logos/LogoINAH_Dorado.png" alt="logo INAH" style="width: 200px; height: auto;">
+            </a>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+            </div>
+                            <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div id="custom-1187-particle" class="g-content g-particle">            <!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <title>Menú Acordeón INAH Completo</title>
+    <style>
+        /* Cargar tipografía Noto Sans */
+        @import url(https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap);
+
+        /* Aplicar Noto Sans y tamaño uniforme a todo el menú */
+        .g-accordionmenu,
+        .g-accordionmenu * {
+            font-family: 'Noto Sans', sans-serif !important;
+            font-size: 1em !important;
+        }
+
+        /* Oculta todos los submenús inicialmente */
+        .g-accordionmenu-group-list {
+            display: none !important;
+            margin: 0 !important;
+            padding-left: 1em !important;
+            border: none !important;
+            background: none !important;
+        }
+
+        /* Muestra el submenú si el grupo está abierto */
+        .g-accordionmenu-group.open>.g-accordionmenu-group-list {
+            display: block !important;
+        }
+
+        /* Indicador tipo "+" */
+        .indicator {
+            display: inline-block !important;
+            font-weight: bold !important;
+            margin-left: 0.5em !important;
+        }
+
+        .indicator::before {
+            content: '+' !important;
+        }
+
+        /* Cambia a "−" cuando esté abierto */
+        .g-accordionmenu-group.open>.submenu-toggle .indicator::before {
+            content: '−' !important;
+        }
+
+        /* Botón del menú con submenú */
+        .submenu-toggle {
+            all: unset !important;
+            cursor: pointer !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            gap: 0.3em !important;
+            text-transform: uppercase !important;
+        }
+
+        /* Enlaces principales sin submenú */
+        .g-accordionmenu-group-title {
+            text-transform: uppercase !important;
+            text-decoration: none !important;
+            cursor: pointer !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            gap: 0.3em !important;
+        }
+
+        /* Enlaces de submenú (igual tipografía, sin apariencia de botón) */
+        .g-accordionmenu-group-list a {
+            text-transform: uppercase !important;
+            text-decoration: none !important;
+            display: block !important;
+            margin: 0.2em 0 !important;
+            padding: 0 !important;
+            border: none !important;
+            background: none !important;
+            box-shadow: none !important;
+            outline: none !important;
+        }
+
+        .g-accordionmenu-group-list a:hover {
+            text-decoration: underline !important;
+        }
+
+        /* Estilo visual de cada item del submenú */
+        .g-accordionmenu .g-accordionmenu-group-list li {
+            border-radius: 8px !important;
+            border: none !important;
+            background: #c0c0c030 !important;
+            padding: 10px !important;
+            text-transform: uppercase !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="nav" role="navigation">
+        <ul class="g-accordionmenu" data-accordionmenu-id="accordionmenu-7045">
+
+            <!-- INICIO (sin submenu) -->
+            <li class="g-accordionmenu-group">
+                <a href="https://www.inah.gob.mx/" class="g-accordionmenu-group-title">INICIO</a>
+            </li>
+
+            <!-- SITIOS CULTURALES -->
+            <li class="g-accordionmenu-group">
+                <button type="button" class="submenu-toggle">
+                    SITIOS CULTURALES
+                    <span class="indicator"></span>
+                </button>
+                <ul class="g-accordionmenu-group-list">
+                    <li><a href="/zonas-de-monumentos-historicos">MONUMENTOS HISTÓRICOS</a></li>
+                    <li><a href="/zonas-arqueologicas">ZONAS ARQUEOLÓGICAS</a></li>
+                    <li><a href="/red-de-museos">MUSEOS</a></li>
+                    <li><a href="https://inah.gob.mx/interactivos/recorridos-virtuales">RECORRIDOS VIRTUALES</a></li>
+                    <li><a href="/sitios-culturales/red-de-bibliotecas-inah">RED DE BIBLIOTECAS INAH</a></li>
+                </ul>
+            </li>
+
+            <!-- ESCUELAS -->
+            <li class="g-accordionmenu-group">
+                <button type="button" class="submenu-toggle">
+                    ESCUELAS
+                    <span class="indicator"></span>
+                </button>
+                <ul class="g-accordionmenu-group-list">
+                    <li><a href="http://www.enah.edu.mx/" target="_blank">ESCUELA NACIONAL DE ANTROPOLOGÍA E HISTORIA
+                            (ENAH)</a></li>
+                    <li><a href="http://www.encrym.edu.mx/" target="_blank">ESCUELA NACIONAL DE CONSERVACIÓN,
+                            RESTAURACIÓN Y MUSEOGRAFÍA (ENCRYM)</a></li>
+                    <li><a href="http://eahnm.edu.mx/" target="_blank">ESCUELA DE ANTROPOLOGÍA E HISTORIA DEL NORTE DE
+                            MÉXICO (EAHNM)</a></li>
+                </ul>
+            </li>
+
+            <li class="g-accordionmenu-group">
+                <a href="https://www.bnah.inah.gob.mx/" target="_blank" class="g-accordionmenu-group-title">BNAH</a>
+            </li>
+
+            <!-- PASEOS CULTURALES (sin submenu) -->
+            <li class="g-accordionmenu-group">
+                <a href="https://paseosculturales.inah.gob.mx/" target="_blank"
+                    class="g-accordionmenu-group-title">PASEOS CULTURALES</a>
+            </li>
+
+            <!-- TIENDAS INAH 
+            <li class="g-accordionmenu-group">
+                <button type="button" class="submenu-toggle">
+                    TIENDAS INAH
+                    <span class="indicator"></span>
+                </button>
+                <ul class="g-accordionmenu-group-list">
+                    <li><a href="https://difusion.inah.gob.mx/compra-en-linea/catalogo-de-publicaciones.html"
+                            target="_blank">CATÁLOGO PUBLICACIONES</a></li>
+                    <li><a href="https://difusion.inah.gob.mx/compra-en-linea/catalogo-de-reproducciones.html"
+                            target="_blank">CATÁLOGO DE REPRODUCCIONES</a></li>
+                    <li><a href="https://difusion.inah.gob.mx/divulgacion/tiendas-inah.html?search=tiendas_inah&task=search"
+                            target="_blank">DIRECTORIO TIENDAS</a></li>
+                    <li><a href="https://difusion.inah.gob.mx/tienda/" target="_blank">TIENDA VIRTUAL</a></li>
+                </ul>
+            </li>-->
+
+            <!-- PRENSA -->
+            <li class="g-accordionmenu-group">
+                <button type="button" class="submenu-toggle">
+                    PRENSA
+                    <span class="indicator"></span>
+                </button>
+                <ul class="g-accordionmenu-group-list">
+                    <li><a href="/boletines">BOLETINES</a></li>
+                    <li><a href="/prensa/comunicados">COMUNICADOS</a></li>
+                    <li><a href="/invitaciones">INVITACIÓN A MEDIOS</a></li>
+                    <li><a href="/prensa/in-memoriam">INMEMORIAM</a></li>
+                    <li><a href="https://inah.gob.mx/especiales-inah" target="_blank">ESPECIALES INAH</a></li>
+
+                    <!-- INFOGRAFÍAS (sub‐submenu) -->
+                    <li class="g-accordionmenu-group">
+                        <button type="button" class="submenu-toggle">
+                            INFOGRAFÍAS
+                            <span class="indicator"></span>
+                        </button>
+                        <ul class="g-accordionmenu-group-list">
+                            <li><a href="https://www.inah.gob.mx/prensa/infografias/infografias-prensa"
+                                    target="_blank">TREN MAYA</a></li>
+                            <li><a href="https://www.inah.gob.mx/prensa/infografias/informe-2018-2024"
+                                    target="_blank">INFORME 2018-2024</a></li>
+                        </ul>
+                    </li>
+                        <li><a href="https://www.inah.gob.mx/prensa/discursos" target="_blank">DISCURSOS</a></li>
+
+                </ul>
+            </li>
+
+            <!-- TRANSPARENCIA -->
+            <li class="g-accordionmenu-group">
+                <button type="button" class="submenu-toggle">
+                    TRANSPARENCIA
+                    <span class="indicator"></span>
+                </button>
+                <ul class="g-accordionmenu-group-list">
+
+                    <!-- Acceso a la Información -->
+                    <li class="g-accordionmenu-group">
+                        <button type="button" class="submenu-toggle">
+                            ACCESO A LA INFORMACIÓN
+                            <span class="indicator"></span>
+                        </button>
+                        <ul class="g-accordionmenu-group-list">
+                            <li><a href="https://inah.gob.mx/transparencia-inah/unidad-de-transparencia">UNIDAD DE
+                                    TRANSPARENCIA</a></li>
+                            <li><a href="https://inah.gob.mx/transparencia-inah/comite-de-transparencia">Comité de
+                                    Transparencia</a></li>
+                            <li><a href="https://inah.gob.mx/acceso-a-la-informacion/denuncias">Obligaciones de
+                                    transparencia</a></li>
+                            <li><a href="https://inah.gob.mx/transparencia-inah/solicitudes-de-acceso-a-la-informacion">Solicitudes
+                                    de acceso a la información</a></li>
+                            <li><a href="https://inah.gob.mx/transparencia-inah/indice-de-expedientes-clasificados">Índice
+                                    de expedientes clasificados</a></li>
+                            <li><a href="https://inah.gob.mx/acceso-a-la-informacion/normatividad">Normatividad</a>
+                            </li>
+                            <li><a
+                                    href="https://inah.gob.mx/transparencia-inah/denuncias-por-incumplimiento-a-obligaciones-de-transparencia">Denuncias
+                                    por
+                                    incumplimiento a las obligaciones de Transparencia</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Protección de Datos -->
+                    <li class="g-accordionmenu-group">
+                        <button type="button" class="submenu-toggle">
+                            PROTECCIÓN DE DATOS
+                            <span class="indicator"></span>
+                        </button>
+                        <ul class="g-accordionmenu-group-list">
+                            <li><a href="https://www.inah.gob.mx/transparencia-inah/avisos-de-privacidad-integrales"
+                                    target="_blank">AVISOS DE PRIVACIDAD</a></li>
+                            <li><a href="https://www.inah.gob.mx/transparencia-inah/datos-de-contacto-de-la-unidad-de-transparencia"
+                                    target="_blank">Datos de contacto de la unidad de transparencia</a></li>
+                            <li><a href="https://www.inah.gob.mx/transparencia-inah/informacion-relevante-en-materia-de-proteccion-de-datos-personales"
+                                    target="_blank">INFORMACIÓN RELEVANTE EN MATERIA DE PROTECCIÓN DE DATOS
+                                    PERSONALES</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Apertura Gubernamental -->
+                    <li class="g-accordionmenu-group">
+                        <button type="button" class="submenu-toggle">
+                            APERTURA GUBERNAMENTAL
+                            <span class="indicator"></span>
+                        </button>
+                        <ul class="g-accordionmenu-group-list">
+                            <li><a href="https://inah.gob.mx/transparencia-inah/informacion-socialmente-util">Información
+                                    socialmente útil</a></li>
+                            <li><a href="https://inah.gob.mx/transparencia-inah/obligaciones-en-materia-de-archivos">Obligaciones
+                                    en Materia de Archivos</a>
+                            </li>
+                            <li><a href="https://inah.gob.mx/apertura-gubernamental/transparencia-focalizada">Transparencia
+                                    proactiva</a></li>
+                            <li><a href="https://inah.gob.mx/transparencia-inah/atencion-al-compromiso-9">Atención
+                                    al Compromiso 9 de las bases de colaboración del PNCCIMGP</a></li>
+                            <li><a href="https://inah.gob.mx/transparencia-inah/informacion-de-interes-general">Información
+                                    de interés general</a></li>
+                            <li><a href="https://inah.gob.mx/transparencia-inah/informacion-recurrente">Información
+                                    recurrente</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Opciones sin submenú -->
+                    <li><a href="https://inah.gob.mx/gobierno-abierto">Gobierno abierto</a></li>
+                    <li><a href="https://inah.gob.mx/datos-abiertos">Datos abiertos</a></li>
+
+                </ul>
+            </li>
+
+
+            <!-- Proteccion de datos Personales -->
+            <li class="g-accordionmenu-group">
+                <button type="button" class="submenu-toggle">
+                    PROTECCIÓN DE DATOS PERSONALES
+                    <span class="indicator"></span>
+                </button>
+                <ul class="g-accordionmenu-group-list">
+                    <li><a href="https://www.inah.gob.mx/transparencia-inah/avisos-de-privacidad-integrales"
+                            target="_blank">AVISOS DE PRIVACIDAD</a></li>
+                    <li><a href="https://www.inah.gob.mx/transparencia-inah/datos-de-contacto-de-la-unidad-de-transparencia"
+                            target="_blank">Datos de contacto de la unidad de transparencia</a></li>
+                    <li><a href="https://www.inah.gob.mx/transparencia-inah/informacion-relevante-en-materia-de-proteccion-de-datos-personales"
+                            target="_blank">INFORMACIÓN RELEVANTE EN MATERIA DE PROTECCIÓN DE DATOS PERSONALES</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Toggle de todos los botones de submenu
+            document.querySelectorAll('.submenu-toggle').forEach(btn => {
+                btn.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    const li = this.closest('li');
+                    li.classList.toggle('open');
+                });
+            });
+            // Evitar que clics en enlaces cierren menús
+            document.querySelectorAll('.g-accordionmenu-group-list a').forEach(link => {
+                link.addEventListener('click', e => e.stopPropagation());
+            });
+        });
+    </script>
+</body>
+
+</html>
+            </div>
+        </div>
+            </div>
+            
+    </section>
+        </div>
+                    
+
+        <div class="g-block size-60">
+             <section id="g-mainoverlay">
+                                        <div class="g-grid">                        
+
+        <div class="g-block size-100 xlargemargintop xlargepaddingtop">
+             <div id="custom-4730-particle" class="g-content g-particle">            <div class="g-social social-items" style="text-align:center">
+  <a target="_blank" href="https://www.facebook.com/INAHmx/">
+      <span class="fab fa-facebook-f fa-fw "></span>
+      <span class="g-social-text"></span>
+  </a>
+  <a target="_blank" href="https://twitter.com/INAHmx">
+      <span class="fab fa-twitter fa-fw "></span>
+      <span class="g-social-text"></span>
+  </a>
+  <a target="_blank" href="https://www.instagram.com/inahmx/" title="">
+      <span class="fab fa-instagram fa-fw "></span>
+      <span class="g-social-text"></span>
+  </a>
+  <a target="_blank" href="https://www.tiktok.com/@inahmx" title="">
+      <span class="fab fa-tiktok fa-fw "></span>
+      <span class="g-social-text"></span>
+  </a>
+  <a target="_blank" href="https://www.youtube.com/user/INAHTV" title="">
+      <span class="fab fa-youtube fa-fw "></span>
+      <span class="g-social-text"></span>
+  </a>
+  <a target="_blank" href="https://open.spotify.com/show/5upYcceyk7p592ByZcJfCZ?si=e97ed6eb626840ee" title="">
+      <span class="fab fa-spotify fa-fw"></span>
+      <span class="g-social-text"></span>
+  </a>
+</div>
+<!-- Modal Facebook -->
+<!-- <div id="modal-facebook" uk-modal>
+  <div class="uk-modal-dialog uk-modal-body" style="max-width: 330px !important;">
+      <button class="uk-modal-close-outside" type="button" uk-close></button>
+      <div class="uk-modal-header">
+          <a href="https://www.facebook.com/INAHmx" target="_blank"><h2 class="mo-modal-title">Facebook INAH</h2></a>
+      </div><br><br>
+      <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FINAHmx&amp;width=260px&amp;height=427&amp;colorscheme=light&amp;show_faces=false&amp;header=true&amp;stream=true&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:427px;" allowTransparency="true"></iframe>  	   
+  </div>
+</div> -->
+<!-- Modal Twitter -->
+<!-- <div id="modal-twitter" uk-modal>
+  <div class="uk-modal-dialog uk-modal-body">
+      <button class="uk-modal-close-outside" type="button" uk-close></button>
+      <a class="twitter-timeline"  width="100%" height="427" data-theme="light" href="https://twitter.com/INAHmx" data-widget-id="526823493082439680" target="_blank">Tweets por @INAHmx</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	   
+  </div>
+</div> -->
+            </div>
+        </div>
+            </div>
+            
+    </section>
+        </div>
+            </div>
+    </div>
+        
+    </section>
+    
+                    
+                <section id="g-navigation" class="center g-flushed">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-100 hidden-desktop">
+             <div id="overlaytoggle-2705-particle" class="g-content g-particle">            <div class="">
+  <div class="g-overlaytoggle">
+        <a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#" onclick="return false">
+            <span class="g-overlaytoggle-bar-wrapper"><span class="g-overlaytoggle-bar"></span></span>
+    </a>
+  </div>
+</div>
+            </div>
+        </div>
+            </div>
+                            <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div id="custom-4448-particle" class="g-content g-particle">            <nav class="navbar navbar-mo navbar-dark navbar-inverse-mo">
+    <div class="container">
+        <!-- Logo gobierno dESK -->
+        <a class="navbar-brand hidden-tablet hidden-phone" href="/images/logos/logo_blanco.svg" width="128" height="48"
+                alt="Página de inicio, Gobierno de México"></a>
+        <!-- Logo INAH pHONE -->
+        <a class="navbar-brand hidden-desktop" href="https://inah.gob.mx/">
+            <img src="/images/logos/LogoINAH_Dorado.png" width="128" height="48"
+                alt="Página de inicio, Instituto Nacional de Antropología e Historia"></a>
+        <ul class="nav-mo navbar-right-mo hidden-tablet hidden-phone">
+            <li><a href="https://www.gob.mx/tramites" target="_blank">Trámites</a></li>
+            <li><a href="https://www.gob.mx/gobierno" target="_blank">Gobierno</a></li>
+            <li><a href="https://www.gob.mx/busqueda" target="_blank"><i class="fa fa-search"
+                        aria-hidden="true"></i></a></li>
+        </ul>
+        <!-- Toggle -->
+        <div class="float-sm-end nav-gob-ri hidden-desktop">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+</nav>
+<div class="collapse" id="navbarToggleExternalContent">
+    <div class="navbar-inverse-mo separator-gob">
+        <ul class="nav-mo navbar-right-mo">
+            <li><a href="https://www.gob.mx/tramites" target="_blank">Trámites</a></li>
+            <li><a href="https://www.gob.mx/gobierno" target="_blank">Gobierno</a></li>
+            <li><a href="https://www.gob.mx/busqueda" target="_blank"><i class="fa fa-search"
+                        aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+</div>
+            </div>
+        </div>
+            </div>
+                            <div class="g-grid">                        
+
+        <div class="g-block size-5">
+             <div class="spacer"></div>
+        </div>
+                    
+
+        <div class="g-block size-7 largemargintop width-especial hidden-phone hidden-tablet">
+             <div id="logo-7772-particle" class="g-content g-particle">            <a href="https://inah.gob.mx/" title="" rel="home" class="g-logo img-85aniv">
+        <img src="/images/logos/LogoINAH_blanco.png" alt="" />
+        
+</a>
+            </div>
+        </div>
+                    
+
+        <div class="g-block size-83 center g-inah-menu nomargintop hidden-tablet hidden-phone">
+             <div id="menu-7513-particle" class="g-content g-particle">            <nav class="g-main-nav" data-g-hover-expand="true">
+        <ul class="g-toplevel">
+                                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-101 g-standard  ">
+                            <a class="g-menu-item-container" href="/" title="Inicio" aria-label="Inicio">
+                                                <img src="/images/home-icon.png#joomlaImage://local-images/home-icon.png?width=25&amp;height=25" alt="Inicio" />
+                                                    <span class="g-menu-item-content">
+                            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-separator g-menu-item-218 g-parent g-standard  ">
+                            <div class="g-menu-item-container" data-g-menuparent="">                                                                            <span class="g-separator g-menu-item-content" title="Sitios Culturales">            <span class="g-menu-item-title">Sitios Culturales</span>
+            </span>
+                                        <span class="g-menu-parent-indicator"></span>                            </div>                                                                <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-1 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                                    
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-127  ">
+                            <a class="g-menu-item-container" href="/zonas-de-monumentos-historicos">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Monumentos Históricos</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-126  ">
+                            <a class="g-menu-item-container" href="/zonas-arqueologicas">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Zonas Arqueológicas</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-128  ">
+                            <a class="g-menu-item-container" href="/red-de-museos">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Museos</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+                                                                                                                                
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-377  ">
+                            <a class="g-menu-item-container" href="/interactivos/recorridos-virtuales" target="_blank" rel="noopener&#x20;noreferrer">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Recorridos Virtuales</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-131  ">
+                            <a class="g-menu-item-container" href="/sitios-culturales/red-de-bibliotecas-inah">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Red de bibliotecas INAH</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-heading g-menu-item-130 g-parent g-standard  ">
+                            <div class="g-menu-item-container" data-g-menuparent="">                                                                            <span class="g-nav-header g-menu-item-content">            <span class="g-menu-item-title">Escuelas</span>
+            </span>
+                                        <span class="g-menu-parent-indicator"></span>                            </div>                                                                <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-1 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                                    
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-224  ">
+                            <a class="g-menu-item-container" href="http://www.enah.edu.mx/">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Escuela Nacional de Antropología e Historia (ENAH)</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-225  ">
+                            <a class="g-menu-item-container" href="http://www.encrym.edu.mx/">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Escuela Nacional de Conservación, Restauración y Museografía (ENCRyM)</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-226  ">
+                            <a class="g-menu-item-container" href="http://eahnm.edu.mx/">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Escuela de Antropología e Historia del Norte de México (Chihuahua)</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                                
+                                                                                                                                
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-425 g-standard  ">
+                            <a class="g-menu-item-container" href="https://paseosculturales.inah.gob.mx/" target="_blank" rel="noopener&#x20;noreferrer">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Paseos Culturales</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-heading g-menu-item-135 g-parent g-standard  ">
+                            <div class="g-menu-item-container" data-g-menuparent="">                                                                            <span class="g-nav-header g-menu-item-content">            <span class="g-menu-item-title">Prensa</span>
+            </span>
+                                        <span class="g-menu-parent-indicator"></span>                            </div>                                                                <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-1 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                                    
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-136  ">
+                            <a class="g-menu-item-container" href="/boletines">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Boletines</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-310  ">
+                            <a class="g-menu-item-container" href="/prensa/comunicados">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Comunicados</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-137  ">
+                            <a class="g-menu-item-container" href="/invitaciones">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Invitación a medios</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-440  ">
+                            <a class="g-menu-item-container" href="/prensa/in-memoriam">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">In memoriam</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+                                                                                                                                
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-337  ">
+                            <a class="g-menu-item-container" href="/especiales-inah" target="_blank" rel="noopener&#x20;noreferrer">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Especiales</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-heading g-menu-item-500 g-parent  ">
+                            <div class="g-menu-item-container" data-g-menuparent="">                                                                            <span class="g-nav-header g-menu-item-content">            <span class="g-menu-item-title">Infografías</span>
+            </span>
+                                        <span class="g-menu-parent-indicator"></span>                            </div>                                                                <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-2 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                                    
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-335  ">
+                            <a class="g-menu-item-container" href="/prensa/infografias/infografias-prensa">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Tren Maya</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-501  ">
+                            <a class="g-menu-item-container" href="/prensa/infografias/informe-2018-2024">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Informe 2018-2024</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-552  ">
+                            <a class="g-menu-item-container" href="/prensa/discursos">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Discursos</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-140 g-parent g-standard g-menu-item-link-parent ">
+                            <a class="g-menu-item-container" href="/transparencia">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Transparencia</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                                            <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-1 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                                    
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-separator g-menu-item-442 g-parent  ">
+                            <div class="g-menu-item-container" data-g-menuparent="">                                                                            <span class="g-separator g-menu-item-content">            <span class="g-menu-item-title">Acceso a la información</span>
+            </span>
+                                        <span class="g-menu-parent-indicator"></span>                            </div>                                                                <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-2 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                                    
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-441  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/unidad-de-transparencia">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Unidad de Transparencia</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-443  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/comite-de-transparencia">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Comité de Transparencia</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-444  ">
+                            <a class="g-menu-item-container" href="/acceso-a-la-informacion/denuncias">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Obligaciones de Transparencia</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-445  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/solicitudes-de-acceso-a-la-informacion">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Solicitudes de acceso a la información</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-446  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/indice-de-expedientes-clasificados">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Índice de expedientes clasificados</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-447  ">
+                            <a class="g-menu-item-container" href="/acceso-a-la-informacion/normatividad">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Normatividad</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-448  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/denuncias-por-incumplimiento-a-obligaciones-de-transparencia">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Denuncias por incumplimiento a las obligaciones de Transparencia</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-separator g-menu-item-496 g-parent  ">
+                            <div class="g-menu-item-container" data-g-menuparent="">                                                                            <span class="g-separator g-menu-item-content">            <span class="g-menu-item-title">Protección de datos personales</span>
+            </span>
+                                        <span class="g-menu-parent-indicator"></span>                            </div>                                                                <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-2 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                                    
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-497  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/avisos-de-privacidad-integrales">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Avisos de privacidad</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-498  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/datos-de-contacto-de-la-unidad-de-transparencia">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Datos de contacto de la Unidad de Transparencia</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-499  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/informacion-relevante-en-materia-de-proteccion-de-datos-personales">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Información relevante en materia de protección de datos personales</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-separator g-menu-item-450 g-parent  ">
+                            <div class="g-menu-item-container" data-g-menuparent="">                                                                            <span class="g-separator g-menu-item-content">            <span class="g-menu-item-title">Apertura Gubernamental</span>
+            </span>
+                                        <span class="g-menu-parent-indicator"></span>                            </div>                                                                <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-2 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                                    
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-454  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/informacion-socialmente-util">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Información socialmente útil</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-455  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/obligaciones-en-materia-de-archivos">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Obligaciones en Materia de Archivos</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-456  ">
+                            <a class="g-menu-item-container" href="/apertura-gubernamental/transparencia-focalizada">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Transparencia proactiva</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-457  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/atencion-al-compromiso-9">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Atención al Compromiso 9 de las bases de colaboración del PNCCIMGP</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-458  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/informacion-de-interes-general">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Información de interés general</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-459  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/informacion-recurrente">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Información recurrente</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-460  ">
+                            <a class="g-menu-item-container" href="/gobierno-abierto">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Gobierno abierto</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-461  ">
+                            <a class="g-menu-item-container" href="/datos-abiertos">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Datos abiertos</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-heading g-menu-item-409 g-parent g-standard  ">
+                            <div class="g-menu-item-container" data-g-menuparent="">                                                                            <span class="g-nav-header g-menu-item-content">            <span class="g-menu-item-title">Protección de datos personales</span>
+            </span>
+                                        <span class="g-menu-parent-indicator"></span>                            </div>                                                                <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-1 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                                    
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-174  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/avisos-de-privacidad-integrales">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Avisos de Privacidad</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-470  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/datos-de-contacto-de-la-unidad-de-transparencia">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Datos de contacto de la Unidad de Transparencia</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                                
+        
+                
+        
+                
+        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-471  ">
+                            <a class="g-menu-item-container" href="/transparencia-inah/informacion-relevante-en-materia-de-proteccion-de-datos-personales">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Información relevante en materia de protección de datos personales</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+    
+        </ul>
+    </nav>
+            </div>
+        </div>
+                    
+
+        <div class="g-block size-5 hidden-tablet hidden-phone">
+             <div id="social-7838-particle" class="g-content g-particle">            <div class="g-social social-items">
+                    <a target="_blank" href="https://www.facebook.com/INAHmx/" title="">
+                <span class="fab fa-facebook-f fa-fw fa-2x"></span>
+                <span class="g-social-text"></span>
+            </a>
+                    <a target="_blank" href="https://twitter.com/INAHmx" title="">
+                <span class="fab fa-twitter fa-fw fa-2x"></span>
+                <span class="g-social-text"></span>
+            </a>
+                    <a target="_blank" href="https://www.instagram.com/inahmx/" title="">
+                <span class="fab fa-instagram fa-fw fa-2x"></span>
+                <span class="g-social-text"></span>
+            </a>
+                    <a target="_blank" href="https://vm.tiktok.com/ZMLkq294V/" title="">
+                <span class="fab fa-tiktok fa-fw fa-2x"></span>
+                <span class="g-social-text"></span>
+            </a>
+                    <a target="_blank" href="https://www.youtube.com/user/INAHTV" title="">
+                <span class="fab fa-youtube fa-fw fa-2x"></span>
+                <span class="g-social-text"></span>
+            </a>
+                    <a target="_blank" href="http://radioinah.blogspot.com/" title="">
+                <span class="fas fa-microphone fa-fw fa-2x"></span>
+                <span class="g-social-text"></span>
+            </a>
+            </div>
+            </div>
+        </div>
+            </div>
+                            <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div id="custom-3824-particle" class="g-content g-particle">            <style>
+  .page-header {
+      margin-bottom: 25px;
+      border-bottom: 2px solid;
+  }
+.page-header h1 {
+  font-family: 'Noto Sans';
+  font-weight: 600;
+}
+  .g-search {
+      position: relative;
+  }
+  .g-search::after {
+      font-family: FontAwesome;
+      content: "\f002";
+      margin: 0 10px;
+      font-size: x-large;
+      right: 0;
+      position: absolute;
+      top: 25%;
+  }
+  .blog-item{
+      padding: 20px !important;
+      box-shadow: 0 5px 15px rgb(0 0 0 / 8%) !important;
+  }
+  .blog-item:hover {
+      background-color: #ffffff;
+      box-shadow: 0 14px 25px rgb(0 0 0 / 16%) !important;
+  }
+   .item-image {
+       overflow: hidden !important;
+       max-height: auto;
+   }
+  h2 {
+      font-size: 14px !important;
+      font-weight: 800 !important;
+  }
+  h2 a {
+      color: #2189a1 !important;
+  }
+  /*figcaption*/
+  figcaption {
+      border-radius: 0 0 10px 10px;
+      padding: 20px 20px 20px 10px;
+      background-color: #d6d6d6;
+      color: #404041;
+      font-size: 17px;
+      display: block;
+  }
+  .no-mar-fig {
+      margin: 0;
+  }
+  /*button boletin*/
+  .button-boletin {
+      padding: 8px;
+      background: antiquewhite;
+      border-radius: 8px;
+      width: 60%;
+      max-width: 300px;
+      text-align: center;
+  }
+  .button-boletin:hover {
+      box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+  }
+.hid{display:none;}
+
+@media (max-width:767px) {
+.uk-modal-body {
+  padding: 30px 10px;
+}
+}
+  </style>
+            </div>
+        </div>
+            </div>
+            </div>
+        
+    </section>
+                    
+                <header id="g-header">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div class="spacer"></div>
+        </div>
+            </div>
+            </div>
+        
+    </header>
+                    
+                <section id="g-drawer">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div id="stripsslider-3129-particle" class="g-content g-particle">            <div id="strips" class=" g-owlcarousel-strips-slider g-owlcarousel-strips-5-items">
+            
+            
+                   
+
+                    <div id="g-owlcarousel-stripsslider-3129" data-owlcarousel-id="g-owlcarousel-stripsslider-3129" class="g-owlcarousel owl-carousel">
+
+                                            </div>    
+            
+
+        
+        </div>
+            </div>
+        </div>
+            </div>
+            </div>
+        
+    </section>
+                    
+                <section id="g-expandedtop" class="g-flushed">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div id="custom-8554-particle" class="g-content g-particle">            <style>
+    .row > * {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.page-header, .article-info, .text-muted {
+  display:none;
+}
+#g-main {
+    background: #2a2a2d url(/images/noise.png) !important;
+}
+.mo-containerSShare {
+    margin: 0 !important;
+    position: relative;
+    top: 700px;
+    z-index: 1;
+}
+.mo-socialContainer {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    background: #00000073;
+    padding: 15px;
+    border-radius: 10px;
+}
+.mo-titleSShare {
+    color: white !important;
+}
+@media (max-width:1200px) {
+    .mo-containerSShare {
+        position: inherit;
+    }
+    .mo-socialContainer {
+        position: inherit;
+        background: none;
+        text-align: center;
+    }
+}
+.mo-wer {
+  padding-bottom: 0 !important;
+}
+.uk-tab-left::before {
+  border-left: inherit !important;
+}
+.uk-tab::before {
+  border-bottom: inherit !important;
+}
+.experimnt-mu-title {
+  font-size: 3.4rem !important;
+}
+@media (max-width: 1100px) {
+    .experimnt-mu-title {
+        font-size: 2.7rem !important;
+    }
+}
+@media (max-width: 425px) {
+    .experimnt-mu-title {
+        font-size: 2rem !important;
+    }
+}
+.uk-tab>.uk-active>a {
+  transparent !important;
+}
+strong {
+    color: white !important;
+    text-shadow: 0 0 3px black !important;
+}
+.mo-360 {
+  padding: 15px;
+    backdrop-filter: blur(1px);
+    background: #fdc65452;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.mo-icon-scale {
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+@media (max-width:639px) {
+  .mo-360 {
+    margin: 0 auto;
+  }
+}
+.font-up-downcontainer {
+  display:none;
+}
+</style>
+            </div>
+        </div>
+            </div>
+            </div>
+        
+    </section>
+    
+                                
+                
+    
+                <section id="g-main" class="g-wrapper">
+                <div class="g-container g-flushed">                    <div class="g-grid">                        
+
+        <div class="g-block size-100 nomarginall nopaddingall">
+             <section id="g-mainbody">
+                                        <div class="g-grid">                        
+
+        <div class="g-block size-100 pos-arrow-left">
+             <div id="custom-4316-particle" class="g-content g-particle">            <a href="javascript:%20history.go(-1)" id="back-button" class="back-arrow-left uk-overlay uk-overlay-default"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
+            </div>
+        </div>
+            </div>
+                            <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div class="g-content">
+                                                            <div class="platform-content container"><div class="row"><div class="col"><div class="mo-wer com-content-article item-page" itemscope itemtype="https://schema.org/Article">
+    <meta itemprop="inLanguage" content="es-ES">
+    
+
+    
+          <div class="page-header">
+        <h1 itemprop="headline">
+          Museo Regional Potosino        </h1>
+                              </div>
+        
+    <!--Social Share-->
+    
+	<div class="mo-containerSShare">
+        <div class="mo-socialContainer">
+            <h3 class="mo-titleSShare">Compártelo</h3>
+		<div>
+			<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.inah.gob.mx/museos/museo-regional-potosino" target="_blank" class="fab fa-facebook-f fa-fw fa-2x"></a>
+			<a href="https://twitter.com/share?url=https://www.inah.gob.mx/museos/museo-regional-potosino" target="_blank" class="fab fa-twitter fa-fw fa-2x mo-color-twitter"></a>
+			<a href="whatsapp://send?text=https://www.inah.gob.mx/museos/museo-regional-potosino" target="_blank" class="fab fa-whatsapp fa-fw fa-2x mo-color-whatsapp"></a>
+		</div>
+        </div>
+	</div>
+  
+  
+    <!-- end Social Share-->
+
+        
+    
+    
+        
+                                          <div itemprop="articleBody" class="com-content-article__body" id="tsspeech">
+         
+<div class="uk-background-cover uk-height-medium uk-panel" style="background-image: url('/images/museos/slp/museoregionalpotosino/20221026_mu_museoregionalpotosino_head.jpg'); height: fit-content; padding-bottom: 1%;">
+<div class="uk-grid-collapse uk-child-width-1-2@s uk-margin uk-flex uk-flex-center uk-flex-middle mo-margin-top" uk-grid="">
+<div class="mo-sect-left">
+<h1 class="mo-title-za experimnt-mu-title">Museo Regional Potosino</h1>
+<a href="https://www.facebook.com/profile.php?id=100064506230300" target="_blank" rel="noopener" class="mo-link-za">Facebook</a><br>
+<p class="mo-telho-za"><strong>Horario:</strong> Martes a domingo de 9 h a 18 h.
+<br> <strong><br>Costo: $145.00 pesos</strong><br> Nacionales y extranjeros con residencia en México: $80.00 pesos</p>
+    <a href="https://lugares.inah.gob.mx/lugar-105-es" title="" rel="home" class="g-logo content_InahLugares" target="_blank">
+        <img id="logo_inahlugares" src="/images/banners/logo_inahlugares.png" alt="lugares Inah" style="width: 200px; padding: 0; background: #ffffff78;">
+    </a></div>
+<div class="uk-padding">
+<div class="uk-width-auto">
+<ul class="uk-tab-left" uk-tab="connect: #my-za-random; animation: uk-animation-fade">
+<li><a href="#">
+<strong><h3 class="mo-title-desc-za">Descripción del inmueble</h3>
+</strong></a></li><strong>
+<!-- <li><a href="#">
+                            <h3 class="mo-title-desc-za">Temática</h3>
+                        </a></li> -->
+<li><a href="#">
+<h3 class="mo-title-desc-za">Relevancia cultural</h3>
+</a></li>
+<li><a href="#">
+<h3 class="mo-title-desc-za">Acceso</h3>
+</a></li>
+<li><a href="#">
+<h3 class="mo-title-desc-za">Contacto</h3>
+</a></li>
+<li><a href="#">
+<h3 class="mo-title-desc-za">Mapa</h3>
+</a></li>
+</strong></ul><strong>
+</strong></div><strong>
+</strong></div><strong>
+</strong></div><strong>
+<div class="uk-overlay mo-overlay-primary mo-margin-overlay">
+<div style="display: grid; justify-content: center; padding: 3%; color: white;">
+<ul id="my-za-random" class="uk-switcher" style="font-size: 18px;">
+<li>
+<p class="uk-h2 mo-h2">Descripción del inmueble</p>
+<p>El Museo Regional Potosino forma parte de un convento franciscano cuya construcción data de 1586. El inmueble es un espacio vivo que permite la interrelación entre el visitante y los objetos en exhibición. En la planta alta se localiza la capilla de Aranzazú, obra de estilo barroco que, por su decoración y el atrio techado, constituye un testimonio arquitectónico único en América.<br><br>Ubicado en el centro histórico en un edificio Novohispano que data de la fundación de la Ciudad (1592). El museo es parte de lo que fueron los patios de servicio, corredores y biblioteca del exconvento franciscano. El edificio es una muestra fiel de la arquitectura Novohispana, en su interior alberga a la capilla de Aranzazú, única en su tipología ya que se ubica en la planta alta de lo que fuera el convento. Como testimonio de la desamortización de los bienes eclesiásticos quedó mutilada la sacristía de la Capilla de Aranzazú. Las antiguas caballerizas del convento dieron lugar a la actual Plaza de Aranzazú, El Ventanal de la Capilla de Aranzazú, de estilo barroco realizado en Cantera.</p>
+</li>
+<!-- <li>
+                    <p class="uk-h2 mo-h2">Temática</p>
+                    <p>&nbsp;</p>
+                </li> -->
+<li>
+<p class="uk-h2 mo-h2">Relevancia cultural</p>
+<p>Este monumento es testigo de la historia de los potosinos, desde la evangelización de los indios guachichiles, la cotidianeidad y fe de los colonos en la época virreinal, la lucha independentista y la revolución agrarista. Actualmente el museo posee uno de los acervos arqueológicos más importantes de Mesoamérica y la Zona Huasteca, exhibe el Acta de Fundación de la Ciudad y además cuenta con una importante pinacoteca de la época virreinal.<br><br>Luego, el museo fue inaugurado el 20 de noviembre de 1952, seis años antes de la fundación de San Luis Potosí como entidad federativa. En 2004 recibió el Premio a la Conservación del Patrimonio Cultural por parte del gobierno estatal, reconocimiento otorgado por los trabajos de restauración arquitectónica y reestructuración museográfica del recinto.</p>
+</li>
+<li>
+<p class="uk-h2 mo-h2">Acceso</p>
+<p class="mo-link-za">Plaza de Aranzazú S/N, Centro Histórico, CP 78000. San Luis Potosí, San Luis Potosí. Esquina de la calle de Galeana con Independencia, a dos cuadras de la plaza de Fundadores y atrás del Templo de San Francisco.</p>
+</li>
+<li>
+<p class="uk-h2 mo-h2">Contacto</p>
+<p class="mo-link-za">Teléfonos: 01 (444) 812 – 0358.</p>
+<br>
+<p class="mo-link-za">Correos electrónicos: <joomla-hidden-mail  is-link="1" is-email="1" first="c2VydmljaW9zZWR1Y2F0aXZvc21ycA==" last="eWFob28uY29tLm14" text="c2VydmljaW9zZWR1Y2F0aXZvc21ycEB5YWhvby5jb20ubXg=" base="" >Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.</joomla-hidden-mail></p>
+</li>
+<li>
+<p class="uk-h2 mo-h2">Mapa</p>
+<iframe style="border: 0; width: 800px; height: 600px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.401888683338!2d-100.98041148452805!3d22.14876903540251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842aa200e4e3d62f%3A0x367329ca9bb4cc5f!2sMuseo%20Regional%20Potosino%20INAH!5e0!3m2!1ses-419!2smx!4v1664894922011!5m2!1ses-419!2smx" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen="allowfullscreen" height="600" width="800"></iframe></li>
+</ul>
+</div>
+</div>
+</strong></div>      </div>
+
+                        <dl class="article-info text-muted">
+
+            <dt class="article-info-term">
+                        Detalles                    </dt>
+
+        
+        
+        
+        
+                    <dd class="published">
+    <span class="icon-calendar icon-fw" aria-hidden="true"></span>
+    <time datetime="2022-10-04T09:54:43-05:00">
+        Publicado: 04 Octubre 2022    </time>
+</dd>
+        
+    
+                        <dd class="create">
+    <span class="icon-calendar icon-fw" aria-hidden="true"></span>
+    <time datetime="2022-10-04T09:54:43-05:00">
+        Creado: 04 Octubre 2022    </time>
+</dd>
+        
+                    <dd class="modified">
+    <span class="icon-calendar icon-fw" aria-hidden="true"></span>
+    <time datetime="2026-01-06T11:53:27-06:00">
+        Última actualización: 06 Enero 2026    </time>
+</dd>
+        
+            </dl>
+                      
+                                    </div>
+  <!-- PRACTiCE --></div></div></div>
+    
+            
+    </div>
+        </div>
+            </div>
+            
+    </section>
+        </div>
+            </div>
+    </div>
+        
+    </section>
+    
+                    
+                <footer id="g-footer">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-50">
+             <div id="custom-1619-particle" class="g-content g-particle">            <p>Insurgentes Sur 1940, col. Florida, C.P. 01030, Álvaro Obregón, CDMX. </p>
+            </div>
+        </div>
+                    
+
+        <div class="g-block size-50 nomargintop nopaddingtop nomarginleft nopaddingleft rt-branding">
+             <div id="branding-1114-particle" class="g-content g-particle">            <div class="g-branding branding">
+    <p style="text-align: right;"><br>Coordinación Nacional de Difusión - Dirección de Medios de Comunicación - INAH - ALGUNOS DERECHOS RESERVADOS © 2026</p> 
+</div>
+            </div>
+        </div>
+            </div>
+            </div>
+        
+    </footer>
+                    
+                <section id="g-copyright" class="g-flushed">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div id="custom-7029-particle" class="g-content g-particle">            <style>#g-copyright .g-block{z-index:35;}</style>
+<footer class="main-footer">
+    <div class="list-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3"> <img data-v-9e928f9a="" src="https://framework-gb.cdn.gob.mx/gobmx/img/logo_blanco.svg"
+              href="/" alt="logo gobierno de mÃƒÂ©xico" class="logo_footer" style="max-width: 90%;"></div>
+          <div class="col-sm-3">
+            <h5 class="white-mo-h5">Enlaces</h5>
+            <ul>
+              <li><a href="https://participa.gob.mx" target="_blank" rel="noopener"
+                  title="Enlace abre en ventana nueva">Participa</a></li>
+              <li><a href="https://www.gob.mx/publicaciones" target="_blank" rel="noopener"
+                  title="Enlace abre en ventana nueva">Publicaciones Oficiales</a></li>
+              <li><a href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener"
+                  title="Enlace abre en ventana nueva">Marco Jurídico</a></li>
+              <li><a href="https://consultapublicamx.inai.org.mx/vut-web/" target="_blank" rel="noopener"
+                  title="Enlace abre en ventana nueva">Plataforma Nacional de Transparencia</a></li>
+              <li><a href="https://alertadores.funcionpublica.gob.mx/" target="_blank" rel="noopener"
+                  title="Enlace abre en ventana nueva">Alerta</a></li>
+              <li><a href="https://sidec.funcionpublica.gob.mx" target="_blank" rel="noopener"
+                  title="Enlace abre en ventana nueva">Denuncia</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="white-mo-h5">¿Qué es gob.mx?</h5>
+            <p>Es el portal único de trámites, información y participación ciudadana. <a
+                href="https://www.gob.mx/que-es-gobmx">Leer más</a></p>
+            <ul>
+              <li><a href="https://datos.gob.mx">Portal de datos abiertos</a></li>
+              <li><a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a></li>
+              <li><a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a></li>
+              <li><a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a></li>
+              <li><a href="https://www.gob.mx/terminos">Términos y Condiciones</a></li>
+              <li><a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a></li>
+              <li><a href="https://www.gob.mx/sitemap">Mapa de sitio</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="white-mo-h5"><a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia
+                contra servidores públicos</a></h5>
+            <h5 class="white-mo-h5">Síguenos en</h5>
+            <ul class="list-inline">
+              <li>
+                <a class="" target="_blank" rel="noopener" title="Enlace abre en ventana nueva"
+                  href="https://www.facebook.com/gobmexico" aria-label="Facebook de presidencia">
+                  <i style="font-size:20px;" class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a class="" target="_blank" rel="noopener" title="Enlace abre en ventana nueva"
+                  href="https://twitter.com/GobiernoMX" aria-label="Twitter de presidencia">
+                  <i style="font-size:20px;" class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--
+    <div class="container-fluid footer-pleca">
+      <div class="row">
+        <div class="col"><br><br></div>
+      </div>
+    </div>
+    -->
+  </footer>
+            </div>
+        </div>
+            </div>
+            </div>
+        
+    </section>
+    
+                        
+
+        </div>
+                    
+
+                        <script type="text/javascript" src="/media/gantry5/assets/js/main.js"></script>
+    <script type="text/javascript" src="/media/gantry5/assets/js/lightcase.js"></script>
+    <script type="text/javascript">jQuery(document).ready(function($) { jQuery('[data-rel^=lightcase]').lightcase({maxWidth: '100%', maxHeight: '100%', video: {width: '1280', height: '720'}}); });</script>
+    <script type="text/javascript">
+jQuery(document).ready(function (){
+  /* When user clicks the Icon */
+  jQuery(".nav-toggle").click(function() {
+    jQuery(this).toggleClass("active");
+    jQuery("#g-container-overlay").toggleClass("open");
+  });
+
+  /* When user clicks outside */
+  jQuery("#g-container-overlay").click(function() {
+    jQuery(".nav-toggle").toggleClass("active");
+    jQuery("#g-container-overlay").toggleClass("open");
+  });
+});
+</script>
+    <script type="text/javascript" src="/templates/g5_inah/js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('#g-owlcarousel-stripsslider-3129').owlCarousel({
+            items: 5,
+            slideBy: 5,
+            smartSpeed: 100,
+            rtl: false,
+                        nav: true,
+                                    dots: false,
+                                    loop: false,
+                                    autoplay: false,
+                        responsive: {
+                0: {
+                    items: 1,
+                },
+                480: {
+                    items: 2,
+                },
+                768: {
+                    items: 3,
+                },
+                1015: {
+                    items: 5,
+                },
+            },
+        })
+    });
+    </script>
+    
+<div id="mod-custom156" class="mod-custom custom">
+    <!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banner 37 FILAH — Transmisiones INAH TV</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        #press-banner {
+            position: fixed;
+            bottom: 10px;
+            left: 20px;
+            width: 400px;
+            max-width: 90%;
+            background-color: #ffffff;
+            border: 2px solid #1F4D9C;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            overflow: hidden;
+            transition: transform 0.4s ease, opacity 0.4s ease;
+            transform: translateY(120%);
+            opacity: 0;
+            display: none;
+        }
+
+        #press-banner.mounted {
+            display: block;
+        }
+
+        #press-banner.visible {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .press-header {
+            background-color: #1F4D9C;
+            color: #ffffff;
+            padding: 10px 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            border-bottom: 3px solid #F0D89C;
+        }
+
+        .press-header .title-wrap {
+            flex: 1;
+            text-align: center;
+            min-width: 0;
+        }
+
+        .press-header .title {
+            margin: 0;
+            font-size: 1rem;
+            color: #ffffff;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            line-height: 1.2;
+        }
+
+        .press-header .title em {
+            font-style: normal;
+            color: #F0D89C;
+        }
+
+        .press-header .subtitle {
+            margin: 2px 0 0;
+            font-size: 0.72rem;
+            color: rgba(255, 255, 255, 0.85);
+            font-weight: 400;
+            line-height: 1.2;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .press-header #close-press {
+            background: transparent;
+            border: none;
+            color: #F0D89C;
+            font-size: 1.4rem;
+            font-weight: bold;
+            cursor: pointer;
+            line-height: 1;
+            padding: 4px 6px;
+            border-radius: 4px;
+            transition: color 0.2s, background 0.2s;
+            flex-shrink: 0;
+        }
+
+        .press-header #close-press:hover {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            background-color: #000;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .press-footer {
+            background-color: #F0D89C;
+            padding: 8px 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .press-footer .status-text {
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin: 0;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            min-width: 0;
+            flex: 1;
+        }
+
+        .press-footer .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #808080;
+            flex-shrink: 0;
+        }
+
+        .press-footer.status-live .status-dot {
+            background: #d93025;
+            animation: pulse-live 1.5s ease-in-out infinite;
+        }
+
+        .press-footer.status-upcoming .status-dot {
+            background: #F0AD00;
+        }
+
+        .press-footer.status-live .status-text {
+            color: #1F4D9C;
+        }
+
+        .press-footer.status-upcoming .status-text {
+            color: #8A5A00;
+        }
+
+        @keyframes pulse-live {
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: scale(0.85);
+            }
+        }
+
+        .status-label {
+            white-space: nowrap;
+        }
+
+        .status-time {
+            font-weight: 400;
+            font-size: 0.72rem;
+            margin-left: 4px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .press-footer .yt-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background-color: #1F4D9C;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.78rem;
+            font-weight: 700;
+            padding: 6px 10px;
+            border-radius: 4px;
+            transition: background-color 0.2s, transform 0.2s;
+            flex-shrink: 0;
+        }
+
+        .press-footer .yt-button:hover {
+            background-color: #163872;
+            transform: translateY(-1px);
+        }
+
+        @media (max-width: 600px) {
+            #press-banner {
+                width: 90%;
+                left: 5%;
+                bottom: 10px;
+            }
+
+            .press-header .title {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="press-banner">
+        <div class="press-header">
+            <div class="title-wrap">
+                <p class="title"><em>37</em> FILAH</p>
+                <p class="subtitle" id="stream-title">Transmisiones INAH TV</p>
+            </div>
+            <button id="close-press" aria-label="Cerrar">&times;</button>
+        </div>
+
+        <div class="video-container" id="video-container"></div>
+
+        <div class="press-footer" id="press-footer">
+            <span class="status-text" id="status-text">
+                <span class="status-dot"></span>
+                <span class="status-label">Cargando…</span>
+            </span>
+            <a href="https://www.youtube.com/@INAHTV/live" target="_blank" rel="noopener noreferrer" class="yt-button">
+                YouTube &#8599;
+            </a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        (function () {
+            // ═══════════════════════════════════════════════════════════════════
+            //   LISTA DE STREAMS  ←  pega aquí lo que te da generador-filah.html
+            // ═══════════════════════════════════════════════════════════════════
+            //
+            //   Cada objeto: { start, end, id, title }
+            //   Fechas en hora local CDMX en formato 'YYYY-MM-DDTHH:MM'.
+            //
+            //   Para actualizar: abre generador-filah.html en tu navegador,
+            //   pulsa "Buscar streams", copia el bloque generado, y reemplaza
+            //   estas líneas.
+            // 83 streams entre 2026-08-17 y 2026-08-23
+            // Generado el 17/8/2026, 12:13:15 p.m.
+            // 80 streams entre 2026-08-17 y 2026-08-23
+            const STREAMS = [
+                { start: '2026-08-17T11:00', end: '2026-08-17T14:00', id: '_g1s8FXMyog', title: 'Mesa de diálogo: "Territorios: intersecciones de la diversidad" | 37 FILAH' },
+                { start: '2026-08-17T11:00', end: '2026-08-17T14:00', id: 'lJEwBJUkYzI', title: 'Representaciones femeninas y desigualdad social y de género en el Preclásico Mesoamericano' },
+                { start: '2026-08-17T12:15', end: '2026-08-17T15:15', id: 'IqRbIdym69I', title: 'IX Coloquio de Conservadores de Patrimonio Cultural. Entrega del Reconocimiento | 37 FILAH' },
+                { start: '2026-08-17T13:00', end: '2026-08-17T16:00', id: 'gSTwB2tVunQ', title: 'Presentación Editorial: Retratos de ultramar. Historia y memoria de una inmigración francesa...' },
+                { start: '2026-08-17T13:00', end: '2026-08-17T16:00', id: 'SWPBw1DX6p8', title: 'Presentación editorial: "Noche estrellada" | 37 FILAH' },
+                { start: '2026-08-17T14:00', end: '2026-08-17T17:00', id: 'jDUdKAyaLgo', title: 'Creatividades locales: promover y proteger la diversidad cultural en el ámbito municipal.' },
+                { start: '2026-08-17T15:00', end: '2026-08-17T18:00', id: 'dka1Fn5uS7E', title: 'Conversatorio: Economía, Creatividad y Género | 37 FILAH' },
+                { start: '2026-08-17T16:00', end: '2026-08-17T19:00', id: 'izlUC1iEzmg', title: 'Presentación editorial: Mecenazgo Cultural. De patronatos, asociaciones y fundaciones. UNAM. CNME.' },
+                { start: '2026-08-17T16:00', end: '2026-08-17T19:00', id: 'rVe3ROCBSwI', title: 'Conversatorio: "El cuerpo en disputa: conversaciones sobre intervenciones..." | 37 FILAH' },
+                { start: '2026-08-17T17:00', end: '2026-08-17T20:00', id: 'ENBZrWB-xyQ', title: 'Experiencias en gestión de riesgos para el patrimonio cultural en Iberoamérica. INAH / ICCROM.' },
+                { start: '2026-08-18T10:00', end: '2026-08-18T13:00', id: 'f-oOqSAksT4', title: 'VIII Foro de Revistas Académicas. Inauguración, Mesa 1 y Mesa 2.' },
+                { start: '2026-08-18T10:00', end: '2026-08-18T13:00', id: 'tlxJY7KoMcI', title: 'Decenio Internacional de Lenguas Indígenas, inauguración | 37 FILAH' },
+                { start: '2026-08-18T11:00', end: '2026-08-18T14:00', id: 'EJ0N-lCusVM', title: 'Travesías de la antropología en México' },
+                { start: '2026-08-18T12:00', end: '2026-08-18T15:00', id: 'LjCej97TelY', title: 'Homenaje a María del Consuelo Maquívar' },
+                { start: '2026-08-18T12:00', end: '2026-08-18T15:00', id: 'QQOArn2VezI', title: 'Presentación editorial: "Senderos de la bioarqueología en México..." | 37 FILAH' },
+                { start: '2026-08-18T13:00', end: '2026-08-18T16:00', id: 'p6ZGTromemY', title: 'Presentación editorial: «Treinta años "sembrando rebeldía"...» | 37 FILAH' },
+                { start: '2026-08-18T14:00', end: '2026-08-18T17:00', id: 'FdKGNhDCo4Q', title: 'Presentación editorial: "Por donde pasaba el agua" | 37 FILAH' },
+                { start: '2026-08-18T15:15', end: '2026-08-18T18:15', id: 'L4tmAeEuPuU', title: 'VIII Foro de Revistas Académicas. Mesa 3.' },
+                { start: '2026-08-18T16:00', end: '2026-08-18T19:00', id: 'rAiUzQV1zXg', title: 'Presentación editorial: "Al filo del Imperio. Los mayas de la frontera sureste de Yuc..." | 37 FILAH' },
+                { start: '2026-08-18T16:00', end: '2026-08-18T19:00', id: '-9AGqcjzWmQ', title: 'Decenio Internacional de Lenguas Indígenas, clausura | 37 FILAH' },
+                { start: '2026-08-18T17:00', end: '2026-08-18T20:00', id: '7Y3ZZ3xo9zw', title: 'Conversatorio: Mural histórico más grande del mundo hecho con pincel "Fútbol" | 37 FILAH' },
+                { start: '2026-08-19T10:00', end: '2026-08-19T13:00', id: 'HMkptIJpQrQ', title: 'Conferencia: "La primera briozoóloga mexicana: aportaciones de Yolanda Herrera Anduaga"' },
+                { start: '2026-08-19T10:00', end: '2026-08-19T13:00', id: 'saozX9iQoyU', title: 'XXXI Simposio Román Piña Chan, Inauguración y mesa 1 | 37 FILAH' },
+                { start: '2026-08-19T11:00', end: '2026-08-19T14:00', id: '7nFM1vg0HEM', title: 'Presentación editorial: Narrativas Antropológicas 13 y 14 | 37 FILAH' },
+                { start: '2026-08-19T11:00', end: '2026-08-19T14:00', id: 'vgb99K5I1Dg', title: 'Fototecas del INAH: Vinculación y memoria. Bienvenida y 1a parte.' },
+                { start: '2026-08-19T12:00', end: '2026-08-19T15:00', id: '2bADwlF7fjc', title: 'Presentación editorial: "Combinar para convivir. Etnografía de un pueblo nahua..." | 37 FILAH' },
+                { start: '2026-08-19T12:15', end: '2026-08-19T15:15', id: 'bWzdU_I4gyA', title: 'Fototecas del INAH: Vinculación y memoria. 2a parte.' },
+                { start: '2026-08-19T13:00', end: '2026-08-19T16:00', id: 'vxWq5smbvGQ', title: 'Presentación editorial: "Reflexiones, diálogos y avatares éticos..." | 37 FILAH' },
+                { start: '2026-08-19T14:00', end: '2026-08-19T17:00', id: 'xjwxCdbTBLE', title: 'Presentación editorial: "Paleontología Mexicana: Mujeres en la paleontología" | 37 FILAH' },
+                { start: '2026-08-19T14:30', end: '2026-08-19T17:30', id: 'UFUim3dq6k0', title: 'XXXI Simposio Román Piña Chan. Homenaje a María Elisa Villalpando | 37 FILAH' },
+                { start: '2026-08-19T16:00', end: '2026-08-19T19:00', id: '1CbP8HXpG_w', title: 'Fototecas del INAH: Vinculación y memoria. 3a parte.' },
+                { start: '2026-08-19T16:00', end: '2026-08-19T19:00', id: 'JhIIlH8RvsI', title: 'Presentación editorial: "Nueva Antropología: Vol. 37, Núm. 100 (2024): Cultura de la noche urbana"' },
+                { start: '2026-08-19T16:15', end: '2026-08-19T19:15', id: 'n0eSTgbiHYI', title: 'XXXI Simposio Román Piña Chan. Mesa 2 y Clausura | 37 FILAH' },
+                { start: '2026-08-19T17:00', end: '2026-08-19T20:00', id: 'rWL4h57W7TY', title: 'Diplomado DEH | Las batallas por la obtención del sufragio (1934–1954)' },
+                { start: '2026-08-19T17:00', end: '2026-08-19T20:00', id: 'FX_U-WlUe4w', title: 'Presentación editorial: "Permanencias del pasado en el presente indígena de México" | 37 FILAH' },
+                { start: '2026-08-20T09:30', end: '2026-08-20T12:30', id: 'UD2lLwHce7w', title: '7° Conversatorio Interdisciplinario de las Escuelas del INAH. 1a parte.' },
+                { start: '2026-08-20T09:30', end: '2026-08-20T12:30', id: 'e4aXOnJear4', title: 'IV Cuarto Foro de Historia | 37 FILAH' },
+                { start: '2026-08-20T11:00', end: '2026-08-20T14:00', id: 'DIc8-Csyu_M', title: 'Presentación editorial: "Los personajes del Templo de la Serpiente Emplumada..." | 37 FILAH' },
+                { start: '2026-08-20T12:00', end: '2026-08-20T15:00', id: 'qdzNWlDUB_A', title: 'Presentación editorial: "Memorias de un naufragio..." | 37 FILAH' },
+                { start: '2026-08-20T13:00', end: '2026-08-20T16:00', id: 'B1nrHsuEpcg', title: 'Presentación editorial: "Códices de San Andrés Tetepilco" | 37 FILAH' },
+                { start: '2026-08-20T14:00', end: '2026-08-20T17:00', id: 'Sq8PdPMd6mQ', title: 'Presentación editorial: "Espacio público en la Ciudad de México durante el Neoclásico" | 37 FILAH' },
+                { start: '2026-08-20T14:30', end: '2026-08-20T17:30', id: 'xooG1KbgmyE', title: '7° Conversatorio Interdisciplinario de las Escuelas del INAH. 2a parte.' },
+                { start: '2026-08-20T15:00', end: '2026-08-20T18:00', id: 'zX-bcdMV6V4', title: '28.º Premio Antonio García Cubas | 37 FILAH' },
+                { start: '2026-08-20T16:00', end: '2026-08-20T19:00', id: 'D0z9Cz1JIvM', title: 'Conversatorio: Ricardo Pérez Montfort | 37 FILAH' },
+                { start: '2026-08-20T16:00', end: '2026-08-20T19:00', id: 'CYe-c3_PcBY', title: 'Presentación editorial: "Agua y vida en la cuenca de México: Siglos XV-XXI" | 37 FILAH' },
+                { start: '2026-08-20T17:00', end: '2026-08-20T20:00', id: 'mZTzBZPtvfM', title: '28 Premio Antonio García Cubas | 36 FILAH' },
+                { start: '2026-08-21T10:00', end: '2026-08-21T13:00', id: 'Mpl0HRkOJ8g', title: '7° Conversatorio Interdisciplinario de las Escuelas del INAH. 3a parte.' },
+                { start: '2026-08-21T10:00', end: '2026-08-21T13:00', id: 'eYlwOIiq41c', title: 'XXII Coloquio de Africanías. Matutino | 37 FILAH' },
+                { start: '2026-08-21T10:00', end: '2026-08-21T13:00', id: 'H1pCMapBjdM', title: 'Presentación editorial: "Narrar a Veracruz" | 37 FILAH' },
+                { start: '2026-08-21T11:00', end: '2026-08-21T14:00', id: 'ghHDJ2-w5Ec', title: 'Presentación editorial: "El diluvio y la tormenta. Mitología y paisaje en el Totonacapan" | 37 FILAH' },
+                { start: '2026-08-21T12:00', end: '2026-08-21T15:00', id: 'IBBZSIDvMi0', title: '28 Premio Antonio García Cubas | 37 FILAH' },
+                { start: '2026-08-21T13:00', end: '2026-08-21T16:00', id: '5qcrFH9lY9E', title: 'Presentación editorial: "Parece que fue ayer. Fragmentos para una historia mexicana..." | 37 FILAH' },
+                { start: '2026-08-21T14:00', end: '2026-08-21T17:00', id: 'u-bOeNsH6YM', title: 'Presentación editorial: "Sabores y saberes. Travesía cultural del pulque mexiquense" | 37 FILAH' },
+                { start: '2026-08-21T15:00', end: '2026-08-21T18:00', id: 'lYSPqeJLcqo', title: 'Taller "Lenguas del Norte" Aproximaciones al Comanche y al Rarámuri". EAHNM.' },
+                { start: '2026-08-21T16:00', end: '2026-08-21T19:00', id: 'DWai8dXE9vk', title: '28 Premio Antonio García Cubas | 37 FILAH' },
+                { start: '2026-08-21T16:00', end: '2026-08-21T19:00', id: 'mIRcjK3NRhY', title: 'XXII Coloquio de Africanías. Vespertino | 37 FILAH' },
+                { start: '2026-08-21T17:00', end: '2026-08-21T20:00', id: 'wLufG1Ayjso', title: 'Presentación editorial: "Vivienda colectiva en México" | 37 FILAH' },
+                { start: '2026-08-21T18:00', end: '2026-08-21T21:00', id: 'enGF_TYBTqA', title: 'Presentación editorial: "Negra Estrella" | 37 FILAH' },
+                { start: '2026-08-22T09:30', end: '2026-08-22T12:30', id: 'wWGN83E_FbY', title: 'Jornada especial. Veracruz: hule y juego de pelota. CNCPC. 1a parte.' },
+                { start: '2026-08-22T10:00', end: '2026-08-22T13:00', id: 'Oni9dCCCaRI', title: 'Presentación editorial: Expresiones de la cultura política en el continente americano..." | 37 FILAH' },
+                { start: '2026-08-22T10:00', end: '2026-08-22T13:00', id: 'oibZN4Avqj8', title: 'IV Foro Diálogos desde el Territorio | 37 FILAH' },
+                { start: '2026-08-22T11:00', end: '2026-08-22T14:00', id: 'MXbPzR0PDLQ', title: 'Presentación editorial: "La mirada documental. Nuevos enfoques y perspectivas" | 37 FILAH' },
+                { start: '2026-08-22T12:00', end: '2026-08-22T15:00', id: '_epw8_CrT0o', title: 'Presentación editorial: "Las vasijas selladas del exconvento de San Hipólito..." | 37 FILAH' },
+                { start: '2026-08-22T13:00', end: '2026-08-22T16:00', id: 'UU14SzaqOVw', title: 'Jornada especial Veracruz: hule y juego de pelota. 2a parte.' },
+                { start: '2026-08-22T13:00', end: '2026-08-22T16:00', id: 'i-XuR1HMvp8', title: 'Presentación editorial: "Elogio de la imaginación antropológica. Un homenaje a Marc Augé" | 37 FILAH' },
+                { start: '2026-08-22T14:00', end: '2026-08-22T17:00', id: 'Ag5-rB7q8U8', title: 'Presentación editorial: "Chalchihuitl. La piedra verde preciosa en la cultura náhuatl" | 37 FILAH' },
+                { start: '2026-08-22T15:00', end: '2026-08-22T18:00', id: '526Oq6zqVfk', title: 'Presentación editorial: "El bordado maya de Yucatán: Patrimonio vivo" | 37 FILAH' },
+                { start: '2026-08-22T15:00', end: '2026-08-22T18:00', id: 'oknB_BGVBHw', title: 'Mesa redonda "Construir desde cero siendo artista en México hoy" | 37 FILAH' },
+                { start: '2026-08-22T16:00', end: '2026-08-22T19:00', id: '2bKTDKgs64o', title: 'El derecho a la ciudad frente a la gentrificación.' },
+                { start: '2026-08-22T16:00', end: '2026-08-22T19:00', id: '0wMblLeKOMk', title: 'Presentación editorial: "Caleidoscopio antropológico..." | 37 FILAH' },
+                { start: '2026-08-22T17:00', end: '2026-08-22T20:00', id: 'NI4PNOTysYY', title: '28 Premio Antonio García Cubas | 37 FILAH' },
+                { start: '2026-08-22T17:00', end: '2026-08-22T20:00', id: 'tV3ABdpaJWA', title: 'Estado de México, un destino hecho a mano. Una Colección para soñar. FOEM.' },
+                { start: '2026-08-23T10:00', end: '2026-08-23T13:00', id: 'W5-DB5ftdtc', title: 'Presentación editorial: "Amatl. Archivo, memoria y agua..." | 37 FILAH' },
+                { start: '2026-08-23T11:00', end: '2026-08-23T14:00', id: 'tk5oD8bOcHo', title: 'Presentación editorial: "Desantrópica. Hacia una antropología de la vida..." | 37 FILAH' },
+                { start: '2026-08-23T11:00', end: '2026-08-23T14:00', id: 't6HNf0dffJ0', title: '28 Premio Antonio García Cubas | 37 FILAH' },
+                { start: '2026-08-23T12:00', end: '2026-08-23T15:00', id: 'zDPAiJPDkMg', title: 'Presentación editorial: "La espada, el oro y la cruz..." | 37 FILAH' },
+                { start: '2026-08-23T12:00', end: '2026-08-23T15:00', id: 'd22gT45XIS0', title: 'Presentación editorial: "Dr. Atl, más allá de los volcanes..." | 37 FILAH' },
+                { start: '2026-08-23T13:00', end: '2026-08-23T16:00', id: 'zaqkjuP2GFg', title: 'Homenaje a Odile Hoffmann, Institut de Recherche pour le Développement (IRD, France)' },
+                { start: '2026-08-23T13:00', end: '2026-08-23T16:00', id: 'kxJnyBL181c', title: 'Presentación editorial: "Otros tristes trópicos. Tres museos personales" | 37 FILAH' },
+                { start: '2026-08-23T14:00', end: '2026-08-23T17:00', id: 'jw49GEHVc40', title: 'Presentación editorial: "Historias regionales de México..." | 37 FILAH' }
+            ];
+
+
+            // Rango de fechas de la FILAH. Fuera de esto, banner oculto.
+            const FILAH_START = new Date('2026-08-17T00:00:00-06:00');
+            const FILAH_END = new Date('2026-08-23T23:59:59-06:00');
+
+            // Cuánto antes del próximo stream lo mostramos con preview/countdown
+            const PREVIEW_LOOKAHEAD_MIN = 180; // 3 horas
+
+            // Cada cuánto re-evalúa qué mostrar (sin llamar API)
+            const CHECK_INTERVAL_MS = 30 * 1000;
+
+            // ═══════════════════════════════════════════════════════════════════
+
+            const IFRAME_ID = 'press-video';
+
+            const banner = document.getElementById('press-banner');
+            const closeBtn = document.getElementById('close-press');
+            const container = document.getElementById('video-container');
+            const footer = document.getElementById('press-footer');
+            const statusText = document.getElementById('status-text');
+            const streamTitle = document.getElementById('stream-title');
+
+            let player = null;
+            let ytApiReady = false;
+            let closedByUser = false;
+            let currentlyMounted = false;
+            let currentStreamId = null;
+            let currentStreamKind = null; // 'live' | 'upcoming'
+            let endedIds = new Set();
+            let checkTimer = null;
+
+            function parseCDMX(iso) {
+                if (/[Z+\-]\d\d:?\d\d$/.test(iso)) return new Date(iso);
+                return new Date(iso + ':00-06:00');
+            }
+            function isInFilahRange() {
+                const now = new Date();
+                return now >= FILAH_START && now <= FILAH_END;
+            }
+            function escapeHtml(s) {
+                return String(s).replace(/[&<>"']/g, function (c) {
+                    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+                });
+            }
+            function buildEmbedSrc(videoId, autoplay) {
+                return 'https://www.youtube.com/embed/' + videoId
+                    + '?autoplay=' + (autoplay ? 1 : 0)
+                    + '&mute=1&controls=1&rel=0&modestbranding=1&enablejsapi=1'
+                    + '&_ts=' + Date.now();
+            }
+
+            function pickStream() {
+                if (!STREAMS.length) return { kind: 'none' };
+                const now = Date.now();
+
+                // 1) ¿Alguno en ventana ahora?
+                for (const s of STREAMS) {
+                    if (endedIds.has(s.id)) continue;
+                    const start = parseCDMX(s.start).getTime();
+                    const end = parseCDMX(s.end).getTime();
+                    if (now >= start && now <= end) {
+                        return { kind: 'live', stream: s };
+                    }
+                }
+                // 2) El más próximo dentro del lookahead
+                const future = STREAMS
+                    .filter(function (s) {
+                        return !endedIds.has(s.id) && parseCDMX(s.start).getTime() > now;
+                    })
+                    .sort(function (a, b) {
+                        return parseCDMX(a.start).getTime() - parseCDMX(b.start).getTime();
+                    });
+                if (future.length) {
+                    const next = future[0];
+                    const minutesUntil = (parseCDMX(next.start).getTime() - now) / 60000;
+                    if (minutesUntil <= PREVIEW_LOOKAHEAD_MIN) {
+                        return { kind: 'upcoming', stream: next };
+                    }
+                }
+                return { kind: 'none' };
+            }
+
+            function renderStream(pick) {
+                const s = pick.stream;
+                const autoplay = pick.kind === 'live';
+                if (currentStreamId === s.id && currentStreamKind === pick.kind) {
+                    updateChrome(pick);
+                    return;
+                }
+                currentStreamId = s.id;
+                currentStreamKind = pick.kind;
+                if (player && typeof player.destroy === 'function') {
+                    try { player.destroy(); } catch (e) { }
+                    player = null;
+                }
+                container.innerHTML =
+                    '<iframe id="' + IFRAME_ID + '" '
+                    + 'src="' + buildEmbedSrc(s.id, autoplay) + '" '
+                    + 'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+                    + 'allowfullscreen '
+                    + 'referrerpolicy="strict-origin-when-cross-origin" '
+                    + 'frameborder="0" '
+                    + 'title="' + escapeHtml(s.title || '37 FILAH') + '"></iframe>';
+                if (ytApiReady) attachPlayer();
+                updateChrome(pick);
+            }
+
+            function updateChrome(pick) {
+                const s = pick.stream;
+                streamTitle.textContent = s.title || 'Transmisión';
+                if (pick.kind === 'live') {
+                    setStatus('live', 'En directo', '');
+                } else {
+                    setStatus('upcoming', 'Próximamente', formatUpcoming(parseCDMX(s.start)));
+                }
+            }
+
+            function setStatus(kind, label, timeStr) {
+                footer.classList.remove('status-live', 'status-upcoming');
+                if (kind === 'live') footer.classList.add('status-live');
+                else if (kind === 'upcoming') footer.classList.add('status-upcoming');
+                statusText.innerHTML =
+                    '<span class="status-dot"></span>'
+                    + '<span class="status-label">' + escapeHtml(label) + '</span>'
+                    + (timeStr ? '<span class="status-time">' + escapeHtml(timeStr) + '</span>' : '');
+            }
+
+            function formatUpcoming(date) {
+                const diffMin = Math.round((date.getTime() - Date.now()) / 60000);
+                if (diffMin < 60) return 'en ' + diffMin + ' min';
+                const h = Math.floor(diffMin / 60);
+                const m = diffMin % 60;
+                return 'en ' + h + 'h' + (m ? ' ' + m + 'min' : '');
+            }
+
+            function attachPlayer() {
+                if (!window.YT || !YT.Player) return;
+                try {
+                    player = new YT.Player(IFRAME_ID, {
+                        events: {
+                            onStateChange: function (e) {
+                                if (e.data === YT.PlayerState.ENDED) {
+                                    if (currentStreamId) endedIds.add(currentStreamId);
+                                    setTimeout(evaluate, 3000);
+                                }
+                            }
+                        }
+                    });
+                } catch (e) { console.warn('YT.Player error:', e); }
+            }
+            function loadYouTubeApi() {
+                if (window.YT && YT.Player) { ytApiReady = true; return; }
+                window.onYouTubeIframeAPIReady = function () {
+                    ytApiReady = true;
+                    if (currentStreamId) attachPlayer();
+                };
+                if (!document.getElementById('yt-iframe-api-script')) {
+                    const s = document.createElement('script');
+                    s.id = 'yt-iframe-api-script';
+                    s.src = 'https://www.youtube.com/iframe_api';
+                    document.head.appendChild(s);
+                }
+            }
+
+            function showBanner() {
+                if (closedByUser || currentlyMounted) return;
+                currentlyMounted = true;
+                banner.classList.add('mounted');
+                setTimeout(function () { banner.classList.add('visible'); }, 50);
+            }
+            function hideBanner() {
+                if (!currentlyMounted) return;
+                currentlyMounted = false;
+                banner.classList.remove('visible');
+                setTimeout(function () {
+                    banner.classList.remove('mounted');
+                    if (player && typeof player.destroy === 'function') {
+                        try { player.destroy(); } catch (e) { }
+                        player = null;
+                    }
+                    container.innerHTML = '';
+                    currentStreamId = null;
+                    currentStreamKind = null;
+                }, 450);
+            }
+
+            function evaluate() {
+                if (closedByUser) return;
+                if (!isInFilahRange()) {
+                    if (currentlyMounted) hideBanner();
+                    return;
+                }
+                const pick = pickStream();
+                if (pick.kind === 'none') {
+                    if (currentlyMounted) hideBanner();
+                    return;
+                }
+                if (!currentlyMounted) showBanner();
+                renderStream(pick);
+            }
+
+            closeBtn.addEventListener('click', function () {
+                closedByUser = true;
+                hideBanner();
+                if (checkTimer) { clearInterval(checkTimer); checkTimer = null; }
+            });
+
+            function init() {
+                loadYouTubeApi();
+                evaluate();
+                checkTimer = setInterval(evaluate, CHECK_INTERVAL_MS);
+            }
+            if (document.readyState === 'loading') {
+                window.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+        })();
+    </script>
+
+</body>
+
+</html></div>
+
+
+    
+
+        
+    </body>
+</html>

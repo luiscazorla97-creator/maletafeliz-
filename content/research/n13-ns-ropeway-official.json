@@ -1,0 +1,27 @@
+{
+  "url": "https://inasayama.info/ropeway/",
+  "finalUrl": "https://inasayama.info/ropeway/",
+  "fetchedAt": "2026-11-13T17:02:10.318Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "c1e5ed33ce3b1703847193da1a649bd8a9892730b68a78e819bdb85a5e6612ec",
+  "title": "長崎ロープウェイ – 【公式】稲佐山公園",
+  "rawFile": "content/research/raw/n13-ns-ropeway-official.html",
+  "textFile": "content/research/raw/n13-ns-ropeway-official.txt",
+  "textSha256": "ec08e33dc79e8264a8294147ff9654f7d2b5ca1cfb8fa2c9c20d855802bae9ad",
+  "facts": [
+    {
+      "fact": "The ropeway operator announces all-day suspension on24and25November2026 for electrical-equipment replacement. Reiwa8 means2026; this is distinct from the slope car.",
+      "excerpt": "令和8年11月24日、25日は、電気機器交換のためロープウェイは終日運休",
+      "location": "ロープウェイ運行状況 > ロープウェイ運休のお知らせ"
+    },
+    {
+      "fact": "The ropeway operates between Fuchi-jinja and Inasa-dake; weather can suspend service, and current last ascent differs from the overall closing time.",
+      "excerpt": "悪天候時は運休となる場合がございます。",
+      "location": "ロープウェイ営業"
+    }
+  ],
+  "notes": "Actual official HTTP200 response and cited excerpts read in full context. RawHTML and explicitly extracted text retained privately with SHA256. Shared factual evidence for original ES/EN manuscripts. Operator-specific dated notices take priority over undated directory summaries; no visit, demand,ranking,prices,opening guarantee or paid service inferred.",
+  "actuallyRead": true,
+  "factReviewedAt": "2026-11-13T17:07:41.036406+00:00"
+}

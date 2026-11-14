@@ -1,0 +1,745 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="is-loading">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Relay KAMOME｜JR KYUSHU RAILWAY COMPANY</title>
+
+
+
+
+<meta name="description" content="JR九州の時刻・運賃検索、列車運行情報や駅情報・路線図、車両案内などご案内です。">
+
+
+
+<link rel="preconnect dns-prefetch" href="//code.jquery.com">
+<link rel="preconnect dns-prefetch" href="//fonts.googleapis.com">
+<link rel="preload" href="/lang/assets/css/style.css?20261115-0209" as="style">
+<link rel="preload" href="/lang/assets/fonts/icomoon/icomoon.ttf?etnesh" as="font" type="font/ttf" crossorigin>
+
+
+
+<link rel="preload" href="/lang/assets/img/train/htb/bg_key-visual_pc.jpg" as="image">
+<link rel="preload" href="/lang/assets/img/train/htb/bg_key-visual_sp.jpg" as="image">
+
+
+<link rel="manifest" href="/english/static/manifest.json">
+
+
+
+<meta name="theme-color" content="#72848e">
+<meta name="apple-mobile-web-app-title" content="JR KYUSHU RAILWAY COMPANY">
+<meta name="apple-mobile-web-app-status-bar-style" content="#72848e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon-precomposed" href="/lang/static/icon_512.png" sizes="512x512">
+<link rel="shortcut icon" href="/lang/static/favicon.ico">
+
+<!-- style -->
+<link rel="stylesheet" href="/lang/assets/css/style.css?20261115-0209" media="screen,tv,projection,print">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+<!-- script -->
+<script src="/lang/assets/js/jquery.min.js"></script>
+<script src="/lang/assets/js/vendor.bundle.js?20261115-0209" defer></script>
+<script src="/lang/assets/js/app.bundle.js?20261115-0209"></script>
+<script src="//www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+
+
+<!-- 個別 -->
+<link rel="stylesheet" href="/lang/assets/css/page/train/common/style.css">
+<script src="/lang/assets/js/page/train/common/script.bundle.js" defer></script>
+</head>
+<body>
+<!--loader-->
+
+<div class="c-loader">
+	<div class="c-loader__bg"></div>
+	<div class="c-loading__inner">
+		<div class="c-loader__icon"></div>
+	</div>
+</div>
+
+
+<!--//loader END-->
+<!-- Google Tag Manager -->
+<!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBV7B3"
+height="0" width##="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBV7B3');</script>
+<!-- End Google Tag Manager -->
+
+<!--gaタグ-->
+<!--gaタグ-->
+<script> 
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); 
+
+ga('create', 'UA-45798252-13', 'auto'); 
+ga('send', 'pageview'); 
+
+</script>
+<!--gaタグ-->
+
+	
+	<!--root-->
+	<div class="l-root">
+
+		<!--header-->
+		
+        <header class="common-root c-header js-sticky" role="banner">
+	<div class="c-header__inner">
+		<p class="c-header__logo">
+			<a class="c-header__logo-link" href="/english/">
+				<img src="/lang/assets/img/common/logo_company.svg" width="300" height="20" alt="JR KYUSHU RAILWAY COMPANY" />
+			</a>
+		</p>
+		<div class="c-header__body">
+			<ul class="c-header__lnav">
+              <li class="c-header__lnav-item">
+					<a class="c-header__lnav-item-link" href="/english/faq/index.html">FAQs</a>
+				</li>
+				<li class="c-header__lnav-item">
+					<a class="c-header__lnav-item-link" href="/english/company.html">Company Summary</a>
+				</li>
+				<li class="c-header__lnav-item">
+					<a class="c-header__lnav-item-link" href="/company/ir_eng/">Investor Relations</a>
+				</li>
+			</ul>
+			<div class="c-header__language">
+				<div class="js-form-select js-form-select--res">
+					<select onchange="location.href=value;">
+						<option value="/english/">English</option>
+						<option value="/korean/">한국어</option>
+						<option value="/chinese/">繁體字</option>
+						<option value="/cn/">簡体字</option>
+						<option value="/">日本語</option>
+					</select>
+				</div>
+			</div>
+			<button class="c-header__hamburger" type="button" aria-expanded="false">
+				<span class="c-header__hamburger-inner">
+					<span class="c-header__hamburger-bars">
+						<span class="c-header__hamburger-bar"></span>
+						<span class="c-header__hamburger-bar"></span>
+						<span class="c-header__hamburger-bar"></span>
+					</span>
+				</span>
+			</button>
+		</div>
+	</div>
+	<div class="c-header__menu">
+		<div class="c-header__menu-inner">
+			<div class="c-wrapper-lg">
+				<button class="c-header__menu-close-button"></button>
+				<div class="c-header__menu-search u-hide-pc">
+					<form class="c-header__menu-search-form">
+						<div class="c-header__menu-search-form-inner" role="group">
+							<div class="c-header__menu-search-form-input"><input type="text" placeholder="Search"></div>
+							<button class="c-header__menu-search-form-button" type="submit"><i class="c-icon-search" aria-hidden="true"></i></button>
+						</div>
+					</form>
+				</div>
+				<ul class="c-header__menu-items">
+					<li class="c-header__menu-item">
+						<ul class="c-header__menu-inner-items">
+							<li class="c-header__menu-inner-item">
+								<a class="c-header__menu-item-link" href="/english/railpass/index.html">Find Your Pass</a>
+								<ul class="c-header__menu-sub-items u-hide-sp">
+									<li class="c-header__menu-sub-item">
+										<a class="c-header__menu-sub-item-link" href="/english/railpass/railpass.html">JR KYUSHU RAIL PASS</a>
+									</li>
+                                  <li class="c-header__menu-sub-item">
+										<a class="c-header__menu-sub-item-link" href="/english/railpass/mobilepass.html">JR KYUSHU MOBILE PASS</a>
+									</li>
+                                  <li class="c-header__menu-sub-item">
+										<a class="c-header__menu-sub-item-link" href="/english/railpass/coupon/index.html">User Benefits</a>
+									</li>
+								</ul>
+								<div class="c-header__menu-item-button u-hide-sp">
+									<p class="c-button-basic">
+										<a class="c-button-basic__link" href="https://kyushurailpass.jrkyushu.co.jp/reserve/TopPage">Booking Service<i class="c-icon-arrow-wide-right" aria-hidden="true"></i></a>
+									</p>
+								</div>
+							</li>
+							<li class="c-header__menu-inner-item">
+								<a class="c-header__menu-item-link" href="/english/train_reservation/service/">JR-KYUSHU <br class="u-hide-sp">Train Reservation</a>
+								<ul class="c-header__menu-sub-items u-hide-sp">
+									<!---<li class="c-header__menu-sub-item">
+										<a class="c-header__menu-sub-item-link" href="/english/train_reservation/ticket/">Product Information</a>
+									</li>--->
+									<li class="c-header__menu-sub-item">
+										<a class="c-header__menu-sub-item-link" href="/english/train_reservation/receive/">How to collect your ticket</a>
+									</li>
+								</ul>
+								<div class="c-header__menu-item-button u-hide-sp">
+									<p class="c-button-basic">
+										<a class="c-button-basic__link" href="https://train.yoyaku.jrkyushu.co.jp/inbound/">Booking Service<i class="c-icon-arrow-wide-right" aria-hidden="true"></i></a>
+									</p>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="c-header__menu-item">
+						<ul class="c-header__menu-link-items">
+							<li class="c-header__menu-link-item">
+								<a class="c-header__menu-item-link" href="/english/train/index.html">Train Varieties</a>
+							</li>
+							<li class="c-header__menu-link-item">
+								<a class="c-header__menu-item-link" href="/english/guide/station.html">Major stations</a>
+							</li>
+							<li class="c-header__menu-link-item">
+								<a class="c-header__menu-item-link" href="/english/tourism/tourism_index.html">Tourist information</a>
+							</li>
+							<li class="c-header__menu-link-item">
+								<a class="c-header__menu-item-link" href="/english/guide/index.html">Guide</a>
+								<ul class="c-header__menu-sp-sub-items">
+									<li class="c-header__menu-sp-sub-item">
+										<a class="c-header__menu-sp-sub-item-link" href="/english/guide/ticket_types.html">Regarding Tickets</a>
+									</li>
+									<li class="c-header__menu-sp-sub-item">
+										<a class="c-header__menu-sp-sub-item-link" href="/english/guide/train_seat.html">Boarding the Train</a>
+									</li>
+								</ul>
+							</li>
+							<li class="c-header__menu-link-item">
+								<a class="c-header__menu-item-link" href="/english/faq/index.html">FAQs</a>
+								<ul class="c-header__menu-sp-sub-items">
+									<li class="c-header__menu-sp-sub-item">
+										<a class="c-header__menu-sp-sub-item-link" href="/english/faq/general.html">General</a>
+									</li>
+									<li class="c-header__menu-sp-sub-item">
+										<a class="c-header__menu-sp-sub-item-link" href="/english/faq/rp.html">JR KYUSHU RAIL PASS</a>
+									</li>
+									<li class="c-header__menu-sp-sub-item">
+										<a class="c-header__menu-sp-sub-item-link" href="/english/faq/olb.html">JR KYUSHU RAIL PASS Online Booking</a>
+									</li>
+									<li class="c-header__menu-sp-sub-item">
+										<a class="c-header__menu-sp-sub-item-link" href="/english/faq/tr.html">JR-KYUSHU Train Reservation</a>
+									</li>
+								</ul>
+							</li>
+							<li class="c-header__menu-link-item">
+								<a class="c-header__menu-item-link" href="https://www.jrkyushu.co.jp/english/guide/privacypolicy.html">Privacy Policy</a>
+							</li>                          
+						</ul>
+					</li>
+					<li class="c-header__menu-item">
+						<ul class="c-header__menu-link-items">
+							<li class="c-header__menu-link-item">
+								<ul class="c-header__menu-sub-items">
+									<li class="c-header__menu-sub-item">
+										<a class="c-header__menu-sub-item-link" href="/english/news/index.html">Recent Info</a>
+									</li>
+									<li class="c-header__menu-sub-item">
+										<a class="c-header__menu-sub-item-link" href="/english/company.html">Company Summary</a>
+									</li>
+									<li class="c-header__menu-sub-item">
+										<a class="c-header__menu-sub-item-link" href="/company/ir_eng/">Investor Relations</a>
+									</li>
+									<li class="c-header__menu-sub-item">
+										<a class="c-header__menu-sub-item-link" href="/company/business/procurement/info.html">Material Procurement</a>
+									</li>
+									<li class="c-header__menu-sub-item">
+										<a class="c-header__menu-sub-item-link" href="/english/environment.html">Recommended Hardware / Software</a>
+									</li>
+								</ul>
+							</li>
+							<li class="c-header__menu-link-item">
+								<div class="c-header__menu-twitter">
+									<ul class="c-header__menu-twitter-items">
+										<li class="c-header__menu-twitter-item">
+											<a class="c-header__menu-twitter-item-link" href="https://twitter.com/jrkyushu_all_en" target="_blank" rel="noopener noreferrer">
+												<div class="c-header__menu-twitter-item-head">
+													<div class="c-header__menu-twitter-item-icon">
+														<i class="c-icon-information" aria-hidden="true"></i>
+													</div>
+												</div>
+												<div class="c-header__menu-twitter-item-body">
+													<p class="c-header__menu-twitter-item-title">Kyushu Railway Company <br>Current Operating Information</p>
+													<div class="c-header__menu-twitter-item-text">
+														<p>JR Kyushu Official Twitter @jrkyushu_all_en</p>
+													</div>
+												</div>
+												<i class="c-icon-arrow-wide-right" aria-hidden="true"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="c-header__menu-link-item">
+								<div class="c-header__menu-search u-hide-sp">
+									<form action="https://www.google.com/cse" class="c-header__menu-search-form">
+										<input type="hidden" name="cx" value="008027137318346677559:dvujovnjmhy" />
+										<input type="hidden" name="ie" value="UTF-8" />
+										<div class="c-header__menu-search-form-inner" role="group">
+											<div class="c-header__menu-search-form-input">
+												<input type="text" name="q" placeholder="Search">
+											</div>
+											<button class="c-header__menu-search-form-button" type="submit" name="sa" value="">
+												<i class="c-icon-search" aria-hidden="true"></i>
+											</button>
+										</div>
+									</form>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="c-header__menu-overlay"></div>
+	</div>
+</header>
+
+
+
+		<!--//header END-->
+		
+		<!--main-->
+		<main class="l-main" role="main">
+			<div class="c-page-title">
+				<div class="c-wrapper-lg">
+					<div class="c-page-title__inner">
+						<div class="c-page-title__content">
+							<div class="c-page-title__head">
+								<i class="c-icon-train-lineup" aria-hidden="true"></i>
+							</div>
+							<div class="c-page-title__body">
+								<p class="c-page-title__text-sub">Train Varieties</p>
+								<h1 class="c-page-title__text">Relay KAMOME</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="c-key-visual">
+				<div class="c-key-visual__bg js-bg-img u-hide-sp" data-src="/lang/assets/img/train/relay_kamome/bg_key-visual_pc.jpg"></div>
+				<div class="c-key-visual__bg js-bg-img u-hide-pc" data-src="/lang/assets/img/train/relay_kamome/bg_key-visual_sp.jpg"></div>
+			</div>
+			<div class="l-content">
+				<div class="c-spacer-xl">
+					<div class="c-wrapper-sm">
+						<div class="c-content-carousel">
+							<div class="c-content-carousel__inner">
+								<div class="c-content-carousel__container slick-container">
+									<div class="c-content-carousel__item">
+										<div class="c-content-carousel__item-head">
+										</div>
+										<div class="c-content-carousel__item-body c-spacers">
+                                         <img decoding="async" src="/lang/assets/img/train/relay_kamome/img_relay_kamome01.jpg" alt="" />	
+											<div class="c-spacer-sm">
+												<h3 class="c-headline-lv2">Routing</h3>
+												<div class="c-content-carousel__item-text">
+													<p>Hakata - Takeo-onsen</p>
+												</div>
+											</div>
+											<div class="c-spacer-sm">
+												<h3 class="c-headline-lv2">On-board sales/Green Car services</h3>
+												<div class="c-content-carousel__item-text">
+													<p>Please be advised that on-board sales and Green Car services are not available on “Relay KAMOME”.</p>
+                                              </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="c-spacer-xl u-margin-b-sp-0">
+					<div class="c-button-accordion-sp js-accordion" data-device="sp">
+						<button class="c-button-accordion-sp__trigger js-accordion__trigger" type="button">
+							<span class="c-button-accordion-sp__trigger-inner">
+								<span class="c-button-accordion-sp__trigger-text">Timetable</span>
+								<span class="c-button-accordion-sp__trigger-icon"></span>
+							</span>
+						</button>
+						<div class="c-button-accordion-sp__content js-accordion__content">
+							<div class="c-wrapper-lg c-wrapper-sp-fluid c-block-line-xl-pc">
+								<div class="c-spacer-lg--fat u-hide-sp">
+									<h2 id="anchor-timetable" class="c-headline-lv1">Timetable</h2>
+								</div>
+								<div class="c-spacers">
+									<div class="c-spacer-lg--fat">
+                                      <!---<div class="u-margin-b-10">
+											<a class="c-text-link" href="https://www.jrkyushu.co.jp/english/pdf/timetable_20250315_20260228.pdf" target="_blank" rel="noopener noreferrer">Timetables (major trains, 2025.3.15-2026.2.28)</a>
+										</div>--->    
+                                       <div class="u-margin-b-10">
+											<a class="c-text-link" href="https://www.jrkyushu.co.jp/english/pdf/timetable_20260314_20270228.pdf" target="_blank" rel="noopener noreferrer">Timetables (major trains, 2026.3.14-2027.2.28)</a>
+										</div>                                           
+										<div class="u-margin-b-10">
+											<p><a class="c-text-link-basic" href="https://roote.ekispert.net/en" target="_blank" rel="noopener noreferrer">Click here for connection information. </a></p>
+										</div>
+										<p class="c-text-xs">*Timetables may remain valid for only a few months.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="c-spacer-xl">
+					<div class="c-button-accordion-sp js-accordion" data-device="sp">
+						<button class="c-button-accordion-sp__trigger js-accordion__trigger" type="button">
+							<span class="c-button-accordion-sp__trigger-inner">
+								<span class="c-button-accordion-sp__trigger-text">About Transfers to Nishi Kyushu Shinkansen</span>
+								<span class="c-button-accordion-sp__trigger-icon"></span>
+							</span>
+						</button>
+						<div class="c-button-accordion-sp__content js-accordion__content">
+							<div class="c-wrapper-lg c-wrapper-sp-fluid c-block-line-xl-pc">
+								<div class="c-spacer-lg--fat u-hide-sp">
+									<h2 id="anchor-train-configuration" class="c-headline-lv1">About Transfers to Nishi Kyushu Shinkansen</h2>
+								</div>
+								<div class="c-spacer-lg--thin">
+									<p>Transfer to a Limited express train that arrives the opposite of the same platform at Takeo-onsen Station.(Please purchase a Shinkansen/Limited express ticket covering your traveling distance in advance of boarding.)</p>
+								</div>
+								<div class="train-configuration__list-items c-spacer-lg--thin">
+									<div class="c-grid-row">
+										<div class="c-grid-col-8 u-margin-t-sp-0">
+											<div class="train-configuration__list-item">
+												<img class="lazyload u-hide-sp" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-width="674" data-height="234" data-src="/lang/assets/img/train/s_kamome/cross_platform_pc.png" alt="">
+												<img class="lazyload u-hide-pc" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-width="1680" data-height="750" data-src="/lang/assets/img/train/s_kamome/cross_platform_sp.png" alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+                              <p class="c-text-xs">*If you are traveling to Nagasaki, please make a transit from Limited express to <a class="c-text-link" href="https://www.jrkyushu.co.jp/english/train/shinkansen_kamome.html">Nishi Kyushu Shinkansen</a> at Takeo Onsen Station.</p>
+								<p class="c-text-xs">*If you transfer to the ""Nishi Kyushu Shinkansen KAMOME"" without exiting the ticket gate on the day of boarding, a single ticket will be issued. In this case, your reservations for the continual reserved seats (free) with the JR Kyushu Rail Pass will be counted together as one.</p>
+								<p class="c-text-xs">*""Relay KAMOME"" and ""Nishi Kyushu Shinkansen KAMOME"" are not covered by the JR KYUSHU RAIL PASS Online Booking service. If you are a JR Kyushu Rail Pass holder and would like to reserve a seat, please contact us to inquire at the ticket counter in a JR station after your arrival in Japan. (If you would like a non-reserved seat, you can ride with the JR Kyushu Rail Pass alone.)</p>
+							</div>
+						</div>
+					</div>
+				</section>	
+				<div class="c-blocks">
+					<div class="c-block-lg-pc c-block-xl-sp c-bg-graytone04 c-spacer-lg-sp">
+						<div class="c-pre-order">
+							<div class="c-wrapper-sm">
+								<div class="c-block__content">
+									<h3 class="c-pre-order__headline">Purchase a Rail Pass</h3>
+									<div class="c-pre-order__text">
+										<p>You can purchase JR Kyushu Rail Passes and reserve seats on popular Kyushu trains.</p>
+									</div>
+									<div class="c-pre-order__button">
+										<p class="c-button-lv1">
+											<a class="c-button-lv1__link" href="https://kyushurailpass.jrkyushu.co.jp/reserve/TopPage" target="blank">Book Now</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="c-block-lg-pc c-block-xl-sp c-bg-graytone04">
+						<div class="c-pre-order">
+							<div class="c-wrapper-sm">
+								<div class="c-block__content">
+									<h3 class="c-pre-order__headline">One-way and <br class="u-hide-pc">round-trip tickets</h3>
+									<div class="c-pre-order__text">
+										<p>Purchase one-way and round-trip tickets, reserved seats, and early discount tickets from the JR-KYUSHU Train Reservation page.</p>
+									</div>
+									<div class="c-pre-order__button">
+										<p class="c-button-lv1">
+											<a class="c-button-lv1__link" href="https://train.yoyaku.jrkyushu.co.jp/inbound/" target="blank">Book Now</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="c-block-lg-pc c-block-xl-sp c-bg-graytone04-pc">
+						<div class="c-wrapper-sm">
+							<div class="c-block__content">
+								<h3 class="c-block__content-headline">Train Lineup</h3>
+								<div class="c-spacers">
+									<div class="c-spacer-lg">
+										<h4 class="c-headline-lv3-pc c-headline-lv2-sp">Design & Story Trains (Sightseeing Trains)</h4>
+										<ul class="c-text-link__list">
+											<li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/yufuin_no_mori.html">YUFUIN NO MORI</a>
+											</li>
+											<li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/atrain.html" >A-TRAIN</a>
+											</li>
+                                          <li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/kawasemi_yamasemi.html">KAWASEMI YAMASEMI</a>
+											</li>
+											<li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/asoboy.html">ASO BOY!</a>
+											</li>									
+											<li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/ibutama.html">IBUSUKI NO TAMATEBAKO</a>
+											</li>
+											<li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/umisachiyamasachi.html">UMISACHI YAMASACHI</a>
+											</li>
+                                            <li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/two_stars4047.html">TWO STARS 4047</a>
+											</li>                                          
+                                            <li class="c-text-link__item">
+											    <a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/36plus3.html">36+3(Sanju-Roku plus San)</a>
+											</li>
+                                            <li class="c-text-link__item">
+											    <a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/aruressha.html">ARU RESSHA</a>
+											</li>
+                                              <li class="c-text-link__item">
+											    <a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/kanroku.html">KANPACHI/ICHIROKU</a>
+											</li>
+										</ul>
+									</div>
+									<div class="c-spacer-lg">
+										<h4 class="c-headline-lv3-pc c-headline-lv2-sp">Shinkansen (Bullet Train)</h4>
+										<ul class="c-text-link__list">
+											<li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/800series.html">800 Series Shinkansen</a>
+											</li>
+											<li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/700series.html">700 Series Shinkansen</a>
+											</li>
+                                            <li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/shinkansen_kamome.html">Nishi Kyushu Shinkansen</a>
+											</li>
+										</ul>
+									</div>
+									<div class="c-spacer-lg">
+										<h4 class="c-headline-lv3-pc c-headline-lv2-sp">Other Limited Express</h4>
+										<ul class="c-text-link__list">
+                                          <li class="c-text-link__item">
+                                            <a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/relay_kamome.html">Relay KAMOME</a>
+                                          </li>
+											<li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/sonic.html">SONIC (883 Series)</a>
+											</li>
+											<li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/htb.html">HUIS TEN BOSCH</a>
+											</li>
+											<li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/odan.html">KYUSHU ODAN TOKKYU</a>
+											</li>    
+											<li class="c-text-link__item">
+												<a class="c-text-link-basic" href="https://www.jrkyushu.co.jp/english/train/otherexpress.html">Other Limited Express Train Services</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="c-breadcrumb">
+					<div class="c-wrapper-lg">
+						<ol class="c-breadcrumb__items" vocab="http://schema.org/" typeof="BreadcrumbList">
+							<li class="c-breadcrumb__item" property="itemListElement" typeof="ListItem">
+								<meta property="position" content="1"><a class="c-breadcrumb__item-link" href="https://www.jrkyushu.co.jp/english/" property="item" typeof="WebPage"><span property="name">HOME</span></a>
+							</li>
+							<li class="c-breadcrumb__item" property="itemListElement" typeof="ListItem">
+								<meta property="position" content="2"><a class="c-breadcrumb__item-link" href="https://www.jrkyushu.co.jp/english/train/index.html" property="item" typeof="WebPage"><span property="name">Train Varieties</span></a>
+							</li>
+							<li class="c-breadcrumb__item" property="itemListElement" typeof="ListItem">
+								<meta property="position" content="3"><span property="name">HUIS TEN BOSCH</span>
+							</li>
+						</ol>
+					</div>
+				</div>
+				
+<div class="c-bnr-carousel">
+	<div class="c-block-xl">
+		<div class="c-bnr-carousel__inner">
+			<div class="c-wrapper-lg">
+				<div class="c-bnr-carousel__container slick-container">
+					<div class="c-bnr-carousel__item">
+						<a class="c-bnr-carousel__item-link" href="https://www.facebook.com/JRKyushuEN/" target="blank">
+							<img decoding="async" src="/lang/assets/img/common/img_bnr-carousel01.png" alt="">
+						</a>
+					</div>
+					<div class="c-bnr-carousel__item">
+						<a class="c-bnr-carousel__item-link" href="https://www.facebook.com/JRKyushuTH/" target="blank">
+							<img decoding="async" src="/lang/assets/img/common/img_bnr-carousel02.png" alt="">
+						</a>
+					</div>
+					<div class="c-bnr-carousel__item">
+						<a class="c-bnr-carousel__item-link" href="https://www.instagram.com/jrkyushu_worldinfo/" target="blank">
+							<img decoding="async" src="/lang/assets/img/common/img_bnr-carousel03.png" alt="">
+						</a>
+					</div>
+					<div class="c-bnr-carousel__item">
+						<a class="c-bnr-carousel__item-link" href="https://kukouliner.com/" target="blank" >
+							<img decoding="async" src="/lang/assets/img/common/img_bnr-carousel04.png" alt="">
+						</a>
+					</div>
+					<!---<div class="c-bnr-carousel__item">
+						<a class="c-bnr-carousel__item-link" href="https://www.jr-rp.jp/en/topics_disp_en?topics_no=9031" target="blank" >
+							<img decoding="async" src="/lang/assets/img/common/img_bnr-carousel05.png" alt="">
+						</a>
+					</div>--->
+                  <div class="c-bnr-carousel__item">
+						<a class="c-bnr-carousel__item-link" href="https://www.cruisetrain-sevenstars.jp/english/" target="blank">
+							<img decoding="async" src="/lang/assets/img/common/img_bnr-carousel06.png" alt="">
+						</a>
+					</div>
+                  <div class="c-bnr-carousel__item">
+						<a class="c-bnr-carousel__item-link" href="https://www.jrkyushu.co.jp/english/pdf/jrkyushu_free_wifi.pdf" target="blank">
+							<img decoding="async" src="/lang/assets/img/common/img_bnr-carousel07.png" alt="">
+						</a>
+					</div>
+                <div class="c-bnr-carousel__item">
+						<a class="c-bnr-carousel__item-link" href="https://www.visit-kyushu.com/en/" target="blank">
+							<img decoding="async" src="/lang/assets/img/common/img_bnr-carousel08.png" alt="">
+						</a>
+					</div>
+               <div class="c-bnr-carousel__item">
+						<a class="c-bnr-carousel__item-link" href="https://www.marriott.com/en-us/hotels/ngsmc-nagasaki-marriott-hotel/overview/" target="blank">
+							<img decoding="async" src="/lang/assets/img/common/img_bnr-carousel11.png" alt="">
+						</a>
+					</div>
+                  <div class="c-bnr-carousel__item">
+						<a class="c-bnr-carousel__item-link" href="https://www.instagram.com/jr_hakata_city_official?igsh=am95Z3B5ZW9nNGRw" target="blank">
+							<img decoding="async" src="/lang/assets/img/common/img_bnr-carousel12.jpg" alt="">
+						</a>
+					</div>
+                  <div class="c-bnr-carousel__item">
+						<a class="c-bnr-carousel__item-link" href="https://www3.nhk.or.jp/nhkworld/en/live_tv/?cid=wohk-Live-link_site_JRkyushu-202604-002" target="blank">
+							<img decoding="async" src="/lang/assets/img/common/img_bnr-carousel13.jpg" alt="">
+						</a>
+                  </div>
+              </div>                
+				<div class="c-bnr-carousel__arrows slick-arrows">
+					<button class="c-bnr-carousel__arrow c-bnr-carousel__prev slick-prev" type="button"><i class="c-icon-arrow-left" aria-hidden="true"></i></button>
+					<button class="c-bnr-carousel__arrow c-bnr-carousel__next slick-next" type="button"><i class="c-icon-arrow-right" aria-hidden="true"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+			</div>
+		</main>
+		<!--//main END-->
+
+		<div class="c-button-florting">
+			<div class="c-button-florting__inner">
+				<div class="c-button-florting__item">
+					<div class="c-button-florting__item-text u-hide-sp">
+						<p>Purchase a Rail Pass</p>
+					</div>
+					<p class="c-button-lv1"><a class="c-button-lv1__link" href="https://kyushurailpass.jrkyushu.co.jp/reserve/TopPage">Book Now</a></p>
+				</div>
+			</div>
+		</div>
+
+		<!--footer-->
+		
+        <footer class="common-root c-footer" role="contentinfo">
+	<div class="c-footer__page-top">
+		<button class="c-footer__page-top-button" type="button">
+			<i class="c-icon-arrow-top" aria-hidden="true"></i>
+		</button>
+	</div>
+	<div class="c-wrapper-lg">
+		<div class="c-footer__inner">
+			<ul class="c-footer__sitemap">
+				<li class="c-footer__sitemap-item">
+					<a class="c-footer__sitemap-item-link" href="/english/railpass/index.html">JR KYUSHU RAIL PASS</a>
+				</li>
+				<li class="c-footer__sitemap-item">
+					<a class="c-footer__sitemap-item-link" href="/english/train_reservation/service/">JR-KYUSHU Train Reservation</a>
+				</li>
+				<li class="c-footer__sitemap-item">
+					<a class="c-footer__sitemap-item-link" href="/english/train/index.html">Train Varieties</a>
+				</li>
+				<li class="c-footer__sitemap-item">
+					<a class="c-footer__sitemap-item-link" href="/english/guide/station.html">Major Stations</a>
+				</li>
+				<li class="c-footer__sitemap-item">
+					<a class="c-footer__sitemap-item-link" href="/english/tourism/tourism_index.html">Tourist Information</a>
+				</li>
+			</ul>
+			<ul class="c-footer__sitemap">
+				<li class="c-footer__sitemap-item">
+					<a class="c-footer__sitemap-item-link" href="/english/guide/index.html">Guide</a>
+					<ul class="c-footer__sitemap-sub">
+						<li class="c-footer__sitemap-item">
+							<a class="c-footer__sitemap-item-link" href="/english/guide/ticket_types.html">Regarding Tickets</a>
+						</li>
+						<li class="c-footer__sitemap-item">
+							<a class="c-footer__sitemap-item-link" href="/english/guide/train_seat.html">Boarding the Train</a>
+						</li>
+					</ul>
+				</li>
+				<li class="c-footer__sitemap-item">
+					<a href="/english/faq/index.html" class="c-footer__sitemap-item-link"> FAQs</a>
+					<ul class="c-footer__sitemap-sub">
+						<li class="c-footer__sitemap-item">
+							<a class="c-footer__sitemap-item-link" href="/english/faq/general.html">General</a>
+						</li>
+						<li class="c-footer__sitemap-item">
+							<a class="c-footer__sitemap-item-link" href="/english/faq/rp.html">JR KYUSHU RAIL PASS</a>
+						</li>
+						<li class="c-footer__sitemap-item">
+							<a class="c-footer__sitemap-item-link" href="/english/faq/olb.html">JR KYUSHU RAIL PASS Online Booking</a>
+						</li>
+						<li class="c-footer__sitemap-item">
+							<a class="c-footer__sitemap-item-link" href="/english/faq/tr.html">JR-KYUSHU Train Reservation</a>
+						</li>
+					</ul>
+				</li>
+				<li class="c-footer__sitemap-item">
+					<a href="https://www.jrkyushu.co.jp/english/guide/privacypolicy.html" class="c-footer__sitemap-item-link">Privacy Policy</a>
+              </li>              
+			</ul>
+			<ul class="c-footer__sitemap">
+				<li class="c-footer__sitemap-item">
+					<a class="c-footer__sitemap-item-link" href="/english/news/index.html">Recent Info</a>
+				</li>
+				<li class="c-footer__sitemap-item">
+					<a class="c-footer__sitemap-item-link" href="/english/company.html">Company Summary</a>
+				</li>
+				<li class="c-footer__sitemap-item">
+					<a class="c-footer__sitemap-item-link" href="/company/ir_eng/">Investor Relations</a>
+				</li>
+				<li class="c-footer__sitemap-item">
+					<a class="c-footer__sitemap-item-link" href="/company/business/procurement/info.html">Material Procurement</a>
+				</li>
+				<li class="c-footer__sitemap-item">
+					<a class="c-footer__sitemap-item-link" href="/english/environment.html">Recommended Hardware / Software</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="c-footer__info">
+		<small class="c-footer__info-credit">&copy; Kyushu Railway Company</small>
+	</div>
+</footer>
+
+
+
+
+		<!--//footer END-->
+
+	</div>
+	<!--//root END-->
+<!-- Yahoo Tag Manager -->
+
+<script type="text/javascript">
+(function () {
+var tagjs = document.createElement("script");
+var s = document.getElementsByTagName("script")[0];
+tagjs.async = true;
+tagjs.src = "//s.yjtag.jp/tag.js#site=L1643Ia";
+s.parentNode.insertBefore(tagjs, s);
+}());
+</script>
+<noscript>
+<iframe src="//b.yjtag.jp/iframe?c=L1643Ia" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+
+<!-- End Yahoo Tag Manager --></body>
+</html>

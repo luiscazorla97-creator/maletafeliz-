@@ -1,0 +1,86 @@
+{
+  "id": "oura-selected-file-page",
+  "url": "https://commons.wikimedia.org/wiki/File:Oura_Church_in_Nagasaki,_20240814_0841_3203.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Oura_Church_in_Nagasaki,_20240814_0841_3203.jpg",
+  "fetchedAt": "2026-11-13T17:04:08.253Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "ae7161de49e551eba6a0dcee67a6219fcbb3b84c8483510a65246d135f8c7b96",
+  "bytes": 114174,
+  "rawFile": "content/research/raw/n13-ns-photo-oura-selected-file-page.html",
+  "textFile": "content/research/raw/n13-ns-photo-oura-selected-file-page.txt",
+  "textSha256": "a0cfed29c9b49a02b313ec788b19a40a065229252b438599df85f3f763352252",
+  "retryAfter": null,
+  "facts": [
+    {
+      "fact": "The specific file page was actually read and identifies the named creator and selected copyright licence. The provided file is an archival documentary photograph of the named Nagasaki place.",
+      "excerpt": "This file is licensed under the Creative Commons Attribution 4.0 International license.",
+      "location": "Individual Commons file page: Information/Summary and selected Licensing box; author and date retained in attribution."
+    },
+    {
+      "fact": "Source-identified subject and date were compared with an actual visual inspection of the provided and optimized photograph.",
+      "excerpt": "Oura Church in Nagasaki",
+      "location": "Specific file Description/Date/Author fields, API metadata and actual contact-sheet inspection."
+    },
+    {
+      "fact": "The applicable Creative Commons deed was actually read: commercial sharing/adaptation is permitted with attribution, licence link, indication of changes and ShareAlike where selected. No endorsement is implied.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Retained applicable PD-self template or Creative Commons deed, explicit permission and conditions."
+    },
+    {
+      "fact": "The API-provided rendition was downloaded over ordinary HTTPS and retained byte-for-byte. Dimensions and SHA256 were measured. Four responsive WebP files were generated, decoded and hashed without enlargement or cropping.",
+      "excerpt": "Provided rendition, actual download capture and optimized-file inventory; no full-resolution upstream original download is claimed.",
+      "location": "downloadCapture, upstreamSource, providedOriginals and optimizedFiles inventories."
+    }
+  ],
+  "notes": "Archive documentary image, not evidence of present-day opening, works, events or unchanged appearance. A copyright licence does not itself grant property access, commercial filming permission or override a venue contract. Same selected copyright licence retained on resized derivatives.",
+  "licenseDeedCapture": {
+    "id": "deed-cc-by-4",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "fetchedAt": "2026-11-13T17:01:44.724Z",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentSha256": "8dda1ccec4be91fc80821d4e4fd5c568072b9a3a74b2fdc07c249a27e920ef01",
+    "bytes": 31950,
+    "rawFile": "content/research/raw/n13-ns-photo-deed-cc-by-4.html",
+    "textFile": "content/research/raw/n13-ns-photo-deed-cc-by-4.txt",
+    "textSha256": "cf37e676279f78e4df9ac8dce6509362dacef1294c22254aa16a67ba9bc035c7",
+    "retryAfter": null
+  },
+  "downloadCapture": {
+    "id": "oura-selected-provided-image",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Oura_Church_in_Nagasaki%2C_20240814_0841_3203.jpg/1280px-Oura_Church_in_Nagasaki%2C_20240814_0841_3203.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Oura_Church_in_Nagasaki%2C_20240814_0841_3203.jpg/1280px-Oura_Church_in_Nagasaki%2C_20240814_0841_3203.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fetchedAt": "2026-11-13T17:04:08.767Z",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "b651a06d61504ccdb1e8c10cc342a63e9412f4f839100c5d29af7c0084f67dc6",
+    "bytes": 689851,
+    "rawFile": "content/images/originals/n13-ns-oura.jpg",
+    "retryAfter": null
+  },
+  "upstreamSource": {
+    "title": "File:Oura Church in Nagasaki, 20240814 0841 3203.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Oura_Church_in_Nagasaki%2C_20240814_0841_3203.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3096,
+    "height": 4661,
+    "bytes": 11270005,
+    "dateTaken": "14 August 2024, 08:41:11",
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Oura_Church_in_Nagasaki%2C_20240814_0841_3203.jpg/1280px-Oura_Church_in_Nagasaki%2C_20240814_0841_3203.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "publicGeo": {
+      "latitude": "32.734534",
+      "longitude": "129.870136"
+    }
+  },
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent",
+    "reviewedAt": "2026-11-13T17:06:40.616Z",
+    "actuallyViewed": true,
+    "observation": "A clear daytime exterior of the white Gothic church with its green spire and approach steps, without showing prohibited interior photography. Portrait orientation is retained without cropping.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n13/nagasaki/photos/photo-contact-final.jpg",
+    "contactSha256": "b26dc8832ad621061264a888fbbe2f03b9b957da83b3b41bee6829eb07493277"
+  }
+}

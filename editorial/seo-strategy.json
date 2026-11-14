@@ -1415,16 +1415,15 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-13T20:01:11.641Z",
+    "verifiedAt": "2026-11-14T18:15:00.210Z",
     "countries": [
       {
         "countryId": "it",
         "publishedOriginals": 23,
         "localizedVersions": 46,
         "targetOriginals": 30,
-        "targetCoveredOriginals": 23,
         "missingOriginals": 7,
-        "aboveTargetOriginals": 0,
+        "excessOriginals": 0,
         "articleIds": [
           "amalfi-coast",
           "bergamo",
@@ -1453,12 +1452,11 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 20,
-        "localizedVersions": 40,
+        "publishedOriginals": 21,
+        "localizedVersions": 42,
         "targetOriginals": 25,
-        "targetCoveredOriginals": 20,
-        "missingOriginals": 5,
-        "aboveTargetOriginals": 0,
+        "missingOriginals": 4,
+        "excessOriginals": 0,
         "articleIds": [
           "christmas-fukuoka",
           "christmas-osaka",
@@ -1472,6 +1470,7 @@
           "kyoto-higashiyama-walk",
           "matsumoto",
           "mount-fuji",
+          "nagasaki",
           "nara",
           "nara-day-trip-transport",
           "nikko",
@@ -1484,12 +1483,11 @@
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 18,
-        "localizedVersions": 36,
+        "publishedOriginals": 19,
+        "localizedVersions": 38,
         "targetOriginals": 25,
-        "targetCoveredOriginals": 18,
-        "missingOriginals": 7,
-        "aboveTargetOriginals": 0,
+        "missingOriginals": 6,
+        "excessOriginals": 0,
         "articleIds": [
           "cancun",
           "chapultepec-museums-day",
@@ -1508,6 +1506,7 @@
           "puebla",
           "queretaro",
           "riviera-maya",
+          "san-luis-potosi",
           "san-miguel-de-allende"
         ]
       },
@@ -1516,9 +1515,8 @@
         "publishedOriginals": 23,
         "localizedVersions": 46,
         "targetOriginals": 20,
-        "targetCoveredOriginals": 20,
         "missingOriginals": 0,
-        "aboveTargetOriginals": 3,
+        "excessOriginals": 3,
         "articleIds": [
           "buffalo",
           "christmas-boston",
@@ -1546,11 +1544,11 @@
         ]
       }
     ],
-    "priorityOriginals": 84,
-    "targetCoveredOriginals": 81,
-    "aboveTargetOriginals": 3,
-    "missingToInitial100": 19,
-    "publicVerification": "editorial/verification/2026-11-13-manual-seo-five-publication.json"
+    "priorityOriginals": 86,
+    "targetCappedOriginals": 83,
+    "missingToInitial100": 17,
+    "excessOriginals": 3,
+    "publicVerification": "editorial/verification/2026-11-14-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1783,6 +1781,19 @@
       "publicVerification": "editorial/verification/2026-11-13-manual-seo-five-publication.json",
       "verifiedAt": "2026-11-13T20:01:11.641Z",
       "note": "Five new planning intents; three backlog candidates fulfilled, Higashiyama walk and Chapultepec combined museum day separately scoped. Existing daily two-topic reservation and noon-Miami schedule unchanged; no Google volume or ranking claims."
+    },
+    {
+      "batch": "2026-11-13",
+      "publicationDay": "2026-11-14",
+      "topicIds": [
+        "san-luis-potosi",
+        "nagasaki"
+      ],
+      "type": "authorized-resumed-daily-two-originals",
+      "status": "published-verified",
+      "commit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+      "publicVerification": "editorial/verification/2026-11-14-publication.json",
+      "note": "Same two Nov13 reserved cities resumed after runtime failure and a real zero-original Nov14 New York census; first publication is Nov14, with no duplicate reservation. Previously published manual originals and dates remain unchanged. Schedule unchanged."
     }
   ],
   "verifiedCoverageHistory": [

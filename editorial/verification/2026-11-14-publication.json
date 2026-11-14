@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-14T18:15:00.210Z",
+  "commit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+  "sourceCommit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+  "batch": "2026-11-13",
+  "publicationDay": "2026-11-14",
+  "reservationDay": "2026-11-13",
+  "executionId": "6f16953e-24be-45be-b52a-9ac619f49133",
+  "timeZone": "America/New_York",
+  "firstPublicationNewYorkDate": "2026-11-14",
+  "status": "publicly-verified",
+  "originals": 2,
+  "newOriginals": 2,
+  "localizations": 4,
+  "publishedTopicIds": [
+    "san-luis-potosi",
+    "nagasaki"
+  ],
+  "priorSameDayUniqueVerifiedOriginals": 0,
+  "sameDayUniqueVerifiedOriginalsAfter": 2,
+  "sameDayUniqueVerifiedTopicIds": [
+    "nagasaki",
+    "san-luis-potosi"
+  ],
+  "urls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-san-luis-potosi-capital-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-nagasaki-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-san-luis-potosi-city-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-nagasaki-5-places/"
+    ]
+  },
+  "globalOriginals": 222,
+  "globalLocalizations": 444,
+  "globalPhotos": 933,
+  "globalCitedSourceRecords": 1106,
+  "photos": 10,
+  "newPhotoMetadataRecords": 10,
+  "optimizedPhotoFiles": 45,
+  "citedSourceDocuments": 25,
+  "coverage": {
+    "countries": [
+      {
+        "countryId": "it",
+        "publishedOriginals": 23,
+        "localizedVersions": 46,
+        "targetOriginals": 30,
+        "missingOriginals": 7,
+        "excessOriginals": 0,
+        "articleIds": [
+          "amalfi-coast",
+          "bergamo",
+          "bologna",
+          "christmas-florence",
+          "christmas-milan",
+          "christmas-naples",
+          "christmas-rome",
+          "christmas-turin",
+          "christmas-venice",
+          "christmas-verona",
+          "florence",
+          "florence-uffizi",
+          "lucca",
+          "milan",
+          "padua",
+          "perugia",
+          "pisa",
+          "rome",
+          "rome-colosseum-visit",
+          "siena",
+          "venice",
+          "venice-vaporetto",
+          "verona"
+        ]
+      },
+      {
+        "countryId": "jp",
+        "publishedOriginals": 21,
+        "localizedVersions": 42,
+        "targetOriginals": 25,
+        "missingOriginals": 4,
+        "excessOriginals": 0,
+        "articleIds": [
+          "christmas-fukuoka",
+          "christmas-osaka",
+          "christmas-tokyo",
+          "christmas-yokohama",
+          "halloween-japan",
+          "himeji",
+          "hiroshima",
+          "kanazawa",
+          "kyoto",
+          "kyoto-higashiyama-walk",
+          "matsumoto",
+          "mount-fuji",
+          "nagasaki",
+          "nara",
+          "nara-day-trip-transport",
+          "nikko",
+          "osaka",
+          "sapporo",
+          "takayama",
+          "tokyo",
+          "tokyo-new-year-2027"
+        ]
+      },
+      {
+        "countryId": "mx",
+        "publishedOriginals": 19,
+        "localizedVersions": 38,
+        "targetOriginals": 25,
+        "missingOriginals": 6,
+        "excessOriginals": 0,
+        "articleIds": [
+          "cancun",
+          "chapultepec-museums-day",
+          "guanajuato",
+          "leon-guanajuato",
+          "los-cabos",
+          "mexico-city",
+          "morelia",
+          "muertos-merida",
+          "muertos-mexico-city",
+          "muertos-mixquic",
+          "muertos-oaxaca",
+          "muertos-puebla",
+          "oaxaca",
+          "patzcuaro",
+          "puebla",
+          "queretaro",
+          "riviera-maya",
+          "san-luis-potosi",
+          "san-miguel-de-allende"
+        ]
+      },
+      {
+        "countryId": "us",
+        "publishedOriginals": 23,
+        "localizedVersions": 46,
+        "targetOriginals": 20,
+        "missingOriginals": 0,
+        "excessOriginals": 3,
+        "articleIds": [
+          "buffalo",
+          "christmas-boston",
+          "christmas-chicago",
+          "christmas-los-angeles",
+          "christmas-miami",
+          "christmas-new-york",
+          "christmas-philadelphia",
+          "christmas-san-francisco",
+          "columbus",
+          "greenville-sc",
+          "halloween-usa",
+          "hawaii",
+          "hilo",
+          "las-vegas",
+          "las-vegas-new-year-2027",
+          "los-angeles",
+          "miami",
+          "new-orleans",
+          "new-york",
+          "new-york-new-year-2027",
+          "orlando",
+          "san-diego",
+          "washington-dc"
+        ]
+      }
+    ],
+    "priorityOriginals": 86,
+    "targetCappedOriginals": 83,
+    "missingToInitial100": 17,
+    "excessOriginals": 3
+  },
+  "tests": {
+    "local": {
+      "unit": 107,
+      "navigation": 28,
+      "productionFocused": 8,
+      "priorFailureReproductions": 3,
+      "total": 146,
+      "wholeSuiteClaimed": false,
+      "evidence": {
+        "check": {
+          "logFile": "/workspace/artifacts/maletafeliz-daily-two-n14/check.log",
+          "logSha256": "c31974256b9902dc80927c330dcb936c97f58e623b29ce344f96b724eaa55a06",
+          "exitCode": 0
+        },
+        "unit": {
+          "logFile": "/workspace/artifacts/maletafeliz-daily-two-n14/unit.log",
+          "logSha256": "206582709a13687b726fe431c913d53d71d5118f3db6c50dbf26725c70802558",
+          "exitFile": "/workspace/artifacts/maletafeliz-daily-two-n14/unit.exit",
+          "exitCode": 0,
+          "actualPassed": 107
+        },
+        "navigation": {
+          "logFile": "/workspace/artifacts/maletafeliz-daily-two-n14/navigation.log",
+          "logSha256": "4a522b709964d0be29633e36711518496f75cb89c4da135f9b0d9823a674ff8b",
+          "exitFile": "/workspace/artifacts/maletafeliz-daily-two-n14/navigation.exit",
+          "exitCode": 0,
+          "actualPassed": 28
+        },
+        "production-focused": {
+          "logFile": "/workspace/artifacts/maletafeliz-daily-two-n14/production-focused.log",
+          "logSha256": "3a17fc83c80d7629b196ad7b48e509ce48685a9362046ae7bf422e692ae5714c",
+          "exitFile": "/workspace/artifacts/maletafeliz-daily-two-n14/production-focused.exit",
+          "exitCode": 0,
+          "actualPassed": 8,
+          "invocationFile": "/workspace/artifacts/maletafeliz-daily-two-n14/production-focused-invocation.json",
+          "invocationSha256": "e5c4f7e4f96b13458db45001b42530e3a408d64e357e5ab4ad23da6c2bcf9da4"
+        },
+        "diagnose-three-selected": {
+          "logFile": "/workspace/artifacts/maletafeliz-daily-two-n14/diagnose-three-selected.log",
+          "logSha256": "9f36146da0f1853c5d9c5a9c644576bed98b0aa037caab32677604b2945085ff",
+          "exitFile": "/workspace/artifacts/maletafeliz-daily-two-n14/diagnose-three-selected.exit",
+          "exitCode": 0,
+          "actualPassed": 3,
+          "invocationFile": "/workspace/artifacts/maletafeliz-daily-two-n14/diagnose-three-selected-invocation.json",
+          "invocationSha256": "0a52139e51aed792922ffe72ba986019a4a457cccf1dabab8bd704ae21f1bca0"
+        },
+        "productionFocusedSelection": {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n14/production-focused-list.log",
+          "sha256": "b676349e58bbfb0e741dafc7f8325b861805cdd3a57c939e891d88c752a1b6b0",
+          "actualCases": [
+            "desktop/en/nagasaki",
+            "desktop/en/san-luis-potosi",
+            "desktop/es/nagasaki",
+            "desktop/es/san-luis-potosi",
+            "mobile/en/nagasaki",
+            "mobile/en/san-luis-potosi",
+            "mobile/es/nagasaki",
+            "mobile/es/san-luis-potosi"
+          ]
+        }
+      },
+      "priorFailedFullRun": {
+        "logFile": "/workspace/artifacts/maletafeliz-daily-two-n14/preserved-n13-production-tests.log",
+        "logSha256": "f2325084219b6ed37aa797a15ac3c2d25f237ea3e1602a92640e0d79a62c13e5",
+        "exitFile": "/workspace/artifacts/maletafeliz-daily-two-n14/preserved-n13-production-tests.exit",
+        "exitCode": 1,
+        "passed": 925,
+        "failed": 3,
+        "total": 928,
+        "currentSourceWholeSuitePassClaimed": false,
+        "sourceState": "Uncommitted Nov13 selection; not a pushed source commit. Original native failure retained; three unchanged current-day reproductions passed."
+      }
+    },
+    "github": {
+      "checkedAt": "2026-11-14T18:13:39.804Z",
+      "id": 43623568393,
+      "name": "Build and editorial checks",
+      "event": "push",
+      "head_branch": "main",
+      "head_sha": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/43623568393",
+      "jobs": [
+        {
+          "id": 132534367009,
+          "head_sha": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T17:53:50Z",
+              "completed_at": "2026-11-14T17:53:53Z"
+            },
+            {
+              "name": "Run actions/checkout@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T17:53:53Z",
+              "completed_at": "2026-11-14T17:54:11Z"
+            },
+            {
+              "name": "Run actions/setup-node@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T17:54:11Z",
+              "completed_at": "2026-11-14T17:54:16Z"
+            },
+            {
+              "name": "Run npm ci",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T17:54:16Z",
+              "completed_at": "2026-11-14T17:54:20Z"
+            },
+            {
+              "name": "Install Chromium before unit and end-to-end browser tests",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T17:54:20Z",
+              "completed_at": "2026-11-14T17:54:53Z"
+            },
+            {
+              "name": "Run npm run check",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T17:54:53Z",
+              "completed_at": "2026-11-14T17:54:58Z"
+            },
+            {
+              "name": "Run npm test",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T17:54:58Z",
+              "completed_at": "2026-11-14T17:55:06Z"
+            },
+            {
+              "name": "Run npm run build",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T17:55:06Z",
+              "completed_at": "2026-11-14T18:00:33Z"
+            },
+            {
+              "name": "Run npm run test:e2e",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T18:00:33Z",
+              "completed_at": "2026-11-14T18:00:55Z"
+            },
+            {
+              "name": "Run npm run build:release",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T18:00:55Z",
+              "completed_at": "2026-11-14T18:06:21Z"
+            },
+            {
+              "name": "Run npm run test:release",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T18:06:21Z",
+              "completed_at": "2026-11-14T18:12:59Z"
+            },
+            {
+              "name": "Run npm run editorial:report > editorial-report.json",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T18:12:59Z",
+              "completed_at": "2026-11-14T18:13:01Z"
+            },
+            {
+              "name": "Run actions/upload-artifact@v6",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T18:13:01Z",
+              "completed_at": "2026-11-14T18:13:03Z"
+            },
+            {
+              "name": "Post Run actions/setup-node@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T18:13:03Z",
+              "completed_at": "2026-11-14T18:13:03Z"
+            },
+            {
+              "name": "Post Run actions/checkout@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T18:13:03Z",
+              "completed_at": "2026-11-14T18:13:03Z"
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-14T18:13:03Z",
+              "completed_at": "2026-11-14T18:13:03Z"
+            }
+          ]
+        }
+      ],
+      "decodedLogEvidence": {
+        "checkedAt": "2026-11-14T18:14:26.861Z",
+        "success": true,
+        "sourceCommit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+        "runId": 43623568393,
+        "jobId": 132534367009,
+        "workflowUrl": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/43623568393",
+        "logFile": "github-job-132534367009.log",
+        "decodedLogSha256": "99d860e49529da5f259d490e362b5a99cac943d4dee83ca549c2467fdf7730b2",
+        "bytes": 321163,
+        "lines": 2608,
+        "counts": {
+          "unit": 107,
+          "navigation": 28,
+          "production": 948,
+          "total": 1083
+        },
+        "builtHtmlPages": [
+          984,
+          982
+        ],
+        "buildSteps": [
+          {
+            "name": "Run npm run build",
+            "mode": "preview",
+            "builtHtmlPages": 984,
+            "loggedHtmlPaths": 984,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run build:release",
+            "mode": "production",
+            "builtHtmlPages": 982,
+            "loggedHtmlPaths": 982,
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ],
+        "previewProductionDifference": {
+          "file": "github-ci-preview-production-difference.json",
+          "sha256": "44d941b5559027aacb54cd09cdeae0c523ae9353a6ff398a99fb364174bbf75a"
+        },
+        "sourceCommitPresentInDecodedLog": true,
+        "allSixRequiredVerificationStepsSucceeded": true,
+        "method": "Actual decoded GitHub job log fetched through the authorized GitHub connector after API-confirmed completion; saved as UTF-8 with LF newlines. Counts derived independently from the real summary in each named step. No guessed, reconstructed or storage-redirect-bypassed log."
+      }
+    }
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-14T18:02:19.639Z",
+    "commit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "227825fa-28e4-4c8a-aae5-cf7b87b7a974",
+        "canonicalCommit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+        "deploymentId": "227825fa-28e4-4c8a-aae5-cf7b87b7a974",
+        "commit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-14T18:01:56.302976Z",
+          "ended_on": "2026-11-14T18:02:08.040899Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-14T17:54:07.52395Z",
+            "ended_on": "2026-11-14T17:54:07.525685Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-14T17:54:07.525685Z",
+            "ended_on": "2026-11-14T17:54:08.928558Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-14T17:54:08.928558Z",
+            "ended_on": "2026-11-14T17:54:33.886982Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-14T17:54:33.886982Z",
+            "ended_on": "2026-11-14T18:01:56.302976Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-14T18:01:56.302976Z",
+            "ended_on": "2026-11-14T18:02:08.040899Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "ac5aace1-b08d-4955-8795-6579d44744da",
+        "canonicalCommit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+        "deploymentId": "ac5aace1-b08d-4955-8795-6579d44744da",
+        "commit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-14T17:54:58.783682Z",
+          "ended_on": "2026-11-14T17:55:05.930814Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-14T17:54:09.524399Z",
+            "ended_on": "2026-11-14T17:54:09.52684Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-14T17:54:09.52684Z",
+            "ended_on": "2026-11-14T17:54:11.484645Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-14T17:54:11.484645Z",
+            "ended_on": "2026-11-14T17:54:56.593181Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-14T17:54:56.593181Z",
+            "ended_on": "2026-11-14T17:54:58.783682Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-14T17:54:58.783682Z",
+            "ended_on": "2026-11-14T17:55:05.930814Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true,
+    "checkoutProof": {
+      "checkedAt": "2026-11-14T18:02:22.411Z",
+      "success": true,
+      "sourceCommit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+      "proofs": [
+        {
+          "checkedAt": "2026-11-14T18:02:19.639Z",
+          "project": "maletafeliz-web",
+          "deploymentId": "227825fa-28e4-4c8a-aae5-cf7b87b7a974",
+          "commit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+          "entries": 1085,
+          "logSha256": "9bb3c480d43f6afcd8951d7ee8e7434836db908157c0da7076fff720b7d64bd8",
+          "releaseCommandPresent": true,
+          "checkoutMarkerPresent": true,
+          "builtPages": "982"
+        },
+        {
+          "checkedAt": "2026-11-14T18:02:19.639Z",
+          "project": "maletafeliz-www",
+          "deploymentId": "ac5aace1-b08d-4955-8795-6579d44744da",
+          "commit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+          "entries": 23,
+          "logSha256": "a295d76e46f7507898df03120743629160a4c24e1a9d6ae87d269de8c271ee47",
+          "releaseCommandPresent": false,
+          "checkoutMarkerPresent": true
+        }
+      ],
+      "method": "Actual Cloudflare build log HEAD marker, matching deployment full commit metadata and canonical production state. WWW is the existing redirect project, not an Astro build."
+    }
+  },
+  "https": {
+    "counts": {
+      "originalTopics": 2,
+      "localizedVersionsVerified": 4,
+      "photoFilesVerified": 45,
+      "searchVersionsVerified": 4,
+      "googlebotUaProbes": 6,
+      "actualHttpsRequests": 81,
+      "sitemapUrls": 976
+    },
+    "sha256": "710a6183474e0be69bc0f7d6a904b13dd648317eef6c185b4a33f4b7720b498f"
+  },
+  "wholeSiteVerification": {
+    "sitemapUrls": 976,
+    "guideVersions": 444,
+    "errors": 0,
+    "sha256": "f2e141c235f6c59e59c1bcfa86402645248ae2c52dfdfec22dd298d94af3143d",
+    "run": {
+      "sourceCommit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+      "startedAt": "2026-11-14T18:03:22.571Z",
+      "finishedAt": "2026-11-14T18:05:14.322Z",
+      "exitCode": 0,
+      "outputSha256": "f2e141c235f6c59e59c1bcfa86402645248ae2c52dfdfec22dd298d94af3143d",
+      "httpVerified": true,
+      "checkedRequests": 986,
+      "sitemapUrls": 976,
+      "guideVersions": 444
+    }
+  },
+  "browser": {
+    "flows": 8,
+    "screenshots": 14,
+    "sha256": "fd5174d12f59ac3cceeac78e961a78bfd5949a124d7a476c071725d11c33b131",
+    "visualReview": {
+      "reviewedAt": "2026-11-14T18:06:44.278180+00:00",
+      "reviewer": "Codex root — actual inspection of five contact images returned by view_image in this turn",
+      "sourceCommit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+      "success": true,
+      "contactSheets": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n14/public-contact-mobile-guides-es.jpg",
+          "sha256": "90c3707ff03e4fcfc4a4b1bbbe7d93cc9e0d7b113a5686f138952c05a86dc791",
+          "contains": [
+            "public-guide-san-luis-potosi-es-390.png",
+            "public-guide-nagasaki-es-390.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n14/public-contact-desktop-guides-es.jpg",
+          "sha256": "54ceff79a91b72b6e6ad1002872dafa25c78b5144c81ac8fe3145597a2b7af13",
+          "contains": [
+            "public-guide-san-luis-potosi-es-1440.png",
+            "public-guide-nagasaki-es-1440.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n14/public-contact-mobile-guides-en.jpg",
+          "sha256": "ff8bade050857946c113c6bd3e372cbd937e45d776bb26098d2185e4c33e229d",
+          "contains": [
+            "public-guide-san-luis-potosi-en-390.png",
+            "public-guide-nagasaki-en-390.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n14/public-contact-desktop-guides-en.jpg",
+          "sha256": "c96c4a31d626e5c9336b4bdfd50189abbeb61d6edcf2d70aff440d0fd4d7e5da",
+          "contains": [
+            "public-guide-san-luis-potosi-en-1440.png",
+            "public-guide-nagasaki-en-1440.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n14/public-contact-navigation.jpg",
+          "sha256": "f8e39fd16f9b6e37a965c38ebb7a6c8ae1bfb89a931c054206d8baa89ff15b17",
+          "contains": [
+            "public-functional-es-390-menu.png",
+            "public-functional-es-390-search.png",
+            "public-functional-es-1440-search.png",
+            "public-functional-en-390-menu.png",
+            "public-functional-en-390-search.png",
+            "public-functional-en-1440-search.png"
+          ],
+          "actuallyViewed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "public-functional-es-390-menu.png",
+          "sha256": "70d40323e6a9065af817ba3b98993f81db8841bfcc1c92b3cf33390cd14ea39b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-390-search.png",
+          "sha256": "1257a9384597ae98824c852dd41de0b9fbe2fd8baf5fc00797e58d5d9f862fe4",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-san-luis-potosi-es-390.png",
+          "sha256": "7255eff6fa89a4a6aabc1e178ca98a6128d5baae8656fdb608cf84cad5afff92",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nagasaki-es-390.png",
+          "sha256": "dac41b30cb0429e08819d433c32c4f637369470843fffaebf016d9998a16c2b6",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-1440-search.png",
+          "sha256": "57099144b827792a50af1ddae9f37846d3578d5bae3141e712339f053c0ad14f",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-san-luis-potosi-es-1440.png",
+          "sha256": "8f4d20b560a8a6f2e6a4c1997ed554d3f34bec67c6bdd3085e13404d6f62a6e7",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nagasaki-es-1440.png",
+          "sha256": "a700d18fb9afc9cd86b9f62ccf790e5707b2006b0b8f36dcd073fadd0ef36fb1",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-menu.png",
+          "sha256": "209a229bc56b56b3e677d2c30d6fdca36f73f9d90584d3a80843ae8e6ce20e74",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-search.png",
+          "sha256": "ff5d78d44b39aa7976710931d3cc205aedad9add7fd5eac826a7731663b38f16",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-san-luis-potosi-en-390.png",
+          "sha256": "e76644bb8703bc16c40b577500c0c4bcac4003ad9f330b67c92b5cdc23eead8b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nagasaki-en-390.png",
+          "sha256": "901659c5322ddf834ba49fd1e422f7d25104b3c4c36cca57cee0938c6330e967",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-1440-search.png",
+          "sha256": "32f940c361b8a76609373b95072840cfa2f0a70f542c15e7e2e7d3e3e046a60f",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-san-luis-potosi-en-1440.png",
+          "sha256": "c731a840555c4c07fda3b7117eec8764ba637956cddc0335c78375ecd1b13004",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nagasaki-en-1440.png",
+          "sha256": "81fd4a2764b66038be8d2a5616bca9085c6265b6481e0049c39ac55342515771",
+          "actuallyViewedInContactSheet": true
+        }
+      ],
+      "observations": [
+        "The four localized guide headers and titles are legible at390px and1440px. The 3D suitcase/wordmark, dark blue header, language control and menu remain visible without overlap or horizontal clipping.",
+        "The mobile dropdown starts below the header, shows all four menu links and intentionally overlays the existing hero content. It does not cover the brand.",
+        "Spanish and English Search views show the San Luis Potosí result with localized summary and a visible guide link. Live React filtering and both subjects were independently exercised by the recorded eight browser flows.",
+        "The existing top and side ad spaces remain reserved. Third-party providers were isolated only for QA; these captures do not establish creative delivery or ad revenue.",
+        "Both guide covers are visible in the captured viewports. Every cover and place photo was separately scrolled into view and decoded by the browser checks; the five sheets are viewport captures, not a claim of visually inspecting every full article page in a single image."
+      ],
+      "checks": {
+        "mobileAndDesktopVisualReview": true,
+        "bothLanguagesVisible": true,
+        "threeDimensionalBrandAndHeaderPreserved": true,
+        "noVisibleLogoTitleOrMenuClipping": true,
+        "adSpacesPreserved": true
+      },
+      "limitations": [
+        "No PageSpeed measurement, Google indexing, ranking, external ad delivery or analytics collection is claimed."
+      ]
+    }
+  },
+  "editorialIntegrationSha256": "da92aa3ee9c345d993b4827c48d12a8c4ccf5fa2c6a78454b7fcf31f130eb27e",
+  "preservationSha256": "957b82c7f05e564fc6d493ba859c9c9e1424865fe9659af0c677c6dc422fe567",
+  "googleIndexationVerified": false,
+  "schedulerAttributionVerified": false,
+  "dailyScheduleTargetUnchanged": 2,
+  "continuation": {
+    "originalBatchDay": "2026-11-13",
+    "firstPublicationDay": "2026-11-14",
+    "originalExecutionBaseCommit": "43ec749a8ba8d89a2098203ed2c09c2335734072",
+    "originalReservationCommit": "b7b9487583c6e886abd1d344774b5e76f9558e34",
+    "leaseCommit": "93e6f3385f4492ed497d50251da65e889f93e6d9",
+    "leasePushVerification": {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n14/lease-push-verification.json",
+      "sha256": "6667962ad0d86fa2ff37965fb8cc6d4e76fce7b1dbfd4c25d9449a38d7eedc6d"
+    },
+    "resumedAgainstCommit": "38bda91fbfbbbcded6a98020708c1b840e256287",
+    "resumedAt": "2026-11-14T17:28:44.770090+00:00",
+    "noNewReservation": true,
+    "authorityFile": "/workspace/artifacts/maletafeliz-daily-two-n14/continuation-authority.json",
+    "authoritySha256": "5ec47ef36484d528e26981f78ec4c7f8d4fdceb732352cd8cd9ce0d545ccf8f3"
+  },
+  "notes": "Actual first publication on Nov14 of the same two previously unpublic Nov13 reserved originals. The reservation identity and createdAt stay Nov13. Prior failed local925/3 remains preserved; current local focused8 and unchanged three reproductions are distinct from the mandatory complete source-C CI948. Earlier manual originals contribute zero today. Google crawl/indexing/ranking and unattended scheduling attribution are not established.",
+  "inventoryMetadataVerification": {
+    "sourceCommit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+    "verificationFile": "editorial/verification/2026-11-14-publication.json",
+    "wholeSiteCheckedAt": "2026-11-14T18:05:14.191Z",
+    "sitemapUrls": 976,
+    "localizedGuideHtmlPages": 444,
+    "newOriginals": 2,
+    "newLocalizations": 4,
+    "selectedPhotoFilesVerified": 45,
+    "duplicateTitlesWithinLocale": 0,
+    "httpChecksScope": "Actual unchanged whole-site verifier.checked length; independent phases are not added.",
+    "supersededInventorySha256": "1f5a289b54df68c531df1cafc5ba328155e15abd4a71d3f8ec3e99aae570c4d3",
+    "historicalFieldsMoved": [
+      "batchChecks",
+      "verificationChecksTotal"
+    ]
+  }
+}

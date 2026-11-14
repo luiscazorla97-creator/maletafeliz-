@@ -2,22 +2,22 @@
   "id": "2026-11-13",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-13T17:19:56.838Z",
-  "status": "reviewed-for-release",
+  "status": "published",
   "topicIds": [
     "san-luis-potosi",
     "nagasaki"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "effectiveRequestedCount": 2,
   "execution": {
     "executionId": "6f16953e-24be-45be-b52a-9ac619f49133",
     "baseCommit": "43ec749a8ba8d89a2098203ed2c09c2335734072",
     "startedAt": "2026-11-13T16:56:11.000Z",
-    "heartbeatAt": "2026-11-14T17:37:46.918Z",
-    "leaseUntil": "2026-11-14T23:28:44.770090+00:00",
-    "status": "in-progress",
+    "heartbeatAt": "2026-11-14T18:15:00.210Z",
+    "leaseUntil": "2026-11-14T18:15:00.210Z",
+    "status": "completed-verified",
     "previousLeaseUntil": "2026-11-13T23:18:03.431273+00:00",
     "resumedAt": "2026-11-14T17:28:44.770090+00:00",
     "resumedAgainstCommit": "38bda91fbfbbbcded6a98020708c1b840e256287",
@@ -31,7 +31,8 @@
         "baselineCommit": "38bda91fbfbbbcded6a98020708c1b840e256287",
         "reason": "Recover unpublished work after executor connection failure; no new reservation or extra topic."
       }
-    ]
+    ],
+    "completedAt": "2026-11-14T18:15:00.210Z"
   },
   "authorization": {
     "type": "owner-current-daily-two-originals",
@@ -54,5 +55,31 @@
   "sourceDocuments": 25,
   "preparedForNewYorkPublicationDate": "2026-11-14",
   "revalidatedOfficialDocuments": 25,
-  "supplementalRevalidationFiles": 75
+  "supplementalRevalidationFiles": 75,
+  "publishedTopicIds": [
+    "san-luis-potosi",
+    "nagasaki"
+  ],
+  "verifiedTopicCount": 2,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "citedSourceDocuments": 25,
+  "publishedCommit": "c9d9dabbc2529d42c8ea4aca290d417b867de273",
+  "publiclyVerifiedAt": "2026-11-14T18:15:00.210Z",
+  "firstPublicationNewYorkDate": "2026-11-14",
+  "publicVerification": "editorial/verification/2026-11-14-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-san-luis-potosi-capital-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-nagasaki-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-san-luis-potosi-city-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-nagasaki-5-places/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "nagasaki",
+    "san-luis-potosi"
+  ]
 }

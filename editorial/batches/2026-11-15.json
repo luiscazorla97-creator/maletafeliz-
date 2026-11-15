@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-15",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-15T17:09:19.804Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "ferrara",
+    "kurashiki"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "6e184095-f0c7-4dbe-8247-041ab008f725",
+    "baseCommit": "36360a54271a83487d0f2443ec8f8431dd2b71a6",
+    "startedAt": "2026-11-15T17:05:24.336788+00:00",
+    "heartbeatAt": "2026-11-15T17:09:19.839976+00:00",
+    "leaseUntil": "2026-11-15T23:09:19.839976+00:00",
+    "status": "in-progress"
+  }
+}

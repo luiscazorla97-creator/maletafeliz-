@@ -1,0 +1,158 @@
+{
+  "id": "n15-fe-schifanoia-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Palazzo_Schifanoia_Esterno_Portale_1.jpg",
+  "fetchedAt": "2026-11-15T17:11:05.944Z",
+  "actuallyRead": true,
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Ferrara_Palazzo_Schifanoia_Esterno_Portale_1.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "091cf2b90141ea633f7e1d8d9125314abd828b6291e124b49d56e93722a0cb09",
+  "bytes": 115187,
+  "rawFile": "content/research/raw/n15-fe-schifanoia-file-page.html",
+  "retryAfter": null,
+  "textFile": "content/research/raw/n15-fe-schifanoia-file-page.txt",
+  "textSha256": "ae692daa5691d8812bf5740fe888ed49de3e064e87509ebe366dcea4dbd2c43b",
+  "facts": [
+    {
+      "fact": "Specific file page was actually read and identifies the photographic subject, author and selected licence.",
+      "excerpt": "Portal of the Schifanoia Palace, Ferrara, Province of Ferrara, Region of Emilia-Romagna, Italy",
+      "location": "Individual Commons file Summary and Licensing boxes."
+    },
+    {
+      "fact": "The selected photographic copyright grant permits sharing and adaptation, including commercial uses, subject to the recorded attribution, licence link, changes notice and ShareAlike where applicable.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Actually read specific file licence and retained applicable Creative Commons deed."
+    },
+    {
+      "fact": "No property-entry, commercial-shooting, heritage-code or other-rights permission is inferred merely from the copyright licence.",
+      "excerpt": "No warranties are given. The license may not give you all of the permissions necessary for your intended use.",
+      "location": "Creative Commons deed Notices; specific file country/heritage notices preserved separately."
+    },
+    {
+      "fact": "The API-provided1280px rendition was downloaded over ordinary HTTPS, preserved byte-for-byte, visually inspected, and resized proportionally into five responsiveWebP files without generated edits or cropping.",
+      "excerpt": "Measured source dimensions and hashes are recorded in downloadCapture/providedOriginal; actual visual observation below.",
+      "location": "Actual downloaded bytes, optimized inventory and contact image inspected in this turn."
+    }
+  ],
+  "notes": "Archival exterior documentary photograph. Selected copyright licence retained on derivatives; current access, appearance, venue contracts and any non-copyright statutory requirements are separate. No blanket legal clearance is asserted.",
+  "licenseDeedCapture": {
+    "id": "ph-deed-by-sa-4",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fetchedAt": "2026-11-15T17:11:08.220Z",
+    "actuallyRead": true,
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+    "bytes": 35530,
+    "rawFile": "content/research/raw/n15-fe-photo-deed-by-sa-4.html",
+    "retryAfter": null,
+    "textFile": "content/research/raw/n15-fe-photo-deed-by-sa-4.txt",
+    "textSha256": "40f0cdc6c1886c57a4d2f5e236d368e3e12dcd27901fbfd0e6d97e60b9eca657"
+  },
+  "downloadCapture": {
+    "id": "ph-img-schifanoia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Ferrara_Palazzo_Schifanoia_Esterno_Portale_1.jpg/1280px-Ferrara_Palazzo_Schifanoia_Esterno_Portale_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fetchedAt": "2026-11-15T17:11:13.358Z",
+    "actuallyRead": false,
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Ferrara_Palazzo_Schifanoia_Esterno_Portale_1.jpg/1280px-Ferrara_Palazzo_Schifanoia_Esterno_Portale_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "63496e26e3f3af8b20eaa463fa89ed5e63974c484dc28f75991ab81eefbca3ce",
+    "bytes": 997182,
+    "rawFile": "content/images/originals/n15-fe-schifanoia.jpg",
+    "retryAfter": null
+  },
+  "apiCapture": {
+    "id": "ph-search-schifanoia-exterior",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=intitle%3A%22Schifanoia%22+intitle%3A%22Esterno%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1280&format=json",
+    "fetchedAt": "2026-11-15T17:10:27.795Z",
+    "actuallyRead": true,
+    "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=intitle%3A%22Schifanoia%22+intitle%3A%22Esterno%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1280&format=json",
+    "httpStatus": 200,
+    "contentType": "application/json; charset=utf-8",
+    "contentSha256": "c98342e4a005b12d4e12673da13edff1c6531d1cc0a1523cfb37079f178e7d8c",
+    "bytes": 18943,
+    "rawFile": "content/research/raw/n15-fe-schifanoia-imageinfo-api.json",
+    "retryAfter": null,
+    "textFile": "content/research/raw/n15-fe-schifanoia-imageinfo-api.txt",
+    "textSha256": "c98342e4a005b12d4e12673da13edff1c6531d1cc0a1523cfb37079f178e7d8c"
+  },
+  "upstreamSource": {
+    "title": "File:Ferrara Palazzo Schifanoia Esterno Portale 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Ferrara_Palazzo_Schifanoia_Esterno_Portale_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3342,
+    "height": 4524,
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Ferrara_Palazzo_Schifanoia_Esterno_Portale_1.jpg/1280px-Ferrara_Palazzo_Schifanoia_Esterno_Portale_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "dateFieldAsPublished": "2022-04-28 11:08:53"
+  },
+  "providedOriginal": {
+    "width": 1280,
+    "height": 1733,
+    "sha256": "63496e26e3f3af8b20eaa463fa89ed5e63974c484dc28f75991ab81eefbca3ce",
+    "bytes": 997182
+  },
+  "fileSpecificNotices": [],
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent /root/ferrara_n15/ferrara_photos_n15",
+    "reviewedAt": "2026-11-15T17:14:07.607Z",
+    "actuallyViewed": true,
+    "observation": "Portrait view of the palace’s exterior stone doorway and brick façade. No fresco, museum interior, modern artwork or temporary show is used as documentation.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/photos/five-photo-contact.jpg",
+    "contactSha256": "34046a8950e9415a83f026b53265c8834ef66ff1d4ffe7b52540b5540426685c"
+  },
+  "optimizedFiles": [
+    {
+      "src": "/images/n15-fe-schifanoia-240w.webp",
+      "width": 240,
+      "height": 325,
+      "sha256": "78b278a3f461d3459a026d2e57f78f69467d12fdb6aa7820cf3d978305e9466f",
+      "bytes": 25562
+    },
+    {
+      "src": "/images/n15-fe-schifanoia-320w.webp",
+      "width": 320,
+      "height": 433,
+      "sha256": "6922881a842fae53f7a4877a17521ae06c402988dbfd98b6a394b9dd35190f4c",
+      "bytes": 47012
+    },
+    {
+      "src": "/images/n15-fe-schifanoia-480w.webp",
+      "width": 480,
+      "height": 650,
+      "sha256": "e522635697ae7a1e451cf7bcd2aff3ea9fac71888f6ed81be297fc37b0a8bfa4",
+      "bytes": 112000
+    },
+    {
+      "src": "/images/n15-fe-schifanoia-800w.webp",
+      "width": 800,
+      "height": 1083,
+      "sha256": "2cd6cd273ab6d9cf07a8b900e12d8a7a01ca703633067da338a598300bb91cc0",
+      "bytes": 324458
+    },
+    {
+      "src": "/images/n15-fe-schifanoia.webp",
+      "width": 1280,
+      "height": 1733,
+      "sha256": "587c60945a37a819d65e8bd320b964613c218bf177250051a3f138d9a6436e80",
+      "bytes": 840532
+    }
+  ],
+  "nonCopyrightAuthorisationReview": {
+    "reviewedAt": "2026-11-15T17:23:41.368281+00:00",
+    "municipalAuthorisationEvidence": "content/research/n15-fe-photo-authorisation-city-2021.json",
+    "selectedLocationListed": true,
+    "scope": "Explicitly named in the2021fee-free any-purpose statutory publication grant; actual PDF read and grant/list visually confirmed.",
+    "noBlanketOtherRightsGuarantee": true
+  },
+  "optimizedVisualReview": {
+    "reviewer": "Codex photo subagent",
+    "reviewedAt": "2026-11-15T17:23:41.368281+00:00",
+    "actuallyViewed": true,
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/photos/responsive-photo-contact.jpg",
+    "contactSha256": "5e773a86b1774fc7b15172fb8581941ca50f4dedde23221e8264450df371349c",
+    "scope": "All25WebPvariants viewed in a five-by-five labelled contact image; preserved proportions, no crop or generated edits."
+  }
+}

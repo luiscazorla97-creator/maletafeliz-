@@ -1,0 +1,181 @@
+{
+  "id": "n15-fe-castle-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Castello_Estense_(Ferrara),_Torre_dei_Leoni_e_torre_Marchesana.jpg",
+  "fetchedAt": "2026-11-15T17:11:02.280Z",
+  "actuallyRead": true,
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Castello_Estense_(Ferrara),_Torre_dei_Leoni_e_torre_Marchesana.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "ceb35778bbe1312de5d95015b42b1468a8363df4aa6456da05b358664fc2ab42",
+  "bytes": 160833,
+  "rawFile": "content/research/raw/n15-fe-castle-file-page.html",
+  "retryAfter": null,
+  "textFile": "content/research/raw/n15-fe-castle-file-page.txt",
+  "textSha256": "41422d995b789cbb1797e354e544cf3e48b8f804b956be96258f28c0d1107acb",
+  "facts": [
+    {
+      "fact": "Specific file page was actually read and identifies the photographic subject, author and selected licence.",
+      "excerpt": "Torre dei Leoni e torre Marchesana, Castello Estense",
+      "location": "Individual Commons file Summary and Licensing boxes."
+    },
+    {
+      "fact": "The selected photographic copyright grant permits sharing and adaptation, including commercial uses, subject to the recorded attribution, licence link, changes notice and ShareAlike where applicable.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Actually read specific file licence and retained applicable Creative Commons deed."
+    },
+    {
+      "fact": "No property-entry, commercial-shooting, heritage-code or other-rights permission is inferred merely from the copyright licence.",
+      "excerpt": "No warranties are given. The license may not give you all of the permissions necessary for your intended use.",
+      "location": "Creative Commons deed Notices; specific file country/heritage notices preserved separately."
+    },
+    {
+      "fact": "The API-provided1280px rendition was downloaded over ordinary HTTPS, preserved byte-for-byte, visually inspected, and resized proportionally into five responsiveWebP files without generated edits or cropping.",
+      "excerpt": "Measured source dimensions and hashes are recorded in downloadCapture/providedOriginal; actual visual observation below.",
+      "location": "Actual downloaded bytes, optimized inventory and contact image inspected in this turn."
+    }
+  ],
+  "notes": "Archival exterior documentary photograph. Selected copyright licence retained on derivatives; current access, appearance, venue contracts and any non-copyright statutory requirements are separate. No blanket legal clearance is asserted.",
+  "licenseDeedCapture": {
+    "id": "ph-deed-by-sa-4",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fetchedAt": "2026-11-15T17:11:08.220Z",
+    "actuallyRead": true,
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+    "bytes": 35530,
+    "rawFile": "content/research/raw/n15-fe-photo-deed-by-sa-4.html",
+    "retryAfter": null,
+    "textFile": "content/research/raw/n15-fe-photo-deed-by-sa-4.txt",
+    "textSha256": "40f0cdc6c1886c57a4d2f5e236d368e3e12dcd27901fbfd0e6d97e60b9eca657"
+  },
+  "downloadCapture": {
+    "id": "ph-img-castle",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Castello_Estense_%28Ferrara%29%2C_Torre_dei_Leoni_e_torre_Marchesana.jpg/1280px-Castello_Estense_%28Ferrara%29%2C_Torre_dei_Leoni_e_torre_Marchesana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fetchedAt": "2026-11-15T17:11:09.970Z",
+    "actuallyRead": false,
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Castello_Estense_%28Ferrara%29%2C_Torre_dei_Leoni_e_torre_Marchesana.jpg/1280px-Castello_Estense_%28Ferrara%29%2C_Torre_dei_Leoni_e_torre_Marchesana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "d9f46de63634152d903ee32687b7470b73348759f01afdc5fbd5985932ba810d",
+    "bytes": 372633,
+    "rawFile": "content/images/originals/n15-fe-castle.jpg",
+    "retryAfter": null
+  },
+  "apiCapture": {
+    "id": "ph-search-castle-landscape",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=%22Ferrara+Castello+Estense%22+-intitle%3A%222014%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1280&format=json",
+    "fetchedAt": "2026-11-15T17:09:58.309Z",
+    "actuallyRead": true,
+    "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=%22Ferrara+Castello+Estense%22+-intitle%3A%222014%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1280&format=json",
+    "httpStatus": 200,
+    "contentType": "application/json; charset=utf-8",
+    "contentSha256": "10578dc4e5b6607e05bd81f6679bbcabf7c75a64ec9af5161a4157b24d72116d",
+    "bytes": 31441,
+    "rawFile": "content/research/raw/n15-fe-castle-imageinfo-api.json",
+    "retryAfter": null,
+    "textFile": "content/research/raw/n15-fe-castle-imageinfo-api.txt",
+    "textSha256": "10578dc4e5b6607e05bd81f6679bbcabf7c75a64ec9af5161a4157b24d72116d"
+  },
+  "upstreamSource": {
+    "title": "File:Castello Estense (Ferrara), Torre dei Leoni e torre Marchesana.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Castello_Estense_%28Ferrara%29%2C_Torre_dei_Leoni_e_torre_Marchesana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5484,
+    "height": 3534,
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Castello_Estense_%28Ferrara%29%2C_Torre_dei_Leoni_e_torre_Marchesana.jpg/1280px-Castello_Estense_%28Ferrara%29%2C_Torre_dei_Leoni_e_torre_Marchesana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "dateFieldAsPublished": "2022-09-18 12:18:06"
+  },
+  "providedOriginal": {
+    "width": 1280,
+    "height": 825,
+    "sha256": "d9f46de63634152d903ee32687b7470b73348759f01afdc5fbd5985932ba810d",
+    "bytes": 372633
+  },
+  "fileSpecificNotices": [
+    {
+      "text": "This is a photo of a monument which is part of cultural heritage of Italy. This monument participates in the contest Wiki Loves Monuments Italia 2022. See authorisations.",
+      "source": "Specific file Summary box",
+      "authorisationIndexCapture": {
+        "id": "ph-wlm-authorisations",
+        "url": "https://workspace.wikimedia.it/s/7wQqJ87Cy2b55oR",
+        "fetchedAt": "2026-11-15T17:11:53.521Z",
+        "actuallyRead": true,
+        "finalUrl": "https://workspace.wikimedia.it/s/7wQqJ87Cy2b55oR",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "contentSha256": "1af6ce1cad7e413c4d68af4c7f77a4cecad3b8f34a3af1b90608296086a7d88c",
+        "bytes": 71989,
+        "rawFile": "content/research/raw/n15-fe-photo-wlm-authorisations.html",
+        "retryAfter": null,
+        "textFile": "content/research/raw/n15-fe-photo-wlm-authorisations.txt",
+        "textSha256": "65eff70db669528773416cc07bf9ab6a3d882f129bf7738ea81c16f9194d8e4d"
+      },
+      "individualMonumentAuthorisationRead": true,
+      "scope": "The initially linked public folder was traversed through its ordinary public UI listing; the actual2021municipal letter was fetched/read and lists this monument. It is separate from the photographic copyright licence.",
+      "authorisationEvidence": "content/research/n15-fe-photo-authorisation-city-2021.json"
+    }
+  ],
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent /root/ferrara_n15/ferrara_photos_n15",
+    "reviewedAt": "2026-11-15T17:14:07.607Z",
+    "actuallyViewed": true,
+    "observation": "Brick castle exterior and two towers match the specifically named Torre dei Leoni and Torre Marchesana. This is an exterior architectural view, not an interior artwork or proof of current visitor access.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/photos/five-photo-contact.jpg",
+    "contactSha256": "34046a8950e9415a83f026b53265c8834ef66ff1d4ffe7b52540b5540426685c"
+  },
+  "optimizedFiles": [
+    {
+      "src": "/images/n15-fe-castle-240w.webp",
+      "width": 240,
+      "height": 155,
+      "sha256": "93b8bd818e8fdb2af4251f28d7b25a420691f2b08dca86da57b223d6ecec2e37",
+      "bytes": 8750
+    },
+    {
+      "src": "/images/n15-fe-castle-320w.webp",
+      "width": 320,
+      "height": 206,
+      "sha256": "8df63c9cb61aa63c93b739a22684bd03c8aaf5299384fe35e17dcf219b1d2a8c",
+      "bytes": 15072
+    },
+    {
+      "src": "/images/n15-fe-castle-480w.webp",
+      "width": 480,
+      "height": 309,
+      "sha256": "8c7de141cafbf58fde854d1fa3bed8a1cc44e8179558d3b0e065a592f777271a",
+      "bytes": 34980
+    },
+    {
+      "src": "/images/n15-fe-castle-800w.webp",
+      "width": 800,
+      "height": 516,
+      "sha256": "105c037eecb1984de0455567705a855f347d84b94c786f55bf6653265c3b23bd",
+      "bytes": 108962
+    },
+    {
+      "src": "/images/n15-fe-castle.webp",
+      "width": 1280,
+      "height": 825,
+      "sha256": "28227857230a174fd2a1873ef118f3cd2edbdffaf546ce1d9f53a2fe876dab9b",
+      "bytes": 313464
+    }
+  ],
+  "nonCopyrightAuthorisationReview": {
+    "reviewedAt": "2026-11-15T17:23:41.368281+00:00",
+    "municipalAuthorisationEvidence": "content/research/n15-fe-photo-authorisation-city-2021.json",
+    "selectedLocationListed": true,
+    "scope": "Explicitly named in the2021fee-free any-purpose statutory publication grant; actual PDF read and grant/list visually confirmed.",
+    "noBlanketOtherRightsGuarantee": true
+  },
+  "optimizedVisualReview": {
+    "reviewer": "Codex photo subagent",
+    "reviewedAt": "2026-11-15T17:23:41.368281+00:00",
+    "actuallyViewed": true,
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/photos/responsive-photo-contact.jpg",
+    "contactSha256": "5e773a86b1774fc7b15172fb8581941ca50f4dedde23221e8264450df371349c",
+    "scope": "All25WebPvariants viewed in a five-by-five labelled contact image; preserved proportions, no crop or generated edits."
+  }
+}

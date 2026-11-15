@@ -1,0 +1,158 @@
+{
+  "id": "n15-fe-walls-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:0_Mura_di_Ferrara_-_Rampari_di_Belfiore_02.jpg",
+  "fetchedAt": "2026-11-15T17:11:07.141Z",
+  "actuallyRead": true,
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:0_Mura_di_Ferrara_-_Rampari_di_Belfiore_02.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "b6ad4d0707a41e74b1483da6b04f7839d1a69f9ff718e23f6b910e83772e0a8f",
+  "bytes": 113897,
+  "rawFile": "content/research/raw/n15-fe-walls-file-page.html",
+  "retryAfter": null,
+  "textFile": "content/research/raw/n15-fe-walls-file-page.txt",
+  "textSha256": "7e80d311bf37e1fcb839fee5d1289138a504515a407d00b8625256bf023fb10c",
+  "facts": [
+    {
+      "fact": "Specific file page was actually read and identifies the photographic subject, author and selected licence.",
+      "excerpt": "Rampari di Belfiore. Parte a nord est delle mura di Ferrara",
+      "location": "Individual Commons file Summary and Licensing boxes."
+    },
+    {
+      "fact": "The selected photographic copyright grant permits sharing and adaptation, including commercial uses, subject to the recorded attribution, licence link, changes notice and ShareAlike where applicable.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Actually read specific file licence and retained applicable Creative Commons deed."
+    },
+    {
+      "fact": "No property-entry, commercial-shooting, heritage-code or other-rights permission is inferred merely from the copyright licence.",
+      "excerpt": "No warranties are given. The license may not give you all of the permissions necessary for your intended use.",
+      "location": "Creative Commons deed Notices; specific file country/heritage notices preserved separately."
+    },
+    {
+      "fact": "The API-provided1280px rendition was downloaded over ordinary HTTPS, preserved byte-for-byte, visually inspected, and resized proportionally into five responsiveWebP files without generated edits or cropping.",
+      "excerpt": "Measured source dimensions and hashes are recorded in downloadCapture/providedOriginal; actual visual observation below.",
+      "location": "Actual downloaded bytes, optimized inventory and contact image inspected in this turn."
+    }
+  ],
+  "notes": "Archival exterior documentary photograph. Selected copyright licence retained on derivatives; current access, appearance, venue contracts and any non-copyright statutory requirements are separate. No blanket legal clearance is asserted.",
+  "licenseDeedCapture": {
+    "id": "ph-deed-by-sa-4",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fetchedAt": "2026-11-15T17:11:08.220Z",
+    "actuallyRead": true,
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+    "bytes": 35530,
+    "rawFile": "content/research/raw/n15-fe-photo-deed-by-sa-4.html",
+    "retryAfter": null,
+    "textFile": "content/research/raw/n15-fe-photo-deed-by-sa-4.txt",
+    "textSha256": "40f0cdc6c1886c57a4d2f5e236d368e3e12dcd27901fbfd0e6d97e60b9eca657"
+  },
+  "downloadCapture": {
+    "id": "ph-img-walls",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/0_Mura_di_Ferrara_-_Rampari_di_Belfiore_02.jpg/1280px-0_Mura_di_Ferrara_-_Rampari_di_Belfiore_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fetchedAt": "2026-11-15T17:11:15.944Z",
+    "actuallyRead": false,
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/0_Mura_di_Ferrara_-_Rampari_di_Belfiore_02.jpg/1280px-0_Mura_di_Ferrara_-_Rampari_di_Belfiore_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "26d6b58c21a00ed6a48be1e5f77b0589ff2782b424936afdce3a8182c78d444d",
+    "bytes": 428068,
+    "rawFile": "content/images/originals/n15-fe-walls.jpg",
+    "retryAfter": null
+  },
+  "apiCapture": {
+    "id": "ph-search-walls-path",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=intitle%3A%22Mura+di+Ferrara%22+-intitle%3A%22Torrione%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1280&format=json",
+    "fetchedAt": "2026-11-15T17:10:28.933Z",
+    "actuallyRead": true,
+    "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=intitle%3A%22Mura+di+Ferrara%22+-intitle%3A%22Torrione%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1280&format=json",
+    "httpStatus": 200,
+    "contentType": "application/json; charset=utf-8",
+    "contentSha256": "611a728135530ed508e42594825d5a960d44c25bb6e14d4142736a719b794ff3",
+    "bytes": 34378,
+    "rawFile": "content/research/raw/n15-fe-walls-imageinfo-api.json",
+    "retryAfter": null,
+    "textFile": "content/research/raw/n15-fe-walls-imageinfo-api.txt",
+    "textSha256": "611a728135530ed508e42594825d5a960d44c25bb6e14d4142736a719b794ff3"
+  },
+  "upstreamSource": {
+    "title": "File:0 Mura di Ferrara - Rampari di Belfiore 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/0_Mura_di_Ferrara_-_Rampari_di_Belfiore_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3888,
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/0_Mura_di_Ferrara_-_Rampari_di_Belfiore_02.jpg/1280px-0_Mura_di_Ferrara_-_Rampari_di_Belfiore_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "dateFieldAsPublished": "2014-03-05 15:39:04"
+  },
+  "providedOriginal": {
+    "width": 1280,
+    "height": 960,
+    "sha256": "26d6b58c21a00ed6a48be1e5f77b0589ff2782b424936afdce3a8182c78d444d",
+    "bytes": 428068
+  },
+  "fileSpecificNotices": [],
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent /root/ferrara_n15/ferrara_photos_n15",
+    "reviewedAt": "2026-11-15T17:14:07.607Z",
+    "actuallyViewed": true,
+    "observation": "Long brick fortification wall, green verge, trees and an outer path visibly document the specifically identified Rampari di Belfiore section. No claim that every part of the circuit has this condition is made.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/photos/five-photo-contact.jpg",
+    "contactSha256": "34046a8950e9415a83f026b53265c8834ef66ff1d4ffe7b52540b5540426685c"
+  },
+  "optimizedFiles": [
+    {
+      "src": "/images/n15-fe-walls-240w.webp",
+      "width": 240,
+      "height": 180,
+      "sha256": "841715a1d900b4169556885eba3c1cd6b73b9094e28633afa34b491e80d8e111",
+      "bytes": 9956
+    },
+    {
+      "src": "/images/n15-fe-walls-320w.webp",
+      "width": 320,
+      "height": 240,
+      "sha256": "e47e37d02115f2c0f0f07b388ee3ac5b70a64fed25918583bdebf41ffa7735fa",
+      "bytes": 18522
+    },
+    {
+      "src": "/images/n15-fe-walls-480w.webp",
+      "width": 480,
+      "height": 360,
+      "sha256": "8201971a0537b74da20f4d86b9df2cffbfdf6b0468205079a64369e4570feb4b",
+      "bytes": 45398
+    },
+    {
+      "src": "/images/n15-fe-walls-800w.webp",
+      "width": 800,
+      "height": 600,
+      "sha256": "a2c397523990f4090847cd8714457618ec39407966b5b2c8e6a67167cebe6107",
+      "bytes": 137484
+    },
+    {
+      "src": "/images/n15-fe-walls.webp",
+      "width": 1280,
+      "height": 960,
+      "sha256": "63924a4e45d46e0809e1c9468d358ef8c642484a534e8ed45c4698663897bc5a",
+      "bytes": 360350
+    }
+  ],
+  "nonCopyrightAuthorisationReview": {
+    "reviewedAt": "2026-11-15T17:23:41.368281+00:00",
+    "municipalAuthorisationEvidence": "content/research/n15-fe-photo-authorisation-city-2021.json",
+    "selectedLocationListed": false,
+    "scope": "Not listed in the2021letter; no statutory permission is inferred from that letter. Specific photographic copyright licence and actual file-page/deed notices are retained for root review.",
+    "noBlanketOtherRightsGuarantee": true
+  },
+  "optimizedVisualReview": {
+    "reviewer": "Codex photo subagent",
+    "reviewedAt": "2026-11-15T17:23:41.368281+00:00",
+    "actuallyViewed": true,
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/photos/responsive-photo-contact.jpg",
+    "contactSha256": "5e773a86b1774fc7b15172fb8581941ca50f4dedde23221e8264450df371349c",
+    "scope": "All25WebPvariants viewed in a five-by-five labelled contact image; preserved proportions, no crop or generated edits."
+  }
+}

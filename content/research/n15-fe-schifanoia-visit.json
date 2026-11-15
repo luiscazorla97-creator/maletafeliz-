@@ -1,0 +1,37 @@
+{
+  "url": "https://www.museiferrara.it/museo-schifanoia-e-museo-lapidario/visita/",
+  "finalUrl": "https://www.museiferrara.it/museo-schifanoia-e-museo-lapidario/visita/",
+  "fetchedAt": "2026-11-15T17:11:41.319Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "1b5fe2ab91bd0e7ccada7d6a3b2e150647c94147737836d9a38847b9328d46bb",
+  "rawFile": "content/research/raw/n15-fe-schifanoia-visit.raw",
+  "textFile": "content/research/raw/n15-fe-schifanoia-visit.txt",
+  "textSha256": "354d4699a3eb8173dd2fc999c48db41de9a7f4e412a3058affa4106334eb945f",
+  "facts": [
+    {
+      "fact": "OrdinaryscheduleTuesdaySunday10to19,last18,closedMonday;explicitexceptioncalendarisprovided.",
+      "excerpt": "10.00-19.00 da martedì a domenica Chiuso il lunedì Ultimo ingresso alle 18.00",
+      "location": "Readable text capture, exact substring at character 2208"
+    },
+    {
+      "fact": "Freebookingrecommendedforindividualsandgroups.",
+      "excerpt": "Per singoli visitatori e gruppi la prenotazione è consigliata e gratuita",
+      "location": "Readable text capture, exact substring at character 2121"
+    },
+    {
+      "fact": "MuseumaddressViaScandiana23.",
+      "excerpt": "Museo Schifanoia, via Scandiana 23, 44121 Ferrara",
+      "location": "Readable text capture, exact substring at character 4114"
+    },
+    {
+      "fact": "Operatorlistsbuses1and9or6withwalkingleg;draftdoesnotpromisedoor-to-doorstop.",
+      "excerpt": "Dalla stazione ferroviaria e dal Castello Estense autobus n. 1 e n. 9",
+      "location": "Readable text capture, exact substring at character 4630"
+    }
+  ],
+  "actuallyRead": true,
+  "readBy": "Codex Ferrara editorial research agent",
+  "readAt": "2026-11-15T17:14:00.093556+00:00",
+  "notes": "Actual official source read for the new Ferrara guide. No automatic content approval. Operator calendars and individual access areas take priority over general tourism descriptions; ambiguous old exhibition prices and conflicting dates were excluded."
+}

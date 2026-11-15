@@ -1,0 +1,32 @@
+{
+  "url": "https://www.castelloestense.it/en/information/opening-hours-and-prices-from-january-31st-2015",
+  "finalUrl": "https://www.castelloestense.it/en/information/opening-hours-and-prices-from-january-31st-2015",
+  "fetchedAt": "2026-11-15T17:08:54.282Z",
+  "httpStatus": 200,
+  "contentType": "text/html;charset=utf-8",
+  "contentSha256": "7b0a3f23e18167ec4b1273c6c47d715a6ae66011cc35e42a814bef823e05edb2",
+  "rawFile": "content/research/raw/n15-fe-castle-visit.raw",
+  "textFile": "content/research/raw/n15-fe-castle-visit.txt",
+  "textSha256": "ed5bcc464e22c211b433d4408796abfa349dd9c14ef48136daf07302adaf8386",
+  "facts": [
+    {
+      "fact": "EnglishoperatorpagepublishesTuesdayclosure; date-specificexceptionsmustbechecked.",
+      "excerpt": "10.00 am 18.00 pm closed on Tuesday",
+      "location": "Readable text capture, exact substring at character 522"
+    },
+    {
+      "fact": "Englishoperatorpagecurrentlystatesprisonstemporarilyclosedforsecurity,conflictswithgenerictourismroutetext;draftdoesnotpromiseprisonaccess.",
+      "excerpt": "The prisons are temporarily closed for security reasons",
+      "location": "Readable text capture, exact substring at character 687"
+    },
+    {
+      "fact": "Museumlastadmission45minutesbeforecloseonpage.",
+      "excerpt": "Museum: last admission 45 minutes before close",
+      "location": "Readable text capture, exact substring at character 558"
+    }
+  ],
+  "actuallyRead": true,
+  "readBy": "Codex Ferrara editorial research agent",
+  "readAt": "2026-11-15T17:14:00.085663+00:00",
+  "notes": "Actual official source read for the new Ferrara guide. No automatic content approval. Operator calendars and individual access areas take priority over general tourism descriptions; ambiguous old exhibition prices and conflicting dates were excluded."
+}

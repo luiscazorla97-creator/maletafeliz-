@@ -1,0 +1,81 @@
+{
+  "reviewer": "Codex root — actual full bilingual reading and factual/documentary-photo review",
+  "reviewedAt": "2026-11-15T17:32:04.514Z",
+  "contentHash": "7f038bd34d2d2d2307f74534b7a23b2863eb145c41879da405c3b547b944ca58",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "reviewEvidence": [
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/root-editorial-decision.json",
+      "sha256": "840334191018782579f7af07ba28b133833a624587262e8132645917418497ff"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/root-source-reading.json",
+      "sha256": "005ae8967e1b89dcec1c862b408beb088610be59d33c98e6ddc7556e09e0d404"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/root-originality-review.json",
+      "sha256": "fa971b9f99ccff99b4c3c9367ffd84197b655185df00c3345724876032ae3220"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/root-photo-integrity.json",
+      "sha256": "8acc5aee852c0c5378be23ddab3dfc6f8393788d44d49c90d3832aad2e4eeb18"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/draft-package-check.json",
+      "sha256": "2e507c25d06435eba8b7bbc7d532ef686763f587bc15b670113c9f5c9b56eac2"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/research-findings.json",
+      "sha256": "dbaa7232cd48c2e69954ceaa9b600f27ba65e3eacf4700983ea0d3ae58cabd93"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/photos/authorisation-reading-review.json",
+      "sha256": "e8670b6c0c6266714afcf9cb45ec3434b4e92e8f03e091e726d3e7fe89efc4ce"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/editor-visual-review.json",
+      "sha256": "d3bc274f71d7b5e0bc0fef9ec00d2a2d3174e4169193d2d81683105dfa0c9d61"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/kurashiki/writer-review.json",
+      "sha256": "39b7ff9fdb79db98b6bee9b1bc029251fe91b78998bfc2be50432d347ad6677f"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/kurashiki/independent-draft-review-final.json",
+      "sha256": "58d13232d7e025b3186dd49b9cd2e984fd2b1892cac4f320468a9adc0c6ddd65"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/kurashiki/official-source-review.json",
+      "sha256": "7e16f281e7902fb4aadd3174693e2c5f94349329afffd399008dc64bfe09b430"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/kurashiki/photos/photo-review.json",
+      "sha256": "fe5915d3a0a54249d2ede357c569a94c20df7d4cfc8e2cc7fab6ff4a7afedfc5"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/kurashiki/copy-edit-patch-report.json",
+      "sha256": "350db7cef53b3da3440561dfdae9a6b66a611ffa1956830306233f79294cf8a7"
+    }
+  ],
+  "notes": [
+    "All four full new manuscripts were actually read by root in this turn. The final Kurashiki eight literal copy edits and the final Ferrara English itinerary correction were read separately; final hashes bind those exact drafts. No old article is approved for an edit.",
+    "All85located facts/excerpts from23actual HTTP200 official documents were read. Raw/text hashes and every normalized excerpt were independently verified. Ivy Square operator503 is preserved and not cited as successful; municipal information supports only the limited described complex. Conflicting/stale prices, dates and office hours are not promised.",
+    "All10specific photographic copyright grants, names/dates/source labels and licence conditions were actually read; CC BY2/3/4,CC BY-SA3/4 and the PD-self fallback are correctly distinguished. Credit/source/licence links and modification/ShareAlike notices are retained. The photographs and their50optimized paths were hash/dimension checked, and root actually viewed both five-photo contacts.",
+    "Root also visually read the complete two-page municipal2021letter: it grants reproduction publication for any purpose without a fee under Articles107–108 for named Castello Estense,Diamanti andSchifanoia. This grant is not asserted for the cathedral or city walls. Their specific photographic grants are separately recorded; no universal legal warranty or new-onsite-shoot permit is claimed. No email or third-party message was sent.",
+    "Exact-paragraph and five-word-shingle comparisons cover222existing same-locale originals and found no exact paragraph reuse. This is bounded catalogue evidence, not Internet-wide certification, demand measurement or a Google indexation claim.",
+    "Current facts include Ohara annex long closure and2025memorial move, separate building/time/reentry conditions and exhibition-room photo request; Ferrara castle prison warning, cathedral restoration, distinct Diamanti/gallery admissions and Schifanoia free reservation versus paid admission are preserved in both languages.",
+    "The two initial publication/update timestamps will be assigned at real integration time only to these never-public versions. Existing444 article texts/dates,933photo objects,ads/GAconsent/popunder/design/URLs/configuration/frequency remain protected. Statuspublished selects the mandatory release build and is not a claim of live publication.",
+    "Only the four never-public selected versions receive real publication/update dates. Existing published articles and dates remain unchanged.",
+    "This hash-bound selection is approved for the mandatory release gate; it is not a public deployment or Google indexation claim."
+  ]
+}

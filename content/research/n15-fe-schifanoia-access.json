@@ -1,0 +1,37 @@
+{
+  "url": "https://www.museiferrara.it/museo-schifanoia-e-museo-lapidario/accessibilita-palazzo-schifanoia/",
+  "finalUrl": "https://www.museiferrara.it/museo-schifanoia-e-museo-lapidario/accessibilita-palazzo-schifanoia/",
+  "fetchedAt": "2026-11-15T17:11:43.959Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "23f4037f6419295323fea6982e25fe1216779235046da3f6deecc3b5bfdceabf",
+  "rawFile": "content/research/raw/n15-fe-schifanoia-access.raw",
+  "textFile": "content/research/raw/n15-fe-schifanoia-access.txt",
+  "textSha256": "4c9163321b9a0c1f8a0192b41007270153b03937ef99b36562b43b56cde51ab2",
+  "facts": [
+    {
+      "fact": "Ticketsbuyatmuseumandfreebookingonline,notprepaidonlineadmission.",
+      "excerpt": "I biglietti sono acquistabili esclusivamente presso la biglietteria del Museo.",
+      "location": "Readable text capture, exact substring at character 3080"
+    },
+    {
+      "fact": "Liftsservemezzanineandpianonobilebutconnectionbetweenwingsrequiregroundfloor.",
+      "excerpt": "non è possibile accedere direttamente dall’ammezzato al piano nobile, ma è necessario spostarsi da un’ala all’altra del palazzo a piano terra.",
+      "location": "Readable text capture, exact substring at character 4293"
+    },
+    {
+      "fact": "Museumhasseven tactile3Dreproductions.",
+      "excerpt": "un percorso tattile, costituito da 7 riproduzioni di oggetti tridimensionali",
+      "location": "Readable text capture, exact substring at character 5734"
+    },
+    {
+      "fact": "ExhibitvideosincludeItalianandEnglishsubtitles.",
+      "excerpt": "Tutti i video presenti nelle sale del museo (1, 9, 17) sono sottotitolati in italiano e inglese.",
+      "location": "Readable text capture, exact substring at character 5369"
+    }
+  ],
+  "actuallyRead": true,
+  "readBy": "Codex Ferrara editorial research agent",
+  "readAt": "2026-11-15T17:14:00.095078+00:00",
+  "notes": "Actual official source read for the new Ferrara guide. No automatic content approval. Operator calendars and individual access areas take priority over general tourism descriptions; ambiguous old exhibition prices and conflicting dates were excluded."
+}

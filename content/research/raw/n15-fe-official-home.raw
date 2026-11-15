@@ -1,0 +1,1362 @@
+
+<!-- usata per CMS -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+            
+<meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="2VV3sWUEYfGU8Nzgr53Wplbf8dtzLHEITB6yyDcVHou_BiLUAHU5g8DAmJr68aHjD6zErSEeXG4FJ_qJRSJy2Q==">
+
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="og:title" content="InFerrara - official tourism website of Ferrara">
+<meta name="twitter:title" content="InFerrara - official tourism website of Ferrara">
+<meta property="og:url" content="https://www.inferrara.it/en">
+<meta name="twitter:url" content="https://www.inferrara.it/en">
+<meta name="description" content="The official tourism promotion-marketing portal of Ferrara. Book your holiday and experiences in the city, get information about the best way to plan your journey.&quot;">
+<meta property="og:description" content="The official tourism promotion-marketing portal of Ferrara. Book your holiday and experiences in the city, get information about the best way to plan your journey.&quot;">
+<meta name="twitter:description" content="The official tourism promotion-marketing portal of Ferrara. Book your holiday and experiences in the city, get information about the best way to plan your journey.&quot;">
+<link href="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/MaterialDesign-Webfont-master/css/materialdesignicons.min.css?v=1792412578" rel="stylesheet">
+<link href="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/css/pretty-checkbox.min.css?v=1792412579" rel="stylesheet">
+<link href="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/compiled/scss/main-design.css?v=1792412596" rel="stylesheet">
+<link href="/assets/10290ecbfc2a88c9772fe5c201add825/css/lightslider.css?v=1792412578" rel="stylesheet">
+<link href="/assets/10290ecbfc2a88c9772fe5c201add825/css/thumbslider.css?v=1792412578" rel="stylesheet">
+<link href="/assets/10290ecbfc2a88c9772fe5c201add825/css/retroSliderHome.css?v=1792412578" rel="stylesheet">
+<script>var yiiOptions = {"idScope":""};
+window.__PUBLIC_PATH__ = '/assets/8565bafef397ff4bc33d0d6e3b11d6bd/node_modules/bootstrap-italia/dist/fonts'</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="2VV3sWUEYfGU8Nzgr53Wplbf8dtzLHEITB6yyDcVHou_BiLUAHU5g8DAmJr68aHjD6zErSEeXG4FJ_qJRSJy2Q==">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>InFerrara - official tourism website of Ferrara - InFerrara</title>
+<link rel="shortcut icon" href="/img/favicon-inferrara.png" type="image/x-icon" />
+<link rel="stylesheet" href="https://use.typekit.net/bsj0qqz.css">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WVHJXTZ');</script>
+<!-- End Google Tag Manager -->
+<!-- End of  Zendesk Widget script -->
+    </head>
+
+<body class="bg-body position-relative d-flex flex-column">
+
+    
+    
+<div class="skiplinks">
+  <a class="sr-only sr-only-focusable" href="#mainContent" title="Vai al contenuto principale">
+    Vai al contenuto principale  </a>
+  <a class="sr-only sr-only-focusable" href="#footerContent" title="Vai al footer">
+    Vai al footer  </a>
+</div>
+    
+    
+    
+
+
+
+
+
+
+<div id="toscModal" class="modal-tosc modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-xl bg-white p-4 rounded" role="document">
+        <div class="modal-content bg-100 rounded">
+            <div class="modal-header d-flex align-items-center pb-0">
+                <p class="modal-title black-color text-uppercase font-weight-bold">Live ferrara to the fullest</p>
+              
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <svg class='icon icon-black'><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#close-circle-outline'></use></svg>                </button>
+            </div>
+            <!--<form onsubmit="return onFormSubmit()">-->
+
+                <div class="modal-body pb-4">
+                    <span class="lead">Buy your experience or take advantage of our packages to stop here!</span>
+                    <div class="d-flex flex-column flex-xl-row btn-flex mt-4">
+                        <a href="/en/experiences" title="Read more"  class="flex-grow-1 d-flex align-items-center rounded text-decoration-none">
+                            <svg class='icon icon-xl bg-cyan text-white p-2 rounded position-absolute'><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#party-popper'></use></svg>                            <span class="btn btn-lg text-left ml-5 ml-sm-4  cyan-cta">
+                                Experiences                            </span>
+                        </a>
+						<a href="/en/accommodations" title="Read more"  class="flex-grow-1 d-flex align-items-center rounded text-decoration-none">
+                            <svg class='icon icon-xl bg-dark-pink text-white p-2 rounded position-absolute'><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#bed-outline'></use></svg>                            <span class="btn btn-lg text-left ml-5 ml-sm-4  dark-pink-cta">
+                                Accommodation                            </span>
+                        </a>
+                        <a href="/c/21/pacchetti" title="Read more" class="flex-grow-1 d-flex align-items-center rounded text-decoration-none">
+                            <svg class='icon icon-xl bg-light-purple text-white p-2 rounded position-absolute'><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#ticket-confirmation-outline'></use></svg>                            <span class="btn btn-lg text-left ml-5 ml-sm-4  purple-cta">
+                                Holiday packages                            </span>
+                        </a>
+                      
+                    </div>
+      
+                </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="https://web5.deskline.net/dwutility.js"></script>
+<script> 
+function onFormSubmit(){
+	
+		// valorizzazione variabili con valori inseriti nel form
+			var arrival = document.getElementById('arrival').value;
+			var departure = document.getElementById('departure').value;
+			var adults = document.getElementById('adults').value;
+			var children = document.getElementById('children').value;
+			// strutturazione array children
+			if ( children === "" ) { children = [] } else {
+			if (children.includes(",")) {
+					children = children.split(',')
+				} else {
+					children = children.split(' ')
+				}
+			};
+
+		// script quickfinder
+			dw.accommodationQuickFind(
+			'inferrara',
+			{
+				dateFrom:new Date(arrival), // formato date (aaaa-mm-gg)
+				dateTo:new Date(departure),
+				occupancy1:{
+					units:1,
+					adults: adults,
+					children: children
+				}
+			}, 
+			function(){ 
+				window.location.href = "https://front-inferrara-elena.devel.demotestwip.it/it/test-alloggi#/alloggi"
+			})
+			return false;
+	}
+</script>
+
+
+
+
+<div id="headerContent" class="it-header-wrapper  visit-header position-fixed w-100 z-index-8 shadow-sm">
+
+
+    <div class="it-header-slim-wrapper d-flex align-items-center py-0 ">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-12">
+                    <div class="it-header-slim-wrapper-content">
+                        <!-- LANGUAGES -->
+                        <div class="lang-container d-flex justify-content-start align-items-center flex-grow-1">
+                            <ul class="link-list small mb-0">
+                                <li><a class="list-item" href="/it/homepage" title="Change laguage in IT" data-params='{"language":"it"}' data-method="post"><span>IT</span></a></li><li><a class="list-item" href="/en/homepage" title="Change laguage in EN" data-params='{"language":"en"}' data-method="post"><span>EN</span></a></li>                            </ul>
+                                                                                            <div class="it-socials it-social-mobile"  style="padding-top:3px;">
+                                    <ul class="social-list list-unstyled d-flex mb-0">
+                                        
+                                            <li>
+                                                <a href="https://www.facebook.com/inferrara/" aria-label="Follow us facebook" target="_blank" title="Follow us facebook">
+
+                                                    <span class="mdi mdi-facebook icon"> </span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="https://www.instagram.com/inferrara.it/ " aria-label="Follow us instagram" target="_blank" title="Follow us instagram">
+
+                                                    <span class="mdi mdi-instagram icon"> </span>
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                                                    </div>
+
+
+                        <div class="it-header-slim-right-zone">
+                            <!-- CART MODULE -->
+                            <div class="cart-menu-inferrara m-l-10">
+                                <!--script per il carrello-->
+                                <div class="" id="tosc5carrello"></div>
+                                <!--<button class="btn-cart">
+                                <span class="mdi mdi-cart-outline icon"> </span>
+
+                                </button>-->
+                            </div>
+                                                                                                <div class="it-search-wrapper search-right d-block d-lg-none">
+                                        <a class="rounded-icon ml-2 d-flex align-items-center" aria-label="Search" title="Go to the platform search page InFerrara" href="/ricerca">
+                                            <span class="mdi mdi-magnify text-white"></span>
+                                        </a>
+                                    </div>
+                                                                                        <!--TODO: RIMETTERE VISIBILI IN FASE 1.5, 2 (MODULO CHAT E CARRELLO)-->
+                            
+
+
+
+
+
+
+
+                            <!-- USER -->
+                                                                                                                                                            
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="it-nav-wrapper">
+        <div class="it-header-center-wrapper theme-light it-small-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="it-header-center-content-wrapper">
+                            <div class="it-brand-wrapper d-flex pl-4 pl-lg-0">
+                                
+    <!-- new logo configurations -->
+        
+                    
+            <!-- IF IS SET LOGO IMAGE -->
+                                            <a class="d-md-block" href="/site/to-menu-url?url=/" title="Inferrara"><div class="it-brand-text  d-md-block"><img src="/img/logo-inferrara.png" alt="Inferrara"></div></a>            
+            <!-- IF IS SET LOGO TEXT -->
+            
+            <!-- CHECK NO LOGO FOUND -->
+            
+                    
+
+                            </div>
+                            <div class="it-right-zone">
+                                <!--<a class="btn btn-outline-primary btn-xs btn-icon  d-none d-sm-block" href="/acquista">
+                                    <svg class="icon icon-xs mr-1">
+                                        <use xlink:href="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#shopping-outline"></use>
+                                    </svg>   
+
+                                Shop                                </a>-->
+
+                                <a class="btn btn-primary btn-tosc-modal btn-sm" href="https://booking.inferrara.it/" target="_blank">
+                                    <svg class='icon'><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#calendar-check'></use></svg>                                    <div class="arrow-right"></div>
+
+                                    BOOKING
+                                </a>
+                                                                                                            <div class="it-search-wrapper d-none d-sm-flex ml-4">
+                                            <span class="search-label d-none d-md-block text-uppercase font-weight-bold">Search</span>
+                                            <a class="search-link rounded-icon ml-2" aria-label="Search" title="Go to the platform search page InFerrara" href="/ricerca">
+                                                <span class="mdi mdi-magnify text-white"></span>
+                                            </a>
+                                        </div>
+                                                                                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                    <div class="it-header-navbar-wrapper theme-light-desk shadow-none">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <!--start nav-->
+                                <nav class="navbar navbar-expand-lg has-megamenu">
+                                    <button class="custom-navbar-toggler" type="button" aria-controls="hamburgerMenu" aria-expanded="false" aria-label="Toggle navigation" data-target="#hamburgerMenu">
+                                        
+                                        <svg class="icon ">
+                                            <use xlink:href="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#menu"></use>
+                                        </svg>
+                                    </button>
+                                    <div class="navbar-collapsable" id="hamburgerMenu" style="display: none;">
+                                        <div class="overlay" style="display: none;"></div>
+                                        <div class="menu-wrapper z-index-1">
+                                            <div class="header-logo-hamburger close-div">
+                                                <div class="it-brand-wrapper d-flex flex-column flex-sm-row">
+                                                    
+    <!-- new logo configurations -->
+        
+                    
+            <!-- IF IS SET LOGO IMAGE -->
+                                            <a class="d-md-block" href="/site/to-menu-url?url=/" title="Inferrara"><div class="it-brand-text  d-md-block"><img src="/img/logo-inferrara.png" alt="Inferrara"></div></a>            
+            <!-- IF IS SET LOGO TEXT -->
+            
+            <!-- CHECK NO LOGO FOUND -->
+            
+                                                                    </div>
+                                                <button class="btn close-menu" type="button">
+                                                    <span class="it-close sr-only">close</span>
+                                                    <svg class="icon">
+                                                    <use xlink:href="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#close-circle-outline"></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <ul class="navbar-nav cms-menu-container-myopen"></ul><ul class="navbar-nav cms-menu-container-default cms-menu-container-default-eng"><li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/c/2/scopri-ferrara-2" title="Discover Ferrara" target="_self" data-toggle="" data-placement="bottom" data-html="true">Discover Ferrara<span class="bullet-parent"></span></a></li><li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/c/1/arte-e-cultura" title="Art and culture" target="_self" data-toggle="" data-placement="bottom" data-html="true">Art and culture<span class="bullet-parent"></span></a></li><li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/c/23/eventi" title="Events" target="_self" data-toggle="" data-placement="bottom" data-html="true">Events<span class="bullet-parent"></span></a></li><li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/c/11/turismo-slow" title="Slow Tourism" target="_self" data-toggle="" data-placement="bottom" data-html="true">Slow Tourism<span class="bullet-parent"></span></a></li><li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/c/9/food" title="Food" target="_self" data-toggle="" data-placement="bottom" data-html="true">Food<span class="bullet-parent"></span></a></li><li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/buisiness" title="Business" target="_self" data-toggle="" data-placement="bottom" data-html="true">Business<span class="bullet-parent"></span></a></li></ul>                                            
+                                            
+                                        </div>
+
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+
+</div>
+
+<!--modale per aggiornare esperienze manualmente-->
+<div id="refresh-experiences" class=" modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg " role="document">
+        <div class="modal-content rounded">
+            <div class="modal-header d-flex align-items-start pb-0">
+                <p class="modal-title black-color text-uppercase font-weight-bold h5">Are you sure you want to manually update experiences?</p>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <svg class='icon '><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-close'></use></svg>                </button>
+            </div>
+
+            <div class="modal-body pb-4">
+                <p class="lead">Click 'yes' to confirm your choice. If you want to go back click on 'Cancel'.</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary btn-sm mr-2" data-dismiss="modal" aria-label="Close">
+                    Cancel                </button>
+                <!--dove mettere onclick-->
+                <button class="btn btn-primary btn-sm"  type="submit" onclick="
+                        $('#refresh-experiences').modal('hide');
+                        $('#importing-esperienze').modal('show');
+                        $.get('/site/import-esperienze', function (data) {
+
+                            var msg = data.msg;
+                            $('#importing-esperienze .modal-body p').html(msg);
+
+                        }, 'json');
+                        ">        
+                            Yes                </button>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!--modale per aggiornare esperienze manualmente-->
+<div id="importing-esperienze" class="refresh-experiences-modal modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg " role="document">
+        <div class="modal-content m-0 p-0 rounded">
+            <div class="modal-header d-flex align-items-start pb-0">
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="am am-close"></span>
+                </button>
+            </div>
+
+            <div class="modal-body pb-4">
+                <p>Import in progress...</p>
+            </div>
+
+            <div class="modal-footer">
+                <div class="bootstrap-dialog-footer">
+                    <div class="bootstrap-dialog-footer-buttons">
+                        <button class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close">
+                            Cancel                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<button id="btn-refresh-experiences" class="btn-refresh-experiences d-none hidden" data-toggle="modal" data-target="#refresh-experiences">
+</button>
+
+<script>
+    window.dw = window.dw || function () {
+        (dw.q = dw.q || []).push(arguments)
+    };
+    dw('settings', 'fb3cb83b-731c-4163-808f-d1d1b025f9b8',
+            {
+                /* lingua di visualizzazione iniziale del TOSC5: it, de, en, fr .. */
+                "lang": 'en',
+                "style": '',
+                "target": "tosc5carrello"
+            });
+    dw('onCheckout', 'fb3cb83b-731c-4163-808f-d1d1b025f9b8', function () {
+        window.location.href = "/experiences";
+    });
+</script>
+<script async src="https://resc.deskline.net/DW5/start/PODLTTRSM/fb3cb83b-731c-4163-808f-d1d1b025f9b8/index.js"></script>
+    <div id="mainContent" class="d-flex ">
+
+        <main role="main" class="w-100 bg-white ">
+            
+        
+                            
+            
+            
+            
+                        <div class="wrap-modules">
+        <div class="uk-section slider-home-section pb-0 pb-sm-3"
+            
+    >
+            <div class="thumbslider-container">
+    <div  class="wrap-lightslider  galleryThumb">
+        <ul id="lightSlider">
+                                <li class="lSliderItem sliderItemThumb" data-link="https://www.inferrara.it/en/p/137/eventi/le-mostre-di-ferrara-arte" data-thumb="/static/02/bc/fc/025bc7fc48fe8246bbf3ad6b12d9ae3e6910b86472859ab672809361b4a8ef54.jpg" data-caption="RGlzY292ZXIgRmVycmFyYSBBcnRlIEV4aGliaXRpb25z" data-category="Events" data-category-color="#A91A2D">
+
+        <img src="/static/02/bc/fc/025bc7fc48fe8246bbf3ad6b12d9ae3e6910b86472859ab672809361b4a8ef54.jpg" alt="Ferrara Arte Exhibitions" />
+    <div class="caption">
+        <div class="el-content container text-white">
+                            <div>
+                    <div class="h1">
+                        <a href="https://www.inferrara.it/en/p/137/eventi/le-mostre-di-ferrara-arte" title="Go to the page 'Discover Ferrara Arte Exhibitions'">
+                            Discover Ferrara Arte Exhibitions                        </a>
+                    </div>
+                                    </div>
+                    </div>
+    </div>
+    </li>                                <li class="lSliderItem sliderItemThumb" data-link="https://www.inferrara.it/en/p/372/magazine/scopri-myfe-card" data-thumb="/static/07/72/fb/079722fb67a1a6c3fd83bc0ace1288247b4a972e9c0ca0533831416c2d45bc23.png" data-caption="TXlGZTogdGhlIHRvdXJpc3QgY2FyZCBmb3IgdmlzaXRpbmcgdGhlIGNpdHkgYXQgYSBncmVhdCBwcmljZQ==" data-category="Close up" data-category-color="#A91A2D">
+
+        <img src="/static/07/72/fb/079722fb67a1a6c3fd83bc0ace1288247b4a972e9c0ca0533831416c2d45bc23.png" alt="My Fe Card" />
+    <div class="caption">
+        <div class="el-content container text-white">
+                            <div>
+                    <div class="h1">
+                        <a href="https://www.inferrara.it/en/p/372/magazine/scopri-myfe-card" title="Go to the page 'MyFe: the tourist card for visiting the city at a great price'">
+                            <span id="docs-internal-guid-b4a2b254-7fff-ff10-4dbb-2218462ff73b">MyFe: the tourist card for visiting the city at a great price</span>                        </a>
+                    </div>
+                                    </div>
+                    </div>
+    </div>
+    </li>                                <li class="lSliderItem sliderItemThumb" data-link="https://www.inferrara.it/en/p/561/acquista/gran-gal-di-capodanno-a-teatro" data-thumb="/static/25/03/14/25803c1491a8bf044a58025539b14629d582be8703cc1681843696ada15382fa.jpg" data-caption="TmV3IFllYXImcnNxdW87cyBFdmUgR3JhbmQgR2FsYSBhdCB0aGUgVGhlYXRyZTogYm9vayB5b3VyIHNlYXQh" data-category="Events" data-category-color="#A91A2D">
+
+        <img src="/static/25/03/14/25803c1491a8bf044a58025539b14629d582be8703cc1681843696ada15382fa.jpg" alt="New Year’s Eve Grand Gala at the Theatre: book your seat!" />
+    <div class="caption">
+        <div class="el-content container text-white">
+                            <div>
+                    <div class="h1">
+                        <a href="https://www.inferrara.it/en/p/561/acquista/gran-gal-di-capodanno-a-teatro" title="Go to the page 'New Year&rsquo;s Eve Grand Gala at the Theatre: book your seat!'">
+                            <p>New Year&rsquo;s Eve Grand Gala at the Theatre: book your seat!</p>                        </a>
+                    </div>
+                                    </div>
+                    </div>
+    </div>
+    </li>                    </ul>
+
+            </div>
+</div>    
+
+      
+    </div>
+
+    <div class="uk-section section-esperienze-cards mt-5 mt-md-0"
+            
+    >
+            <div class="uk-container">
+                <div class="uk-section esperienze titlesection-cta d-flex flex-wrap align-items-center justify-content-between titlesection-cta"
+            
+    >
+            <div class="h3 text-uppercase py-4 mb-0">
+    experiences</div>
+    <a class="read-more-cta text-uppercase font-weight-bold text-black d-flex align-items-end open20-cms-button" 
+    href="https://booking.inferrara.it" 
+    target="_blank" 
+    title="READ MORE" 
+        style=""
+    >
+
+                    <svg class='icon'><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#party-popper'></use></svg>                <span>READ MORE</span>
+
+    </a>
+
+
+
+    
+
+      
+    </div>
+
+    <div class="uk-section "
+            
+    >
+            <div class="uk-container">
+            <!DOCTYPE html>
+
+<head>
+
+            <script type="text/javascript" src="https://cdn.datagest.it/plugins/dg-webbooking-api/1.1/dg-webbooking-api.min.js"></script>
+
+</head>
+
+<body>
+
+            <div data-dg-wbintegration='{"src":"https://booking.inferrara.it/en/siteintegration/offerte-orizzontali?dg-int=true"}' ></div>
+
+</body>
+
+</html>            </div>
+    
+
+      
+    </div>
+
+            </div>
+    
+
+      
+    </div>
+
+<p class="spacing-block spacing-block--1"><br></p><style>
+.internal-banner{
+width:50%;
+}
+@media(max-width:768px){
+.internal-banner{
+width:100%;
+}
+}
+
+.internal-banner .banner-text p{
+margin-bottom: 0 !Important;
+}
+
+
+
+
+</style>    <div class="uk-section section-esperienze-pacchetti-banner"
+            
+    >
+            <div class="uk-container">
+            <div class="d-flex flex-column flex-md-row" style="gap:30px">    <div class="uk-section internal-banner bg-dark-pink rounded flex-grow-1 mw-100 mw-md-50"
+                    style="
+            background-image:url(/static/6c/ba/de/6c9ba3dec4295353133e47909274aceb336b576a185c44139ee5e6cfdf1335a9.png);            background-size:contain;            background-position:center right;            background-repeat: no-repeat;            "
+            
+    >
+            <div class="uk-container">
+            <div class="banner-text text-white font-weight-bold">
+    Looking for your stay in Ferrara? Find out the best accommodation!</div>
+    <a class="banner-cta text-uppercase btn-dark-pink text-white btn btn- btn-xs open20-cms-button" 
+    href="/en/accommodations" 
+    target="_self" 
+    title="Book your stay" 
+        style=""
+    >
+
+                                    <span>Book your stay</span>
+
+    </a>
+
+
+
+            </div>
+    
+
+      
+    </div>
+
+    <div class="uk-section bg-light-purple rounded internal-banner  flex-grow-1 mw-100 mw-md-50"
+                    style="
+            background-image:url(/static/6d/27/28/6d22752877fac6d17c99be7428d3191ec7ab729854213fd4b5f9c67317351aa3.png);            background-size:contain;            background-position:center right;            background-repeat: no-repeat;            "
+            
+    >
+            <div class="uk-container">
+            <div class="banner-text text-white font-weight-bold">
+    A gift, a quick getaway for the weekend? Here are all our holiday packages!</div>
+    <a class="banner-cta text-uppercase btn-light-purple btn btn- btn-xs open20-cms-button" 
+    href="https://www.inferrara.it/c/21/pacchetti" 
+    target="_self" 
+    title="All packages" 
+        style=""
+    >
+
+                                    <span>All packages</span>
+
+    </a>
+
+
+
+            </div>
+    
+
+      
+    </div>
+
+</div>            </div>
+    
+
+      
+    </div>
+
+<p class="spacing-block spacing-block--1"><br></p>    <div class="uk-section section-scopri-fe bg-100 py-4"
+            
+    >
+            <div class="uk-container">
+                <div class="uk-section row variable-gutters align-items-center d-block d-xl-none"
+            
+    >
+                <div class="uk-section col-xl-12 col-lg-12 col-md-12  my-2 colonna-servizi"
+            
+    >
+                <div class="uk-section uk-section row justify-content-between"
+            
+    >
+                <div class="uk-section col-xl-3 col-sm-6 d-flex align-items-center my-2"
+            
+    >
+                <a class="homepage-cta text-decoration-none text-uppercase  bg-primary btn text-left text-white h-100 w-100 d-flex align-items-center open20-cms-button" 
+    href="https://www.inferrara.it/c/1/scopri-ferrara/arte-e-cultura" 
+    target="_self" 
+    title="ARTS AND CULTURE" 
+        style=""
+    >
+
+                                    <span><strong>ARTS </strong>AND<strong> CULTURE</strong></span>
+
+    </a>
+
+
+
+    
+
+      
+    </div>
+
+    <div class="uk-section col-xl-3 col-sm-6 d-flex align-items-center my-2"
+            
+    >
+                <a class="homepage-cta text-decoration-none text-uppercase  bg-purple btn text-left text-white h-100  w-100 d-flex align-items-center open20-cms-button" 
+    href="https://www.inferrara.it/c/23/scopri-ferrara/eventi" 
+    target="_self" 
+    title="EVENTS" 
+        style=""
+    >
+
+                                    <span><strong>EVENTS</strong></span>
+
+    </a>
+
+
+
+    
+
+      
+    </div>
+
+    <div class="uk-section col-xl-3 col-sm-6 d-flex align-items-center my-2"
+            
+    >
+                <a class="homepage-cta text-decoration-none text-uppercase  bg-green btn text-left text-white h-100  w-100 d-flex align-items-center open20-cms-button" 
+    href="https://www.inferrara.it/c/11/scopri-ferrara/turismo-slow" 
+    target="_self" 
+    title="SLOW TOURISM" 
+        style=""
+    >
+
+                                    <span><strong>SLOW </strong>TOURISM</span>
+
+    </a>
+
+
+
+    
+
+      
+    </div>
+
+    <div class="uk-section col-xl-3 col-sm-6 d-flex align-items-center my-2"
+            
+    >
+                <a class="homepage-cta text-decoration-none text-uppercase  bg-orange btn text-left text-white h-100  w-100 d-flex align-items-center open20-cms-button" 
+    href="https://www.inferrara.it/c/12/scopri-ferrara/lasciati-ispirare" 
+    target="_self" 
+    title="FOOD" 
+        style=""
+    >
+
+                                    <span><strong>FOOD</strong></span>
+
+    </a>
+
+
+
+    
+
+      
+    </div>
+
+    
+
+      
+    </div>
+
+    
+
+      
+    </div>
+
+    
+
+      
+    </div>
+
+<p class="spacing-block spacing-block--1"><br></p>    <div class="uk-section d-flex flex-wrap align-items-center justify-content-between titlesection-cta"
+            
+    >
+            <div class="h3 font-weight-normal">
+    <strong>DISCOVER&nbsp;</strong>FERRARA</div>
+    <a class="read-more-cta text-uppercase font-weight-bold text-black align-items-end d-none d-sm-flex open20-cms-button" 
+    href="https://www.inferrara.it/pages/categorie/detail/2/magazine" 
+    target="_self" 
+    title="LIVE IT&nbsp;" 
+        style=""
+    >
+
+                    <svg class='icon'><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#note-text-outline'></use></svg>                <span>LIVE IT&nbsp;</span>
+
+    </a>
+
+
+
+    
+
+      
+    </div>
+
+<p class="spacing-block spacing-block--1"><br></p>    <div class="uk-section list-magazine d-flex"
+            
+    >
+            <div class="uk-container">
+            
+<div class="list-magazine-homepage w-100">
+    <div class="position-relative">
+        <div class="uk-container">
+            <div class="majory-layout row">
+                <div class="left-column col-lg-12 col-xl-6 mb-3">
+                    <div class="container-magazine-homepage">
+                        <div class="card-wrapper">
+                            <div class="card card-img no-after">
+                                <div class="img-responsive-wrapper position-relative">
+                                    <div class="image-wrapper position-relative h-100">
+                                        <a href="https://www.inferrara.it/it/c/2/magazine?title=scopri-ferrara-2&filter=14" title="City tours">
+                                            <img src="/static/9e/c4/2a/9eec412a70f5b7184991bd2561b5db00e8d7dc114ff40d869ec0d00d7b8daedc.jpg" alt="City tours "class="event-image img-fluid w-100 mh-100 rounded">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body pr-0 py-0 card-body w-100 rounded">
+                                    <a href="https://www.inferrara.it/it/c/2/magazine?title=scopri-ferrara-2&filter=14" title="City tours" class="card-title text-decoration-none mb-2 h6">
+                                        City tours                                    </a>
+                                    <p class="card-content small font-weight-normal mb-0 mt-1">
+                                        Get inspired and experience Ferrara from an ever-changing point of view. Here you will find everything you need to know to experience the city to the full.                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-column col-lg-12 col-xl-6  mb-3">
+                                            <div class="container-magazine-homepage">
+                            <div class="card-wrapper">
+                                <div class="card card-img no-after">
+                                    <div class="img-responsive-wrapper position-relative">
+                                        <div class="image-wrapper position-relative h-100">
+                                            <a href="https://www.inferrara.it/it/c/2/magazine?title=magazine&filter=19" title="Stories of Ferrara">
+                                                <img src="/static/03/70/8e/03c7028eaf79b3883bc1cdc156d1a60f4c322d0ee6ae4c2fb12f076e1b9fdd17.jpg" alt="Stories of Ferrara "class="event-image img-fluid w-100 mh-100 rounded">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pr-0 py-0">
+                                        <a href="https://www.inferrara.it/it/c/2/magazine?title=magazine&filter=19" title="Stories of Ferrara" class="card-title text-decoration-none mb-2 h6">
+                                            Stories of Ferrara                                        </a>
+                                        <p class="card-content small font-weight-normal mb-0 mt-1">
+                                            Discover the many stories of our city, by those who were born here and those who have been here, making a lasting impression.                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                                            <div class="container-magazine-homepage">
+                            <div class="card-wrapper">
+                                <div class="card card-img no-after">
+                                    <div class="img-responsive-wrapper position-relative">
+                                        <div class="image-wrapper position-relative h-100">
+                                            <a href="https://www.inferrara.it/it/c/2/magazine?title=magazine&filter=17" title="Close up">
+                                                <img src="/static/bf/85/d2/bf485fd2887d26cf8a0b67d7176b2fe50f85fe7877321403a95e7afbe86d9169.jpg" alt="Close up "class="event-image img-fluid w-100 mh-100 rounded">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pr-0 py-0">
+                                        <a href="https://www.inferrara.it/it/c/2/magazine?title=magazine&filter=17" title="Close up" class="card-title text-decoration-none mb-2 h6">
+                                            Close up                                        </a>
+                                        <p class="card-content small font-weight-normal mb-0 mt-1">
+                                            Stay up-to-date with what's happening in Ferrara. Discover the activities, exhibitions and events scheduled in our city.                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <a class="read-more-cta text-uppercase font-weight-bold text-black align-items-center d-flex d-sm-none open20-cms-button" 
+    href="https://www.inferrara.it/pages/categorie/detail/2/magazine" 
+    target="_self" 
+    title="LIVE IT&nbsp;" 
+        style=""
+    >
+
+                    <svg class='icon'><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#note-text-outline'></use></svg>                <span>LIVE IT&nbsp;</span>
+
+    </a>
+
+
+
+            </div>
+    
+
+      
+    </div>
+
+<p class="spacing-block spacing-block--1"><br></p>    <div class="uk-section d-flex flex-wrap align-items-center justify-content-between titlesection-cta"
+            
+    >
+            <div class="h3 font-weight-normal">
+    <strong>EVENTS</strong></div>
+    <a class="read-more-cta text-uppercase font-weight-bold text-black align-items-end d-none d-sm-flex open20-cms-button" 
+    href="/en/agenda-eventi" 
+    target="_self" 
+    title="all the events in town" 
+        style=""
+    >
+
+                    <svg class='icon'><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#calendar'></use></svg>                <span>all the events in town</span>
+
+    </a>
+
+
+
+    
+
+      
+    </div>
+
+    <div class="uk-section mt-3"
+            
+    >
+            
+
+
+
+
+<div class="list-events-container">
+        <div id="w0" class="list-view w-100"><div class='summary-design d-flex justify-content-between w-100 '>
+    <div class="summary">
+</div>
+</div>
+<div class='list-view-design row it-list-wrapper '>
+    
+
+<div class="container-event col-lg-4 col-md-6 my-2">
+    <div class="bg-primary rounded row h-100">
+        <div class="card-body d-flex flex-column p-3 col-8">
+            <p class="card-category  text-white small font-weight-normal mb-0 mt-1">13 September 2026 - 29 May 2027</p>
+            <a class="text-decoration-none flex-grow-1 d-flex align-items-end" href="https://www.inferrara.it/en/b/1387/ferrara-musica-presenta-la-stagione-20262027-grandi-orchestre-maestri" title="Go to the event 'Ferrara Musica presenta la stagione 2026/2027: grandi orchestre, maestri internazionali e nuovi talenti'">
+                <p class="card-title h6 mb-0 text-white">Ferrara Musica presenta la stagione 2026/2027: grandi orchestre, maestri internazionali e nuovi talenti</p>
+            </a>
+        </div>
+                    <div class="img-responsive-wrapper position-relative col-4 p-0">
+                <div class="image-wrapper position-relative h-100">
+                    <a href="https://www.inferrara.it/en/b/1387/ferrara-musica-presenta-la-stagione-20262027-grandi-orchestre-maestri" title="Go to the event 'Ferrara Musica presenta la stagione 2026/2027: grandi orchestre, maestri internazionali e nuovi talenti'">
+                        <img src="/static/1c/b5/62/1c0b53623e78c4cbb7913d768b56afb2253ca364483198ffbb26c15997a425a0.jpg" style="object-fit:cover; border-top-right-radius: 4px;border-bottom-right-radius: 4px;" alt="immagine evento" class="event-image img-fluid w-100" />
+                    </a>
+                </div>
+            </div>
+            </div>
+</div>
+
+
+<div class="container-event col-lg-4 col-md-6 my-2">
+    <div class="bg-primary rounded row h-100">
+        <div class="card-body d-flex flex-column p-3 col-8">
+            <p class="card-category  text-white small font-weight-normal mb-0 mt-1">19 September 2026 - 01 January 2027, Centro Rivana Garden</p>
+            <a class="text-decoration-none flex-grow-1 d-flex align-items-end" href="https://www.inferrara.it/en/b/1387/centro-rivana-garden-ferrara" title="Go to the event 'CENTRO RIVANA GARDEN FERRARA'">
+                <p class="card-title h6 mb-0 text-white">CENTRO RIVANA GARDEN FERRARA</p>
+            </a>
+        </div>
+                    <div class="img-responsive-wrapper position-relative col-4 p-0">
+                <div class="image-wrapper position-relative h-100">
+                    <a href="https://www.inferrara.it/en/b/1387/centro-rivana-garden-ferrara" title="Go to the event 'CENTRO RIVANA GARDEN FERRARA'">
+                        <img src="/static/8e/2a/d4/8e22a2d40f3d9fbace75edaa43030d0c1d5c72bc7418f76db6f707ac9df8e54d.png" style="object-fit:cover; border-top-right-radius: 4px;border-bottom-right-radius: 4px;" alt="immagine evento" class="event-image img-fluid w-100" />
+                    </a>
+                </div>
+            </div>
+            </div>
+</div>
+
+
+<div class="container-event col-lg-4 col-md-6 my-2">
+    <div class="bg-primary rounded row h-100">
+        <div class="card-body d-flex flex-column p-3 col-8">
+            <p class="card-category  text-white small font-weight-normal mb-0 mt-1">19 September 2026 - 10 January 2027, Palazzo Diamanti</p>
+            <a class="text-decoration-none flex-grow-1 d-flex align-items-end" href="https://www.inferrara.it/en/b/1387/da-monet-a-van-gogh-a-kandinsky-8211-nuovi-sguardi-sulla-natura-e-la-m" title="Go to the event 'Da Monet a Van Gogh a Kandinsky &#8211; Nuovi sguardi sulla natura e la modernità'">
+                <p class="card-title h6 mb-0 text-white">Da Monet a Van Gogh a Kandinsky &#8211; Nuovi sguardi sulla natura e la modernità</p>
+            </a>
+        </div>
+                    <div class="img-responsive-wrapper position-relative col-4 p-0">
+                <div class="image-wrapper position-relative h-100">
+                    <a href="https://www.inferrara.it/en/b/1387/da-monet-a-van-gogh-a-kandinsky-8211-nuovi-sguardi-sulla-natura-e-la-m" title="Go to the event 'Da Monet a Van Gogh a Kandinsky &#8211; Nuovi sguardi sulla natura e la modernità'">
+                        <img src="/static/9f/11/6a/9fb1166a99b81bd9941ba6e793834846ed46a5cf5b31a2d642893cd7414427ba.png" style="object-fit:cover; border-top-right-radius: 4px;border-bottom-right-radius: 4px;" alt="immagine evento" class="event-image img-fluid w-100" />
+                    </a>
+                </div>
+            </div>
+            </div>
+</div>
+</div>
+<nav role="navigation" aria-label="Pagination" class='pagination-wrapper justify-content-center pagination-design '>
+    
+</nav></div></div>    
+
+      
+    </div>
+
+    <a class="read-more-cta text-uppercase font-weight-bold text-black align-items-center d-flex d-sm-none open20-cms-button" 
+    href="/en/agenda-eventi" 
+    target="_self" 
+    title="all the events in town" 
+        style=""
+    >
+
+                    <svg class='icon'><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#calendar'></use></svg>                <span>all the events in town</span>
+
+    </a>
+
+
+
+            </div>
+    
+
+      
+    </div>
+
+    <div class="uk-section section-unesco section-scopri-fe py-3 py-sm-4 d-none d-sm-block"
+            
+    >
+            <div class="uk-container">
+            <div class="row variable-gutters align-items-center">
+    <div class="col-xl-2 col-lg-3 col-md-12 my-2 colonna-scopri colonna-unesco border-0 d-none d-sm-block">
+        <div class="image-block">
+            <div>
+            <img src="/static/c0/9f/3f/c0d9f33fa08b5b47ca6ea42c61730c8760f0202cd170b343396bd21b9bb9f3e4.png" class="img-90-px d-none d-md-block" alt="">
+        </div>
+            </div>    </div>
+    <div class="col-xl-10 colonna-text-unesco col-lg-9">
+        <div class="row">
+    <div class="col-md-8 col-xl-9 col-md-8 my-2 d-none d-xl-block">
+        <div class="unesco-text text-white d-none d-sm-block">
+    <div>
+<div><strong>Ferrara, City of the Renaissance, and its Po Delta</strong></div>
+<div>Ferrara has been listed among the UNESCO World Heritage Sites in 1995, with the name 'City of Renaissance'. In 1999 the recognition has been extended to the Po Delta territory and the Delizie Estensi.</div>
+</div></div>
+    </div>
+    <div class="col-md-4 col-xl-3 col-md-4 col-sm-12   d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-md-between">
+            <a class="mt-4 mt-md-0 d-none d-sm-block btn btn- btn-default btn-icon open20-cms-button" 
+    href="https://www.inferrara.it/it/pages/pagine/detail/115/una-citt-e-un-territorio-patrimonio-dellumanit" 
+    target="_self" 
+    title="Read more" 
+        style="background-color:#ffffff;color:#333333"
+    >
+
+                    <svg class='icon'><use xlink:href='/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#plus-circle-outline'></use></svg>                <span>Read more</span>
+
+    </a>
+
+
+    <style>
+        svg{
+            fill:currentColor !important;
+        }
+    </style>
+
+    </div>
+</div>
+    </div>
+</div>
+            </div>
+    
+
+      
+    </div>
+
+<style>
+/**BANNER UNESCO*/
+.section-unesco{
+    background-color:rgba(51, 51, 51, 1);
+    .open20-cms-button{
+        background-color: darken(#0179bc, 10%);
+        border-color: darken(#0179bc, 10%);
+    }
+    .img-90-px{
+        max-height: 90px;
+    }
+    .unesco-text{
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 70%;
+        a{
+            @extend .text-white;
+        }
+        @media (max-width: 768px) {
+            max-width: 100%;
+        }
+    }
+    .row{
+        >div:nth-child(1){
+            @media (max-width:575px){
+                order: 2;
+            }
+        }
+        >div:nth-child(2){
+            @media (max-width:575px){
+                order: 1;
+                display: block;
+                justify-content: flex-end;
+            }
+            img{
+                @media (max-width:575px){
+                    max-height: 70px;
+                }
+            }
+            .unesco-mobile-cta{
+                button{
+                    @extend .text-white;
+                    @extend .border-0;
+                    @extend .d-flex;
+                    @extend .align-items-center;
+                    @extend .font-weight-normal;
+                    @extend .p-0;
+                    text-decoration: underline;
+                    &[aria-expanded='false']{
+                        &::before{
+                            transform: rotate(90deg);
+                        }
+                    }
+                    &[aria-expanded='true']{
+                        &::before{
+                            transform: rotate(180deg);
+                        }
+                    }
+                  
+                }
+            }
+        }
+    }
+}
+.colonna-text-unesco{
+order:2 !important;
+}
+.right-column .container-magazine-homepage .card-body .card-content{
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.right-column .container-magazine-homepage .card-img img{
+min-width:190px;
+}
+
+.right-column .container-magazine-homepage  .img-responsive-wrapper{
+min-width:190px;
+}
+
+
+.icon-discover svg{
+fill:#FFF !important;
+}
+
+.galleryThumb .caption a{
+text-decoration:none !important;
+}
+
+.esperienze-carosuel-container{
+margin-left:-30px;
+margin-right:-30px;
+}
+</style></div>                    </main>
+
+    </div>
+
+            
+
+
+<footer id="footerContent" class="it-footer w-100 mt-auto z-index-1 footer-custom-inferrara">
+    <? /* $cms_content*/ ?>
+    <div class="uk-section prefooter py-5">
+        <div class="container">
+            <div class="row variable-gutters section-footer-box">
+                <div class="col-md-6 internal-box">
+                    <div class="d-flex flex-wrap aling-items-start h-100 pr-md-5 pb-4 pb-md-0">
+                        <div class="read-more-cta text-uppercase font-weight-bold mb-4 text-primary">
+                            INFORMATION<br>
+                            AND WELCOME OFFICE</div>
+                        <div>
+                            <div class="normal-font">
+                                Si trova in Largo Castello 6, al piano terra, presso la Camera di Commercio. È aperto lunedì - sabato dalle 9 alle 18 | domenica e festivi dalle 9.30 alle 17.30. Lo trovi chiuso solo il giorno di Natale.                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap aling-items-center my-4">
+                            <a href="mailto:infotur@comune.fe.it"
+                                class="link-mail text-black font-weight-bold text-decoration-none mr-5"
+                                title="Send a mail to infotur@comune.fe.it"><span
+                                    class="icon mdi mdi-email-outline mr-2"></span><span>infotur@comune.fe.it</span></a>
+                            <div class="font-weight-bold text-decoration-none"><span
+                                    class="icon mdi mdi-phone mr-2"></span><span class="ait-number">0532 209 370</span>
+                            </div>
+                        </div>
+                        <div class="mt-auto">
+                            <div class="text-uppercase font-weight-bold mb-2">
+                                Are you a tour operator and would you like to be contacted to be part of the INFERRARA project?                            </div>
+                            <a href="/form-di-contatto-operatore-turistico" title="Click here!"
+                                class="btn btn-tertiary btn-xs btn-operatore-turistico px-4">Click here!                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 internal-box myfe-box">
+                    <div class="d-flex flex-wrap pl-md-5">
+                        <img src="/img/white_myfe.png" class="mw-100 h-auto mb-4" alt="myfe ferrara tourist card">
+                        <p class="text-white normal-font">
+                            MyFE Card is Ferrara's tourist card, a single pass that allows you to fully experience the city while saving time and money. And if you stay overnight in Ferrara, you are exempt from the tourist tax.                        </p>
+                        <a class="btn-myfe btn btn-xs btn-new-brown d-flex align-items-center px-md-4" target="_blank"
+                            href="https://www.ferraraterraeacqua.it/it/myfecard/cose-myfe-card"
+                            title="Discover MYFE card"
+                            class="btn btn-orange btn-xs mt-auto btn-myfe px-4">Discover MYFE card</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-section prefooter-loghi py-5">
+        <div class="container">
+            <div class="row variable-gutters">
+                <div class="col-md-4 col-xs-12 my-3 d-flex justify-content-center align-items-center">
+                    <img src="/img/LogoCF.png" class="mw-100 h-auto mb-3 mb-md-0" alt="Comune di ferrara">
+                </div>
+                <div class="col-md-4 col-xs-12 my-3 d-flex justify-content-center align-items-center">
+                    <img src="/img/ferrarafeelings.png" class="mw-100 h-auto mb-3 mb-md-0 img-ferrara"
+                        alt="Ferrara feelings">
+                </div>
+                <div class="col-md-4 col-xs-12 my-3 d-flex justify-content-center align-items-center">
+                    <img src="/img/unesco.png" class="mw-100 h-auto mb-3 mb-md-0" alt="logo unesco">
+                </div>
+                <!-- <div class="col-md-3 my-3">
+                    <img src="/img/logo-inferrara.png" class="mw-100 h-auto mb-3 mb-md-0" alt="logo">
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="it-footer-main bg-tertiary py-5">
+        <div class="container noprint">
+            <div class="row mt-4">
+                <div class="col-12 col-md-12">
+                    <div class="noprint container-title">
+                        <div role="contentinfo" aria-label="Titolo del footer">
+                            <div dir="ltr" class="equal-font-size-h4 footer-title font-weight-bold">
+                                InFerrara</div>
+                            <p class="footer-subtitle small">Official tourism promotion-marketing portal of the Municipality of Ferrara</p>
+                        </div>
+                    </div>
+
+                    <div class="row variable-gutters">
+                        <div class="col-12 col-md-4">
+                                                        <div>
+                                <ul class="footer-list footer-container-list pl-0 mb-0">
+                                    <li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/c/2/scopri-ferrara-2" title="Discover Ferrara" target="_self" data-toggle="" data-placement="bottom" data-html="true">Discover Ferrara<span class="bullet-parent"></span></a></li><li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/c/1/arte-e-cultura" title="Art and culture" target="_self" data-toggle="" data-placement="bottom" data-html="true">Art and culture<span class="bullet-parent"></span></a></li><li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/c/23/eventi" title="Events" target="_self" data-toggle="" data-placement="bottom" data-html="true">Events<span class="bullet-parent"></span></a></li><li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/c/11/turismo-slow" title="Slow Tourism" target="_self" data-toggle="" data-placement="bottom" data-html="true">Slow Tourism<span class="bullet-parent"></span></a></li><li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/c/9/food" title="Food" target="_self" data-toggle="" data-placement="bottom" data-html="true">Food<span class="bullet-parent"></span></a></li><li class="nav-item "><a class=" nav-link " href="/site/to-menu-url?url=https://www.inferrara.it/en/buisiness" title="Business" target="_self" data-toggle="" data-placement="bottom" data-html="true">Business<span class="bullet-parent"></span></a></li>                                </ul>
+                            </div>
+
+                                                    </div>
+                        <div class="col-12 col-md-4">
+                            <ul class="footer-list pl-0 mb-0">
+                                <li class="nav-item ">
+                                    <a href="/scarica-i-nostri-cataloghi" class="text-decoration-none pt-3"
+                                        title="Download our catalogues">Download our catalogues</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="/scarica-guide-e-mappe" class="text-decoration-none pt-3"
+                                        title="Download guides and maps">Download guides and maps</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="/informazioni-utili" class="text-decoration-none pt-3"
+                                        title="Useful information">Useful information</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="/segnalazioni-accessibilità" class="text-decoration-none pt-3"
+                                        title="Accessibility reports">Accessibility reports</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <ul class="footer-list pl-0 mb-0">
+                                <li class="nav-item ">
+                                    <a href="/cookie-policy" class="text-decoration-none pt-3"
+                                        title="Cookie policy">Cookie policy</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="/privacy-policy" class="text-decoration-none pt-3"
+                                        title="Privacy policy">Privacy policy</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="/contatti" class="text-decoration-none pt-3"
+                                        title="Contact us">Contact us</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="/condizioni-generali-di-vendita" class="text-decoration-none pt-3"
+                                        title="Sales general terms and conditions">Sales general terms and conditions</a>
+                                </li>
+                                                                <li class="nav-item">
+                                    <a href="/login" class="text-decoration-none"
+                                        title="Access the reserved area">Administration access</a>
+                                </li>
+                                                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div role="contentinfo" aria-label="Copyright" class="mt-4 py-1 py-md-4 border-top border-white">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="white-color" dir="ltr">
+                            <small>
+                                Copyright 2023 Dinamica Media srl - via Bologna 549, 44124 Ferrara
+                                P.IVA e CF 01452040387 - R.E.A. Fe n. 171907
+                                <a class="ml-1" target="_blank" href="https://www.dinamicamedia.it/"
+                                    title="Dinamica Media S.r.l"> www.dinamicamedia.it</a>
+                            </small>
+                            <br>
+                            <small>
+                                Marketplace powered by Po Delta Tourism srl -
+                                Via Manzoni, 6 - 44029 Lido degli Estensi FE
+                                P.IVA e CF 01956130387 - R.E.A. Fe n. 213256
+                                <a target="_blank" href="https://www.podeltatourism.it/" title="po delta tourism">
+                                    www.podeltatourism.it</a>
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>            <!-- ASSISTANCE -->
+        <div class="d-flex align-items-center">
+  <a href="javascript::void(0)" aria-hidden="true" data-attribute="back-to-top" class="back-to-top back-to-top-small shadow z-index-1031" title="Go back to the top of the page" >
+    <svg class="icon icon-light">
+      <use xlink:href="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/sprite/material-sprite.svg#arrow-up"></use>
+    </svg>
+      <span class="sr-only">Go back to the top of the page</span>
+  </a>
+</div>
+
+
+
+    <script src="/assets/5be0d94d182fe454e950ccc186525af3/jquery.js?v=1792761686"></script>
+<script src="/assets/45a959fd3c3ff2ffbd300c968bae6436/js/checkscope.js?v=1792412577"></script>
+<script src="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/node_modules/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js?v=1792412582"></script>
+<script src="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/js/bootstrap-italia-custom.js?v=1792412579"></script>
+<script src="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/js/owl-carousel-design.js?v=1792412579"></script>
+<script src="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/js/footer-height.js?v=1792412579"></script>
+<script src="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/js/hamburger-menu.js?v=1792412579"></script>
+<script src="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/node_modules/svgxuse/svgxuse.min.js?v=1792412594"></script>
+<script src="/assets/8565bafef397ff4bc33d0d6e3b11d6bd/js/header-height.js?v=1792412579"></script>
+<script src="/assets/10290ecbfc2a88c9772fe5c201add825/js/base64.js?v=1792412578"></script>
+<script src="/assets/10290ecbfc2a88c9772fe5c201add825/js/lightslider.js?v=1792412578"></script>
+<script src="/assets/10290ecbfc2a88c9772fe5c201add825/js/lightslideranimation.js?v=1792412578"></script>
+<script>(function () {
+    function fit(frame, h) {
+        frame.style.setProperty('height', h + 'px', 'important');
+        frame.style.setProperty('flex', '0 0 auto', 'important');
+        frame.style.setProperty('align-self', 'flex-start', 'important');
+        frame.style.setProperty('min-height', '0', 'important');
+        var el = frame.parentElement, steps = 0;
+        while (el && steps < 5) {
+            if (el.classList && (el.classList.contains('flexcolfill')
+                || el.classList.contains('contenuti_correlati'))) {
+                el.style.setProperty('flex', '0 0 auto', 'important');
+            }
+            el = el.parentElement; steps++;
+        }
+    }
+    window.addEventListener('message', function (e) {
+        var d = e.data;
+        if (typeof d === 'string') { try { d = JSON.parse(d); } catch (err) { return; } }
+        if (!d || d.type !== 'resize') { return; }
+        var h = parseInt(d.contentHeight, 10);
+        if (!h) { return; }
+        var frames = document.querySelectorAll('iframe[src*="siteintegration"]');
+        for (var i = 0; i < frames.length; i++) {
+            if (frames[i].contentWindow === e.source) { fit(frames[i], h); }
+        }
+    }, false);
+})();</script>
+<script>jQuery(function ($) {
+
+    var bullet = "<small class='badge badge-pill badge-danger bullet-navbar'></small>";
+    $('.cms-menu-container-default li .bullet-navbar').each(function(){
+
+        var li = $(this).closest('li');
+        $(li).parents('li').each(function(){
+            $(this).children('a').children('.bullet-parent').html(bullet);
+        });
+
+        var isBullet = $('.btn-always-hamburger-menu .bullet-navbar');
+        if(isBullet.length === 0 || isBullet === undefined){
+        $('.btn-always-hamburger-menu').append(bullet);
+        }
+    });
+var linkToTrigger=$("[title='Aggiorna esperienze manualmente']");
+linkToTrigger.on( "click", function() {
+    event.preventDefault();
+    $( "#btn-refresh-experiences" ).trigger( "click" );
+});
+
+
+	$('#change-it').on('click', function() {
+		let urlreq = window.location.href;
+		let url = urlreq.replace(/\/experiences/g, '/esperienze');
+		window.location.href = url;
+	});
+	$('#change-en').on('click', function() {
+		let urlreq = window.location.href;
+		let url = urlreq.replace(/\/esperienze/g, '/experiences');
+		window.location.href = url;
+	});
+        $('#change-it-al').on('click', function() {
+		let urlreq = window.location.href;
+		let url = urlreq.replace(/\/accommodations/g, '/alloggi');
+		window.location.href = url;
+	});
+	$('#change-en-al').on('click', function() {
+		let urlreq = window.location.href;
+		let url = urlreq.replace(/\/alloggi/g, '/accommodations');
+		window.location.href = url;
+	});
+
+
+});</script>
+</body>
+
+</html>

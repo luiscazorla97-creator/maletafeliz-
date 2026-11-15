@@ -1,0 +1,37 @@
+{
+  "url": "https://www.palazzodiamanti.it/en/contenuti-mostre/plan-your-visit/",
+  "finalUrl": "https://www.palazzodiamanti.it/en/contenuti-mostre/plan-your-visit/",
+  "fetchedAt": "2026-11-15T17:09:02.448Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "f8b1cef006da17903dc56af8ec5a8e7454737f59e717f9bc75f3370d03a051fa",
+  "rawFile": "content/research/raw/n15-fe-diamanti-visit.raw",
+  "textFile": "content/research/raw/n15-fe-diamanti-visit.txt",
+  "textSha256": "1f20bd7857984a73fa8899140ee277cc86dedb24f86e1087fd8da0b899d60b91",
+  "facts": [
+    {
+      "fact": "Onlineexhibitionticketsareselecteddate/timeslot;pricesnotusedbecausepagealsoincludesoldexhibitionresidue.",
+      "excerpt": "The online ticket booked in advance is valid for the selected date and time slot",
+      "location": "Readable text capture, exact substring at character 1455"
+    },
+    {
+      "fact": "Operatoridentifiesaccessiblevenue/toiletsandfreewheelchairsubjecttoavailability.",
+      "excerpt": "Palazzo dei Diamanti is accessible for persons with disabilities Accessible toilets are located in restroom; people with mobility restrictions can apply for a wheelchair, free of charge (advance reservation not available), at the Ticket office.",
+      "location": "Readable text capture, exact substring at character 8911"
+    },
+    {
+      "fact": "Operatorarrivalguideslistbus3fromstationand4return;readerchecksactualTperservices.",
+      "excerpt": "Bus n. 3 from Railway Station to Palazzo dei Diamanti Bus n. 4 from Palazzo dei Diamanti to Railway Station",
+      "location": "Readable text capture, exact substring at character 10177"
+    },
+    {
+      "fact": "Galleryrestrictsfoodandbeverages,largeluggagegoeslockers.",
+      "excerpt": "Lockers are free of charge and available for mandatory check of bags and large items",
+      "location": "Readable text capture, exact substring at character 9439"
+    }
+  ],
+  "actuallyRead": true,
+  "readBy": "Codex Ferrara editorial research agent",
+  "readAt": "2026-11-15T17:14:00.089447+00:00",
+  "notes": "Actual official source read for the new Ferrara guide. No automatic content approval. Operator calendars and individual access areas take priority over general tourism descriptions; ambiguous old exhibition prices and conflicting dates were excluded."
+}

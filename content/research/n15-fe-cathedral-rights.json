@@ -1,0 +1,164 @@
+{
+  "id": "n15-fe-cathedral-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Cathedral_04.jpg",
+  "fetchedAt": "2026-11-15T17:11:04.753Z",
+  "actuallyRead": true,
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Ferrara_Cathedral_04.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "dd52ae0b3aa16ac3a134266ee3fab208864afc6da37e5f938bda99df1a51325b",
+  "bytes": 133798,
+  "rawFile": "content/research/raw/n15-fe-cathedral-file-page.html",
+  "retryAfter": null,
+  "textFile": "content/research/raw/n15-fe-cathedral-file-page.txt",
+  "textSha256": "885952152f94fac8dc7eafeeb8bb7c673589c021a67e2b921a83a4e5639cd601",
+  "facts": [
+    {
+      "fact": "Specific file page was actually read and identifies the photographic subject, author and selected licence.",
+      "excerpt": "Ferrara Cathedral - façade",
+      "location": "Individual Commons file Summary and Licensing boxes."
+    },
+    {
+      "fact": "The selected photographic copyright grant permits sharing and adaptation, including commercial uses, subject to the recorded attribution, licence link, changes notice and ShareAlike where applicable.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Actually read specific file licence and retained applicable Creative Commons deed."
+    },
+    {
+      "fact": "No property-entry, commercial-shooting, heritage-code or other-rights permission is inferred merely from the copyright licence.",
+      "excerpt": "No warranties are given. The license may not give you all of the permissions necessary for your intended use.",
+      "location": "Creative Commons deed Notices; specific file country/heritage notices preserved separately."
+    },
+    {
+      "fact": "The API-provided1280px rendition was downloaded over ordinary HTTPS, preserved byte-for-byte, visually inspected, and resized proportionally into five responsiveWebP files without generated edits or cropping.",
+      "excerpt": "Measured source dimensions and hashes are recorded in downloadCapture/providedOriginal; actual visual observation below.",
+      "location": "Actual downloaded bytes, optimized inventory and contact image inspected in this turn."
+    }
+  ],
+  "notes": "Archival exterior documentary photograph. Selected copyright licence retained on derivatives; current access, appearance, venue contracts and any non-copyright statutory requirements are separate. No blanket legal clearance is asserted.",
+  "licenseDeedCapture": {
+    "id": "ph-deed-by-2",
+    "url": "https://creativecommons.org/licenses/by/2.0/",
+    "fetchedAt": "2026-11-15T17:11:09.118Z",
+    "actuallyRead": true,
+    "finalUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentSha256": "bbb0dcc37f02552e7270e6d2e06be02672ce29ada816107d6fa91e1e6809714b",
+    "bytes": 31822,
+    "rawFile": "content/research/raw/n15-fe-photo-deed-by-2.html",
+    "retryAfter": null,
+    "textFile": "content/research/raw/n15-fe-photo-deed-by-2.txt",
+    "textSha256": "ef7cdf85f40f100f231c3e0b4ad99bc42a09f73c958314c7c3c9c7f8594d2faf"
+  },
+  "downloadCapture": {
+    "id": "ph-img-cathedral",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Ferrara_Cathedral_04.jpg/1280px-Ferrara_Cathedral_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fetchedAt": "2026-11-15T17:11:12.329Z",
+    "actuallyRead": false,
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Ferrara_Cathedral_04.jpg/1280px-Ferrara_Cathedral_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "12389e448cb1e514d5f16ad583964343e594211577adb7014f38d964a7674141",
+    "bytes": 312735,
+    "rawFile": "content/images/originals/n15-fe-cathedral.jpg",
+    "retryAfter": null
+  },
+  "apiCapture": {
+    "id": "ph-search-cathedral",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=intitle%3A%22Ferrara+Cathedral%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1280&format=json",
+    "fetchedAt": "2026-11-15T17:09:54.735Z",
+    "actuallyRead": true,
+    "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=intitle%3A%22Ferrara+Cathedral%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1280&format=json",
+    "httpStatus": 200,
+    "contentType": "application/json; charset=utf-8",
+    "contentSha256": "49fca8ea20dc51e186d808f07d934f8477b9b51bb8747da5088b262deb015bf2",
+    "bytes": 27263,
+    "rawFile": "content/research/raw/n15-fe-cathedral-imageinfo-api.json",
+    "retryAfter": null,
+    "textFile": "content/research/raw/n15-fe-cathedral-imageinfo-api.txt",
+    "textSha256": "49fca8ea20dc51e186d808f07d934f8477b9b51bb8747da5088b262deb015bf2"
+  },
+  "upstreamSource": {
+    "title": "File:Ferrara Cathedral 04.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Ferrara_Cathedral_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3456,
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Ferrara_Cathedral_04.jpg/1280px-Ferrara_Cathedral_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "dateFieldAsPublished": "Taken on 9 May 2015, 09:17:00"
+  },
+  "providedOriginal": {
+    "width": 1280,
+    "height": 853,
+    "sha256": "12389e448cb1e514d5f16ad583964343e594211577adb7014f38d964a7674141",
+    "bytes": 312735
+  },
+  "fileSpecificNotices": [
+    {
+      "text": "It was reviewed on12December2017 byFlickreviewR2 and was confirmed to be licensed under the terms ofcc-by-2.0.",
+      "source": "Individual file Licensing box",
+      "scope": "Retained Commons source and licence-review statement; no new Flickr licence-check request is claimed."
+    }
+  ],
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent /root/ferrara_n15/ferrara_photos_n15",
+    "reviewedAt": "2026-11-15T17:14:07.607Z",
+    "actuallyViewed": true,
+    "observation": "The cathedral façade and arcaded side are seen from the adjacent public square, with incidental passers-by. The archive image is not a promise of present-day restoration state or unrestricted interior entry.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/photos/five-photo-contact.jpg",
+    "contactSha256": "34046a8950e9415a83f026b53265c8834ef66ff1d4ffe7b52540b5540426685c"
+  },
+  "optimizedFiles": [
+    {
+      "src": "/images/n15-fe-cathedral-240w.webp",
+      "width": 240,
+      "height": 160,
+      "sha256": "e659c845fc04ae27c30bde8bd76db78ebbafe7fd1f09d24a10734dd970a3da66",
+      "bytes": 9308
+    },
+    {
+      "src": "/images/n15-fe-cathedral-320w.webp",
+      "width": 320,
+      "height": 213,
+      "sha256": "10b90ce52b920a99a6be41b257076ec1d80cb1db85a68cf081d5d52e57dad1df",
+      "bytes": 16418
+    },
+    {
+      "src": "/images/n15-fe-cathedral-480w.webp",
+      "width": 480,
+      "height": 320,
+      "sha256": "083993c579f8f1f2f065c8c4fe49f897cbc834f212081253b25963225e89d6dc",
+      "bytes": 35466
+    },
+    {
+      "src": "/images/n15-fe-cathedral-800w.webp",
+      "width": 800,
+      "height": 533,
+      "sha256": "5ade141832a8f386b9ab9c18dfbb91e5408224f8f7038ec3ceb8383d110d8529",
+      "bytes": 96448
+    },
+    {
+      "src": "/images/n15-fe-cathedral.webp",
+      "width": 1280,
+      "height": 853,
+      "sha256": "d11b3104204f4f72cab04d1b0a506d134cb16f26058c99db97876cc58e2c1466",
+      "bytes": 241704
+    }
+  ],
+  "nonCopyrightAuthorisationReview": {
+    "reviewedAt": "2026-11-15T17:23:41.368281+00:00",
+    "municipalAuthorisationEvidence": "content/research/n15-fe-photo-authorisation-city-2021.json",
+    "selectedLocationListed": false,
+    "scope": "Not listed in the2021letter; no statutory permission is inferred from that letter. Specific photographic copyright licence and actual file-page/deed notices are retained for root review.",
+    "noBlanketOtherRightsGuarantee": true
+  },
+  "optimizedVisualReview": {
+    "reviewer": "Codex photo subagent",
+    "reviewedAt": "2026-11-15T17:23:41.368281+00:00",
+    "actuallyViewed": true,
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/photos/responsive-photo-contact.jpg",
+    "contactSha256": "5e773a86b1774fc7b15172fb8581941ca50f4dedde23221e8264450df371349c",
+    "scope": "All25WebPvariants viewed in a five-by-five labelled contact image; preserved proportions, no crop or generated edits."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "ph-wlm-permit-city-2021",
+  "url": "https://workspace.wikimedia.it/public.php/dav/files/7wQqJ87Cy2b55oR/Emilia-Romagna/Provincia%20di%20Ferrara/Ferrara%20(FE)/Adesione%20Ferrara%20WLM%202021/Adesione%20Ferrara%20WLM%202021.pdf",
+  "fetchedAt": "2026-11-15T17:20:20.440Z",
+  "actuallyRead": true,
+  "finalUrl": "https://workspace.wikimedia.it/public.php/dav/files/7wQqJ87Cy2b55oR/Emilia-Romagna/Provincia%20di%20Ferrara/Ferrara%20(FE)/Adesione%20Ferrara%20WLM%202021/Adesione%20Ferrara%20WLM%202021.pdf",
+  "httpStatus": 200,
+  "contentType": "application/pdf",
+  "contentSha256": "1ce29db84353960c2b0abcea401242068ea3cd597f3fa2ba82698586d2c98f76",
+  "bytes": 482993,
+  "rawFile": "content/research/raw/n15-fe-photo-authorisation-city-2021.pdf",
+  "retryAfter": null,
+  "textFile": "content/research/raw/n15-fe-photo-authorisation-city-2021.txt",
+  "textSha256": "be7fbae0cc799d5183b687f9d8ff14932bb2f846488ec58e4c5dcedec8b0fe10",
+  "documentDate": "2021-06-09",
+  "issuer": "Comune di Ferrara, Mayor Alan Fabbri",
+  "extractionMethod": "Scanned PDF; native pdftotext had no substantive text. Tesseract eng OCR is a reading aid. Critical clauses and the complete two-page monument list were confirmed by actual visual inspection of the rendered scan.",
+  "selectedMonumentsCovered": [
+    "Castello Estense",
+    "Palazzo dei Diamanti",
+    "Palazzo Schifanoia"
+  ],
+  "selectedLocationsNotListed": [
+    "Ferrara Cathedral itself (distinct from Museo della Cattedrale)",
+    "Mura di Ferrara / Rampari di Belfiore"
+  ],
+  "facts": [
+    {
+      "fact": "The mayor authorizes publication of reproductions of the listed monuments without a fee and for any purpose under Articles107–108 of the Italian Cultural Heritage Code.",
+      "excerpt": "Inoltre, autorizzo, ai sensi degli artt. 107-108 del Dlgs 22 gennaio 2004, n. 42 (Codice dei Beni Culturali e del Paesaggio), la pubblicazione senza alcuna richiesta di canone, per qualsiasi finalità, delle riproduzioni dei monumenti di nostra proprietà/da noi tutelati, di seguito elencati.",
+      "location": "Page1, authorization paragraph immediately above monument table; visually checked."
+    },
+    {
+      "fact": "The named selection includes Palazzo Schifanoia and Palazzo dei Diamanti onpage1, and Castello Estense onpage2.",
+      "excerpt": "Palazzo Schifanoia — Via Scandiana, 23 (FE); Palazzo dei Diamanti — Corso Ercole I d’Este, 21 (FE); Castello Estense — Largo Castello, 1 (FE).",
+      "location": "Pages1–2 monument list; visually checked. Museo della Cattedrale is a separate listed institution, not a licence for the cathedral building."
+    },
+    {
+      "fact": "The letter explicitly permits its publication under CC0.",
+      "excerpt": "Autorizzo la pubblicazione di questa lettera con licenza CC0.",
+      "location": "Page2, below the CC0 list permission and above date/signature; visually checked."
+    }
+  ],
+  "letterCopyrightGrant": "CC0",
+  "letterCopyrightDeed": {
+    "id": "ph-deed-cc0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "fetchedAt": "2026-11-15T17:22:36.654Z",
+    "actuallyRead": true,
+    "finalUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentSha256": "abb4d48fc8b85de52b377dd105532c6c549f515d492a8e1712bc99e7316a1f12",
+    "bytes": 30248,
+    "rawFile": "content/research/raw/n15-fe-photo-deed-cc0.html",
+    "retryAfter": null,
+    "textFile": "content/research/raw/n15-fe-photo-deed-cc0.txt",
+    "textSha256": "3a852075531ab5006ca0a8cf4bc627e0999c1d22d85d50baf3efd67e931e79c4"
+  },
+  "renderedCriticalPages": [
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/photos/permits-rendered/permit-city-2021-page-1.png",
+      "sha256": "34fc003016b4ceed72ac129456e0d8c777635d1a68aa2f555d7928306237c3ba",
+      "actuallyViewed": true
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n15/ferrara/photos/permits-rendered/permit-city-2021-page-2.png",
+      "sha256": "1817c2cd03b575ab46f037d29f6ef59d293fcc58d101922217873994c5fa0121",
+      "actuallyViewed": true
+    }
+  ],
+  "scopeLimitation": "This grant is applied only to the named listed monuments, not to the cathedral or city walls. No permission to enter venues, take new commercial photographs, or override visitor contracts is asserted."
+}

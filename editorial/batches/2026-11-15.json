@@ -2,26 +2,52 @@
   "id": "2026-11-15",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-15T17:09:19.804Z",
-  "status": "reviewed-for-release",
+  "status": "published",
   "topicIds": [
     "ferrara",
     "kurashiki"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "6e184095-f0c7-4dbe-8247-041ab008f725",
     "baseCommit": "36360a54271a83487d0f2443ec8f8431dd2b71a6",
     "startedAt": "2026-11-15T17:05:24.336788+00:00",
-    "heartbeatAt": "2026-11-15T17:32:04.514Z",
-    "leaseUntil": "2026-11-15T23:09:19.839976+00:00",
-    "status": "in-progress"
+    "heartbeatAt": "2026-11-15T18:06:32.330Z",
+    "leaseUntil": "2026-11-15T18:06:32.330Z",
+    "status": "completed-verified",
+    "completedAt": "2026-11-15T18:06:32.330Z"
   },
   "reviewedOriginals": 2,
   "reviewedLocalizations": 4,
   "documentaryPhotos": 10,
   "optimizedPhotoFiles": 50,
   "citedSourceDocuments": 23,
-  "editoriallyReviewedAt": "2026-11-15T17:32:04.514Z"
+  "editoriallyReviewedAt": "2026-11-15T17:32:04.514Z",
+  "publishedTopicIds": [
+    "ferrara",
+    "kurashiki"
+  ],
+  "verifiedTopicCount": 2,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "publishedCommit": "2d7b4a0f6d06842256448e7b9f88ef04383c89b5",
+  "publiclyVerifiedAt": "2026-11-15T18:06:32.330Z",
+  "firstPublicationNewYorkDate": "2026-11-15",
+  "publicVerification": "editorial/verification/2026-11-15-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-ferrara-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-kurashiki-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-ferrara-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-kurashiki-5-places/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "ferrara",
+    "kurashiki"
+  ]
 }

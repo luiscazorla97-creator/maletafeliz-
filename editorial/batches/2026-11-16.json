@@ -2,20 +2,48 @@
   "id": "2026-11-16",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-16T16:58:57.198Z",
-  "status": "reserved-not-generated",
+  "status": "published",
   "topicIds": [
     "guadalajara",
     "ravenna"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "1ab1d902-8da3-4bf7-bf40-ca94be1693e0",
     "baseCommit": "ebb4f6b056a396ef8ec21e81d64b78a06af4d40c",
     "startedAt": "2026-11-16T16:58:55.733666+00:00",
-    "heartbeatAt": "2026-11-16T16:58:57.407146+00:00",
-    "leaseUntil": "2026-11-16T22:58:57.407146+00:00",
-    "status": "in-progress"
-  }
+    "heartbeatAt": "2026-11-16T17:51:10.260Z",
+    "leaseUntil": "2026-11-16T17:51:10.260Z",
+    "status": "completed-verified",
+    "completedAt": "2026-11-16T17:51:10.260Z"
+  },
+  "publishedTopicIds": [
+    "guadalajara",
+    "ravenna"
+  ],
+  "verifiedTopicCount": 2,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 19,
+  "publishedCommit": "15650e0a791006c38fe9eec04d2e3d22d4993b6a",
+  "publiclyVerifiedAt": "2026-11-16T17:51:10.260Z",
+  "firstPublicationNewYorkDate": "2026-11-16",
+  "publicVerification": "editorial/verification/2026-11-16-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-guadalajara-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-ravenna-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-guadalajara-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-ravenna-5-places/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "guadalajara",
+    "ravenna"
+  ]
 }

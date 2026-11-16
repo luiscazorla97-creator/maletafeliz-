@@ -1415,14 +1415,14 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-15T18:06:32.330Z",
+    "verifiedAt": "2026-11-16T17:51:10.260Z",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 24,
-        "localizedVersions": 48,
+        "publishedOriginals": 25,
+        "localizedVersions": 50,
         "targetOriginals": 30,
-        "missingOriginals": 6,
+        "missingOriginals": 5,
         "excessOriginals": 0,
         "articleIds": [
           "amalfi-coast",
@@ -1443,6 +1443,7 @@
           "padua",
           "perugia",
           "pisa",
+          "ravenna",
           "rome",
           "rome-colosseum-visit",
           "siena",
@@ -1485,14 +1486,15 @@
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 19,
-        "localizedVersions": 38,
+        "publishedOriginals": 20,
+        "localizedVersions": 40,
         "targetOriginals": 25,
-        "missingOriginals": 6,
+        "missingOriginals": 5,
         "excessOriginals": 0,
         "articleIds": [
           "cancun",
           "chapultepec-museums-day",
+          "guadalajara",
           "guanajuato",
           "leon-guanajuato",
           "los-cabos",
@@ -1546,11 +1548,11 @@
         ]
       }
     ],
-    "priorityOriginals": 88,
-    "targetCappedOriginals": 85,
-    "missingToInitial100": 15,
+    "priorityOriginals": 90,
+    "targetCappedOriginals": 87,
+    "missingToInitial100": 13,
     "excessOriginals": 3,
-    "publicVerification": "editorial/verification/2026-11-15-publication.json"
+    "publicVerification": "editorial/verification/2026-11-16-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1809,6 +1811,19 @@
       "commit": "2d7b4a0f6d06842256448e7b9f88ef04383c89b5",
       "publicVerification": "editorial/verification/2026-11-15-publication.json",
       "note": "Ferrara and Kurashiki first published after the real zero-original New York census. Existing content, historical dates, candidates and daily schedule are preserved."
+    },
+    {
+      "batch": "2026-11-16",
+      "publicationDay": "2026-11-16",
+      "topicIds": [
+        "guadalajara",
+        "ravenna"
+      ],
+      "type": "authorized-daily-two-originals",
+      "status": "published-verified",
+      "commit": "15650e0a791006c38fe9eec04d2e3d22d4993b6a",
+      "publicVerification": "editorial/verification/2026-11-16-publication.json",
+      "note": "Guadalajara and Ravenna first published after the real zero-original New York census. Existing content, historical dates, candidates and daily schedule are preserved."
     }
   ],
   "verifiedCoverageHistory": [
@@ -2729,6 +2744,144 @@
       "missingToInitial100": 17,
       "excessOriginals": 3,
       "publicVerification": "editorial/verification/2026-11-14-publication.json"
+    },
+    {
+      "verifiedAt": "2026-11-15T18:06:32.330Z",
+      "countries": [
+        {
+          "countryId": "it",
+          "publishedOriginals": 24,
+          "localizedVersions": 48,
+          "targetOriginals": 30,
+          "missingOriginals": 6,
+          "excessOriginals": 0,
+          "articleIds": [
+            "amalfi-coast",
+            "bergamo",
+            "bologna",
+            "christmas-florence",
+            "christmas-milan",
+            "christmas-naples",
+            "christmas-rome",
+            "christmas-turin",
+            "christmas-venice",
+            "christmas-verona",
+            "ferrara",
+            "florence",
+            "florence-uffizi",
+            "lucca",
+            "milan",
+            "padua",
+            "perugia",
+            "pisa",
+            "rome",
+            "rome-colosseum-visit",
+            "siena",
+            "venice",
+            "venice-vaporetto",
+            "verona"
+          ]
+        },
+        {
+          "countryId": "jp",
+          "publishedOriginals": 22,
+          "localizedVersions": 44,
+          "targetOriginals": 25,
+          "missingOriginals": 3,
+          "excessOriginals": 0,
+          "articleIds": [
+            "christmas-fukuoka",
+            "christmas-osaka",
+            "christmas-tokyo",
+            "christmas-yokohama",
+            "halloween-japan",
+            "himeji",
+            "hiroshima",
+            "kanazawa",
+            "kurashiki",
+            "kyoto",
+            "kyoto-higashiyama-walk",
+            "matsumoto",
+            "mount-fuji",
+            "nagasaki",
+            "nara",
+            "nara-day-trip-transport",
+            "nikko",
+            "osaka",
+            "sapporo",
+            "takayama",
+            "tokyo",
+            "tokyo-new-year-2027"
+          ]
+        },
+        {
+          "countryId": "mx",
+          "publishedOriginals": 19,
+          "localizedVersions": 38,
+          "targetOriginals": 25,
+          "missingOriginals": 6,
+          "excessOriginals": 0,
+          "articleIds": [
+            "cancun",
+            "chapultepec-museums-day",
+            "guanajuato",
+            "leon-guanajuato",
+            "los-cabos",
+            "mexico-city",
+            "morelia",
+            "muertos-merida",
+            "muertos-mexico-city",
+            "muertos-mixquic",
+            "muertos-oaxaca",
+            "muertos-puebla",
+            "oaxaca",
+            "patzcuaro",
+            "puebla",
+            "queretaro",
+            "riviera-maya",
+            "san-luis-potosi",
+            "san-miguel-de-allende"
+          ]
+        },
+        {
+          "countryId": "us",
+          "publishedOriginals": 23,
+          "localizedVersions": 46,
+          "targetOriginals": 20,
+          "missingOriginals": 0,
+          "excessOriginals": 3,
+          "articleIds": [
+            "buffalo",
+            "christmas-boston",
+            "christmas-chicago",
+            "christmas-los-angeles",
+            "christmas-miami",
+            "christmas-new-york",
+            "christmas-philadelphia",
+            "christmas-san-francisco",
+            "columbus",
+            "greenville-sc",
+            "halloween-usa",
+            "hawaii",
+            "hilo",
+            "las-vegas",
+            "las-vegas-new-year-2027",
+            "los-angeles",
+            "miami",
+            "new-orleans",
+            "new-york",
+            "new-york-new-year-2027",
+            "orlando",
+            "san-diego",
+            "washington-dc"
+          ]
+        }
+      ],
+      "priorityOriginals": 88,
+      "targetCappedOriginals": 85,
+      "missingToInitial100": 15,
+      "excessOriginals": 3,
+      "publicVerification": "editorial/verification/2026-11-15-publication.json"
     }
   ]
 }

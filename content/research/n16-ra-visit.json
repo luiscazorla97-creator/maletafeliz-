@@ -1,0 +1,37 @@
+{
+  "url": "https://www.ravennamosaici.it/en/plan-your-visit/",
+  "finalUrl": "https://www.ravennamosaici.it/en/plan-your-visit/",
+  "fetchedAt": "2026-11-16T16:58:15.590Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "395ce6f870b5e5fc86538611e0b58526f2001005ca036542530e14a88920481e",
+  "textSha256": "1edf70ec34b2b9c419561ed223127f0a47b9630a507e2756841a4fd9fff1a583",
+  "rawFile": "content/research/raw/n16-ra-visit.raw",
+  "textFile": "content/research/raw/n16-ra-visit.txt",
+  "facts": [
+    {
+      "fact": "The operator describes the diocesan monuments as walkable in the old town, but its whole-tour estimate is advice, not a promise for every traveller.",
+      "excerpt": "You can easily reach Diocesan monuments walking through the lovely old town.",
+      "location": "Readable text capture, exact substring at character 1008"
+    },
+    {
+      "fact": "The operator allows the five-monument ticket route over several days, one admission per monument.",
+      "excerpt": "our ticket is valid 7 days and you can choose to visit the 5 monuments in several days (1 admission per monument)",
+      "location": "Readable text capture, exact substring at character 1257"
+    },
+    {
+      "fact": "The train-arrival route begins at Sant Apollinare Nuovo.",
+      "excerpt": "As first stop you shall get to Basilica St. Apollinare Nuovo",
+      "location": "Readable text capture, exact substring at character 1572"
+    },
+    {
+      "fact": "The operator groups San Vitale and Galla Placidia at one complex.",
+      "excerpt": "the complex of the Basilica St. Vitale (visiting time 25 minutes) and the Mausoleum of Galla Placidia",
+      "location": "Readable text capture, exact substring at character 2157"
+    }
+  ],
+  "actuallyRead": true,
+  "readBy": "Codex Ravenna editorial research agent",
+  "readAt": "2026-11-16T17:01:06.195709+00:00",
+  "notes": "Actual official text read for the new Ravenna guide. No publication approval. Current operator admission conditions override broad route suggestions. Exact prices, transient events, conflicting monument dates, old one-off notices and unsupported walking-time promises are excluded."
+}

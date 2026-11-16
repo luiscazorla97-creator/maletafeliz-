@@ -1,0 +1,93 @@
+{
+  "reviewer": "Codex root — full independent bilingual editorial, factual and documentary-photo review",
+  "reviewedAt": "2026-11-16T17:09:47.766Z",
+  "contentHash": "c8e7548e83cf2ec395f76e05b7dec312a7b131e3d775790046649712cdd0c857",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "reviewEvidence": [
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/root-editorial-decision.json",
+      "sha256": "21485c2c0041a71ddc1f577646230a4f6b97009600e0e8da38b79feefc4cd77c"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/root-source-reading.json",
+      "sha256": "d41d2a19f9e23ecf0879ed1c988d14cbe55f32417865493d65e6f2935037012d"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/root-originality-review.json",
+      "sha256": "0b4a7227a6cf7fd539453b4940c275e463bf21f66901a9195125c4ef6b009a60"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/root-photo-integrity.json",
+      "sha256": "b966615ca3c415e836bee0547b531ee5cf1d7e688740113a292947a8f516608c"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/root-photo-rights-reading.json",
+      "sha256": "9ad6acabba7a376592295bb5f4a87b8a706647b499c1e635ce7e7898820c7341"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/census-audit.json",
+      "sha256": "aba4ac9e4a70ede97b479384ac1ae592383376d513be7d7ba060737a1b642e53"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/baseline-complete.json",
+      "sha256": "9457ca2afd5f3c4916a210a0d05e0ed28b778a21085f6f320ce92b12c2d9f942"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/baseline-retained-evidence-crosscheck.json",
+      "sha256": "4501ecbbe4d0a7a9817bf104f2e08360314f0fe0fce0bb6af2eab305e117865e"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/integrate-reviewed.mjs",
+      "sha256": "eed664f3936c34d27599be7c68875629aeca7eedd018753fe2f2da548976a662"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/guadalajara/copy-proposal.json",
+      "sha256": "9c8c6c8aae369065c4eb4fb95c36ef47dc27d6e1634c7e182d7b545c69861e4d"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/ravenna/copy-proposal.json",
+      "sha256": "64fad3a4e0fd635df2f4c7fb4d00e912b76b2edc471d6f70e0ee67995dd4251e"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/guadalajara/facts-for-root-review.json",
+      "sha256": "cd07849eb8fb7cbbb16dcdc5dda5f202d90a020030d9cbc1e8dc95a664489403"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/ravenna/facts-for-root-review.json",
+      "sha256": "84bf1ce1faf34fcc570104b981cca3368fca9c2468d569715116f47ee6e3bf9a"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/guadalajara/independent-draft-review.json",
+      "sha256": "501c864a96d8d010c6471b7e45b52d2380ed91aa1ed9fe5ef5a53b0057442ee6"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/guadalajara/copy-proposal.root-reviewed.json",
+      "sha256": "4baf461d8ff24efa912c3f84a45f7cf915188e105134367f4fcf26ca3d21aa73"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n16/ravenna/copy-proposal.root-reviewed-v2.json",
+      "sha256": "4f7a314f9636668151c61a95db60aec4b004566c6e2c371e7cc05ada3fd0e8e5"
+    }
+  ],
+  "notes": [
+    "Root actually read all four complete manuscripts, 19 cited official source records and 100 facts/excerpts, including full supporting Guadalajara source contexts and Ravenna current operator admission conditions.",
+    "Both versions answer a distinct first-visit query and retain equivalent practical facts, natural localized titles and slugs, five individually developed and individually photographed places, flexible itineraries, five FAQs and three relevant published bilingual related guides.",
+    "Guadalajara current museum hours and airport T02 destination/payment checked; stale prices and inconsistent temple hours omitted. Ravenna ticket lists, Galla reservation/visit duration, holiday closures, Dante exterior viewing and station/ZTL information checked.",
+    "Root read all ten specific photo grants and CC deeds and actually viewed both five-photo contacts. Documentary archive photos retain correct dates, authors, licences, attribution links, modifications, ALT, responsive sizes and hashes. No generated imagery.",
+    "Ravenna private drafts were promoted from draft to review after full actual root reading; only status changed, with original files and proposals preserved and exact body equivalence checked. Manifest-field aliases were normalized without changing file bytes or the actual inventory.",
+    "All 224 prior originals, dates, sources, images, advertising, Analytics consent, design, URLs and publication frequency are outside this content addition. Mandatory native release and public verification remain required.",
+    "Catalogue originality checks are bounded; no Google search-demand, ranking, indexing, future access, legal warranty or unattended scheduler attribution is claimed.",
+    "Only these four never-public versions receive real initial publication/update dates. Existing published articles and dates remain unchanged.",
+    "This hash-bound selection is approved for the mandatory release gate, not a claim of public deployment or Google indexation."
+  ]
+}

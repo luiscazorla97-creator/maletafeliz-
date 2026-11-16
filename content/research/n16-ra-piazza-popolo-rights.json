@@ -1,0 +1,139 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Ravenna_Piazza_del_Popolo_0099.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Ravenna_Piazza_del_Popolo_0099.jpg",
+  "fetchedAt": "2026-11-16T17:00:11.365Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "11855cb7b3c0d717faebb94b9e37e88e1662e8231d484585a4cc2512aaa043c2",
+  "bytes": 123552,
+  "retryAfter": null,
+  "rawFile": "content/research/raw/n16-ra-piazza-popolo-file-page.html",
+  "actuallyRead": true,
+  "textFile": "content/research/raw/n16-ra-piazza-popolo-file-page.txt",
+  "textSha256": "407c87651d8d4571dd92ece93983b3db1fec2ea5d7e41f8816573a89832c6489",
+  "id": "n16-ra-piazza-popolo-rights",
+  "facts": [
+    {
+      "fact": "The individual file page identifies this subject and the named creator as own work under the selected photographic copyright licence.",
+      "excerpt": "Piazza del Popolo, Ravenna, Italy",
+      "location": "Specific Commons file Summary, Source, Author and Licensing sections; actually read."
+    },
+    {
+      "fact": "The selected licence allows sharing and adaptation, including commercial purposes, with attribution, licence link, modifications notice and retained ShareAlike.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Actually read individual licence box plus retained Creative Commons deed."
+    },
+    {
+      "fact": "Other-rights permission is not inferred from the photographic copyright grant.",
+      "excerpt": "No warranties are given. The license may not give you all of the permissions necessary for your intended use.",
+      "location": "Actually read Creative Commons deed Notices."
+    }
+  ],
+  "notes": "Archival exterior documentary photograph. No interior photography, property-entry, professional-shooting, statutory heritage permission or blanket other-rights clearance is claimed. The specific copyright grant is retained and displayed, with photographer, file-page link, licence and modifications.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fetchedAt": "2026-11-16T16:58:50.111Z",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+    "bytes": 35530,
+    "retryAfter": null,
+    "rawFile": "content/research/raw/n16-ra-photo-license-by-sa-4.html",
+    "actuallyRead": true,
+    "textFile": "content/research/raw/n16-ra-photo-license-by-sa-4.txt",
+    "textSha256": "4b3594769dcef14bc7fdd090aaf6e05bd2f866e94032b79a105ab70ce77c5c12"
+  },
+  "downloadCapture": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Ravenna_Piazza_del_Popolo_0099.jpg/1280px-Ravenna_Piazza_del_Popolo_0099.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Ravenna_Piazza_del_Popolo_0099.jpg/1280px-Ravenna_Piazza_del_Popolo_0099.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fetchedAt": "2026-11-16T17:00:12.394Z",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "bb599b057a4db4d57823e7f501dfe1fcc36bb7e75273b1aff3e822e62338d4ee",
+    "bytes": 312105,
+    "rawFile": "content/images/originals/n16-ra-piazza-popolo.jpg"
+  },
+  "apiCapture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=intitle%3ARavenna%20intitle%3APopolo%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1280",
+    "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=intitle%3ARavenna%20intitle%3APopolo%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1280",
+    "fetchedAt": "2026-11-16T16:59:55.962Z",
+    "httpStatus": 200,
+    "contentType": "application/json; charset=utf-8",
+    "contentSha256": "cf208846ad6b5f8d52a0ef0e393f7df0c3df50588d1a0f2031d54e9131c0c080",
+    "bytes": 25802,
+    "retryAfter": null,
+    "rawFile": "content/research/raw/n16-ra-piazza-popolo-imageinfo-api.json",
+    "actuallyRead": true
+  },
+  "upstreamSource": {
+    "title": "File:Ravenna Piazza del Popolo 0099.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Ravenna_Piazza_del_Popolo_0099.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3803,
+    "height": 2561,
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Ravenna_Piazza_del_Popolo_0099.jpg/1280px-Ravenna_Piazza_del_Popolo_0099.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided 1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "dateFieldAsPublished": "2008-07-18 17:03:42"
+  },
+  "providedOriginal": {
+    "width": 1280,
+    "height": 862,
+    "sha256": "bb599b057a4db4d57823e7f501dfe1fcc36bb7e75273b1aff3e822e62338d4ee",
+    "bytes": 312105
+  },
+  "fileSpecificNotices": [],
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent /root/ravenna_n16/ravenna_photos_n16",
+    "reviewedAt": "2026-11-16T17:01:43.999637+00:00",
+    "actuallyViewed": true,
+    "observation": "Broad pedestrian square and surrounding civic façades are visible, including the clock-tower area at right. This is Ravenna’s Piazza del Popolo, not similarly named squares in Rome, Cesena or other search results.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n16/ravenna/photos/five-photo-contact.jpg",
+    "contactSha256": "abc5ef75846c48121f087ba1be8dabbbd7c59f6045d384a258bfeeddb037192b"
+  },
+  "optimizedVisualReview": {
+    "reviewer": "Codex photo subagent /root/ravenna_n16/ravenna_photos_n16",
+    "reviewedAt": "2026-11-16T17:01:43.999637+00:00",
+    "actuallyViewed": true,
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n16/ravenna/photos/responsive-photo-contact.jpg",
+    "contactSha256": "8c732d0ceffc9cb6acf476ddde6657daf4a5adbf4b2afe8d88e317a7bd67be89",
+    "scope": "All 25 actual WebP derivatives were displayed in the five-by-five contact sheet through tools.view_image. Proportions and full frame are preserved; no cropping or generated edits."
+  },
+  "optimizedFiles": [
+    {
+      "src": "/images/n16-ra-piazza-popolo-240w.webp",
+      "width": 240,
+      "height": 161,
+      "sha256": "b1ef742e96d0722e8b0114e5d26c91fc86579535879d2df2b724c4a9bf652740",
+      "bytes": 9842
+    },
+    {
+      "src": "/images/n16-ra-piazza-popolo-320w.webp",
+      "width": 320,
+      "height": 216,
+      "sha256": "39632ed95c04011e6fa5a2bff42998c1622b8f0af5b94a4f54c03b2e52824bcf",
+      "bytes": 16594
+    },
+    {
+      "src": "/images/n16-ra-piazza-popolo-480w.webp",
+      "width": 480,
+      "height": 323,
+      "sha256": "3786f0c46e1763dab1964e2cc592c0ab3c5882773d668d762aa12a12aa734a80",
+      "bytes": 33442
+    },
+    {
+      "src": "/images/n16-ra-piazza-popolo-800w.webp",
+      "width": 800,
+      "height": 539,
+      "sha256": "25445ea2ddb9324047f32ff07596ea640463d72c4472787aa7a7cc5db6ca6f97",
+      "bytes": 86712
+    },
+    {
+      "src": "/images/n16-ra-piazza-popolo.webp",
+      "width": 1280,
+      "height": 862,
+      "sha256": "7212c288e78e95e67d007ca538b32280c165b11264b043e86b0a453a28889663",
+      "bytes": 233300
+    }
+  ]
+}

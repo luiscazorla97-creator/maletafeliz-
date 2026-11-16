@@ -1,0 +1,145 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Ravenna,_tomba_di_Dante_(20).jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Ravenna,_tomba_di_Dante_(20).jpg",
+  "fetchedAt": "2026-11-16T16:58:47.334Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "4f83e979fda90e7a3f438d70435fb4e88b98d36c48988f1e7cb5958830146879",
+  "bytes": 125124,
+  "retryAfter": null,
+  "rawFile": "content/research/raw/n16-ra-dante-file-page.html",
+  "actuallyRead": true,
+  "textFile": "content/research/raw/n16-ra-dante-file-page.txt",
+  "textSha256": "ce67ed7cef864ec917ba4156af4093e18da70715906a16392fbe3b6d717142af",
+  "id": "n16-ra-dante-rights",
+  "facts": [
+    {
+      "fact": "The individual file page identifies this subject and the named creator as own work under the selected photographic copyright licence.",
+      "excerpt": "Ravenna, tomba di Dante",
+      "location": "Specific Commons file Summary, Source, Author and Licensing sections; actually read."
+    },
+    {
+      "fact": "The selected licence allows sharing and adaptation, including commercial purposes, with attribution, licence link, modifications notice and retained ShareAlike.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Actually read individual licence box plus retained Creative Commons deed."
+    },
+    {
+      "fact": "Other-rights permission is not inferred from the photographic copyright grant.",
+      "excerpt": "No warranties are given. The license may not give you all of the permissions necessary for your intended use.",
+      "location": "Actually read Creative Commons deed Notices."
+    }
+  ],
+  "notes": "Archival exterior documentary photograph. No interior photography, property-entry, professional-shooting, statutory heritage permission or blanket other-rights clearance is claimed. The specific copyright grant is retained and displayed, with photographer, file-page link, licence and modifications.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fetchedAt": "2026-11-16T16:58:50.111Z",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentSha256": "b462fb0a649a8ec875bba7590abad7dc1e72c0456ddec070cf3a28183689dceb",
+    "bytes": 35530,
+    "retryAfter": null,
+    "rawFile": "content/research/raw/n16-ra-photo-license-by-sa-4.html",
+    "actuallyRead": true,
+    "textFile": "content/research/raw/n16-ra-photo-license-by-sa-4.txt",
+    "textSha256": "4b3594769dcef14bc7fdd090aaf6e05bd2f866e94032b79a105ab70ce77c5c12"
+  },
+  "downloadCapture": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Ravenna%2C_tomba_di_Dante_%2820%29.jpg/1280px-Ravenna%2C_tomba_di_Dante_%2820%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Ravenna%2C_tomba_di_Dante_%2820%29.jpg/1280px-Ravenna%2C_tomba_di_Dante_%2820%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fetchedAt": "2026-11-16T16:58:54.624Z",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "1a19675a58180c8ba42a9d125cc62feb347d57df02967f59f9de41ff77ce77eb",
+    "bytes": 292768,
+    "rawFile": "content/images/originals/n16-ra-dante.jpg"
+  },
+  "apiCapture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Tomba%20Dante%20Ravenna%20exterior%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=5&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1280",
+    "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Tomba%20Dante%20Ravenna%20exterior%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=5&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1280",
+    "fetchedAt": "2026-11-16T16:58:21.685Z",
+    "httpStatus": 200,
+    "contentType": "application/json; charset=utf-8",
+    "contentSha256": "10880f88d0ded1a9b89bc0a3dfa33156b2f746da3d91442e627aecbfff535471",
+    "bytes": 15566,
+    "retryAfter": null,
+    "rawFile": "content/research/raw/n16-ra-dante-imageinfo-api.json",
+    "actuallyRead": true
+  },
+  "upstreamSource": {
+    "title": "File:Ravenna, tomba di Dante (20).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ravenna%2C_tomba_di_Dante_%2820%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3456,
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Ravenna%2C_tomba_di_Dante_%2820%29.jpg/1280px-Ravenna%2C_tomba_di_Dante_%2820%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided 1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "dateFieldAsPublished": "2016-06-27 13:14:17"
+  },
+  "providedOriginal": {
+    "width": 1280,
+    "height": 853,
+    "sha256": "1a19675a58180c8ba42a9d125cc62feb347d57df02967f59f9de41ff77ce77eb",
+    "bytes": 292768
+  },
+  "fileSpecificNotices": [
+    {
+      "text": "If you use this image include my name near the photography and create a link to this page. Please send me an email … to let me know where the imagine is published. Thanks in advance.",
+      "source": "Specific file author request alongside standard CC BY-SA 4.0 licensing box",
+      "implementation": "Creator name and file-page link will be retained beside the image; no third-party message is sent. No exclusive permission or notification is claimed."
+    }
+  ],
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent /root/ravenna_n16/ravenna_photos_n16",
+    "reviewedAt": "2026-11-16T17:01:43.999637+00:00",
+    "actuallyViewed": true,
+    "observation": "Exterior white-stone tomb building, pediment, open doorway and surrounding brick wall are clearly visible; no museum exhibit or promise of present entry is used as documentation.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n16/ravenna/photos/five-photo-contact.jpg",
+    "contactSha256": "abc5ef75846c48121f087ba1be8dabbbd7c59f6045d384a258bfeeddb037192b"
+  },
+  "optimizedVisualReview": {
+    "reviewer": "Codex photo subagent /root/ravenna_n16/ravenna_photos_n16",
+    "reviewedAt": "2026-11-16T17:01:43.999637+00:00",
+    "actuallyViewed": true,
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n16/ravenna/photos/responsive-photo-contact.jpg",
+    "contactSha256": "8c732d0ceffc9cb6acf476ddde6657daf4a5adbf4b2afe8d88e317a7bd67be89",
+    "scope": "All 25 actual WebP derivatives were displayed in the five-by-five contact sheet through tools.view_image. Proportions and full frame are preserved; no cropping or generated edits."
+  },
+  "optimizedFiles": [
+    {
+      "src": "/images/n16-ra-dante-240w.webp",
+      "width": 240,
+      "height": 160,
+      "sha256": "e22a06cde00c8ab61cc76eb5fd1e9214f9c5dc005e198f2499fce231e469b9a3",
+      "bytes": 8104
+    },
+    {
+      "src": "/images/n16-ra-dante-320w.webp",
+      "width": 320,
+      "height": 213,
+      "sha256": "d2ba3c7afa5ad0c6557f709edb737ec2016d9be536a5ae359ee6b1d6705c8250",
+      "bytes": 14564
+    },
+    {
+      "src": "/images/n16-ra-dante-480w.webp",
+      "width": 480,
+      "height": 320,
+      "sha256": "48ef9e16fae0047426ce6de7504c1924805aa1a018e015f6d387e5e579ba763e",
+      "bytes": 33244
+    },
+    {
+      "src": "/images/n16-ra-dante-800w.webp",
+      "width": 800,
+      "height": 533,
+      "sha256": "128e50d11b2f670fa167a846e3e0176690338365b8ec8ea4e2ee91e0b94fa901",
+      "bytes": 88564
+    },
+    {
+      "src": "/images/n16-ra-dante.webp",
+      "width": 1280,
+      "height": 853,
+      "sha256": "26e95e88e85e19e903381fd7b3588ca1476210ffcaef5f4160bc109e4aa20637",
+      "bytes": 213850
+    }
+  ]
+}

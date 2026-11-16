@@ -1,0 +1,32 @@
+{
+  "url": "https://www.turismo.ra.it/en/getting-around-ravenna/",
+  "finalUrl": "https://www.turismo.ra.it/en/getting-around-ravenna/",
+  "fetchedAt": "2026-11-16T16:58:47.173Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "7291cd822d18b6342348f629af5dbc3036bdd289a519bbedd28ab82f79162b9f",
+  "textSha256": "bf6b8c647824ab00d0b3f4e64e61e948814d7ef08b6ab6b764dcd4e1b29d31ab",
+  "rawFile": "content/research/raw/n16-ra-around.raw",
+  "textFile": "content/research/raw/n16-ra-around.txt",
+  "facts": [
+    {
+      "fact": "The historic centre includes a broad pedestrian area.",
+      "excerpt": "The city centre features a wide pedestrian area",
+      "location": "Readable text capture, exact substring at character 3410"
+    },
+    {
+      "fact": "Start Romagna operates the urban and surrounding bus network.",
+      "excerpt": "a widespread network of buses\nmanaged by\nSTART ROMAGNA",
+      "location": "Readable text capture, exact substring at character 4434"
+    },
+    {
+      "fact": "Most central motor traffic is subject to ZTL restrictions with electronic control.",
+      "excerpt": "The circulation of motor vehicles is therefore subject to restrictions, according to specific time frames, and access is monitored by an electronic control system.",
+      "location": "Readable text capture, exact substring at character 5802"
+    }
+  ],
+  "actuallyRead": true,
+  "readBy": "Codex Ravenna editorial research agent",
+  "readAt": "2026-11-16T17:01:06.202854+00:00",
+  "notes": "Actual official text read for the new Ravenna guide. No publication approval. Current operator admission conditions override broad route suggestions. Exact prices, transient events, conflicting monument dates, old one-off notices and unsupported walking-time promises are excluded."
+}

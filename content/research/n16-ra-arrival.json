@@ -1,0 +1,37 @@
+{
+  "url": "https://www.turismo.ra.it/en/travel-to-ravenna/",
+  "finalUrl": "https://www.turismo.ra.it/en/travel-to-ravenna/",
+  "fetchedAt": "2026-11-16T16:58:39.832Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "d4c09291a9471049d83ed01cb0b059de4b0910baed1f671faef1b1f5c2636ce4",
+  "textSha256": "b12f838dbe75b354ceba07ca38bfb1123748e6474e20df99074a0069a62ae56c",
+  "rawFile": "content/research/raw/n16-ra-arrival.raw",
+  "textFile": "content/research/raw/n16-ra-arrival.txt",
+  "facts": [
+    {
+      "fact": "Ravenna is in north-east Italy near the Adriatic and around 75 km from Bologna.",
+      "excerpt": "a city located in the north-east of Italy, about 75 km away from Bologna.",
+      "location": "Readable text capture, exact substring at character 3363"
+    },
+    {
+      "fact": "The station is next to the central limited traffic zone.",
+      "excerpt": "railway station of Ravenna\nis located right in the heart of the city centre, just 200 metres away from the limited traffic zone",
+      "location": "Readable text capture, exact substring at character 5410"
+    },
+    {
+      "fact": "The station has entrances at Piazzale Farini and via Antico Squero on the Darsena side.",
+      "excerpt": "two entrances\n: Piazzale Farini 1 (main entrance) and Via Antico Squero (Darsena area).",
+      "location": "Readable text capture, exact substring at character 5607"
+    },
+    {
+      "fact": "Rail operators listed are Trenitalia and TPER; no specific current train duration is inferred.",
+      "excerpt": "Trenitalia\nand\nTrasporto Passeggeri Emilia-Romagna\n(TPER).",
+      "location": "Readable text capture, exact substring at character 5725"
+    }
+  ],
+  "actuallyRead": true,
+  "readBy": "Codex Ravenna editorial research agent",
+  "readAt": "2026-11-16T17:01:06.200532+00:00",
+  "notes": "Actual official text read for the new Ravenna guide. No publication approval. Current operator admission conditions override broad route suggestions. Exact prices, transient events, conflicting monument dates, old one-off notices and unsupported walking-time promises are excluded."
+}

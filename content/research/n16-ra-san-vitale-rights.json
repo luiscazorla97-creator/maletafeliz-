@@ -1,0 +1,139 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Basilica_of_San_Vitale._Ravenna,_Italy.jpg",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Basilica_of_San_Vitale._Ravenna,_Italy.jpg",
+  "fetchedAt": "2026-11-16T16:58:44.650Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "003379d298571e5c70ef1b3b4aa8f25ae7859da5de92f810361cbcc57af1d243",
+  "bytes": 145282,
+  "retryAfter": null,
+  "rawFile": "content/research/raw/n16-ra-san-vitale-file-page.html",
+  "actuallyRead": true,
+  "textFile": "content/research/raw/n16-ra-san-vitale-file-page.txt",
+  "textSha256": "c98fb76865dc75ee20e9e8d02be86975259881620e8bb995e6c2b724809d7e1f",
+  "id": "n16-ra-san-vitale-rights",
+  "facts": [
+    {
+      "fact": "The individual file page identifies this subject and the named creator as own work under the selected photographic copyright licence.",
+      "excerpt": "Basilica of San Vitale. Ravenna, Italy",
+      "location": "Specific Commons file Summary, Source, Author and Licensing sections; actually read."
+    },
+    {
+      "fact": "The selected licence allows sharing and adaptation, including commercial purposes, with attribution, licence link, modifications notice and retained ShareAlike.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Actually read individual licence box plus retained Creative Commons deed."
+    },
+    {
+      "fact": "Other-rights permission is not inferred from the photographic copyright grant.",
+      "excerpt": "No warranties are given. The license may not give you all of the permissions necessary for your intended use.",
+      "location": "Actually read Creative Commons deed Notices."
+    }
+  ],
+  "notes": "Archival exterior documentary photograph. No interior photography, property-entry, professional-shooting, statutory heritage permission or blanket other-rights clearance is claimed. The specific copyright grant is retained and displayed, with photographer, file-page link, licence and modifications.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "fetchedAt": "2026-11-16T16:58:48.995Z",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentSha256": "9a17cd36de36b242cbe4234773116f2036f86a8ce4459af8b37fd120482ca931",
+    "bytes": 35431,
+    "retryAfter": null,
+    "rawFile": "content/research/raw/n16-ra-photo-license-by-sa-3.html",
+    "actuallyRead": true,
+    "textFile": "content/research/raw/n16-ra-photo-license-by-sa-3.txt",
+    "textSha256": "05209fbf16c191e5f6062b4e07ba612b54c73107723c425c2703fcd248eadfe4"
+  },
+  "downloadCapture": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Basilica_of_San_Vitale._Ravenna%2C_Italy.jpg/1280px-Basilica_of_San_Vitale._Ravenna%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Basilica_of_San_Vitale._Ravenna%2C_Italy.jpg/1280px-Basilica_of_San_Vitale._Ravenna%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fetchedAt": "2026-11-16T16:58:51.650Z",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "e2a442bbd89ea42d69b3516b4f2cf029be987faf7134378a4b27ccb01ad69e9e",
+    "bytes": 583619,
+    "rawFile": "content/images/originals/n16-ra-san-vitale.jpg"
+  },
+  "apiCapture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=San%20Vitale%20Ravenna%20exterior%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=5&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1280",
+    "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=San%20Vitale%20Ravenna%20exterior%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=5&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1280",
+    "fetchedAt": "2026-11-16T16:57:48.881Z",
+    "httpStatus": 200,
+    "contentType": "application/json; charset=utf-8",
+    "contentSha256": "4b975cd9b38945a094eb7e281944f220cdd978148ad29c498ad4996e70d514fc",
+    "bytes": 17629,
+    "retryAfter": null,
+    "rawFile": "content/research/raw/n16-ra-san-vitale-imageinfo-api.json",
+    "actuallyRead": true
+  },
+  "upstreamSource": {
+    "title": "File:Basilica of San Vitale. Ravenna, Italy.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Basilica_of_San_Vitale._Ravenna%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4564,
+    "height": 3718,
+    "providedUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Basilica_of_San_Vitale._Ravenna%2C_Italy.jpg/1280px-Basilica_of_San_Vitale._Ravenna%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "providedRendition": "Commons API-provided 1280px rendition",
+    "fullResolutionOriginalDownloaded": false,
+    "dateFieldAsPublished": "2016-06-08 14:53:56"
+  },
+  "providedOriginal": {
+    "width": 1280,
+    "height": 1043,
+    "sha256": "e2a442bbd89ea42d69b3516b4f2cf029be987faf7134378a4b27ccb01ad69e9e",
+    "bytes": 583619
+  },
+  "fileSpecificNotices": [],
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent /root/ravenna_n16/ravenna_photos_n16",
+    "reviewedAt": "2026-11-16T17:01:43.999637+00:00",
+    "actuallyViewed": true,
+    "observation": "Exterior architectural view of San Vitale: central brick mass, curved frontage and entrance with surrounding lawn; no interior mosaics or current visitor-access claim.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n16/ravenna/photos/five-photo-contact.jpg",
+    "contactSha256": "abc5ef75846c48121f087ba1be8dabbbd7c59f6045d384a258bfeeddb037192b"
+  },
+  "optimizedVisualReview": {
+    "reviewer": "Codex photo subagent /root/ravenna_n16/ravenna_photos_n16",
+    "reviewedAt": "2026-11-16T17:01:43.999637+00:00",
+    "actuallyViewed": true,
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n16/ravenna/photos/responsive-photo-contact.jpg",
+    "contactSha256": "8c732d0ceffc9cb6acf476ddde6657daf4a5adbf4b2afe8d88e317a7bd67be89",
+    "scope": "All 25 actual WebP derivatives were displayed in the five-by-five contact sheet through tools.view_image. Proportions and full frame are preserved; no cropping or generated edits."
+  },
+  "optimizedFiles": [
+    {
+      "src": "/images/n16-ra-san-vitale-240w.webp",
+      "width": 240,
+      "height": 195,
+      "sha256": "d0fae8f9c72807948ed0f5feab034f103da3c7ff8741c43d6feb4a74bbf64469",
+      "bytes": 13882
+    },
+    {
+      "src": "/images/n16-ra-san-vitale-320w.webp",
+      "width": 320,
+      "height": 261,
+      "sha256": "35489740b9cd205b4316c8cee00207a002f3c0dd86d7024507b1be656151dc77",
+      "bytes": 24464
+    },
+    {
+      "src": "/images/n16-ra-san-vitale-480w.webp",
+      "width": 480,
+      "height": 391,
+      "sha256": "5f8708053a1424421c455a0d24fd416b2c9ba496eaac72b0dcaf78ac8e447e11",
+      "bytes": 56798
+    },
+    {
+      "src": "/images/n16-ra-san-vitale-800w.webp",
+      "width": 800,
+      "height": 652,
+      "sha256": "f7822dfc7b085327af6d540a113546852600e9b1825bfb59f101f5573d4874ec",
+      "bytes": 177196
+    },
+    {
+      "src": "/images/n16-ra-san-vitale.webp",
+      "width": 1280,
+      "height": 1043,
+      "sha256": "2567edb53f7d4fbb95dbe87c8e534a316187b122c581feaf6087ad3d412b5ec0",
+      "bytes": 502718
+    }
+  ]
+}

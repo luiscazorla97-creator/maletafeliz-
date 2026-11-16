@@ -1,0 +1,35 @@
+{
+  "id": "n16-gd-train",
+  "url": "https://www.siteur.gob.mx/index.php/sistemas-de-transporte/mi-tren",
+  "fetchedAt": "2026-11-16T16:59:18.298Z",
+  "facts": [
+    {
+      "fact": "Line1 follows the Federalismo–Colón corridor, while Line2 follows Javier Mina–Juárez.",
+      "excerpt": "Federalismo–Colón",
+      "location": "Evolución del sistema"
+    },
+    {
+      "fact": "Line3 connects Zapopan, Guadalajara and Tlaquepaque.",
+      "excerpt": "Zapopan, Guadalajara y Tlaquepaque",
+      "location": "Línea3"
+    },
+    {
+      "fact": "The current operator timetable is daily05:00–23:00 for Lines1–3; special notices may affect use.",
+      "excerpt": "Lunes a domingo de 5:00 a 23:00",
+      "location": "Horario de servicio"
+    }
+  ],
+  "actuallyRead": true,
+  "finalUrl": "https://www.siteur.gob.mx/index.php/sistemas-de-transporte/mi-tren",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "retryAfter": null,
+  "contentSha256": "53b278fba6caafb69216f8f7aa651e1b2d3ff9c754745c6be76f6cfa35481b36",
+  "bytes": 18362,
+  "textSha256": "0759cb60886f147842bac32ae24c58d861ed98a47be5b701d4bc38179259eeb4",
+  "title": "SITEUR — Mi Tren official system information",
+  "rawFile": "content/research/raw/n16-gd-train.html",
+  "textFile": "content/research/raw/n16-gd-train.txt",
+  "factReviewedAt": "2026-11-16T17:00:36.943733+00:00",
+  "notes": "Actual public official response, complete extracted text and cited locations read by the Guadalajara author. Facts paraphrased for original ES/EN writing. Omitted conflicting oldSIC prices and unreliable Expiatorio hours. Access times are not a guarantee of tours, performances, worship access or permanent availability; check operator notices."
+}

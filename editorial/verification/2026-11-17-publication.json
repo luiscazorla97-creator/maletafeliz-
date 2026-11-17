@@ -1,0 +1,736 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-17T18:09:11.576Z",
+  "commit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+  "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+  "batch": "2026-11-17",
+  "publicationDay": "2026-11-17",
+  "reservationDay": "2026-11-17",
+  "executionId": "63b26dca-782b-4538-bab9-4b9dbef4fafc",
+  "timeZone": "America/New_York",
+  "firstPublicationNewYorkDate": "2026-11-17",
+  "status": "publicly-verified",
+  "originals": 2,
+  "newOriginals": 2,
+  "localizations": 4,
+  "publishedTopicIds": [
+    "kamakura",
+    "zacatecas"
+  ],
+  "priorSameDayUniqueVerifiedOriginals": 0,
+  "sameDayUniqueVerifiedOriginalsAfter": 2,
+  "sameDayUniqueVerifiedTopicIds": [
+    "kamakura",
+    "zacatecas"
+  ],
+  "urls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-kamakura-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-zacatecas-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-kamakura-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-zacatecas-5-places/"
+    ]
+  },
+  "globalOriginals": 228,
+  "globalLocalizations": 456,
+  "globalPhotos": 963,
+  "globalCitedSourceRecords": 1167,
+  "photos": 10,
+  "newPhotoMetadataRecords": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 19,
+  "coverage": {
+    "countries": [
+      {
+        "countryId": "it",
+        "publishedOriginals": 25,
+        "localizedVersions": 50,
+        "targetOriginals": 30,
+        "missingOriginals": 5,
+        "excessOriginals": 0,
+        "articleIds": [
+          "amalfi-coast",
+          "bergamo",
+          "bologna",
+          "christmas-florence",
+          "christmas-milan",
+          "christmas-naples",
+          "christmas-rome",
+          "christmas-turin",
+          "christmas-venice",
+          "christmas-verona",
+          "ferrara",
+          "florence",
+          "florence-uffizi",
+          "lucca",
+          "milan",
+          "padua",
+          "perugia",
+          "pisa",
+          "ravenna",
+          "rome",
+          "rome-colosseum-visit",
+          "siena",
+          "venice",
+          "venice-vaporetto",
+          "verona"
+        ]
+      },
+      {
+        "countryId": "jp",
+        "publishedOriginals": 23,
+        "localizedVersions": 46,
+        "targetOriginals": 25,
+        "missingOriginals": 2,
+        "excessOriginals": 0,
+        "articleIds": [
+          "christmas-fukuoka",
+          "christmas-osaka",
+          "christmas-tokyo",
+          "christmas-yokohama",
+          "halloween-japan",
+          "himeji",
+          "hiroshima",
+          "kamakura",
+          "kanazawa",
+          "kurashiki",
+          "kyoto",
+          "kyoto-higashiyama-walk",
+          "matsumoto",
+          "mount-fuji",
+          "nagasaki",
+          "nara",
+          "nara-day-trip-transport",
+          "nikko",
+          "osaka",
+          "sapporo",
+          "takayama",
+          "tokyo",
+          "tokyo-new-year-2027"
+        ]
+      },
+      {
+        "countryId": "mx",
+        "publishedOriginals": 21,
+        "localizedVersions": 42,
+        "targetOriginals": 25,
+        "missingOriginals": 4,
+        "excessOriginals": 0,
+        "articleIds": [
+          "cancun",
+          "chapultepec-museums-day",
+          "guadalajara",
+          "guanajuato",
+          "leon-guanajuato",
+          "los-cabos",
+          "mexico-city",
+          "morelia",
+          "muertos-merida",
+          "muertos-mexico-city",
+          "muertos-mixquic",
+          "muertos-oaxaca",
+          "muertos-puebla",
+          "oaxaca",
+          "patzcuaro",
+          "puebla",
+          "queretaro",
+          "riviera-maya",
+          "san-luis-potosi",
+          "san-miguel-de-allende",
+          "zacatecas"
+        ]
+      },
+      {
+        "countryId": "us",
+        "publishedOriginals": 23,
+        "localizedVersions": 46,
+        "targetOriginals": 20,
+        "missingOriginals": 0,
+        "excessOriginals": 3,
+        "articleIds": [
+          "buffalo",
+          "christmas-boston",
+          "christmas-chicago",
+          "christmas-los-angeles",
+          "christmas-miami",
+          "christmas-new-york",
+          "christmas-philadelphia",
+          "christmas-san-francisco",
+          "columbus",
+          "greenville-sc",
+          "halloween-usa",
+          "hawaii",
+          "hilo",
+          "las-vegas",
+          "las-vegas-new-year-2027",
+          "los-angeles",
+          "miami",
+          "new-orleans",
+          "new-york",
+          "new-york-new-year-2027",
+          "orlando",
+          "san-diego",
+          "washington-dc"
+        ]
+      }
+    ],
+    "priorityOriginals": 92,
+    "targetCappedOriginals": 89,
+    "missingToInitial100": 11,
+    "excessOriginals": 3
+  },
+  "tests": {
+    "local": {
+      "unit": 107,
+      "navigation": 28,
+      "productionFocused": 8,
+      "total": 143,
+      "wholeSuiteClaimed": false,
+      "evidence": {
+        "check": {
+          "logFile": "/workspace/artifacts/maletafeliz-daily-two-n17/check.log",
+          "logSha256": "4806d9e8ad9ab869939a345769c99851d3168814a7c4899ce74ad828686bc7b8",
+          "invocationFile": "/workspace/artifacts/maletafeliz-daily-two-n17/check-invocation.json",
+          "invocationSha256": "7865dd9a071875e6b337a6cbef6435bee76773233aa934d861844bc371447906",
+          "exitCode": 0
+        },
+        "unit": {
+          "logFile": "/workspace/artifacts/maletafeliz-daily-two-n17/unit.log",
+          "logSha256": "1589c7408ebc58a5b3401a9f3d37d34e7b111d60360fc892d783811b9d824389",
+          "invocationFile": "/workspace/artifacts/maletafeliz-daily-two-n17/unit-invocation.json",
+          "invocationSha256": "bc1e77dd85f84e2c5300e3c32516f18e50ca67c10b301e931712e0db51b18bb1",
+          "exitCode": 0
+        },
+        "navigation": {
+          "logFile": "/workspace/artifacts/maletafeliz-daily-two-n17/navigation.log",
+          "logSha256": "34abf4922b2f3704328c437c7aeea406739aba0abf846ca2d97d5ab80fd4e60b",
+          "invocationFile": "/workspace/artifacts/maletafeliz-daily-two-n17/navigation-invocation.json",
+          "invocationSha256": "98d5426d351f71a21872e75923369876238a2a6d83929d5d8e92a7be27d34146",
+          "exitCode": 0
+        },
+        "build-release": {
+          "logFile": "/workspace/artifacts/maletafeliz-daily-two-n17/build-release.log",
+          "logSha256": "97e1c887359b8750383c7c33d5047768ad07fe3ee2d3b30c1bfc954a885ad901",
+          "invocationFile": "/workspace/artifacts/maletafeliz-daily-two-n17/build-release-invocation.json",
+          "invocationSha256": "ffb3e172275201f7bcf18ac85e44c0d38693a1f267d2573223f45a5384720ff9",
+          "exitCode": 0
+        },
+        "production-focused-list": {
+          "logFile": "/workspace/artifacts/maletafeliz-daily-two-n17/production-focused-list.log",
+          "logSha256": "49449ee33a014c3438ab88ec47bbcb60a62893216b78ba8420d3d2a38d122a26",
+          "invocationFile": "/workspace/artifacts/maletafeliz-daily-two-n17/production-focused-list-invocation.json",
+          "invocationSha256": "9ac04449d5c58c15650993bbb26b889d17a82b7039ab2eea99165f566910371b",
+          "exitCode": 0
+        },
+        "production-focused": {
+          "logFile": "/workspace/artifacts/maletafeliz-daily-two-n17/production-focused.log",
+          "logSha256": "42d9b5625a13961ad7f2e2fa412533dcb586d39fcf418c7ceb05b21fc2c9e4ce",
+          "invocationFile": "/workspace/artifacts/maletafeliz-daily-two-n17/production-focused-invocation.json",
+          "invocationSha256": "fa0225d5521f321c367751dd708b2cbdb3b11ba4503c41f7cdfe442221b56d89",
+          "exitCode": 0
+        }
+      }
+    },
+    "github": {
+      "checkedAt": "2026-11-17T18:04:06.231Z",
+      "id": 44139964870,
+      "name": "Build and editorial checks",
+      "event": "push",
+      "head_branch": "main",
+      "head_sha": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/44139964870",
+      "jobs": [
+        {
+          "id": 134239750554,
+          "head_sha": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T17:42:46Z",
+              "completed_at": "2026-11-17T17:42:49Z"
+            },
+            {
+              "name": "Run actions/checkout@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T17:42:49Z",
+              "completed_at": "2026-11-17T17:43:15Z"
+            },
+            {
+              "name": "Run actions/setup-node@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T17:43:15Z",
+              "completed_at": "2026-11-17T17:43:20Z"
+            },
+            {
+              "name": "Run npm ci",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T17:43:20Z",
+              "completed_at": "2026-11-17T17:43:26Z"
+            },
+            {
+              "name": "Install Chromium before unit and end-to-end browser tests",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T17:43:26Z",
+              "completed_at": "2026-11-17T17:44:01Z"
+            },
+            {
+              "name": "Run npm run check",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T17:44:01Z",
+              "completed_at": "2026-11-17T17:44:06Z"
+            },
+            {
+              "name": "Run npm test",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T17:44:06Z",
+              "completed_at": "2026-11-17T17:44:15Z"
+            },
+            {
+              "name": "Run npm run build",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T17:44:15Z",
+              "completed_at": "2026-11-17T17:50:12Z"
+            },
+            {
+              "name": "Run npm run test:e2e",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T17:50:12Z",
+              "completed_at": "2026-11-17T17:50:36Z"
+            },
+            {
+              "name": "Run npm run build:release",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T17:50:36Z",
+              "completed_at": "2026-11-17T17:56:30Z"
+            },
+            {
+              "name": "Run npm run test:release",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T17:56:30Z",
+              "completed_at": "2026-11-17T18:03:44Z"
+            },
+            {
+              "name": "Run npm run editorial:report > editorial-report.json",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T18:03:44Z",
+              "completed_at": "2026-11-17T18:03:46Z"
+            },
+            {
+              "name": "Run actions/upload-artifact@v6",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T18:03:46Z",
+              "completed_at": "2026-11-17T18:03:47Z"
+            },
+            {
+              "name": "Post Run actions/setup-node@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T18:03:47Z",
+              "completed_at": "2026-11-17T18:03:47Z"
+            },
+            {
+              "name": "Post Run actions/checkout@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T18:03:47Z",
+              "completed_at": "2026-11-17T18:03:47Z"
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-11-17T18:03:47Z",
+              "completed_at": "2026-11-17T18:03:47Z"
+            }
+          ]
+        }
+      ],
+      "decodedLogEvidence": {
+        "checkedAt": "2026-11-17T18:06:42.823Z",
+        "success": true,
+        "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+        "runId": 44139964870,
+        "jobId": 134239750554,
+        "workflowUrl": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/44139964870",
+        "logFile": "github-job-134239750554.log",
+        "decodedLogSha256": "8245e2822c4d39fb447a92e9b700c6d94caf3dcf16e3d915e1315d540b14de57",
+        "bytes": 331437,
+        "lines": 2699,
+        "counts": {
+          "unit": 107,
+          "navigation": 28,
+          "production": 972,
+          "total": 1107
+        },
+        "builtHtmlPages": [
+          1008,
+          1006
+        ],
+        "buildSteps": [
+          {
+            "name": "Run npm run build",
+            "mode": "preview",
+            "builtHtmlPages": 1008,
+            "loggedHtmlPaths": 1008,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run build:release",
+            "mode": "production",
+            "builtHtmlPages": 1006,
+            "loggedHtmlPaths": 1006,
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ],
+        "previewProductionDifference": {
+          "file": "github-ci-preview-production-difference.json",
+          "sha256": "0206c5cae9c1ace4adcccd3cf6328e05446a849b10bd572118e29a032ce37bd7"
+        },
+        "sourceCommitPresentInDecodedLog": true,
+        "allSixRequiredVerificationStepsSucceeded": true,
+        "method": "Actual decoded GitHub job log fetched through the authorized GitHub connector after API-confirmed completion; saved as UTF-8 with LF newlines. Counts derived independently from the real summary in each named step. No guessed, reconstructed or storage-redirect-bypassed log."
+      }
+    }
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-17T18:00:02.689Z",
+    "commit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "daf6afb5-e18e-48bf-9220-a9d67155da03",
+        "canonicalCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+        "deploymentId": "daf6afb5-e18e-48bf-9220-a9d67155da03",
+        "commit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-17T17:59:25.423771Z",
+          "ended_on": "2026-11-17T17:59:44.094578Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-17T17:43:12.918393Z",
+            "ended_on": "2026-11-17T17:43:12.931187Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-17T17:43:12.931187Z",
+            "ended_on": "2026-11-17T17:43:17.430532Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-17T17:43:17.430532Z",
+            "ended_on": "2026-11-17T17:44:37.539349Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-17T17:44:37.539349Z",
+            "ended_on": "2026-11-17T17:59:25.423771Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-17T17:59:25.423771Z",
+            "ended_on": "2026-11-17T17:59:44.094578Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "0d3da755-441c-430e-ac4c-bc03df000f81",
+        "canonicalCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+        "deploymentId": "0d3da755-441c-430e-ac4c-bc03df000f81",
+        "commit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-17T17:44:19.29797Z",
+          "ended_on": "2026-11-17T17:44:29.065743Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-17T17:43:14.988864Z",
+            "ended_on": "2026-11-17T17:43:14.992869Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-17T17:43:14.992869Z",
+            "ended_on": "2026-11-17T17:43:18.427003Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-17T17:43:18.427003Z",
+            "ended_on": "2026-11-17T17:44:13.1833Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-17T17:44:13.1833Z",
+            "ended_on": "2026-11-17T17:44:19.29797Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-17T17:44:19.29797Z",
+            "ended_on": "2026-11-17T17:44:29.065743Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true,
+    "checkoutProof": {
+      "checkedAt": "2026-11-17T18:00:12.233Z",
+      "success": true,
+      "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+      "proofs": [
+        {
+          "checkedAt": "2026-11-17T18:00:02.689Z",
+          "project": "maletafeliz-web",
+          "deploymentId": "daf6afb5-e18e-48bf-9220-a9d67155da03",
+          "commit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+          "entries": 1110,
+          "logSha256": "ba5751019cb6fc98d77b27c89afe8557d6f1aa70525abd724b7b83b1f6bb3cef",
+          "releaseCommandPresent": true,
+          "checkoutMarkerPresent": true,
+          "builtPages": "1006"
+        },
+        {
+          "checkedAt": "2026-11-17T18:00:02.689Z",
+          "project": "maletafeliz-www",
+          "deploymentId": "0d3da755-441c-430e-ac4c-bc03df000f81",
+          "commit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+          "entries": 23,
+          "logSha256": "6f17b3327b5e15e3b5fcfeb4bf127146fb9204e9ae154bdacc4ad3f3c5016781",
+          "releaseCommandPresent": false,
+          "checkoutMarkerPresent": true
+        }
+      ],
+      "method": "Actual Cloudflare build log HEAD marker, matching deployment full commit metadata and canonical production state. WWW is the existing redirect project, not an Astro build."
+    }
+  },
+  "https": {
+    "counts": {
+      "originalTopics": 2,
+      "localizedVersionsVerified": 4,
+      "photoFilesVerified": 50,
+      "searchVersionsVerified": 4,
+      "googlebotUaProbes": 6,
+      "actualHttpsRequests": 86,
+      "sitemapUrls": 1000
+    },
+    "sha256": "e88f4c463714b5f587de7abaeeb1fa6145449c39a293fc147c006975e9b93877"
+  },
+  "wholeSiteVerification": {
+    "sitemapUrls": 1000,
+    "guideVersions": 456,
+    "errors": 0,
+    "sha256": "1496740079635c15791a7692fe3dcff3840c78650bc8199d81e43bb32353c6c7",
+    "run": {
+      "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+      "startedAt": "2026-11-17T18:01:11.706Z",
+      "finishedAt": "2026-11-17T18:03:40.869Z",
+      "exitCode": 0,
+      "outputSha256": "1496740079635c15791a7692fe3dcff3840c78650bc8199d81e43bb32353c6c7",
+      "httpVerified": true,
+      "checkedRequests": 1010,
+      "sitemapUrls": 1000,
+      "guideVersions": 456
+    }
+  },
+  "browser": {
+    "flows": 8,
+    "screenshots": 14,
+    "sha256": "01eb9f167da76e44b001f4b89e6aa754f9fd1283c3f9af9244b14558cf6a6cb7",
+    "visualReview": {
+      "reviewedAt": "2026-11-17T18:08:06.855876+00:00",
+      "success": true,
+      "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+      "reviewer": "Codex root",
+      "contactSheets": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n17/public-contact-mobile-guides-es.jpg",
+          "sha256": "70d3b6e3af6ad29fe2a29a46c3b2f0bd4b111109977e9f2a7c00b9dbc217ea86",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n17/public-contact-desktop-guides-es.jpg",
+          "sha256": "c759c38325c31df670cd7269baad941adf030267aa8c9f827f488bd7c3b5a415",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n17/public-contact-mobile-guides-en.jpg",
+          "sha256": "e8b0d09b2f92d3ea9a5f5d8cc45e961033ce628638573e93e87cbfe53c57134c",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n17/public-contact-desktop-guides-en.jpg",
+          "sha256": "7e4af222e0ed7b3b27b1c324c079dc97413bad3c1dc5c26e6366c2368cd0aa3d",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n17/public-contact-navigation.jpg",
+          "sha256": "ab8edc43e0bff0c80bf694047c0f5254039c5b9869a26183af2da6486ff45ff1",
+          "actuallyViewed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "public-functional-es-390-menu.png",
+          "sha256": "1d6470e6d7ef82090e2fd9417d925f812c2e514a8f8da2c62c7f6b21e29ebc3b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-390-search.png",
+          "sha256": "621648ce72a6afd9d9480bdf8a33ba52b8a36436072199e4f2f8868499a66cd5",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-kamakura-es-390.png",
+          "sha256": "ddeb13dd932d85fbab6cfc413ea1e7e6886c1657a5a3963045ddc62bde1260df",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-zacatecas-es-390.png",
+          "sha256": "8aa1f77cd7b0de68cb7e2c77fc1a922862bc565cdd334c5e542632c9832f5640",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-1440-search.png",
+          "sha256": "e42d8e105f55a471306599a5a5c0746049a67a76e5170705fdd8d574c24463ab",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-kamakura-es-1440.png",
+          "sha256": "89a09d765f7a4449dc691e719e04467d424cf0ed6034b8a2259eb79b7f618528",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-zacatecas-es-1440.png",
+          "sha256": "983b203e05bca2bc570d0ce300a0f6449162539c984b3ba3987d35be6e474c92",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-menu.png",
+          "sha256": "9e7148b080af73c57900f9ddc8618f9e0e92327eb50d477d3a23e006e192c515",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-search.png",
+          "sha256": "70cc72e15b99a873246627fffd47a04bfb1ec58dceacd19b0d54de47265def31",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-kamakura-en-390.png",
+          "sha256": "12ac2235671020b68c423c047a89e50f864569b549555903ac1e16546e746378",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-zacatecas-en-390.png",
+          "sha256": "e7bc627ffa8512d528c95c5fa309d765d7fa5008df520b2dd85fecceb184c5c5",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-1440-search.png",
+          "sha256": "9cfcbdb046d87cf0d2fedfb4efd2879478f274c1d9d8f39186c42f0206123133",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-kamakura-en-1440.png",
+          "sha256": "e482246177d6441a451d558ae510887ba26dc75a6504e2220a598c68c1568d22",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-zacatecas-en-1440.png",
+          "sha256": "df65969ab4f8fbed1b92e8c7b2e9a067d48d666dbaea127db95c464e7c1fc43a",
+          "actuallyViewedInContactSheet": true
+        }
+      ],
+      "observations": [
+        "Root actually displayed all five generated contact sheets, covering all14realbrowser screenshots across ES/EN and390/1440px. Localized titles/descriptions wrap legibly, logo/header stay intact without menu overlap, and cover photographs show the correct Great Buddha and Bufa subjects.",
+        "Mobile menus are the existing intentional dropdown over page content; branding and links remain visible/reachable. Search cards, query fields and locale labels are correctly rendered. No clipping, distortion or horizontal overflow observed; browser geometry and all photo natural-width checks passed.",
+        "Ad placements remain reserved in both layouts. External ad/Analytics providers were isolated only in functional QA to avoid impressions/collection; no external creative-delivery, PageSpeed or Googleindexing result is claimed. All prior design/ad/source files were independently byte- and HTML-profile preserved."
+      ]
+    }
+  },
+  "editorialIntegrationSha256": "a1afb9669a98d40c5acd4a2217743c798e5a9c3407c1b5f79c63ab6f955d70ae",
+  "preservationSha256": "e0352bba6dcaf372d6a2289c8e09aae7d6775bbe179d2f9bcae75be5bf9c24f1",
+  "reservation": {
+    "day": "2026-11-17",
+    "commit": "ef61b06200e816fd3d3bdd7dd690079eefd14b11",
+    "createdAt": "2026-11-17T17:11:01.071Z",
+    "executionBaseCommit": "52464ac520e9c32019a61cf670d769a876a97557",
+    "planAddedBeforeReservation": true,
+    "planAddedProofSha256": "81b9376692986a37ffa65e9c49205c50e28d7b65eb00121f1cf4ad5428a78e1b",
+    "reservationProofSha256": "71a1a24269156b5ecc2575622492743fdee23bdf40b5ad83a4ff26efcd6a84a6",
+    "pushVerificationSha256": "b4c1f3629a9e26093c1cb0ed2e11d0b1ed0104c11631109b0cd699c4e06ce694"
+  },
+  "googleIndexationVerified": false,
+  "schedulerAttributionVerified": false,
+  "dailyScheduleTargetUnchanged": 2,
+  "notes": "Two genuinely new originals first published on November17 after the zero-original New York census. All previous226 originals, dates, assets and configuration are preserved. Local143 cases include only eight focused production cases; the mandatory exact-source GitHub suite independently passed972 production cases and1107 total. No Google indexing, ranking or unattended scheduling attribution is established.",
+  "inventoryMetadataVerification": {
+    "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+    "verificationFile": "editorial/verification/2026-11-17-publication.json",
+    "wholeSiteCheckedAt": "2026-11-17T18:03:40.327Z",
+    "sitemapUrls": 1000,
+    "localizedGuideHtmlPages": 456,
+    "newOriginals": 2,
+    "newLocalizations": 4,
+    "selectedPhotoFilesVerified": 50,
+    "duplicateTitlesWithinLocale": 0,
+    "httpChecksScope": "Actual unchanged whole-site verifier.checked length; independent phases are not added.",
+    "supersededInventorySha256": "d388491ed6a8613cf979abbbb40c38fe6cfbe4fc03290416fa030b3d0671fb48"
+  }
+}

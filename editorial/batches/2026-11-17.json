@@ -2,20 +2,48 @@
   "id": "2026-11-17",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-17T17:11:01.071Z",
-  "status": "reserved-not-generated",
+  "status": "published",
   "topicIds": [
     "kamakura",
     "zacatecas"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "63b26dca-782b-4538-bab9-4b9dbef4fafc",
     "baseCommit": "52464ac520e9c32019a61cf670d769a876a97557",
     "startedAt": "2026-11-17T17:10:59.127070+00:00",
-    "heartbeatAt": "2026-11-17T17:11:01.115562+00:00",
-    "leaseUntil": "2026-11-17T23:11:01.115562+00:00",
-    "status": "in-progress"
-  }
+    "heartbeatAt": "2026-11-17T18:09:11.576Z",
+    "leaseUntil": "2026-11-17T18:09:11.576Z",
+    "status": "completed-verified",
+    "completedAt": "2026-11-17T18:09:11.576Z"
+  },
+  "publishedTopicIds": [
+    "kamakura",
+    "zacatecas"
+  ],
+  "verifiedTopicCount": 2,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 19,
+  "publishedCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+  "publiclyVerifiedAt": "2026-11-17T18:09:11.576Z",
+  "firstPublicationNewYorkDate": "2026-11-17",
+  "publicVerification": "editorial/verification/2026-11-17-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-kamakura-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-zacatecas-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-kamakura-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-zacatecas-5-places/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "kamakura",
+    "zacatecas"
+  ]
 }

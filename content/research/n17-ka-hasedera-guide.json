@@ -1,0 +1,32 @@
+{
+  "url": "https://www.hasedera.jp/en/guide/",
+  "finalUrl": "https://www.hasedera.jp/en/guide/",
+  "fetchedAt": "2026-11-17T17:11:39.624Z",
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "contentSha256": "98e87f924480aa4e42c1dd339a52a3480feafbaa7de3504ddc81af4587fec2dd",
+  "textSha256": "83d6fa685399f8cff943d4f58f078bbc38747e68c5a84cc901d51051b310e67b",
+  "facts": [
+    {
+      "fact": "July–March closes at 17:00 with last entry at 16:30.",
+      "excerpt": "July - March\n08:00 – 17:00 (last entry at 16:30)",
+      "location": "Readable text capture, exact substring at character 154"
+    },
+    {
+      "fact": "April–June closes at 17:30 with last entry at 17:00.",
+      "excerpt": "April - June\n08:00 – 17:30 (last entry at 17:00)",
+      "location": "Readable text capture, exact substring at character 203"
+    },
+    {
+      "fact": "The adult admission is 400 yen.",
+      "excerpt": "Adults\n400 yen",
+      "location": "Readable text capture, exact substring at character 267"
+    }
+  ],
+  "actuallyRead": true,
+  "readBy": "Codex Kamakura editorial research agent",
+  "readAt": "2026-11-17T17:19:21.685235+00:00",
+  "notes": "Actual official response and readable text read in full. Exact raw/text captures are retained and SHA-256 checked; facts have complete supporting extracts. Broader reading contexts remain private. Research evidence is not article approval; future prices/hours require reconfirmation.",
+  "rawFile": "content/research/raw/n17-ka-hasedera-guide.raw",
+  "textFile": "content/research/raw/n17-ka-hasedera-guide.txt"
+}

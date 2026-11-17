@@ -1,0 +1,1023 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+    <title>INTRODUCTION | KAMAKURA HASEDERA</title>
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+
+    <link rel="apple-touch-icon" href="//www.hasedera.jp/common/img/webclip.png" />
+    <link rel="shortcut icon" href="//www.hasedera.jp/common/img/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="alternate" hreflang="ja" href="https://www.hasedera.jp/about/">
+    <link rel="alternate" hreflang="en" href="https://www.hasedera.jp/en/about/">
+    <link rel="alternate" hreflang="zh-cn" href="https://www.hasedera.jp/cn/about/">
+    <link rel="alternate" hreflang="ko" href="https://www.hasedera.jp/ko/about/">
+    <script>
+        /* "passive" が使えるかどうかを検出 */
+        var passiveSupported = false;
+        try {
+            document.addEventListener("test", null, Object.defineProperty({}, "passive", {
+                get: function () {
+                    passiveSupported = true;
+                }
+            }));
+        } catch (err) { }
+
+        /* リスナーを登録 */
+        document.addEventListener('touchstart', function listener(e) {
+            /* do something */
+            if (event.touches.length > 1) {
+                e.preventDefault();
+            }
+        }, passiveSupported ? { passive: false } : false);
+    </script>
+
+</head>
+
+<body class="page about">
+
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+    <div id="miniMenu" class="mini-menu"><span class="mini-menu__name">HASEDERA</span><span class="css-down"></span>
+    </div>
+    <header class="site-hd" id="siteHD">
+        <nav class="site-hd-nav">
+            <div class="container">
+                <ul class="site-hd-nav__lst">
+                    <li class="site-hd-nav__itm"><a class="site-hd-nav__lnk" href="//www.hasedera.jp/">日本語</a></li>
+                    <li class="site-hd-nav__itm"><a class="site-hd-nav__lnk" href="//www.hasedera.jp/en/">English</a>
+                    </li>
+                    <li class="site-hd-nav__itm"><a class="site-hd-nav__lnk" href="//www.hasedera.jp/cn/" />中文</a></li>
+                    <li class="site-hd-nav__itm"><a class="site-hd-nav__lnk" href="//www.hasedera.jp/ko/">한국어</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container site-hd-main">
+            <div class="row">
+                <div class="site-hd__logo col-xs-10 col-sm-7 col-md-8">
+                    <p class="site-hd__logo__txt">
+                        <a href="../" class="site-hd__logo__lnk">HASEDERA</a>
+                    </p>
+                </div>
+                <div class="site-hd__sns hidden-xs col-sm-4 col-md-3">
+                    <ul class="site-hd__sns__lst">
+                        <li class="site-hd__sns__itm"><a target="_blank"
+                                href="https://www.instagram.com/kamakura_hasedera_staff/" class="site-hd__sns__lnk"><img
+                                    src="//www.hasedera.jp/common/img/icon-insta.png" alt="INSTAGRAM"></a></li>
+                        <li class="site-hd__sns__itm"><a target="_blank"
+                                href="https://www.youtube.com/channel/UC0nSa9cWGX8YHBnhDiTjuzQ"
+                                class="site-hd__sns__lnk"><img src="//www.hasedera.jp/common/img/icon-yt.png"
+                                    alt="YouTube"></a></li>
+                        <li class="site-hd__sns__itm"><a target="_blank"
+                                href="https://www.tripadvisor.jp/Attraction_Review-g303156-d319981-Reviews-Hase_dera_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html"
+                                class="site-hd__sns__lnk"><img src="//www.hasedera.jp/common/img/icon-ta.png"
+                                    alt="Trip Adviser"></a></li>
+                    </ul>
+                </div>
+                <div class="site-hd__menu col-xs-2 col-sm-1 col-md-1">
+                    <span id="btnMenu" class="site-hd__menu__lnk">MENU</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-area">
+        <header class="ma-hd">
+            <h1 class="container ma-hd__ttl">INTRODUCTION</h1>
+        </header>
+        <div class="container">
+            <nav class="bc">
+                <span xmlns:v="http://rdf.data-vocabulary.org/#">
+                    <span class="bc__root" typeof="v:Breadcrumb"><a href="../" rel="v:url" property="v:title">HOME</a> ＞
+                        <span class="bc__last">INTRODUCTION</span></span>
+                </span>
+            </nav>
+            <div class="content-area">
+                <section class="ct-sec ct-sec__intro">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>Around 1300 years ago, two sculptors carved two Kannon statues out of a sacred tree. One
+                                of them was enshrined here at Hasedera in Kamakura. It is commonly called “Eleven-headed
+                                Kannon” since it has eleven heads on top of its own head. It measures 9.18 meters tall
+                                and this makes it one of the largest wooden Buddhist statues in Japan.<br>Hesedera
+                                temple resides on a mountain called “Kannon-zan”. The ground holds a large variety of
+                                flowers which bloom throughout the year welcoming visitors. Additionally, the scenic
+                                view from the observation platform on the upper ground is recognized as one of the most
+                                picturesque spots in Kamakura.</p>
+                        </div>
+                        <div class="col-sm-6 ct-sec__right">
+                            <img src="//www.hasedera.jp/common/img/intro-01.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="//www.hasedera.jp/common/img/intro-02.jpg" alt="" class="mb20-xs">
+                        </div>
+                        <div class="col-sm-6">
+                            <p><span class="b">History of Hasedera</span><br>According to the legend, in 721 AD, two
+                                Kannon statues were carved out of one sacred tree in Hatsuse (in the present day Nara
+                                Prefecture). One was enshrined at the Hasedera temple in Nara, the other was thrown into
+                                the ocean with a prayer to make it reappear and save people elsewhere. After the Kannon
+                                statue traveled across the waters for fifteen long years, it finally washed ashore in a
+                                place in the present day Kanagawa Prefecture. In 736 AD, the Hasedera temple in Kamakura
+                                was established to enshrine the Kannon statue. </p>
+                        </div>
+                    </div>
+                    <div class="row ct-sec__intro__thumbs">
+                        <div class="col-sm-3"><img src="//www.hasedera.jp/common/img/intro-03s.jpg" alt=""></div>
+                        <div class="col-sm-3"><img src="//www.hasedera.jp/common/img/intro-04s.jpg" alt=""></div>
+                        <div class="col-sm-3"><img src="//www.hasedera.jp/common/img/intro-05s.jpg" alt=""></div>
+                        <div class="col-sm-3"><img src="//www.hasedera.jp/common/img/intro-06s.jpg" alt=""></div>
+                    </div>
+                </section>
+
+                <section class="ct-sec ct-sec__map" id="map">
+                    <header class="ct-sec__map__head">
+                        <h2 class="ct-sec__ttl ct-sec__ttl__about">Map of Hasedera</h2>
+                        <p class="pt-btn pt-btn__grn pt-btn__map">Please click to see more details</p>
+                    </header>
+                    <div class="map-area">
+                        <img src="../../common/img/about/map.jpg" alt="Bird's-Eye View (Temple Grounds)"
+                            class="map-area__img">
+
+                        <a title="Main Gate" class="map__lnk map__lnk-a" data-src="#spot-a" data-fancybox
+                            href="javascript:;">A</a>
+
+                        <a title="Entrance (Ticket Office)" class="map__lnk map__lnk-b" data-src="#spot-b" data-fancybox
+                            href="javascript:;">B</a>
+
+                        <a title="Benten-do Hall" class="map__lnk map__lnk-c" data-src="#spot-c" href="javascript:;"
+                            data-fancybox="spot-c">C</a>
+                        <a class="map__lnk hidden" href="#spot-c2" data-fancybox="spot-c">C2</a>
+
+                        <a title="Benten-kutsu Cave" class="map__lnk map__lnk-d" data-src="#spot-d" href="javascript:;"
+                            data-fancybox="spot-d">D</a>
+                        <a class="map__lnk hidden" href="#spot-d2" data-fancybox="spot-d">D2</a>
+                        <a class="map__lnk hidden" href="#spot-d3" data-fancybox="spot-d">D3</a>
+
+                        <a title="Daikoku-do Hall" class="map__lnk map__lnk-e" data-src="#spot-e" href="javascript:;"
+                            data-fancybox="spot-e">E</a>
+                        <a class="map__lnk hidden" href="#spot-e2" data-fancybox="spot-e">E2</a>
+                        <a class="map__lnk hidden" href="#spot-e3" data-fancybox="spot-e">E3</a>
+
+                        <a title="Shoin Hall (Shakyo Plactice Room)" class="map__lnk map__lnk-f" data-src="#spot-f"
+                            href="javascript:;" data-fancybox="spot-f">F</a>
+                        <a class="map__lnk hidden" href="#spot-f2" data-fancybox="spot-f">F2</a>
+                        <a class="map__lnk hidden" href="#spot-f3" data-fancybox="spot-f">F3</a>
+
+                        <a title="Nagomi Jizo" class="map__lnk map__lnk-g" data-src="#spot-g" data-fancybox
+                            href="javascript:;">G</a>
+
+                        <a title="Jizo-do Hall" class="map__lnk map__lnk-h" data-src="#spot-h" href="javascript:;"
+                            data-fancybox="spot-h">H</a>
+                        <a class="map__lnk hidden" href="#spot-h2" data-fancybox="spot-h">H2</a>
+                        <a class="map__lnk hidden" href="#spot-h3" data-fancybox="spot-h">H3</a>
+
+                        <a title="Inari-sha (Kakigara-inari)" class="map__lnk map__lnk-i" data-src="#spot-i"
+                            href="javascript:;" data-fancybox="spot-i">I</a>
+                        <a class="map__lnk hidden" href="#spot-i2" data-fancybox="spot-i">I2</a>
+
+                        <a title="Shoro Belfry" class="map__lnk map__lnk-j" data-src="#spot-j" href="javascript:;"
+                            data-fancybox="spot-j">J</a>
+                        <a class="map__lnk hidden" href="#spot-j2" data-fancybox="spot-j">J2</a>
+
+                        <a title="Amida-do Hall" class="map__lnk map__lnk-k" data-src="#spot-k" href="javascript:;"
+                            data-fancybox="spot-k">K</a>
+                        <a class="map__lnk hidden" href="#spot-k2" data-fancybox="spot-k">K2</a>
+                        <a class="map__lnk hidden" href="#spot-k3" data-fancybox="spot-k">K3</a>
+
+                        <a title="Kannon-do Hall" class="map__lnk map__lnk-l" data-src="#spot-l" href="javascript:;"
+                            data-fancybox="spot-l">L</a>
+                        <a class="map__lnk hidden" href="#spot-l2" data-fancybox="spot-l">L2</a>
+                        <a class="map__lnk hidden" href="#spot-l3" data-fancybox="spot-l">L3</a>
+                        <a class="map__lnk hidden" href="#spot-l4" data-fancybox="spot-l">L4</a>
+
+                        <a title="Kannon Museum" class="map__lnk map__lnk-m" data-src="#spot-m" href="javascript:;"
+                            data-fancybox="spot-m">M</a>
+                        <a class="map__lnk hidden" href="#spot-m2" data-fancybox="spot-m">M2</a>
+
+                        <a title="Prospect Path" class="map__lnk map__lnk-n" data-src="#spot-n" href="javascript:;"
+                            data-fancybox="spot-n">N</a>
+                        <a class="map__lnk hidden" href="#spot-n2" data-fancybox="spot-n">N2</a>
+
+                        <a title="Kyozo" class="map__lnk map__lnk-o" data-src="#spot-o" href="javascript:;"
+                            data-fancybox="spot-o">O</a>
+                        <a class="map__lnk hidden" href="#spot-o2" data-fancybox="spot-o">O2</a>
+                        <a class="map__lnk hidden" href="#spot-o3" data-fancybox="spot-o">O3</a>
+
+                        <a title="Observation Platform" class="map__lnk map__lnk-p" data-src="#spot-p" data-fancybox
+                            href="javascript:;">P</a>
+
+                        <a title="Kaikoan" class="map__lnk map__lnk-q" data-src="#spot-q" href="javascript:;"
+                            data-fancybox="spot-q">Q</a>
+                        <a class="map__lnk hidden" href="#spot-q2" data-fancybox="spot-q">Q2</a>
+
+                        <a title="Shuin-jo" class="map__lnk map__lnk-r" data-src="#spot-r" data-fancybox
+                            href="javascript:;">R</a>
+
+                        <a title="Teraya Shop &amp; Cafe" class="map__lnk map__lnk-s" data-src="#spot-s"
+                            href="javascript:;" data-fancybox="spot-s">S</a>
+                        <a class="map__lnk hidden" href="#spot-s2" data-fancybox="spot-s">S2</a>
+
+                        <a title="Parking" class="map__lnk map__lnk-t" data-src="#spot-t" data-fancybox
+                            href="javascript:;">T</a>
+
+                        <a title="Ryo-en Jizo" class="map__lnk map__lnk-u" data-src="#spot-u" data-fancybox
+                            href="javascript:;">U</a>
+
+                        <a title="Information Desk" class="map__lnk map__lnk-v" data-src="#spot-v" data-fancybox
+                            href="javascript:;">V</a>
+
+                        <a title="Administration Office" class="map__lnk map__lnk-w" data-src="#spot-w" data-fancybox
+                            href="javascript:;">W</a>
+
+                    </div>
+
+                    <div id="spot-a" class="spot-box">
+                        <img src="../../common/img/about/a-01b.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Main Gate</h3>
+                        <p class="spot-box__txt">The gate is the forth largest of its kind in Kamakura. A symbolic large
+                            red lantern and gate-shading pine tree welcome the visitors.</p>
+                    </div>
+
+                    <div id="spot-b" class="spot-box">
+                        <img src="../../common/img/about/b-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Entrance (Ticket Office)</h3>
+                        <p class="spot-box__txt">Please purchase your admission tickets here. Electronic money (Suica /
+                            Pasmo cards) can be used at the ticket vending machines. Adults: 400 yen / Children: 200 yen
+                        </p>
+                    </div>
+
+                    <div id="spot-c" class="spot-box">
+                        <img src="../../common/img/about/c-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Benten-do Hall</h3>
+                        <p class="spot-box__txt">Fukutoku-benzaiten, known as the Goddess of music and wisdom is
+                            enshrined inside the hall. It is believed to dispel misfortunes and to give answers to
+                            prayers for developing technical skills. </p>
+                    </div>
+                    <div id="spot-c2" class="spot-box">
+                        <img src="../../common/img/about/c-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Benten-do Hall</h3>
+                        <p class="spot-box__txt">Fukutoku-benzaiten, known as the Goddess of music and wisdom is
+                            enshrined inside the hall. It is believed to dispel misfortunes and to give answers to
+                            prayers for developing technical skills. </p>
+                    </div>
+
+                    <div id="spot-d" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/d-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Benten-kutsu Cave</h3>
+                        <p class="spot-box__txt">This is believed to be the place where Kobo Daishi, the Japanese
+                            Buddhist saint practiced in seclusion. Benzaiten and her followers of the Sixteen Children
+                            are chiseled out of the rock walls in one of the chambers inside the cave. Small statues
+                            called Hono Benzaiten can be placed to offer in the last chamber. Visitors can give a prayer
+                            by writing their wish and name on the statue and leave it there as an offering.</p>
+                    </div>
+                    <div id="spot-d2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/d-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Benten-kutsu Cave</h3>
+                        <p class="spot-box__txt">This is believed to be the place where Kobo Daishi, the Japanese
+                            Buddhist saint practiced in seclusion. Benzaiten and her followers of the Sixteen Children
+                            are chiseled out of the rock walls in one of the chambers inside the cave. Small statues
+                            called Hono Benzaiten can be placed to offer in the last chamber. Visitors can give a prayer
+                            by writing their wish and name on the statue and leave it there as an offering.</p>
+                    </div>
+                    <div id="spot-d3" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/d-03.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Benten-kutsu Cave</h3>
+                        <p class="spot-box__txt">This is believed to be the place where Kobo Daishi, the Japanese
+                            Buddhist saint practiced in seclusion. Benzaiten and her followers of the Sixteen Children
+                            are chiseled out of the rock walls in one of the chambers inside the cave. Small statues
+                            called Hono Benzaiten can be placed to offer in the last chamber. Visitors can give a prayer
+                            by writing their wish and name on the statue and leave it there as an offering.</p>
+                    </div>
+
+                    <div id="spot-e" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/e-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Daikoku-do Hall</h3>
+                        <p class="spot-box__txt">The original statue of Daikokuten, which was carved in 1412, is the
+                            oldest of its type in Kanagawa Prefecture (exhibited only on special occasions). The current
+                            enshrined Daikokuten is believed to give success in life and business. Additionally Sawari
+                            Daikoku, which visitors are able to touch to receive good fortune is housed here as well.
+                        </p>
+                    </div>
+                    <div id="spot-e2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/e-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Daikoku-do Hall</h3>
+                        <p class="spot-box__txt">The original statue of Daikokuten, which was carved in 1412, is the
+                            oldest of its type in Kanagawa Prefecture (exhibited only on special occasions). The current
+                            enshrined Daikokuten is believed to give success in life and business. Additionally Sawari
+                            Daikoku, which visitors are able to touch to receive good fortune is housed here as well.
+                        </p>
+                    </div>
+                    <div id="spot-e3" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/e-03.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Daikoku-do Hall</h3>
+                        <p class="spot-box__txt">The original statue of Daikokuten, which was carved in 1412, is the
+                            oldest of its type in Kanagawa Prefecture (exhibited only on special occasions). The current
+                            enshrined Daikokuten is believed to give success in life and business. Additionally Sawari
+                            Daikoku, which visitors are able to touch to receive good fortune is housed here as well.
+                        </p>
+                    </div>
+
+                    <div id="spot-f" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/f-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Shoin Hall (Shakyo Plactice Room)</h3>
+                        <p class="spot-box__txt">Shoin hall has a shakyo practice room in which visitors can copy sutras
+                            as a part of their Buddhist practice. <a href="../sutra/">→More</a><br>A Karesansui garden
+                            or Japanese rock garden sits in front of the hall. This exquisite garden is a kind of
+                            traditional Japanese garden. It represents streams without the use of water but with rocks
+                            and small stones, the lines drawn by small rocks express the flow of water.</p>
+                    </div>
+                    <div id="spot-f2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/f-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Shoin Hall (Shakyo Plactice Room)</h3>
+                        <p class="spot-box__txt">Shoin hall has a shakyo practice room in which visitors can copy sutras
+                            as a part of their Buddhist practice. <a href="../sutra/">→More</a><br>A Karesansui garden
+                            or Japanese rock garden sits in front of the hall. This exquisite garden is a kind of
+                            traditional Japanese garden. It represents streams without the use of water but with rocks
+                            and small stones, the lines drawn by small rocks express the flow of water.</p>
+                    </div>
+                    <div id="spot-f3" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/f-03.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Shoin Hall (Shakyo Plactice Room)</h3>
+                        <p class="spot-box__txt">Shoin hall has a shakyo practice room in which visitors can copy sutras
+                            as a part of their Buddhist practice. <a href="../sutra/">→More</a><br>A Karesansui garden
+                            or Japanese rock garden sits in front of the hall. This exquisite garden is a kind of
+                            traditional Japanese garden. It represents streams without the use of water but with rocks
+                            and small stones, the lines drawn by small rocks express the flow of water.</p>
+                    </div>
+
+                    <div id="spot-g" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/g-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Nagomi Jizo</h3>
+                        <p class="spot-box__txt">This Nagomi Jizo statue was placed to give a peace of mind to visitors
+                            in 2010. It is also a popular photo-spot as you can be in a picture with the smiling Nagomi
+                            Jizo.</p>
+                    </div>
+
+                    <div id="spot-h" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/h-01b.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Jizo-do Hall</h3>
+                        <p class="spot-box__txt">The hall appears after taking the stairs from the lower level.
+                            Surrounding the hall, a large number of Jizo statues called Sentai Jizo or Thousand Jizo
+                            stand in long rows. Jizo is a Buddhist deity believed to protect children and give
+                            prosperity to one’s descendant. Mizukake Jizo (water-pouring Jizo) is placed near the hall
+                            as well. It is believed that one can purify one’s mind by gently pouring water over the
+                            statue.</p>
+                    </div>
+                    <div id="spot-h2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/h-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Jizo-do Hall</h3>
+                        <p class="spot-box__txt">The hall appears after taking the stairs from the lower level.
+                            Surrounding the hall, a large number of Jizo statues called Sentai Jizo or Thousand Jizo
+                            stand in long rows. Jizo is a Buddhist deity believed to protect children and give
+                            prosperity to one’s descendant. Mizukake Jizo (water-pouring Jizo) is placed near the hall
+                            as well. It is believed that one can purify one’s mind by gently pouring water over the
+                            statue.</p>
+                    </div>
+                    <div id="spot-h3" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/h-03.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Jizo-do Hall</h3>
+                        <p class="spot-box__txt">The hall appears after taking the stairs from the lower level.
+                            Surrounding the hall, a large number of Jizo statues called Sentai Jizo or Thousand Jizo
+                            stand in long rows. Jizo is a Buddhist deity believed to protect children and give
+                            prosperity to one’s descendant. Mizukake Jizo (water-pouring Jizo) is placed near the hall
+                            as well. It is believed that one can purify one’s mind by gently pouring water over the
+                            statue.</p>
+                    </div>
+
+                    <div id="spot-i" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/i-01b.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Inari-sha (Kakigara-inari)</h3>
+                        <p class="spot-box__txt">This shrine is found with many red flags on the side. It was
+                            established to enshrine Kakigara (oyster shells) to receive the divine guidance of Kannon.
+                            According to the legend, it has been told that Kakigara protected the Kannon statue when
+                            drifting across the sea, as they attached to the statue and guided Kannon to the shore.</p>
+                    </div>
+                    <div id="spot-i2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/i-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Inari-sha (Kakigara-inari)</h3>
+                        <p class="spot-box__txt">This shrine is found with many red flags on the side. It was
+                            established to enshrine Kakigara (oyster shells) to receive the divine guidance of Kannon.
+                            According to the legend, it has been told that Kakigara protected the Kannon statue when
+                            drifting across the sea, as they attached to the statue and guided Kannon to the shore.</p>
+                    </div>
+
+                    <div id="spot-j" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/j-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Shoro Belfry</h3>
+                        <p class="spot-box__txt">The original bell which was casted in 1264 is the third oldest bell in
+                            Kamakura. It was designated as an Important Cultural Property of Japan in 1953, and is
+                            currently exhibited in the Kannon Museum. The present temple bell was newly casted in 1984.
+                            It is struck at 8 O’clock every morning when the entrance gate opens.</p>
+                    </div>
+                    <div id="spot-j2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/j-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Shoro Belfry</h3>
+                        <p class="spot-box__txt">The original bell which was casted in 1264 is the third oldest bell in
+                            Kamakura. It was designated as an Important Cultural Property of Japan in 1953, and is
+                            currently exhibited in the Kannon Museum. The present temple bell was newly casted in 1984.
+                            It is struck at 8 O’clock every morning when the entrance gate opens.</p>
+                    </div>
+
+                    <div id="spot-k" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/k-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Amida-do Hall</h3>
+                        <p class="spot-box__txt">The Amida statue in the hall is told to be carved to ward off evil for
+                            Minamoto no Yoritomo, who was the first shogun of the Kamakura shogunate of Japan. It has
+                            been called Yakuyoke Amida or Amida of expelling evil spirits and misfortune in later
+                            years.<br>This Amida statue represents one of Kamakura’s Six Amida. In addition, a large
+                            mokugyo (temple’s wood block to sound when chanting) sits inside the hall. It measures 105
+                            cm in width, which makes it the largest mokugyo in Japan.</p>
+                    </div>
+                    <div id="spot-k2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/k-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Amida-do Hall</h3>
+                        <p class="spot-box__txt">The Amida statue in the hall is told to be carved to ward off evil for
+                            Minamoto no Yoritomo, who was the first shogun of the Kamakura shogunate of Japan. It has
+                            been called Yakuyoke Amida or Amida of expelling evil spirits and misfortune in later
+                            years.<br>This Amida statue represents one of Kamakura’s Six Amida. In addition, a large
+                            mokugyo (temple’s wood block to sound when chanting) sits inside the hall. It measures 105
+                            cm in width, which makes it the largest mokugyo in Japan.</p>
+                    </div>
+                    <div id="spot-k3" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/k-03.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Amida-do Hall</h3>
+                        <p class="spot-box__txt">The Amida statue in the hall is told to be carved to ward off evil for
+                            Minamoto no Yoritomo, who was the first shogun of the Kamakura shogunate of Japan. It has
+                            been called Yakuyoke Amida or Amida of expelling evil spirits and misfortune in later
+                            years.<br>This Amida statue represents one of Kamakura’s Six Amida. In addition, a large
+                            mokugyo (temple’s wood block to sound when chanting) sits inside the hall. It measures 105
+                            cm in width, which makes it the largest mokugyo in Japan.</p>
+                    </div>
+
+                    <div id="spot-l" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/l-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Kannon-do Hall</h3>
+                        <p class="spot-box__txt">(Exterior) According to the legend, the original Kannon-do hall was
+                            established in 736, when the Kannon statue washed ashore. Although it has been reconstructed
+                            a number of times in later years, one time experiencing the Great Kanto Earthquake in 1923
+                            the hall became devastated. The present Kannon-do hall was built of reinforced concrete to
+                            enshrine the Kannon statue protectively. The total reconstruction was finally completed in
+                            1985, after more than 60 years since the disaster.</p>
+                    </div>
+                    <div id="spot-l2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/l-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Kannon-do Hall</h3>
+                        <p class="spot-box__txt">(Kannon) According to the legend, about 1300 years ago, two Kannon
+                            statues were carved out of a sacred tree in Hatsuse in the present day Nara Prefecture. One
+                            of the Kannon statues was enshrined at the Hasedera temple in Nara, the other was thrown
+                            into the sea with a prayer to reappear and save people elsewhere. After Kannon’s journey of
+                            fifteen long years, it finally washed ashore in a place in the present day Kanagawa
+                            Prefecture. Then it was brought up here to the Hasedera temple in Kamakura.<br>The Kannon
+                            statue is 9.18 meters tall and this makes it one of the largest wooden Buddhist statues in
+                            Japan. It has eleven heads on top of its own head. It is commonly called Jyu-ichi-men
+                            Kannon, or eleven-headed Kannon.</p>
+                    </div>
+                    <div id="spot-l3" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/l-03.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Kannon-do Hall</h3>
+                        <p class="spot-box__txt">(Kannon) According to the legend, about 1300 years ago, two Kannon
+                            statues were carved out of a sacred tree in Hatsuse in the present day Nara Prefecture. One
+                            of the Kannon statues was enshrined at the Hasedera temple in Nara, the other was thrown
+                            into the sea with a prayer to reappear and save people elsewhere. After Kannon’s journey of
+                            fifteen long years, it finally washed ashore in a place in the present day Kanagawa
+                            Prefecture. Then it was brought up here to the Hasedera temple in Kamakura.<br>The Kannon
+                            statue is 9.18 meters tall and this makes it one of the largest wooden Buddhist statues in
+                            Japan. It has eleven heads on top of its own head. It is commonly called Jyu-ichi-men
+                            Kannon, or eleven-headed Kannon.</p>
+                    </div>
+                    <div id="spot-l4" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/l-04.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Kannon-do Hall</h3>
+                        <p class="spot-box__txt">(Entrance) A counter with charms is found on the left side right after
+                            the entrance. Visitors can purchase charms here.</p>
+                    </div>
+
+                    <div id="spot-m" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/m-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Kannon Museum</h3>
+                        <p class="spot-box__txt">The museum exhibits valued historic treasures of Hasedera temple. It
+                            consists of three exhibition spaces. A large digital screen and touch screens are there for
+                            the visitors to acquire better knowledge of Kannon and its faith. Adults: 300 yen /
+                            Children: 150 yen (Closes occasionally between exhibitions)<br><a
+                                href="//www.kannon-museum.jp/pdf/kannon_english.pdf" target="_blank">→ to the Kannon
+                                Museum Website</a></p>
+                    </div>
+                    <div id="spot-m2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/m-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Kannon Museum</h3>
+                        <p class="spot-box__txt">The museum exhibits valued historic treasures of Hasedera temple. It
+                            consists of three exhibition spaces. A large digital screen and touch screens are there for
+                            the visitors to acquire better knowledge of Kannon and its faith. Adults: 300 yen /
+                            Children: 150 yen (Closes occasionally between exhibitions)<br><a
+                                href="//www.kannon-museum.jp/pdf/kannon_english.pdf" target="_blank">→ to the Kannon
+                                Museum Website</a></p>
+                    </div>
+
+                    <div id="spot-n" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/n-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Prospect Path</h3>
+                        <p class="spot-box__txt">This path turns into the "Hydrangea Path" in June during the raining
+                            season, when hydrangea flowers come to bloom. The path offers more than 40 kinds of
+                            hydrangea flowers and a splendid view.</p>
+                    </div>
+                    <div id="spot-n2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/n-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Prospect Path</h3>
+                        <p class="spot-box__txt">This path turns into the "Hydrangea Path" in June during the raining
+                            season, when hydrangea flowers come to bloom. The path offers more than 40 kinds of
+                            hydrangea flowers and a splendid view.</p>
+                    </div>
+
+                    <div id="spot-o" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/o-01b.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Kyozo</h3>
+                        <p class="spot-box__txt">Kyozo is a repository for storing Buddhist scriptures. Such as
+                            visitor’s shakyo (hand-copied sutra) can be added to the Kyozo files where they are stored
+                            for a very long time. Hasedera’s Kyozo also places Rinzo inside, which is a rotary bookshelf
+                            for scriptures. It is believed that when you rotate the Rinzo once, you will receive the
+                            same virtue as when you recite all scriptures stored inside. The Rinzo bookshelf can be
+                            turned on the 18th of every month, January 1st – 3rd, April 8th and August 10th.</p>
+                    </div>
+                    <div id="spot-o2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/o-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Kyozo</h3>
+                        <p class="spot-box__txt">Kyozo is a repository for storing Buddhist scriptures. Such as
+                            visitor’s shakyo (hand-copied sutra) can be added to the Kyozo files where they are stored
+                            for a very long time. Hasedera’s Kyozo also places Rinzo inside, which is a rotary bookshelf
+                            for scriptures. It is believed that when you rotate the Rinzo once, you will receive the
+                            same virtue as when you recite all scriptures stored inside. The Rinzo bookshelf can be
+                            turned on the 18th of every month, January 1st – 3rd, April 8th and August 10th.</p>
+                    </div>
+                    <div id="spot-o3" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/o-03.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Kyozo</h3>
+                        <p class="spot-box__txt">(Prayer wheel) Prayer wheels or Mani wheels are religious implements
+                            used in Tibetan Buddhism. It is believed that when you turn these you can receive the same
+                            virtue as when you recite the sutras stored inside the cylinders.</p>
+                    </div>
+
+                    <div id="spot-p" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/p-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Observation Platform</h3>
+                        <p class="spot-box__txt">This observation platform overlooking the townscape of Kamakura and the
+                            ocean is known as one of the best view points in Kamakura. Tables and chairs are offered for
+                            visitors to relax and enjoy their time.</p>
+                    </div>
+
+                    <div id="spot-q" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/q-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Kaikoan</h3>
+                        <p class="spot-box__txt">Kaikoan is a restaurant located in the Hasedera temple. You can enjoy
+                            meals and a panoramic view of the sea from the windows at the restaurant.</p>
+                    </div>
+                    <div id="spot-q2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/q-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Kaikoan</h3>
+                        <p class="spot-box__txt">Kaikoan is a restaurant located in the Hasedera temple. You can enjoy
+                            meals and a panoramic view of the sea from the windows at the restaurant.</p>
+                    </div>
+
+                    <div id="spot-r" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/r-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Shuin-jo</h3>
+                        <p class="spot-box__txt">Shuin-jo is a place to receive go-shuin stamps. It can be found on the
+                            left side right after the entrance.<br><a href="../more/index.html#temple-stamp">→ What is
+                                go-shuin?</a></p>
+                    </div>
+
+                    <div id="spot-s" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/s-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Teraya Shop &amp; Cafe</h3>
+                        <p class="spot-box__txt">Teraya Shop, which is located before the entrance, on the corner of the
+                            ticket office offers various items such as Hasedera’s special souvenirs, goods and
+                            confectionery. Teraya cafe is next to the shop, welcoming visitors as well.</p>
+                    </div>
+                    <div id="spot-s2" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/s-02.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Teraya Shop &amp; Cafe</h3>
+                        <p class="spot-box__txt">Teraya Shop, which is located before the entrance, on the corner of the
+                            ticket office offers various items such as Hasedera’s special souvenirs, goods and
+                            confectionery. Teraya cafe is next to the shop, welcoming visitors as well.</p>
+                    </div>
+
+                    <div id="spot-t" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/t-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Parking</h3>
+                        <p class="spot-box__txt">Parking is available for up to 30 passenger cars and 4 large-sized
+                            buses. Reservations are not accepted.</p>
+                    </div>
+
+                    <div id="spot-u" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/u-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Ryo-en Jizo</h3>
+                        <p class="spot-box__txt">Ryo-en Jizo is a group of three little Jizo statues, which visitors can
+                            find in three different locations within the Temple.</p>
+                    </div>
+
+                    <div id="spot-v" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/v-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Information Desk</h3>
+                        <p class="spot-box__txt">The information desk can be found after the entrance. Visitors are
+                            welcome to come here for any questions.</p>
+                    </div>
+
+                    <div id="spot-w" class="spot-box">
+                        <img src="//www.hasedera.jp/common/img/about/w-01.jpg" alt="" class="spot-box__img">
+                        <h3 class="spot-box__ttl">Administration Office</h3>
+                        <p class="spot-box__txt">The office can help visitors with general inquiries about visiting the
+                            temple.</p>
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+    </main>
+    <nav class="container ft-nav">
+        <nav class="bc">
+            <span xmlns:v="http://rdf.data-vocabulary.org/#">
+                <span class="bc__root" typeof="v:Breadcrumb"><a href="../" rel="v:url" property="v:title">HOME</a> ＞
+                    <span class="bc__last">INTRODUCTION</span></span>
+            </span>
+        </nav>
+
+        <div class="row nav-area">
+
+            <div class="col-xs-4 nav-box nav-box__about">
+
+                <a href="../about/" class="nav-box__lnk">
+
+                    <h2 class="nav-box__ttl">INTRODUCTION</h2>
+                </a>
+            </div>
+
+            <div class="col-xs-4 nav-box nav-box__map">
+
+                <a href="../about/#map" class="nav-box__lnk">
+
+                    <h2 class="nav-box__ttl">MAP OF HASEDERA</h2>
+                </a>
+            </div>
+
+            <div class="col-xs-4 nav-box nav-box__guide">
+
+                <a href="../guide/" class="nav-box__lnk">
+
+                    <h2 class="nav-box__ttl">ADMISSION <br>&amp; ACCESS</h2>
+                </a>
+            </div>
+
+            <div class="col-xs-4 nav-box nav-box__garden">
+
+                <a href="../garden/" class="nav-box__lnk">
+
+                    <h2 class="nav-box__ttl">GARDEN</h2>
+                </a>
+            </div>
+
+            <div class="col-xs-4 nav-box nav-box__event">
+
+                <a href="../event/" class="nav-box__lnk">
+
+                    <h2 class="nav-box__ttl">ANNUAL EVENTS</h2>
+                </a>
+            </div>
+
+            <div class="col-xs-4 nav-box nav-box__kannon">
+
+                <a href="//www.kannon-museum.jp/pdf/kannon_english.pdf" target="_blank" class="nav-box__lnk">
+
+                    <h2 class="nav-box__ttl">KANNON<span class='hidden-xs'> </span><br class='visible-xs'>MUSEUM</h2>
+                </a>
+            </div>
+
+            <div class="col-xs-4 nav-box nav-box__restaurant">
+
+                <a href="../restaurant/" class="nav-box__lnk">
+
+                    <h2 class="nav-box__ttl">RESTAURANT <br>&amp; SHOP</h2>
+                </a>
+            </div>
+
+            <div class="col-xs-4 nav-box nav-box__sutra">
+
+                <a href="../sutra/" class="nav-box__lnk">
+
+                    <h2 class="nav-box__ttl">SHAKYO</h2>
+                </a>
+            </div>
+
+            <div class="col-xs-4 nav-box nav-box__more">
+
+                <a href="../more/" class="nav-box__lnk">
+
+                    <h2 class="nav-box__ttl">MORE</h2>
+                </a>
+            </div>
+
+        </div>
+
+        <nav class="bc">
+            <span xmlns:v="http://rdf.data-vocabulary.org/#">
+                <span class="bc__root" typeof="v:Breadcrumb"><a href="../" rel="v:url" property="v:title">HOME</a> ＞
+                    <span class="bc__last">INTRODUCTION</span></span>
+            </span>
+        </nav>
+    </nav>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="site-footer__r col-xs-8 col-sm-4 col-md-5">
+                    <div class="site-footer__logo"><img src="//www.hasedera.jp/common/img/ft_logo.png"
+                            alt="KAMAKURA HASEDERA" class="site-footer__logo__img"></div>
+                    <address class="site-footer__adrs">3-11-2 Hase,Kamakura, <br class="visible-xs visible-sm">Kanagawa
+                        JAPAN [<a href="https://goo.gl/maps/7FPS9" target="_blank">google map</a>]<br>TEL
+                        +81-467-22-6300　<br class="visible-sm visible-xs">FAX +81-467-22-6303</address>
+                </div>
+                <div class="site-footer__nav col-sm-5 col-md-5">
+                    <ul class="site-footer__lst site-footer__lst__1">
+                        <li class="site-footer__itm"><a href="../about/" class="site-footer__lnk">INTRODUCTION</a></li>
+                        <li class="site-footer__itm"><a href="../guide/" class="site-footer__lnk">ADMISSION &amp;
+                                ACCESS</a></li>
+                        <li class="site-footer__itm"><a href="../garden/" class="site-footer__lnk">GARDEN</a></li>
+                        <li class="site-footer__itm"><a href="../event/" class="site-footer__lnk">ANNUAL EVENTS</a></li>
+                    </ul>
+                    <ul class="site-footer__lst site-footer__lst__2">
+                        <li class="site-footer__itm"><a href="//www.kannon-museum.jp/pdf/kannon_english.pdf"
+                                class="site-footer__lnk" target="_blank">KANNON MUSEUM</a></li>
+                        <li class="site-footer__itm"><a href="../restaurant/" class="site-footer__lnk">RESTAURANT &amp;
+                                SHOP</a></li>
+                        <li class="site-footer__itm"><a href="../sutra/" class="site-footer__lnk">SHAKYO</a></li>
+                        <li class="site-footer__itm"><a href="../more/" class="site-footer__lnk">MORE</a></li>
+                    </ul>
+                </div>
+                <div class="site-footer__l col-xs-4 col-sm-3 col-md-2">
+                    <div class="site-footer__TA">
+                        <div class="site-footer__TA__inner">
+
+                            <div id="TA_certificateOfExcellence882" class="TA_certificateOfExcellence">
+                                <ul id="8GK96MmSUM" class="TA_links I4VyxpwBCP">
+                                    <li id="jeijDGL" class="6ncxY9IkmCs">
+                                        <a target="_blank"
+                                            href="https://www.tripadvisor.com/Attraction_Review-g303156-d319981-Reviews-Hase_dera_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html"><img
+                                                src="https://www.tripadvisor.com/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png"
+                                                alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO" /></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <script async
+                                src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=882&amp;locationId=319981&amp;lang=en_US&amp;year=2019&amp;display_version=2"
+                                data-loadtrk onload="this.loadtrk=true"></script>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-footer__copy">Copyright© HASEDERA. All Right Reserved.</div>
+    </footer>
+
+    <section class="full-menu" id="fullMenu">
+        <div class="container">
+            <header class="full-menu__hd">
+                <h1 class="full-menu__hd__ttl"><a href="../" class="full-menu__hd__ttl__lnk">HASEDERA</a></h1>
+                <a href="#" id="fullMenuClose" class="full-menu__close"><span class="css-cancel"></span></a>
+            </header>
+            <div class="row">
+                <div class="col-sm-2 full-menu__lang">
+                    <ul class="full-menu__lang__lst">
+                        <li class="full-menu__lang__itm"><a class="full-menu__lang__lnk"
+                                href="//www.hasedera.jp/">日本語</a></li>
+                        <li class="full-menu__lang__itm"><a class="full-menu__lang__lnk current"
+                                href="//www.hasedera.jp/en/">English</a></li>
+                        <li class="full-menu__lang__itm"><a class="full-menu__lang__lnk"
+                                href="//www.hasedera.jp/cn/" />中文</a></li>
+                        <li class="full-menu__lang__itm"><a class="full-menu__lang__lnk"
+                                href="//www.hasedera.jp/ko/">한국어</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 full-menu__pages">
+                    <ul class="full-menu__pages__lst">
+                        <li class="full-menu__pages__itm">
+                            <a href="../" class="full-menu__pages__lnk">HOME</a>
+                        </li>
+
+                        <li class="full-menu__pages__itm">
+
+                            <a href="../about/" class="full-menu__pages__lnk">
+
+                                INTRODUCTION
+                            </a>
+                        </li>
+
+                        <li class="full-menu__pages__itm">
+
+                            <a href="../about/#map" class="full-menu__pages__lnk">
+
+                                MAP OF HASEDERA
+                            </a>
+                        </li>
+
+                        <li class="full-menu__pages__itm">
+
+                            <a href="../guide/" class="full-menu__pages__lnk">
+
+                                ADMISSION &amp; ACCESS
+                            </a>
+                        </li>
+
+                        <li class="full-menu__pages__itm">
+
+                            <a href="../garden/" class="full-menu__pages__lnk">
+
+                                GARDEN
+                            </a>
+                        </li>
+
+                        <li class="full-menu__pages__itm">
+
+                            <a href="../event/" class="full-menu__pages__lnk">
+
+                                ANNUAL EVENTS
+                            </a>
+                        </li>
+
+                        <li class="full-menu__pages__itm">
+
+                            <a href="//www.kannon-museum.jp/pdf/kannon_english.pdf" class="full-menu__pages__lnk"
+                                target="_blank">
+
+                                KANNON MUSEUM
+                            </a>
+                        </li>
+
+                        <li class="full-menu__pages__itm">
+
+                            <a href="../restaurant/" class="full-menu__pages__lnk">
+
+                                RESTAURANT &amp; SHOP
+                            </a>
+                        </li>
+
+                        <li class="full-menu__pages__itm">
+
+                            <a href="../sutra/" class="full-menu__pages__lnk">
+
+                                SHAKYO
+                            </a>
+                        </li>
+
+                        <li class="full-menu__pages__itm">
+
+                            <a href="../more/" class="full-menu__pages__lnk">
+
+                                MORE
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <ul class="full-menu__sns__lst">
+                    <li class="full-menu__sns__itm"><a target="_blank"
+                            href="https://www.instagram.com/kamakura_hasedera_staff/" class="full-menu__sns__lnk"><img
+                                src="//www.hasedera.jp/common/img/icon-insta.png" alt="INSTAGRAM"></a></li>
+                    <li class="full-menu__sns__itm"><a target="_blank"
+                            href="https://www.youtube.com/channel/UC0nSa9cWGX8YHBnhDiTjuzQ"
+                            class="full-menu__sns__lnk"><img src="//www.hasedera.jp/common/img/icon-yt.png"
+                                alt="YouTube"></a></li>
+                    <li class="full-menu__sns__itm"><a target="_blank"
+                            href="https://www.tripadvisor.jp/Attraction_Review-g303156-d319981-Reviews-Hase_dera_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html"
+                            class="full-menu__sns__lnk"><img src="//www.hasedera.jp/common/img/icon-ta.png"
+                                alt="Trip Adviser"></a></li>
+                </ul>
+
+                <div class="col-sm-4 full-menu__adrs">
+
+                    <div class="full-menu__adrs__desc">
+                        3-11-2 Hase,Kamakura, Kanagawa<br>
+                        JAPAN [<a href="https://goo.gl/maps/7FPS9" target="_blank">google map</a>]<br>
+                        TEL +81-467-22-6300<br>
+                        FAX +81-467-22-6303
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#siteHD" class="totop"><i class="fas fa-play fa-rotate-270"></i></a>
+
+    <script src="../../common/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="../../common/js/plugins.js"></script>
+    <script src="../../common/js/main.js"></script>
+
+    <script>
+        // Mini Menu Show
+        $(function () {
+            var nav = $('#miniMenu');
+            var hd = $('#siteHD');
+            //表示位置
+            var hdTop = hd.height();
+            var navHeight = nav.height();
+            var showFlag = false;
+            nav.css('top', -navHeight + 'px');
+            //ナビゲーションの位置まできたら表示
+            $(window).scroll(function () {
+                var winTop = $(this).scrollTop();
+                if (winTop >= hdTop) {
+                    if (showFlag == false) {
+                        showFlag = true;
+                        nav
+                            .addClass('fixed')
+                            .stop().animate({ 'top': '0px' }, 300);
+                    }
+                } else if (winTop <= hdTop) {
+                    if (showFlag) {
+                        showFlag = false;
+                        nav.stop().animate({ 'top': -navHeight + 'px' }, 300, function () {
+                            nav.removeClass('fixed');
+                        });
+                    }
+                }
+            });
+        });
+
+        // Full Menu Show
+        $(function () {
+            var $body = $('body');
+            //開閉用ボタンをクリックでクラスの切替え
+            $('#miniMenu, #btnMenu').on('click', function () {
+                $body.toggleClass('open');
+            });
+            //メニュー名以外の部分をクリックで閉じる
+            $('#fullMenuClose').on('click', function () {
+                $body.removeClass('open');
+            });
+        });
+
+        // Hover Effect in SMP
+        var linkTouchStart = function () {
+            thisAnchor = jQuery(this);
+            touchPos = thisAnchor.offset().top;
+            moveCheck = function () {
+                nowPos = thisAnchor.offset().top;
+                if (touchPos == nowPos) {
+                    thisAnchor.addClass("hover");
+                }
+            }
+            setTimeout(moveCheck, 100);
+        }
+        var linkTouchEnd = function () {
+            thisAnchor = jQuery(this);
+            hoverRemove = function () {
+                thisAnchor.removeClass("hover");
+            }
+            setTimeout(hoverRemove, 500);
+        }
+        jQuery(document).on('touchstart mousedown', 'a', linkTouchStart);
+        jQuery(document).on('touchend mouseup', 'a', linkTouchEnd);
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+            // Your custom options
+        });
+    </script>
+    <script>
+        // totop
+        var topBtn = $('.totop');
+        topBtn.hide();
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                topBtn.fadeIn();
+            } else {
+                topBtn.fadeOut();
+            }
+        });
+        $('a.totop').click(function () {
+            var speed = 400; // ミリ秒
+            var href = $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var position = target.offset().top;
+            $('body,html').animate({ scrollTop: position }, speed, 'swing');
+            return false;
+        });
+    </script>
+</body>
+
+</html>

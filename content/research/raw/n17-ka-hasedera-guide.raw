@@ -1,0 +1,475 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<!-- ejs使えないため手動で拝観時間を修正 221216 -->
+	<meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+  <title>ADMISSION &amp; ACCESS | KAMAKURA HASEDERA</title>
+  <meta name="description" content="">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="apple-touch-icon" href="//www.hasedera.jp/common/img/webclip.png" />
+  <link rel="shortcut icon" href="//www.hasedera.jp/common/img/favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="../css/style.css">
+  
+  <link rel="alternate" hreflang="ja" href="https://www.hasedera.jp/guide/">
+  <link rel="alternate" hreflang="en" href="https://www.hasedera.jp/en/guide/">
+  <link rel="alternate" hreflang="zh-cn" href="https://www.hasedera.jp/cn/guide/">
+  <link rel="alternate" hreflang="ko" href="https://www.hasedera.jp/ko/guide/">
+  
+
+</head>
+<body class="page guide">
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+<div id="miniMenu" class="mini-menu"><span class="mini-menu__name">HASEDERA</span><span class="css-down"></span></div>
+<header class="site-hd" id="siteHD">
+	<nav class="site-hd-nav">
+		<div class="container">
+			<ul class="site-hd-nav__lst">
+				<li class="site-hd-nav__itm"><a class="site-hd-nav__lnk" href="//www.hasedera.jp/">日本語</a></li>
+				<li class="site-hd-nav__itm"><a class="site-hd-nav__lnk" href="//www.hasedera.jp/en/">English</a></li>
+				<li class="site-hd-nav__itm"><a class="site-hd-nav__lnk" href="//www.hasedera.jp/cn/">中文</a></li>
+				<li class="site-hd-nav__itm"><a class="site-hd-nav__lnk" href="//www.hasedera.jp/ko/">한국어</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container site-hd-main">
+		<div class="row">
+			<div class="site-hd__logo col-xs-10 col-sm-7 col-md-8">
+			<p class="site-hd__logo__txt">
+				<a href="../" class="site-hd__logo__lnk">HASEDERA</a>
+			</p>
+			</div>
+			<div class="site-hd__sns hidden-xs col-sm-4 col-md-3">
+				<ul class="site-hd__sns__lst">
+					<li class="site-hd__sns__itm"><a target="_blank" href="https://www.instagram.com/kamakura_hasedera_staff/" class="site-hd__sns__lnk"><img src="//www.hasedera.jp/common/img/icon-insta.png" alt="INSTAGRAM"></a></li>
+					<li class="site-hd__sns__itm"><a target="_blank" href="https://www.youtube.com/channel/UC0nSa9cWGX8YHBnhDiTjuzQ" class="site-hd__sns__lnk"><img src="//www.hasedera.jp/common/img/icon-yt.png" alt="YouTube"></a></li>
+					<li class="site-hd__sns__itm"><a target="_blank" href="https://www.tripadvisor.jp/Attraction_Review-g303156-d319981-Reviews-Hase_dera_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html" class="site-hd__sns__lnk"><img src="//www.hasedera.jp/common/img/icon-ta.png" alt="Trip Adviser"></a></li>
+				</ul>
+			</div>
+			<div class="site-hd__menu col-xs-2 col-sm-1 col-md-1">
+				<span id="btnMenu" class="site-hd__menu__lnk">MENU</span>
+			</div>
+		</div>
+	</div>
+</header>
+
+<main class="main-area">
+    <header class="ma-hd">
+        <h1 class="container ma-hd__ttl">ADMISSION &amp; ACCESS</h1>
+    </header>
+    <div class="container">
+            <nav class="bc">
+        <span xmlns:v="http://rdf.data-vocabulary.org/#">
+            <span class="bc__root" typeof="v:Breadcrumb"><a href="../" rel="v:url" property="v:title">HOME</a> ＞ <span class="bc__last">ADMISSION &amp; ACCESS</span></span>
+        </span>
+    </nav>
+        <div class="content-area">
+            <section class="ct-sec ct-sec__adms">
+	<div class="row">
+		<div class="col-sm-7 col-md-6 pr45-sm">
+			<h2 class="ct-sec__ttl ct-sec__ttl__odo">Opening Times</h2>
+			<ul class="guide__lst">
+				<li class="guide__itm">
+					<span class="guide__itm__hd">July - March</span><br><span class="guide__itm__data">08:00 – 17:00<span class="fz80p"> (last entry at 16:30)</span></span>
+				</li>
+				<li class="guide__itm">
+					<span class="guide__itm__hd">April - June</span><br><span class="guide__itm__data">08:00 – 17:30<span class="fz80p"> (last entry at 17:00)</span></span>
+				</li>
+			</ul>
+			<h2 class="ct-sec__ttl ct-sec__ttl__odo">Admission Fees</h2>
+			<ul class="guide__lst">
+				<li class="guide__itm">
+					<span class="guide__itm__hd">Adults</span><span class="guide__itm__data">400 yen</span>
+				</li>
+				<li class="guide__itm">
+					<span class="guide__itm__hd">Children</span><span class="guide__itm__data">200 yen<span class="ml1m fz80p">(Age 6 - 11)</span></span>
+				</li>
+			</ul>
+			<h2 class="ct-sec__ttl ct-sec__ttl__p">Parking Fees</h2>
+			<ul class="guide__lst">
+				<li class="guide__itm">
+					<span class="guide__itm__hd">Passenger Cars</span><span class="guide__itm__data">350 yen/30 min.</span>
+				</li>
+				<li class="guide__itm">
+					<span class="guide__itm__hd">Large-sized Vehicles and Buses</span><span class="guide__itm__data">1,000 yen/30 min.</span>
+				</li>
+			</ul>
+			<p class="txt-alert">*No reservations accepted<br>*No parking for Motorcycles</p>
+		</div>
+		<div class="col-sm-5 col-md-6 ct-sec__imgs">
+			<img src="//www.hasedera.jp/common/img/guide/guide-01.jpg" alt="" class="ct-sec__adms__img">
+			<img src="//www.hasedera.jp/common/img/guide/guide-02.jpg" alt="" class="ct-sec__adms__img">
+		</div>
+	</div>
+</section>
+<section class="ct-sec ct-sec__access mt30 mt55-sm">
+	<h2 class="ct-sec__ttl ct-sec__ttl__guide">Access</h2>
+	<img src="img/access_map-en-01c.png" alt="" class="ct-sec__access__img ct-sec__access__img__01">
+	<img src="img/access_map-en-02c.png" alt="" class="ct-sec__access__img ct-sec__access__img__02">
+</section>
+        </div>
+    </div>
+</main>
+<nav class="container ft-nav">
+    <nav class="bc">
+        <span xmlns:v="http://rdf.data-vocabulary.org/#">
+            <span class="bc__root" typeof="v:Breadcrumb"><a href="../" rel="v:url" property="v:title">HOME</a> ＞ <span class="bc__last">ADMISSION &amp; ACCESS</span></span>
+        </span>
+    </nav>
+
+<div class="row nav-area">
+
+	<div class="col-xs-4 nav-box nav-box__about">
+		
+		<a href="../about/" class="nav-box__lnk">
+		
+			<h2 class="nav-box__ttl">INTRODUCTION</h2>
+		</a>
+	</div>
+
+	<div class="col-xs-4 nav-box nav-box__map">
+		
+		<a href="../about/#map" class="nav-box__lnk">
+		
+			<h2 class="nav-box__ttl">MAP OF HASEDERA</h2>
+		</a>
+	</div>
+
+	<div class="col-xs-4 nav-box nav-box__guide">
+		
+		<a href="../guide/" class="nav-box__lnk">
+		
+			<h2 class="nav-box__ttl">ADMISSION <br>&amp; ACCESS</h2>
+		</a>
+	</div>
+
+	<div class="col-xs-4 nav-box nav-box__garden">
+		
+		<a href="../garden/" class="nav-box__lnk">
+		
+			<h2 class="nav-box__ttl">GARDEN</h2>
+		</a>
+	</div>
+
+	<div class="col-xs-4 nav-box nav-box__event">
+		
+		<a href="../event/" class="nav-box__lnk">
+		
+			<h2 class="nav-box__ttl">ANNUAL EVENTS</h2>
+		</a>
+	</div>
+
+	<div class="col-xs-4 nav-box nav-box__kannon">
+		
+		<a href="//www.kannon-museum.jp/pdf/kannon_english.pdf" target="_blank" class="nav-box__lnk">
+		
+			<h2 class="nav-box__ttl">KANNON<span class='hidden-xs'> </span><br class='visible-xs'>MUSEUM</h2>
+		</a>
+	</div>
+
+	<div class="col-xs-4 nav-box nav-box__restaurant">
+		
+		<a href="../restaurant/" class="nav-box__lnk">
+		
+			<h2 class="nav-box__ttl">RESTAURANT <br>&amp; SHOP</h2>
+		</a>
+	</div>
+
+	<div class="col-xs-4 nav-box nav-box__sutra">
+		
+		<a href="../sutra/" class="nav-box__lnk">
+		
+			<h2 class="nav-box__ttl">SHAKYO</h2>
+		</a>
+	</div>
+
+	<div class="col-xs-4 nav-box nav-box__more">
+		
+		<a href="../more/" class="nav-box__lnk">
+		
+			<h2 class="nav-box__ttl">MORE</h2>
+		</a>
+	</div>
+
+</div>
+
+    <nav class="bc">
+        <span xmlns:v="http://rdf.data-vocabulary.org/#">
+            <span class="bc__root" typeof="v:Breadcrumb"><a href="../" rel="v:url" property="v:title">HOME</a> ＞ <span class="bc__last">ADMISSION &amp; ACCESS</span></span>
+        </span>
+    </nav>
+</nav>
+
+<footer class="site-footer">
+	<div class="container">
+		<div class="row">
+			<div class="site-footer__r col-xs-8 col-sm-4 col-md-5">
+				<div class="site-footer__logo"><img src="//www.hasedera.jp/common/img/ft_logo.png" alt="KAMAKURA HASEDERA" class="site-footer__logo__img"></div>
+				<address class="site-footer__adrs">3-11-2 Hase,Kamakura, <br class="visible-xs visible-sm">Kanagawa JAPAN [<a href="https://goo.gl/maps/7FPS9" target="_blank">google map</a>]<br>TEL  +81-467-22-6300　<br class="visible-sm visible-xs">FAX  +81-467-22-6303</address>
+			</div>
+			<div class="site-footer__nav col-sm-5 col-md-5">
+				<ul class="site-footer__lst site-footer__lst__1">
+					<li class="site-footer__itm"><a href="../about/" class="site-footer__lnk">INTRODUCTION</a></li>
+					<li class="site-footer__itm"><a href="../guide/" class="site-footer__lnk">ADMISSION &amp; ACCESS</a></li>
+					<li class="site-footer__itm"><a href="../garden/" class="site-footer__lnk">GARDEN</a></li>
+					<li class="site-footer__itm"><a href="../event/" class="site-footer__lnk">ANNUAL EVENTS</a></li>
+				</ul>
+				<ul class="site-footer__lst site-footer__lst__2">
+					<li class="site-footer__itm"><a href="//www.kannon-museum.jp/pdf/kannon_english.pdf" class="site-footer__lnk" target="_blank">KANNON MUSEUM</a></li>
+					<li class="site-footer__itm"><a href="../restaurant/" class="site-footer__lnk">RESTAURANT &amp; SHOP</a></li>
+					<li class="site-footer__itm"><a href="../sutra/" class="site-footer__lnk">SHAKYO</a></li>
+					<li class="site-footer__itm"><a href="../more/" class="site-footer__lnk">MORE</a></li>
+				</ul>
+			</div>
+			<div class="site-footer__l col-xs-4 col-sm-3 col-md-2">
+				<div class="site-footer__TA">
+					<div class="site-footer__TA__inner">
+
+						<div id="TA_certificateOfExcellence882" class="TA_certificateOfExcellence">
+							<ul id="8GK96MmSUM" class="TA_links I4VyxpwBCP">
+								<li id="jeijDGL" class="6ncxY9IkmCs">
+									<a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g303156-d319981-Reviews-Hase_dera_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html"><img src="https://www.tripadvisor.com/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+								</li>
+							</ul>
+						</div>
+						<script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=882&amp;locationId=319981&amp;lang=en_US&amp;year=2019&amp;display_version=2" data-loadtrk onload="this.loadtrk=true"></script>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="site-footer__copy">Copyright© HASEDERA. All Right Reserved.</div>
+</footer>
+
+<section class="full-menu" id="fullMenu">
+	<div class="container">
+		<header class="full-menu__hd">
+			<h1 class="full-menu__hd__ttl"><a href="../" class="full-menu__hd__ttl__lnk">HASEDERA</a></h1>
+			<a href="#" id="fullMenuClose" class="full-menu__close"><span class="css-cancel"></span></a>
+		</header>
+		<div class="row">
+			<div class="col-sm-2 full-menu__lang">
+				<ul class="full-menu__lang__lst">
+					<li class="full-menu__lang__itm"><a class="full-menu__lang__lnk" href="//www.hasedera.jp/">日本語</a></li>
+					<li class="full-menu__lang__itm"><a class="full-menu__lang__lnk current" href="//www.hasedera.jp/en/">English</a></li>
+					<li class="full-menu__lang__itm"><a class="full-menu__lang__lnk" href="//www.hasedera.jp/cn/"/>中文</a></li>
+					<li class="full-menu__lang__itm"><a class="full-menu__lang__lnk" href="//www.hasedera.jp/ko/">한국어</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-6 full-menu__pages">
+				<ul class="full-menu__pages__lst">
+					<li class="full-menu__pages__itm">
+						<a href="../" class="full-menu__pages__lnk">HOME</a>
+					</li>
+
+					<li class="full-menu__pages__itm">
+	
+						<a href="../about/" class="full-menu__pages__lnk">
+	
+							INTRODUCTION
+						</a>
+					</li>
+
+					<li class="full-menu__pages__itm">
+	
+						<a href="../about/#map" class="full-menu__pages__lnk">
+	
+							MAP OF HASEDERA
+						</a>
+					</li>
+
+					<li class="full-menu__pages__itm">
+	
+						<a href="../guide/" class="full-menu__pages__lnk">
+	
+							ADMISSION &amp; ACCESS
+						</a>
+					</li>
+
+					<li class="full-menu__pages__itm">
+	
+						<a href="../garden/" class="full-menu__pages__lnk">
+	
+							GARDEN
+						</a>
+					</li>
+
+					<li class="full-menu__pages__itm">
+	
+						<a href="../event/" class="full-menu__pages__lnk">
+	
+							ANNUAL EVENTS
+						</a>
+					</li>
+
+					<li class="full-menu__pages__itm">
+	
+						<a href="//www.kannon-museum.jp/pdf/kannon_english.pdf" class="full-menu__pages__lnk" target="_blank">
+	
+							KANNON MUSEUM
+						</a>
+					</li>
+
+					<li class="full-menu__pages__itm">
+	
+						<a href="../restaurant/" class="full-menu__pages__lnk">
+	
+							RESTAURANT &amp; SHOP
+						</a>
+					</li>
+
+					<li class="full-menu__pages__itm">
+	
+						<a href="../sutra/" class="full-menu__pages__lnk">
+	
+							SHAKYO
+						</a>
+					</li>
+
+					<li class="full-menu__pages__itm">
+	
+						<a href="../more/" class="full-menu__pages__lnk">
+	
+							MORE
+						</a>
+					</li>
+
+				</ul>
+			</div>
+
+			<ul class="full-menu__sns__lst">
+				<li class="full-menu__sns__itm"><a target="_blank" href="https://www.instagram.com/kamakura_hasedera_staff/" class="full-menu__sns__lnk"><img src="//www.hasedera.jp/common/img/icon-insta.png" alt="INSTAGRAM"></a></li>
+				<li class="full-menu__sns__itm"><a target="_blank" href="https://www.youtube.com/channel/UC0nSa9cWGX8YHBnhDiTjuzQ" class="full-menu__sns__lnk"><img src="//www.hasedera.jp/common/img/icon-yt.png" alt="YouTube"></a></li>
+				<li class="full-menu__sns__itm"><a target="_blank" href="https://www.tripadvisor.jp/Attraction_Review-g303156-d319981-Reviews-Hase_dera_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html" class="full-menu__sns__lnk"><img src="//www.hasedera.jp/common/img/icon-ta.png" alt="Trip Adviser"></a></li>
+			</ul>
+
+			<div class="col-sm-4 full-menu__adrs">
+
+				<div class="full-menu__adrs__desc">
+					3-11-2 Hase,Kamakura, Kanagawa<br>
+					JAPAN [<a href="https://goo.gl/maps/7FPS9" target="_blank">google map</a>]<br>
+					TEL  +81-467-22-6300<br>
+					FAX  +81-467-22-6303
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<a href="#siteHD" class="totop"><i class="fas fa-play fa-rotate-270"></i></a>
+
+
+<script src="//www.hasedera.jp/common/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="//www.hasedera.jp/common/js/plugins.js"></script>
+<script src="//www.hasedera.jp/common/js/main.js"></script>
+
+<script>
+// Mini Menu Show
+$(function() {
+    var nav = $('#miniMenu');
+    var hd = $('#siteHD');
+    //表示位置
+    var hdTop = hd.height();
+    var navHeight = nav.height();
+    var showFlag = false;
+    nav.css('top', -navHeight+'px');
+    //ナビゲーションの位置まできたら表示
+    $(window).scroll(function () {
+        var winTop = $(this).scrollTop();
+        if (winTop >= hdTop) {
+            if (showFlag == false) {
+                showFlag = true;
+                nav
+                    .addClass('fixed')
+                    .stop().animate({'top' : '0px'}, 300);
+            }
+        } else if (winTop <= hdTop) {
+            if (showFlag) {
+                showFlag = false;
+                nav.stop().animate({'top' : -navHeight+'px'}, 300, function(){
+                    nav.removeClass('fixed');
+                });
+            }
+        }
+    });
+});
+
+// Full Menu Show
+$(function () {
+    var $body = $('body');
+    //開閉用ボタンをクリックでクラスの切替え
+    $('#miniMenu, #btnMenu').on('click', function () {
+        $body.toggleClass('open');
+    });
+    //メニュー名以外の部分をクリックで閉じる
+    $('#fullMenuClose').on('click', function () {
+        $body.removeClass('open');
+    });
+});
+
+// Hover Effect in SMP
+var linkTouchStart = function(){
+    thisAnchor = jQuery(this);
+    touchPos = thisAnchor.offset().top;
+    moveCheck = function(){
+        nowPos = thisAnchor.offset().top;
+        if(touchPos == nowPos){
+            thisAnchor.addClass("hover");
+        }
+    }
+    setTimeout(moveCheck,100);
+}
+var linkTouchEnd = function(){
+    thisAnchor = jQuery(this);
+    hoverRemove = function(){
+        thisAnchor.removeClass("hover");
+    }
+    setTimeout(hoverRemove,500);
+}
+jQuery(document).on('touchstart mousedown','a',linkTouchStart);
+jQuery(document).on('touchend mouseup','a',linkTouchEnd);
+
+</script>
+
+
+
+
+
+
+
+
+<script>
+// totop
+var topBtn = $('.totop');
+topBtn.hide();
+$(window).scroll(function () {
+	if ($(this).scrollTop() > 100) {
+		topBtn.fadeIn();
+	} else {
+		topBtn.fadeOut();
+	}
+});
+$('a.totop').click(function() {
+	var speed = 400; // ミリ秒
+	var href= $(this).attr("href");
+	var target = $(href == "#" || href == "" ? 'html' : href);
+	var position = target.offset().top;
+	$('body,html').animate({scrollTop:position}, speed, 'swing');
+	return false;
+});
+</script>
+
+</body>
+
+</body>
+
+</html>

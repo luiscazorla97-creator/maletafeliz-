@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kotoku-in</title>
+<meta name="description" content="The official website of Kotoku-in, a Buddhist temple that enshrines Kamakura Daibutsu (Great Buddha of Kamakura), a colossal copper image of Amitabha Buddha (national treasure), as the principle image. Offers information on opening hours, admission fees, access, etc.">
+<meta property="og:title" content="Kotoku-in">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.kotoku-in.jp/en/">
+<meta property="og:image" content="http://www.kotoku-in.jp/img/ogp.jpg">
+<meta property="og:site_name" content="Kotoku-in">
+<meta property="og:description" content="The official website of Kotoku-in, a Buddhist temple that enshrines Kamakura Daibutsu (Great Buddha of Kamakura), a colossal copper image of Amitabha Buddha (national treasure), as the principle image. Offers information on opening hours, admission fees, access, etc.">
+<meta property="fb:app_id" content="1923040427981794">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Kotoku-in">
+<meta name="twitter:description" content="The official website of Kotoku-in, a Buddhist temple that enshrines Kamakura Daibutsu (Great Buddha of Kamakura), a colossal copper image of Amitabha Buddha (national treasure), as the principle image. Offers information on opening hours, admission fees, access, etc.">
+<meta name="twitter:image" content="http://www.kotoku-in.jp/img/ogp.jpg">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/custom.css">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TTZXD39J65"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TTZXD39J65');
+  gtag('config', 'UA-88121921-1');
+</script>
+</head>
+
+<body id="top" class="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide slide01"></div>
+    <div class="swiper-slide slide02"></div>
+    <div class="swiper-slide slide03"></div>
+  </div>
+  <div class="header">
+    <div class="head-contaner">
+      <div class="main-logo"><img src="../img/main-logo.png"></div>
+      <div class="lang-menu-area">
+        <ul class="lang-menu">
+          <li><a href="/">日本語</a></li>
+          <li class="active"><a href="/en/">English</a></li>
+        </ul>
+      </div>
+      <a href="#anc_a" class="top_arrow"><span></span></a>
+    </div>
+  </div>
+</div>
+<div id="main-navigation">
+  <div class="container">
+    <div class="nav-logo"><a href="/en/"><img src="../img/en/nav-logo.png"></a></div>
+    <div class="btn-lang">
+      <a href="/">日本語</a>
+    </div>
+    <button type="button" class="navbar-toggle">
+      <img src="../img/navbar-toggle-close.png"><img src="../img/navbar-toggle-open.png" style="display:none;">
+    </button>
+    <div class="navbar-collapse collapse">
+      <ul class="main-menu">
+        <li><a href="/en-site/">Announcement</a></li>
+        <li><a href="index.php#guidance">Guide to Visiting Kotoku-in</a></li>
+        <li>
+          <a href="javascript:;" class="submenu-target">
+            <span class="menu-arrow">▶</span>The Great Buddha and Kotoku-in
+            <span class="menu-toggle"><img src="../img/submenu-toggle-close.png"><img src="../img/submenu-toggle-open.png" style="display:none;"></span>
+          </a>
+          <div class="sub-navigation">
+            <div class="container">
+              <ul class="menu">
+                <li><a href="about.html">The Great Buddha and the Teachings of Kotoku-in</a></li>
+                <li><a href="characteristic.html">An Overview of the Great Buddha</a></li>
+                <li><a href="casting.html">The Casting Method</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="javascript:;" class="submenu-target">
+            <span class="menu-arrow">▶</span>Guide to the Temple Grounds
+            <span class="menu-toggle"><img src="../img/submenu-toggle-close.png"><img src="../img/submenu-toggle-open.png" style="display:none;"></span>
+          </a>
+          <div class="sub-navigation">
+            <div class="container">
+              <ul class="menu">
+                <li><a href="grounds_info.html">Map of the Temple Grounds</a></li>
+                <li><a href="grounds_info.html#barrier-free">Barrier-free Route</a></li>
+                <li><a href="tanka-inscription.html">Stone Monuments</a></li>
+                <li><a href="cornerstone.html">Commemorative Trees, and the Others</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a href="activities.html">Contributions</a></li>
+        <li><a href="application.html">App Forms</a></li>
+        <li>
+          <a href="javascript:;" class="submenu-target"><span class="menu-arrow">▶</span>FAQ
+            <span class="menu-toggle"><img src="../img/submenu-toggle-close.png"><img src="../img/submenu-toggle-open.png" style="display:none;"></span>
+          </a>
+          <div class="sub-navigation">
+            <div class="container">
+              <ul class="menu">
+                <li><a href="/en-site/faq">“Viewing the Temple” question</a></li>
+                <li><a href="/en-site/faq#cate2">“Schools” question</a></li>
+                <li><a href="/en-site/faq#cate3">“Temples/ Temple Grounds” question</a></li>
+                <li><a href="/en-site/faq#cate4">“Interviews and Photography” question</a></li>
+                <li><a href="/en-site/faq#cate5">“Temple Store/ Temple Office” question</a></li>
+                <li><a href="/en-site/faq#cate6">“Other” question</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<a name="anc_a" id="anc_a" class="anchor"></a>
+<div id="introduction">
+  <div class="container">
+    <p>The statue commonly known as Kamakura Daibutsu (Great Buddha of Kamakura), <br>
+a colossal copper image of Amida-butsu (Amitabha Buddha), is the principle image of Kotoku-in.<br>
+The fact that it sits in the open air makes it unusual amongst large Buddha statues in Japan.</p>
+    <a href="about.html" class="btn-intro">＞ The Great Buddha and Kotoku-in</a> </div>
+</div>
+<div id="infomation">
+  <div class="container">
+    <h3 class="headline">Announcement <a href="/en-site/" class="btn-tolist">＞ List of articles</a></h3>
+    <div class="section-line" id="loop">
+                  <div class="col-sm-4 section-wrap">
+        <div class="section-item">
+          <div style="margin-bottom:10px;">
+            <span class="label label-information">Information</span>
+          </div>
+          <h4 class="section-title"><a href="/en-site/#post-434">GOSHUIN Availability During the October and November Holidays</a></h4>
+          <div class="section-contents">
+          <a href="/en-site/#post-434">
+          On the following dates, only printed GOSHUIN will ……and more          </a>
+          </div>
+          <div class="section-thumbnail">
+            <a href="/en-site/#post-434"></a>
+          </div>
+        </div>
+      </div>
+                  <div class="col-sm-4 section-wrap">
+        <div class="section-item">
+          <div style="margin-bottom:10px;">
+            <span class="label label-information">Information</span>
+          </div>
+          <h4 class="section-title"><a href="/en-site/#post-312">GOSHUIN During the Autumn Holiday Period</a></h4>
+          <div class="section-contents">
+          <a href="/en-site/#post-312">
+          During the autumn holiday period, we will only be ……and more          </a>
+          </div>
+          <div class="section-thumbnail">
+            <a href="/en-site/#post-312"></a>
+          </div>
+        </div>
+      </div>
+                  <div class="col-sm-4 section-wrap">
+        <div class="section-item">
+          <div style="margin-bottom:10px;">
+            <span class="label label-information">Information</span>
+          </div>
+          <h4 class="section-title"><a href="/en-site/#post-375">Notice on Food and Drink Restrictions</a></h4>
+          <div class="section-contents">
+          <a href="/en-site/#post-375">
+          Eating, drinking, and bringing food or drink into ……and more          </a>
+          </div>
+          <div class="section-thumbnail">
+            <a href="/en-site/#post-375"></a>
+          </div>
+        </div>
+      </div>
+                  <div class="col-sm-4 section-wrap">
+        <div class="section-item">
+          <div style="margin-bottom:10px;">
+            <span class="label label-information">Information</span>
+          </div>
+          <h4 class="section-title"><a href="/en-site/#post-10">Restrictions on photography in the precincts of Kotoku-in</a></h4>
+          <div class="section-contents">
+          <a href="/en-site/#post-10">
+          Please refrain from flying drones in the precincts……and more          </a>
+          </div>
+          <div class="section-thumbnail">
+            <a href="/en-site/#post-10"></a>
+          </div>
+        </div>
+      </div>
+          </div>
+  </div>
+</div>
+<a name="guidance" id="guidance" class="anchor"></a>
+<div id="access">
+  <div class="container">
+    <h3 class="headline">Guide to Visiting Kotoku-in <a href="grounds_info.html" class="btn-tolist">＞ Guide to the Temple Grounds</a></h3>
+    <div class="row section-bottom">
+      <div class="col-sm-4 section-wrap">
+        <div class="section-item">
+          <h4 class="section-title">Address</h4>
+          <div class="section-contents">
+            <p>4-2-28, Hase, Kamakura, <br>
+Kanagawa Prefecture 248-0016, Japan<br>
+Phone：0467－22－0703<br>
+Fax：0467－22－5051</p>
+            <div class="toggle-target1">
+              <a href="javascript:;" data-toggle="collapse" data-target="#access_01"><img src="../img/icon-arrow-bk.png" class="anchor-arrow"><img src="../img/icon-arrow-bk-down.png" class="anchor-arrow" style="display:none;">Access (by Public Transportation)</a>
+            </div>
+            <div class="collapse-area collapse" id="access_01">
+              <strong>By Enoshima Electric Railway (Enoden)</strong><br>
+              ●From Kamakura: Get off at JR Yokosuka Line Kamakura Station. Change to the Enoshima Electric Railway (bound for Fujisawa) and get off at Hase Station, the third stop (approx. seven minutes from Kamakura). Kotoku-in is a seven-minute walk from the station.<br>
+              <a href="https://www.google.com/maps/d/u/2/embed?mid=1rPEHb9D-ppN49YbEG6K_suyejpI" target="_blank">＞ From Hase Station （GoogleMap）</a><br>
+<br>
+●From Fujisawa: Get off at JR Tokaido Line or Odakyu Line Fujisawa Station. Change to the Enoshima Electric Railway (bound for Kamakura) and get off at Hase Station, the 11th stop (approx. 40 minutes from Fujisawa). Kotoku-in is a seven-minute walk from the station.<br>
+               <a href="https://www.google.com/maps/d/u/2/embed?mid=1rPEHb9D-ppN49YbEG6K_suyejpI" target="_blank">＞ From Hase Station （GoogleMap）</a><br>
+<br>
+              <strong>By bus from Kamakura Station</strong><br>
+              From the East Exit of Kamakura Station, take the Enoshima-dentetsu Bus (bus stop #1) or the Keikyu Bus (bus stop #6) and get off at the Daibutsu-mae stop (approx. 10 minutes from Kamakura Station).
+            </div>
+            <div class="toggle-target2">
+              <a href="javascript:;" data-toggle="collapse" data-target="#access_02"><img src="../img/icon-arrow-bk.png" class="anchor-arrow"><img src="../img/icon-arrow-bk-down.png" class="anchor-arrow" style="display:none;">Access (by Private Vehicle)</a>
+            </div>
+            <div class="collapse-area collapse" id="access_02">
+              <strong>From Yokohama-Yokosuka Road</strong><br>
+              From the Asahina Interchange (IC) on the Yokohama Yokosuka Road (横浜横須賀道路), follow Prefectural Highway 204 to Kamakura.<br>
+               <a href="https://www.google.com/maps/d/u/2/embed?mid=13I_iLCEogexUa1bHkkd00Ldbrek&ll=35.32466526535079%2C139.5657361000001&z=14" target="_blank">＞ Route from Asahina Interchange（GoogleMap）</a><br>
+<br>
+              <strong>From Tokaido (National Road 1)</strong><br>
+              From Tokyo and Yokohama, exit National Road 1 and turn left at the Fujisawa Bypass Exit intersection. Go downhill along Prefectural Road 30 and turn left at the Fujisawa-bashi intersection. Pass under the JR Tokaido Line elevated tracks, turn left at the Minami-Fujisawa intersection and continue straight along Prefectural Road 32 toward Kamakura. <br>
+              <a href="https://www.google.com/maps/d/u/2/embed?mid=1h9VSK0vJPx3a0FI8FbdO1NMS63w&ll=35.33871807016976%2C139.51504&z=13" target="_blank">＞ Route from Fujisawa Bypass Exit（GoogleMap）</a><br>
+<br>
+              <strong>From Metropolitan Inter-City Expressway</strong><br>
+              Go south on the Metropolitan Inter-City Expressway (Sakaikoga-Chigasaki section). Then, get on the Shin-Shonan Bypass at the Chigasaki JCT and head toward Fujisawa and Yokohama. This will turn into the Fujisawa Bypass and Route 1.<br>
+<a href="https://www.google.com/maps/d/u/2/embed?mid=1PegqWwDAo8kZOj8X832dE9OXkTQ&ll=35.33843337361999%2C139.46554500000002&z=12" target="_blank">＞ Route from Chigasaki JCT（GoogleMap）</a><br>
+<br>
+            </div>
+            <p><strong>●Parking Area</strong><br>
+             There is no parking available at Kotoku-in. Please use a nearby public parking facility, and
+direct any inquiries to the parking. Handicapped parking area has been discontinued.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="section-item">
+          <h4 class="section-title">Opening Hours</h4>
+          <div class="section-contents">
+          <p><u>No reservation required</u></p>
+          <p>●April–September<br>
+8：00 a.m.–5：30 p.m.<br><br>
+            ●October–March<br>
+8：00 a.m.–5：00 p.m.<br>Visitors may enter up to 15 minutes before the temple closes.<br>
+<br>
+            ●To enter the interior of<br>
+ the Great Buddha statue<br>
+8：00 a.m.–4：30 p.m.<br>Visitors may enter up to 10 minutes before closing time.<br><br>
+            ●Temple shop (office)<br>
+8：30 a.m.–4：45 p.m. (year-round)<br><br>
+            ●Acceptance of official temple commemorative seals (office)<br>
+Handwritten seals for seal book  9:00 a.m. – 3:00 p.m.<br>
+Printed seals  8:00 a.m. – 4:30 p.m.<br>
+※year-round</p></div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="section-item">
+          <h4 class="section-title">Fees for Temple Visit</h4>
+          <div class="section-contents">
+            <table class="table table-bordered table-center">
+              <tbody>
+                <tr>
+                  <td>General admission</td>
+                  <td>300 yen</td>
+                </tr>
+                <tr>
+                  <td>Child admission (age 6-12)</td>
+                  <td>150 yen</td>
+                </tr>
+                <tr>
+                  <td>Fee to enter the interior of <br>the Great Buddha statue</td>
+                  <td colspan="2">Additional 50 yen per person</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="text-sm">No charge for children under six.<br>
+Please click <a href="application.html">here</a> to see which visitors qualify for free admission to the temple and the interior of the Great Buddha.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 section-wrap">
+        <div class="section-item">
+          <h4 class="section-title">Other Spots in the Vicinity</h4>
+          <div class="section-contents"> <img src="../img/en/top/map.png">
+            <p><a href="https://goo.gl/maps/eGvV37YLXkS2" target="_blank"><img src="../img/icon-arrow-bk.png" class="anchor-arrow">GoogleMap</a></p>
+            <p>●Zeniarai Benten (Ugafuku-jinja Shrine)<br>About 30 minutes’ walk from Kotoku-in</p>
+            <p>●Kuzuharagaoka-Daibutsu Hiking Trails<br>
+Daibutsu-zaka Entrance:<br>
+About 10 minutes’ walk from Kotoku-in<br>
+Oyato Entrance:<br>
+About 15 minutes’ walk from Kotoku-in<br>
+              <a href="https://www.trip-kamakura.com/" target="_blank"><img src="../img/icon-arrow-bk.png" class="anchor-arrow">Kamakura City Tourism Division website</a> </p>
+            <p>●Hase Kannon (Hase-dera Temple)<br>
+About 5 minutes’ walk from Kotoku-in<br>
+              <a href="http://www.hasedera.jp/" target="_blank"><img src="../img/icon-arrow-bk.png" class="anchor-arrow">Hase-dera Temple official website</a> </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8 section-wrap">
+        <h4 class="section-title">To Our Visitors</h4>
+        <div class="section-contents">
+          <p>Please check <a href="/en-site/faq#qa_anc1">here</a> for information on eating and drinking on the temple grounds.</p>
+
+<p>Wheelchair users should, as far as possible, be accompanied by a helper, as some areas on the temple grounds are difficult for wheelchair users on their own. There is one wheelchair-accessible restroom facility (unisex) on the grounds.</p>
+
+<p>Visitors with pets may enter the grounds only if their pet is in a pet cage or carrier. Except for service dogs, no dogs on leashes may be walked on the grounds.</p>
+
+<p>SMOKING is not permitted anywhere on the temple grounds.</p>
+
+<p>When taking photos on the grounds for commercial use, please obtain the templeʼ s permission beforehand. Download the <a href="application.html">application form</a> from the website, fill out and sign the form, and submit it to the temple office.
+ Visitors are free to take photos for personal use as they wish. But we ask all visitors to refrain from flying drones in the precincts and using selfie sticks in the interior of the statue. There are no professional photographers on duty at the temple.</p>
+
+<p>The templeʼ s cycle parking lot is for bicycles and mopeds only. The temple assumes no responsibility for theft, minor accidents or other incidents in this parking lot.</p>
+          <p class="text-right"><a href="/en-site/faq/" class="btn-topage">＞ Q&amp;A</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<a href="#" class="page-top" id="page-top"><img src="../img/pagetop.png"></a>
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 footer-text">
+        <p class="copyright">Copyright© Kotoku-in. All Rights reserved</p>
+        <ul class="footer-menu">
+          <li><a href="sitemap.html">Site Map</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4 sns-area">
+        <span class="sns_button">
+          <!-- facebook -->
+          <div class="fb-like" data-href="http://www.kotoku-in.jp/" data-layout="button" data-action="like" data-show-faces="true" data-share="false"></div>
+        </span>
+        <span class="sns_button">
+          <!-- twitter -->
+          <a class="twitter-share-button" href="https://twitter.com/share" data-dnt="true">Tweet</a>
+        </span>
+        <span class="sns_button">
+          <!-- LINE -->
+          <div class="line-it-button" style="display: none;" data-type="share-a" data-lang="ja" ></div>
+<script src="//scdn.line-apps.com/n/line_it/thirdparty/loader.min.js" async="async" defer="defer" ></script>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
+window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+</script>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+	loop: true,
+	speed:2000,
+	autoplay:5000,
+    autoplayDisableOnInteraction: false,
+	effect: 'fade'
+});
+$(function() {
+  var time = 500;
+  $('a[href*=#]').click(function() {
+    var target = $(this.hash);
+    if (!target.length) return ;
+    var targetY = target.offset().top;
+    $('html,body').animate({scrollTop: targetY}, time, 'swing');
+    window.history.pushState(null, null, this.hash);
+    return false;
+  });
+});
+$(function(){
+  $(".toggle-target1 a").click(function(){
+    $(".toggle-target1 img").toggle();
+  });
+  $(".toggle-target2 a").click(function(){
+    $(".toggle-target2 img").toggle();
+  });
+});
+$(function(){
+  do {
+    $("#loop").children(".section-wrap:lt(3)").wrapAll('<div class="row"></div>')
+  }while($("#loop").children(".section-wrap").length);
+});
+$(function() {
+  var nav = $('#top #main-navigation');
+	offset = nav.offset();
+  $(window).scroll(function() {
+		if ($(this).scrollTop() > offset.top) {
+			nav.addClass('fixed');
+		} else {
+			nav.removeClass('fixed');
+		}
+	});
+});
+</script>
+</html>
+

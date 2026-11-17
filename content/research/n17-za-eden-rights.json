@@ -1,0 +1,144 @@
+{
+  "url": "https://commons.wikimedia.org/wiki/File:Mina_el_Eden.jpg",
+  "fetchedAt": "2026-11-17T17:12:04.624Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Mina_el_Eden.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "ca9ab2e8813c1db0755d870008db578334cdc507fc33241c5e15bae0fa017b05",
+  "bytes": 101437,
+  "textSha256": "1669da249f4430527251d42c566463de154b2cd541e0986458f82e736367c638",
+  "rawFile": "content/research/raw/n17-za-eden-file-page.html",
+  "actuallyRead": true,
+  "textFile": "content/research/raw/n17-za-eden-file-page.txt",
+  "id": "n17-za-eden-rights",
+  "facts": [
+    {
+      "fact": "Individual file title/description identifies the selected subject; named creator and specific photographic copyright grant were actually read.",
+      "excerpt": "Mina el Eden.jpg",
+      "location": "Commons individual file Description, Author and Licensing/Permission sections."
+    },
+    {
+      "fact": "CC BY 4.0 permits redistribution and adaptation including commercial use, with attribution, source/licence links, indicated modifications.",
+      "excerpt": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+      "location": "Actually read retained specific file grant and Creative Commons deed."
+    },
+    {
+      "fact": "Copyright licence does not prove other rights or current location-access permission.",
+      "excerpt": "The license may not give you all of the permissions necessary for your intended use.",
+      "location": "Creative Commons deed Notices, actually read."
+    }
+  ],
+  "notes": "Archival documentary photograph. Portrait documentary view along the rock tunnel and illuminated walking floor. No mineral display, modern sculpture, nightclub or staged event is focal. It does not establish current route, transport service, safety/accessibility or photography permission. No model/property releases, statutory heritage permission, property entry, new photography permission or blanket other-rights clearance is inferred from the photographic licence. Exact author/file link/licence/changes retained.",
+  "licenseDeedCapture": {
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "fetchedAt": "2026-11-17T17:12:09.060Z",
+    "finalUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "retryAfter": null,
+    "contentSha256": "8dda1ccec4be91fc80821d4e4fd5c568072b9a3a74b2fdc07c249a27e920ef01",
+    "bytes": 31950,
+    "textSha256": "d4924f047867083cea68fe5f3760e233f328efb21757e49cc27e9a75c9f8360f",
+    "rawFile": "content/research/raw/n17-za-photo-license-by-4.html",
+    "actuallyRead": true,
+    "textFile": "content/research/raw/n17-za-photo-license-by-4.txt"
+  },
+  "downloadCapture": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Mina_el_Eden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Mina_el_Eden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "fetchedAt": "2026-11-17T17:12:05.688Z",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "contentSha256": "6193c6ee5b2ea08c4bfee3e5b2f7180616c7ded62cdea774eec2c610aa7a5f0c",
+    "bytes": 2896660,
+    "retryAfter": null,
+    "rawFile": "content/images/originals/n17-za-eden.jpg"
+  },
+  "apiCapture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Mina+El+Eden+Zacatecas+filetype%3Abitmap&gsrnamespace=6&gsrlimit=5&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1280",
+    "fetchedAt": "2026-11-17T17:10:43.130Z",
+    "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Mina+El+Eden+Zacatecas+filetype%3Abitmap&gsrnamespace=6&gsrlimit=5&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1280",
+    "httpStatus": 200,
+    "contentType": "application/json; charset=utf-8",
+    "retryAfter": null,
+    "contentSha256": "ca82f1de7c939214e81563d44dbe3b282129cce97e0507daa3e18ba03e1217f6",
+    "bytes": 29688,
+    "rawFile": "content/research/raw/n17-za-eden-imageinfo-api.json",
+    "actuallyRead": true
+  },
+  "upstreamSource": {
+    "title": "File:Mina el Eden.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Mina_el_Eden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3024,
+    "height": 4032,
+    "providedUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Mina_el_Eden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "providedRendition": "Full-resolution original bytes from Commons imageinfo originalURL, not a thumbnail.",
+    "fullResolutionOriginalDownloaded": true,
+    "dateFieldAsPublished": "2 August 2025, 11:19:00"
+  },
+  "providedOriginal": {
+    "width": 3024,
+    "height": 4032,
+    "orientation": 1,
+    "displayWidth": 3024,
+    "displayHeight": 4032,
+    "sha256": "6193c6ee5b2ea08c4bfee3e5b2f7180616c7ded62cdea774eec2c610aa7a5f0c",
+    "bytes": 2896660
+  },
+  "fileSpecificNotices": [],
+  "actualVisualReview": {
+    "reviewer": "Codex photo subagent /root/zacatecas_n17/photos",
+    "reviewedAt": "2026-11-17T17:15:52.405955+00:00",
+    "actuallyViewed": true,
+    "observation": "Portrait documentary view along the rock tunnel and illuminated walking floor. No mineral display, modern sculpture, nightclub or staged event is focal. It does not establish current route, transport service, safety/accessibility or photography permission.",
+    "scope": "Actually displayed selected five-photo contact made from actual1280wWebPs; all full-resolution originals independently fully decoded. Root review is still pending.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n17/zacatecas/photos/final/selected-five-contact.jpg",
+    "contactSha256": "9706a8ece7d88671f54e260a60e90222cad206d3b9f95d90ddc5f26a5e0100fc"
+  },
+  "optimizedVisualReview": {
+    "reviewer": "Codex photo subagent /root/zacatecas_n17/photos",
+    "reviewedAt": "2026-11-17T17:15:52.405955+00:00",
+    "actuallyViewed": true,
+    "scope": "All25actualWebPs displayed in a5×5contact; proportional full frames preserved, no distortion/crop/generated edits. Root review stillpending.",
+    "contactFile": "/workspace/artifacts/maletafeliz-daily-two-n17/zacatecas/photos/final/responsive-25-contact.jpg",
+    "contactSha256": "23aff7fe3393b4111ab57e630661752277f5473ac96f88b2b83c040870575291"
+  },
+  "optimizedFiles": [
+    {
+      "src": "/images/n17-za-eden-240w.webp",
+      "width": 240,
+      "height": 320,
+      "sha256": "ab193fddf6764176c5c713d0ea6873173ff99e806407623063b15efb2c6f0632",
+      "bytes": 20174
+    },
+    {
+      "src": "/images/n17-za-eden-320w.webp",
+      "width": 320,
+      "height": 427,
+      "sha256": "d71a47b4699bf3b5c139a815858521c85882d5fd48762199b8b0acb47de2f217",
+      "bytes": 32396
+    },
+    {
+      "src": "/images/n17-za-eden-480w.webp",
+      "width": 480,
+      "height": 640,
+      "sha256": "1e20d3ac3ffa2658a094f51288607557e5df40f87692d8469a60dd9f9277dc78",
+      "bytes": 70258
+    },
+    {
+      "src": "/images/n17-za-eden-800w.webp",
+      "width": 800,
+      "height": 1067,
+      "sha256": "3e904eca90d74f9d23436bb6ebbe2aa0e5cf86dce234cb854d7798099f1481a9",
+      "bytes": 178120
+    },
+    {
+      "src": "/images/n17-za-eden.webp",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "51873e45549f18771b9916adf4d0efd747a398e0be24d4cfbd22abbcffbc8aeb",
+      "bytes": 381580
+    }
+  ]
+}

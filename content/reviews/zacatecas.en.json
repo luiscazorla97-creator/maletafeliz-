@@ -1,0 +1,55 @@
+{
+  "reviewer": "Codex root — factual, photographic and bilingual editorial review",
+  "reviewedAt": "2026-11-17T17:23:25.563Z",
+  "contentHash": "f5635d57ff72e736208751a5671d1f251293da0bec43241c2c1d0e9481b6e707",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "reviewEvidence": [
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n17/root-editorial-decision.json",
+      "sha256": "07a23b0d5cb38063cf9da32e0ce715c8411e2f81c230e5c9f9dbfb4a51faaf83"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n17/root-source-reading.json",
+      "sha256": "feb88e47c59c184a94790a8bb95ea75f3652ec7173aacfeb1737c3973779d562"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n17/root-photo-rights-reading.json",
+      "sha256": "25f06222b3de12540f419f14f2f00ef18a085d5a794415fa01adbb388b9261d4"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n17/root-photo-integrity.json",
+      "sha256": "e4f6e203d094c7c10e149d6044559c22aa2b2bfce2cb9690669d5bdd6067154a"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n17/root-originality-review.json",
+      "sha256": "ef10c98c7c7c4e945a11cff8cb372f94e1939ee152212eedeb63f48446e4a72b"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n17/root-private-tooling-review.json",
+      "sha256": "48763324b888cfaf98fdf728118bad81c8e1e1e6735e59749f07daab764016c5"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n17/zacatecas-responsible-travel-independent-review.json",
+      "sha256": "9a79dbe6a30a8cc6dded0d5bb8fa6a91caa408fa085874dbbc91130432846416"
+    }
+  ],
+  "notes": [
+    "Root read all four complete final manuscripts, localized titles/descriptions/queries, quick facts, itineraries and FAQs. Each of the five developed places per original has its own documentary photo and current official evidence. No unsupported popularity, traffic, prices, openings, personal experience or safety guarantees are claimed.",
+    "Natural localized ES/EN preserve matching facts and practical decisions. Related IDs resolve to existing published bilingual guides; Kamakura and Zacatecas have new distinct first-visit intents confirmed absent from the prior catalogue.",
+    "Mechanical catalogue review actually compared each version with226 same-language originals and found no exact paragraphs≥15words, internal duplicates or duplicates across the two new topics. Largest five-gram Jaccard overlap was0.00317; root read these descriptive findings along with the complete text. This does not certify Internet-wide originality.",
+    "Ten archival inputs and fifty unique served derivatives passed full raw-pixel decoding, exact hashes and dimensions. Sixty references include ten repeated primary-variant aliases and are not sixty files.",
+    "This approval selects these exact four final documents for the unchanged mandatory release gate. Cloudflare, CI, public URLs, all prior content and public navigation remain to be verified before publication is recorded.",
+    "Only these four never-public versions receive real initial publication/update dates. Existing published articles and dates remain unchanged.",
+    "This hash-bound selection is approved for the mandatory release gate, not a claim of public deployment or Google indexation."
+  ]
+}

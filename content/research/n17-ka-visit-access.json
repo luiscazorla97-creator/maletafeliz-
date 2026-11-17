@@ -1,0 +1,42 @@
+{
+  "url": "https://visit.trip-kamakura.com/access/",
+  "finalUrl": "https://visit.trip-kamakura.com/access/",
+  "fetchedAt": "2026-11-17T17:12:06.741Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "dab91253060f93975a5ad2e1fcebcdcdc65c44cc99e0c3c46ed9c947a9741db6",
+  "textSha256": "6ac9904e64c6f929e3101468f09f8c7aac758c8fbbdef8c7944453fcfa9cb918",
+  "facts": [
+    {
+      "fact": "Kamakura is in Kanagawa and about an hour by train from Tokyo.",
+      "excerpt": "Located in Tokyo’s neighboring Kanagawa Prefecture, Kamakura",
+      "location": "Readable text capture, exact substring at character 1987"
+    },
+    {
+      "fact": "From Tokyo Station, the association gives about an hour on JR Yokosuka.",
+      "excerpt": "Tokyo Sta. \n JR Yokosuka Line \n About 60 min \n Kamakura Sta.",
+      "location": "Readable text capture, exact substring at character 3143"
+    },
+    {
+      "fact": "Yokohama is also connected by JR Yokosuka.",
+      "excerpt": "Yokohama Sta. \n JR Yokosuka Line \n About 25 min \n Kamakura Sta.",
+      "location": "Readable text capture, exact substring at character 3342"
+    },
+    {
+      "fact": "Public transport is recommended due to heavy traffic on weekdays and weekends.",
+      "excerpt": "Roads near popular tourist spots are subject to heavy traffic on both weekdays and weekends, so using public transportation is recommended.",
+      "location": "Readable text capture, exact substring at character 2472"
+    },
+    {
+      "fact": "JR, Enoden, monorail, buses and taxis are among local transport forms.",
+      "excerpt": "The JR and Enoden trains as well as Shonan monorail, buses, and taxis are its main forms of public transportation.",
+      "location": "Readable text capture, exact substring at character 4003"
+    }
+  ],
+  "actuallyRead": true,
+  "readBy": "Codex Kamakura editorial research agent",
+  "readAt": "2026-11-17T17:19:21.685235+00:00",
+  "notes": "Actual official response and readable text read in full. Exact raw/text captures are retained and SHA-256 checked; facts have complete supporting extracts. Broader reading contexts remain private. Research evidence is not article approval; future prices/hours require reconfirmation.",
+  "rawFile": "content/research/raw/n17-ka-visit-access.raw",
+  "textFile": "content/research/raw/n17-ka-visit-access.txt"
+}

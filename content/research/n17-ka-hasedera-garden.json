@@ -1,0 +1,32 @@
+{
+  "url": "https://www.hasedera.jp/en/garden/",
+  "finalUrl": "https://www.hasedera.jp/en/garden/",
+  "fetchedAt": "2026-11-17T17:14:00.244Z",
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "contentSha256": "d6fd80e5a99a9a535bfc9a0f72eee6fa7dc4ad7ac97ba3ac67135329bc214678",
+  "textSha256": "1bdf825f083379deae2189bd327f4b4b5bc609f2bb271304fe3de37be8978b0f",
+  "facts": [
+    {
+      "fact": "The temple garden changes with the seasons.",
+      "excerpt": "Visitors are welcome to enjoy the beauty of the seasonally-changing garden here.",
+      "location": "Readable text capture, exact substring at character 358"
+    },
+    {
+      "fact": "The calendar associates June with hydrangeas.",
+      "excerpt": "6\nJun.\n AJISAI",
+      "location": "Readable text capture, exact substring at character 711"
+    },
+    {
+      "fact": "A separate link points to the current bloom update in Japanese; the calendar is not a guarantee for any date.",
+      "excerpt": "Currently blooming on the site (only in Japanese)",
+      "location": "Readable text capture, exact substring at character 475"
+    }
+  ],
+  "actuallyRead": true,
+  "readBy": "Codex Kamakura editorial research agent",
+  "readAt": "2026-11-17T17:19:21.685235+00:00",
+  "notes": "Actual official response and readable text read in full. Exact raw/text captures are retained and SHA-256 checked; facts have complete supporting extracts. Broader reading contexts remain private. Research evidence is not article approval; future prices/hours require reconfirmation.",
+  "rawFile": "content/research/raw/n17-ka-hasedera-garden.raw",
+  "textFile": "content/research/raw/n17-ka-hasedera-garden.txt"
+}

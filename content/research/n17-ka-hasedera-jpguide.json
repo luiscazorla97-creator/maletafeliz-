@@ -1,0 +1,32 @@
+{
+  "url": "https://www.hasedera.jp/guide/",
+  "finalUrl": "https://www.hasedera.jp/guide/",
+  "fetchedAt": "2026-11-17T17:12:09.680Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "a3641f5513897efed96174d129e7986edb335078ea7e26e4cd6197272795212e",
+  "textSha256": "12e3e92c324984f488bf5c5c4d1ab6424b319928b302204f064e1c69e1326eb2",
+  "facts": [
+    {
+      "fact": "The Japanese admission page corroborates adult admission of 400 yen.",
+      "excerpt": "大人\n400円",
+      "location": "Readable text capture, exact substring at character 161"
+    },
+    {
+      "fact": "Hasedera gives an approximately five-minute walk from Enoden Hase Station.",
+      "excerpt": "江ノ電「長谷駅」下車、徒歩5分",
+      "location": "Readable text capture, exact substring at character 799"
+    },
+    {
+      "fact": "Normal last admission is 16:30 with closing at 17:00; April–June is later.",
+      "excerpt": "8:00〜16:30（閉山17:00）",
+      "location": "Readable text capture, exact substring at character 102"
+    }
+  ],
+  "actuallyRead": true,
+  "readBy": "Codex Kamakura editorial research agent",
+  "readAt": "2026-11-17T17:19:21.685235+00:00",
+  "notes": "Actual official response and readable text read in full. Exact raw/text captures are retained and SHA-256 checked; facts have complete supporting extracts. Broader reading contexts remain private. Research evidence is not article approval; future prices/hours require reconfirmation.",
+  "rawFile": "content/research/raw/n17-ka-hasedera-jpguide.raw",
+  "textFile": "content/research/raw/n17-ka-hasedera-jpguide.txt"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-17",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-17T17:11:01.071Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "kamakura",
+    "zacatecas"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "63b26dca-782b-4538-bab9-4b9dbef4fafc",
+    "baseCommit": "52464ac520e9c32019a61cf670d769a876a97557",
+    "startedAt": "2026-11-17T17:10:59.127070+00:00",
+    "heartbeatAt": "2026-11-17T17:11:01.115562+00:00",
+    "leaseUntil": "2026-11-17T23:11:01.115562+00:00",
+    "status": "in-progress"
+  }
+}

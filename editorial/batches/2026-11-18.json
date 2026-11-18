@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-18",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-18T17:05:40.303Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "mantua",
+    "takamatsu"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "7164d43e-3a10-4342-bb98-649b25fd74cc",
+    "baseCommit": "665399cf60a286e8246176ab3e340a5eeadd0a82",
+    "startedAt": "2026-11-18T17:05:39.350791+00:00",
+    "heartbeatAt": "2026-11-18T17:05:40.361378+00:00",
+    "leaseUntil": "2026-11-18T23:05:40.361383+00:00",
+    "status": "in-progress"
+  }
+}

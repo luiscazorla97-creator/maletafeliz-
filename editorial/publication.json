@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-17T18:09:11.576Z",
+  "verifiedAt": "2026-11-18T18:06:49.222Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 228,
-  "localizations": 456,
-  "photos": 963,
-  "httpChecks": 1010,
+  "originals": 230,
+  "localizations": 460,
+  "photos": 973,
+  "httpChecks": 1018,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "daf6afb5-e18e-48bf-9220-a9d67155da03",
-      "commit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+      "deploymentId": "c45ca847-ea9d-4f0a-b93d-f959ea25dd7c",
+      "commit": "9267a5e47abd5ed0ebc4de7a227e8eff11a0cd27",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "0d3da755-441c-430e-ac4c-bc03df000f81",
-      "commit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+      "deploymentId": "1eee1300-948b-44d5-bc8a-5ef18ce9fb8d",
+      "commit": "9267a5e47abd5ed0ebc4de7a227e8eff11a0cd27",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,23 +45,23 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 1167,
-  "latestBatch": "2026-11-17",
-  "verificationFile": "editorial/verification/2026-11-17-publication.json",
+  "citedSourceDocuments": 1194,
+  "latestBatch": "2026-11-18",
+  "verificationFile": "editorial/verification/2026-11-18-publication.json",
   "httpCheckBreakdown": {
-    "verifiedAt": "2026-11-17T18:03:40.327Z",
-    "verificationClosedAt": "2026-11-17T18:09:11.576Z",
-    "verificationFile": "editorial/verification/2026-11-17-publication.json",
-    "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
-    "siteAndRedirects": 1010,
-    "allSitemapHtmlPages": 1000,
-    "allLocalizedGuideHtmlPages": 456,
+    "verifiedAt": "2026-11-18T18:04:34.986Z",
+    "verificationClosedAt": "2026-11-18T18:06:49.222Z",
+    "verificationFile": "editorial/verification/2026-11-18-publication.json",
+    "sourceCommit": "9267a5e47abd5ed0ebc4de7a227e8eff11a0cd27",
+    "siteAndRedirects": 1018,
+    "allSitemapHtmlPages": 1008,
+    "allLocalizedGuideHtmlPages": 460,
     "localProductionBrowserTests": 8,
     "localProductionScope": {
       "focusedCurrentBuildGuideCases": 8,
       "wholeLocalSuiteClaimed": false
     },
-    "fullSourceProductionTestsInGitHub": 972,
+    "fullSourceProductionTestsInGitHub": 980,
     "batchHttpsRequests": 86,
     "batchLocalizedVersionsVerified": 4,
     "batchOriginalTopicsVerified": 2,
@@ -69,18 +69,18 @@
     "publicBrowserFlows": 8,
     "note": "siteAndRedirects is the actual whole-site verifier.checked length. Sitemap/guide counts are subsets; independent HTTP/browser/test phases are not summed into a global total.",
     "evidence": {
-      "wholeSiteResultSha256": "1496740079635c15791a7692fe3dcff3840c78650bc8199d81e43bb32353c6c7",
-      "batchHttpsResultSha256": "e88f4c463714b5f587de7abaeeb1fa6145449c39a293fc147c006975e9b93877",
-      "browserResultSha256": "01eb9f167da76e44b001f4b89e6aa754f9fd1283c3f9af9244b14558cf6a6cb7",
-      "focusedNativeLogSha256": "42d9b5625a13961ad7f2e2fa412533dcb586d39fcf418c7ceb05b21fc2c9e4ce",
-      "fullSourceCiLogSha256": "8245e2822c4d39fb447a92e9b700c6d94caf3dcf16e3d915e1315d540b14de57"
+      "wholeSiteResultSha256": "7d14bfa51bd0284cf89c46c36e72454a7f728abf26382445d2dab62cdd1c1cea",
+      "batchHttpsResultSha256": "160c19599f466ca861032fc3b5302d7e29faa395b9c2b29cd4805db55c10bbed",
+      "browserResultSha256": "1260b0c81b5df091787aa0ed5cfdaf3018150bfe7916eb2531bbe9a2a2cfeb4d",
+      "focusedNativeLogSha256": "d92490d8127e3ddd75f3895b56c748027296db4350f2497ed3f9a38a2d158fab",
+      "fullSourceCiLogSha256": "8ea972078c197d4045776f65cd8c0921cdfb9946bd9a9d99fc04417e198035e5"
     }
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-17-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-17T18:09:11.576Z",
+  "latestDeploymentVerification": "editorial/verification/2026-11-18-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-18T18:06:49.222Z",
   "photoCoverage": {
-    "originalRecommendations": 977,
-    "localizedRecommendations": 1954,
+    "originalRecommendations": 987,
+    "localizedRecommendations": 1974,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -153,23 +153,23 @@
       "mx",
       "us"
     ],
-    "priorityOriginals": 92,
+    "priorityOriginals": 94,
     "initialTargetOriginals": 100,
-    "remainingOriginals": 11,
-    "verification": "editorial/verification/2026-11-17-publication.json",
-    "targetCoveredOriginals": 89,
+    "remainingOriginals": 9,
+    "verification": "editorial/verification/2026-11-18-publication.json",
+    "targetCoveredOriginals": 91,
     "aboveTargetOriginals": 3,
-    "targetCappedOriginals": 89,
+    "targetCappedOriginals": 91,
     "excessOriginals": 3
   },
   "technicalIndexability": {
-    "verifiedAt": "2026-11-17T18:03:40.327Z",
-    "verificationClosedAt": "2026-11-17T18:09:11.576Z",
-    "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
-    "verificationFile": "editorial/verification/2026-11-17-publication.json",
-    "sitemapUrls": 1000,
-    "httpUrlsChecked": 1000,
-    "localizedGuidesCheckedInHtml": 456,
+    "verifiedAt": "2026-11-18T18:04:34.986Z",
+    "verificationClosedAt": "2026-11-18T18:06:49.222Z",
+    "sourceCommit": "9267a5e47abd5ed0ebc4de7a227e8eff11a0cd27",
+    "verificationFile": "editorial/verification/2026-11-18-publication.json",
+    "sitemapUrls": 1008,
+    "httpUrlsChecked": 1008,
+    "localizedGuidesCheckedInHtml": 460,
     "allSitemapPagesReachableThroughHtml": true,
     "unreachableSitemapPages": 0,
     "maximumGuideClickDepth": 2,
@@ -179,9 +179,9 @@
     "newLocalizations": 4,
     "googleIndexationVerified": false,
     "evidence": {
-      "wholeSiteFile": "editorial/verification/2026-11-17-publication.json",
-      "wholeSiteResultSha256": "1496740079635c15791a7692fe3dcff3840c78650bc8199d81e43bb32353c6c7",
-      "wholeSiteRunSha256": "7f4fbbdc337b61c4610d2671f3cb4e6c2cadcff0122bda81518977d9b4772251"
+      "wholeSiteFile": "editorial/verification/2026-11-18-publication.json",
+      "wholeSiteResultSha256": "7d14bfa51bd0284cf89c46c36e72454a7f728abf26382445d2dab62cdd1c1cea",
+      "wholeSiteRunSha256": "40e35dd4b412c1d693d679dd3481e1c710fa083984a521d40a6b98b81ecdc198"
     }
   },
   "mobilePerformance": {
@@ -341,16 +341,38 @@
         "wholeSiteResultSha256": "5f0178879e65a3c2b5c04bb6b809cbcd6bd49bcebe5864f1c38f29374ebf165e",
         "wholeSiteRunSha256": "0741949127786711d380433ae7198fcc6db2d05da5734b8d5afbb04a1b838649"
       }
+    },
+    {
+      "verifiedAt": "2026-11-17T18:03:40.327Z",
+      "verificationClosedAt": "2026-11-17T18:09:11.576Z",
+      "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+      "verificationFile": "editorial/verification/2026-11-17-publication.json",
+      "sitemapUrls": 1000,
+      "httpUrlsChecked": 1000,
+      "localizedGuidesCheckedInHtml": 456,
+      "allSitemapPagesReachableThroughHtml": true,
+      "unreachableSitemapPages": 0,
+      "maximumGuideClickDepth": 2,
+      "duplicateTitlesWithinLocale": 0,
+      "duplicateTitleComparison": "NFC, collapsed whitespace and lower-case title within served HTML lang",
+      "newArticles": 2,
+      "newLocalizations": 4,
+      "googleIndexationVerified": false,
+      "evidence": {
+        "wholeSiteFile": "editorial/verification/2026-11-17-publication.json",
+        "wholeSiteResultSha256": "1496740079635c15791a7692fe3dcff3840c78650bc8199d81e43bb32353c6c7",
+        "wholeSiteRunSha256": "7f4fbbdc337b61c4610d2671f3cb4e6c2cadcff0122bda81518977d9b4772251"
+      }
     }
   ],
   "latestFullSitePublicationVerification": {
-    "verifiedAt": "2026-11-17T18:03:40.327Z",
-    "verificationClosedAt": "2026-11-17T18:09:11.576Z",
-    "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
-    "verificationFile": "editorial/verification/2026-11-17-publication.json",
-    "sitemapUrls": 1000,
-    "httpUrlsChecked": 1000,
-    "localizedGuidesCheckedInHtml": 456,
+    "verifiedAt": "2026-11-18T18:04:34.986Z",
+    "verificationClosedAt": "2026-11-18T18:06:49.222Z",
+    "sourceCommit": "9267a5e47abd5ed0ebc4de7a227e8eff11a0cd27",
+    "verificationFile": "editorial/verification/2026-11-18-publication.json",
+    "sitemapUrls": 1008,
+    "httpUrlsChecked": 1008,
+    "localizedGuidesCheckedInHtml": 460,
     "allSitemapPagesReachableThroughHtml": true,
     "unreachableSitemapPages": 0,
     "maximumGuideClickDepth": 2,
@@ -360,21 +382,21 @@
     "newLocalizations": 4,
     "googleIndexationVerified": false,
     "evidence": {
-      "wholeSiteFile": "editorial/verification/2026-11-17-publication.json",
-      "wholeSiteResultSha256": "1496740079635c15791a7692fe3dcff3840c78650bc8199d81e43bb32353c6c7",
-      "wholeSiteRunSha256": "7f4fbbdc337b61c4610d2671f3cb4e6c2cadcff0122bda81518977d9b4772251"
+      "wholeSiteFile": "editorial/verification/2026-11-18-publication.json",
+      "wholeSiteResultSha256": "7d14bfa51bd0284cf89c46c36e72454a7f728abf26382445d2dab62cdd1c1cea",
+      "wholeSiteRunSha256": "40e35dd4b412c1d693d679dd3481e1c710fa083984a521d40a6b98b81ecdc198"
     },
     "scope": "Current exact-source complete sitemap verification; newArticles/newLocalizations describe this batch."
   },
   "latestBatchVerificationClosure": {
-    "verificationCompletedAt": "2026-11-17T18:09:11.576Z",
-    "verificationFile": "editorial/verification/2026-11-17-publication.json",
-    "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+    "verificationCompletedAt": "2026-11-18T18:06:49.222Z",
+    "verificationFile": "editorial/verification/2026-11-18-publication.json",
+    "sourceCommit": "9267a5e47abd5ed0ebc4de7a227e8eff11a0cd27",
     "lateVerificationClosure": false,
     "resumedFromPriorReservation": false,
-    "reservationDay": "2026-11-17",
-    "firstPublicationNewYorkDate": "2026-11-17",
-    "verificationCompletionNewYorkDate": "2026-11-17",
+    "reservationDay": "2026-11-18",
+    "firstPublicationNewYorkDate": "2026-11-18",
+    "verificationCompletionNewYorkDate": "2026-11-18",
     "newOriginalsFirstPublishedOnCompletionDate": 2,
     "newLocalizationsFirstPublishedOnCompletionDate": 4,
     "originalsVerified": 2,
@@ -822,6 +844,125 @@
             "browserResultSha256": "f27056c5ed050b5dd56e04914483198776620f9da3dad243f75f962aeff8f677",
             "focusedNativeLogSha256": "90c6750431aa03b2ec4f5589832d519785b85b591e96645d53b92bb74a15983c",
             "fullSourceCiLogSha256": "a539336a10e742f1ee419461e001672d9136744c6636c3227842629838eb05fa"
+          }
+        }
+      }
+    },
+    {
+      "supersededAt": "2026-11-18T18:06:49.222Z",
+      "status": "superseded-historical-inventory-metadata",
+      "inheritedFromRepositoryCommit": "665399cf60a286e8246176ab3e340a5eeadd0a82",
+      "previousInventorySha256": "db65533331c5a1edf8447bd774e02cfdb3aa8008cc2bc6eb0e037532004d8fed",
+      "previousInventoryVerifiedAt": "2026-11-17T18:09:11.576Z",
+      "previousInventoryVerificationFile": "editorial/verification/2026-11-17-publication.json",
+      "previousApplicationSourceCommitRecorded": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+      "records": {
+        "countrySeoStrategy": {
+          "priorityCountries": [
+            "it",
+            "jp",
+            "mx",
+            "us"
+          ],
+          "priorityOriginals": 92,
+          "initialTargetOriginals": 100,
+          "remainingOriginals": 11,
+          "verification": "editorial/verification/2026-11-17-publication.json",
+          "targetCoveredOriginals": 89,
+          "aboveTargetOriginals": 3,
+          "targetCappedOriginals": 89,
+          "excessOriginals": 3
+        },
+        "technicalIndexability": {
+          "verifiedAt": "2026-11-17T18:03:40.327Z",
+          "verificationClosedAt": "2026-11-17T18:09:11.576Z",
+          "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+          "verificationFile": "editorial/verification/2026-11-17-publication.json",
+          "sitemapUrls": 1000,
+          "httpUrlsChecked": 1000,
+          "localizedGuidesCheckedInHtml": 456,
+          "allSitemapPagesReachableThroughHtml": true,
+          "unreachableSitemapPages": 0,
+          "maximumGuideClickDepth": 2,
+          "duplicateTitlesWithinLocale": 0,
+          "duplicateTitleComparison": "NFC, collapsed whitespace and lower-case title within served HTML lang",
+          "newArticles": 2,
+          "newLocalizations": 4,
+          "googleIndexationVerified": false,
+          "evidence": {
+            "wholeSiteFile": "editorial/verification/2026-11-17-publication.json",
+            "wholeSiteResultSha256": "1496740079635c15791a7692fe3dcff3840c78650bc8199d81e43bb32353c6c7",
+            "wholeSiteRunSha256": "7f4fbbdc337b61c4610d2671f3cb4e6c2cadcff0122bda81518977d9b4772251"
+          }
+        },
+        "latestFullSitePublicationVerification": {
+          "verifiedAt": "2026-11-17T18:03:40.327Z",
+          "verificationClosedAt": "2026-11-17T18:09:11.576Z",
+          "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+          "verificationFile": "editorial/verification/2026-11-17-publication.json",
+          "sitemapUrls": 1000,
+          "httpUrlsChecked": 1000,
+          "localizedGuidesCheckedInHtml": 456,
+          "allSitemapPagesReachableThroughHtml": true,
+          "unreachableSitemapPages": 0,
+          "maximumGuideClickDepth": 2,
+          "duplicateTitlesWithinLocale": 0,
+          "duplicateTitleComparison": "NFC, collapsed whitespace and lower-case title within served HTML lang",
+          "newArticles": 2,
+          "newLocalizations": 4,
+          "googleIndexationVerified": false,
+          "evidence": {
+            "wholeSiteFile": "editorial/verification/2026-11-17-publication.json",
+            "wholeSiteResultSha256": "1496740079635c15791a7692fe3dcff3840c78650bc8199d81e43bb32353c6c7",
+            "wholeSiteRunSha256": "7f4fbbdc337b61c4610d2671f3cb4e6c2cadcff0122bda81518977d9b4772251"
+          },
+          "scope": "Current exact-source complete sitemap verification; newArticles/newLocalizations describe this batch."
+        },
+        "latestBatchVerificationClosure": {
+          "verificationCompletedAt": "2026-11-17T18:09:11.576Z",
+          "verificationFile": "editorial/verification/2026-11-17-publication.json",
+          "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+          "lateVerificationClosure": false,
+          "resumedFromPriorReservation": false,
+          "reservationDay": "2026-11-17",
+          "firstPublicationNewYorkDate": "2026-11-17",
+          "verificationCompletionNewYorkDate": "2026-11-17",
+          "newOriginalsFirstPublishedOnCompletionDate": 2,
+          "newLocalizationsFirstPublishedOnCompletionDate": 4,
+          "originalsVerified": 2,
+          "localizedVersionsVerified": 4,
+          "documentaryPhotosVerified": 10,
+          "optimizedPhotoFilesVerified": 50,
+          "reservationIdentityPreserved": true,
+          "publicationCadenceConfigurationUnchanged": true,
+          "newReservationCreated": true
+        },
+        "httpCheckBreakdown": {
+          "verifiedAt": "2026-11-17T18:03:40.327Z",
+          "verificationClosedAt": "2026-11-17T18:09:11.576Z",
+          "verificationFile": "editorial/verification/2026-11-17-publication.json",
+          "sourceCommit": "fbe0e97d769c2976e69a18679f724e2d30d26e83",
+          "siteAndRedirects": 1010,
+          "allSitemapHtmlPages": 1000,
+          "allLocalizedGuideHtmlPages": 456,
+          "localProductionBrowserTests": 8,
+          "localProductionScope": {
+            "focusedCurrentBuildGuideCases": 8,
+            "wholeLocalSuiteClaimed": false
+          },
+          "fullSourceProductionTestsInGitHub": 972,
+          "batchHttpsRequests": 86,
+          "batchLocalizedVersionsVerified": 4,
+          "batchOriginalTopicsVerified": 2,
+          "selectedPhotoFilesVerified": 50,
+          "publicBrowserFlows": 8,
+          "note": "siteAndRedirects is the actual whole-site verifier.checked length. Sitemap/guide counts are subsets; independent HTTP/browser/test phases are not summed into a global total.",
+          "evidence": {
+            "wholeSiteResultSha256": "1496740079635c15791a7692fe3dcff3840c78650bc8199d81e43bb32353c6c7",
+            "batchHttpsResultSha256": "e88f4c463714b5f587de7abaeeb1fa6145449c39a293fc147c006975e9b93877",
+            "browserResultSha256": "01eb9f167da76e44b001f4b89e6aa754f9fd1283c3f9af9244b14558cf6a6cb7",
+            "focusedNativeLogSha256": "42d9b5625a13961ad7f2e2fa412533dcb586d39fcf418c7ceb05b21fc2c9e4ce",
+            "fullSourceCiLogSha256": "8245e2822c4d39fb447a92e9b700c6d94caf3dcf16e3d915e1315d540b14de57"
           }
         }
       }

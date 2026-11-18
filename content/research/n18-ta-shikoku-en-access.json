@@ -1,0 +1,35 @@
+{
+  "id": "n18-ta-shikoku-en-access",
+  "url": "https://www.shikokumura.or.jp/en/access/",
+  "fetchedAt": "2026-11-18T17:04:56.514Z",
+  "facts": [
+    {
+      "fact": "The museum is approximately five minutes on foot from Kotoden-Yashima, ten from JR Yashima; Kotoden uses the Shido Line viaKawaramachi.",
+      "excerpt": "Take the Kotoden Shido line to Kotoden-Yashima Station, then five minutes' walk",
+      "location": "When coming by plane / When coming by train; readable character offset 986; line 34"
+    },
+    {
+      "fact": "The museum describes a shuttle involving JR/KotodenYashima stations, Shikoku-mura stop and Yashima-Sanjo; timetable must be checked.",
+      "excerpt": "Shuttle buses are also available between JR Yashima Station or Kotoden Yashima Station and Yashima-Sanjo.",
+      "location": "Shuttle Bus Guide; readable character offset 1155; line 37"
+    },
+    {
+      "fact": "Yashima is a table-shaped highland; the peak provides views towards Seto islands, Takamatsu and Sanuki mountains, weather permitting.",
+      "excerpt": "Seto Inland Sea islands, the Takamatsu cityscape, and the Sanuki mountain range",
+      "location": "Yashima Tourism; readable character offset 1632; line 41"
+    }
+  ],
+  "actuallyRead": true,
+  "finalUrl": "https://www.shikokumura.or.jp/en/access/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "9171a1332c0d9336384fa8c39db9b759fe407cfedb3ab98c1b9ba9a4702f5b78",
+  "bytes": 34626,
+  "textSha256": "9f00e8aef3a76fe55d148902828e96d60d93530beafde6a063d918d4ec304456",
+  "title": "Shikoku Mura Museum — railway access and Yashima shuttle",
+  "rawFile": "content/research/raw/n18-ta-shikoku-en-access.html",
+  "textFile": "content/research/raw/n18-ta-shikoku-en-access.txt",
+  "factReviewedAt": "2026-11-18T17:18:59.622567+00:00",
+  "notes": "Actually read official full response and supporting contexts, not search snippets. Japanese interpreted into equivalent ES/EN facts. Times/walks are estimates or operator conditions; no search-volume, ranking, personal visit or indexation promise. Full raw/readable capture retained."
+}

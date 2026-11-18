@@ -1,0 +1,40 @@
+{
+  "url": "https://www.centropalazzote.it/visita/",
+  "finalUrl": "https://www.centropalazzote.it/visita/",
+  "fetchedAt": "2026-11-18T17:05:40.170Z",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentSha256": "e1978e671f9308729a9c2bc91c2a131a306af1e6fe5e697cc775116b12cc56ff",
+  "bytes": 180202,
+  "textSha256": "2b62aa7571ee6d86d4954f8c6094ff7a3141275991554dd1fdcf792ec89228f8",
+  "facts": [
+    {
+      "fact": "Regular visiting hours listed on the consulted page begin at 13:00 Tuesday and 09:00 on other ordinary days; the ticket office closes at 18:00 and the building at 19:00. Closure is specified for 25 December.",
+      "excerpt": "Orari\nlunedì: 9:00 – 19:00\nmartedì: 13:00 – 19:00\nmercoledì – domenica: 9:00 – 19:00\nChiusura biglietteria ore 18:00\nChiuso il 25 dicembre, aperto nelle altre festività.",
+      "location": "Captured visible text, Unicode code points 440–609; full context retained in n18-ma-te-visit.txt",
+      "textStart": 440,
+      "textEnd": 609
+    },
+    {
+      "fact": "Individual advance admission purchase is recommended for weekends and holidays but is not compulsory in all cases.",
+      "excerpt": "L’acquisto anticipato del biglietto d’ingresso per i visitatori individuali non è obbligatorio, ma fortemente consigliato nei weekend e nelle festività al fine di ridurre i tempi di attesa.\nAlla tariffa di ingresso sarà quindi applicato il costo della prevendita.",
+      "location": "Captured visible text, Unicode code points 610–873; full context retained in n18-ma-te-visit.txt",
+      "textStart": 610,
+      "textEnd": 873
+    },
+    {
+      "fact": "The visitor page warns that exhibitions may entail ticket or card additions.",
+      "excerpt": "Si precisa che in occasione di mostre potrà essere applicata un’integrazione al costo dei biglietti e della Mantova Musei Card.",
+      "location": "Captured visible text, Unicode code points 5544–5671; full context retained in n18-ma-te-visit.txt",
+      "textStart": 5544,
+      "textEnd": 5671
+    }
+  ],
+  "actuallyRead": true,
+  "rawEvidenceFile": "content/research/raw/n18-ma-te-visit.raw",
+  "textEvidenceFile": "content/research/raw/n18-ma-te-visit.txt",
+  "reviewedBy": "Codex editorial research (AI-assisted)",
+  "notes": "Official source fetched and relevant full context read. Route, pacing and ticket-choice recommendations are editorial advice. Current operational details must be rechecked for the travel date; no demand ranking, guaranteed access or firsthand visit is claimed.",
+  "rawFile": "content/research/raw/n18-ma-te-visit.raw",
+  "textFile": "content/research/raw/n18-ma-te-visit.txt"
+}

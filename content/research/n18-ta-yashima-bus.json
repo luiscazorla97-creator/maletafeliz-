@@ -1,0 +1,31 @@
+{
+  "id": "n18-ta-yashima-bus",
+  "url": "https://www.kotoden.co.jp/publichtm/bus/new/2026/yashima_shuttle7.18/index.html",
+  "fetchedAt": "2026-11-18T17:13:04.502Z",
+  "facts": [
+    {
+      "fact": "The direct service JR Takamatsu–YashimaSanjo beganJuly18,2026; its published operating days are weekends, public holidays and specified summer/winter school-holiday periods, not all weekdays.",
+      "excerpt": "土曜日・日曜日・祝日　夏休み(7/18～8/31)　冬休み(12/25～1/7)",
+      "location": "運行日; readable character offset 267; line 10"
+    },
+    {
+      "fact": "The direct route serves KotodenYashima and ShikokuMura between Takamatsu and the summit; four roundtrips per operating day.",
+      "excerpt": "１日４往復",
+      "location": "ダイヤ / 運行ルート; readable character offset 389; line 15"
+    }
+  ],
+  "actuallyRead": true,
+  "finalUrl": "https://www.kotoden.co.jp/publichtm/bus/new/2026/yashima_shuttle7.18/index.html",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=shift_jis",
+  "retryAfter": null,
+  "contentSha256": "62b5bc303cb3b74b8e18f6c0f1b00d4450dc99ca908dcd7bbefa596fc99f80da",
+  "bytes": 12821,
+  "textSha256": "ff8064639261a3824ce2ca65e41d843a19479b7b6e1522f8f02e4161fa57fa2c",
+  "title": "Kotoden Bus — direct Takamatsu Station to Yashima summit service",
+  "rawFile": "content/research/raw/n18-ta-yashima-bus.html",
+  "textFile": "content/research/raw/n18-ta-yashima-bus.txt",
+  "factReviewedAt": "2026-11-18T17:18:59.622567+00:00",
+  "notes": "Actually read official full response and supporting contexts, not search snippets. Japanese interpreted into equivalent ES/EN facts. Times/walks are estimates or operator conditions; no search-volume, ranking, personal visit or indexation promise. Full raw/readable capture retained.",
+  "decoding": "Raw HTML declares Shift_JIS. Final full readable text correctly decoded with WHATWG TextDecoder shift_jis; original unsuccessful UTF8 extraction preserved privately."
+}

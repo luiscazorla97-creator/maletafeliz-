@@ -1,0 +1,35 @@
+{
+  "id": "n18-ta-shikoku-entry",
+  "url": "https://www.shikokumura.or.jp/en/information/",
+  "fetchedAt": "2026-11-18T17:04:56.327Z",
+  "facts": [
+    {
+      "fact": "Hours are9:30–17:00 with last admission16:30, when the gallery also closes.",
+      "excerpt": "9:30 to 17:00 (Last entry 16:30. The gallery closes at 16:30.)",
+      "location": "Open Hours; readable character offset 180; line 17"
+    },
+    {
+      "fact": "Tuesday closure moves to the following day if Tuesday is a national holiday; temporary maintenance/weather closures are possible.",
+      "excerpt": "Tuesdays (closed the following day if Tuesday is a national holiday).",
+      "location": "Closed; readable character offset 253; line 19"
+    },
+    {
+      "fact": "The adult admission listed is¥2200, not the group amount in parentheses.",
+      "excerpt": "¥2,200 (¥2,000)",
+      "location": "Fees / Adults; readable character offset 575; line 25"
+    }
+  ],
+  "actuallyRead": true,
+  "finalUrl": "https://www.shikokumura.or.jp/en/information/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "787d9ca7da5c55eb2e1856b8474486e2b94386e624dc73ee07439fe4b8fb10d3",
+  "bytes": 34574,
+  "textSha256": "48f0ad7e8b8d91248333d3c02a28cdd6b506b8a746caa2bcdb1d72bb5a86e469",
+  "title": "Shikoku Mura Museum — admission and opening calendar",
+  "rawFile": "content/research/raw/n18-ta-shikoku-entry.html",
+  "textFile": "content/research/raw/n18-ta-shikoku-entry.txt",
+  "factReviewedAt": "2026-11-18T17:18:59.622567+00:00",
+  "notes": "Actually read official full response and supporting contexts, not search snippets. Japanese interpreted into equivalent ES/EN facts. Times/walks are estimates or operator conditions; no search-volume, ranking, personal visit or indexation promise. Full raw/readable capture retained."
+}

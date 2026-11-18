@@ -1,0 +1,55 @@
+{
+  "reviewer": "Codex root — bilingual factual, photographic and editorial review",
+  "reviewedAt": "2026-11-18T17:21:56.223Z",
+  "contentHash": "95414bc8f405998267f52fbdb7540bdbb48613900d71fd8b623145ba2fb79a00",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "reviewEvidence": [
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n18/root-editorial-decision.json",
+      "sha256": "f21abdea38544fb7201de2ebd2fb8d39825c367a5d66c6303ac34108e1ddb086"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n18/root-source-reading.json",
+      "sha256": "42276874f191a147ef015ecb51d0f077f7421b3075b4ad4bb75a0433ebb98fe0"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n18/root-photo-rights-reading.json",
+      "sha256": "3d1ff380e825ce9216a02f491b9263a8ef84006ca348948c25efde376ae89910"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n18/root-photo-integrity.json",
+      "sha256": "1221c39ebed97f5af74d56f5ae6057a84614e6e064d89129e7961a2d5434429a"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n18/root-originality-review.json",
+      "sha256": "5b255d4b837871d84c8500ca9f9247cb3016bf88e18b3e61ca5715398736dd8a"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n18/root-tooling-review.json",
+      "sha256": "1ce6aade468e787e986fa70492985d752b2dc55b6aa6adbe24da545630ad11c8"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n18/citation-url-reconciliation.json",
+      "sha256": "6a4d156e22604a5054d96bb60a4c96ee7cf45a13bdd9c43eff37ca9d004ee050"
+    }
+  ],
+  "notes": [
+    "Root actually read all four full manuscripts with localized metadata, practical details, itineraries and FAQs. Five developed places per original each have their own relevant documentary photo. Useful distinct neverpublished Mantua/Takamatsu first-visit intents, not copied generic filler. ES/EN preserve matching facts and published related links.",
+    "Compared228 prior originals per language, no identical paragraphs15words or longer, internal or across the two new topics. Largest catalogue fivegramJaccard0.00330124; descriptive similarity read and checked with fulltexts, not proof of Internet-wide originality.",
+    "Ten archival inputs plus50uniqueWebP files fullydecoded and hashed.60servedreferences include10duplicateprimary aliases, not60files.27officialsources/69facts, historicalfailures retained withoutconsultation claims.",
+    "Only new four versions receive actual initial dates and hashapproval; existing228originals and configuration preserved. Approved for mandatory release, not public deployment or Googleindexing claim.",
+    "Native integration preflight caught a requested-versus-final source URL mismatch. Only the new citation URLs corrected after root read the redirect evidence; all previous packages/proofs preserved, exact source guard unchanged, fresh full mechanical execution passed. Prose identical to full texts already read.",
+    "Only these four never-public versions receive real initial publication/update dates. Existing published articles and dates remain unchanged.",
+    "This hash-bound selection is approved for the mandatory release gate, not a claim of public deployment or Google indexation."
+  ]
+}

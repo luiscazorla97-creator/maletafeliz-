@@ -1,0 +1,240 @@
+{
+  "id": "mantua",
+  "destinationId": "mantua",
+  "intent": "mantua-first-visit-five-palaces-squares-cultural-places",
+  "status": "published",
+  "coverImageId": "n18-ma-ducale",
+  "sources": [
+    {
+      "id": "n18-ma-unesco",
+      "url": "https://whc.unesco.org/en/list/1287/",
+      "title": "Mantua and Sabbioneta — UNESCO World Heritage Centre",
+      "accessedAt": "2026-11-18T17:04:02.620Z",
+      "evidenceFile": "content/research/n18-ma-unesco.json"
+    },
+    {
+      "id": "n18-ma-ducale-old-court",
+      "url": "https://mantovaducale.cultura.gov.it/percorsi/la-corte-vecchia/",
+      "title": "Palazzo Ducale: La corte vecchia",
+      "accessedAt": "2026-11-18T17:07:28.268Z",
+      "evidenceFile": "content/research/n18-ma-ducale-old-court.json"
+    },
+    {
+      "id": "n18-ma-ducale-castle",
+      "url": "https://mantovaducale.cultura.gov.it/percorsi/il-castello/",
+      "title": "Palazzo Ducale: Il Castello di San Giorgio",
+      "accessedAt": "2026-11-18T17:04:42.915Z",
+      "evidenceFile": "content/research/n18-ma-ducale-castle.json"
+    },
+    {
+      "id": "n18-ma-ducale-tickets",
+      "url": "https://mantovaducale.cultura.gov.it/informazioni/biglietti-abbonamenti-e-riduzioni/",
+      "title": "Palazzo Ducale: Biglietti, abbonamenti e riduzioni",
+      "accessedAt": "2026-11-18T17:04:42.964Z",
+      "evidenceFile": "content/research/n18-ma-ducale-tickets.json"
+    },
+    {
+      "id": "n18-ma-ducale-access",
+      "url": "https://mantovaducale.cultura.gov.it/informazioni/come-arrivare/",
+      "title": "Palazzo Ducale: Come arrivare",
+      "accessedAt": "2026-11-18T17:04:42.632Z",
+      "evidenceFile": "content/research/n18-ma-ducale-access.json"
+    },
+    {
+      "id": "n18-ma-te-architecture",
+      "url": "https://www.centropalazzote.it/la-storia/",
+      "title": "Fondazione Palazzo Te: Storia e personaggi",
+      "accessedAt": "2026-11-18T17:07:28.307Z",
+      "evidenceFile": "content/research/n18-ma-te-architecture.json"
+    },
+    {
+      "id": "n18-ma-te-visit",
+      "url": "https://www.centropalazzote.it/visita/",
+      "title": "Fondazione Palazzo Te: Visita, orari e biglietti",
+      "accessedAt": "2026-11-18T17:05:40.170Z",
+      "evidenceFile": "content/research/n18-ma-te-visit.json"
+    },
+    {
+      "id": "n18-ma-regional-mantua",
+      "url": "https://www.in-lombardia.it/en/tourism-in-lombardy/tourism-mantua",
+      "title": "InLombardia: Mantua, official regional tourism guide",
+      "accessedAt": "2026-11-18T17:05:21.978Z",
+      "evidenceFile": "content/research/n18-ma-regional-mantua.json"
+    },
+    {
+      "id": "n18-ma-regional-alberti",
+      "url": "https://www.in-lombardia.it/en/tourism-in-lombardy/tourism-mantua/churches-mantua/leon-battista-alberti-journey-into-classicism",
+      "title": "InLombardia: Leon Battista Alberti Journey into Classicism",
+      "accessedAt": "2026-11-18T17:06:27.576Z",
+      "evidenceFile": "content/research/n18-ma-regional-alberti.json"
+    },
+    {
+      "id": "n18-ma-mincio-lakes",
+      "url": "https://www.parcodelmincio.it/pagina.php?id=9",
+      "title": "Parco del Mincio: I tre Laghi",
+      "accessedAt": "2026-11-18T17:06:08.061Z",
+      "evidenceFile": "content/research/n18-ma-mincio-lakes.json"
+    }
+  ],
+  "relatedIds": [
+    "verona",
+    "ferrara",
+    "ravenna"
+  ],
+  "locale": "en",
+  "slug": "things-to-do-mantua-5-places",
+  "title": "Things to do in Mantua: 5 places for art and history",
+  "description": "Plan five places to visit in Mantua: Palazzo Ducale, Palazzo Te, Sant’Andrea, Piazza delle Erbe and Lago Inferiore, with ticket choices and a flexible route.",
+  "keyword": "things to do in Mantua",
+  "relatedQueries": [
+    "what to see in Mantova",
+    "Palazzo Ducale or Palazzo Te",
+    "Mantua without a car"
+  ],
+  "intro": [
+    "For a first visit to Mantua, prioritise Palazzo Ducale, Palazzo Te, the Basilica of Sant’Andrea, Piazza delle Erbe and Lago Inferiore. Together, these five places explain the Gonzaga city without making the entire trip a succession of museum rooms: two residences with different purposes, a monumental church, a square for understanding everyday urban life and a change of pace beside the water.",
+    "Mantua, called Mantova in Italian, shares a UNESCO World Heritage property with Sabbioneta, inscribed in 2008. One distinction makes the city easier to understand: Renaissance Mantua developed through the transformation of an existing town, rather than being founded from scratch as an ideal city. Its overlapping buildings and public spaces tell that story. This guide suggests a flexible order, explains the ticket decisions that matter and offers a realistic way to choose if you only have one full day."
+  ],
+  "quickFacts": [
+    {
+      "label": "Location",
+      "value": "Mantua or Mantova, Lombardy, Italy"
+    },
+    {
+      "label": "The selection",
+      "value": "Two palaces, one basilica, one square and one lake"
+    },
+    {
+      "label": "Key booking",
+      "value": "Check whether Palazzo Ducale includes Castello di San Giorgio and the Camera degli Sposi"
+    },
+    {
+      "label": "Train arrival",
+      "value": "Mantova station, Piazza Don Leoni 14; check services for your travel date"
+    },
+    {
+      "label": "Suggested pace",
+      "value": "Choose for a single day; give the two palaces separate blocks for a less hurried visit"
+    }
+  ],
+  "sections": [
+    {
+      "id": "palazzo-ducale",
+      "kind": "place",
+      "heading": "1. Palazzo Ducale: understand the court before the Camera degli Sposi",
+      "paragraphs": [
+        "Think of Palazzo Ducale as a complex that developed through different periods, rather than a single frontage concealing one famous room. Corte Vecchia housed the Bonacolsi and later the Gonzaga family, and the museum route reveals several ways in which rulers represented their position. References described by the museum include the Pisanello room, Isabella d’Este’s apartments and the tapestry apartment, with hangings woven from Raphael’s cartoons. Pick a few elements to examine closely instead of trying to remember every room name.",
+        "Within the complex, Castello di San Giorgio contains the Camera degli Sposi, painted by Andrea Mantegna between 1465 and 1474. There are two separate decisions to make: whether to visit Palazzo Ducale and whether your visit should include this part of the castle. The museum sells options with and without the castle and Camera degli Sposi. A cultural pass does not automatically settle that question either, because a supplement can apply. Read the complete ticket description, date and entry slot before buying.",
+        "The practical detail most likely to disrupt a visit is the entrance. Your reserved time concerns entry to the museum route at Piazza Castello for the Camera degli Sposi, while the single ticket office is listed in Piazza Sordello. The museum says that Corte Nuova, Corte Vecchia and the Archaeological Museum can be visited before or after that slot. Allow time to find the correct entrance and check current notices: particular rooms and special routes should not be assumed to remain permanently available."
+      ],
+      "sourceIds": [
+        "n18-ma-ducale-old-court",
+        "n18-ma-ducale-castle",
+        "n18-ma-ducale-tickets"
+      ],
+      "imageId": "n18-ma-ducale"
+    },
+    {
+      "id": "palazzo-te",
+      "kind": "place",
+      "heading": "2. Palazzo Te: Federico II Gonzaga’s villa for leisure and receptions",
+      "paragraphs": [
+        "Palazzo Te offers a useful comparison between the formal court and a residence designed for leisure and entertaining. Giulio Romano conceived the complex for Federico II Gonzaga, with its principal construction and decoration taking place between 1525 and 1535. The foundation explains that the site was once an island in Mantua’s fourth lake, which has since been drained. That background helps explain the villa’s own relationship with gardens and open space, different from the central ducal complex.",
+        "The Camera di Amore e Psiche and Camera dei Giganti provide two reference points for preparing a visit. Avoid reducing the palace to a photograph of a single room: the square courtyard, rusticated surfaces and connections between architecture, frescoes and stucco belong to the same project. Notice how the spaces change and relate the decoration to a villa used to receive guests. You do not need to book a private tour to arrive with specific questions about what you want to understand.",
+        "For planning purposes, consult Palazzo Te’s visitor page separately from Palazzo Ducale’s. When researched for this guide, Te listed a regular Tuesday opening of 13:00, compared with 09:00 on the other ordinary opening days. It also distinguished ticket-office closing time from the building’s closing time and specified closure on 25 December. Check these details against your date, exhibitions and possible supplements. Advance purchase for individual visitors is especially recommended at weekends and holidays, rather than being described as compulsory in every case."
+      ],
+      "sourceIds": [
+        "n18-ma-te-architecture",
+        "n18-ma-te-visit"
+      ],
+      "imageId": "n18-ma-te"
+    },
+    {
+      "id": "sant-andrea",
+      "kind": "place",
+      "heading": "3. Basilica of Sant’Andrea: read Alberti’s architectural ideas",
+      "paragraphs": [
+        "The Basilica of Sant’Andrea introduces another scale and purpose within the Gonzaga city. Leon Battista Alberti conceived a church using classical architectural language, although construction was completed many years after his death. The monumental frontage and Latin-cross plan offer two straightforward ways to understand it without turning the visit into a terminology exercise. Start by looking at the arrangement of the façade, then consider how the central nave relates to the side chapels.",
+        "If the interior is available to visitors, take time to look around while respecting the building’s religious use. The regional tourism portal describes a crypt associated with the relic of the Blood of Christ; this is a religious tradition and should be understood in that context. Do not assume that general access also permits a crypt visit, access to the dome or a guided tour at any time. Check which arrangements are actually offered and the conditions attached to them.",
+        "In the itinerary, Sant’Andrea makes a valuable change of focus between palaces and squares without adding another extensive museum route. It deserves attention even if a service or access arrangements mean that you only see the exterior. On a short trip, recognising Alberti’s intervention in the city adds more context than rushing to collect several additional church interiors. Keep this stop flexible enough to accommodate the use of the building on the day."
+      ],
+      "sourceIds": [
+        "n18-ma-regional-alberti"
+      ],
+      "imageId": "n18-ma-andrea"
+    },
+    {
+      "id": "piazza-erbe",
+      "kind": "place",
+      "heading": "4. Piazza delle Erbe: the city beyond its ruling family",
+      "paragraphs": [
+        "Piazza delle Erbe gives part of the visit to shared urban space after the rooms associated with Mantua’s rulers. Lombardy’s official tourism portal highlights Palazzo della Ragione, the Clock Tower and the square with its market. An initial visit does not need to involve another admission ticket: begin by recognising the buildings from the public square and noticing how their fronts shape the space between them.",
+        "The tower includes references to lunar cycles and is associated with the Museum of Time mentioned by the regional guide. Those details can help you decide whether to investigate an interior visit; they do not guarantee that it will be open on your travel date. Likewise, a square associated with a market does not promise stalls operating at every hour. If shopping or a specific visit is your main reason for coming, confirm the relevant arrangements before fixing the rest of the day around them.",
+        "Use the square as a proper pause rather than a corridor between two timed admissions. Choosing somewhere to eat from a displayed menu and your own budget is more useful than following an unverified restaurant ranking. If activities occupy part of the square or an area is temporarily restricted, adapt your walking route. The point of this stop is to read the relationship between buildings, activity and open space, without relying on a particular event happening during your visit."
+      ],
+      "sourceIds": [
+        "n18-ma-regional-mantua"
+      ],
+      "imageId": "n18-ma-erbe"
+    },
+    {
+      "id": "lago-inferiore",
+      "kind": "place",
+      "heading": "5. Lago Inferiore: put the waterfront into the city’s story",
+      "paragraphs": [
+        "Lago Inferiore changes the perspective after several hours among buildings. It belongs to the three-lake system that wraps around Mantua in a semicircle, linked to the course of the Mincio. The lake landscape helps explain why water belongs to the city’s history and setting, beyond providing a photographic background. Give this stop to observing the relationship between the shore and the urban skyline, without making it another activity requiring an advance reservation.",
+        "Distinguish the lakes so that you arrive with the right expectations. Parco del Mincio explains that Lago Superiore retains marshland characteristics, while Lago di Mezzo and Lago Inferiore are kept clear for navigation. We therefore do not present Inferiore as a guaranteed place to see lotus flowers or as an untouched wetland. The documentary photograph shows a particular landscape: any boats or structures in it do not establish a current service or public access to every landing stage.",
+        "Choose a permitted, accessible stretch of shore for your walk, check its current condition and return with daylight if the area is unfamiliar. Rain, wind or poor visibility can make a shorter waterfront stop the sensible choice without affecting the other four visits. A boat trip would be a separate activity requiring checks on the operator, route and actual departures. It is not necessary for appreciating the lake and is not promised as part of this selection."
+      ],
+      "sourceIds": [
+        "n18-ma-mincio-lakes",
+        "n18-ma-regional-mantua"
+      ],
+      "imageId": "n18-ma-lago"
+    },
+    {
+      "id": "planning",
+      "kind": "practical",
+      "heading": "Plan transport, tickets and spending around the visits you want",
+      "paragraphs": [
+        "For train travel, search for Mantova station and check connections for your intended date. Palazzo Ducale identifies the station at Piazza Don Leoni 14 as close to the historic centre. Avoid building the day around a supposedly fixed rail journey time: connections, engineering works and schedules depend on the service. If arriving by car, check authorised access and parking before entering the centre rather than attempting to drive to the door of each monument.",
+        "Build a budget by comparing the visits you actually intend to make, supplements and the conditions of each pass. Ducale clearly separates admission with the Camera degli Sposi from admission without it; Te publishes its own prices and possible exhibition additions. A pass should not automatically be described as a saving. For urban shuttle buses, check APAM’s current service information before relying on a fare or frequency reproduced on a tourism page.",
+        "Space reservations so that a delay does not disrupt every subsequent visit. If you require a step-free route, assistance or specific access arrangements, verify each venue’s official information before purchasing: an exterior photograph cannot demonstrate interior accessibility. Water, breaks and a buffer between entries are more useful than filling every gap with another attraction. Operational notices and the day’s weather should be able to change the order of this suggested route."
+      ],
+      "sourceIds": [
+        "n18-ma-ducale-access",
+        "n18-ma-ducale-tickets",
+        "n18-ma-te-visit"
+      ]
+    }
+  ],
+  "itinerary": [
+    "For one full day, first choose the palace that matters most to you. If Mantegna is the priority, fix your Palazzo Ducale slot and organise the rest of that complex around it. Keep a separate block for Sant’Andrea and Piazza delle Erbe, including a meal break, then finish beside Lago Inferiore if weather and daylight are suitable. If Giulio Romano interests you more, give the main interior block to Palazzo Te and use the centre as an exterior route, rather than promising two complete palace visits against the clock.",
+    "For a longer stay, put Ducale and Te in separate blocks and keep the central square, basilica and lake flexible. On a Tuesday, check Te’s later opening before assigning it the morning. This order is an editorial suggestion, not an official schedule or guaranteed visit duration: adjust it to the reserved slot, current access conditions and the pace of your travelling party."
+  ],
+  "faq": [
+    {
+      "question": "Are Mantua and Mantova the same destination?",
+      "answer": "Yes. Mantua is the usual English name and Mantova is the Italian name used on local signs and booking pages. When buying transport or admission, check the city, exact venue and date. A name such as Palazzo Ducale can be ambiguous outside its city context."
+    },
+    {
+      "question": "Can you visit all five Mantua places in one day?",
+      "answer": "You can combine public spaces, exteriors and one main interior, but visiting both palaces attentively requires substantial separate blocks. For a single day, we suggest choosing Ducale or Te as the main interior and adding Sant’Andrea, Piazza delle Erbe and a lakeside pause according to access and available time."
+    },
+    {
+      "question": "Does every Palazzo Ducale ticket include the Camera degli Sposi?",
+      "answer": "No. The official information distinguishes options with and without Castello di San Giorgio and the Camera degli Sposi. Supplements also exist for some passes. Check the product and slot before buying; the reserved time concerns entry to the route in Piazza Castello for this part of the complex."
+    },
+    {
+      "question": "Does Palazzo Te open on Tuesday mornings?",
+      "answer": "The official visitor page consulted for this guide lists a regular Tuesday opening of 13:00. Check current information before travelling, including last admission and special notices. The ticket office closing time is different from the building’s closing time, so do not plan a last-minute arrival without checking that margin."
+    },
+    {
+      "question": "Do you need a boat trip to see Mantua’s lakes?",
+      "answer": "A boat trip is not part of this route. Lago Inferiore provides a landscape stop from permitted and accessible stretches of shore. Any cruise requires separate checks on the operator, availability and conditions; neither a photograph showing boats nor a tourism reference guarantees departures on your date."
+    }
+  ],
+  "conclusion": "The most useful approach to things to do in Mantua combines purposes and pace: Ducale explains the court, Te its leisure residence, Sant’Andrea religious architecture, Piazza delle Erbe urban life and Lago Inferiore the relationship with water. Book the interior that matters most, confirm current arrangements and leave time to look. If your journey continues, the Verona, Ferrara and Ravenna guides can help prepare further Italian stops without turning them into improvised additions to this day.",
+  "publishedAt": "2026-11-18T17:21:56.223Z",
+  "updatedAt": "2026-11-18T17:21:56.223Z"
+}

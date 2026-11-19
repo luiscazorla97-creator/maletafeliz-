@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-19",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-19T17:05:23.950Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "cuernavaca",
+    "assisi"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "455d91ea-da92-4283-8cd9-e0a920bd8774",
+    "baseCommit": "4fb00b47e5a43637f8d23925679fa6d3751e612a",
+    "startedAt": "2026-11-19T17:05:22.879445+00:00",
+    "heartbeatAt": "2026-11-19T17:05:50.940558+00:00",
+    "leaseUntil": "2026-11-19T23:05:50.940558+00:00",
+    "status": "in-progress"
+  }
+}

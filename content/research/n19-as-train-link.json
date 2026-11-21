@@ -1,0 +1,40 @@
+{
+  "id": "n19-as-train-link",
+  "url": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/assisi-link.html",
+  "fetchedAt": "2026-11-21T17:10:13.649Z",
+  "facts": [
+    {
+      "fact": "The rail arrival and historic centre require a connecting bus; it departs directly outside the railway station.",
+      "excerpt": "Il bus parte dal piazzale antistante la stazione di Assisi.",
+      "location": "Full captured readable text, normalized-whitespace characters 27548–27606"
+    },
+    {
+      "fact": "A combined rail+bus journey is purchased using AssisiCentro as origin or destination.",
+      "excerpt": "Acquista il biglietto treno + bus, in un’unica soluzione, scegliendo come destinazione o origine del viaggio Assisi Centro.",
+      "location": "Full captured readable text, normalized-whitespace characters 28936–29058"
+    },
+    {
+      "fact": "The bus-only segment is not separately sold throughTrenitalia; separatecarrierconditions apply even within the combinedtransaction.",
+      "excerpt": "Il biglietto del servizio bus per la tratta Assisi – Assisi Centro non può essere acquistato singolarmente sui sistemi e nei punti di vendita di Trenitalia",
+      "location": "Full captured readable text, normalized-whitespace characters 29637–29791"
+    },
+    {
+      "fact": "OnNov21 the operator page’s globalservicebanner reports a nationalFSrailstrike from20Nov21:00 to21Nov20:00 as written. It does not establish cancellationofanyspecificAssisiLinkjourney. The evergreen manuscripts advisecheckingcurrentservicenotices withoutpublishinganeventtimetable.",
+      "excerpt": "Dalle ore 21:00 di venerdì 20 alle ore 20:00 di sabato 21 novembre: sciopero nazionale del personale del Gruppo FS, Trenitalia, Trenitalia Tper e Trenord",
+      "location": "Full captured readable text, normalized-whitespace characters 599–751; global Infotraffico banner"
+    }
+  ],
+  "actuallyRead": true,
+  "finalUrl": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/assisi-link.html",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "a96f5282749d514036ab2e160d19d67264f3f195add98a3d1d3f65b9c2622390",
+  "bytes": 551229,
+  "textSha256": "ece0d7f48748b5d0d0d44f8e7652c67622d9dc4cb0f546440ed9f9a8351c812a",
+  "readAt": "2026-11-21T17:11:26.655789+00:00",
+  "title": "Trenitalia — Assisi Link train and connecting bus",
+  "rawFile": "content/research/raw/n19-as-train-link.raw",
+  "textFile": "content/research/raw/n19-as-train-link.txt",
+  "notes": "Use actualoperationaltrain+bussection. Tourismparagraph mistakenlyattributesGiottofrescoestoSantaChiara; manuscriptdoesnotrepeatthatclaim. No fixedtransportfare orfrequency published. Fresh21Nov2026header announces a nationalrailstrike20Nov21:00–21Nov20:00; not evidence that thisparticularbus/railconnectioniscancelled. Manuscripts advisecheckingcurrentservicenotices ratherthanpromisingnormalservice."
+}

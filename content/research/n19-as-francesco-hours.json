@@ -1,0 +1,39 @@
+{
+  "id": "n19-as-francesco-hours",
+  "url": "https://basilica.sanfrancesco.org/orari",
+  "fetchedAt": "2026-11-21T17:10:24.372Z",
+  "facts": [
+    {
+      "fact": "The operator distinguishes summerApril–October and winterNovember–March timetables.",
+      "excerpt": "Orario estivo Ora legale / Aprile-Ottobre Orario invernale Ora solare / Novembre-Marzo",
+      "location": "Full captured readable text, normalized-whitespace characters 689–774"
+    },
+    {
+      "fact": "The winter lower church timetable closes17:30onWednesday; the guide avoids applying a generic single timetable to all areas.",
+      "excerpt": "Chiesa inferiore 06:00 - 18:30 Mercoledì chiusura alle 17.30",
+      "location": "Full captured readable text, normalized-whitespace characters 1594–1653"
+    },
+    {
+      "fact": "Winter upper church opening is08:30–18:00, while the tomb has separate hours.",
+      "excerpt": "Chiesa Superiore 08:30 - 18:00 Cripta - Tomba di San Francesco 06:00 - 18:15",
+      "location": "Full captured readable text, normalized-whitespace characters 1655–1730"
+    },
+    {
+      "fact": "The operator lists liturgical celebrations and restricted visiting-guide windows separately from opening.",
+      "excerpt": "Visite guidate SOLO NEI GIORNI FERIALI 09:00 - 16:15 Sabato ultimo ingresso ore 16:00",
+      "location": "Full captured readable text, normalized-whitespace characters 2247–2331"
+    }
+  ],
+  "actuallyRead": true,
+  "finalUrl": "https://basilica.sanfrancesco.org/orari",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "retryAfter": null,
+  "contentSha256": "bc7dddd9e8fbf8e3e04b0b3832a00763436b1765e5d09e32640a07c6fcf1514e",
+  "bytes": 94965,
+  "textSha256": "c2d74da1bcaed729ab9aa8a9fefc74bba3269be3e0a6676d2d64d09400a67d03",
+  "readAt": "2026-11-21T17:11:26.630730+00:00",
+  "title": "Custodia Sacro Convento — seasonal opening and worship timetable",
+  "rawFile": "content/research/raw/n19-as-francesco-hours.raw",
+  "textFile": "content/research/raw/n19-as-francesco-hours.txt"
+}

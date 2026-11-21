@@ -1,0 +1,2299 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Rocca Maggiore - Ministero della cultura</title>
+  <meta name="description" content="Nel punto più alto della città, la rocca Maggiore di Assisi è raggiungibile salendo da via Porta Perlici, nei pressi della cattedrale...">
+  <meta name="keywords" content="Rocca Maggiore">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Bootstrap-it core CSS -->
+  <link rel="stylesheet" href="https://cultura.gov.it/css/bootstrap-italia.min.css">
+
+  <!-- Animation CSS -->
+  <link rel="stylesheet" href="https://cultura.gov.it/fe/mibact/css/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://cultura.gov.it/fe/mibact/css/custom.min.css">
+
+  <!-- Print CSS -->
+  <link rel="stylesheet" href="https://cultura.gov.it/fe/mibact/css/print.css">
+  
+   <!-- FontAwesome JS -->
+  
+ 
+
+
+
+  
+  <!-- Captcha -->
+  <script async defer src="https://cultura.gov.it/fe/mibact/js/altcha-min.js" type="module"></script>
+ 
+  
+          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+              integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+              crossorigin=""/>
+      
+  <style>
+  	  </style>
+  <style>
+    iframe[src*=youtube] {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      padding-bottom: 10px;
+    }
+    /*Personalizzazioni per logo 50simo*/
+    @media (max-width: 991px) {
+      .it-brand-wrapper,
+      .it-brand-wrapper>a {
+        width: 35px;
+        height: 75px;
+      }
+      .it-brand-wrapper>a>.icon {
+        width: 110px;
+      }
+    }
+  </style>
+  <!-- Favicons -->
+  <!-- link rel="icon" href="https://cultura.gov.it/fe/mibact/image/favicon.png" -->
+  
+  <!-- link rel="icon" href="https://media.beniculturali.it/mibac/files/boards/bec8803f226b6c1f1d4be3ed98d36b8e/resized/MiBACT-favicon-blu_1.png" -->
+  
+      <!-- link rel="icon" href="https://media.beniculturali.it/mibac/files/boards/bec8803f226b6c1f1d4be3ed98d36b8e/MiC_logo_tondo_BLU.png" -->
+  
+    <!--<link rel="icon" href="https://media.beniculturali.it/mibac/files/boards/bec8803f226b6c1f1d4be3ed98d36b8e/resized/MiBACT_favicon_bianco.png">-->
+  <link rel="icon" href="https://cultura.gov.it/fe/mibact/image/favicon_MiC.png" >
+  
+  <!--
+  <link rel="icon" href="https://cultura.gov.it/fe/mibact/image/favicon.ico" sizes="32x32" type="image/png">
+  
+  <link rel="mask-icon" href="https://cultura.gov.it/fe/mibact/image/safari-pinned-tab.svg" color="#0066CC">
+  <link rel="apple-touch-icon" href="https://cultura.gov.it/fe/mibact/image/apple-touch-icon.png">
+  -->
+
+    <!-- Impostazione Stile CookieJSR Cookie Policy -->
+  <link rel="stylesheet" href="https://cultura.gov.it/js/cookiesjsr/dist/cookiesjsr.min.css">
+  
+     <!-- Print CSS -->
+  <link rel="stylesheet" href="https://cultura.gov.it/fe/mibact/css/cookie-mic.css">
+  
+  
+  <!-- Theme color -->
+  <meta name="theme-color" content="#0066CC">
+  
+  <!-- Sitelinks search box -->
+  <meta name="google" content="nositelinkssearchbox" />
+
+  <!-- Open Graph Meta Tags -->
+  <!-- URL -->
+  <meta property="og:url" content="https://cultura.gov.it/luogo/rocca-maggiore">
+  <!-- Titolo -->
+  <meta property="og:title" content="Rocca Maggiore"/>
+  <meta property="og:site_name" content="Ministero per i Beni e le Attività culturali e per il Turismo">
+  <meta property="og:type" content="website">
+  <!-- Lingua -->
+  <meta property="og:locale" content="it">
+  <!-- Immagine -->
+  <meta property="og:image" content="https://media.cultura.gov.it/mibac/files/boards/388a5474724a15af0ace7a40ab3301de/Umbria/Perugia/Assisi, Rocca Maggiore1.jpg">
+  <!--Description -->
+  <meta property="og:description" content="Nel punto più alto della città, la rocca Maggiore di Assisi è raggiungibile salendo da via Porta Perlici, nei pressi della cattedrale..."/>
+
+  <!-- Twitter Card data -->
+  <!-- Tipo card: summary, photo, o video -->
+  <meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@_MiBACT" />
+  <!-- Titolo -->
+  <meta name="twitter:title" content="Rocca Maggiore" />
+  <!-- Description -->
+  <meta name="twitter:description" content="Nel punto più alto della città, la rocca Maggiore di Assisi è raggiungibile salendo da via Porta Perlici, nei pressi della cattedrale..." />
+  <!-- Immagine. Usata su summary, summary_large_image, player cards -->
+  <meta name="twitter:image" content="https://media.cultura.gov.it/mibac/files/boards/388a5474724a15af0ace7a40ab3301de/Umbria/Perugia/Assisi, Rocca Maggiore1.jpg" />
+  
+
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://ingestion.webanalytics.italia.it/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', 'geO35RMpon']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+ 
+  
+<!-- End Matomo Code -->
+</head>
+<body class="">
+  <div class="it-header-wrapper">
+  
+    <div class="it-nav-wrapper">
+      <div class="it-header-center-wrapper theme-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 position-static">
+              <!--div class="beta-badge position-absolute overflow-hidden d-print-none">
+              	<small class="bg-danger px-4 text-white text-center text-uppercase position-absolute z-2">Beta</small>
+              </div -->
+              <div class="it-header-center-content-wrapper">
+                <div class="it-brand-wrapper pl-0">
+                  <a href="https://cultura.gov.it">
+                    <!--img class="icon" src="https://cultura.gov.it/fe/mibact/image/logo-mibact.svg" alt="Ministero per i Beni e le Attività Culturali e per il Turismo"  /-->
+                    
+                    <img class="icon" src="https://media.beniculturali.it/mibac/files/6/MiC_logo_esteso_BLU.svg" alt="Ministero della cultura" > 
+                    <!--<img class="icon" src="https://cultura.gov.it/fe/mibact/image/MiC50_logo_esteso_BLU.png" style="max-width: 150px;" alt="Ministero della cultura"> -->
+                  </a>
+                </div>
+                <div class="it-right-zone ml-auto pl-5 pl-lg-0 d-print-none d-print-none">
+                  <div class="it-socials d-none d-lg-flex"> <!--span>Seguici su:</span-->
+                    <ul>
+                      <li>
+                        <a href="https://www.facebook.com/ministerodellacultura/" aria-label="Facebook" target="_blank">
+                          <span class="sr-only">Facebook</span>
+                          <svg class="icon">
+                            <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-facebook-square"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/MiC_Italia" aria-label="Github" target="_blank">
+                          <span class="sr-only">Twitter</span>
+                          <svg class="icon">
+                            <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-twitter"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/mic_italia/" aria-label="Instagram" target="_blank">
+                          <span class="sr-only">Instagram</span>
+                          <svg class="icon">
+                            <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-instagram"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.youtube.com/MiC_Italia" aria-label="Youtube" target="_blank">
+                          <span class="sr-only">Youtube</span>
+                          <svg class="icon">
+                            <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-youtube"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://tiktok.com/@mictok" aria-label="Tiktok" target="_blank">
+                          <span class="sr-only">Tiktok</span>
+                          <svg class="icon">
+                            <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-tiktok"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://open.spotify.com/user/31dhakj3q76akfuigai7e77xe7j4?si=a0cbae48d7784033" aria-label="podcast" target="_blank">
+                          <span class="sr-only">Podcast</span>
+                          <svg class="icon">
+                            <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-podcast"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <!--<li>
+                        <a href="https://cultura.gov.it/scrivici" aria-label="Mail" target="_blank">
+                          <span class="sr-only">E-mail</span>
+                          <svg class="icon">
+                            <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-mail"></use>
+                          </svg>
+                        </a>
+                      </li>-->
+                      <li>
+                        <a href="https://cultura.gov.it/numero-verde" aria-label="Numeroverde" target="_blank">
+                          <span class="sr-only">Telefono</span>
+                          <svg class="icon">
+                            <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-telephone"></use>
+                          </svg>
+                        </a>
+                      </li>                      
+                    </ul>
+                  </div>
+                  <!-- form di ricerca -->
+                  <div class="it-search-wrapper no-print">
+                    <div class="d-flex">
+  
+  <form method="POST" action="https://cultura.gov.it/cerca" accept-charset="UTF-8"><input name="_token" type="hidden" value="c6txuz4fmF8VKfWF4R7oT75PP4yel4CDcMzACXNG">
+  <div class="input-group pl-5 pl-lg-0">
+    <label for="main-search" class="sr-only">Ricerca</label>
+    <input type="text" class="form-control" name="keyword" id="main-search" placeholder="Cerca..." >
+    <div class="input-group-append" id="button-addon2-wrapper">
+      <span class="btn px-3 rounded-0 d-flex align-items-center" aria-hidden="true">
+        <svg class="icon  icon-sm icon-secondary">
+          <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-search"></use>
+        </svg>
+      </span>
+    </div>
+  </div>
+  </form>
+  
+</div>
+ 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-flag container-fluid d-print-none">
+        <div class="row">
+          <div class="col-4 bg-success pt-1"></div>
+          <div class="col-4 neutral-1-bg-a1 pt-1"></div>
+          <div class="col-4 bg-danger pt-1"></div>
+        </div>
+      </div>
+      
+      <div class="it-header-navbar-wrapper d-print-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-lg has-megamenu">
+                <button class="custom-navbar-toggler no-print" type="button" aria-controls="nav10" aria-expanded="false" aria-label="Toggle navigation" data-target="#nav10">
+                  <svg class="icon">
+                    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-burger"></use>
+                  </svg>
+                </button>
+                <div class="navbar-collapsable" id="nav10">
+                  <div class="overlay"></div>
+                  <div class="close-div sr-only">
+                    <button class="btn close-menu" type="button"><span class="it-close"></span>close</button>
+                  </div>
+                  <div class="menu-wrapper d-flex flex-column flex-lg-row">
+                    <ul class="navbar-nav">
+                      <!-- Voci menu -->
+                      <li class="nav-item dropdown megamenu">
+			            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" title="Espandi l'area Ministero">
+                            <span>Ministero</span>
+                <svg class="icon icon-xs">
+                    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-expand"></use>
+                </svg>
+            </a>
+            <div class="dropdown-menu shadow pb-4">
+                <div class="row">                    
+                                        <div class="col-12 col-lg">
+   <div class="link-list-wrapper">
+      <ul class="link-list">
+        <li>
+                            <h3 class="no_toc pt-lg-0 pb-3 line-1"><span class="text-muted px-0 pt-3 pt-lg-0 pb-0 line-1">Struttura organizzativa</span></h3>
+                          </li>
+					<li>
+  	<a class="list-item" href="https://cultura.gov.it/ministro" title="vai alla pagina: Ministro">
+		<span>Ministro</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/sottosegretari" title="vai alla pagina: Sottosegretari di Stato">
+		<span>Sottosegretari di Stato</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/organizzazione" title="vai alla pagina: Organizzazione">
+		<span>Organizzazione</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/programmazione" title="vai alla pagina: Programmazione">
+		<span>Programmazione</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/ministero" title="vai alla pagina: La Storia del Ministero">
+		<span>La Storia del Ministero</span>
+	</a>
+  </li>
+		      </ul>
+   </div>
+</div><div class="col-12 col-lg">
+   <div class="link-list-wrapper">
+      <ul class="link-list">
+        <li>
+                            <h3 class="no_toc pt-lg-0 pb-3 line-1"><span class="text-muted px-0 pt-3 pt-lg-0 pb-0 line-1">.</span></h3>
+                          </li>
+					<li>
+  	<a class="list-item" href="https://cultura.gov.it/cerimoniale-patrocini-onorificenze" title="vai alla pagina: Cerimoniale - Patrocini - Onorificenze">
+		<span>Cerimoniale - Patrocini - Onorificenze</span>
+	</a>
+  </li><li>
+          <a class="list-item" href="http://www.cug.beniculturali.it/" title="vai a: CUG - Comitato unico di garanzia" target="_blank">
+      <span>CUG - Comitato unico di garanzia</span>
+    </a>
+      </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comitati-scientifici" title="vai alla pagina: Comitati scientifici">
+		<span>Comitati scientifici</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comitati-nazionali" title="vai alla pagina: Comitati Nazionali">
+		<span>Comitati Nazionali</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/commissioni" title="vai alla pagina: Commissioni">
+		<span>Commissioni</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/pubblicazioni" title="vai alla pagina: Pubblicazioni">
+		<span>Pubblicazioni</span>
+	</a>
+  </li>
+		      </ul>
+   </div>
+</div><div class="col-12 col-lg">
+   <div class="link-list-wrapper">
+      <ul class="link-list">
+        <li>
+                            <h3 class="no_toc pt-lg-0 pb-3 line-1"><span class="text-muted px-0 pt-3 pt-lg-0 pb-0 line-1">Enti controllati</span></h3>
+                          </li>
+					<li>
+          <a class="list-item" href="http://trasparenza.cultura.gov.it/pagina718_enti-pubblici-vigilati.html" title="vai a: Enti pubblici vigilati" target="_blank">
+      <span>Enti pubblici vigilati</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://trasparenza.cultura.gov.it/pagina64_societ-partecipate.html" title="vai a: Società partecipate" target="_blank">
+      <span>Società partecipate</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://trasparenza.cultura.gov.it/pagina719_enti-di-diritto-privato-controllati.html" title="vai a: Enti di diritto privato controllati" target="_blank">
+      <span>Enti di diritto privato controllati</span>
+    </a>
+      </li>
+		      </ul>
+   </div>
+</div>
+                </div>
+            </div>
+        </li>
+            
+<li class="nav-item dropdown megamenu">
+			            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" title="Espandi l'area Attività e Servizi">
+                            <span>Attività e Servizi</span>
+                <svg class="icon icon-xs">
+                    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-expand"></use>
+                </svg>
+            </a>
+            <div class="dropdown-menu shadow pb-4">
+                <div class="row">                    
+                                        <div class="col-12 col-lg">
+   <div class="link-list-wrapper">
+      <ul class="link-list">
+        <li>
+                            <h3 class="no_toc pt-lg-0 pb-3 line-1"><span class="text-muted px-0 pt-3 pt-lg-0 pb-0 line-1">Attività</span></h3>
+                          </li>
+					<li>
+          <a class="list-item" href="http://dgabap.cultura.gov.it/" title="vai a: Archeologia, Belle Arti e Paesaggio" target="_blank">
+      <span>Archeologia, Belle Arti e Paesaggio</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://cinema.cultura.gov.it" title="vai a: Cinema e Audiovisivo" target="_blank">
+      <span>Cinema e Audiovisivo</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://www.spettacolodalvivo.beniculturali.it/" title="vai a: Spettacolo - musica, danza, teatro, circhi e spettacolo viaggiante" target="_blank">
+      <span>Spettacolo - musica, danza, teatro, circhi e spettacolo viaggiante</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://www.librari.beniculturali.it/" title="vai a: Biblioteche e Diritto d&#039;Autore" target="_blank">
+      <span>Biblioteche e Diritto d&#039;Autore</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://www.ministeroturismo.gov.it/" title="vai a: Turismo - L&#039;Offerta Turistica Nazionale" target="_blank">
+      <span>Turismo - L&#039;Offerta Turistica Nazionale</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://www.dger.beniculturali.it/" title="vai a: Educazione, Ricerca e Istituti Culturali" target="_blank">
+      <span>Educazione, Ricerca e Istituti Culturali</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://dgspatrimonioculturale.beniculturali.it/" title="vai a: Sicurezza del Patrimonio Culturale" target="_blank">
+      <span>Sicurezza del Patrimonio Culturale</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://creativitacontemporanea.beniculturali.it/" title="vai a: Creatività Contemporanea" target="_blank">
+      <span>Creatività Contemporanea</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://archivi.cultura.gov.it" title="vai a: Archivi - Il Sistema Archivistico Nazionale" target="_blank">
+      <span>Archivi - Il Sistema Archivistico Nazionale</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://www.musei.beniculturali.it/" title="vai a: Musei - Il Sistema Museale Italiano" target="_blank">
+      <span>Musei - Il Sistema Museale Italiano</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://pianoolivetti.cultura.gov.it/" title="vai a: Piano Olivetti per la cultura" target="_blank">
+      <span>Piano Olivetti per la cultura</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://pianomattei.cultura.gov.it/" title="vai a: Unità di Missione per la cooperazione culturale con l’Africa e il Mediterraneo allargato" target="_blank">
+      <span>Unità di Missione per la cooperazione culturale con l’Africa e il Mediterraneo allargato</span>
+    </a>
+      </li>
+		      </ul>
+   </div>
+</div><div class="col-12 col-lg">
+   <div class="link-list-wrapper">
+      <ul class="link-list">
+        <li>
+                            <h3 class="no_toc pt-lg-0 pb-3 line-1"><span class="text-muted px-0 pt-3 pt-lg-0 pb-0 line-1">Servizi</span></h3>
+                          </li>
+					<li>
+          <a class="list-item" href="http://unesco.cultura.gov.it" title="vai a: UNESCO" target="_blank">
+      <span>UNESCO</span>
+    </a>
+      </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/grantoffice-opportunita-dall-europa" title="vai alla pagina: GrantOffice  |  Opportunità dall&#039;Europa">
+		<span>GrantOffice  |  Opportunità dall&#039;Europa</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/numero-verde" title="vai alla pagina: Numero Verde">
+		<span>Numero Verde</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/open-data-e-linked-data" title="vai alla pagina: Open Data e Linked Data">
+		<span>Open Data e Linked Data</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/vincoli-in-rete-ricerca-sia-di-tipo-alfanumerico-che-cartografico" title="vai alla pagina: Vincoli in Rete - Ricerca sia di tipo alfanumerico che cartografico">
+		<span>Vincoli in Rete - Ricerca sia di tipo alfanumerico che cartografico</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/sistema-archivi-nazionali" title="vai alla pagina: Sistema Archivi Nazionali">
+		<span>Sistema Archivi Nazionali</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/sitap-sistema-informativo-territoriale-ambientale-e-paesaggistico" title="vai alla pagina: SITAP - Sistema Informativo Territoriale Ambientale e Paesaggistico">
+		<span>SITAP - Sistema Informativo Territoriale Ambientale e Paesaggistico</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/sue-sistema-informativo-degli-uffici-esportazione" title="vai alla pagina: SUE - Sistema informativo degli Uffici Esportazione">
+		<span>SUE - Sistema informativo degli Uffici Esportazione</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/sed-centro-servizi-educativi" title="vai alla pagina: SED - Centro Servizi Educativi">
+		<span>SED - Centro Servizi Educativi</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/urp-ufficio-relazioni-con-il-pubblico" title="vai alla pagina: URP - Ufficio relazioni con il pubblico">
+		<span>URP - Ufficio relazioni con il pubblico</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/bonus-vacanze-helpdesk" title="vai alla pagina: Bonus Vacanze HELPDESK">
+		<span>Bonus Vacanze HELPDESK</span>
+	</a>
+  </li><li>
+          <a class="list-item" href="http://professionisti.beniculturali.it" title="vai a: Elenchi nazionali dei professionisti dei beni culturali" target="_blank">
+      <span>Elenchi nazionali dei professionisti dei beni culturali</span>
+    </a>
+      </li>
+		      </ul>
+   </div>
+</div><div class="col-12 col-lg">
+   <div class="link-list-wrapper">
+      <ul class="link-list">
+        <li>
+                            <h3 class="no_toc pt-lg-0 pb-3 line-1"><span class="text-muted px-0 pt-3 pt-lg-0 pb-0 line-1">...</span></h3>
+                          </li>
+					<li>
+          <a class="list-item" href="http://servizionline.cultura.gov.it/" title="vai a: Portale dei Servizi" target="_blank">
+      <span>Portale dei Servizi</span>
+    </a>
+      </li><li>
+          <a class="list-item" href="http://pagonline.cultura.gov.it/" title="vai a: PagOnline" target="_blank">
+      <span>PagOnline</span>
+    </a>
+      </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/cis-centri-storici" title="vai alla pagina: CIS - Centri Storici">
+		<span>CIS - Centri Storici</span>
+	</a>
+  </li>
+		      </ul>
+   </div>
+</div>
+                </div>
+            </div>
+        </li>
+            
+<li class="nav-item dropdown megamenu">
+			            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" title="Espandi l'area Atti e Normativa">
+                            <span>Atti e Normativa</span>
+                <svg class="icon icon-xs">
+                    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-expand"></use>
+                </svg>
+            </a>
+            <div class="dropdown-menu shadow pb-4">
+                <div class="row">                    
+                                        <div class="col-12 col-lg">
+   <div class="link-list-wrapper">
+      <ul class="link-list">
+        <li>
+                            <h3 class="no_toc pt-lg-0 pb-3 line-1"><span class="text-muted px-0 pt-3 pt-lg-0 pb-0 line-1">.</span></h3>
+                          </li>
+					<li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/decreti-del-ministro" title="vai alla pagina: Decreti del ministro">
+		<span>Decreti del ministro</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/decreti-direttoriali" title="vai alla pagina: Decreti direttoriali">
+		<span>Decreti direttoriali</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/accordi-memorandum-protocolli-dintesa" title="vai alla pagina: Accordi Memorandum Protocolli d&#039;intesa">
+		<span>Accordi Memorandum Protocolli d&#039;intesa</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/interrogazioni-parlamentari" title="vai alla pagina: Interrogazioni parlamentari">
+		<span>Interrogazioni parlamentari</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/avvisi" title="vai alla pagina: Avvisi">
+		<span>Avvisi</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/circolari" title="vai alla pagina: Circolari">
+		<span>Circolari</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/bandi-e-concorsi" title="vai alla pagina: Bandi">
+		<span>Bandi</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/concorsi" title="vai alla pagina: Concorsi">
+		<span>Concorsi</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/pareri" title="vai alla pagina: Pareri">
+		<span>Pareri</span>
+	</a>
+  </li>
+		      </ul>
+   </div>
+</div><div class="col-12 col-lg">
+   <div class="link-list-wrapper">
+      <ul class="link-list">
+        <li>
+                            <h3 class="no_toc pt-lg-0 pb-3 line-1"><span class="text-muted px-0 pt-3 pt-lg-0 pb-0 line-1">.</span></h3>
+                          </li>
+					<li>
+  	<a class="list-item" href="https://cultura.gov.it/normativa-di-settore" title="vai alla pagina: Normativa di settore">
+		<span>Normativa di settore</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/provvedimenti-in-evidenza" title="vai alla pagina: Provvedimenti in evidenza">
+		<span>Provvedimenti in evidenza</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/provvedimenti-via" title="vai alla pagina: Provvedimenti VIA">
+		<span>Provvedimenti VIA</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/pareri-via" title="vai alla pagina: Pareri VIA (Legge Obiettivo 443/2001) trasmessi a MIT">
+		<span>Pareri VIA (Legge Obiettivo 443/2001) trasmessi a MIT</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/provvedimenti-vas" title="vai alla pagina: Provvedimenti VAS">
+		<span>Provvedimenti VAS</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/direttive" title="vai alla pagina: Direttive">
+		<span>Direttive</span>
+	</a>
+  </li>
+		      </ul>
+   </div>
+</div>
+                </div>
+            </div>
+        </li>
+            
+<li class="nav-item dropdown megamenu">
+			            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" title="Espandi l'area Luoghi della Cultura">
+                            <span>Luoghi della Cultura</span>
+                <svg class="icon icon-xs">
+                    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-expand"></use>
+                </svg>
+            </a>
+            <div class="dropdown-menu shadow pb-4">
+                <div class="row">                    
+                                        <div class="col-12 col-lg">
+   <div class="link-list-wrapper">
+      <ul class="link-list">
+        <li>
+                            <h3 class="no_toc pt-lg-0 pb-3 line-1"><span class="text-muted px-0 pt-3 pt-lg-0 pb-0 line-1">musei, monumenti, gallerie, aree archeologiche, archivi e biblioteche</span></h3>
+                          </li>
+					<li>
+  	<a class="list-item" href="https://cultura.gov.it/luoghi/cerca-luogo" title="vai alla pagina: Cerca luogo">
+		<span>Cerca luogo</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/agevolazioni" title="vai alla pagina: Agevolazioni per l&#039;ingresso">
+		<span>Agevolazioni per l&#039;ingresso</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/visite-virtuali" title="vai alla pagina: Viaggi virtuali">
+		<span>Viaggi virtuali</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/in-caso-di-sciopero" title="vai alla pagina: In caso di sciopero">
+		<span>In caso di sciopero</span>
+	</a>
+  </li>
+		      </ul>
+   </div>
+</div>
+                </div>
+            </div>
+        </li>
+            
+<li class="nav-item"><a class="nav-link" href="https://cultura.gov.it/eventi/cerca-evento"><span>Eventi </span></a></li>
+    
+<li class="nav-item dropdown megamenu">
+			            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" title="Espandi l'area Sala Stampa">
+                            <span>Sala Stampa</span>
+                <svg class="icon icon-xs">
+                    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-expand"></use>
+                </svg>
+            </a>
+            <div class="dropdown-menu shadow pb-4">
+                <div class="row">                    
+                                        <div class="col-12 col-lg">
+   <div class="link-list-wrapper">
+      <ul class="link-list">
+        <li>
+                            <h3 class="no_toc pt-lg-0 pb-3 line-1"><span class="text-muted px-0 pt-3 pt-lg-0 pb-0 line-1">Ufficio Stampa e Comunicazione</span></h3>
+                          </li>
+					<li>
+  	<a class="list-item" href="https://cultura.gov.it/sala-stampa" title="vai alla pagina: Sala Stampa">
+		<span>Sala Stampa</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/comunicati-stampa" title="vai alla pagina: Comunicati Stampa">
+		<span>Comunicati Stampa</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/notizie-del-giorno" title="vai alla pagina: Notizie del giorno">
+		<span>Notizie del giorno</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/comunicati/news" title="vai alla pagina: News dal territorio">
+		<span>News dal territorio</span>
+	</a>
+  </li><li>
+  	<a class="list-item" href="https://cultura.gov.it/campagne-di-comunicazione" title="vai alla pagina: Campagne di comunicazione">
+		<span>Campagne di comunicazione</span>
+	</a>
+  </li>
+		      </ul>
+   </div>
+</div><div class="col-12 col-lg">
+   <div class="link-list-wrapper">
+      <ul class="link-list">
+        <li>
+                            <h3 class="no_toc pt-lg-0 pb-3 line-1"><span class="text-muted px-0 pt-3 pt-lg-0 pb-0 line-1">Servizi</span></h3>
+                          </li>
+					<li>
+  	<a class="list-item" href="https://cultura.gov.it/social-network" title="vai alla pagina: Social Network">
+		<span>Social Network</span>
+	</a>
+  </li>
+		      </ul>
+   </div>
+</div>
+                </div>
+            </div>
+        </li>
+            
+<li class="nav-item"><a class="nav-link" href="https://trasparenza.cultura.gov.it/"><span>Trasparenza </span></a></li>
+    
+                    </ul>
+                    <div class="mt-auto px-4 pb-4 pt-5 d-lg-none">
+                      <h6>Seguici su:</h6>
+                      <ul class="list-inline text-left social mb-0 pb-3">
+                        <li class="list-inline-item">
+                          <a class="py-2 pr-1 text-white text-decoration-none" href="https://www.facebook.com/ministerodellacultura/"
+                             target="_blank">
+                            <svg class="icon icon-primary align-top">
+                              <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-facebook-square"></use>
+                            </svg>
+                            <span class="sr-only">Facebook</span>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a class="py-2 px-1 text-white text-decoration-none" href="https://twitter.com/MiC_Italia" target="_blank">
+                            <svg class="icon icon-primary align-top">
+                              <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-twitter"></use>
+                            </svg>
+                            <span class="sr-only">Twitter</span>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a class="py-2 px-1 text-white text-decoration-none" href="https://www.instagram.com/mic_italia/"
+                             target="_blank">
+                            <svg class="icon icon-primary align-top">
+                              <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-instagram"></use>
+                            </svg>
+                            <span class="sr-only">Instagram</span>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a class="py-2 px-1 text-white text-decoration-none" href="https://www.youtube.com/MiC_Italia" target="_blank">
+                            <svg class="icon icon-primary align-top">
+                              <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-youtube"></use>
+                            </svg>
+                            <span class="sr-only">Youtube</span>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a class="py-2 px-1 text-white text-decoration-none" href="https://tiktok.com/@mictok" target="_blank">
+                            <svg class="icon icon-primary align-top">
+                              <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-tiktok"></use>
+                            </svg>
+                            <span class="sr-only">TikTok</span>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a class="py-2 px-1 text-white text-decoration-none"
+                             href="https://open.spotify.com/user/31dhakj3q76akfuigai7e77xe7j4?si=a0cbae48d7784033" target="_blank">
+                            <svg class="icon icon-primary align-top">
+                              <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-podcast"></use>
+                            </svg>
+                            <span class="sr-only">Podcast</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="page-content">
+  <!-- Header -->
+  <div class="header-hero detail-hero it-hero-wrapper it-primary it-overlay align-items-start px-0 d-print-none">
+	<!-- Header image -->
+    <div class="img-responsive-wrapper">
+      <div class="img-responsive">
+        <div class="img-wrapper">
+          <img src="https://cultura.gov.it/fe/mibact/image/copertina.png" alt="Background" aria-hidden="true">
+          
+        </div>
+      </div>
+    </div>
+    <!-- /Header image -->
+    <div class="container px-3 px-xs-2 px-sm-1 px-lg-4 pt-5 position-relative">
+      <div class="row">
+        <div class="col-lg-8 col-xl-9 print-w-100">
+          <nav class="breadcrumb-container text-white" aria-label="breadcrumb">
+          <!-- Breadcrumb -->
+<!-- Breadcrumb -->
+<ol class="breadcrumb my-breadcrumb mb-0">
+  <li class="breadcrumb-item"><a href="https://cultura.gov.it">Home</a>
+  <span class="separator px-0">
+    <svg class="icon align-top">
+      <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-chevron-right"></use>
+    </svg>
+  </span>
+</li><li class="breadcrumb-item">musei, monumenti, gallerie, aree archeologiche, archivi e biblioteche</li>
+<span class="separator px-0">
+  <svg class="icon align-top">
+    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-chevron-right"></use>
+  </svg>
+</span>
+<li class="breadcrumb-item">Luoghi della Cultura</li>
+<span class="separator px-0">
+  <svg class="icon align-top">
+    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-chevron-right"></use>
+  </svg>
+</span>
+<li class="breadcrumb-item">
+ 		<a href="https://cultura.gov.it/luoghi/cerca-luogo">Cerca luogo</a>
+       <span class="separator px-0">
+    <svg class="icon align-top">
+      <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-chevron-right"></use>
+    </svg>
+  </span>
+</li>
+<li class="breadcrumb-item active" aria-current="page">Rocca Maggiore</li>
+</ol>
+<!-- /Breadcrumb --><!-- /Breadcrumb -->
+          </nav>
+        </div>
+    	<!-- Details -->
+        <div class="col-lg-4 col-xl-3 pl-lg-3 pb-4 print-w-100">
+          <div class="row mx-0 pt-lg-3">
+            <div class="col-12 px-0">
+                  <div class="avatar-wrapper avatar-extra-text mb-4">
+        <div class="avatar size-md border-white align-self-start">
+            <svg class="icon icon-white align-bottom">
+                <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-pa"></use>
+            </svg>
+        </div>
+        <div class="extra-text ml-2">
+            <small class="text-uppercase text-white line-1 d-block">Tipo Luogo:</small>  
+          <strong class="d-block text-white">
+                Monumento
+          </strong>
+        </div>
+    </div>
+            </div>
+                      </div>
+        </div>
+        <!-- /Details -->
+      </div>
+    </div>
+  </div>
+  <!-- /Header -->
+  <div class="container px-3 px-xs-2 px-sm-1 px-lg-4 pb-5">
+    <div class="row">
+      <!--Column-left-->
+      <div class="col-lg-8 col-xl-9 print-post">
+        <article class="bg-white post-box shadow rounded-bottom mb-4">
+          <header class="sr-only d-print">
+            <h1 class="print-text-title">Rocca Maggiore</h1>
+          </header>
+              <div class="img-responsive-wrapper img-cover d-print-none">
+        <div class="img-responsive">
+            <figure class="img-wrapper">
+                                    <img src="https://media.cultura.gov.it/mibac/files/boards/388a5474724a15af0ace7a40ab3301de/Umbria/Perugia/Assisi, Rocca Maggiore1.jpg" alt="">
+                            </figure>
+        </div>
+  
+        <div>
+           <p class="text-center"></p>
+        </div>
+  
+    </div> 
+          <div class="px-4 pb-4 print-content">
+            <!--Toolbar-->
+            <div class="btn-toolbar post-toolbar justify-content-end justify-content-lg-between border-bottom border-light position-relative py-1 z-2 d-print-none" role="toolbar" aria-label="Strumenti">
+              <div class="btn-group">
+                <button class="btn btn-icon btn-outline-secondary border-0 font-weight-bold px-4 shadow-none"  onclick="javascript:window.print()" id="print">
+                  <svg class="icon icon-sm mx-auto mx-lg-0"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-print"></use></svg>
+                  <span class="d-none d-lg-inline">Stampa</span>
+                </button>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-icon btn-outline-secondary border-0 font-weight-bold dropdown-toggle px-4 shadow-none" type="button" id="share" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg class="icon icon-sm mx-auto mx-lg-0"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-share"></use></svg>
+                  <span class="d-none d-lg-inline">Condividi</span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right shadow-lg rounded" aria-labelledby="share">
+                  <div class="link-list-wrapper">
+                    <ul class="link-list">
+
+                      <li class="dropdown-header pb-0 text-muted">Canali:</li>
+                      <li>
+                        <a class="list-item left-icon text-secondary font-weight-bold" id="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=https://cultura.gov.it/luogo/rocca-maggiore" target="_blank">
+                          <svg class="icon icon-sm left"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-facebook-square"></use></svg>
+                          <span>Facebook</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="list-item left-icon text-secondary font-weight-bold" id="tw-share" href="https://twitter.com/share?url=https://cultura.gov.it/luogo/rocca-maggiore" target="_blank">
+                          <svg class="icon icon-sm left"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-twitter"></use></svg>
+                          <span>Twitter</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="list-item left-icon text-secondary font-weight-bold" href="mailto:?subject=Rocca Maggiore&body=https://cultura.gov.it/luogo/rocca-maggiore">
+                          <svg class="icon icon-sm left"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-mail"></use></svg>
+                          <span>E-mail</span>
+                        </a>
+                      </li>
+                      <li><span class="divider"></span></li>
+                      <li>
+                        <a class="list-item left-icon text-secondary font-weight-bold" id="copy-url" href="#">
+                          <svg class="icon icon-sm left"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-code-circle"></use></svg>
+                          <span>Copia URL</span>
+                        </a>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/Toolbar-->
+            <div class="row row-column-border border-top-0 row-column-menu-left pt-4 pb-lg-4 mt-lg-4 mx-0">
+              <!--Content-nav-->
+              <div class="col-lg-auto position-relative p-0 d-print-none">
+                <div class="sticky-top navbar-wrapper d-none d-lg-block z-1 side-sticky">
+                  <nav class="navbar it-navscroll-wrapper it-bottom-navscroll navbar-expand-lg">
+                      
+                    <div class="navbar-collapsable" id="navbarNav">
+                      
+                      <div class="menu-wrapper">
+                        <div class="link-list-wrapper menu-link-list">
+                          <h3 class="no_toc d-none">Lista dettagli</h3>
+                          <ul class="link-list">
+                               
+       <li class="nav-item">
+        <a class="nav-link" href="#apertura">
+            <span>Apertura</span>
+        </a>
+    </li>
+    	        <li class="nav-item">
+            <a class="nav-link" href="#biglietteria">
+                <span>Biglietteria</span>
+            </a>
+        </li>
+                <li class="nav-item">
+            <a class="nav-link" href="#descrizione">
+                <span>Descrizione</span>
+            </a>
+        </li>
+     	        <li class="nav-item">
+            <a class="nav-link" href="#posizione">
+                <span>Posizione</span>
+            </a>
+        </li>
+    		        <li class="nav-item">
+        <a class="nav-link" href="#contatti">
+            <span>Contatti</span>
+        </a>
+    </li>
+	            <li class="nav-item">
+            <a class="nav-link" href="#allegati">
+                <span>Allegati</span>
+            </a>
+        </li>
+           
+
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-lg it-page-sections-container border-top-0 px-0 pl-lg-4 pr-xl-4 pl-xl-5 py-0">
+                 
+                      <section id="apertura" class="it-page-section anchor-offset pb-4 mt-5">
+
+	
+		<!-- ==================== MAPPA ITALIA COLORI COVI e TESTO 
+ ======================= 
+      	<div class="callout my-0 px-0 py-0 border-top border-left-0 border-right-0 border-bottom-0 rounded-0">
+			<header class="callout-title ml-3 mr-0 px-2">
+                <svg class="icon icon-sm icon-neutral-1-color-a7 mb-1">
+                    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-calendar"></use>
+                </svg>
+              
+ 
+              
+              <h2 class="h6 d-inline m-0 p-0"><span class="neutral-1-color-a7">COVID-19 ULTI MO DPCM</span></h2>
+            </header>         
+            <div class="callout my-0 px-0 pb-0 pt-4  border border-top-0 border-left-0 border-right-0 border-bottom-0 rounded-0">
+
+				<div class="text-serif px-4">
+				  <strong><a href="http://www.governo.it/it/articolo/domande-frequenti-sulle-misure-adottate-dal-governo/15638" target="_blank">
+				  <p>
+						<img src="https://media.beniculturali.it/mibac/files/boards/be78e33bc8ca0c99bff70aa174035096/ItaliaCovid/resized/ItaliaCovid23gennaio2021.jpg" alt="Italia COVID-19" style="width: 50%;" align="left"></a>
+
+						<p>Riaprono i Musei e parchi archeologici nelle regioni bianche/gialle nei soli giorni feriali secondo le modalità e gli orari riportati nei siti web dei singoli istituti.</p>
+						<p style="margin-top:-12px;">Restano ancora chiusi Cinema, Teatri.</p>
+						<p style="margin-top:-12px;">Aperti al pubblico gli Archivi e garantiti su prenotazione i servizi delle Biblioteche</p>
+
+						<p><em>Qui le modalià di pre notazione e regole di accesso.</em></p>
+
+				   </p>
+				   
+				</div>
+			</div> 
+      </div>
+		  =================================================================================== -->
+      <!--
+        <div class="callout my-0 px-0 py-0 border-top border-left-0 border-right-0 border-bottom-0 rounded-0">
+             <header class="callout-title ml-3 mr-0 px-2">
+             <svg class="icon icon-sm icon-neutral-1-color-a7 mb-1">
+                    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-calendar"></use>
+             </svg>
+             <h2 class="h6 d-inline m-0 p-0"><span class="neutral-1-color-a7"> COVID-19 ULTIMO DPCM</span></h2>
+            </header>
+            <div class="row pt-4 px-4 mx-0 mt-2">
+                <p style="margin-top:-12px;"></p>
+
+                <!-- Seconda Fase 2021: Apertura parziale -- >
+                
+                        
+                  <!-- p>Riaprono i Musei e parchi archeologici nelle regioni gialle nei soli giorni feriali secondo le modalità e gli orari riportati nei siti web dei singoli istituti.</p -- >
+              <p align="justify"><img src="https://media.beniculturali.it/mibac/files/boards/be78e33bc8ca0c99bff70aa174035096/resized/Mascherina1.jpg" alt="COVID-19" style="width: 25%;" align="left">Dal 1° maggio 2022 sono cambiate le modalità di accesso ai luoghi della cultura e dello spettacolo: non è più richiesto il possesso del green pass né è previsto l’obbligo di indossare dispositivi di protezione delle vie respiratorie.
+                <br>
+
+                               
+<!-- br>Qui le modalià di prenotazione.<br><br -- >
+                
+               </p>
+
+               <p style="margin-top:-10px;">Se ne raccomanda comunque l’utilizzo.</p>
+
+                                <!-- p style="margin-top:-12px;">Restano ancora chiusi Cinema, Teatri.</p -- >
+                                
+                                
+
+                <p></p>
+
+                 
+            </div>          
+        </div>
+--%>
+        <!-- ================= ORIGINALE ================================== -->
+      
+		<div class="callout my-0 px-0 py-0 border-top border-left-0 border-right-0 border-bottom-0 rounded-0">
+
+            <header class="callout-title ml-3 mr-0 px-2">
+                <svg class="icon icon-sm icon-neutral-1-color-a7 mb-1">
+                    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-calendar"></use>
+                </svg>
+                <h2 class="h6 d-inline m-0 p-0"><span class="neutral-1-color-a7">Apertura</span></h2>
+            </header>
+			
+			<!-- ================================================================ -->
+			
+            <div class="row pt-4 px-4 mx-0 mt-2">
+              <section class="col-md-6 col-lg-12 col-xl-6 mb-2 mb-md-1 mb-lg-2 mb-xl-1 px-0 pr-md-1 pr-lg-0 pr-xl-1">
+                                <div class="d-flex flex-row flex-md-column flex-lg-row flex-xl-column rounded border border-secondary align-items-center justify-content-md-center justify-content-lg-start justify-content-xl-center p-3 p-md-4 p-lg-3 p-xl-4 h-100 alpha-50">
+                    <span class="avatar size-lg bg-transparent border border-secondary mb-md-2 mb-lg-0 mb-xl-2 mr-2 mr-md-0 mr-lg-2 mr-xl-0">
+                      <svg class="icon icon-secondary"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-check"></use></svg>
+                    </span>
+                    <header>
+                      <h3 class="h5 text-md-center text-lg-left text-xl-center mb-0">
+                        <span class="small text-muted font-weight-normal d-block">Prenotazione</span>
+                        <small class="text-muted text-uppercase font-weight-bold d-block">Non richiesta</small>
+                      </h3>
+                    </header>
+                  </div>
+                              	</section>
+     	 		<section class="col-md-6 col-lg-12 col-xl-6 pl-0 pl-md-3 pl-lg-0 pl-xl-3 mt-3 mt-md-0 mt-lg-4 mt-xl-0 pr-0 align-self-center">
+                    <header class="sr-only">
+                        <h3>Orario di apertura:</h3>
+                    </header>
+                    <dl class="row mx-0 mb-0">
+                                                                                                                        <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                        <abbr title="Lunedì">Lun</abbr>
+                                                                            <!-- a data-toggle="popover" title="Info" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" -->
+                                        <a data-toggle="popover" title="" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" data-original-title="Info">
+                                        <svg class="svg-inline--fa fa-exclamation-circle fa-w-16 fa-sm text-primary" style=" display: inline-block;font-size: inherit;height: 1em;overflow: visible;vertical-align: -.125em; font-size: .875em;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg>
+                                          
+                                        <!-- i class="fas fa-sm text-primary fa-exclamation-circle"></i -->
+                                      </a>
+                                                            				</dt>
+                                    <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                        <span class="neutral-2-color-b3 font-weight-light">-</span> 18:00
+                                    </dd>
+                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                        <abbr title="Martedi">Mar</abbr>
+                                                                            <!-- a data-toggle="popover" title="Info" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" -->
+                                        <a data-toggle="popover" title="" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" data-original-title="Info">
+                                        <svg class="svg-inline--fa fa-exclamation-circle fa-w-16 fa-sm text-primary" style=" display: inline-block;font-size: inherit;height: 1em;overflow: visible;vertical-align: -.125em; font-size: .875em;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg>
+                                          
+                                        <!-- i class="fas fa-sm text-primary fa-exclamation-circle"></i -->
+                                      </a>
+                                                            				</dt>
+                                    <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                        <span class="neutral-2-color-b3 font-weight-light">-</span> 18:00
+                                    </dd>
+                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                        <abbr title="Mercoledi">Mer</abbr>
+                                                                            <!-- a data-toggle="popover" title="Info" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" -->
+                                        <a data-toggle="popover" title="" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" data-original-title="Info">
+                                        <svg class="svg-inline--fa fa-exclamation-circle fa-w-16 fa-sm text-primary" style=" display: inline-block;font-size: inherit;height: 1em;overflow: visible;vertical-align: -.125em; font-size: .875em;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg>
+                                          
+                                        <!-- i class="fas fa-sm text-primary fa-exclamation-circle"></i -->
+                                      </a>
+                                                            				</dt>
+                                    <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                        <span class="neutral-2-color-b3 font-weight-light">-</span> 18:00
+                                    </dd>
+                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                        <abbr title="Giovedi">Gio</abbr>
+                                                                            <!-- a data-toggle="popover" title="Info" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" -->
+                                        <a data-toggle="popover" title="" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" data-original-title="Info">
+                                        <svg class="svg-inline--fa fa-exclamation-circle fa-w-16 fa-sm text-primary" style=" display: inline-block;font-size: inherit;height: 1em;overflow: visible;vertical-align: -.125em; font-size: .875em;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg>
+                                          
+                                        <!-- i class="fas fa-sm text-primary fa-exclamation-circle"></i -->
+                                      </a>
+                                                            				</dt>
+                                    <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                        <span class="neutral-2-color-b3 font-weight-light">-</span> 18:00
+                                    </dd>
+                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                        <abbr title="Venerdi">Ven</abbr>
+                                                                            <!-- a data-toggle="popover" title="Info" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" -->
+                                        <a data-toggle="popover" title="" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" data-original-title="Info">
+                                        <svg class="svg-inline--fa fa-exclamation-circle fa-w-16 fa-sm text-primary" style=" display: inline-block;font-size: inherit;height: 1em;overflow: visible;vertical-align: -.125em; font-size: .875em;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg>
+                                          
+                                        <!-- i class="fas fa-sm text-primary fa-exclamation-circle"></i -->
+                                      </a>
+                                                            				</dt>
+                                    <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                        <span class="neutral-2-color-b3 font-weight-light">-</span> 18:00
+                                    </dd>
+                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                        <abbr title="Sabato">Sab</abbr>
+                                                                            <!-- a data-toggle="popover" title="Info" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" -->
+                                        <a data-toggle="popover" title="" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" data-original-title="Info">
+                                        <svg class="svg-inline--fa fa-exclamation-circle fa-w-16 fa-sm text-primary" style=" display: inline-block;font-size: inherit;height: 1em;overflow: visible;vertical-align: -.125em; font-size: .875em;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg>
+                                          
+                                        <!-- i class="fas fa-sm text-primary fa-exclamation-circle"></i -->
+                                      </a>
+                                                            				</dt>
+                                    <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                        <span class="neutral-2-color-b3 font-weight-light">-</span> 18:00
+                                    </dd>
+                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-0 small text-uppercase font-weight-semibold">
+                                        <abbr title="Domenica">Dom</abbr>
+                                                                            <!-- a data-toggle="popover" title="Info" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" -->
+                                      
+                                      <a data-toggle="popover" title="" data-trigger="hover" data-content="ultimo ingresso 45 minuti prima della chiusura" data-original-title="Info">
+                                        <svg class="svg-inline--fa fa-exclamation-circle fa-w-16 fa-sm text-primary" style=" display: inline-block;font-size: inherit;height: 1em;overflow: visible;vertical-align: -.125em; font-size: .875em;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg>
+                                                                              
+                                        <!-- i class="fas fa-sm text-primary fa-exclamation-circle"></i -->
+                                      </a>
+                                                            				</dt>
+                                    <dd class="col-8 px-0 mb-0 text-right">10:00
+                                        <span class="neutral-2-color-b3 font-weight-light">-</span> 18:00
+                                    </dd>
+                                                                                                        </dl>
+                </section>
+            </div>
+                            	</div>
+    </section>
+                              <section id="biglietteria" class="it-page-section anchor-offset pb-4 mt-5">
+        	<div class="callout my-0 px-0 py-0 border-top border-left-0 border-right-0 border-bottom-0 rounded-0">
+                <header class="callout-title ml-3 mr-0 px-2">
+                    <svg class="icon icon-sm icon-neutral-1-color-a7 mb-1">
+                        <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-card"></use>
+                    </svg>
+                    <h2 class="h6 d-inline m-0 p-0"><span class="neutral-1-color-a7">Biglietteria</span></h2>
+                </header>
+
+                <div class="container-fluid px-0">
+            		<div class="row pt-4 px-4 mx-0 mt-2">
+                        <section class="d-flex flex-column flex-sm-row flex-md-column col-md-7 col-lg-12 col-xl-7 pr-0 pr-md-4 pr-lg-0 pr-xl-4 pl-0 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
+                            <div class="card no-after shadow">
+                                <div class="card card-teaser neutral-1-border-a6 card-teaser-info p-0 mx-0">
+                                    <div class="card-body text-right bg-secondary p-4 rounded-right">
+                                        <header>
+                                            <h3 class="small mb-3 text-white alpha-75 font-weight-light text-uppercase">
+                                                <span class="sr-only">Prezzo del </span>biglietto intero</h3>
+                                        </header>
+                                        <strong class="h1 line-1 card-title big-heading text-white">
+                                            <span class="h4 font-weight-normal">€</span> 6,00
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="card no-after shadow ml-sm-2 ml-md-0 mt-3 mt-sm-0 mt-md-3">
+                                                          <div class="card card-teaser analogue-2-border-a6 card-teaser-info p-0 mx-0">
+                                <div class="card-body text-right analogue-2-bg-a7 p-4 rounded-right">
+                                                                    <header>
+                                    <h3 class="small mb-3 text-white alpha-75 font-weight-light text-uppercase"><span class="sr-only">Prezzo del </span>biglietto ridotto</h3>
+                                  </header>
+                                  <strong class="h1 line-1 card-title big-heading text-white">
+                                    <span class="h4 font-weight-semibold">€</span> 4,00
+                                  </strong>
+                                                                </div>
+                            </div>
+                          </div>
+                        </section>
+                        <section class="col-md-5 col-lg-12 col-xl-5 mt-3 mt-md-0 mt-lg-4 mt-xl-0 px-0 align-self-center">
+                            <header class="sr-only">
+                                <h3>Orario di apertura:</h3>
+                            </header>
+                            <dl class="row mx-0 mb-0">
+                                                                                                                                                                                      <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                                <abbr title="Lunedì">Lun</abbr>
+                                                                                          </dt>
+                                            <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                                <span class="neutral-2-color-b3 font-weight-light">-</span> 17:15
+                                            </dd>
+                                                                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                                <abbr title="Martedi">Mar</abbr>
+                                                                                          </dt>
+                                            <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                                <span class="neutral-2-color-b3 font-weight-light">-</span> 17:15
+                                            </dd>
+                                                                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                                <abbr title="Mercoledi">Mer</abbr>
+                                                                                          </dt>
+                                            <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                                <span class="neutral-2-color-b3 font-weight-light">-</span> 17:15
+                                            </dd>
+                                                                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                                <abbr title="Giovedi">Gio</abbr>
+                                                                                          </dt>
+                                            <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                                <span class="neutral-2-color-b3 font-weight-light">-</span> 17:15
+                                            </dd>
+                                                                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                                <abbr title="Venerdi">Ven</abbr>
+                                                                                          </dt>
+                                            <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                                <span class="neutral-2-color-b3 font-weight-light">-</span> 17:15
+                                            </dd>
+                                                                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-3 small text-uppercase font-weight-semibold">
+                                                <abbr title="Sabato">Sab</abbr>
+                                                                                          </dt>
+                                            <dd class="col-8 px-0 mb-1 text-right mb-3">10:00
+                                                <span class="neutral-2-color-b3 font-weight-light">-</span> 17:15
+                                            </dd>
+                                                                                                                                                                                                                                    <dt class="col-4 px-0 text-primary mb-0 small text-uppercase font-weight-semibold">
+                                                <abbr title="Domenica">Dom</abbr>
+                                                                                          </dt>
+                                            <dd class="col-8 px-0 mb-0 text-right">10:00
+                                                <span class="neutral-2-color-b3 font-weight-light">-</span> 17:15
+                                            </dd>
+                                                                                                                                        </dl>
+                        </section>
+                    </div>
+                  </div>
+                                                      <section class="mt-4">
+                    <header class="collapse-header mx-4" id="heading-info">
+                      <h4 class="sr-only" id="heading-info-ticket">Informazioni biglietteria</h4>
+                      <a class="d-flex align-items-center border-top border-light py-3 px-0 d-flex collapsed" data-toggle="collapse" data-target="#info-ticket" aria-expanded="false" aria-controls="info-ticket">
+                        <svg class="icon icon-sm icon-primary align-middle mr-2">
+                          <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-info-circle"></use>
+                        </svg>
+                        <span class="text-primary text-uppercase font-weight-normal mr-auto">Info</span>
+                      </a>
+                    </header>
+                    <div class="border-bottom border-light mx-4">
+                      <div id="info-ticket" class="collapse px-2" role="tabpanel" aria-labelledby="heading-info-ticket">
+                        <div class="collapse-body pt-0 pb-4 px-4">
+                          <div class="small text-muted text-serif">
+                            Biglietto cumulativo con Foro Romano e Pinacoteca<br>
+Intero: € 9,00<br>
+Ridotto: € 6,00
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!--PAGOPA-- >                        
+                                        < !-- -->
+                    
+                  </section>
+                              </div>
+        </section>
+                      	    <!--PLACE-DESCRIPTION-->
+    <section id="descrizione" class="it-page-section anchor-offset pb-4 mt-5">
+        <div class="callout my-0 px-0 pb-0 pt-4 border border-left-0 border-right-0 border-bottom-0 rounded-0">
+            <header class="callout-title ml-3 mr-0 px-2">
+                <svg class="icon icon-sm icon-neutral-1-color-a7 mb-1">
+                    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-note"></use>
+                </svg>
+                <h2 class="h6 d-inline m-0 p-0"><span class="neutral-1-color-a7">Descrizione</span></h2>
+            </header>
+            <div class="text-serif px-4">
+                <p align="justify"><span style="font-size: 14px;">Nel punto più alto della città, la rocca Maggiore di Assisi è raggiungibile salendo da via Porta Perlici, nei pressi della cattedrale di San Rufino, o percorrendo la circonvallazione esterna che arriva sulla cima del colle Asio.
+Le prime notizie storiche sulla struttura fortificata si hanno negli anni 1173-1174 quando vi soggiornò Cristiano, arcivescovo di Magonza, che occupò Assisi per conto di Federico Barbarossa. </span></p><p align="justify"><span style="font-size: 14px;">Nel 1198 fu distrutta da una sommossa popolare. Secondo la tradizione, in quella occasione la cittadinanza cacciò il duca di Spoleto Corrado di Ursilengen ed il piccolo Federico II di soli 4 anni. La rocca rimase in uno stato di abbandono fino al 1362 quando il cardinale Egidio Albornoz decise di ricostruirla sulla base dell’antica fortificazione germanica.
+</span></p><p align="justify"><span style="font-size: 14px;">La rocca Maggiore guarda imponente e austera il centro storico sottostante, la stretta gola attraversata dal fiume Tescio e gran parte della Valle Umbra, che si estende da Perugia a Spoleto: visitarne la struttura dà quindi l’opportunità di osservare un significativo esempio di architettura militare trecentesca ancora ben conservato, godendo di un panorama tra i più suggestivi dell’Umbria.
+Il percorso si articola all'interno dell’edificio albornoziano, a pianta quadrata costituito da una torre maestra e maschio angolato, integrato durante i secoli attraverso un sistema di muraglie munite di torri.
+</span></p><p align="justify"><span style="font-size: 14px;">Nel periodo della signoria di Biordo Michelotti (1394-1398) vennero eseguiti numerosi interventi di manutenzione e restauro, in più parti compaiono le sue armi scolpite.
+Nel 1458, per ordine di Jacopo Piccinino, venne innalzato il torrione poligonale a nord-ovest. L’anno dopo Papa Pio II volle la costruzione del corridoio che unisce la rocca alla torre dodecagonale. </span></p><p align="justify"><span style="font-size: 14px;">La porta d’ingresso vicino al maschio fu realizzata nel 1484, sopra di essa si trovano tre stemmi, al centro quello di Sisto IV. Alla fine del Quattrocento la rocca divenne scenario di lotte cruente fra le famiglie Fiumi e Nepis. Dal 1501 vi si stabilì Cesare Borgia e poi la sorella Lucrezia.
+L’ultimo importante intervento sulla rocca di Assisi si ebbe nel 1535 quando Papa Paolo III fece costruire il bastione circolare.
+Dopo la principale funzione difensiva, la rocca divenne residenza dei castellani deputati al controllo del territorio; in seguito fu adibita a carcere e poi a magazzino. Nuovamente valorizzata e restaurata oggi è visitabile. </span></p><p align="justify"><span style="font-size: 14px;">L’ingresso si apre nei pressi del bastione cinquecentesco, all’interno si trova un cortile pavimentato con mattoni trecenteschi; adiacente è il cassero, dove erano disposti gli ambienti di servizio. Il maschio fungeva da abitazione del castellano, in questo si sovrappongono cinque ambienti uniti da una scala a chiocciola.</span></p><p align="justify"><br></p>
+                <br>
+                 <div style="text-align: center; font-size: 11px;"> © 2021 MiC - Pubblicato il 2020-04-14 17:56:44 / Ultimo aggiornamento 2024-10-14 08:56:10 
+    </div>
+            </div>
+        </div>
+
+            </section>
+    <!--/PLACE-DESCRIPTION-->
+	          
+                  
+            <!--POSIZIONE-->
+        <section id="posizione" class="it-page-section anchor-offset pb-4">
+            <header class="sr-only">
+                <h2>Posizione</h2>
+            </header>
+          	            <div class="map-wrapper map-column mt-4 mb-5 p-landscape position-relative">
+                <div id="content-map" class="w-100 h-100 border-0 position-absolute"></div>
+            </div>
+          	            <div class="card-wrapper card-overlapping pb-0">
+                <div class="card card-caption w-100 no-after rounded shadow">
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+        				<div class="px-4 pt-4 pb-sm-4">
+                            <svg class="icon icon-lg icon-primary">
+                                <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-map-marker-circle"></use>
+                            </svg>
+                        </div>
+                      	<div class="card-body pl-4 pl-sm-0 text-center text-sm-left">
+                            <h4 class="h6 card-title line-12 mb-1 text-primary">Rocca Maggiore</h4>
+                            <div class="card-text">
+                                <p class="line-12 mb-0">
+                                    Piazzale delle Libertà Comunali
+                                    - 06081
+                                    Assisi
+                                    (PG)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--/POSIZIONE-->
+                              	    <section id="contatti" class="it-page-section anchor-offset mt-5">
+        <div class="callout mt-0 border-left-0 border-right-0 border-bottom-0 border-top rounded pt-4 pb-0 px-0">
+          <header class="callout-title ml-3 mr-0 px-2">
+            <svg class="icon icon-sm icon-neutral-1-color-a7 mb-1">
+              <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-info-circle"></use>
+            </svg>
+            <h2 class="h6 d-inline m-0 p-0"><span class="neutral-1-color-a7">Contatti</span></h2>
+          </header>
+          <div class="px-4">
+            <div class="container-fluid">
+
+              <dl class="row mx-0 mb-0">
+
+                                <dt class="col-12 col-sm-auto pr-4 pl-sm-0 pt-2 pb-0 py-sm-2 text-primary">
+                    <svg class="icon icon-sm icon-primary align-middle mb-1">
+                      <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-telephone"></use>
+                    </svg>
+                    <span class="small">Tel</span>
+                  </dt>
+                  <dd class="col-12 col-sm px-sm-0 pb-2 pt-sm-2 mb-0 text-left text-sm-right font-weight-normal py-2">+39 0758138680</dd>
+                    <dd class="col-12 mb-0"></dd>
+                
+                                                <dt class="col-12 col-sm-auto pr-4 pl-sm-0 pt-4 mt-4 mt-sm-0 pb-0 py-sm-2 text-primary border-top border-light">
+                                  <svg class="icon icon-sm icon-primary align-middle mb-1">
+                    <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-mail"></use>
+                  </svg>
+                  <span class="small">Mail</span>
+                </dt>
+                                <dd class="col-12 col-sm px-sm-0 pb-2 pt-sm-2 mb-0 text-left text-sm-right border-sm-top border-light min-w-0">
+                                                    <span class="d-block text-truncate mb-0"><a href="mailto: iat@comune.assisi.pg.it" class="text-reset font-weight-normal">iat@comune.assisi.pg.it</a></span>
+                                                    </dd>
+                <dd class="col-12 mb-0"></dd>
+                
+                                
+              </dl>
+            </div>
+          </div>
+      </div>
+          
+      	    <div class="mt-4 px-4">
+          <div class="card card-caption w-100 no-after rounded shadow-none lightgrey-bg-b1 mb-2">
+        <div class="d-flex flex-column flex-md-row align-items-center py-4 py-md-0">
+          <div class="p-4">
+            <span class="avatar size-xl primary-bg-c2" href="#" data-toggle="tooltip" data-html="true" data-placement="right" title="">
+              <svg class="icon icon-primary"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-user"></use></svg>
+            </span>
+          </div>
+          <div class="card-body pt-0 py-md-4 pl-md-0 text-center text-md-left">
+            <small class="d-block text-muted">Responsabile:</small>
+            <h4 class="h5 card-title mb-0 font-weight-bold text-primary font-weight-normal">
+              -
+            </h4>
+            <!--p class="text-muted mb-0">(Responsabile)</p -->
+          </div>
+        </div>
+      </div>
+  	    </div>
+         
+                      <!--ATTACHMENTS-->
+<section id="allegati" class="it-page-section anchor-offset gallery-section mt-5 pt-3 d-print-none">
+  <div class="card w-100 card-teaser bg-white px-4 pb-2 pt-3 rounded border">
+    <div class="card-body w-100">
+      <header class="row row-title align-items-center border-light pt-2 pt-sm-0 pb-3 mx-0">
+        <h2 class="h6 text-uppercase font-weight-semibold neutral-1-color-a7">
+          <svg class="icon icon-sm align-bottom icon-neutral-1-color-a7"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-clip"></use></svg> Allegati
+        </h2>
+        <nav>
+          <ul class="nav nav-pills nav-media" role="tablist">
+                        <li class="nav-item">
+              <a class="btn btn-icon btn-xs btn-outline-primary border-0 mx-1 mr-sm-0 px-2 pr-md-3 pr-lg-2 pr-xl-33 py-1 shadow-none active" data-toggle="tab" role="tab" aria-controls="galleria" aria-selected="true" href="#galleria"><svg class="icon icon-sm"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-camera"></use></svg><span class="d-none d-md-inline d-lg-none d-xl-inline">Galleria</span></a>
+            </li>
+                                  </ul>
+        </nav>
+      </header>
+      <div class="tab-content mt-3 mt-lg-0">
+        
+        
+                
+                        <div class="tab-pane fade show active" id="galleria" role="tabpanel" aria-labelledby="galleria">
+              <div class="row">
+
+                                  <div class="col-4 col-sm-3 col-md-2 col-lg-3 col-xl-2 mb-2">
+                    <a href="#" class="img-thumbnail d-block" data-index="0" data-toggle="modal" data-target="#mediaModal" title="Visualizza Assisi, Rocca maggiore">
+                      <span class="d-flex flex-column justify-content-center position-absolute m-0 bg-primary">
+                        <img src="https://media.cultura.gov.it/mibac/files/boards/388a5474724a15af0ace7a40ab3301de/Umbria/Perugia/thumbs/Assisi, Rocca Maggiore3.jpg" class="w-100 h-100 obj-cover animated" alt="Rocca maggiore, interno">
+                      </span>
+                    </a>
+                  </div>
+                                  <div class="col-4 col-sm-3 col-md-2 col-lg-3 col-xl-2 mb-2">
+                    <a href="#" class="img-thumbnail d-block" data-index="1" data-toggle="modal" data-target="#mediaModal" title="Visualizza Assisi, Rocca maggiore">
+                      <span class="d-flex flex-column justify-content-center position-absolute m-0 bg-primary">
+                        <img src="https://media.cultura.gov.it/mibac/files/boards/388a5474724a15af0ace7a40ab3301de/Umbria/Perugia/thumbs/Assisi, Rocca Maggiore2.jpg" class="w-100 h-100 obj-cover animated" alt="Antichi strumenti">
+                      </span>
+                    </a>
+                  </div>
+                                  <div class="col-4 col-sm-3 col-md-2 col-lg-3 col-xl-2 mb-2">
+                    <a href="#" class="img-thumbnail d-block" data-index="2" data-toggle="modal" data-target="#mediaModal" title="Visualizza Assisi, Rocca Maggiore">
+                      <span class="d-flex flex-column justify-content-center position-absolute m-0 bg-primary">
+                        <img src="https://media.cultura.gov.it/mibac/files/boards/388a5474724a15af0ace7a40ab3301de/Umbria/Perugia/thumbs/Assisi, Rocca Maggiore.jpg" class="w-100 h-100 obj-cover animated" alt="Rocca Maggiore. Interno. Esposizione di antichi cimeli">
+                      </span>
+                    </a>
+                  </div>
+                
+              </div>
+            </div>
+        	
+          		        
+		<!--
+        <div class="tab-pane fade" id="link" role="tabpanel" aria-labelledby="link">
+          <div class="link-list-wrapper">
+            <ul class="link-list">
+
+              <li>
+                <a class="list-item d-flex align-items-center px-0" href="http://www.beniculturali.it" title="link" target="_blank">
+                  <div class="d-flex align-items-center">
+                    <svg class="icon icon-primary my-0"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-link"></use></svg>
+                  </div>
+                  <div class="pl-2">
+                    <strong class="h6 d-block mb-0 link-title">Lorem ipsum dolor sit amet</strong>
+                    <p class="mb-0">http://www.beniculturali.it</p>
+                  </div>
+                </a>
+              </li>
+
+              <li><span class="divider my-3"></span></li>
+
+            </ul>
+          </div>
+        </div>
+		-->
+
+      </div>
+    </div>
+  </div>
+
+</section>
+<!--ATTACHMENTS-->
+
+
+
+              </div>
+            </div>
+          </div>
+        </article>
+        
+                
+                
+      </div>
+      <!--/Column-left-->
+      
+      <!--Column-right-->
+      <aside class="col-lg-4 col-xl-3 py-5 pl-lg-3 d-print-none">
+        <!-- SEARCH ITEMS -->
+                <!-- /SEARCH ITEMS -->
+        
+        <!-- EVENT OWNER -->
+                <!-- /EVENT OWNER  -->
+        
+        <!-- SPOTTED CONTENT -->
+        <section class="card card-grid-carousel rounded shadow-sm bg-primary no-after overflow-hidden ">
+          
+          <div class="h-100 w-100 position-absolute">
+            <figure class="overlay-wrapper position-absolute w-100 h-100 mb-0 alpha-25">
+              <img src="https://cultura.gov.it/fe/mibact/image/highlight-bg.jpg" alt="background" aria-hidden="true">
+            </figure>
+          </div>
+
+          <div class="position-absolute z-2">
+            <header class="card-header px-4 pt-3 pb-0 border-0">
+              <h4 class="small text-white text-uppercase font-weight-light mb-0">In evidenza</h4>
+            </header>
+          </div>
+
+          <!-- SPOTTED POSTS CAROUSEL -->
+          <div class="owl-carousel spotted-card card-body p-0 w-100 h-100" id="primary">
+                  <div class="d-flex flex-column w-100">
+  
+  <div class="d-flex flex-column px-4 pt-3 pb-5 h-100 position-relative">
+    
+    <!-- Title -->
+    <header class="pt-5">
+      <h3 class="h5 font-weight-bold card-title mb-1">
+         <a class="text-white text-decoration-none" href="https://cultura.gov.it/evento/dai-primitivi-a-filippo-lippi-il-nuovo-allestimento-di-palazzo-barberini">Dai primitivi a Filippo Lippi. Il nuovo allestimento di Palazzo Barber...</a>
+      </h3>
+    </header>
+    <!-- /Title -->
+
+    <!-- Date -->
+    <div class="extra-text ml-0 w-100 mb-3">
+      <time datetime="2022-05-05 14:26:00" class="text-white text-italic text-capitalize font-weight-light">
+        05 May 2022
+      </time>
+    </div>
+    <!-- /Date -->
+
+    <!-- Text -->
+    <p class="card-text text-white">Da venerdì 29 aprile 2022 le Gallerie Nazionali di Arte Antica riaprono le porte delle undici sale d...</p>
+    <!-- /Text -->
+
+    <!-- Link to post -->
+    <div class="it-card-footer pt-5 mt-auto">
+      <a class="read-more text-white text-decoration-none font-weight-light ml-auto" href="https://cultura.gov.it/evento/dai-primitivi-a-filippo-lippi-il-nuovo-allestimento-di-palazzo-barberini">
+        Continua
+        <svg class="icon icon-white">
+          <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-arrow-right"></use>
+        </svg>
+      </a>
+    </div>
+    <!-- /Link to post -->
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-column w-100">
+  
+  <div class="d-flex flex-column px-4 pt-3 pb-5 h-100 position-relative">
+    
+    <!-- Title -->
+    <header class="pt-5">
+      <h3 class="h5 font-weight-bold card-title mb-1">
+         <a class="text-white text-decoration-none" href="https://cultura.gov.it/evento/tiresia-il-mito-tra-le-tue-mani-e-la-collezione-rizzon">&quot;Tiresia, il mito tra le tue mani&quot; e &quot;La Collezione Rizzon&quot;</a>
+      </h3>
+    </header>
+    <!-- /Title -->
+
+    <!-- Date -->
+    <div class="extra-text ml-0 w-100 mb-3">
+      <time datetime="2022-07-28 16:09:00" class="text-white text-italic text-capitalize font-weight-light">
+        28 July 2022
+      </time>
+    </div>
+    <!-- /Date -->
+
+    <!-- Text -->
+    <p class="card-text text-white">Il Museo nazionale di Matera sperimenta nuove forme  di valorizzazione e comunicazione del patrimoni...</p>
+    <!-- /Text -->
+
+    <!-- Link to post -->
+    <div class="it-card-footer pt-5 mt-auto">
+      <a class="read-more text-white text-decoration-none font-weight-light ml-auto" href="https://cultura.gov.it/evento/tiresia-il-mito-tra-le-tue-mani-e-la-collezione-rizzon">
+        Continua
+        <svg class="icon icon-white">
+          <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-arrow-right"></use>
+        </svg>
+      </a>
+    </div>
+    <!-- /Link to post -->
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-column w-100">
+  
+  <div class="d-flex flex-column px-4 pt-3 pb-5 h-100 position-relative">
+    
+    <!-- Title -->
+    <header class="pt-5">
+      <h3 class="h5 font-weight-bold card-title mb-1">
+         <a class="text-white text-decoration-none" href="https://cultura.gov.it/evento/virginia-woolf-e-bloomsbury-inventing-life">Virginia Woolf e Bloomsbury. Inventing Life</a>
+      </h3>
+    </header>
+    <!-- /Title -->
+
+    <!-- Date -->
+    <div class="extra-text ml-0 w-100 mb-3">
+      <time datetime="2022-10-17 12:08:00" class="text-white text-italic text-capitalize font-weight-light">
+        17 October 2022
+      </time>
+    </div>
+    <!-- /Date -->
+
+    <!-- Text -->
+    <p class="card-text text-white">Per la prima volta in Italia, a Palazzo Altemps si presenta una mostra che celebra lo spirito che an...</p>
+    <!-- /Text -->
+
+    <!-- Link to post -->
+    <div class="it-card-footer pt-5 mt-auto">
+      <a class="read-more text-white text-decoration-none font-weight-light ml-auto" href="https://cultura.gov.it/evento/virginia-woolf-e-bloomsbury-inventing-life">
+        Continua
+        <svg class="icon icon-white">
+          <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-arrow-right"></use>
+        </svg>
+      </a>
+    </div>
+    <!-- /Link to post -->
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-column w-100">
+  
+  <div class="d-flex flex-column px-4 pt-3 pb-5 h-100 position-relative">
+    
+    <!-- Title -->
+    <header class="pt-5">
+      <h3 class="h5 font-weight-bold card-title mb-1">
+         <a class="text-white text-decoration-none" href="https://cultura.gov.it/evento/bosch-e-un-altro-rinascimento">Bosch e un altro Rinascimento</a>
+      </h3>
+    </header>
+    <!-- /Title -->
+
+    <!-- Date -->
+    <div class="extra-text ml-0 w-100 mb-3">
+      <time datetime="2022-10-24 09:59:00" class="text-white text-italic text-capitalize font-weight-light">
+        24 October 2022
+      </time>
+    </div>
+    <!-- /Date -->
+
+    <!-- Text -->
+    <p class="card-text text-white">Il percorso espositivo presenta un centinaio di opere d&#039;arte tra dipinti, sculture, arazzi, incision...</p>
+    <!-- /Text -->
+
+    <!-- Link to post -->
+    <div class="it-card-footer pt-5 mt-auto">
+      <a class="read-more text-white text-decoration-none font-weight-light ml-auto" href="https://cultura.gov.it/evento/bosch-e-un-altro-rinascimento">
+        Continua
+        <svg class="icon icon-white">
+          <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-arrow-right"></use>
+        </svg>
+      </a>
+    </div>
+    <!-- /Link to post -->
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-column w-100">
+  
+  <div class="d-flex flex-column px-4 pt-3 pb-5 h-100 position-relative">
+    
+    <!-- Title -->
+    <header class="pt-5">
+      <h3 class="h5 font-weight-bold card-title mb-1">
+         <a class="text-white text-decoration-none" href="https://cultura.gov.it/evento/arte-liberata-1937-1947-capolavori-salvati-dalla-guerra">ARTE LIBERATA 1937-1947. Capolavori salvati dalla guerra</a>
+      </h3>
+    </header>
+    <!-- /Title -->
+
+    <!-- Date -->
+    <div class="extra-text ml-0 w-100 mb-3">
+      <time datetime="2023-01-12 09:11:00" class="text-white text-italic text-capitalize font-weight-light">
+        12 January 2023
+      </time>
+    </div>
+    <!-- /Date -->
+
+    <!-- Text -->
+    <p class="card-text text-white">Le Scuderie del Quirinale presentano ARTE LIBERATA 1937-1947. Capolavori salvati dalla guerra, una n...</p>
+    <!-- /Text -->
+
+    <!-- Link to post -->
+    <div class="it-card-footer pt-5 mt-auto">
+      <a class="read-more text-white text-decoration-none font-weight-light ml-auto" href="https://cultura.gov.it/evento/arte-liberata-1937-1947-capolavori-salvati-dalla-guerra">
+        Continua
+        <svg class="icon icon-white">
+          <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-arrow-right"></use>
+        </svg>
+      </a>
+    </div>
+    <!-- /Link to post -->
+
+  </div>
+</div>
+
+
+          </div>
+          
+        </section>
+
+		
+        <!-- /SPOTTED CONTENTS -->
+        
+                
+        		        
+        <!-- LIST -->
+        <section class="mt-5">
+          <header class="row row-title pb-2 mb-3 mx-0">
+            <h4 class="font-weight-bold h6 text-uppercase text-secondary">
+              Ultimi eventi pubblicati            </h4>
+          </header>
+			    <!-- LAST POST -->
+<div class="card card-aside bg-transparent">
+
+  <div class="card-body p-0">
+
+    <!-- Title -->
+    <h3 class="h6 font-weight-bold card-title mb-0 line-1">
+      <a href="https://cultura.gov.it/evento/festa-dellalbero-2026-v-edizione" class="text-primary text-decoration-none">Festa dell&#039;Albero 2026 - V edizione</a>
+    </h3>
+    <!-- /Title -->
+
+    <!-- Author -->
+    <div class="avatar-wrapper avatar-extra-text mb-0 w-100">
+      <div class="extra-text ml-0 w-100">
+        <time datetime="2026-11-20 14:37:00" class="text-capitalize text-muted">20 novembre 2026</time>
+      </div>
+    </div>
+    <!-- /Author -->
+
+  </div>
+</div>
+<!-- /LAST POST -->
+
+
+<!-- LAST POST -->
+<div class="card card-aside bg-transparent">
+
+  <div class="card-body p-0">
+
+    <!-- Title -->
+    <h3 class="h6 font-weight-bold card-title mb-0 line-1">
+      <a href="https://cultura.gov.it/evento/archive-loop-storie-senza-fine" class="text-primary text-decoration-none">ARCHIVE LOOP: STORIE SENZA FINE</a>
+    </h3>
+    <!-- /Title -->
+
+    <!-- Author -->
+    <div class="avatar-wrapper avatar-extra-text mb-0 w-100">
+      <div class="extra-text ml-0 w-100">
+        <time datetime="2026-11-20 10:21:00" class="text-capitalize text-muted">20 novembre 2026</time>
+      </div>
+    </div>
+    <!-- /Author -->
+
+  </div>
+</div>
+<!-- /LAST POST -->
+
+
+<!-- LAST POST -->
+<div class="card card-aside bg-transparent">
+
+  <div class="card-body p-0">
+
+    <!-- Title -->
+    <h3 class="h6 font-weight-bold card-title mb-0 line-1">
+      <a href="https://cultura.gov.it/evento/8-dicembre-2026-teatro-romano-di-benevento" class="text-primary text-decoration-none">8 Dicembre 2026- Teatro Romano di Benevento</a>
+    </h3>
+    <!-- /Title -->
+
+    <!-- Author -->
+    <div class="avatar-wrapper avatar-extra-text mb-0 w-100">
+      <div class="extra-text ml-0 w-100">
+        <time datetime="2026-11-20 09:18:00" class="text-capitalize text-muted">20 novembre 2026</time>
+      </div>
+    </div>
+    <!-- /Author -->
+
+  </div>
+</div>
+<!-- /LAST POST -->
+
+
+<!-- LAST POST -->
+<div class="card card-aside bg-transparent">
+
+  <div class="card-body p-0">
+
+    <!-- Title -->
+    <h3 class="h6 font-weight-bold card-title mb-0 line-1">
+      <a href="https://cultura.gov.it/evento/apertura-straordinaria-archivio-di-stato-di-bergamo-impronta-e-segno-i-sigilli-da-materia-a-documento" class="text-primary text-decoration-none">Apertura straordinaria Archivio di Stato di Bergamo - Impronta e segno...</a>
+    </h3>
+    <!-- /Title -->
+
+    <!-- Author -->
+    <div class="avatar-wrapper avatar-extra-text mb-0 w-100">
+      <div class="extra-text ml-0 w-100">
+        <time datetime="2026-11-19 15:00:00" class="text-capitalize text-muted">19 novembre 2026</time>
+      </div>
+    </div>
+    <!-- /Author -->
+
+  </div>
+</div>
+<!-- /LAST POST -->
+
+
+<!-- LAST POST -->
+<div class="card card-aside bg-transparent">
+
+  <div class="card-body p-0">
+
+    <!-- Title -->
+    <h3 class="h6 font-weight-bold card-title mb-0 line-1">
+      <a href="https://cultura.gov.it/evento/apertura-straordinaria-archivio-di-stato-di-messina-21-novembre-2026" class="text-primary text-decoration-none">Apertura straordinaria Archivio di Stato di Messina - 21  novembre 202...</a>
+    </h3>
+    <!-- /Title -->
+
+    <!-- Author -->
+    <div class="avatar-wrapper avatar-extra-text mb-0 w-100">
+      <div class="extra-text ml-0 w-100">
+        <time datetime="2026-11-19 14:44:00" class="text-capitalize text-muted">19 novembre 2026</time>
+      </div>
+    </div>
+    <!-- /Author -->
+
+  </div>
+</div>
+<!-- /LAST POST -->
+
+
+        </section>
+        <!-- /LIST -->
+        
+      </aside>
+      <!--/Column-right-->
+    </div>
+  </div>
+</div>
+  
+  <footer class="it-footer d-print-none">
+  <div class="it-footer-main">
+    <div class="container">
+      <section class="pt-5 no-print">
+        <div class="row justify-content-md-center pt-1">
+          <div class="col-lg-3 col-md-12 py-3 py-lg-0">
+            <a href="https://cultura.gov.it">
+              <!-- img id="logo-footer" class="logo-footer mb-5" src="https://cultura.gov.it/fe/mibact/image/logo-mibact_footer.svg" alt="Ministero della Cultura" /-->
+              
+              <img id="logo-footer" class="logo-footer mb-5" src="https://media.beniculturali.it/mibac/files/6/MiC_logo_esteso_Negativo.svg" >
+              <!-- <img id="logo-footer" class="logo-footer mb-5" src="https://cultura.gov.it/fe/mibact/image/MiC50_logo_esteso_Bianco.png"> -->
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 no-print">
+                      </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 no-print">
+                      </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 no-print">
+                      </div>
+        </div>
+      </section>
+      <section class="pt-5 border-white border-top">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <!--<h6><a href="https://cultura.gov.it/scrivici" title="Vai alla pagina: Contatti">Contatti</a></h6>-->
+            <p> <strong>Sede centrale MiC </strong><br> Via del Collegio Romano, 27<br/> 00186 Roma</p>
+            <div class="link-list-wrapper">
+              <ul class="footer-list link-list clearfix">
+                <li><strong>Centralino:</strong> <a class="list-item d-inline" href="tel:+390667231" title="Contatto telefonico">(+39) 06.6723.1</a></li>
+                
+ <!--
+                <li><a class="list-item" href="https://cultura.gov.it/accrediti-stampa" title="Vai alla pagina: Contatti">Ufficio stampa</a></li>
+-->
+                
+                <li><a class="list-item" href="https://cultura.gov.it/urp-ufficio-relazioni-con-il-pubblico" title="Vai alla pagina: Ufficio Relazioni con il Pubblico">URP - Ufficio Relazioni con il Pubblico</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 no-print">
+            <h6><a href="https://trasparenza.cultura.gov.it/" title="Vai alla pagina: Trasparenza">Amministrazione trasparente</a></h6>
+            <p>I dati personali pubblicati sono riutilizzabili solo alle condizioni previste dalla direttiva comunitaria 2003/98/CE e dal d.lgs. 36/2006</p>
+            <a href="https://cultura.gov.it/numero-verde" title="Chiama il Numero Verde" class="my-4 d-block" id="numero-verde">
+              <img src="https://cultura.gov.it/fe/mibact/image/numeroverde.svg" class="img-fluid" alt="Numero Verde" aria-label="Chiama il Numero Verde">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="mb-4">
+              <h6>Seguici su:</h6>
+              <ul class="list-inline text-left social mb-0 pb-3">
+                <li class="list-inline-item">
+                  <a class="py-2 pr-1 text-white text-decoration-none" href="https://www.facebook.com/ministerodellacultura/" target="_blank">
+                    <svg class="icon icon-white align-top">
+                      <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-facebook-square"></use>
+                    </svg>
+                    <span class="sr-only">Facebook</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="py-2 px-1 text-white text-decoration-none" href="https://twitter.com/MiC_Italia" target="_blank">
+                    <svg class="icon icon-white align-top">
+                      <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-twitter"></use>
+                    </svg>
+                    <span class="sr-only">Twitter</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="py-2 px-1 text-white text-decoration-none" href="https://www.instagram.com/mic_italia/" target="_blank">
+                    <svg class="icon icon-white align-top">
+                      <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-instagram"></use>
+                    </svg>
+                    <span class="sr-only">Instagram</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="py-2 px-1 text-white text-decoration-none" href="https://www.youtube.com/MiC_Italia" target="_blank">
+                    <svg class="icon icon-white align-top">
+                      <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-youtube"></use>
+                    </svg>
+                    <span class="sr-only">Youtube</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="py-2 px-1 text-white text-decoration-none" href="https://tiktok.com/@mictok" target="_blank">
+                    <svg class="icon icon-white align-top">
+                      <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-tiktok"></use>
+                    </svg>
+                    <span class="sr-only">TikTok</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="py-2 px-1 text-white text-decoration-none" href="https://open.spotify.com/user/31dhakj3q76akfuigai7e77xe7j4?si=a0cbae48d7784033" target="_blank">
+                    <svg class="icon icon-white align-top">
+                      <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-podcast"></use>
+                    </svg>
+                    <span class="sr-only">Podcast</span>
+                  </a>                  
+                </li>
+              </ul>
+            </div>
+            <div id="newsletter-footer-form" class="mb-5 no-print">
+              
+<!--
+===================
+ NEWSLETTER MAILUP
+===================
+          <h6 class="text-uppercase font-weight-bold">
+                <a href="https://a7h9x0.emailsp.com/frontend/forms/Subscription.aspx?idList=1&idForm=1&guid=AAFA5375-BCF1-4E06-965A-E3A98B626156" >
+                  <h6 class="text-uppercase font-weight-bold">Iscriviti alla newsletter</h6>
+                </a>
+              </h6>
+===================
+ NEWSLETTER LARAVEL 
+===================
+              <h6 class="text-uppercase font-weight-bold">Iscriviti alla newsletter</h6>
+              <form action="https://cultura.gov.it/send/newsletter" method="post" >
+                <label for="input-newsletter" class="sr-only">Inserisci la tua mail</label>
+                <input type="hidden" name="_token" value="c6txuz4fmF8VKfWF4R7oT75PP4yel4CDcMzACXNG">                <div class="input-group">
+                  <input type="text" class="form-control rounded-left" id="input-newsletter" name="email" placeholder="Inserisci email" >
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary px-3" type="submit">
+                      <span class="sr-only">Conferma iscrizione</span>
+                      <svg class="icon  icon-sm icon-primary">
+                        <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="form-check form-check-group mb-0 p-0 shadow-none">
+                  <input id="privacy-check" type="checkbox" name="policy">
+                  <label for="privacy-check" class="text-white pl-0 pr-4 font-weight-normal">Acconsento al <a href="https://cultura.gov.it/privacy-policy" class="text-white font-weight-bold">trattamento dei dati</a></label>
+                </div>
+              </form>
+-->
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="it-footer-small-prints clearfix no-print">
+    <div class="container">
+      <div class="d-flex flex-column flex-lg-row text-center text-lg-left">
+        <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-sm-row px-0 order-lg-2 justify-content-center">
+          <li class="list-inline-item px-0 py-2 px-sm-2 py-lg-0"><a href="https://form.agid.gov.it/view/14a96430-0e30-11f0-a950-dd043878f3e8" title="Dichiarazione di accessibilità" class="font-weight-bold text-uppercase">Dichiarazione di accessibilità</a></li>
+          <li class="list-inline-item px-0 py-2 px-sm-2 py-lg-0"><a href="https://cultura.gov.it/privacy-policy" title="Privacy-Cookies" class="font-weight-bold text-uppercase">Privacy policy</a></li>
+          <li class="list-inline-item px-0 py-2 px-sm-2 py-lg-0"><a href="https://cultura.gov.it/note-legali" title="Note Legali" class="font-weight-bold text-uppercase">Note legali</a></li>
+          <li class="list-inline-item px-0 py-2 px-sm-2 py-lg-0"><a href="https://cultura.gov.it/mappa-del-sito" title="Mappa del sito" class="font-weight-bold text-uppercase">Mappa del sito</a> </li>
+          <li class="list-inline-item px-0 py-2 px-sm-2 py-lg-0"><a href="https://cultura.gov.it/modulistica" title="Modulistica" class="font-weight-bold text-uppercase">Modulistica</a> </li>
+        </ul>
+        <div class="d-lg-flex flex-lg-grow-1 align-items-center order-lg-1 pb-4 pt-2 py-lg-3"><p class="mb-0"><small class="text-white mb-0 small font-weight-light"><span class="font-weight-bold"><span style="position: relative; font-size: 1.5em; top: 0.2em;">©</span> 2020 - 2026</span>,  Ministero della cultura</small></p></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- GALLERY MODAL -->
+<section class="modal media-modal it-dialog-scrollable fade" tabindex="-1" role="dialog" id="mediaModal">
+	<header class="sr-only">
+		<h3>Carosello galleria</h3>
+	</header>
+
+  <div class="modal-dialog modal-xl" role="document">
+
+    <!-- GALLERY CAROUSEL -->
+    <div id="modal-gallery" class="owl-carousel owl-hidden">
+      
+            <!-- GALLERY CAROUSEL ELEMENT -->
+      <section class="row flex-column flex-lg-row mx-0 w-100">
+                <div class="col-lg-8 col-thumb px-0 bg-dark">
+          <div class="modal-content shadow-0 bg-transparent">
+              <img src="https://media.cultura.gov.it/mibac/files/boards/388a5474724a15af0ace7a40ab3301de/Umbria/Perugia/Assisi, Rocca Maggiore3.jpg" class="w-100 h-100 obj-contain" alt="Rocca Maggiore, interno">
+          </div>
+        </div>
+        <div class="col-lg-4 col-det px-0">
+          <div class="modal-content bg-transparent position-relative">
+           <div class="modal-header bg-transparent border-bottom border-light p-3 p-lg-4">
+            <header>
+              <h3 class="h5 modal-title text-primary font-weight-bold line-12">Assisi, Rocca maggiore</h3>
+              <time datetime="2018-09-15" class="small text-muted text-capitalize font-weight-light">22 aprile 2021</time>
+            </header>
+             <button class="close" type="button" data-dismiss="modal" aria-label="Chiudi">
+               <svg class="icon icon-white">
+                 <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-close"></use>
+               </svg>
+             </button>
+           </div>
+           <div class="modal-body p-3 p-lg-4">
+             <div class="d-none d-lg-block mb-3">
+                <p>Rocca Maggiore, interno</p>
+             </div>
+                        </div>
+          </div>
+        </div>
+      </section>
+      <!-- /GALLERY CAROUSEL ELEMENT -->
+            <!-- GALLERY CAROUSEL ELEMENT -->
+      <section class="row flex-column flex-lg-row mx-0 w-100">
+                <div class="col-lg-8 col-thumb px-0 bg-dark">
+          <div class="modal-content shadow-0 bg-transparent">
+              <img src="https://media.cultura.gov.it/mibac/files/boards/388a5474724a15af0ace7a40ab3301de/Umbria/Perugia/Assisi, Rocca Maggiore2.jpg" class="w-100 h-100 obj-contain" alt="Rocca Maggiore. Interno. Antichi strumenti musicali">
+          </div>
+        </div>
+        <div class="col-lg-4 col-det px-0">
+          <div class="modal-content bg-transparent position-relative">
+           <div class="modal-header bg-transparent border-bottom border-light p-3 p-lg-4">
+            <header>
+              <h3 class="h5 modal-title text-primary font-weight-bold line-12">Assisi, Rocca maggiore</h3>
+              <time datetime="2018-09-15" class="small text-muted text-capitalize font-weight-light">22 aprile 2021</time>
+            </header>
+             <button class="close" type="button" data-dismiss="modal" aria-label="Chiudi">
+               <svg class="icon icon-white">
+                 <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-close"></use>
+               </svg>
+             </button>
+           </div>
+           <div class="modal-body p-3 p-lg-4">
+             <div class="d-none d-lg-block mb-3">
+                <p>Rocca Maggiore. Interno. Antichi strumenti musicali</p>
+             </div>
+                        </div>
+          </div>
+        </div>
+      </section>
+      <!-- /GALLERY CAROUSEL ELEMENT -->
+            <!-- GALLERY CAROUSEL ELEMENT -->
+      <section class="row flex-column flex-lg-row mx-0 w-100">
+                <div class="col-lg-8 col-thumb px-0 bg-dark">
+          <div class="modal-content shadow-0 bg-transparent">
+              <img src="https://media.cultura.gov.it/mibac/files/boards/388a5474724a15af0ace7a40ab3301de/Umbria/Perugia/Assisi, Rocca Maggiore.jpg" class="w-100 h-100 obj-contain" alt="Rocca Maggiore. Interno. Esposizione di antichi cimeli">
+          </div>
+        </div>
+        <div class="col-lg-4 col-det px-0">
+          <div class="modal-content bg-transparent position-relative">
+           <div class="modal-header bg-transparent border-bottom border-light p-3 p-lg-4">
+            <header>
+              <h3 class="h5 modal-title text-primary font-weight-bold line-12">Assisi, Rocca Maggiore</h3>
+              <time datetime="2018-09-15" class="small text-muted text-capitalize font-weight-light">22 aprile 2021</time>
+            </header>
+             <button class="close" type="button" data-dismiss="modal" aria-label="Chiudi">
+               <svg class="icon icon-white">
+                 <use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-close"></use>
+               </svg>
+             </button>
+           </div>
+           <div class="modal-body p-3 p-lg-4">
+             <div class="d-none d-lg-block mb-3">
+                <p>Rocca Maggiore. Interno. Esposizione di antichi cimeli</p>
+             </div>
+                        </div>
+          </div>
+        </div>
+      </section>
+      <!-- /GALLERY CAROUSEL ELEMENT -->
+      
+      
+    </div>
+
+    <div id="modalGalleryNav" class="modal-gallery-nav row position-absolute w-100 mx-0 my-auto">
+      <nav class="col-12 d-flex justify-content-between"></nav>
+    </div>
+
+  </div>
+
+</section>
+<!-- /GALLERY MODAL -->
+  
+ <a href="#" aria-hidden="true" data-attribute="back-to-top" class="back-to-top shadow d-print-none">
+   <svg class="icon icon-light"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-arrow-up"></use></svg>
+ </a>
+
+<!-- Privacy -->
+  <!--
+<div class="cookiebar d-print-none">
+    <p>Questo sito utilizza cookie tecnici, analytics e di terze parti. <br>Proseguendo nella navigazione accetti l’utilizzo dei cookie.</p>
+    <div class="cookiebar-buttons align-self-center">
+        <a href="https://cultura.gov.it/cookie-policy" class="cookiebar-btn">Informazioni<span class="sr-only"> sui cookies</span></a>
+        <button data-accept="cookiebar" class="cookiebar-btn cookiebar-confirm">Accetto<span class="sr-only"> i cookies</span></button>
+    </div>
+</div>
+-->
+<!-- /Privacy -->
+
+<!-- Notification -->
+<!-- /Notification -->
+
+<script>window.__PUBLIC_PATH__ = "https://cultura.gov.it/fonts"</script>
+<script src="https://cultura.gov.it/js/bootstrap-italia.bundle.min.js"></script>
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+                integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+                crossorigin=""></script>
+    <script>
+  $(document).ready(function() {
+        
+        
+    /*  Media Carousel on modal */
+$("#modal-gallery").owlCarousel({
+  autoplay: false,
+  nav: true,
+  dots: true,
+  mouseDrag: false,
+  touchDrag: true,
+  items: 1,
+  animateIn: "none",
+  animateOut: "none",
+  navContainer: "#modalGalleryNav nav",
+  animateOut: 'fadeOut',
+  animateIn: 'fadeIn',
+  navText: [
+    '<svg class="icon icon-white" aria-label="prossimo elemento"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-chevron-left"></use></svg>',
+    '<svg class="icon icon-white" aria-label="elemento precedente"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-chevron-right"></use></svg>'
+  ],
+});
+
+/*  Media Carousel refresh on modal opening */
+  $('#mediaModal').on("show.bs.modal", function() {
+  $("#modal-gallery").trigger('refresh.owl.carousel');
+});
+
+/*  Set modal carousel to selected item */
+$(".img-thumbnail").on("click", function(e){
+  e.preventDefault();
+  $index= $(this).attr("data-index");
+  $("#modal-gallery").trigger('to.owl.carousel', [$index]);
+  console.log($index);
+});
+
+/*  Show/hide media Carousel details */
+$('#mediaModal').on("change.owl.carousel", function() {
+  $(".media-modal .col-thumb").removeClass('focused');
+  $(".media-modal .col-det").removeClass('focused');
+});
+
+/* Set focus on image or details of media carousel element */
+$(".media-modal .col-thumb").on("click", function(){
+	$(this).addClass('focused');
+});
+$(".media-modal .col-det").on("click", function(){
+	$(this).siblings(".col-thumb").removeClass('focused');
+});
+	/*Copy link for sharing*/
+    $('#copy-url').on("click", function(e) {
+      e.preventDefault();
+      var $temp = $("<input>");
+      $("body").append($temp);
+      $temp.val("https://cultura.gov.it/luogo/rocca-maggiore").select();
+      document.execCommand("copy");
+      $temp.remove();
+    });
+	/*Media Carousel on modal*/
+    $("#modal-gallery").owlCarousel({
+    autoplay: false,
+    nav: true,
+    dots: true,
+    mouseDrag: false,
+    touchDrag: true,
+    items: 1,
+    animateIn: "fadeIn",
+    animateOut: "fadeOut",
+    navContainer: "#modalGalleryNav nav",
+    navText: [
+      '<svg class="icon icon-secondary" aria-label="prossimo elemento"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-chevron-left"></use></svg>',
+      '<svg class="icon icon-secondary" aria-label="elemento precedente"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-chevron-right"></use></svg>'
+    ],
+    });
+    /*Media Carousel refresh on modal opening*/
+    $('#mediaModal').on("show.bs.modal", function() {
+		$("#modal-gallery").trigger('refresh.owl.carousel');
+    });
+    /*Set modal carousel to selected item*/
+    $(".img-thumbnail").on("click", function(e){
+        e.preventDefault();
+        $index= $(this).attr("data-index");
+        $("#modal-gallery").trigger('to.owl.carousel', [$index]);
+        console.log($index);
+    });
+    /*Show/hide media Carousel details*/
+    $('#mediaModal').on("change.owl.carousel", function() {
+        $(".media-modal .col-thumb").removeClass('focused');
+        $(".media-modal .col-det").removeClass('focused');
+    });
+    /* Set focus on image or details of media carousel element */
+    $(".media-modal .col-thumb").on("click", function(){
+      	$(this).addClass('focused');
+    });
+    $(".media-modal .col-det").on("click", function(){
+      	$(this).siblings(".col-thumb").removeClass('focused');
+    });
+    /* Aside secondary carousel */
+    $("#secondary").owlCarousel({
+      autoplay: false,
+      nav: true,
+      dots: false,
+      mouseDrag: false,
+      touchDrag: true,
+      items: 1,
+      navText: [
+      '<svg class="icon icon-secondary" aria-label="prossimo elemento"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-chevron-left"></use></svg>',
+      '<svg class="icon icon-secondary" aria-label="elemento precedente"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-chevron-right"></use></svg>'
+      ],
+    });
+    /*  Aside primary carousel */
+    $("#primary").owlCarousel({
+      loop: true,
+      autoplay: true,
+      nav: false,
+      dots: true,
+      mouseDrag: true,
+      touchDrag: true,
+      items: 1,
+    });
+    $('[data-toggle="popover"]').popover({
+    container: 'body'
+    });
+        var map= L.map('content-map', {
+        center: [43.0733700, 12.6152400],
+        zoom: 13,
+        });
+        var tile= L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?{foo}', {foo: 'bar', attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'}).addTo(map);
+        var marker= L.marker([43.0733700, 12.6152400]).addTo(map);
+    $('document').ready(function(){
+  $('#main-search').on('keyup', function(){
+	if($(this).val()) {
+		$('#button-addon2-wrapper').html('<button class="btn px-3 rounded-0 d-flex align-items-center" type="submit" id="button-addon2"><span class="sr-only">Invio</span><svg class="icon  icon-sm icon-primary"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-search"></use></svg></button>');
+	} else {
+		$('#button-addon2-wrapper').html('<span class="btn px-3 rounded-0 d-flex align-items-center" aria-hidden="true"><svg class="icon  icon-sm icon-secondary"><use xlink:href="https://cultura.gov.it/fe/mibact/image/sprite.svg#it-search"></use></svg></span>');
+	}
+  });
+});
+  });
+</script>
+    <a href="#editCookieSettings"><img src="https://cultura.gov.it/fe/mibact/image/Icons-settings.png" alt="Cookie Settings" /></a>
+<div id="cookiesjsr"></div>
+<script src="https://cultura.gov.it/fe/mibact/js/cookies_consent.js"></script>
+<script src="https://cultura.gov.it/js/cookiesjsr/dist/cookiesjsr.min.js"></script>
+</body>
+</html>

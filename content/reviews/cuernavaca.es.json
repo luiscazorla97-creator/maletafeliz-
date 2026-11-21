@@ -1,0 +1,60 @@
+{
+  "reviewer": "Codex root — actual bilingual editorial review",
+  "reviewedAt": "2026-11-21T17:27:02.923Z",
+  "contentHash": "56a5465c86847db91f062eda9fd740db3c78719ef37c4b1d213fcd8cc250d151",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "reviewEvidence": [
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n21/root-editorial-decision.json",
+      "sha256": "ddb47ea958f0b583e1adf32a7c4826bc2a976bd014e476808964147cf2585aab"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n21/root-source-reading.json",
+      "sha256": "c2a65ee64953c6062e92548b47861020b834d5ac649885069021acb8091fb1f0"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n21/root-manuscript-reading.json",
+      "sha256": "04e8fc64fc526238398e7e12250fb34652ac5858c2484280975d25bfcb35d6b2"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n21/root-photo-reading.json",
+      "sha256": "eb9495c71aa6be877ee241f33a3ab5f557f4bade4a8ea79e92aeaa74a9819233"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n21/root-photo-integrity.json",
+      "sha256": "f6c0050d6a2da82b46a9157fd1759a9e3074ff67c951a50e4629f3c134ee0f22"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n21/root-originality-review.json",
+      "sha256": "7367f488dc8a9d68cd14e900fe3a41a212d4367e91b9ac2a9a56bd73e14112b6"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n21/cuernavaca-independent-editorial-peer.json",
+      "sha256": "f61772c34410ac217f6b1f6b2b168cc218e4771284c2c0e542bb64f3e60c5759"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n21/assisi-independent-editorial-peer-cuernavaca.json",
+      "sha256": "bf970583557e416214cd346cf50557c9558290ed2685d10951cbcdb7d89ba864"
+    }
+  ],
+  "notes": [
+    "Root actually read all four final complete manuscripts onNov21 and the current Cuernavaca28factextracts; Assisi current unchanged48factcontexts carry the documented actualNov19rootreading plus Nov21explicitchanged/newreadings and bytechecks. Source-reading provenance is exact, not a claim of reading irrelevant entirepages.",
+    "All21 current official sources have realNov21HTTP200captures, hashes and excerpts. Four503attempts for two secondaryINAHpages are documented and not cited. Palace is exterior-only while current mainINAHshows temporaryclosure.",
+    "Root read all ten individual selected photo grants/history, four selected licence/deed types, exact title/creator/source/change/sharealike credit, bilingualALT and actually viewed both actualfivephotoscontact sheets. Inputs capturedNov19retain truthful dates; no generatedorpaidphotography.",
+    "Actual fullpixeldecode covered10archivalinputs and50distinctoptimizedfiles. Read all four230same-language catalogue comparison summaries/topfive plus internal/crossnewduplicates:noneexact. Lowdescriptivefivegramoverlaps do not prove Internetwideoriginality; prose was independently written from facts, no personalexperience/popularity/rankingclaims.",
+    "RelatedpublishedESENIDs checked inR, placements matchsourcefacts, both independentbilingualeditorialpeersfoundnoblockingissue. Public navigation/HTTPS and unchanged mandatory release/CI stillpending.",
+    "Only two neverpublishedoriginals/fourversions approvedforcompilation. No historical article/date/image/design/ad/config/frequencychange authorized. No Google indexing/rankings/revenue or unattendedschedulerattribution claimed.",
+    "Only these four never-public versions receive real initial publication/update dates. Existing published articles and dates remain unchanged.",
+    "This hash-bound selection is approved for the mandatory release gate, not a claim of public deployment or Google indexation."
+  ]
+}

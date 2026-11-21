@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <title>Sistema prenotazioni Sacro Convento Assisi</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="/utenti/assets/img/favicon.png" rel="icon">
+    <link href="/utenti/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/utenti/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/utenti/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/utenti/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/utenti/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="/utenti/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/utenti/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="/utenti/assets/css/visite.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="/utenti/assets/css/main.css" rel="stylesheet">
+
+    <!-- CSS per international telephone input (usato nel form di registrazione) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.19/build/css/intlTelInput.min.css" />
+
+    <link rel="preload" as="style" href="https://prenotazioni.sanfrancesco.org/build/assets/utenti-DnQwaRpP.css" /><link rel="modulepreload" href="https://prenotazioni.sanfrancesco.org/build/assets/admin_app-fX9B_kHm.js" /><link rel="modulepreload" href="https://prenotazioni.sanfrancesco.org/build/assets/registrazione-r0obzQ6P.js" /><link rel="modulepreload" href="https://prenotazioni.sanfrancesco.org/build/assets/validazione_base-BCYxCail.js" /><link rel="stylesheet" href="https://prenotazioni.sanfrancesco.org/build/assets/utenti-DnQwaRpP.css" /><script type="module" src="https://prenotazioni.sanfrancesco.org/build/assets/admin_app-fX9B_kHm.js"></script><script type="module" src="https://prenotazioni.sanfrancesco.org/build/assets/registrazione-r0obzQ6P.js"></script><script type="module" src="https://prenotazioni.sanfrancesco.org/build/assets/validazione_base-BCYxCail.js"></script>
+    </head>
+
+<body class="index-page">
+
+    
+    <header class="site-header" id="header">
+
+        
+        <div class="site-topbar">
+            <div class="container site-topbar__inner">
+                <div class="site-languages">
+                    <a href="https://prenotazioni.sanfrancesco.org/cambio-lingua/it"
+                       class="site-languages__link is-active"
+                       aria-label="Italiano">
+                        <img src="/utenti/assets/img/flags/it.png" alt="IT" class="site-languages__flag">
+                    </a>
+                    <a href="https://prenotazioni.sanfrancesco.org/cambio-lingua/en"
+                       class="site-languages__link "
+                       aria-label="English">
+                        <img src="/utenti/assets/img/flags/en.png" alt="EN" class="site-languages__flag">
+                    </a>
+                </div>
+                <div class="site-topbar__end">
+                                            <div class="site-social">
+                            <a href="https://www.facebook.com/sanfrancescoassisi/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/sanfrancescoassisi" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://x.com/francescoassisi" aria-label="X" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter-x"></i>
+    </a>
+    <a href="https://www.youtube.com/@BasilicaSanFrancescodAssisi" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-youtube"></i>
+    </a>
+    <a href="https://www.whatsapp.com/channel/0029VaLCPL7CnA7m60WQJe3U" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+                        </div>
+                                                        </div>
+            </div>
+        </div>
+
+        
+        <div class="site-mainbar">
+            <div class="container site-mainbar__inner">
+
+                <a href="https://prenotazioni.sanfrancesco.org" class="site-brand">
+                    <img src="/images/basilica_logo_esteso.webp" alt="Sacro Convento Assisi" class="site-brand__logo">
+                </a>
+
+                <nav class="site-primary-nav d-none d-lg-flex" aria-label="Navigazione principale">
+                    <a href="https://vita.sanfrancesco.org" target="_blank" class="site-primary-nav__link site-primary-nav__link--gold">
+                        Frate Francesco
+                    </a>
+                    <a href="https://basilica.sanfrancesco.org" target="_blank" class="site-primary-nav__link site-primary-nav__link--blue">
+                        Basilica di San Francesco
+                    </a>
+                    <a href="https://media.sanfrancesco.org" target="_blank" class="site-primary-nav__link site-primary-nav__link--rose">
+                        Media e Pubblicazioni
+                    </a>
+                </nav>
+
+                <div class="site-header-actions">
+                                            <a href="#" class="primary-btn d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#loginModal">Accedi / Registrati</a>
+                                        <button class="site-mobile-toggle d-lg-none" id="mobileMenuOpen" aria-label="Apri menu" aria-expanded="false" aria-controls="mobileMenu">
+                        <span class="site-mobile-toggle__icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="site-mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Menu principale">
+            <div class="site-mobile-menu__head">
+                <a href="https://prenotazioni.sanfrancesco.org" class="site-mobile-menu__logo">
+                    <img src="/images/basilica_logo_esteso.webp" alt="Sacro Convento Assisi" class="site-mobile-menu__logo-img">
+                </a>
+                <button class="site-mobile-menu__close" id="mobileMenuClose" aria-label="Chiudi menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <nav class="site-mobile-menu__nav" aria-label="Navigazione mobile">
+                <div class="site-mobile-menu__item">
+                    <a href="https://vita.sanfrancesco.org" target="_blank"
+                        class="site-mobile-menu__link">Frate Francesco</a>
+                </div>
+                <div class="site-mobile-menu__item">
+                    <a href="https://basilica.sanfrancesco.org" target="_blank"
+                        class="site-mobile-menu__link">Basilica di San Francesco</a>
+                </div>
+                <div class="site-mobile-menu__item">
+                    <a href="https://media.sanfrancesco.org" target="_blank"
+                        class="site-mobile-menu__link">Media e Pubblicazioni</a>
+                </div>
+            </nav>
+
+            <div class="site-mobile-menu__tools">
+                <div class="site-mobile-menu__ctas">
+                                            <a href="#" class="site-mobile-menu__cta" data-bs-toggle="modal" data-bs-target="#loginModal" id="mobileLoginBtn">Accedi / Registrati</a>
+                                    </div>
+                <div class="site-languages">
+                    <a href="https://prenotazioni.sanfrancesco.org/cambio-lingua/it"
+                       class="site-languages__link is-active"
+                       aria-label="Italiano">
+                        <img src="/utenti/assets/img/flags/it.png" alt="IT" class="site-languages__flag">
+                    </a>
+                    <a href="https://prenotazioni.sanfrancesco.org/cambio-lingua/en"
+                       class="site-languages__link "
+                       aria-label="English">
+                        <img src="/utenti/assets/img/flags/en.png" alt="EN" class="site-languages__flag">
+                    </a>
+                </div>
+            </div>
+
+                            <div class="site-mobile-menu__extra">
+                    <div class="site-mobile-menu__socials">
+                        <a href="https://www.facebook.com/sanfrancescoassisi/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/sanfrancescoassisi" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://x.com/francescoassisi" aria-label="X" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter-x"></i>
+    </a>
+    <a href="https://www.youtube.com/@BasilicaSanFrancescodAssisi" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-youtube"></i>
+    </a>
+    <a href="https://www.whatsapp.com/channel/0029VaLCPL7CnA7m60WQJe3U" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+                    </div>
+                </div>
+                    </div>
+
+    </header>
+
+    <main class="main">
+
+            <section class="site-page-hero" aria-labelledby="site-page-hero-title">
+        <div class="site-page-hero__media">
+            <img src="/images/copertina-prenotazioni.webp" alt="Prenotazioni" class="site-page-hero__image">
+        </div>
+        <div class="site-page-hero__overlay"></div>
+        <div class="container site-page-hero__container">
+            <div class="site-page-hero__content" data-aos="fade-up">
+                <h1 id="site-page-hero-title" class="site-page-hero__title">
+                    Prenotazioni
+                </h1>
+                <p class="site-page-hero__subtitle">
+                    e/o Organizza la visita
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs d-lg-none">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2>Prenotazioni</h2>
+                <ol>
+                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="bi bi-box-arrow-in-right"></i> Accedi / Registrati</a></li>
+                                    </ol>
+            </div>
+
+        </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section id="about" class="about section">
+        <div class="container">
+
+            
+                        
+            
+            <div class="row mb-5">
+                <div class="col-12 site-intro" data-aos="fade-up">
+                    <p>Benvenuto! I frati della Basilica e del Sacro Convento di San Francesco in Assisi ti invitano a gustare tutta la ricchezza artistica e spirituale di questo luogo. L&#039;ingresso per i visitatori individuali è gratuito e non è richiesto alcun biglietto. Per i gruppi (agenzie di viaggi, scuole, parrocchie,…) è necessaria la prenotazione per assicurare l&#039;ingresso senza attesa ed evitare l&#039;affollamento in Basilica.</p>
+                    <p>Utilizza i link qui sotto per prenotare la visita, per riservare una cappella per celebrare la Messa, per cantare con il proprio gruppo corale durante una Messa d&#039;orario; oppure contatta l&#039;ufficio informazioni per email <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="741d1a121b3407151a1206151a171107171b5a1b0613">[email&#160;protected]</a> o telefonando a + 39 075 8190084.</p>
+                    <p>Per prenotarsi è consigliata la registrazione che è invece obbligatoria per le Agenzie Viaggi e Guide turistiche.</p>
+                </div>
+            </div>
+
+            
+            <h2 class="prenot-heading" id="visite-basilica" data-aos="fade-up">Visite alla Basilica</h2>
+            <div class="row g-3 mb-5">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+                    <div class="prenot-card prenot-card--dark h-100">
+                        <img src="/images/church.svg" alt="" class="prenot-card__icon" aria-hidden="true">
+                        <h3 class="prenot-card__title">Richiesta visita con un frate o una suora</h3>
+                        <ul class="prenot-card__list">
+                            <li>Indicata per gruppi di pellegrini</li>
+                            <li>Gruppi da 15 a 50 persone</li>
+                            <li>Radioguide a noleggio</li>
+                        </ul>
+                        <a href="https://prenotazioni.sanfrancesco.org/visite/basilica/con-frate" class="prenot-card__link">
+                            Procedi
+                            <span class="prenot-card__arrow" aria-hidden="true">
+                                <img src="/images/arrow-right-xl.svg" alt="" class="prenot-card__arrow-icon">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="prenot-card prenot-card--dark h-100">
+                        <img src="/images/church.svg" alt="" class="prenot-card__icon" aria-hidden="true">
+                        <h3 class="prenot-card__title">Prenotazione ingresso con guida autorizzata</h3>
+                        <ul class="prenot-card__list">
+                            <li>Visita con guida turistica abilitata</li>
+                            <li>Gruppi fino a 50 persone</li>
+                            <li>Radioguide a noleggio</li>
+                        </ul>
+                        <a href="https://prenotazioni.sanfrancesco.org/visite/basilica/con-guida" class="prenot-card__link">
+                            Procedi
+                            <span class="prenot-card__arrow" aria-hidden="true">
+                                <img src="/images/arrow-right-xl.svg" alt="" class="prenot-card__arrow-icon">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="prenot-card prenot-card--dark h-100">
+                        <img src="/images/church.svg" alt="" class="prenot-card__icon" aria-hidden="true">
+                        <h3 class="prenot-card__title">Prenotazione ingresso senza guida</h3>
+                        <ul class="prenot-card__list">
+                            <li>Durata visita max 35 minuti</li>
+                            <li>Gruppi da 15 a 50 persone</li>
+                        </ul>
+                        <a href="https://prenotazioni.sanfrancesco.org/visite/basilica/senza-guida" class="prenot-card__link">
+                            Procedi
+                            <span class="prenot-card__arrow" aria-hidden="true">
+                                <img src="/images/arrow-right-xl.svg" alt="" class="prenot-card__arrow-icon">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="row g-3 mb-5">
+                <div class="col-md-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="50">
+                    <h2 class="prenot-heading">Tour con audioguida</h2>
+                    <div class="prenot-card prenot-card--light flex-grow-1">
+                        <img src="/images/headphones.svg" alt="" class="prenot-card__icon" aria-hidden="true">
+                        <h3 class="prenot-card__title">Visita la Basilica di San Francesco di Assisi con audioguida</h3>
+                        <p class="prenot-card__text">Servizio di prenotazione online per audioguide per scoprire l’arte e la spiritualità di un luogo unico al mondo.</p>
+                        <a href="https://www.sanfrancescoassisi.guide/" target="_blank" class="prenot-card__link">
+                            Procedi
+                            <span class="prenot-card__arrow" aria-hidden="true">
+                                <img src="/images/arrow-right-xl.svg" alt="" class="prenot-card__arrow-icon">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="prenot-heading">Esperienza virtuale</h2>
+                    <div class="prenot-card prenot-card--light flex-grow-1">
+                        <img src="/images/glasses.svg" alt="" class="prenot-card__icon" aria-hidden="true">
+                        <h3 class="prenot-card__title">Scopri la storia e il messaggio di San Francesco in Virtual Reality</h3>
+                        <p class="prenot-card__text">Prenota un&#039;esperienza immersiva con visore per virtual reality per conoscere la vita e il messaggio di San Francesco.</p>
+                        <a href="https://www.secretumbria.it/con-francesco-immersive-experience/" target="_blank" class="prenot-card__link">
+                            Procedi
+                            <span class="prenot-card__arrow" aria-hidden="true">
+                                <img src="/images/arrow-right-xl.svg" alt="" class="prenot-card__arrow-icon">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="row g-3 mt-5">
+                <div class="col-md-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="50">
+                    <h2 class="prenot-heading">Celebrazione liturgica</h2>
+                    <div class="prenot-card prenot-card--light flex-grow-1">
+                        <img src="/images/hands.svg" alt="" class="prenot-card__icon" aria-hidden="true">
+                        <h3 class="prenot-card__title">Prenotazione Celebrazione Liturgica</h3>
+                        <p class="prenot-card__text">Per chi desidera celebrare una Santa Messa in una delle cappelle del Sacro Convento di San Francesco di Assisi</p>
+                        <a href="https://prenotazioni.sanfrancesco.org/celebrazioni/liturgiche" class="prenot-card__link">
+                            Procedi
+                            <span class="prenot-card__arrow" aria-hidden="true">
+                                <img src="/images/arrow-right-xl.svg" alt="" class="prenot-card__arrow-icon">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="prenot-heading">Gruppi corali</h2>
+                    <div class="prenot-card prenot-card--light flex-grow-1">
+                        <img src="/images/choir.svg" alt="" class="prenot-card__icon" aria-hidden="true">
+                        <h3 class="prenot-card__title">Prenotazione Gruppi Corali</h3>
+                        <p class="prenot-card__text">Per chi desidera animare con un gruppo corale la celebrazione di una Santa Messa</p>
+                        <a href="https://prenotazioni.sanfrancesco.org/gruppi-corali" class="prenot-card__link">
+                            Procedi
+                            <span class="prenot-card__arrow" aria-hidden="true">
+                                <img src="/images/arrow-right-xl.svg" alt="" class="prenot-card__arrow-icon">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+  
+    </main>
+
+    <!-- <footer id="footer" class="footer light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Medilab</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="#">Molestiae accusamus iure</a></li>
+            <li><a href="#">Excepturi dignissimos</a></li>
+            <li><a href="#">Suscipit distinctio</a></li>
+            <li><a href="#">Dilecta</a></li>
+            <li><a href="#">Sit quas consectetur</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nobis illum</h4>
+          <ul>
+            <li><a href="#">Ipsam</a></li>
+            <li><a href="#">Laudantium dolorum</a></li>
+            <li><a href="#">Dinera</a></li>
+            <li><a href="#">Trodelas</a></li>
+            <li><a href="#">Flexo</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Set App srl</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content site-modal login-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Accedi</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Chiudi"></button>
+                </div>
+                <form action="https://prenotazioni.sanfrancesco.org/login" method="post" class="needs-validation" novalidate>
+                    <input type="hidden" name="_token" value="3lCj8W6YsuVmKqgD4xyYntvRDhGEv5Q2BeRgpS7F" autocomplete="off">                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control "
+                                id="username" name="username" required autocomplete="username" autofocus>
+                            
+                        </div>
+                        <div class="mb-3">
+                            <label for="pass" class="form-label">Password</label>
+                            <input type="password" class="form-control "
+                                id="pass" name="pass" required autocomplete="current-password">
+
+                                                    </div>
+
+                        <div class="mb-3">
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="remember" id="remember"
+                                    >
+
+                                <label class="form-check-label" for="remember">
+                                    Ricordami
+                                </label>
+                            </div>
+
+                        </div>
+
+                        <a href="https://prenotazioni.sanfrancesco.org/password-dimenticata"
+                            class="login-modal__link">Hai dimenticato la password?</a>
+
+                        
+                        <div class="login-modal__actions">
+                            <button type="submit" class="btn btn-primary">Accedi</button>
+                            <button type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal">Chiudi</button>
+                        </div>
+                    </div>
+
+                    
+                    <div class="modal-footer login-modal__register">
+                        <p class="login-modal__register-text">Non sei ancora registrato?</p>
+                        <button type="button" class="btn btn-primary"
+                            data-bs-dismiss="modal"
+                            data-bs-toggle="modal"
+                            data-bs-target="#registerModal">Registrati</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+        <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Registrazione</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-4">
+    <p class="mb-0 fw-bold">Benvenuto nell'area dedicata alla registrazione.<br>N.B. Per le Agenzie di Viaggio la registrazione è obbligatoria.</p>
+</div>
+<style>
+    /* Ensure form groups are relative so we can position the flag */
+    .form-group {
+        position: relative;
+    }
+
+    /* Make the intl container take full width and not overflow */
+    .iti {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Position the flag/prefix inside the form-group and allow clicks */
+    .iti__flag-container {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 3;
+        pointer-events: auto;
+        cursor: pointer;
+    }
+
+    /* Give space on the left of the input so the flag/prefix doesn't overlap */
+    .intl-cell-input {
+        padding-left: 64px !important;
+    }
+
+    /* Slight adjustment for selected dial code if present */
+    .iti__selected-dial-code {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    /* Make the country list scrollable and nicely padded */
+    .iti__country-list {
+        max-height: 220px;
+        overflow: auto;
+        padding: 0;
+    }
+
+    /* Reduce excessive padding inside country items */
+    .iti__country {
+        padding: 6px 10px !important;
+    }
+</style>
+<form method="POST" id="registrazioneForm" class="form" action="https://prenotazioni.sanfrancesco.org/registrazione"
+    class="form mt-4">
+    <input type="hidden" name="_token" value="3lCj8W6YsuVmKqgD4xyYntvRDhGEv5Q2BeRgpS7F" autocomplete="off">
+    <div class="row">
+        <div class="form-group col-md-3 mb-3">
+            <label for="tipoutente">Tipo Utente</label>
+            <select name="tipoutente" id="tipoutente" class="form-control" required>
+                <option value="">Scegli</option>
+                                    <option value="1" >
+                        Privato</option>
+                                    <option value="2" >
+                        Agenzia</option>
+                            </select>
+        </div>
+    </div>
+    <div class="row g-3 mb-3 dati_registrazione">
+        <div class="form-group col-md-6">
+            <label class="form-label">Nome</label>
+            <input type="text" name="nome" class="form-control "
+                value="" required>
+                    </div>
+        <div class="form-group col-md-6">
+            <label class="form-label">Cognome</label>
+            <input type="text" name="cognome" class="form-control "
+                value="" required>
+                    </div>
+        <div class="form-group col-md-4">
+            <label class="form-label">Nome Utente</label>
+            <input type="text" name="username" class="form-control "
+                value="" required>
+                    </div>
+    </div>
+    <div class="row g-3 mb-3 dati_registrazione">
+        <div class="form-group col-md-6" id="ragione_sociale_div">
+            <label class="form-label">Ragione Sociale</label>
+            <input type="text" name="ragione_sociale" id="ragione_sociale"
+                class="form-control "
+                value="" required>
+                    </div>
+        <div class="form-group col-md-6" id="piva_cf_div">
+            <label class="form-label">P.IVA/CF</label>
+            <input type="text" name="piva_cf" id="piva_cf"
+                class="form-control " value="" required>
+                    </div>
+        <div class="form-group col-md-12" id="referente_div">
+            <label class="form-label">Referente</label>
+            <input type="text" name="referente" id="referente"
+                class="form-control " value="" required>
+                    </div>
+        <div class="form-group col-md-12">
+            <label class="form-label">Indirizzo</label>
+            <input type="text" name="indirizzo" class="form-control "
+                value="" required>
+                    </div>
+        <div class="form-group col-md-4">
+            <label class="form-label">Città</label>
+            <input type="text" name="citta" class="form-control "
+                value="" required>
+                    </div>
+        <div class="form-group col-md-4">
+            <label class="form-label">CAP</label>
+            <input type="text" name="cap" class="form-control "
+                value="" required>
+                    </div>
+        <div class="form-group col-md-4">
+            <label class="form-label">Paese</label>
+            <select name="paese" id="paese" class="form-control" required>
+                <option value="">Scegli</option>
+                                    <option value="1" >Afghanistan
+                    </option>
+                                    <option value="2" >Albania
+                    </option>
+                                    <option value="3" >Algeria
+                    </option>
+                                    <option value="4" >Andorra
+                    </option>
+                                    <option value="5" >Angola
+                    </option>
+                                    <option value="6" >Anguilla
+                    </option>
+                                    <option value="7" >Antartide
+                    </option>
+                                    <option value="8" >Antigua e Barbuda
+                    </option>
+                                    <option value="9" >Arabia Saudita
+                    </option>
+                                    <option value="10" >Argentina
+                    </option>
+                                    <option value="11" >Armenia
+                    </option>
+                                    <option value="12" >Aruba
+                    </option>
+                                    <option value="13" >Australia
+                    </option>
+                                    <option value="14" >Austria
+                    </option>
+                                    <option value="15" >Azerbaigian
+                    </option>
+                                    <option value="16" >Bahamas
+                    </option>
+                                    <option value="17" >Bahrein
+                    </option>
+                                    <option value="18" >Bangladesh
+                    </option>
+                                    <option value="19" >Barbados
+                    </option>
+                                    <option value="20" >Belgio
+                    </option>
+                                    <option value="21" >Belize
+                    </option>
+                                    <option value="22" >Benin
+                    </option>
+                                    <option value="23" >Bermuda
+                    </option>
+                                    <option value="24" >Bhutan
+                    </option>
+                                    <option value="25" >Bielorussia
+                    </option>
+                                    <option value="26" >Birmania
+                    </option>
+                                    <option value="27" >Bolivia
+                    </option>
+                                    <option value="28" >Bosnia ed Erzegovina
+                    </option>
+                                    <option value="29" >Botswana
+                    </option>
+                                    <option value="30" >Brasile
+                    </option>
+                                    <option value="31" >Brunei
+                    </option>
+                                    <option value="32" >Bulgaria
+                    </option>
+                                    <option value="33" >Burkina Faso
+                    </option>
+                                    <option value="34" >Burundi
+                    </option>
+                                    <option value="35" >Cambogia
+                    </option>
+                                    <option value="36" >Camerun
+                    </option>
+                                    <option value="37" >Canada
+                    </option>
+                                    <option value="38" >Capo Verde
+                    </option>
+                                    <option value="39" >Ciad
+                    </option>
+                                    <option value="40" >Cile
+                    </option>
+                                    <option value="41" >Cina
+                    </option>
+                                    <option value="42" >Cipro
+                    </option>
+                                    <option value="43" >Citt
+                    </option>
+                                    <option value="44" >Colombia
+                    </option>
+                                    <option value="45" >Comore
+                    </option>
+                                    <option value="46" >Corea del Nord
+                    </option>
+                                    <option value="47" >Corea del Sud
+                    </option>
+                                    <option value="49" >Costa Rica
+                    </option>
+                                    <option value="50" >Croazia
+                    </option>
+                                    <option value="51" >Cuba
+                    </option>
+                                    <option value="52" >Cura
+                    </option>
+                                    <option value="53" >Danimarca
+                    </option>
+                                    <option value="54" >Dominica
+                    </option>
+                                    <option value="55" >Ecuador
+                    </option>
+                                    <option value="56" >Egitto
+                    </option>
+                                    <option value="57" >El Salvador
+                    </option>
+                                    <option value="58" >Emirati Arabi Uniti
+                    </option>
+                                    <option value="59" >Eritrea
+                    </option>
+                                    <option value="60" >Estonia
+                    </option>
+                                    <option value="61" >Etiopia
+                    </option>
+                                    <option value="62" >Figi
+                    </option>
+                                    <option value="63" >Filippine
+                    </option>
+                                    <option value="64" >Finlandia
+                    </option>
+                                    <option value="65" >Francia
+                    </option>
+                                    <option value="66" >Gabon
+                    </option>
+                                    <option value="67" >Gambia
+                    </option>
+                                    <option value="68" >Georgia
+                    </option>
+                                    <option value="69" >Georgia del Sud e isole Sandwich meridionali
+                    </option>
+                                    <option value="70" >Germania
+                    </option>
+                                    <option value="71" >Ghana
+                    </option>
+                                    <option value="72" >Giamaica
+                    </option>
+                                    <option value="73" >Giappone
+                    </option>
+                                    <option value="74" >Gibilterra
+                    </option>
+                                    <option value="75" >Gibuti
+                    </option>
+                                    <option value="76" >Giordania
+                    </option>
+                                    <option value="77" >Grecia
+                    </option>
+                                    <option value="78" >Grenada
+                    </option>
+                                    <option value="79" >Groenlandia
+                    </option>
+                                    <option value="80" >Guadalupa
+                    </option>
+                                    <option value="81" >Guam
+                    </option>
+                                    <option value="82" >Guatemala
+                    </option>
+                                    <option value="83" >Guernsey
+                    </option>
+                                    <option value="84" >Guinea
+                    </option>
+                                    <option value="85" >Guinea-Bissau
+                    </option>
+                                    <option value="86" >Guinea Equatoriale
+                    </option>
+                                    <option value="87" >Guyana
+                    </option>
+                                    <option value="88" >Guyana francese
+                    </option>
+                                    <option value="89" >Haiti
+                    </option>
+                                    <option value="90" >Honduras
+                    </option>
+                                    <option value="91" >Hong Kong
+                    </option>
+                                    <option value="92" >India
+                    </option>
+                                    <option value="93" >Indonesia
+                    </option>
+                                    <option value="94" >Iran
+                    </option>
+                                    <option value="95" >Iraq
+                    </option>
+                                    <option value="96" >Irlanda
+                    </option>
+                                    <option value="97" >Islanda
+                    </option>
+                                    <option value="98" >Isola Bouvet
+                    </option>
+                                    <option value="99" >Isola di Man
+                    </option>
+                                    <option value="100" >Isola di Natale
+                    </option>
+                                    <option value="101" >Isola Norfolk
+                    </option>
+                                    <option value="102" >Isole 
+                    </option>
+                                    <option value="103" >Isole BES
+                    </option>
+                                    <option value="104" >Isole Cayman
+                    </option>
+                                    <option value="105" >Isole Cocos (Keeling)
+                    </option>
+                                    <option value="106" >Isole Cook
+                    </option>
+                                    <option value="107" >F
+                    </option>
+                                    <option value="108" >Isole Falkland
+                    </option>
+                                    <option value="109" >Isole Heard e McDonald
+                    </option>
+                                    <option value="110" >Isole Marianne Settentrionali
+                    </option>
+                                    <option value="111" >Isole Marshall
+                    </option>
+                                    <option value="112" >Isole minori esterne degli Stati Uniti
+                    </option>
+                                    <option value="113" >Isole Pitcairn
+                    </option>
+                                    <option value="114" >Isole Salomone
+                    </option>
+                                    <option value="115" >Isole Vergini britanniche
+                    </option>
+                                    <option value="116" >Isole Vergini americane
+                    </option>
+                                    <option value="117" >Israele
+                    </option>
+                                    <option value="118" >Italia
+                    </option>
+                                    <option value="119" >Jersey
+                    </option>
+                                    <option value="120" >Kazakistan
+                    </option>
+                                    <option value="121" >Kenya
+                    </option>
+                                    <option value="122" >Kirghizistan
+                    </option>
+                                    <option value="123" >Kiribati
+                    </option>
+                                    <option value="124" >Kuwait
+                    </option>
+                                    <option value="125" >Laos
+                    </option>
+                                    <option value="126" >Lesotho
+                    </option>
+                                    <option value="127" >Lettonia
+                    </option>
+                                    <option value="128" >Libano
+                    </option>
+                                    <option value="129" >Liberia
+                    </option>
+                                    <option value="130" >Libia
+                    </option>
+                                    <option value="131" >Liechtenstein
+                    </option>
+                                    <option value="132" >Lituania
+                    </option>
+                                    <option value="133" >Lussemburgo
+                    </option>
+                                    <option value="134" >Macao
+                    </option>
+                                    <option value="135" >Macedonia
+                    </option>
+                                    <option value="136" >Madagascar
+                    </option>
+                                    <option value="137" >Malawi
+                    </option>
+                                    <option value="138" >Malesia
+                    </option>
+                                    <option value="139" >Maldive
+                    </option>
+                                    <option value="140" >Mali
+                    </option>
+                                    <option value="141" >Malta
+                    </option>
+                                    <option value="142" >Marocco
+                    </option>
+                                    <option value="143" >Martinica
+                    </option>
+                                    <option value="144" >Mauritania
+                    </option>
+                                    <option value="145" >Mauritius
+                    </option>
+                                    <option value="146" >Mayotte
+                    </option>
+                                    <option value="147" >Messico
+                    </option>
+                                    <option value="148" >Micronesia
+                    </option>
+                                    <option value="149" >Moldavia
+                    </option>
+                                    <option value="150" >Mongolia
+                    </option>
+                                    <option value="151" >Montenegro
+                    </option>
+                                    <option value="152" >Montserrat
+                    </option>
+                                    <option value="153" >Mozambico
+                    </option>
+                                    <option value="154" >Namibia
+                    </option>
+                                    <option value="155" >Nauru
+                    </option>
+                                    <option value="156" >Nepal
+                    </option>
+                                    <option value="157" >Nicaragua
+                    </option>
+                                    <option value="158" >Niger
+                    </option>
+                                    <option value="159" >Nigeria
+                    </option>
+                                    <option value="160" >Niue
+                    </option>
+                                    <option value="161" >Norvegia
+                    </option>
+                                    <option value="162" >Nuova Caledonia
+                    </option>
+                                    <option value="163" >Nuova Zelanda
+                    </option>
+                                    <option value="164" >Oman
+                    </option>
+                                    <option value="165" >Paesi Bassi
+                    </option>
+                                    <option value="166" >Pakistan
+                    </option>
+                                    <option value="167" >Palau
+                    </option>
+                                    <option value="168" >Palestina
+                    </option>
+                                    <option value="169" >Panam
+                    </option>
+                                    <option value="48" >Costa d&#039;Avorio
+                    </option>
+                                    <option value="170" >Papua Nuova Guinea
+                    </option>
+                                    <option value="171" >Paraguay
+                    </option>
+                                    <option value="172" >Per
+                    </option>
+                                    <option value="173" >Polinesia Francese
+                    </option>
+                                    <option value="174" >Polonia
+                    </option>
+                                    <option value="175" >Porto Rico
+                    </option>
+                                    <option value="176" >Portogallo
+                    </option>
+                                    <option value="177" >Monaco
+                    </option>
+                                    <option value="178" >Qatar
+                    </option>
+                                    <option value="179" >Regno Unito
+                    </option>
+                                    <option value="180" >RD del Congo
+                    </option>
+                                    <option value="181" >Rep. Ceca
+                    </option>
+                                    <option value="182" >Rep. Centrafricana
+                    </option>
+                                    <option value="183" >Rep. del Congo
+                    </option>
+                                    <option value="184" >Rep. Dominicana
+                    </option>
+                                    <option value="185" >Riunione
+                    </option>
+                                    <option value="186" >Romania
+                    </option>
+                                    <option value="187" >Ruanda
+                    </option>
+                                    <option value="188" >Russia
+                    </option>
+                                    <option value="189" >Sahara Occidentale
+                    </option>
+                                    <option value="190" >Saint Kitts e Nevis
+                    </option>
+                                    <option value="191" >Santa Lucia
+                    </option>
+                                    <option value="193" >Saint Vincent e Grenadine
+                    </option>
+                                    <option value="194" >Saint-Barth
+                    </option>
+                                    <option value="195" >Saint-Martin
+                    </option>
+                                    <option value="196" >Saint-Pierre e Miquelon
+                    </option>
+                                    <option value="197" >Samoa
+                    </option>
+                                    <option value="198" >Samoa Americane
+                    </option>
+                                    <option value="199" >San Marino
+                    </option>
+                                    <option value="200" >S
+                    </option>
+                                    <option value="201" >Senegal
+                    </option>
+                                    <option value="202" >Serbia
+                    </option>
+                                    <option value="203" >Seychelles
+                    </option>
+                                    <option value="204" >Sierra Leone
+                    </option>
+                                    <option value="205" >Singapore
+                    </option>
+                                    <option value="206" >Sint Maarten
+                    </option>
+                                    <option value="207" >Siria
+                    </option>
+                                    <option value="208" >Slovacchia
+                    </option>
+                                    <option value="209" >Slovenia
+                    </option>
+                                    <option value="210" >Somalia
+                    </option>
+                                    <option value="211" >Spagna
+                    </option>
+                                    <option value="212" >Sri Lanka
+                    </option>
+                                    <option value="213" >Stati Uniti
+                    </option>
+                                    <option value="214" >Sudafrica
+                    </option>
+                                    <option value="215" >Sudan
+                    </option>
+                                    <option value="216" >Sudan del Sud
+                    </option>
+                                    <option value="217" >Suriname
+                    </option>
+                                    <option value="218" >Svalbard e Jan Mayen
+                    </option>
+                                    <option value="219" >Svezia
+                    </option>
+                                    <option value="220" >Svizzera
+                    </option>
+                                    <option value="221" >Swaziland
+                    </option>
+                                    <option value="222" >Taiwan
+                    </option>
+                                    <option value="223" >Tagikistan
+                    </option>
+                                    <option value="224" >Tanzania
+                    </option>
+                                    <option value="225" >Terre australi e antartiche francesi
+                    </option>
+                                    <option value="227" >Thailandia
+                    </option>
+                                    <option value="228" >Timor Est
+                    </option>
+                                    <option value="229" >Togo
+                    </option>
+                                    <option value="230" >Tokelau
+                    </option>
+                                    <option value="231" >Tonga
+                    </option>
+                                    <option value="232" >Trinidad e Tobago
+                    </option>
+                                    <option value="233" >Tunisia
+                    </option>
+                                    <option value="234" >Turchia
+                    </option>
+                                    <option value="235" >Turkmenistan
+                    </option>
+                                    <option value="236" >Turks e Caicos
+                    </option>
+                                    <option value="237" >Tuvalu
+                    </option>
+                                    <option value="238" >Ucraina
+                    </option>
+                                    <option value="239" >Uganda
+                    </option>
+                                    <option value="240" >Ungheria
+                    </option>
+                                    <option value="241" >Uruguay
+                    </option>
+                                    <option value="242" >Uzbekistan
+                    </option>
+                                    <option value="243" >Vanuatu
+                    </option>
+                                    <option value="244" >Venezuela
+                    </option>
+                                    <option value="245" >Vietnam
+                    </option>
+                                    <option value="246" >Wallis e Futuna
+                    </option>
+                                    <option value="247" >Yemen
+                    </option>
+                                    <option value="248" >Zambia
+                    </option>
+                                    <option value="249" >Zimbabwe
+                    </option>
+                                    <option value="192" >Sant&#039;Elena, Ascensione e Tristan da Cunha
+                    </option>
+                                    <option value="226" >Territorio britannico dell&#039;oceano Indiano
+                    </option>
+                            </select>
+                    </div>
+        <div class="form-group col-md-4">
+            <label class="form-label">Email</label>
+            <input type="email" name="email" class="form-control "
+                value="" required>
+                    </div>
+        <div class="form-group col-md-4">
+            <label class="form-label">Telefono</label>
+            <input type="text" name="telefono" class="form-control "
+                value="">
+                    </div>
+        <div class="form-group col-md-4">
+            <label class="form-label">Cellulare</label>
+            <input type="tel" id="cellulare" name="cellulare"
+                class="form-control intl-cell-input "
+                value="+39" required>
+
+                    </div>
+        <div class="form-check">
+            <input type="checkbox" name="trattamento_dati"
+                class="form-check-input " id="trattamento_dati"
+                 required>
+            <label class="form-check-label" for="trattamento_dati">
+                Consenso Privacy
+            </label>
+                    </div>
+        <div class="form-check">
+            <input type="checkbox" name="accettazione_scopi_commerciali"
+                class="form-check-input "
+                id="accettazione_scopi_commerciali"  value="1">
+            <label class="form-check-label" for="accettazione_scopi_commerciali">
+                Consenso Scopi Commerciali
+            </label>
+                    </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Registrati</button>
+        </div>
+    </div>
+</form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top" aria-label="Torna all&#039;inizio della pagina">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30.683" height="20.209" viewBox="0 0 30.683 20.209"
+            class="scroll-top__icon" aria-hidden="true" focusable="false">
+            <path id="Tracciato_3309" data-name="Tracciato 3309"
+                d="M-6.907,0,1.2,8.084H-22v4.042H1.2l-8.108,8.084h5.514L8.683,10.1-1.392,0Z"
+                transform="translate(22 0)"></path>
+        </svg>
+    </a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/utenti/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/utenti/assets/vendor/aos/aos.js"></script>
+    <script src="/utenti/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/utenti/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="/utenti/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <!-- DataTables JS (dopo jQuery) -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+    
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/localization/messages_it.min.js"></script>
+    
+    <!-- Main JS File -->
+    <script src="/utenti/assets/js/main.js"></script>
+
+    <!-- Mobile menu JS -->
+    <script>
+    (function () {
+        var openBtn  = document.getElementById('mobileMenuOpen');
+        var closeBtn = document.getElementById('mobileMenuClose');
+        var menu     = document.getElementById('mobileMenu');
+        var body     = document.body;
+
+        if (!openBtn || !menu) return;
+
+        function openMenu() {
+            menu.classList.add('is-open');
+            body.classList.add('has-mobile-menu-open');
+            openBtn.setAttribute('aria-expanded', 'true');
+            closeBtn && closeBtn.focus();
+        }
+
+        function closeMenu() {
+            menu.classList.remove('is-open');
+            body.classList.remove('has-mobile-menu-open');
+            openBtn.setAttribute('aria-expanded', 'false');
+            openBtn.focus();
+        }
+
+        openBtn.addEventListener('click', openMenu);
+        if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+
+        /* Close on Escape key */
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && menu.classList.contains('is-open')) closeMenu();
+        });
+
+        /* Close when login modal opens from inside the mobile menu */
+        var mobileLoginBtn = document.getElementById('mobileLoginBtn');
+        if (mobileLoginBtn) {
+            mobileLoginBtn.addEventListener('click', function () {
+                closeMenu();
+            });
+        }
+    })();
+    </script>
+
+    <!-- Script per international telephone input e validazione registrazione -->
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.19/build/js/intlTelInput.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.19/build/js/utils.js"></script>
+    </body>
+
+</html>

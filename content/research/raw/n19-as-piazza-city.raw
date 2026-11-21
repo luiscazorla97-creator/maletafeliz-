@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head id="header">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Piazza del Comune di Assisi">
+                <meta property="og:url" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+                <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="">
+        <title>Città di Assisi - Piazza del Comune</title>
+        <link rel="stylesheet" href="https://www.comune.assisi.pg.it/assets/bootstrap-italia/css/bootstrap-italia.min.css" />
+        <link rel="stylesheet" href="https://www.comune.assisi.pg.it/assets/css/color.css">
+        <link rel="stylesheet" href="https://www.comune.assisi.pg.it/assets/css/main.css">
+        <link rel="stylesheet" href="https://www.comune.assisi.pg.it/assets/css/credits.css">
+        <link rel="stylesheet" href="https://www.comune.assisi.pg.it/assets/css/font.css">
+    </head>
+    <body onload="modificaLoginCookie(); linkFooter(); checkCookie();"> 
+        <header id="headd" class="header it-header-wrapper it-header-sticky" data-bs-target="&num;header-nav-wrapper" data-bs-toggle="sticky" data-bs-position-type="fixed" data-bs-sticky-class-name="is-sticky" style="top: 0px;">
+        </header>
+        <script src="https://www.comune.assisi.pg.it/header.html"></script>
+    <div class="skiplink">
+        <a class="visually-hidden-focusable" href="&num;main-container">Vai ai contenuti</a>
+        <a class="visually-hidden-focusable" href="&num;footer">Vai al footer</a>
+    </div>
+        <!--INIZIO TAG SOMMARIO
+            titolo: Piazza del Comune
+            sottotitolo: Piazza del Comune di Assisi
+            data_inizio_pubb: 01-09-2025
+            data_fine_pubb: 
+            tipo: Piazza
+            Immagine: Palazzo-del-capitano-del-popolo-Visit-Assisi-portale-turistico-della-citta-di-Assisi.jpg 
+            categoria: Luogo per lo sport e il tempo libero
+            FINE TAG SOMMARIO--> 
+    <main class="main">
+        <div class="container" id="main-container">
+                                <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                        <div class="cmp-breadcrumbs" role="navigation">
+                            <nav class="breadcrumb-container">
+                                <ol class="breadcrumb p-0" data-element="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="https://www.comune.assisi.pg.it/homepage.html">Home</a><span class="separator">/</span></li>
+                                    <li class="breadcrumb-item"><a href="https://www.comune.assisi.pg.it/EG0/EGSCHTST39.HBL?en=e1117&MESSA=PUBBLICA">Vivere il comune</a><span class="separator">/</span></li>								
+                                    <li class="breadcrumb-item"><a href="https://www.comune.assisi.pg.it/EG0/EGSCHTST40.HBL?en=e1117&MESSA=PUBBLICA">Luoghi</a></li>
+                                    <li class="breadcrumb-item"><a href="https://www.comune.assisi.pg.it/EG0/EGSCHTST37.HBL?en=e1117&MESSA=PUBBLICA&SRL=81"><span class="separator">/</span>Piazza</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page"><span class="separator">/</span>Piazza del Comune</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                        <div class="cmp-heading pb-3 pb-lg-4">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h1 class="title-xxxlarge" data-element="service-title" id="titolo_social">Piazza del Comune</h1>
+                                    <div class="u-grey-light h4"></div>
+                                    <p class="subtitle-small mb-3" id="descrizione_social">Piazza del Comune di Assisi</p>                                    
+                                </div>
+                                <div class="col-lg-3 offset-lg-1 mt-5 mt-lg-0">
+                                    <div class="dropdown d-inline-block">
+                                        <button aria-label="condividi sui social" class="btn btn-dropdown dropdown-toggle d-inline-flex align-items-center fs-0 shadow-none"
+                                            type="button" id="shareActions" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <svg class="icon icon-secondary" aria-hidden="true" aria-label="Condividi sui social">
+                                                <use xlink:href="https://www.comune.assisi.pg.it/assets/bootstrap-italia/svg/sprites.svg&num;it-share"></use>
+                                            </svg>
+                                            <small>Condividi</small>
+                                        </button>
+                                        <div class="dropdown-menu shadow-lg" aria-labelledby="shareActions">
+                                            <div class="link-list-wrapper">
+                                                <ul class="link-list" role="menu">
+                                                    <li role="none">
+                                                        <a class="list-item text-decoration-none" href="&num;" role="menuitem" id="condividi_fb" target="_blank">
+                                                            <svg class="icon" aria-hidden="true" aria-label="Condividi su Facebook">
+                                                                <use xlink:href="https://www.comune.assisi.pg.it/assets/bootstrap-italia/svg/sprites.svg&num;it-facebook"></use>
+                                                            </svg>
+                                                            <span>Facebook</span>
+                                                        </a>
+                                                    </li>
+                                                    <li role="none">
+                                                        <a class="list-item text-decoration-none" href="&num;" role="menuitem" id="condividi_tw" target="_blank">
+                                                            <svg class="icon" aria-hidden="true" aria-label="Condividi su Twitter">
+                                                                <use xlink:href="https://www.comune.assisi.pg.it/assets/bootstrap-italia/svg/sprites.svg&num;it-twitter"></use>
+                                                            </svg>
+                                                            <span>Twitter</span>
+                                                        </a>
+                                                    </li>
+                                                    <li role="none">
+                                                        <a class="list-item text-decoration-none" href="&num;" role="menuitem" id="condividi_li" target="_blank">
+                                                            <svg class="icon" aria-hidden="true" aria-label="Condividi su Linkedin">
+                                                                <use xlink:href="https://www.comune.assisi.pg.it/assets/bootstrap-italia/svg/sprites.svg&num;it-linkedin"></use>
+                                                            </svg>
+                                                            <span>Linkedin</span>
+                                                        </a>
+                                                    </li>
+                                                    <li role="none">
+                                                        <a class="list-item text-decoration-none" href="&num;" role="menuitem" id="condividi_wa" target="_blank">
+                                                            <svg class="icon" aria-hidden="true" aria-label="Condividi su Whatsapp">
+                                                                <use xlink:href="https://www.comune.assisi.pg.it/assets/bootstrap-italia/svg/sprites.svg&num;it-whatsapp"></use>
+                                                            </svg>
+                                                            <span>Whatsapp</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-column-menu-left pb-4 pb-lg-80">
+                <div class="col-12 col-lg-3 mb-4 border-col">
+                    <div class="cmp-navscroll sticky-top" aria-labelledby="accordion-title-one">
+                        <nav class="navbar it-navscroll-wrapper navbar-expand-lg" data-bs-navscroll="">
+                            <div class="navbar-custom" id="navbarNavProgress">
+                                <div class="menu-wrapper">
+                                    <div class="link-list-wrapper">
+                                        <div class="accordion">
+                                            <div class="accordion-item">
+                                                <span class="accordion-header" id="accordion-title-one">
+                                                    <button class="accordion-button pb-10 px-3" type="button" data-bs-toggle="collapse" data-bs-target="&num;collapse-one" aria-expanded="true" aria-controls="collapse-one">
+                                                        INDICE DELLA PAGINA
+                                                        <svg class="icon icon-xs right" aria-label="Espandi l'indice">
+                                                            <use href="@K!17!dominio@/assets/bootstrap-italia/svg/sprites.svg&num;it-expand"></use>
+                                                        </svg>
+                                                    </button>
+                                                </span>
+                                                <div class="progress">
+                                                    <div class="progress-bar it-navscroll-progressbar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                                    </div>
+                                                </div>
+                                                <div id="collapse-one" class="accordion-collapse collapse show" role="region" aria-labelledby="accordion-title-one">
+                                                    <div class="accordion-body">
+                                                        <ul class="link-list" data-element="page-index">
+                                                            <li class="nav-item">
+                                                                <span class="title-medium">
+                                                                    <a class="nav-link active text-decoration-none t-primary" href="&num;description">
+                                                                        Descrizione
+                                                                    </a>
+                                                                </span>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <span class="title-medium">
+                                                                    <a class="nav-link text-decoration-none t-primary" href="&num;indirizzo">
+                                                                        Come arrivare
+                                                                    </a>
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 offset-lg-1">
+                    <div class="it-page-sections-container">
+                        <section class="it-page-section mb-30" id="description">
+                            <h2 class="title-xxlarge pt-5 mb-3">Descrizione</h2>
+                            <div class="richtext-wrapper"><p>La Piazza del Comune di Assisi rappresenta da oltre duemila anni il cuore politico, sociale e culturale della citt&#224;. &#200; uno spazio armonioso e monumentale dove epoche diverse convivono in modo straordinario.</p><p>L'elemento pi&#249; iconico &#232; senza dubbio il Tempio di Minerva, un tempio romano del I secolo a.C. perfettamente conservato, con la sua imponente facciata a sei colonne corinzie.</p><p>Accanto al tempio svettano le due torri medievali: la Torre del Popolo (XIII secolo) e, poco pi&#249; in l&#224;, la torre civica. Ai loro piedi si trovano i palazzi del potere medievale: il Palazzo del Capitano del Popolo e il Palazzo dei Priori, che oggi ospita la sede del Comune.</p><p>Al centro della piazza si trova una fontana settecentesca con tre leoni, un punto di ritrovo per cittadini e turisti. La piazza &#232; da sempre il centro della vita assisana, un vero e proprio "salotto" a cielo aperto, circondato da caff&#232;, negozi e ristoranti, che ne fanno un luogo vibrante e ricco di storia.</p></div>
+                        </section>
+                        <section class="it-page-section mb-30 mt-5" id="indirizzo">
+                            <h2 class="title-xxlarge pt-5 mb-3">Come arrivare</h2>
+                            <div class="card card-teaser rounded shadow mb-4">
+                                <div class="card-body">                            
+                                    <h3 class="card-title h5 mb-0">
+                                        <svg class="icon" aria-hidden="true" aria-label="Indirizzo">
+                                            <use xlink:href="https://www.comune.assisi.pg.it/assets/bootstrap-italia/svg/sprites.svg&num;it-map-marker-circle"></use>
+                                        </svg>
+                                        Piazza del Comune, Assisi 
+                                    </h3>
+                                </div>
+                            </div>
+                            <div id="mappa" class="neutral-1-bg-a2 h-100">
+                                <p class="p-3">&Egrave; necessario accettare i cookie di terze parti per visualizzare la mappa. <a href="https://www.comune.assisi.pg.it/informativa.html">Vai all'Informativa</a></p>
+                            </div>
+                        
+                        <div class="mt-3 richtext-wrapper"><p>&nbsp;</p></div>
+                        </section>
+                        <section class="it-page-section" id="">
+                            <div class="row pt-4 pb-4">
+                                <p class="text-paragraph-small mb-0"><strong>Ultimo aggiornamento:</strong> 14-10-2026</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="bg-primary">
+        <div class="container">
+            <div class="row d-flex justify-content-center bg-primary">
+                <div class="col-12 col-lg-6">
+                    <div class="cmp-rating pt-lg-80 pb-lg-80" id="valutazioneId" data-id="6081">
+                        <div class="card shadow card-wrapper" data-element="feedback">                        
+                            <div class="cmp-rating__card-first">
+                                <div class="card-header border-0">
+                                    <h2 class="title-medium-2-semi-bold mb-0" data-element="feedback-title">
+                                        Quanto sono chiare le informazioni su questa pagina?
+                                    </h2>
+                                </div>
+                                <div class="card-body">
+                                    <fieldset class="rating">
+                                        <legend class="visually-hidden">
+                                            Valuta da 1 a 5 stelle la pagina
+                                        </legend>
+                                        <input type="radio" id="star5a" name="ratingA" value="5" onclick="leggiStella(this)"/>
+                                        <label class="full rating-star active" for="star5a" data-element="feedback-rate-5">
+                                            <svg class="icon icon-sm" role="img" aria-labelledby="first-star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                            </svg>
+                                            <span class="visually-hidden" id="first-star">
+                                                Valuta 5 stelle su 5
+                                            </span>
+                                        </label>
+                                        <input type="radio" id="star4a" name="ratingA" value="4" onclick="leggiStella(this)"/>
+                                        <label class="full rating-star active" for="star4a" data-element="feedback-rate-4">
+                                            <svg class="icon icon-sm" role="img" aria-labelledby="second-star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                            </svg>
+                                            <span class="visually-hidden" id="second-star">
+                                                Valuta 4 stelle su 5
+                                            </span>
+                                        </label>
+                                        <input type="radio" id="star3a" name="ratingA" value="3" onclick="leggiStella(this)"/>
+                                        <label class="full rating-star active" for="star3a" data-element="feedback-rate-3">
+                                            <svg class="icon icon-sm" role="img" aria-labelledby="third-star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                            </svg>
+                                            <span class="visually-hidden" id="third-star">
+                                                Valuta 3 stelle su 5
+                                            </span>
+                                        </label>
+                                        <input type="radio" id="star2a" name="ratingA" value="2" onclick="leggiStella(this)"/>
+                                        <label class="full rating-star active" for="star2a" data-element="feedback-rate-2">
+                                            <svg class="icon icon-sm" role="img" aria-labelledby="fourth-star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                            </svg>
+                                            <span class="visually-hidden" id="fourth-star">
+                                                Valuta 2 stelle su 5
+                                            </span>
+                                        </label>
+                                        <input type="radio" id="star1a" name="ratingA" value="1" onclick="leggiStella(this)"/>
+                                        <label class="full rating-star active" for="star1a" data-element="feedback-rate-1">
+                                            <svg class="icon icon-sm" role="img" aria-labelledby="fifth-star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 1.7L9.5 9.2H1.6L8 13.9l-2.4 7.6 6.4-4.7 6.4 4.7-2.4-7.6 6.4-4.7h-7.9L12 1.7z"></path>
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                            </svg>
+                                            <span class="visually-hidden" id="fifth-star">
+                                                Valuta 1 stelle su 5
+                                            </span>
+                                        </label>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="cmp-rating__card-second d-none" data-step="3">
+                                <div class="card-header border-0 mb-0">
+                                    <h2 class="title-medium-2-bold mb-0" id="rating-feedback">
+                                        Grazie, il tuo parere ci aiuter&agrave; a migliorare il servizio!
+                                    </h2>
+                                </div>
+                            </div>
+                            <form id="myForm">
+                                <div class="form-rating d-none">
+                                    <div class="d-none" data-step="1">
+                                        <div class="cmp-steps-rating">
+                                            <fieldset class="fieldset-rating-one d-none" data-element="feedback-rating-positive">
+                                                <div class="cmp-steps-rating__body">
+                                                    <div class="cmp-radio-list">
+                                                        <div class="card card-teaser shadow-rating">
+                                                            <div class="card-body">
+                                                                <div class="form-check m-0">
+                                                                    <div class="iscrizioni-header w-100">
+                                                                        <h3 class="step-title d-flex align-items-center justify-content-between drop-shadow">
+                                                                            <legend class="d-block d-lg-inline" data-element="feedback-rating-question">
+                                                                                Quali sono stati gli aspetti che hai preferito?
+                                                                            </legend>
+                                                                            <span class="step">1/2</span>
+                                                                        </h3>
+                                                                    </div>
+                                                                        <div class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                                        <input name="rating1" type="radio" id="radio-1" value="5">
+                                                                        <label for="radio-1" class="active" data-element="feedback-rating-answer">
+                                                                            Le indicazioni erano chiare
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                                        <input name="rating1" type="radio" id="radio-2" value="6">
+                                                                        <label for="radio-2" class="active" data-element="feedback-rating-answer">
+                                                                            Le indicazioni erano complete
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                                        <input name="rating1" type="radio" id="radio-3" value="7">
+                                                                        <label for="radio-3" class="active" data-element="feedback-rating-answer">
+                                                                            Capivo sempre che stavo procedendo correttamente
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                                        <input name="rating1" type="radio" id="radio-4" value="8">
+                                                                        <label for="radio-4" class="active" data-element="feedback-rating-answer">
+                                                                            Non ho avuto problemi tecnici
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                                        <input name="rating1" type="radio" id="radio-9" value="9">
+                                                                        <label for="radio-9" class="active" data-element="feedback-rating-answer">Altro</label>
+                                                                      </div>
+                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                            <fieldset class="fieldset-rating-two d-none" data-element="feedback-rating-negative">
+                                                <div class="cmp-steps-rating__body">
+                                                    <div class="cmp-radio-list">
+                                                        <div class="card card-teaser shadow-rating">
+                                                            <div class="card-body">
+                                                                <div class="form-check m-0">      
+                                                                    <div class="iscrizioni-header w-100">                                                          
+                                                                        <h3 class="step-title d-flex align-items-center justify-content-between drop-shadow">
+                                                                            <legend class="d-block d-lg-inline" data-element="feedback-rating-question">
+                                                                                Dove hai incontrato le maggiori difficolt&agrave;?
+                                                                            </legend>                                                                      
+                                                                            <span class="step">1/2</span>
+                                                                        </h3>
+                                                                    </div>
+                                                                  <div class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                                        <input name="rating2" type="radio" id="radio-5" value="1">
+                                                                        <label for="radio-5" class="active" data-element="feedback-rating-answer">
+                                                                            A volte le indicazioni non erano chiare
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                                        <input name="rating2" type="radio" id="radio-6" value="2">
+                                                                        <label for="radio-6" class="active" data-element="feedback-rating-answer">
+                                                                            A volte le indicazioni non erano complete
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                                        <input name="rating2" type="radio" id="radio-7" value="3">
+                                                                        <label for="radio-7" class="active" data-element="feedback-rating-answer">
+                                                                            A volte non capivo se stavo procedendo correttamente
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                                        <input name="rating2" type="radio" id="radio-8" value="4">
+                                                                        <label for="radio-8" class="active" data-element="feedback-rating-answer">
+                                                                            Ho avuto problemi tecnici
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="radio-body border-bottom border-light cmp-radio-list__item">
+                                                                        <input name="rating2" type="radio" id="radio-10" value="9">
+                                                                        <label for="radio-10" class="active" data-element="feedback-rating-answer">Altro</label>
+                                                                      </div>
+                                                                     </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                    <div class="d-none" data-step="2">
+                                        <div class="cmp-steps-rating">
+                                            <fieldset>
+                                                <div class="iscrizioni-header w-100">
+                                                    <h3 class="step-title d-flex align-items-center justify-content-between drop-shadow mb-3">
+                                                        <legend class="d-block d-lg-inline">
+                                                            Vuoi aggiungere altri dettagli?
+                                                        </legend>
+                                                        <span class="step">2/2</span>
+                                                    </h3>
+                                                </div>
+                                                <div class="cmp-steps-rating__body">
+                                                    <div class="form-group">
+                                                        <label for="formGroupExampleInputWithHelp" class="">
+                                                            Dettaglio
+                                                        </label>
+                                                        <input type="text" class="form-control" id="formGroupExampleInputWithHelp" aria-describedby="formGroupExampleInputWithHelpDescription" maxlength="140" data-element="feedback-input-text" autocomplete="dettagli-valutazione">
+                                                        <small id="formGroupExampleInputWithHelpDescription" class="form-text">
+                                                            Inserire massimo 140 caratteri
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-nowrap pt-4 w-100 justify-content-center button-shadow">
+                                        <button onclick="bottone('en=e1117&MESSA=VALUTAZIONE&SRL=6081')" class="btn btn-primary fw-bold btn-next" type="submit" id="invia" form="rating" data-passo="0">
+                                            Avanti
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div id="contatta_comune"></div>
+    <script src="https://www.comune.assisi.pg.it/contatta_inclusione.html"></script>
+<script>
+    let iframe = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.5936558245394!2d12.612094476797399!3d43.07101307113569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132c2756853d2d11%3A0x5808ef7090432b0f!2sComune%20di%20Assisi!5e0!3m2!1sit!2sit!4v1739880677108!5m2!1sit!2sit" width="850" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+</script>
+    <div id="footer1"></div>
+    <script src="https://www.comune.assisi.pg.it/schiocciola.js"></script>
+    <script src="https://www.comune.assisi.pg.it/footer.html"></script>
+    <script src="https://www.comune.assisi.pg.it/Footer_js.js"></script>
+    <script src="https://www.comune.assisi.pg.it/linkfooter.js"></script>
+    <script>
+        function checkCookie() {
+            let cookieConsent = leggiCookie('cookies_consent');
+            let refCookies = leggiCookie('ref_cookies');
+
+            if (!refCookies && cookieConsent) {
+                let divMappa = document.getElementById('mappa');
+                divMappa.innerHTML = iframe;
+                divMappa.querySelector('iframe').setAttribute('width','100%');
+            }
+        }
+
+        var passo = 0;
+        function bottone(valmessa) {
+            passo++;
+            if (passo ==2) {
+                inviaValutazione(valmessa);
+            }
+        }
+        
+        let stella;
+        function leggiStella(star) {
+                stella = star.value;
+            }
+        
+        function inviaValutazione(valmessa) {  
+            let valpos = document.forms.myForm.rating1.value;
+            let valneg = document.forms.myForm.rating2.value;
+            let dettaglio = document.getElementById('formGroupExampleInputWithHelp').value;
+            var valmessa= valmessa += "&VALPOS=" + valpos + "&VALNEG=" + valneg + "&STAR=" + stella + "&DETT=" + dettaglio ; 
+            SCHIOCCIOLA(valmessa,'EG0/EGVALPG.HBL');
+        }
+
+        
+    const url = encodeURIComponent(window.location.href);
+    let titolo_social = document.getElementById('titolo_social').innerHTML;
+    let descrizione_social = document.getElementById('descrizione_social').innerHTML;
+    let immagine_social = document.getElementById('immagine_social').src;
+    
+    let urlfb = document.querySelector('meta[property="og:url"]');
+    let titlefb = document.querySelector('meta[property="og:title"]');
+    let descriptionfb = document.querySelector('meta[property="og:description"]');
+    let imagefb = document.querySelector('meta[property="og:image"]');  
+    
+    const twitterOG = document.querySelectorAll('meta[name^="twitter:"]');
+    
+    urlfb.content = url;
+    titlefb.content = titolo_social;
+    descriptionfb.content = descrizione_social;
+    imagefb.content = immagine_social;
+    
+    twitterOG.forEach(meta => {
+        let metaTW = meta.getAttribute('name');
+        switch(metaTW) {
+            case 'twitter:title': 
+                meta.content = titolo_social;
+                break;
+            case 'twitter:description': 
+                meta.content = descrizione_social;
+                break;
+            case 'twitter:image': 
+                meta.content = immagine_social;
+                break;
+        }
+    });
+    
+    document.getElementById('condividi_fb').href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+    document.getElementById('condividi_tw').href = "https://twitter.com/intent/tweet?url=" + url;
+    document.getElementById('condividi_li').href = "https://www.linkedin.com/shareArticle?url=" + url;
+    document.getElementById('condividi_wa').href = "https://api.whatsapp.com/send?text=" + url;
+    </script> 

@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-21-manual-ten-cities",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-22T00:52:31.409261+00:00",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "palermo",
+    "kobe",
+    "veracruz",
+    "trieste",
+    "san-cristobal-de-las-casas",
+    "parma",
+    "auckland",
+    "durango",
+    "nice",
+    "rotterdam"
+  ],
+  "requestedCount": 10,
+  "localizedVersionCount": 20,
+  "publishedCount": 0,
+  "errors": [],
+  "authorization": {
+    "type": "explicit-manual-additional-ten-original-city-guides",
+    "ownerRequest": "PUBLICA 10 ARTICULOS VIRALES DE CIUDADES",
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false,
+    "priorVerifiedOriginalsToday": 2,
+    "priorVerifiedTopicIdsToday": [
+      "cuernavaca",
+      "assisi"
+    ],
+    "additionalOriginalsAuthorized": 10,
+    "authorizedTotalUniqueOriginalsToday": 12,
+    "noViralSearchVolumeIndexingGuarantee": true
+  },
+  "reservationMethod": "exclusive-manual-aggregate-supported-by-existing-manual-ten-precedent",
+  "reservationCommandExecuted": false,
+  "reservationRationale": "Latest explicit owner request authorizes ten additionalcity originals. Existing CLI remains capped atfive and its dailyreservation untouched. A separatemanualaggregate reserves these ten once, with two five-topic coordinationgroups; no paidAPIs, schedulerchange or priorreservationoverwrite.",
+  "coordinationGroups": [
+    [
+      "palermo",
+      "kobe",
+      "veracruz",
+      "trieste",
+      "san-cristobal-de-las-casas"
+    ],
+    [
+      "parma",
+      "auckland",
+      "durango",
+      "nice",
+      "rotterdam"
+    ]
+  ],
+  "execution": {
+    "executionId": "e6ce151f-3b54-4b7d-9040-b6054ae5a6b2",
+    "baseCommit": "c193b562b3c5740998fe0de632eeb3237d8aef4b",
+    "startedAt": "2026-11-22T00:50:47.021423+00:00",
+    "status": "reserved-not-published",
+    "heartbeatAt": "2026-11-22T00:52:31.409272+00:00",
+    "leaseUntil": "2026-11-22T06:50:47.021423+00:00",
+    "coordinator": "Codex root only R/Git/deploymentwriter; authors private staging only",
+    "publicationDay": "2026-11-21"
+  }
+}

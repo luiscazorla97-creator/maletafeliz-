@@ -2,26 +2,54 @@
   "id": "2026-11-22",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-22T17:07:37.652Z",
-  "status": "reserved-not-generated",
+  "status": "published",
   "topicIds": [
     "savannah",
     "sendai"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "df0b4acb-3069-41f7-ab01-b92ead36e6f6",
     "baseCommit": "d048dc97b58eb986e8585a576e2396c32de9b329",
     "owner": "Codex /root",
     "startedAt": "2026-11-22T17:02:36.573464+00:00",
-    "heartbeatAt": "2026-11-22T17:07:59.176321+00:00",
-    "leaseUntil": "2026-11-22T23:02:36.573464+00:00",
-    "status": "active"
+    "heartbeatAt": "2026-11-22T18:16:24.789Z",
+    "leaseUntil": "2026-11-22T18:16:24.789Z",
+    "status": "completed-verified",
+    "completedAt": "2026-11-22T18:16:24.789Z"
   },
   "dailyCensus": {
     "newYorkDate": "2026-11-22",
     "priorVerifiedOriginals": 0,
     "censusSha256": "be9de87c5853199e82c7c22e301dcb20276420ba0fe9a385a49d7fe62104167a"
-  }
+  },
+  "publishedTopicIds": [
+    "savannah",
+    "sendai"
+  ],
+  "verifiedTopicCount": 2,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 18,
+  "publishedCommit": "07f64e7d2401b2dcd20fa041fa753b6715e97204",
+  "publiclyVerifiedAt": "2026-11-22T18:16:24.789Z",
+  "firstPublicationNewYorkDate": "2026-11-22",
+  "publicVerification": "editorial/verification/2026-11-22-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-savannah-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-sendai-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-savannah-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-sendai-5-places/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "savannah",
+    "sendai"
+  ]
 }

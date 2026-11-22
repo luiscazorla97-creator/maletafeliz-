@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-22T01:58:04.827Z",
+  "verifiedAt": "2026-11-22T18:16:24.789Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 242,
-  "localizations": 484,
-  "photos": 1033,
-  "httpChecks": 1066,
+  "originals": 244,
+  "localizations": 488,
+  "photos": 1043,
+  "httpChecks": 1074,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "8ca2c0c1-4c45-4636-a18f-22be4ab08f57",
-      "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+      "deploymentId": "9dda3cb9-7886-4490-99c0-f9f6dabaff35",
+      "commit": "07f64e7d2401b2dcd20fa041fa753b6715e97204",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "4e74cfca-2d24-4786-ae4a-ca07f75d1e57",
-      "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+      "deploymentId": "f2f13a80-c9f4-49bf-ad27-c5832fba5123",
+      "commit": "07f64e7d2401b2dcd20fa041fa753b6715e97204",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,35 +45,35 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 1274,
-  "latestBatch": "2026-11-21-manual-ten-cities",
-  "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+  "citedSourceDocuments": 1292,
+  "latestBatch": "2026-11-22",
+  "verificationFile": "editorial/verification/2026-11-22-publication.json",
   "httpCheckBreakdown": {
-    "verifiedAt": "2026-11-22T01:49:26.071Z",
-    "verificationClosedAt": "2026-11-22T01:58:04.827Z",
-    "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
-    "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
-    "siteAndRedirects": 1066,
-    "allSitemapHtmlPages": 1056,
-    "allLocalizedGuideHtmlPages": 484,
-    "localProductionBrowserTests": 40,
+    "verifiedAt": "2026-11-22T18:00:11.964Z",
+    "verificationClosedAt": "2026-11-22T18:16:24.789Z",
+    "verificationFile": "editorial/verification/2026-11-22-publication.json",
+    "sourceCommit": "07f64e7d2401b2dcd20fa041fa753b6715e97204",
+    "siteAndRedirects": 1074,
+    "allSitemapHtmlPages": 1064,
+    "allLocalizedGuideHtmlPages": 488,
+    "localProductionBrowserTests": 8,
     "localProductionScope": {
-      "focusedCurrentBuildGuideCases": 40,
+      "focusedCurrentBuildGuideCases": 8,
       "wholeLocalSuiteClaimed": false
     },
-    "fullSourceProductionTestsInGitHub": 1028,
-    "batchHttpsRequests": 378,
-    "batchLocalizedVersionsVerified": 20,
-    "batchOriginalTopicsVerified": 10,
-    "selectedPhotoFilesVerified": 250,
-    "publicBrowserFlows": 40,
+    "fullSourceProductionTestsInGitHub": 1036,
+    "batchHttpsRequests": 86,
+    "batchLocalizedVersionsVerified": 4,
+    "batchOriginalTopicsVerified": 2,
+    "selectedPhotoFilesVerified": 50,
+    "publicBrowserFlows": 8,
     "note": "Independent phase counts are not summed."
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-22T01:58:04.827Z",
+  "latestDeploymentVerification": "editorial/verification/2026-11-22-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-22T18:16:24.789Z",
   "photoCoverage": {
-    "originalRecommendations": 1047,
-    "localizedRecommendations": 2094,
+    "originalRecommendations": 1057,
+    "localizedRecommendations": 2114,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -146,34 +146,34 @@
       "mx",
       "us"
     ],
-    "priorityOriginals": 103,
+    "priorityOriginals": 105,
     "initialTargetOriginals": 100,
     "remainingOriginals": 0,
-    "verification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+    "verification": "editorial/verification/2026-11-22-publication.json",
     "targetCoveredOriginals": 100,
-    "aboveTargetOriginals": 3,
+    "aboveTargetOriginals": 5,
     "targetCappedOriginals": 100,
-    "excessOriginals": 3
+    "excessOriginals": 5
   },
   "technicalIndexability": {
-    "verifiedAt": "2026-11-22T01:49:26.071Z",
-    "verificationClosedAt": "2026-11-22T01:58:04.827Z",
-    "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
-    "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
-    "sitemapUrls": 1056,
-    "httpUrlsChecked": 1056,
-    "localizedGuidesCheckedInHtml": 484,
+    "verifiedAt": "2026-11-22T18:00:11.964Z",
+    "verificationClosedAt": "2026-11-22T18:16:24.789Z",
+    "sourceCommit": "07f64e7d2401b2dcd20fa041fa753b6715e97204",
+    "verificationFile": "editorial/verification/2026-11-22-publication.json",
+    "sitemapUrls": 1064,
+    "httpUrlsChecked": 1064,
+    "localizedGuidesCheckedInHtml": 488,
     "allSitemapPagesReachableThroughHtml": true,
     "unreachableSitemapPages": 0,
     "maximumGuideClickDepth": 2,
     "duplicateTitlesWithinLocale": 0,
-    "newArticles": 10,
-    "newLocalizations": 20,
+    "newArticles": 2,
+    "newLocalizations": 4,
     "googleIndexationVerified": false,
     "evidence": {
-      "wholeSiteFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
-      "wholeSiteResultSha256": "fccf2d35b4fd70af098d993d17895716d2c22f2323efa1a50acde579e1e96949",
-      "wholeSiteRunSha256": "bbb4af65a702b6820139899399c06e9221f492ab10b6beb2ea26d273f4762110"
+      "wholeSiteFile": "editorial/verification/2026-11-22-publication.json",
+      "wholeSiteResultSha256": "e1627bdb0b39d574e01827c1c8b447f8a12bf55a8fd7c5cfce31c19bca831981",
+      "wholeSiteRunSha256": "d7db68c1f26a32bfae434ff7de6d415ab99d2ad11301ee7edf42b87efcde7a79"
     }
   },
   "mobilePerformance": {
@@ -399,55 +399,70 @@
         "wholeSiteResultSha256": "a267fa36250ee374307bc07194ee54dd2b8082d2f3e4bce3a5beb8d4db9f8c9d",
         "wholeSiteRunSha256": "0bb234c0f7bf0e46a988cc4fa23f666ceafcbe2450992c6d37d64a3a2b627c4e"
       }
+    },
+    {
+      "verifiedAt": "2026-11-22T01:49:26.071Z",
+      "verificationClosedAt": "2026-11-22T01:58:04.827Z",
+      "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+      "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+      "sitemapUrls": 1056,
+      "httpUrlsChecked": 1056,
+      "localizedGuidesCheckedInHtml": 484,
+      "allSitemapPagesReachableThroughHtml": true,
+      "unreachableSitemapPages": 0,
+      "maximumGuideClickDepth": 2,
+      "duplicateTitlesWithinLocale": 0,
+      "newArticles": 10,
+      "newLocalizations": 20,
+      "googleIndexationVerified": false,
+      "evidence": {
+        "wholeSiteFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+        "wholeSiteResultSha256": "fccf2d35b4fd70af098d993d17895716d2c22f2323efa1a50acde579e1e96949",
+        "wholeSiteRunSha256": "bbb4af65a702b6820139899399c06e9221f492ab10b6beb2ea26d273f4762110"
+      }
     }
   ],
   "latestFullSitePublicationVerification": {
-    "verifiedAt": "2026-11-22T01:49:26.071Z",
-    "verificationClosedAt": "2026-11-22T01:58:04.827Z",
-    "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
-    "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
-    "sitemapUrls": 1056,
-    "httpUrlsChecked": 1056,
-    "localizedGuidesCheckedInHtml": 484,
+    "verifiedAt": "2026-11-22T18:00:11.964Z",
+    "verificationClosedAt": "2026-11-22T18:16:24.789Z",
+    "sourceCommit": "07f64e7d2401b2dcd20fa041fa753b6715e97204",
+    "verificationFile": "editorial/verification/2026-11-22-publication.json",
+    "sitemapUrls": 1064,
+    "httpUrlsChecked": 1064,
+    "localizedGuidesCheckedInHtml": 488,
     "allSitemapPagesReachableThroughHtml": true,
     "unreachableSitemapPages": 0,
     "maximumGuideClickDepth": 2,
     "duplicateTitlesWithinLocale": 0,
-    "newArticles": 10,
-    "newLocalizations": 20,
+    "newArticles": 2,
+    "newLocalizations": 4,
     "googleIndexationVerified": false,
     "evidence": {
-      "wholeSiteFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
-      "wholeSiteResultSha256": "fccf2d35b4fd70af098d993d17895716d2c22f2323efa1a50acde579e1e96949",
-      "wholeSiteRunSha256": "bbb4af65a702b6820139899399c06e9221f492ab10b6beb2ea26d273f4762110"
+      "wholeSiteFile": "editorial/verification/2026-11-22-publication.json",
+      "wholeSiteResultSha256": "e1627bdb0b39d574e01827c1c8b447f8a12bf55a8fd7c5cfce31c19bca831981",
+      "wholeSiteRunSha256": "d7db68c1f26a32bfae434ff7de6d415ab99d2ad11301ee7edf42b87efcde7a79"
     },
-    "scope": "Entire exact-source sitemap checked; newArticles/newLocalizations refer only to this manual batch."
+    "scope": "Entire exact-source sitemap checked; newArticles/newLocalizations refer only to this daily batch."
   },
   "latestBatchVerificationClosure": {
-    "verificationCompletedAt": "2026-11-22T01:58:04.827Z",
-    "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
-    "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
-    "reservationDay": "2026-11-21",
-    "firstPublicationNewYorkDate": "2026-11-21",
-    "verificationCompletionNewYorkDate": "2026-11-21",
-    "originalsVerified": 10,
-    "localizedVersionsVerified": 20,
-    "documentaryPhotosVerified": 50,
-    "optimizedPhotoFilesVerified": 250,
+    "verificationCompletedAt": "2026-11-22T18:16:24.789Z",
+    "verificationFile": "editorial/verification/2026-11-22-publication.json",
+    "sourceCommit": "07f64e7d2401b2dcd20fa041fa753b6715e97204",
+    "reservationDay": "2026-11-22",
+    "firstPublicationNewYorkDate": "2026-11-22",
+    "verificationCompletionNewYorkDate": "2026-11-22",
+    "originalsVerified": 2,
+    "localizedVersionsVerified": 4,
+    "documentaryPhotosVerified": 10,
+    "optimizedPhotoFilesVerified": 50,
     "publicationCadenceConfigurationUnchanged": true,
     "authorization": {
-      "type": "explicit-manual-additional-ten-original-city-guides",
-      "ownerRequest": "PUBLICA 10 ARTICULOS VIRALES DE CIUDADES",
+      "kind": "daily-two",
+      "priorVerifiedOriginalsToday": 0,
+      "priorVerifiedTopicIdsToday": [],
+      "authorizedTotalUniqueOriginalsToday": 2,
       "dailyScheduleTargetUnchanged": 2,
-      "scheduleChanged": false,
-      "priorVerifiedOriginalsToday": 2,
-      "priorVerifiedTopicIdsToday": [
-        "cuernavaca",
-        "assisi"
-      ],
-      "additionalOriginalsAuthorized": 10,
-      "authorizedTotalUniqueOriginalsToday": 12,
-      "noViralSearchVolumeIndexingGuarantee": true
+      "scheduleChanged": false
     }
   },
   "supersededPublicationVerificationHistory": [
@@ -1246,6 +1261,123 @@
             "focusedNativeLogSha256": "bbe9c81657b612e00eacb6586021fdb42c7214957d28f311f3a47acab86f4c18",
             "fullSourceCiLogSha256": "66228294c2420144e50bd03eeff50fae275455c8be614641f6ead7019d6a8113"
           }
+        }
+      }
+    },
+    {
+      "supersededAt": "2026-11-22T18:16:24.789Z",
+      "status": "superseded-historical-inventory-metadata",
+      "inheritedFromRepositoryCommit": "d048dc97b58eb986e8585a576e2396c32de9b329",
+      "previousInventorySha256": "9c65756db2647dfda42d7ed97cdfc64fe47e1715023b9c1d4b358807df05bac8",
+      "previousInventoryVerifiedAt": "2026-11-22T01:58:04.827Z",
+      "previousInventoryVerificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+      "records": {
+        "countrySeoStrategy": {
+          "priorityCountries": [
+            "it",
+            "jp",
+            "mx",
+            "us"
+          ],
+          "priorityOriginals": 103,
+          "initialTargetOriginals": 100,
+          "remainingOriginals": 0,
+          "verification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+          "targetCoveredOriginals": 100,
+          "aboveTargetOriginals": 3,
+          "targetCappedOriginals": 100,
+          "excessOriginals": 3
+        },
+        "technicalIndexability": {
+          "verifiedAt": "2026-11-22T01:49:26.071Z",
+          "verificationClosedAt": "2026-11-22T01:58:04.827Z",
+          "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+          "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+          "sitemapUrls": 1056,
+          "httpUrlsChecked": 1056,
+          "localizedGuidesCheckedInHtml": 484,
+          "allSitemapPagesReachableThroughHtml": true,
+          "unreachableSitemapPages": 0,
+          "maximumGuideClickDepth": 2,
+          "duplicateTitlesWithinLocale": 0,
+          "newArticles": 10,
+          "newLocalizations": 20,
+          "googleIndexationVerified": false,
+          "evidence": {
+            "wholeSiteFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+            "wholeSiteResultSha256": "fccf2d35b4fd70af098d993d17895716d2c22f2323efa1a50acde579e1e96949",
+            "wholeSiteRunSha256": "bbb4af65a702b6820139899399c06e9221f492ab10b6beb2ea26d273f4762110"
+          }
+        },
+        "latestFullSitePublicationVerification": {
+          "verifiedAt": "2026-11-22T01:49:26.071Z",
+          "verificationClosedAt": "2026-11-22T01:58:04.827Z",
+          "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+          "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+          "sitemapUrls": 1056,
+          "httpUrlsChecked": 1056,
+          "localizedGuidesCheckedInHtml": 484,
+          "allSitemapPagesReachableThroughHtml": true,
+          "unreachableSitemapPages": 0,
+          "maximumGuideClickDepth": 2,
+          "duplicateTitlesWithinLocale": 0,
+          "newArticles": 10,
+          "newLocalizations": 20,
+          "googleIndexationVerified": false,
+          "evidence": {
+            "wholeSiteFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+            "wholeSiteResultSha256": "fccf2d35b4fd70af098d993d17895716d2c22f2323efa1a50acde579e1e96949",
+            "wholeSiteRunSha256": "bbb4af65a702b6820139899399c06e9221f492ab10b6beb2ea26d273f4762110"
+          },
+          "scope": "Entire exact-source sitemap checked; newArticles/newLocalizations refer only to this manual batch."
+        },
+        "latestBatchVerificationClosure": {
+          "verificationCompletedAt": "2026-11-22T01:58:04.827Z",
+          "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+          "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+          "reservationDay": "2026-11-21",
+          "firstPublicationNewYorkDate": "2026-11-21",
+          "verificationCompletionNewYorkDate": "2026-11-21",
+          "originalsVerified": 10,
+          "localizedVersionsVerified": 20,
+          "documentaryPhotosVerified": 50,
+          "optimizedPhotoFilesVerified": 250,
+          "publicationCadenceConfigurationUnchanged": true,
+          "authorization": {
+            "type": "explicit-manual-additional-ten-original-city-guides",
+            "ownerRequest": "PUBLICA 10 ARTICULOS VIRALES DE CIUDADES",
+            "dailyScheduleTargetUnchanged": 2,
+            "scheduleChanged": false,
+            "priorVerifiedOriginalsToday": 2,
+            "priorVerifiedTopicIdsToday": [
+              "cuernavaca",
+              "assisi"
+            ],
+            "additionalOriginalsAuthorized": 10,
+            "authorizedTotalUniqueOriginalsToday": 12,
+            "noViralSearchVolumeIndexingGuarantee": true
+          }
+        },
+        "httpCheckBreakdown": {
+          "verifiedAt": "2026-11-22T01:49:26.071Z",
+          "verificationClosedAt": "2026-11-22T01:58:04.827Z",
+          "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+          "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+          "siteAndRedirects": 1066,
+          "allSitemapHtmlPages": 1056,
+          "allLocalizedGuideHtmlPages": 484,
+          "localProductionBrowserTests": 40,
+          "localProductionScope": {
+            "focusedCurrentBuildGuideCases": 40,
+            "wholeLocalSuiteClaimed": false
+          },
+          "fullSourceProductionTestsInGitHub": 1028,
+          "batchHttpsRequests": 378,
+          "batchLocalizedVersionsVerified": 20,
+          "batchOriginalTopicsVerified": 10,
+          "selectedPhotoFilesVerified": 250,
+          "publicBrowserFlows": 40,
+          "note": "Independent phase counts are not summed."
         }
       }
     }

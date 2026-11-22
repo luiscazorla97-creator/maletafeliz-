@@ -1415,7 +1415,7 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-22T01:58:04.827Z",
+    "verifiedAt": "2026-11-22T18:16:24.789Z",
     "countries": [
       {
         "countryId": "it",
@@ -1459,11 +1459,11 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 25,
-        "localizedVersions": 50,
+        "publishedOriginals": 26,
+        "localizedVersions": 52,
         "targetOriginals": 25,
         "missingOriginals": 0,
-        "excessOriginals": 0,
+        "excessOriginals": 1,
         "articleIds": [
           "christmas-fukuoka",
           "christmas-osaka",
@@ -1486,6 +1486,7 @@
           "nikko",
           "osaka",
           "sapporo",
+          "sendai",
           "takamatsu",
           "takayama",
           "tokyo",
@@ -1529,11 +1530,11 @@
       },
       {
         "countryId": "us",
-        "publishedOriginals": 23,
-        "localizedVersions": 46,
+        "publishedOriginals": 24,
+        "localizedVersions": 48,
         "targetOriginals": 20,
         "missingOriginals": 0,
-        "excessOriginals": 3,
+        "excessOriginals": 4,
         "articleIds": [
           "buffalo",
           "christmas-boston",
@@ -1557,15 +1558,16 @@
           "new-york-new-year-2027",
           "orlando",
           "san-diego",
+          "savannah",
           "washington-dc"
         ]
       }
     ],
-    "priorityOriginals": 103,
+    "priorityOriginals": 105,
     "targetCappedOriginals": 100,
     "missingToInitial100": 0,
-    "excessOriginals": 3,
-    "publicVerification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json"
+    "excessOriginals": 5,
+    "publicVerification": "editorial/verification/2026-11-22-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -3543,6 +3545,159 @@
       "missingToInitial100": 7,
       "excessOriginals": 3,
       "publicVerification": "editorial/verification/2026-11-21-publication.json"
+    },
+    {
+      "verifiedAt": "2026-11-22T01:58:04.827Z",
+      "countries": [
+        {
+          "countryId": "it",
+          "publishedOriginals": 30,
+          "localizedVersions": 60,
+          "targetOriginals": 30,
+          "missingOriginals": 0,
+          "excessOriginals": 0,
+          "articleIds": [
+            "amalfi-coast",
+            "assisi",
+            "bergamo",
+            "bologna",
+            "christmas-florence",
+            "christmas-milan",
+            "christmas-naples",
+            "christmas-rome",
+            "christmas-turin",
+            "christmas-venice",
+            "christmas-verona",
+            "ferrara",
+            "florence",
+            "florence-uffizi",
+            "lucca",
+            "mantua",
+            "milan",
+            "padua",
+            "palermo",
+            "parma",
+            "perugia",
+            "pisa",
+            "ravenna",
+            "rome",
+            "rome-colosseum-visit",
+            "siena",
+            "trieste",
+            "venice",
+            "venice-vaporetto",
+            "verona"
+          ]
+        },
+        {
+          "countryId": "jp",
+          "publishedOriginals": 25,
+          "localizedVersions": 50,
+          "targetOriginals": 25,
+          "missingOriginals": 0,
+          "excessOriginals": 0,
+          "articleIds": [
+            "christmas-fukuoka",
+            "christmas-osaka",
+            "christmas-tokyo",
+            "christmas-yokohama",
+            "halloween-japan",
+            "himeji",
+            "hiroshima",
+            "kamakura",
+            "kanazawa",
+            "kobe",
+            "kurashiki",
+            "kyoto",
+            "kyoto-higashiyama-walk",
+            "matsumoto",
+            "mount-fuji",
+            "nagasaki",
+            "nara",
+            "nara-day-trip-transport",
+            "nikko",
+            "osaka",
+            "sapporo",
+            "takamatsu",
+            "takayama",
+            "tokyo",
+            "tokyo-new-year-2027"
+          ]
+        },
+        {
+          "countryId": "mx",
+          "publishedOriginals": 25,
+          "localizedVersions": 50,
+          "targetOriginals": 25,
+          "missingOriginals": 0,
+          "excessOriginals": 0,
+          "articleIds": [
+            "cancun",
+            "chapultepec-museums-day",
+            "cuernavaca",
+            "durango",
+            "guadalajara",
+            "guanajuato",
+            "leon-guanajuato",
+            "los-cabos",
+            "mexico-city",
+            "morelia",
+            "muertos-merida",
+            "muertos-mexico-city",
+            "muertos-mixquic",
+            "muertos-oaxaca",
+            "muertos-puebla",
+            "oaxaca",
+            "patzcuaro",
+            "puebla",
+            "queretaro",
+            "riviera-maya",
+            "san-cristobal-de-las-casas",
+            "san-luis-potosi",
+            "san-miguel-de-allende",
+            "veracruz",
+            "zacatecas"
+          ]
+        },
+        {
+          "countryId": "us",
+          "publishedOriginals": 23,
+          "localizedVersions": 46,
+          "targetOriginals": 20,
+          "missingOriginals": 0,
+          "excessOriginals": 3,
+          "articleIds": [
+            "buffalo",
+            "christmas-boston",
+            "christmas-chicago",
+            "christmas-los-angeles",
+            "christmas-miami",
+            "christmas-new-york",
+            "christmas-philadelphia",
+            "christmas-san-francisco",
+            "columbus",
+            "greenville-sc",
+            "halloween-usa",
+            "hawaii",
+            "hilo",
+            "las-vegas",
+            "las-vegas-new-year-2027",
+            "los-angeles",
+            "miami",
+            "new-orleans",
+            "new-york",
+            "new-york-new-year-2027",
+            "orlando",
+            "san-diego",
+            "washington-dc"
+          ]
+        }
+      ],
+      "priorityOriginals": 103,
+      "targetCappedOriginals": 100,
+      "missingToInitial100": 0,
+      "excessOriginals": 3,
+      "publicVerification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json"
     }
   ]
 }

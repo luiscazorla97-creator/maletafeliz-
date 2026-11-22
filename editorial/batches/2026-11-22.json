@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-22",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-22T17:07:37.652Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "savannah",
+    "sendai"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "df0b4acb-3069-41f7-ab01-b92ead36e6f6",
+    "baseCommit": "d048dc97b58eb986e8585a576e2396c32de9b329",
+    "owner": "Codex /root",
+    "startedAt": "2026-11-22T17:02:36.573464+00:00",
+    "heartbeatAt": "2026-11-22T17:07:59.176321+00:00",
+    "leaseUntil": "2026-11-22T23:02:36.573464+00:00",
+    "status": "active"
+  },
+  "dailyCensus": {
+    "newYorkDate": "2026-11-22",
+    "priorVerifiedOriginals": 0,
+    "censusSha256": "be9de87c5853199e82c7c22e301dcb20276420ba0fe9a385a49d7fe62104167a"
+  }
+}

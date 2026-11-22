@@ -1,0 +1,47 @@
+{
+  "reviewer": "Codex /root final editorial review; independent peer Codex /root/n22_sendai independent peer; not the Savannah author",
+  "reviewedAt": "2026-11-22T17:21:06.510Z",
+  "contentHash": "56f023604c4d0f40824b39dfe1383db09d4e15634b99194f03ee4414e5417ebb",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "reviewEvidence": [
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n22/root-editorial-decision.json",
+      "sha256": "ab5bc33b5e6f65d8d5e3a9f996863b00894bf8e5f80ef36cd4f94f56887c96d6"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n22/root-photo-integrity.json",
+      "sha256": "b9270810ff1c216d1c13cedf010cf7bb63471c72688516bc6354d5afd0205726"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n22/root-originality-review.json",
+      "sha256": "f077bd32138622eb2202bad3e74945e1ba834acb5f459abbe6e51533adb42283"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n22/reviews/savannah-peer.json",
+      "sha256": "3b33222b268cec79d960e09dc06e8739c57a8b4e3664bd2d2deed4b72c99ca95"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n22/root-editorial-curation.json",
+      "sha256": "f9b562a9de5309fe649c3890262f93441a2089cfa4425b58838d5cec0690de09"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n22/savannah/freeze-report.json",
+      "sha256": "73b432aab72149ba3b38130fba9d4efb2ee40bbce3fe8106f01922379a4a0265"
+    }
+  ],
+  "notes": [
+    "Final private editorial approval after full bilingual reading, exact-package independent review, documentary contact inspection, actual current official research and licence reads by named author/peer, and successful final mechanics.",
+    "Dates will be assigned by integration at the actual selection time. Release, CI, both existing Cloudflare projects and public verification remain mandatory.",
+    "Selection for release compilation. Public deployment, indexing and ranking are not yet claimed."
+  ]
+}

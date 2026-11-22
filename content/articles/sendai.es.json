@@ -1,0 +1,243 @@
+{
+  "id": "sendai",
+  "destinationId": "sendai",
+  "intent": "sendai-first-visit-five-city-places",
+  "status": "published",
+  "coverImageId": "n22-se-osaki",
+  "sources": [
+    {
+      "id": "n22-se-city-zuihoden",
+      "url": "https://discoversendai.travel/places/zuihoden-mausoleum/",
+      "title": "City of Sendai — Zuihoden Mausoleum",
+      "accessedAt": "2026-11-22T17:07:06.909Z",
+      "evidenceFile": "content/research/n22-se-city-zuihoden.json"
+    },
+    {
+      "id": "n22-se-city-castle",
+      "url": "https://discoversendai.travel/places/site-of-sendai-castle/",
+      "title": "City of Sendai — Site of Sendai Castle",
+      "accessedAt": "2026-11-22T17:08:02.766Z",
+      "evidenceFile": "content/research/n22-se-city-castle.json"
+    },
+    {
+      "id": "n22-se-city-osaki",
+      "url": "https://discoversendai.travel/places/osaki-hachimangu-shrine/",
+      "title": "City of Sendai — Osaki Hachimangu Shrine",
+      "accessedAt": "2026-11-22T17:08:02.781Z",
+      "evidenceFile": "content/research/n22-se-city-osaki.json"
+    },
+    {
+      "id": "n22-se-city-jozenji",
+      "url": "https://discoversendai.travel/places/jozenji-dori-avenue/",
+      "title": "City of Sendai — Jozenji-dori Avenue",
+      "accessedAt": "2026-11-22T17:08:04.217Z",
+      "evidenceFile": "content/research/n22-se-city-jozenji.json"
+    },
+    {
+      "id": "n22-se-loople-model",
+      "url": "https://loople-sendai.jp/en/modelcourse/",
+      "title": "SenTIA / Loople Sendai — model courses and trip planning",
+      "accessedAt": "2026-11-22T17:06:59.061Z",
+      "evidenceFile": "content/research/n22-se-loople-model.json"
+    },
+    {
+      "id": "n22-se-loople-media",
+      "url": "https://loople-sendai.jp/en/sightseeing/smt.php",
+      "title": "SenTIA / Loople Sendai — Sendai Mediatheque",
+      "accessedAt": "2026-11-22T17:08:04.218Z",
+      "evidenceFile": "content/research/n22-se-loople-media.json"
+    },
+    {
+      "id": "n22-se-university-media",
+      "url": "https://www.tohoku.ac.jp/en/about/facilities/conferences_events/223_sendai_mediatheque.html",
+      "title": "Tohoku University — Sendai Mediatheque facilities",
+      "accessedAt": "2026-11-22T17:08:05.249Z",
+      "evidenceFile": "content/research/n22-se-university-media.json"
+    },
+    {
+      "id": "n22-se-mediateque-visit",
+      "url": "https://www.smt.jp/sp/info/visit/",
+      "title": "Sendai Mediatheque — current visitor and photography arrangements",
+      "accessedAt": "2026-11-22T17:07:06.101Z",
+      "evidenceFile": "content/research/n22-se-mediateque-visit.json"
+    },
+    {
+      "id": "n22-se-city-arrival",
+      "url": "https://discoversendai.travel/travel-info/getting-to-sendai/",
+      "title": "City of Sendai — getting to Sendai",
+      "accessedAt": "2026-11-22T17:10:54.488Z",
+      "evidenceFile": "content/research/n22-se-city-arrival.json"
+    },
+    {
+      "id": "n22-se-city-transport",
+      "url": "https://discoversendai.travel/travel-info/getting-around-sendai/",
+      "title": "City of Sendai — getting around Sendai",
+      "accessedAt": "2026-11-22T17:10:54.508Z",
+      "evidenceFile": "content/research/n22-se-city-transport.json"
+    }
+  ],
+  "relatedIds": [
+    "tokyo",
+    "nikko",
+    "sapporo"
+  ],
+  "locale": "es",
+  "slug": "que-ver-en-sendai-5-lugares",
+  "title": "Qué ver en Sendai: 5 lugares entre historia y arquitectura",
+  "description": "Descubrí qué ver en Sendai con cinco lugares, desde Zuihoden y el antiguo castillo hasta Jozenji-dori. Ruta práctica, transporte y consejos para organizar la visita.",
+  "keyword": "qué ver en Sendai",
+  "relatedQueries": [
+    "lugares para visitar en Sendai",
+    "Sendai en uno o dos días",
+    "cómo recorrer Sendai"
+  ],
+  "intro": [
+    "Si buscás qué ver en Sendai en una primera visita, combiná cinco lugares con personalidades distintas: el mausoleo Zuihoden, el antiguo castillo, el santuario Osaki Hachimangu, la avenida Jozenji-dori y Sendai Mediatheque. El recorrido permite entender la huella de Date Masamune y pasar después a una ciudad de paseos arbolados y arquitectura contemporánea. Conviene repartirlo en dos días para no convertir los traslados en una carrera.",
+    "Esta guía se concentra en Sendai, en la prefectura de Miyagi. Matsushima tiene su propia identidad y requiere otro desplazamiento; no se cuenta como un barrio de la ciudad. También importa distinguir lo que vas a encontrar: el castillo es un sitio histórico con muros y vistas, mientras que el edificio actual de Zuihoden es una reconstrucción. Las fotografías son documentales de archivo y no certifican las condiciones del día de tu visita."
+  ],
+  "quickFacts": [
+    {
+      "label": "Destino",
+      "value": "Sendai, prefectura de Miyagi, Japón"
+    },
+    {
+      "label": "Plan sugerido",
+      "value": "Dos días para repartir patrimonio, paseos y arquitectura"
+    },
+    {
+      "label": "Organización",
+      "value": "Transporte para los lugares alejados; caminata entre Jozenji-dori y Mediatheque"
+    },
+    {
+      "label": "Antes de salir",
+      "value": "Revisar avisos, cierres, conexiones y entradas en las fuentes oficiales"
+    }
+  ],
+  "sections": [
+    {
+      "id": "zuihoden",
+      "kind": "place",
+      "heading": "1. Zuihoden: memoria de Date Masamune entre árboles",
+      "paragraphs": [
+        "Zuihoden es el lugar de descanso de Date Masamune, figura clave para comprender el origen de Sendai. La aproximación forma parte del interés: hay una subida arbolada y escalones antes de llegar al recinto decorado. La puerta Nehanmon, con superficies negras, emblemas dorados y motivos tallados, ofrece un buen punto de partida para mirar los detalles antes de seguir. No hace falta conocer toda la genealogía de la familia Date para apreciar el contraste entre el bosque y la ornamentación.",
+        "El conjunto actual fue reconstruido después de que el original quedara destruido durante la Segunda Guerra Mundial. Esa distinción ayuda a leer el sitio sin atribuir a toda la estructura la antigüedad de la fundación. Hay otros mausoleos y un museo dentro del complejo; constituyen una visita conjunta, no varios destinos independientes en esta lista. Si te interesa el museo, revisá su acceso específico antes de comprar entradas. Para movilidad reducida, verificá la ruta con el recinto: no des por hecho que la aproximación con escalones sea adecuada para cualquier persona."
+      ],
+      "sourceIds": [
+        "n22-se-city-zuihoden"
+      ],
+      "imageId": "n22-se-zuihoden"
+    },
+    {
+      "id": "castle",
+      "kind": "place",
+      "heading": "2. Antiguo castillo de Sendai: muros y una ciudad a tus pies",
+      "paragraphs": [
+        "El sitio del castillo de Sendai, también conocido como Aoba Castle, ocupa el monte Aoba y está asociado a Date Masamune. Se visita para interpretar la ubicación defensiva y mirar la ciudad desde lo alto, no para entrar en un gran torreón conservado. La información municipal destaca los muros cuidadosamente reconstruidos y el monumento ecuestre de Masamune. Detenerse ante la piedra permite entender mejor el lugar que buscar una silueta de castillo que no corresponde a su estado actual.",
+        "Podés tomar el sitio histórico como paseo exterior y decidir por separado si querés sumar Aoba Castle Museum. La entrada al museo y las condiciones del recorrido son cuestiones distintas; no conviene asumir que un pase de transporte las cubra. Agrupá esta visita con Zuihoden si elegís una jornada histórica, tal como propone uno de los recorridos oficiales de Loople Sendai. Dejá margen para llegar y regresar: las estimaciones de una ruta turística no garantizan tiempos reales cuando cambia el tráfico. La fotografía de los muros es una imagen de archivo, no una comprobación de los accesos actuales."
+      ],
+      "sourceIds": [
+        "n22-se-city-castle",
+        "n22-se-loople-model"
+      ],
+      "imageId": "n22-se-castle"
+    },
+    {
+      "id": "osaki",
+      "kind": "place",
+      "heading": "3. Osaki Hachimangu: madera, laca y atención al detalle",
+      "paragraphs": [
+        "Osaki Hachimangu ofrece otro modo de acercarse al patrimonio de Sendai. El santuario fue encargado por Date Masamune y construido entre 1604 y 1607; su edificio principal está declarado Tesoro Nacional. La combinación de laca negra, colores y pan de oro invita a mirar con calma. En lugar de limitar la visita a una fotografía frontal, observá cómo la decoración de aves y criaturas talladas se concentra bajo los aleros y alrededor de las partes principales del edificio.",
+        "El acceso descrito por la ciudad incluye una escalinata de piedra, un camino arbolado y puertas torii. Está al noroeste del centro: no lo planifiques como si estuviera al lado de Jozenji-dori. Comprobá la conexión más conveniente según el alojamiento y el recorrido que ya tengas previsto. Ante todo, es un lugar de culto. Dejá libres los pasos, respetá la señalización y consultá antes de fotografiar donde haya indicaciones particulares. Poder acercarse al recinto no significa que todas las dependencias interiores estén abiertas para visitas turísticas."
+      ],
+      "sourceIds": [
+        "n22-se-city-osaki",
+        "n22-se-loople-model"
+      ],
+      "imageId": "n22-se-osaki"
+    },
+    {
+      "id": "jozenji",
+      "kind": "place",
+      "heading": "4. Jozenji-dori: el paseo arbolado del centro",
+      "paragraphs": [
+        "Jozenji-dori permite cambiar de ritmo después de los monumentos. La avenida recorre el centro de este a oeste y tiene zelkovas a ambos lados y en el paseo central. La descripción municipal sitúa ese paseo en unos 700 metros, con bancos, parterres y esculturas. No es necesario convertir cada tramo en una parada obligatoria: elegí una parte, sentate un momento y prestá atención a la relación entre la vegetación, la calle y los edificios.",
+        "El aspecto cambia con las estaciones. Las imágenes verdes no garantizan el mismo follaje en otoño o invierno, y los eventos que a veces ocupan la avenida no son una actividad permanente. Si tu viaje depende de una iluminación o un festival, consultá el programa concreto de ese año. Para una visita habitual, su valor es más simple: ofrece una caminata urbana que enlaza bien con Mediatheque. Usá los cruces habilitados para pasar entre las veredas y el paseo central; no atravieses los carriles para seguir una ruta fotográfica."
+      ],
+      "sourceIds": [
+        "n22-se-city-jozenji",
+        "n22-se-loople-model"
+      ],
+      "imageId": "n22-se-jozenji"
+    },
+    {
+      "id": "mediatheque",
+      "kind": "place",
+      "heading": "5. Sendai Mediatheque: arquitectura contemporánea junto al paseo",
+      "paragraphs": [
+        "Sendai Mediatheque reúne biblioteca, espacios de exposición y otras actividades culturales en un edificio diseñado por Toyo Ito. La fachada de vidrio hacia Jozenji-dori y las estructuras tubulares que atraviesan el edificio permiten comprender por qué merece una parada incluso si no querés organizar el viaje alrededor de una exposición. Empezá por observar el exterior y, si las instalaciones están abiertas, continuá por los espacios que estén habilitados para el público.",
+        "El edificio, la biblioteca y las salas no deben tratarse como una única atracción con un horario universal. Revisá qué querés visitar y qué condiciones se aplican ese día; una exposición puede tener reglas propias. El operador también establece un procedimiento para las fotografías turísticas personales en el interior: pedí indicaciones y la identificación de permiso en información o recepción, en lugar de asumir que toda toma está autorizada. Para una visita guiada organizada, consultá con anticipación. La fotografía que acompaña esta guía muestra el exterior desde la calle y no implica autorización para fotografiar las actividades interiores."
+      ],
+      "sourceIds": [
+        "n22-se-loople-media",
+        "n22-se-university-media",
+        "n22-se-mediateque-visit"
+      ],
+      "imageId": "n22-se-media"
+    },
+    {
+      "id": "llegar-moverse",
+      "kind": "practical",
+      "heading": "Cómo llegar y moverte sin duplicar trayectos",
+      "paragraphs": [
+        "Sendai tiene conexión en shinkansen con Tokio, y el aeropuerto está enlazado por ferrocarril con Sendai Station. Antes de reservar, contrastá el servicio, el billete y la conexión concreta en los enlaces oficiales: una duración orientativa o una tarifa antigua no sirve como garantía para tu viaje. Desde la estación, pensá la ruta en dos bloques: patrimonio con desplazamientos más largos y paseo por el centro con Jozenji-dori y Mediatheque.",
+        "Loople Sendai conecta lugares turísticos y publica recorridos modelo útiles para orientarse. El subte también ayuda a acercarse al centro, con estaciones como Sendai, Hirose-dori y Kotodai-koen. Elegí entre billetes o pases después de saber qué trayectos vas a realizar. No confundas el producto de Loople con otro que incluya subte, ni un descuento con una entrada ya pagada. Guardá una alternativa de regreso y revisá la última conexión aplicable a tu recorrido."
+      ],
+      "sourceIds": [
+        "n22-se-city-arrival",
+        "n22-se-city-transport",
+        "n22-se-loople-model"
+      ]
+    },
+    {
+      "id": "planificar",
+      "kind": "practical",
+      "heading": "Qué comprobar antes de armar el día",
+      "paragraphs": [
+        "La decisión más útil es cuánto tiempo querés dedicar al interior de cada lugar. Un recorrido de exteriores y paseos no equivale a visitar además museos y exposiciones. Revisá primero los avisos de cada instalación y después acomodá el transporte; así evitás llegar a un edificio cuando el espacio que te interesa está cerrado. En los sitios con escalinatas, consultá las opciones de acceso directamente si viajan personas con dificultades para caminar.",
+        "Usá calzado adecuado para los accesos históricos y ajustá el plan al tiempo real. Si llueve, dedicar más atención a Mediatheque puede ser razonable, siempre que el espacio elegido esté abierto. Si querés continuar el viaje por Japón, nuestras guías de Tokio, Nikko y Sapporo proponen otros contextos urbanos y patrimoniales. Son etapas diferentes para planificar con sus propios traslados, no excursiones contiguas a estos cinco lugares de Sendai."
+      ],
+      "sourceIds": [
+        "n22-se-city-zuihoden",
+        "n22-se-city-osaki",
+        "n22-se-loople-media",
+        "n22-se-mediateque-visit"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Día 1: reservá el bloque principal para Zuihoden y el sitio del castillo. Empezá por el lugar cuyas condiciones de visita encajen mejor con tu jornada, verificá el enlace entre ambos y dejá el museo como una decisión consciente. El objetivo es comprender el paisaje histórico, no sumar recintos a toda velocidad. Si agregás Osaki Hachimangu, revisá los trayectos antes de salir y aceptá recortar tiempo de interiores.",
+    "Día 2: dedicá la primera parte al santuario Osaki Hachimangu si quedó pendiente. Después acercate al centro y combiná Jozenji-dori con Mediatheque, que comparten el mismo eje urbano. La caminata puede adaptarse al clima y al cansancio, y la parte cultural a la programación disponible. No hace falta volver a los lugares históricos para completar esta segunda jornada.",
+    "Si solo tenés un día, elegí prioridades en lugar de prometerte las cinco visitas completas. Una combinación equilibrada es un lugar histórico y el paseo Jozenji-dori–Mediatheque. Para intentar los cinco, verificá antes conexiones y cierres, reducí las visitas interiores y conservá margen de regreso. Esta propuesta es una organización editorial, no un paquete guiado ni un horario de transporte garantizado."
+  ],
+  "faq": [
+    {
+      "question": "¿Cuántos días conviene dedicar a Sendai?",
+      "answer": "Dos días permiten repartir los lugares históricos, el santuario y el paseo urbano con más calma. En un día conviene elegir prioridades. La cantidad de interiores y las conexiones reales determinan qué entra en tu recorrido."
+    },
+    {
+      "question": "¿El castillo de Sendai tiene un torreón para visitar?",
+      "answer": "La visita descrita aquí corresponde al sitio histórico, sus muros y las vistas desde el monte Aoba. No debe confundirse con un gran torreón conservado. Aoba Castle Museum es una visita distinta que requiere comprobar sus propias condiciones."
+    },
+    {
+      "question": "¿Se puede hacer todo el recorrido de Sendai caminando?",
+      "answer": "No conviene organizar estos cinco lugares como un único paseo corto. Zuihoden, el antiguo castillo y Osaki Hachimangu requieren revisar desplazamientos. Jozenji-dori y Mediatheque sí permiten una combinación urbana a pie, ajustada a tu movilidad."
+    },
+    {
+      "question": "¿Matsushima está incluida entre estos cinco lugares?",
+      "answer": "No. Esta guía se concentra en lugares de Sendai y no presenta Matsushima como un barrio de la ciudad. Si querés incorporarla al viaje, prepará otro desplazamiento y verificá sus conexiones y condiciones de visita por separado."
+    }
+  ],
+  "conclusion": "Sendai se disfruta mejor cuando la historia de la familia Date y el centro contemporáneo tienen su propio espacio. Elegí los interiores que realmente te interesan, verificá sus avisos y usá el transporte para enlazar las partes alejadas. Con ese orden, estos cinco lugares forman una primera visita variada sin depender de festivales, compras ni horarios imaginados.",
+  "publishedAt": "2026-11-22T17:21:06.510Z",
+  "updatedAt": "2026-11-22T17:21:06.510Z"
+}

@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-21T18:05:07.904Z",
+  "verifiedAt": "2026-11-22T01:58:04.827Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 232,
-  "localizations": 464,
-  "photos": 983,
-  "httpChecks": 1026,
+  "originals": 242,
+  "localizations": 484,
+  "photos": 1033,
+  "httpChecks": 1066,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "9773570a-e3c9-4765-897c-ac6186328168",
-      "commit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
+      "deploymentId": "8ca2c0c1-4c45-4636-a18f-22be4ab08f57",
+      "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "44219212-7558-463a-a069-d6134db0a8dc",
-      "commit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
+      "deploymentId": "4e74cfca-2d24-4786-ae4a-ca07f75d1e57",
+      "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,42 +45,35 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 1215,
-  "latestBatch": "2026-11-19",
-  "verificationFile": "editorial/verification/2026-11-21-publication.json",
+  "citedSourceDocuments": 1274,
+  "latestBatch": "2026-11-21-manual-ten-cities",
+  "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
   "httpCheckBreakdown": {
-    "verifiedAt": "2026-11-21T17:55:13.533Z",
-    "verificationClosedAt": "2026-11-21T18:05:07.904Z",
-    "verificationFile": "editorial/verification/2026-11-21-publication.json",
-    "sourceCommit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
-    "siteAndRedirects": 1026,
-    "allSitemapHtmlPages": 1016,
-    "allLocalizedGuideHtmlPages": 464,
-    "localProductionBrowserTests": 8,
+    "verifiedAt": "2026-11-22T01:49:26.071Z",
+    "verificationClosedAt": "2026-11-22T01:58:04.827Z",
+    "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+    "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+    "siteAndRedirects": 1066,
+    "allSitemapHtmlPages": 1056,
+    "allLocalizedGuideHtmlPages": 484,
+    "localProductionBrowserTests": 40,
     "localProductionScope": {
-      "focusedCurrentBuildGuideCases": 8,
+      "focusedCurrentBuildGuideCases": 40,
       "wholeLocalSuiteClaimed": false
     },
-    "fullSourceProductionTestsInGitHub": 988,
-    "batchHttpsRequests": 86,
-    "batchLocalizedVersionsVerified": 4,
-    "batchOriginalTopicsVerified": 2,
-    "selectedPhotoFilesVerified": 50,
-    "publicBrowserFlows": 8,
-    "note": "siteAndRedirects is the actual whole-site verifier.checked length. Sitemap/guide counts are subsets; independent HTTP/browser/test phases are not summed into a global total.",
-    "evidence": {
-      "wholeSiteResultSha256": "a267fa36250ee374307bc07194ee54dd2b8082d2f3e4bce3a5beb8d4db9f8c9d",
-      "batchHttpsResultSha256": "c7a938344ebc9dd3390e1356fc695945c9749661388348407451d874b40a4ef5",
-      "browserResultSha256": "a54cea626fab27570973b30098837cb633e6939b1f62a3aaff6cf8966d9322f4",
-      "focusedNativeLogSha256": "bbe9c81657b612e00eacb6586021fdb42c7214957d28f311f3a47acab86f4c18",
-      "fullSourceCiLogSha256": "66228294c2420144e50bd03eeff50fae275455c8be614641f6ead7019d6a8113"
-    }
+    "fullSourceProductionTestsInGitHub": 1028,
+    "batchHttpsRequests": 378,
+    "batchLocalizedVersionsVerified": 20,
+    "batchOriginalTopicsVerified": 10,
+    "selectedPhotoFilesVerified": 250,
+    "publicBrowserFlows": 40,
+    "note": "Independent phase counts are not summed."
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-21-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-21T18:05:07.904Z",
+  "latestDeploymentVerification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-22T01:58:04.827Z",
   "photoCoverage": {
-    "originalRecommendations": 997,
-    "localizedRecommendations": 1994,
+    "originalRecommendations": 1047,
+    "localizedRecommendations": 2094,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -153,35 +146,34 @@
       "mx",
       "us"
     ],
-    "priorityOriginals": 96,
+    "priorityOriginals": 103,
     "initialTargetOriginals": 100,
-    "remainingOriginals": 7,
-    "verification": "editorial/verification/2026-11-21-publication.json",
-    "targetCoveredOriginals": 93,
+    "remainingOriginals": 0,
+    "verification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+    "targetCoveredOriginals": 100,
     "aboveTargetOriginals": 3,
-    "targetCappedOriginals": 93,
+    "targetCappedOriginals": 100,
     "excessOriginals": 3
   },
   "technicalIndexability": {
-    "verifiedAt": "2026-11-21T17:55:13.533Z",
-    "verificationClosedAt": "2026-11-21T18:05:07.904Z",
-    "sourceCommit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
-    "verificationFile": "editorial/verification/2026-11-21-publication.json",
-    "sitemapUrls": 1016,
-    "httpUrlsChecked": 1016,
-    "localizedGuidesCheckedInHtml": 464,
+    "verifiedAt": "2026-11-22T01:49:26.071Z",
+    "verificationClosedAt": "2026-11-22T01:58:04.827Z",
+    "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+    "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+    "sitemapUrls": 1056,
+    "httpUrlsChecked": 1056,
+    "localizedGuidesCheckedInHtml": 484,
     "allSitemapPagesReachableThroughHtml": true,
     "unreachableSitemapPages": 0,
     "maximumGuideClickDepth": 2,
     "duplicateTitlesWithinLocale": 0,
-    "duplicateTitleComparison": "NFC, collapsed whitespace and lower-case title within served HTML lang",
-    "newArticles": 2,
-    "newLocalizations": 4,
+    "newArticles": 10,
+    "newLocalizations": 20,
     "googleIndexationVerified": false,
     "evidence": {
-      "wholeSiteFile": "editorial/verification/2026-11-21-publication.json",
-      "wholeSiteResultSha256": "a267fa36250ee374307bc07194ee54dd2b8082d2f3e4bce3a5beb8d4db9f8c9d",
-      "wholeSiteRunSha256": "0bb234c0f7bf0e46a988cc4fa23f666ceafcbe2450992c6d37d64a3a2b627c4e"
+      "wholeSiteFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+      "wholeSiteResultSha256": "fccf2d35b4fd70af098d993d17895716d2c22f2323efa1a50acde579e1e96949",
+      "wholeSiteRunSha256": "bbb4af65a702b6820139899399c06e9221f492ab10b6beb2ea26d273f4762110"
     }
   },
   "mobilePerformance": {
@@ -385,51 +377,78 @@
         "wholeSiteResultSha256": "7d14bfa51bd0284cf89c46c36e72454a7f728abf26382445d2dab62cdd1c1cea",
         "wholeSiteRunSha256": "40e35dd4b412c1d693d679dd3481e1c710fa083984a521d40a6b98b81ecdc198"
       }
+    },
+    {
+      "verifiedAt": "2026-11-21T17:55:13.533Z",
+      "verificationClosedAt": "2026-11-21T18:05:07.904Z",
+      "sourceCommit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
+      "verificationFile": "editorial/verification/2026-11-21-publication.json",
+      "sitemapUrls": 1016,
+      "httpUrlsChecked": 1016,
+      "localizedGuidesCheckedInHtml": 464,
+      "allSitemapPagesReachableThroughHtml": true,
+      "unreachableSitemapPages": 0,
+      "maximumGuideClickDepth": 2,
+      "duplicateTitlesWithinLocale": 0,
+      "duplicateTitleComparison": "NFC, collapsed whitespace and lower-case title within served HTML lang",
+      "newArticles": 2,
+      "newLocalizations": 4,
+      "googleIndexationVerified": false,
+      "evidence": {
+        "wholeSiteFile": "editorial/verification/2026-11-21-publication.json",
+        "wholeSiteResultSha256": "a267fa36250ee374307bc07194ee54dd2b8082d2f3e4bce3a5beb8d4db9f8c9d",
+        "wholeSiteRunSha256": "0bb234c0f7bf0e46a988cc4fa23f666ceafcbe2450992c6d37d64a3a2b627c4e"
+      }
     }
   ],
   "latestFullSitePublicationVerification": {
-    "verifiedAt": "2026-11-21T17:55:13.533Z",
-    "verificationClosedAt": "2026-11-21T18:05:07.904Z",
-    "sourceCommit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
-    "verificationFile": "editorial/verification/2026-11-21-publication.json",
-    "sitemapUrls": 1016,
-    "httpUrlsChecked": 1016,
-    "localizedGuidesCheckedInHtml": 464,
+    "verifiedAt": "2026-11-22T01:49:26.071Z",
+    "verificationClosedAt": "2026-11-22T01:58:04.827Z",
+    "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+    "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+    "sitemapUrls": 1056,
+    "httpUrlsChecked": 1056,
+    "localizedGuidesCheckedInHtml": 484,
     "allSitemapPagesReachableThroughHtml": true,
     "unreachableSitemapPages": 0,
     "maximumGuideClickDepth": 2,
     "duplicateTitlesWithinLocale": 0,
-    "duplicateTitleComparison": "NFC, collapsed whitespace and lower-case title within served HTML lang",
-    "newArticles": 2,
-    "newLocalizations": 4,
+    "newArticles": 10,
+    "newLocalizations": 20,
     "googleIndexationVerified": false,
     "evidence": {
-      "wholeSiteFile": "editorial/verification/2026-11-21-publication.json",
-      "wholeSiteResultSha256": "a267fa36250ee374307bc07194ee54dd2b8082d2f3e4bce3a5beb8d4db9f8c9d",
-      "wholeSiteRunSha256": "0bb234c0f7bf0e46a988cc4fa23f666ceafcbe2450992c6d37d64a3a2b627c4e"
+      "wholeSiteFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+      "wholeSiteResultSha256": "fccf2d35b4fd70af098d993d17895716d2c22f2323efa1a50acde579e1e96949",
+      "wholeSiteRunSha256": "bbb4af65a702b6820139899399c06e9221f492ab10b6beb2ea26d273f4762110"
     },
-    "scope": "Current exact-source complete sitemap verification; newArticles/newLocalizations describe this batch."
+    "scope": "Entire exact-source sitemap checked; newArticles/newLocalizations refer only to this manual batch."
   },
   "latestBatchVerificationClosure": {
-    "verificationCompletedAt": "2026-11-21T18:05:07.904Z",
-    "verificationFile": "editorial/verification/2026-11-21-publication.json",
-    "sourceCommit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
-    "lateVerificationClosure": false,
-    "resumedFromPriorReservation": true,
-    "reservationDay": "2026-11-19",
-    "resumptionId": "bec2d77e-7c70-43c4-8e5c-7f081f152b81",
-    "resumptionCommit": "28c233f4021b4940a609c225c8fc476545c23226",
+    "verificationCompletedAt": "2026-11-22T01:58:04.827Z",
+    "verificationFile": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+    "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+    "reservationDay": "2026-11-21",
     "firstPublicationNewYorkDate": "2026-11-21",
     "verificationCompletionNewYorkDate": "2026-11-21",
-    "newOriginalsFirstPublishedOnCompletionDate": 2,
-    "newLocalizationsFirstPublishedOnCompletionDate": 4,
-    "originalsVerified": 2,
-    "localizedVersionsVerified": 4,
-    "documentaryPhotosVerified": 10,
-    "optimizedPhotoFilesVerified": 50,
-    "reservationIdentityPreserved": true,
+    "originalsVerified": 10,
+    "localizedVersionsVerified": 20,
+    "documentaryPhotosVerified": 50,
+    "optimizedPhotoFilesVerified": 250,
     "publicationCadenceConfigurationUnchanged": true,
-    "newReservationCreated": false
+    "authorization": {
+      "type": "explicit-manual-additional-ten-original-city-guides",
+      "ownerRequest": "PUBLICA 10 ARTICULOS VIRALES DE CIUDADES",
+      "dailyScheduleTargetUnchanged": 2,
+      "scheduleChanged": false,
+      "priorVerifiedOriginalsToday": 2,
+      "priorVerifiedTopicIdsToday": [
+        "cuernavaca",
+        "assisi"
+      ],
+      "additionalOriginalsAuthorized": 10,
+      "authorizedTotalUniqueOriginalsToday": 12,
+      "noViralSearchVolumeIndexingGuarantee": true
+    }
   },
   "supersededPublicationVerificationHistory": [
     {
@@ -1106,6 +1125,126 @@
             "browserResultSha256": "1260b0c81b5df091787aa0ed5cfdaf3018150bfe7916eb2531bbe9a2a2cfeb4d",
             "focusedNativeLogSha256": "d92490d8127e3ddd75f3895b56c748027296db4350f2497ed3f9a38a2d158fab",
             "fullSourceCiLogSha256": "8ea972078c197d4045776f65cd8c0921cdfb9946bd9a9d99fc04417e198035e5"
+          }
+        }
+      }
+    },
+    {
+      "supersededAt": "2026-11-22T01:58:04.827Z",
+      "status": "superseded-historical-inventory-metadata",
+      "inheritedFromRepositoryCommit": "c193b562b3c5740998fe0de632eeb3237d8aef4b",
+      "previousInventorySha256": "3725f4d939d7e3a9192dc4fc406e8387534d0d3d7a82efc1c7759c058826366b",
+      "previousInventoryVerifiedAt": "2026-11-21T18:05:07.904Z",
+      "previousInventoryVerificationFile": "editorial/verification/2026-11-21-publication.json",
+      "records": {
+        "countrySeoStrategy": {
+          "priorityCountries": [
+            "it",
+            "jp",
+            "mx",
+            "us"
+          ],
+          "priorityOriginals": 96,
+          "initialTargetOriginals": 100,
+          "remainingOriginals": 7,
+          "verification": "editorial/verification/2026-11-21-publication.json",
+          "targetCoveredOriginals": 93,
+          "aboveTargetOriginals": 3,
+          "targetCappedOriginals": 93,
+          "excessOriginals": 3
+        },
+        "technicalIndexability": {
+          "verifiedAt": "2026-11-21T17:55:13.533Z",
+          "verificationClosedAt": "2026-11-21T18:05:07.904Z",
+          "sourceCommit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
+          "verificationFile": "editorial/verification/2026-11-21-publication.json",
+          "sitemapUrls": 1016,
+          "httpUrlsChecked": 1016,
+          "localizedGuidesCheckedInHtml": 464,
+          "allSitemapPagesReachableThroughHtml": true,
+          "unreachableSitemapPages": 0,
+          "maximumGuideClickDepth": 2,
+          "duplicateTitlesWithinLocale": 0,
+          "duplicateTitleComparison": "NFC, collapsed whitespace and lower-case title within served HTML lang",
+          "newArticles": 2,
+          "newLocalizations": 4,
+          "googleIndexationVerified": false,
+          "evidence": {
+            "wholeSiteFile": "editorial/verification/2026-11-21-publication.json",
+            "wholeSiteResultSha256": "a267fa36250ee374307bc07194ee54dd2b8082d2f3e4bce3a5beb8d4db9f8c9d",
+            "wholeSiteRunSha256": "0bb234c0f7bf0e46a988cc4fa23f666ceafcbe2450992c6d37d64a3a2b627c4e"
+          }
+        },
+        "latestFullSitePublicationVerification": {
+          "verifiedAt": "2026-11-21T17:55:13.533Z",
+          "verificationClosedAt": "2026-11-21T18:05:07.904Z",
+          "sourceCommit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
+          "verificationFile": "editorial/verification/2026-11-21-publication.json",
+          "sitemapUrls": 1016,
+          "httpUrlsChecked": 1016,
+          "localizedGuidesCheckedInHtml": 464,
+          "allSitemapPagesReachableThroughHtml": true,
+          "unreachableSitemapPages": 0,
+          "maximumGuideClickDepth": 2,
+          "duplicateTitlesWithinLocale": 0,
+          "duplicateTitleComparison": "NFC, collapsed whitespace and lower-case title within served HTML lang",
+          "newArticles": 2,
+          "newLocalizations": 4,
+          "googleIndexationVerified": false,
+          "evidence": {
+            "wholeSiteFile": "editorial/verification/2026-11-21-publication.json",
+            "wholeSiteResultSha256": "a267fa36250ee374307bc07194ee54dd2b8082d2f3e4bce3a5beb8d4db9f8c9d",
+            "wholeSiteRunSha256": "0bb234c0f7bf0e46a988cc4fa23f666ceafcbe2450992c6d37d64a3a2b627c4e"
+          },
+          "scope": "Current exact-source complete sitemap verification; newArticles/newLocalizations describe this batch."
+        },
+        "latestBatchVerificationClosure": {
+          "verificationCompletedAt": "2026-11-21T18:05:07.904Z",
+          "verificationFile": "editorial/verification/2026-11-21-publication.json",
+          "sourceCommit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
+          "lateVerificationClosure": false,
+          "resumedFromPriorReservation": true,
+          "reservationDay": "2026-11-19",
+          "resumptionId": "bec2d77e-7c70-43c4-8e5c-7f081f152b81",
+          "resumptionCommit": "28c233f4021b4940a609c225c8fc476545c23226",
+          "firstPublicationNewYorkDate": "2026-11-21",
+          "verificationCompletionNewYorkDate": "2026-11-21",
+          "newOriginalsFirstPublishedOnCompletionDate": 2,
+          "newLocalizationsFirstPublishedOnCompletionDate": 4,
+          "originalsVerified": 2,
+          "localizedVersionsVerified": 4,
+          "documentaryPhotosVerified": 10,
+          "optimizedPhotoFilesVerified": 50,
+          "reservationIdentityPreserved": true,
+          "publicationCadenceConfigurationUnchanged": true,
+          "newReservationCreated": false
+        },
+        "httpCheckBreakdown": {
+          "verifiedAt": "2026-11-21T17:55:13.533Z",
+          "verificationClosedAt": "2026-11-21T18:05:07.904Z",
+          "verificationFile": "editorial/verification/2026-11-21-publication.json",
+          "sourceCommit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
+          "siteAndRedirects": 1026,
+          "allSitemapHtmlPages": 1016,
+          "allLocalizedGuideHtmlPages": 464,
+          "localProductionBrowserTests": 8,
+          "localProductionScope": {
+            "focusedCurrentBuildGuideCases": 8,
+            "wholeLocalSuiteClaimed": false
+          },
+          "fullSourceProductionTestsInGitHub": 988,
+          "batchHttpsRequests": 86,
+          "batchLocalizedVersionsVerified": 4,
+          "batchOriginalTopicsVerified": 2,
+          "selectedPhotoFilesVerified": 50,
+          "publicBrowserFlows": 8,
+          "note": "siteAndRedirects is the actual whole-site verifier.checked length. Sitemap/guide counts are subsets; independent HTTP/browser/test phases are not summed into a global total.",
+          "evidence": {
+            "wholeSiteResultSha256": "a267fa36250ee374307bc07194ee54dd2b8082d2f3e4bce3a5beb8d4db9f8c9d",
+            "batchHttpsResultSha256": "c7a938344ebc9dd3390e1356fc695945c9749661388348407451d874b40a4ef5",
+            "browserResultSha256": "a54cea626fab27570973b30098837cb633e6939b1f62a3aaff6cf8966d9322f4",
+            "focusedNativeLogSha256": "bbe9c81657b612e00eacb6586021fdb42c7214957d28f311f3a47acab86f4c18",
+            "fullSourceCiLogSha256": "66228294c2420144e50bd03eeff50fae275455c8be614641f6ead7019d6a8113"
           }
         }
       }

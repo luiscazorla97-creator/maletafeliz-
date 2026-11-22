@@ -1415,14 +1415,14 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-21T18:05:07.904Z",
+    "verifiedAt": "2026-11-22T01:58:04.827Z",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 27,
-        "localizedVersions": 54,
+        "publishedOriginals": 30,
+        "localizedVersions": 60,
         "targetOriginals": 30,
-        "missingOriginals": 3,
+        "missingOriginals": 0,
         "excessOriginals": 0,
         "articleIds": [
           "amalfi-coast",
@@ -1443,12 +1443,15 @@
           "mantua",
           "milan",
           "padua",
+          "palermo",
+          "parma",
           "perugia",
           "pisa",
           "ravenna",
           "rome",
           "rome-colosseum-visit",
           "siena",
+          "trieste",
           "venice",
           "venice-vaporetto",
           "verona"
@@ -1456,10 +1459,10 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 24,
-        "localizedVersions": 48,
+        "publishedOriginals": 25,
+        "localizedVersions": 50,
         "targetOriginals": 25,
-        "missingOriginals": 1,
+        "missingOriginals": 0,
         "excessOriginals": 0,
         "articleIds": [
           "christmas-fukuoka",
@@ -1471,6 +1474,7 @@
           "hiroshima",
           "kamakura",
           "kanazawa",
+          "kobe",
           "kurashiki",
           "kyoto",
           "kyoto-higashiyama-walk",
@@ -1490,15 +1494,16 @@
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 22,
-        "localizedVersions": 44,
+        "publishedOriginals": 25,
+        "localizedVersions": 50,
         "targetOriginals": 25,
-        "missingOriginals": 3,
+        "missingOriginals": 0,
         "excessOriginals": 0,
         "articleIds": [
           "cancun",
           "chapultepec-museums-day",
           "cuernavaca",
+          "durango",
           "guadalajara",
           "guanajuato",
           "leon-guanajuato",
@@ -1515,8 +1520,10 @@
           "puebla",
           "queretaro",
           "riviera-maya",
+          "san-cristobal-de-las-casas",
           "san-luis-potosi",
           "san-miguel-de-allende",
+          "veracruz",
           "zacatecas"
         ]
       },
@@ -1554,11 +1561,11 @@
         ]
       }
     ],
-    "priorityOriginals": 96,
-    "targetCappedOriginals": 93,
-    "missingToInitial100": 7,
+    "priorityOriginals": 103,
+    "targetCappedOriginals": 100,
+    "missingToInitial100": 0,
     "excessOriginals": 3,
-    "publicVerification": "editorial/verification/2026-11-21-publication.json"
+    "publicVerification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1872,6 +1879,40 @@
       "commit": "a4c5490f66a8f08d124339d2c4a1579cee7bfe24",
       "publicVerification": "editorial/verification/2026-11-21-publication.json",
       "note": "Cuernavaca and Assisi first published after the real zero-original New York census. Existing content, historical dates, candidates and daily schedule are preserved."
+    },
+    {
+      "batch": "2026-11-21-manual-ten-cities",
+      "publicationDay": "2026-11-21",
+      "topicIds": [
+        "palermo",
+        "kobe",
+        "veracruz",
+        "trieste",
+        "san-cristobal-de-las-casas",
+        "parma",
+        "auckland",
+        "durango",
+        "nice",
+        "rotterdam"
+      ],
+      "type": "explicit-manual-additional-ten-city-originals",
+      "authorization": {
+        "type": "explicit-manual-additional-ten-original-city-guides",
+        "ownerRequest": "PUBLICA 10 ARTICULOS VIRALES DE CIUDADES",
+        "dailyScheduleTargetUnchanged": 2,
+        "scheduleChanged": false,
+        "priorVerifiedOriginalsToday": 2,
+        "priorVerifiedTopicIdsToday": [
+          "cuernavaca",
+          "assisi"
+        ],
+        "additionalOriginalsAuthorized": 10,
+        "authorizedTotalUniqueOriginalsToday": 12,
+        "noViralSearchVolumeIndexingGuarantee": true
+      },
+      "status": "published-verified",
+      "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+      "publicVerification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json"
     }
   ],
   "verifiedCoverageHistory": [
@@ -3356,6 +3397,152 @@
       "missingToInitial100": 9,
       "excessOriginals": 3,
       "publicVerification": "editorial/verification/2026-11-18-publication.json"
+    },
+    {
+      "verifiedAt": "2026-11-21T18:05:07.904Z",
+      "countries": [
+        {
+          "countryId": "it",
+          "publishedOriginals": 27,
+          "localizedVersions": 54,
+          "targetOriginals": 30,
+          "missingOriginals": 3,
+          "excessOriginals": 0,
+          "articleIds": [
+            "amalfi-coast",
+            "assisi",
+            "bergamo",
+            "bologna",
+            "christmas-florence",
+            "christmas-milan",
+            "christmas-naples",
+            "christmas-rome",
+            "christmas-turin",
+            "christmas-venice",
+            "christmas-verona",
+            "ferrara",
+            "florence",
+            "florence-uffizi",
+            "lucca",
+            "mantua",
+            "milan",
+            "padua",
+            "perugia",
+            "pisa",
+            "ravenna",
+            "rome",
+            "rome-colosseum-visit",
+            "siena",
+            "venice",
+            "venice-vaporetto",
+            "verona"
+          ]
+        },
+        {
+          "countryId": "jp",
+          "publishedOriginals": 24,
+          "localizedVersions": 48,
+          "targetOriginals": 25,
+          "missingOriginals": 1,
+          "excessOriginals": 0,
+          "articleIds": [
+            "christmas-fukuoka",
+            "christmas-osaka",
+            "christmas-tokyo",
+            "christmas-yokohama",
+            "halloween-japan",
+            "himeji",
+            "hiroshima",
+            "kamakura",
+            "kanazawa",
+            "kurashiki",
+            "kyoto",
+            "kyoto-higashiyama-walk",
+            "matsumoto",
+            "mount-fuji",
+            "nagasaki",
+            "nara",
+            "nara-day-trip-transport",
+            "nikko",
+            "osaka",
+            "sapporo",
+            "takamatsu",
+            "takayama",
+            "tokyo",
+            "tokyo-new-year-2027"
+          ]
+        },
+        {
+          "countryId": "mx",
+          "publishedOriginals": 22,
+          "localizedVersions": 44,
+          "targetOriginals": 25,
+          "missingOriginals": 3,
+          "excessOriginals": 0,
+          "articleIds": [
+            "cancun",
+            "chapultepec-museums-day",
+            "cuernavaca",
+            "guadalajara",
+            "guanajuato",
+            "leon-guanajuato",
+            "los-cabos",
+            "mexico-city",
+            "morelia",
+            "muertos-merida",
+            "muertos-mexico-city",
+            "muertos-mixquic",
+            "muertos-oaxaca",
+            "muertos-puebla",
+            "oaxaca",
+            "patzcuaro",
+            "puebla",
+            "queretaro",
+            "riviera-maya",
+            "san-luis-potosi",
+            "san-miguel-de-allende",
+            "zacatecas"
+          ]
+        },
+        {
+          "countryId": "us",
+          "publishedOriginals": 23,
+          "localizedVersions": 46,
+          "targetOriginals": 20,
+          "missingOriginals": 0,
+          "excessOriginals": 3,
+          "articleIds": [
+            "buffalo",
+            "christmas-boston",
+            "christmas-chicago",
+            "christmas-los-angeles",
+            "christmas-miami",
+            "christmas-new-york",
+            "christmas-philadelphia",
+            "christmas-san-francisco",
+            "columbus",
+            "greenville-sc",
+            "halloween-usa",
+            "hawaii",
+            "hilo",
+            "las-vegas",
+            "las-vegas-new-year-2027",
+            "los-angeles",
+            "miami",
+            "new-orleans",
+            "new-york",
+            "new-york-new-year-2027",
+            "orlando",
+            "san-diego",
+            "washington-dc"
+          ]
+        }
+      ],
+      "priorityOriginals": 96,
+      "targetCappedOriginals": 93,
+      "missingToInitial100": 7,
+      "excessOriginals": 3,
+      "publicVerification": "editorial/verification/2026-11-21-publication.json"
     }
   ]
 }

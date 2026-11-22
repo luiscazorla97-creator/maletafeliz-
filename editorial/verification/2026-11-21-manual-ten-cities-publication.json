@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-22T01:58:04.827Z",
+  "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+  "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+  "batch": "2026-11-21-manual-ten-cities",
+  "publicationDay": "2026-11-21",
+  "reservationDay": "2026-11-21",
+  "executionId": "e6ce151f-3b54-4b7d-9040-b6054ae5a6b2",
+  "timeZone": "America/New_York",
+  "firstPublicationNewYorkDate": "2026-11-21",
+  "status": "publicly-verified",
+  "originals": 10,
+  "newOriginals": 10,
+  "localizations": 20,
+  "publishedTopicIds": [
+    "palermo",
+    "kobe",
+    "veracruz",
+    "trieste",
+    "san-cristobal-de-las-casas",
+    "parma",
+    "auckland",
+    "durango",
+    "nice",
+    "rotterdam"
+  ],
+  "priorSameDayUniqueVerifiedOriginals": 2,
+  "sameDayUniqueVerifiedOriginalsAfter": 12,
+  "sameDayUniqueVerifiedTopicIds": [
+    "assisi",
+    "auckland",
+    "cuernavaca",
+    "durango",
+    "kobe",
+    "nice",
+    "palermo",
+    "parma",
+    "rotterdam",
+    "san-cristobal-de-las-casas",
+    "trieste",
+    "veracruz"
+  ],
+  "authorization": {
+    "type": "explicit-manual-additional-ten-original-city-guides",
+    "ownerRequest": "PUBLICA 10 ARTICULOS VIRALES DE CIUDADES",
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false,
+    "priorVerifiedOriginalsToday": 2,
+    "priorVerifiedTopicIdsToday": [
+      "cuernavaca",
+      "assisi"
+    ],
+    "additionalOriginalsAuthorized": 10,
+    "authorizedTotalUniqueOriginalsToday": 12,
+    "noViralSearchVolumeIndexingGuarantee": true
+  },
+  "urls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-palermo-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-kobe-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-veracruz-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-trieste-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-san-cristobal-de-las-casas-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-parma-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-auckland-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-durango-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-niza-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-roterdam-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-palermo-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-kobe-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-veracruz-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-trieste-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-san-cristobal-de-las-casas-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-parma-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-auckland-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-durango-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-nice-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-rotterdam-5-places/"
+    ]
+  },
+  "globalOriginals": 242,
+  "globalLocalizations": 484,
+  "globalPhotos": 1033,
+  "globalCitedSourceRecords": 1274,
+  "photos": 50,
+  "newPhotoMetadataRecords": 50,
+  "optimizedPhotoFiles": 250,
+  "citedSourceDocuments": 59,
+  "coverage": {
+    "countries": [
+      {
+        "countryId": "it",
+        "publishedOriginals": 30,
+        "localizedVersions": 60,
+        "targetOriginals": 30,
+        "missingOriginals": 0,
+        "excessOriginals": 0,
+        "articleIds": [
+          "amalfi-coast",
+          "assisi",
+          "bergamo",
+          "bologna",
+          "christmas-florence",
+          "christmas-milan",
+          "christmas-naples",
+          "christmas-rome",
+          "christmas-turin",
+          "christmas-venice",
+          "christmas-verona",
+          "ferrara",
+          "florence",
+          "florence-uffizi",
+          "lucca",
+          "mantua",
+          "milan",
+          "padua",
+          "palermo",
+          "parma",
+          "perugia",
+          "pisa",
+          "ravenna",
+          "rome",
+          "rome-colosseum-visit",
+          "siena",
+          "trieste",
+          "venice",
+          "venice-vaporetto",
+          "verona"
+        ]
+      },
+      {
+        "countryId": "jp",
+        "publishedOriginals": 25,
+        "localizedVersions": 50,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 0,
+        "articleIds": [
+          "christmas-fukuoka",
+          "christmas-osaka",
+          "christmas-tokyo",
+          "christmas-yokohama",
+          "halloween-japan",
+          "himeji",
+          "hiroshima",
+          "kamakura",
+          "kanazawa",
+          "kobe",
+          "kurashiki",
+          "kyoto",
+          "kyoto-higashiyama-walk",
+          "matsumoto",
+          "mount-fuji",
+          "nagasaki",
+          "nara",
+          "nara-day-trip-transport",
+          "nikko",
+          "osaka",
+          "sapporo",
+          "takamatsu",
+          "takayama",
+          "tokyo",
+          "tokyo-new-year-2027"
+        ]
+      },
+      {
+        "countryId": "mx",
+        "publishedOriginals": 25,
+        "localizedVersions": 50,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 0,
+        "articleIds": [
+          "cancun",
+          "chapultepec-museums-day",
+          "cuernavaca",
+          "durango",
+          "guadalajara",
+          "guanajuato",
+          "leon-guanajuato",
+          "los-cabos",
+          "mexico-city",
+          "morelia",
+          "muertos-merida",
+          "muertos-mexico-city",
+          "muertos-mixquic",
+          "muertos-oaxaca",
+          "muertos-puebla",
+          "oaxaca",
+          "patzcuaro",
+          "puebla",
+          "queretaro",
+          "riviera-maya",
+          "san-cristobal-de-las-casas",
+          "san-luis-potosi",
+          "san-miguel-de-allende",
+          "veracruz",
+          "zacatecas"
+        ]
+      },
+      {
+        "countryId": "us",
+        "publishedOriginals": 23,
+        "localizedVersions": 46,
+        "targetOriginals": 20,
+        "missingOriginals": 0,
+        "excessOriginals": 3,
+        "articleIds": [
+          "buffalo",
+          "christmas-boston",
+          "christmas-chicago",
+          "christmas-los-angeles",
+          "christmas-miami",
+          "christmas-new-york",
+          "christmas-philadelphia",
+          "christmas-san-francisco",
+          "columbus",
+          "greenville-sc",
+          "halloween-usa",
+          "hawaii",
+          "hilo",
+          "las-vegas",
+          "las-vegas-new-year-2027",
+          "los-angeles",
+          "miami",
+          "new-orleans",
+          "new-york",
+          "new-york-new-year-2027",
+          "orlando",
+          "san-diego",
+          "washington-dc"
+        ]
+      }
+    ],
+    "priorityOriginals": 103,
+    "targetCappedOriginals": 100,
+    "missingToInitial100": 0,
+    "excessOriginals": 3
+  },
+  "tests": {
+    "local": {
+      "unit": 107,
+      "navigation": 28,
+      "productionFocused": 40,
+      "total": 175,
+      "wholeSuiteClaimed": false
+    },
+    "github": {
+      "runId": 44972274541,
+      "runUrl": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/44972274541",
+      "counts": {
+        "unit": 107,
+        "navigation": 28,
+        "production": 1028,
+        "total": 1163
+      },
+      "decodedLogSha256": "d7f47e1f47221f8d895f61ec45db74663c9b1a278cfdac1a01b9175de6e4ebff"
+    }
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-22T01:46:52.897Z",
+    "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "8ca2c0c1-4c45-4636-a18f-22be4ab08f57",
+        "canonicalCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+        "deploymentId": "8ca2c0c1-4c45-4636-a18f-22be4ab08f57",
+        "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-22T01:46:36.645694Z",
+          "ended_on": "2026-11-22T01:46:47.845793Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-22T01:37:17.647686Z",
+            "ended_on": "2026-11-22T01:37:17.658321Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-22T01:37:17.658321Z",
+            "ended_on": "2026-11-22T01:37:21.270756Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-22T01:37:21.270756Z",
+            "ended_on": "2026-11-22T01:37:59.49392Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-22T01:37:59.49392Z",
+            "ended_on": "2026-11-22T01:46:36.645694Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-22T01:46:36.645694Z",
+            "ended_on": "2026-11-22T01:46:47.845793Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "4e74cfca-2d24-4786-ae4a-ca07f75d1e57",
+        "canonicalCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+        "deploymentId": "4e74cfca-2d24-4786-ae4a-ca07f75d1e57",
+        "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-22T01:38:14.250536Z",
+          "ended_on": "2026-11-22T01:38:19.928714Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-22T01:37:19.163212Z",
+            "ended_on": "2026-11-22T01:37:19.164382Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-22T01:37:19.164382Z",
+            "ended_on": "2026-11-22T01:37:21.326571Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-22T01:37:21.326571Z",
+            "ended_on": "2026-11-22T01:38:12.075793Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-22T01:38:12.075793Z",
+            "ended_on": "2026-11-22T01:38:14.250536Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-22T01:38:14.250536Z",
+            "ended_on": "2026-11-22T01:38:19.928714Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true,
+    "checkoutProof": {
+      "checkedAt": "2026-11-22T01:46:55.087Z",
+      "success": true,
+      "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+      "proofs": [
+        {
+          "checkedAt": "2026-11-22T01:46:52.897Z",
+          "project": "maletafeliz-web",
+          "deploymentId": "8ca2c0c1-4c45-4636-a18f-22be4ab08f57",
+          "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+          "entries": 1165,
+          "logSha256": "a55094751d2a99e052e47bff76b5090398ce92d69f80a6de87d85917c4f9f05e",
+          "releaseCommandPresent": true,
+          "checkoutMarkerPresent": true,
+          "builtPages": "1062"
+        },
+        {
+          "checkedAt": "2026-11-22T01:46:52.897Z",
+          "project": "maletafeliz-www",
+          "deploymentId": "4e74cfca-2d24-4786-ae4a-ca07f75d1e57",
+          "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+          "entries": 23,
+          "logSha256": "8edb50869b1f0581ddd4730db365b58cfc5d816d6280e7d8606836b5fdf8dbd9",
+          "releaseCommandPresent": false,
+          "checkoutMarkerPresent": true
+        }
+      ],
+      "method": "Actual Cloudflare build log HEAD marker, matching deployment full commit metadata and canonical production state. WWW is the existing redirect project, not an Astro build."
+    }
+  },
+  "https": {
+    "counts": {
+      "originalTopics": 10,
+      "localizedVersionsVerified": 20,
+      "photoFilesVerified": 250,
+      "searchVersionsVerified": 20,
+      "googlebotUaProbes": 22,
+      "actualHttpsRequests": 378,
+      "sitemapUrls": 1056
+    },
+    "sha256": "c8880de6e375b47f77e760ec099cc00fc82dee2cacf25ff8cca31afb58ff5575"
+  },
+  "wholeSiteVerification": {
+    "sitemapUrls": 1056,
+    "guideVersions": 484,
+    "errors": 0,
+    "sha256": "fccf2d35b4fd70af098d993d17895716d2c22f2323efa1a50acde579e1e96949",
+    "run": {
+      "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+      "startedAt": "2026-11-22T01:48:42.250Z",
+      "finishedAt": "2026-11-22T01:49:26.238Z",
+      "exitCode": 0,
+      "outputSha256": "fccf2d35b4fd70af098d993d17895716d2c22f2323efa1a50acde579e1e96949",
+      "httpVerified": true,
+      "checkedRequests": 1066,
+      "sitemapUrls": 1056,
+      "guideVersions": 484
+    }
+  },
+  "browser": {
+    "flows": 40,
+    "screenshots": 46,
+    "sha256": "120f1cbdc955b05b5073337936e20b3d4d1665cdc2d2381bb13b34e076f3c8b9",
+    "visualReview": {
+      "reviewedAt": "2026-11-22T01:53:15.835204+00:00",
+      "reviewer": "Codex /root",
+      "success": true,
+      "sourceCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+      "contactSheets": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-ten-n21-evening/public-contact-mobile-guides-es-1.jpg",
+          "sha256": "6a8c57d45eaeed6248b317ac174504f4be361cffd461c497b18a3a3aa0b1549f",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-ten-n21-evening/public-contact-mobile-guides-es-2.jpg",
+          "sha256": "5350f92c4e6735451b5d5e554b7a8d4be41803c130c443beb60de8f85f3d1913",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-ten-n21-evening/public-contact-desktop-guides-es-1.jpg",
+          "sha256": "ca3d685944efdd497712d26c6ef4b9f1d6b0246003d276b53adaac27dd76aa17",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-ten-n21-evening/public-contact-desktop-guides-es-2.jpg",
+          "sha256": "8a470047d03a5da12d7f33d420ca991fc56761f15ac75033ec6dd27b6067083e",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-ten-n21-evening/public-contact-mobile-guides-en-1.jpg",
+          "sha256": "eae4a9c07bfecf4c1106cf511199583b51abc0c1b155cb4b2debbc1d7d39c8fd",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-ten-n21-evening/public-contact-mobile-guides-en-2.jpg",
+          "sha256": "042b2394a9bb1c275a3693617d1bb7096b0650b7f5d22d16c8e67368619e5171",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-ten-n21-evening/public-contact-desktop-guides-en-1.jpg",
+          "sha256": "78cd778ceef7d3304f45834a26ae6d30b547e643c8697ab77d714060598cd146",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-ten-n21-evening/public-contact-desktop-guides-en-2.jpg",
+          "sha256": "9e5e4405fe2a0873ba2b82e382a16fe30eadc836ed8eb428d01a29a7eff7ad6b",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-ten-n21-evening/public-contact-navigation.jpg",
+          "sha256": "4a426da805624f607384d580213b52a8a209ebd7e94806020c6aa3d38c3959be",
+          "actuallyViewed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "public-functional-es-390-menu.png",
+          "sha256": "70d40323e6a9065af817ba3b98993f81db8841bfcc1c92b3cf33390cd14ea39b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-390-search.png",
+          "sha256": "80e0a7c2934e61dfc626f5f6ac19a03158781fcad36defd65aba6d82c226741e",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-palermo-es-390.png",
+          "sha256": "d240817810a13fd17ae1aba0b7b928a82d7938dcd180e4eeb70faca3e1d5d484",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-kobe-es-390.png",
+          "sha256": "55f66cfb8c23058145c5147e6db1a589ee2ee979fce87328853d13ce61dcb98e",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-veracruz-es-390.png",
+          "sha256": "70f7ebd5d4a0acfdc489dbc13361c1502a0519f3ee0e1539005c7aa894a56544",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-trieste-es-390.png",
+          "sha256": "8cd870db9a9c4e3978e43223b126eb4d441c33a3f78ea2f9ce9c7be2d3a6dd1a",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-san-cristobal-de-las-casas-es-390.png",
+          "sha256": "bbce5a55cfe48f005c8b44f0b70ea20c23e4451fb16d786f082485c9228ce459",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-parma-es-390.png",
+          "sha256": "a2ea70e10c7581692bb6972075b65b9cd854baf385e48d9ecdb1f3558ce5bfe8",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-auckland-es-390.png",
+          "sha256": "bf6cf311a28127a6f476fee12b12f92909a8467ea146d4e21cf4caf799b5f715",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-durango-es-390.png",
+          "sha256": "6a0e577c1f0d5020e6940e13e74640f7a6dd173f29e45ce9115e60e5d4c8716d",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nice-es-390.png",
+          "sha256": "df0b357d4b115c79bc77765a598224401967db1cd84538ec49f3c43c854a0563",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-rotterdam-es-390.png",
+          "sha256": "1c24255dbf0cc7a4967de85ddca8b19ec2deae66e495428235c2127f5c6a7858",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-1440-search.png",
+          "sha256": "b574a21359bed28224d2a40f8b1c8f413fb81fba3a7267b7607245d89d65acab",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-palermo-es-1440.png",
+          "sha256": "47234d3c36387a24b57a9dccdee5fcb61e993076df5928bbef5e009ef877bad9",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-kobe-es-1440.png",
+          "sha256": "9132bf52bc4c4734f54257ed7b025fb9f6dfc22f6bba2cccc5f6b7e813ec4eb0",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-veracruz-es-1440.png",
+          "sha256": "5a4cb29a1c587bb341aca42912dfd7607363f23307970423c6304152d4307e8c",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-trieste-es-1440.png",
+          "sha256": "4f8f2405371fb32725879a834bdda0d2b734e13e55d1e00f1659e4d3a27255cf",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-san-cristobal-de-las-casas-es-1440.png",
+          "sha256": "88c9feb351448c933971f58f557228f7bbd63f7f3148a975d98dee6bedfba619",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-parma-es-1440.png",
+          "sha256": "9b1c0b231b1f3a13fcfdddab4f47439ede9b52d1cf6f53332d0a01a897ca65ee",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-auckland-es-1440.png",
+          "sha256": "5f5067b80effa38fceb264f06d3e0752ea0182f1d1744020894f57adb180afc8",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-durango-es-1440.png",
+          "sha256": "cdcf8af51ab43f15e08c564cd4034e0b4418a615fb5c74323ea3ac5b2cb4891b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nice-es-1440.png",
+          "sha256": "62d4c91f5c0e427fc5a0e6cada3174d425f7e7025a375cff8c4a91acde3569ad",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-rotterdam-es-1440.png",
+          "sha256": "f0fae6adad68d4f4562512fa9557393bde7c490812d2bb4ed6b093f056e589e2",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-menu.png",
+          "sha256": "209a229bc56b56b3e677d2c30d6fdca36f73f9d90584d3a80843ae8e6ce20e74",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-search.png",
+          "sha256": "943c6e3562610b084f7f6aeb7303a88e2ee732f79a1b973e013e7dc0371fe993",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-palermo-en-390.png",
+          "sha256": "da7c12756dc6d1f466fdcd65df921b3b4046d0d096a023b82120fd86ea30e69b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-kobe-en-390.png",
+          "sha256": "e2fb91206785ccc46fcf9c2c63f6df5b00d13bfeed963be593124b3ca3deb3ce",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-veracruz-en-390.png",
+          "sha256": "5a7880623cbc7442d82dc4575065e2fcf5336b952d50203b19c1fe800268f4dc",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-trieste-en-390.png",
+          "sha256": "c3f3a6abdb42f856387f2cfa3e98bc9fa514117b206ad5e828bddc4ca3a90619",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-san-cristobal-de-las-casas-en-390.png",
+          "sha256": "f9c9f62ae1d607fb78d5e214dee57c98e4754d36732ecdfff6b90e0c8e804a29",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-parma-en-390.png",
+          "sha256": "8c3a0ba887c5ab86321729806ac57d7c80a9d00be639ba28d24e27929136e7ad",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-auckland-en-390.png",
+          "sha256": "90aeaf22f8e78e0bb1c826df24b991a90c60174e71c7e56eeafb52715fb2abcd",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-durango-en-390.png",
+          "sha256": "5040cd00038f478ca731f7dae379e51d172265934375e094c00fe895d9ec3fdd",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nice-en-390.png",
+          "sha256": "c5344a2f37abe67d519d96869f86a6ec5c6fe2775d5909835455e8d79c7dc9d8",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-rotterdam-en-390.png",
+          "sha256": "1450c6ef5feee4879b66f9d9774001c09bf5dc6a7ce7d21c94003ae1cd9adac0",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-1440-search.png",
+          "sha256": "7ebc7660e3e725b69d6884a6254f3617c5be20bd1c9a88d345947fb3caf97e3c",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-palermo-en-1440.png",
+          "sha256": "1b29f1deb7f8928658fe6dc4bb1b6d34864319098e37080f0153c18c11dcbc98",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-kobe-en-1440.png",
+          "sha256": "596a67ad7ef1ddd48160b03a16e479a43625cd66b307f5fd603ca68ede07ed7b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-veracruz-en-1440.png",
+          "sha256": "bdea602bfc16c44b11e49243b4902d8e76ce7f36ab13c2cb1744ea09eaedc648",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-trieste-en-1440.png",
+          "sha256": "6aa2cff95beb0973202a0447e78d31d91ee965ee930db936843a2072d8e14992",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-san-cristobal-de-las-casas-en-1440.png",
+          "sha256": "53256bf95694b92c88185876b24f4fcf414fbd22b74e9b1c0aff29ea1a06ca28",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-parma-en-1440.png",
+          "sha256": "0b196feba4c1f1595d939dae868477c969f832dc76cf53476cb6b9bd0f7ea0d4",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-auckland-en-1440.png",
+          "sha256": "003a1c75de957c21bf247687360c729e2fe391285b5518b6543d77a588a87b88",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-durango-en-1440.png",
+          "sha256": "350cb2eaaa14ec1e17906a68d0f21e59f90c56a67e7cb5bd324ad3a5653a8aad",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nice-en-1440.png",
+          "sha256": "493cb01099139678da8b43f4ff429a28d2abd9174e51d38c21a85c5e761c1bdd",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-rotterdam-en-1440.png",
+          "sha256": "b1374cc1923a2c91240a01b3fc6ebad4356be831a961a8b3407da5e69fecac84",
+          "actuallyViewedInContactSheet": true
+        }
+      ],
+      "findings": [
+        "Actually viewed all nine public contact sheets through view_image: forty guide viewports in ES/EN at390px/1440px and six menu/search viewports.",
+        "All ten city titles are readable and wrap within available width; orange/turquoise3D logo and dark-blue header retain proportions and clear menu space on desktop and mobile.",
+        "Cover photographs, localized descriptions, breadcrumbs, country labels and editorial metadata render consistently. No visual truncation of logo or horizontal overflow observed; browser geometry checks independently passed.",
+        "Mobile menu and reactive search results render in both languages; the globe/3D homepage treatment remains present.",
+        "Advertising containers remain reserved and labelled. Screenshot QA does not certify third-party creative delivery. Analytics remains unrequested before consent in all four browser combinations.",
+        "Manual visual scope is the actual captured viewports; automated browser image checks and separate HTTPS hash verification cover all place-image downloads. No Google indexing or ranking claim."
+      ],
+      "issues": []
+    }
+  },
+  "editorialIntegrationSha256": "930ee6cc03b4f7a4b021cd5aa4e98547a3e3ab79de5304009842c76659cdf152",
+  "preservationSha256": "ed59dafb8cc050579e1bea7712d9afb5b409c0c0ebbe4378870dfed923c2b3da",
+  "reservation": {
+    "commit": "aa1e6059d2754ff66ea30a73a5d800c200427d36",
+    "createdAt": "2026-11-22T00:52:31.409261+00:00",
+    "nativeReservationInvocationClaimed": false,
+    "manualExclusiveAggregate": true
+  },
+  "googleIndexationVerified": false,
+  "schedulerAttributionVerified": false,
+  "dailyScheduleTargetUnchanged": 2,
+  "notes": "Explicit manual request for ten additional city originals. Prior two verified today are retained and counted; daily schedule unchanged. SEO preparation does not establish Google indexing, viral demand, rankings or advertising income."
+}

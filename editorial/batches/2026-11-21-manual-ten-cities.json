@@ -2,7 +2,7 @@
   "id": "2026-11-21-manual-ten-cities",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-22T00:52:31.409261+00:00",
-  "status": "reserved-not-generated",
+  "status": "published",
   "topicIds": [
     "palermo",
     "kobe",
@@ -17,7 +17,7 @@
   ],
   "requestedCount": 10,
   "localizedVersionCount": 20,
-  "publishedCount": 0,
+  "publishedCount": 10,
   "errors": [],
   "authorization": {
     "type": "explicit-manual-additional-ten-original-city-guides",
@@ -56,10 +56,72 @@
     "executionId": "e6ce151f-3b54-4b7d-9040-b6054ae5a6b2",
     "baseCommit": "c193b562b3c5740998fe0de632eeb3237d8aef4b",
     "startedAt": "2026-11-22T00:50:47.021423+00:00",
-    "status": "reserved-not-published",
-    "heartbeatAt": "2026-11-22T00:52:31.409272+00:00",
-    "leaseUntil": "2026-11-22T06:50:47.021423+00:00",
+    "status": "completed-verified",
+    "heartbeatAt": "2026-11-22T01:58:04.827Z",
+    "leaseUntil": "2026-11-22T01:58:04.827Z",
     "coordinator": "Codex root only R/Git/deploymentwriter; authors private staging only",
-    "publicationDay": "2026-11-21"
-  }
+    "publicationDay": "2026-11-21",
+    "completedAt": "2026-11-22T01:58:04.827Z"
+  },
+  "publishedTopicIds": [
+    "palermo",
+    "kobe",
+    "veracruz",
+    "trieste",
+    "san-cristobal-de-las-casas",
+    "parma",
+    "auckland",
+    "durango",
+    "nice",
+    "rotterdam"
+  ],
+  "verifiedTopicCount": 10,
+  "localizedVersionsPublished": 20,
+  "documentaryPhotosPublished": 50,
+  "optimizedPhotoFiles": 250,
+  "citedSourceDocuments": 59,
+  "publishedCommit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
+  "publiclyVerifiedAt": "2026-11-22T01:58:04.827Z",
+  "firstPublicationNewYorkDate": "2026-11-21",
+  "publicVerification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-palermo-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-kobe-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-veracruz-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-trieste-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-san-cristobal-de-las-casas-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-parma-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-auckland-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-durango-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-niza-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-roterdam-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-palermo-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-kobe-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-veracruz-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-trieste-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-san-cristobal-de-las-casas-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-parma-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-auckland-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-durango-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-nice-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-rotterdam-5-places/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "assisi",
+    "auckland",
+    "cuernavaca",
+    "durango",
+    "kobe",
+    "nice",
+    "palermo",
+    "parma",
+    "rotterdam",
+    "san-cristobal-de-las-casas",
+    "trieste",
+    "veracruz"
+  ]
 }

@@ -1,0 +1,35 @@
+{
+  "id": "m21-tr-rail",
+  "url": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/trieste-e-il-castello-di-miramare.html",
+  "fetchedAt": "2026-11-22T00:50:44.250Z",
+  "facts": [
+    {
+      "fact": "Regional trains serve Miramare station for the castle.",
+      "excerpt": "con fermata nella località di Miramare",
+      "location": "Normalized-whitespace characters 27523–27561"
+    },
+    {
+      "fact": "Walking access is signposted from the station toward a side park entrance.",
+      "excerpt": "dall’ingresso laterale del Parco , facilmente raggiungibile a piedi seguendo le indicazioni all’uscita della stazione",
+      "location": "Normalized-whitespace characters 27582–27699"
+    },
+    {
+      "fact": "Tickets are available through official website, app and station channels.",
+      "excerpt": "I biglietti sono acquistabili su tutti i canali di vendita di Trenitalia",
+      "location": "Normalized-whitespace characters 29845–29917"
+    }
+  ],
+  "actuallyRead": true,
+  "finalUrl": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/trieste-e-il-castello-di-miramare.html",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "51fa36a407ab0c25213d409105c9e508f69f4eee05e0f191fdb73c8b1053e989",
+  "bytes": 551259,
+  "textSha256": "47434e1dbd76b70a866c82168b61f209110e5618823671e80eb109ccfbc65dc7",
+  "title": "Trenitalia: Trieste e il Castello di Miramare",
+  "readAt": "2026-11-22T00:55:53.480657+00:00",
+  "rawFile": "content/research/raw/m21-tr-rail.raw",
+  "textFile": "content/research/raw/m21-tr-rail.txt",
+  "captureScope": "Actual complete HTTP response and extracted readable text retained with hashes; facts bounded to passages actually read. No reading of linked resources implied."
+}

@@ -1,0 +1,64 @@
+{
+  "id": "file-villa",
+  "url": "https://commons.wikimedia.org/wiki/File:Antiguo_Palacio_de_Gobierno_(ahora_Museo_Francisco_Villa).jpg",
+  "fetchedAt": "2026-11-22T00:53:57.664Z",
+  "facts": [
+    {
+      "fact": "The photographer offers this particular file under CC BY-SA 3.0; supplied title and creator retained.",
+      "excerpt": "This file is licensed under the \nCreative Commons\nAttribution-Share Alike 3.0 Unported\n license.",
+      "location": "Individual file Licensing block after Summary/Author; source, date and file history actually read."
+    }
+  ],
+  "actuallyRead": true,
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Antiguo_Palacio_de_Gobierno_(ahora_Museo_Francisco_Villa).jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "fec381c6be6ad8a9cf0e5b976e1c17793099e89770deabb1ab7b3622b7156950",
+  "bytes": 161459,
+  "textSha256": "865b548ffd9ebfb85230be0203e4c565d98feac3da9e7fa9d457266060847976",
+  "photoId": "m21-du-villa",
+  "sourceFileTitle": "Antiguo Palacio de Gobierno (ahora Museo Francisco Villa).jpg",
+  "author": "Francisco González Pulido",
+  "photographDate": "3 June 2013, 21:02:23",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "readAt": "2026-11-22T01:00:00.894131+00:00",
+  "deedEvidence": {
+    "file": "content/research/m21-du-license-by-sa-3.json",
+    "rawSha256": "530b6415b4339887b1a5ffaf7fcb9e292f4d5776072f70f76ba2f0a7841010c0",
+    "textSha256": "f3122abf7594accd580177a86f758e699a7ee94c0d65e58a74f975e3da889453"
+  },
+  "downloadCapture": {
+    "id": "image-villa",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Antiguo_Palacio_de_Gobierno_%28ahora_Museo_Francisco_Villa%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "fetchedAt": "2026-11-22T00:54:31.606Z",
+    "facts": [],
+    "actuallyRead": false,
+    "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Antiguo_Palacio_de_Gobierno_%28ahora_Museo_Francisco_Villa%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "retryAfter": null,
+    "contentSha256": "b38be34191868e6bd8bd62ace30824bd5d474a621ae88e98ed0225eeea8b31d3",
+    "bytes": 9726779
+  },
+  "originalFile": "content/images/originals/m21-du-villa.jpg",
+  "originalWidth": 4928,
+  "originalHeight": 3264,
+  "originalSha256": "b38be34191868e6bd8bd62ace30824bd5d474a621ae88e98ed0225eeea8b31d3",
+  "sourceHistoryAndDateNotes": "Actual Summary, date, author, individual grant, file history and metadata context retained and read. The supplied rendition is the full-resolution JPEG. Initial upload and photograph dates can differ; archival year refers to stated photograph date. Existing software/processing metadata retained; no claim that source bytes are unprocessed camera-originals.",
+  "modifications": "Original full-resolution Commons JPEG retained byte for byte as downloaded, including any prior photographer processing visible in metadata. Auto-orientation and proportional resizing to responsive widths, WebP conversion quality84 effort6; no crop, recolouring, object removal or generated edit by MaletaFeliz. Photographic derivatives retain CC BY-SA 3.0. Archive photograph, not evidence of present operation, crowds, exhibits, access, lighting, weather or boat positions.",
+  "review": {
+    "reviewer": "Codex Durango/Nice author and documentary-photo agent",
+    "reviewedAt": "2026-11-22T01:00:00.894131+00:00",
+    "fileLicenceActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "documentaryImageActuallyViewed": true,
+    "visualFinding": "Wide dusk exterior shows the long stone palace facade, ground-floor arches and decorated upper windows; the individual file expressly identifies the Durango Francisco Villa Museum, not a different Villa museum.",
+    "noGeneratedEdits": true,
+    "additionalRightsScope": "Selected photographers’ grants and selected CC deeds actually read. Architecture, public urban landscapes and incidental visitors illustrate these locations. No model release, current commercial on-site permit, property-access right, advertiser endorsement or blanket third-party-rights clearance is asserted; CC deeds expressly warn other rights can apply."
+  },
+  "captureScope": "Complete individual-file raw and extracted readable context are retained privately with these exact hashes and paths. Supporting grant excerpt retained in repository evidence.",
+  "privateRawCapture": "/workspace/artifacts/maletafeliz-manual-ten-n21-evening/durango/captures/file-villa.raw",
+  "privateTextCapture": "/workspace/artifacts/maletafeliz-manual-ten-n21-evening/durango/captures/file-villa.txt"
+}

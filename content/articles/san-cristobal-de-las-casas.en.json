@@ -1,0 +1,209 @@
+{
+  "id": "san-cristobal-de-las-casas",
+  "destinationId": "san-cristobal-de-las-casas",
+  "status": "published",
+  "intent": "san-cristobal-de-las-casas-first-visit-five-city-places",
+  "coverImageId": "m21-sc-cathedral",
+  "sources": [
+    {
+      "id": "m21-sc-chiapas",
+      "url": "https://www.chiapas.gob.mx/pueblos-magicos/san-cristobal/",
+      "title": "Gobierno de Chiapas — San Cristóbal de las Casas historic centre",
+      "accessedAt": "2026-11-22T00:50:46.357Z",
+      "evidenceFile": "content/research/m21-sc-chiapas.json"
+    },
+    {
+      "id": "m21-sc-museums",
+      "url": "https://www.chiapas.gob.mx/museos-sc/",
+      "title": "Gobierno de Chiapas — museums in San Cristóbal de las Casas",
+      "accessedAt": "2026-11-22T00:50:48.336Z",
+      "evidenceFile": "content/research/m21-sc-museums.json"
+    },
+    {
+      "id": "m21-sc-nabolom",
+      "url": "https://sic.cultura.gob.mx/ficha.php?disciplina=&table=museo&table_id=112",
+      "title": "Secretaría de Cultura SIC — Museo Na Bolom",
+      "accessedAt": "2026-11-22T00:50:52.514Z",
+      "evidenceFile": "content/research/m21-sc-nabolom.json"
+    },
+    {
+      "id": "m21-sc-ambar-detail",
+      "url": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=108",
+      "title": "Secretaría de Cultura SIC — Museo del Ámbar de Chiapas",
+      "accessedAt": "2026-11-22T00:55:18.509Z",
+      "evidenceFile": "content/research/m21-sc-ambar-detail.json"
+    },
+    {
+      "id": "m21-sc-domingo",
+      "url": "https://sitiosymonumentos.cultura.gob.mx/iii-estudios-monograficos/santo-domingo/",
+      "title": "Secretaría de Cultura — Santo Domingo federal monument study",
+      "accessedAt": "2026-11-22T00:50:54.182Z",
+      "evidenceFile": "content/research/m21-sc-domingo.json"
+    }
+  ],
+  "relatedIds": [
+    "oaxaca",
+    "puebla",
+    "cuernavaca"
+  ],
+  "locale": "en",
+  "slug": "things-to-do-san-cristobal-de-las-casas-5-places",
+  "title": "Things to do in San Cristóbal de las Casas: 5 historic places",
+  "description": "Visit five places in San Cristóbal de las Casas: the Cathedral, Santo Domingo, Amber Museum, Na Bolom and Carmen Arch, with a practical historic-centre itinerary.",
+  "keyword": "things to do in San Cristóbal de las Casas",
+  "relatedQueries": [
+    "San Cristóbal de las Casas places to visit",
+    "San Cristóbal Amber Museum",
+    "San Cristóbal historic centre walking route"
+  ],
+  "intro": [
+    "For a first visit to San Cristóbal de las Casas, focus on five places with different roles: the Cathedral, the Santo Domingo complex, the Amber Museum in La Merced, Na Bolom and the Carmen Arch. The selection combines squares, architecture and museums without turning every church, stall or courtyard within one complex into an additional attraction.",
+    "Walking and allowing time for a few interiors is a useful way to understand the historic centre of this Pueblo Mágico in Chiapas. Its interest extends beyond facades to living cultures and the stories museums can help explain. Church interiors depend on actual visiting arrangements. This guide does not treat an old restoration announcement as a guarantee that every part of a building will be accessible when you arrive."
+  ],
+  "quickFacts": [
+    {
+      "label": "Location",
+      "value": "San Cristóbal de las Casas, Chiapas, Mexico"
+    },
+    {
+      "label": "Selection",
+      "value": "Five places in the historic centre and El Cerrillo"
+    },
+    {
+      "label": "Focus",
+      "value": "Architecture, history and two museum visits"
+    },
+    {
+      "label": "Before travelling",
+      "value": "Confirm current access and admission directly"
+    }
+  ],
+  "sections": [
+    {
+      "id": "cathedral",
+      "kind": "place",
+      "heading": "1. The Cathedral: begin with the square and facade",
+      "paragraphs": [
+        "San Cristóbal Mártir Cathedral provides a useful starting point in the historic core. The Chiapas government’s guide places it beside the main square and highlights a baroque facade within a Central American architectural tradition. Before looking for the entrance, examine its relationship with the public space and surrounding buildings. That first observation helps explain why the square continues to organise a visitor’s route through the city.",
+        "Look at the facade’s composition, changes of colour and decorative elements. You do not need a specialist architectural vocabulary: comparing it with Santo Domingo later makes two different expressions of local baroque easier to recognise. The documentary photograph in this guide is archival and shows the illuminated exterior, rather than a current lighting programme or celebration.",
+        "If visits are permitted when you arrive, respect worship and photography notices. If you encounter closed doors, works or restricted access, keep this as an exterior stop. A previous reopening announcement is not enough to establish that every area will be available on a future travel date."
+      ],
+      "sourceIds": [
+        "m21-sc-chiapas"
+      ],
+      "imageId": "m21-sc-cathedral"
+    },
+    {
+      "id": "santo-domingo",
+      "kind": "place",
+      "heading": "2. Santo Domingo: architecture within a living setting",
+      "paragraphs": [
+        "The Santo Domingo church and former convent form one stop in this selection. According to the official Chiapas description, the northern Eclesiástico pedestrian axis links the complex with the Cathedral and central square. Its richly worked mortar facade is a defining feature. Pause to take in the overall density of the decoration before trying to identify each individual figure or motif.",
+        "The federal monument study also documents the site’s connection with textile trading and the Indigenous communities who use the area. Approach the surroundings as a place of work and exchange rather than scenery. If a textile interests you, ask about its technique, origin and maker. Do not assume that everything sold near the church was necessarily produced by the person offering it.",
+        "Ask permission before taking close photographs of people or stalls, and accept a refusal. Check access to the church and former convent spaces separately: belonging to the same historic complex does not establish a shared ticket or timetable. The facade and surrounding walk remain worthwhile when interior access is unavailable."
+      ],
+      "sourceIds": [
+        "m21-sc-chiapas",
+        "m21-sc-domingo"
+      ],
+      "imageId": "m21-sc-domingo"
+    },
+    {
+      "id": "amber-museum",
+      "kind": "place",
+      "heading": "3. The Amber Museum: understand the material before shopping",
+      "paragraphs": [
+        "The Museo del Ámbar de Chiapas occupies the former La Merced convent on Diego de Mazariegos. Its purpose goes beyond displaying jewellery: the national cultural record describes explanations of amber’s origin, formation, extraction and transformation. Historical and present-day uses sit alongside information about polishing and carving, giving the visit a clear educational focus.",
+        "This context can help you ask better questions if you later want to buy a piece. Look at the relationship between the raw material and skilled craft, without treating the museum visit as certification of every shop in the city. A commercial label, attractive colour or informal recommendation is not a substitute for understanding the product and terms of sale.",
+        "The building has another story to tell. The official record describes military and prison uses within the former convent complex. This guide’s archive photograph shows its exterior tower, rather than the present exhibition installation. Confirm opening, admission and possible breaks before arranging your day: times and prices retained in older cultural records should not automatically be treated as current."
+      ],
+      "sourceIds": [
+        "m21-sc-ambar-detail",
+        "m21-sc-museums"
+      ],
+      "imageId": "m21-sc-ambar"
+    },
+    {
+      "id": "na-bolom",
+      "kind": "place",
+      "heading": "4. Na Bolom: add context to your journey through Chiapas",
+      "paragraphs": [
+        "Na Bolom, at Vicente Guerrero 33 in the El Cerrillo neighbourhood, changes the scale of the visit. It is associated with archaeologist Frans Blom and photographer Gertrude Duby, whose work concerned Indigenous culture and the ecology of Chiapas. The house museum introduces perspectives that can broaden a trip otherwise centred on buildings and shopping.",
+        "The national Cultural Information System lists permanent themes including Lacandon ethnography, explorers and archaeology, as well as a library and other activities. Choose a thread that interests you and follow the explanations carefully. Reading a smaller number of displays with context is more useful than rushing through every room in search of photogenic objects. Distinguish the historical collection from the present-day lives of the communities it describes.",
+        "The registry mentions guided visits in Spanish and English, but confirm when they operate and how to request one. A listed service does not mean a guide is available on demand throughout the day. The archive photograph identifies the house from the street; seeing that exterior is not equivalent to visiting the exhibitions, so allow time to enter if the museum is a priority."
+      ],
+      "sourceIds": [
+        "m21-sc-nabolom",
+        "m21-sc-museums"
+      ],
+      "imageId": "m21-sc-nabolom"
+    },
+    {
+      "id": "carmen-arch",
+      "kind": "place",
+      "heading": "5. The Carmen Arch: change your architectural perspective",
+      "paragraphs": [
+        "The Arco del Carmen offers a different comparison towards the end of the walk. The Chiapas government includes it among the city’s places of interest and highlights El Carmen’s Mudéjar tower. After the baroque facades of the Cathedral and Santo Domingo, consider how an arch and tower establish a different relationship between a building and the street.",
+        "Approach from different permitted viewpoints to understand its volume rather than relying on one frontal photograph. The accompanying documentary image records the Carmen tower and its passage arch from the street. It is neither a reconstruction nor evidence of a current cultural programme. Its interest lies in the architecture and urban presence, whether or not an exhibition or interior visit coincides with your stay.",
+        "Include it as part of your return towards the centre instead of treating it as a separate excursion. No tower climb or access to every room in the complex is promised here. Respect signs, traffic and any passage restrictions. An exterior view already serves the purpose of comparing several architectural languages within the city."
+      ],
+      "sourceIds": [
+        "m21-sc-chiapas"
+      ],
+      "imageId": "m21-sc-carmen"
+    },
+    {
+      "id": "planning",
+      "kind": "practical",
+      "heading": "Plan the route without relying on outdated opening times",
+      "paragraphs": [
+        "Before setting out, decide which of the two museums matters most and verify its opening arrangements directly. A cultural registry is useful for researching an institution’s themes and address, but can retain prices or timetables that have changed. This guide therefore quotes no admission amounts and does not promise that every interior will be open within one circuit. Use any confirmed booking as your anchor and keep exterior stops flexible.",
+        "Group the Cathedral and Santo Domingo along the Eclesiástico axis, then put the Amber Museum and Carmen into another part of the walk. Na Bolom is in El Cerrillo: check the route from your accommodation rather than treating it as another doorway on the central square. When choosing where to stay, compare actual access, noise, facilities and cancellation terms alongside the position on a map.",
+        "Cobbled surfaces and changes of level can require more care than a short line on a screen suggests. Wear shoes with reliable grip and ask each venue about steps and assistance when necessary. Check the forecast when packing layers and rain protection; do not assume that every Mexican destination has the same weather."
+      ],
+      "sourceIds": [
+        "m21-sc-chiapas",
+        "m21-sc-nabolom",
+        "m21-sc-ambar-detail"
+      ]
+    },
+    {
+      "id": "respect",
+      "kind": "practical",
+      "heading": "Visit with respect for the people who use these spaces",
+      "paragraphs": [
+        "Official information describes Tseltal and Tsotsil participation in the city’s commercial life. Avoid treating different communities as interchangeable or guessing someone’s identity from their clothing. Ask specific questions about textiles or local history when there is a willingness to talk, and agree service charges clearly. Someone at work is not obliged to become part of an informal guided experience.",
+        "This selection stays within San Cristóbal. An excursion to another community needs separate research into transport, local rules and permissions; proximity on a map does not make it part of the same visit. For a longer Mexican journey, the related guides to Oaxaca, Puebla and Cuernavaca introduce different urban routes. Comparing them can reveal regional differences rather than encouraging an expectation that every historic centre offers the same experience."
+      ],
+      "sourceIds": [
+        "m21-sc-chiapas",
+        "m21-sc-domingo"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Start with the square and Cathedral, making interior access conditional on the actual arrangements. Follow the Eclesiástico axis towards Santo Domingo and give time to the facade and surrounding activity without entering people’s working space. Continue to Na Bolom if it fits your confirmed museum visit; otherwise keep that section for another morning.",
+    "After a meal break, arrange the Amber Museum at La Merced and the Carmen Arch. Reverse the order when admissions require it, rather than following an invented fixed timetable. If you want to study both museums carefully, divide the selection between two days so that you can read the displays and walk without rushing."
+  ],
+  "faq": [
+    {
+      "question": "What should I see on a first visit to San Cristóbal?",
+      "answer": "The Cathedral, Santo Domingo, Amber Museum, Na Bolom and Carmen Arch provide a varied selection. The two museums need more time than exterior stops, so decide how deeply to visit according to your schedule and confirmed access."
+    },
+    {
+      "question": "Are the Cathedral and Santo Domingo always open?",
+      "answer": "Permanent interior access is not guaranteed. Check notices and conditions on the day, respect religious services and retain an exterior alternative. An earlier restoration or reopening report does not establish that every area is visitable today."
+    },
+    {
+      "question": "Is the Amber Museum worthwhile without buying jewellery?",
+      "answer": "Yes. Its content explains the material’s origin, formation, extraction, polishing, carving and uses. It has a cultural purpose independent of shopping and does not certify products sold by every local business."
+    },
+    {
+      "question": "Does Na Bolom offer tours in English?",
+      "answer": "The national registry lists guided visits in Spanish and English. Ask about availability and how to request one for your date. The listing does not imply that a guide is waiting at every hour."
+    }
+  ],
+  "conclusion": "San Cristóbal de las Casas becomes more rewarding when public spaces are combined with a carefully chosen museum visit. Compare the Cathedral, Santo Domingo and Carmen, and use the Amber Museum and Na Bolom to expand the context. Confirm current access and leave time to observe, ask questions and respect the pace of people who live and work in the city.",
+  "publishedAt": "2026-11-22T01:08:10.822Z",
+  "updatedAt": "2026-11-22T01:08:10.822Z"
+}

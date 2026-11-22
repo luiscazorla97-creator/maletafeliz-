@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJLMEL3KNY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GJLMEL3KNY');
+    </script>
+
+    <!-- Título Dinámico -->
+    <title>Centro Histórico - Portal</title>
+
+    
+    
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="https://descubre.veracruzmunicipio.gob.mx/images/favicon/icono-32.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="https://descubre.veracruzmunicipio.gob.mx/images/favicon/icono-512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://descubre.veracruzmunicipio.gob.mx/images/favicon/icono-512.png">
+
+    
+    <link rel="stylesheet" href="https://descubre.veracruzmunicipio.gob.mx/css/tipografias.css">
+    
+    <link rel="stylesheet" href="https://descubre.veracruzmunicipio.gob.mx/css/fontawesome.css">
+    <!-- PrimeIcons -->
+    <link rel="stylesheet" href="https://descubre.veracruzmunicipio.gob.mx/css/primeicons.css">
+    
+    <script src="https://descubre.veracruzmunicipio.gob.mx/js/tailwindcss-3.4.17.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+
+    <!-- CountUp.js para animaciones de conteo numéricos -->
+    <script src="https://descubre.veracruzmunicipio.gob.mx/js/countUp.umd.js"></script>
+    <script>
+        tailwind.config = {
+            
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Montserrat', 'sans-serif'] },
+                    /*
+                     * La paleta de marca NO lleva el color escrito aquí: lo lee de
+                     * una variable CSS (ver el bloque <style> de abajo, que trae
+                     * los valores por defecto). Así el color de un micrositio se
+                     * puede cambiar sin tocar ni una clase del marcado.
+                     *
+                     * Los canales van SUELTOS ("92 17 60", no "#5C113C") y el
+                     * <alpha-value> es lo que deja seguir usando la transparencia
+                     * de Tailwind: bg-brand-gold/15 necesita poder descomponer el
+                     * color para calcular ese 15%, y con un hexadecimal dentro de
+                     * una variable no puede. Comprobado con este mismo Tailwind:
+                     * el resultado es idéntico al del color escrito a mano.
+                     */
+                    colors: {
+                        brand: {
+                            burgundy: 'rgb(var(--brand-burgundy) / <alpha-value>)',
+                            'burgundy-mid': 'rgb(var(--brand-burgundy-mid) / <alpha-value>)',
+                            'burgundy-deep': 'rgb(var(--brand-burgundy-deep) / <alpha-value>)',
+                            cream: 'rgb(var(--brand-cream) / <alpha-value>)',
+                            'cream-dim': 'rgb(var(--brand-cream-dim) / <alpha-value>)',
+                            gold: 'rgb(var(--brand-gold) / <alpha-value>)',
+                            muted: 'rgb(var(--brand-muted) / <alpha-value>)'
+                        }
+                    },
+                    boxShadow: {
+                        // Creas tu clase 'shadow-3xl'
+                        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+                        // O incluso una más extrema
+                        '4xl': '0 50px 100px -20px rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        }
+    </script>
+
+    
+    <style>
+        :root {
+            /*
+             * Los CUATRO del manual de identidad, y nada más.
+             *
+             * Aquí vivían también --brand-maroon (un burdeos 5c2243), --brand-purple
+             * (#825973), --brand-dark (#5b203c) y --brand-light (#f8f5f0). No son
+             * del manual, pero al estar en esta lista salían como clases de
+             * Tailwind (bg-brand-maroon, text-brand-purple...) y se usaron en 89
+             * sitios con toda la razón del mundo: se llamaban "brand" igual que
+             * las buenas. Eran burdeos que no son EL burdeos y cremas que no son
+             * EL crema, y la diferencia solo se nota cuando quedan pegados.
+             *
+             * Se sustituyeron por el color del manual que les tocaba y se
+             * quitaron de aquí y de la configuración de Tailwind. No volver a
+             * añadir una que el manual no declare: en el momento en que se llama
+             * "brand" algo, deja de ser una decisión y pasa a ser la norma.
+             */
+            --brand-burgundy: 92 17 60;    /* #5C113C */
+            --brand-cream: 244 240 233;    /* #F4F0E9 */
+            --brand-gold: 221 179 4;       /* #DDB304 */
+            --brand-muted: 177 150 87;     /* #B19657 */
+
+            /*
+             * Tonos derivados del burdeos, para fondos y paneles oscuros.
+             *
+             * Aquí van los colores EXACTOS que el diseño usa hoy, para que nada
+             * cambie de aspecto. La proporción respecto al burdeos es lo que el
+             * CMS aplicará cuando alguien elija un color distinto:
+             *   -mid  = 67% del burdeos  (63 11 41 ≈ 62 11 40)
+             *   -deep = 37% del burdeos  (35 6 22  ≈ 34 6 22)
+             * Comprobado que a esas proporciones el color calculado y el real no
+             * se distinguen a simple vista, ni siquiera pegados sin separación.
+             *
+             * El cálculo lo hace el SERVIDOR al guardar, no el navegador. Se
+             * puede escribir en CSS con rgb(from ...), y funciona, pero esa
+             * sintaxis no llega a Firefox hasta julio de 2024: en un navegador
+             * anterior la regla entera se descarta y un panel oscuro se queda
+             * sin fondo, con su texto blanco encima ilegible. Calcularlo antes
+             * deja un CSS corriente que funciona en todo.
+             */
+            --brand-burgundy-mid: 63 11 41;    /* #3F0B29 */
+            --brand-burgundy-deep: 35 6 22;    /* #230616 */
+
+            /*
+             * El crema oscurecido NO se deriva: sale al 92% del crema, y en un
+             * color claro ese desvío sí se nota (se ve la costura al pegarlos).
+             * Va con su propio valor, y así seguirá.
+             */
+            --brand-cream-dim: 231 223 209;    /* #E7DFD1 */
+        }
+    </style>
+
+    
+    
+
+    <!-- Petite Vue.js -->
+    <script src="https://descubre.veracruzmunicipio.gob.mx/js/petite-vue.iife.js" defer init></script>
+
+    <!-- Flatpickr -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/es.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/fr.js"></script>
+
+    <style>
+        body { font-family: 'Montserrat', sans-serif; background-color: #ffffff; }
+
+        /*
+         * La letra de los títulos solemnes, en un solo sitio.
+         *
+         * El manual pide Marion (§14.3) y Marion no se puede usar todavía por
+         * derechos de autor: no hay archivo de esa fuente en ningún proyecto. Va
+         * declarada la PRIMERA de todas formas, para que el día que se consiga la
+         * licencia baste con dejar el archivo y esto se active solo, sin repasar
+         * ninguna plantilla.
+         *
+         * Detrás va Playfair Display, que sí se sirve desde este servidor
+         * (public/css/tipografias.css) y es la que se ve mientras tanto. Georgia y
+         * serif cierran la pila por si alguien abre el sitio con las descargas
+         * bloqueadas.
+         *
+         * Existe esta clase, y no una font-family suelta en cada plantilla, porque
+         * antes era justo eso: cuarenta declaraciones repartidas por Centro
+         * Histórico, Cultura y Medio Ambiente, la mayoría con el nombre de la
+         * fuente y nada detrás. Sin repuesto el navegador no cae en Playfair ni en
+         * Montserrat: cae en SU letra por defecto, que en Chrome es Times New
+         * Roman. Los títulos del portal llevaban meses saliendo en Times y no se
+         * veía venir, porque en el código ponía "Marion".
+         */
+        .fuente-titulos { font-family: 'Marion', 'Playfair Display', Georgia, serif; }
+
+        /*
+         * Nada puede sobresalir por el costado en móvil.
+         *
+         * Basta un elemento que se salga a la derecha (el menú lateral que
+         * espera escondido fuera de la pantalla, una fila de tarjetas que no
+         * cabe) para que la página entera pase a medir más que la pantalla. El
+         * navegador móvil entonces ensancha el marco de referencia y encoge el
+         * sitio para que quepa: es exactamente lo que se veía, todo diminuto y
+         * con una franja en blanco al lado.
+         *
+         * Va en html Y en body porque el recorte del elemento raíz es el que
+         * gobierna la ventana, y ahí es donde se cuelgan los paneles fijos.
+         *
+         * Se declara dos veces a propósito: "hidden" para navegadores
+         * anteriores a 2022, y "clip" para los de ahora, que es el que hace
+         * falta. La diferencia importa: "hidden" deja la página convertida en
+         * un contenedor desplazable (el sobrante sigue contando y el marco se
+         * ensancha igual, que es justo el problema), mientras que "clip" lo
+         * recorta de verdad sin tocar el desplazamiento vertical ni las barras
+         * pegajosas.
+         */
+        html, body {
+            overflow-x: hidden;
+            overflow-x: clip;
+        }
+
+
+        .rounded-dome { border-top-left-radius: 50% 80px; border-top-right-radius: 50% 80px; }
+        
+        @media (min-width: 1280px) { .rounded-dome { border-top-left-radius: 50% 100%; border-top-right-radius: 50% 100%; } }
+        
+        .squiggly-line {
+            width: 80px; height: 15px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 20'%3E%3Cpath d='M0,10 Q12.5,20 25,10 T50,10 T75,10 T100,10' fill='none' stroke='%23e0d8cc' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
+            background-repeat: repeat-x;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        /* Equivalente a x-cloak para evitar el destello del contenido antes de que cargue Petite-Vue */
+        [v-cloak] { display: none !important; }
+
+        /* Ejemplo de personalización de estilo */
+        .vanilla-calendar {
+            --vc-border-radius: 12px;
+            --vc-primary-color: #4f46e5;
+            --vc-secondary-color: #e0e7ff;
+        }
+
+        .vanilla-calendar .vanilla-calendar-day__btn {
+            background-color: #f3f4f6;
+        }
+    </style>
+
+    <!-- Espacio para estilos adicionales por página -->
+    </head>
+<body class="antialiased text-gray-800">
+
+    <!-- Incluir Navegación -->
+    <style>
+    /* Clases utilitarias para el efecto diagonal */
+    .skew-bg { transform: skewX(-20deg); }
+    .unskew-content { transform: skewX(20deg); }
+
+    /* Rótulos de la barra: los nombres de más de una palabra se parten en
+       renglones en vez de estirar su apartado a lo ancho. min-content deja el
+       ancho de la palabra más larga y el resto baja de línea. */
+    .nav-rotulo {
+        max-width: min-content;
+        white-space: normal;
+        text-align: center;
+        line-height: 1.15;
+    }
+
+    /* Rótulos de varias palabras como Invierte en el Centro Histórico */
+    .nav-rotulo-ancho {
+        max-width: 18ch;
+    }
+
+    /* Acordeón de la barra: el apartado señalado se ensancha suavemente */
+    a.nav-link {
+        transition: padding 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+        will-change: padding;
+    }
+
+    @media (hover: hover) {
+        a.nav-link:hover,
+        a.nav-link:focus-visible {
+            padding-left: 2.75rem;
+            padding-right: 2.75rem;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        a.nav-link { transition: none; }
+    }
+</style>
+
+<div class="w-full " v-scope="{ mobileMenuOpen: false }">
+    <nav id="navbar" data-ms-locked data-ms-comun="navbar" class="relative w-full h-24 z-50 bg-[rgb(var(--brand-burgundy,92_17_60))] overflow-hidden">
+        <div class="w-full h-full flex justify-between items-center">
+
+            <!-- Marca / Logo institucional centrado en el espacio libre -->
+            <div class="flex-1 min-w-0 flex items-center justify-center h-full z-20 px-4">
+                <a href="https://descubre.veracruzmunicipio.gob.mx" class="flex items-center hover:opacity-95 transition">
+                    <img src="https://descubre.veracruzmunicipio.gob.mx/images/identidad/iconoV42026_NoFont.png"
+                         data-ms-field="navbar.logo"
+                         alt="Descubre Veracruz"
+                         class="object-contain w-auto h-[54px] sm:h-[60px] lg:h-[68px] min-[1320px]:h-[64px] 2xl:h-[72px] max-w-[260px] sm:max-w-[380px] min-[1320px]:max-w-[350px] 2xl:max-w-[450px] flex-shrink-0"/>
+                </a>
+            </div>
+
+            <!-- Menú Principal Escritorio -->
+            <div class="hidden min-[1320px]:flex h-full ml-auto">
+                
+                                <a href="https://descubre.veracruzmunicipio.gob.mx" 
+                                      class="nav-link group relative flex items-center justify-center h-full px-6 min-[1320px]:px-7 2xl:px-11 skew-bg transition-all duration-300 overflow-hidden cursor-pointer border-l border-white/5 first:border-none">
+                    
+                    <!-- Fondo con fotografía panorámica -->
+                    <div class="absolute top-0 bottom-0 -left-12 -right-12 z-0 pointer-events-none unskew-content">
+                        <img src="https://descubre.veracruzmunicipio.gob.mx/images/descubrever-navbar/veracruz_ver.webp" 
+                              data-ms-field="navbar.fondos.centrohistorico"  
+                             alt="Fondo" 
+                             class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 grayscale opacity-30 brightness-150 contrast-125 group-hover:grayscale-0  group-hover:opacity-100 group-hover:brightness-100 group-hover:contrast-100">
+                    </div>
+                    
+                    <!-- Borde inferior dorado activo / hover -->
+                    <div class="absolute inset-0 bg-transparent group-hover:bg-black/20 border-b-[4px] transition-all duration-300 z-10 border-transparent group-hover:border-[rgb(var(--brand-gold,221_179_4))]"></div>
+
+                    <!-- Texto del Rótulo -->
+                    <div class="relative z-20 flex flex-col items-center unskew-content">
+                        <span  data-ms-field="navbar.etiquetas.centrohistorico"  
+                              class="nav-rotulo  text-white font-bold text-xs lg:text-[14px] 2xl:text-[15px] tracking-widest uppercase drop-shadow-md">
+                            History Center
+                        </span>
+                    </div>
+                </a>
+                                <a href="https://descubre.veracruzmunicipio.gob.mx/invierte" 
+                                      class="nav-link group relative flex items-center justify-center h-full px-6 min-[1320px]:px-7 2xl:px-11 skew-bg transition-all duration-300 overflow-hidden cursor-pointer border-l border-white/5 ">
+                    
+                    <!-- Fondo con fotografía panorámica -->
+                    <div class="absolute top-0 bottom-0 -left-12 -right-12 z-0 pointer-events-none unskew-content">
+                        <img src="https://descubre.veracruzmunicipio.gob.mx/images/descubrever-navbar/baluarte.webp" 
+                              data-ms-field="navbar.fondos.invierte"  
+                             alt="Fondo" 
+                             class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 grayscale opacity-30 brightness-150 contrast-125 group-hover:grayscale-0  group-hover:opacity-100 group-hover:brightness-100 group-hover:contrast-100">
+                    </div>
+                    
+                    <!-- Borde inferior dorado activo / hover -->
+                    <div class="absolute inset-0 bg-transparent group-hover:bg-black/20 border-b-[4px] transition-all duration-300 z-10 border-transparent group-hover:border-[rgb(var(--brand-gold,221_179_4))]"></div>
+
+                    <!-- Texto del Rótulo -->
+                    <div class="relative z-20 flex flex-col items-center unskew-content">
+                        <span  data-ms-field="navbar.etiquetas.invierte"  
+                              class="nav-rotulo nav-rotulo-ancho text-white font-bold text-xs lg:text-[14px] 2xl:text-[15px] tracking-widest uppercase drop-shadow-md">
+                            Invest in the Historic Center
+                        </span>
+                    </div>
+                </a>
+                                <a href="https://descubre.veracruzmunicipio.gob.mx/cultura" 
+                                      class="nav-link group relative flex items-center justify-center h-full px-6 min-[1320px]:px-7 2xl:px-11 skew-bg transition-all duration-300 overflow-hidden cursor-pointer border-l border-white/5 ">
+                    
+                    <!-- Fondo con fotografía panorámica -->
+                    <div class="absolute top-0 bottom-0 -left-12 -right-12 z-0 pointer-events-none unskew-content">
+                        <img src="https://descubre.veracruzmunicipio.gob.mx/images/descubrever-navbar/vista-playa.webp" 
+                              data-ms-field="navbar.fondos.cultura"  
+                             alt="Fondo" 
+                             class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 grayscale opacity-30 brightness-150 contrast-125 group-hover:grayscale-0  group-hover:opacity-100 group-hover:brightness-100 group-hover:contrast-100">
+                    </div>
+                    
+                    <!-- Borde inferior dorado activo / hover -->
+                    <div class="absolute inset-0 bg-transparent group-hover:bg-black/20 border-b-[4px] transition-all duration-300 z-10 border-transparent group-hover:border-[rgb(var(--brand-gold,221_179_4))]"></div>
+
+                    <!-- Texto del Rótulo -->
+                    <div class="relative z-20 flex flex-col items-center unskew-content">
+                        <span  data-ms-field="navbar.etiquetas.cultura"  
+                              class="nav-rotulo  text-white font-bold text-xs lg:text-[14px] 2xl:text-[15px] tracking-widest uppercase drop-shadow-md">
+                            Culture
+                        </span>
+                    </div>
+                </a>
+                                <a href="https://descubre.veracruzmunicipio.gob.mx/medioambiente" 
+                                      class="nav-link group relative flex items-center justify-center h-full px-6 min-[1320px]:px-7 2xl:px-11 skew-bg transition-all duration-300 overflow-hidden cursor-pointer border-l border-white/5 ">
+                    
+                    <!-- Fondo con fotografía panorámica -->
+                    <div class="absolute top-0 bottom-0 -left-12 -right-12 z-0 pointer-events-none unskew-content">
+                        <img src="https://descubre.veracruzmunicipio.gob.mx/images/descubrever-navbar/arbol_hule.webp" 
+                              data-ms-field="navbar.fondos.medioambiente"  
+                             alt="Fondo" 
+                             class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 grayscale opacity-30 brightness-150 contrast-125 group-hover:grayscale-0  group-hover:opacity-100 group-hover:brightness-100 group-hover:contrast-100">
+                    </div>
+                    
+                    <!-- Borde inferior dorado activo / hover -->
+                    <div class="absolute inset-0 bg-transparent group-hover:bg-black/20 border-b-[4px] transition-all duration-300 z-10 border-transparent group-hover:border-[rgb(var(--brand-gold,221_179_4))]"></div>
+
+                    <!-- Texto del Rótulo -->
+                    <div class="relative z-20 flex flex-col items-center unskew-content">
+                        <span  data-ms-field="navbar.etiquetas.medioambiente"  
+                              class="nav-rotulo  text-white font-bold text-xs lg:text-[14px] 2xl:text-[15px] tracking-widest uppercase drop-shadow-md">
+                            Natural Veracruz
+                        </span>
+                    </div>
+                </a>
+                
+                
+                                    <el-dropdown class="inline-block self-center nav-link group relative flex items-center justify-center h-full pl-10 pr-6 lg:pl-12 lg:pr-8 min-[1320px]:[clip-path:polygon(35px_0,100%_0,100%_100%,0_100%)] -ml-[17.5px] transition-all duration-300 min-[1320px]:overflow-hidden cursor-pointer first:border-none">
+    
+    
+    <button popovertarget="desktop-opciones" class="flex h-full w-full items-center justify-center">
+        
+        <div class="max-[1320px]:hidden absolute inset-0 bg-transparent group-hover:bg-black/20 border-b-[4px] border-transparent transition-all duration-300 z-10">
+            <img src="https://descubre.veracruzmunicipio.gob.mx/images/Centro_Historico/callejones/PlazuelaDeLaLagunilla.png" alt="Fondo" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 grayscale opacity-30 brightness-150 contrast-125  group-hover:opacity-100 group-hover:brightness-100 group-hover:contrast-100">
+        </div>
+
+        <div class="relative z-20 flex flex-col items-center">
+            <span class="text-white font-bold text-xs lg:text-[15px] tracking-widest uppercase drop-shadow-md flex items-center gap-2">
+                                    <img src="https://descubre.veracruzmunicipio.gob.mx/images/Flag_of_the_United_States.svg" width="24">
+                    EN
+                
+                <i class="pi pi-angle-down"></i>
+            </span>
+        </div>
+    </button>
+
+  
+  <el-menu id="desktop-opciones" anchor="bottom end" popover class="focus:outline-none m-0 w-56 origin-top-right rounded-xl bg-[#F4F0E9] shadow-3xl transition transition-discrete [--anchor-gap:--spacing(2)] p-0 m-0">
+    <a class="block m-0 px-4 py-3 text-sm text-[#000] hover:bg-[#DDB304] hover:text-[#000] border-0 focus:outline-none rounded-tl-xl rounded-tr-xl" href="https://descubre.veracruzmunicipio.gob.mx/descubre-veracruz/locale/es">
+        <div class="flex items-center justify-left gap-4">
+            <img src="https://descubre.veracruzmunicipio.gob.mx/images/Flag_of_Mexico.svg" class="w-[32px] h-[20px]">
+            <span>Español (MX)</span>
+        </div>
+    </a>
+    <a class="block m-0 px-4 py-3 text-sm text-[#000] hover:bg-[#DDB304] hover:text-[#000] focus:outline-none" href="https://descubre.veracruzmunicipio.gob.mx/descubre-veracruz/locale/en">
+        <div class="flex items-center justify-left gap-4">
+            <img src="https://descubre.veracruzmunicipio.gob.mx/images/Flag_of_the_United_States.svg" class="w-[32px] h-[20px]">
+            <span>English</span>
+        </div>
+    </a>
+    <a class="block m-0 px-4 py-3 text-sm text-[#000] hover:bg-[#DDB304] hover:text-[#000] focus:outline-none rounded-bl-xl rounded-br-xl" href="https://descubre.veracruzmunicipio.gob.mx/descubre-veracruz/locale/fr">
+        <div class="flex items-center justify-left gap-4">
+            <img src="https://descubre.veracruzmunicipio.gob.mx/images/Flag_of_France.svg" class="w-[32px] h-[20px]">
+            <span>Français</span>
+        </div>
+    </a>
+  </el-menu>
+</el-dropdown>                            </div>
+
+            <!-- Botón de Menú Móvil -->
+            <button @click="mobileMenuOpen = true" class="min-[1320px]:hidden max-[1320px]:pr-6 text-white hover:text-[rgb(var(--brand-gold,221_179_4))] text-3xl transition-colors relative z-20" aria-label="Menu">
+                <i class="pi pi-bars"></i>
+            </button>
+        </div>
+    </nav>
+    
+    <div data-ms-subnav>    <div class="w-full py-0 px-4 bg-brand-burgundy border-b border-brand-gold/40 shadow-md overflow-hidden"  data-ms-comun="cintilla" >
+        <div class="flex overflow-x-auto [scrollbar-width:none] whitespace-nowrap justify-start md:justify-center items-stretch">
+                            
+                                <a href="https://descubre.veracruzmunicipio.gob.mx/#seccion-lugares"
+                    data-ms-cintilla-item="0"                                       class="group relative px-6 py-2 skew-x-[-20deg] transition-all duration-300 cursor-pointer bg-transparent border-b-transparent hover:bg-brand-burgundy-mid border-t border-brand-gold/30 border-r first:border-l border-brand-gold/40 border-b-2 hover:border-b-brand-gold text-white hover:text-brand-cream active:scale-95">
+                    <span class="skew-x-[20deg] inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider">
+                                                    <i class="pi pi-map-marker text-brand-gold text-xs transition-transform duration-300 group-hover:scale-125"></i>
+                                                <span>Places</span>
+                    </span>
+                </a>
+                            
+                                <a href="https://descubre.veracruzmunicipio.gob.mx/#agenda"
+                    data-ms-cintilla-item="1"                                       class="group relative px-6 py-2 skew-x-[-20deg] transition-all duration-300 cursor-pointer bg-transparent border-b-transparent hover:bg-brand-burgundy-mid border-t border-brand-gold/30 border-r first:border-l border-brand-gold/40 border-b-2 hover:border-b-brand-gold text-white hover:text-brand-cream active:scale-95">
+                    <span class="skew-x-[20deg] inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider">
+                                                    <i class="pi pi-star text-brand-gold text-xs transition-transform duration-300 group-hover:scale-125"></i>
+                                                <span>Events</span>
+                    </span>
+                </a>
+                            
+                                <a href="https://descubre.veracruzmunicipio.gob.mx/invierte"
+                    data-ms-cintilla-item="2"                                       class="group relative px-6 py-2 skew-x-[-20deg] transition-all duration-300 cursor-pointer bg-transparent border-b-transparent hover:bg-brand-burgundy-mid border-t border-brand-gold/30 border-r first:border-l border-brand-gold/40 border-b-2 hover:border-b-brand-gold text-white hover:text-brand-cream active:scale-95">
+                    <span class="skew-x-[20deg] inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider">
+                                                    <i class="pi pi-briefcase text-brand-gold text-xs transition-transform duration-300 group-hover:scale-125"></i>
+                                                <span>Invest</span>
+                    </span>
+                </a>
+                            
+                                <a href="https://descubre.veracruzmunicipio.gob.mx/CentroHistorico/mapa"
+                    data-ms-cintilla-item="3"                                       class="group relative px-6 py-2 skew-x-[-20deg] transition-all duration-300 cursor-pointer bg-transparent border-b-transparent hover:bg-brand-burgundy-mid border-t border-brand-gold/30 border-r first:border-l border-brand-gold/40 border-b-2 hover:border-b-brand-gold text-white hover:text-brand-cream active:scale-95">
+                    <span class="skew-x-[20deg] inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider">
+                                                    <i class="pi pi-map text-brand-gold text-xs transition-transform duration-300 group-hover:scale-125"></i>
+                                                <span>Map</span>
+                    </span>
+                </a>
+                            
+                                <a href="#footerApp"
+                    data-ms-cintilla-item="4"                                       class="group relative px-6 py-2 skew-x-[-20deg] transition-all duration-300 cursor-pointer bg-transparent border-b-transparent hover:bg-brand-burgundy-mid border-t border-brand-gold/30 border-r first:border-l border-brand-gold/40 border-b-2 hover:border-b-brand-gold text-white hover:text-brand-cream active:scale-95">
+                    <span class="skew-x-[20deg] inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider">
+                                                    <i class="pi pi-globe text-brand-gold text-xs transition-transform duration-300 group-hover:scale-125"></i>
+                                                <span>Info</span>
+                    </span>
+                </a>
+                    </div>
+    </div>
+
+
+
+
+
+</div>
+
+    <!-- Menú Desplegable Lateral Móvil -->
+    <div v-cloak>
+        <div class="fixed inset-0 bg-black/60 backdrop-blur-sm z-[60] transition-opacity duration-500 ease-in-out min-[1320px]:hidden"
+             :class="{ 'opacity-100 pointer-events-auto': mobileMenuOpen, 'opacity-0 pointer-events-none': !mobileMenuOpen }"
+             @click="mobileMenuOpen = false">
+        </div>
+        
+        <div class="fixed right-0 top-0 h-full w-[28rem] max-w-[85vw] flex shadow-2xl z-[70] transform transition-transform duration-500 ease-in-out min-[1320px]:hidden"
+             :class="{ 'translate-x-0': mobileMenuOpen, 'translate-x-full': !mobileMenuOpen }">
+                        
+            <div class="flex-1 bg-[rgb(var(--brand-burgundy,92_17_60))] py-10 px-6 sm:px-10 flex flex-col relative overflow-hidden overflow-y-auto">
+                <div class="mb-10 flex justify-between items-center border-b border-white/10 pb-4">
+                    <span class="text-[rgb(var(--brand-gold,221_179_4))] font-bold text-md tracking-[0.3em] uppercase">Menú Principal</span>
+
+                    <button @click="mobileMenuOpen = false" class="transition-colors p-2 bg-black/10 rounded-full">
+                        <i class="pi pi-times text-[rgb(var(--brand-cream,244_240_233))] hover:text-[rgb(var(--brand-burgundy,92_17_60))] w-6 h-0 mb-0 pb-0"></i>
+                    </button>
+                </div>
+
+                <div class="flex-1 flex flex-col justify-start">
+                    <nav class="space-y-4">
+                                                <a href="https://descubre.veracruzmunicipio.gob.mx" 
+                                                      class="flex items-baseline group pb-2">
+                            <span  data-ms-field="navbar.etiquetas.centrohistorico"  
+                                  class="font-bold transition-colors uppercase text-[rgb(var(--brand-cream,244_240_233))] group-hover:text-[rgb(var(--brand-gold,221_179_4))]">
+                                History Center
+                            </span>
+                        </a>
+                                                <a href="https://descubre.veracruzmunicipio.gob.mx/invierte" 
+                                                      class="flex items-baseline group pb-2">
+                            <span  data-ms-field="navbar.etiquetas.invierte"  
+                                  class="font-bold transition-colors uppercase text-[rgb(var(--brand-cream,244_240_233))] group-hover:text-[rgb(var(--brand-gold,221_179_4))]">
+                                Invest in the Historic Center
+                            </span>
+                        </a>
+                                                <a href="https://descubre.veracruzmunicipio.gob.mx/cultura" 
+                                                      class="flex items-baseline group pb-2">
+                            <span  data-ms-field="navbar.etiquetas.cultura"  
+                                  class="font-bold transition-colors uppercase text-[rgb(var(--brand-cream,244_240_233))] group-hover:text-[rgb(var(--brand-gold,221_179_4))]">
+                                Culture
+                            </span>
+                        </a>
+                                                <a href="https://descubre.veracruzmunicipio.gob.mx/medioambiente" 
+                                                      class="flex items-baseline group pb-2">
+                            <span  data-ms-field="navbar.etiquetas.medioambiente"  
+                                  class="font-bold transition-colors uppercase text-[rgb(var(--brand-cream,244_240_233))] group-hover:text-[rgb(var(--brand-gold,221_179_4))]">
+                                Natural Veracruz
+                            </span>
+                        </a>
+                                            </nav>
+                </div>
+
+                                    <div class="mt-12 pt-8 border-t border-white/10 flex items-center justify-center">
+                        <el-dropdown class="inline-block self-center nav-link group relative flex items-center justify-center h-full pl-10 pr-6 lg:pl-12 lg:pr-8 min-[1320px]:[clip-path:polygon(35px_0,100%_0,100%_100%,0_100%)] -ml-[17.5px] transition-all duration-300 min-[1320px]:overflow-hidden cursor-pointer first:border-none">
+    
+    
+    <button popovertarget="mobile-opciones" class="flex h-full w-full items-center justify-center">
+        
+        <div class="max-[1320px]:hidden absolute inset-0 bg-transparent group-hover:bg-black/20 border-b-[4px] border-transparent transition-all duration-300 z-10">
+            <img src="https://descubre.veracruzmunicipio.gob.mx/images/Centro_Historico/callejones/PlazuelaDeLaLagunilla.png" alt="Fondo" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 grayscale opacity-30 brightness-150 contrast-125  group-hover:opacity-100 group-hover:brightness-100 group-hover:contrast-100">
+        </div>
+
+        <div class="relative z-20 flex flex-col items-center">
+            <span class="text-white font-bold text-xs lg:text-[15px] tracking-widest uppercase drop-shadow-md flex items-center gap-2">
+                                    <img src="https://descubre.veracruzmunicipio.gob.mx/images/Flag_of_the_United_States.svg" width="24">
+                    EN
+                
+                <i class="pi pi-angle-down"></i>
+            </span>
+        </div>
+    </button>
+
+  
+  <el-menu id="mobile-opciones" anchor="bottom end" popover class="focus:outline-none m-0 w-56 origin-top-right rounded-xl bg-[#F4F0E9] shadow-3xl transition transition-discrete [--anchor-gap:--spacing(2)] p-0 m-0">
+    <a class="block m-0 px-4 py-3 text-sm text-[#000] hover:bg-[#DDB304] hover:text-[#000] border-0 focus:outline-none rounded-tl-xl rounded-tr-xl" href="https://descubre.veracruzmunicipio.gob.mx/descubre-veracruz/locale/es">
+        <div class="flex items-center justify-left gap-4">
+            <img src="https://descubre.veracruzmunicipio.gob.mx/images/Flag_of_Mexico.svg" class="w-[32px] h-[20px]">
+            <span>Español (MX)</span>
+        </div>
+    </a>
+    <a class="block m-0 px-4 py-3 text-sm text-[#000] hover:bg-[#DDB304] hover:text-[#000] focus:outline-none" href="https://descubre.veracruzmunicipio.gob.mx/descubre-veracruz/locale/en">
+        <div class="flex items-center justify-left gap-4">
+            <img src="https://descubre.veracruzmunicipio.gob.mx/images/Flag_of_the_United_States.svg" class="w-[32px] h-[20px]">
+            <span>English</span>
+        </div>
+    </a>
+    <a class="block m-0 px-4 py-3 text-sm text-[#000] hover:bg-[#DDB304] hover:text-[#000] focus:outline-none rounded-bl-xl rounded-br-xl" href="https://descubre.veracruzmunicipio.gob.mx/descubre-veracruz/locale/fr">
+        <div class="flex items-center justify-left gap-4">
+            <img src="https://descubre.veracruzmunicipio.gob.mx/images/Flag_of_France.svg" class="w-[32px] h-[20px]">
+            <span>Français</span>
+        </div>
+    </a>
+  </el-menu>
+</el-dropdown>                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- Contenido Dinámico de la Página -->
+    <main>
+        <section class="bg-gradient-to-b from-amber-50/30 to-white py-8 md:py-12 min-h-screen">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="relative group rounded-3xl overflow-hidden shadow-2xl mb-8">
+    <img src="https://descubre.veracruzmunicipio.gob.mx/images/Centro_Historico/lugares/malecon.jpg"
+        data-ms-field="lugares.macroplaza-del-malecon.image"
+        class="w-full h-56 max-h-[60vh] sm:h-72 md:h-80 lg:h-[400px] object-cover"
+        alt="Macroplaza del Malecón">
+
+    <button type="button" onclick="abrirImagenCompleta()"
+       class="absolute bottom-4 right-4 inline-flex items-center gap-2 rounded-full bg-black/55 hover:bg-black/75 text-white text-xs md:text-sm font-semibold px-4 py-2 backdrop-blur transition-colors shadow-md font-['Montserrat']">
+        <i class="pi pi-external-link text-sm"></i>
+        Ver imagen completa
+    </button>
+</div>
+
+<div id="imagenCompletaModal"
+     class="fixed inset-0 z-[100] hidden items-center justify-center p-4 bg-black/80"
+     onclick="if(event.target===this) cerrarImagenCompleta()">
+    <div class="relative w-full max-w-5xl" onclick="event.stopPropagation()">
+        <img id="imagenCompletaImg" src="https://descubre.veracruzmunicipio.gob.mx/images/Centro_Historico/lugares/malecon.jpg"
+             class="w-full max-h-[85vh] object-contain rounded-2xl"
+             alt="Macroplaza del Malecón">
+
+        <button type="button" onclick="cerrarImagenCompleta()"
+                class="absolute top-3 right-3 bg-black/60 hover:bg-black/80 text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+                aria-label="Cerrar imagen">
+            <i class="fas fa-times text-lg"></i>
+        </button>
+    </div>
+</div>
+
+<script>
+    function abrirImagenCompleta() {
+        const modal = document.getElementById('imagenCompletaModal');
+        if (!modal) return;
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.classList.add('overflow-hidden');
+    }
+
+    function cerrarImagenCompleta() {
+        const modal = document.getElementById('imagenCompletaModal');
+        if (!modal) return;
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.classList.remove('overflow-hidden');
+    }
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') cerrarImagenCompleta();
+    });
+</script>
+
+        
+        <h1 class="text-3xl md:text-4xl font-bold text-brand-burgundy mt-8 mb-6 font-['Montserrat'] text-left">
+            Macroplaza del Malecón
+        </h1>
+
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            
+            <div class="order-2 lg:order-1 lg:col-span-8">
+                <div class="relative p-6 sm:p-8 md:p-10 bg-white rounded-2xl shadow-md overflow-hidden border border-amber-100">
+    <div class="absolute inset-3 sm:inset-4 pointer-events-none marco-elegante-oro"></div>
+    <p class="text-gray-700 text-base md:text-lg leading-relaxed font-['Montserrat'] text-left relative z-10">
+        The great window to the sea of Veracruz and the social heartbeat of the entire port. This wide pedestrian esplanade invites locals and tourists to enjoy the coming and going of imposing commercial vessels and Navy ships, surrounded by the Gulf breeze. It is the perfect setting to savor a traditional ice cream, enjoy spontaneous live music, watch folkloric shows, and witness beautiful ocean sunsets.
+    </p>
+</div>
+
+
+            </div>
+
+            
+            <div class="order-1 lg:order-2 lg:col-span-4">
+                <div class="w-full shadow-lg lg:max-h-[20rem] lg:overflow-hidden bg-gradient-to-br from-[#c49a5b] via-[#b48c4e] to-[#9c753e] border border-[#8b6530] rounded-2xl shadow-xl p-5 md:p-6 flex flex-col gap-4 audio-player-container"
+      data-ms-field="lugares.macroplaza-del-malecon.audio" >
+
+            <audio class="audio-archivo hidden" src="https://descubre.veracruzmunicipio.gob.mx/audios/lugares/en/macroplaza-del-malecon.mp3" preload="metadata"></audio>
+    
+    <div class="audio-player-header flex items-center gap-3.5">
+        <div class="bg-[#5C1D2C] text-white w-11 h-11 rounded-full flex items-center justify-center flex-shrink-0 shadow-md">
+            <i class="fas fa-volume-up text-base"></i>
+        </div>
+        <div class="overflow-hidden flex-1">
+            <h4 class="text-[#4A121F] font-bold text-sm md:text-base tracking-wide font-['Montserrat'] truncate">
+                Official Audio Guide
+            </h4>
+            <p class="text-[#3b151e]/80 text-xs font-semibold font-sans truncate">
+                Voice-assisted reading
+            </p>
+        </div>
+    </div>
+
+    <div class="audio-player-progreso flex flex-col gap-1.5 mt-1">
+            <div class="relative w-full group/timeline">
+                <input type="range" min="0" max="100" value="0" step="0.1"
+                       oninput="actualizarInputTiempoArchivo(this)"
+                       onchange="cambiarTiempoManualArchivo(this)"
+                       class="audio-progressbar w-full h-2 bg-white/40 rounded-lg appearance-none cursor-pointer accent-[#5C1D2C] focus:outline-none transition-all shadow-inner">
+            </div>
+            <div class="flex justify-between text-xs font-bold text-[#3b151e] font-sans px-1">
+                <span class="audio-current-time">0:00</span>
+                <span class="audio-duration">--:--</span>
+            </div>
+        </div>
+
+        <div class="audio-player-controles flex items-center justify-center gap-1 sm:justify-between sm:gap-2 bg-[#9E7C48]/90 backdrop-blur-sm px-2.5 py-1.5 sm:px-5 sm:py-2.5 rounded-xl border border-white/60 shadow-inner flex-shrink-0">
+            <button onclick="alterarTiempoArchivo(this, -5)"
+                    class="p-1.5 sm:p-2 text-[#5C1D2C]/70 hover:text-[#5C1D2C] transition-colors focus:outline-none flex-shrink-0"
+                    title="Regresar 5s">
+                <i class="fas fa-backward text-xs sm:text-sm"></i>
+            </button>
+
+            <button onclick="controlarAudioArchivo(this)"
+                    data-textoutf8="The great window to the sea of Veracruz and the social heartbeat of the entire port. This wide pedestrian esplanade invites locals and tourists to enjoy the coming and going of imposing commercial vessels and Navy ships, surrounded by the Gulf breeze. It is the perfect setting to savor a traditional ice cream, enjoy spontaneous live music, watch folkloric shows, and witness beautiful ocean sunsets."
+                    data-idioma="en"
+                    data-segundos="33"
+                    class="bg-[#5C1D2C] hover:bg-[#42121E] text-white w-9 h-9 sm:w-11 sm:h-11 rounded-full flex items-center justify-center transition-all shadow-md hover:scale-105 focus:outline-none flex-shrink-0"
+                    title="Reproducir/Pausar">
+                <i class="fas fa-play text-xs sm:text-sm ml-0.5 icono-play"></i>
+            </button>
+
+            <button onclick="alterarTiempoArchivo(this, 5)"
+                    class="p-1.5 sm:p-2 text-[#5C1D2C]/70 hover:text-[#5C1D2C] transition-colors focus:outline-none flex-shrink-0"
+                    title="Adelantar 5s">
+                <i class="fas fa-forward text-xs sm:text-sm"></i>
+            </button>
+    </div>
+</div>
+
+<style>
+    @media (max-width: 1023px) {
+        .audio-player-container.audio-activo {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 40;
+            padding: 0.5rem;
+            border-radius: 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+        }
+
+        .audio-player-container.audio-activo .audio-player-header,
+        .audio-player-container.audio-activo .audio-player-progreso {
+            display: none;
+        }
+
+        .audio-player-container.audio-activo .audio-player-controles {
+            margin: 0;
+            border-radius: 0.75rem;
+        }
+    }
+</style>
+
+<script>
+    function establecerReproduciendo(boton, activo) {
+        if (!boton) return;
+        const contenedor = boton.closest('.audio-player-container');
+        if (!contenedor) return;
+
+        contenedor.dataset.reproduciendo = activo ? '1' : '';
+        evaluarReproductor(contenedor);
+    }
+
+    function evaluarReproductor(contenedor) {
+        if (!contenedor) return;
+
+        if (!contenedor.dataset.originalTop) {
+            const rect = contenedor.getBoundingClientRect();
+            contenedor.dataset.originalTop = (rect.top + window.scrollY).toString();
+            contenedor.dataset.originalHeight = rect.height.toString();
+        }
+
+        const top = parseFloat(contenedor.dataset.originalTop);
+        const height = parseFloat(contenedor.dataset.originalHeight) || 0;
+        const scrollTop = window.scrollY;
+        const scrollBottom = scrollTop + window.innerHeight;
+        const esVisible = top < scrollBottom && (top + height) > scrollTop;
+        const estaReproduciendo = contenedor.dataset.reproduciendo === '1';
+        const estaCompacto = contenedor.dataset.compacto === '1';
+
+        if (estaCompacto) {
+            if (esVisible) {
+                contenedor.dataset.compacto = '';
+                contenedor.classList.remove('audio-activo');
+            }
+            return;
+        }
+
+        if (estaReproduciendo && !esVisible) {
+            contenedor.dataset.compacto = '1';
+            contenedor.classList.add('audio-activo');
+        }
+    }
+
+    function evaluarTodosReproductores() {
+        document.querySelectorAll('.audio-player-container').forEach(evaluarReproductor);
+    }
+
+    window.addEventListener('scroll', evaluarTodosReproductores, { passive: true });
+    window.addEventListener('resize', evaluarTodosReproductores, { passive: true });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        evaluarTodosReproductores();
+    });
+
+    if (document.readyState !== 'loading') {
+        evaluarTodosReproductores();
+    }
+</script>
+
+    
+            <script>
+        /**
+         * ==========================================
+         * REPRODUCTOR DE AUDIOGUÍA CON ARCHIVO
+         * ==========================================
+         * Controla el <audio> oculto de cada tarjeta. Nada de esto se usa en las
+         * audioguías por voz del navegador: aquellas tienen sus propias funciones
+         * (controlarLecturaTexto y compañía).
+         */
+        function audioArchivoDe(elemento) {
+            const contenedor = elemento.closest('.audio-player-container');
+            return contenedor ? contenedor.querySelector('.audio-archivo') : null;
+        }
+
+        function audioFormatearTiempo(segundos) {
+            if (isNaN(segundos) || segundos < 0) return '0:00';
+            const min = Math.floor(segundos / 60);
+            const seg = Math.floor(segundos % 60);
+            return min + ':' + (seg < 10 ? '0' : '') + seg;
+        }
+
+        // Play / pausa. Antes de sonar, calla todo lo demás: otra audioguía
+        // abierta más abajo en la página y, si existe, la lectura por voz.
+        function controlarAudioArchivo(boton) {
+            const audio = audioArchivoDe(boton);
+            if (!audio) return;
+
+            if (audio.paused) {
+                document.querySelectorAll('.audio-archivo').forEach(function (otro) {
+                    if (otro !== audio) otro.pause();
+                });
+                if (typeof detenerLecturaGlobal === 'function') detenerLecturaGlobal(true);
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+
+        function alterarTiempoArchivo(boton, deltaSegundos) {
+            const audio = audioArchivoDe(boton);
+            if (!audio || !isFinite(audio.duration)) return;
+
+            audio.currentTime = Math.max(0, Math.min(audio.duration, audio.currentTime + deltaSegundos));
+        }
+
+        // Mientras se arrastra la barra: solo movemos el número, sin saltar el
+        // audio en cada píxel (haría un picado de sonido muy desagradable).
+        function actualizarInputTiempoArchivo(inputRange) {
+            const audio = audioArchivoDe(inputRange);
+            if (!audio || !isFinite(audio.duration)) return;
+
+            const contenedor = inputRange.closest('.audio-player-container');
+            const txtCurrentTime = contenedor.querySelector('.audio-current-time');
+            audio.dataset.arrastrando = '1';
+            txtCurrentTime.textContent = audioFormatearTiempo((parseFloat(inputRange.value) / 100) * audio.duration);
+        }
+
+        // Al soltar: ahí sí, saltamos.
+        function cambiarTiempoManualArchivo(inputRange) {
+            const audio = audioArchivoDe(inputRange);
+            if (!audio || !isFinite(audio.duration)) return;
+
+            audio.currentTime = (parseFloat(inputRange.value) / 100) * audio.duration;
+            delete audio.dataset.arrastrando;
+        }
+
+        // Enganche de cada <audio> con su tarjeta: duración, avance de la barra
+        // y el icono de play/pausa. Se hace por evento y no con un temporizador
+        // para que refleje también lo que pase por fuera (que el navegador
+        // pause al perder la pestaña, por ejemplo).
+        (function () {
+            function pintar(audio) {
+                const contenedor = audio.closest('.audio-player-container');
+                if (!contenedor) return;
+
+                const barra = contenedor.querySelector('.audio-progressbar');
+                const actual = contenedor.querySelector('.audio-current-time');
+                const total = contenedor.querySelector('.audio-duration');
+                const icono = contenedor.querySelector('.icono-play');
+
+                if (total && isFinite(audio.duration)) {
+                    total.textContent = audioFormatearTiempo(audio.duration);
+                }
+                if (!audio.dataset.arrastrando && barra && isFinite(audio.duration) && audio.duration > 0) {
+                    barra.value = (audio.currentTime / audio.duration) * 100;
+                }
+                if (!audio.dataset.arrastrando && actual) {
+                    actual.textContent = audioFormatearTiempo(audio.currentTime);
+                }
+                if (icono) {
+                    icono.className = audio.paused
+                        ? 'fas fa-play text-xs ml-0.5 icono-play'
+                        : 'fas fa-pause text-xs icono-play';
+                }
+
+                contenedor.dataset.reproduciendo = audio.paused ? '' : '1';
+                evaluarReproductor(contenedor);
+            }
+
+            function conectar(audio) {
+                if (audio.dataset.conectado) return;
+                audio.dataset.conectado = '1';
+
+                ['loadedmetadata', 'timeupdate', 'play', 'pause', 'seeked'].forEach(function (evento) {
+                    audio.addEventListener(evento, function () { pintar(audio); });
+                });
+
+                audio.addEventListener('ended', function () {
+                    audio.currentTime = 0;
+                    pintar(audio);
+                });
+
+                pintar(audio);
+            }
+
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelectorAll('.audio-archivo').forEach(conectar);
+            });
+
+            // Por si el componente se pinta después de cargar la página (vista
+            // previa del CMS, contenido cargado al vuelo).
+            if (document.readyState !== 'loading') {
+                document.querySelectorAll('.audio-archivo').forEach(conectar);
+            }
+        })();
+        </script>
+    
+            </div>
+        </div>
+
+        
+        <div class="mt-10 pt-6 border-t border-gray-200/80">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+    
+    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full sm:w-auto">
+        
+        <a href="https://descubre.veracruzmunicipio.gob.mx"
+            class="group inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full font-semibold text-gray-700 bg-gray-100 hover:bg-gray-200 transition-all duration-300 font-['Montserrat'] text-sm shadow-sm">
+            <i class="pi pi-arrow-left transition-transform group-hover:-translate-x-1"></i>
+            <span>Regresar</span>
+        </a>
+    </div>
+
+    
+    <div class="relative group/tooltip inline-block w-full sm:w-auto">
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=19.20267,-96.13300" target="_blank" rel="noopener noreferrer"
+            class="group inline-flex items-center justify-center gap-2.5 w-full sm:w-auto bg-gradient-to-r from-brand-burgundy to-brand-burgundy-mid text-white px-7 py-3.5 rounded-full font-bold shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 font-['Montserrat'] text-sm sm:text-base">
+            <i class="pi pi-map-marker text-lg text-brand-gold transition-transform group-hover:scale-125"></i>
+            <span>Ver en Google Maps</span>
+        </a>
+
+        
+        <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 pointer-events-none opacity-0 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-1 transition-all duration-300 z-30 w-max max-w-[230px]">
+            <div class="bg-gray-900 text-white text-xs font-medium py-1.5 px-3 rounded-lg shadow-xl text-center font-['Montserrat'] leading-snug">
+                Consulta opiniones, fotos y la ruta para llegar            </div>
+            
+            <div class="w-2.5 h-2.5 bg-gray-900 rotate-45 mx-auto -mt-1 shadow-sm"></div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <!-- Incluir Pie de Página -->
+    <footer id="footerApp" data-ms-locked data-ms-comun="footer" class="bg-brand-burgundy text-white pt-12 pb-8 min-[1248px]:pb-3 px-6 lg:px-12 border-t-8 border-brand-burgundy">
+    
+    <div class="w-full grid grid-cols-1 md:grid-cols-3 items-center gap-y-10 md:gap-y-0 text-center md:text-left"> <!-- items-center en lugar de items-start -->
+
+        <!-- Columna 1: Logo centrado -->
+        <div class="flex items-center space-x-6 border-gray-500 h-full justify-center md:justify-start">
+            
+            <img src="https://descubre.veracruzmunicipio.gob.mx/images/Imagen-Institucional/Footer_DescubreVeracruz2629.png" data-ms-field="footer.escudo"
+                 alt="Gobierno Municipal de Veracruz"
+                 class="h-auto max-w-[230px] md:max-w-none">
+        </div>
+
+        <!-- Columna 2: Texto y enlaces centrados -->
+        <div class="flex flex-col items-center space-y-8 md:space-y-0 md:flex-row md:justify-around md:space-x-4">
+            <div>
+                <h4 data-ms-field="footer.col1.name" class="font-bold uppercase tracking-wider mb-3 md:mb-2">H. Ayuntamiento de Veracruz</h4>
+                
+                <div class="max-md:text-sm max-md:leading-relaxed">
+                    <p data-ms-field="footer.col1.periodo">Administration 2026 - 2029</p>
+                    <p data-ms-field="footer.col1.direccion1">ZARAGOZA ESQ. M. MOLINA S/N </p>
+                    <p data-ms-field="footer.col1.direccion2"> COLONIA CENTRO, VERACRUZ, VER.</p>
+                    <p data-ms-field="footer.col1.phone">Phone: 01 (229) 200 2000</p>
+                </div>
+            </div>
+            <div>
+                <h4 data-ms-field="footer.col2.subtitle" class="font-bold uppercase tracking-wider mb-3 md:mb-5">Helpful Resources</h4>
+                
+                <a data-ms-field="footer.col2.veracruzmunicipio" href="https://veracruzmunicipio.gob.mx/" target="_blank" class="block py-1 md:py-0 hover:underline decoration-1 underline-offset-4">
+                    Veracruz Municipio
+                </a>
+                <a data-ms-field="footer.col2.tesoreria" href="https://tesoreriavirtual.veracruzmunicipio.gob.mx/" target="_blank" class="block py-1 md:py-0 hover:underline decoration-1 underline-offset-4">
+                    Tesorería Virtual
+                </a>
+                <a data-ms-field="footer.col2.gobabierto" href="https://gobiernoabierto.veracruzmunicipio.gob.mx/" target="_blank" class="block py-1 md:py-0 hover:underline decoration-1 underline-offset-4">
+                    Gobierno Abierto
+                </a>
+                <a data-ms-field="footer.col2.decidever" href="https://decide.veracruzmunicipio.gob.mx/" target="_blank" class="block py-1 md:py-0 hover:underline decoration-1 underline-offset-4">
+                    Decide Veracruz
+                </a>
+            </div>
+        </div>
+
+        <!-- Columna 3: Emergencias + Redes centrados -->
+        
+        <div class="flex flex-col items-center">
+            <img src="https://descubre.veracruzmunicipio.gob.mx/images/911-emergencias.png" data-ms-field="footer.emergencia" class="rounded w-[170px] md:w-[200px]">
+        </div>
+    </div>
+
+    <hr class="border-[#4d0f33] mt-8 md:mt-5 mb-2"/>
+
+    <!-- Sección de Redes Sociales -->
+    <section id="numbers" class="py-2 pb-0 bg-[#5C113C] text-center">
+    
+    <div class="flex flex-wrap justify-center gap-x-8 gap-y-2 sm:gap-10">
+        <a href="https://x.com/AyuntamientoVer" target="_blank" class="group flex items-center gap-3 pb-1 border-b-2 border-transparent hover:border-white transition-all duration-300 color-white">
+            <span class="text-white transition-colors">
+                <i class="pi pi-twitter text-xs"></i>
+            </span>
+            <span class="font-medium text-white text-xs">Twitter</span>
+        </a>
+        
+        <a href="https://www.facebook.com/Ayuntamiento.Ver" target="_blank" class="group flex items-center gap-3 pb-1 border-b-2 border-transparent hover:border-white transition-all duration-300">
+            <span class="text-white transition-colors">
+                <i class="pi pi-facebook text-xs"></i>
+            </span>
+            <span class="font-medium text-white text-xs">Facebook</span>
+        </a>
+        
+        <a href="https://www.instagram.com/ayuntamientover" target="_blank" class="group flex items-center gap-3 pb-1 border-b-2 border-transparent hover:border-white transition-all duration-300">
+            <span class="text-white transition-colors">
+                <i class="pi pi-instagram text-xs"></i>
+            </span>
+            <span class="font-medium text-white text-xs">Instagram</span>
+        </a>
+
+        <a href="https://www.youtube.com/@AyuntamientodeVeracruz2026" target="_blank" class="group flex items-center gap-3 pb-1 border-b-2 border-transparent hover:border-white transition-all duration-300">
+            <span class="text-white transition-colors">
+                <i class="pi pi-youtube text-xs"></i>
+            </span>
+            <span class="font-medium text-white text-xs">YouTube</span>
+        </a>
+    </div>
+</section>
+    
+    <p class="mt-4 text-center text-xs">
+        <a href="https://descubre.veracruzmunicipio.gob.mx/aviso-de-privacidad" class="text-white/80 hover:text-white underline underline-offset-4">Privacy notice</a>
+    </p>
+</footer>
+
+    <!-- Espacio para scripts adicionales por página -->
+    </body>
+</html>

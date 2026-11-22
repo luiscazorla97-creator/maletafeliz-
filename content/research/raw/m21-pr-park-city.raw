@@ -1,0 +1,1354 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="no-js">
+<head id="Head_Site"><meta charset="utf-8" /><meta name="robots" content="all" /><title>
+	Cultura  -  Comune di Parma
+
+
+
+			
+</title><meta name="description" content="Comune di Parma" /><meta name="viewport" content="width=device-width" /><link rel='stylesheet' href='/Layout/it-IT/css/bootstrap.2.3.2.min.css' ><link rel='stylesheet' href='/Layout/it-IT/css/main_portale.css' ><link rel='stylesheet' href='/Layout/it-IT/css/smoothness/jquery-ui-1.9.2.custom.css' ><link rel='stylesheet' href='/Layout/it-IT/css/cultura.css' ><link rel='stylesheet' href='/Layout/it-IT/css/bootstrap_calendar.css' ><link rel='stylesheet' href='/Layout/it-IT/css/bootstrap_calendar.css' ><link rel='stylesheet' href='/Scripts/bootstrap-datepicker.min.css' ><link rel='stylesheet' href='/Layout/it-IT/css/datatables.min.css' ><link rel='stylesheet' href='/Layout/it-IT/css/all.min.css' ><link rel='stylesheet' href='/Layout/it-IT/css/CookiePrivacy.css' ><script type='text/javascript' src='/Scripts/jquery-3.6.1.min.js'></script><script type='text/javascript' src='/Scripts/jquery/jquery-ui.1.11.0-custom.js'></script><script type='text/javascript' src='/Scripts/bootstrap.min.js'></script><script type='text/javascript' src='/Scripts/main.js'></script><script type='text/javascript' src='/Scripts/jquery.charcounter.js'></script><script type='text/javascript' src='/Scripts/bootstrap_calendar.min.js'></script><script type='text/javascript' src='/Scripts/moment-with-locales.min.js'></script><script type='text/javascript' src='/Scripts/datatables.min.js'></script><script type='text/javascript' src='/Scripts/bootstrap-datepicker.min.js'></script><script type='text/javascript' src='/Scripts/bootstrap-datepicker.it.min.js'></script><link id="Link1" rel="shortcut icon" href="../../favicon.ico" />
+    
+    <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    
+<meta id="ogUrl" property="og:url" /><meta id="ogType" property="og:type" content="article" /><meta id="ogTitolo" property="og:title" /><meta id="ogDescription" property="og:description" /><meta id="ogImage" property="og:image" /><meta id="ogImageWidth" property="og:image:width" /><meta id="ogImageHeight" property="og:image:height" />  
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //$('.figli').hide();
+            var currentPageUrl = "";
+            if (typeof this.href === "undefined") {
+                currentPageUrl = document.location.toString()
+            }
+            else {
+                currentPageUrl = this.href.toString()
+            }
+
+            var page = currentPageUrl.split('/')[(currentPageUrl.split('/').length) - 1];
+
+
+            var figlio = $('#areaNavigazione').find('a[href$="' + page + '"]').parent();
+            if (figlio != null) {
+                figlio.addClass("attivo");
+            }
+
+            $('.homePortale').attr('usemap', '#homePortale');
+
+        });
+        function initMap() {
+
+        }
+    </script>        
+   
+    
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://analytics.comune.parma.it/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '9']);
+      })();
+    </script>
+    <script src="https://analytics.comune.parma.it/matomo.js"></script>
+    <!-- End Matomo Code -->
+
+<meta name="keywords" content="Palazzo Ducale" /><meta name="description" content="Palazzo Ducale" /></head>
+<body>
+    <form method="post" action="./Palazzo-Ducale-2.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwNjk0NzIxNDEPZBYCZg9kFgICAw9kFhYCAQ9kFgJmDw8WBB4NSURJbWFnZWJhbm5lcigpWFN5c3RlbS5HdWlkLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkkZjdjZDIyYWYtYTg5OC00YWMxLTg0ZGMtOGMxMzcyN2RjMDMwHgdWaXNpYmxlZ2QWAmYPFgoeA2FsdAUTYmFubmVyIFNpdG8gQ3VsdHVyYR4Dc3JjBV5+L0hhbmRsZXJzL0ltYWdlLmFzaHg/SUQ9ZjdjZDIyYWYtYTg5OC00YWMxLTg0ZGMtOGMxMzcyN2RjMDMwJmFtcDtzcmM9SW1hZ2UucG5nJmFtcDt3aD1TJTEzJTVjHgVjbGFzcwULaG9tZVBvcnRhbGUeBXRpdGxlBRNiYW5uZXIgU2l0byBDdWx0dXJhHwFnZAIDD2QWBmYPFgIfAWcWAmYPFgIeBGhyZWYFN2h0dHBzOi8vY3VsdHVyYS5jb211bmUucGFybWEuaXQvaXQtSVQvaG9tZS1jdWx0dXJhLmFzcHhkAgEPFgIeC18hSXRlbUNvdW50AggWEGYPZBYCAgEPFgIfBmQWAmYPFQEHU2V0dG9yZWQCAQ9kFgICAQ8WAh8GBTdodHRwczovL2N1bHR1cmEuY29tdW5lLnBhcm1hLml0L2l0LUlUL011c2VpLUNpdmljaS5hc3B4FgJmDxUBDE11c2VpIENpdmljaWQCAg9kFgICAQ8WAh8GBTtodHRwczovL2N1bHR1cmEuY29tdW5lLnBhcm1hLml0L2l0LUlUL1NwYXppLUVzcG9zaXRpdmkuYXNweBYCZg8VARBTcGF6aSBlc3Bvc2l0aXZpZAIDD2QWAgIBDxYCHwYFPmh0dHBzOi8vY3VsdHVyYS5jb211bmUucGFybWEuaXQvaXQtSVQvQ2FzYS1kZWxsYS1NdXNpY2EtMS5hc3B4FgJmDxUBEUNhc2EgZGVsbGEgTXVzaWNhZAIED2QWAgIBDxYCHwYFPWh0dHBzOi8vY3VsdHVyYS5jb211bmUucGFybWEuaXQvaXQtSVQvZWxlbmNvLWJpYmxpb3RlY2hlLmFzcHgWAmYPFQELQmlibGlvdGVjaGVkAgUPZBYCAgEPFgIfBgUzaHR0cHM6Ly9jdWx0dXJhLmNvbXVuZS5wYXJtYS5pdC9pdC1JVC9UZWF0cmktMS5hc3B4FgJmDxUBBlRlYXRyaWQCBg9kFgICAQ8WAh8GBTNodHRwczovL2N1bHR1cmEuY29tdW5lLnBhcm1hLml0L2l0LUlUL0NpbmVtYS0xLmFzcHgWAmYPFQEGQ2luZW1hZAIHD2QWAgIBDxYEHgZ0YXJnZXQFBl9ibGFuax8GBR9odHRwczovL3d3dy5yZXRoaW5rLXRoZS1jaXR5LmV1FgJmDxUBEFByb2dldHRvIFJldGhpbmtkAgIPFgQeBFRleHQFLjxsaT48YSBocmVmPSc/c29sb3Rlc3RvPTEnPlNvbG8gVGVzdG88L2E+PC9saT4fAWdkAgUPZBYIAgEPZBYCAgEPFgIfBwINFhoCAQ9kFgICAQ8WBB8EBQpwYWRyZW1lbnUyHwFnFgQCAQ8WBB8EBQlsaW5rcGFkcmUeCWlubmVyaHRtbAUHU2V0dG9yZWQCAw8WAh8HAgMWBgIBD2QWAgIBDxYEHwQFC3BhZHJlbWVudTI3HwFnFgQCAQ8WCB8EBQpsaW5rRmlnbGlvHwoFCUFzc2Vzc29yZR8GBRh+L2l0LUlUL0NoaS1zaWFtby03LmFzcHgfCAUFX3NlbGZkAgMPFgIfBwL/////D2QCAg9kFgICAQ8WBB8EBQtwYWRyZW1lbnUxMB8BZxYEAgEPFggfBAUKbGlua0ZpZ2xpbx8KBQVTdGFmZh8GBRR+L2l0LUlUL1N0YWZmLTMuYXNweB8IBQVfc2VsZmQCAw8WAh8HAv////8PZAIDD2QWAgIBDxYEHwQFC3BhZHJlbWVudTExHwFnFgQCAQ8WCB8EBQpsaW5rRmlnbGlvHwoFFlBhdHJvY2luaSBlIENvbnRyaWJ1dGkfBgUYfi9pdC1JVC9Eb2N1bWVudGktMi5hc3B4HwgFBV9zZWxmZAIDDxYCHwcC/////w9kAgIPZBYCAgEPFgQfBAUKcGFkcmVtZW51Mx8BZxYEAgEPFggfBAUJbGlua3BhZHJlHwoFDE11c2VpIENpdmljaR8GBRl+L2l0LUlUL011c2VpLUNpdmljaS5hc3B4HwgFBV9zZWxmZAIDDxYCHwcCBhYMAgEPZBYCAgEPFgQfBAULcGFkcmVtZW51MzMfAWcWBAIBDxYIHwQFCmxpbmtGaWdsaW8fCgUTQ2FtZXJhIGRpIFNhbiBQYW9sbx8GBSh+L2x1b2dvL2l0LUlUL0NhbWVyYS1kaS1TYW4tUGFvbG8tMS5hc3B4HwgFBV9zZWxmZAIDDxYCHwcC/////w9kAgIPZBYCAgEPFgQfBAULcGFkcmVtZW51MzEfAWcWBAIBDxYIHwQFCmxpbmtGaWdsaW8fCgURUGluYWNvdGVjYSBTdHVhcmQfBgUkfi9sdW9nby9pdC1JVC9QaW5hY290ZWNhLVN0dWFyZC5hc3B4HwgFBV9zZWxmZAIDDxYCHwcC/////w9kAgMPZBYCAgEPFgQfBAULcGFkcmVtZW51MTcfAWcWBAIBDxYIHwQFCmxpbmtGaWdsaW8fCgUWQ2FzdGVsbG8gZGVpIEJ1cmF0dGluaR8GBSt+L2x1b2dvL2l0LUlUL0Nhc3RlbGxvLWRlaS1CdXJhdHRpbmktMS5hc3B4HwgFBV9zZWxmZAIDDxYCHwcC/////w9kAgQPZBYCAgEPFgQfBAULcGFkcmVtZW51MjEfAWcWBAIBDxYIHwQFCmxpbmtGaWdsaW8fCgUUTXVzZW8gZGVsbCYjMzk7T3BlcmEfBgUifi9sdW9nby9pdC1JVC9NdXNlby1kZWxsT3BlcmEuYXNweB8IBQVfc2VsZmQCAw8WAh8HAv////8PZAIFD2QWAgIBDxYEHwQFC3BhZHJlbWVudTIwHwFnFgQCAQ8WCB8EBQpsaW5rRmlnbGlvHwoFDkNhc2EgZGVsIFN1b25vHwYFJ34vbHVvZ28vaXQtSVQvTXVzZW8tQ2FzYS1kZWwtU3Vvbm8uYXNweB8IBQVfc2VsZmQCAw8WAh8HAv////8PZAIGD2QWAgIBDxYEHwQFC3BhZHJlbWVudTE5HwFnFgQCAQ8WCB8EBQpsaW5rRmlnbGlvHwoFHENhc2EgbmF0YWxlIEFydHVybyBUb3NjYW5pbmkfBgUvfi9sdW9nby9pdC1JVC9DYXNhLU5hdGFsZS1BcnR1cm8tVG9zY2FuaW5pLmFzcHgfCAUFX3NlbGZkAgMPFgIfBwL/////D2QCAw9kFgICAQ8WBB8EBQpwYWRyZW1lbnU2HwFnFgQCAQ8WCB8EBQlsaW5rcGFkcmUfCgUQU3BhemkgZXNwb3NpdGl2aR8GBR1+L2l0LUlUL1NwYXppLUVzcG9zaXRpdmkuYXNweB8IBQVfc2VsZmQCAw8WAh8HAgQWCAIBD2QWAgIBDxYEHwQFC3BhZHJlbWVudTI0HwFnFgQCAQ8WCB8EBQpsaW5rRmlnbGlvHwoFF1BhbGF6em8gZGVsIEdvdmVybmF0b3JlHwYFLn4vbHVvZ28vaXQtSVQvUGFsYXp6by1kZWwtR292ZXJuYXRvcmUtMS0xLmFzcHgfCAUFX3NlbGZkAgMPFgIfBwL/////D2QCAg9kFgICAQ8WBB8EBQtwYWRyZW1lbnUyMh8BZxYEAgEPFggfBAUKbGlua0ZpZ2xpbx8KBRBQYWxhenpvIFBpZ29yaW5pHwYFJX4vbHVvZ28vaXQtSVQvUGFsYXp6by1QaWdvcmluaS0yLmFzcHgfCAUFX3NlbGZkAgMPFgIfBwL/////D2QCAw9kFgICAQ8WBB8EBQtwYWRyZW1lbnUyNR8BZxYEAgEPFggfBAUKbGlua0ZpZ2xpbx8KBRVHYWxsZXJpYSBTYW4gTHVkb3ZpY28fBgUqfi9sdW9nby9pdC1JVC9HYWxsZXJpYS1TYW4tTHVkb3ZpY28tMS5hc3B4HwgFBV9zZWxmZAIDDxYCHwcC/////w9kAgQPZBYCAgEPFgQfBAULcGFkcmVtZW51MjMfAWgWBAIBDxYEHwQFCmxpbmtGaWdsaW8fCgUdUGFsYXp6ZXR0byBFdWNoZXJpbyBTYW52aXRhbGVkAgMPFgIfBwL/////D2QCBA9kFgICAQ8WBB8EBQpwYWRyZW1lbnU1HwFnFgQCAQ8WCB8EBQlsaW5rcGFkcmUfCgURQ2FzYSBkZWxsYSBNdXNpY2EfBgUgfi9pdC1JVC9DYXNhLWRlbGxhLU11c2ljYS0xLmFzcHgfCAUFX3NlbGZkAgMPFgIfBwIBFgICAQ9kFgICAQ8WBB8EBQtwYWRyZW1lbnUyNh8BaBYEAgEPFgQfBAUKbGlua0ZpZ2xpbx8KBQ5QYWxhenpvIEN1c2FuaWQCAw8WAh8HAv////8PZAIFD2QWAgIBDxYEHwQFCnBhZHJlbWVudTQfAWcWBAIBDxYIHwQFCWxpbmtwYWRyZR8KBQtCaWJsaW90ZWNoZR8GBR9+L2l0LUlUL2VsZW5jby1iaWJsaW90ZWNoZS5hc3B4HwgFBV9zZWxmZAIDDxYCHwcC/////w9kAgYPZBYCAgEPFgQfBAULcGFkcmVtZW51MTgfAWgWBAIBDxYEHwQFCWxpbmtwYWRyZR8KBQ5QYWxhenpvIER1Y2FsZWQCAw8WAh8HAv////8PZAIHD2QWAgIBDxYEHwQFCnBhZHJlbWVudTcfAWcWBAIBDxYIHwQFCWxpbmtwYWRyZR8KBQZUZWF0cmkfBgUVfi9pdC1JVC9UZWF0cmktMS5hc3B4HwgFBV9zZWxmZAIDDxYCHwcC/////w9kAggPZBYCAgEPFgQfBAUKcGFkcmVtZW51OB8BZxYEAgEPFggfBAUJbGlua3BhZHJlHwoFBkNpbmVtYR8GBRV+L2l0LUlUL0NpbmVtYS0xLmFzcHgfCAUFX3NlbGZkAgMPFgIfBwICFgQCAQ9kFgICAQ8WBB8EBQtwYWRyZW1lbnUyOB8BZxYEAgEPFggfBAUKbGlua0ZpZ2xpbx8KBQ9GaWxtIENvbW1pc3Npb24fBgUcfi9pdC1JVC9GaWxtLUNvbW1pc3Npb24uYXNweB8IBQVfc2VsZmQCAw8WAh8HAv////8PZAICD2QWAgIBDxYEHwQFC3BhZHJlbWVudTI5HwFnFgQCAQ8WCB8EBQpsaW5rRmlnbGlvHwoFGFJlZ2lzdHJhemlvbmUgQmFuY2EgRGF0aR8GBSV+L2l0LUlUL1JlZ2lzdHJhemlvbmUtYmFuY2EtZGF0aS5hc3B4HwgFBV9zZWxmZAIDDxYCHwcC/////w9kAgkPZBYCAgEPFgQfBAULcGFkcmVtZW51MzIfAWgWBAIBDxYEHwQFCWxpbmtwYWRyZR8KBQdNdXJhbGVzZAIDDxYCHwcC/////w9kAgoPZBYCAgEPFgQfBAUKcGFkcmVtZW51OR8BaBYEAgEPFgQfBAUJbGlua3BhZHJlHwoFGUNyZWF0aXZpdCYjMjI0OyBnaW92YW5pbGVkAgMPFgIfBwL/////D2QCCw9kFgICAQ8WBB8EBQtwYWRyZW1lbnUzMB8BaBYEAgEPFgQfBAUJbGlua3BhZHJlHwoFHlRvdXIgdmlydHVhbGUgQmVydG9qYSBlIE1pcm9sYWQCAw8WAh8HAv////8PZAIMD2QWAgIBDxYEHwQFC3BhZHJlbWVudTM0HwFoFgQCAQ8WBB8EBQlsaW5rcGFkcmUfCgUGSSBsaWtlZAIDDxYCHwcC/////w9kAg0PZBYCAgEPFgQfBAULcGFkcmVtZW51MzUfAWcWBAIBDxYIHwQFCWxpbmtwYWRyZR8KBRBQcm9nZXR0byBSZXRoaW5rHwYFH2h0dHBzOi8vd3d3LnJldGhpbmstdGhlLWNpdHkuZXUfCAUGX2JsYW5rZAIDDxYCHwcC/////w9kAgMPZBYCZg9kFgICAQ8PFgIfAWdkFgJmDxYIHwIFGlRvdXIgUGluYWNvdGVjYSBTdHVhcmQuSlBHHwMFc34vSGFuZGxlcnMvSW1hZ2UuYXNoeD9JRD1hZDIwYTdmOC0zMzk4LTRlMzUtYWMzNC0zNDExOWU3ODc3NjQmYW1wO3NyYz1Ub3VyLVBpbmFjb3RlY2EtU3R1YXJkLkpQRyZhbXA7d2g9USU1ZCU1YyUxOV8fBQUaVG91ciBQaW5hY290ZWNhIFN0dWFyZC5KUEcfAWdkAgUPZBYCZg9kFgICAQ8PFgIfAWdkFgJmDxYIHwIFH1RvdXIgQ2FzdGVsbG8gZGVpIEJ1cmF0dGluaS5KUEcfAwV4fi9IYW5kbGVycy9JbWFnZS5hc2h4P0lEPTA0MGIwZGEzLWY3YjgtNGIzMS1hY2Y3LWIyYjE3ZDRiYWNjMiZhbXA7c3JjPVRvdXItQ2FzdGVsbG8tZGVpLUJ1cmF0dGluaS5KUEcmYW1wO3doPVElNWQlNWMlMTlfHwUFH1RvdXIgQ2FzdGVsbG8gZGVpIEJ1cmF0dGluaS5KUEcfAWdkAgcPZBYCZg9kFgICAQ8PFgIfAWdkFgJmDxYIHwIFF1RvdXIgdmlydHVhbGUgQmVydG9qYSAxHwMFdH4vSGFuZGxlcnMvSW1hZ2UuYXNoeD9JRD0wZTk3ZmY2Yi01N2YxLTQ0YjktYjZlYS0xZTBjMjgzYzdiOTMmYW1wO3NyYz1Ub3VyLXZpcnR1YWxlLUJlcnRvamEtMS5qcGcmYW1wO3doPVElNWQlNWMlMTlfHwUFF1RvdXIgdmlydHVhbGUgQmVydG9qYSAxHwFnZAIHD2QWAmYPDxYCHwFnZBYCZg9kFggCAw8PFgIfAWdkFgJmDxYIHwIFDnBhbGF6em8gZHVjYWxlHwMFaX4vSGFuZGxlcnMvSW1hZ2UuYXNoeD9JRD02NzYzMmU3Mi1hYjYyLTQ3YTctOWE1Ni0yOWQwMDViNDRiODMmYW1wO3NyYz1wYWxhenpvLWR1Y2FsZS5qcGcmYW1wO3doPVdZJTVjJTE5Xx8FBQ5wYWxhenpvIGR1Y2FsZR8BZ2QCBQ9kFgICAw8WAh8BaGQCCQ8PFgIfAWhkZAILD2QWAgIEDxYCHwcCARYCAgEPZBYCAgEPZBYCZg9kFggCAw9kFgJmDxYCHwkFGW1lcmNvbGVkw6wgMjcgbWFnZ2lvIDIwMjZkAgUPZBYCZg8WAh8JBRdkb21lbmljYSAzMSBtYWdnaW8gMjAyNmQCBw8PFgIfAWdkFgJmDxYIHwIFCFBHRl8yMDI2HwMFY34vSGFuZGxlcnMvSW1hZ2UuYXNoeD9JRD04NjVhYjI1YS1jZTIyLTQ3ZmMtOTdhOC03OTU1YWNjODUxMzMmYW1wO3NyYz1QR0YtMjAyNi5wbmcmYW1wO3doPVJXJTVjJTE5Xx8FBQhQR0ZfMjAyNh8BZ2QCCQ9kFgICAg8WBB8KBQ4gLSBWYXJpIEx1b2doaR8BZ2QCCQ8PFgIfAWhkZAILD2QWBAIDDxYCHwYFQ2h0dHBzOi8vY3VsdHVyYS5jb211bmUucGFybWEuaXQvaXQtSVQvSW5mb3JtYXppb25pLWUtcmljaGllc3RlLmFzcHhkAgcPZBYCZg8WAh8EBR1ib3hMb2dpbiBub3dyYXAgcmVnaXN0cmF6aW9uZRYCAgEPZBYCZg9kFgICAQ8WAh8GBSlodHRwczovL3d3dy5jb211bmUucGFybWEuaXQvYXJlYXBlcnNvbmFsZWQCDQ9kFgJmD2QWAgIBDw8WAh8BZ2QWAmYPFggfAgURTXVzZWkgQ2l2aWNpIDIwMjYfAwWJAX4vSGFuZGxlcnMvSW1hZ2UuYXNoeD9JRD01MjAzNzVlYy05M2Y2LTQ0NjYtYmQxMi1jYzc4ZDJhNjRlYjMmYW1wO3NyYz1CaWdsaWV0dG8tVW5pY28tTXVzZWktLS1zaXRvLWN1bHR1cmEtNzAweDQ3MC5qcGcmYW1wO3doPVElNWQlNWMlMTlfHwUFEU11c2VpIENpdmljaSAyMDI2HwFnZAIPD2QWAmYPZBYCAgEPDxYCHwFnZBYCZg8WCB8CBRpNb3N0cmUgYSBQYXJtYSBlIHByb3ZpbmNpYR8DBWt+L0hhbmRsZXJzL0ltYWdlLmFzaHg/SUQ9MDE3YjM2MDgtYjliNi00MDVmLWJiOWYtNDgwMDAxODgyY2FiJmFtcDtzcmM9TU9TVFJFLWNvcm5pY2UuanBnJmFtcDt3aD1RJTVkJTVjJTE5Xx8FBRpNb3N0cmUgYSBQYXJtYSBlIHByb3ZpbmNpYR8BZ2QCEQ9kFgJmD2QWAgIBDw8WAh8BZ2QWAmYPFggfAgUSQXRsYW50ZSBwYXRyaW1vbmlvHwMFb34vSGFuZGxlcnMvSW1hZ2UuYXNoeD9JRD1lMTcwZjBiMi1iOGJjLTQ5OTItYTRhMC00YWM2ZmE0ZWI2MmEmYW1wO3NyYz1BdGxhbnRlLXBhdHJpbW9uaW8uanBnJmFtcDt3aD1RJTVkJTVjJTE5Xx8FBRJBdGxhbnRlIHBhdHJpbW9uaW8fAWdkAiEPZBYEAgMPFgIfBwIEFghmD2QWBGYPFQEIQ29udGF0dGlkAgEPFgIfBwIDFgYCAQ9kFgICAQ8WAh8GBT1odHRwczovL3d3dy5jb211bmUucGFybWEuaXQvaXQvaW5mb3JtYXppb25pLWdlbmVyYWxpL2NvbnRhdHRpFgJmDxUBEklsIENvbXVuZSBkaSBQYXJtYWQCAg9kFgICAQ8WAh8GBT1odHRwczovL3d3dy5jb211bmUucGFybWEuaXQvaXQvaW5mb3JtYXppb25pLWdlbmVyYWxpL2NvbnRhdHRpFgJmDxUBHVBvc3RhIGVsZXR0cm9uaWNhIGNlcnRpZmljYXRhZAIDD2QWAgIBDxYCHwYFOGh0dHBzOi8vd3d3LmNvbXVuZS5wYXJtYS5pdC9pdC9pbmZvcm1hemlvbmktZ2VuZXJhbGkvdXJwFgJmDxUBA1VSUGQCAQ9kFgRmDxUBE1BlciBzYXBlcm5lIGRpIHBpw7lkAgEPFgIfBwIIFhACAQ9kFgICAQ8WAh8GBRtodHRwOi8vYWxiby5jb211bmUucGFybWEuaXQWAmYPFQEVQWxibyBwcmV0b3JpbyBvbiBsaW5lZAICD2QWAgIBDxYCHwYFOGh0dHBzOi8vd3d3LmNvbXVuZS5wYXJtYS5pdC9pdC9pbmZvcm1hemlvbmktZ2VuZXJhbGkvdXJwFgJmDxUBA1VycGQCAw9kFgICAQ8WAh8GBUhodHRwczovL3d3dy5jb211bmUucGFybWEuaXQvaXQvZG9jdW1lbnRpLWUtZGF0aS9mYXR0dXJhemlvbmUtZWxldHRyb25pY2EWAmYPFQEYRmF0dHVyYXppb25lIGVsZXR0cm9uaWNhZAIED2QWAgIBDxYCHwYFQ2h0dHBzOi8vd3d3LmNvbXVuZS5wYXJtYS5pdC9pdC9pbmZvcm1hemlvbmktZ2VuZXJhbGkvcHJpdmFjeS1wb2xpY3kWAmYPFQEOUHJpdmFjeSBQb2xpY3lkAgUPZBYCAgEPFgIfBgVBaHR0cHM6Ly93d3cuY29tdW5lLnBhcm1hLml0L2l0L2luZm9ybWF6aW9uaS1nZW5lcmFsaS9wcml2YWN5LWdkcHIWAmYPFQEQSW5mb3JtYXRpdmUgR3BkcmQCBg9kFgICAQ8WAh8GBUJodHRwczovL3d3dy5jb211bmUucGFybWEuaXQvaXQvaW5mb3JtYXppb25pLWdlbmVyYWxpL2FjY2Vzc2liaWxpdGEWAmYPFQEOQWNjZXNzaWJpbGl0w6BkAgcPZBYCAgEPFgIfBgViaHR0cHM6Ly93d3cuY29tdW5lLnBhcm1hLml0L2l0L2luZm9ybWF6aW9uaS1nZW5lcmFsaS9jb29raWUtcG9saWN5LWRlbC1wb3J0YWxlLWRlbC1jb211bmUtZGktcGFybWEWAmYPFQENQ29va2llIHBvbGljeWQCCA9kFgICAQ8WAh8GBUBodHRwczovL3d3dy5jb211bmUucGFybWEuaXQvaXQvaW5mb3JtYXppb25pLWdlbmVyYWxpL25vdGUtbGVnYWxpFgJmDxUBC05vdGUgTGVnYWxpZAICD2QWBGYPFQEOU29jaWFsIE5ldHdvcmtkAgEPFgIfBwIHFg4CAQ9kFgICAQ8WAh8GBSdodHRwczovL3d3dy5mYWNlYm9vay5jb20vb2ZmaWNpYWxwYXJtYS8WAmYPFQEIRmFjZWJvb2tkAgIPZBYCAgEPFgIfBgUsaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9jb211bmVwYXJtYS8/aGw9aXQWAmYPFQEJSW5zdGFncmFtZAIDD2QWAgIBDxYCHwYFI2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL2NvbXVuZXBhcm1hFgJmDxUBB1lvdXR1YmVkAgQPZBYCAgEPFgIfBgU1aHR0cHM6Ly93aGF0c2FwcC5jb20vY2hhbm5lbC8wMDI5VmFSNTFMeENSczFpSGFqdGdjM2EWAmYPFQEIV2hhdHNhcHBkAgUPZBYCAgEPFgIfBgUqaHR0cHM6Ly93d3cuZmxpY2tyLmNvbS9waG90b3MvY29tdW5lcGFybWEvFgJmDxUBBkZsaWNrcmQCBg9kFgICAQ8WAh8GBTFodHRwczovL3d3dy5saW5rZWRpbi5jb20vY29tcGFueS9jb211bmUtZGktcGFybWEvFgJmDxUBCExpbmtlZGluZAIHD2QWAgIBDxYCHwYFLWh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9JbmZvcm1hR2lvdmFuaS5QYXJtYRYCZg8VAR9JbCBzZXJ2aXppbyBnaW92YW5pIHN1IEZhY2Vib29rZAIDD2QWBGYPFQEURWxlbmNvIFNpdGkgVGVtYXRpY2lkAgEPFgIfBwIUFigCAQ9kFgICAQ8WAh8GBTFodHRwczovL3d3dy5jb211bmUucGFybWEuaXQvaXQvYXJnb21lbnRpL2FtYmllbnRlFgJmDxUBCEFtYmllbnRlZAICD2QWAgIBDxYCHwYFImh0dHBzOi8vYXR0aS5jb211bmUucGFybWEuaXQvTDE5MC8WAmYPFQEbQW1taW5pc3RyYXppb25lIFRyYXNwYXJlbnRlZAIDD2QWAgIBDxYCHwYFK2h0dHBzOi8vYXR0aXZpdGFlY29ub21pY2hlLmNvbXVuZS5wYXJtYS5pdC8WAmYPFQEUQXR0aXZpdMOgIGVjb25vbWljaGVkAgQPZBYCAgEPFgIfBgUfaHR0cHM6Ly9jdWx0dXJhLmNvbXVuZS5wYXJtYS5pdBYCZg8VAQdDdWx0dXJhZAIFD2QWAgIBDxYCHwYFJmh0dHBzOi8vZWRpbGl6aWEuY29tdW5lLnBhcm1hLml0L3N1ZWkvFgJmDxUBCEVkaWxpemlhZAIGD2QWAgIBDxYCHwYFJWh0dHBzOi8vd3d3LmVsZXppb25pLmNvbXVuZS5wYXJtYS5pdC8WAmYPFQEIRWxlemlvbmlkAgcPZBYCAgEPFgIfBgUsaHR0cHM6Ly9jZW50cm9wZXJsZWZhbWlnbGllLmNvbXVuZS5wYXJtYS5pdC8WAmYPFQEIRmFtaWdsaWFkAggPZBYCAgEPFgIfBgUwaHR0cHM6Ly93d3cuY29tdW5lLnBhcm1hLml0L2l0L2FyZ29tZW50aS9naW92YW5pFgJmDxUBB0dpb3ZhbmlkAgkPZBYCAgEPFgIfBgUoaHR0cHM6Ly9pbmZvcm1hc3RyYW5pZXJpLmNvbXVuZS5wYXJtYS5pdBYCZg8VARBJbmZvcm1hc3RyYW5pZXJpZAIKD2QWAgIBDxYCHwYFPWh0dHBzOi8vd3d3LmNvbXVuZS5wYXJtYS5pdC9pdC9hcmdvbWVudGkvbW9iaWxpdGEtc29zdGVuaWJpbGUWAmYPFQEJTW9iaWxpdMOgZAILD2QWAgIBDxYCHwYFKWh0dHBzOi8vcGlhbm9lbmVyZ2lhY2xpbWEuY29tdW5lLnBhcm1hLml0FgJmDxUBBVBhZXNjZAIMD2QWAgIBDxYCHwYFN2h0dHBzOi8vd3d3LmNvbXVuZS5wYXJtYS5pdC9pdC9hcmdvbWVudGkvcG9saXppYS1sb2NhbGUWAmYPFQEOUG9saXppYSBsb2NhbGVkAg0PZBYCAgEPFgIfBgUoaHR0cHM6Ly9wcm90ZXppb25lY2l2aWxlLmNvbXVuZS5wYXJtYS5pdBYCZg8VARFQcm90ZXppb25lIGNpdmlsZWQCDg9kFgICAQ8WAh8GBSNodHRwczovL3Bhcm1hc2FsdXRlLmNvbXVuZS5wYXJtYS5pdBYCZg8VAQZTYWx1dGVkAg8PZBYCAgEPFgIfBgUxaHR0cHM6Ly9zaXRpLmNvbXVuZS5wYXJtYS5pdC9pdC9zZXJ2aXppLWVkdWNhdGl2aRYCZg8VAQZTY3VvbGFkAhAPZBYCAgEPFgIfBgUnaHR0cHM6Ly9zZXJ2aXppb2NpdmlsZS5jb211bmUucGFybWEuaXQvFgJmDxUBEFNlcnZpemlvICBDaXZpbGVkAhEPZBYCAgEPFgIfBgUlaHR0cHM6Ly9zaXRpLmNvbXVuZS5wYXJtYS5pdC9pdC9zcG9ydBYCZg8VAQVTcG9ydGQCEg9kFgICAQ8WAh8GBSFodHRwczovL3Rpcm9jaW5pLmNvbXVuZS5wYXJtYS5pdC8WAmYPFQEIVGlyb2NpbmlkAhMPZBYCAgEPFgIfBgUfaHR0cHM6Ly93d3cucGFybWF3ZWxjb21lLml0L2l0LxYCZg8VAQdUdXJpc21vZAIUD2QWAgIBDxYCHwYFIGh0dHBzOi8vd2VsZmFyZS5jb211bmUucGFybWEuaXQvFgJmDxUBB1dlbGZhcmVkAgUPFgYfCgUjRGljaGlhcmF6aW9uZSBkaSBhY2Nlc3NpYmlsaXQmIzIyNDsfBgU9aHR0cHM6Ly9mb3JtLmFnaWQuZ292Lml0L2NfZzMzNy9wb3J0YWxlX2N1bHR1cmEvZGljaGlhcmF6aW9uZR8BZ2QCIw9kFgRmDxYCHwFoZAICDxYCHwFoZGSlqsr7Vo5yI7QsxmDLsU/wccVHvaPrgpgoHgXOXBY+Mg==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="635A09A6" />
+    <div id="macroAreaPagina" class="container">
+        <div class="in-nav">
+            <div class="row">
+                <div id="headerPortale" class="span12">
+                    <img src="../../Handlers/Image.ashx?ID=f7cd22af-a898-4ac1-84dc-8c13727dc030&amp;src=Image.png&amp;wh=S%13%5c" id="banner_imgMain" alt="banner Sito Cultura" class="homePortale" title="banner Sito Cultura" />
+
+
+
+
+
+
+
+                    <map name="homePortale" id="homePortale">
+                        <area shape="rect" coords="0,0,200,200" href="https://www.comune.parma.it" alt="Comune di Parma" />
+                    </map>
+                </div>
+                
+                
+<div class="span12 menu cultura-h">
+    <ul>
+        <li id="Navigazione1_liHome"><a href="https://cultura.comune.parma.it/it-IT/home-cultura.aspx" id="Navigazione1_navTreeItemHome">>
+                    Home</a></li>
+        
+                <li><a id="Navigazione1_rptNavigation_navTreeItem_0">>
+                    Settore</a></li>
+            
+                <li><a href="https://cultura.comune.parma.it/it-IT/Musei-Civici.aspx" id="Navigazione1_rptNavigation_navTreeItem_1">>
+                    Musei Civici</a></li>
+            
+                <li><a href="https://cultura.comune.parma.it/it-IT/Spazi-Espositivi.aspx" id="Navigazione1_rptNavigation_navTreeItem_2">>
+                    Spazi espositivi</a></li>
+            
+                <li><a href="https://cultura.comune.parma.it/it-IT/Casa-della-Musica-1.aspx" id="Navigazione1_rptNavigation_navTreeItem_3">>
+                    Casa della Musica</a></li>
+            
+                <li><a href="https://cultura.comune.parma.it/it-IT/elenco-biblioteche.aspx" id="Navigazione1_rptNavigation_navTreeItem_4">>
+                    Biblioteche</a></li>
+            
+                <li><a href="https://cultura.comune.parma.it/it-IT/Teatri-1.aspx" id="Navigazione1_rptNavigation_navTreeItem_5">>
+                    Teatri</a></li>
+            
+                <li><a href="https://cultura.comune.parma.it/it-IT/Cinema-1.aspx" id="Navigazione1_rptNavigation_navTreeItem_6">>
+                    Cinema</a></li>
+            
+                <li><a href="https://www.rethink-the-city.eu" id="Navigazione1_rptNavigation_navTreeItem_7" target="_blank">>
+                    Progetto Rethink</a></li>
+            
+        <li><a href='?solotesto=1'>Solo Testo</a></li>
+    </ul>
+</div>
+
+                
+                
+                
+            </div>
+        </div>
+        <div id="macroAreaContenuti" class="page">
+            <div class="row">
+               
+                    <div id="areaNavigazione" class="span3 main-column">
+                     
+                        
+
+<div class="genericmenu cultura">
+    <a name="a-navigazione" title="a-navigazione" accesskey="2"></a>
+    
+
+    
+            <ul>
+        
+            <li id="cphAreaMenuSx_LeftMenu_rptMenu_liElemento_0" class="padremenu2">
+                <h5><a id="cphAreaMenuSx_LeftMenu_rptMenu_aLink_0" class="linkpadre">Settore</a></h5>
+                
+                        <ul>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_0_liElemento_0" class="padremenu27">
+                            <a href="../../it-IT/Chi-siamo-7.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_0_aLink_0" class="linkFiglio" target="_self">Assessore</a>
+                            
+                        </li>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_0_liElemento_1" class="padremenu10">
+                            <a href="../../it-IT/Staff-3.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_0_aLink_1" class="linkFiglio" target="_self">Staff</a>
+                            
+                        </li>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_0_liElemento_2" class="padremenu11">
+                            <a href="../../it-IT/Documenti-2.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_0_aLink_2" class="linkFiglio" target="_self">Patrocini e Contributi</a>
+                            
+                        </li>
+                    
+                        </ul>
+                    
+            </li>
+        
+            <li id="cphAreaMenuSx_LeftMenu_rptMenu_liElemento_1" class="padremenu3">
+                <h5><a href="../../it-IT/Musei-Civici.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_aLink_1" class="linkpadre" target="_self">Musei Civici</a></h5>
+                
+                        <ul>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_liElemento_0" class="padremenu33">
+                            <a href="Camera-di-San-Paolo-1.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_aLink_0" class="linkFiglio" target="_self">Camera di San Paolo</a>
+                            
+                        </li>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_liElemento_1" class="padremenu31">
+                            <a href="Pinacoteca-Stuard.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_aLink_1" class="linkFiglio" target="_self">Pinacoteca Stuard</a>
+                            
+                        </li>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_liElemento_2" class="padremenu17">
+                            <a href="Castello-dei-Burattini-1.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_aLink_2" class="linkFiglio" target="_self">Castello dei Burattini</a>
+                            
+                        </li>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_liElemento_3" class="padremenu21">
+                            <a href="Museo-dellOpera.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_aLink_3" class="linkFiglio" target="_self">Museo dell&#39;Opera</a>
+                            
+                        </li>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_liElemento_4" class="padremenu20">
+                            <a href="Museo-Casa-del-Suono.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_aLink_4" class="linkFiglio" target="_self">Casa del Suono</a>
+                            
+                        </li>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_liElemento_5" class="padremenu19">
+                            <a href="Casa-Natale-Arturo-Toscanini.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_1_aLink_5" class="linkFiglio" target="_self">Casa natale Arturo Toscanini</a>
+                            
+                        </li>
+                    
+                        </ul>
+                    
+            </li>
+        
+            <li id="cphAreaMenuSx_LeftMenu_rptMenu_liElemento_2" class="padremenu6">
+                <h5><a href="../../it-IT/Spazi-Espositivi.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_aLink_2" class="linkpadre" target="_self">Spazi espositivi</a></h5>
+                
+                        <ul>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_2_liElemento_0" class="padremenu24">
+                            <a href="Palazzo-del-Governatore-1-1.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_2_aLink_0" class="linkFiglio" target="_self">Palazzo del Governatore</a>
+                            
+                        </li>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_2_liElemento_1" class="padremenu22">
+                            <a href="Palazzo-Pigorini-2.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_2_aLink_1" class="linkFiglio" target="_self">Palazzo Pigorini</a>
+                            
+                        </li>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_2_liElemento_2" class="padremenu25">
+                            <a href="Galleria-San-Ludovico-1.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_2_aLink_2" class="linkFiglio" target="_self">Galleria San Ludovico</a>
+                            
+                        </li>
+                    
+                        
+                    
+                        </ul>
+                    
+            </li>
+        
+            <li id="cphAreaMenuSx_LeftMenu_rptMenu_liElemento_3" class="padremenu5">
+                <h5><a href="../../it-IT/Casa-della-Musica-1.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_aLink_3" class="linkpadre" target="_self">Casa della Musica</a></h5>
+                
+                        <ul>
+                    
+                        
+                    
+                        </ul>
+                    
+            </li>
+        
+            <li id="cphAreaMenuSx_LeftMenu_rptMenu_liElemento_4" class="padremenu4">
+                <h5><a href="../../it-IT/elenco-biblioteche.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_aLink_4" class="linkpadre" target="_self">Biblioteche</a></h5>
+                
+            </li>
+        
+            
+        
+            <li id="cphAreaMenuSx_LeftMenu_rptMenu_liElemento_6" class="padremenu7">
+                <h5><a href="../../it-IT/Teatri-1.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_aLink_6" class="linkpadre" target="_self">Teatri</a></h5>
+                
+            </li>
+        
+            <li id="cphAreaMenuSx_LeftMenu_rptMenu_liElemento_7" class="padremenu8">
+                <h5><a href="../../it-IT/Cinema-1.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_aLink_7" class="linkpadre" target="_self">Cinema</a></h5>
+                
+                        <ul>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_7_liElemento_0" class="padremenu28">
+                            <a href="../../it-IT/Film-Commission.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_7_aLink_0" class="linkFiglio" target="_self">Film Commission</a>
+                            
+                        </li>
+                    
+                        <li id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_7_liElemento_1" class="padremenu29">
+                            <a href="../../it-IT/Registrazione-banca-dati.aspx" id="cphAreaMenuSx_LeftMenu_rptMenu_rptFigli_7_aLink_1" class="linkFiglio" target="_self">Registrazione Banca Dati</a>
+                            
+                        </li>
+                    
+                        </ul>
+                    
+            </li>
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            <li id="cphAreaMenuSx_LeftMenu_rptMenu_liElemento_12" class="padremenu35">
+                <h5><a href="https://www.rethink-the-city.eu" id="cphAreaMenuSx_LeftMenu_rptMenu_aLink_12" class="linkpadre" target="_blank">Progetto Rethink</a></h5>
+                
+            </li>
+        
+            </ul>
+        
+
+    
+    
+</div>
+
+
+
+
+                    <div class="banners"  ><a href="https://cultura.comune.parma.it/virtualtour360PinacotecaStuard/" target="_blank" Title="Tour Virtuale Pinacoteca Stuard							      			"><img src="../../Handlers/Image.ashx?ID=ad20a7f8-3398-4e35-ac34-34119e787764&amp;src=Tour-Pinacoteca-Stuard.JPG&amp;wh=Q%5d%5c%19_" id="cphAreaMenuSx_rl_box_banner_sx_1_imgTitleBanner1_imgMain" alt="Tour Pinacoteca Stuard.JPG" title="Tour Pinacoteca Stuard.JPG" />
+
+
+
+
+
+
+</a><br></div>
+                    <div class="banners"  ><a href="https://cultura.comune.parma.it/virtualtour360CastellodeiBurattini/" target="_blank" Title="Tour Virtuale Castello dei Burattini								      			"><img src="../../Handlers/Image.ashx?ID=040b0da3-f7b8-4b31-acf7-b2b17d4bacc2&amp;src=Tour-Castello-dei-Burattini.JPG&amp;wh=Q%5d%5c%19_" id="cphAreaMenuSx_rl_box_banner_sx_2_imgTitleBanner1_imgMain" alt="Tour Castello dei Burattini.JPG" title="Tour Castello dei Burattini.JPG" />
+
+
+
+
+
+
+</a><br></div>
+                    <div class="banners"  ><a href="http://www.stefanobotti.com/Il_luogo_della_meraviglia/Il_luogo_della_meraviglia_VT.html" target="_blank" Title="Tour virtuale agli affreschi di Bertoja e Mirola a Palazzo Ducale				"><img src="../../Handlers/Image.ashx?ID=0e97ff6b-57f1-44b9-b6ea-1e0c283c7b93&amp;src=Tour-virtuale-Bertoja-1.jpg&amp;wh=Q%5d%5c%19_" id="cphAreaMenuSx_rl_box_banner_sx_3_imgTitleBanner1_imgMain" alt="Tour virtuale Bertoja 1" title="Tour virtuale Bertoja 1" />
+
+
+
+
+
+
+</a><br></div>
+                    
+                    
+                      
+                      
+                    </div>
+                 
+                <div class="span6 main-column">
+                    
+    
+        <div class="topnews  row-fluid">
+              <h2>
+                    cultura
+              </h2>
+        </div>        
+         <div class="single-article row-fluid"  >
+  <div class="right">
+    
+
+<div class="">
+    <a class="social-link" target="_blank" href="http://www.facebook.com/sharer.php?u=~/luogo/it-IT/Palazzo-Ducale-2.aspx"><i class="picon-face"></i></a>
+    <a target="_blank" class="social-link" href="http://twitter.com/share?count=none&amp;via=ComuneParma&amp;url=~/luogo/it-IT/Palazzo-Ducale-2.aspx&amp;text=">
+        <i class="picon-twitter"></i>
+        </a>
+    <a class="social-link" href="https://plus.google.com/share?url=~/luogo/it-IT/Palazzo-Ducale-2.aspx"><i class="picon-google"></i></a>
+</div>
+
+
+
+
+  </div>
+  <div class="row-fluid"></div>
+  <h5></h5>
+  <h4>Palazzo Ducale</h4>
+  <h6>Il Palazzo Ducale del Giardino era meta di artisti, curiosi, collezionisti provenienti da tutta Europa. Era la Reggia di Parma, col suo Giardino, la sua splendida fontana, posta all'ingresso, poi le sue serre e le sue aranciaie.</h6>
+  <img src="../../Handlers/Image.ashx?ID=67632e72-ab62-47a7-9a56-29d005b44b83&amp;src=palazzo-ducale.jpg&amp;wh=WY%5c%19_" id="cphAreaContenuti_progetto_speciale_imgTestata_imgMain" alt="palazzo ducale" title="palazzo ducale" />
+
+
+
+
+
+
+<br><br><div class="informazioni_evento">
+    <h5>INFORMAZIONI</h5>
+    <div class="row-fluid info" style="margin-top:10px">
+      <div class="span3 text-right">ORARI:</div>
+      <div class="span9">Aperto soltanto in occasione di eventi speciali.</div>
+    </div>
+    <hr>
+    <div class="row-fluid info">
+      <div class="span3 text-right">CONTATTI:</div>
+      <div class="span9"><p>Per maggiori informazioni contattare lo IAT:&nbsp;+39 0521218889<br><a href="mailto:turismo@comune.parma.it" target="_blank" rel="noopener">turismo@comune.parma.it</a></p></div>
+    </div>
+  </div>
+  
+
+<script>
+
+
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: -34.397, lng: 150.644 },
+            zoom: 8
+        });
+    }
+</script>
+
+    <div class="clearfix"></div>
+      <div class="informazioni_evento">
+      <h5>DOVE</h5>
+      <div class="row" style="margin-top:10px">
+        <div class="span5">
+       <ul class="luogo">
+    
+       <li>
+       <div class="row-fluid">
+       <div class="span6">
+        <a href="Palazzo-Ducale-2.aspx" id="cphAreaContenuti_progetto_speciale_LuogoNotizia_rpTags_aLink_0">- PALAZZO DUCALE</a>
+        <br />
+        PCO DUCALE 3,43125 PARMA
+        
+            
+          
+        </div>
+        <div class="span6">
+            <div id="map"></div><iframe  width="200" frameborder="0" style="border:0" 
+            src="https://www.google.com/maps/embed/v1/place?zoom=16&key=AIzaSyBhYSyfOTB-sF3J_kLUXI5jPxePDsGANKM&q=44.8078,10.32234" allowfullscreen></iframe></div>
+        </div>
+       </li>
+       
+       
+    
+        </ul></div></div></div>
+    
+
+
+  <p><p>Armoniosamente circondato dalla verde cornice del Parco Ducale, l&rsquo;imponente palazzo voluto da Ottavio Farnese nel 1561 e costruito su progetto del Vignola, spicca con il suo tipico &ldquo;giallo Parma&rdquo; per imponenza e bellezza .</p>
+<p>L&rsquo;aspetto attuale per&ograve; &egrave; frutto di vari rifacimenti ad opera sia del Bibiena che, nel 1767, di Ennemond Petitot.</p>
+<p>&Egrave; grazie agli interventi del Petitot che viene eliminata la grande scala doppia con grotta centrale che ornava l&rsquo;ingresso e viene conferito al palazzo un aspetto pi&ugrave; classicheggiante.</p>
+<p>I numerosi affreschi che arricchiscono l&rsquo;interno, sono opera di importanti artisti che tra il sedicesimo ed il diciassettesimo secolo vi si dedicarono: Cesare Baglioni, Benigno Bossi, Jacopo Bertoia, che dipinse scene tratte dall&rsquo;Orlando Furioso. Inoltre, Tiarini, Agostino Carracci e Gian Battista Trotti affrescarono rispettivamente la Sala di Erminia, la Sala dell&rsquo;Amore e la Sala delle Leggende.</p>
+<p>Il Palazzo, dal 1953, &egrave; sede del Comando Carabinieri di Parma.</p>
+<p>Il Palazzo Ducale al momento &egrave; chiuso, ad eccezione di iniziative specifiche, ma grazie alla tecnologia, un tour virtuali consente a tutti i cittadini e turisti di vedere le tre sale del sottotetto di Palazzo Ducale, all'interno delle quali sono presenti mirabili affreschi. Grazie a delle fotografie eseguite da una fotocamera di altissima qualit&agrave;, il visitatore, potr&agrave; vedere un affresco raffigurante un Tempio con figure e racemi all&rsquo;intorno, parte di un pensiero pi&ugrave; in grande, accompagnato da vari frammenti dipinti nel sottotetto. Per approfondire: <a title="https://www.comune.parma.it/cultura/it-IT/tour-virtuale-affreschi-bertoja-e-mirola-palazzo-ducale.aspx" href="https://www.comune.parma.it/cultura/it-IT/tour-virtuale-affreschi-bertoja-e-mirola-palazzo-ducale.aspx" target="_self">"Tour virtuale agli affreschi di Bertoja e Mirola a Palazzo Ducale"</a>.</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Infine, grazie alla tecnologia, due tour virtuali consentono a tutti i cittadini e turisti di vedere i tesori della Pinacoteca Stuard e del Castello dei Burattini &ndash; Museo Giordano Ferrari, portando a &ldquo;domicilio&rdquo; la loro grande bellezza. Grazie a delle riprese eseguite da una telecamera di altissima qualit&agrave;, il visitatore, accompagnato dal professor Alessandro Malinverni (Dottore di ricerca in Storia dell&rsquo;Arte, conservatore del Museo Gazzola di Piacenza e consulente scientifico della Pinacoteca Stuard) potr&agrave; vedere, seguendo lo studioso in sei sale del Museo, le principali opere d&rsquo;arte presenti nell'importante ed eterogeneo percorso espositivo.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">CLICCA QUI PER VEDERE IL TOUR VIRTUALE DELLA PINACOTECA STUARD</div>
+<p>Attraverso questo <a title="http://www.stefanobotti.com/Il_luogo_della_meraviglia/Il_luogo_della_meraviglia_VT.html" href="http://www.stefanobotti.com/Il_luogo_della_meraviglia/Il_luogo_della_meraviglia_VT.html" target="_blank" rel="noopener">link</a> &egrave; possibile entrare nel tour virtuale.</p></p>
+  <div class="article-body">
+    <p></p>
+  </div>
+  <div class="sfondoAzzurrino">
+    
+  </div>
+  <div class="sfondoAzzurrino">
+    
+  </div>
+  <div class="clear"></div>
+  <div class="eventiPerLuogo">
+    
+
+
+
+
+        <div class="informazioni_evento">
+            <h5>Archivio Eventi</h5>
+                <div class="text-right"><a href="../../it-IT/cerca-evento.aspx?luogoid=b95dd54b-d45d-44e9-a5e9-b9852a5fec3c">>> Vai all'archivio completo</a></div>
+            </div>
+    
+        <div class="article clearfix" style="position:relative"  >
+  <div class="row-fluid">
+    <div class="clearfix"></div>
+    <div class="span12 text-right">
+      
+
+<div class="">
+    <a class="social-link" target="_blank" href="http://www.facebook.com/sharer.php?u=https://www.lacasadellamusica.it/it-IT/Paganini-Guitar-Festival-2026.aspx"><i class="picon-face"></i></a>
+    <a target="_blank" class="social-link" href="http://twitter.com/share?count=none&amp;via=ComuneParma&amp;url=https://www.lacasadellamusica.it/it-IT/Paganini-Guitar-Festival-2026.aspx&amp;text=">
+        <i class="picon-twitter"></i>
+        </a>
+    <a class="social-link" href="https://plus.google.com/share?url=https://www.lacasadellamusica.it/it-IT/Paganini-Guitar-Festival-2026.aspx"><i class="picon-google"></i></a>
+</div>
+
+
+
+
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span12">
+      <h3><a href="https://www.lacasadellamusica.it/it-IT/Paganini-Guitar-Festival-2026.aspx">Paganini Guitar Festival 2026</a></h3>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span12">
+      <h4 class="h4u">
+                Da mercoledì 27 maggio 2026 a domenica 31 maggio 2026
+      </h4>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span5">
+      <img src="../../Handlers/Image.ashx?ID=865ab25a-ce22-47fc-97a8-7955acc85133&amp;src=PGF-2026.png&amp;wh=RW%5c%19_" id="cphAreaContenuti_progetto_speciale_eventiincorso_rptEventiArchivio_rnd_0_imgTestata_0_imgMain_0" alt="PGF_2026" title="PGF_2026" />
+
+
+
+
+
+
+
+    </div>
+    <div class="span7">
+      <div class="span12 boxluogo" style="text-transform: uppercase; font-size:12px;  min-height:10px">Musica
+<span id="cphAreaContenuti_progetto_speciale_eventiincorso_rptEventiArchivio_rnd_0_LuogoNotizia_0_rMini_0"> - Vari Luoghi</span>
+
+      </div>¡Folia de España! è il titolo della ventiseiesima edizione del Paganini Guitar Festival, in programma a Parma dal 27 al 31 maggio 2026. Sui palchi di Parma chitarristi del calibro di Ana Vidović, Aniello Desiderio, Pablo Marquez, Zoran Dukić, Grisha Goryachev e Pavel Steidl</div>
+  </div>
+</div>
+    
+       
+    
+
+  </div><br /></div>
+    
+
+                </div>
+                <div class="span3 main-column">
+                                        
+                    
+<div class="contact">
+    <div id="MenuServizio_cmsRicerca2_pnlRicerca">
+	
+    <div id="MenuServizio_cmsRicerca2_DivRicerca">
+        <input name="ctl00$MenuServizio$cmsRicerca2$txtCerca" type="text" id="MenuServizio_cmsRicerca2_txtCerca" class="ui-ricerca-text-main" />
+        <input type="submit" name="ctl00$MenuServizio$cmsRicerca2$btnCerca" value="" id="MenuServizio_cmsRicerca2_btnCerca" class="ui-ricerca-button-hide" />              
+    </div>
+
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.ui-ricerca-text-main').css({ 'text-align': 'center' });
+        $('.ui-ricerca-text-main').val('>> Cerca nel portale');
+
+        $('.ui-ricerca-text-main').focus(
+        function () {
+            $(this).css({ 'text-align': 'left' });
+            $(this).val('');
+            $(this).css({ 'background-color': '#FFF' });
+        });
+
+        $('.ui-ricerca-text-main').blur(
+        function () {
+            $(this).css({ 'text-align': 'center' });
+            $(this).val('>> Cerca nel portale');
+            $(this).css({ 'background-color': '#ECECEC' });
+        });
+
+    });
+</script>
+    
+
+    <div class="box wrap orange">
+        <span>Numero Unico <strong>0521 40521</strong></span> <i class="phone"></i>
+    </div>
+    <div class="boxscriviComune wrap orange">        
+       <div class="testoScriviComune">
+       <a href="https://cultura.comune.parma.it/it-IT/Informazioni-e-richieste.aspx" id="MenuServizio_aScrivici" style="color:#FF9900; font-weight:400 !important;">
+            Scrivi al Settore Cultura                
+       </a>
+       </div>  
+       <i class="mail"></i>
+    </div>
+    
+    <div class="boxNewsletter wrap">
+        <div class="testoScriviComune">
+            <a href="../../registrazione-newsletter.aspx" id="MenuServizio_a1"><strong>Iscriviti alla Newsletter</strong>
+            <span class="miniNewsletter">Eventi della Cultura</span>
+            </a> 
+        </div>
+        <i class="newsletter"></i>
+    </div>
+    <div id="MenuServizio_boxLogin_containerLogin" class="boxLogin nowrap registrazione">
+
+            <div class="testoScriviComune">
+                <a href="https://www.comune.parma.it/areapersonale" id="MenuServizio_boxLogin_lwMain_aAccesso">
+                    <span><strong>Il tuo Comune</strong></span>
+                    <br />
+                    <span class="miniAbstract">Accedi al tuo profilo</span>
+                </a>
+            </div>
+            <i class="resarea"></i>
+        
+</div>
+
+
+    <div class="social"> 
+        Segui il Comune di Parma su:<br /> 
+        <a href="https://www.youtube.com/comuneparma" target="_blank"><i class="youtube"></i></a>
+        <a href="https://twitter.com/comuneparma" target="_blank"><i class="twitter"></i></a>
+        <a href="https://www.flickr.com/photos/comuneparma/" target="_blank"><i class="flickr"></i></a>
+        <a href="https://www.instagram.com/comuneparma/?hl=it" target="_blank" title="instagram"><i class="instagram"></i></a>
+        <a href="https://www.facebook.com/officialparma" target="_blank"><i class="facebook"></i></a>
+    </div>
+</div>
+
+
+                                                                              
+                    
+                    <div class="banners"  ><a href="https://cultura.comune.parma.it/Pages/custom_pagina_ragruppamento.aspx?ID=6d15221b-d2e4-4e04-a025-9f70f814af13" Title="Musei Civici 2026"><img src="../../Handlers/Image.ashx?ID=520375ec-93f6-4466-bd12-cc78d2a64eb3&amp;src=Biglietto-Unico-Musei---sito-cultura-700x470.jpg&amp;wh=Q%5d%5c%19_" id="rl_box_banner_1_imgTitleBanner1_imgMain" alt="Musei Civici 2026" title="Musei Civici 2026" />
+
+
+
+
+
+
+</a><br></div>
+                    <div class="banners"  ><a href="https://cultura.comune.parma.it/Pages/pagina_generica.aspx?ID=838a78ef-dd7a-4ed4-a2e8-484a2bd4f234" target="_blank" Title="Mostre aperte a Parma e provincia"><img src="../../Handlers/Image.ashx?ID=017b3608-b9b6-405f-bb9f-480001882cab&amp;src=MOSTRE-cornice.jpg&amp;wh=Q%5d%5c%19_" id="rl_box_banner_2_imgTitleBanner1_imgMain" alt="Mostre a Parma e provincia" title="Mostre a Parma e provincia" />
+
+
+
+
+
+
+</a><br></div>
+                    <div class="banners"  ><a href="http://www.google.com/maps/d/viewer?mid=1hJm0cVl_Tol4wSi1KZP7lTjlkbY&amp;ll=44.79948795042785%2C10.330905900000062&amp;z=14" target="_blank" Title="Atlante Beni Culturali del Comune di Parma   "><img src="../../Handlers/Image.ashx?ID=e170f0b2-b8bc-4992-a4a0-4ac6fa4eb62a&amp;src=Atlante-patrimonio.jpg&amp;wh=Q%5d%5c%19_" id="rl_box_banner_3_imgTitleBanner1_imgMain" alt="Atlante patrimonio" title="Atlante patrimonio" />
+
+
+
+
+
+
+</a><br></div>
+                    
+                    
+                    
+                    
+                    
+                    
+                      
+
+                    
+<div id="calendari_lateral1" data-date="22/11/2026"></div>
+
+<script>
+    $(document).ready(function () {
+
+        var culture = 'it-IT';
+        var theMonths;
+        var thDays;
+        switch (culture) {
+            case 'en-US':
+                theMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October","November","December"];
+                theDays = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
+                break;
+            default:
+                theMonths = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
+                theDays = ["Do", "Lu", "Ma", "Me", "Gi", "Ve", "Sa"];
+                break;
+
+        }
+
+        $('#calendari_lateral1').calendar({
+            months: theMonths,
+            days: theDays,
+            events: [{}],
+            popover_options: { placement: 'top' },
+            req_ajax: {
+                type: 'get',
+                url: '/handlers/CalendarFeed.ashx?Culture=it-IT'
+            }
+        });
+    });
+</script>
+                    <div class="link-box">
+                        <a href="../it-IT/cerca-evento.aspx">Archivio Eventi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            
+<div class="row">
+    <div class="span12">
+        <div class="span2">
+            <img src="../../Media/it-IT/generic/stemma.png" alt="stemmaParma" />
+        </div>
+        
+            <section>
+                <h6 class="list-heading">
+                    Contatti</h6>
+                    
+                
+                        <ul>
+                    
+                        <li><a href="https://www.comune.parma.it/it/informazioni-generali/contatti" id="Footer_rptAlberoMain_rptAlberoSubmenu_0_aHref_0">Il Comune di Parma</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/informazioni-generali/contatti" id="Footer_rptAlberoMain_rptAlberoSubmenu_0_aHref_1">Posta elettronica certificata</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/informazioni-generali/urp" id="Footer_rptAlberoMain_rptAlberoSubmenu_0_aHref_2">URP</a></li>
+                    
+                        </ul>
+                </section>
+            
+            <section>
+                <h6 class="list-heading">
+                    Per saperne di più</h6>
+                    
+                
+                        <ul>
+                    
+                        <li><a href="http://albo.comune.parma.it" id="Footer_rptAlberoMain_rptAlberoSubmenu_1_aHref_0">Albo pretorio on line</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/informazioni-generali/urp" id="Footer_rptAlberoMain_rptAlberoSubmenu_1_aHref_1">Urp</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/documenti-e-dati/fatturazione-elettronica" id="Footer_rptAlberoMain_rptAlberoSubmenu_1_aHref_2">Fatturazione elettronica</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/informazioni-generali/privacy-policy" id="Footer_rptAlberoMain_rptAlberoSubmenu_1_aHref_3">Privacy Policy</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/informazioni-generali/privacy-gdpr" id="Footer_rptAlberoMain_rptAlberoSubmenu_1_aHref_4">Informative Gpdr</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/informazioni-generali/accessibilita" id="Footer_rptAlberoMain_rptAlberoSubmenu_1_aHref_5">Accessibilità</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/informazioni-generali/cookie-policy-del-portale-del-comune-di-parma" id="Footer_rptAlberoMain_rptAlberoSubmenu_1_aHref_6">Cookie policy</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/informazioni-generali/note-legali" id="Footer_rptAlberoMain_rptAlberoSubmenu_1_aHref_7">Note Legali</a></li>
+                    
+                        </ul>
+                </section>
+            
+            <section>
+                <h6 class="list-heading">
+                    Social Network</h6>
+                    
+                
+                        <ul>
+                    
+                        <li><a href="https://www.facebook.com/officialparma/" id="Footer_rptAlberoMain_rptAlberoSubmenu_2_aHref_0">Facebook</a></li>
+                    
+                        <li><a href="https://www.instagram.com/comuneparma/?hl=it" id="Footer_rptAlberoMain_rptAlberoSubmenu_2_aHref_1">Instagram</a></li>
+                    
+                        <li><a href="https://www.youtube.com/comuneparma" id="Footer_rptAlberoMain_rptAlberoSubmenu_2_aHref_2">Youtube</a></li>
+                    
+                        <li><a href="https://whatsapp.com/channel/0029VaR51LxCRs1iHajtgc3a" id="Footer_rptAlberoMain_rptAlberoSubmenu_2_aHref_3">Whatsapp</a></li>
+                    
+                        <li><a href="https://www.flickr.com/photos/comuneparma/" id="Footer_rptAlberoMain_rptAlberoSubmenu_2_aHref_4">Flickr</a></li>
+                    
+                        <li><a href="https://www.linkedin.com/company/comune-di-parma/" id="Footer_rptAlberoMain_rptAlberoSubmenu_2_aHref_5">Linkedin</a></li>
+                    
+                        <li><a href="https://www.facebook.com/InformaGiovani.Parma" id="Footer_rptAlberoMain_rptAlberoSubmenu_2_aHref_6">Il servizio giovani su Facebook</a></li>
+                    
+                        </ul>
+                </section>
+            
+            <section>
+                <h6 class="list-heading">
+                    Elenco Siti Tematici</h6>
+                    
+                
+                        <ul>
+                    
+                        <li><a href="https://www.comune.parma.it/it/argomenti/ambiente" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_0">Ambiente</a></li>
+                    
+                        <li><a href="https://atti.comune.parma.it/L190/" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_1">Amministrazione Trasparente</a></li>
+                    
+                        <li><a href="https://attivitaeconomiche.comune.parma.it/" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_2">Attività economiche</a></li>
+                    
+                        <li><a href="https://cultura.comune.parma.it" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_3">Cultura</a></li>
+                    
+                        <li><a href="https://edilizia.comune.parma.it/suei/" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_4">Edilizia</a></li>
+                    
+                        <li><a href="https://www.elezioni.comune.parma.it/" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_5">Elezioni</a></li>
+                    
+                        <li><a href="https://centroperlefamiglie.comune.parma.it/" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_6">Famiglia</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/argomenti/giovani" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_7">Giovani</a></li>
+                    
+                        <li><a href="https://informastranieri.comune.parma.it" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_8">Informastranieri</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/argomenti/mobilita-sostenibile" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_9">Mobilità</a></li>
+                    
+                        <li><a href="https://pianoenergiaclima.comune.parma.it" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_10">Paesc</a></li>
+                    
+                        <li><a href="https://www.comune.parma.it/it/argomenti/polizia-locale" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_11">Polizia locale</a></li>
+                    
+                        <li><a href="https://protezionecivile.comune.parma.it" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_12">Protezione civile</a></li>
+                    
+                        <li><a href="https://parmasalute.comune.parma.it" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_13">Salute</a></li>
+                    
+                        <li><a href="https://siti.comune.parma.it/it/servizi-educativi" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_14">Scuola</a></li>
+                    
+                        <li><a href="https://serviziocivile.comune.parma.it/" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_15">Servizio  Civile</a></li>
+                    
+                        <li><a href="https://siti.comune.parma.it/it/sport" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_16">Sport</a></li>
+                    
+                        <li><a href="https://tirocini.comune.parma.it/" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_17">Tirocini</a></li>
+                    
+                        <li><a href="https://www.parmawelcome.it/it/" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_18">Turismo</a></li>
+                    
+                        <li><a href="https://welfare.comune.parma.it/" id="Footer_rptAlberoMain_rptAlberoSubmenu_3_aHref_19">Welfare</a></li>
+                    
+                        </ul>
+                </section>
+            
+    </div>
+</div>
+<div class="row datiComune">
+    <div class="span12">© 2014 Comune di Parma - Strada Repubblica 1, 43121 Parma - Partita IVA 00162210348</div>
+    <a href="https://form.agid.gov.it/c_g337/portale_cultura/dichiarazione" id="Footer_aAccessibilita">Dichiarazione di accessibilit&#224;</a>
+</div>
+
+        </footer>
+    </div>
+
+        
+
+<div class="gdpr-privacy-banner public-ui" id="staticBackdrop">
+    <div class="gdpr-privacy-content-wrapper">
+        <button type="button" class="close-button gdpr-privacy-banner-button btn-icon btn btn-outline-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="icon circled" style="height: 30px; width: auto; fill: currentcolor;">
+                <title>Chiudi</title>
+                <path fill-rule="evenodd" d="M27.899 9.515L26.485 8.101 18 16.586 9.514 8.101 8.1 9.515 16.586 18 8.1 26.486 9.514 27.9 18 19.414 26.485 27.9 27.899 26.486 19.414 18z"></path></svg></button>
+
+        <div class="gdpr-privacy-content container">
+            <div class="title">Usiamo i cookie</div>
+
+            <div class="description">
+                Questo sito utilizza i cookie tecnici di navigazione e di sessione per garantire un miglior servizio di navigazione del sito, e cookie analitici per raccogliere informazioni sull'uso del sito da parte degli utenti. Utilizza anche cookie di profilazione dell'utente per fini statistici. Per i cookie di profilazione puoi decidere se abilitarli o meno cliccando sul pulsante 'Impostazioni'. Per saperne di più, su come disabilitare i cookie oppure abilitarne solo alcuni, consulta la nostra <a href="https://www.comune.parma.it/it/informazioni-generali/cookie-policy-del-portale-del-comune-di-parma" target="_blank">Cookie Policy</a>.
+            </div>
+
+            <div class="gdpr-privacy-settings">
+                <div class="settings-column technical">
+                    <div class="settings-group-wrapper" role="group">
+                        <div class="settings-title">
+                            <div class="toggle-wrapper">
+                                <div class="ui checked disabled toggle checkbox">
+                                    <input aria-describedby="desc_technical" aria-label="Cookie tecnici Abilitati" class="hidden" disabled="" id="cookietecnici" readonly="" tabindex="-1" type="checkbox" value="" checked="">
+                                    
+                                    <label for="Cookietecnici">Cookie tecnici</label>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="desc_technical" class="settings-description">Il sito utilizza cookie tecnici per analizzare il traffico da e verso il sito. I cookie tecnici consento anche di fornire un migliore servizio di navigazione sul sito, e raccolgono informazioni di navigazione a questo scopo.</div>
+                        <div class="choices">
+                            
+                            <div class="choice">
+                                <div class="choice-title">
+                                    <div class="toggle-wrapper">
+                                        <div class="ui checked disabled toggle checkbox">
+                                            <input aria-label="Web Analytics Italia Abilitati" aria-describedby="desc_technical_0" class="hidden" disabled="" id="WebAnalytics Italia" readonly="" tabindex="-1" type="checkbox" value="" checked=""><label for="WebAnalytics Italia">Web Analytics Italia</label></div>
+                                    </div>
+                                </div>
+                                <div id="desc_technical_0" class="choice-description">I cookie di Web Analytics Italia sono usati per analizzare la navigazione sul sito al fine di migliorarla e fornire all'utente un'esperienza di navigazione migliore possibile.</div>
+                            </div>
+
+                            <div class="choice">
+                                <div class="choice-title">
+                                    <div class="toggle-wrapper">
+                                        <div class="ui checked disabled toggle checkbox">
+                                            <input aria-label="Matomo" aria-describedby="desc_technical_1" class="hidden" disabled="" id="Matomo" readonly="" tabindex="-1" type="checkbox" value="" checked="">
+                                            <label for="Matomo">Matomo</label></div>
+                                    </div>
+                                </div>
+                                <div id="desc_technical_1" class="choice-description">I cookie di Matomo sono usati per analizzare la navigazione sul sito al fine di migliorarla e fornire all'utente un'esperienza di navigazione migliore possibile.</div>
+                            </div>
+
+                            <div class="choice">
+                                <div class="choice-title">
+                                    <div class="toggle-wrapper">
+                                        <div class="ui checked disabled toggle checkbox">
+                                            <input aria-label="Google Re-Captcha Abilitati" aria-describedby="desc_technical_2" class="hidden" disabled="" id="GoogleRe-Captcha" readonly="" tabindex="-1" type="checkbox" value="" checked=""><label for="GoogleRe-Captcha">Google Re-Captcha</label></div>
+                                    </div>
+                                </div>
+                                <div id="desc_technical_2" class="choice-description">I cookie di Google Re-Captcha sono usati per analizzare la navigazione sul sito al fine di migliorarla e fornire all'utente un'esperienza di navigazione migliore possibile.</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-column profiling">
+                    <div class="settings-group-wrapper" role="group">
+                        <div class="settings-title">
+                            <div class="toggle-wrapper">
+                                <div class="ui toggle checkbox">                                    
+                                    <input aria-describedby="desc_profiling" aria-label="Cookie di profilazione" class="hidden cookieProfilazione" id="Cookiedi profilazione" readonly="" tabindex="0" type="checkbox" value="">
+                                    <label for="Cookiedi profilazione">Cookie di profilazione</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="desc_profiling" class="settings-description">Il sito utilizza cookie di profilazione per analizzare il comportamento e le scelte degli utenti al fine di proporre contenuti mirati corrispondenti al profilo dell'utente</div>
+                        <div class="choices">
+                            
+                           
+                            <div id="cookiePrivacy_rigaGmaps" class="choice">
+                                <div class="choice-title">
+                                    <div class="toggle-wrapper">
+                                        <div class="ui toggle checkbox">
+                                            <input aria-label="Google Maps Disabilitati" aria-describedby="desc_profiling_2" class="hidden cookieGmaps" id="GoogleMaps" readonly="" tabindex="0" type="checkbox" value=""><label for="GoogleMaps">Google Maps</label></div>
+                                    </div>
+                                </div>
+                                <div id="desc_profiling_2" class="choice-description">I cookie di profilazione di Google permettono di fare analisi di accesso alla pagina e sul comportamento dell'utente, e di mostrarti le pubblicità che potrebbero interessarti di più.</div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>           
+
+            <div class="buttons">
+                <button type="button" class="gdpr-privacy-banner-button btn btn-black onlyTechCookies">Solo cookie tecnici</button>
+                <button type="button" class="primary gdpr-privacy-banner-button btn btn-primary allCookies">Accetta tutti</button>
+                <button type="button" class="gdpr-privacy-banner-button btn btn-black prefCookies">Salva le mie preferenze</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<a href="#" class="gdpr-privacy-show-banner" title="Mostra impostazioni cookies">
+    <i class="fas fa-user-lock"></i>
+</a>
+
+<script>
+
+    //var IdElemento = "undefined";
+
+    $(function () {
+        $('#staticBackdrop').hide();
+
+        if ("" == "false" || "" == "") {            
+            $('#staticBackdrop').show();
+        }
+
+        if ("" == "true") {
+            $('.cookieYouTube').prop("checked", true);              
+        } else {
+            VideoNotAllowed();
+        }
+
+        if ("" == "true") {           
+            $('.cookieFB').prop("checked", true);                
+        }
+
+        if ("" == "true") {           
+            $('.cookieGmaps').prop("checked", true);
+        }
+        if ("" == "false") {
+                //setCookie("cGdpr_Gmaps", "false", 365);
+                $('.cookieGmaps').prop("checked", false);
+                var video = '<div class="noVideo">';
+                video = video + 'Per vedere la mappa, accetta i cookies di Google Maps.<br><a href="javascript:EnableGmaps()" class="enableGmaps" >Abilita i cookie di Google Maps</a>, oppure<br><a href="javascript:$(\'#staticBackdrop\').show();" class="gestPrefCookie">gestisci le tue preferenze sui cookie.</a></div>';
+                $('#noMap').html(video);
+                //$('.mappetto').remove();
+
+            $('#map').hide();
+
+                //$('#map').remove();
+                //$('#sottomappa').remove();
+            }
+
+        $('.close-button').on('click', function () {            
+            $('#staticBackdrop').hide();
+            //$('.onlyTechCookies').click();
+        });
+
+        $('.gdpr-privacy-show-banner').on('click', function () {            
+             $('#staticBackdrop').show();
+        });
+
+        $('.enableYouTube').on("click", function () {
+            setCookie("cGdpr_YouTube", "true", 365);
+            $('.cookieYouTube').prop("checked", true);
+            var idElemento = $('.enableYouTube').data("id");
+            var tipo = $('.enableYouTube').data("tipo");
+
+            if (tipo == "box" && idElemento != null) {
+                var request = callWebMethod('/cultura/pages/pagina_generica.aspx', 'VideoYouTubeOgg', { IdOggetto: idElemento })
+                request.done(function (data) {
+                    var iframe = $('iframe');
+                    var nVideo = iframe.parent().parent().parent();
+                    nVideo.html('');
+                    nVideo.addClass("noVideo_" + idElemento);
+                    $('.noVideo_' + idElemento).removeClass("card-img-container-16e9");
+                    $('.noVideo_' + idElemento).html('');
+                    var video = '';
+                    //for (var i = 0; i < data.length; i++) {
+                        video = video + '<div class="col-lg-6 mb-3"><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="' + data.NomeFile + '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></div><div class="enableYouTube" data-tipo="box" data-id="' + idElemento + '"></div>';
+                    //}
+
+                    $('.noVideo_' + idElemento).html(video);
+                }),
+                    request.fail(function (data) {
+                        console.log(data);
+                    });
+            }
+            if (tipo != "box" && idElemento != null) {
+                var request = callWebMethod('/cultura/pages/pagina_generica.aspx', 'VideoYouTube', { IdElemento: idElemento, ChiaveSito: "sezione_cultura" })
+                request.done(function (data) {
+                    $('.sezioneVideo').html('');
+                    var video = '';
+                    for (var i = 0; i < data.length; i++) {
+                        video = video + '<div class="col-lg-6 mb-3"><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="' + data[i].NomeFile + '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></div>';
+                    }
+
+                    $('.sezioneVideo').html(video);
+                }),
+                    request.fail(function (data) {
+                        console.log(data);
+                    })
+            }
+            
+        });
+
+        $('.cookieProfilazione').on("click", function () {
+            //console.log("cambiato");
+            if (this.checked) {
+                $('.cookieYouTube').prop("checked", true);
+                $('.cookieFB').prop("checked", true);
+                $('.cookieGmaps').prop("checked", true);
+            } else {
+                $('.cookieYouTube').prop("checked", false);
+                $('.cookieFB').prop("checked", false);
+                $('.cookieGmaps').prop("checked", false);
+            }
+        });
+
+        $('.onlyTechCookies').on("click", function () {
+
+            if ("false" == "true") {
+                setCookie("cGdpr_YouTube", "false", 365);
+                $('.cookieYouTube').prop("checked", false);
+                var idElemento = $('.enableYouTube').data("id");
+                if (idElemento != null || idElemento != "undefined") {
+                    VideoNotAllowed();
+                } else {
+                    if (IdElemento != null) {
+                        VideoNotAllowed();
+                    } else {
+                        VideoNoCookie();
+                    }
+                }
+            }
+
+            if ("true" == "true") {
+                setCookie("cGdpr_Gmaps", "false", 365);
+                $('.cookieGmaps').prop("checked", false);
+
+                var video = '<div class="noVideo">';
+                video = video + 'Per vedere la mappa, accetta i cookies di Google Maps.<br><a href="javascript:EnableGmaps()" class="enableGmaps" >Abilita i cookie di Google Maps</a>, oppure<br><a href="javascript:$(\'#staticBackdrop\').show();" class="gestPrefCookie">gestisci le tue preferenze sui cookie.</a></div>';
+                $('#noMap').html(video);
+                //$('.mappetto').remove();
+                $('#map').hide();
+                //$('#map').remove();
+                //$('#sottomappa').remove();
+            }
+
+            if ("false" == "true") {
+                setCookie("cGdpr_FB", "false", 365);
+                $('.cookieFB').prop("checked", false); 
+            }
+                       
+            setCookie("cGdpr_tech", "true", 365);                                    
+
+            $('#staticBackdrop').hide();
+        });
+
+        $('.allCookies').on("click", function () {
+            setCookie("cGdpr_tech", "true", 365);
+
+            //$('.enableYouTube').click();
+            
+            if ("false" == "true") {
+                setCookie("cGdpr_YouTube", "true", 365);
+                $('.cookieYouTube').prop("checked", true);
+                EnableVideoYT();
+            }
+
+            if ("true" == "true") {
+                setCookie("cGdpr_Gmaps", "true", 365);
+                $('.cookieGmaps').prop("checked", true);
+                $('#noMap').html('');
+                //$('.mapContainer').append('<div class="mappetto"></div>');
+                $('#map').show();
+                //$('#noMap').append('<div id="map"></div>');
+                //$('.mapContainer').append('<div id="sottomappa"></div>');
+                initMap();
+
+            }
+
+            if ("false" == "true") {
+                setCookie("cGdpr_FB", "true", 365);
+                $('.cookieFB').prop("checked", true);
+
+            }
+
+            $('#staticBackdrop').hide();
+        });
+
+        $('.prefCookies').on("click", function () {
+            setCookie("cGdpr_tech", "true", 365);
+            
+            //Caso YouTube   
+            if ("false" == "true") {
+                if ($('.cookieYouTube')[0].checked) {
+                    setCookie("cGdpr_YouTube", "true", 365);
+                    $('.cookieYouTube').prop("checked", true);
+                    //$('.enableYouTube').click();
+                    EnableVideoYT();
+                } else {
+                    setCookie("cGdpr_YouTube", "false", 365);
+                    $('.cookieYouTube').prop("checked", false);
+                    var idElemento = $('.enableYouTube').data("id");
+                    if (idElemento != null || idElemento != "undefined") {
+                        VideoNotAllowed();
+                    } else {
+                        if (IdElemento != null) {
+                            VideoNotAllowed();
+                        } else {
+                            VideoNoCookie();
+                        }
+                    }
+                }
+            }
+            
+            
+            //Caso Google Maps        
+            if ("true" == "true") {
+                if ($('.cookieGmaps')[0].checked) {
+                    setCookie("cGdpr_Gmaps", "true", 365);
+                    $('.cookieGmaps').prop("checked", true);
+                    $('#noMap').html('');
+                    //$('.mapContainer').append('<div class="mappetto"></div>');
+                    $('#map').show();
+                    //$('#noMap').append('<div id="map"></div>');
+                    //$('.mapContainer').append('<div id="sottomappa"></div>');
+                    initMap();
+                } else {
+                    setCookie("cGdpr_Gmaps", "false", 365);
+                    $('.cookieGmaps').prop("checked", false);
+
+                    var video = '<div class="noVideo">';
+                    video = video + 'Per vedere la mappa, accetta i cookies di Google Maps.<br><a href="javascript:EnableGmaps()" class="enableYouTube" >Abilita i cookie di Google Maps</a>, oppure<br><a href="javascript:$(\'#staticBackdrop\').show();" class="gestPrefCookie">gestisci le tue preferenze sui cookie.</a></div>';
+                    $('#noMap').html(video);
+                    //$('.mappetto').remove();
+                    $('#map').hide();
+                    //$('#map').remove();
+                    //$('#sottomappa').remove();
+                }
+            }
+                        
+
+            //Caso Facebook Meta
+            if ("false" == "true") {
+                if ($('.cookieFB')[0].checked) {
+                    setCookie("cGdpr_FB", "true", 365);
+                    $('.cookieFB').prop("checked", true);
+                } else {
+                    setCookie("cGdpr_FB", "false", 365);
+                    $('.cookieFB').prop("checked", false);
+                }
+            }
+
+            $('#staticBackdrop').hide();
+        });
+
+        $('.gestPrefCookie').on('click', function () {
+            $('#staticBackdrop').show();
+        });
+
+    });
+
+    function EnableGmaps() {
+        if ("true" == "true") {
+            setCookie("cGdpr_Gmaps", "true", 365);
+            $('.cookieGmaps').prop("checked", true);
+            $('#noMap').html('');
+            //$('.mapContainer').append('<div class="mappetto"></div>');
+            $('#map').show();
+            //$('#noMap').append('<div id="map"></div>');
+            //$('.mapContainer').append('<div id="sottomappa"></div>');
+            initMap();
+        }
+    }
+
+    function VideoNotAllowed() {
+        setCookie("cGdpr_YouTube", "false", 365);
+        var idElemento = $('.enableYouTube').data("id");
+        var tipo = $('.enableYouTube').data("tipo");
+        //if (idElemento == null || idElemento == "undefined") {
+        //    idElemento = $('.noVideo').data("id");
+        //}
+
+        if (tipo == "box" && idElemento != null) {
+            var request = callWebMethod('/cultura/pages/pagina_generica.aspx', 'VideoYouTubeOgg', { IdOggetto: idElemento })
+            request.done(function (data) {
+                var iframe = $('iframe');
+                var nVideo = iframe.parent().parent().parent();
+                nVideo.html('');
+                nVideo.addClass("noVideo");
+                nVideo.addClass("IdOgg_" + idElemento);
+                $('.IdOgg_' + idElemento).removeClass("card-img-container-16e9");
+                $('.IdOgg_' + idElemento).html('');
+                var video = '';
+                //for (var i = 0; i < data.length; i++) {
+                video = video + 'Per vedere il video, accetta i cookies di Youtube.<br><a href="javascript:EnableVideoYT()" class="enableYouTube" data-id="' + idElemento + '" data-tipo="box" data-chiavesito="sezione_cultura">Abilita i cookie di YOUTUBE</a>, oppure<br><a href="javascript:$(\'#staticBackdrop\').show();" class="gestPrefCookie">gestisci le tue preferenze sui cookie</a>.';
+                //}
+
+                $('.IdOgg_' + idElemento).html(video);
+            }),
+                request.fail(function (data) {
+                    console.log(data);
+                })
+        }
+        if (tipo != "box" && idElemento != null) {
+            var request = callWebMethod('/cultura/pages/pagina_generica.aspx', 'VideoYouTube', { IdElemento: idElemento, ChiaveSito: "sezione_cultura" })
+            request.done(function (data) {
+                $('.sezioneVideo').html('');
+                var video = '';
+                for (var i = 0; i < data.length; i++) {
+                    video = video + '<div class="col-lg-6 mb-3"><div class="noVideo">Per vedere il video, accetta i cookies di Youtube.<br><a href="javascript:EnableVideoYT()" class="enableYouTube" data-id="' + idElemento + '" data-chiavesito="sezione_cultura">Abilita i cookie di YOUTUBE</a>, oppure<br><a href="javascript:$(\'#staticBackdrop\').show();" class="gestPrefCookie">gestisci le tue preferenze sui cookie</a>.</div></div>';
+                }
+
+                $('.sezioneVideo').html(video);
+            }),
+                request.fail(function (data) {
+                    console.log(data);
+                })
+        }
+        
+    }
+
+    function VideoNotAllowedGmaps() {
+        //setCookie("cGdpr_YouTube", "false", 365);
+        var idElemento = $('.enableYouTube').data("id");
+        var tipo = $('.enableYouTube').data("tipo");
+        //if (idElemento == null || idElemento == "undefined") {
+        //    idElemento = $('.noVideo').data("id");
+        //}
+
+        if (tipo == "box" && idElemento != null) {
+            var request = callWebMethod('/cultura/pages/pagina_generica.aspx', 'VideoYouTubeOgg', { IdOggetto: idElemento })
+            request.done(function (data) {
+                var iframe = $('iframe');
+                var nVideo = iframe.parent().parent().parent();
+                nVideo.html('');
+                nVideo.addClass("noVideo");
+                nVideo.addClass("IdOgg_" + idElemento);
+                $('.IdOgg_' + idElemento).removeClass("card-img-container-16e9");
+                $('.IdOgg_' + idElemento).html('');
+                var video = '';
+                //for (var i = 0; i < data.length; i++) {
+                video = video + 'Per vedere il video, accetta i cookies di Youtube.<br><a href="javascript:EnableVideoYT()" class="enableYouTube" data-id="' + idElemento + '" data-tipo="box" data-chiavesito="sezione_cultura">Abilita i cookie di YOUTUBE</a>, oppure<br><a href="javascript:$(\'#staticBackdrop\').show();" class="gestPrefCookie">gestisci le tue preferenze sui cookie</a>.';
+                //}
+
+                $('.IdOgg_' + idElemento).html(video);
+            }),
+                request.fail(function (data) {
+                    console.log(data);
+                })
+        }
+
+        var video = '<div class="noVideo">';
+        video = video + 'Per vedere la mappa, accetta i cookies di Google.<br><a href="javascript:EnableVideoYT()" class="enableYouTube" >Abilita i cookie di YOUTUBE</a>, oppure<br><a href="javascript:$(\'#staticBackdrop\').show();" class="gestPrefCookie">gestisci le tue preferenze sui cookie.</a></div>';
+        $('#map').html(video);
+        
+    }
+
+    function EnableVideoYT() {
+        setCookie("cGdpr_YouTube", "true", 365);
+        $('.cookieYouTube').prop("checked", true);
+        var idElemento = $('.enableYouTube').data("id");
+        var tipo = $('.enableYouTube').data("tipo");        
+
+        if (tipo == "box" && idElemento != null) {
+            var request = callWebMethod('/cultura/pages/pagina_generica.aspx', 'VideoYouTubeOgg', { IdOggetto: idElemento })
+                request.done(function (data) {
+                    //var iframe = $('iframe');
+                    //var nVideo = iframe.parent().parent().parent();
+                    //nVideo.html('');
+                    //nVideo.addClass("noVideo");
+                    $('.IdOgg_' + idElemento).addClass("card-img-container-16e9");
+                    //$('.IdOgg_' + idElemento).addClass("card-img-container-16e9_" + idElemento);
+                    $('.IdOgg_' + idElemento).removeClass("noVideo");
+                    $('.IdOgg_' + idElemento).html('');
+                    var video = '';
+                    //for (var i = 0; i < data.length; i++) {
+                    video = video + '<div class="position-relative"><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="' + data.NomeFile + '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></div><div class="enableYouTube" data-tipo="box" data-id="' + idElemento + '"></div>';
+                    //}
+
+                    $('.IdOgg_' + idElemento).html(video);
+                }),
+                    request.fail(function (data) {
+                        console.log(data);
+                    });
+        }
+        if (tipo != "box" && idElemento != null) {
+            var request = callWebMethod('/cultura/pages/pagina_generica.aspx', 'VideoYouTube', { IdElemento: idElemento, ChiaveSito: "sezione_cultura" })
+            request.done(function (data) {
+                $('.sezioneVideo').html('');
+                var video = '';
+                for (var i = 0; i < data.length; i++) {
+                    video = video + '<div class="col-lg-6 mb-3"><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="' + data[i].NomeFile + '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></div><div class="enableYouTube" data-id="' + idElemento + '"></div>';
+                }
+
+                $('.sezioneVideo').html(video);
+            }),
+                request.fail(function (data) {
+                    console.log(data);
+                });
+        }
+        
+    }
+
+    function setCookie(cname, cvalue, exdays) {
+        const d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        let expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+        let name = cname + "=";
+        let ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    function checkCookie2() {
+        let techCookie = getCookie("cGdpr_tech");
+        if (techCookie == "") {
+            $('#staticBackdrop').show();
+        }
+    }
+
+    function checkCookie() {
+        let techCookie = getCookie("cGdpr_tech");
+        if (techCookie == "") {
+            setCookie("cGdpr_tech", "true", 365);
+            setCookie("cGdpr_YouTube", "false", 365);
+            setCookie("cGdpr_Gmaps", "false", 365);
+            setCookie("cGdpr_FB", "false", 365);
+        }
+
+        let cookieYouTube = getCookie("cGdpr_YouTube");
+        let cookieGmaps = getCookie("cGdpr_Gmaps");
+        let cookieFB = getCookie("cGdpr_FB");
+
+        if (cookieYouTube == "true") {
+            $('.cookieYouTube').prop("checked", true);
+        } else {
+            $('.cookieYouTube').prop("checked", false);
+        }
+
+        if (cookieGmaps == "true") {
+            $('.cookieGmaps').prop("checked", true);
+        } else {
+            $('.cookieGmaps').prop("checked", false);
+        }
+
+        if (cookieFB == "true") {
+            $('.cookieFB').prop("checked", true);
+        } else {
+            $('.cookieFB').prop("checked", false);
+        }
+    }
+
+</script>
+
+
+    </form>    
+     <script></script>
+</body>
+</html>

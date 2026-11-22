@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Veracruz</title>
+
+    <!-- Css Folder -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/themetypo.css" rel="stylesheet">
+    <link href="css/bxslider.css" rel="stylesheet">
+    <link href="css/datepicker.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <link href="css/clima.css" rel="stylesheet">
+</head>
+<body>
+
+    <header id="mainheader">
+   <!--// Header Baar //-->
+   <div class="kd-headbar" >
+      <div class="container" style="width: 100%" >
+         <div class="row" style=" width: 100% margin:0; ">
+            <!--LOGOS-->
+            <div class="container-logos">
+              <div class="row align-items-center">
+                  <!-- Columna izquierda: logos.png -->
+                  <div class="col-md-6 col-sm-6 col-xs-12 text-left">
+                      <a href="./" class="logo">
+                          <img src="img/logos.png" alt="Logos Veracruz">
+                      </a>
+                  </div>
+                  
+                  <!-- Columna derecha: veracruz.png -->
+                  <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                      <a href="./" class="veracruz">
+                          <img src="img/veracruz.png" alt="Veracruz Logo">
+                      </a>
+                  </div>
+              </div>
+            </div>
+            
+               
+               <div class="col-md-12 encabezado col-xs-4 col-sm-12 ">
+                  <div class="kd-rightside">
+                     <nav class="navbar navbar-default navigation">
+                        <div class="navbar-header">
+                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                           <ul class="nav navbar-nav">
+                              <li>
+                                 <a href="#">Regiones</a>
+                                 <ul class="sub-dropdown">
+                                    <li>
+                                       <a href="region.php?id=1">Huasteca</a>
+                                       <ul class="sub-dropdown">
+                                          <li  ><a   href="destino.php?Municipio=189"></i>Tuxpan</a></li>
+                                          <li  ><a   href="destino.php?Municipio=123"></i>Pánuco</a></li>
+                                          <li  ><a   href="destino.php?Municipio=151"></i>Tamiahua</a></li>
+                                          <li  ><a   href="destino.php?Municipio=161"></i>Tempoal</a></li>
+                                          <li  ><a   href="region.php?id=1"></i>Mostrar Todos   </a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="region.php?id=2">Totonacapan</a>
+                                       <ul class="sub-dropdown">
+                                          <li  ><a   href="destino.php?Municipio=124"></i>Papantla</a></li>
+                                          <li  ><a   href="destino.php?Municipio=131"></i>Poza Rica</a></li>
+                                          <li  ><a   href="destino.php?Municipio=203"></i>Zozocolco de Hidalgo</a></li>
+                                          <li  ><a   href="destino.php?Municipio=114"></i>Nautla</a></li>
+                                          <li  ><a   href="destino.php?Municipio=158"></i>Tecolutla</a></li>
+                                          <li  ><a   href="destino.php?Municipio=109"></i>Misantla</a></li>
+                                          <li  ><a   href="region.php?id=2"></i>Mostrar Todos   </a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="region.php?id=4">Cultura y Aventura</a>
+                                       <ul class="sub-dropdown">
+                                          <li  ><a   href="destino.php?Municipio=87"></i>Xalapa</a></li>
+                                          <li  ><a   href="destino.php?Municipio=38"></i>Coatepec</a></li>
+                                          <li  ><a   href="destino.php?Municipio=92"></i>Xico</a></li>
+                                          <li  ><a   href="destino.php?Municipio=88"></i>Jalcomulco</a></li>
+                                          <li  ><a   href="destino.php?Municipio=128"></i>Perote</a></li>
+                                          <li  ><a   href="destino.php?Municipio=112"></i>Naolinco</a></li>
+                                          <li  ><a   href="region.php?id=4"></i>Mostrar Todos   </a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="region.php?id=3">Primeros pasos de Cortés</a>
+                                       <ul class="sub-dropdown">
+                                          <li  ><a   href="destino.php?Municipio=28"></i>Boca del Río</a></li>
+                                          <li  ><a   href="destino.php?Municipio=193"></i>Veracruz</a></li>
+                                          <li  ><a   href="destino.php?Municipio=178"></i>Tlacotalpan</a></li>
+                                          <li  ><a   href="destino.php?Municipio=11"></i>Alvarado</a></li>
+                                          <li  ><a   href="region.php?id=3"></i>Mostrar Todos   </a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="region.php?id=5">Altas montañas</a>
+                                       <ul class="sub-dropdown">
+                                          <li  ><a   href="destino.php?Municipio=118"></i>Orizaba</a></li>
+                                          <li  ><a   href="destino.php?Municipio=44"></i>Córdoba</a></li>
+                                          <li  ><a   href="destino.php?Municipio=47"></i>Coscomatepec</a></li>
+                                          <li  ><a   href="destino.php?Municipio=68"></i>Fortín de las Flores</a></li>
+                                          <li  ><a   href="destino.php?Municipio=201"></i>Zongolica</a></li>
+                                          <li  ><a   href="region.php?id=5"></i>Mostrar Todos   </a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="region.php?id=6">Los Tuxtlas</a>
+                                       <ul class="sub-dropdown">
+                                          <li  ><a   href="destino.php?Municipio=32"></i>Catemaco</a></li>
+                                          <li  ><a   href="destino.php?Municipio=141"></i>San Andrés Tuxtla</a></li>
+                                          <li  ><a   href="destino.php?Municipio=143"></i>Santiago Tuxtla</a></li>
+                                          <li  ><a   href="region.php?id=6"></i>Mostrar Todos   </a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="region.php?id=7">Olmeca</a>
+                                       <ul class="sub-dropdown">
+                                          <li  ><a   href="destino.php?Municipio=108"></i>Minatitlán</a></li>
+                                          <li  ><a   href="destino.php?Municipio=39"></i>Coatzacoalcos</a></li>
+                                          <li  ><a   href="destino.php?Municipio=61"></i>Las Choapas</a></li>
+                                          <li  ><a   href="region.php?id=7"></i>Mostrar Todos   </a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li>
+                                 <a href="https://directorio.veracruz.mx/">Directorio</a>
+                           </li>
+                           <li>
+                              <a href="#">Pueblos Mágicos</a>
+                              <ul class="sub-dropdown">
+                                  <li><a href="noticia.php?idnota=2880" >Córdoba</a></li>
+                                 <li><a href="noticia.php?idnota=26" >Coatepec </a></li>
+                                 <li><a href="noticia.php?idnota=27" >Coscomatepec de Bravo</a></li>
+                                 <li><a href="noticia.php?idnota=2879" >Naolinco de Victoria</a></li>
+                                 <li><a href="noticia.php?idnota=22" >Orizaba</a></li>
+                                 <li><a href="noticia.php?idnota=25" >Papantla de Olarte</a></li>
+                                 <li><a href="noticia.php?idnota=24" >Xico</a></li>
+                                 <li><a href="noticia.php?idnota=23" >Zozocolco de Hidalgo</a></li>
+                                  <li><a href="rutas-magicas-de-veracruz.php" >Rutas mágicas de Veracruz</a></li>
+                              </ul>
+                           </li>
+                           <!--
+                           <li>
+                              <a href="#">Segmentos</a>
+                              <ul class="sub-dropdown">
+                                 <li><a href="segmento.php?idnota=459" >Sol y Playa</a></li>
+                                 <li><a href="segmento.php?idnota=460" >Cultural</a></li>
+                                 <li><a href="segmento.php?idnota=461" >Naturaleza y Aventura</a></li>
+                                 <li><a href="segmento.php?idnota=462" >Reuniones</a></li>
+                                 <li><a href="segmento.php?idnota=463" >Deportivo</a></li>
+                                 <li><a href="segmento.php?idnota=817" >Romance</a></li>
+                                 <li><a href="segmento.php?idnota=464" >LGBT</a></li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a href="#">Eventos</a>
+                              <ul class="sub-dropdown">
+                                 <li><a href="eventos?CatEvento=1" >Fiestas y Carnavales</a></li>
+                                 <li><a href="eventos?CatEvento=2" >Ferias y Festivales</a></li>
+                                 <li><a href="eventos?CatEvento=4" >Convenciones</a></li>
+                                 <li><a href="eventos?CatEvento=5" >Culturales</a></li>
+                                 <li><a href="eventos?CatEvento=6" >Entretenimiento</a></li>
+                                 <li><a href="eventos?CatEvento=7" >Deportivos</a></li>
+                                 <li><a href="eventos?CatEvento=8" >Cursos y Talleres</a></li>
+                              </ul>
+                           </li>
+                           -->
+                           <li>
+                              <a href="productos.php">Productos Turísticos</a>
+                           </li>
+                           <li>
+                              <a href="#">Info Viajero</a>
+                              <ul class="sub-dropdown">
+                                 <li><a href="atractivos.php" >Atractivos Turisticos</a></li>
+                                 <!--<li><a href="directorio" >Directorio</a></li>-->
+                                 <li><a href="clima.php" >Clima</a></li>
+                                 <li><a href="descargables.php" >Descargables</a></li>
+                                 <!--<li><a href="sabias-que" >¿Sabías qué?</a></li>
+                                 <li><a href="emergencias" >Emergencias</a></li>
+                                 -->
+                              </ul>
+                           </li>
+                           <li>
+                              <a href="rutas-turisticas.php">Rutas turísticas</a>
+                           </li>
+                           <li>
+                              <a href="arte-popular.php">Arte Popular</a>
+                           </li>
+                           
+                        </ul>
+                     </div>
+                     <!-- /.navbar-collapse -->
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--// Header Baar //-->
+</header>
+    <!--// Sub Header //-->
+
+
+
+    <!--// Sub Header //-->
+
+    <!--// Content //-->
+    <div class="kd-content">
+
+        <!--// Page Section //-->
+        <section class="kd-pagesection" style=" padding: 0px 0px 0px 0px; background: #ffffff; ">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 text-center">
+                        <div class="kd-team-shortinfo">
+                            <ul>
+                                <li><div class="kd-widget-title">
+                                    <h2>Ubicación</h2>
+                                </div>
+                                    <iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=11&center=19.1902778,-96.1533333&key=AIzaSyDBha_HMnv-rVvXHaIT9qYCd_x3FgJyxho" allowfullscreen></iframe>
+
+
+                                </li>
+                                <li>
+                                    <div class="kd-widget-title">
+                                        <h2>Escudo</h2>
+                                    </div>
+                                    <figure><a href="#"><img src="timthumb.php?src=fotos/193.jpg&w=270&h=270&zc=2" alt=""></a></figure></li>
+                                <li>Teléfono: (229) 200 20 00</li>
+                                <li>Sitio web: <a href='http://www.disfrutaveracruz.mx/\'>http://www.disfrutaveracruz.mx/</a>; <a href='https://www.facebook.com/DisfrutaVeracruz/?fref=ts\'>https://www.facebook.com/DisfrutaVeracruz/?fref=ts</a></li>
+                                <li>Correo: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3a53545c557a4c5f485b59484f40574f545359534a5355145d5558145742">[email&#160;protected]</a></li>
+                            </ul>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-9">
+                        <div class="kd-rich-editor">
+                            <h3>Veracruz</h3>
+                            <div class="row">
+
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="kd-icon circle-icon">
+                                        <a href="hoteles.php?Municipio=193"><i class="fa fa-bed "></i></a>
+                                        <a href="restaurantes.php?Municipio=193"><i class="fa fa-cutlery"></i></a>
+
+
+                                        <a href="atractivos.php?Municipio=193"><i class="fa fa-suitcase"></i></a>
+
+
+
+                                        <a href="directorio.php?Municipio=193"><i class="fa fa-address-book"></i></a>
+
+
+
+                                    </div>
+
+
+
+
+                                </div>
+
+
+
+                            </div>
+
+                            <p><strong>TOPONIMIA</strong><br />
+Francisco de Montejo y Alonso Hernández Portocarrero junto con Hernán Cortés fundaron la Villa Rica de la Veracruz, el cual tiene el siguiente origen: Villa le fue otorgada al ser parecido a las villas españolas, Rica por la cantidad de oro rescatado a los indígenas y Vera Cruz debido a la fecha en que los conquistadores desembarcaron en los arenales, situados frente a la isla de San Juan de Ulúa el 22 de abril de 1519, siendo precisamente ese día, una de las máximas celebraciones de la religión católica, era Viernes Santo, fecha en que se conmemora la muerte de Jesucristo en la cruz, es decir el día de la verdadera cruz.</p>
+
+<p><strong>HISTORIA</strong><br />
+En 1518 el capitán español Juan de Grijalva arriba al islote que llamó San Juan de Ulúa.&nbsp;</p>
+
+<p>La Villa Rica de la Veracruz fue fundada por el conquistador español Hernán Cortés, el 22 de abril de 1519 en las playas que se encontraban frente al islote de San Juan de Ulúa, llamadas Chalchihuecan; sus primeros alcaldes fueron Francisco de Montejo y Alonso Hernández de Portocarrero.&nbsp;</p>
+
+<p>El emperador Carlos V, otorga mediante cedula real el escudo de armas a la Villa Rica de la Veracruz el 14 de julio de 1523.&nbsp;</p>
+
+<p>En 1590 es construida la fortaleza de San Juan de Ulúa para la defensa de Veracruz.&nbsp;</p>
+
+<p><strong>LOCALIZACIÓN</strong><br />
+Se encuentra ubicado en la zona centro del estado, en las estribaciones en las coordenadas 19° 12' latitud norte y 96° 08' longitud oeste a una altura de 10 metros sobre el nivel del mar. Limita al norte con La Antigua, al este con el Golfo de México y Boca del Río y al sur con Manlio Fabio Altamirano. Su distancia aproximada al sureste de la capital del estado, por carretera es de 90 Km.</p>
+
+<p><strong>EXTENSIÓN</strong><br />
+Tiene una superficie de 247.90 Km2, Cifra que representa un 0.34% del total del estado.</p>
+
+<p><strong>OROGRAFÍA</strong><br />
+Se encuentra situado en la zona central costera del estado, su suelo es de pequeñas alturas insignificantes y valles.</p>
+
+<p><strong>HIDROGRAFÍA</strong><br />
+Al municipio se encuentra regado por los riachuelos Medio, Grande y Tonayán, contando con buenas playas e islas como la de Sacrificios y Verde.</p>
+
+<p><strong>CLIMA</strong><br />
+Su clima es tropical, con una temperatura media anual de 25.3°C; su precipitación pluvial media anual es de 1,500 mm.</p>
+
+<p><strong>PRINICIPALES ECOSISTEMAS<br />
+Flora</strong><br />
+Su vegetación es de tipo selva baja caducifolia, constituida por árboles que pierden sus hojas durante la época invernal y se encuentran árboles como el liquidámbar y el ocote.</p>
+
+<p><strong>Fauna</strong><br />
+Existe en el municipio una gran variedad de animales silvestres, entre los que se encuentran principalmente la garza, gaviota, conejo, ardilla y tuza entre otros, además de una gran variedad de insectos.</p>
+
+<p><strong>RECURSOS NATURALES</strong><br />
+Su riqueza esta representada por minerales como el mármol labrado, cal, cemento, arena y arcilla.</p>
+
+<p><strong>MONUMENTOS HISTÓRICOS</strong><br />
+El Baluarte de Santiago, fuerte virreinal y último testimonio de lo que constituyó&nbsp;el sistema amurallado del Veracruz colonial, en el interior se pueden apreciar " Las Joyas del Pescador", piezas de un cargamento colonial que sufrió un naufragio y posteriormente fueron encontradas por un pescador.</p>
+
+<p>San Juan de Ulúa, fortaleza que sirvió contra la armada francesa en la llamada "Guerra de los Pasteles";&nbsp;fue utilizada como fuerte, muelle, prisión y residencia presidencial.</p>
+
+<p>En la belleza arquitectónica sobresalen construcciones como:<br />
+El Palacio del Ayuntamiento, monumento del siglo XVIII que alberga el municipio más antiguo de México.&nbsp;<br />
+La catedral de Nuestra Señora de la Asunción, construida en 1731.&nbsp;<br />
+El Edificio de Correos y Telégrafos.<br />
+El Teatro Francisco Javier Clavijero inaugurado en 1900.&nbsp;<br />
+Recinto de la Reforma.<br />
+Iglesia del Cristo del Buen Viaje.<br />
+Faro de Venustiano Carranza.<br />
+Palacio Municipal.&nbsp;<br />
+Las Atarazanas.<br />
+El Portal de Miranda.&nbsp;<br />
+Estación del Ferrocarril.<br />
+Palacio del Registro Civil.<br />
+Instituto Veracruzano de Cultura.</p>
+
+<p>Estatuas de Venustiano Carranza, Miguel Hidalgo, José María Morelos, Adolfo Ruiz Cortines, Cuauhtémoc, Francisco Javier Clavijero, Benito Juárez, Monumento a la Madre, Busto de Washington, Busto de Cristóbal Colón, de José Martí, Agustín Lara, Manuel Gutiérrez Zamora, Salvador Díaz Mirón, del Gral. Álvaro Obregón, Ciriaco Vázquez, Francisco I. Madero, Nicolás Bravo, Monumentos a los Héroes Veracruzanos, Ignacio Zaragoza, Miguel Ángel de Quevedo, a los Bomberos, Toña la Negra, Rotonda Cabeza Olmeca;&nbsp;</p>
+
+<p>Fuentes: de los Niños Pescadores, los Flamíngos, Salvador Díaz Mirón, el Mundo, Plaza de la República, de la Madre, Plaza Naciones Unidas, Plazuela de la Campana, Parque Ecológico Adolfo Ruiz Cortines, Callejón la Lagunilla, Plaza de la Concordia.&nbsp;</p>
+
+<p><strong>MUSEOS</strong><br />
+El Museo de la Ciudad que cubre un poco más de cuatro siglos del acontecer del puerto, también es llamado Coronel Manuel Gutiérrez Zamora, las exposiciones que se llevan a cabo son pictóricas, artesanales, de la industria del vestido, piezas arqueológicas, así como de esculturas.</p>
+
+<p>Museo del Recinto de la Reforma, se exponen permanentemente los héroes que nos dieron Patria y Libertad.</p>
+
+<p>Museo Histórico Naval en el que se exponen los vestigios de los barcos desaparecidos, los instrumentos o materiales que se emplean en la Navegación.</p>
+
+<p>Casa Principal en donde&nbsp;se pueden apreciar las exposiciones de pintura, fotografía, escultura, de cerámica entre otras manifestaciones de las bellas artes.</p>
+
+<p>Museo Baluarte de Santiago en el que se exhiben las joyas del pescador o de Quetzalcoatl; Casa Museo Agustín Lara en el que se exhiben las leyendas de la vida del compositor, carteles de las películas de antaño en las que participó.&nbsp;</p>
+
+<p>Casa Museo Salvador Díaz Mirón conocido también como Foro Literario y se exponen pinturas, esculturas y permanentemente todo el mobiliario del extinto poeta.</p>
+
+<p>Archivo y Galería del Arte con exposiciones fotográficas.</p>
+
+<p>Museo de la Revolución en el que se aprecian documentos Históricos de la Revolución Mexicana de 1910, entre ellos un ejemplar de la Primera Ley Agraria del País, Ley del 6 de Enero de 1915 y documentación al respecto de Don Luis Cabrera y del extinto Presidente Venustiano Carranza.</p>
+
+<p><strong>FIESTAS, DANZAS Y TRADICIONES</strong><br />
+Fiesta del Carnaval es la fiesta más popular y de tradición en el puerto jarocho, se celebra desde 1925;&nbsp;la fiesta varía año con año, pero podemos decir que da comienza ocho días antes del miércoles de ceniza.</p>
+
+<p>Según la religión católica, la&nbsp;Semana Santa o Semana Mayor es la fiesta religiosa de mayor tradición en todo el país y que ha logrado gran importancia turística, el visitante puede disfrutar de variados programas artísticos con espectáculos folklóricos y populares llevados a cabo en el Zócalo de la ciudad.&nbsp;</p>
+
+<p>Torneo de Sábalo que es organizado por el Club de Yates del puerto, es una actividad deportiva en la que los participantes en sus yates se lanzan mar adentro en la búsqueda del pez "Sábalo" más grande y más pesado, la fecha es variable.&nbsp;</p>
+
+<p>Regata de Amigos de Galveston Texas es una competencia deportiva realizada con fines amistosos, cuyos participantes provienen principalmente de Texas, este evento se realiza cada dos años.</p>
+
+<p>Fiestas Decembrinas se celebran posadas de acuerdo a la tradición mexicana, se lleva La Rama que es una tradición popular de cantar canciones alusivas a la fecha y pregones del 16 al 24 de diciembre.</p>
+
+<p>El Viejo que es una tradición de disfrazar un muñeco con la figura de un anciano y recorren con él las calles cantando una tonadita alusiva al año que termina; a la media noche este muñeco se quema en medio de la algarabía de jóvenes y viejos, ésto significa que un año más ha terminado para dar principio al año nuevo y se lleva a cabo el 31 de diciembre.</p>
+
+<p><strong>MÚSICA</strong><br />
+En este municipio predomina el son y el Danzón, así como la salsa y la música popular, la marimba, y la de viento.</p>
+
+<p><strong>ARTESANÍAS</strong><br />
+Utilizando como materia prima la madera, las conchas y los caracoles de mar, se realiza gran variedad de figuras decorativas, entre las que destacan los barcos, máscaras, veleros, collares, alhajas, pulseras y aretes, así mismo con la corteza del coco se elaboran artesanías típica de la región como las alcancías y figuras decorativas.</p>
+
+<p><strong>GASTRONOMÍA</strong><br />
+Tradicionalmente afamada por su riqueza y variedad, la cocina Jarocha es una sabrosa síntesis de la cocina española y la costeña, su doble riqueza nace de la combinación de lo mejor de la comida tropical y lo mejor de la comida marítima, encontramos desde los antojitos típicos hasta los más exquisitos platillos de mariscos y pescados frescos en infinita variedad;&nbsp;toda clase de refrescantes y dulces frutas tropicales;&nbsp;como base de alimentación se considera el maíz, ingrediente principal en muchos de sus guisos entre los que se pueden preparar tortillas, gordas, pellizcadas, picadas, empanadas, chilaquiles, tamales de masa y de elote, cabecitas de perro, tamal de cazuela, torta de elote;&nbsp;entre los guisos típicos están las jaibas rellenas, el chilpachole de jaiba, guachinango a la veracruzana, sopa de mariscos, pulpos en su tinta, gran variedad de pescados y el "vuelve a la vida"; dentro de la gastronomía veracruzana hay verduras como los quelites, verdolagas, tallos o cojollos de izote, los guajilotes, chompines, calabacitas, pipiancitos y ejotes, de igual manera la gran variedad de frutas de acuerdo a la temporada como la piña, sandia coco, mamey, mango, papayas, uvas, limas y limones, chirimoyas, plátanos y guanábanas.</p>
+
+<p><strong>CENTROS TURÍSTICOS</strong></p>
+
+<p><strong>El Acuario de Veracruz</strong><br />
+Que posee una pecera oceánica donde se pueden admirar cientos de peces en libre y continuo desplazamiento, además&nbsp;un auditorio en donde diversos documentales explican temas acerca de la vida del mar y un museo que expone conchas, caracoles, y barcos a escala que se pueden tocar.&nbsp;</p>
+
+<p><strong>Plaza Acuario</strong><br />
+Centro Comercial.</p>
+
+<p><strong>Los portales</strong><br />
+Es el lugar más animado en donde se escuchan mariachis, tríos, y los tradicionales sones jarochos.</p>
+
+<p><strong>San Juan de Ulúa</strong><br />
+Fortaleza que sirvió contra la armada francesa en la llamada "Guerra de los Pasteles", fue utilizada como fuerte, muelle, prisión y residencia presidencial.</p>
+
+<p><strong>El Baluarte de Santiago</strong><br />
+Fuerte virreinal y último testimonio de lo que constituyo el sistema amurallado del Veracruz colonial, en el interior se pueden apreciar " Las Joyas del Pescador", piezas de un cargamento colonial que sufrió un naufragio.</p>
+
+<p><strong>El Boulevard</strong><br />
+Que comprende la barra de la playa en la cual se pueden encontrar todo tipo de recuerdos típicos del puerto.</p>
+
+<p><strong>El Parque Zamora</strong><br />
+Parque que se encuentra en la zona centro del Puerto de Veracruz, en donde se reúnen a bailar el clásico Danzón.</p>
+
+<p><strong>Las playas de Villa del Mar</strong><br />
+En donde puedes practicar en moto acuática, velero, pasear en lancha.</p>
+
+<p><strong>La isla de Sacrificio, El Malecón</strong><br />
+En el hay lanchas que hacen un recorrido por San Juan de Ulua, y es el lugar en donde se encuentran diversos comercios con venta de artesanías propias del puerto.</p>
+
+<p><br />
+<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/vj8-TDnwpzE" width="640"></iframe></p>
+
+<p> </p>
+
+<p><iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/0Bn70NErpfE" width="640"></iframe></p>
+
+<p> </p>
+
+<p><iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/qEKEbFMh6Oc" width="640"></iframe><br />
+ </p>
+
+<p><br />
+<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/g-2lJ330fpQ" width="640"></iframe><br />
+ </p>
+
+<p><br />
+<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/iEo3_zCA2hk" width="640"></iframe></p>
+
+<p> </p>
+
+<p><iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/NH7DDKYA5z4" width="640"></iframe></p>
+
+<p> </p>
+                        </div>
+
+
+                        <div class="kd-team kd-teamgrid">
+                            <div class="row">
+                                                                    <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=295"><img alt="" src="timthumb.php?src=fotos/ATARAZANAS.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=295">Atarazanas </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=299"><img alt="" src="timthumb.php?src=fotos/boulevard-veracruz.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=299">Boulevard del Puerto de Veracruz </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=302"><img alt="" src="timthumb.php?src=fotos/CATEDRAL-VERACRUZ.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=302">Catedral de Veracruz </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=334"><img alt="" src="timthumb.php?src=fotos/ESCUELA FCO. CLAVIJERO-VER.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=334">Escuela Francisco Javier Clavijero  </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=335"><img alt="" src="timthumb.php?src=fotos/FARO CARRNZA.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=335">Faro Carranza </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=339"><img alt="" src="timthumb.php?src=fotos/ILUSTRE INSTITUTO VERACRUZANO.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=339">Ilustre Instituto Veracruzano </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=343"><img alt="" src="timthumb.php?src=fotos/PEMEX- VERACRUZ.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=343">Torre Pemex </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=345"><img alt="" src="timthumb.php?src=fotos/plaza de la republica_1.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=345">Plaza de la República </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=350"><img alt="" src="timthumb.php?src=fotos/SAN JUAN DE ULUA aterdecer.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=350">San Juan de Ulúa </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=352"><img alt="" src="timthumb.php?src=fotos/Sistema-arrecifal-veracuzano.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=352">Sistema Arrecifal Veracruzano </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=355"><img alt="" src="timthumb.php?src=fotos/VERACRUZ-2.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=355">Edificio del Registro Civil </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=357"><img alt="" src="timthumb.php?src=fotos/VERACRUZ-MALECAS.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=357">Malecón de Veracruz </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=358"><img alt="" src="timthumb.php?src=fotos/VILLA RICA-VERACRUZ.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=358">Villa Rica </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=361"><img alt="" src="timthumb.php?src=fotos/PUERTO DE VERACRUZ.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=361">Escultura de los Pescadores </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=558"><img alt="" src="timthumb.php?src=fotos/la huaca veracruz.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=558">Barrio "La Huaca" </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=597"><img alt="" src="timthumb.php?src=fotos/Acuario veracruz.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=597">Acuario de Veracruz </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=613"><img alt="" src="timthumb.php?src=fotos/BUQUE-CUAUHTEMOC.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=613">Buque Escuela Cuauhtémoc  </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=614"><img alt="" src="timthumb.php?src=fotos/Teatro_Francisco_Javier_Clavijero.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=614">Teatro Francisco Javier Clavijero </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1014"><img alt="" src="timthumb.php?src=fotos/baluarte-santiao-veracruz-0.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1014">Baluarte de Santiago </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1015"><img alt="" src="timthumb.php?src=fotos/Isla de Sacrificios-Veracruz.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1015">Isla de Sacrificios </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1128"><img alt="" src="timthumb.php?src=fotos/VERACRUZ-ARRIBO DE BARCOS.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1128">Playas del Puerto </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1174"><img alt="" src="timthumb.php?src=fotos/museo naval.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1174">Museo Naval  </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1207"><img alt="" src="timthumb.php?src=fotos/champurrado veracruz.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1207">Champurrado </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1238"><img alt="" src="timthumb.php?src=fotos/fuerte san juan.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1238">Fuerte de San Juan de Ulúa en Veracruz Puerto </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1432"><img alt="" src="timthumb.php?src=fotos/disfrutaveracruz-museo.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1432">Museo de la Ciudad “CORONEL MANUEL GUTIÉRREZ ZAMORA” </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1434"><img alt="" src="timthumb.php?src=fotos/mercadoArtesanias_DV.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1434">Mercado de Artesanías </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1435"><img alt="" src="timthumb.php?src=fotos/museoDiazMiron.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1435">Casa Museo Salvador Díaz Mirón </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1436"><img alt="" src="timthumb.php?src=fotos/biblioteca_DV-730x370.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1436">Archivo y Biblioteca Históricos </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1437"><img alt="" src="timthumb.php?src=fotos/puertoveracruzbarcos.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1437">Puerto de Veracruz </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1438"><img alt="" src="timthumb.php?src=fotos/registroCivil_DV-730x370.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1438">Edificio del Registro Civil </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1448"><img alt="" src="timthumb.php?src=fotos/aduana_DV.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1448">Aduana Marítima </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1450"><img alt="" src="timthumb.php?src=fotos/estacionFerrocarriles_DV.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1450">Estación de Ferrocarriles de Veracruz </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1466"><img alt="" src="timthumb.php?src=fotos/portalMiranda_DV.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1466">Portal de Miranda </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1473"><img alt="" src="timthumb.php?src=fotos/placaGendarme_DV-730x370.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1473">GENDARME AURELIO MONFORT </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1485"><img alt="" src="timthumb.php?src=fotos/casaPrincipal_DV.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1485">Centro Cultural Casa Principal </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1491"><img alt="" src="timthumb.php?src=fotos/catedralVeracruz_DV-730x370.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1491">Catedral de Veracruz o de Nuestra Señora de la Asunción </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1506"><img alt="" src="timthumb.php?src=fotos/trigueros_DV-730x370.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1506">Edificio Trigueros </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1507"><img alt="" src="timthumb.php?src=fotos/portales veracruz.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1507">Los Portales de Lerdo </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1508"><img alt="" src="timthumb.php?src=fotos/palacioMunicipal_DV-730x370.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1508">Palacio Municipal de Veracruz Puerto </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1513"><img alt="" src="timthumb.php?src=fotos/GRAN-PLAZA-MALECON.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1513">Macro Plaza del Malecón </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1514"><img alt="" src="timthumb.php?src=fotos/plaza-de-armas.JPG&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1514">PLAZA DE LA CONSTITUCIÓN O PLAZA DE ARMAS, "Centro Histórico" </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                                                        <article class="col-md-4">
+                                        <div class="thumbnail">
+                                            <a href="atractivo.php?idnota=1816"><img alt="" src="timthumb.php?src=fotos/buque.jpg&w=438&h=290"></a>
+
+                                            <div class="caption">
+                                                <span><a href="atractivo.php?idnota=1816">Buque “Comodoro Manuel Azueta” </a></span>
+
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                    
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <!--// User Tag //-->
+                            <div class="kd-user-tag">
+                                <div class="row">
+                                                                        <div class="col-md-4">
+                                        <div class="kd-social-network">
+                                            <ul>
+                                                <li><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fveracruz.mx%2F%2Fdestino.php%3FMunicipio%3D193" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com/intent/tweet?text=http%3A%2F%2Fveracruz.mx%2F%2Fdestino.php%3FMunicipio%3D193 Veracruz" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--// User Tag //-->
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--// Page Section //-->
+
+    </div>
+    <!--// Content //-->
+
+    <!--// Footer //-->
+    <section class="wrapper-emergencias d-print-none py-4">
+	<div class="container">
+		<div class="separator-container">
+    <div class="separator line-separator">EMERGENCIAS</div>
+</div>
+<div class="row">
+    <div class="col-md-3 col-print-6">
+        <a href="http://www.veracruz.gob.mx/programadegobierno/quejas-y-denuncias/" target="_blank">
+            <img class="externo-img-child img-full" alt="Gobierno del Estado de Veracruz" src="img/denuncia.png">
+        </a>
+    </div>
+    <div class="col-md-3 col-print-6">
+        <a href="https://www.gob.mx/911" target="_blank">
+            <img class="externo-img-child img-full" alt="Gobierno del Estado de Veracruz" src="img/911.png">
+        </a>
+    </div>
+    <div class="col-md-3 col-print-6">
+        <a href="http://www.ivermujeres.gob.mx/quejas-o-denuncias/" target="_blank">
+            <img class="externo-img-child img-full" alt="Gobierno del Estado de Veracruz" src="img/075.png">
+        </a>
+    </div>
+    <div class="col-md-3 col-print-6">
+        <a href="http://www.veracruz.gob.mx/avgm/" target="_blank">
+            <img class="externo-img-child img-full" alt="Gobierno del Estado de Veracruz" src="img/alerta.png">
+        </a>
+    </div>
+</div>	</div>
+</section>
+
+
+<footer id="footer-widget">
+    <div class="top-footer"></div>
+      <div class="container">
+        <div class="container text-center">
+            <h1>www.<span>veracruz</span>.gob.mx</h1>
+        </div> 
+        <div class="row">
+          <!-- Columna 1: Logo y descripción -->
+          <div class="col-md-4 col-sm-12 text-center">
+              <img class="logos-footer" src="img/logos-footer.png" alt="Gobierno del Estado de Veracruz" class="img-fluid mb-3">
+              <p>GOBIERNO DEL ESTADO DE VERACRUZ <br> 2024 - 2030</p>
+              <p>SECVER <br> SECRETARÍA DE CULTURA</p>
+          </div>
+          <!-- Columna 2: Ubicación -->
+          <div class="col-md-4 col-sm-12 text-center">
+              <h3 class="text-uppercase">Ubicación</h3>
+              <p>Avenida Enrique C. Rébsamen número 80, entre avenida circuito presidentes y calle universitario Gonzalo Aguirre Beltrán, c.p. 91000, Xalapa Enríquez, Veracruz.</p>
+             
+          </div>
+          <!-- Columna 3: Difusión y transparencia -->
+          <div class="col-md-4 col-sm-12 text-center text-md-start difusion">
+              <h3 class="text-uppercase">Difusión</h3>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-white">Boletines</a></li>
+              </ul>
+              <h3 class="text-uppercase">Transparencia</h3>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-white">Obligaciones de Transparencia 2024</a></li>
+                  <li><a href="#" class="text-white">Fideicomisos</a></li>
+                  <li><a href="#" class="text-white">Programa de Adquisiciones</a></li>
+                  <li><a href="#" class="text-white">Avisos de Privacidad</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="container text-center mt-4">
+      <p>Sitio desarrollado por la Dirección General de Innovación Tecnológica</p>
+      <p>Algunos derechos reservados a favor del Gobierno del Estado de Veracruz © 2018 - 2024.</p>
+  </div>   
+      </div>
+  </footer>
+       
+ 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-CZP6P3NBFN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CZP6P3NBFN');
+</script>
+
+
+    <!--// CopyRight //-->
+
+    <!-- jQuery (Necessary For JavaScript Plugins) -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/waypoints-min.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+</html>

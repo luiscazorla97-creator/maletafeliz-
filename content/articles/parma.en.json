@@ -1,0 +1,202 @@
+{
+  "id": "parma",
+  "destinationId": "parma",
+  "status": "published",
+  "intent": "parma-first-visit-five-city-places",
+  "coverImageId": "m21-pr-cathedral",
+  "sources": [
+    {
+      "id": "m21-pr-region",
+      "url": "https://emiliaromagnaturismo.it/en/towns/parma",
+      "title": "Emilia Romagna Tourism — Parma city guide",
+      "accessedAt": "2026-11-22T00:51:51.146Z",
+      "evidenceFile": "content/research/m21-pr-region.json"
+    },
+    {
+      "id": "m21-pr-art",
+      "url": "https://emiliaromagnaturismo.it/en/itineraries/nuances-of-art-in-the-footsteps-of-correggio-and-parmigianino-in-ducal-parma",
+      "title": "Emilia Romagna Tourism — Correggio and Parmigianino art itinerary",
+      "accessedAt": "2026-11-22T00:51:52.766Z",
+      "evidenceFile": "content/research/m21-pr-art.json"
+    },
+    {
+      "id": "m21-pr-regio-operator",
+      "url": "https://teatroregioparma.it/en/visit-us/guided-tours/",
+      "title": "Fondazione Teatro Regio di Parma — guided tours and access",
+      "accessedAt": "2026-11-22T00:51:56.392Z",
+      "evidenceFile": "content/research/m21-pr-regio-operator.json"
+    },
+    {
+      "id": "m21-pr-park-city",
+      "url": "https://cultura.comune.parma.it/luogo/it-IT/Palazzo-Ducale-2.aspx",
+      "title": "Comune di Parma Cultura — Palazzo Ducale and park setting",
+      "accessedAt": "2026-11-22T00:51:58.409Z",
+      "evidenceFile": "content/research/m21-pr-park-city.json"
+    }
+  ],
+  "relatedIds": [
+    "bologna",
+    "ferrara",
+    "ravenna"
+  ],
+  "locale": "en",
+  "slug": "things-to-do-parma-5-places",
+  "title": "Things to do in Parma: 5 places for art, opera and gardens",
+  "description": "Explore five places in Parma: the Cathedral, Baptistery, Pilotta complex, Teatro Regio and Ducal Park, with a walking itinerary and practical visiting advice.",
+  "keyword": "things to do in Parma",
+  "relatedQueries": [
+    "Parma places to visit",
+    "Parma Cathedral and Baptistery",
+    "Teatro Regio Parma guided tour"
+  ],
+  "intro": [
+    "For a first visit to Parma, build your route around five places: the Cathedral, the Baptistery, the Pilotta complex, Teatro Regio and Parco Ducale. Together they introduce religious art, the Farnese court, musical life and a quieter garden landscape. The two monuments on Piazza Duomo deserve separate stops, with their own details and visiting arrangements.",
+    "Parma sits in Emilia-Romagna along the historic Via Emilia. Its food deserves attention, and the city belongs to UNESCO’s Creative Cities network for gastronomy, but a meal between trains misses much of its character. This guide connects a manageable selection of buildings and public space. Choose the interiors that matter most to you, then give yourself time to look rather than treating every stop as a box to tick."
+  ],
+  "quickFacts": [
+    {
+      "label": "Region",
+      "value": "Emilia-Romagna, northern Italy"
+    },
+    {
+      "label": "Focus",
+      "value": "Five places in the centre and Ducal Park"
+    },
+    {
+      "label": "Getting around",
+      "value": "Walk between stops; arrange priority interiors first"
+    },
+    {
+      "label": "Planning detail",
+      "value": "Rehearsals can suspend Teatro Regio tours"
+    }
+  ],
+  "sections": [
+    {
+      "id": "cathedral",
+      "kind": "place",
+      "heading": "1. Parma Cathedral: Romanesque architecture and Correggio’s dome",
+      "paragraphs": [
+        "The Cathedral of the Assumption is a useful starting point for understanding Parma’s layers. Its facade speaks the language of Romanesque architecture, while the interior leads towards a celebrated expression of the local Renaissance: Correggio’s painted Assumption of the Virgin in the dome. Look at the building from the square before entering, so that the change in scale and atmosphere has some meaning.",
+        "Once beneath the dome, follow the way figures and clouds draw the eye upwards. Its appeal lies in an illusion of depth, rather than simply the opportunity to recognise a famous artist’s name. Let your eyes adjust to the space and spend a little time without photographing it. The relationship between the painted scene and the architecture becomes clearer when you examine the whole composition.",
+        "This remains a place of worship. Check entrance notices and respect services or restrictions on photography. If the interior is unavailable, the facade and its setting on Piazza Duomo still make a worthwhile stop; there is no need to substitute another church merely to keep the itinerary moving."
+      ],
+      "sourceIds": [
+        "m21-pr-region",
+        "m21-pr-art"
+      ],
+      "imageId": "m21-pr-cathedral"
+    },
+    {
+      "id": "baptistery",
+      "kind": "place",
+      "heading": "2. The Baptistery: look closely at Parma’s pink marble",
+      "paragraphs": [
+        "Standing beside the Cathedral, the Baptistery can easily be treated as an extra photograph. Give it a separate visit instead. Its pink Verona marble and architectural transition between late Romanesque and Gothic forms offer a clear comparison with its neighbour. That contrast is more rewarding than trying to remember a long list of construction dates.",
+        "Walk around the exterior and study the portals, carved reliefs and changes in the colour of the stone. The documentary photograph in this guide shows a portal detail, rather than claiming to present the entire building or today’s entrance arrangements. Close observation helps explain how the Baptistery works at a different scale from the broad Cathedral facade.",
+        "If you want to enter, check the Baptistery’s own admission arrangements. Sharing a square does not establish that two monuments share a ticket or opening conditions. For a short visit to Parma, spending time on these architectural details can be a better choice than adding several collections to an already crowded morning."
+      ],
+      "sourceIds": [
+        "m21-pr-region",
+        "m21-pr-art"
+      ],
+      "imageId": "m21-pr-baptistery"
+    },
+    {
+      "id": "pilotta",
+      "kind": "place",
+      "heading": "3. The Pilotta complex: choose a cultural visit with some depth",
+      "paragraphs": [
+        "The Pilotta shifts attention from the religious square to the Farnese court. This former palace of court and state services houses several institutions, including the National Gallery, Farnese Theatre, Archaeological Museum, Palatine Library and Bodoni Museum. They form one substantial stop in this selection, rather than five additional recommendations disguised as a single quick visit.",
+        "The National Gallery continues the story of Correggio and Parmigianino after Piazza Duomo. If theatrical architecture interests you more, investigate the Farnese Theatre’s availability before deciding how to divide your time. Choose one main focus and allow room for it. Trying to see every institution with equal attention can leave little time to understand any of them.",
+        "Check the current visitor route, accessible rooms and ticket conditions before travelling. Having several collections within the complex does not prove that every room can be visited simultaneously. An exterior walk still explains the Pilotta’s relationship with the city, but it is not a replacement for a collection that you particularly want to see."
+      ],
+      "sourceIds": [
+        "m21-pr-region",
+        "m21-pr-art"
+      ],
+      "imageId": "m21-pr-pilotta"
+    },
+    {
+      "id": "teatro-regio",
+      "kind": "place",
+      "heading": "4. Teatro Regio: discover the theatre without attending a performance",
+      "paragraphs": [
+        "Teatro Regio offers a practical introduction to Parma’s musical identity. Its operator advertises guided tours of the Foyer, Main Auditorium and Ridotto, available in Italian and English and lasting approximately half an hour. This gives visitors a way to understand the building even when they are not attending an opera or another performance.",
+        "A working theatre also needs time for rehearsals and production work. The foundation specifically warns that parts of the route can become unavailable and tours may be suspended. Check your date first, then organise the surrounding sightseeing. Groups should enquire about advance booking, as recommended by the operator, rather than assuming that a party can simply arrive together.",
+        "The foundation describes the guided route as accessible; confirm arrangements for your particular session if you need specific assistance. Teatro Regio and the Farnese Theatre are different venues. Keeping that distinction in mind avoids booking one while expecting the other. The archive photograph here documents the Regio’s exterior, not a current production or auditorium configuration."
+      ],
+      "sourceIds": [
+        "m21-pr-regio-operator"
+      ],
+      "imageId": "m21-pr-regio"
+    },
+    {
+      "id": "parco-ducale",
+      "kind": "place",
+      "heading": "5. Parco Ducale: make room for trees and ducal history",
+      "paragraphs": [
+        "Parco Ducale provides a welcome change of rhythm after churches and collections. The regional guide highlights its old trees and sculptural groups. Treat it as somewhere to walk, sit and enjoy a different scale of space, rather than another attraction requiring a tightly scheduled activity. Follow the paths that are open and leave some unstructured time, especially after a long museum visit.",
+        "The park contains Palazzo Ducale, commissioned by Ottavio Farnese in the sixteenth century and designed by Vignola. Separate the garden visit from the palace interior: the municipality says that the building is ordinarily closed, apart from specific initiatives. This recommendation therefore concerns the green space and views of the palace from permitted areas.",
+        "Do not plan your day around an assumed palace tour. Check municipal notices and available entrances when events or works affect the area, and adapt the walk to the weather. The archive image shows an autumnal corner of the park. Its colours document that photograph’s season rather than promising the same landscape throughout the year."
+      ],
+      "sourceIds": [
+        "m21-pr-region",
+        "m21-pr-park-city"
+      ],
+      "imageId": "m21-pr-park"
+    },
+    {
+      "id": "planning",
+      "kind": "practical",
+      "heading": "How to organise tickets and the walking route",
+      "paragraphs": [
+        "Settle the interior that matters most before fixing the rest of the day. If Teatro Regio has a suitable tour, use that as an anchor. If painting is your priority, begin by checking the Pilotta visitor route. Keep Cathedral and Baptistery together because they share a square, and leave the park for a flexible period. This limits unnecessary backtracking without assigning rigid walking or viewing times to everyone.",
+        "The regional art itinerary describes its city section as suitable for walking or cycling. Walking makes it easier to notice portals and differences between buildings; cycling means respecting the access rules of individual spaces. Do not assume identical accessibility across museum rooms, places of worship and garden paths. Ask directly about steps, toilets and assistance if those details determine whether a visit works for you.",
+        "Budget separately for admissions, food and travel to Parma. No combined admission price is quoted here because products and included spaces may change. Use the official sources linked below to check conditions, and examine the actual inclusions before buying a product whose name appears to cover the whole city."
+      ],
+      "sourceIds": [
+        "m21-pr-art",
+        "m21-pr-regio-operator",
+        "m21-pr-park-city"
+      ]
+    },
+    {
+      "id": "food",
+      "kind": "practical",
+      "heading": "Enjoy Parma’s food without losing the cultural visit",
+      "paragraphs": [
+        "Parma’s food tradition is a reason to reserve time for a proper meal. The regional tourism authority identifies Prosciutto di Parma and Parmigiano Reggiano among the city’s defining products, alongside filled pasta and other dishes. Choose according to your preferences and dietary needs; a celebrated local product does not make every menu suitable for every visitor.",
+        "A genuine lunch break can also improve the afternoon. Check menus, allergens and serving arrangements rather than assuming every establishment serves food at any time. If you are continuing around Emilia-Romagna, the related guides to Bologna, Ferrara and Ravenna offer different urban experiences. Use them to develop a longer journey instead of trying to fit several cities into this same day."
+      ],
+      "sourceIds": [
+        "m21-pr-region"
+      ]
+    }
+  ],
+  "itinerary": [
+    "Begin on Piazza Duomo by looking at the square as a whole, then give the Cathedral and Baptistery their own visits. Reverse their order if an admission window requires it. The aim is to compare neighbouring buildings without crossing the city between them.",
+    "Continue to the Pilotta and an unhurried meal. Fit Teatro Regio around the tour you have confirmed, then finish in Parco Ducale if daylight and access allow. If several Pilotta collections are important to you, spread the route over two days rather than reducing every other stop to a hurried photograph."
+  ],
+  "faq": [
+    {
+      "question": "What should I see on a first visit to Parma?",
+      "answer": "The Cathedral, Baptistery, Pilotta, Teatro Regio and Parco Ducale provide a varied introduction. How much you see depends on your chosen interiors: an in-depth Pilotta visit may justify a lighter programme elsewhere."
+    },
+    {
+      "question": "Are Teatro Regio and the Farnese Theatre the same place?",
+      "answer": "No. Teatro Regio has its own performance programme and guided visits. The Farnese Theatre belongs to the Pilotta complex. Check which venue your ticket includes before booking."
+    },
+    {
+      "question": "Can I enter Palazzo Ducale during a park visit?",
+      "answer": "The municipality says that ordinary interior access is unavailable, apart from specific initiatives. This guide recommends Parco Ducale and permitted exterior views of the palace, without promising an interior tour."
+    },
+    {
+      "question": "Should I buy every ticket before arriving?",
+      "answer": "Start with the experience that matters most and check availability and conditions. Rehearsals can suspend Regio tours, while the Cathedral, Baptistery and Pilotta each need their own access check. Do not assume one ticket covers them all."
+    }
+  ],
+  "conclusion": "Parma becomes more interesting when you connect what you see: Romanesque architecture and painted illusion at the Cathedral, the Baptistery’s stone, the Pilotta’s collections, a working theatre and a ducal garden. Confirm the interiors that matter to you, then leave space for walking and a meal. That balance is more satisfying than collecting buildings without examining them.",
+  "publishedAt": "2026-11-22T01:08:10.822Z",
+  "updatedAt": "2026-11-22T01:08:10.822Z"
+}

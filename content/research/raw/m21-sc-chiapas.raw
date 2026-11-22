@@ -1,0 +1,991 @@
+			<!DOCTYPE html>
+			<html lang="es">
+			
+				<head>
+					<title>Portal de Gobierno</title>
+					
+					<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+					<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+					<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+					<meta http-equiv="x-ua-compatible" content="ie=edge">
+					
+					<meta name="geo.region" content="MX-CHP" />
+					<meta name="geo.placename" content="Tuxtla Guti&eacute;rrez" />
+					<meta name="geo.position" content="16.754824;-93.081193" />
+					<meta name="ICBM" content="16.754824, -93.081193" />
+					
+					<link rel="shortcut icon" href="https://chiapas.gob.mx/media/logo/favicon.ico">
+					<link rel="apple-touch-icon" href="https://chiapas.gob.mx/media/logo/apple-touch-icon.png">
+					<link rel="apple-touch-icon" sizes="72x72" href="https://chiapas.gob.mx/media/logo/apple-touch-icon-72x72.png">
+					<link rel="apple-touch-icon" sizes="114x114" href="https://chiapas.gob.mx/media/logo/apple-touch-icon-114x114.png">
+					
+					<meta name='google-site-verification' content='F2t7v-Wi2GYpmGwbS9L2T3hU5i9iwTWaXm_oyb2oZRQ' />
+					<meta name='msvalidate.01' content='05948F6D3187D652792096EB709965DA' />
+					
+										
+					<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet"> 
+					
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/bootstrap/bootstrap.min.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/bootstrap/offcanvas.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/icon-awesome/css/font-awesome.min.css">					
+
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/icon-line-pro/style.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/icon-line/css/simple-line-icons.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/icon-hs/style.css" >
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/dzsparallaxer/dzsparallaxer.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/animate.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/hamburgers/hamburgers.min.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/fancybox/jquery.fancybox.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/vendor/slick-carousel/slick/slick.css">
+
+					
+
+
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/css/unify-core.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/css/unify-components.css">
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/css/unify-globals.css">
+					
+					<link rel="stylesheet" href="https://chiapas.gob.mx/assets/css/custom.css">
+					<link rel="stylesheet" href="https://frameworkscdn.chiapas.gob.mx/assets/css/style.min.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158677229-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158677229-1');
+</script>
+					
+</head>
+			
+<body style="background-image: url(https://chiapas.gob.mx/media/inicio/fondo-transparencia.png);">	
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55ZCZMN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->	
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0"></script>			
+					
+								<header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section" data-header-fix-moment="300">	
+				<div class="u-header__section u-header__section--light  g-transition-0_3" data-header-fix-moment-exclude="" data-header-fix-moment-classes="u-shadow-v18 g-py-0" style="background-color: #333">
+					<nav class="navbar navbar-expand-lg g-pa-0 g-pt-4 g-pb-4">
+						<div class="container">
+							<button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+								<span class="hamburger hamburger--slider">								
+									<span class="hamburger-box">
+										<span class="hamburger-inner"></span>
+									</span>
+								</span>
+							</button>
+					
+							<a href="https://chiapas.gob.mx/" class="navbar-brand g-text-underline--hover"><img src="https://chiapas.gob.mx/assets/logo/escudo-icono.png" alt=""></a>
+							<a href="https://chiapas.gob.mx/" class="g-color-white-opacity-0_9 g-font-size-16 g-font-weight-300 g-font-secondary g-text-underline--hover">chiapas<span class="g-color-white-opacity-0_6">.gob.mx</span></a>
+
+							<div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg" id="navBar">
+								<ul class="navbar-nav ml-auto g-font-size-16 g-font-weight-100">
+									<li class="nav-item g-mx-10--lg"><a href="https://chiapas.gob.mx/servicios-por-entidad" class="nav-link g-color-white-opacity-0_9 g-text-underline--hover ">Trámites</a></li>
+									<li class="nav-item g-mx-10--lg"><a href="https://chiapas.gob.mx/gobierno" class="nav-link g-color-white-opacity-0_9 g-text-underline--hover ">Gobierno</a></li>
+									<li class="nav-item g-mx-10--lg"><a href="https://chiapas.gob.mx/participa" class="nav-link g-color-white-opacity-0_9 g-text-underline--hover ">Participa</a></li>
+									<li class="nav-item g-mx-10--lg"><a target="_blank" href="http://oficinadelgobernador.transparencia.chiapas.gob.mx/" class="nav-link g-color-white-opacity-0_9 g-text-underline--hover ">Transparencia</a></li>
+									<li class="nav-item g-mx-10--lg"><a href="https://chiapas.gob.mx/busquedas" class="nav-link g-color-white-opacity-0_9 g-text-underline--hover"><i class="fa fa-search"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</header>
+													
+		      <section class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll dzsprx-readyall"
+        data-options='{direction: "normal", settings_mode_oneelement_max_offset: "150"}' style="height: 839px">
+
+        <div class="divimage dzsparallaxer--target w-100 h-100  g-bg-img-hero " onclick="redirigir()"
+          style="height: 100%; background-image: url(https://chiapas.gob.mx//media/inicio/PED-2025.png);"></div>
+
+        <div class="container u-bg-overlay__inner text-center" style="padding-top: 400px;">
+          <h2 class="h4 g-color-black g-font-weight-400 g-mb-30">Te encuentras en el <span class="g-font-weight-600">Portal
+              de Gobierno chiapas.gob.mx</span></h2>
+          <form>
+            <div class="g-max-width-540 mx-auto g-mb-20">
+              <script>
+
+                function redirigir() {
+                  url = "https://chiapas.gob.mx/media/ped/PED_2025_2030.pdf";
+                  window.open(url, '_blank');
+                  // window.location.href = "https://chiapas.gob.mx/media/ped/PED_2025_2030.pdf"; // Cambia esto por la URL deseada
+                }
+
+                (function () {
+                  var cx = 'b03ed652fd3d64305';
+                  var gcse = document.createElement('script');
+                  gcse.type = 'text/javascript';
+                  gcse.async = true;
+                  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                  var s = document.getElementsByTagName('script')[0];
+                  s.parentNode.insertBefore(gcse, s);
+                })();
+              </script>
+              <gcse:searchbox-only></gcse:searchbox-only>
+
+              <style type="text/css" media="all">
+                .gsc-search-button {
+                  margin-left: -12px;
+                  height: 31px;
+                }
+              </style>
+
+
+            </div>
+
+          </form>
+        </div>
+      </section>
+
+      <nav id="pojo-a11y-toolbar" class="pojo-a11y-toolbar-left pojo-a11y-" role="navigation">
+		<div class="pojo-a11y-toolbar-toggle">
+			<a class="pojo-a11y-toolbar-link pojo-a11y-toolbar-toggle-link" href="javascript:void(0);" title="Herramientas de accesibilidad">
+				<span class="pojo-sr-only sr-only">Abrir barra de herramientas</span>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="currentColor" width="1em">
+					<path d="M50 8.1c23.2 0 41.9 18.8 41.9 41.9 0 23.2-18.8 41.9-41.9 41.9C26.8 91.9 8.1 73.2 8.1 50S26.8 8.1 50 8.1M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50 50-22.4 50-50S77.6 0 50 0zm0 11.3c-21.4 0-38.7 17.3-38.7 38.7S28.6 88.7 50 88.7 88.7 71.4 88.7 50 71.4 11.3 50 11.3zm0 8.9c4 0 7.3 3.2 7.3 7.3S54 34.7 50 34.7s-7.3-3.2-7.3-7.3 3.3-7.2 7.3-7.2zm23.7 19.7c-5.8 1.4-11.2 2.6-16.6 3.2.2 20.4 2.5 24.8 5 31.4.7 1.9-.2 4-2.1 4.7-1.9.7-4-.2-4.7-2.1-1.8-4.5-3.4-8.2-4.5-15.8h-2c-1 7.6-2.7 11.3-4.5 15.8-.7 1.9-2.8 2.8-4.7 2.1-1.9-.7-2.8-2.8-2.1-4.7 2.6-6.6 4.9-11 5-31.4-5.4-.6-10.8-1.8-16.6-3.2-1.7-.4-2.8-2.1-2.4-3.9.4-1.7 2.1-2.8 3.9-2.4 19.5 4.6 25.1 4.6 44.5 0 1.7-.4 3.5.7 3.9 2.4.7 1.8-.3 3.5-2.1 3.9z"/>					</svg>
+			</a>
+		</div>
+		<div class="pojo-a11y-toolbar-overlay">
+			<div class="pojo-a11y-toolbar-inner">
+				<p class="pojo-a11y-toolbar-title">Herramientas de accesibilidad</p>
+				
+				<ul class="pojo-a11y-toolbar-items pojo-a11y-tools">
+																		<li class="pojo-a11y-toolbar-item">
+							<a href="#" id="optionresizeplus"  class="pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-plus" data-action="resize-plus" data-action-group="resize" tabindex="-1">
+								<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M256 200v16c0 4.25-3.75 8-8 8h-56v56c0 4.25-3.75 8-8 8h-16c-4.25 0-8-3.75-8-8v-56h-56c-4.25 0-8-3.75-8-8v-16c0-4.25 3.75-8 8-8h56v-56c0-4.25 3.75-8 8-8h16c4.25 0 8 3.75 8 8v56h56c4.25 0 8 3.75 8 8zM288 208c0-61.75-50.25-112-112-112s-112 50.25-112 112 50.25 112 112 112 112-50.25 112-112zM416 416c0 17.75-14.25 32-32 32-8.5 0-16.75-3.5-22.5-9.5l-85.75-85.5c-29.25 20.25-64.25 31-99.75 31-97.25 0-176-78.75-176-176s78.75-176 176-176 176 78.75 176 176c0 35.5-10.75 70.5-31 99.75l85.75 85.75c5.75 5.75 9.25 14 9.25 22.5z""></path></svg></span><span class="pojo-a11y-toolbar-text">Aumentar texto</span>								</a>
+						</li>
+						
+						<li class="pojo-a11y-toolbar-item">
+							<a href="#" id="optionresizeminus" class="pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-minus" data-action="resize-minus" data-action-group="resize" tabindex="-1">
+								<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M256 200v16c0 4.25-3.75 8-8 8h-144c-4.25 0-8-3.75-8-8v-16c0-4.25 3.75-8 8-8h144c4.25 0 8 3.75 8 8zM288 208c0-61.75-50.25-112-112-112s-112 50.25-112 112 50.25 112 112 112 112-50.25 112-112zM416 416c0 17.75-14.25 32-32 32-8.5 0-16.75-3.5-22.5-9.5l-85.75-85.5c-29.25 20.25-64.25 31-99.75 31-97.25 0-176-78.75-176-176s78.75-176 176-176 176 78.75 176 176c0 35.5-10.75 70.5-31 99.75l85.75 85.75c5.75 5.75 9.25 14 9.25 22.5z"></path></svg></span><span class="pojo-a11y-toolbar-text">Disminuir texto</span>								</a>
+						</li>
+					
+												<li class="pojo-a11y-toolbar-item">
+							<a href="#" id="optiongrayscale" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-grayscale" data-action="grayscale" data-action-group="schema" tabindex="-1">
+								<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M15.75 384h-15.75v-352h15.75v352zM31.5 383.75h-8v-351.75h8v351.75zM55 383.75h-7.75v-351.75h7.75v351.75zM94.25 383.75h-7.75v-351.75h7.75v351.75zM133.5 383.75h-15.5v-351.75h15.5v351.75zM165 383.75h-7.75v-351.75h7.75v351.75zM180.75 383.75h-7.75v-351.75h7.75v351.75zM196.5 383.75h-7.75v-351.75h7.75v351.75zM235.75 383.75h-15.75v-351.75h15.75v351.75zM275 383.75h-15.75v-351.75h15.75v351.75zM306.5 383.75h-15.75v-351.75h15.75v351.75zM338 383.75h-15.75v-351.75h15.75v351.75zM361.5 383.75h-15.75v-351.75h15.75v351.75zM408.75 383.75h-23.5v-351.75h23.5v351.75zM424.5 383.75h-8v-351.75h8v351.75zM448 384h-15.75v-352h15.75v352z"></path></svg></span><span class="pojo-a11y-toolbar-text">Escala de grises</span>								</a>
+						</li>
+					
+												<li class="pojo-a11y-toolbar-item">
+							<a href="#" id="optionhighcontrast" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-high-contrast" data-action="high-contrast" data-action-group="schema" tabindex="-1">
+								<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M192 360v-272c-75 0-136 61-136 136s61 136 136 136zM384 224c0 106-86 192-192 192s-192-86-192-192 86-192 192-192 192 86 192 192z""></path></svg></span><span class="pojo-a11y-toolbar-text">Alto contraste</span>								</a>
+						</li>
+					
+					<li class="pojo-a11y-toolbar-item">
+						<a href="#" id="optionnegativecontrast" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-negative-contrast" data-action="negative-contrast" data-action-group="schema" tabindex="-1">
+
+							<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M416 240c-23.75-36.75-56.25-68.25-95.25-88.25 10 17 15.25 36.5 15.25 56.25 0 61.75-50.25 112-112 112s-112-50.25-112-112c0-19.75 5.25-39.25 15.25-56.25-39 20-71.5 51.5-95.25 88.25 42.75 66 111.75 112 192 112s149.25-46 192-112zM236 144c0-6.5-5.5-12-12-12-41.75 0-76 34.25-76 76 0 6.5 5.5 12 12 12s12-5.5 12-12c0-28.5 23.5-52 52-52 6.5 0 12-5.5 12-12zM448 240c0 6.25-2 12-5 17.25-46 75.75-130.25 126.75-219 126.75s-173-51.25-219-126.75c-3-5.25-5-11-5-17.25s2-12 5-17.25c46-75.5 130.25-126.75 219-126.75s173 51.25 219 126.75c3 5.25 5 11 5 17.25z"></path></svg></span><span class="pojo-a11y-toolbar-text">Contraste negativo</span>							</a>
+					</li>
+
+					<li class="pojo-a11y-toolbar-item">
+							<a href="#" id="optionlightbg" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-light-background" data-action="light-background" data-action-group="schema" tabindex="-1">
+								<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M184 144c0 4.25-3.75 8-8 8s-8-3.75-8-8c0-17.25-26.75-24-40-24-4.25 0-8-3.75-8-8s3.75-8 8-8c23.25 0 56 12.25 56 40zM224 144c0-50-50.75-80-96-80s-96 30-96 80c0 16 6.5 32.75 17 45 4.75 5.5 10.25 10.75 15.25 16.5 17.75 21.25 32.75 46.25 35.25 74.5h57c2.5-28.25 17.5-53.25 35.25-74.5 5-5.75 10.5-11 15.25-16.5 10.5-12.25 17-29 17-45zM256 144c0 25.75-8.5 48-25.75 67s-40 45.75-42 72.5c7.25 4.25 11.75 12.25 11.75 20.5 0 6-2.25 11.75-6.25 16 4 4.25 6.25 10 6.25 16 0 8.25-4.25 15.75-11.25 20.25 2 3.5 3.25 7.75 3.25 11.75 0 16.25-12.75 24-27.25 24-6.5 14.5-21 24-36.75 24s-30.25-9.5-36.75-24c-14.5 0-27.25-7.75-27.25-24 0-4 1.25-8.25 3.25-11.75-7-4.5-11.25-12-11.25-20.25 0-6 2.25-11.75 6.25-16-4-4.25-6.25-10-6.25-16 0-8.25 4.5-16.25 11.75-20.5-2-26.75-24.75-53.5-42-72.5s-25.75-41.25-25.75-67c0-68 64.75-112 128-112s128 44 128 112z"></path></svg></span><span class="pojo-a11y-toolbar-text">Fondo claro</span>								</a>
+						</li>
+					
+												<li class="pojo-a11y-toolbar-item">
+							<a href="#" id="optionlinksunderline" class="pojo-a11y-toolbar-link pojo-a11y-btn-links-underline" data-action="links-underline" data-action-group="toggle" tabindex="-1">
+								<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M364 304c0-6.5-2.5-12.5-7-17l-52-52c-4.5-4.5-10.75-7-17-7-7.25 0-13 2.75-18 8 8.25 8.25 18 15.25 18 28 0 13.25-10.75 24-24 24-12.75 0-19.75-9.75-28-18-5.25 5-8.25 10.75-8.25 18.25 0 6.25 2.5 12.5 7 17l51.5 51.75c4.5 4.5 10.75 6.75 17 6.75s12.5-2.25 17-6.5l36.75-36.5c4.5-4.5 7-10.5 7-16.75zM188.25 127.75c0-6.25-2.5-12.5-7-17l-51.5-51.75c-4.5-4.5-10.75-7-17-7s-12.5 2.5-17 6.75l-36.75 36.5c-4.5 4.5-7 10.5-7 16.75 0 6.5 2.5 12.5 7 17l52 52c4.5 4.5 10.75 6.75 17 6.75 7.25 0 13-2.5 18-7.75-8.25-8.25-18-15.25-18-28 0-13.25 10.75-24 24-24 12.75 0 19.75 9.75 28 18 5.25-5 8.25-10.75 8.25-18.25zM412 304c0 19-7.75 37.5-21.25 50.75l-36.75 36.5c-13.5 13.5-31.75 20.75-50.75 20.75-19.25 0-37.5-7.5-51-21.25l-51.5-51.75c-13.5-13.5-20.75-31.75-20.75-50.75 0-19.75 8-38.5 22-52.25l-22-22c-13.75 14-32.25 22-52 22-19 0-37.5-7.5-51-21l-52-52c-13.75-13.75-21-31.75-21-51 0-19 7.75-37.5 21.25-50.75l36.75-36.5c13.5-13.5 31.75-20.75 50.75-20.75 19.25 0 37.5 7.5 51 21.25l51.5 51.75c13.5 13.5 20.75 31.75 20.75 50.75 0 19.75-8 38.5-22 52.25l22 22c13.75-14 32.25-22 52-22 19 0 37.5 7.5 51 21l52 52c13.75 13.75 21 31.75 21 51z"></path></svg></span><span class="pojo-a11y-toolbar-text">Subrayar enlaces</span>								</a>
+						</li>
+					
+												<li class="pojo-a11y-toolbar-item">
+							<a href="#" id="optionreadablefont" class="pojo-a11y-toolbar-link pojo-a11y-btn-readable-font" data-action="readable-font" data-action-group="toggle" tabindex="-1">
+								<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M181.25 139.75l-42.5 112.5c24.75 0.25 49.5 1 74.25 1 4.75 0 9.5-0.25 14.25-0.5-13-38-28.25-76.75-46-113zM0 416l0.5-19.75c23.5-7.25 49-2.25 59.5-29.25l59.25-154 70-181h32c1 1.75 2 3.5 2.75 5.25l51.25 120c18.75 44.25 36 89 55 133 11.25 26 20 52.75 32.5 78.25 1.75 4 5.25 11.5 8.75 14.25 8.25 6.5 31.25 8 43 12.5 0.75 4.75 1.5 9.5 1.5 14.25 0 2.25-0.25 4.25-0.25 6.5-31.75 0-63.5-4-95.25-4-32.75 0-65.5 2.75-98.25 3.75 0-6.5 0.25-13 1-19.5l32.75-7c6.75-1.5 20-3.25 20-12.5 0-9-32.25-83.25-36.25-93.5l-112.5-0.5c-6.5 14.5-31.75 80-31.75 89.5 0 19.25 36.75 20 51 22 0.25 4.75 0.25 9.5 0.25 14.5 0 2.25-0.25 4.5-0.5 6.75-29 0-58.25-5-87.25-5-3.5 0-8.5 1.5-12 2-15.75 2.75-31.25 3.5-47 3.5z"></path></svg></span><span class="pojo-a11y-toolbar-text">Fuente legible</span>								</a>
+						</li>
+																	<li class="pojo-a11y-toolbar-item">
+						<a href="#" id="optionreset" class="pojo-a11y-toolbar-link pojo-a11y-btn-reset" data-action="reset" tabindex="-1">
+							<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M384 224c0 105.75-86.25 192-192 192-57.25 0-111.25-25.25-147.75-69.25-2.5-3.25-2.25-8 0.5-10.75l34.25-34.5c1.75-1.5 4-2.25 6.25-2.25 2.25 0.25 4.5 1.25 5.75 3 24.5 31.75 61.25 49.75 101 49.75 70.5 0 128-57.5 128-128s-57.5-128-128-128c-32.75 0-63.75 12.5-87 34.25l34.25 34.5c4.75 4.5 6 11.5 3.5 17.25-2.5 6-8.25 10-14.75 10h-112c-8.75 0-16-7.25-16-16v-112c0-6.5 4-12.25 10-14.75 5.75-2.5 12.75-1.25 17.25 3.5l32.5 32.25c35.25-33.25 83-53 132.25-53 105.75 0 192 86.25 192 192z"></path></svg></span>
+							<span class="pojo-a11y-toolbar-text">Restablecer</span>
+						</a>
+					</li>
+				</ul>
+								</div>
+		</div>
+	</nav>
+
+ 
+
+<section>
+				<div class="g-brd-around  g-brd-1 g-brd-gray-light-v4-top g-brd-gray-light-v4-bottom g-color-white-opacity-0_9" role="alert" style="background-color: #F8F9FA;">
+					<div class="container">
+						<nav class="navbar navbar-expand-lg navbar-light g-pa-0 g-right-0 g-pt-4 g-pb-4" style="background-color: #F8F9FA">
+							<a class="navbar-brand g-color-morado g-font-weight-600 g-font-size-16 d-none d-sm-none d-md-none d-lg-none d-xl-block g-text-underline--hover g-font-secondary" href="../../conoce-chiapas">Conoce Chiapas</a>
+							<a class="navbar-brand g-color-morado g-font-weight-600 g-font-size-16 d-sm-block d-md-block d-lg-block d-xl-none g-text-underline--hover g-font-secondary" href="../../gobierno">Gobierno</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav ml-auto g-font-size-15 g-font-weight-100">
+									<li class="nav-item g-mx-5--lg"><a class="nav-link g-color-gray-dark-v1 g-color-white--hover g-bg-morado--hover g-rounded-3 " href="../../pueblos-magicos">Pueblos Mágicos</a></li>
+									<li class="nav-item g-mx-5--lg"><a class="nav-link g-color-gray-dark-v1 g-color-white--hover g-bg-morado--hover g-rounded-3 " href="../../museos">Museos</a></li>
+									<li class="nav-item g-mx-5--lg"><a class="nav-link g-color-gray-dark-v1 g-color-white--hover g-bg-morado--hover g-rounded-3 " href="http://www.conecultachiapas.gob.mx/carteleras/carteleraview/326" target="_blank">Cartelera Cultural</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>      
+				</div>
+			</section>
+			
+
+<section class="container g-pt-20">
+	<div class="row">
+			<div class="col-md-12">
+			
+			
+				<h1 class="d-block g-mb-3 g-font-size-18 g-color-primary g-font-weight-500 g-font-secondary">San Cristóbal de las Casas</h1>
+			</div>
+			<hr class="g-brd-gray-light-v4">
+	</div>
+	<div class="row">
+			<div class="col-md-12">
+			
+			<img class="img-fluid img-shadow" alt="SCDLC" src="../../media/conoce-chiapas/pueblos-magicos/scdlc.jpg">
+				
+			</div>
+			<hr class="g-brd-gray-light-v4">
+	</div>
+	
+	
+	<div class="row" id="museos">
+		
+		
+		
+		
+		<div class="col-md-12"><hr></div>
+		
+		
+		<div class="col-md-12 estilo">
+			
+			<p>
+			Ciudad colonial ubicada a 46 km por la autopista Tuxtla Gutiérrez – San Cristóbal de Las Casas. Como lo han dicho diversos visitantes, <b>San Cristóbal de Las Casas</b> es una de las ciudades más románticas del mundo, reconocida como <b>Pueblo Mágico</b>. Pueblo cuya riqueza radica en su <b>diversidad étnica y tradición colonial</b>, que muestra sus tesoros arquitectónicos en diversas edificaciones de los siglos XVI, XVII y XVIII.
+			</p>
+			<p>
+			Historia: El Valle de Jovel ofreció la situación ideal, el <b>clima templado</b> y la estratégica ubicación para que Diego de Mazariegos fundara en 1528 la Ciudad Real de Chiapa. En el actual centro histórico de San Cristóbal de Las Casas convergen tejados, patios floridos, balcones esquinados, fachadas barrocas, construcciones de estilo neoclásico y mudéjar, artesanía colorida, cocina exquisita, ceremonias y procesiones, fiestas populares y antiguas leyendas.
+			</p>
+			<p>
+			Su edificación siguió un proceso similar al de otras ciudades coloniales que se crearon en el territorio novohispano. En primer término se trazó la <b>plaza principal</b>, a cuyo entorno se designaron los lugares que ocuparían los principales edificios. Alrededor de su plaza se encuentran la catedral de fachada barroca al estilo centroamericano, el neoclásico Palacio municipal, los portales, la iglesia de San Nicolás, con el estilo que más identifica a la arquitectura religiosa colonial de Chiapas y la Casa de la Sirena con fachada de inspiración plateresca del siglo XVI. Especialmente interesante es el conjunto formado por el Convento dominico y el templo de La Caridad unidos con la Catedral y la Plaza 31 de marzo por el andador Eclesiastico norte, principal eje monumental de la ciudad.
+			</p>
+			<p>
+			<b>La iglesia de Santo Domingo</b> es obra cumbre del barroco centroamericano y mexicano, tanto por su fachada de argamasa como por el conjunto de retablos y púlpito dorados de su interior. La Caridad destaca por su suntuoso retablo barroco. Barrocos son también los retablos de San Francisco, mientras que El Carmen luce una torre mudéjar única en México. Muchos otros edificios de interés hay en esta ciudad que se caracteriza por poseer un cuantioso inventario de <b>casonas de estilo neoclásico</b>, inspiradas en el renacentista tratado de Vignola.
+			</p>
+			<p>
+			Desde la fundación, en la periferia del centro se asignaron los solares o terrenos para los españoles y al final se ubicaron los indígenas, entre los que se encontraban aquellos que prestaron algún servicio a los hispanos en la conquista de la región. Así se encuentran aún diseminados por la ciudad los barrios de Mexicanos, Tlaxcala y del Cerrillo. La visita a los barrios es una experiencia fascinante por la arquitectura tradicional, las fiestas, la artesanía y la gastronomía. Muchas puertas lucen lámparas de papel rojo que indica la venta de deliciosos tamales.
+			</p>
+			<p>
+			Hoy día la ciudad de San Cristóbal de Las Casas es <b>una de las más bellas y originales de México y Centroamérica</b>, por la evocadora imagen colonial que ha conservado en su centro histórico al paso de los siglos. Porque amén de ello, cuenta además con una tradicional vida cotidiana, con su mercado y su gente ahí llegan los tseltales y los tsotziles con sus coloridas vestimentas, provenientes de distintas comunidades a vender o intercambiar sus productos.
+			</p>
+			
+			<p class="p-info-contacto">
+				Módulo 201 de Información Ubicado en Parque Manuel Velasco Suárez
+				<br>
+				Teléfono: 967 67 86570
+				<br>
+				Página Web: http://www.turismochiapas.gob.mx
+				<br>
+				Correo: lflores@turismochiapas.gob.mx
+				<br>
+				Gerente y/o encargado: Maestra Liliana Flores Guillén<br>
+				Delegada Regional II Altos (Sede San Cristóbal)<br>
+				Secretaría de Turismo
+			</p>
+			
+
+		
+		</div>
+		<div class="col-md-12"><hr></div>
+		
+		<div class="row">
+			<div class="col-md-12">
+			
+			
+				<h2 class="d-block g-mb-3 g-font-size-18 g-color-primary g-font-weight-500 g-font-secondary">Lugares de interés que debes conocer</h2>
+			</div>
+			<hr class="g-brd-gray-light-v4">
+		</div>
+		
+	</div>
+
+     
+<div class="row">
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/arco-del-carmen.png" alt="Arco del Carmen">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-darkpurple rounded-0" href="http://www.turismochiapas.gob.mx/sectur/arco-del-carmen" target="_blank">Arco del Carmen</a>
+		  
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a href="http://www.turismochiapas.gob.mx/sectur/arco-del-carmen" target="_blank" class="u-link-v5 g-color-main g-color-primary--hover">Arco del Carmen</a>
+        </h5>
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/museo-del-ambar.png" alt="Museo del Ámbar">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-blue rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/museo-del-mbar">Museo del Ámbar</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/museo-del-mbar">Museo del Ámbar</a>
+        </h5>
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/centro-cultural-el-carmen.png" alt="Image Description">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-pink rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/centro-cultural-el-carmen">Centro Cultural El Carmen</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/centro-cultural-el-carmen">Centro Cultural El Carmen</a>
+        </h5>
+
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+  
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/plaza-santo-domingo.png" alt="Santo Domingo">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-indigo rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/mercado-artesanal-en-la-plaza-de-santo-domingo">Plazuela de Santo Domingo</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/mercado-artesanal-en-la-plaza-de-santo-domingo">Santo Domingo</a>
+        </h5>
+
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+
+
+</div>
+
+<div class="row">
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/andador-guadalupano.png" alt="Andador Guadalupano">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-teal rounded-0" href="http://www.turismochiapas.gob.mx/sectur/sitio-en-internet-de-marca-chiapas" target="_blank">Andador Guadalupano</a>
+		  
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a href="http://www.turismochiapas.gob.mx/sectur/sitio-en-internet-de-marca-chiapas" target="_blank" class="u-link-v5 g-color-main g-color-primary--hover">Andador Guadalupano</a>
+        </h5>
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/palacio-municipal.png" alt="Palacio Municipal">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-orange rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/palacio-municipal-">Palacio Municipal</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/palacio-municipal-">Palacio Municipal</a>
+        </h5>
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+
+    <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/museo-na-bolom.png" alt="Museo Na Bolom">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-indigo rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/museo-na-boolom">Museo Na Bolom</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/museo-na-boolom">Museo Na Bolom</a>
+        </h5>
+
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/el-arcotete.png" alt="El Arcotete">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-red rounded-0" href="http://www.turismochiapas.gob.mx/sectur/el-arcotete" target="_blank">El Arcotete</a>
+		  
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a href="http://www.turismochiapas.gob.mx/sectur/el-arcotete" target="_blank" class="u-link-v5 g-color-main g-color-primary--hover">El Arcotete</a>
+        </h5>
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+  
+  
+
+
+</div>
+
+
+<div class="row">
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/museo-culturas-populares.png" alt="Museo de las Culturas Populares">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-darkpurple rounded-0" href="http://www.turismochiapas.gob.mx/sectur/museo-de-las-culturas-populares" target="_blank">Museo de las Culturas Populares</a>
+		  
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a href="http://www.turismochiapas.gob.mx/sectur/museo-de-las-culturas-populares" target="_blank" class="u-link-v5 g-color-main g-color-primary--hover">Museo de las Culturas Populares</a>
+        </h5>
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/catedral-san-cristobal-martir.png" alt="Catedral de San Cristóbal Mártir">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-blue rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/catedral-de-san-cristbal-mrtir">Catedral de San Cristóbal Mártir</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/catedral-de-san-cristbal-mrtir">Catedral de San Cristóbal Mártir</a>
+        </h5>
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+
+    <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/museo-de-la-medicina-maya.png" alt="Museo de la Medicina Maya">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-cyan rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/museo-de-la-medicina-maya">Museo de la Medicina Maya</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/museo-de-la-medicina-maya">Museo de la Medicina Maya</a>
+        </h5>
+
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+  
+ <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/plaza-santo-domingo.png" alt="Santo Domingo">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-pink rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/mercado-artesanal-en-la-plaza-de-santo-domingo">Plazuela de Santo Domingo</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/mercado-artesanal-en-la-plaza-de-santo-domingo">Plazuela de Santo Domingo</a>
+        </h5>
+
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+
+
+</div>		
+		
+
+<div class="row">
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/grutas-de-rancho-nuevo.png" alt="Grutas de Rancho Nuevo">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-teal rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/grutas-de-rancho-nuevo-">Grutas de Rancho Nuevo</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/grutas-de-rancho-nuevo-">Grutas de Rancho Nuevo</a>
+        </h5>
+
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/andador-eclesiastico.png" alt="Andador Eclesiástico">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-darkpurple rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/andadores-tursticos-de-san-cristbal-de-las-casas">Andador Eclesiástico</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/andadores-tursticos-de-san-cristbal-de-las-casas">Andador Eclesiástico</a>
+        </h5>
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+
+    <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/templo-exconvento-santo-domingo.png" alt="Exconvento">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-red rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/templo-y-exconvento-de-santo-domingo-de-guzmn">Templo y Exconvento</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/templo-y-exconvento-de-santo-domingo-de-guzmn">Santo Domingo de Guzmán</a>
+        </h5>
+
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+
+  <div class="col-lg-3 g-mb-30">
+    <!-- Article -->
+    <article class="u-shadow-v1-3">
+      <figure class="g-pos-rel">
+        <img class="img-fluid w-100" src="../../media/conoce-chiapas/conoce/san-cristobal-de-las-casas/parque-centreal-manuel-velasco-suarez.png" alt="Parque Central">
+
+        <figcaption class="g-pos-abs g-top-20 g-left-20">
+          <a class="btn btn-sm u-btn-indigo rounded-0" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/plaza-manuel-velasco-surez-">Parque Central</a>
+        </figcaption>
+      </figure>
+
+      <div class="g-pa-20">
+        <h5 class="g-font-weight-300 g-mb-15">
+          <a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="http://www.turismochiapas.gob.mx/sectur/plaza-manuel-velasco-surez-">Parque Central Manuel Velasco Suárez</a>
+        </h5>
+
+      </div>
+    </article>
+    <!-- End Article -->
+  </div>
+  
+
+
+</div>
+					
+	
+	<div class="row fuente">
+		<div class="col-md-3 div-fuente"> <h5> Fuente:</h5> </div>
+		<div class="col-md-9 div-dato"><p>Secretaría de Turismo</p></div>
+	</div>
+	<div class="row" style="margin-bottom:5px;"></div>
+	<div class="row actualizacion">
+		<div class="col-md-3 div-fuente"><h5> Actualizado al: </h5> </div>
+		<div class="col-md-9 div-dato"> <p>Sabado, 21 de Noviembre de 2026</p></div>
+	</div>
+	
+
+</section>
+
+
+<br><br>
+<style type="text/css">
+	ul.ul-no-icon li{
+		list-style-type: none;
+	}
+	.cf-marron{
+		color:#621132 !important;
+	}
+	.mr-7{
+		margin-right: 7px;
+	}
+	.btn-default {
+		background-color: #eee;
+	}
+	.estilo{
+		font-size: 15px;
+		text-align: justify;
+	}
+	.g-color-main{
+		font-weight: 500;
+	}
+	
+</style>
+			<div class="g-bg-black-opacity-0_8 g-color-white-opacity-0_8 g-py-20">
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg d-none d-sm-none d-md-none d-lg-block d-xl-block">
+							<img class="img-fluid" src="https://chiapas.gob.mx/media/logo/gobierno-v2.png" alt="Logo">
+							<!--<p class="g-py-20 g-font-size-13 g-font-weight-100">Gobierno del Estado de Chiapas<br>Administración 2024-2030</p>-->
+						</div>
+		
+
+						<div class="col-lg-2 col-md-6 g-mb-40 g-mb-0--lg d-none d-sm-none d-md-none d-lg-block d-xl-block">
+							<div class="u-heading-v3-1 g-brd-white-opacity-0_3 g-mb-25">
+								<h2 class="u-heading-v3__title h6 g-brd-primary g-font-size-14 g-color-white g-font-weight-400">Servicios en línea</h2>
+							</div>
+							<nav class="text-uppercase1">
+                <ul class="list-unstyled g-mt-minus-10 mb-0">
+                  <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3">
+                    <h4 class="h6 g-pr-20 mb-0"><a class="g-color-white-opacity-0_8 g-color-white--hover"
+                        href="https://chiapas.gob.mx/servicios-por-internet/#nav-1-1-personal">Personales</a><i
+                        class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></h4>
+                  </li>
+                  <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3">
+                    <h4 class="h6 g-pr-20 mb-0"><a class="g-color-white-opacity-0_8 g-color-white--hover"
+                        href="https://chiapas.gob.mx/servicios-por-internet/#nav-1-1-vehicular">Vehicular</a><i
+                        class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></h4>
+                  </li>
+                  <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3">
+                    <h4 class="h6 g-pr-20 mb-0"><a class="g-color-white-opacity-0_8 g-color-white--hover"
+                        href="https://chiapas.gob.mx/servicios-por-internet/#nav-1-1-inmuebles">Inmuebles</a><i
+                        class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></h4>
+                  </li>
+                  <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3">
+                    <h4 class="h6 g-pr-20 mb-0"><a class="g-color-white-opacity-0_8 g-color-white--hover"
+                        href="https://chiapas.gob.mx/servicios-por-internet/#nav-1-1-empresarial">Empresas</a><i
+                        class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></h4>
+                  </li>
+                  <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3">
+                    <h4 class="h6 g-pr-20 mb-0"><a class="g-color-white-opacity-0_8 g-color-white--hover"
+                        href="https://chiapas.gob.mx/servicios-pago-de-derechos/">Pago de Derechos</a><i
+                        class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></h4>
+                  </li>
+                </ul>
+              </nav>						</div>
+		
+						<div class="col-lg-2 col-md-6 g-mb-40 g-mb-0--lg d-none d-sm-none d-md-none d-lg-block d-xl-block">
+							<div class="u-heading-v3-1 g-brd-white-opacity-0_3 g-mb-25">
+								<h2 class="u-heading-v3__title h6 g-brd-primary">Recursos</h2>
+							</div>
+		
+							<nav class="text-uppercase1">
+								<ul class="list-unstyled g-mt-minus-10 mb-0">
+									<!-- <li class="nav-item g-mx-5--lg"><a target="_blank" class="nav-link g-color-gray-dark-v1 g-color-white--hover g-bg-morado--hover g-rounded-3 " href="https://chiapas.gob.mx/funcionarios">Directorio de Funcionarios</a></li> -->
+									<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3"><h4 class="h6 g-pr-20 mb-0"><a target="_blank" class="g-color-white-opacity-0_8 g-color-white--hover" href="https://chiapas.gob.mx/funcionarios">Directorio de Funcionarios</a><i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></h4></li>
+
+									<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3"><h4 class="h6 g-pr-20 mb-0"><a target="_blank" class="g-color-white-opacity-0_8 g-color-white--hover" href="https://chiapas.gob.mx/acerca">Acerca del Portal</a><i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></h4></li>
+									<!--<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3"><h4 class="h6 g-pr-20 mb-0"><a target="_blank" class="g-color-white-opacity-0_8 g-color-white--hover" href="https://chiapas.gob.mx/webmaster">Webmaster</a><i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></h4></li>-->
+
+									<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3"><h4 class="h6 g-pr-20 mb-0"><a target="_blank" class="g-color-white-opacity-0_8 g-color-white--hover" href="https://chiapas.gob.mx/privacidad">Avisos de Privacidad</a><i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></h4></li>
+
+									<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3"><h4 class="h6 g-pr-20 mb-0"><a target="_blank" class="g-color-white-opacity-0_8 g-color-white--hover" href="https://chiapas.gob.mx/contacto">Contáctanos</a><i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></h4></li>
+									<!--<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3"><h4 class="h6 g-pr-20 mb-0"><a target="_blank" class="g-color-white-opacity-0_8 g-color-white--hover" href="https://chiapas.gob.mx/informate">Mantente informado</a><i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></h4></li>-->
+								</ul>
+							</nav>
+						</div>
+						<div class="col-lg-2 col-md-6 g-mb-40 g-mb-0--lg d-none d-sm-none d-md-none d-lg-block d-xl-block">					
+							<div class="u-heading-v3-1 g-brd-white-opacity-0_3 g-mb-25">
+								<h2 class="u-heading-v3__title h6 g-brd-primary">Transparencia</h2>
+							</div>
+							<nav class="text-uppercase1">							
+					             <ul class="list-unstyled g-mt-minus-10 mb-0">
+						             <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3"><a target="_blank" href="http://www.transparencia.haciendachiapas.gob.mx/" class="g-color-white-opacity-0_8 g-color-white--hover"> Transparencia Fiscal</a><i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></li>
+						             <!-- <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3"><a href="http://www.haciendachiapas.gob.mx/marco-juridico/Estatal/informacion/Leyes/LI2022.pdf" class="g-color-white-opacity-0_8 g-color-white--hover">Ley de Ingresos 2022</a><i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></li> -->
+						             <!-- <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3"><a href="http://www.haciendachiapas.gob.mx/marco-juridico/Estatal/informacion/Decretos/decreto22.pdf" class="g-color-white-opacity-0_8 g-color-white--hover">Presupuesto de Egresos 2022</a><i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></li> -->
+									 <!--
+									 <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3"><a href="http://www.haciendachiapas.gob.mx/marco-juridico/Estatal/informacion/Leyes/LI2021.pdf" class="g-color-white-opacity-0_8 g-color-white--hover">Ley de Ingresos 2021 </a><i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></li>
+						             <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-3"><a href="http://www.haciendachiapas.gob.mx/marco-juridico/Estatal/informacion/Decretos/decreto21.pdf" class="g-color-white-opacity-0_8 g-color-white--hover">Presupuesto de Egresos 2021</a><i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i></li>
+			                         -->
+					             </ul>
+					          
+						</div>	
+
+						<div class="col-lg-3 col-md-6 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+							<div class="u-heading-v3-1 g-brd-white-opacity-0_3 g-mb-25">
+								<h2 class="u-heading-v3__title h6 g-brd-primary g-font-size-14 g-color-white g-font-weight-400">Contáctanos</h2>
+							</div>
+<!--style="background-image: url(../../../assets/img/maps/map2.png);"
+-->
+							<address class="g-bg-no-repeat g-line-height-2 g-mt-minus-4" >
+								Gobierno del Estado de Chiapas<br>Administración 2024-2030<br>Tuxtla Gutiérrez, Chiapas<br>Conmutador: 961 69 140 20 Ext 67000
+							</address>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+			<footer class="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 g-py-20">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 text-center text-md-left g-mb-15 g-mb-0--md">
+							<div class="d-lg-flex">
+								<small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">Gobierno del Estado de Chiapas</small>
+							</div>
+						</div>
+			
+						<div class="col-md-4 align-self-center">
+							<ul class="list-inline text-center text-md-right mb-0">
+								<li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Facebook"><a target="_blank" href="https://www.facebook.com/gobiernodechiapas" class="g-color-white-opacity-0_5 g-color-white--hover"><i class="fa fa-facebook"></i></a></li>							
+								<li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="X"><a target="_blank" href="https://x.com/ChiapasGobierno" class="g-color-white-opacity-0_5 g-color-white--hover"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+        
+		
+				<!-- JS Global Compulsory -->
+				<script src="https://chiapas.gob.mx/assets/vendor/jquery/jquery.min.js"></script>
+				<script src="https://chiapas.gob.mx/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+				<script src="https://chiapas.gob.mx/assets/vendor/popper.js/popper.min.js"></script>
+				<script src="https://chiapas.gob.mx/assets/vendor/bootstrap/bootstrap.min.js"></script>
+				
+				<!-- JS Implementing Plugins -->
+				<script src="https://chiapas.gob.mx/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+				<script src="https://chiapas.gob.mx/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+				<script src="https://chiapas.gob.mx/assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
+				<script src="https://chiapas.gob.mx/assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
+				<script src="https://chiapas.gob.mx/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+				<script src="https://chiapas.gob.mx/assets/vendor/slick-carousel/slick/slick.js"></script>
+				
+				<!-- JS Unify -->
+				<script src="https://chiapas.gob.mx/assets/js/hs.core.js"></script>
+				<script src="https://chiapas.gob.mx/assets/vendor/typedjs/typed.min.js"></script>
+				<script src="https://chiapas.gob.mx/assets/js/components/hs.header.js"></script>
+				<script src="https://chiapas.gob.mx/assets/js/helpers/hs.hamburgers.js"></script>
+				<script src="https://chiapas.gob.mx/assets/js/components/hs.dropdown.js"></script>
+				<script src="https://chiapas.gob.mx/assets/js/components/hs.popup.js"></script>
+				<script src="https://chiapas.gob.mx/assets/js/components/hs.carousel.js"></script>
+				<script src="https://chiapas.gob.mx/assets/js/components/hs.go-to.js"></script>
+
+		
+				<!--<script src="https://chiapas.gob.mx/assets/portfilter.js"></script>-->
+				
+				
+				<!-- JS Customization -->
+				<script src="https://chiapas.gob.mx/assets/js/custom.js"></script>
+				
+				<!-- JS Plugins Init. -->
+				<script>
+				  $(document).on('ready', function () {
+				    // initialization of header
+				    $.HSCore.components.HSHeader.init($('#js-header'));
+				    $.HSCore.helpers.HSHamburgers.init('.hamburger');
+				
+				    // initialization of HSMegaMenu component
+				    $('.js-mega-menu').HSMegaMenu({
+				      event: 'hover',
+				      pageContainer: $('.container'),
+				      breakpoint: 991
+				    });
+				
+				    // initialization of HSDropdown component
+				    $.HSCore.components.HSDropdown.init($('[data-dropdown-target]'), {
+				      afterOpen: function () {
+				        $(this).find('input[type="search"]').focus();
+				      }
+				    });
+				
+				    // initialization of popups
+				    $.HSCore.components.HSPopup.init('.js-fancybox');
+				
+				    // initialization of carousel
+				    $.HSCore.components.HSCarousel.init('.js-carousel');
+
+				 //modal para notificaciones
+			         $('#ventanaNotificaciones').modal('show');
+				    
+				    // initialization of text animation (typing)
+					$(".u-text-animation.u-text-animation--typing").typed({
+					  strings: [
+					    "aprender ciencia",
+					    "divertido aprender",
+					    "descubrir la ciencia y tecnología"
+					  ],
+					  typeSpeed: 60,
+					  loop: true,
+					  backDelay: 1500
+					});
+				    
+				
+				    // initialization of go to
+				    $.HSCore.components.HSGoTo.init('.js-go-to');
+				  });
+				</script>				
+<script>
+	var flag=0;
+		var flag2=0;
+		
+		$( "#optiongrayscale" ).on( "click", function() {
+			var body = document.body;
+					body.classList.add("pojo-a11y-grayscale");
+					
+		});
+		$( "#optionresizeplus" ).on( "click", function() {
+			var body = document.body;
+					body.classList.add("pojo-a11y-resize-font-160");
+					
+		});
+		$( "#optionresizeminus" ).on( "click", function() {
+			var body = document.body;
+					body.classList.add("pojo-a11y-resize-font-130");
+				
+		});
+		$( "#optionhighcontrast" ).on( "click", function() {
+			var body = document.body;
+					body.classList.add("pojo-a11y-high-contrast");
+					
+		});
+		$( "#optionlinksunderline" ).on( "click", function() {
+			var body = document.body;
+					body.classList.add("pojo-a11y-links-underline");
+					
+		});
+		$( "#optionnegativecontrast" ).on( "click", function() {
+			var body = document.body;
+					body.classList.add("pojo-a11y-negative-contrast");
+					
+		});
+		$( "#optionlightbg" ).on( "click", function() {
+			var body = document.body;
+					body.classList.add("pojo-a11y-light-background");
+					
+		});
+		$( "#optionreadablefont" ).on( "click", function() {
+			var body = document.body;
+					body.classList.add("pojo-a11y-readable-font");
+					
+		});
+		$( "#optionreset" ).on( "click", function() {
+			document.body.className = document.body.className.replace("pojo-a11y-grayscale","");
+			document.body.className = document.body.className.replace("pojo-a11y-resize-font-130","");
+			document.body.className = document.body.className.replace("pojo-a11y-resize-font-160","");
+			document.body.className = document.body.className.replace("pojo-a11y-resize-font-100","");
+			document.body.className = document.body.className.replace("pojo-a11y-high-contrast","");
+			document.body.className = document.body.className.replace("pojo-a11y-links-underline","");
+			document.body.className = document.body.className.replace("pojo-a11y-negative-contrast","");
+			document.body.className = document.body.className.replace("pojo-a11y-light-background","");
+			document.body.className = document.body.className.replace("pojo-a11y-readable-font","");
+					
+		});
+		
+		
+		$( "#pojo-a11y-toolbar" ).on( "click", function() {
+			//<!--modificamos fuente, escala de grises-->
+			switch (flag) {
+			  case 0:
+				document.getElementById("pojo-a11y-toolbar").className += " pojo-a11y-toolbar-open";
+						flag=10;
+						flag2=10;
+				break;
+			 
+				 case 10:
+				var element = document.getElementById("pojo-a11y-toolbar");
+							element.classList.remove("pojo-a11y-toolbar-open");
+							flag=0;
+				break;
+			}
+			  console.log( $( this ).text() );
+		});
+		
+		//<!--abrimos y cerramos ventana de accesibilidad-->
+		$( "#pojo-a11y-toolbar-" ).on( "click", function() {
+			
+			if (flag==1) 
+			{
+				document.getElementById("pojo-a11y-toolbar").className += " pojo-a11y-toolbar-open";
+				flag=0;
+			}
+				else
+				{
+					var element = document.getElementById("pojo-a11y-toolbar");
+					element.classList.remove("pojo-a11y-toolbar-open");
+					flag=1;
+				}
+		  console.log( $( this ).text() );
+		});
+	
+	</script>
+				
+			</body>
+		</html>
+		

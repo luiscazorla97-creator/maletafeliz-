@@ -1,0 +1,39 @@
+{
+  "id": "m21-ro-transport",
+  "url": "https://www.rotterdam.info/nl/visit/goed-om-te-weten/openbaar-vervoer-in-rotterdam",
+  "fetchedAt": "2026-11-22T00:52:00.242Z",
+  "facts": [
+    {
+      "fact": "RET provides public metro/tram/bus connections; current detailed routes should be checked with the operator.",
+      "excerpt": "Rotterdam beschikt over een uitstekend openbaar vervoersnetwerk, verzorgd door de RET.",
+      "location": "Complete captured text, normalized-whitespace characters 945–1031"
+    },
+    {
+      "fact": "OVpay contactless payment is an available option, not a guaranteed cheapest pass.",
+      "excerpt": "Je betaalt contactloos met je betaalpas, creditcard of mobiele telefoon via OVpay",
+      "location": "Complete captured text, normalized-whitespace characters 2505–2586"
+    },
+    {
+      "fact": "Water transport operators and conditions are separate; officialinformation describes a water-taxi reservation system.",
+      "excerpt": "Via de app, website of per telefoon kun je een reservering maken.",
+      "location": "Complete captured text, normalized-whitespace characters 5076–5141"
+    },
+    {
+      "fact": "Official routing information explicitly includes diversions and roadworks, supporting checks before departure.",
+      "excerpt": "Op deze pagina word je ook op de hoogte gehouden over omleidingen en werkzaamheden in het Rotterdamse verkeer.",
+      "location": "Complete captured text, normalized-whitespace characters 7800–7910"
+    }
+  ],
+  "actuallyRead": true,
+  "finalUrl": "https://www.rotterdam.info/nl/visit/goed-om-te-weten/openbaar-vervoer-in-rotterdam",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "retryAfter": null,
+  "contentSha256": "35cd806c8371da9559df227b6dd821b8153d84400377b3852d5d795bb2996c33",
+  "bytes": 78760,
+  "textSha256": "1565ab639d1a87fb1497ba4c56570e91d1f0f22b49c8314649187f2382b590a3",
+  "readAt": "2026-11-22T01:03:24.305406+00:00",
+  "readScope": "Substantive destination, admission, access or transport context actually read; source fetch alone was not treated as consultation. No volatile tariffs or schedules asserted in article.",
+  "rawFile": "content/research/raw/m21-ro-transport.raw",
+  "textFile": "content/research/raw/m21-ro-transport.txt"
+}

@@ -1,0 +1,213 @@
+ <!doctype html>
+<html class="no-js" lang="it">
+
+<head>
+  <script>
+    function consentGranted(state) {
+      gtag('consent', 'update', {
+        'ad_storage': state ? 'granted' : "denied",
+        'analytics_storage': state ? 'granted' : "denied"
+      });
+      document.cookie = "stats="+(state ? 1 : 0)+";path=/;max-age=31536000;samesite=strict"
+      showGrantPanel(false);
+    }
+    function showGrantPanel(state) {
+      const p = document.getElementById('consent_panel');
+      if (p) {
+        p.style.display = state ? 'block' : 'none';
+      }
+    }
+
+    // Initialize the data layer for Google Tag Manager (this should mandatorily be done before the Cookie Solution is loaded)
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    // Default consent mode is "denied" for both ads and analytics, but delay for 2 seconds until the Cookie Solution is loaded
+    gtag("consent", "default", {
+      ad_storage: "denied",
+      analytics_storage: "denied",
+      wait_for_update: 2000 // milliseconds
+    });
+  </script>
+      <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5RLNSVS');</script>
+    <!-- End Google Tag Manager -->
+    <base href="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta charset="utf-8">
+  <title>Chiesa di Santa Corona - Mostre in Basilica Palladiana Vicenza</title>
+  <meta name="title" content="Chiesa di Santa Corona – Mostre in Basilica Palladiana Vicenza">
+  <meta name="canonical" content="/it/musei/chiesa-di-santa-corona">
+  <link rel="alternate" href="../../en/https:/www.comune.vicenza.it/cittadino/scheda.php/42724,177967.html" hreflang="en" />
+  <meta name="description" content="Situata nel cuore della città la chiesa di Santa Corona è uno dei luoghi simbolo di Vicenza.">
+  <meta name="keywords" content="mostra Basilica palladiana, Vicenza, Leonardo da Vinci, Jacopo Bassano, Gianandrea Gazzola">
+
+  <link rel="manifest" href="../../site.webmanifest.html">
+  <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/main.css%3Fv=13.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
+  <meta property="og:title" content="Leonardo da Vinci, Jacopo Bassano, Gianandrea Gazzola. Tre capolavori a Vicenza.">
+  <meta property="og:description" content="Leonardo da Vinci, Jacopo Bassano, Gianandrea Gazzola. Tre capolavori a Vicenza, Vicenza, 6 dicembre 2024 - 9 marzo 2025." />
+  <meta property="og:url" content="/it/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/img/banner_gazzola.jpg" />
+  <meta property="og:image:width" content="2560" />
+  <meta property="og:image:height" content="1000" />
+  </head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security. Use a modern version of Mozilla Firefox, Google Chrome or Internet Explorer 10.</p>
+    <p><a href="/tickets">Acquista ora!</a></p>
+  <![endif]-->
+
+    <div id="head">
+      <div class="container">
+    <div class="row no-gutters">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-4 home-logo text-center text-md-left mt-1 mt-sm-0 mb-1 mb-sm-1">
+            <a href="../../index.html"><img srcset="../../img/logo.png%3Fv=3 1x, ../../img/logo@2x.png%3Fv=3 2x" src="../../img/logo.png%3Fv=3" width="203" height="70" alt="logo" title="Home." class="img-fluid" draggable="false" /></a>
+        </div>
+        <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 home-logo text-center text-md-left">
+        </div>
+        <div class="col-6 mt-3 mt-md-1 offset-sm-0 col-sm-6 offset-md-2 col-md-4 mt-md-0 offset-lg-0 col-lg-2 col-xl-2">
+            <div class="biglietteria mr-1">            </div>
+        </div>
+
+        <div class="col-6 mt-3 mt-md-1 col-sm-6 col-md-4 mt-md-0 col-lg-2 col-xl-2">
+            <div class="biglietteria ml-1">            </div>
+        </div>
+
+        <div class="col-12 mt-3 mt-md-1 col-sm-6 col-md-2 col-lg-1 col-xl-1" style="text-align: right">
+            <a href="https://www.facebook.com/MostreinBasilicaPalladiana/" class="facebook" target="_blank" rel="noopener noreferrer">facebook</a>
+            <a href="https://www.instagram.com/mostreinbasilica/?igshid=n3330c98l0dq" class="instagram" target="_blank" rel="noopener noreferrer">instagram</a>
+            <!--<a href="https://www.youtube.com/channel/UCxw02uV4AHePG0mpPsU0F1w?view_as=subscriber" class="youtube" target="_blank" rel="noopener noreferrer">youtube</a>-->
+        </div>
+    </div>
+
+    <div class="row no-gutters" id="menu">
+        <div class="col-6 col-sm-6             offset-md-2 col-md-1 offset-lg-3 col-lg-1"><ul><li><a href="../mostre/in-corso.html">La mostra</a></li></ul></div>
+        <div class="col-6 col-sm-6             col-md-3            col-lg-2"><ul><li><a href="../info.html">Organizza la tua visita</a></li></ul></div>
+        <div class="col-6 col-sm-6           col-md-1             col-lg-1"><ul><li><a href="../eventi.html">Eventi</a></li></ul></div>                <div class="col-6 col-sm-6           col-md-1             col-lg-1"><ul><li><a href="../didattica.html">Didattica</a></li></ul></div>                <div class="col-6 col-sm-6           col-md-1             col-lg-1"><ul><li class="active"><a href="../vicenza.html">Scopri la città</a></li></ul></div>        <div class="col-6 col-sm-6           col-md-1             col-lg-1"><ul><li><a href="../partners.html">Partners</a></li></ul></div>                <div class="col-6 col-sm-6           col-md-1             col-lg-1"><ul><li><a href="../archivio.html">Archivio</a></li></ul></div>        <div class="col-12 col-sm-12            col-md-1           col-lg-1"><ul><li><a href="../../en/index.html">Eng</a></li></ul></div>
+    </div>
+</div>
+    </div>
+
+
+    <div id="body" style="background-color: #d7d7d7;background-image: url('/img/backgrounds/background_city.jpg');" class="single-page">
+          <article>
+<div class="container"><div class="row no-gutters page-space">&nbsp;<br /></div></div><div class="container sticky-md" id="page_bar">
+    <div class="row no-gutters text">
+        <div class="p-md-3 p-lg-0 offset-3 col-6 offset-md-0 col-md-2 offset-lg-1 col-lg-2">
+            <nav class="page-menu-container">
+            <ul class='page-menu'>    <li><a href="../vicenza.html" target="_self">  La città</a></li>
+<li><ul>    <li><a href="../chi-siamo.html">  Vicenza si mostra</a></li>
+    <li><a href="../circuito-museale.html">  circuito museale</a></li>
+    <li class="current-page"><a href="../musei.html">  undici musei</a></li>
+<li><ul></ul></li>    <li><a href="../monumenti.html">  altri capolavori</a></li>
+<li><ul></ul></li>    <li><a href="../itinerari.html">  itinerari in città</a></li>
+    <li><a href="https://eventi.comune.vicenza.it/" target="_blank" rel="noopener noreferrer">  eventi a Vicenza</a></li>
+    <li><a href="http://vitourism.it/" target="_blank" rel="noopener noreferrer">  turismo, ristoratori, negozi</a></li>
+</ul></li></ul>
+            </nav>
+        </div>
+    </div>
+</div><div class="container">
+    <div class="row no-gutters text">
+        <div class="p-3 p-lg-0 col-12 offset-md-2 col-md-9 offset-lg-3 col-lg-8">
+        <p class="fake-h1">Undici musei aperti per voi</p>
+        </div>
+    </div>
+</div><div class="container">
+    <div class="row no-gutters text">
+        <div class="p-3 p-lg-0 col-12 offset-md-2 col-md-9 offset-lg-3 col-lg-8">
+        <h1>Chiesa di Santa Corona</h1>
+<p class="small">Contra’ Santa Corona, 2<br />T. +39 0444 222811</p>
+<div class="row mceNonEditable">
+<div class="col-12"><img src="../../data/images/chiesa-scorona-5d838d118e2f7.jpeg" class="img-fluid mceEditable" />
+<p class="mceEditable image-legend"></p>
+</div>
+</div>
+<p>Situata nel cuore della città la chiesa di Santa Corona è uno dei luoghi simbolo di Vicenza. Edificata dai Domenicani a partire dal 1261, la chiesa doveva custodire la reliquia della sacra spina, donata dal re di Francia, Luigi IX al vescovo di Vicenza, Beato Bartolomeo da Breganze. Al suo interno sono ospitate importanti opere d’arte. Tra queste, il capolavoro di Giovanni Bellini <i>Il Battesimo di Cristo</i>, l’<i>Adorazione dei Magi</i> di Paolo Veronese e la grande pala della <i>Maddalena e Santi</i> di Bartolomeo Montagna. Nella Cappella Thiene si possono ammirare gli affreschi di Michelino da Besozzo, importante testimonianza del più aggiornato gotico internazionale.</p>
+<div class="text-right mceNonEditable"><br />
+<div class="btn_detail mceNonEditable"><a href="https://www.museicivicivicenza.it/it/csc/chiesa-santa-corona.php" target="_blank" class="mceEditable" rel="noopener">Scopri di più</a></div>
+</div>
+<p><a href="../musei.html">» Torna alla lista dei musei</a></p>        </div>
+    </div>
+</div><div class="container"><div class="row no-gutters page-space">&nbsp;<br /></div></div></article>
+
+    </div>
+
+    <div id="foot">
+      <footer class="container">
+    <div class="row">
+        <div class="col-12 col-md-4 col-lg-4">
+            <a href="https://www.comune.vicenza.it/" target="_blank" rel="noopener noreferrer"><img srcset="../../img/logo_vi.png%3F1 1x, ../../img/logo_vi@2x.png%3F1 2x" src="../../img/logo_vi.png%3F1" width="122" height="70" alt="Comune di Vicenza" class="img-fluid" draggable="false" /></a>
+            <a href="https://www.museicivicivicenza.it/" target="_blank" rel="noopener noreferrer"><img srcset="../../img/logo/museivi_w.png 1x, ../../img/logo/museivi_w@2x.png 2x" src="../../img/logo/museivi_w.png" width="88" height="60" alt="Musei Civici di Vicenza" class="img-fluid ml-lg-2 ml-md-0 ml-2" draggable="false" /></a>
+        </div>
+        <div class="col-12 col-md-2 col-lg-2">
+            <ul>
+                <li>
+                    <ul>
+                        <li><a href="../tickets.html">Orari e biglietti</a></li>
+                        <li><a href="../visite.html">Visite guidate</a></li>
+                        <li><a href="../info.html">Informazioni</a></li>
+                        <li><a href="../info/come-arrivare.html">Come arrivare</a></li>
+                        <li><a href="../vicenza.html">Scopri la città</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2 mt-2 mt-md-0">
+            <ul>
+                <li>
+                    <ul>
+                        <li><a href="../regolamento.html">Regolamento</a></li>
+                        <li><a href="../privacy.html">Informativa privacy</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2 mt-2 mt-md-0">
+            <ul>
+                <li>
+                    <ul>
+                        <li>Basilica Palladiana<br />
+                            Piazza dei Signori<br />
+                            36100, Vicenza<br />
+                            Tel 0444&nbsp;222855</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-2 col-lg-2 mt-2 mt-md-0">
+            <ul>
+                <li>
+                    <ul>
+                        <li><a href="https://www.facebook.com/MostreinBasilicaPalladiana/" target="_blank" rel="noopener noreferrer" class="facebook w">Facebook</a> <a href="https://www.instagram.com/mostreinbasilica/?igshid=n3330c98l0dq" target="_blank" rel="noopener noreferrer" class="instagram w">Instagram</a> <!--<a href="https://www.youtube.com/channel/UCxw02uV4AHePG0mpPsU0F1w?view_as=subscriber" target="_blank" rel="noopener noreferrer" class="youtube w">Youtube</a>--></li>
+                                            </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <script src="../../js/vendor/modernizr.js"></script>
+        <script src="../../js/main.js"></script>
+
+</body>
+</html>

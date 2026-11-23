@@ -1,0 +1,40 @@
+{
+  "reviewer": "Codex /root — author and subsequent editorial review",
+  "reviewedAt": "2026-11-23T17:31:53.369Z",
+  "contentHash": "4fa8a8af253847b750525bd08935cfc877fd6aa17976d4634cafa591ac0bffa9",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "reviewEvidence": [
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n23/root-editorial-decision.json",
+      "sha256": "40926a314f12679748093d4c2da0e3890a0d6099c5eddf569fd7d08a4c3b8bbe"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n23/root-photo-integrity.json",
+      "sha256": "75ea47381f14bbac98ca3c36a6296071442c1bf4e93e0952894278b7e276c1aa"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n23/root-originality-review.json",
+      "sha256": "54fcbdd16b539fae2b92c294ec0a0f26ddd14ad8ad155cc6a8478021da4e8926"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n23/root-final-editorial-curation.json",
+      "sha256": "46abd9440f9c274bd75ce76eba1de1c218872ab422dfcfc3bcfccca41c8e535a"
+    }
+  ],
+  "notes": [
+    "Authored and subsequently reviewed by Codex /root; no independent peer review claimed.",
+    "Release-selection approval only. Native build, exact-source GitHub CI, both Cloudflare commits and public URLs remain to be verified.",
+    "No paid AI APIs, generated documentary images, prices/search volumes/ranking/indexing claims, messages to third parties or scheduling changes.",
+    "Selection for release compilation. Public deployment, indexing and ranking are not yet claimed."
+  ]
+}

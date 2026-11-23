@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+	    <script>
+        (function (exports, d) {
+            var _isReady = false,
+                _event,
+                _fns = [];
+
+            function onReady(event) {
+                d.removeEventListener("DOMContentLoaded", onReady);
+                _isReady = true;
+                _event = event;
+                _fns.forEach(function (_fn) {
+                    var fn = _fn[0],
+                        context = _fn[1];
+                    fn.call(context || exports, window.jQuery);
+                });
+            }
+
+            function onReadyIe(event) {
+                if (d.readyState === "complete") {
+                    d.detachEvent("onreadystatechange", onReadyIe);
+                    _isReady = true;
+                    _event = event;
+                    _fns.forEach(function (_fn) {
+                        var fn = _fn[0],
+                            context = _fn[1];
+                        fn.call(context || exports, event);
+                    });
+                }
+            }
+
+            d.addEventListener && d.addEventListener("DOMContentLoaded", onReady) ||
+            d.attachEvent && d.attachEvent("onreadystatechange", onReadyIe);
+
+            function domReady(fn, context) {
+                if (_isReady) {
+                    fn.call(context, _event);
+                }
+
+                _fns.push([fn, context]);
+            }
+
+            exports.mesmerizeDomReady = domReady;
+        })(window, document);
+    </script>
+	<title>Campeche &#8211; Indefos</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Indefos &raquo; Feed" href="https://indefos.gob.mx/portal/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Indefos &raquo; Feed de los comentarios" href="https://indefos.gob.mx/portal/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Indefos &raquo; Comentario Campeche del feed" href="https://indefos.gob.mx/portal/campeche/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://indefos.gob.mx/portal/wp-json/oembed/1.0/embed?url=https%3A%2F%2Findefos.gob.mx%2Fportal%2Fcampeche%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://indefos.gob.mx/portal/wp-json/oembed/1.0/embed?url=https%3A%2F%2Findefos.gob.mx%2Fportal%2Fcampeche%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#3858e9;--wp-admin-theme-color--rgb:56,88,233;--wp-admin-theme-color-darker-10:#2145e6;--wp-admin-theme-color-darker-10--rgb:33.0384615385,68.7307692308,230.4615384615;--wp-admin-theme-color-darker-20:#183ad6;--wp-admin-theme-color-darker-20--rgb:23.6923076923,58.1538461538,214.3076923077;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}body.admin-color-fresh{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){body.admin-color-fresh{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}:root .has-inline-color,:root .has-link-color a,:root .has-text-color{-webkit-text-fill-color:currentColor}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;overflow-wrap:normal!important;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}@supports (not (-webkit-backdrop-filter:blur(1px))) and (not (-moz-appearance:none)){mtd[columnalign=right]{text-align:-webkit-right}mtd[columnalign=left]{text-align:-webkit-left}menclose[notation~=top]{border-top:.065em solid;padding-top:.1em}menclose[notation~=bottom]{border-bottom:.065em solid;padding-bottom:.1em}}
+
+/*# sourceURL=https://indefos.gob.mx/portal/wp-content/plugins/gutenberg/build/styles/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+.wp-block-button__link{background-color:#32373c;border-radius:9999px;box-shadow:none;color:#fff;font-size:1.125em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-file__button{background:#32373c;color:#fff}.wp-block-accordion-heading{margin:0}.wp-block-accordion-heading__toggle{background-color:inherit!important;color:inherit!important}.wp-block-accordion-heading__toggle:not(:focus-visible){outline:none}.wp-block-accordion-heading__toggle:focus,.wp-block-accordion-heading__toggle:hover{background-color:inherit!important;border:none;box-shadow:none;color:inherit;padding:var(--wp--preset--spacing--20,1em) 0;text-decoration:none}.wp-block-accordion-heading__toggle:focus-visible{outline:auto;outline-offset:0}.wp-block-tab-list button:not(.has-text-color){color:inherit!important}.wp-block-tab-list button:not(.has-background){background-color:inherit!important}.wp-block-tab-list button:focus,.wp-block-tab-list button:hover{text-decoration:none}.wp-block-tab-list button:focus-visible{outline:auto;outline-offset:0}
+/*# sourceURL=https://indefos.gob.mx/portal/wp-content/plugins/gutenberg/build/styles/block-library/classic.min.css */
+</style>
+
+<link rel='stylesheet' id='metaslider-blocks-editor-css-css' href='https://indefos.gob.mx/portal/wp-content/plugins/ml-slider/admin/assets/dist/css/editor-block.css?ver=3.114.1' media='all' property='stylesheet' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://indefos.gob.mx/portal/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--very-light-gray: #eeeeee;--wp--preset--color--very-dark-gray: #313131;--wp--preset--color--palette-1: #3182CE;--wp--preset--color--palette-2: #2B6CB0;--wp--preset--color--palette-3: #1A202C;--wp--preset--color--palette-4: #2D3748;--wp--preset--color--palette-5: #4A5568;--wp--preset--color--palette-6: #718096;--wp--preset--color--palette-7: #EDF2F7;--wp--preset--color--palette-8: #F7FAFC;--wp--preset--color--palette-9: #ffffff;--wp--preset--color--palette-10: #ED8936;--wp--preset--color--palette-11: #13612e;--wp--preset--color--palette-12: #1159af;--wp--preset--color--palette-13: #b82105;--wp--preset--color--palette-14: #f7630c;--wp--preset--color--palette-15: #f5a524;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--text-shadow--light: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.3);--wp--preset--text-shadow--strong: 0.1em 0.1em 0.25em rgba(0, 0, 0, 0.5);--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-very-light-gray-color{color: var(--wp--preset--color--very-light-gray) !important;}.has-very-dark-gray-color{color: var(--wp--preset--color--very-dark-gray) !important;}.has-palette-1-color{color: var(--wp--preset--color--palette-1) !important;}.has-palette-2-color{color: var(--wp--preset--color--palette-2) !important;}.has-palette-3-color{color: var(--wp--preset--color--palette-3) !important;}.has-palette-4-color{color: var(--wp--preset--color--palette-4) !important;}.has-palette-5-color{color: var(--wp--preset--color--palette-5) !important;}.has-palette-6-color{color: var(--wp--preset--color--palette-6) !important;}.has-palette-7-color{color: var(--wp--preset--color--palette-7) !important;}.has-palette-8-color{color: var(--wp--preset--color--palette-8) !important;}.has-palette-9-color{color: var(--wp--preset--color--palette-9) !important;}.has-palette-10-color{color: var(--wp--preset--color--palette-10) !important;}.has-palette-11-color{color: var(--wp--preset--color--palette-11) !important;}.has-palette-12-color{color: var(--wp--preset--color--palette-12) !important;}.has-palette-13-color{color: var(--wp--preset--color--palette-13) !important;}.has-palette-14-color{color: var(--wp--preset--color--palette-14) !important;}.has-palette-15-color{color: var(--wp--preset--color--palette-15) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-very-light-gray-background-color{background-color: var(--wp--preset--color--very-light-gray) !important;}.has-very-dark-gray-background-color{background-color: var(--wp--preset--color--very-dark-gray) !important;}.has-palette-1-background-color{background-color: var(--wp--preset--color--palette-1) !important;}.has-palette-2-background-color{background-color: var(--wp--preset--color--palette-2) !important;}.has-palette-3-background-color{background-color: var(--wp--preset--color--palette-3) !important;}.has-palette-4-background-color{background-color: var(--wp--preset--color--palette-4) !important;}.has-palette-5-background-color{background-color: var(--wp--preset--color--palette-5) !important;}.has-palette-6-background-color{background-color: var(--wp--preset--color--palette-6) !important;}.has-palette-7-background-color{background-color: var(--wp--preset--color--palette-7) !important;}.has-palette-8-background-color{background-color: var(--wp--preset--color--palette-8) !important;}.has-palette-9-background-color{background-color: var(--wp--preset--color--palette-9) !important;}.has-palette-10-background-color{background-color: var(--wp--preset--color--palette-10) !important;}.has-palette-11-background-color{background-color: var(--wp--preset--color--palette-11) !important;}.has-palette-12-background-color{background-color: var(--wp--preset--color--palette-12) !important;}.has-palette-13-background-color{background-color: var(--wp--preset--color--palette-13) !important;}.has-palette-14-background-color{background-color: var(--wp--preset--color--palette-14) !important;}.has-palette-15-background-color{background-color: var(--wp--preset--color--palette-15) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-very-light-gray-border-color{border-color: var(--wp--preset--color--very-light-gray) !important;}.has-very-dark-gray-border-color{border-color: var(--wp--preset--color--very-dark-gray) !important;}.has-palette-1-border-color{border-color: var(--wp--preset--color--palette-1) !important;}.has-palette-2-border-color{border-color: var(--wp--preset--color--palette-2) !important;}.has-palette-3-border-color{border-color: var(--wp--preset--color--palette-3) !important;}.has-palette-4-border-color{border-color: var(--wp--preset--color--palette-4) !important;}.has-palette-5-border-color{border-color: var(--wp--preset--color--palette-5) !important;}.has-palette-6-border-color{border-color: var(--wp--preset--color--palette-6) !important;}.has-palette-7-border-color{border-color: var(--wp--preset--color--palette-7) !important;}.has-palette-8-border-color{border-color: var(--wp--preset--color--palette-8) !important;}.has-palette-9-border-color{border-color: var(--wp--preset--color--palette-9) !important;}.has-palette-10-border-color{border-color: var(--wp--preset--color--palette-10) !important;}.has-palette-11-border-color{border-color: var(--wp--preset--color--palette-11) !important;}.has-palette-12-border-color{border-color: var(--wp--preset--color--palette-12) !important;}.has-palette-13-border-color{border-color: var(--wp--preset--color--palette-13) !important;}.has-palette-14-border-color{border-color: var(--wp--preset--color--palette-14) !important;}.has-palette-15-border-color{border-color: var(--wp--preset--color--palette-15) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-light-text-shadow{text-shadow: var(--wp--preset--text-shadow--light) !important;}.has-strong-text-shadow{text-shadow: var(--wp--preset--text-shadow--strong) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='modal-window-css' href='https://indefos.gob.mx/portal/wp-content/plugins/modal-window/public/assets/css/modal.min.css?ver=6.3.1' media='all' />
+<link rel='stylesheet' id='wpsm_ac-font-awesome-front-css' href='https://indefos.gob.mx/portal/wp-content/plugins/responsive-accordion-and-collapse/css/font-awesome/css/font-awesome.min.css?ver=7.1.5' media='all' />
+<link rel='stylesheet' id='wpsm_ac_bootstrap-front-css' href='https://indefos.gob.mx/portal/wp-content/plugins/responsive-accordion-and-collapse/css/bootstrap-front.css?ver=7.1.5' media='all' />
+<link rel='stylesheet' id='rt-flaticon-css' href='https://indefos.gob.mx/portal/wp-content/plugins/the-post-grid/assets/vendor/flaticon/flaticon_the_post_grid.css?ver=1795453570' media='all' />
+<link rel='stylesheet' id='rt-tpg-css' href='https://indefos.gob.mx/portal/wp-content/plugins/the-post-grid/assets/css/thepostgrid.min.css?ver=1795453570' media='all' />
+<link rel='stylesheet' id='mesmerize-style-css' href='https://indefos.gob.mx/portal/wp-content/themes/mesmerize/style.min.css?ver=1.6.187' media='all' />
+<style id="mesmerize-style-inline-css">
+img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
+.header-homepage:not(.header-slide).color-overlay:before{background:#691C32;}.header-homepage:not(.header-slide) .background-overlay,.header-homepage:not(.header-slide).color-overlay::before{opacity:0.5;}.mesmerize-front-page .header-separator .svg-white-bg{fill:#FFFFFF!important;}.mesmerize-front-page .header-separator path.svg-accent{stroke:rgb(105,28,50)!important;}.mesmerize-front-page .header-separator svg{height:94px!important;}.header.color-overlay:before{background:#000000;}.header .background-overlay,.header.color-overlay::before{opacity:0.6;}.header.color-overlay:after{filter:invert(0%) ;}.header-homepage .header-description-row{padding-top:10%;padding-bottom:10%;}.inner-header-description{padding-top:8%;padding-bottom:8%;}.mesmerize-inner-page .navigation-bar.bordered{border-bottom-color:rgba(255, 255, 255, 0.5);border-bottom-width:1px;border-bottom-style:solid;}@media screen and (max-width:767px){.header-homepage .header-description-row{padding-top:10%;padding-bottom:40%;}}@media only screen and (min-width: 768px){.header-content .align-holder{width:70%!important;}.inner-header-description{text-align:center!important;}}
+/*# sourceURL=mesmerize-style-inline-css */
+</style>
+<link rel='stylesheet' id='mesmerize-style-bundle-css' href='https://indefos.gob.mx/portal/wp-content/themes/mesmerize/assets/css/theme.bundle.min.css?ver=1.6.187' media='all' />
+<link rel='stylesheet' id='mesmerize-fonts-css' href="" data-href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CMuli%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext&#038;display=swap' media='all' />
+<link rel='stylesheet' id='dflip-style-css' href='https://indefos.gob.mx/portal/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css?ver=2.4.37' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://indefos.gob.mx/portal/wp-content/tablepress-combined.min.css?ver=73' media='all' />
+<style id="kadence-blocks-global-variables-inline-css">
+:root {--global-kb-font-size-sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--global-kb-font-size-md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--global-kb-font-size-lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--global-kb-font-size-xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--global-kb-font-size-xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--global-kb-font-size-xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem);}:root {--global-palette1: var(--kb-token--primitive--color--brand--primary, #3182CE);--global-palette2: var(--kb-token--primitive--color--brand--secondary, #2B6CB0);--global-palette3: var(--kb-token--primitive--color--neutral--900, #1A202C);--global-palette4: var(--kb-token--primitive--color--neutral--700, #2D3748);--global-palette5: var(--kb-token--primitive--color--neutral--600, #4A5568);--global-palette6: var(--kb-token--primitive--color--neutral--500, #718096);--global-palette7: var(--kb-token--primitive--color--neutral--100, #EDF2F7);--global-palette8: var(--kb-token--primitive--color--neutral--50, #F7FAFC);--global-palette9: var(--kb-token--primitive--color--neutral--0, #ffffff);--global-palette10: var(--kb-token--primitive--color--extended--complement, #ED8936);--global-palette11: var(--kb-token--primitive--color--extended--success, #13612e);--global-palette12: var(--kb-token--primitive--color--extended--info, #1159af);--global-palette13: var(--kb-token--primitive--color--extended--alert, #b82105);--global-palette14: var(--kb-token--primitive--color--extended--warning, #f7630c);--global-palette15: var(--kb-token--primitive--color--extended--rating, #f5a524);}
+:root,:root:where(.kb-tokens){--kb-token--primitive--color--brand--primary:#3182CE;--kb-token--primitive--color--brand--secondary:#2B6CB0;--kb-token--primitive--color--brand--accent:#ED8936;--kb-token--primitive--color--brand--button:#3633e1;--kb-token--primitive--color--brand--button-hover:#2f2ffc;--kb-token--primitive--color--neutral--0:#ffffff;--kb-token--primitive--color--neutral--50:#F7FAFC;--kb-token--primitive--color--neutral--100:#EDF2F7;--kb-token--primitive--color--neutral--200:#E2E8F0;--kb-token--primitive--color--neutral--300:#CBD5E0;--kb-token--primitive--color--neutral--500:#718096;--kb-token--primitive--color--neutral--600:#4A5568;--kb-token--primitive--color--neutral--700:#2D3748;--kb-token--primitive--color--neutral--900:#1A202C;--kb-token--primitive--color--notice--success:#38A169;--kb-token--primitive--color--notice--warning:#DD6B20;--kb-token--primitive--color--notice--error:#E53E3E;--kb-token--primitive--color--notice--info:#3182CE;--kb-token--primitive--color--extended--complement:#ED8936;--kb-token--primitive--color--extended--success:#13612e;--kb-token--primitive--color--extended--info:#1159af;--kb-token--primitive--color--extended--alert:#b82105;--kb-token--primitive--color--extended--warning:#f7630c;--kb-token--primitive--color--extended--rating:#f5a524;--kb-token--primitive--color--transparent:transparent;--kb-token--primitive--dimension--spacing--xxs:0.5rem;--kb-token--primitive--dimension--spacing--xs:1rem;--kb-token--primitive--dimension--spacing--sm:1.5rem;--kb-token--primitive--dimension--spacing--md:2rem;--kb-token--primitive--dimension--spacing--lg:3rem;--kb-token--primitive--dimension--spacing--xl:4rem;--kb-token--primitive--dimension--spacing--xxl:5rem;--kb-token--primitive--dimension--spacing--3xl:6.5rem;--kb-token--primitive--dimension--spacing--4xl:8rem;--kb-token--primitive--dimension--spacing--5xl:10rem;--kb-token--primitive--dimension--gap--none:0rem;--kb-token--primitive--dimension--gap--xs:0.5rem;--kb-token--primitive--dimension--gap--sm:1rem;--kb-token--primitive--dimension--gap--md:2rem;--kb-token--primitive--dimension--gap--lg:4rem;--kb-token--primitive--dimension--font-size--sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--kb-token--primitive--dimension--font-size--md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--kb-token--primitive--dimension--font-size--lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--kb-token--primitive--dimension--font-size--xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--kb-token--primitive--dimension--font-size--xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--kb-token--primitive--dimension--font-size--xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem);--kb-token--primitive--dimension--radius--xs:0.125rem;--kb-token--primitive--dimension--radius--sm:0.25rem;--kb-token--primitive--dimension--radius--md:0.375rem;--kb-token--primitive--dimension--radius--lg:0.5rem;--kb-token--primitive--dimension--radius--xl:0.75rem;--kb-token--primitive--dimension--radius--2xl:1rem;--kb-token--primitive--dimension--radius--3xl:1.5rem;--kb-token--primitive--dimension--radius--full:9999px;--kb-token--primitive--dimension--border-width--sm:1px;--kb-token--primitive--dimension--border-width--md:2px;--kb-token--primitive--dimension--border-width--lg:4px;--kb-token--primitive--dimension--icon-size--sm:1rem;--kb-token--primitive--dimension--icon-size--md:1.5rem;--kb-token--primitive--dimension--icon-size--lg:2.25rem;--kb-token--primitive--fontSize--xs:0.64rem;--kb-token--primitive--fontSize--sm:0.8rem;--kb-token--primitive--fontSize--md:1rem;--kb-token--primitive--fontSize--lg:1.25rem;--kb-token--primitive--fontSize--xl:1.563rem;--kb-token--primitive--fontSize--2xl:1.953rem;--kb-token--primitive--fontSize--3xl:2.441rem;--kb-token--primitive--shadow--xs:0px 1px 2px 0px #1717171f;--kb-token--primitive--shadow--sm:0px 2px 4px 0px #1717171f;--kb-token--primitive--shadow--md:0px 2px 8px 0px #1717171f;--kb-token--semantic--color--text:var(--kb-token--primitive--color--neutral--900);--kb-token--semantic--color--text-muted:var(--kb-token--primitive--color--neutral--500);--kb-token--semantic--color--surface:var(--kb-token--primitive--color--neutral--0);--kb-token--semantic--color--surface-alt:var(--kb-token--primitive--color--neutral--50);--kb-token--semantic--color--border:var(--kb-token--primitive--color--neutral--200);--kb-token--semantic--color--border-hover:var(--kb-token--primitive--color--transparent);--kb-token--semantic--color--link:var(--kb-token--primitive--color--brand--primary);--kb-token--semantic--color--button-bg:var(--kb-token--primitive--color--brand--button);--kb-token--semantic--color--button-text:var(--kb-token--primitive--color--neutral--0);--kb-token--semantic--color--button-bg-hover:var(--kb-token--primitive--color--brand--button-hover);--kb-token--semantic--color--button-text-hover:var(--kb-token--primitive--color--neutral--0);--kb-token--semantic--color--button-border:var(--kb-token--primitive--color--transparent);--kb-token--semantic--color--icon:currentColor;--kb-token--semantic--color--icon-hover:var(--kb-token--primitive--color--brand--primary);--kb-token--semantic--color--rowlayout-bg:var(--kb-token--primitive--color--transparent);--kb-token--semantic--color--column-bg:var(--kb-token--primitive--color--transparent);--kb-token--semantic--color--column-bg-hover:var(--kb-token--primitive--color--transparent);--kb-token--semantic--color--image-bg:var(--kb-token--primitive--color--transparent);--kb-token--semantic--color--heading-bg:var(--kb-token--primitive--color--transparent);--kb-token--semantic--spacing--inline:var(--kb-token--primitive--dimension--spacing--md);--kb-token--semantic--spacing--block:var(--kb-token--primitive--dimension--spacing--lg);--kb-token--semantic--spacing--section:var(--kb-token--primitive--dimension--spacing--xl);--kb-token--semantic--spacing--media-padding:0;--kb-token--semantic--spacing--heading-padding:0;--kb-token--semantic--radius--control:3px;--kb-token--semantic--radius--media:0;--kb-token--semantic--radius--rowlayout:0;--kb-token--semantic--radius--column:0;--kb-token--semantic--radius--column-hover:0;--kb-token--semantic--radius--heading:0;--kb-token--semantic--border-width--default:var(--kb-token--primitive--dimension--border-width--sm);--kb-token--semantic--border-width--default-hover:0;--kb-token--semantic--border-width--media:0;--kb-token--semantic--border-width--button:0;--kb-token--semantic--border-style--default:none;--kb-token--semantic--border-style--default-hover:solid;--kb-token--semantic--border-style--button:solid;--kb-token--semantic--icon-size--default:var(--kb-token--primitive--dimension--icon-size--md);--kb-token--semantic--icon-size--icon:50px;--kb-token--semantic--font-size--control:1.125rem;--kb-token--semantic--font-size--heading:2rem;--kb-token--semantic--font-weight--control:normal;--kb-token--semantic--font-weight--heading:400;--kb-token--semantic--line-height--control:normal;--kb-token--semantic--line-height--heading:1.125;--kb-token--semantic--font-style--control:normal;--kb-token--semantic--text-transform--control:none;--kb-token--semantic--text-transform--heading:none;--kb-token--semantic--letter-spacing--control:0;--kb-token--semantic--letter-spacing--heading:0;--kb-token--semantic--shadow--card:0px 2px 8px 0px var(--kb-token--primitive--color--neutral--900);--kb-token--semantic--shadow--media:0px 0px 0px 0px var(--kb-token--primitive--color--transparent);--kb-token--semantic--shadow--button:0px 0px 0px 0px var(--kb-token--primitive--color--transparent);--kb-token--semantic--shadow--button-hover:0px 0px 0px 0px var(--kb-token--primitive--color--transparent);--global-kb-spacing-xxs:var(--kb-token--primitive--dimension--spacing--xxs,0.5rem);--global-kb-spacing-xs:var(--kb-token--primitive--dimension--spacing--xs,1rem);--global-kb-spacing-sm:var(--kb-token--primitive--dimension--spacing--sm,1.5rem);--global-kb-spacing-md:var(--kb-token--primitive--dimension--spacing--md,2rem);--global-kb-spacing-lg:var(--kb-token--primitive--dimension--spacing--lg,3rem);--global-kb-spacing-xl:var(--kb-token--primitive--dimension--spacing--xl,4rem);--global-kb-spacing-xxl:var(--kb-token--primitive--dimension--spacing--xxl,5rem);--global-kb-spacing-3xl:var(--kb-token--primitive--dimension--spacing--3xl,6.5rem);--global-kb-spacing-4xl:var(--kb-token--primitive--dimension--spacing--4xl,8rem);--global-kb-spacing-5xl:var(--kb-token--primitive--dimension--spacing--5xl,10rem);--global-kb-gap-none:var(--kb-token--primitive--dimension--gap--none,0rem);--global-kb-gap-xs:var(--kb-token--primitive--dimension--gap--xs,0.5rem);--global-kb-gap-sm:var(--kb-token--primitive--dimension--gap--sm,1rem);--global-kb-gap-md:var(--kb-token--primitive--dimension--gap--md,2rem);--global-kb-gap-lg:var(--kb-token--primitive--dimension--gap--lg,4rem);--global-kb-font-size-sm:var(--kb-token--primitive--dimension--font-size--sm,clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem));--global-kb-font-size-md:var(--kb-token--primitive--dimension--font-size--md,clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem));--global-kb-font-size-lg:var(--kb-token--primitive--dimension--font-size--lg,clamp(1.75rem, 1.576rem + 0.543vw, 2rem));--global-kb-font-size-xl:var(--kb-token--primitive--dimension--font-size--xl,clamp(2.25rem, 1.728rem + 1.63vw, 3rem));--global-kb-font-size-xxl:var(--kb-token--primitive--dimension--font-size--xxl,clamp(2.5rem, 1.456rem + 3.26vw, 4rem));--global-kb-font-size-xxxl:var(--kb-token--primitive--dimension--font-size--xxxl,clamp(2.75rem, 0.489rem + 7.065vw, 6rem));}
+:root,:root:where(.kb-tokens){--kb-token--preset--kadence-singlebtn--default--button-bg:var(--kb-token--semantic--color--button-bg);--kb-token--preset--kadence-singlebtn--default--button-text:var(--kb-token--semantic--color--button-text);--kb-token--preset--kadence-singlebtn--default--button-bg-hover:var(--kb-token--semantic--color--button-bg-hover);--kb-token--preset--kadence-singlebtn--default--button-text-hover:var(--kb-token--semantic--color--button-text-hover);--kb-token--preset--kadence-singlebtn--default--button-radius:var(--kb-token--semantic--radius--control);--kb-token--preset--kadence-singlebtn--default--button-border-width:var(--kb-token--semantic--border-width--button);--kb-token--preset--kadence-singlebtn--default--button-border-style:var(--kb-token--semantic--border-style--button);--kb-token--preset--kadence-singlebtn--default--button-border-color:var(--kb-token--semantic--color--button-border);--kb-token--preset--kadence-singlebtn--default--button-padding--top:0.4em;--kb-token--preset--kadence-singlebtn--default--button-padding--right:1em;--kb-token--preset--kadence-singlebtn--default--button-padding--bottom:0.4em;--kb-token--preset--kadence-singlebtn--default--button-padding--left:1em;--kb-token--preset--kadence-singlebtn--default--button-padding:var(--kb-token--preset--kadence-singlebtn--default--button-padding--top) var(--kb-token--preset--kadence-singlebtn--default--button-padding--right) var(--kb-token--preset--kadence-singlebtn--default--button-padding--bottom) var(--kb-token--preset--kadence-singlebtn--default--button-padding--left);--kb-token--preset--kadence-singlebtn--default--button-margin--top:0;--kb-token--preset--kadence-singlebtn--default--button-margin--right:0;--kb-token--preset--kadence-singlebtn--default--button-margin--bottom:0;--kb-token--preset--kadence-singlebtn--default--button-margin--left:0;--kb-token--preset--kadence-singlebtn--default--button-margin:var(--kb-token--preset--kadence-singlebtn--default--button-margin--top) var(--kb-token--preset--kadence-singlebtn--default--button-margin--right) var(--kb-token--preset--kadence-singlebtn--default--button-margin--bottom) var(--kb-token--preset--kadence-singlebtn--default--button-margin--left);--kb-token--preset--kadence-image--default--background:var(--kb-token--semantic--color--image-bg);--kb-token--preset--kadence-image--default--border:var(--kb-token--semantic--color--border);--kb-token--preset--kadence-image--default--borderWidth:var(--kb-token--semantic--border-width--media);--kb-token--preset--kadence-image--default--borderRadius:var(--kb-token--semantic--radius--media);--kb-token--preset--kadence-image--default--shadow:var(--kb-token--semantic--shadow--media);--kb-token--preset--kadence-image--default--padding:var(--kb-token--semantic--spacing--media-padding);--kb-token--preset--kadence-rowlayout--default--background:var(--kb-token--semantic--color--rowlayout-bg);--kb-token--preset--kadence-rowlayout--default--borderRadius:var(--kb-token--semantic--radius--rowlayout);--kb-token--preset--kadence-column--default--background:var(--kb-token--semantic--color--column-bg);--kb-token--preset--kadence-column--default--borderRadius:var(--kb-token--semantic--radius--column);--kb-token--preset--kadence-single-icon--default--color:var(--kb-token--semantic--color--icon);--kb-token--preset--kadence-single-icon--default--size:var(--kb-token--semantic--icon-size--icon);--kb-token--preset--kadence-advancedheading--default--background:var(--kb-token--semantic--color--heading-bg);--kb-token--preset--kadence-advancedheading--default--padding:var(--kb-token--semantic--spacing--heading-padding);--kb-token--preset--kadence-advancedheading--default--borderColor:var(--kb-token--semantic--color--border);--kb-token--preset--kadence-advancedheading--default--borderWidth:var(--kb-token--semantic--border-width--default);--kb-token--preset--kadence-advancedheading--default--borderRadius:var(--kb-token--semantic--radius--heading);--kb-token--preset--kadence-advancedheading--default--borderStyle:var(--kb-token--semantic--border-style--default);}.wp-block-kadence-singlebtn.kb-preset--default{--kb-btn-radius:var(--kb-token--preset--kadence-singlebtn--default--button-radius);--kb-btn-border-width:var(--kb-token--preset--kadence-singlebtn--default--button-border-width);--kb-btn-border-style:var(--kb-token--preset--kadence-singlebtn--default--button-border-style);--kb-btn-border-color:var(--kb-token--preset--kadence-singlebtn--default--button-border-color);--kb-btn-padding:var(--kb-token--preset--kadence-singlebtn--default--button-padding);--kb-btn-margin:var(--kb-token--preset--kadence-singlebtn--default--button-margin);}.wp-block-kadence-singlebtn.kb-preset--outline{--global-palette-btn-bg:unset;--global-palette-btn:unset;--global-palette-btn-bg-hover:unset;--global-palette-btn-hover:unset;--kb-btn-radius:unset;--kb-btn-padding:unset;--kb-btn-margin:unset;--kb-btn-border-width:unset;--kb-btn-border-style:unset;--kb-btn-border-color:unset;--kb-btn-shadow:unset;--kb-btn-shadow-hover:unset;}.wp-block-kadence-singlebtn.kb-preset--theme-base{--global-palette-btn-bg:unset;--global-palette-btn:unset;--global-palette-btn-bg-hover:unset;--global-palette-btn-hover:unset;--kb-btn-radius:unset;--kb-btn-padding:unset;--kb-btn-margin:unset;--kb-btn-border-width:unset;--kb-btn-border-style:unset;--kb-btn-border-color:unset;--kb-btn-shadow:unset;--kb-btn-shadow-hover:unset;}.wp-block-kadence-image.kb-preset--default{--kb-img-bg:var(--kb-token--preset--kadence-image--default--background);--kb-img-border-color:var(--kb-token--preset--kadence-image--default--border);--kb-img-border-width:var(--kb-token--preset--kadence-image--default--borderWidth);--kb-img-radius:var(--kb-token--preset--kadence-image--default--borderRadius);--kb-img-shadow:var(--kb-token--preset--kadence-image--default--shadow);--kb-img-padding:var(--kb-token--preset--kadence-image--default--padding);}.wp-block-kadence-rowlayout.kb-preset--default{--kb-row-bg:var(--kb-token--preset--kadence-rowlayout--default--background);--kb-row-radius:var(--kb-token--preset--kadence-rowlayout--default--borderRadius);}.wp-block-kadence-column.kb-preset--default{--kb-col-bg:var(--kb-token--preset--kadence-column--default--background);--kb-col-radius:var(--kb-token--preset--kadence-column--default--borderRadius);}.wp-block-kadence-single-icon.kb-preset--default{--kb-icon-color:var(--kb-token--preset--kadence-single-icon--default--color);--kb-icon-size:var(--kb-token--preset--kadence-single-icon--default--size);}.wp-block-kadence-advancedheading.kb-preset--default{--kb-heading-bg:var(--kb-token--preset--kadence-advancedheading--default--background);--kb-heading-padding:var(--kb-token--preset--kadence-advancedheading--default--padding);--kb-heading-border-color:var(--kb-token--preset--kadence-advancedheading--default--borderColor);--kb-heading-border-width:var(--kb-token--preset--kadence-advancedheading--default--borderWidth);--kb-heading-radius:var(--kb-token--preset--kadence-advancedheading--default--borderRadius);--kb-heading-border-style:var(--kb-token--preset--kadence-advancedheading--default--borderStyle);}.wp-block-kadence-singlebtn{--kb-btn-radius:var(--kb-token--preset--kadence-singlebtn--default--button-radius);--kb-btn-border-width:var(--kb-token--preset--kadence-singlebtn--default--button-border-width);--kb-btn-border-style:var(--kb-token--preset--kadence-singlebtn--default--button-border-style);--kb-btn-border-color:var(--kb-token--preset--kadence-singlebtn--default--button-border-color);--kb-btn-padding:var(--kb-token--preset--kadence-singlebtn--default--button-padding);--kb-btn-margin:var(--kb-token--preset--kadence-singlebtn--default--button-margin);}.wp-block-kadence-image{--kb-img-bg:var(--kb-token--preset--kadence-image--default--background);--kb-img-border-color:var(--kb-token--preset--kadence-image--default--border);--kb-img-border-width:var(--kb-token--preset--kadence-image--default--borderWidth);--kb-img-radius:var(--kb-token--preset--kadence-image--default--borderRadius);--kb-img-shadow:var(--kb-token--preset--kadence-image--default--shadow);--kb-img-padding:var(--kb-token--preset--kadence-image--default--padding);}.wp-block-kadence-rowlayout{--kb-row-bg:var(--kb-token--preset--kadence-rowlayout--default--background);--kb-row-radius:var(--kb-token--preset--kadence-rowlayout--default--borderRadius);}.wp-block-kadence-column{--kb-col-bg:var(--kb-token--preset--kadence-column--default--background);--kb-col-radius:var(--kb-token--preset--kadence-column--default--borderRadius);}.wp-block-kadence-single-icon{--kb-icon-color:var(--kb-token--preset--kadence-single-icon--default--color);--kb-icon-size:var(--kb-token--preset--kadence-single-icon--default--size);}.wp-block-kadence-advancedheading{--kb-heading-bg:var(--kb-token--preset--kadence-advancedheading--default--background);--kb-heading-padding:var(--kb-token--preset--kadence-advancedheading--default--padding);--kb-heading-border-color:var(--kb-token--preset--kadence-advancedheading--default--borderColor);--kb-heading-border-width:var(--kb-token--preset--kadence-advancedheading--default--borderWidth);--kb-heading-radius:var(--kb-token--preset--kadence-advancedheading--default--borderRadius);--kb-heading-border-style:var(--kb-token--preset--kadence-advancedheading--default--borderStyle);}
+[data-kb-palette]{--kb-token--preset--kadence-singlebtn--default--button-bg:var(--kb-token--semantic--color--button-bg);--kb-token--preset--kadence-singlebtn--default--button-text:var(--kb-token--semantic--color--button-text);--kb-token--preset--kadence-singlebtn--default--button-bg-hover:var(--kb-token--semantic--color--button-bg-hover);--kb-token--preset--kadence-singlebtn--default--button-text-hover:var(--kb-token--semantic--color--button-text-hover);--kb-token--preset--kadence-singlebtn--default--button-radius:var(--kb-token--semantic--radius--control);--kb-token--preset--kadence-singlebtn--default--button-border-width:var(--kb-token--semantic--border-width--button);--kb-token--preset--kadence-singlebtn--default--button-border-style:var(--kb-token--semantic--border-style--button);--kb-token--preset--kadence-singlebtn--default--button-border-color:var(--kb-token--semantic--color--button-border);--kb-token--preset--kadence-singlebtn--default--button-padding--top:0.4em;--kb-token--preset--kadence-singlebtn--default--button-padding--right:1em;--kb-token--preset--kadence-singlebtn--default--button-padding--bottom:0.4em;--kb-token--preset--kadence-singlebtn--default--button-padding--left:1em;--kb-token--preset--kadence-singlebtn--default--button-padding:var(--kb-token--preset--kadence-singlebtn--default--button-padding--top) var(--kb-token--preset--kadence-singlebtn--default--button-padding--right) var(--kb-token--preset--kadence-singlebtn--default--button-padding--bottom) var(--kb-token--preset--kadence-singlebtn--default--button-padding--left);--kb-token--preset--kadence-singlebtn--default--button-margin--top:0;--kb-token--preset--kadence-singlebtn--default--button-margin--right:0;--kb-token--preset--kadence-singlebtn--default--button-margin--bottom:0;--kb-token--preset--kadence-singlebtn--default--button-margin--left:0;--kb-token--preset--kadence-singlebtn--default--button-margin:var(--kb-token--preset--kadence-singlebtn--default--button-margin--top) var(--kb-token--preset--kadence-singlebtn--default--button-margin--right) var(--kb-token--preset--kadence-singlebtn--default--button-margin--bottom) var(--kb-token--preset--kadence-singlebtn--default--button-margin--left);--kb-token--preset--kadence-image--default--background:var(--kb-token--semantic--color--image-bg);--kb-token--preset--kadence-image--default--border:var(--kb-token--semantic--color--border);--kb-token--preset--kadence-image--default--borderWidth:var(--kb-token--semantic--border-width--media);--kb-token--preset--kadence-image--default--borderRadius:var(--kb-token--semantic--radius--media);--kb-token--preset--kadence-image--default--shadow:var(--kb-token--semantic--shadow--media);--kb-token--preset--kadence-image--default--padding:var(--kb-token--semantic--spacing--media-padding);--kb-token--preset--kadence-rowlayout--default--background:var(--kb-token--semantic--color--rowlayout-bg);--kb-token--preset--kadence-rowlayout--default--borderRadius:var(--kb-token--semantic--radius--rowlayout);--kb-token--preset--kadence-column--default--background:var(--kb-token--semantic--color--column-bg);--kb-token--preset--kadence-column--default--borderRadius:var(--kb-token--semantic--radius--column);--kb-token--preset--kadence-single-icon--default--color:var(--kb-token--semantic--color--icon);--kb-token--preset--kadence-single-icon--default--size:var(--kb-token--semantic--icon-size--icon);--kb-token--preset--kadence-advancedheading--default--background:var(--kb-token--semantic--color--heading-bg);--kb-token--preset--kadence-advancedheading--default--padding:var(--kb-token--semantic--spacing--heading-padding);--kb-token--preset--kadence-advancedheading--default--borderColor:var(--kb-token--semantic--color--border);--kb-token--preset--kadence-advancedheading--default--borderWidth:var(--kb-token--semantic--border-width--default);--kb-token--preset--kadence-advancedheading--default--borderRadius:var(--kb-token--semantic--radius--heading);--kb-token--preset--kadence-advancedheading--default--borderStyle:var(--kb-token--semantic--border-style--default);}:root [class*="kadence-"].has-palette-1-color{color:var(--global-palette1) !important;}:root [class*="kadence-"].has-palette-1-background-color{background-color:var(--global-palette1) !important;}:root [class*="kadence-"].has-theme-palette-1-color{color:var(--global-palette1) !important;}:root [class*="kadence-"].has-theme-palette-1-background-color{background-color:var(--global-palette1) !important;}:root [class*="kadence-"].has-palette-2-color{color:var(--global-palette2) !important;}:root [class*="kadence-"].has-palette-2-background-color{background-color:var(--global-palette2) !important;}:root [class*="kadence-"].has-theme-palette-2-color{color:var(--global-palette2) !important;}:root [class*="kadence-"].has-theme-palette-2-background-color{background-color:var(--global-palette2) !important;}:root [class*="kadence-"].has-palette-3-color{color:var(--global-palette3) !important;}:root [class*="kadence-"].has-palette-3-background-color{background-color:var(--global-palette3) !important;}:root [class*="kadence-"].has-theme-palette-3-color{color:var(--global-palette3) !important;}:root [class*="kadence-"].has-theme-palette-3-background-color{background-color:var(--global-palette3) !important;}:root [class*="kadence-"].has-palette-4-color{color:var(--global-palette4) !important;}:root [class*="kadence-"].has-palette-4-background-color{background-color:var(--global-palette4) !important;}:root [class*="kadence-"].has-theme-palette-4-color{color:var(--global-palette4) !important;}:root [class*="kadence-"].has-theme-palette-4-background-color{background-color:var(--global-palette4) !important;}:root [class*="kadence-"].has-palette-5-color{color:var(--global-palette5) !important;}:root [class*="kadence-"].has-palette-5-background-color{background-color:var(--global-palette5) !important;}:root [class*="kadence-"].has-theme-palette-5-color{color:var(--global-palette5) !important;}:root [class*="kadence-"].has-theme-palette-5-background-color{background-color:var(--global-palette5) !important;}:root [class*="kadence-"].has-palette-6-color{color:var(--global-palette6) !important;}:root [class*="kadence-"].has-palette-6-background-color{background-color:var(--global-palette6) !important;}:root [class*="kadence-"].has-theme-palette-6-color{color:var(--global-palette6) !important;}:root [class*="kadence-"].has-theme-palette-6-background-color{background-color:var(--global-palette6) !important;}:root [class*="kadence-"].has-palette-7-color{color:var(--global-palette7) !important;}:root [class*="kadence-"].has-palette-7-background-color{background-color:var(--global-palette7) !important;}:root [class*="kadence-"].has-theme-palette-7-color{color:var(--global-palette7) !important;}:root [class*="kadence-"].has-theme-palette-7-background-color{background-color:var(--global-palette7) !important;}:root [class*="kadence-"].has-palette-8-color{color:var(--global-palette8) !important;}:root [class*="kadence-"].has-palette-8-background-color{background-color:var(--global-palette8) !important;}:root [class*="kadence-"].has-theme-palette-8-color{color:var(--global-palette8) !important;}:root [class*="kadence-"].has-theme-palette-8-background-color{background-color:var(--global-palette8) !important;}:root [class*="kadence-"].has-palette-9-color{color:var(--global-palette9) !important;}:root [class*="kadence-"].has-palette-9-background-color{background-color:var(--global-palette9) !important;}:root [class*="kadence-"].has-theme-palette-9-color{color:var(--global-palette9) !important;}:root [class*="kadence-"].has-theme-palette-9-background-color{background-color:var(--global-palette9) !important;}:root [class*="kadence-"].has-palette-10-color{color:var(--global-palette10) !important;}:root [class*="kadence-"].has-palette-10-background-color{background-color:var(--global-palette10) !important;}:root [class*="kadence-"].has-theme-palette-10-color{color:var(--global-palette10) !important;}:root [class*="kadence-"].has-theme-palette-10-background-color{background-color:var(--global-palette10) !important;}:root [class*="kadence-"].has-palette-11-color{color:var(--global-palette11) !important;}:root [class*="kadence-"].has-palette-11-background-color{background-color:var(--global-palette11) !important;}:root [class*="kadence-"].has-theme-palette-11-color{color:var(--global-palette11) !important;}:root [class*="kadence-"].has-theme-palette-11-background-color{background-color:var(--global-palette11) !important;}:root [class*="kadence-"].has-palette-12-color{color:var(--global-palette12) !important;}:root [class*="kadence-"].has-palette-12-background-color{background-color:var(--global-palette12) !important;}:root [class*="kadence-"].has-theme-palette-12-color{color:var(--global-palette12) !important;}:root [class*="kadence-"].has-theme-palette-12-background-color{background-color:var(--global-palette12) !important;}:root [class*="kadence-"].has-palette-13-color{color:var(--global-palette13) !important;}:root [class*="kadence-"].has-palette-13-background-color{background-color:var(--global-palette13) !important;}:root [class*="kadence-"].has-theme-palette-13-color{color:var(--global-palette13) !important;}:root [class*="kadence-"].has-theme-palette-13-background-color{background-color:var(--global-palette13) !important;}:root [class*="kadence-"].has-palette-14-color{color:var(--global-palette14) !important;}:root [class*="kadence-"].has-palette-14-background-color{background-color:var(--global-palette14) !important;}:root [class*="kadence-"].has-theme-palette-14-color{color:var(--global-palette14) !important;}:root [class*="kadence-"].has-theme-palette-14-background-color{background-color:var(--global-palette14) !important;}:root [class*="kadence-"].has-palette-15-color{color:var(--global-palette15) !important;}:root [class*="kadence-"].has-palette-15-background-color{background-color:var(--global-palette15) !important;}:root [class*="kadence-"].has-theme-palette-15-color{color:var(--global-palette15) !important;}:root [class*="kadence-"].has-theme-palette-15-background-color{background-color:var(--global-palette15) !important;}
+.wp-block-kadence-image img{background-color:var(--kb-img-bg,var(--kb-token--semantic--color--image-bg,transparent));border-color:var(--kb-img-border-color,var(--kb-token--semantic--color--border,#E2E8F0));border-width:var(--kb-img-border-width,var(--kb-token--semantic--border-width--media,0));border-radius:var(--kb-img-radius,var(--kb-token--semantic--radius--media,0));box-shadow:var(--kb-img-shadow,var(--kb-token--semantic--shadow--media,0px 0px 0px 0px transparent));}.wp-block-kadence-image *.kb-img{padding:var(--kb-img-padding,var(--kb-token--semantic--spacing--media-padding,0));}.wp-block-kadence-rowlayout{background-color:var(--kb-row-bg,var(--kb-token--semantic--color--rowlayout-bg,transparent));border-radius:var(--kb-row-radius,var(--kb-token--semantic--radius--rowlayout,0));}.wp-block-kadence-column> .kt-inside-inner-col{background-color:var(--kb-col-bg,var(--kb-token--semantic--color--column-bg,transparent));border-radius:var(--kb-col-radius,var(--kb-token--semantic--radius--column,0));}.wp-block-kadence-single-icon *.kb-svg-icon-wrap{color:var(--kb-icon-color,var(--kb-token--semantic--color--icon,currentColor));font-size:var(--kb-icon-size,var(--kb-token--semantic--icon-size--icon,50px));}.wp-block-kadence-advancedheading{background-color:var(--kb-heading-bg,var(--kb-token--semantic--color--heading-bg,transparent));padding:var(--kb-heading-padding,var(--kb-token--semantic--spacing--heading-padding,0));border-color:var(--kb-heading-border-color,var(--kb-token--semantic--color--border,#E2E8F0));border-width:var(--kb-heading-border-width,var(--kb-token--semantic--border-width--default,1px));border-radius:var(--kb-heading-radius,var(--kb-token--semantic--radius--heading,0));border-style:var(--kb-heading-border-style,var(--kb-token--semantic--border-style--default,none));}
+/*# sourceURL=kadence-blocks-global-variables-inline-css */
+</style>
+<style id="kadence_blocks_palette_css">:root .has-palette1-color{color:#3182CE}:root .has-palette1-background-color{background-color:#3182CE}:root .has-palette2-color{color:#2B6CB0}:root .has-palette2-background-color{background-color:#2B6CB0}:root .has-palette3-color{color:#1A202C}:root .has-palette3-background-color{background-color:#1A202C}:root .has-palette4-color{color:#2D3748}:root .has-palette4-background-color{background-color:#2D3748}:root .has-palette5-color{color:#4A5568}:root .has-palette5-background-color{background-color:#4A5568}:root .has-palette6-color{color:#718096}:root .has-palette6-background-color{background-color:#718096}:root .has-palette7-color{color:#EDF2F7}:root .has-palette7-background-color{background-color:#EDF2F7}:root .has-palette8-color{color:#F7FAFC}:root .has-palette8-background-color{background-color:#F7FAFC}:root .has-palette9-color{color:#ffffff}:root .has-palette9-background-color{background-color:#ffffff}:root .has-palette10-color{color:#ED8936}:root .has-palette10-background-color{background-color:#ED8936}:root .has-palette11-color{color:#13612e}:root .has-palette11-background-color{background-color:#13612e}:root .has-palette12-color{color:#1159af}:root .has-palette12-background-color{background-color:#1159af}:root .has-palette13-color{color:#b82105}:root .has-palette13-background-color{background-color:#b82105}:root .has-palette14-color{color:#f7630c}:root .has-palette14-background-color{background-color:#f7630c}:root .has-palette15-color{color:#f5a524}:root .has-palette15-background-color{background-color:#f5a524}</style><script id="jquery-core-js" src="https://indefos.gob.mx/portal/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-core-js-after">
+window.metaslider_jQuery = window.jQuery;
+//# sourceURL=jquery-core-js-after
+</script>
+<script id="jquery-migrate-js" src="https://indefos.gob.mx/portal/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="jquery-js-after">
+(function () {
+            function setHeaderTopSpacing() {
+
+                setTimeout(function() {
+                  var headerTop = document.querySelector('.header-top');
+                  var headers = document.querySelectorAll('.header-wrapper .header,.header-wrapper .header-homepage');
+
+                  for (var i = 0; i < headers.length; i++) {
+                      var item = headers[i];
+                      item.style.paddingTop = headerTop.getBoundingClientRect().height + "px";
+                  }
+
+                    var languageSwitcher = document.querySelector('.mesmerize-language-switcher');
+
+                    if(languageSwitcher){
+                        languageSwitcher.style.top = "calc( " +  headerTop.getBoundingClientRect().height + "px + 1rem)" ;
+                    }
+                    
+                }, 100);
+
+             
+            }
+
+            window.addEventListener('resize', setHeaderTopSpacing);
+            window.mesmerizeSetHeaderTopSpacing = setHeaderTopSpacing
+            mesmerizeDomReady(setHeaderTopSpacing);
+        })();
+    
+    
+//# sourceURL=jquery-js-after
+</script>
+<link rel="https://api.w.org/" href="https://indefos.gob.mx/portal/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://indefos.gob.mx/portal/wp-json/wp/v2/posts/172" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://indefos.gob.mx/portal/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.5" />
+<link rel="canonical" href="https://indefos.gob.mx/portal/campeche/" />
+<link rel='shortlink' href='https://indefos.gob.mx/portal/?p=172' />
+        <style>
+            :root {
+                --tpg-primary-color: #0d6efd;
+                --tpg-secondary-color: #0654c4;
+                --tpg-primary-light: #c4d0ff
+            }
+
+                    </style>
+		    <script type="text/javascript" data-name="async-styles">
+        (function () {
+            var links = document.querySelectorAll('link[data-href]');
+            for (var i = 0; i < links.length; i++) {
+                var item = links[i];
+                item.href = item.getAttribute('data-href')
+            }
+        })();
+    </script>
+	<link rel="pingback" href="https://indefos.gob.mx/portal/xmlrpc.php">
+<style id="custom-background-css">
+body.custom-background { background-color: #fcfcfc; }
+</style>
+<link rel="icon" href="https://indefos.gob.mx/portal/wp-content/uploads/2021/09/cropped-Perfil_Redes_INDEFOS-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://indefos.gob.mx/portal/wp-content/uploads/2021/09/cropped-Perfil_Redes_INDEFOS-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://indefos.gob.mx/portal/wp-content/uploads/2021/09/cropped-Perfil_Redes_INDEFOS-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://indefos.gob.mx/portal/wp-content/uploads/2021/09/cropped-Perfil_Redes_INDEFOS-270x270.jpg" />
+<style id="wp-custom-css">
+
+/* ===== MENÚ PRINCIPAL ===== */
+#mainmenu_container li a {
+  position: relative;
+  display: inline-block;
+  color: #a5a5a5 solid;
+  padding: px px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: color .5s ease;
+	}
+
+
+/* ===== EFECTO AL PASAR EL PUNTERO ===== */
+#mainmenu_container li a:hover {
+  color: #AB9470; /* Dorado en el texto */
+}
+
+/* ===== BORDES ANIMADOS ===== */
+#mainmenu_container li a::before,
+#mainmenu_container li a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 3px solid transparent;
+  pointer-events: auto;
+}
+
+/* Oculto por defecto */
+#mainmenu_container li a::before,
+#mainmenu_container li a::after {
+  opacity: 0;
+}
+
+/* Activamos el efecto al pasar el puntero */
+#mainmenu_container li a:hover::before,
+#mainmenu_container li a:hover::after {
+  opacity: 1;
+  animation: goldenOutline 1.5s linear;
+}
+
+/* ===== ANIMACIÓN DEL CONTORNO ===== */
+@keyframes goldenOutline {
+  10%{
+    border-color: transparent;
+    box-shadow: none;
+  }
+  10% {
+    border-top-color: #AB9470;
+  }
+  30% {
+    border-right-color: #AB9470;
+  }
+  60% {
+    border-bottom-color: #AB9470;
+  }
+  90% {
+    border-left-color: #AB9470;
+  }
+	/*antes del corchete iba 100%*/
+  {
+    border-color: #AB9470;
+    box-shadow: 0 0 10px #AB9470, 0 0 20px #ffea00;
+  }
+}
+
+/* ===== SUBMENÚS ===== */
+#mainmenu_container ul.sub-menu li a {
+  color: #a5a5a5  !important; /* Texto negro por defecto */
+  transition: color 0.3s ease; /* Transición suave */
+}
+
+/* ===== EFECTO AL PASAR EL PUNTERO ===== */
+#mainmenu_container ul.sub-menu li a:hover {
+  color: #AB9470 !important; /* Cambia a dorado */
+}
+
+
+
+
+</style>
+	<style id="page-content-custom-styles">
+			</style>
+	        <style data-name="header-shapes">
+            .header.color-overlay:after {background:url(https://indefos.gob.mx/portal/wp-content/themes/mesmerize/assets/images/header-shapes/circles.png) center center/ cover no-repeat}        </style>
+            <style data-name="background-content-colors">
+        .mesmerize-inner-page .page-content,
+        .mesmerize-inner-page .content,
+        .mesmerize-front-page.mesmerize-content-padding .page-content {
+            background-color: #fcfcfc;
+        }
+    </style>
+    </head>
+
+<body class="wp-singular post-template-default single single-post postid-172 single-format-standard custom-background wp-custom-logo wp-theme-mesmerize rttpg rttpg-7.9.11 radius-frontend rttpg-body-wrap rttpg-flaticon metaslider-plugin mesmerize-inner-page">
+<style>
+.screen-reader-text[href="#page-content"]:focus {
+   background-color: #f1f1f1;
+   border-radius: 3px;
+   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+   clip: auto !important;
+   clip-path: none;
+   color: #21759b;
+
+}
+</style>
+<a class="skip-link screen-reader-text" href="#page-content">Saltar al contenido</a>
+
+<div  id="page-top" class="header-top">
+		<div class="navigation-bar bordered"  data-sticky='0'  data-sticky-mobile='1'  data-sticky-to='top' >
+    <div class="navigation-wrapper ">
+    	<div class="row basis-auto">
+	        <div class="logo_col col-xs col-sm-fit">
+	            <a href="https://indefos.gob.mx/portal/" class="logo-link dark" rel="home" itemprop="url"  data-type="group"  data-dynamic-mod="true"><img width="1070" height="1178" src="https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248.png" class="logo dark" alt="" itemprop="logo" decoding="async" fetchpriority="high" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248.png 1070w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-272x300.png 272w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-930x1024.png 930w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-768x846.png 768w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-1024x1127.png 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-981x1080.png 981w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-600x661.png 600w" sizes="(max-width: 1070px) 100vw, 1070px" /></a><a href="https://indefos.gob.mx/portal/" class="custom-logo-link" data-type="group"  data-dynamic-mod="true" rel="home"><img width="4064" height="1182" src="https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL.png" class="custom-logo" alt="Indefos" decoding="async" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL.png 4064w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-300x87.png 300w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-1024x298.png 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-768x223.png 768w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-1536x447.png 1536w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-2048x596.png 2048w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-1920x558.png 1920w" sizes="(max-width: 4064px) 100vw, 4064px" /></a>	        </div>
+	        <div class="main_menu_col col-xs">
+	            <div id="mainmenu_container" class="row"><ul id="main_menu" class="active-line-bottom main-menu dropdown-menu"><li id="menu-item-2430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2430"><a href="https://indefos.gob.mx/portal/transparencia/">Transparencia</a>
+<ul class="sub-menu">
+	<li id="menu-item-3906" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3906"><a href="https://indefos.gob.mx/portal/transparencia-4/">Transparencia 2026</a>
+	<ul class="sub-menu">
+		<li id="menu-item-3904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3904"><a href="https://indefos.gob.mx/portal/obligaciones-comunes-2/">Obligaciones Comunes</a></li>
+		<li id="menu-item-3905" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3905"><a href="https://indefos.gob.mx/portal/obligaciones-especificas-2/">Obligaciones Específicas</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2736"><a>PAE</a>
+<ul class="sub-menu">
+	<li id="menu-item-3866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3866"><a href="https://indefos.gob.mx/portal/pae-2026/">2026</a></li>
+	<li id="menu-item-3435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3435"><a href="https://indefos.gob.mx/portal/pae-2025/">2025</a></li>
+	<li id="menu-item-3187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3187"><a href="https://indefos.gob.mx/portal/pae-2024/">2024</a></li>
+	<li id="menu-item-3066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3066"><a href="https://indefos.gob.mx/portal/pae-2023/">2023</a></li>
+	<li id="menu-item-2764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2764"><a href="https://indefos.gob.mx/portal/pae-2022/">2022</a></li>
+	<li id="menu-item-2763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2763"><a href="https://indefos.gob.mx/portal/pae-2021/">2021</a></li>
+	<li id="menu-item-2762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2762"><a href="https://indefos.gob.mx/portal/pae-2020/">2020</a></li>
+	<li id="menu-item-2761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2761"><a href="https://indefos.gob.mx/portal/pae-2019/">2019</a></li>
+	<li id="menu-item-2760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2760"><a href="https://indefos.gob.mx/portal/pae-2018/">2018</a></li>
+	<li id="menu-item-2759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2759"><a href="https://indefos.gob.mx/portal/pae-2017/">2017</a></li>
+	<li id="menu-item-2758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2758"><a href="https://indefos.gob.mx/portal/pae/">2016</a></li>
+</ul>
+</li>
+<li id="menu-item-2546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2546"><a href="https://indefos.gob.mx/portal/docto-complementos/">Complementos</a></li>
+<li id="menu-item-2429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2429"><a href="https://indefos.gob.mx/portal/sevac-2/">INF. FINANCIEROS</a></li>
+<li id="menu-item-2428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2428"><a href="https://indefos.gob.mx/portal/cocodi-indefos/">COCODI-INDEFOS</a></li>
+<li id="menu-item-2426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2426"><a href="https://indefos.gob.mx/portal/cepci/">CEPCI</a></li>
+<li id="menu-item-2427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2427"><a href="https://indefos.gob.mx/portal/norma/">Normativa</a></li>
+<li id="menu-item-2431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2431"><a href="https://indefos.gob.mx/portal/servicios/">Servicios</a></li>
+</ul></div>    <a href="#" data-component="offcanvas" data-target="#offcanvas-wrapper" data-direction="right" data-width="300px" data-push="false">
+        <div class="bubble"></div>
+        <i class="fa fa-bars"></i>
+    </a>
+    <div id="offcanvas-wrapper" class="hide force-hide  offcanvas-right">
+        <div class="offcanvas-top">
+            <div class="logo-holder">
+                <a href="https://indefos.gob.mx/portal/" class="logo-link dark" rel="home" itemprop="url"  data-type="group"  data-dynamic-mod="true"><img width="1070" height="1178" src="https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248.png" class="logo dark" alt="" itemprop="logo" decoding="async" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248.png 1070w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-272x300.png 272w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-930x1024.png 930w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-768x846.png 768w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-1024x1127.png 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-981x1080.png 981w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/cropped-INDEFOS-HORIZONTAL-e1727287629248-600x661.png 600w" sizes="(max-width: 1070px) 100vw, 1070px" /></a><a href="https://indefos.gob.mx/portal/" class="custom-logo-link" data-type="group"  data-dynamic-mod="true" rel="home"><img width="4064" height="1182" src="https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL.png" class="custom-logo" alt="Indefos" decoding="async" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL.png 4064w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-300x87.png 300w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-1024x298.png 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-768x223.png 768w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-1536x447.png 1536w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-2048x596.png 2048w, https://indefos.gob.mx/portal/wp-content/uploads/2022/08/INDEFOS-HORIZONTAL-1920x558.png 1920w" sizes="(max-width: 4064px) 100vw, 4064px" /></a>            </div>
+        </div>
+        <div id="offcanvas-menu" class="menu-menu-principal-container"><ul id="offcanvas_menu" class="offcanvas_menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2430"><a href="https://indefos.gob.mx/portal/transparencia/">Transparencia</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3906"><a href="https://indefos.gob.mx/portal/transparencia-4/">Transparencia 2026</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3904"><a href="https://indefos.gob.mx/portal/obligaciones-comunes-2/">Obligaciones Comunes</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3905"><a href="https://indefos.gob.mx/portal/obligaciones-especificas-2/">Obligaciones Específicas</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2736"><a>PAE</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3866"><a href="https://indefos.gob.mx/portal/pae-2026/">2026</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3435"><a href="https://indefos.gob.mx/portal/pae-2025/">2025</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3187"><a href="https://indefos.gob.mx/portal/pae-2024/">2024</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3066"><a href="https://indefos.gob.mx/portal/pae-2023/">2023</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2764"><a href="https://indefos.gob.mx/portal/pae-2022/">2022</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2763"><a href="https://indefos.gob.mx/portal/pae-2021/">2021</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2762"><a href="https://indefos.gob.mx/portal/pae-2020/">2020</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2761"><a href="https://indefos.gob.mx/portal/pae-2019/">2019</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2760"><a href="https://indefos.gob.mx/portal/pae-2018/">2018</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2759"><a href="https://indefos.gob.mx/portal/pae-2017/">2017</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2758"><a href="https://indefos.gob.mx/portal/pae/">2016</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2546"><a href="https://indefos.gob.mx/portal/docto-complementos/">Complementos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2429"><a href="https://indefos.gob.mx/portal/sevac-2/">INF. FINANCIEROS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2428"><a href="https://indefos.gob.mx/portal/cocodi-indefos/">COCODI-INDEFOS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2426"><a href="https://indefos.gob.mx/portal/cepci/">CEPCI</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2427"><a href="https://indefos.gob.mx/portal/norma/">Normativa</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2431"><a href="https://indefos.gob.mx/portal/servicios/">Servicios</a></li>
+</ul></div>
+            </div>
+    	        </div>
+	    </div>
+    </div>
+</div>
+</div>
+
+<div id="page" class="site">
+    <div class="header-wrapper">
+        <div  class='header  color-overlay' style='; background:#FF5E16'>
+            								    <div class="inner-header-description gridContainer">
+        <div class="row header-description-row">
+    <div class="col-xs col-xs-12">
+        <h1 class="hero-title">
+            Campeche        </h1>
+                    <p class="header-subtitle">Instituto de Desarrollo y Formación Social</p>
+            </div>
+        </div>
+    </div>
+        <script>
+		if (window.mesmerizeSetHeaderTopSpacing) {
+			window.mesmerizeSetHeaderTopSpacing();
+		}
+    </script>
+                        </div>
+    </div>
+    <div id='page-content' class="content post-page">
+        <div class="gridContainer">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <div class="post-item">
+						<div id="post-172"class="post-172 post type-post status-publish format-standard hentry category-transparencia tag-campeche">
+
+    <div class="post-content-single">
+
+        <h2 class="h1">Campeche</h2>
+
+        
+
+<div class="post-meta muted">
+
+  <i class="font-icon-post fa fa-user"></i>
+  <a href="https://indefos.gob.mx/portal/author/indefos/" rel="author">Instituto de Desarrollo y Formación Social</a>
+  &nbsp;&nbsp;<i class="font-icon-post fa fa-folder-o"></i>
+  <a href="https://indefos.gob.mx/portal/category/transparencia/" rel="category tag">Transparencia</a>
+  &nbsp;&nbsp;<i class="font-icon-post fa fa-calendar"></i>
+  <span class="post-date">julio 12, 2017</span>
+
+
+  &nbsp;|&nbsp;<i class="font-icon-post fa fa-comment-o"></i>
+  <span>0</span>
+</div>
+
+        <div class="post-content-inner">
+
+            <p><img decoding="async" class="aligncenter wp-image-878" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Escudo-de-Campeche-235x300.jpg" alt="" width="200" height="255" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Escudo-de-Campeche-235x300.jpg 235w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Escudo-de-Campeche.jpg 501w" sizes="(max-width: 200px) 100vw, 200px" /></p>
+<p style="text-align: justify;">El poblado de Ah-Kim-Pech, que en lengua maya significa «lugar de serpientes y garrapatas», se fundó en la tercera centuría de nuestra era.</p>
+<h3><span style="color: #333333;">Escudo</span></h3>
+<p style="text-align: justify;">El escudo de armas de la ciudad de San Francisco de Campeche, le fue otorgado en 1777 por el rey de España Carlos III. Está compuesto por cuatro cuarteles: dos con castillos en campo de gules y dos con galeones en campo de azur, todo el escudo esta orlado con el cordón de San Francisco y la corona real por servicios prestados.</p>
+<h3><span style="color: #333333;">Reseña</span></h3>
+<p style="text-align: justify;">El 4 de octubre de 1540, Campeche fue la primera villa fundada por los españoles en la península de Yucatán.</p>
+<p style="text-align: justify;">Antes de la conquista española, el área que actualmente ocupa Campeche estuvo poblada por la civilización maya. Su suelo sirvió de tránsito para los itzaes y los xiues, conquistadores de las grandes ciudades de Chichen-Itza y Uxmal, que en su momento fueron el corazón del señorío de Can Pech que significa «Lugar del Señor Sol garrapata» población que contaba con 15,000 habitantes aproximadamente, con unas 3,000 casas con paredes de lodo y techos de paja, muy similares a las actuales del área rural.</p>
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="aligncenter wp-image-879" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Campeche-300x93.jpg" alt="" width="500" height="155" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Campeche-300x93.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Campeche-768x238.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Campeche-660x205.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Campeche.jpg 941w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">Las primeras incursiones españolas a Campeche, fueron comandadas por Francisco Hernández de Córdoba en 1517 y Juan de Grijalva en 1518; tiempo después, en 1540, Francisco de Montejo, «El Mozo», decidió fundar una villa en el lugar que actualmente ocupa la plaza principal de Campeche, decretando la creación de San Francisco de Campeche, llamada antes San Lázaro y Salamanca.</p>
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="aligncenter wp-image-880" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/campeche61-300x194.jpg" alt="" width="500" height="323" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/campeche61-300x194.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/campeche61-768x495.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/campeche61-1024x661.jpg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/campeche61-660x426.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/campeche61.jpg 1116w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">Durante el periodo colonial, Campeche era un activo puerto comercial, centraba su atención en la explotación del palo de tinte, usado para la fabricación de colorantes y la fabricación de embarcaciones, y fungía como el puerto de entrada y salida de la provincia de Yucatán hacia la Metrópoli hispana. Esta riqueza y prosperidad provocó los ataques de piratas ingleses y holandeses, como Henry Morgan y William Parker, que buscaban no sólo apoderarse de las riquezas sino menoscabar el poderío de España, por lo que la corona española proyectó en 1651 la construcción de obras de protección en el puerto, que concluyeron en el siglo XVIII.</p>
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="aligncenter wp-image-883" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Conoce-campeche-300x179.jpeg" alt="" width="500" height="299" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Conoce-campeche-300x179.jpeg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Conoce-campeche-768x459.jpeg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Conoce-campeche-1024x612.jpeg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Conoce-campeche-660x394.jpeg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Conoce-campeche.jpeg 1600w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">La villa fue elevada a la categoría de ciudad por Cédula Real de Carlos III en octubre de 1777. Después de la Independencia, Campeche fue la cabecera del departamento del mismo nombre que era uno de los cinco integrantes del estado de Yucatán, más tarde, el 7 de agosto de 1857, un grupo de liberales encabezados por Pablo García, inició un movimiento popular para que el Distrito de Campeche se separase de Yucatán y se convirtiera en un estado más de la federación, decisión que ratificó el presidente Juárez el 29 de abril de 1863, quedando Campeche como capital del nuevo estado.</p>
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="aligncenter wp-image-885" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Sin-título-3-300x113.jpg" alt="" width="500" height="188" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Sin-título-3-300x113.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Sin-título-3-768x288.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Sin-título-3-1024x384.jpg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Sin-título-3-660x248.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Sin-título-3.jpg 1920w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p>&nbsp;</p>
+<h3><span style="color: #333333;">Localización</span></h3>
+<p style="text-align: justify;">Limita al norte con el municipio de Tenabo, al este con el municipio de Hopelchén, al sur con el municipio de Champotón y al oeste con el Golfo de México, que posee un litoral de 60 Km.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-173" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Municipio-Campeche-232x300.jpg" alt="" width="500" height="647" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Municipio-Campeche-232x300.jpg 232w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Municipio-Campeche-768x994.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Municipio-Campeche-791x1024.jpg 791w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Municipio-Campeche.jpg 1700w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">Geográficamente se ubica entre los paralelos 19° 14&#8242; y 20° 00&#8242; de latitud norte, y entre los meridianos 89° 50&#8242; y 90° 42&#8242; de longitud oeste de Greenwich.</p>
+<h3><span style="color: #333333;">Recursos Naturales</span></h3>
+<p>Forestal</p>
+<p style="text-align: justify;">El número de hectáreas con selva mediana y alta, susceptible de explotación es de 243,649 hectáreas, cifra equivalente al 71.44% de la superficie municipal.</p>
+<p>Mineral</p>
+<p style="text-align: justify;">Se extrae piedra y sascab, con lo que se alimenta la industria que tiene como principales giros: trituradoras, bloqueras, fábrica de bovedillas, mosaicos y viguetas.</p>
+<h3><span style="color: #333333;">Monumentos Históricos</span></h3>
+<h4><span style="color: #333333;">Arquitectura militar</span></h4>
+<p style="text-align: justify;">El Baluarte de la Soledad es también el museo de las estelas mayas. Es una construcción que data de los siglos XVII y XVIII, edificado basándose en piedra cantera y sahcab. Su superficie es de 2,344 m2., consta de 3 salas y un portal. El techo de la sala principal es de rollizo, dividido por arcos torales. Posee terraplén con 3 arcos debajo del mismo. Anexo al baluarte existe un lienzo de muralla de aproximadamente 150 metros con paso de ronda y atalayas. El baluarte tiene 2 garitones y el lienzo. Uno sirvió como parte del sistema defensivo; posteriormente como aduana marítima, y por muchos años hasta 1929, como vecindad.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-889" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_Señora_de_Soledad-300x165.jpg" alt="" width="500" height="275" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_Señora_de_Soledad-300x165.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_Señora_de_Soledad-768x422.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_Señora_de_Soledad-660x363.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_Señora_de_Soledad.jpg 1000w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">El Baluarte de San Carlos, fue construido en 1676, es de estilo barroco y de carácter militar, substituyó al castillo de San Benito. El material utilizado para su construcción fue piedra cantera y sahcab. Su superficie es de 1,549 metros cuadrados; cuenta con 3 salas, un purguero, un terraplén de acceso, además de 2 grandes garitones; esta rodeado de almenas. Sirvió como parte del sistema defensivo de la ciudad.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-890" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/BALUARTE-DE-SAN-CARLOS-300x164.jpg" alt="" width="500" height="273" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/BALUARTE-DE-SAN-CARLOS-300x164.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/BALUARTE-DE-SAN-CARLOS-768x419.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/BALUARTE-DE-SAN-CARLOS-1024x559.jpg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/BALUARTE-DE-SAN-CARLOS-660x360.jpg 660w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">El Baluarte de San Francisco, fue construido a fines del siglo XVII y principios del XVIII a base de piedra cantera y sahcab; con una superficie de 1,341 metros cuadrados, el cual se dividió en dos partes para dar paso al tranvía.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-892" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-de-San-Francisco-300x200.jpg" alt="" width="500" height="333" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-de-San-Francisco-300x200.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-de-San-Francisco-768x511.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-de-San-Francisco-660x440.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-de-San-Francisco.jpg 1000w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">El Baluarte de San Juan, es una construcción que data de los siglos XVII y XVIII, a base de piedra cantera y sahcab. Posee 3 garitones y un terraplén rodeado de almenas; fue utilizado como parte del sistema defensivo de la ciudad.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-893" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_de_San_Juan-300x180.jpg" alt="" width="500" height="300" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_de_San_Juan-300x180.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_de_San_Juan-768x460.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_de_San_Juan-660x395.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_de_San_Juan.jpg 1000w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">El Baluarte de San Pedro fue construido hacia fines del siglo XVII y principios del XVIII, a base de piedra cantera, sahcab y tierra de cancab. Consta de 3 recámaras. Ocupa un área de 1,137 metros cuadrados. Fue utilizado como parte del sistema de defensa de la ciudad y por parte del clero como prisión.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-894" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_de_San_Pedro-300x200.jpg" alt="" width="500" height="333" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_de_San_Pedro-300x200.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_de_San_Pedro-768x511.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_de_San_Pedro-660x440.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte_de_San_Pedro.jpg 1000w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">El Baluarte de Santa Rosa, es una edificación que data de los siglos XVII y XVIII, construido a base de piedra cantera y sahcab. Su superficie es de 1,157 metros cuadrados. Cuenta con 3 salas y un aljibe en medio de la plaza principal, además de terraplén para llegar a la parte superior. Formó parte del sistema de defensa de la ciudad y posteriormente se utilizó como vecindad.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-895" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santa-Rosa-2-300x113.jpg" alt="" width="500" height="188" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santa-Rosa-2-300x113.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santa-Rosa-2-768x288.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santa-Rosa-2-1024x384.jpg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santa-Rosa-2-660x248.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santa-Rosa-2.jpg 1920w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">El Baluarte de Santiago, cuya construcción original de este edificio es del siglo XVII y XVIII de piedra cantera y sahcab, fue demolido a principios de este siglo y reedificado en la década de los cincuenta. La construcción original se hizo con el objeto de formar parte del sistema defensivo de la ciudad, actualmente es ocupado por el jardín botánico Xmuch-Haltun (nombre que significa «agua que brota de la tierra».</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-896" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santiago-300x113.jpg" alt="" width="500" height="188" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santiago-300x113.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santiago-768x288.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santiago-1024x384.jpg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santiago-660x248.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Baluarte-Santiago.jpg 1920w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">La batería de San Luis fue construida en el siglo XIX, a base de piedra y sahcab. Su superficie es de 2,146 metros cuadrados. Esta rodeado por un foso de 4 metros de profundidad y 3 metros de ancho. Cuenta con 2 salas laterales, un terraplén, cañoneras y 2 garitones. Sirvió como parte del sistema defensivo de la ciudad.</p>
+<p style="text-align: justify;">La batería de San Matías es una construcción de piedra y sahcab, iniciada en el siglo XVIII y concluida en el siglo XIX; es una fortificación de forma elíptica con remate almenado, cuenta con un aljibe interior. El acceso se realiza a través de una rampa de piedra.</p>
+<p style="text-align: justify;">Fuerte de San José el Alto, construido a fines del siglo XVIII (1790) a base de piedra, cantera y sahcab, rodeado en el frente por un foso rematado con una muralla de piedra y terraplén, acceso empedrado y puente levadizo de madera; edificio con remate almenado en sus muros, que consta de 9 crujías, un patio central y aljibe.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-897" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/san-jose-300x113.jpg" alt="" width="500" height="188" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/san-jose-300x113.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/san-jose-768x288.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/san-jose-1024x384.jpg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/san-jose-660x248.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/san-jose.jpg 1920w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">Fuerte de San Miguel, data del siglo XVIII. Es de piedra cantera y sahcab; tiene 11 salas más 2 pequeñas celdas, 2 escalinatas de acceso a la parte superior; posee 3 garitones y 15 cañoneras, un aljibe en medio de la plazuela; esta rodeado por un foso y su entrada es a través de un puente levadizo, tiene paso de ronda, troneras, atalayas y almenas.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-898" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/fuerte-san-miguel-300x225.jpg" alt="" width="500" height="375" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/fuerte-san-miguel-300x225.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/fuerte-san-miguel-768x576.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/fuerte-san-miguel-1024x768.jpg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/fuerte-san-miguel-660x495.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/fuerte-san-miguel.jpg 1200w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">Puerta de mar, edificada durante los siglos XVII y XVIII originalmente construida de piedra cantera y sahcab; actualmente es de mampostería. Posee un arco interior de piedra cantera y un garitón en la parte superior, esta coronada por un campanario; a sus costados tiene una pequeña escalinata. En otras épocas constituyó la principal salida de la ciudad al mar.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-899" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-mar-300x113.jpg" alt="" width="500" height="188" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-mar-300x113.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-mar-768x288.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-mar-1024x384.jpg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-mar-660x248.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-mar.jpg 1920w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p>Puerta de tierra, data del siglo XVIII (1732)Esta construida a base de piedra cantera y sahcab. Tiene una altura de 8.40 metros, una base de 2.60 metros, y un grosor de 2.27 metros. Posee 2 salas laterales y un portón ferrado; su techo de bóveda de cañón corrido, con nichos a ambos lados; barbacana en la parte interior y en su exterior un foso que la rodea. Se llega a la parte de arriba por medio de unas escalinatas; ahí alberga una zaratán, desde donde eran lanzadas las granadas. Inicialmente sirvió como puerta de acceso a los habitantes del barrio de Santa Ana y como parte del sistema defensivo.<img loading="lazy" decoding="async" class="aligncenter wp-image-900" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-Tierra-300x113.jpg" alt="" width="500" height="188" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-Tierra-300x113.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-Tierra-768x288.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-Tierra-1024x384.jpg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-Tierra-660x248.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/Puerta-de-Tierra.jpg 1920w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<h3><span style="color: #333333;">Gastronomía</span></h3>
+<p style="text-align: justify;">Existe una gran gama de platillos como es el pan de cazón, pámpano en escabeche, frijol con puerco, puchero, tamales, mondongo, chocolomo, cochinita, hibes con puerco y relleno negro; complementado con dulces, como el nance, ciruela, piña, ciricote, cocoyol, calabaza, papaya, camote, marañon, coco, tamarindo, mango y yuca.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-901" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/pan-de-zacon-300x225.jpg" alt="" width="500" height="375" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/pan-de-zacon-300x225.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/pan-de-zacon-768x576.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/pan-de-zacon-1024x768.jpg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/pan-de-zacon-660x495.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/pan-de-zacon.jpg 1600w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<p style="text-align: justify;">En sus bebidas ofrece una gran variedad pudiendo disfrutarse el coco, atole de maíz nuevo, aguas de horchata, marañon, mango, piña, naranja, saramullo, toronja, Jamaica, papaya, pitahaya, nance, Sandia, entre otras.</p>
+<h3><span style="color: #333333;">Artesanías</span></h3>
+<p style="text-align: justify;">Se realizan trabajos como collares, pulsos de media caña, aretes anillos, prendedores y medallas de carey, plata o filigrana; también podemos encontrar una gran variedad de muebles realizadas de maderas finas así como alhajeras, objetos marinos, guitarras y cigarreras.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-902" src="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/arte-300x225.jpg" alt="" width="500" height="375" srcset="https://indefos.gob.mx/portal/wp-content/uploads/2017/01/arte-300x225.jpg 300w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/arte-768x576.jpg 768w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/arte-1024x768.jpg 1024w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/arte-660x495.jpg 660w, https://indefos.gob.mx/portal/wp-content/uploads/2017/01/arte.jpg 1600w" sizes="auto, (max-width: 500px) 100vw, 500px" /></p>
+<h3><span style="color: #333333;">Música</span></h3>
+<p style="text-align: justify;">La música tradicional es la jarana, que se desarrolla en vaquerías, jaripeos, en las fiestas y ferias tradicionales del municipio.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<pre>Para más información visita:</pre>
+<p style="text-align: left;"><a href="http://www.campeche.gob.mx/" target="_blank" rel="noopener">www.campeche.gob.mx</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<pre>Fuente:
+http://www.inafed.gob.mx/work/enciclopedia</pre>
+
+        </div>
+
+        <p class="tags-list"><i data-cp-fa="true" class="font-icon-25 fa fa-tags"></i>&nbsp;<a href="https://indefos.gob.mx/portal/tag/campeche/" rel="tag">Campeche</a></p>
+    </div>
+
+
+    
+	<nav class="navigation post-navigation" aria-label="Entradas">
+		<h2 class="screen-reader-text">Navegación de entradas</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://indefos.gob.mx/portal/calkini/" rel="prev"><i class="font-icon-post fa fa-angle-double-left"></i><span class="meta-nav" aria-hidden="true">Anterior:</span> <span class="screen-reader-text">Entrada anterior:</span> <span class="post-title">Calkiní</span></a></div><div class="nav-next"><a href="https://indefos.gob.mx/portal/candelaria/" rel="next"><span class="meta-nav" aria-hidden="true">Siguiente:</span> <span class="screen-reader-text">Siguiente entrada:</span> <span class="post-title">Candelaria</span><i class="font-icon-post fa fa-angle-double-right"></i></a></div></div>
+	</nav>
+</div>
+                    </div>
+                </div>
+				            </div>
+        </div>
+
+    </div>
+<div  class='footer footer-contact-boxes'>
+    <div  class='footer-content'>
+        <div class="gridContainer">
+            <div class="row text-center">
+                <div class="col-sm-3">
+                        <div data-type="group"  data-dynamic-mod="true">
+        <i class="big-icon fa fa-map-marker"></i>
+        <p>
+            Calle 10, numero 219, barrio de Guadalupe, San Francisco de Campeche, Campeche        </p>
+    </div>
+                    </div>
+                <div class="col-sm-3">
+                        <div data-type="group"  data-dynamic-mod="true">
+        <i class="big-icon fa fa-envelope-o"></i>
+        <p>
+            indefos@indefos.gob.mx
+indefos.camp@indefos.gob.mx        </p>
+    </div>
+                    </div>
+                <div class="col-sm-3">
+                        <div data-type="group"  data-dynamic-mod="true">
+        <i class="big-icon fa fa-phone"></i>
+        <p>
+            981-81-1-27-47        </p>
+    </div>
+                    </div>
+                <div class="col-sm-3 footer-bg-accent">
+                    <div>
+                            <div data-type="group"  data-dynamic-mod="true" class="footer-social-icons">
+                      <a target="_blank"  class="social-icon" href="https://www.facebook.com/indefosgob">
+                  <i class="fa fa-facebook-official"></i>
+              </a>
+                            <a target="_blank"  class="social-icon" href="https://twitter.com/indefos">
+                  <i class="fa fa-twitter-square"></i>
+              </a>
+              
+    </div>
+
+                        </div>
+                    <p  class="copyright">&copy;&nbsp;&nbsp;2026&nbsp;Indefos.&nbsp;Creado usando WordPress y el <a rel="nofollow" target="_blank" href="https://extendthemes.com/go/built-with-mesmerize/" class="mesmerize-theme-link">tema Mesmerize</a></p>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	</div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/portal/*"},{"not":{"href_matches":["/portal/wp-*.php","/portal/wp-admin/*","/portal/wp-content/uploads/*","/portal/wp-content/*","/portal/wp-content/plugins/*","/portal/wp-content/themes/mesmerize/*","/portal/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div class="modal-window" id="modal-window-7" role="dialog" aria-modal="true"  aria-live="off"><div class="modal-window__wrapper"><div class="modal-window__content"><div class="modal-window__content-wrapper"><div class="modal-window__content-main"><p style="text-align: center"></p></div></div><div class="modal-window__close" tabindex="0" role="button" aria-label="Close">Close</div></div></div></div>    <script>
+        /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () {
+            var t, e = location.hash.substring(1);
+            /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus())
+        }, !1);
+    </script>
+	        <script data-cfasync="false">
+            window.dFlipLocation = 'https://indefos.gob.mx/portal/wp-content/plugins/3d-flipbook-dflip-lite/assets/';
+            window.dFlipWPGlobal = {"text":{"toggleSound":"Turn on\/off Sound","toggleThumbnails":"Toggle Thumbnails","toggleOutline":"Toggle Outline\/Bookmark","previousPage":"Previous Page","nextPage":"Next Page","toggleFullscreen":"Toggle Fullscreen","zoomIn":"Zoom In","zoomOut":"Zoom Out","toggleHelp":"Toggle Help","singlePageMode":"Single Page Mode","doublePageMode":"Double Page Mode","downloadPDFFile":"Download PDF File","gotoFirstPage":"Goto First Page","gotoLastPage":"Goto Last Page","share":"Share","mailSubject":"I wanted you to see this FlipBook","mailBody":"Check out this site {{url}}","loading":"DearFlip: Loading "},"viewerType":"flipbook","moreControls":"download,pageMode,startPage,endPage,sound","hideControls":"","scrollWheel":"false","backgroundColor":"#777","backgroundImage":"","height":"auto","paddingLeft":"20","paddingRight":"20","controlsPosition":"bottom","duration":800,"soundEnable":"true","enableDownload":"true","showSearchControl":"false","showPrintControl":"false","enableAnnotation":false,"enableAnalytics":"false","webgl":"true","hard":"none","maxTextureSize":"1600","rangeChunkSize":"524288","zoomRatio":1.5,"stiffness":3,"pageMode":"0","singlePageMode":"0","pageSize":"0","autoPlay":"false","autoPlayDuration":5000,"autoPlayStart":"false","linkTarget":"2","sharePrefix":"flipbook-"};
+        </script>
+      <script id="wp-hooks-js" src="https://indefos.gob.mx/portal/wp-content/plugins/gutenberg/build/scripts/hooks/index.min.js?ver=509e12e4e65532471214"></script>
+<script id="wp-i18n-js" src="https://indefos.gob.mx/portal/wp-content/plugins/gutenberg/build/scripts/i18n/index.min.js?ver=f00703e623798485e15a"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="https://indefos.gob.mx/portal/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.7"></script>
+<script id="contact-form-7-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2025-12-01 15:45:40+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"This contact form is placed in the wrong place.":["Este formulario de contacto est\u00e1 situado en el lugar incorrecto."],"Error:":["Error:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+//# sourceURL=contact-form-7-js-translations
+</script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/indefos.gob.mx\/portal\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://indefos.gob.mx/portal/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.7"></script>
+<script id="call_ac-custom-js-front-js" src="https://indefos.gob.mx/portal/wp-content/plugins/responsive-accordion-and-collapse/js/accordion-custom.js?ver=7.1.5"></script>
+<script id="call_ac-js-front-js" src="https://indefos.gob.mx/portal/wp-content/plugins/responsive-accordion-and-collapse/js/accordion.js?ver=7.1.5"></script>
+<script id="imagesloaded-js"  defer="defer" src="https://indefos.gob.mx/portal/wp-includes/js/imagesloaded.min.js?ver=5.0.0"></script>
+<script id="masonry-js"  defer="defer" src="https://indefos.gob.mx/portal/wp-includes/js/masonry.min.js?ver=4.2.2"></script>
+<script id="mesmerize-theme-js"  defer="defer" src="https://indefos.gob.mx/portal/wp-content/themes/mesmerize/assets/js/theme.bundle.min.js?ver=1.6.187"></script>
+<script id="dflip-script-js" src="https://indefos.gob.mx/portal/wp-content/plugins/3d-flipbook-dflip-lite/assets/js/dflip.min.js?ver=2.4.37"></script>
+<script id="modal-window-js-extra">
+var ModalWindow = {"modal-window-7":{"overlay":true,"blockPage":true,"action":["click",0],"closeAction":[true,true],"mobile":[480,100,"px"],"triggers":["wow-modal-id-7","wow-modal-close-7","wow-button-close7"],"animation":["fade",400,"fade",400],"style":{"--mw-zindex":"999999","--mw-position":"fixed","--mw-radius":"5px","--mw-padding":"10px","--mw-font-size":"16px","--mw-font-family":"inherit","--mw-bg-color":"#ffffff","--mw-overlay":"rgba(0,0,0,.7)","--mw-scrollbar-width":"thin","--mw-scrollbar-color":"#4F4F4F","--mw-scrollbar-track":"rgba(255,255,255, 0)","--mw-scrollbar-thin":"6px","--mw-width":"662px","--mw-height":"auto","--mw-inset-top":"10vh","--mw-inset-right":"10%","--mw-inset-left":"10%","--mw-close-padding":"6px 12px","--mw-close-size":"12px","--mw-close-font":"inherit","--mw-close-weight":"400","--mw-close-style":"normal","--mw-close-radius":"0px","--mw-close-box":"24px","--mw-close-color":"#ffffff","--mw-close-h-color":"#000000","--mw-close-bg":"#000000","--mw-close-h-bg":"#ffffff","--mw-close-inset":"0px 0px auto auto"}},"ajaxurl":"https://indefos.gob.mx/portal/wp-admin/admin-ajax.php","nonce":"11f259d1d6"};
+//# sourceURL=modal-window-js-extra
+</script>
+<script id="modal-window-js" src="https://indefos.gob.mx/portal/wp-content/plugins/modal-window/public/assets/js/modalWindow.min.js?ver=6.3.1"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://indefos.gob.mx/portal/wp-includes/js/wp-emoji-release.min.js?ver=7.1.5"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://indefos.gob.mx/portal/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>

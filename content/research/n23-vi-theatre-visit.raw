@@ -1,0 +1,1333 @@
+<!doctype html>
+<html xml:lang="it-it" lang="it-it" >
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <base href="https://www.teatrolimpicovicenza.it/visite/info-orari" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Teatro Olimpico, Vicenza, Andrea Palladio" />
+	<meta name="rights" content="copyright Consorzio Turistico Vicenzae, site powered by genialab.it" />
+	<meta name="description" content="Teatro Olimpico in Vicenza, by Andrea Palladio architect" />
+	<meta name="generator" content="Joomla! - Open Source Content Management - Version 3.10.12" />
+	<title>Info &amp; Orari - Teatro Olimpico Vicenza</title>
+	<link href="/templates/ts_ybiz/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://www.teatrolimpicovicenza.it//plugins/content/bt_socialshare/assets/bt_socialshare.css" rel="stylesheet" type="text/css" />
+	<link href="/media/plg_system_jcemediabox/css/jcemediabox.min.css?eb6775d1512159161e78f11c8b83a3a1" rel="stylesheet" type="text/css" />
+	<link href="/media/plg_system_jcepro/site/css/content.min.css?86aa0286b6232c4a5b58f892ce080277" rel="stylesheet" type="text/css" />
+	<link href="/templates/ts_ybiz/css-compiled/menu-f106317c22cbac061874cbc54fa9518c.css" rel="stylesheet" type="text/css" />
+	<link href="/libraries/gantry/css/grid-responsive.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ts_ybiz/css-compiled/bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ts_ybiz/css-compiled/master-d7cec2eac29157aecd0e4a614035a7f6.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ts_ybiz/css-compiled/mediaqueries.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ts_ybiz/css/ts_ybiz-custom.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_popupaholic/css/jquery.gafancybox.min.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_rokajaxsearch/css/rokajaxsearch.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_rokajaxsearch/themes/light/rokajaxsearch-theme.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_slideshowck/themes/default/css/camera.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css" />
+	<link href="https://www.teatrolimpicovicenza.it/modules/mod_jf_mobilemenu/assets/jf_mm.min.css" rel="stylesheet" type="text/css" />
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/media/mod_languages/css/template.css?a0570000523b015594edb21a934cafbb" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+a, ul.menu li .separator {color:#ff0201;}.button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button, .btn-primary {border-color:#9a0100;}.button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button, .btn-primary {background-color: #ff1615; #ff1615}
+.button:hover, .readon:hover, .readmore:hover, button.validate:hover, #member-profile a:hover, #member-registration a:hover, .formelm-buttons button:hover, .btn-primary:hover {background-color: #ff3534; #ff3534}
+.button:active, .readon:active, .readmore:active, button.validate:active, #member-profile a:active, #member-registration a:active, .formelm-buttons button:active, .btn-primary:active {background-color: #f60100; #f60100}
+#rt-logo {background: url(/images/loghi/logo-teatro-olimpico-vicenza.png) 50% 0 no-repeat !important;}
+#rt-logo {width: 200px;height: 80px;}
+
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+
+        a.flag {text-decoration:none;}
+        a.flag img {vertical-align:middle;padding:0;margin:0;border:0;display:inline;height:24px;opacity:0.8;}
+        a.flag:hover img {opacity:1;}
+        a.flag span {margin-right:5px;font-size:15px;vertical-align:middle;}
+    #camera_wrap_150 .camera_pag_ul li img, #camera_wrap_150 .camera_thumbs_cont ul li > img {height:75px;}
+#camera_wrap_150 .camera_caption {
+	display: block;
+	position: absolute;
+}
+#camera_wrap_150 .camera_caption > div {
+	-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px;font-family:'Droid Sans';
+}
+#camera_wrap_150 .camera_caption > div div.camera_caption_title {
+	font-size: 12px;
+}
+#camera_wrap_150 .camera_caption > div div.camera_caption_desc {
+	font-size: 10px;
+}
+
+@media screen and (max-width: 480px) {
+		#camera_wrap_150 .camera_caption {
+			font-size: 0.6em !important;
+		}
+}@media(max-width:768px){.jf_mm_trigger,#jf_mm_menu{display:block}}/*STILI MODULO MENU MOBILE*/
+
+/* Posizionamento della banda header */
+#rt-top-surround {
+   z-index: 970 !important;
+}
+
+/* Fa in modo che l'header non stia sopra il menu mobile*/
+#rt-header, #rt-top {
+    z-index: 2;
+    position: unset;
+}
+
+/*Disabilita il vecchio menu*/
+.gf-menu-toggle {
+ display:none !important;
+}
+#rt-drawer > div > div.rt-grid-12.rt-alpha.rt-omega > div {
+padding:0px !important;
+margin:0px !important;
+}
+
+/*bottone del menu*/
+.jf_mm_trigger {
+    background-color: rgba(255, 255, 255, 0.0) !important;
+    color: #000000 !important;
+    position: fixed;
+    z-index: 981;
+    width: 34px;
+    height: 30px;
+    /*color: #F5F5F5;*/
+    top: 4px;
+    left: 8px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    /*background: #4A5052;*/
+    line-height: 35px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+/*Stili del menu*/
+
+/*Ombra del menu*/
+.fa-bars:before {
+    box-shadow: 0px 0px 5px #FFFFFF;
+    background-color: rgba(255,255,255,0.5);
+}
+
+/* titolo*/
+.jf_mm_wrapper h2 {
+    font-size: 0.9em;
+    line-height: 1em;
+    font-weight: 400;
+    color: rgba(255,255,255,.3);
+    padding: 0 .4em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.jf_mm_wrapper .levelHolderClass {
+position:absolute;overflow:hidden;
+top:0;
+background:#4A5052;
+width:auto;
+min-height:100%;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:16px;
+zoom:1}
+			.jf_mm_trigger{background-color:#4a5052;color:#f5f5f5}
+			.jf_mm_wrapper .levelHolderClass,.jf_mm_wrapper .jf_mm_inactive{background-color:#4a5052}
+			.jf_mm_wrapper li{background-color:#4a5052}
+			.jf_mm_wrapper li:hover{background-color:#434749}
+			.jf_mm_wrapper .backItemClass{background-color:#444444}
+			.jf_mm_wrapper .backItemClass:hover{background-color:#333333}
+			.jf_mm_wrapper li,.jf_mm_wrapper li:last-child,.jf_mm_wrapper .backItemClass{border-color:#5a5e5f}
+			.jf_mm_wrapper h2{color:#888888}
+			.jf_mm_wrapper a,.jf_mm_wrapper a:hover{color:#eeeeee}
+			.jf_mm_wrapper .ltr,.jf_mm_wrapper .rtl{-webkit-box-shadow:5px 0 5px -5px #202020;-moz-box-shadow:5px 0 5px -5px #202020;box-shadow:5px 0 5px -5px #202020;}
+		#jf_mm_menu.jf_hidden{display:none!important}
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"36dad400de8544afbd348eeecc7b91f4","system.paths":{"root":"","base":""}}</script>
+	<script src="/media/jui/js/jquery.min.js?a0570000523b015594edb21a934cafbb" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?a0570000523b015594edb21a934cafbb" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?a0570000523b015594edb21a934cafbb" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?a0570000523b015594edb21a934cafbb" type="text/javascript"></script>
+	<script src="/media/plg_system_jcemediabox/js/jcemediabox.min.js?eb6775d1512159161e78f11c8b83a3a1" type="text/javascript"></script>
+	<script src="/media/system/js/mootools-core.js?a0570000523b015594edb21a934cafbb" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?a0570000523b015594edb21a934cafbb" type="text/javascript"></script>
+	<script src="/media/system/js/mootools-more.js?a0570000523b015594edb21a934cafbb" type="text/javascript"></script>
+	<script src="/libraries/gantry/js/gantry-totop.js" type="text/javascript"></script>
+	<script src="/libraries/gantry/js/browser-engines.js" type="text/javascript"></script>
+	<script src="/templates/ts_ybiz/js/rokmediaqueries.js" type="text/javascript"></script>
+	<script src="/templates/ts_ybiz/js/fixed-header.js" type="text/javascript"></script>
+	<script src="/templates/ts_ybiz/js/slidebutton.js" type="text/javascript"></script>
+	<script src="/templates/ts_ybiz/js/hidecontent.js" type="text/javascript"></script>
+	<script src="/modules/mod_roknavmenu/themes/default/js/rokmediaqueries.js" type="text/javascript"></script>
+	<script src="/modules/mod_roknavmenu/themes/default/js/responsive.js" type="text/javascript"></script>
+	<script src="/modules/mod_roknavmenu/themes/default/js/responsive-selectbox.js" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js?a0570000523b015594edb21a934cafbb" type="text/javascript"></script>
+	<script src="/modules/mod_popupaholic/js/jquery.gafancybox.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_popupaholic/js/jquery.gafancybox-media.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_popupaholic/js/jquery.popup.js" type="text/javascript"></script>
+	<script src="/modules/mod_popupaholic/js/popper.js" type="text/javascript"></script>
+	<script src="/modules/mod_popupaholic/js/jquery-cookie.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_rokajaxsearch/js/rokajaxsearch.js" type="text/javascript"></script>
+	<script src="/modules/mod_slideshowck/assets/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="/modules/mod_slideshowck/assets/camera.min.js" type="text/javascript"></script>
+	<script src="https://www.teatrolimpicovicenza.it/modules/mod_jf_mobilemenu/assets/jquery.jf_multilevelpushmenu.min.js" type="text/javascript"></script>
+	<script src="https://www.teatrolimpicovicenza.it/modules/mod_jf_mobilemenu/assets/jf_mm.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});jQuery(document).ready(function(){WfMediabox.init({"base":"\/","theme":"standard","width":"","height":"","lightbox":0,"shadowbox":0,"icons":1,"overlay":1,"overlay_opacity":0.8,"overlay_color":"#000000","transition_speed":500,"close":2,"labels":{"close":"PLG_SYSTEM_JCEMEDIABOX_LABEL_CLOSE","next":"PLG_SYSTEM_JCEMEDIABOX_LABEL_NEXT","previous":"PLG_SYSTEM_JCEMEDIABOX_LABEL_PREVIOUS","cancel":"PLG_SYSTEM_JCEMEDIABOX_LABEL_CANCEL","numbers":"PLG_SYSTEM_JCEMEDIABOX_LABEL_NUMBERS","numbers_count":"PLG_SYSTEM_JCEMEDIABOX_LABEL_NUMBERS_COUNT","download":"PLG_SYSTEM_JCEMEDIABOX_LABEL_DOWNLOAD"},"swipe":true,"expand_on_click":true,"display_mode":"fit"});});window.addEvent((window.webkit) ? 'load' : 'domready', function() {
+				window.rokajaxsearch = new RokAjaxSearch({
+					'results': 'Results',
+					'close': '',
+					'websearch': 0,
+					'blogsearch': 0,
+					'imagesearch': 0,
+					'videosearch': 0,
+					'imagesize': 'SMALL',
+					'safesearch': 'MODERATE',
+					'search': 'Search...',
+					'readmore': 'Read more...',
+					'noresults': 'No results',
+					'advsearch': 'Advanced search',
+					'page': 'Page',
+					'page_of': 'of',
+					'searchlink': 'https://www.teatrolimpicovicenza.it/index.php?option=com_search&amp;view=search&amp;tmpl=component',
+					'advsearchlink': 'https://www.teatrolimpicovicenza.it/index.php?option=com_search&amp;view=search',
+					'uribase': 'https://www.teatrolimpicovicenza.it/',
+					'limit': '10',
+					'perpage': '3',
+					'ordering': 'newest',
+					'phrase': 'any',
+					'hidedivs': '',
+					'includelink': 1,
+					'viewall': 'View all results',
+					'estimated': 'estimated',
+					'showestimated': 0,
+					'showpagination': 1,
+					'showcategory': 1,
+					'showreadmore': 1,
+					'showdescription': 1
+				});
+			});
+		jQuery(document).ready(function(){
+			new Slideshowck('#camera_wrap_150', {
+				 height: '28.33%',
+				 minHeight: '0',
+				 pauseOnClick: false,
+				 hover: 1,
+				 fx: 'random',
+				 loader: 'none',
+				 pagination: 0,
+				 thumbnails: 0,
+				 thumbheight: 75,
+				 thumbwidth: 100,
+				 time: 7000,
+				 transPeriod: 1500,
+				 alignment: 'center',
+				 autoAdvance: 1,
+				 mobileAutoAdvance: 1,
+				 portrait: 0,
+				 barDirection: 'leftToRight',
+				 imagePath: '/modules/mod_slideshowck/images/',
+				 lightbox: 'squeezebox',
+				 fullpage: 0,
+				 mobileimageresolution: '640',
+				 navigationHover: false,
+					mobileNavHover: false,
+					navigation: false,
+					playPause: false,
+				 barPosition: 'bottom',
+				 responsiveCaption: 0,
+				 keyboardNavigation: 0,
+				 container: ''
+		});
+}); 
+
+				var jf_mm_icons = [ 
+					{itemID:"-"+"",fa_icon:"",img:"",style:""}
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				];
+				jQuery(document).ready(function($){$("#jf_mm_menu").jf_mm_menu()});
+			var jf_mm_direction = "ltr";var jf_mm_backBtnTxt = "Torna indietro";!function(n){n(window).load(function(){n("#jf_mm_menu").removeClass("jf_hidden")})}(jQuery);
+	</script>
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Info & Orari" />
+	<meta property="og:url" content="https://www.teatrolimpicovicenza.it/visite/info-orari" />
+	<meta property="og:description" content="ORARI DI VISITA
+Il Teatro Olimpico è aperto al pubblico tutto l'anno, dal martedì alla domenica.
+
+
+
+
+Orario regolare
+1 settembre -&nbsp;30 giugno
+
+
+Da LUNEDì a domenica&nbsp;dalle 9 alle 17&nbsp;&nbsp;(ultima entrata 16.30)
+NEW! aperto anche nelle giornate di lunedì a partire dal 2.11" />
+</head>
+<body  class="logo-type-custom mainstyle-preset3 font-family-helvetica font-size-is-default menu-type-dropdownmenu layout-mode-responsive col12">
+		<div id="rt-top" >
+		<div class="rt-container">
+			<div class="rt-grid-12 rt-alpha rt-omega">
+               <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<div class="mod-languages">
+
+	<ul class="lang-inline" dir="ltr">
+									<li class="lang-active">
+			<a href="https://www.teatrolimpicovicenza.it/visite/info-orari">
+												<img src="/media/mod_languages/images/Italy_32px.gif" alt="Italiano" title="Italiano" />										</a>
+			</li>
+								<li>
+			<a href="/en/visit/info-timetables">
+												<img src="/media/mod_languages/images/uk+us_32px.gif" alt="English (UK)" title="English (UK)" />										</a>
+			</li>
+								<li>
+			<a href="/zh/visit/info-timetables">
+												<img src="/media/mod_languages/images/China_32px.gif" alt="中文（简体）" title="中文（简体）" />										</a>
+			</li>
+				</ul>
+
+</div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+		<div class="ts-main rt-container">
+        <header id="rt-top-surround">
+				<div id="rt-header">
+			<div class="rt-container">
+				<div class="rt-grid-3 rt-alpha">
+            <div class="rt-block logo-block">
+            <a href="/" id="rt-logo"></a>
+        </div>
+        
+
+
+<div class="customlogosmall"  >
+	<div id="logoSmall" style="text-align: center;"><a href="/"><img src="/images/loghi/logo-teatro-olimpico-vicenza.png" alt="Teatro Olimpico Vicenza" style="width: 98px; height: 44px;padding:5px 0px 5px 0px" /></a></div></div>
+
+</div>
+<div class="rt-grid-9 rt-omega">
+    	<div class="rt-block menu-block">
+		<div class="gf-menu-device-container"></div>
+<ul class="gf-menu l1 " >
+                    <li class="item213" >
+
+            <a class="item" href="/"  >
+
+                                Home                            </a>
+
+
+                    </li>
+                            <li class="item322 parent active" >
+
+            <a class="item" href="javascript:void(0);"  >
+
+                                Visite                                <span class="border-fixer"></span>
+                            </a>
+
+
+            
+                                    <div class="dropdown columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item323 active last" >
+
+            <a class="item" href="/visite/info-orari"  >
+
+                                Info &amp; Orari                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item324" >
+
+            <a class="item" href="/visite/individuali"  >
+
+                                Individuali                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item325" >
+
+            <a class="item" href="/visite/gruppi"  >
+
+                                Gruppi                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item326" >
+
+            <a class="item" href="/visite/scuole"  >
+
+                                Scuole                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item405" >
+
+            <a class="item" href="/visite/soundtouring"  >
+
+                                Soundtouring                             </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                            <li class="item349 parent" >
+
+            <a class="item" href="javascript:void(0);"  >
+
+                                Info utili                                <span class="border-fixer"></span>
+                            </a>
+
+
+            
+                                    <div class="dropdown columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item350" >
+
+            <a class="item" href="/info-utili/servizi"  >
+
+                                Servizi e Accessibilità                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item381" >
+
+            <a class="item" href="/info-utili/servizi-2"  >
+
+                                Vicenza Card                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item351" >
+
+            <a class="item" href="/info-utili/come-arrivare"  >
+
+                                Come arrivare                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item352" >
+
+            <a class="item" href="/info-utili/ufficio-turistico-iat-vicenza"  >
+
+                                Ufficio turistico - IAT Vicenza                            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                            <li class="item232" >
+
+            <a class="item" href="/eventi_it.html" target="_blank" >
+
+                                Eventi                            </a>
+
+
+                    </li>
+                            <li class="item214 parent" >
+
+            <a class="item" href="javascript:void(0);"  >
+
+                                Il Teatro                                <span class="border-fixer"></span>
+                            </a>
+
+
+            
+                                    <div class="dropdown columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item215" >
+
+            <a class="item" href="/il-teatro/presentazione"  >
+
+                                Presentazione                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item364" >
+
+            <a class="item" href="/il-teatro/il-teatroolimpico-social"  >
+
+                                Il #TeatroOlimpico social                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item337" >
+
+            <a class="item" href="/il-teatro/organizza-il-tuo-evento"  >
+
+                                Organizza il tuo evento                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item340 parent" >
+
+            <a class="item" href="javascript:void(0);"  >
+
+                                Curiosità                                <span class="border-fixer"></span>
+                            </a>
+
+
+            
+                                    <div class="dropdown flyout columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l3">
+                                                                                                                    <li class="item375" >
+
+            <a class="item" href="/il-teatro/curiosita/cronache-dal-novecento"  >
+
+                                Cronache dal Novecento                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item367" >
+
+            <a class="item" href="/il-teatro/curiosita/l-ho-visto-al-cinema"  >
+
+                                L&#039;ho visto al cinema!                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item368" >
+
+            <a class="item" href="/il-teatro/curiosita/l-ho-visto-in-tv"  >
+
+                                L&#039;ho visto in tv!                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item343" >
+
+            <a class="item" href="/il-teatro/curiosita/articolo-delegazione-giapponese"  >
+
+                                1585 La prima missione giapponese visita il Teatro                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item216" >
+
+            <a class="item" href="/il-teatro/curiosita/expo-2010-di-shangai"  >
+
+                                Expo 2010 di Shangai                            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                                                                                                                                                                <li class="item217" >
+
+            <a class="item" href="/il-teatro/galleria-di-immagini"  >
+
+                                Galleria di immagini                            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                            <li class="item219 parent" >
+
+            <a class="item" href="javascript:void(0);"  >
+
+                                Andrea Palladio                                <span class="border-fixer"></span>
+                            </a>
+
+
+            
+                                    <div class="dropdown columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item220" >
+
+            <a class="item" href="/andrea-palladio/biografia"  >
+
+                                Biografia                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item221" >
+
+            <a class="item" href="/andrea-palladio/cronologia"  >
+
+                                Cronologia                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item222" >
+
+            <a class="item" href="/andrea-palladio/la-vita-di-andrea-palladio"  >
+
+                                La vita di Andrea Palladio                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item223" >
+
+            <a class="item" href="/andrea-palladio/l-architetto"  >
+
+                                L&#039;architetto                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item224" >
+
+            <a class="item" href="/andrea-palladio/i-4-libri-dell-architettura"  >
+
+                                I 4 libri dell&#039;Architettura                            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                            <li class="item225 parent" >
+
+            <a class="item" href="javascript:void(0);"  >
+
+                                Vicenza e le ville                                <span class="border-fixer"></span>
+                            </a>
+
+
+            
+                                    <div class="dropdown columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item226" >
+
+            <a class="item" href="/vicenza-e-le-ville-palladiane/vicenza-palladio-e-l-unesco"  >
+
+                                Vicenza, Palladio e l&#039;UNESCO                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item227" >
+
+            <a class="item" href="/vicenza-e-le-ville-palladiane/la-citta-di-vicenza"  >
+
+                                La città di Vicenza                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item230" >
+
+            <a class="item" href="/vicenza-e-le-ville-palladiane/le-ville-di-andrea-palladio"  >
+
+                                Le ville di Andrea Palladio                            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                            <li class="item218" >
+
+            <a class="item" href="/notizie"  >
+
+                                NEWS                            </a>
+
+
+                    </li>
+            </ul>		<div class="clear"></div>
+	</div>
+	
+</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+			</header>
+		    <div id="rt-drawer">
+        <div class="rt-container">
+            <div class="rt-grid-12 rt-alpha rt-omega">
+               <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<div id="jf_mm_menu" class=" jf_hidden"><nav><h2><i class="fa fa-times"></i>Teatro Olimpico Vicenza</h2><ul>
+<li class="item-213 default"><a href="/" >Home</a><h2><i></i>Home</h2></li><li class="item-322 divider deeper parent"><a class="separator ">Visite</a><h2><i></i>Visite</h2><ul class="nav-child unstyled"><li class="item-323"><a href="/visite/info-orari" >Info &amp; Orari</a><h2><i></i>Info &amp; Orari</h2></li><li class="item-324"><a href="/visite/individuali" >Individuali</a><h2><i></i>Individuali</h2></li><li class="item-325"><a href="/visite/gruppi" >Gruppi</a><h2><i></i>Gruppi</h2></li><li class="item-326"><a href="/visite/scuole" >Scuole</a><h2><i></i>Scuole</h2></li><li class="item-405"><a href="/visite/soundtouring" >Soundtouring </a><h2><i></i>Soundtouring </h2></li></ul></li><li class="item-349 divider deeper parent"><a class="separator ">Info utili</a><h2><i></i>Info utili</h2><ul class="nav-child unstyled"><li class="item-350"><a href="/info-utili/servizi" >Servizi e Accessibilità</a><h2><i></i>Servizi e Accessibilità</h2></li><li class="item-381"><a href="/info-utili/servizi-2" >Vicenza Card</a><h2><i></i>Vicenza Card</h2></li><li class="item-351"><a href="/info-utili/come-arrivare" >Come arrivare</a><h2><i></i>Come arrivare</h2></li><li class="item-352"><a href="/info-utili/ufficio-turistico-iat-vicenza" >Ufficio turistico - IAT Vicenza</a><h2><i></i>Ufficio turistico - IAT Vicenza</h2></li></ul></li><li class="item-232"><a href="/eventi_it.html" target="_blank">Eventi</a><h2><i></i>Eventi</h2></li><li class="item-214 active divider deeper parent"><a class="separator ">Il Teatro</a><h2><i></i>Il Teatro</h2><ul class="nav-child unstyled"><li class="item-215"><a href="/il-teatro/presentazione" >Presentazione</a><h2><i></i>Presentazione</h2></li><li class="item-364 current active"><a href="/il-teatro/il-teatroolimpico-social" >Il #TeatroOlimpico social</a><h2><i></i>Il #TeatroOlimpico social</h2></li><li class="item-337"><a href="/il-teatro/organizza-il-tuo-evento" >Organizza il tuo evento</a><h2><i></i>Organizza il tuo evento</h2></li><li class="item-340 divider deeper parent"><a class="separator ">Curiosità</a><h2><i></i>Curiosità</h2><ul class="nav-child unstyled"><li class="item-375"><a href="/il-teatro/curiosita/cronache-dal-novecento" >Cronache dal Novecento</a><h2><i></i>Cronache dal Novecento</h2></li><li class="item-367"><a href="/il-teatro/curiosita/l-ho-visto-al-cinema" >L'ho visto al cinema!</a><h2><i></i>L'ho visto al cinema!</h2></li><li class="item-368"><a href="/il-teatro/curiosita/l-ho-visto-in-tv" >L'ho visto in tv!</a><h2><i></i>L'ho visto in tv!</h2></li><li class="item-343"><a href="/il-teatro/curiosita/articolo-delegazione-giapponese" >1585 La prima missione giapponese visita il Teatro</a><h2><i></i>1585 La prima missione giapponese visita il Teatro</h2></li><li class="item-216"><a href="/il-teatro/curiosita/expo-2010-di-shangai" >Expo 2010 di Shangai</a><h2><i></i>Expo 2010 di Shangai</h2></li></ul></li><li class="item-217"><a href="/il-teatro/galleria-di-immagini" >Galleria di immagini</a><h2><i></i>Galleria di immagini</h2></li></ul></li><li class="item-219 divider deeper parent"><a class="separator ">Andrea Palladio</a><h2><i></i>Andrea Palladio</h2><ul class="nav-child unstyled"><li class="item-220"><a href="/andrea-palladio/biografia" >Biografia</a><h2><i></i>Biografia</h2></li><li class="item-221"><a href="/andrea-palladio/cronologia" >Cronologia</a><h2><i></i>Cronologia</h2></li><li class="item-222"><a href="/andrea-palladio/la-vita-di-andrea-palladio" >La vita di Andrea Palladio</a><h2><i></i>La vita di Andrea Palladio</h2></li><li class="item-223"><a href="/andrea-palladio/l-architetto" >L'architetto</a><h2><i></i>L'architetto</h2></li><li class="item-224"><a href="/andrea-palladio/i-4-libri-dell-architettura" >I 4 libri dell'Architettura</a><h2><i></i>I 4 libri dell'Architettura</h2></li></ul></li><li class="item-225 divider deeper parent"><a class="separator ">Vicenza e le ville</a><h2><i></i>Vicenza e le ville</h2><ul class="nav-child unstyled"><li class="item-226"><a href="/vicenza-e-le-ville-palladiane/vicenza-palladio-e-l-unesco" >Vicenza, Palladio e l'UNESCO</a><h2><i></i>Vicenza, Palladio e l'UNESCO</h2></li><li class="item-227"><a href="/vicenza-e-le-ville-palladiane/la-citta-di-vicenza" >La città di Vicenza</a><h2><i></i>La città di Vicenza</h2></li><li class="item-230"><a href="/vicenza-e-le-ville-palladiane/le-ville-di-andrea-palladio" >Le ville di Andrea Palladio</a><h2><i></i>Le ville di Andrea Palladio</h2></li></ul></li><li class="item-218"><a href="/notizie" >NEWS</a><h2><i></i>NEWS</h2></li></ul></nav></div><div class="jf_mm_trigger"><i class="fa fa-bars"></i></div><div class="jf_mm_backout"></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    		<div id="rt-showcase">
+		<div class="rt-showcase-pattern">
+			<div class="rt-container">
+				<div class="rt-grid-12 rt-alpha rt-omega">
+               <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<div class="slideshowck camera_wrap camera_amber_skin" id="camera_wrap_150">
+			<div data-thumb="" data-src="/images/stories/header/01_1200tEATRO.jpg"  data-alignment="">
+								</div>
+		<div data-thumb="" data-src="/images/stories/header/02_1200targa.jpg"  data-alignment="">
+								</div>
+		<div data-thumb="" data-src="/images/stories/header/03_1200te.jpg"  data-alignment="">
+								</div>
+		<div data-thumb="" data-src="/images/stories/header/04_1200tet.jpg"  data-alignment="">
+								</div>
+		<div data-thumb="" data-src="/images/stories/header/05_1200.jpg"  data-alignment="">
+								</div>
+		<div data-thumb="" data-src="/images/stories/header/tea1200.jpg"  data-alignment="">
+								</div>
+</div>
+<div style="clear:both;"></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+				<div id="rt-breadcrumbs">
+		<div class="rt-container">
+			<div class="rt-grid-12 rt-alpha rt-omega">
+               <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<div aria-label="Percorso" role="navigation">
+	<ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+					<li class="active">
+				<span class="divider icon-location"></span>
+			</li>
+		
+						<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item" href="/" class="pathway"><span itemprop="name">Home</span></a>
+					
+											<span class="divider">
+							<img src="/media/system/images/arrow.png" alt="" />						</span>
+										<meta itemprop="position" content="1">
+				</li>
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<span itemprop="name">
+							Visite						</span>
+					
+											<span class="divider">
+							<img src="/media/system/images/arrow.png" alt="" />						</span>
+										<meta itemprop="position" content="2">
+				</li>
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active">
+					<span itemprop="name">
+						Info &amp; Orari					</span>
+					<meta itemprop="position" content="3">
+				</li>
+				</ul>
+</div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+			<div id="rt-transition">
+		<div id="rt-mainbody-surround">
+									<div id="rt-utility">
+				<div class="rt-container">
+					<div class="rt-grid-12 rt-alpha rt-omega">
+               <div class="rt-block box1">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="custombox1"  >
+	<p style="text-align: center;"><a class="button" href="/visite/gruppi">GRUPPI</a></p>
+<p style="text-align: center;"><a class="button" href="/visite/scuole">SCUOLE</a></p>
+<p style="text-align: center;"><a class="button" href="/visite/individuali">VISITATORI INDIVIDUALI</a></p></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+															<div class="rt-container">
+		    		          
+<div id="rt-main" class="sa3-mb9">
+                <div class="rt-container">
+                    <div class="rt-grid-9 rt-push-3">
+                                                						<div class="rt-block">
+	                        <div id="rt-mainbody">
+								<div class="component-content">
+	                            	<article class="item-page" itemscope itemtype="http://schema.org/Article">
+<meta itemprop="inLanguage" content="it-IT" />
+	<h2 itemprop="name">
+					Info &amp; Orari					</h2>
+	
+
+
+
+
+	<dl class="article-info">
+	<dt class="article-info-term">Dettagli</dt>
+	<dd class="modified">
+		<time datetime="2026-10-28T11:45:44+01:00" itemprop="dateModified">
+			Ultima modifica: Mercoledì, 28 Ottobre 2026 11:45		</time>
+	</dd>
+	</dl>
+
+
+
+<div itemprop="articleBody">
+	<div class="bt-social-share bt-social-share-above"><div class="bt-social-share-button bt-facebook-share-button"><fb:share-button href="https://www.teatrolimpicovicenza.it/visite/info-orari" type="button_count"></fb:share-button></div><div class="bt-social-share-button bt-facebook-like-button"><fb:like send="false" colorscheme="light" font="arial" href="https://www.teatrolimpicovicenza.it/visite/info-orari" layout="button_count" width="70" show_faces="false" action="like"></fb:like></div><div class="bt-social-share-button bt-twitter-button" style="width:80px"><a href="http://twitter.com/share" class="twitter-share-button" 
+						  data-via="vicenzae" 
+						  data-url="https://www.teatrolimpicovicenza.it/visite/info-orari" 
+						  data-size="medium"
+						  data-lang="it"
+						  data-count="horizontal" >Twitter</a></div><div class="bt-social-share-button bt-googleplus-button"><g:plus action="share" href="https://www.teatrolimpicovicenza.it/visite/info-orari" annotation="bubble" height="20" ></g:plus></div></div><p><strong style="color: #008000; text-decoration-line: underline; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">ORARI DI VISITA</strong></p>
+<p><strong style="font-size: 12.16px;">Il Teatro Olimpico è aperto al pubblico tutto l'anno, dal martedì alla domenica.</strong></p>
+<table class="table table-bordered" dir="ltr" style="width: 939px; height: 453px;" align="center">
+<tbody>
+<tr>
+<td align="left">
+<p><strong>Orario regolare</strong></p>
+<p><span style="text-align: justify;">1 settembre -&nbsp;</span>30 giugno</p>
+</td>
+<td align="left">
+<p style="text-align: justify;">Da LUNEDì a domenica<strong>&nbsp;dalle 9 alle 17&nbsp;&nbsp;</strong>(ultima entrata 16.30)</p>
+<p>NEW! <span style="background-color: #ff0000; color: #ffffff;"><strong>aperto anche nelle giornate di lunedì</strong> a partire dal 2.11.2026 fino a novembre '27.</span></p>
+</td>
+</tr>
+<tr>
+<td align="left">
+<p><strong>Orario estivo</strong></p>
+<p>1 luglio -&nbsp;31 agosto</p>
+</td>
+<td align="left">
+<p>Da LUNEDI' a domenica&nbsp;<strong>&nbsp;dalle 10 alle 18&nbsp;</strong><strong>&nbsp;</strong>(ultima entrata 17.30).</p>
+<p><strong>aperto anche nelle giornate di lunedì</strong> a partire dal 2.11.2026 fino a novembre '27.</p>
+</td>
+</tr>
+<tr>
+<td align="left">&nbsp;<strong>Chiusure</strong></td>
+<td>
+<p>Natale e 1° gennaio.</p>
+</td>
+</tr>
+<tr>
+<td align="left"><span style="color: #0000ff;"><strong>Aperture straordinarie 2026</strong><strong style="color: #ff0000;"><br /></strong></span></td>
+<td>
+<p style="text-align: center;">&nbsp;<strong>Aperto nelle seguenti <em>festività <span style="color: #0000ff;">2026<span style="color: #000000;">, con orario regolare 9-17&nbsp;</span></span></em><span style="color: #000000;">:</span></strong></p>
+<ul>
+<li>GENNAIO: 5, 6/01 (Epifania), 19 gennaio (iniziativa per il Blue Monday)&nbsp;</li>
+<li>APRILE: 05/04 (Pasqua) - 06/4 (Pasquetta)- 25/04</li>
+<li>MAGGIO:1/05</li>
+<li>GIUGNO: 1e 2/06</li>
+<li>AGOSTO: 15/08 (con orario estivo 10-18)</li>
+<li>SETTEMBRE:&nbsp; 8/09</li>
+<li>NOVEMBRE: 1/11 +&nbsp;aperto ogni lunedì</li>
+<li>DICEMBRE: 7/1 8/12 – 26/12 + aperto ogni lunedì</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td align="left"><span style="color: #0000ff;"><strong>Chiusure straordinarie 2026</strong></span></td>
+<td>&gt;&gt; Verificare eventuali notizie in home page!</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: justify;">&nbsp;</div>
+<div style="text-align: justify;">&nbsp;</div>
+<div style="text-align: justify;"><strong><em>A causa di eventi privati, convegni e prove di allestimenti teatrali è possibile l'orario del Teatro subisca delle modifiche: </em></strong>
+<div><strong><em>controlla sempre le NEWS per verificare eventuali chiusure straordinarie!</em></strong></div>
+<div>&nbsp;</div>
+<div>Il giardino non è attualmene accessibile.</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;<strong style="color: #008000; font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-decoration: underline;">INFORMAZIONI</strong></div>
+</div>
+<p style="text-align: justify;"><span style="font-size: 12.16px;"></span><span style="font-style: italic;">La biglietteria si trova presso il vicino ufficio turistico IAT in Corso Palladio 212 ( nuova sede!), aperto tutti i giorni.</span></p>
+<div>
+<p style="text-align: justify;">&gt;&gt;&gt; E' attiva anche&nbsp;una biglietteria presso la Basilica Palladiana dove è possibile acquistare tutte le tipologie di biglietti nelle giornate di apertura del monumento nazionale.</p>
+<p style="text-align: justify;">Sia il biglietto singolo intero che le card musei sono in vendita online esclusivamente&nbsp;<a href="https://www.ticketlandia.com/m/civici-vicenza" target="_blank" rel="noopener">sulla piattaforma Ticketlandia.</a>&nbsp;Il preacquisto del biglietto è possibile, non obbligatorio.</p>
+<p style="text-align: justify;">La prenotazione dell'orario di ingresso è necessaria solo per gruppi e scolaresche tramite l'ufficio Booking <a href="mailto:booking@comune.vicenza.it">booking@comune.vicenza.it</a>&nbsp;&nbsp;</p>
+<p style="text-align: justify;">Individuali, famiglie o gruppetti sotto le 10 persone potranno acquistare il biglietto direttamente al loro arrivo.</p>
+<hr />
+<p>Lo <strong>spettacolo di luci e suoni POP</strong> è incluso nel regolare titolo di ingresso. Prenotazione richiesta solo per gruppi.&nbsp;</p>
+<p>Il gioco di suoni e musica è un estratto della durata di circa 10 minuti del progetto Palladio Olimpico Project, ideato da Alessandro Baricco e la Scuola Holden nel 2018.</p>
+<p>Non è necessaria la prenotazione se non si è in gruppo. E' sufficiente arrivare 10/15 minuti prima.</p>
+<p>Attivo nei seguenti orari:</p>
+<p><strong>Da settembre a giugno, tutti i giorni : 9.30, 10.30, 11.30, 14.30, 15.30, 16.30</strong><br /><strong>Luglio e agosto, tutti i giorni : 10.30, 11.30, 12.30, 15.30, 16.30, 17.30</strong></p>
+<hr />
+<p style="text-align: justify;">E' possibile scattare foto all'interno del Teatro, ma senza utilizzare il flash.</p>
+<p style="text-align: justify;">Le visite al Teatro sono autonome, non è disponibile un servizio guide interno. In caso di necessità di una guida si consiglia di contattare direttamente una guida turistica autorizzata.</p>
+<p style="text-align: justify;"><strong>E'&nbsp; consentito l'accesso ad animali di piccola taglia tenuti in braccio o nel trasportino</strong>, ai cani guida per non vedenti, dei servicedog per assistenza ai disabili e degli animali domestici, di cui è documentato il supporto a cure terapeutiche (pet therapy) con certificazioni rilasciate da medici di strutture sanitarie pubbliche.</p>
+<p style="text-align: justify;">Accessibilità disabili: totale.&nbsp;</p>
+<p style="text-align: justify;">Servizi attrezzati per disabili.&nbsp;</p>
+<p style="text-align: justify;">All’interno dei musei non è consentito consumare né cibo né bevande, tuttavia ai bambini è permesso bere con il biberon, bicchieri o bottigliette chiuse da un sistema salvagoccia.</p>
+<hr />
+<h2 style="font-family: ReadexProBold; font-weight: normal; line-height: 3rem; font-size: 2rem; color: #121212; margin-top: 0px; font-style: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #ffffff;"><span style="background-color: #ffcc00;"><strong><span style="font-size: 12pt;"><em><span style="font-family: arial, helvetica, sans-serif;">Avviso di sicurezza</span></em></span></strong></span></h2>
+<p style="text-align: center;"><span style="font-size: 14pt;"><strong>Per la vostra sicurezza, vi invitiamo a prestare la massima attenzione durante la visita.</strong></span><br /><span style="font-size: 14pt;"><strong>Si prega di non sporgersi e di non appoggiarsi alle balaustre. Grazie.</strong></span></p>
+</div> <div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) {return;}
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/it_IT/all.js#xfbml=1";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script><script src="//platform.twitter.com/widgets.js" type="text/javascript"></script><script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'it-IT'}</script></div>
+
+
+
+	</article>
+
+
+
+								</div>
+	                        </div>
+						</div>
+                                                                    </div>
+                                <div class="rt-grid-3 rt-pull-9">
+                <div id="rt-sidebar-a">
+                               <div class="rt-block box1">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="custombox1"  >
+	<h4 style="text-align: center; margin-bottom: -10px;"><span style="font-size: 10pt;"><strong>CENTRO PRENOTAZIONI UFFICIALE VISITE </strong></span></h4>
+<h4 style="text-align: center; margin-bottom: -10px;"><span style="font-size: 10pt;"><strong>TEATRO OLIMPICO</strong></span></h4>
+<p style="text-align: center;">&nbsp;<span>GRUPPI &amp; SCUOLE</span></p>
+<p style="text-align: center; padding: 0px;"><img src="/images/loghi/musei-civici-vicenza.jpg" alt="musei civici vicenza" width="88" height="88" /></p>
+<div style="text-align: center;"><strong>Teatro Olimpico e Card Musei<br /></strong></div>
+<div style="text-align: center;"><strong><span style="color: #3e9344;">&nbsp;Tel. 0444 964380&nbsp;</span></strong></div>
+<div style="text-align: center;"><a href="mailto:booking@comune.vicenza.it">booking@comune.vicenza.it</a></div>
+<div style="text-align: center;"><span style="font-size: 10pt;">Call center aperto </span>
+<div style="text-align: center;"><span style="font-size: 10pt;">lunedì-venerdì&nbsp;</span><span style="font-size: 10pt;">9 -13/14-18</span></div>
+</div>
+<hr />
+<h2 style="text-align: center;"><span style="color: #ff0000;"><a style="color: #ff0000;" href="/visite/info-orari">VISITE E ORARI</a></span></h2>
+<p style="text-align: center;">Piazza Matteotti 11&nbsp;&nbsp;Vicenza (Italia) - <a href="https://www.google.it/maps/dir/''/teatro+olimpico+vicenza/data=!4m5!4m4!1m0!1m2!1m1!1s0x477f33d433b90af7:0x7fa84adbfca95e58?sa=X&amp;ved=0ahUKEwjCqpOArtDMAhXJXSwKHUduAL0Q9RcIigEwDw">mappa</a></p>
+<hr />
+<div style="text-align: center;">Il Teatro è aperto da martedì a domenica,<br />CHIUSO LUNEDI',
+<div style="text-align: center;">25 dicembre e 1° gennaio.</div>
+<div>
+<div>
+<div>
+<div>
+<div>&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="text-align: center;"><a href="/visite/info-orari">Consulta qui tutti gli orari con le aperture e le chiusure straordinarie</a><br /><span style="font-size: 12.16px;"><br /></span></div>
+<div>&nbsp;</div>
+<p><a style="font-size: 12.16px; line-height: 1.3em;" onclick="document.getElementById('altreinfo').style.display='block';document.getElementById('espandi').style.display='none';"></a></p>
+<div id="altreinfo" style="display: none;">
+<p><strong>Prenotazioni </strong>(necessarie per gruppi e scolaresche)<br />Centro prenotazioni: tel. 0444 964380<br />Invio richieste: <a href="mailto:booking@comune.vicenza.it">booking@comune.vicenza.it</a></p>
+<p><strong>Ingresso gratuito:</strong> ragazzi fino ai 17 anni compresi non in scolaresca; direttori, conservatori e funzionari&nbsp;museali (previa esibizione di idoneo documento di riconoscimento), membri dell'ICOM (International<br />Council of Museums), guide turistiche, giornalisti italiani e stranieri (previa esibizione di idoneo documento&nbsp;che ne attesti l'appartenenza all'ordine), militari debitamente riconosciuti, insegnanti solo se&nbsp;accompagnatori di scolaresche e gruppi, portatori di handicap e loro accompagnatori.</p>
+<p>E' possibile scattare foto all'interno, senza flash.<br />Sono ammessi cani solo di piccola taglia dentro un'apposita sacca trasportata dal padrone.</p>
+<p>Accessibilità disabili: totale<br />Servizi attrezzati: sì<br />Disponibilità per concerti, convegni e spettacoli<br />Parcheggio bus: non disponibile<br />Parcheggio auto: non disponibile</p>
+</div></div>
+	                	</div>
+                	</div>
+           </div>
+	           <div class="rt-block box1 mostra">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="custombox1 mostra"  >
+	<script type="text/javascript" src="https://www.vicenzae.org/siti/shared/mostra_it.js"></script></div>
+	                	</div>
+                	</div>
+           </div>
+	           <div class="rt-block box1">
+           	<div class="module-surround">
+	           				<div class="module-title">
+	                		<h2 class="title">Traduttore automatico</h2>
+			</div>
+	                		                	<div class="module-content">
+	                		
+
+<script type="text/javascript">
+/* <![CDATA[ */
+function GTranslateGetCurrentLang() {var keyValue = document.cookie.match('(^|;) ?googtrans=([^;]*)(;|$)');return keyValue ? keyValue[2].split('/')[2] : null;}
+function GTranslateFireEvent(element,event){try{if(document.createEventObject){var evt=document.createEventObject();element.fireEvent('on'+event,evt)}else{var evt=document.createEvent('HTMLEvents');evt.initEvent(event,true,true);element.dispatchEvent(evt)}}catch(e){}}
+function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];if(GTranslateGetCurrentLang() == null && lang == lang_pair.split('|')[0])return;if(typeof ga!='undefined'){ga('send', 'event', 'GTranslate', lang, location.hostname+location.pathname+location.search);}else{if(typeof _gaq!='undefined')_gaq.push(['_trackEvent', 'GTranslate', lang, location.hostname+location.pathname+location.search]);}var teCombo;var sel=document.getElementsByTagName('select');for(var i=0;i<sel.length;i++)if(sel[i].className=='goog-te-combo')teCombo=sel[i];if(document.getElementById('google_translate_element2')==null||document.getElementById('google_translate_element2').innerHTML.length==0||teCombo.length==0||teCombo.innerHTML.length==0){setTimeout(function(){doGTranslate(lang_pair)},500)}else{teCombo.value=lang;GTranslateFireEvent(teCombo,'change');GTranslateFireEvent(teCombo,'change')}}
+/* ]]> */
+</script>
+<div id="google_translate_element2"></div>
+<script type="text/javascript">function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'it', autoDisplay: false}, 'google_translate_element2');}</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+<a href="#" onclick="doGTranslate('it|it');return false;" title="Italian" class="flag nturl notranslate"><img src="/modules/mod_gtranslate/tmpl/lang/24/it.png" height="24" width="24" alt="it" /></a><a href="#" onclick="doGTranslate('it|fr');return false;" title="French" class="flag nturl notranslate"><img src="/modules/mod_gtranslate/tmpl/lang/24/fr.png" height="24" width="24" alt="fr" /></a><a href="#" onclick="doGTranslate('it|de');return false;" title="German" class="flag nturl notranslate"><img src="/modules/mod_gtranslate/tmpl/lang/24/de.png" height="24" width="24" alt="de" /></a><a href="#" onclick="doGTranslate('it|pt');return false;" title="Portuguese" class="flag nturl notranslate"><img src="/modules/mod_gtranslate/tmpl/lang/24/pt.png" height="24" width="24" alt="pt" /></a><a href="#" onclick="doGTranslate('it|ru');return false;" title="Russian" class="flag nturl notranslate"><img src="/modules/mod_gtranslate/tmpl/lang/24/ru.png" height="24" width="24" alt="ru" /></a><a href="#" onclick="doGTranslate('it|es');return false;" title="Spanish" class="flag nturl notranslate"><img src="/modules/mod_gtranslate/tmpl/lang/24/es.png" height="24" width="24" alt="es" /></a><br/><select onchange="doGTranslate(this);" class="notranslate"><option value="">Select Language</option><option style="font-weight:bold;" value="it|it">Italian</option><option  value="it|af">Afrikaans</option><option  value="it|sq">Albanian</option><option  value="it|ar">Arabic</option><option  value="it|hy">Armenian</option><option  value="it|az">Azerbaijani</option><option  value="it|eu">Basque</option><option  value="it|be">Belarusian</option><option  value="it|bg">Bulgarian</option><option  value="it|ca">Catalan</option><option  value="it|zh-TW">Chinese (Traditional)</option><option  value="it|hr">Croatian</option><option  value="it|cs">Czech</option><option  value="it|da">Danish</option><option  value="it|nl">Dutch</option><option  value="it|et">Estonian</option><option  value="it|tl">Filipino</option><option  value="it|fi">Finnish</option><option  value="it|fr">French</option><option  value="it|gl">Galician</option><option  value="it|ka">Georgian</option><option  value="it|de">German</option><option  value="it|el">Greek</option><option  value="it|ht">Haitian Creole</option><option  value="it|iw">Hebrew</option><option  value="it|hi">Hindi</option><option  value="it|hu">Hungarian</option><option  value="it|is">Icelandic</option><option  value="it|id">Indonesian</option><option  value="it|ga">Irish</option><option  value="it|ja">Japanese</option><option  value="it|ko">Korean</option><option  value="it|lv">Latvian</option><option  value="it|lt">Lithuanian</option><option  value="it|mk">Macedonian</option><option  value="it|ms">Malay</option><option  value="it|mt">Maltese</option><option  value="it|no">Norwegian</option><option  value="it|fa">Persian</option><option  value="it|pl">Polish</option><option  value="it|pt">Portuguese</option><option  value="it|ro">Romanian</option><option  value="it|ru">Russian</option><option  value="it|sr">Serbian</option><option  value="it|sk">Slovak</option><option  value="it|sl">Slovenian</option><option  value="it|es">Spanish</option><option  value="it|sw">Swahili</option><option  value="it|sv">Swedish</option><option  value="it|th">Thai</option><option  value="it|tr">Turkish</option><option  value="it|uk">Ukrainian</option><option  value="it|ur">Urdu</option><option  value="it|vi">Vietnamese</option><option  value="it|cy">Welsh</option><option  value="it|yi">Yiddish</option></select>	                	</div>
+                	</div>
+           </div>
+	           <div class="rt-block box1">
+           	<div class="module-surround">
+	           				<div class="module-title">
+	                		<h2 class="title">Cerca nel sito</h2>
+			</div>
+	                		                	<div class="module-content">
+	                		<form name="rokajaxsearch" id="rokajaxsearch" class="light" action="https://www.teatrolimpicovicenza.it/" method="get">
+<div class="rokajaxsearch box1">
+	<div class="roksearch-wrapper">
+		<input id="roksearch_search_str" name="searchword" type="text" class="inputbox roksearch_search_str" placeholder="Search..." />
+	</div>
+	<input type="hidden" name="searchphrase" value="any"/>
+	<input type="hidden" name="limit" value="20" />
+	<input type="hidden" name="ordering" value="newest" />
+	<input type="hidden" name="view" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	
+	
+	<div id="roksearch_results"></div>
+</div>
+<div id="rokajaxsearch_tmp" style="visibility:hidden;display:none;"></div>
+</form>
+	                	</div>
+                	</div>
+           </div>
+	
+                </div>
+            </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+		    	</div>
+											</div>
+	</div>
+		<div id="rt-bottom">
+		<div class="ts-bottom rt-container">
+			<div class="rt-grid-6 rt-alpha">
+               <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="custom"  >
+	<p><a href="http://www.vicenzae.org"><img src="/images/loghi/vicenza-e-cuore-del-veneto.png" alt="vicenza-e-cuore-del-veneto" width="172" height="77" /></a></p>
+<p><img src="/images/loghi/vicenza-patrimonio-unesco.png" alt="vicenza-patrimonio-unesco" width="172" height="72" /></p>
+<p>Visita <a href="http://www.vicenzae.org,">www.vicenzae.org,<br /></a>il portale turistico di Vicenza <br />e della sua provincia.</p></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+<div class="rt-grid-6 rt-omega">
+               <div class="rt-block ">
+           	<div class="module-surround">
+	           				<div class="module-title">
+	                		<h2 class="title">Contattaci</h2>
+			</div>
+	                		                	<div class="module-content">
+	                		
+
+<div class="custom"  >
+	<span class="icon-home"></span><b> CENTRO PRENOTAZIONI VISITE TEATRO e MUSEI CIVICI VICENZA - <span class="icon-phone"></span> Telefono: +39 0444 964380</b><hr style="margin:10px 0px;border-bottom:0px" />
+<span class="icon-home"></span> UFFICIO IAT – INFORMAZIONI E ACCOGLIENZA TURISTICA - <span class="icon-phone"></span> Telefono: +39 0444 320854<hr style="margin:10px 0px;border-bottom:0px" /
+<p><span class="icon-home"></span> CONSORZIO DI PROMOZIONE TURISTICA <br />
+<span class="icon-phone"></span> Telefono: +39 0444 994770 - Fax: +39 0444 99 47 79<br />
+<span class="icon-envelope"></span> Email: info@vicenzae.org - <span class="icon-globe"></span> Web: www.vicenzae.org<br />
+<span class="icon-facebook-sign"></span> <a href="https://www.facebook.com/pages/VICENZA/56884835066">Pagina Facebook</a></p></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+			<footer id="rt-footer-surround">
+						<div id="rt-copyright">
+			<div class="ts-copy rt-container">
+				<div class="rt-grid-9 rt-alpha">
+               <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="custom"  >
+	<p style="text-align: center;">Copyright Consorzio Vicenza è - alcuni diritti riservati - P.IVA 02222540243 - <a href="/mappa-del-sito">mappa del sito</a> - <a href="//www.iubenda.com/privacy-policy/961826" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script> - 
+powered by <a href="http://www.genialab.it/cms/index-temporanea.html" target="_blank">genialab</a></p></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+<div class="rt-grid-3 rt-omega">
+    	<div class="clear"></div>
+	<div class="rt-block">
+		<a href="#" id="gantry-totop" rel="nofollow">Torna su</a>
+	</div>
+	
+</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+			</footer>
+			<div id="rt-debug">
+		<div class="rt-container">
+			<div class="rt-grid-12 rt-alpha rt-omega">
+               <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="custom"  >
+	<div id="stat" style="z-index: -10; visibility: hidden; display: none;">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-22216738-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-22216738-6');
+</script>
+
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,1114873,4,0,0,0,00000000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?1114873&101" alt="contatore accessi" border="0"></a></noscript>
+</div></div>
+	                	</div>
+                	</div>
+           </div>
+	           <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="custom"  >
+	<script type="text/javascript">
+	var _iub = _iub || [];
+	_iub.csConfiguration = {
+		cookiePolicyId: 961826,
+		siteId: 279940,
+		lang: "it"
+	};
+	(function (w, d) {
+		var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/cookie_solution/iubenda_cs.js"; tag.parentNode.insertBefore(s, tag); };
+		if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; }
+	})(window, document);
+</script></div>
+	                	</div>
+                	</div>
+           </div>
+	           <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                			
+	
+	
+<style>
+.gafancybox-lock{overflow:hidden !important}
+#gafancybox-overlay246 {
+	background: rgba(158, 17, 34, 0.52);
+	opacity: ;
+}
+#gafancybox-skin246{
+background: rgba(232, 214, 214, 1);/*popup background color*/
+color: rgba(0, 0, 0, 1);/*popup font color*/
+border-radius:0px;/*popup border radius*/
+	
+border: 05px dashed rgba(204, 33, 41, 1);	
+	
+	
+}
+	
+#gafancybox-close246{
+right: -18px;
+background:url('/modules/mod_popupaholic/images/closeButton.png');
+}
+	
+	.close-notify {
+		color: #ffffff!important;
+	}
+    #header_message246{  
+		display:none;
+		text-align: left;
+		font-size: 13px;
+		color: #ffffff!important;
+		background: none repeat scroll 0 0 rgba(50, 49, 59, 0.7);
+		box-shadow: 2px 2px 2px #cccccc;
+    }
+</style>	
+<script type="text/javascript">
+var myCookie =  jQuery.cookie('popup_aholic246');    
+        
+        
+        
+        var noCookie = new Date(new Date().getTime() + 0 * 60 * 1000);
+        
+		if (myCookie != 1){
+        jQuery(document).ready(function() { setTimeout(function () { jQuery('.popup-aholic246').gafancybox({
+		padding : 20,
+		margin  : 20,
+		modal: false,
+		autoSize  : true,    
+        openEffect	: 'elastic', //elastic, fade or none
+        openSpeed   : 250,    
+        closeEffect	: 'none', //elastic, fade or none
+        closeSpeed   : 250,    
+			
+				scrolling: 'no',
+		autoHeight : true,
+		autoWidth : true,	
+			
+		tpl: {
+				overlay  : '<div class="gafancybox-overlay" id="gafancybox-overlay246"></div>',
+				wrap     : '<div class="gafancybox-wrap" tabIndex="-1"><div id="gafancybox-skin246" class="gafancybox-skin"><div class="gafancybox-outer"><div class="gafancybox-inner"></div></div></div></div>',
+				closeBtn : '<a title="Close" id="gafancybox-close246" class="gafancybox-item gafancybox-close" href="javascript:;"></a>',
+			},
+		helpers: {  overlay: { closeClick: true, title: false, lbwrap: '<div class="gafancybox-overlay" id="gafancybox-overlay246"></div>',opacity: 0.5}} ,afterShow: function(){setTimeout('parent.jQuery.gafancybox.close ()',40000);}
+}).trigger('click');}, 0);
+            
+        jQuery('a.fancy-closeBTN').click(function(e){
+            e.preventDefault();
+            jQuery.gafancybox.close();
+        });
+            
+    });
+    
+    jQuery.cookie('popup_aholic246', '1', { expires: noCookie }); 
+}
+	</script>
+<div id="popup_aholic"></div>	
+<script type="text/javascript">
+function killOverlay() {	
+  refID = document.getElementById('popup_aholic');
+	refID.style.display = "none";	
+}
+function hidestuff(boxid){
+   document.getElementById(boxid).style.visibility="hidden";
+}
+</script>	
+	<a class="popup-aholic246" href="#inline-auto246"></a>
+		<div style="display:none;">
+			<div id="inline-auto246" >
+								<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div><span style="color: #008000;"><strong><span style="color: #0000ff;"><span style="color: #ff0000;">NUOVA BIGLIETTERIA!</span> Dal 27 ottobre 2026 la <span style="text-decoration: underline;">biglietteria</span>&nbsp;si&nbsp; trasferisce presso la nuova sede di Palazzo Chiericati in <span style="text-decoration: underline;">Corso Palladio 212.</span></span></strong></span></div>
+<div>***</div>
+<div><span style="color: #008000;"><strong>&nbsp;</strong></span><strong style="font-size: 12.16px;">Il Teatro è aperto alle visite <a href="/notizie-e-comunicati-stampa/435-il-teatro-olimpico-apre-alle-visite-anche-il-lunedi-a-partire-dal-2-novembre" target="_self"><span style="text-decoration: underline;">TUTTI I GIORNI</span> dalle 9 alle 17</a> (ultimo ingresso 16.30)&nbsp;</strong></div>
+<div><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"></span><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="font-style: italic;">Non è prevista la prenotazione per i visitatori individuali.&nbsp;</span></span></div>
+<div>&nbsp;</div>
+<div>13/11/2026 aperto dalle 15 alle 17</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;">
+<div class="caption" style="text-align: center;"><hr />
+<div class="caption" style="text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: #ff0000;">NEW LOCATION!</span></strong> Starting October 27, 2026, <span style="text-decoration: underline;">the ticket-office</span> <b data-path-to-node="1,0" data-index-in-node="60">is located</b> at the new venue of Palazzo Chiericati, Corso Palladio 212</span></div>
+<div class="caption" style="text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;***</span>
+<div class="caption" style="text-align: center;">
+<div><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;TEATRO OLIMPICO IS OPEN <a href="/en/news-and-press-releases/436-starting-november-2-the-teatro-olimpico-will-also-be-open-on-mondays" target="_self"><span style="text-decoration: underline;">MON-SUN</span></a>&nbsp; from 9 am to 5 pm ( last entrance 4.30)</span></div>
+<div><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">For individual visitors, the ticket can be bought directly at the ticket office, without reservation.&nbsp;</span></div>
+<div>&nbsp;</div>
+<div><em><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">13/11/2026 open 15-17</span></span></em></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>					
+					
+            </div>
+        </div>		                	</div>
+                	</div>
+           </div>
+	
+</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!-- </div> posizione errata //-->
+		</div> <!-- spostato da due righe sopra nel template php //-->
+		</body>
+</html>

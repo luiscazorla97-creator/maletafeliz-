@@ -1,11 +1,11 @@
 {
-  "verifiedAt": "2026-11-23T02:49:54.770Z",
+  "verifiedAt": "2026-11-23T18:30:34.133Z",
   "origin": "https://maletafeliz.com",
   "status": "live-verified",
-  "originals": 247,
-  "localizations": 494,
-  "photos": 1052,
-  "httpChecks": 1084,
+  "originals": 249,
+  "localizations": 498,
+  "photos": 1062,
+  "httpChecks": 1092,
   "wwwRedirect": {
     "status": 301,
     "target": "https://maletafeliz.com",
@@ -22,8 +22,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "04b67e32-9895-47c0-a4a0-fdc0627bd475",
-      "commit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+      "deploymentId": "f7fe49a2-b82e-487e-b253-ab5c0e3fa778",
+      "commit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     },
@@ -36,8 +36,8 @@
       "sourceRepository": "maletafeliz-",
       "productionDeploymentsEnabled": true,
       "productionBranch": "main",
-      "deploymentId": "ee783f54-1225-4bf6-8626-c1bd4630cfcc",
-      "commit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+      "deploymentId": "8297f81f-d417-496b-8da6-0358e8b5eb7f",
+      "commit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
       "trigger": "ad_hoc",
       "buildStatus": "success"
     }
@@ -45,35 +45,35 @@
   "automaticContentGeneration": false,
   "automaticCommitDeploymentVerified": false,
   "deploymentMode": "github-build-triggered-through-cloudflare-api",
-  "citedSourceDocuments": 1309,
-  "latestBatch": "2026-11-22-manual-christmas-three",
-  "verificationFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+  "citedSourceDocuments": 1321,
+  "latestBatch": "2026-11-23",
+  "verificationFile": "editorial/verification/2026-11-23-publication.json",
   "httpCheckBreakdown": {
-    "verifiedAt": "2026-11-23T02:39:23.789Z",
-    "verificationClosedAt": "2026-11-23T02:49:54.770Z",
-    "verificationFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
-    "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
-    "siteAndRedirects": 1084,
-    "allSitemapHtmlPages": 1074,
-    "allLocalizedGuideHtmlPages": 494,
-    "localProductionBrowserTests": 12,
+    "verifiedAt": "2026-11-23T18:15:19.557Z",
+    "verificationClosedAt": "2026-11-23T18:30:34.133Z",
+    "verificationFile": "editorial/verification/2026-11-23-publication.json",
+    "sourceCommit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+    "siteAndRedirects": 1092,
+    "allSitemapHtmlPages": 1082,
+    "allLocalizedGuideHtmlPages": 498,
+    "localProductionBrowserTests": 8,
     "localProductionScope": {
-      "focusedCurrentBuildGuideCases": 12,
+      "focusedCurrentBuildGuideCases": 8,
       "wholeLocalSuiteClaimed": false
     },
-    "fullSourceProductionTestsInGitHub": 1048,
-    "batchHttpsRequests": 95,
-    "batchLocalizedVersionsVerified": 6,
-    "batchOriginalTopicsVerified": 3,
-    "selectedPhotoFilesVerified": 45,
-    "publicBrowserFlows": 12,
+    "fullSourceProductionTestsInGitHub": 1056,
+    "batchHttpsRequests": 86,
+    "batchLocalizedVersionsVerified": 4,
+    "batchOriginalTopicsVerified": 2,
+    "selectedPhotoFilesVerified": 50,
+    "publicBrowserFlows": 8,
     "note": "Independent phase counts are not summed."
   },
-  "latestDeploymentVerification": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
-  "latestDeploymentVerifiedAt": "2026-11-23T02:49:54.770Z",
+  "latestDeploymentVerification": "editorial/verification/2026-11-23-publication.json",
+  "latestDeploymentVerifiedAt": "2026-11-23T18:30:34.133Z",
   "photoCoverage": {
-    "originalRecommendations": 1066,
-    "localizedRecommendations": 2132,
+    "originalRecommendations": 1076,
+    "localizedRecommendations": 2152,
     "allPlacesHavePhotographs": true
   },
   "adsense": {
@@ -146,34 +146,34 @@
       "mx",
       "us"
     ],
-    "priorityOriginals": 108,
+    "priorityOriginals": 110,
     "initialTargetOriginals": 100,
     "remainingOriginals": 0,
-    "verification": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+    "verification": "editorial/verification/2026-11-23-publication.json",
     "targetCoveredOriginals": 100,
-    "aboveTargetOriginals": 8,
+    "aboveTargetOriginals": 10,
     "targetCappedOriginals": 100,
-    "excessOriginals": 8
+    "excessOriginals": 10
   },
   "technicalIndexability": {
-    "verifiedAt": "2026-11-23T02:39:23.789Z",
-    "verificationClosedAt": "2026-11-23T02:49:54.770Z",
-    "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
-    "verificationFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
-    "sitemapUrls": 1074,
-    "httpUrlsChecked": 1074,
-    "localizedGuidesCheckedInHtml": 494,
+    "verifiedAt": "2026-11-23T18:15:19.557Z",
+    "verificationClosedAt": "2026-11-23T18:30:34.133Z",
+    "sourceCommit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+    "verificationFile": "editorial/verification/2026-11-23-publication.json",
+    "sitemapUrls": 1082,
+    "httpUrlsChecked": 1082,
+    "localizedGuidesCheckedInHtml": 498,
     "allSitemapPagesReachableThroughHtml": true,
     "unreachableSitemapPages": 0,
     "maximumGuideClickDepth": 2,
     "duplicateTitlesWithinLocale": 0,
-    "newArticles": 3,
-    "newLocalizations": 6,
+    "newArticles": 2,
+    "newLocalizations": 4,
     "googleIndexationVerified": false,
     "evidence": {
-      "wholeSiteFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
-      "wholeSiteResultSha256": "13437a6c9a1ba32607a91bc9d3b192904bdd7d3c83b36e178320f683fbba7fec",
-      "wholeSiteRunSha256": "601805b26c35bc7c6930b11b34eec56b0bd87a7b83e095bb2ed39b898f0b2551"
+      "wholeSiteFile": "editorial/verification/2026-11-23-publication.json",
+      "wholeSiteResultSha256": "537286b6a3d572d1fb509528bcea4670745cd25277f6236b89843779eb11542a",
+      "wholeSiteRunSha256": "bed336521f30a7d7abb8e7b5895e20e7aa3261a0e57517564568d1892b041e06"
     }
   },
   "mobilePerformance": {
@@ -441,51 +441,68 @@
         "wholeSiteResultSha256": "e1627bdb0b39d574e01827c1c8b447f8a12bf55a8fd7c5cfce31c19bca831981",
         "wholeSiteRunSha256": "d7db68c1f26a32bfae434ff7de6d415ab99d2ad11301ee7edf42b87efcde7a79"
       }
+    },
+    {
+      "verifiedAt": "2026-11-23T02:39:23.789Z",
+      "verificationClosedAt": "2026-11-23T02:49:54.770Z",
+      "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+      "verificationFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+      "sitemapUrls": 1074,
+      "httpUrlsChecked": 1074,
+      "localizedGuidesCheckedInHtml": 494,
+      "allSitemapPagesReachableThroughHtml": true,
+      "unreachableSitemapPages": 0,
+      "maximumGuideClickDepth": 2,
+      "duplicateTitlesWithinLocale": 0,
+      "newArticles": 3,
+      "newLocalizations": 6,
+      "googleIndexationVerified": false,
+      "evidence": {
+        "wholeSiteFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+        "wholeSiteResultSha256": "13437a6c9a1ba32607a91bc9d3b192904bdd7d3c83b36e178320f683fbba7fec",
+        "wholeSiteRunSha256": "601805b26c35bc7c6930b11b34eec56b0bd87a7b83e095bb2ed39b898f0b2551"
+      }
     }
   ],
   "latestFullSitePublicationVerification": {
-    "verifiedAt": "2026-11-23T02:39:23.789Z",
-    "verificationClosedAt": "2026-11-23T02:49:54.770Z",
-    "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
-    "verificationFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
-    "sitemapUrls": 1074,
-    "httpUrlsChecked": 1074,
-    "localizedGuidesCheckedInHtml": 494,
+    "verifiedAt": "2026-11-23T18:15:19.557Z",
+    "verificationClosedAt": "2026-11-23T18:30:34.133Z",
+    "sourceCommit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+    "verificationFile": "editorial/verification/2026-11-23-publication.json",
+    "sitemapUrls": 1082,
+    "httpUrlsChecked": 1082,
+    "localizedGuidesCheckedInHtml": 498,
     "allSitemapPagesReachableThroughHtml": true,
     "unreachableSitemapPages": 0,
     "maximumGuideClickDepth": 2,
     "duplicateTitlesWithinLocale": 0,
-    "newArticles": 3,
-    "newLocalizations": 6,
+    "newArticles": 2,
+    "newLocalizations": 4,
     "googleIndexationVerified": false,
     "evidence": {
-      "wholeSiteFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
-      "wholeSiteResultSha256": "13437a6c9a1ba32607a91bc9d3b192904bdd7d3c83b36e178320f683fbba7fec",
-      "wholeSiteRunSha256": "601805b26c35bc7c6930b11b34eec56b0bd87a7b83e095bb2ed39b898f0b2551"
+      "wholeSiteFile": "editorial/verification/2026-11-23-publication.json",
+      "wholeSiteResultSha256": "537286b6a3d572d1fb509528bcea4670745cd25277f6236b89843779eb11542a",
+      "wholeSiteRunSha256": "bed336521f30a7d7abb8e7b5895e20e7aa3261a0e57517564568d1892b041e06"
     },
-    "scope": "Entire exact-source sitemap checked; newArticles/newLocalizations refer only to this manual batch."
+    "scope": "Entire exact-source sitemap checked; newArticles/newLocalizations refer only to this daily batch."
   },
   "latestBatchVerificationClosure": {
-    "verificationCompletedAt": "2026-11-23T02:49:54.770Z",
-    "verificationFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
-    "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
-    "reservationDay": "2026-11-22",
-    "firstPublicationNewYorkDate": "2026-11-22",
-    "verificationCompletionNewYorkDate": "2026-11-22",
-    "originalsVerified": 3,
-    "localizedVersionsVerified": 6,
-    "documentaryPhotosVerified": 9,
-    "optimizedPhotoFilesVerified": 45,
+    "verificationCompletedAt": "2026-11-23T18:30:34.133Z",
+    "verificationFile": "editorial/verification/2026-11-23-publication.json",
+    "sourceCommit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+    "reservationDay": "2026-11-23",
+    "firstPublicationNewYorkDate": "2026-11-23",
+    "verificationCompletionNewYorkDate": "2026-11-23",
+    "originalsVerified": 2,
+    "localizedVersionsVerified": 4,
+    "documentaryPhotosVerified": 10,
+    "optimizedPhotoFilesVerified": 50,
     "publicationCadenceConfigurationUnchanged": true,
     "authorization": {
-      "kind": "explicit-owner-manual-three-christmas",
-      "additionalOriginalsAuthorized": 3,
-      "priorVerifiedOriginalsToday": 2,
-      "priorVerifiedTopicIdsToday": [
-        "savannah",
-        "sendai"
-      ],
-      "authorizedTotalUniqueOriginalsToday": 5,
+      "kind": "daily-two",
+      "priorVerifiedOriginalsToday": 0,
+      "priorVerifiedTopicIdsToday": [],
+      "authorizedTotalUniqueOriginalsToday": 2,
       "dailyScheduleTargetUnchanged": 2,
       "scheduleChanged": false
     }
@@ -1513,6 +1530,121 @@
           "batchOriginalTopicsVerified": 2,
           "selectedPhotoFilesVerified": 50,
           "publicBrowserFlows": 8,
+          "note": "Independent phase counts are not summed."
+        }
+      }
+    },
+    {
+      "supersededAt": "2026-11-23T18:30:34.133Z",
+      "status": "superseded-historical-inventory-metadata",
+      "inheritedFromRepositoryCommit": "75f5ff16a611343e65cfd330f9de7e29ff426571",
+      "previousInventorySha256": "7b5f387865b7e01d0bedb733cb97293c0cfbaa3171dadb746f92d61bea8d6d5c",
+      "previousInventoryVerifiedAt": "2026-11-23T02:49:54.770Z",
+      "previousInventoryVerificationFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+      "records": {
+        "countrySeoStrategy": {
+          "priorityCountries": [
+            "it",
+            "jp",
+            "mx",
+            "us"
+          ],
+          "priorityOriginals": 108,
+          "initialTargetOriginals": 100,
+          "remainingOriginals": 0,
+          "verification": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+          "targetCoveredOriginals": 100,
+          "aboveTargetOriginals": 8,
+          "targetCappedOriginals": 100,
+          "excessOriginals": 8
+        },
+        "technicalIndexability": {
+          "verifiedAt": "2026-11-23T02:39:23.789Z",
+          "verificationClosedAt": "2026-11-23T02:49:54.770Z",
+          "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+          "verificationFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+          "sitemapUrls": 1074,
+          "httpUrlsChecked": 1074,
+          "localizedGuidesCheckedInHtml": 494,
+          "allSitemapPagesReachableThroughHtml": true,
+          "unreachableSitemapPages": 0,
+          "maximumGuideClickDepth": 2,
+          "duplicateTitlesWithinLocale": 0,
+          "newArticles": 3,
+          "newLocalizations": 6,
+          "googleIndexationVerified": false,
+          "evidence": {
+            "wholeSiteFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+            "wholeSiteResultSha256": "13437a6c9a1ba32607a91bc9d3b192904bdd7d3c83b36e178320f683fbba7fec",
+            "wholeSiteRunSha256": "601805b26c35bc7c6930b11b34eec56b0bd87a7b83e095bb2ed39b898f0b2551"
+          }
+        },
+        "latestFullSitePublicationVerification": {
+          "verifiedAt": "2026-11-23T02:39:23.789Z",
+          "verificationClosedAt": "2026-11-23T02:49:54.770Z",
+          "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+          "verificationFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+          "sitemapUrls": 1074,
+          "httpUrlsChecked": 1074,
+          "localizedGuidesCheckedInHtml": 494,
+          "allSitemapPagesReachableThroughHtml": true,
+          "unreachableSitemapPages": 0,
+          "maximumGuideClickDepth": 2,
+          "duplicateTitlesWithinLocale": 0,
+          "newArticles": 3,
+          "newLocalizations": 6,
+          "googleIndexationVerified": false,
+          "evidence": {
+            "wholeSiteFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+            "wholeSiteResultSha256": "13437a6c9a1ba32607a91bc9d3b192904bdd7d3c83b36e178320f683fbba7fec",
+            "wholeSiteRunSha256": "601805b26c35bc7c6930b11b34eec56b0bd87a7b83e095bb2ed39b898f0b2551"
+          },
+          "scope": "Entire exact-source sitemap checked; newArticles/newLocalizations refer only to this manual batch."
+        },
+        "latestBatchVerificationClosure": {
+          "verificationCompletedAt": "2026-11-23T02:49:54.770Z",
+          "verificationFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+          "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+          "reservationDay": "2026-11-22",
+          "firstPublicationNewYorkDate": "2026-11-22",
+          "verificationCompletionNewYorkDate": "2026-11-22",
+          "originalsVerified": 3,
+          "localizedVersionsVerified": 6,
+          "documentaryPhotosVerified": 9,
+          "optimizedPhotoFilesVerified": 45,
+          "publicationCadenceConfigurationUnchanged": true,
+          "authorization": {
+            "kind": "explicit-owner-manual-three-christmas",
+            "additionalOriginalsAuthorized": 3,
+            "priorVerifiedOriginalsToday": 2,
+            "priorVerifiedTopicIdsToday": [
+              "savannah",
+              "sendai"
+            ],
+            "authorizedTotalUniqueOriginalsToday": 5,
+            "dailyScheduleTargetUnchanged": 2,
+            "scheduleChanged": false
+          }
+        },
+        "httpCheckBreakdown": {
+          "verifiedAt": "2026-11-23T02:39:23.789Z",
+          "verificationClosedAt": "2026-11-23T02:49:54.770Z",
+          "verificationFile": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+          "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+          "siteAndRedirects": 1084,
+          "allSitemapHtmlPages": 1074,
+          "allLocalizedGuideHtmlPages": 494,
+          "localProductionBrowserTests": 12,
+          "localProductionScope": {
+            "focusedCurrentBuildGuideCases": 12,
+            "wholeLocalSuiteClaimed": false
+          },
+          "fullSourceProductionTestsInGitHub": 1048,
+          "batchHttpsRequests": 95,
+          "batchLocalizedVersionsVerified": 6,
+          "batchOriginalTopicsVerified": 3,
+          "selectedPhotoFilesVerified": 45,
+          "publicBrowserFlows": 12,
           "note": "Independent phase counts are not summed."
         }
       }

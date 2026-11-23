@@ -1,0 +1,594 @@
+{
+  "schemaVersion": 1,
+  "failedSourceRequests": [
+    {
+      "id": "n23-ca-tierra",
+      "url": "https://catalogonacionalmhi.inah.gob.mx/consulta_publica/detalle/2704",
+      "finalUrl": "https://catalogonacionalmhi.inah.gob.mx/consulta_publica/detalle/2704",
+      "httpStatus": 503,
+      "fetchedAt": "2026-11-23T17:03:24.596Z",
+      "contentSha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909",
+      "textSha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909",
+      "captureRecordSha256": "990d3f2d0f6fa73ba4b8627c7fc03b766c3e74a4d5a7671eb3fa85e798847662",
+      "citedAsFactualSource": false,
+      "alternativeAccessBypassUsed": false
+    },
+    {
+      "id": "n23-ca-guide",
+      "url": "https://www.cultura.gob.mx/turismocultural/guias/guia4_3.php",
+      "finalUrl": "https://www.cultura.gob.mx/turismocultural/guias/guia4_3.php",
+      "httpStatus": 404,
+      "fetchedAt": "2026-11-23T17:03:29.977Z",
+      "contentSha256": "4722756f20c96946c20728e1ce9025d0ad541f11c0b421bec3ecce5ca6d8ae87",
+      "textSha256": "a622387e90532acb881bcc4e07be493a058f13297b4a0d4cab16a5727fafd755",
+      "captureRecordSha256": "65bd7dc1a7a74861d397d8d2177405558876183a80fe610e805711e8c8ecda45",
+      "citedAsFactualSource": false,
+      "alternativeAccessBypassUsed": false
+    }
+  ],
+  "verifiedAt": "2026-11-23T18:30:34.133Z",
+  "commit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+  "sourceCommit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+  "batch": "2026-11-23",
+  "publicationDay": "2026-11-23",
+  "reservationDay": "2026-11-23",
+  "executionId": "8f650c57-d2ed-496d-bff1-fd871181743f",
+  "timeZone": "America/New_York",
+  "firstPublicationNewYorkDate": "2026-11-23",
+  "status": "publicly-verified",
+  "originals": 2,
+  "newOriginals": 2,
+  "localizations": 4,
+  "publishedTopicIds": [
+    "campeche",
+    "vicenza"
+  ],
+  "priorSameDayUniqueVerifiedOriginals": 0,
+  "sameDayUniqueVerifiedOriginalsAfter": 2,
+  "sameDayUniqueVerifiedTopicIds": [
+    "campeche",
+    "vicenza"
+  ],
+  "authorization": {
+    "kind": "daily-two",
+    "priorVerifiedOriginalsToday": 0,
+    "priorVerifiedTopicIdsToday": [],
+    "authorizedTotalUniqueOriginalsToday": 2,
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false
+  },
+  "urls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-campeche-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-vicenza-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-campeche-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-vicenza-5-places/"
+    ]
+  },
+  "globalOriginals": 249,
+  "globalLocalizations": 498,
+  "globalPhotos": 1062,
+  "globalCitedSourceRecords": 1321,
+  "photos": 10,
+  "newPhotoMetadataRecords": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 12,
+  "coverage": {
+    "countries": [
+      {
+        "countryId": "it",
+        "publishedOriginals": 32,
+        "localizedVersions": 64,
+        "targetOriginals": 30,
+        "missingOriginals": 0,
+        "excessOriginals": 2,
+        "articleIds": [
+          "amalfi-coast",
+          "assisi",
+          "bergamo",
+          "bologna",
+          "christmas-florence",
+          "christmas-milan",
+          "christmas-naples",
+          "christmas-rome",
+          "christmas-turin",
+          "christmas-venice",
+          "christmas-verona",
+          "ferrara",
+          "florence",
+          "florence-uffizi",
+          "lucca",
+          "mantua",
+          "milan",
+          "padua",
+          "palermo",
+          "parma",
+          "perugia",
+          "pisa",
+          "ravenna",
+          "rome",
+          "rome-colosseum-visit",
+          "salerno",
+          "siena",
+          "trieste",
+          "venice",
+          "venice-vaporetto",
+          "verona",
+          "vicenza"
+        ]
+      },
+      {
+        "countryId": "jp",
+        "publishedOriginals": 27,
+        "localizedVersions": 54,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 2,
+        "articleIds": [
+          "christmas-fukuoka",
+          "christmas-osaka",
+          "christmas-sapporo",
+          "christmas-tokyo",
+          "christmas-yokohama",
+          "halloween-japan",
+          "himeji",
+          "hiroshima",
+          "kamakura",
+          "kanazawa",
+          "kobe",
+          "kurashiki",
+          "kyoto",
+          "kyoto-higashiyama-walk",
+          "matsumoto",
+          "mount-fuji",
+          "nagasaki",
+          "nara",
+          "nara-day-trip-transport",
+          "nikko",
+          "osaka",
+          "sapporo",
+          "sendai",
+          "takamatsu",
+          "takayama",
+          "tokyo",
+          "tokyo-new-year-2027"
+        ]
+      },
+      {
+        "countryId": "mx",
+        "publishedOriginals": 26,
+        "localizedVersions": 52,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 1,
+        "articleIds": [
+          "campeche",
+          "cancun",
+          "chapultepec-museums-day",
+          "cuernavaca",
+          "durango",
+          "guadalajara",
+          "guanajuato",
+          "leon-guanajuato",
+          "los-cabos",
+          "mexico-city",
+          "morelia",
+          "muertos-merida",
+          "muertos-mexico-city",
+          "muertos-mixquic",
+          "muertos-oaxaca",
+          "muertos-puebla",
+          "oaxaca",
+          "patzcuaro",
+          "puebla",
+          "queretaro",
+          "riviera-maya",
+          "san-cristobal-de-las-casas",
+          "san-luis-potosi",
+          "san-miguel-de-allende",
+          "veracruz",
+          "zacatecas"
+        ]
+      },
+      {
+        "countryId": "us",
+        "publishedOriginals": 25,
+        "localizedVersions": 50,
+        "targetOriginals": 20,
+        "missingOriginals": 0,
+        "excessOriginals": 5,
+        "articleIds": [
+          "buffalo",
+          "christmas-boston",
+          "christmas-chicago",
+          "christmas-los-angeles",
+          "christmas-miami",
+          "christmas-new-york",
+          "christmas-philadelphia",
+          "christmas-san-francisco",
+          "columbus",
+          "greenville-sc",
+          "halloween-usa",
+          "hawaii",
+          "hilo",
+          "las-vegas",
+          "las-vegas-new-year-2027",
+          "los-angeles",
+          "miami",
+          "new-orleans",
+          "new-york",
+          "new-york-new-year-2027",
+          "orlando",
+          "san-antonio",
+          "san-diego",
+          "savannah",
+          "washington-dc"
+        ]
+      }
+    ],
+    "priorityOriginals": 110,
+    "targetCappedOriginals": 100,
+    "missingToInitial100": 0,
+    "excessOriginals": 10
+  },
+  "tests": {
+    "local": {
+      "unit": 107,
+      "navigation": 28,
+      "productionFocused": 8,
+      "total": 143,
+      "wholeSuiteClaimed": false
+    },
+    "github": {
+      "runId": 45234149934,
+      "runUrl": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/45234149934",
+      "counts": {
+        "unit": 107,
+        "navigation": 28,
+        "production": 1056,
+        "total": 1191
+      },
+      "decodedLogSha256": "6ecca07a3b4956421eed7aafbf39af6561c8e0339a5c756e0b092575a5eb92d0"
+    }
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-23T18:13:51.752Z",
+    "commit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "f7fe49a2-b82e-487e-b253-ab5c0e3fa778",
+        "canonicalCommit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+        "deploymentId": "f7fe49a2-b82e-487e-b253-ab5c0e3fa778",
+        "commit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-23T18:13:35.953546Z",
+          "ended_on": "2026-11-23T18:13:47.660262Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-23T18:03:15.480071Z",
+            "ended_on": "2026-11-23T18:03:15.486348Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-23T18:03:15.486348Z",
+            "ended_on": "2026-11-23T18:03:18.409113Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-23T18:03:18.409113Z",
+            "ended_on": "2026-11-23T18:03:57.149098Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-23T18:03:57.149098Z",
+            "ended_on": "2026-11-23T18:13:35.953546Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-23T18:13:35.953546Z",
+            "ended_on": "2026-11-23T18:13:47.660262Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "8297f81f-d417-496b-8da6-0358e8b5eb7f",
+        "canonicalCommit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+        "deploymentId": "8297f81f-d417-496b-8da6-0358e8b5eb7f",
+        "commit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-23T18:04:08.439024Z",
+          "ended_on": "2026-11-23T18:04:15.74729Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-23T18:03:17.653229Z",
+            "ended_on": "2026-11-23T18:03:17.660616Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-23T18:03:17.660616Z",
+            "ended_on": "2026-11-23T18:03:22.017882Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-23T18:03:22.017882Z",
+            "ended_on": "2026-11-23T18:04:06.43306Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-23T18:04:06.43306Z",
+            "ended_on": "2026-11-23T18:04:08.439024Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-23T18:04:08.439024Z",
+            "ended_on": "2026-11-23T18:04:15.74729Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true,
+    "checkoutProof": {
+      "checkedAt": "2026-11-23T18:13:54.426Z",
+      "success": true,
+      "sourceCommit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+      "proofs": [
+        {
+          "checkedAt": "2026-11-23T18:13:51.752Z",
+          "project": "maletafeliz-web",
+          "deploymentId": "f7fe49a2-b82e-487e-b253-ab5c0e3fa778",
+          "commit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+          "entries": 1192,
+          "logSha256": "65ad69ec472d261b4d67f3f7594000f03fad9067d1e1f24c08a01afda5c72fca",
+          "releaseCommandPresent": true,
+          "checkoutMarkerPresent": true,
+          "builtPages": "1088"
+        },
+        {
+          "checkedAt": "2026-11-23T18:13:51.752Z",
+          "project": "maletafeliz-www",
+          "deploymentId": "8297f81f-d417-496b-8da6-0358e8b5eb7f",
+          "commit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+          "entries": 23,
+          "logSha256": "4c290c518eba9d06aa11ddf841f04d7335c5586130af122702e67245b4b4c24f",
+          "releaseCommandPresent": false,
+          "checkoutMarkerPresent": true
+        }
+      ],
+      "method": "Actual Cloudflare build log HEAD marker, matching deployment full commit metadata and canonical production state. WWW is the existing redirect project, not an Astro build."
+    }
+  },
+  "https": {
+    "counts": {
+      "originalTopics": 2,
+      "localizedVersionsVerified": 4,
+      "photoFilesVerified": 50,
+      "searchVersionsVerified": 4,
+      "googlebotUaProbes": 6,
+      "actualHttpsRequests": 86,
+      "sitemapUrls": 1082
+    },
+    "sha256": "49cca728c4795928afa3b80e99054fe33bdaca9c126ba4f0f4ef85f240be6757"
+  },
+  "wholeSiteVerification": {
+    "sitemapUrls": 1082,
+    "guideVersions": 498,
+    "errors": 0,
+    "sha256": "537286b6a3d572d1fb509528bcea4670745cd25277f6236b89843779eb11542a",
+    "run": {
+      "sourceCommit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+      "startedAt": "2026-11-23T18:14:31.594Z",
+      "finishedAt": "2026-11-23T18:15:19.766Z",
+      "exitCode": 0,
+      "outputSha256": "537286b6a3d572d1fb509528bcea4670745cd25277f6236b89843779eb11542a",
+      "httpVerified": true,
+      "checkedRequests": 1092,
+      "sitemapUrls": 1082,
+      "guideVersions": 498
+    }
+  },
+  "browser": {
+    "flows": 8,
+    "screenshots": 14,
+    "sha256": "14eb07859d7eda6b62e0db95a85353a79092ede006cf24c28b91544a5f5ec3aa",
+    "visualReview": {
+      "reviewedAt": "2026-11-23T18:16:34.193336+00:00",
+      "success": true,
+      "reviewer": "Codex /root — actual visual review of all five generated contact sheets",
+      "sourceCommit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+      "contactSheets": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n23/public-contact-mobile-guides-es-1.jpg",
+          "sha256": "f8ac095f4c4b026e2c66849a6cf59b0150e4bb3fe9d5f39aa1f45884428d49ee",
+          "contains": [
+            "public-guide-campeche-es-390.png",
+            "public-guide-vicenza-es-390.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n23/public-contact-desktop-guides-es-1.jpg",
+          "sha256": "f437bc5e24ced35698903804cfb97142a5936180dd67e63e1fa031a3c2c60aaa",
+          "contains": [
+            "public-guide-campeche-es-1440.png",
+            "public-guide-vicenza-es-1440.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n23/public-contact-mobile-guides-en-1.jpg",
+          "sha256": "7a38ae33d4c6871729c5e22b9e60a0f0973adfa83af6f9f804c7da628e1759d3",
+          "contains": [
+            "public-guide-campeche-en-390.png",
+            "public-guide-vicenza-en-390.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n23/public-contact-desktop-guides-en-1.jpg",
+          "sha256": "31377a572622fa58997f585328de862727e1057cf0c6673bd3c5886ac1502705",
+          "contains": [
+            "public-guide-campeche-en-1440.png",
+            "public-guide-vicenza-en-1440.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n23/public-contact-navigation.jpg",
+          "sha256": "b40b241f004c00f008efc44a817777fab3f21fdebe2dc1345198ccab57a97c5f",
+          "contains": [
+            "public-functional-es-390-menu.png",
+            "public-functional-es-390-search.png",
+            "public-functional-es-1440-search.png",
+            "public-functional-en-390-menu.png",
+            "public-functional-en-390-search.png",
+            "public-functional-en-1440-search.png"
+          ],
+          "actuallyViewed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "public-functional-es-390-menu.png",
+          "sha256": "70d40323e6a9065af817ba3b98993f81db8841bfcc1c92b3cf33390cd14ea39b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-390-search.png",
+          "sha256": "21e6b2bd15f71c3c89dfc3ad40df5cc7996517d721568f6708da815c17c9f638",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-campeche-es-390.png",
+          "sha256": "b683d3f736da4d2e09701787fd5261dc1d09ba422f46781ff452770b7a2c5835",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-vicenza-es-390.png",
+          "sha256": "b4cfbef7662d419815e38a058ebcba4b6ceea46975dcd70de9d2ddcad8554f25",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-1440-search.png",
+          "sha256": "302ec2e2992804910e51c88478ba37eb045e935cb286d5d86ba9d1036a8a0955",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-campeche-es-1440.png",
+          "sha256": "f811ca49f158963c2038d69263a9981ea745c0f40680f0a3f956a052d5fbee1e",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-vicenza-es-1440.png",
+          "sha256": "4d778d546e6be648fb435bf1b8f6ddfc52633da456dd6ad26ec2a36014b442b2",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-menu.png",
+          "sha256": "209a229bc56b56b3e677d2c30d6fdca36f73f9d90584d3a80843ae8e6ce20e74",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-search.png",
+          "sha256": "d1a0e1dfdb13e6346a275b13150d0ec9664318a51ae440b6f7b62aa273a10265",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-campeche-en-390.png",
+          "sha256": "13a45d9787af10df7b15b811e53fe1f05e667f46fea007c3a37c9273b865764e",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-vicenza-en-390.png",
+          "sha256": "ad6faf4955f80a298c9dba74357fbc50a91bdd7afb2ca4f8cdc4e95bbb2e685b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-1440-search.png",
+          "sha256": "7de6c8e3689a0638bdcd418acb2fe0aadd171a4d840a0199b99e5cfba95fff43",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-campeche-en-1440.png",
+          "sha256": "41434aebb936b00dcb24458111c5a9d065e529d7a3fa858acc1d1e91a5478a9c",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-vicenza-en-1440.png",
+          "sha256": "b72bf16fa4f23f6eb9dac168adfef744e6cdc80e6e40cace68c7905401201d32",
+          "actuallyViewedInContactSheet": true
+        }
+      ],
+      "observations": [
+        "Viewed both new guide headers/covers in Spanish and English at390px and1440px: 3Dlogo/nav readable, no clipping/overlap, correct localized titles/descriptions, date and photo setting. Covers continue below viewport normally.",
+        "Viewed both mobile menus and localized search result screenshots. Menus open below branding over content as existing design; links remain reachable. Search shows current new guide and native React query changes passed.",
+        "Original navy/turquoise/orange 3D identity and every reserved advertising space retained. Provider scripts isolated only in the browser test to avoid ad impressions; these screenshots do not claim external-provider delivery or PageSpeed metrics.",
+        "All six cover/place image instances per guide and all eight flows loaded real first-party bytes and passed no-horizontal-overflow and reciprocal language navigation checks. Individual documentary relevance was separately reviewed in the final ten-photo contact sheet."
+      ],
+      "publicFunctionalProofSha256": "14eb07859d7eda6b62e0db95a85353a79092ede006cf24c28b91544a5f5ec3aa",
+      "googleIndexationClaimed": false
+    }
+  },
+  "editorialIntegrationSha256": "cbc49938534a9a9e904042c2a8bd8cb4b0640d4ae54d45de4d2c884635fff5d1",
+  "preservationSha256": "32be12010192e1ef53ccc8e731f9780222b302de1be059d387cdf6fe6c92654e",
+  "reservation": {
+    "commit": "63f33a4394d64d86685e21a03bd338317950a9da",
+    "createdAt": "2026-11-23T17:05:44.188Z",
+    "nativeReservationInvocationClaimed": true,
+    "nativeCommand": [
+      "npm",
+      "run",
+      "editorial:batch",
+      "--",
+      "2"
+    ],
+    "nativeInvocationSha256": "3ace924f37609d09272726e96a4bcf6e5e685e03eebc583a786b19f8c0e43619",
+    "nativeExclusiveDailyBatch": true,
+    "manualExclusiveAggregate": false
+  },
+  "googleIndexationVerified": false,
+  "schedulerAttributionVerified": false,
+  "dailyScheduleTargetUnchanged": 2,
+  "notes": "Daily execution of two new originals after a complete initial census of zero first-published-and-verified originals today. Existing manual batches, histories and daily schedule are retained. SEO preparation does not establish Google indexing, viral demand, rankings or advertising income."
+}

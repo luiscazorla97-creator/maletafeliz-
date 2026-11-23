@@ -2,26 +2,54 @@
   "id": "2026-11-23",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-23T17:05:44.188Z",
-  "status": "reserved-not-generated",
+  "status": "published",
   "topicIds": [
     "campeche",
     "vicenza"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "8f650c57-d2ed-496d-bff1-fd871181743f",
     "baseCommit": "75f5ff16a611343e65cfd330f9de7e29ff426571",
     "owner": "Codex /root",
     "startedAt": "2026-11-23T17:00:58.913907+00:00",
-    "heartbeatAt": "2026-11-23T17:07:12.217443+00:00",
-    "leaseUntil": "2026-11-23T23:07:12.217443+00:00",
-    "status": "active"
+    "heartbeatAt": "2026-11-23T18:30:34.133Z",
+    "leaseUntil": "2026-11-23T18:30:34.133Z",
+    "status": "completed-verified",
+    "completedAt": "2026-11-23T18:30:34.133Z"
   },
   "dailyCensus": {
     "newYorkDate": "2026-11-23",
     "priorVerifiedOriginals": 0,
     "censusSha256": "bbf79b40ff9e42b5cffdf6759c4bd9d7e7fd423ef6aeb77906406b975ac9c743"
-  }
+  },
+  "publishedTopicIds": [
+    "campeche",
+    "vicenza"
+  ],
+  "verifiedTopicCount": 2,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 12,
+  "publishedCommit": "bf9a8f3ee5059393c73976cfb023c8a423591b94",
+  "publiclyVerifiedAt": "2026-11-23T18:30:34.133Z",
+  "firstPublicationNewYorkDate": "2026-11-23",
+  "publicVerification": "editorial/verification/2026-11-23-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-campeche-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-vicenza-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-campeche-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-vicenza-5-places/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "campeche",
+    "vicenza"
+  ]
 }

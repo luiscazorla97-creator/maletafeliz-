@@ -1415,15 +1415,15 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-23T02:49:54.770Z",
+    "verifiedAt": "2026-11-23T18:30:34.133Z",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 31,
-        "localizedVersions": 62,
+        "publishedOriginals": 32,
+        "localizedVersions": 64,
         "targetOriginals": 30,
         "missingOriginals": 0,
-        "excessOriginals": 1,
+        "excessOriginals": 2,
         "articleIds": [
           "amalfi-coast",
           "assisi",
@@ -1455,7 +1455,8 @@
           "trieste",
           "venice",
           "venice-vaporetto",
-          "verona"
+          "verona",
+          "vicenza"
         ]
       },
       {
@@ -1497,12 +1498,13 @@
       },
       {
         "countryId": "mx",
-        "publishedOriginals": 25,
-        "localizedVersions": 50,
+        "publishedOriginals": 26,
+        "localizedVersions": 52,
         "targetOriginals": 25,
         "missingOriginals": 0,
-        "excessOriginals": 0,
+        "excessOriginals": 1,
         "articleIds": [
+          "campeche",
           "cancun",
           "chapultepec-museums-day",
           "cuernavaca",
@@ -1566,11 +1568,11 @@
         ]
       }
     ],
-    "priorityOriginals": 108,
+    "priorityOriginals": 110,
     "targetCappedOriginals": 100,
     "missingToInitial100": 0,
-    "excessOriginals": 8,
-    "publicVerification": "editorial/verification/2026-11-22-manual-christmas-three-publication.json"
+    "excessOriginals": 10,
+    "publicVerification": "editorial/verification/2026-11-23-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -3881,6 +3883,164 @@
       "missingToInitial100": 0,
       "excessOriginals": 5,
       "publicVerification": "editorial/verification/2026-11-22-publication.json"
+    },
+    {
+      "verifiedAt": "2026-11-23T02:49:54.770Z",
+      "countries": [
+        {
+          "countryId": "it",
+          "publishedOriginals": 31,
+          "localizedVersions": 62,
+          "targetOriginals": 30,
+          "missingOriginals": 0,
+          "excessOriginals": 1,
+          "articleIds": [
+            "amalfi-coast",
+            "assisi",
+            "bergamo",
+            "bologna",
+            "christmas-florence",
+            "christmas-milan",
+            "christmas-naples",
+            "christmas-rome",
+            "christmas-turin",
+            "christmas-venice",
+            "christmas-verona",
+            "ferrara",
+            "florence",
+            "florence-uffizi",
+            "lucca",
+            "mantua",
+            "milan",
+            "padua",
+            "palermo",
+            "parma",
+            "perugia",
+            "pisa",
+            "ravenna",
+            "rome",
+            "rome-colosseum-visit",
+            "salerno",
+            "siena",
+            "trieste",
+            "venice",
+            "venice-vaporetto",
+            "verona"
+          ]
+        },
+        {
+          "countryId": "jp",
+          "publishedOriginals": 27,
+          "localizedVersions": 54,
+          "targetOriginals": 25,
+          "missingOriginals": 0,
+          "excessOriginals": 2,
+          "articleIds": [
+            "christmas-fukuoka",
+            "christmas-osaka",
+            "christmas-sapporo",
+            "christmas-tokyo",
+            "christmas-yokohama",
+            "halloween-japan",
+            "himeji",
+            "hiroshima",
+            "kamakura",
+            "kanazawa",
+            "kobe",
+            "kurashiki",
+            "kyoto",
+            "kyoto-higashiyama-walk",
+            "matsumoto",
+            "mount-fuji",
+            "nagasaki",
+            "nara",
+            "nara-day-trip-transport",
+            "nikko",
+            "osaka",
+            "sapporo",
+            "sendai",
+            "takamatsu",
+            "takayama",
+            "tokyo",
+            "tokyo-new-year-2027"
+          ]
+        },
+        {
+          "countryId": "mx",
+          "publishedOriginals": 25,
+          "localizedVersions": 50,
+          "targetOriginals": 25,
+          "missingOriginals": 0,
+          "excessOriginals": 0,
+          "articleIds": [
+            "cancun",
+            "chapultepec-museums-day",
+            "cuernavaca",
+            "durango",
+            "guadalajara",
+            "guanajuato",
+            "leon-guanajuato",
+            "los-cabos",
+            "mexico-city",
+            "morelia",
+            "muertos-merida",
+            "muertos-mexico-city",
+            "muertos-mixquic",
+            "muertos-oaxaca",
+            "muertos-puebla",
+            "oaxaca",
+            "patzcuaro",
+            "puebla",
+            "queretaro",
+            "riviera-maya",
+            "san-cristobal-de-las-casas",
+            "san-luis-potosi",
+            "san-miguel-de-allende",
+            "veracruz",
+            "zacatecas"
+          ]
+        },
+        {
+          "countryId": "us",
+          "publishedOriginals": 25,
+          "localizedVersions": 50,
+          "targetOriginals": 20,
+          "missingOriginals": 0,
+          "excessOriginals": 5,
+          "articleIds": [
+            "buffalo",
+            "christmas-boston",
+            "christmas-chicago",
+            "christmas-los-angeles",
+            "christmas-miami",
+            "christmas-new-york",
+            "christmas-philadelphia",
+            "christmas-san-francisco",
+            "columbus",
+            "greenville-sc",
+            "halloween-usa",
+            "hawaii",
+            "hilo",
+            "las-vegas",
+            "las-vegas-new-year-2027",
+            "los-angeles",
+            "miami",
+            "new-orleans",
+            "new-york",
+            "new-york-new-year-2027",
+            "orlando",
+            "san-antonio",
+            "san-diego",
+            "savannah",
+            "washington-dc"
+          ]
+        }
+      ],
+      "priorityOriginals": 108,
+      "targetCappedOriginals": 100,
+      "missingToInitial100": 0,
+      "excessOriginals": 8,
+      "publicVerification": "editorial/verification/2026-11-22-manual-christmas-three-publication.json"
     }
   ]
 }

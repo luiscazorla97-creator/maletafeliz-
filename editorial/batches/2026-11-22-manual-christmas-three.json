@@ -1,0 +1,66 @@
+{
+  "id": "2026-11-22-manual-christmas-three",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-23T01:26:25.964023+00:00",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "salerno",
+    "christmas-sapporo",
+    "san-antonio"
+  ],
+  "requestedCount": 3,
+  "publishedCount": 0,
+  "errors": [],
+  "reservationMethod": "exclusive manual reservation for the owners explicit additional request; native daily CLI returned the already completed two-topic daily batch",
+  "nativeReservationInvocationClaimed": false,
+  "nativeCommandObservation": {
+    "command": [
+      "npm",
+      "run",
+      "editorial:batch",
+      "--",
+      "3"
+    ],
+    "exitCode": 0,
+    "reusedExistingBatch": true,
+    "returnedBatch": "2026-11-22",
+    "returnedTopics": [
+      "savannah",
+      "sendai"
+    ],
+    "returnedAlreadyVerifiedOriginals": 2,
+    "ownManualTopicsReservedByThatCommand": false,
+    "nativeLogSha256": "9081861dbb54ea882f66428582726dab708261ff31d1d57f218e91d103e04d4f"
+  },
+  "authorization": {
+    "kind": "explicit-owner-manual-three-christmas",
+    "additionalOriginalsAuthorized": 3,
+    "priorVerifiedOriginalsToday": 2,
+    "priorVerifiedTopicIdsToday": [
+      "savannah",
+      "sendai"
+    ],
+    "authorizedTotalUniqueOriginalsToday": 5,
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false
+  },
+  "execution": {
+    "executionId": "3e09cfcc-a00e-42ad-bd22-1a2b42e3426e",
+    "baseCommit": "cc0cb5dba8b177d6a10579fd8f48eff9a954fc8c",
+    "owner": "Codex /root",
+    "startedAt": "2026-11-23T01:19:00.032683+00:00",
+    "heartbeatAt": "2026-11-23T01:26:25.964023+00:00",
+    "leaseUntil": "2026-11-23T07:26:25.964023+00:00",
+    "status": "active"
+  },
+  "dailyCensus": {
+    "newYorkDate": "2026-11-22",
+    "priorVerifiedOriginals": 2,
+    "priorVerifiedTopicIds": [
+      "savannah",
+      "sendai"
+    ],
+    "additionalOwnerAuthorizedOriginals": 3,
+    "censusSha256": "5221b6115340451e946bca3a012caadd049af88f5136808c4f5c04a1b1a0d351"
+  }
+}

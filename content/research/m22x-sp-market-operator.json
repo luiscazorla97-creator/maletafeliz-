@@ -1,0 +1,42 @@
+{
+  "id": "m22x-sp-market-operator",
+  "url": "https://www.sapporo.travel/white-illumination/event/munich/",
+  "title": "Sapporo German Christmas Market — current organiser programme",
+  "requestedAt": "2026-11-23T01:51:46.271Z",
+  "facts": [
+    {
+      "fact": "The current organiser explicitly includes both Odori Park blocks 1 and 2, refining the English tourism summary of block 2 plus satellites.",
+      "excerpt": "会場 大通公園1丁目、2丁目",
+      "location": "Normalized readable-text characters 516–530"
+    },
+    {
+      "fact": "Market dates are 20 November–25 December 2026.",
+      "excerpt": "2026年11月20日（金） ～12月25日（金）",
+      "location": "Normalized readable-text characters 458–483"
+    },
+    {
+      "fact": "Market hours are 11:00–21:00, last order20:45; distinct from illumination hours.",
+      "excerpt": "11:00～21:00 ラスト オーダー 20:45",
+      "location": "Normalized readable-text characters 489–515"
+    },
+    {
+      "fact": "First block features decorations and activities; second block emphasises food and Christmas goods.",
+      "excerpt": "ここでしか味わえない フードやクリスマス雑貨を 中心としたエリア",
+      "location": "Normalized readable-text characters 1097–1129"
+    }
+  ],
+  "actuallyRead": true,
+  "fetchedAt": "2026-11-23T01:51:46.824Z",
+  "finalUrl": "https://www.sapporo.travel/white-illumination/event/munich/",
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "retryAfter": null,
+  "contentSha256": "89814e35b1fdefea3c3ded13b105a32583905e7760f9b7ee9eeda5d116bfd003",
+  "bytes": 891371,
+  "textSha256": "f95a06326ac6129f782aadedd79c2f3d669f4ea3c30d44d3f9bb01d48105c9ef",
+  "rawFile": "content/research/m22x-sp-market-operator.raw",
+  "textFile": "content/research/m22x-sp-market-operator.txt",
+  "success": true,
+  "readAt": "2026-11-23T01:57:03.470999+00:00",
+  "notes": "Full normalized operator page actually read by Codex/root after the English tourism summary. Explicit2026location includes both1and2chome; market closing21:00is not illumination closing22:00/midnight. Current operator detail takes precedence for this guide."
+}

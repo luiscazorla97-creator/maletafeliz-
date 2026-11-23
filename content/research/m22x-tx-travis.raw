@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+	<!-- Published by OpenCities, 1.38.0.1 -->
+
+    
+        
+    
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="theme-color" content="#FFFFFF"/>
+    <title>Travis Park  - City of San Antonio</title>
+	<meta name="generator" content="OpenCities - https://granicus.com/product/opencities" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Using mobile-web-app-capable for now to enable full-screen experience on supported platforms -->
+    <!-- Note: This tag works mainly on Android Chrome. It does NOT enable full-screen mode on iOS Safari. -->
+    <!-- For iOS, the correct tag is: <meta name="apple-mobile-web-app-capable" content="yes"> -->
+    <!-- TODO: Monitor for updated meta tag standards from Apple or other browser vendors -->
+    <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="description" content=" Park Hours: Sunday - Saturday: 5 a.m. - 11 p.m." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park" />
+    <meta property="og:title" content="Travis Park" />
+    <meta property="og:description" content=" Park Hours: Sunday - Saturday: 5 a.m. - 11 p.m." />
+    <meta property="og:image" content="https://www.sa.gov/files/assets/main/v/1/parks/images/park-galleries/travispark2.jpg?w=1200" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Travis Park" />
+    <meta property="twitter:description" content=" Park Hours: Sunday - Saturday: 5 a.m. - 11 p.m." />
+    <meta property="twitter:image" content="https://www.sa.gov/files/assets/main/v/1/parks/images/park-galleries/travispark2.jpg?w=1080" />
+    <link rel="canonical" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park" />
+
+    <!-- Matomo Tag Manager --><script>  var _mtm = window._mtm = window._mtm || [];  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});  (function() {    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];    g.async=true; g.src='https://matomo.granicus.com/js/container_bBszb18H.js'; s.parentNode.insertBefore(g,s);  })();</script><!-- End Matomo Tag Manager -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/files/ocfavicon/Main/apple-touch-icon.png?V=637786652481444039">
+<link rel="icon" type="image/png" sizes="32x32" href="/files/ocfavicon/Main/favicon-32x32.png?V=637786652481444039">
+<link rel="icon" type="image/png" sizes="16x16" href="/files/ocfavicon/Main/favicon-16x16.png?V=637786652481444039">
+<link rel="manifest" href="/files/ocfavicon/Main/site.webmanifest?V=637786652481444039">
+<link rel="shortcut icon" href="/files/ocfavicon/Main/favicon.ico?V=637786652481444039">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-config" content="/files/ocfavicon/Main/browserconfig.xml?V=637786652481444039">
+    <script>
+        (function () {
+            if (window.__UNLOAD_LAZY_PATCH__) return;
+            window.__UNLOAD_LAZY_PATCH__ = true;
+
+            var supportsPageHide = ("onpagehide" in window);
+            var mappedType = supportsPageHide ? "pagehide" : "beforeunload";
+            var nativeAdd = window.addEventListener;
+            var nativeRemove = window.removeEventListener;
+            var unloadMap = null;
+            var patched = false;
+
+            function ensurePatched() {
+                if (patched) return;
+                unloadMap = new WeakMap();
+
+                window.addEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = function (evt) {
+                            if (supportsPageHide && evt.persisted) return;
+                            listener.call(this, evt);
+                        };
+                        unloadMap.set(listener, wrapped);
+                        return nativeAdd.call(this, mappedType, wrapped, options);
+                    }
+                    return nativeAdd.call(this, type, listener, options);
+                };
+
+                window.removeEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = unloadMap.get(listener);
+                        if (wrapped) {
+                            nativeRemove.call(this, mappedType, wrapped, options);
+                            unloadMap.delete(listener);
+                        }
+                        return;
+                    }
+                    return nativeRemove.call(this, type, listener, options);
+                };
+
+                var orig = null;
+                Object.defineProperty(window, "onunload", {
+                    configurable: true, enumerable: true,
+                    get: function () { return orig; },
+                    set: function (h) {
+                        orig = h;
+                        if (typeof h === "function") window.addEventListener("unload", h);
+                    }
+                });
+                patched = true;
+            }
+
+            window.addEventListener = function (type, listener, options) {
+                if (type === "unload") {
+                    ensurePatched();
+                    return window.addEventListener(type, listener, options);
+                }
+                return nativeAdd.call(this, type, listener, options);
+            };
+
+            window.removeEventListener = function (type, listener, options) {
+                if (type === "unload" && !patched) {
+                    return;
+                }
+                return nativeRemove.call(this, type, listener, options);
+            };
+
+            function patchTelerik() {
+                ensurePatched();
+                var ns = window.RadAjaxNamespace;
+                if (!ns || !ns.EventManager || !ns.EventManager.Add || ns.EventManager.__UnloadPatched) return;
+                var origAdd = ns.EventManager.Add;
+                ns.EventManager.Add = function (el, evtName, handler, clientId) {
+                    if (el === window && evtName === "unload") {
+                        return window.addEventListener("unload", handler);
+                    }
+                    return origAdd.call(this, el, evtName, handler, clientId);
+                };
+                ns.EventManager.__UnloadPatched = true;
+            }
+
+            if (window.RadAjaxNamespace)
+                patchTelerik();
+            else (window.requestIdleCallback || function (cb)
+            {
+                setTimeout(cb, 120);
+            })(patchTelerik);
+        })();
+    </script>
+    <!-- Preconnecting to Google Fonts servers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Defer Roboto font loading to avoid render-blocking -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const robotoLink = document.createElement('link');
+            robotoLink.rel = 'stylesheet';
+            robotoLink.href = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap';
+            document.head.appendChild(robotoLink);
+        });
+    </script>
+
+    <style>
+        .gm-style, .gm-style * {
+            font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", Arial, sans-serif !important;
+        }
+    </style>
+
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, "js");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    
+        
+            <script type="text/javascript">
+                window.__oc_flags_ImprovedBreakpointEventHandling = true;
+            </script>
+            
+        
+    
+    
+    
+        <script type="text/javascript">
+            var __metaQueryBreakpoints = {
+                'sc-size-4': '(max-width: 480px)',
+                'sc-size-3': '(min-width: 480px) and (max-width: 768px)',
+                'sc-size-2': '(min-width: 768px) and (max-width: 992px)',
+                'sc-size-1': '(min-width: 992px)'
+            }
+
+            var __ocSizePoints = [
+                { min: 0, name: 'sc-size-4' },
+                { min: 480, name: 'sc-size-3' },
+                { min: 768, name: 'sc-size-2' },
+                { min: 992, name: 'sc-size-1' }
+            ];
+
+        </script>
+    
+
+    <!-- Framework Section -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/files/templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1441/jquery-3.7.1.min.js?seamlessts=639301549547966016" ><\/script>')</script>
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1441/jquery-migrate-3.4.0.js?seamlessts=639301549547966016"></script>
+
+    <!--Google Maps API Loader – Improved Version to avoid Warning
+    This script loads the Google Maps JavaScript API using a dynamic and async method.
+    It replaces the old static <script> tag to avoid performance warnings from Google.
+
+    Dynamically creates the <script> tag with loading = async for better performance
+    Builds the API URL with required libraries(places, geometry, marker, geocoding)
+    Uses a Promise and callback(google.maps.__ib__) to confirm when the script is ready
+
+    It Avoids Google’s warning about direct script loading
+    Improves page load speed by loading the API asynchronously-->
+
+    
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1441/modernizr.custom.710f3bf.js?seamlessts=639301549547966016" defer></script>
+    
+    <!--// End Framework Section -->
+    <!-- OpenCities Section -->
+    <script>
+        var OpenCities = OpenCities || {};
+        OpenCities.Paths = {
+            SiteTemplate: '/files/templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1441/',
+            ThemePath: '/files/templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1441/'
+        };
+    </script>
+    <script src='/ocapi/e46fb33d-b3f8-411b-81e9-5eb57a6cdfe5/en-US/websitesettings.js'></script>
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1441/oc_head.js?applied=20261113022156"></script>
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1441/oc_grid.css~oc_style.css~oc_wizard_style.css~oc_main.css~oc_forms.css~oc_wizard.css~oc_wizard_menu.css~oc_main_s1.css~oc_wizard_s1.css~oc_wizard_menu_s1.css~oc_grid_s1.css~OcScriptCombine_Minify0?uniqueid=20261113022156" rel="stylesheet" type="text/css">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1441/client_style.css~client.css~client_menu.css~client_s1.css~client_menu_s1.css~client_forms.css~OcScriptCombine_Minify0?uniqueid=20261113022156" rel="stylesheet" type="text/css">
+    <script>
+(function (BackgroundSettings, $, undefined) {
+    BackgroundSettings.initialise = function () {
+        this.Application = {"CSSSelector":".background-container","EnableFade":true,"MediaType":"image"};
+    };
+} (OpenCities.BackgroundSettings = OpenCities.BackgroundSettings || {}, jQuery));
+OpenCities.BackgroundSettings.initialise();
+</script>
+    
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1441/oc_print.css~client_print.css~OcScriptCombine_Minify0?uniqueid=20261113022156" rel="stylesheet" type="text/css" media="print">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<script src="/files/oc-templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1441/external_plugins.js~oc_form_helper.js~oc_main.js~plugins.js~oc_main_init.js~OcScriptCombine_Minify0?uniqueid=20261113022156" defer="true"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+<script type="text/javascript">
+	var serverDt = "2026-11-22";
+	console.log(serverDt);
+</script>
+    
+
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="DYTCK-JM9C8-ED4EP-C3GGK-Z575H",function(){function e(){if(!r){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.appendChild(e),r=!0}}function t(e){r=!0;var n,t,a,i,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",i=(a.frameElement||a).style,i.width=0,i.height=0,i.border=0,i.display="none",o.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void 0;",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url=n+"DYTCK-JM9C8-ED4EP-C3GGK-Z575H";var i=document.currentScript||document.getElementsByTagName("script")[0],o=i.parentNode,r=!1,d=document.createElement("link");if(d.relList&&"function"==typeof d.relList.supports&&d.relList.supports("preload")&&"as"in d)window.BOOMR.snippetMethod="p",d.href=window.BOOMR.url,d.rel="preload",d.as="script",d.addEventListener("load",e),d.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!r)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.appendChild(d);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="ljqloaaxh3rky2yds2cq-f-d4bde076c-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"41","ak.cp":"1700644","ak.ai":parseInt("1075935",10),"ak.ol":"0","ak.cr":10,"ak.ipv":4,"ak.proto":"h2","ak.rid":"3840c49e","ak.r":48990,"ak.a2":n,"ak.m":"dscb","ak.n":"essl","ak.cport":63619,"ak.gh":"23.62.109.140","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1795397253","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==PSyVG5goFNleeYfpwpc9g+9Oe8U4gm0fMJ3MYJvkGVUEWCs4b/nPgMWd2rK9wLAQfYcgnTDRUU1S1EPAzO1vqisUmb2bkTSIJ/jmwtIt7FzyMDug5IFuZ4SJ9aDGp18IKRPcXjczNuPqgl7UyDuMxRKkQTvUbNwxFBqVTFgJHiyw+x738gL0HffNT3LzdQkfCMe/btKv+rvj63g7CWsZAmsanuaOqK9a1BXW8lroDJfsroSDb5prp6fRVX5BiAP45lqifQ83mUXF+/gx4Ms6irlFq6xbAoDmyj1u7IhoBzdxNL3Yavbvl48w1SvBxAZ2htYK0un3+xO1AAANHokkwwmDRAHoSVxTwwH/fmKarLBV9aDTqa8+1MnoUEgPTWsk6wdoiY1PB5c5zEDLt+EIdH2W0uRNSlwGz3QnpqubOm8=","ak.pv":"370","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body class="body layout-modern oc-two-level-menu site-search-always-visble  content-type-oc-park content-template-ocp-with-full-width-image-no-location group-template-oc-full-width-with-default-header page-name-travis-park page-sequence-194 page-depth-7 page-section-19 website-type-primary device-desktop featured-site-section   " id="body-top">
+    <div id="skip-to-content-container">
+        <a href="#main-content" class="visuallyhidden focusable" id="skip-to-content-link">Skip to main content</a>
+    </div>
+    <script>
+        // OCNOW-11988 (Cursor): Proactively focus skip link when returning from browser chrome.
+        // Must run inline (not deferred oc_main.js) so focus is intercepted before NVDA speaks footer.
+        (function () {
+            var awaitingReentry = false;
+            var inertSupported = 'inert' in HTMLElement.prototype;
+
+            function isExplicitlyOutsideDocument(node) {
+                return node != null && !document.documentElement.contains(node);
+            }
+
+            function getSkipContainer() {
+                return document.getElementById('skip-to-content-container');
+            }
+
+            function getSkipLink() {
+                return document.getElementById('skip-to-content-link');
+            }
+
+            function applyGuard() {
+                awaitingReentry = true;
+                if (!inertSupported) {
+                    return;
+                }
+                var skipContainer = getSkipContainer();
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    if (children[i] !== skipContainer) {
+                        children[i].setAttribute('inert', '');
+                    }
+                }
+            }
+
+            function clearGuard() {
+                awaitingReentry = false;
+                if (!inertSupported) {
+                    return;
+                }
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    children[i].removeAttribute('inert');
+                }
+            }
+
+            function isSkipLinkElement(target) {
+                if (!target) {
+                    return false;
+                }
+                var skipContainer = getSkipContainer();
+                return target.id === 'skip-to-content-link' ||
+                    (skipContainer && skipContainer.contains(target));
+            }
+
+            function focusSkipLink() {
+                var skipLink = getSkipLink();
+                if (!skipLink) {
+                    return;
+                }
+                if (window.scrollY > 0) {
+                    window.scrollTo(0, 0);
+                }
+                skipLink.focus({ preventScroll: true });
+            }
+
+            function scheduleGuardIfDocumentLostFocus() {
+                window.setTimeout(function () {
+                    if (!document.hasFocus()) {
+                        applyGuard();
+                    }
+                }, 0);
+            }
+
+            document.addEventListener('focusout', function (e) {
+                if (isExplicitlyOutsideDocument(e.relatedTarget)) {
+                    applyGuard();
+                }
+            }, true);
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Tab') {
+                    scheduleGuardIfDocumentLostFocus();
+                } else if (e.key === 'F6' || (e.key === 'l' && e.ctrlKey)) {
+                    scheduleGuardIfDocumentLostFocus();
+                }
+            }, true);
+
+            window.addEventListener('focus', function () {
+                if (!awaitingReentry) {
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+            }, true);
+
+            document.addEventListener('focusin', function (e) {
+                var reentryFromChrome = awaitingReentry || isExplicitlyOutsideDocument(e.relatedTarget);
+                if (!reentryFromChrome) {
+                    return;
+                }
+                if (isSkipLinkElement(e.target)) {
+                    clearGuard();
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+                clearGuard();
+            }, true);
+        })();
+    </script>
+    <form name="mainForm" method="post" action="/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park" id="mainForm">
+<input type="hidden" name="ctl04_seamless_script_manager_TSM" id="ctl04_seamless_script_manager_TSM" value="" />
+<input type="hidden" name="__SEAMLESSVIEWSTATE" id="__SEAMLESSVIEWSTATE" value="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" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl04_seamless_script_manager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-GB%3add3ac3d5-1e29-4112-8fed-529caffa8f24%3aea597d4b%3bOpenCities.CustomControls%3aen-GB%3a7197b077-b068-4a69-9481-a6cf2e7718f9%3a8e1d32bf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=EYVjNsQ7oYmzBqCI0dkEyYe0LYmPcVFL4WPcQCXhKfQwUqkAT7lLra0za-OLMuUUcCyPINdTVMHIWti96-8R_oN-trjXUUZnJRzckxTjid4ecctwwEJyNI-05jZYvXHBRiEKL0MUQMEyEJ2FXanyE1uBk88RxZ1wVK6AUn9D4v8rW-LNx2OOtB8vE3hC8P0jk4XZt7GAPiCeYQolxUlwFZA8cuOfgd4u08OASxFdh8mChz3A0YHhuwRrXGVlulfs9SJVkAvulhjdHYIIp1SRohDxt9acTwxUQrOlxuxC847b00zOOWg9SlpwD_iBuQQ1rOK9WH9O_wN9c2TXm4GeXaQHHT4yQ9IlzZXw6th8ch3f-k_n1yYeeurDMbwChXW1Vh_7rpu00kgmegsg9w2J3ququXIPfy2Gq8IscVTmtwouupfmUzAOicU_yESgQ-dG0" type="text/javascript"></script>
+    
+<script type="text/javascript">
+    try{
+        function SeamlessEndRequestHandler(sender, args) {
+            try {
+                var dataItems = args.get_dataItems();
+                if(dataItems.ctl04_seamless_script_manager)
+                    document.getElementById('__SEAMLESSVIEWSTATE').value = dataItems.ctl04_seamless_script_manager;
+            }
+            catch (e) { }
+        }
+
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(SeamlessEndRequestHandler);
+    }
+    catch (e) { }
+</script>
+
+    <div class="unsupported-browser-warning js-element"></div>
+    
+    <div hidden>
+        <span id="new-window-0">opens in new tab or window </span>
+    </div>
+    <div class="overlay-container"></div>
+    
+    <div class="background-container">
+        <div class="page-container">
+            <!-- OC Layout Element GROUP TEMPLATE -->
+            <!--groupTemplateStart--><header><div class="print-header-outer-container print-element">
+<img src="/files/templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1440/print-header.png" alt="City of San Antonio - Logo" />
+</div>
+            <div class="toolbar-outer-container">
+  <div class="toolbar-inner-container clearfix">
+    <div class="toolbar-item toolbar-quicklinks toolbar-display-dropdown">
+	<button type="button" aria-controls="toolbar-quicklinks-drop-down" aria-expanded="false" class="toolbar-button toolbar-button-quicklinks js-element"><span>Quick Links</span><i aria-hidden="true"></i></button>	
+	<div id="toolbar-quicklinks-drop-down" class="toolbar-drop-down toolbar-quicklinks-drop-down clearfix">
+		<ul>
+		  <li><a href="#" class="oc-icon-b oc-i-cosa link-type-external"><span>Official website of the City of San Antonio</span></a></li>
+		</ul>
+	</div>
+</div><div class="toolbar-item toolbar-language notranslate toolbar-display-dropdown"><div class="no-js-element">
+		  <ul>
+		    <li id="toolbar-language-option-en-us-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=en-US" class="lang-item lang-en-us" data-translate-to="en-us" lang="en-US">English<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-es-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=es" class="lang-item lang-es" data-translate-to="es" lang="es">español (Spanish)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ar-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ar" class="lang-item lang-ar" data-translate-to="ar" lang="ar">العربية (Arabic)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-zh-cn-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=zh-CN" class="lang-item lang-zh-cn" data-translate-to="zh-cn" lang="zh-CN"> 中文 (Chinese-Simplified)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-zh-tw-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=zh-TW" class="lang-item lang-zh-tw" data-translate-to="zh-tw" lang="en">繁體中文 (Chinese-Traditional)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-tl-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=tl" class="lang-item lang-tl" data-translate-to="tl" lang="tl">Tagalog (Filipino)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-fr-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=fr" class="lang-item lang-fr" data-translate-to="fr" lang="fr">français (French)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-de-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=de" class="lang-item lang-de" data-translate-to="de" lang="de">Deutsch (German)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-gu-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=gu" class="lang-item lang-gu" data-translate-to="gu" lang="en">ગુજરાતી (Gujarati)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ja-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ja" class="lang-item lang-ja" data-translate-to="ja" lang="ja">日本語 (Japanese)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ko-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ko" class="lang-item lang-ko" data-translate-to="ko" lang="ko">한국어 (Korean)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ps-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ps" class="lang-item lang-ps" data-translate-to="ps" lang="ps">پښتو (Pashto)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-fa-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=fa" class="lang-item lang-fa" data-translate-to="fa" lang="fa">فارسی (Farsi / Persian)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-sw-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=sw" class="lang-item lang-sw" data-translate-to="sw" lang="sw">kiSwahili (Swahili)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ta-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ta" class="lang-item lang-ta" data-translate-to="ta" lang="ta">தமிழ் (Tamil)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-te-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=te" class="lang-item lang-te" data-translate-to="te" lang="te">తెలుగు (Telugu) <span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ur-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ur" class="lang-item lang-ur" data-translate-to="ur" lang="ur">اُردُو (Urdu) <span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-vi-noscript"><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=vi" class="lang-item lang-vi" data-translate-to="vi" lang="vi">Tiếng Việt (Vietnamese)<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+          </ul>
+		</div>
+	<button type="button" role="combobox" aria-controls="toolbar-language-drop-down" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="none" aria-labelledby="toolbar-language-label" class="toolbar-button toolbar-button-language js-element">  
+        <span class="toolbar-language-globe-icon" aria-hidden="true"></span>
+        <span id="toolbar-language-label" class="current-language">
+            Select a language to translate to
+		</span>
+		<i aria-hidden="true"></i>
+	</button>
+	<div id="toolbar-language-drop-down" role="listbox" aria-label="Available languages" class="toolbar-drop-down toolbar-language-drop-down js-element clearfix">
+		<ul role="group">
+		    <li role="presentation"><a id="toolbar-language-option-en-us" role="option" aria-selected="true" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=en-US" class="lang-item lang-en-us" data-translate-to="en-us" lang="en-US">English<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-es" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=es" class="lang-item lang-es" data-translate-to="es" lang="es">español (Spanish)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ar" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ar" class="lang-item lang-ar" data-translate-to="ar" lang="ar">العربية (Arabic)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-zh-cn" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=zh-CN" class="lang-item lang-zh-cn" data-translate-to="zh-cn" lang="zh-CN"> 中文 (Chinese-Simplified)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-zh-tw" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=zh-TW" class="lang-item lang-zh-tw" data-translate-to="zh-tw" lang="en">繁體中文 (Chinese-Traditional)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-tl" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=tl" class="lang-item lang-tl" data-translate-to="tl" lang="tl">Tagalog (Filipino)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-fr" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=fr" class="lang-item lang-fr" data-translate-to="fr" lang="fr">français (French)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-de" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=de" class="lang-item lang-de" data-translate-to="de" lang="de">Deutsch (German)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-gu" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=gu" class="lang-item lang-gu" data-translate-to="gu" lang="en">ગુજરાતી (Gujarati)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ja" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ja" class="lang-item lang-ja" data-translate-to="ja" lang="ja">日本語 (Japanese)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ko" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ko" class="lang-item lang-ko" data-translate-to="ko" lang="ko">한국어 (Korean)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ps" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ps" class="lang-item lang-ps" data-translate-to="ps" lang="ps">پښتو (Pashto)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-fa" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=fa" class="lang-item lang-fa" data-translate-to="fa" lang="fa">فارسی (Farsi / Persian)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-sw" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=sw" class="lang-item lang-sw" data-translate-to="sw" lang="sw">kiSwahili (Swahili)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ta" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ta" class="lang-item lang-ta" data-translate-to="ta" lang="ta">தமிழ் (Tamil)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-te" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=te" class="lang-item lang-te" data-translate-to="te" lang="te">తెలుగు (Telugu) <span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ur" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=ur" class="lang-item lang-ur" data-translate-to="ur" lang="ur">اُردُو (Urdu) <span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-vi" role="option" aria-selected="false" href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory/Travis-Park?oc_lang=vi" class="lang-item lang-vi" data-translate-to="vi" lang="vi">Tiếng Việt (Vietnamese)<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+        </ul>
+	</div></div>
+  </div>
+</div>
+            <div class="header-outer-container">
+    <div class="header-container header-layout-4  clearfix">
+			<div class="header-site-logo">
+				<a href="https://www.sa.gov/Home" lang="en-US" aria-label="City of San Antonio - Home - Logo">
+				</a>
+			</div>
+      
+		    <div class="mobile-search-btn js-element">
+		        <button><i aria-hidden="true"></i><span class="mobile-search-btn-text"><span class="visuallyhidden">Open </span>Search</span></button>
+		    </div>
+		    <div class="header-website-settings">
+                <button id="btn-mob-nav" type="button" aria-expanded="false" aria-controls="nav">
+                    <i aria-hidden="true"></i><span class="side-menu-btn-text">Menu</span>
+                </button>
+        	</div>
+          <div class="navigation-outer-container">
+	<div id="nav" role="navigation" class="navigation-container  navigation-container-option-8" data-menu-type="horizontal" aria-label="primary">
+        <div class="grid">
+            <div class="col-xs-12">              
+                <ul class="sf-menu" id="sc-main-menu" ><li  class="nav-section-quarters-1   first-item nav-item-seq-1">
+<a href="https://www.sa.gov/Community" class="nav-level-1"  target="">
+	<i class="item-icon" aria-hidden="true"></i><span class="item-text">Community</span>
+</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-1" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-1" >
+
+          
+          <li class=" "><a href="https://www.sa.gov/Community/Animals-Pets-Wildlife" class=""  target="">Animals, Pets & Wildlife</a></li><li class=" "><a href="https://www.sa.gov/Community/Arts-Culture-Entertainment" class=""  target="">Arts, Culture, & Entertainment</a></li><li class=" "><a href="https://www.sa.gov/Community/Employment-Training" class=""  target="">Employment & Training</a></li><li class=" "><a href="https://www.sa.gov/Community/Garbage-Recycling-Graffiti" class=""  target="">Garbage, Recycling & Graffiti</a></li><li class=" "><a href="https://www.sa.gov/Community/Health-Social-Services" class=""  target="">Health & Social Services</a></li><li class=" "><a href="https://www.sa.gov/Community/Housing-Neighborhoods" class=""  target="">Housing & Neighborhoods</a></li><li class=" "><a href="https://www.sa.gov/Community/Outdoor-Recreation-Activities" class=""  target="">Outdoor, Recreation & Activities</a></li><li class=" "><a href="https://www.sa.gov/Community/Public-Safety-Justice" class=""  target="">Public Safety & Justice</a></li><li class=" "><a href="https://www.sa.gov/Community/Residential-Permits-Property" class=""  target="">Residential Permits & Property</a></li><li class=" "><a href="https://www.sa.gov/Community/Streets-Parking" class=""  target="">Streets & Parking</a></li><li class=" "><a href="https://www.sa.gov/Community/Volunteer" class=""  target="">Volunteer</a></li></ul></li>
+          
+          <li class="nav-section-quarters-2   nav-item-seq-2">
+<a href="https://www.sa.gov/Business" class="nav-level-1 nav-has-children"  target="">Business</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-2" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-2" >
+
+          
+          <li class=" "><a href="https://www.sa.gov/Business/Business-with-the-City" class=""  target="">Business with the City</a></li><li class=" "><a href="https://www.sa.gov/Business/Construction-Development" class=""  target="">Construction & Development</a></li><li class=" "><a href="https://www.sa.gov/Business/Permits-Licensing" class=""  target="">Permits & Licensing</a></li><li class=" "><a href="https://www.sa.gov/Business/Public-Streets-Infrastructure" class=""  target="">Public Streets & Infrastructure</a></li></ul></li>
+          
+          <li class="nav-section-quarters-3   nav-item-seq-3">
+<a href="https://www.sa.gov/Government" class="nav-level-1 nav-has-children"  target="">Government</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-3" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-3" >
+
+          
+          <li class=" "><a href="https://www.sa.gov/Government/Departments" class=""  target="_self">Departments</a></li><li class=" "><a href="https://www.sa.gov/Government/Closures" class=""  target="">City Holidays & Closures</a></li><li class=" "><a href="https://www.sa.gov/Government/Agendas" class=""  target="_self">Council & Committee Meeting Agendas</a></li><li class=" "><a href="https://www.sa.gov/Government/Emergency-Crisis-Response" class=""  target="">Emergency/Crisis Response</a></li><li class=" "><a href="https://www.sa.gov/Government/Speak-Up" class=""  target="">Get Involved - Speak Up</a></li><li class=" "><a href="https://www.sa.gov/Government/Officials" class=""  target="">Officials: Elected & Appointed</a></li><li class=" "><a href="https://www.sa.gov/Government/Records-Data" class=""  target="">Records & Data</a></li></ul></li>
+          
+          <li class="nav-section-quarters-4 nav-active-path  nav-item-seq-4">
+<a href="https://www.sa.gov/Directory" class="nav-level-1 nav-has-children"  target="">Directory</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-4" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-4" >
+
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Newsletters" class=""  target="_self">Department Newsletters</a></li><li class="nav-active-path "><a href="https://www.sa.gov/Directory/Departments" class=""  target="">Departments</a></li><li class=" "><a href="https://www.sa.gov/Directory/Events-Directory" class=""  target="">Events</a></li><li class=" "><a href="https://www.sa.gov/Directory/Initiatives" class=""  target="">Initiatives</a></li><li class=" "><a href="https://www.sa.gov/Directory/Mobile-Apps" class=""  target="">Mobile Apps</a></li><li class=" "><a href="https://www.sa.gov/Directory/News-Releases" class=""  target="">News Releases</a></li><li class=" "><a href="https://www.sa.gov/Directory/Online-Payments" class=""  target="">Online Payments</a></li><li class=" "><a href="https://www.sa.gov/Directory/Resident-Resources" class=""  target="">Resident Resources</a></li><li class=" "><a href="https://www.sa.gov/Directory/Services" class=""  target="">Services</a></li></ul></li>
+          
+          </ul>
+            </div>
+        </div>
+    </div>
+</div>
+			
+			<div class="header-search-control-container" id="header-search">
+				<div class="search-inner-container">
+					<div class="sc-search-panel">
+	<label for="ctl08_txtSearch" id="ctl08_lblSearch" class="sc-search-label">Search</label><input name="ctl08$txtSearch" type="text" id="ctl08_txtSearch" class="sc-search-text" placeholder="Find almost anything on our website" /><input type="submit" name="ctl08$btnSearch" value="Search" id="ctl08_btnSearch" class="sc-search-button" />
+</div>
+					<div role="status" id="predictiveResults"></div>
+				</div>
+			</div>
+    </div>
+</div>
+
+            
+            </header>
+            <div class="content-outer-container">
+                <div id="main" role="main" class="main-outer-container clearfix">
+                        
+                        <div class="content-main-container">
+                            <div class="grid">
+					            <div class="col-xs-12">
+						            <nav id="breadcrumbs-container" aria-label="You Are Here :">
+							            <span role="list">
+<span role="listitem">
+	<a href="https://www.sa.gov/Home"  lang="en-US">Home</a>
+	<span class="nav-separator" aria-hidden="true" role="presentation">/</span>
+</span>
+          <span role="listitem"><a href="https://www.sa.gov/Directory" >Directory</a><span class='nav-separator' aria-hidden="true" role="presentation">/</span></span><span role="listitem">
+	<a href="https://www.sa.gov/Directory/Departments" >
+		Departments
+	</a>
+	<span class='nav-separator' aria-hidden="true" role="presentation">/</span>
+</span>
+<span role="listitem">
+	<a href="https://www.sa.gov/Directory/Departments/Parks" >
+		Parks & Recreation
+	</a>
+	<span class='nav-separator' aria-hidden="true" role="presentation">/</span>
+</span>
+<span role="listitem">
+	<a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities" >
+		Parks & Facilities
+	</a>
+	<span class='nav-separator' aria-hidden="true" role="presentation">/</span>
+</span>
+<span role="listitem">
+	<a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks" >
+		Parks
+	</a>
+	<span class='nav-separator' aria-hidden="true" role="presentation">/</span>
+</span>
+<span role="listitem">
+	<a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory" >
+		Parks Directory
+	</a>
+	<span class='nav-separator' aria-hidden="true" role="presentation">/</span>
+</span>
+<span class="current-page" role="listitem" aria-current="page" >Travis Park</span>
+          
+          
+          
+          
+          </span>
+						            </nav>
+					            </div>
+                      <div class='col-xs-12'>
+                                                <div class='featured-section-header-outer clearfix'><div class='featured-section-header-inner clearfix'><div class='featured-section-header-logo'><a href='https://www.sa.gov/Directory/Departments/Parks' class='featured-section-header-logo-link'><span class='featured-section-header-logo-text'>Parks & Recreation</span></a></div><div class="section-menu-btn js-element" >
+		    <button><i aria-hidden="true"></i><span class="section-menu-btn-text" >Menu</span></button>
+		    </div></div></div><div class="section-nav-outer-container clearfix" ><div id="section-nav" role ="navigation" class="navigation-container" aria-label="secondary"><ul class="featured-section-menu" id="fs-menu"><li class="  nav-item-seq-1">
+<a href="https://www.sa.gov/Directory/Departments/Parks/About" class="nav-level-1 nav-has-children"   target="">About</a>
+<button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Boards" class="nav-has-children" >Boards</a><button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Boards/CAB" >Conservation Advisory Board</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Boards/Linear-Creekway-Parks-Advisory-Board" >Linear Creekway Parks Advisory Board</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Boards/Parks-Recreation-Board" >Parks & Recreation Board</a></li></ul></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Director" class="" >Director</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Employment" class="nav-has-children" >Employment</a><button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Employment/Lifeguards" >Lifeguards</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Employment/Seasonal" >Seasonal Employment</a></li></ul></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Park-Police" class="" >Park Police</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Projects" class="nav-has-children" >Parks Projects</a><button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Projects/Capital-Project-Updates" >Capital Project Updates</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Projects/New-Eastside-Park" >New Eastside Park</a></li></ul></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Plans-Surveys" class="nav-has-children" >Parks Plans & Survey Results</a><button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Plans-Surveys/Brackenridge-Park" >Brackenridge Park Master Plan</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Plans-Surveys/SA-Parks-System-Plan" >SA Parks System Plan</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/About/Plans-Surveys/Trails-Strategy-Construction" >Trails Strategy & Construction</a></li></ul></li></ul></li>
+          
+          <li class="  nav-item-seq-2">
+<a href="https://www.sa.gov/Directory/Departments/Parks/Edwards-Aquifer" class="nav-level-1 "   target="_self">Edwards Aquifer</a>
+</li>
+          
+          <li class="  nav-item-seq-3">
+<a href="https://www.sa.gov/Directory/Departments/Parks/News-Events" class="nav-level-1 nav-has-children"   target="">News & Events</a>
+<button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/News-Events/Closures" class="" >Park Closures & Maintenance</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/News-Events/Events" class="" >Events</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/News-Events/Featured-News" class="" >Featured News</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/News-Events/News-Releases" class="" >News Releases</a></li></ul></li>
+          
+          <li class="nav-active-path  nav-item-seq-4">
+<a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities" class="nav-level-1 nav-has-children"   target="">Parks & Facilities</a>
+<button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Reserve" class="nav-has-children" >Reserve Parks Facilities & Amenities</a><button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Reserve/Sports-Tenants" >Sports Tenants</a></li></ul></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Buildings-Centers" class="" >Buildings & Centers Directory</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Cemeteries" class="" >Historic City Cemeteries</a></li><li class="nav-active-path "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks" class="nav-has-children" >Parks</a><button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Find-a-Park" >Find a Park</a></li><li class="nav-active-path "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory" >Parks Directory</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Specialty-Parks-Amenities" >Specialty Parks & Amenities</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Frequently-Asked-Questions" >Frequently Asked Questions</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Safety-Rules" >Park Safety & Rules</a></li></ul></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Trails" class="nav-has-children" >Trails</a><button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Trails/Directory" >Trails Directory</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Trails/Accessibility-Maps" >Trail Accessibility Maps</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Trails/Greenway-Trails" >Greenway Trails</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Trails/Trail-Safety-Etiquette" >Trail Safety & Etiquette</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Trails/Trail-Stewards" >Trail Stewards</a></li></ul></li></ul></li>
+          
+          <li class="  nav-item-seq-5">
+<a href="https://www.sa.gov/Directory/Departments/Parks/Permits" class="nav-level-1 nav-has-children"   target="">Permits</a>
+<button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Permits/Metal-Detecting" class="" >Metal Detecting Permit</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Permits/Woodlawn-Vending" class="" >Woodlawn Vending Permit</a></li></ul></li>
+          
+          <li class="  nav-item-seq-6">
+<a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes" class="nav-level-1 nav-has-children"   target="">Programs & Classes</a>
+<button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Register" class="" >Register for Programs & Classes</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Art" class="" >Art</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Dance" class="" >Dance</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Fitness" class="nav-has-children" >Fitness</a><button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Fitness/Fitness-in-the-Park" >Fitness in the Park (FIP)</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Fitness/Get-Fit-SA" >Get Fit SA</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Fitness/Mobile-Fit" >Mobile Fit</a></li></ul></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Martial-Arts" class="" >Martial Arts</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Music" class="" >Music</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Nature-Science" class="" >Nature & Science</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Sports" class="nav-has-children" >Sports</a><button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Sports/Basketball" >Basketball</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Sports/Boxing" >Boxing</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Sports/Kickball" >Kickball</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Sports/Pickleball" >Pickleball</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Sports/Tennis" >Tennis</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Sports/Volleyball" >Volleyball</a></li></ul></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Swimming-Aquatics" class="" >Swimming & Aquatics</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Youth-Programs" class="nav-has-children" >Youth Programs</a><button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Youth-Programs/Summer-Programs" >Summer Programs</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Youth-Programs/Youth-Sports-Leagues" >Youth Sports Leagues</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Youth-Programs/Seasonal-Youth-Camps" >Seasonal Youth Camps</a></li></ul></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Community-Club-Hubs" class="" >Community Club Hubs</a></li></ul></li>
+          
+          <li class="  nav-item-seq-7">
+<a href="https://www.sa.gov/Directory/Departments/Parks/Resources" class="nav-level-1 nav-has-children"   target="">Resources</a>
+<button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Resources/Public-Tree-Maintenance" class="" >Public Tree Maintenance</a></li><li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Resources/Wildlife" class="" >Wildlife Resources</a></li></ul></li>
+          
+          <li class="  nav-item-seq-8">
+<a href="https://www.sa.gov/Directory/Departments/Parks/Volunteer" class="nav-level-1 nav-has-children"   target="">Volunteer</a>
+<button class="fs-nav-subarrow"><i aria-hidden="true"></i><span class="visuallyhidden text">Sub-menu</span></button>
+<ul>
+          
+          <li class=" "><a href="https://www.sa.gov/Directory/Departments/Parks/Volunteer/Cemetery-Stewards" class="" >Cemetery Stewards</a></li></ul></li>
+          
+          <li class="  nav-item-seq-9">
+<a href="https://www.sa.gov/Directory/Departments/Parks/Contact" class="nav-level-1 "   target="">Contact & Connect</a>
+</li>
+          
+          </ul></div></div> </div>
+					            <div class="col-xs-12">
+						            <div class="main-inner-container">
+							            <div id="main-content" class="main-container clearfix">
+							              
+                            <!-- OC Layout Element Conent Template -->
+							              <!--normalTemplateStart--><div class="grid obj-parks">
+	<div class="col-xs-12 col-m-8">
+		<h1 class='oc-page-title '>Travis Park</h1>
+		
+		
+       <picture>
+  <source media="(min-width: 992px)" srcset="/files/assets/main/v/1/parks/images/park-galleries/travispark2.jpg?dimension=pageimagefullwidth&w=1140">
+  <source media="(min-width: 768px)" srcset="/files/assets/main/v/1/parks/images/park-galleries/travispark2.jpg?dimension=pageimagefullwidth&w=992">
+  <source srcset="/files/assets/main/v/1/parks/images/park-galleries/travispark2.jpg?dimension=pageimagefullwidth&w=768">
+  <img class="main-page-image full-width" src="/files/assets/main/v/1/parks/images/park-galleries/travispark2.jpg?dimension=pageimagefullwidth&w=1140" alt="A sign reading "Travis Park"" title="A sign reading "Travis Park""/>
+</picture> 
+		<p>Travis Park hosts a variety of events. Find more information and to view the programming schedule:<br>
+<a href="http://travisparksa.com/" class="styled-button">Travis Park Website</a></p>
+<div><p>All amenities are first come, first served with the exception of the ones available for rental.</p>
+
+</div>
+<div data-type="0" data-title-level="2" class="oc-wysiwyg-container">
+<div class="oc-wysiwyg-container-panel">
+<h2>Park History</h2>
+<div class="oc-wysiwyg-container-panel-content">
+<p>The area including Travis Park was once part of the upper farmlands of Mission San Antonio de Valero (today called the Alamo). After the mission was closed, the land was sold to Francisco Garcia in 1819, and in 1851 to Samuel Augustus Maverick, who lived at the northwest corner of Alamo Plaza and used this property for his orchard.</p>
+<p>After Maverick died in 1870, the land was deeded to the City, and an 1873 map calls the square Travis Plaza, named for Col. William Barrett Travis, commander of the Texan troops at the Alamo.</p>
+<p>By 1876, the City had planted grass, installed wooden painted benches, and soon enclosed the park with a white-washed fence. Concerts were held in a fancy, Victorian-style bandstand. The fence was removed in 1891 to improve access, and the bandstand, too expensive to repair, was torn down in 1937.</p>
+<p>The park's dense landscaping consisted of chinaberry and huisache trees, ligustrum bushes and 50 hackberries installed (on purpose!) for $1 a tree in 1883. The last of the hackberries was not removed until 1956 when the newspaper reported that "spectators looked on with approval."</p>
+<p>In recent years, the park has benefited from improvement projects through the generosity of the San Antonio Parks Foundation, which was formed in 1981 to build support for the restoration of the deteriorated park. Work on the park began in 1982 with a contribution of $125,000 from the St. Anthony Hotel. Other founding sponsors included San Antonio Bank and Trust, Trammel Crow Co., Miller High Life, Southwestern Bell, Church's Fried Chicken and First Federal Savings and Loan. Combined with a grant from the Texas Department of Parks and Wildlife Local Park fund, contributions for Travis Park improvements totaled more than $400,000. That year the Foundation sponsored the first outdoor jazz festival in the park called Jazz'SAlive.</p>
+<p>The festival became one of the largest outdoor festivals in the country. It draws local, regional and national acts to the park. Admission is free. Entertainers such as Spyro Gyra, David Sanborn, Maynard Ferguson, the Dukes of Dixieland, Bela Fleck and the Flecktones, Stanley Jordan, Gato Barbieri, Nancy Wilson, and many more have graced the big stage on Navarro Street.</p>
+<p>With a Halsell Foundation Grant in 1999 the Parks Foundation was able to provide 27 park benches at a cost of $30,000 as well as an expansion and update of the irrigation system at a cost of $5,000 with the help of Home Depot volunteer labor. The Parks Foundation also contributed $25,000 for new sod for the park in 2002.</p>
+<p>In 2013 and 2014, the park was the focal point of another restoration effort that brought programming to the park as well as new amenities. This revitalization of Travis Park was sparked by a grant from Southwest Airlines to support the city&rsquo;s larger Placemaking efforts and engage the local community through new physical amenities, including games, umbrellas, tables and chairs. Additionally, ongoing programming, such as movies and fitness activities in the park, were developed to attract locals and visitors alike. The grant from Southwest was part of the airline&rsquo;s ongoing commitment to help develop the public spaces at the heart of each community. Closed for three months, the 2.6-acre park underwent extensive improvements including electrical upgrades funded from the 2012 Bond, a B-cycle station, as well as infrastructure, maintenance and landscaping improvements. Opening day on March 30, 2014, was filled with free events including zumba, yoga, live entertainment, food trucks, history tours and more. These activities were in addition the freshly planted flowers, colorful furnishings, over-sized chess set, brightly painted kiosk, and authentic 1863 cannon that now occupied the park&rsquo;s 2.6 acres of green space. The reopening festivities concluded with Twilight on the Plaza, a special ticketed dinner that served to benefit future park maintenance and programming.</p>
+</div>
+</div>
+</div>
+<h2>Amenities Available for Rental</h2>
+<p><a href="https://www.travisparksa.com/Events">Travis Park reservations</a> are handled by Center City Development &amp; Operations.</p>
+<div><h2 style="margin-top: 40px;">Programs &amp; Classes</h2>
+<p>Find classes at this location. Learn how to <a href="https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Register">register</a>.</p>
+
+</div>
+<p><a class="styled-button-calltoaction" href="#" onclick="viewActivitiesByID(131); return false;" title="View &amp; Register for Classes">View &amp; Register for Classes</a>&nbsp;</p>
+<h2>Gallery</h2>
+<p><div class="image-gallery-container masonry-theme" data-theme="masonry">
+   <div class="grid">
+          <div class="image-gallery-item col-xs-12 col-m-6 col-lg-4">
+   <a href="/files/assets/main/v/1/parks/images/park-galleries/travispark1.jpg" target="_self" class="document ext-jpg"><i aria-hidden="true"></i>
+      <figure>
+         <div class="image-container">
+            <img src="/files/assets/main/v/1/parks/images/park-galleries/travispark1.jpg?w=375" alt="A park featuring comfortable benches and a central tree,">
+         </div>
+         <figcaption>
+            <p class="caption">Benches &amp; Tree</p>
+         </figcaption>
+      </figure>
+   <span class="file-info">(JPG,&nbsp;400KB)</span></a>
+</div>
+          <div class="image-gallery-item col-xs-12 col-m-6 col-lg-4">
+   <a href="/files/assets/main/v/1/parks/images/park-galleries/travispark3.jpg" target="_self" class="document ext-jpg"><i aria-hidden="true"></i>
+      <figure>
+         <div class="image-container">
+            <img src="/files/assets/main/v/1/parks/images/park-galleries/travispark3.jpg?w=375" alt="Tables and chairs surrounded by a garden">
+         </div>
+         <figcaption>
+            <p class="caption">Tables &amp; Chairs</p>
+         </figcaption>
+      </figure>
+   <span class="file-info">(JPG,&nbsp;420KB)</span></a>
+</div>
+          <div class="image-gallery-item col-xs-12 col-m-6 col-lg-4">
+   <a href="/files/assets/main/v/1/parks/images/park-galleries/travispark4.jpg" target="_self" class="document ext-jpg"><i aria-hidden="true"></i>
+      <figure>
+         <div class="image-container">
+            <img src="/files/assets/main/v/1/parks/images/park-galleries/travispark4.jpg?w=375" alt="Green sign reading "Travis Park"">
+         </div>
+         <figcaption>
+            <p class="caption">Travis Park Sign</p>
+         </figcaption>
+      </figure>
+   <span class="file-info">(JPG,&nbsp;155KB)</span></a>
+</div>
+          <div class="image-gallery-item col-xs-12 col-m-6 col-lg-4">
+   <a href="/files/assets/main/v/1/parks/images/park-galleries/travispark5.jpg" target="_self" class="document ext-jpg"><i aria-hidden="true"></i>
+      <figure>
+         <div class="image-container">
+            <img src="/files/assets/main/v/1/parks/images/park-galleries/travispark5.jpg?w=375" alt="A park featuring tables and chairs">
+         </div>
+         <figcaption>
+            <p class="caption">Tables &amp; Chairs</p>
+         </figcaption>
+      </figure>
+   <span class="file-info">(JPG,&nbsp;409KB)</span></a>
+</div>
+          <div class="image-gallery-item col-xs-12 col-m-6 col-lg-4">
+   <a href="/files/assets/main/v/1/parks/images/park-galleries/travispark6.jpg" target="_self" class="document ext-jpg"><i aria-hidden="true"></i>
+      <figure>
+         <div class="image-container">
+            <img src="/files/assets/main/v/1/parks/images/park-galleries/travispark6.jpg?w=375" alt="Man playing frisbee in park">
+         </div>
+         <figcaption>
+            <p class="caption">Man Playing Frisbee</p>
+         </figcaption>
+      </figure>
+   <span class="file-info">(JPG,&nbsp;366KB)</span></a>
+</div>
+          </div>
+</div>
+          
+</p>
+		<div class="clearfix"></div>
+		
+		<div class="categories-list-container"><span role="heading" aria-level="2">Category:</span><ul class="categories-list clearfix">
+	<li><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory?dlv_OC CL Main Parks Reserves Listing=(dd_OC Park Categories=Parks)">Parks</a></li></ul></div>
+	</div>
+	<div class="col-xs-12 col-m-4">
+		
+		<div class="side-box park-snapshot">
+			<h2 class="side-box-title">
+				Park Details
+			</h2>
+			<div class="side-box-content">
+				<div class="side-box-section park-features">
+<h3>Amenities</h3>
+<ul class="park-feature-list"><li>Benches</li><li>Bike Rack</li><li>Dog Park</li><li>Public Art Display</li><li>Trash Cans</li><li>Walking Trail</li><li>Water Fountain</li></ul></div>
+			    
+                
+
+			</div>
+		</div>
+        <div class="side-box consultation-snapshot">
+		
+			<h2 class="side-box-title">
+				Contact
+			</h2>
+		
+		
+		<div class="side-box-content">
+			<div class="side-box-section body-content">
+				<h3>Phone</h3>
+<dl>
+<dt><strong>Programs &amp; Classes</strong></dt>
+<dd>
+<p><a href="tel:210-207-3047">210-207-3047</a></p>
+</dd>
+<dt><strong>Reservations</strong></dt>
+<dd>
+<p><a href="tel:2102077819">210-207-7819</a></p>
+</dd>
+</dl>
+<h3>Address</h3>
+<p>301 E. Travis St.<br />
+San Antonio, TX 78205<br />
+<a href="https://maps.app.goo.gl/gVvrHc6LfkWM93Da6">Directions</a></p>
+<h3>Hours</h3>
+<p><strong>Sunday - Saturday:&nbsp;</strong>5 a.m. - 11 p.m.</p>
+
+
+			</div>
+		</div>
+		
+	</div><div class="side-box consultation-snapshot">
+		
+			<h2 class="side-box-title">
+				Related Links
+			</h2>
+		
+		
+		<div class="side-box-content">
+			<div class="side-box-section body-content">
+				<p><ul>
+<li><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Buildings-Centers">Buildings &amp; Centers</a></li>
+<li><a href="https://www.sa.gov/Directory/Departments/Parks/News-Events/Closures">Park Closures</a></li>
+<li><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Safety-Rules">Park Safety &amp; Rules</a></li>
+<li><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Directory">Parks Directory</a></li>
+<li><a href="https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Trails/Trail-Safety-Etiquette">Trail Safety &amp; Etiquette</a></li>
+</ul>
+
+</p>
+
+
+			</div>
+		</div>
+		
+	</div>
+			
+	</div>
+	<div class="col-xs-12 col-m-8">
+        <div class="grid" >
+            
+            
+             
+            
+        </div>
+	</div>
+</div><!--normalTemplateEnd-->
+                            
+                            
+                            
+							            </div>
+						            </div>
+					            </div>
+                        <div class="col-xs-12">
+					            	<div class="share-page-container share-page-link-right share-page-link-small share-page-link-rounded share-page-link-no-labels" data-item-id="e46fb33d-b3f8-411b-81e9-5eb57a6cdfe5" id="share-page-container clearfix">
+                                        <section aria-labelledby="share-page-info-label">
+                                            <span id="share-page-info-label" class="share-page-info">Share</span><ul class="share-page-links no-translate"><li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.sa.gov%2fDirectory%2fDepartments%2fParks%2fParks-Facilities%2fParks%2fDirectory%2fTravis-Park" target="{ShareTarget}" class="share-page-link share-page-link-facebook" data-channel="facebook" data-channel-id="1"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-facebook">Facebook</span></a></li><li><a href="https://twitter.com/share?url=https%3a%2f%2fwww.sa.gov%2fDirectory%2fDepartments%2fParks%2fParks-Facilities%2fParks%2fDirectory%2fTravis-Park" target="_blank" class="share-page-link share-page-link-x" data-channel="x" data-channel-id="2"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-x">X</span></a></li><li><a href="mailto:?Body=https%3a%2f%2fwww.sa.gov%2fDirectory%2fDepartments%2fParks%2fParks-Facilities%2fParks%2fDirectory%2fTravis-Park" target="_self" class="share-page-link share-page-link-email" data-channel="email" data-channel-id="3"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-email">Email</span></a></li><li><a href="#" target="_self" class="share-page-link share-page-link-print" data-channel="print" data-channel-id="5"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-print">Print</span></a></li></ul>
+                                        </section>
+                                    </div></div>
+                            </div>
+                        </div>
+                        <div class="back-to-top-container text-center">
+                            <a href="#body-top" id="back-to-top"><i aria-hidden="true"></i><span class="js-visuallyhidden">Back to top</span></a>
+                        </div>
+                </div>
+            </div><!--groupTemplateEnd-->
+            <footer>
+                
+                    <div class="footer-outer-container footer-first-row">
+                        <div class="footer-container clearfix">
+                            <div class="grid grid-pad">
+                                <div class="col-xs-12 col-s-12 col-m-6 col-lg-3" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Contact Us</h3>
+			
+	<ul style="margin-left: 0; padding-left:0; list-style:none; overflow:auto;">
+<li>Customer Service <a href="tel:311">3-1-1</a> or <a href="tel:2102076000">210-207-6000</a></li>
+<li><a href="https://us.openforms.com/Form/92acb612-3fb9-4bd5-9c14-c897a0cab8f5">Email Us</a></li>
+<li><a href="https://www.sa.gov/Site-Footer/Contact-Us">Visit Us</a></li>
+</ul>
+
+
+	
+	
+</div><div class="col-xs-12 col-s-6 col-m-6 col-lg-3" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Get Social</h3>
+			
+	
+	<ul class="footer-links with-icons social-media-links">  <li class="footer-link-facebook">
+	<a href="https://www.facebook.com/cosagov/" target="_self"  >
+<i aria-hidden="true"></i>Visit us on Facebook
+</a>
+</li>
+          <li class="footer-link-twitter">
+	<a href="https://twitter.com/COSAGOV" target="_self"  >
+<i aria-hidden="true"></i>Follow us on X
+</a>
+</li>
+          <li class="footer-link-instagram">
+	<a href="https://www.instagram.com/cosagov/" target="_self"  >
+<i aria-hidden="true"></i>Follow us on Instagram
+</a>
+</li>
+          <li class="footer-link-youtube">
+	<a href="https://www.youtube.com/user/COSAGOV" target="_self"  >
+<i aria-hidden="true"></i>Visit us on YouTube
+</a>
+</li>
+           </ul>
+	
+</div><div class="col-xs-12 col-s-6 col-m-6 col-lg-3" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Visit Other San Antonio Sites</h3>
+			
+	
+	<ul class="footer-links without-icons ">  <li>
+<a href="https://www.mysapl.org/" target="_self"  >San Antonio Public Library</a>
+</li>
+          <li>
+<a href="https://flysanantonio.com/" target="_self"  >San Antonio International Airport</a>
+</li>
+          <li>
+<a href="https://www.sahbgcc.com/" target="_self"  >Henry B. González Convention Center</a>
+</li>
+           </ul>
+	
+</div><div class="col-xs-12 col-s-12 col-m-6 col-lg-3 footer-widget-image" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Share Your Feedback</h3>
+			
+	<p><a href="https://www.sa.gov/About-this-Website">Learn more about this website.<br />
+<img alt="" src="/files/sharedassets/main/v/4/about-website-20221222.png?w=380&amp;h=226" /></a></p>
+
+
+	
+	
+</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="footer-outer-container footer-second-row">
+                    <div class="footer-container clearfix">
+                        <div class="grid grid-pad footer-secondary-links">
+                            <div class="col-xs-12 col-m-7">
+                                
+                                    <div><a href="https://www.sa.gov/Directory/Initiatives/Join-Our-Team" target="_self"  >Careers</a>&nbsp;| <a href="https://www.sa.gov/Directory/Departments/COA/Civil-Rights/Submit-a-Discrimination-Complaint" target="_self"  >Non-Discrimination Ordinance</a>&nbsp;| <a href="https://www.sa.gov/Directory/Departments/COA/Disability-Access" target="_self"  >ADA Compliance</a>&nbsp;| <a href="https://www.sa.gov/Directory/Departments/CE/Open-Government-Request" target="_self"  >Open Records</a>&nbsp;| <a href="https://www.sa.gov/Site-Footer/Contact-Us" target="_self"  >Contact Us</a>&nbsp;| <a href="https://www.sa.gov/Disclaimer" target="_self"  >Privacy Policy & Disclaimer</a>&nbsp;| <a href="https://www.sanantonio.gov/EASI" target="_self"  >Employee Access</a></div>
+                                
+                            </div>
+                            <div class="col-xs-12 col-m-5 powered-by">
+                                <div class="right">
+                                    &copy; 2026 City of San Antonio&nbsp;|&nbsp;<span class="powered-by">Powered by <a href="https://granicus.com/solution/govaccess/opencities/" target="_blank">Granicus</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="/files/oc-resources/7b56e59b-79d0-4704-bbd9-233dfc237c2c/JsTextSnippets.js?ocsvclang=en-US" type="text/javascript"></script><script></script>
+    
+    <!-- site improve code for analytics-->
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_15203350.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+<!-- End site improve code -->
+<!-- Bang the Table code for Feedback Survey-->
+<!-- End Bang the Table code -->
+
+<script type="text/javascript">
+$(document).ready( function () {
+	var embeds = [
+{
+Title: 'Help Us Make the Site Better',
+Content: 'Did our website help you today? We are working to improve your experience. Answer the questions below to give us your feedback.',
+Embed: '<div class="ehq-embed-survey" width="100%" height="600" data-href="https://sanantonio.us.engagementhq.com"></div>',
+Project: '29269',
+
+
+	FullSection: false,
+
+Links: [{link: "https://onecosa.sanantonio.gov/About", property: "26233", target: "_self"},]
+},{
+Title: 'Help Us Make the Site Better',
+Content: 'Did our website help you today? We are working to improve your experience. Answer the questions below to give us your feedback.',
+Embed: '<div class="ehq-embed-survey" width="100%" height="600" data-href="https://sanantonio.us.engagementhq.com"></div>',
+Project: '14550',
+
+
+	FullSection: false,
+
+Links: [{link: "https://www.sa.gov/Community/Animals-Pets-Wildlife", property: "10955", target: "_self"},]
+},{
+Title: 'Help Us Make the Site Better',
+Content: 'Did our website help you today? We are working to improve your experience. Answer the questions below to give us your feedback.',
+Embed: '<div class="ehq-embed-survey" width="100%" height="600" data-href="https://sanantonio.us.engagementhq.com"></div>',
+Project: '14550',
+
+
+	FullSection: false,
+
+Links: [{link: "https://www.sa.gov/Community/Animals-Pets-Wildlife", property: "10955", target: "_self"},{link: "https://www.sa.gov/Community/Arts-Culture-Entertainment", property: "10956", target: "_self"},{link: "https://www.sa.gov/Community/Employment-Training", property: "10957", target: "_self"},{link: "https://www.sa.gov/Community/Garbage-Recycling-Graffiti", property: "10958", target: "_self"},{link: "https://www.sa.gov/Community/Health-Social-Services", property: "10959", target: "_self"},{link: "https://www.sa.gov/Community/Housing-Neighborhoods", property: "10960", target: "_self"},{link: "https://www.sa.gov/Community/Outdoor-Recreation-Activities", property: "10961", target: "_self"},{link: "https://www.sa.gov/Community/Public-Safety-Justice", property: "10962", target: "_self"},{link: "https://www.sa.gov/Business/Business-with-the-City", property: "10964", target: "_self"},{link: "https://www.sa.gov/Business/Construction-Development", property: "10965", target: "_self"},{link: "https://www.sa.gov/Business/Permits-Licensing", property: "10966", target: "_self"},{link: "https://www.sa.gov/Business/Public-Streets-Infrastructure", property: "10963", target: "_self"},{link: "https://www.sa.gov/Government/Emergency-Crisis-Response", property: "10967", target: "_self"},{link: "https://www.sa.gov/Government/Speak-Up", property: "10968", target: "_self"},{link: "https://www.sa.gov/Government/Officials", property: "10969", target: "_self"},{link: "https://www.sa.gov/Government/Records-Data", property: "10971", target: "_self"},{link: "https://www.sa.gov/Directory/Services", property: "10972", target: "_self"},{link: "https://www.sa.gov/Directory/Initiatives/Join-Our-Team", property: "10973", target: "_self"},{link: "https://www.sa.gov/Directory/Initiatives/Join-Our-Team/Application-Resources/How-to-Apply", property: "10974", target: "_self"},{link: "https://www.sa.gov/Directory/Initiatives/Join-Our-Team/Employee-Benefits", property: "10975", target: "_self"},{link: "https://www.sa.gov/Directory/Initiatives/Join-Our-Team/Programs-Initiatives/Management-Fellows-Program", property: "10976", target: "_self"},{link: "https://www.sa.gov/Directory/Initiatives/Join-Our-Team/Career-Opportunities", property: "10993", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/NHSD/Housing-Support", property: "10994", target: "_self"},{link: "https://www.sa.gov/About-this-Website", property: "11018", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/ACS", property: "15561", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/SWMD", property: "15562", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/ACS/Adopt/Pet-Search", property: "15563", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/SWMD/Garbage/My-Collection-Day", property: "15564", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/SWMD/Brush-Bulky/Bulky-Drop-Off", property: "15565", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/CE/Open-Government-Request", property: "15566", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/SAFD", property: "15809", target: "_self"},{link: "https://www.sa.gov/Directory/Mobile-Apps", property: "15810", target: "_self"},{link: "https://www.sa.gov/Directory/Online-Payments", property: "15829", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/Finance", property: "16290", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/SAPD", property: "16913", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/SAPD/Transparency-Open-Data/Open-Records-Requests", property: "16914", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/OHP", property: "16950", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/Court", property: "17024", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/OCC", property: "17328", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/DSD", property: "18134", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/CAO", property: "18380", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/Transportation", property: "18465", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/SAMHD", property: "18785", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/MVAD", property: "20347", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/Planning", property: "20351", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/Parks", property: "21406", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/Arts", property: "21732", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Specialty-Parks-Amenities/Swimming-Pools/Directory", property: "22280", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Swimming-Aquatics", property: "22338", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/Parks/Parks-Facilities/Parks/Specialty-Parks-Amenities/Swimming-Pools", property: "22339", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/Parks/Programs-Classes/Youth-Programs/Summer-Programs/Summer-Youth-Program", property: "22340", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/ICSO/Dashboards-Data/Police-Response-Dashboard", property: "23614", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/OCC/Archives-Records/Reference-Research/Search", property: "24722", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/OCC/Archives-Records/Reference-Research/Search/Legacy", property: "24722", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/EDD", property: "25865", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/EDD/Business-Owners/Business-Engagement/Business-Outreach-Specialists", property: "26497", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/EDD/Programs-Grants/Community-Developer-Tools", property: "26499", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/EDD/Programs-Grants/Industry-Incentives-Grants/Incentives", property: "26500", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/EDD/Business-Owners/Business-Engagement/Industry-Business-Development", property: "26498", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/COA", property: "27330", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/CDD", property: "27333", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/PWD", property: "27442", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/DRS", property: "28731", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/HSSD", property: "29049", target: "_self"},{link: "https://www.sa.gov/Directory/Departments/ICSO", property: "29529", target: "_self"},]
+}
+]
+var currentPage = $('*[property="og:url"]').attr('content');
+var currentPageId = $('.share-page-container').attr('data-item-id');
+	
+	embeds.forEach( function (item) {
+		var embedTitle = '<hr><h2>' + item['Title'] + '</h2>';
+		var embedContent = '<p>' + item['Content'] + '</p>';
+		var $embedCode = $(item['Embed']).attr('data-project-permalink', item['Project']);
+
+		item['Links'].forEach(function (x) {
+			if ( item['FullSection'] ) {
+				if ( currentPage.indexOf( x['link'] ) > -1 ) {
+					$('.main-container').append(embedTitle)
+										.append(embedContent)
+										.append($embedCode.attr('data-project-survey-link', x['property']));
+				}
+			} else {
+				if ( currentPage === x['link'] || currentPageId === x['link'] ) {
+					$('.main-container').append(embedTitle)
+										.append(embedContent)
+										.append($embedCode.attr('data-project-survey-link', x['property']));
+				}
+			}
+		});
+	});
+	
+	// Add EHQ hosted script to load survey
+	var ehqScript = document.createElement('script');
+	ehqScript.type = 'text/javascript';
+	ehqScript.src = 'https://sanantonio.us.engagementhq.com/embeds/static/client/survey.js';
+	ehqScript.async;
+
+	$('body').append($(ehqScript));
+
+});
+$(window).on('load', function() {
+	waitForElement('.ehq-embed-iframe').then(element => {
+		$('.ehq-embed-iframe').attr('title', 'Website Feedback Survey');
+	});
+});
+
+</script>
+<style>
+.ehq-embed-survey {
+	max-width: 800px;
+}
+</style>
+
+
+
+
+<script type="text/javascript" src="https://sanantonio.us.engagementhq.com/embeds/static/client/survey.js" async></script>
+<!-- Relative Announcements Content List -->
+
+<script type="text/javascript">
+function buildAnnouncements( announcement ) {
+	var outContainer = '<div class="oc-emergency-announcement-container relative"><div class="oc-emergency-undismissed max-severity-30"></div></div>';
+	var inContainer = '<div id="' + announcement['Id'] + '" class="side-box message-box emergency-message-box ' + announcement['Importance'] + '"></div>';
+	var title = '<h3 class="side-box-title">' + announcement['Title'] + '</h3>';
+	var content = '<div class="side-box-content">' + announcement['Content'] + '</div>';
+	var links = announcement['Links'];
+	
+	$('.main-inner-container').prepend(outContainer);
+	$('.oc-emergency-announcement-container.relative').append(inContainer);
+	$('.oc-emergency-announcement-container.relative .emergency-message-box').append(title);
+	$('.oc-emergency-announcement-container.relative .emergency-message-box').append(content);
+	
+	if ( links.length > 0 ) {
+		$('.oc-emergency-announcement-container.relative .emergency-message-box .side-box-content').append('<p class="oc-urls"></p>');
+		links.forEach ( function(x) {
+			var thisLink = $('<a>').attr('href', x.link).attr('target', x.target).text(x.property);
+			
+			$('.oc-emergency-announcement-container.relative .oc-urls').append(thisLink).append('&nbsp;&nbsp;');
+		});
+	}
+}
+$(document).ready( function () {
+	var announcements = [
+{
+Id: 'cd1fda2d-8c10-44c1-8379-ff59bc61e4dd',
+Location: 'https://www.sa.gov/Standards/Sandbox/TOC-Test/Copy-of-Update-to-Operations-1',
+Title: 'Update to Operations',
+Importance: 'oc-emergency-severity-30',
+Content: '<p >The Henry B. Gonzalez Convention Center is open at 100% occupancy as of May 17, 2021! As our number one priority is the health and safety of our guests, employees, and partners, we will continue with many protocols established over the last year to ensure our facility is clean and safe for your return. Please contact your sales or event manager to address any questions or concerns you may have.</p>',
+Embed: '',
+
+FullSection: false,
+Links: []
+},{
+Id: '3c4391ef-d282-45c6-9762-1d0da50a86d7',
+Location: 'https://www.sa.gov/Standards/Sandbox/Testing/Comm/Announcements/Website-Relocation',
+Title: 'Website Relocation',
+Importance: 'oc-emergency-severity-20',
+Content: '<p >The Office of Military &amp; Veteran Affairs and Government Affairs Department have moved. Visit their websites for more information.</p>',
+Embed: '',
+FullSection: true,
+
+Links: []
+},{
+Id: '9b3000ab-b19f-402c-8b84-fdad8ec08803',
+Location: 'https://www.sa.gov/Training/Web-Team-Testing/Glenn-Parker/Know-Before-You-Go-Downtown/Announcements/Announcement',
+Title: 'Plan for Major Downtown events on October 25',
+Importance: 'oc-emergency-severity-30',
+Content: '<p >Heavy traffic is expected in the downtown area on Saturday, October 25 due to multiple major events. Visitors are encouraged to arrive early or use VIA Park &amp; Ride to avoid delays. &lt;br/&gt;&lt;br/&gt;&lt;a href=&quot;https://www.sa.gov/Directory/News-Releases/Plan-for-Major-Downtown-Events-on-Saturday-October-25&quot;&gt;Plan Your Visit&lt;/a&gt;</p>',
+Embed: '',
+FullSection: true,
+
+Links: []
+},{
+Id: 'a2d23962-1e26-45d2-8634-aa47629577a9',
+Location: 'https://www.sa.gov/Standards/Departments/Extra-Large/Announcements/Update-to-Operations',
+Title: 'Update to Operations',
+Importance: 'oc-emergency-severity-20',
+Content: '<p >The Henry B. Gonzalez Convention Center is open at 100% occupancy as of May 17, 2021! As our number one priority is the health and safety of our guests, employees, and partners, we will continue with many protocols established over the last year to ensure our facility is clean and safe for your return. Please contact your sales or event manager to address any questions or concerns you may have.</p>',
+Embed: '',
+FullSection: true,
+
+Links: [{link: "https://Directory/Intiatives", property: "Relative No Slash", target: "_self"},{link: "/Directory/Initiatives", property: "Relative with Slash", target: "_self"},{link: "https://www.sa.gov/Directory/Initiatives", property: "Internal Full URL", target: "_self"},{link: "https://www.sa.gov/Directory/Initiatives", property: "Internal Selected", target: "_self"},{link: "https://covid19.sanantonio.gov/Home", property: "External URL", target: "_blank"},]
+},{
+Id: '3dd41c06-4fae-4a37-9789-1817b99d1578',
+Location: 'https://www.sa.gov/Enhancements/Department-Announcements/No-Featured-Section/Announcements/Example-on-All-Descendants',
+Title: 'Update to Operations',
+Importance: 'oc-emergency-severity-30',
+Content: '<p >The Henry B. Gonzalez Convention Center is open at 100% occupancy as of May 17, 2021! As our number one priority is the health and safety of our guests, employees, and partners, we will continue with many protocols established over the last year to ensure our facility is clean and safe for your return. Please contact your sales or event manager to address any questions or concerns you may have.</p>',
+Embed: '',
+FullSection: true,
+
+Links: []
+},{
+Id: 'a8c2484b-96d0-4714-869c-5abb2765641a',
+Location: 'https://www.sa.gov/Enhancements/Department-Announcements/Featured-Section/Announcements/Example-No-Buttons',
+Title: 'Update to Operations',
+Importance: 'oc-emergency-severity-30',
+Content: '<p >The Henry B. Gonzalez Convention Center is open at 100% occupancy as of May 17, 2021! As our number one priority is the health and safety of our guests, employees, and partners, we will continue with many protocols established over the last year to ensure our facility is clean and safe for your return. Please contact your sales or event manager to address any questions or concerns you may have.</p>',
+Embed: '',
+
+FullSection: false,
+Links: []
+},{
+Id: 'a2ef3759-6b6e-42da-920d-2c72b4eab84f',
+Location: 'https://www.sa.gov/Migration2026/Market-Square/Announcements/Announcements',
+Title: 'New events',
+Importance: 'oc-emergency-severity-30',
+Content: '<p >this is a test of the announcements</p>',
+Embed: '',
+
+FullSection: false,
+Links: [{link: "https://www.sa.gov", property: "test", target: "_self"},]
+},{
+Id: '13990c69-dee6-46cd-a7a7-d87347bb8f3e',
+Location: 'https://www.sa.gov/Directory/Departments/SWMD/Announcements/Holiday-Closure',
+Title: 'Holiday Closure',
+Importance: 'oc-emergency-severity-30',
+Content: '<p >All bulky waste, household hazardous waste (HHW) and Bitters brush drop-off locations will be closed Thursday and Friday, November 26 – 27, for Thanksgiving. Curbside cart collection schedules will also shift.</p>',
+Embed: '',
+FullSection: true,
+
+Links: [{link: "https://www.sa.gov/Directory/Departments/SWMD/Garbage/My-Collection-Day#holidays", property: "View the holiday schedule.", target: "_self"},]
+}
+]
+var currentPage = $('*[property="og:url"]').attr('content');
+var currentAnn = currentPage + '/Announcements';
+var currentPageId = $('.share-page-container').attr('data-item-id');
+var annContainer = '<div class="oc-emergency-announcement-container relative"></div>';
+var annInner = '<div class="oc-emergency-undismissed max-severity-30"></div>';
+	
+announcements.forEach( function (item) {
+	var annLink = item['Location'];
+	var annParent = annLink.substr(0, annLink.lastIndexOf('\/'));
+	var annEnd = annParent.substr(annParent.lastIndexOf('\/'), annParent.length);
+	
+	if ( annEnd === '/Announcements' ) {
+		annParent = annParent.substr(0, annParent.lastIndexOf('\/'));
+	}
+	
+	if ( currentPage.indexOf(annParent) > -1 ) {
+		var annTitle = '<hr><h2>' + item['Title'] + '</h2>';
+		var annContent = '<p>' + item['Content'] + '</p>';
+		var $annCode = $(item['Content']).attr('data-project-permalink', item['Project']);
+		
+		if ( item['FullSection'] === true ) {
+			buildAnnouncements(item);
+		} else {
+			console.log(item['FullSection']);
+			console.log(currentPage);
+			console.log(annParent);
+			if ( currentPage === annParent || currentAnn === annParent ) {
+				buildAnnouncements(item);
+			}
+		}
+	}
+});
+});
+
+</script>
+<style>
+
+.oc-emergency-announcement-container.relative .oc-accordion-body {
+	height: 0;
+	transition: height 0.3s ease-out;
+}
+
+.emergency-container.relative .oc-accordion-body .emergency-message-box {
+	overflow: hidden;
+	height:0;
+	transition: height 0.3s ease-out;
+}
+
+.oc-emergency-announcement-container.relative .emergency-message-box.oc-emergency-severity-20 {
+	background-color: #F5F5F5;
+	border-left: solid 6px #038391;
+}
+.oc-emergency-announcement-container.relative .oc-emergency-severity-20 a.emergency-announcement-item-dismiss:after {
+	color: #038391;
+}
+.oc-emergency-announcement-container .oc-emergency-severity-20 .side-box-title {
+	color: #444;
+}
+.oc-emergency-announcement-container .oc-emergency-severity-20 .side-box-content p {
+	color: #444;
+}
+.oc-emergency-severity-10 .side-box-content a.styled-button, .oc-emergency-severity-20 .side-box-content a.styled-button {
+	color: #fff;
+    margin: 10px 0px 0px 0px;
+    background-color: #114F8C;
+    border-radius: 0px;
+    font-weight: normal;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+    border: 2px solid #114F8C;
+    font-family: inherit;
+}
+
+.oc-emergency-severity-20 .side-box-content a.styled-button {
+	color: #fff;
+    margin: 10px 0px 0px 0px;
+    background-color: #038391;
+    border-radius: 0px;
+    font-weight: normal;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+    border: 2px solid #038391;
+    font-family: inherit;
+}
+
+.oc-emergency-severity-30 .side-box-content a.styled-button {
+	color: #fff;
+    margin: 10px 0px 0px 0px;
+    background-color: #C4403D;
+    border-radius: 0px;
+    font-weight: normal;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+    border: 2px solid #C4403D;
+    font-family: inherit;
+}
+.oc-emergency-severity-10 .side-box-content a.styled-button:hover {
+	font-weight: bold;
+	background-color: #184173;
+	border-color: #184173;
+    text-decoration: underline;
+}
+.oc-emergency-severity-20 .side-box-content a.styled-button:hover {
+	font-weight: bold;
+	background-color: #02616B;
+	border-color: #02616B;
+    text-decoration: underline;
+}
+.oc-emergency-severity-30 .side-box-content a.styled-button:hover {
+	font-weight: bold;
+	background-color: #8B0E04;
+	border-color: #8B0E04;
+	text-decoration: underline;
+}
+.oc-emergency-announcement-container.relative {
+	margin-bottom: 20px;
+}
+#main a.oc-announcement-link:hover {
+	font-weight: normal;
+}
+</style>
+
+
+
+
+<script type="text/javascript" src="/files/templates/00000000-0000-0000-0000-000000000000/4324767c-d12a-44cb-8189-d2e4aba0c416/v/1441//gis.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-213177549-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-43L8S6H36B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-43L8S6H36B');
+</script> -->
+<!-- GA4 Updated google analytics code -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P0CZ6X1RD1"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());  gtag('config', 'G-43L8S6H36B'); gtag('config', 'G-P0CZ6X1RD1');
+</script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl04_seamless_script_manager_TSM');//]]>
+</script>
+</form>
+</body>
+</html>

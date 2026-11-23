@@ -2,14 +2,14 @@
   "id": "2026-11-22-manual-christmas-three",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-23T01:26:25.964023+00:00",
-  "status": "reserved-not-generated",
+  "status": "published",
   "topicIds": [
     "salerno",
     "christmas-sapporo",
     "san-antonio"
   ],
   "requestedCount": 3,
-  "publishedCount": 0,
+  "publishedCount": 3,
   "errors": [],
   "reservationMethod": "exclusive manual reservation for the owners explicit additional request; native daily CLI returned the already completed two-topic daily batch",
   "nativeReservationInvocationClaimed": false,
@@ -49,9 +49,10 @@
     "baseCommit": "cc0cb5dba8b177d6a10579fd8f48eff9a954fc8c",
     "owner": "Codex /root",
     "startedAt": "2026-11-23T01:19:00.032683+00:00",
-    "heartbeatAt": "2026-11-23T01:26:25.964023+00:00",
-    "leaseUntil": "2026-11-23T07:26:25.964023+00:00",
-    "status": "active"
+    "heartbeatAt": "2026-11-23T02:49:54.770Z",
+    "leaseUntil": "2026-11-23T02:49:54.770Z",
+    "status": "completed-verified",
+    "completedAt": "2026-11-23T02:49:54.770Z"
   },
   "dailyCensus": {
     "newYorkDate": "2026-11-22",
@@ -62,5 +63,38 @@
     ],
     "additionalOwnerAuthorizedOriginals": 3,
     "censusSha256": "5221b6115340451e946bca3a012caadd049af88f5136808c4f5c04a1b1a0d351"
-  }
+  },
+  "publishedTopicIds": [
+    "salerno",
+    "christmas-sapporo",
+    "san-antonio"
+  ],
+  "verifiedTopicCount": 3,
+  "localizedVersionsPublished": 6,
+  "documentaryPhotosPublished": 9,
+  "optimizedPhotoFiles": 45,
+  "citedSourceDocuments": 17,
+  "publishedCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+  "publiclyVerifiedAt": "2026-11-23T02:49:54.770Z",
+  "firstPublicationNewYorkDate": "2026-11-22",
+  "publicVerification": "editorial/verification/2026-11-22-manual-christmas-three-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/navidad-salerno-2026-luci-dartista/",
+      "https://maletafeliz.com/es/guias/navidad-sapporo-2026-mercado-luces/",
+      "https://maletafeliz.com/es/guias/navidad-san-antonio-2026-river-walk-luces/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/christmas-salerno-2026-luci-dartista/",
+      "https://maletafeliz.com/en/guides/christmas-sapporo-2026-market-lights/",
+      "https://maletafeliz.com/en/guides/christmas-san-antonio-2026-river-walk-lights/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "christmas-sapporo",
+    "salerno",
+    "san-antonio",
+    "savannah",
+    "sendai"
+  ]
 }

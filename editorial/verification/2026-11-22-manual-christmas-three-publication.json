@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-23T02:49:54.770Z",
+  "commit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+  "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+  "batch": "2026-11-22-manual-christmas-three",
+  "publicationDay": "2026-11-22",
+  "reservationDay": "2026-11-22",
+  "executionId": "3e09cfcc-a00e-42ad-bd22-1a2b42e3426e",
+  "timeZone": "America/New_York",
+  "firstPublicationNewYorkDate": "2026-11-22",
+  "status": "publicly-verified",
+  "originals": 3,
+  "newOriginals": 3,
+  "localizations": 6,
+  "publishedTopicIds": [
+    "salerno",
+    "christmas-sapporo",
+    "san-antonio"
+  ],
+  "priorSameDayUniqueVerifiedOriginals": 2,
+  "sameDayUniqueVerifiedOriginalsAfter": 5,
+  "sameDayUniqueVerifiedTopicIds": [
+    "christmas-sapporo",
+    "salerno",
+    "san-antonio",
+    "savannah",
+    "sendai"
+  ],
+  "authorization": {
+    "kind": "explicit-owner-manual-three-christmas",
+    "additionalOriginalsAuthorized": 3,
+    "priorVerifiedOriginalsToday": 2,
+    "priorVerifiedTopicIdsToday": [
+      "savannah",
+      "sendai"
+    ],
+    "authorizedTotalUniqueOriginalsToday": 5,
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false
+  },
+  "urls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/navidad-salerno-2026-luci-dartista/",
+      "https://maletafeliz.com/es/guias/navidad-sapporo-2026-mercado-luces/",
+      "https://maletafeliz.com/es/guias/navidad-san-antonio-2026-river-walk-luces/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/christmas-salerno-2026-luci-dartista/",
+      "https://maletafeliz.com/en/guides/christmas-sapporo-2026-market-lights/",
+      "https://maletafeliz.com/en/guides/christmas-san-antonio-2026-river-walk-lights/"
+    ]
+  },
+  "globalOriginals": 247,
+  "globalLocalizations": 494,
+  "globalPhotos": 1052,
+  "globalCitedSourceRecords": 1309,
+  "photos": 9,
+  "newPhotoMetadataRecords": 9,
+  "optimizedPhotoFiles": 45,
+  "citedSourceDocuments": 17,
+  "coverage": {
+    "countries": [
+      {
+        "countryId": "it",
+        "publishedOriginals": 31,
+        "localizedVersions": 62,
+        "targetOriginals": 30,
+        "missingOriginals": 0,
+        "excessOriginals": 1,
+        "articleIds": [
+          "amalfi-coast",
+          "assisi",
+          "bergamo",
+          "bologna",
+          "christmas-florence",
+          "christmas-milan",
+          "christmas-naples",
+          "christmas-rome",
+          "christmas-turin",
+          "christmas-venice",
+          "christmas-verona",
+          "ferrara",
+          "florence",
+          "florence-uffizi",
+          "lucca",
+          "mantua",
+          "milan",
+          "padua",
+          "palermo",
+          "parma",
+          "perugia",
+          "pisa",
+          "ravenna",
+          "rome",
+          "rome-colosseum-visit",
+          "salerno",
+          "siena",
+          "trieste",
+          "venice",
+          "venice-vaporetto",
+          "verona"
+        ]
+      },
+      {
+        "countryId": "jp",
+        "publishedOriginals": 27,
+        "localizedVersions": 54,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 2,
+        "articleIds": [
+          "christmas-fukuoka",
+          "christmas-osaka",
+          "christmas-sapporo",
+          "christmas-tokyo",
+          "christmas-yokohama",
+          "halloween-japan",
+          "himeji",
+          "hiroshima",
+          "kamakura",
+          "kanazawa",
+          "kobe",
+          "kurashiki",
+          "kyoto",
+          "kyoto-higashiyama-walk",
+          "matsumoto",
+          "mount-fuji",
+          "nagasaki",
+          "nara",
+          "nara-day-trip-transport",
+          "nikko",
+          "osaka",
+          "sapporo",
+          "sendai",
+          "takamatsu",
+          "takayama",
+          "tokyo",
+          "tokyo-new-year-2027"
+        ]
+      },
+      {
+        "countryId": "mx",
+        "publishedOriginals": 25,
+        "localizedVersions": 50,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 0,
+        "articleIds": [
+          "cancun",
+          "chapultepec-museums-day",
+          "cuernavaca",
+          "durango",
+          "guadalajara",
+          "guanajuato",
+          "leon-guanajuato",
+          "los-cabos",
+          "mexico-city",
+          "morelia",
+          "muertos-merida",
+          "muertos-mexico-city",
+          "muertos-mixquic",
+          "muertos-oaxaca",
+          "muertos-puebla",
+          "oaxaca",
+          "patzcuaro",
+          "puebla",
+          "queretaro",
+          "riviera-maya",
+          "san-cristobal-de-las-casas",
+          "san-luis-potosi",
+          "san-miguel-de-allende",
+          "veracruz",
+          "zacatecas"
+        ]
+      },
+      {
+        "countryId": "us",
+        "publishedOriginals": 25,
+        "localizedVersions": 50,
+        "targetOriginals": 20,
+        "missingOriginals": 0,
+        "excessOriginals": 5,
+        "articleIds": [
+          "buffalo",
+          "christmas-boston",
+          "christmas-chicago",
+          "christmas-los-angeles",
+          "christmas-miami",
+          "christmas-new-york",
+          "christmas-philadelphia",
+          "christmas-san-francisco",
+          "columbus",
+          "greenville-sc",
+          "halloween-usa",
+          "hawaii",
+          "hilo",
+          "las-vegas",
+          "las-vegas-new-year-2027",
+          "los-angeles",
+          "miami",
+          "new-orleans",
+          "new-york",
+          "new-york-new-year-2027",
+          "orlando",
+          "san-antonio",
+          "san-diego",
+          "savannah",
+          "washington-dc"
+        ]
+      }
+    ],
+    "priorityOriginals": 108,
+    "targetCappedOriginals": 100,
+    "missingToInitial100": 0,
+    "excessOriginals": 8
+  },
+  "tests": {
+    "local": {
+      "unit": 107,
+      "navigation": 28,
+      "productionFocused": 12,
+      "total": 147,
+      "wholeSuiteClaimed": false
+    },
+    "github": {
+      "runId": 45100257143,
+      "runUrl": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/45100257143",
+      "counts": {
+        "unit": 107,
+        "navigation": 28,
+        "production": 1048,
+        "total": 1183
+      },
+      "decodedLogSha256": "80d14a22d6c59f035b0ed26c856432520bf76ee87a8407a34f4a7f105cc0a32d"
+    }
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-23T02:37:39.009Z",
+    "commit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "04b67e32-9895-47c0-a4a0-fdc0627bd475",
+        "canonicalCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+        "deploymentId": "04b67e32-9895-47c0-a4a0-fdc0627bd475",
+        "commit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-23T02:37:18.975727Z",
+          "ended_on": "2026-11-23T02:37:31.16111Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-23T02:27:10.093564Z",
+            "ended_on": "2026-11-23T02:27:10.095626Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-23T02:27:10.095626Z",
+            "ended_on": "2026-11-23T02:27:11.551387Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-23T02:27:11.551387Z",
+            "ended_on": "2026-11-23T02:27:47.211807Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-23T02:27:47.211807Z",
+            "ended_on": "2026-11-23T02:37:18.975727Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-23T02:37:18.975727Z",
+            "ended_on": "2026-11-23T02:37:31.16111Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "ee783f54-1225-4bf6-8626-c1bd4630cfcc",
+        "canonicalCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+        "deploymentId": "ee783f54-1225-4bf6-8626-c1bd4630cfcc",
+        "commit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-23T02:27:48.925342Z",
+          "ended_on": "2026-11-23T02:27:54.429159Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-23T02:27:11.707974Z",
+            "ended_on": "2026-11-23T02:27:11.711673Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-23T02:27:11.711673Z",
+            "ended_on": "2026-11-23T02:27:13.061106Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-23T02:27:13.061106Z",
+            "ended_on": "2026-11-23T02:27:46.957137Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-23T02:27:46.957137Z",
+            "ended_on": "2026-11-23T02:27:48.925342Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-23T02:27:48.925342Z",
+            "ended_on": "2026-11-23T02:27:54.429159Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true,
+    "checkoutProof": {
+      "checkedAt": "2026-11-23T02:37:41.442Z",
+      "success": true,
+      "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+      "proofs": [
+        {
+          "checkedAt": "2026-11-23T02:37:39.009Z",
+          "project": "maletafeliz-web",
+          "deploymentId": "04b67e32-9895-47c0-a4a0-fdc0627bd475",
+          "commit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+          "entries": 1184,
+          "logSha256": "b4d9da7c4fd83e59838fd3ff84a507b6fa21ddb43c02020ce56f29360e1fc8c8",
+          "releaseCommandPresent": true,
+          "checkoutMarkerPresent": true,
+          "builtPages": "1080"
+        },
+        {
+          "checkedAt": "2026-11-23T02:37:39.009Z",
+          "project": "maletafeliz-www",
+          "deploymentId": "ee783f54-1225-4bf6-8626-c1bd4630cfcc",
+          "commit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+          "entries": 23,
+          "logSha256": "1d99f0fee7b88c76d74ef05ba5e9f726653b13e1550ba46ee930f6ca36683bbf",
+          "releaseCommandPresent": false,
+          "checkoutMarkerPresent": true
+        }
+      ],
+      "method": "Actual Cloudflare build log HEAD marker, matching deployment full commit metadata and canonical production state. WWW is the existing redirect project, not an Astro build."
+    }
+  },
+  "https": {
+    "counts": {
+      "originalTopics": 3,
+      "localizedVersionsVerified": 6,
+      "photoFilesVerified": 45,
+      "searchVersionsVerified": 6,
+      "googlebotUaProbes": 8,
+      "actualHttpsRequests": 95,
+      "sitemapUrls": 1074
+    },
+    "sha256": "fc89a8828accb7aa0c4b62f09cc357e50cebf6b99f5e05be9e97918e8dc222a2"
+  },
+  "wholeSiteVerification": {
+    "sitemapUrls": 1074,
+    "guideVersions": 494,
+    "errors": 0,
+    "sha256": "13437a6c9a1ba32607a91bc9d3b192904bdd7d3c83b36e178320f683fbba7fec",
+    "run": {
+      "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+      "startedAt": "2026-11-23T02:38:26.595Z",
+      "finishedAt": "2026-11-23T02:39:24.029Z",
+      "exitCode": 0,
+      "outputSha256": "13437a6c9a1ba32607a91bc9d3b192904bdd7d3c83b36e178320f683fbba7fec",
+      "httpVerified": true,
+      "checkedRequests": 1084,
+      "sitemapUrls": 1074,
+      "guideVersions": 494
+    }
+  },
+  "browser": {
+    "flows": 12,
+    "screenshots": 18,
+    "sha256": "92ea298d7a0a3dc8bf9064861c4ce5c6a78acd71cc02e5fb4ac84c92ac1e3de6",
+    "visualReview": {
+      "reviewedAt": "2026-11-23T02:41:07.846024+00:00",
+      "success": true,
+      "sourceCommit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+      "reviewer": "Codex /root — actual visual inspection of five contact sheets",
+      "contactSheets": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-mobile-guides-es-1.jpg",
+          "sha256": "f5a0302998918fce7d0db181814a9fceacb779ff09f736dbcfa89c2dcfc5d959",
+          "contains": [
+            "public-guide-salerno-es-390.png",
+            "public-guide-christmas-sapporo-es-390.png",
+            "public-guide-san-antonio-es-390.png"
+          ],
+          "actuallyViewed": true,
+          "observations": "All three guide headers actually viewed at390px in the identified language. Orange3Dlogo and navyheader retained; titles/descriptions wrap within the viewport, breadcrumbs and bylines readable, reservedtopadvertisement slot present. Salernoseafront, Odorinightpark and RiverWalkarchive covers visible without horizontal spill. SanAntonio longer title naturally pushes the cover lower; this is the unchangedlayout."
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-desktop-guides-es-1.jpg",
+          "sha256": "565b0627b9062d5500f35669c6ce4acbf84e5e1f284990ddd0c315ec5bc14580",
+          "contains": [
+            "public-guide-salerno-es-1440.png",
+            "public-guide-christmas-sapporo-es-1440.png",
+            "public-guide-san-antonio-es-1440.png"
+          ],
+          "actuallyViewed": true,
+          "observations": "All three actual1440pxguide screenshots viewed in contact sheet. Headerbrand/nav/actions remain separated; headlines and descriptions readable, photographs present belowheaders, reservedcentralandlateraladvertising spaces remain in position. Reduced contact presentation does not substitute the measured no-overflow assertions and per-image decoded-load checks."
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-mobile-guides-en-1.jpg",
+          "sha256": "f48716f62c84772aca9c15d950ed48df6e5367e0b2b82929215dfbf79c8e48ae",
+          "contains": [
+            "public-guide-salerno-en-390.png",
+            "public-guide-christmas-sapporo-en-390.png",
+            "public-guide-san-antonio-en-390.png"
+          ],
+          "actuallyViewed": true,
+          "observations": "All three guide headers actually viewed at390px in the identified language. Orange3Dlogo and navyheader retained; titles/descriptions wrap within the viewport, breadcrumbs and bylines readable, reservedtopadvertisement slot present. Salernoseafront, Odorinightpark and RiverWalkarchive covers visible without horizontal spill. SanAntonio longer title naturally pushes the cover lower; this is the unchangedlayout."
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-desktop-guides-en-1.jpg",
+          "sha256": "bc98734eae8bffd8e31bae9520935698fe008060c80e8023e656d1968b55c770",
+          "contains": [
+            "public-guide-salerno-en-1440.png",
+            "public-guide-christmas-sapporo-en-1440.png",
+            "public-guide-san-antonio-en-1440.png"
+          ],
+          "actuallyViewed": true,
+          "observations": "All three actual1440pxguide screenshots viewed in contact sheet. Headerbrand/nav/actions remain separated; headlines and descriptions readable, photographs present belowheaders, reservedcentralandlateraladvertising spaces remain in position. Reduced contact presentation does not substitute the measured no-overflow assertions and per-image decoded-load checks."
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-navigation.jpg",
+          "sha256": "ccd90d6d7f7f9949fc994ba3f012ad1c8139da1bc3ada1770c89c91c087d1b03",
+          "contains": [
+            "public-functional-es-390-menu.png",
+            "public-functional-es-390-search.png",
+            "public-functional-es-1440-search.png",
+            "public-functional-en-390-menu.png",
+            "public-functional-en-390-search.png",
+            "public-functional-en-1440-search.png"
+          ],
+          "actuallyViewed": true,
+          "observations": "All six navigation screenshots actually viewed: Spanish/Englishmobilemenus, mobileSearch and desktopSearch. Menu opens below the brand without covering it; intentional overlay over Homehero retained. All four navigation links visible. Search shows the matchingSalernoguide with localized title and crawlableRead/Leerlink; sourcehero3Dglobe and citycards retained."
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "public-guide-salerno-es-390.png",
+          "sha256": "67d38c02f6d2e9c99e00a73871bb2222e166ecb7c367013ea3825bf475a3bf72",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-mobile-guides-es-1.jpg",
+          "observations": "All three guide headers actually viewed at390px in the identified language. Orange3Dlogo and navyheader retained; titles/descriptions wrap within the viewport, breadcrumbs and bylines readable, reservedtopadvertisement slot present. Salernoseafront, Odorinightpark and RiverWalkarchive covers visible without horizontal spill. SanAntonio longer title naturally pushes the cover lower; this is the unchangedlayout."
+        },
+        {
+          "file": "public-guide-christmas-sapporo-es-390.png",
+          "sha256": "0bc87745c503d48a9c388e852679b14cfb2841298cf85bcfceb5bd568cd3614b",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-mobile-guides-es-1.jpg",
+          "observations": "All three guide headers actually viewed at390px in the identified language. Orange3Dlogo and navyheader retained; titles/descriptions wrap within the viewport, breadcrumbs and bylines readable, reservedtopadvertisement slot present. Salernoseafront, Odorinightpark and RiverWalkarchive covers visible without horizontal spill. SanAntonio longer title naturally pushes the cover lower; this is the unchangedlayout."
+        },
+        {
+          "file": "public-guide-san-antonio-es-390.png",
+          "sha256": "9134e0b64b7b70e5bd56afed2d5f0eb96ef017f42c334768d7048bd8b72835cf",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-mobile-guides-es-1.jpg",
+          "observations": "All three guide headers actually viewed at390px in the identified language. Orange3Dlogo and navyheader retained; titles/descriptions wrap within the viewport, breadcrumbs and bylines readable, reservedtopadvertisement slot present. Salernoseafront, Odorinightpark and RiverWalkarchive covers visible without horizontal spill. SanAntonio longer title naturally pushes the cover lower; this is the unchangedlayout."
+        },
+        {
+          "file": "public-guide-salerno-es-1440.png",
+          "sha256": "a6fddc813f2f584938693eb078e5ebcb303bb4a8021d7ab209e88e66b5e1631e",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-desktop-guides-es-1.jpg",
+          "observations": "All three actual1440pxguide screenshots viewed in contact sheet. Headerbrand/nav/actions remain separated; headlines and descriptions readable, photographs present belowheaders, reservedcentralandlateraladvertising spaces remain in position. Reduced contact presentation does not substitute the measured no-overflow assertions and per-image decoded-load checks."
+        },
+        {
+          "file": "public-guide-christmas-sapporo-es-1440.png",
+          "sha256": "d3bb254c73a61a483fe0e0d2352117bdae5af6a82edd0ebddc344dfeddca23eb",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-desktop-guides-es-1.jpg",
+          "observations": "All three actual1440pxguide screenshots viewed in contact sheet. Headerbrand/nav/actions remain separated; headlines and descriptions readable, photographs present belowheaders, reservedcentralandlateraladvertising spaces remain in position. Reduced contact presentation does not substitute the measured no-overflow assertions and per-image decoded-load checks."
+        },
+        {
+          "file": "public-guide-san-antonio-es-1440.png",
+          "sha256": "382d141ef793da2ee9aaf1ee7976bccf0283b94b6f66f86d6d821ac1f9cdd361",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-desktop-guides-es-1.jpg",
+          "observations": "All three actual1440pxguide screenshots viewed in contact sheet. Headerbrand/nav/actions remain separated; headlines and descriptions readable, photographs present belowheaders, reservedcentralandlateraladvertising spaces remain in position. Reduced contact presentation does not substitute the measured no-overflow assertions and per-image decoded-load checks."
+        },
+        {
+          "file": "public-guide-salerno-en-390.png",
+          "sha256": "cb7de4afa60d75ec82d6599e0a21c0345ae9a06fe6aceee9446259c92e6b3f2c",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-mobile-guides-en-1.jpg",
+          "observations": "All three guide headers actually viewed at390px in the identified language. Orange3Dlogo and navyheader retained; titles/descriptions wrap within the viewport, breadcrumbs and bylines readable, reservedtopadvertisement slot present. Salernoseafront, Odorinightpark and RiverWalkarchive covers visible without horizontal spill. SanAntonio longer title naturally pushes the cover lower; this is the unchangedlayout."
+        },
+        {
+          "file": "public-guide-christmas-sapporo-en-390.png",
+          "sha256": "2ae82018d4b64e328abccbf28e836ab7b1247ea363f10faddf2d786b326019fd",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-mobile-guides-en-1.jpg",
+          "observations": "All three guide headers actually viewed at390px in the identified language. Orange3Dlogo and navyheader retained; titles/descriptions wrap within the viewport, breadcrumbs and bylines readable, reservedtopadvertisement slot present. Salernoseafront, Odorinightpark and RiverWalkarchive covers visible without horizontal spill. SanAntonio longer title naturally pushes the cover lower; this is the unchangedlayout."
+        },
+        {
+          "file": "public-guide-san-antonio-en-390.png",
+          "sha256": "5d6f37e452f545182c45d139298dc97a2dba4bb7cb778aa6f4015de5ad7fb9d3",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-mobile-guides-en-1.jpg",
+          "observations": "All three guide headers actually viewed at390px in the identified language. Orange3Dlogo and navyheader retained; titles/descriptions wrap within the viewport, breadcrumbs and bylines readable, reservedtopadvertisement slot present. Salernoseafront, Odorinightpark and RiverWalkarchive covers visible without horizontal spill. SanAntonio longer title naturally pushes the cover lower; this is the unchangedlayout."
+        },
+        {
+          "file": "public-guide-salerno-en-1440.png",
+          "sha256": "b5b518cd3e0d36998bcbf0d6f1a9f8d977c37d6612f34052bb20ae6e19236d08",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-desktop-guides-en-1.jpg",
+          "observations": "All three actual1440pxguide screenshots viewed in contact sheet. Headerbrand/nav/actions remain separated; headlines and descriptions readable, photographs present belowheaders, reservedcentralandlateraladvertising spaces remain in position. Reduced contact presentation does not substitute the measured no-overflow assertions and per-image decoded-load checks."
+        },
+        {
+          "file": "public-guide-christmas-sapporo-en-1440.png",
+          "sha256": "8c80ccfd1f71ad101e1c606d854b54fd1e19a88c56af262c8d75f01b0b0e829b",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-desktop-guides-en-1.jpg",
+          "observations": "All three actual1440pxguide screenshots viewed in contact sheet. Headerbrand/nav/actions remain separated; headlines and descriptions readable, photographs present belowheaders, reservedcentralandlateraladvertising spaces remain in position. Reduced contact presentation does not substitute the measured no-overflow assertions and per-image decoded-load checks."
+        },
+        {
+          "file": "public-guide-san-antonio-en-1440.png",
+          "sha256": "48e97f0c43b148889b99e489036bf50e1ec16349b9a398f6a8406605dbcf8960",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-desktop-guides-en-1.jpg",
+          "observations": "All three actual1440pxguide screenshots viewed in contact sheet. Headerbrand/nav/actions remain separated; headlines and descriptions readable, photographs present belowheaders, reservedcentralandlateraladvertising spaces remain in position. Reduced contact presentation does not substitute the measured no-overflow assertions and per-image decoded-load checks."
+        },
+        {
+          "file": "public-functional-es-390-menu.png",
+          "sha256": "70d40323e6a9065af817ba3b98993f81db8841bfcc1c92b3cf33390cd14ea39b",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-navigation.jpg",
+          "observations": "All six navigation screenshots actually viewed: Spanish/Englishmobilemenus, mobileSearch and desktopSearch. Menu opens below the brand without covering it; intentional overlay over Homehero retained. All four navigation links visible. Search shows the matchingSalernoguide with localized title and crawlableRead/Leerlink; sourcehero3Dglobe and citycards retained."
+        },
+        {
+          "file": "public-functional-es-390-search.png",
+          "sha256": "24aed9dd8bcc6f97067bb4de3f90fcfe3e95a6897c5612d6131abe681a1f4019",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-navigation.jpg",
+          "observations": "All six navigation screenshots actually viewed: Spanish/Englishmobilemenus, mobileSearch and desktopSearch. Menu opens below the brand without covering it; intentional overlay over Homehero retained. All four navigation links visible. Search shows the matchingSalernoguide with localized title and crawlableRead/Leerlink; sourcehero3Dglobe and citycards retained."
+        },
+        {
+          "file": "public-functional-es-1440-search.png",
+          "sha256": "1030b710b39c3a27ec9aa603207dccf0dd1e86080f2625d790b23f736e02dd71",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-navigation.jpg",
+          "observations": "All six navigation screenshots actually viewed: Spanish/Englishmobilemenus, mobileSearch and desktopSearch. Menu opens below the brand without covering it; intentional overlay over Homehero retained. All four navigation links visible. Search shows the matchingSalernoguide with localized title and crawlableRead/Leerlink; sourcehero3Dglobe and citycards retained."
+        },
+        {
+          "file": "public-functional-en-390-menu.png",
+          "sha256": "209a229bc56b56b3e677d2c30d6fdca36f73f9d90584d3a80843ae8e6ce20e74",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-navigation.jpg",
+          "observations": "All six navigation screenshots actually viewed: Spanish/Englishmobilemenus, mobileSearch and desktopSearch. Menu opens below the brand without covering it; intentional overlay over Homehero retained. All four navigation links visible. Search shows the matchingSalernoguide with localized title and crawlableRead/Leerlink; sourcehero3Dglobe and citycards retained."
+        },
+        {
+          "file": "public-functional-en-390-search.png",
+          "sha256": "687af0ea903349a4d355fc9c00553f03232abb3c061a508397fd579f15789627",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-navigation.jpg",
+          "observations": "All six navigation screenshots actually viewed: Spanish/Englishmobilemenus, mobileSearch and desktopSearch. Menu opens below the brand without covering it; intentional overlay over Homehero retained. All four navigation links visible. Search shows the matchingSalernoguide with localized title and crawlableRead/Leerlink; sourcehero3Dglobe and citycards retained."
+        },
+        {
+          "file": "public-functional-en-1440-search.png",
+          "sha256": "55f21bf84631bdb128490ce5e9737fd01ca690d48cce5a1f3ba2a2df68bceb94",
+          "actuallyViewedInContactSheet": true,
+          "contactSheet": "/workspace/artifacts/maletafeliz-manual-christmas-three-n22-evening/public-contact-navigation.jpg",
+          "observations": "All six navigation screenshots actually viewed: Spanish/Englishmobilemenus, mobileSearch and desktopSearch. Menu opens below the brand without covering it; intentional overlay over Homehero retained. All four navigation links visible. Search shows the matchingSalernoguide with localized title and crawlableRead/Leerlink; sourcehero3Dglobe and citycards retained."
+        }
+      ],
+      "browserEvidenceSha256": "92ea298d7a0a3dc8bf9064861c4ce5c6a78acd71cc02e5fb4ac84c92ac1e3de6",
+      "contactPreparationSha256": "029974c1af72f8ba459302c27142475800dbf86f9ff15864e87fa619931b3b1d",
+      "notes": [
+        "All five contact images were actually opened with view_image and visually inspected after the real public browser run. No independent reviewer claimed.",
+        "Externaladproviders were isolated only in browserQA to avoidimpressions; blank reservedslots are expected, not evidence of removed advertisements or actual vendor-delivery success. Exact original adscript/layout preservation is proven separately.",
+        "Actual article ISOtimestamps are2026-11-23UTC, corresponding to2026-11-22America/New_York. Existing unmodified renderer displaysNovember23; batch/census use NewYorkdate22. No backdating or date rewriting.",
+        "Full photo relevance was separately viewed in the nine-photo documentarycontact; browser additionallyscrolled to everycover/placephoto and verified realdecodedimages. These viewportcontacts alone do not claim to display the entire long articles."
+      ],
+      "googleIndexationVerified": false,
+      "performanceMeasurementClaimed": false
+    }
+  },
+  "editorialIntegrationSha256": "02dc34822f76b82b1593a9edffcf8c563970ea126fd2ec77b98933fbee5be0d9",
+  "preservationSha256": "9602cc0dca5b69195d042db0013412952d09562a41f87360a0c34d28cf35bf2f",
+  "reservation": {
+    "commit": "5b65155d6b75596c9a930ffaa4d0e7713cbf1876",
+    "createdAt": "2026-11-23T01:26:25.964023+00:00",
+    "nativeReservationInvocationClaimed": false,
+    "manualExclusiveAggregate": true
+  },
+  "googleIndexationVerified": false,
+  "schedulerAttributionVerified": false,
+  "dailyScheduleTargetUnchanged": 2,
+  "notes": "Explicit manual request for three additional Christmas originals. Prior two verified today are retained and counted; daily schedule unchanged. SEO preparation does not establish Google indexing, viral demand, rankings or advertising income."
+}

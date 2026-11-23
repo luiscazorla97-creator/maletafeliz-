@@ -1415,15 +1415,15 @@
     }
   ],
   "latestVerifiedCoverage": {
-    "verifiedAt": "2026-11-22T18:16:24.789Z",
+    "verifiedAt": "2026-11-23T02:49:54.770Z",
     "countries": [
       {
         "countryId": "it",
-        "publishedOriginals": 30,
-        "localizedVersions": 60,
+        "publishedOriginals": 31,
+        "localizedVersions": 62,
         "targetOriginals": 30,
         "missingOriginals": 0,
-        "excessOriginals": 0,
+        "excessOriginals": 1,
         "articleIds": [
           "amalfi-coast",
           "assisi",
@@ -1450,6 +1450,7 @@
           "ravenna",
           "rome",
           "rome-colosseum-visit",
+          "salerno",
           "siena",
           "trieste",
           "venice",
@@ -1459,14 +1460,15 @@
       },
       {
         "countryId": "jp",
-        "publishedOriginals": 26,
-        "localizedVersions": 52,
+        "publishedOriginals": 27,
+        "localizedVersions": 54,
         "targetOriginals": 25,
         "missingOriginals": 0,
-        "excessOriginals": 1,
+        "excessOriginals": 2,
         "articleIds": [
           "christmas-fukuoka",
           "christmas-osaka",
+          "christmas-sapporo",
           "christmas-tokyo",
           "christmas-yokohama",
           "halloween-japan",
@@ -1530,11 +1532,11 @@
       },
       {
         "countryId": "us",
-        "publishedOriginals": 24,
-        "localizedVersions": 48,
+        "publishedOriginals": 25,
+        "localizedVersions": 50,
         "targetOriginals": 20,
         "missingOriginals": 0,
-        "excessOriginals": 4,
+        "excessOriginals": 5,
         "articleIds": [
           "buffalo",
           "christmas-boston",
@@ -1557,17 +1559,18 @@
           "new-york",
           "new-york-new-year-2027",
           "orlando",
+          "san-antonio",
           "san-diego",
           "savannah",
           "washington-dc"
         ]
       }
     ],
-    "priorityOriginals": 105,
+    "priorityOriginals": 108,
     "targetCappedOriginals": 100,
     "missingToInitial100": 0,
-    "excessOriginals": 5,
-    "publicVerification": "editorial/verification/2026-11-22-publication.json"
+    "excessOriginals": 8,
+    "publicVerification": "editorial/verification/2026-11-22-manual-christmas-three-publication.json"
   },
   "additionalOwnerRequestedTopics": [
     {
@@ -1915,6 +1918,31 @@
       "status": "published-verified",
       "commit": "ef3d256e20edcd059ee3b861b5e5cbba17d7d3f4",
       "publicVerification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json"
+    },
+    {
+      "batch": "2026-11-22-manual-christmas-three",
+      "publicationDay": "2026-11-22",
+      "topicIds": [
+        "salerno",
+        "christmas-sapporo",
+        "san-antonio"
+      ],
+      "type": "explicit-manual-additional-three-christmas-originals",
+      "authorization": {
+        "kind": "explicit-owner-manual-three-christmas",
+        "additionalOriginalsAuthorized": 3,
+        "priorVerifiedOriginalsToday": 2,
+        "priorVerifiedTopicIdsToday": [
+          "savannah",
+          "sendai"
+        ],
+        "authorizedTotalUniqueOriginalsToday": 5,
+        "dailyScheduleTargetUnchanged": 2,
+        "scheduleChanged": false
+      },
+      "status": "published-verified",
+      "commit": "e6833ae324d0367ebcd34f3595470d0a80efb688",
+      "publicVerification": "editorial/verification/2026-11-22-manual-christmas-three-publication.json"
     }
   ],
   "verifiedCoverageHistory": [
@@ -3698,6 +3726,161 @@
       "missingToInitial100": 0,
       "excessOriginals": 3,
       "publicVerification": "editorial/verification/2026-11-21-manual-ten-cities-publication.json"
+    },
+    {
+      "verifiedAt": "2026-11-22T18:16:24.789Z",
+      "countries": [
+        {
+          "countryId": "it",
+          "publishedOriginals": 30,
+          "localizedVersions": 60,
+          "targetOriginals": 30,
+          "missingOriginals": 0,
+          "excessOriginals": 0,
+          "articleIds": [
+            "amalfi-coast",
+            "assisi",
+            "bergamo",
+            "bologna",
+            "christmas-florence",
+            "christmas-milan",
+            "christmas-naples",
+            "christmas-rome",
+            "christmas-turin",
+            "christmas-venice",
+            "christmas-verona",
+            "ferrara",
+            "florence",
+            "florence-uffizi",
+            "lucca",
+            "mantua",
+            "milan",
+            "padua",
+            "palermo",
+            "parma",
+            "perugia",
+            "pisa",
+            "ravenna",
+            "rome",
+            "rome-colosseum-visit",
+            "siena",
+            "trieste",
+            "venice",
+            "venice-vaporetto",
+            "verona"
+          ]
+        },
+        {
+          "countryId": "jp",
+          "publishedOriginals": 26,
+          "localizedVersions": 52,
+          "targetOriginals": 25,
+          "missingOriginals": 0,
+          "excessOriginals": 1,
+          "articleIds": [
+            "christmas-fukuoka",
+            "christmas-osaka",
+            "christmas-tokyo",
+            "christmas-yokohama",
+            "halloween-japan",
+            "himeji",
+            "hiroshima",
+            "kamakura",
+            "kanazawa",
+            "kobe",
+            "kurashiki",
+            "kyoto",
+            "kyoto-higashiyama-walk",
+            "matsumoto",
+            "mount-fuji",
+            "nagasaki",
+            "nara",
+            "nara-day-trip-transport",
+            "nikko",
+            "osaka",
+            "sapporo",
+            "sendai",
+            "takamatsu",
+            "takayama",
+            "tokyo",
+            "tokyo-new-year-2027"
+          ]
+        },
+        {
+          "countryId": "mx",
+          "publishedOriginals": 25,
+          "localizedVersions": 50,
+          "targetOriginals": 25,
+          "missingOriginals": 0,
+          "excessOriginals": 0,
+          "articleIds": [
+            "cancun",
+            "chapultepec-museums-day",
+            "cuernavaca",
+            "durango",
+            "guadalajara",
+            "guanajuato",
+            "leon-guanajuato",
+            "los-cabos",
+            "mexico-city",
+            "morelia",
+            "muertos-merida",
+            "muertos-mexico-city",
+            "muertos-mixquic",
+            "muertos-oaxaca",
+            "muertos-puebla",
+            "oaxaca",
+            "patzcuaro",
+            "puebla",
+            "queretaro",
+            "riviera-maya",
+            "san-cristobal-de-las-casas",
+            "san-luis-potosi",
+            "san-miguel-de-allende",
+            "veracruz",
+            "zacatecas"
+          ]
+        },
+        {
+          "countryId": "us",
+          "publishedOriginals": 24,
+          "localizedVersions": 48,
+          "targetOriginals": 20,
+          "missingOriginals": 0,
+          "excessOriginals": 4,
+          "articleIds": [
+            "buffalo",
+            "christmas-boston",
+            "christmas-chicago",
+            "christmas-los-angeles",
+            "christmas-miami",
+            "christmas-new-york",
+            "christmas-philadelphia",
+            "christmas-san-francisco",
+            "columbus",
+            "greenville-sc",
+            "halloween-usa",
+            "hawaii",
+            "hilo",
+            "las-vegas",
+            "las-vegas-new-year-2027",
+            "los-angeles",
+            "miami",
+            "new-orleans",
+            "new-york",
+            "new-york-new-year-2027",
+            "orlando",
+            "san-diego",
+            "savannah",
+            "washington-dc"
+          ]
+        }
+      ],
+      "priorityOriginals": 105,
+      "targetCappedOriginals": 100,
+      "missingToInitial100": 0,
+      "excessOriginals": 5,
+      "publicVerification": "editorial/verification/2026-11-22-publication.json"
     }
   ]
 }

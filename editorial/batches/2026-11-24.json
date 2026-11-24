@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-24",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-24T17:06:53.574Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "nagoya",
+    "charleston"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "3b2e3794-2f24-499b-94dc-0d2b0a8c704f",
+    "baseCommit": "ff344796398edea9edbd8a9f662e567225c38938",
+    "owner": "Codex /root",
+    "startedAt": "2026-11-24T16:59:58.623968+00:00",
+    "heartbeatAt": "2026-11-24T17:06:53.611785+00:00",
+    "leaseUntil": "2026-11-24T23:06:53.611785+00:00",
+    "status": "active"
+  },
+  "dailyCensus": {
+    "newYorkDate": "2026-11-24",
+    "priorVerifiedOriginals": 0,
+    "censusSha256": "2ea4adee720d0a5505ff21caa87b372a1fdd83553579efaf6f3cd5a046faf5c6"
+  }
+}

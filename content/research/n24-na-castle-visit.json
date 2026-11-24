@@ -1,0 +1,42 @@
+{
+  "id": "n24-na-castle-visit",
+  "url": "https://www.nagoyajo.city.nagoya.jp/en/information/",
+  "title": "Nagoya Castle visitor information and current fee notice",
+  "requestedAt": "2026-11-24T17:08:02.170Z",
+  "facts": [
+    {
+      "fact": "Castle visitor page lists09:00–16:30, with last entry16:00; palace entrance also closes16:00, reached separately from the gates.",
+      "excerpt": "9:00 a.m. - 4:30 p.m.",
+      "location": "Normalized readable-text characters 605–626"
+    },
+    {
+      "fact": "Castle closure listed29December–1January, distinct from the English-guide closure period.",
+      "excerpt": "December 29 - January 1",
+      "location": "Normalized readable-text characters 1126–1149"
+    },
+    {
+      "fact": "Admission changed1October2026; omit old500yen and universal combination-ticket prices.",
+      "excerpt": "October 1, 2026",
+      "location": "Normalized readable-text characters 552–567"
+    },
+    {
+      "fact": "Palace final admission16:00 requires reaching the palace entrance before thattime, not merely entering castle gate.",
+      "excerpt": "last admission to the Hommaru Palace",
+      "location": "Normalized readable-text characters 680–716"
+    }
+  ],
+  "actuallyRead": true,
+  "fetchedAt": "2026-11-24T17:08:02.525Z",
+  "finalUrl": "https://www.nagoyajo.city.nagoya.jp/en/information/",
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "retryAfter": null,
+  "contentSha256": "8ba87df5a9093a8a137e579667985bc73a251274a52c1dfcd1c63c7d53a49e91",
+  "bytes": 31320,
+  "textSha256": "73f5ebc13703d7b314ec0d50e520d74e4de49bc2e9604096cb9fc2f8d584c514",
+  "rawFile": "content/research/n24-na-castle-visit.raw",
+  "textFile": "content/research/n24-na-castle-visit.txt",
+  "success": true,
+  "readAt": "2026-11-24T17:16:57.628765+00:00",
+  "notes": "Supporting passages actually read by Codex /root. Japanese museum operator statements translated for ES/EN. Historical facts separated from current access; hours attributed and exceptions checked. No demand, ranking, personal visit, reopeningdate, price or accessguarantee invented."
+}

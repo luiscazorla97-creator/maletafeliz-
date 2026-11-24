@@ -1,0 +1,42 @@
+{
+  "id": "n24-na-museum-about",
+  "url": "https://www.tokugawa-art-museum.jp/en/",
+  "title": "Tokugawa Art Museum official collections",
+  "requestedAt": "2026-11-24T17:08:10.683Z",
+  "facts": [
+    {
+      "fact": "Museum inherits varied objects of the OwariTokugawa family; nine nationaltreasures are collection holdings, not guaranteed simultaneous display.",
+      "excerpt": "尾張徳川家",
+      "location": "Normalized readable-text characters 1024–1029"
+    },
+    {
+      "fact": "Collection encompasses weapons/swords, paintings, tea utensils and dress; displaysand temporaryexhibitions change.",
+      "excerpt": "武具・刀剣から絵画、茶道具、装束",
+      "location": "Normalized readable-text characters 3648–3664"
+    },
+    {
+      "fact": "Source calendar explicitlymarks24Nov2026closed after23Novholiday; do not infer todayopen from serverheader showing25NovJapan time.",
+      "excerpt": "24 火 休館日",
+      "location": "Normalized readable-text characters 2934–2942"
+    },
+    {
+      "fact": "Current source includes a18November2026winterclosure notice, corroboratingthevisitorpage.",
+      "excerpt": "2026.11.18 年末年始 休館のお知らせ",
+      "location": "Normalized readable-text characters 3351–3374"
+    }
+  ],
+  "actuallyRead": true,
+  "fetchedAt": "2026-11-24T17:08:15.114Z",
+  "finalUrl": "https://www.tokugawa-art-museum.jp/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "62c653c250284ef93e87eeab9d94b67d4a27dc53c60b7f8971c5c291dec91c89",
+  "bytes": 112735,
+  "textSha256": "21362e0d5a0d170b4d9283da7f177f4d4bd7e5b1272941b91b3793828bf03e8a",
+  "rawFile": "content/research/n24-na-museum-about.raw",
+  "textFile": "content/research/n24-na-museum-about.txt",
+  "success": true,
+  "readAt": "2026-11-24T17:16:57.628765+00:00",
+  "notes": "Supporting passages actually read by Codex /root. Japanese museum operator statements translated for ES/EN. Historical facts separated from current access; hours attributed and exceptions checked. No demand, ranking, personal visit, reopeningdate, price or accessguarantee invented."
+}

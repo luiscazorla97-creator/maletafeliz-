@@ -1,0 +1,42 @@
+{
+  "id": "n24-na-museum",
+  "url": "https://www.tokugawa-art-museum.jp/visitor-information/",
+  "title": "Tokugawa Art Museum current visitor information",
+  "requestedAt": "2026-11-24T17:08:07.531Z",
+  "facts": [
+    {
+      "fact": "Museum10:00–17:00,lastadmission16:30; actual Japanese operator text read and translated.",
+      "excerpt": "10:00 〜 17:00（入館は16:30まで）",
+      "location": "Normalized readable-text characters 909–934"
+    },
+    {
+      "fact": "Museum closesMondays or nextweekday after national/substituteholiday.",
+      "excerpt": "月曜日（祝日・振替休日の場合は直後の平日）",
+      "location": "Normalized readable-text characters 951–972"
+    },
+    {
+      "fact": "Explicitwinterclosure14December2026–4January2027; different from garden and castle calendars.",
+      "excerpt": "2026年12月14日（月）～2027年1月4日（月）",
+      "location": "Normalized readable-text characters 973–1000"
+    },
+    {
+      "fact": "Museumaddress1017Tokugawa-cho, whereasgardenis1001; admissions and agendas must be checked individually.",
+      "excerpt": "徳川町 1017",
+      "location": "Normalized readable-text characters 1290–1298"
+    }
+  ],
+  "actuallyRead": true,
+  "fetchedAt": "2026-11-24T17:08:10.682Z",
+  "finalUrl": "https://www.tokugawa-art-museum.jp/visitor-information/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "f5e059affc9a201ffa85edb4fc8bb5923bedf6b39799e0c6ad29d6bb6e0f6c8a",
+  "bytes": 72691,
+  "textSha256": "c30b7a3a64ebc2719df818bf1aeabe81fafcc21cd6feb9df35e7d9142ab87f64",
+  "rawFile": "content/research/n24-na-museum.raw",
+  "textFile": "content/research/n24-na-museum.txt",
+  "success": true,
+  "readAt": "2026-11-24T17:16:57.628765+00:00",
+  "notes": "Supporting passages actually read by Codex /root. Japanese museum operator statements translated for ES/EN. Historical facts separated from current access; hours attributed and exceptions checked. No demand, ranking, personal visit, reopeningdate, price or accessguarantee invented."
+}

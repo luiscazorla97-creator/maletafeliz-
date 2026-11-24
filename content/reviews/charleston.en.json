@@ -1,0 +1,40 @@
+{
+  "reviewer": "Codex /root — author and subsequent editorial review",
+  "reviewedAt": "2026-11-24T17:29:48.793Z",
+  "contentHash": "7f18de819235c55de0fb7f0d15ed536cd0fdb008faadae95af83dc9d7497c8ec",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "reviewEvidence": [
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n24/root-editorial-decision.json",
+      "sha256": "9cba2372314b068c30be992c4046ceecb3e26bcf6450d18e203aecb1643ce83a"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n24/root-photo-integrity.json",
+      "sha256": "837a2e65820049602ec4c73bd6b9433c0df1d6e508a12eca6bb3f4d933fad5e3"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n24/root-originality-review.json",
+      "sha256": "11ac3c27a0354e4057f71979da14d8d336e1bdf1d7430f2f65ca97702b73b178"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n24/root-final-editorial-curation.json",
+      "sha256": "12cfc7e9f29a30b793281a5a58540db5f260ed1ff9fbe3bb99154bbde82a7fd9"
+    }
+  ],
+  "notes": [
+    "Authored and subsequently reviewed by Codex /root; no independent peer review claimed.",
+    "Selection for release compilation only; native gates, exact-sourceCI,bothCloudflaredeployments andpublicURLs remain to be verified.",
+    "No paidAIAPIs, generateddocumentaryimages, fabricatedprices/searchvolumes/rankings, thirdpartymessages orschedulechanges.",
+    "Selection for release compilation. Public deployment, indexing and ranking are not yet claimed."
+  ]
+}

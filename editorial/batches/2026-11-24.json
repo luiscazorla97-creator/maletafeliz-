@@ -2,26 +2,54 @@
   "id": "2026-11-24",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-24T17:06:53.574Z",
-  "status": "reserved-not-generated",
+  "status": "published",
   "topicIds": [
     "nagoya",
     "charleston"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "3b2e3794-2f24-499b-94dc-0d2b0a8c704f",
     "baseCommit": "ff344796398edea9edbd8a9f662e567225c38938",
     "owner": "Codex /root",
     "startedAt": "2026-11-24T16:59:58.623968+00:00",
-    "heartbeatAt": "2026-11-24T17:06:53.611785+00:00",
-    "leaseUntil": "2026-11-24T23:06:53.611785+00:00",
-    "status": "active"
+    "heartbeatAt": "2026-11-24T18:16:40.026Z",
+    "leaseUntil": "2026-11-24T18:16:40.026Z",
+    "status": "completed-verified",
+    "completedAt": "2026-11-24T18:16:40.026Z"
   },
   "dailyCensus": {
     "newYorkDate": "2026-11-24",
     "priorVerifiedOriginals": 0,
     "censusSha256": "2ea4adee720d0a5505ff21caa87b372a1fdd83553579efaf6f3cd5a046faf5c6"
-  }
+  },
+  "publishedTopicIds": [
+    "nagoya",
+    "charleston"
+  ],
+  "verifiedTopicCount": 2,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 16,
+  "publishedCommit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+  "publiclyVerifiedAt": "2026-11-24T18:16:40.026Z",
+  "firstPublicationNewYorkDate": "2026-11-24",
+  "publicVerification": "editorial/verification/2026-11-24-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-nagoya-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-charleston-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-nagoya-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-charleston-5-places/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "charleston",
+    "nagoya"
+  ]
 }

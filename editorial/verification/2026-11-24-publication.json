@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 1,
+  "failedSourceRequests": [
+    {
+      "id": "n24-na-atsuta",
+      "url": "https://www.atsutajingu.or.jp/en/",
+      "finalUrl": "https://www.atsutajingu.or.jp/en/",
+      "httpStatus": 503,
+      "fetchedAt": "2026-11-24T17:08:03.967Z",
+      "contentSha256": "51444a441b329ec795dff98795ddc266f0b3a1f0ddb7ea65616c8af37c1b57d3",
+      "textSha256": "93eee12fa638601571b0cce8a490be7065e24ac581bcc74aaa9d4ab2ca5b185a",
+      "captureRecordSha256": "e46d5b90d0f5d28613d4b80129e7aadcbaa78f0d9239459c85eb4d8f3e0e3c3f",
+      "citedAsFactualSource": false,
+      "alternativeAccessBypassUsed": false
+    },
+    {
+      "id": "n24-na-garden",
+      "url": "https://www.tokugawaen.aichi.jp/english/",
+      "finalUrl": "https://www.tokugawaen.aichi.jp/english/",
+      "httpStatus": 404,
+      "fetchedAt": "2026-11-24T17:08:05.786Z",
+      "contentSha256": "b21edc0d154bcad65d2ee9b459ab268b373bb2245f516d26c6190f84999a2b35",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "captureRecordSha256": "848fee7c710648f511cd067adc80f1078af5593fca9721e53feb5a8488dd7a98",
+      "citedAsFactualSource": false,
+      "alternativeAccessBypassUsed": false
+    }
+  ],
+  "publicVerificationAttempts": {
+    "initialHttps": {
+      "success": false,
+      "observedErrors": [
+        {
+          "message": "/images/n24-ch-park-photo-480w.webp\n\n500 !== 200\n",
+          "stack": "AssertionError [ERR_ASSERTION]: /images/n24-ch-park-photo-480w.webp\n\n500 !== 200\n\n    at file:///workspace/artifacts/maletafeliz-daily-two-n24/public-https-audit.mjs:311:12\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+        }
+      ],
+      "requestErrors": [
+        {
+          "requestedUrl": "https://maletafeliz.com/images/n24-ch-park-photo-480w.webp",
+          "finalUrl": "https://maletafeliz.com/images/n24-ch-park-photo-480w.webp",
+          "fetchedAt": "2026-11-24T18:00:26.123Z",
+          "httpStatus": 500,
+          "userAgentClass": "descriptive-publication-auditor",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "headers": {
+            "cf-cache-status": "BYPASS",
+            "cf-ray": "a5fa502b5bf06057-ORD",
+            "server": "envoy"
+          }
+        }
+      ],
+      "evidenceSha256": "34e02b6377ff50cbf628931b9aaa4f5b2ac805c60ebbfb3963c86b2144d7e83a"
+    },
+    "initialBrowser": {
+      "success": false,
+      "observedFailure": {
+        "message": "expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate",
+        "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n    at captureRawStack (/workspace/maletafeliz-/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/workspace/maletafeliz-/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toBe (/workspace/maletafeliz-/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at /workspace/artifacts/maletafeliz-daily-two-n24/public-functional.mjs:207:89"
+      },
+      "requestErrors": [
+        {
+          "url": "https://maletafeliz.com/images/n24-ch-market-photo-480w.webp",
+          "finalUrl": "https://maletafeliz.com/images/n24-ch-market-photo-480w.webp",
+          "httpStatus": 500,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "evidenceSha256": "17d3b03532162ea2035a9d3fbbfdc9b036bba544c718805d02e6e968c67b8d61"
+    },
+    "laterNormalSameUrlImages": [
+      {
+        "url": "https://maletafeliz.com/images/n24-ch-park-photo-480w.webp",
+        "finalUrl": "https://maletafeliz.com/images/n24-ch-park-photo-480w.webp",
+        "requestedAt": "2026-11-24T18:01:41.739Z",
+        "finishedAt": "2026-11-24T18:01:41.894Z",
+        "httpStatus": 200,
+        "bytes": 58644,
+        "sha256": "4e2521286e40d38a7a7af43268639f84364c050298bb1f65241cd9caf2145a28",
+        "expectedSha256": "4e2521286e40d38a7a7af43268639f84364c050298bb1f65241cd9caf2145a28",
+        "byteIdenticalToCommittedImage": true,
+        "headers": {
+          "server": "envoy",
+          "cf-ray": "a5fa52047e2a2b4b-ORD",
+          "cf-cache-status": "REVALIDATED",
+          "content-type": "image/webp"
+        }
+      },
+      {
+        "url": "https://maletafeliz.com/images/n24-ch-market-photo-480w.webp",
+        "finalUrl": "https://maletafeliz.com/images/n24-ch-market-photo-480w.webp",
+        "requestedAt": "2026-11-24T18:01:41.895Z",
+        "finishedAt": "2026-11-24T18:01:42.729Z",
+        "httpStatus": 200,
+        "bytes": 24408,
+        "sha256": "3c69ab36ace720ef7e4221bfcc517f46d51113e1ef6ff2fe9b9fbf9814afefa5",
+        "expectedSha256": "3c69ab36ace720ef7e4221bfcc517f46d51113e1ef6ff2fe9b9fbf9814afefa5",
+        "byteIdenticalToCommittedImage": true,
+        "headers": {
+          "server": "envoy",
+          "cf-ray": "a5fa520599182bff-ORD",
+          "cf-cache-status": "MISS",
+          "content-type": "image/webp"
+        }
+      }
+    ],
+    "networkReconciliationSha256": "01c9ec2d35aeade3191e99c8f7703dd061c2096359b900422c4fd13a56338fd6",
+    "fullUnchangedHttpsAndBrowserRepeatPassed": true,
+    "repositoryOrDeploymentChangedForRepeat": false,
+    "preciseNetworkLayerRootCauseEstablished": false,
+    "notes": "Two initial empty-body HTTP500 image-delivery responses were retained. Later requests to the identical URLs returned HTTP200 with committed bytes. Full unchanged checks were repeated and passed; no cache-busting, alternate host, weakened assertion, timeout change or claim that the precise network component was identified."
+  },
+  "verifiedAt": "2026-11-24T18:16:40.026Z",
+  "commit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+  "sourceCommit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+  "batch": "2026-11-24",
+  "publicationDay": "2026-11-24",
+  "reservationDay": "2026-11-24",
+  "executionId": "3b2e3794-2f24-499b-94dc-0d2b0a8c704f",
+  "timeZone": "America/New_York",
+  "firstPublicationNewYorkDate": "2026-11-24",
+  "status": "publicly-verified",
+  "originals": 2,
+  "newOriginals": 2,
+  "localizations": 4,
+  "publishedTopicIds": [
+    "nagoya",
+    "charleston"
+  ],
+  "priorSameDayUniqueVerifiedOriginals": 0,
+  "sameDayUniqueVerifiedOriginalsAfter": 2,
+  "sameDayUniqueVerifiedTopicIds": [
+    "charleston",
+    "nagoya"
+  ],
+  "authorization": {
+    "kind": "daily-two",
+    "priorVerifiedOriginalsToday": 0,
+    "priorVerifiedTopicIdsToday": [],
+    "authorizedTotalUniqueOriginalsToday": 2,
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false
+  },
+  "urls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-nagoya-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-charleston-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-nagoya-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-charleston-5-places/"
+    ]
+  },
+  "globalOriginals": 251,
+  "globalLocalizations": 502,
+  "globalPhotos": 1072,
+  "globalCitedSourceRecords": 1337,
+  "photos": 10,
+  "newPhotoMetadataRecords": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 16,
+  "coverage": {
+    "countries": [
+      {
+        "countryId": "it",
+        "publishedOriginals": 32,
+        "localizedVersions": 64,
+        "targetOriginals": 30,
+        "missingOriginals": 0,
+        "excessOriginals": 2,
+        "articleIds": [
+          "amalfi-coast",
+          "assisi",
+          "bergamo",
+          "bologna",
+          "christmas-florence",
+          "christmas-milan",
+          "christmas-naples",
+          "christmas-rome",
+          "christmas-turin",
+          "christmas-venice",
+          "christmas-verona",
+          "ferrara",
+          "florence",
+          "florence-uffizi",
+          "lucca",
+          "mantua",
+          "milan",
+          "padua",
+          "palermo",
+          "parma",
+          "perugia",
+          "pisa",
+          "ravenna",
+          "rome",
+          "rome-colosseum-visit",
+          "salerno",
+          "siena",
+          "trieste",
+          "venice",
+          "venice-vaporetto",
+          "verona",
+          "vicenza"
+        ]
+      },
+      {
+        "countryId": "jp",
+        "publishedOriginals": 28,
+        "localizedVersions": 56,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 3,
+        "articleIds": [
+          "christmas-fukuoka",
+          "christmas-osaka",
+          "christmas-sapporo",
+          "christmas-tokyo",
+          "christmas-yokohama",
+          "halloween-japan",
+          "himeji",
+          "hiroshima",
+          "kamakura",
+          "kanazawa",
+          "kobe",
+          "kurashiki",
+          "kyoto",
+          "kyoto-higashiyama-walk",
+          "matsumoto",
+          "mount-fuji",
+          "nagasaki",
+          "nagoya",
+          "nara",
+          "nara-day-trip-transport",
+          "nikko",
+          "osaka",
+          "sapporo",
+          "sendai",
+          "takamatsu",
+          "takayama",
+          "tokyo",
+          "tokyo-new-year-2027"
+        ]
+      },
+      {
+        "countryId": "mx",
+        "publishedOriginals": 26,
+        "localizedVersions": 52,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 1,
+        "articleIds": [
+          "campeche",
+          "cancun",
+          "chapultepec-museums-day",
+          "cuernavaca",
+          "durango",
+          "guadalajara",
+          "guanajuato",
+          "leon-guanajuato",
+          "los-cabos",
+          "mexico-city",
+          "morelia",
+          "muertos-merida",
+          "muertos-mexico-city",
+          "muertos-mixquic",
+          "muertos-oaxaca",
+          "muertos-puebla",
+          "oaxaca",
+          "patzcuaro",
+          "puebla",
+          "queretaro",
+          "riviera-maya",
+          "san-cristobal-de-las-casas",
+          "san-luis-potosi",
+          "san-miguel-de-allende",
+          "veracruz",
+          "zacatecas"
+        ]
+      },
+      {
+        "countryId": "us",
+        "publishedOriginals": 26,
+        "localizedVersions": 52,
+        "targetOriginals": 20,
+        "missingOriginals": 0,
+        "excessOriginals": 6,
+        "articleIds": [
+          "buffalo",
+          "charleston",
+          "christmas-boston",
+          "christmas-chicago",
+          "christmas-los-angeles",
+          "christmas-miami",
+          "christmas-new-york",
+          "christmas-philadelphia",
+          "christmas-san-francisco",
+          "columbus",
+          "greenville-sc",
+          "halloween-usa",
+          "hawaii",
+          "hilo",
+          "las-vegas",
+          "las-vegas-new-year-2027",
+          "los-angeles",
+          "miami",
+          "new-orleans",
+          "new-york",
+          "new-york-new-year-2027",
+          "orlando",
+          "san-antonio",
+          "san-diego",
+          "savannah",
+          "washington-dc"
+        ]
+      }
+    ],
+    "priorityOriginals": 112,
+    "targetCappedOriginals": 100,
+    "missingToInitial100": 0,
+    "excessOriginals": 12
+  },
+  "tests": {
+    "local": {
+      "unit": 107,
+      "navigation": 28,
+      "productionFocused": 8,
+      "total": 143,
+      "wholeSuiteClaimed": false
+    },
+    "github": {
+      "runId": 45452568438,
+      "runUrl": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/45452568438",
+      "counts": {
+        "unit": 107,
+        "navigation": 28,
+        "production": 1064,
+        "total": 1199
+      },
+      "decodedLogSha256": "caa2533a940b0e68d0eda0b5a3dcbfcec4033ba8937de24ee8dbf1c20791ea07"
+    }
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-24T17:59:54.290Z",
+    "commit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "5fd0c479-e63a-4fbf-beda-614f3e41277c",
+        "canonicalCommit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+        "deploymentId": "5fd0c479-e63a-4fbf-beda-614f3e41277c",
+        "commit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-24T17:59:26.554914Z",
+          "ended_on": "2026-11-24T17:59:48.53072Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-24T17:48:32.996513Z",
+            "ended_on": "2026-11-24T17:48:33.002029Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-24T17:48:33.002029Z",
+            "ended_on": "2026-11-24T17:48:35.076365Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-24T17:48:35.076365Z",
+            "ended_on": "2026-11-24T17:49:15.668321Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-24T17:49:15.668321Z",
+            "ended_on": "2026-11-24T17:59:26.554914Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-24T17:59:26.554914Z",
+            "ended_on": "2026-11-24T17:59:48.53072Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "2644ab8d-9e4f-42cf-b802-8b0a62c15f4c",
+        "canonicalCommit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+        "deploymentId": "2644ab8d-9e4f-42cf-b802-8b0a62c15f4c",
+        "commit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-24T17:49:38.930829Z",
+          "ended_on": "2026-11-24T17:49:45.844683Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-24T17:48:34.710606Z",
+            "ended_on": "2026-11-24T17:48:34.714871Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-24T17:48:34.714871Z",
+            "ended_on": "2026-11-24T17:48:36.980264Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-24T17:48:36.980264Z",
+            "ended_on": "2026-11-24T17:49:36.283307Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-24T17:49:36.283307Z",
+            "ended_on": "2026-11-24T17:49:38.930829Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-24T17:49:38.930829Z",
+            "ended_on": "2026-11-24T17:49:45.844683Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true,
+    "checkoutProof": {
+      "checkedAt": "2026-11-24T18:00:08.080Z",
+      "success": true,
+      "sourceCommit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+      "proofs": [
+        {
+          "checkedAt": "2026-11-24T17:59:54.290Z",
+          "project": "maletafeliz-web",
+          "deploymentId": "5fd0c479-e63a-4fbf-beda-614f3e41277c",
+          "commit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+          "entries": 1200,
+          "logSha256": "5c2e00da1067a0bf479668eb711b0c45295634e49585b90da1da3128e03f86b3",
+          "releaseCommandPresent": true,
+          "checkoutMarkerPresent": true,
+          "builtPages": "1096"
+        },
+        {
+          "checkedAt": "2026-11-24T17:59:54.290Z",
+          "project": "maletafeliz-www",
+          "deploymentId": "2644ab8d-9e4f-42cf-b802-8b0a62c15f4c",
+          "commit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+          "entries": 23,
+          "logSha256": "b1acf6b6b478296c773159cc5c1dbb255d16d7d07848e56ba5c76c55dc9d604d",
+          "releaseCommandPresent": false,
+          "checkoutMarkerPresent": true
+        }
+      ],
+      "method": "Actual Cloudflare build log HEAD marker, matching deployment full commit metadata and canonical production state. WWW is the existing redirect project, not an Astro build."
+    }
+  },
+  "https": {
+    "counts": {
+      "originalTopics": 2,
+      "localizedVersionsVerified": 4,
+      "photoFilesVerified": 50,
+      "searchVersionsVerified": 4,
+      "googlebotUaProbes": 6,
+      "actualHttpsRequests": 86,
+      "sitemapUrls": 1090
+    },
+    "sha256": "eabc5685cf98ba056d36f753eaf8c68bc1c9de6ec9ffdaae85a09fb9c036f3b2"
+  },
+  "wholeSiteVerification": {
+    "sitemapUrls": 1090,
+    "guideVersions": 502,
+    "errors": 0,
+    "sha256": "2145efe80fe47aef24cb4873e9b87f58dbc260e3c1583841e319e078636dc76f",
+    "run": {
+      "sourceCommit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+      "startedAt": "2026-11-24T18:02:20.996Z",
+      "finishedAt": "2026-11-24T18:03:17.363Z",
+      "exitCode": 0,
+      "outputSha256": "2145efe80fe47aef24cb4873e9b87f58dbc260e3c1583841e319e078636dc76f",
+      "httpVerified": true,
+      "checkedRequests": 1100,
+      "sitemapUrls": 1090,
+      "guideVersions": 502
+    }
+  },
+  "browser": {
+    "flows": 8,
+    "screenshots": 14,
+    "sha256": "08af4acdb2ff1ae58f40e8033e62f793c19ba51b82bccf04fcfa3a2a2d67cf96",
+    "visualReview": {
+      "success": true,
+      "reviewedAt": "2026-11-24T18:04:27.455967+00:00",
+      "sourceCommit": "e18743836a229aa20b28d171fb890a7bb19dc20b",
+      "reviewer": "Codex /root — actual public screenshot contact-sheet review",
+      "contactSheets": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n24/public-contact-mobile-guides-es-1.jpg",
+          "sha256": "25e95ff719a585f0106d46c087c5b708b250c4fee14ce23585a15f8b8e3bc0d4",
+          "actuallyViewed": true,
+          "contains": [
+            "public-guide-nagoya-es-390.png",
+            "public-guide-charleston-es-390.png"
+          ]
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n24/public-contact-desktop-guides-es-1.jpg",
+          "sha256": "af2b044ccad6dfb1b6b3022179b387a64ce823aa553c0d1da367bcb838b4dd56",
+          "actuallyViewed": true,
+          "contains": [
+            "public-guide-nagoya-es-1440.png",
+            "public-guide-charleston-es-1440.png"
+          ]
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n24/public-contact-mobile-guides-en-1.jpg",
+          "sha256": "3d3ec74435c4292cd306ac180adb60cafc3e22a00a7a815a224c0d0e2e5935ef",
+          "actuallyViewed": true,
+          "contains": [
+            "public-guide-nagoya-en-390.png",
+            "public-guide-charleston-en-390.png"
+          ]
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n24/public-contact-desktop-guides-en-1.jpg",
+          "sha256": "889d604a05f661015e702f1d3da2783cb16012f358b3c045a7eb60056c9bdd9c",
+          "actuallyViewed": true,
+          "contains": [
+            "public-guide-nagoya-en-1440.png",
+            "public-guide-charleston-en-1440.png"
+          ]
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n24/public-contact-navigation.jpg",
+          "sha256": "07ba77e0c86a1b03e7b17de29341e819619ce0af7d4721d0009d34d043183252",
+          "actuallyViewed": true,
+          "contains": [
+            "public-functional-es-390-menu.png",
+            "public-functional-es-390-search.png",
+            "public-functional-es-1440-search.png",
+            "public-functional-en-390-menu.png",
+            "public-functional-en-390-search.png",
+            "public-functional-en-1440-search.png"
+          ]
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "public-functional-es-390-menu.png",
+          "sha256": "70d40323e6a9065af817ba3b98993f81db8841bfcc1c92b3cf33390cd14ea39b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-390-search.png",
+          "sha256": "ee7ca125464cafe357d9c337f4d36fd6f15bbb66ce33b130a933b0e4aab2789f",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nagoya-es-390.png",
+          "sha256": "42d71085a2a5b0dc68dad819af83650847c19a1337960e9a890eb393a2cedd99",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-charleston-es-390.png",
+          "sha256": "b609476c4741b3bafc9e26b7b503826718faf1787340b33ad6995981935b356f",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-1440-search.png",
+          "sha256": "b5ba3215deffc34b71f097e08e605579e9bf7f0d7925537bd2a82c744f7899c8",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nagoya-es-1440.png",
+          "sha256": "56e7cedf896a649ce2257575943cd7b5fec029b751432784f4dd631a2c0dab88",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-charleston-es-1440.png",
+          "sha256": "fe2b7e04c62241339ea51239e637a0a896fa82c4f1b52db33e3e62c3549b8a8f",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-menu.png",
+          "sha256": "209a229bc56b56b3e677d2c30d6fdca36f73f9d90584d3a80843ae8e6ce20e74",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-search.png",
+          "sha256": "a720a20ce752ab013dc479a62070041587c35ee5c9a5fbc40ef7f91ffb36effc",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nagoya-en-390.png",
+          "sha256": "1925269b8fc0e021a186587abb15574fc25bc2f65afcbeecd98cec97adf96590",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-charleston-en-390.png",
+          "sha256": "4a09cc9d7b1c47c75927dbc5096f60701ddcd86c24cbc0bdffde23a877187fc7",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-1440-search.png",
+          "sha256": "549a25180f5ecb97bca033e552e0835a4858c98d665c83507cb39e87e3a91de8",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nagoya-en-1440.png",
+          "sha256": "dac81fcac7d92c27de862535430414e41389550ac90f2fb6d9a134d3730c8ecc",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-charleston-en-1440.png",
+          "sha256": "248306ab9ba8ec9a1947f95238b8b5d6966aacba3af5917bde97a806f28e8af9",
+          "actuallyViewedInContactSheet": true
+        }
+      ],
+      "findings": [
+        "Actually viewed both newguides in Spanish and English at390px and1440px throughfour contact sheets.",
+        "Actually viewed the fifthcontact sheet containing all six mobilemenu/search anddesktopsearch captures.",
+        "3Dorange suitcaseandMaletaFeliz logo retained; darkblue header, readable titles andmetadescriptions; menu, languagecontrol andbrand do notoverlap.",
+        "Titles wrapwithinavailablewidth; coverimages recogniseNagoyaCastle andRainbowRow; no visible distortion or horizontaloverflow.",
+        "Existing advertising reservations visible in expectedmobiletop anddesktopcentre/sidebarpositions.",
+        "SearchshowsnewNagoyaguideinbothlanguages; mobilemenulinksremainaccessible belowheader.",
+        "Functional proofseparately verifies both newcities, allsiximagesperguide, reactive search, reciprocaltranslationlinks andzero runtimeerrors in8flows."
+      ],
+      "limitations": [
+        "External adproviders were isolated and Analyticsconsent denied in functionalQA. Capturesverifylayout/reservations; no adimpression delivery,revenue orperformancescore is claimed.",
+        "These are viewportcaptures rather thanfullpageartifacts; allplaceimages were actuallyloaded/scrolled andchecked bybrowser andall10documentaryimages were separatelyviewedbeforeapproval."
+      ]
+    }
+  },
+  "editorialIntegrationSha256": "2f813df8c05fe52a9da830b4e44cd99a2aafde8f350e82508f15b559235674d1",
+  "preservationSha256": "2fc8570588b9a4de2a6a6acf3a5ba53b4c4d78b0880dfd6a28c78974a4574ebb",
+  "reservation": {
+    "commit": "0ee0716229d43ed3ac6db654c8544a70f2a31446",
+    "createdAt": "2026-11-24T17:06:53.574Z",
+    "nativeReservationInvocationClaimed": true,
+    "nativeCommand": [
+      "npm",
+      "run",
+      "editorial:batch",
+      "--",
+      "2"
+    ],
+    "nativeInvocationSha256": "6ae3f6d58823980a0d14e8c84a1a6af66156f1a2b7ed356ad3e14073002fafc2",
+    "nativeExclusiveDailyBatch": true,
+    "manualExclusiveAggregate": false
+  },
+  "googleIndexationVerified": false,
+  "schedulerAttributionVerified": false,
+  "dailyScheduleTargetUnchanged": 2,
+  "notes": "Daily execution of two new originals after a complete initial census of zero first-published-and-verified originals today. Existing manual batches, histories and daily schedule are retained. SEO preparation does not establish Google indexing, viral demand, rankings or advertising income."
+}

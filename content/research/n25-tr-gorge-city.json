@@ -1,0 +1,54 @@
+{
+  "id": "n25-tr-gorge-city",
+  "url": "https://www.visittrento.it/en/points-of-interest/ponte-alto-gorge-canyons-and-caves",
+  "title": "Ponte Alto Gorge — Trento tourism",
+  "requestedAt": "2026-11-25T17:03:35.700Z",
+  "facts": [
+    {
+      "fact": "Gorgevisitsrequireguide; thisisnotafreelyaccessibleriversidewalk.",
+      "excerpt": "ACCESS ALLOWED ONLY WITH THE GUIDE",
+      "location": "Normalized readable-text characters 2474–2508"
+    },
+    {
+      "fact": "Tourismpage describes45minuteguidedvisit inItalian, not guaranteedtourlanguageforotherdates.",
+      "excerpt": "GUIDED TOURS IN ITALIAN",
+      "location": "Normalized readable-text characters 2448–2471"
+    },
+    {
+      "fact": "Stepsandnarrowpassagesmean nowheelchairaccessandnotoilets; appropriateshoesrequired.",
+      "excerpt": "No wheelchair access",
+      "location": "Normalized readable-text characters 3829–3849"
+    },
+    {
+      "fact": "Thecurrentpagewasmarkedclosedon25November; noguaranteeofdailyopen/availabilityisclaimed.",
+      "excerpt": "Closed today",
+      "location": "Normalized readable-text characters 1392–1404"
+    }
+  ],
+  "actuallyRead": true,
+  "fetchedAt": "2026-11-25T17:03:37.254Z",
+  "finalUrl": "https://www.visittrento.it/en/points-of-interest/ponte-alto-gorge-canyons-and-caves",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "61f07850f4299e5e8963cd6113040163c075e2a3952eefdf32ded2d2ebfb2043",
+  "bytes": 376262,
+  "textSha256": "f5d2756412254eb4cb79cddff6092daa39ecc2155b530a2f15b46b36147f04dd",
+  "rawFile": "content/research/n25-tr-gorge-city.raw",
+  "textFile": "content/research/n25-tr-gorge-city.txt",
+  "success": true,
+  "readAt": "2026-11-25T17:15:24.817204+00:00",
+  "notes": "Supporting passages actually read by Codex /root; Italian translated for ES/EN. Date-specific closures, inconsistencies, collectionversusdisplay and currentoperation are distinguished. Short verifiable excerpts retained; no demand/ranking orpersonalvisit invented.",
+  "responseContentSha256": "4a88be013b9b9a67e18746519b13ba2e6ed02871b621992407fb0d1be58d5676",
+  "rawArchiveTransformation": {
+    "id": "n25-tr-gorge-city",
+    "originalResponseContentSha256": "4a88be013b9b9a67e18746519b13ba2e6ed02871b621992407fb0d1be58d5676",
+    "archivedContentSha256": "61f07850f4299e5e8963cd6113040163c075e2a3952eefdf32ded2d2ebfb2043",
+    "originalResponseBytes": 376262,
+    "archivedBytes": 376206,
+    "redactions": 1,
+    "transformation": "One embedded public-site Mapbox token replaced with an explicit redaction marker; no text or factual extract altered.",
+    "performedAt": "2026-11-25T17:50:41.060818+00:00",
+    "httpResponseAndFactualExcerptsUnchanged": true
+  }
+}

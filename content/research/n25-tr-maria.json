@@ -1,0 +1,54 @@
+{
+  "id": "n25-tr-maria",
+  "url": "https://www.visittrento.it/en/points-of-interest/church-of-santa-maria-maggiore",
+  "title": "Santa Maria Maggiore — Trento tourism",
+  "requestedAt": "2026-11-25T17:03:31.931Z",
+  "facts": [
+    {
+      "fact": "SantaMariaMaggiorebuilt1520–1524, distinctfromSanVigilio; RenaisancechurchlinkedCouncilofTrent.",
+      "excerpt": "between 1520 and 1524",
+      "location": "Normalized readable-text characters 1629–1650"
+    },
+    {
+      "fact": "Thirdphasecongregationsbegan13April1562 here.",
+      "excerpt": "April 13, 1562",
+      "location": "Normalized readable-text characters 2258–2272"
+    },
+    {
+      "fact": "Tourisminformationlistsdaily08–17:30, withweekdayworshiparound09–10:15takingprecedenceovertouring.",
+      "excerpt": "from 8 am to 5.30 pm",
+      "location": "Normalized readable-text characters 2711–2731"
+    },
+    {
+      "fact": "Worshiptimeisapproximate andvisitorsmustrespectreligioususe.",
+      "excerpt": "from 9 am to approximately 10.15 am",
+      "location": "Normalized readable-text characters 2796–2831"
+    }
+  ],
+  "actuallyRead": true,
+  "fetchedAt": "2026-11-25T17:03:34.967Z",
+  "finalUrl": "https://www.visittrento.it/en/points-of-interest/church-of-santa-maria-maggiore",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "cc400814600a3633fe6958c865e7697884771ff960ac488a909737fbc9ca4a9b",
+  "bytes": 455888,
+  "textSha256": "8e9a2a445797e01a3fe2e9866ffaa232b82fafc8b7d0397741c9ddba78638e7e",
+  "rawFile": "content/research/n25-tr-maria.raw",
+  "textFile": "content/research/n25-tr-maria.txt",
+  "success": true,
+  "readAt": "2026-11-25T17:15:24.817204+00:00",
+  "notes": "Supporting passages actually read by Codex /root; Italian translated for ES/EN. Date-specific closures, inconsistencies, collectionversusdisplay and currentoperation are distinguished. Short verifiable excerpts retained; no demand/ranking orpersonalvisit invented.",
+  "responseContentSha256": "5c6b35f0af54018455c73269142e75d3763dc0e1e2eb8341a27de493f10b3e18",
+  "rawArchiveTransformation": {
+    "id": "n25-tr-maria",
+    "originalResponseContentSha256": "5c6b35f0af54018455c73269142e75d3763dc0e1e2eb8341a27de493f10b3e18",
+    "archivedContentSha256": "cc400814600a3633fe6958c865e7697884771ff960ac488a909737fbc9ca4a9b",
+    "originalResponseBytes": 455888,
+    "archivedBytes": 455832,
+    "redactions": 1,
+    "transformation": "One embedded public-site Mapbox token replaced with an explicit redaction marker; no text or factual extract altered.",
+    "performedAt": "2026-11-25T17:50:41.060818+00:00",
+    "httpResponseAndFactualExcerptsUnchanged": true
+  }
+}

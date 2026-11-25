@@ -1,0 +1,45 @@
+{
+  "reviewer": "Codex /root — author and subsequent editorial review",
+  "reviewedAt": "2026-11-25T17:57:12.274Z",
+  "contentHash": "f0d3d8fac56cf1d391d245f78470c1b0a7aa3311669464089b96a84d1ea2b3be",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "reviewEvidence": [
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n25/root-editorial-decision.json",
+      "sha256": "b737b223c88e227a4d9eb18ca791d3b026130fa9ca393ce47f9fd6cd4f05616e"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n25/root-photo-integrity.json",
+      "sha256": "86e176a5dafe679b1d4c828a1e644fbd3376d7566cee71bfc12d1ac9762a9970"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n25/root-originality-review.json",
+      "sha256": "dd9f8ef82c6e451ecb653deaa32ead75f20cc64ad3596efeeb0d350c7e2e96b6"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n25/root-final-editorial-curation.json",
+      "sha256": "c85757986a09622119b8bf7081c42707eb9e5453c3cbac93fcb4b47970abef07"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n25/source-evidence-redaction.json",
+      "sha256": "55fcc57b7e4261d1c1e8b382191cb149641bc5227f22cdae8f26c52f4dc8cd1b"
+    }
+  ],
+  "notes": [
+    "Authored and subsequently reviewed by Codex /root; no independent peer review claimed.",
+    "Release compilation selection only; native gates, exact-source CI, both Cloudflare projects and public URLs remain to be verified.",
+    "No paid AI APIs, generated documentary images, fabricated prices/search volumes/rankings, messages to third parties or schedule changes.",
+    "Embedded third-party map configuration keys redacted from six HTML archives; original response digests retained and transformations disclosed. Manuscripts and readable factual extracts unchanged.",
+    "Selection for release compilation. Public deployment, indexing and ranking are not yet claimed."
+  ]
+}

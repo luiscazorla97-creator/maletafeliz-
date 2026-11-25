@@ -1,0 +1,50 @@
+{
+  "id": "n25-tr-gorge-region",
+  "url": "https://www.visittrentino.info/en/guide/nature/waterfalls/orrido-di-ponte-alto_md_4998406",
+  "title": "Ponte Alto Gorge — provincial tourism",
+  "requestedAt": "2026-11-25T17:09:44.987Z",
+  "facts": [
+    {
+      "fact": "Currentregionalofficialdescriptionrequiresbookingandguidedaccess;seasonalcalendarvaries.",
+      "excerpt": "Booking is required.",
+      "location": "Normalized readable-text characters 7217–7237"
+    },
+    {
+      "fact": "Gorge reopened2017 andhydraulicstructureswere reinforcedacrosscenturies; no singleuniversaldamdateasserted.",
+      "excerpt": "reopened in 2017",
+      "location": "Normalized readable-text characters 4105–4121"
+    },
+    {
+      "fact": "Tourabout45minutes, withstairsanddamp/slipperysurfaces; no accessibilityguaranteeinvented.",
+      "excerpt": "45 minutes",
+      "location": "Normalized readable-text characters 6865–6875"
+    }
+  ],
+  "actuallyRead": true,
+  "fetchedAt": "2026-11-25T17:09:46.917Z",
+  "finalUrl": "https://www.visittrentino.info/en/guide/nature/waterfalls/orrido-di-ponte-alto_md_4998406",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "8719ef830ef14dff4d0fede4e125aee6174b03c694ed277c5c70d0eb6d04840e",
+  "bytes": 307147,
+  "textSha256": "59339f60c39198a432d544f562ee42f867740a90cd48c3c722d31bea8e28975e",
+  "rawFile": "content/research/n25-tr-gorge-region.raw",
+  "textFile": "content/research/n25-tr-gorge-region.txt",
+  "success": true,
+  "readAt": "2026-11-25T17:15:24.817204+00:00",
+  "notes": "Supporting passages actually read by Codex /root; Italian translated for ES/EN. Date-specific closures, inconsistencies, collectionversusdisplay and currentoperation are distinguished. Short verifiable excerpts retained; no demand/ranking orpersonalvisit invented.",
+  "responseContentSha256": "d08841f75cfb7329ddb8a49f18379888d148c71a07b8d4d76372bb89b194b7c9",
+  "rawArchiveTransformation": {
+    "id": "n25-tr-gorge-region",
+    "provider": "Google Maps public API configuration",
+    "originalResponseContentSha256": "d08841f75cfb7329ddb8a49f18379888d148c71a07b8d4d76372bb89b194b7c9",
+    "archivedContentSha256": "8719ef830ef14dff4d0fede4e125aee6174b03c694ed277c5c70d0eb6d04840e",
+    "originalResponseBytes": 307147,
+    "archivedBytes": 307145,
+    "redactions": 1,
+    "transformation": "One embedded public Google Maps API key replaced by an explicit redaction marker; readable text and factual extracts unchanged.",
+    "performedAt": "2026-11-25T17:55:26.693228+00:00",
+    "httpResponseAndFactualExcerptsUnchanged": true
+  }
+}

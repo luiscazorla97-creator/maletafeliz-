@@ -1,0 +1,49 @@
+{
+  "id": "n25-tr-castle-about",
+  "url": "https://www.visittrento.it/en/points-of-interest/buonconsiglio-castle",
+  "title": "Buonconsiglio Castle — Trento tourism",
+  "requestedAt": "2026-11-25T17:09:41.991Z",
+  "facts": [
+    {
+      "fact": "Castlecomplexwasprincebishopsresidence andnowmuseum; buildingsfromseveralperiods.",
+      "excerpt": "residence of the prince bishops",
+      "location": "Normalized readable-text characters 1573–1604"
+    },
+    {
+      "fact": "Tourismdescription identifies3mainnuclei ofdifferentages; no singleconstructiondateinvented.",
+      "excerpt": "three main nuclei",
+      "location": "Normalized readable-text characters 1699–1716"
+    },
+    {
+      "fact": "Institutionholdsprovincialartandarchaeologycollections, withchangingtemporaryexhibitions.",
+      "excerpt": "provincial collections of art and archaeology",
+      "location": "Normalized readable-text characters 1902–1947"
+    }
+  ],
+  "actuallyRead": true,
+  "fetchedAt": "2026-11-25T17:09:44.986Z",
+  "finalUrl": "https://www.visittrento.it/en/points-of-interest/buonconsiglio-castle",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "1bc9ed1efafbf8616b318f32e74509568da1c255afec73c2c8f6f63fc759ee4b",
+  "bytes": 471948,
+  "textSha256": "ac7af6dd9307dc0dfd8d5520315fde57e3ad33b9877ae6e1a1c82ab4dbf29b7e",
+  "rawFile": "content/research/n25-tr-castle-about.raw",
+  "textFile": "content/research/n25-tr-castle-about.txt",
+  "success": true,
+  "readAt": "2026-11-25T17:15:24.817204+00:00",
+  "notes": "Supporting passages actually read by Codex /root; Italian translated for ES/EN. Date-specific closures, inconsistencies, collectionversusdisplay and currentoperation are distinguished. Short verifiable excerpts retained; no demand/ranking orpersonalvisit invented.",
+  "responseContentSha256": "4fa6a35cac68e99042e3e60ee2f795ccdd626f8f024a20ce099d7a1dacf1ac8c",
+  "rawArchiveTransformation": {
+    "id": "n25-tr-castle-about",
+    "originalResponseContentSha256": "4fa6a35cac68e99042e3e60ee2f795ccdd626f8f024a20ce099d7a1dacf1ac8c",
+    "archivedContentSha256": "1bc9ed1efafbf8616b318f32e74509568da1c255afec73c2c8f6f63fc759ee4b",
+    "originalResponseBytes": 471948,
+    "archivedBytes": 471892,
+    "redactions": 1,
+    "transformation": "One embedded public-site Mapbox token replaced with an explicit redaction marker; no text or factual extract altered.",
+    "performedAt": "2026-11-25T17:50:41.060818+00:00",
+    "httpResponseAndFactualExcerptsUnchanged": true
+  }
+}

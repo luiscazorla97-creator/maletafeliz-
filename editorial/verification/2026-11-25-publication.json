@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "failedSourceRequests": [
+    {
+      "id": "n25-ag-death",
+      "url": "https://museonacionaldelamuerte.uaa.mx/",
+      "finalUrl": "https://museonacionaldelamuerte.uaa.mx/",
+      "httpStatus": 503,
+      "fetchedAt": "2026-11-25T17:03:25.773Z",
+      "contentSha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6",
+      "textSha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6",
+      "captureRecordSha256": "339d390f6b344ab7c11dc2b7df0581c60dcfc8d2840f11f30cc1d8b59fdf3687",
+      "citedAsFactualSource": false,
+      "alternativeAccessBypassUsed": false
+    },
+    {
+      "id": "n25-tr-gorge",
+      "url": "https://ecoargentario.it/orrido-di-ponte-alto/",
+      "finalUrl": "https://ecoargentario.it/orrido-di-ponte-alto/",
+      "httpStatus": 403,
+      "fetchedAt": "2026-11-25T17:03:35.699Z",
+      "contentSha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+      "textSha256": "40ed84a00e11a5d5e4015886d3c3b2b30e292a6fd96e5d27c8eb2126a1c34842",
+      "captureRecordSha256": "2b8cfe0e7cf8acf82168087abcf3dae38409fcfb43f924d98bee940c6939eebc",
+      "citedAsFactualSource": false,
+      "alternativeAccessBypassUsed": false
+    }
+  ],
+  "sourceAccessEvidence": {
+    "wikimediaRateLimit": {
+      "observedAt": "2026-11-25T17:07:05.530Z",
+      "priorResponseSha256": "5d78219c5964740a379d3443c322b8830134ab5b1c4832dfacfc99a6ad767405",
+      "prior429At": "2026-11-25T17:04:16.185Z",
+      "retryAfterSeconds": 44,
+      "notBefore": "2026-11-25T17:05:00.185Z",
+      "actualWaitAlreadyElapsedMs": 169345,
+      "futureInterRequestPauseMs": 10000,
+      "alternateHostsOrProxiesUsed": false,
+      "proofSha256": "1bcacc6aba826ab615a3f8285a3e2a6869908cc80f5cbdc6a95438686b161a1c"
+    },
+    "rejectedPhoto": {
+      "reviewedAt": "2026-11-25T17:11:36.633081+00:00",
+      "rejectedImage": "n25-tr-sass-photo",
+      "rejectedPlace": "SASS",
+      "reason": "Specific Commons file explicitly requires an additional authorization under Italian cultural-heritage provisions for reuse beyond study/personal use, including commercial reuse. Authorization not verified; photo and place excluded from publication rather than changing to another image of the same restricted site.",
+      "rightsCaptureSha256": "579a198eff00eafaf6e3f5fb0f25835e531db12c55f4b0c68d1d419d53bef7f3",
+      "replacementPlace": "Piazza Fiera and medieval walls",
+      "replacementPhoto": "n25-tr-fiera-photo",
+      "restrictionCircumventionUsed": false,
+      "proofSha256": "473aa2f7f144b523bfd14be18487716c1364a78e3c3514d24b5f6c4537f245e4"
+    }
+  },
+  "sourceArchiveRedaction": {
+    "repairedAt": "2026-11-25T17:50:41.060818+00:00",
+    "reason": "GitHub GH013 Mapbox token detection in third-party public HTML; protection not bypassed. Only embedded credential-like strings removed from archived source bodies. Facts, extracted readable text, response HTTP and fetch times unchanged. Original response digests retained without the token.",
+    "rejectedUnpublishedCommit": "6b5eed53f3b8103fdd0fca45d4114bf0d068b358",
+    "unchangedRemoteMain": "962af45a1461a4bce4138a093809714e09d3c6ed",
+    "records": [
+      {
+        "id": "n25-tr-castle-about",
+        "originalResponseContentSha256": "4fa6a35cac68e99042e3e60ee2f795ccdd626f8f024a20ce099d7a1dacf1ac8c",
+        "archivedContentSha256": "1bc9ed1efafbf8616b318f32e74509568da1c255afec73c2c8f6f63fc759ee4b",
+        "originalResponseBytes": 471948,
+        "archivedBytes": 471892,
+        "redactions": 1,
+        "transformation": "One embedded public-site Mapbox token replaced with an explicit redaction marker; no text or factual extract altered."
+      },
+      {
+        "id": "n25-tr-duomo",
+        "originalResponseContentSha256": "f7e8fb5675992019ea55cec133e8c44c68fdeb49fbc21c56d3511c897039c0a4",
+        "archivedContentSha256": "4a9fc36725bb8fc89507eaa6e46d97b8504161f73ee2957e0dda51b233345db6",
+        "originalResponseBytes": 481096,
+        "archivedBytes": 481040,
+        "redactions": 1,
+        "transformation": "One embedded public-site Mapbox token replaced with an explicit redaction marker; no text or factual extract altered."
+      },
+      {
+        "id": "n25-tr-gorge-city",
+        "originalResponseContentSha256": "4a88be013b9b9a67e18746519b13ba2e6ed02871b621992407fb0d1be58d5676",
+        "archivedContentSha256": "61f07850f4299e5e8963cd6113040163c075e2a3952eefdf32ded2d2ebfb2043",
+        "originalResponseBytes": 376262,
+        "archivedBytes": 376206,
+        "redactions": 1,
+        "transformation": "One embedded public-site Mapbox token replaced with an explicit redaction marker; no text or factual extract altered."
+      },
+      {
+        "id": "n25-tr-maria",
+        "originalResponseContentSha256": "5c6b35f0af54018455c73269142e75d3763dc0e1e2eb8341a27de493f10b3e18",
+        "archivedContentSha256": "cc400814600a3633fe6958c865e7697884771ff960ac488a909737fbc9ca4a9b",
+        "originalResponseBytes": 455888,
+        "archivedBytes": 455832,
+        "redactions": 1,
+        "transformation": "One embedded public-site Mapbox token replaced with an explicit redaction marker; no text or factual extract altered."
+      },
+      {
+        "id": "n25-tr-gorge-region",
+        "provider": "Google Maps public API configuration",
+        "originalResponseContentSha256": "d08841f75cfb7329ddb8a49f18379888d148c71a07b8d4d76372bb89b194b7c9",
+        "archivedContentSha256": "8719ef830ef14dff4d0fede4e125aee6174b03c694ed277c5c70d0eb6d04840e",
+        "originalResponseBytes": 307147,
+        "archivedBytes": 307145,
+        "redactions": 1,
+        "transformation": "One embedded public Google Maps API key replaced by an explicit redaction marker; readable text and factual extracts unchanged."
+      },
+      {
+        "id": "n25-tr-overview",
+        "provider": "Google Maps public API configuration",
+        "originalResponseContentSha256": "9bd57cfeee97998ba63b308b3dce6188410590ecd00a5dca42950f337a8b0520",
+        "archivedContentSha256": "b2025e2813dd0c0cf59578adb572d144f881f772fe2d5b832047490a4b2ff3cb",
+        "originalResponseBytes": 479582,
+        "archivedBytes": 479580,
+        "redactions": 1,
+        "transformation": "One embedded public Google Maps API key replaced by an explicit redaction marker; readable text and factual extracts unchanged."
+      }
+    ],
+    "ownUnpublishedGitObjectsRemoved": 162,
+    "foreignOrReachableObjectsRemoved": 0,
+    "additionalProactiveSanitization": {
+      "performedAt": "2026-11-25T17:55:26.693228+00:00",
+      "provider": "Google Maps public API configuration",
+      "records": 2,
+      "copiedRawFiles": 4,
+      "detectedBy": "Local broader credential-format scan, before another push.",
+      "ownNativeBuildInterrupted": true,
+      "noRemoteCommitsRewritten": true,
+      "noProtectionBypass": true
+    }
+  },
+  "sourceCredentialFormatScan": {
+    "checkedAt": "2026-11-25T17:57:32.584295+00:00",
+    "success": true,
+    "selectedFiles": 159,
+    "formats": [
+      "google-api",
+      "github-classic",
+      "github-fine-grained",
+      "openai-secret",
+      "aws-access-id",
+      "mapbox"
+    ],
+    "proofSha256": "00e9f147b40598b34a27c6688a8cdddd84d3f91f1fce7d76dc4b15b2ce44928e",
+    "limits": "Format scan of exactly selected source files. Does not claim comprehensive credential detection or change GitHub protection."
+  },
+  "verifiedAt": "2026-11-25T18:43:37.063Z",
+  "commit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+  "sourceCommit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+  "batch": "2026-11-25",
+  "publicationDay": "2026-11-25",
+  "reservationDay": "2026-11-25",
+  "executionId": "5fe7ef0d-ebc4-46bf-b5c4-578964578fae",
+  "timeZone": "America/New_York",
+  "firstPublicationNewYorkDate": "2026-11-25",
+  "status": "publicly-verified",
+  "originals": 2,
+  "newOriginals": 2,
+  "localizations": 4,
+  "publishedTopicIds": [
+    "aguascalientes",
+    "trento"
+  ],
+  "priorSameDayUniqueVerifiedOriginals": 0,
+  "sameDayUniqueVerifiedOriginalsAfter": 2,
+  "sameDayUniqueVerifiedTopicIds": [
+    "aguascalientes",
+    "trento"
+  ],
+  "authorization": {
+    "kind": "daily-two",
+    "priorVerifiedOriginalsToday": 0,
+    "priorVerifiedTopicIdsToday": [],
+    "authorizedTotalUniqueOriginalsToday": 2,
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false
+  },
+  "urls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-aguascalientes-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-trento-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-aguascalientes-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-trento-5-places/"
+    ]
+  },
+  "globalOriginals": 253,
+  "globalLocalizations": 506,
+  "globalPhotos": 1082,
+  "globalCitedSourceRecords": 1353,
+  "photos": 10,
+  "newPhotoMetadataRecords": 10,
+  "optimizedPhotoFiles": 49,
+  "citedSourceDocuments": 16,
+  "coverage": {
+    "countries": [
+      {
+        "countryId": "it",
+        "publishedOriginals": 33,
+        "localizedVersions": 66,
+        "targetOriginals": 30,
+        "missingOriginals": 0,
+        "excessOriginals": 3,
+        "articleIds": [
+          "amalfi-coast",
+          "assisi",
+          "bergamo",
+          "bologna",
+          "christmas-florence",
+          "christmas-milan",
+          "christmas-naples",
+          "christmas-rome",
+          "christmas-turin",
+          "christmas-venice",
+          "christmas-verona",
+          "ferrara",
+          "florence",
+          "florence-uffizi",
+          "lucca",
+          "mantua",
+          "milan",
+          "padua",
+          "palermo",
+          "parma",
+          "perugia",
+          "pisa",
+          "ravenna",
+          "rome",
+          "rome-colosseum-visit",
+          "salerno",
+          "siena",
+          "trento",
+          "trieste",
+          "venice",
+          "venice-vaporetto",
+          "verona",
+          "vicenza"
+        ]
+      },
+      {
+        "countryId": "jp",
+        "publishedOriginals": 28,
+        "localizedVersions": 56,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 3,
+        "articleIds": [
+          "christmas-fukuoka",
+          "christmas-osaka",
+          "christmas-sapporo",
+          "christmas-tokyo",
+          "christmas-yokohama",
+          "halloween-japan",
+          "himeji",
+          "hiroshima",
+          "kamakura",
+          "kanazawa",
+          "kobe",
+          "kurashiki",
+          "kyoto",
+          "kyoto-higashiyama-walk",
+          "matsumoto",
+          "mount-fuji",
+          "nagasaki",
+          "nagoya",
+          "nara",
+          "nara-day-trip-transport",
+          "nikko",
+          "osaka",
+          "sapporo",
+          "sendai",
+          "takamatsu",
+          "takayama",
+          "tokyo",
+          "tokyo-new-year-2027"
+        ]
+      },
+      {
+        "countryId": "mx",
+        "publishedOriginals": 27,
+        "localizedVersions": 54,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 2,
+        "articleIds": [
+          "aguascalientes",
+          "campeche",
+          "cancun",
+          "chapultepec-museums-day",
+          "cuernavaca",
+          "durango",
+          "guadalajara",
+          "guanajuato",
+          "leon-guanajuato",
+          "los-cabos",
+          "mexico-city",
+          "morelia",
+          "muertos-merida",
+          "muertos-mexico-city",
+          "muertos-mixquic",
+          "muertos-oaxaca",
+          "muertos-puebla",
+          "oaxaca",
+          "patzcuaro",
+          "puebla",
+          "queretaro",
+          "riviera-maya",
+          "san-cristobal-de-las-casas",
+          "san-luis-potosi",
+          "san-miguel-de-allende",
+          "veracruz",
+          "zacatecas"
+        ]
+      },
+      {
+        "countryId": "us",
+        "publishedOriginals": 26,
+        "localizedVersions": 52,
+        "targetOriginals": 20,
+        "missingOriginals": 0,
+        "excessOriginals": 6,
+        "articleIds": [
+          "buffalo",
+          "charleston",
+          "christmas-boston",
+          "christmas-chicago",
+          "christmas-los-angeles",
+          "christmas-miami",
+          "christmas-new-york",
+          "christmas-philadelphia",
+          "christmas-san-francisco",
+          "columbus",
+          "greenville-sc",
+          "halloween-usa",
+          "hawaii",
+          "hilo",
+          "las-vegas",
+          "las-vegas-new-year-2027",
+          "los-angeles",
+          "miami",
+          "new-orleans",
+          "new-york",
+          "new-york-new-year-2027",
+          "orlando",
+          "san-antonio",
+          "san-diego",
+          "savannah",
+          "washington-dc"
+        ]
+      }
+    ],
+    "priorityOriginals": 114,
+    "targetCappedOriginals": 100,
+    "missingToInitial100": 0,
+    "excessOriginals": 14
+  },
+  "tests": {
+    "local": {
+      "unit": 107,
+      "navigation": 28,
+      "productionFocused": 8,
+      "total": 143,
+      "wholeSuiteClaimed": false
+    },
+    "github": {
+      "runId": 45673356246,
+      "runUrl": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/45673356246",
+      "counts": {
+        "unit": 107,
+        "navigation": 28,
+        "production": 1072,
+        "total": 1207
+      },
+      "decodedLogSha256": "fcbc6b70293387c7fb9152311eea61de85068795c8081bd8083358881782611a"
+    }
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-25T18:27:41.729Z",
+    "commit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "1fa4379e-77d4-4549-b1cc-715151723efc",
+        "canonicalCommit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+        "deploymentId": "1fa4379e-77d4-4549-b1cc-715151723efc",
+        "commit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-25T18:27:20.28199Z",
+          "ended_on": "2026-11-25T18:27:33.602506Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-25T18:16:09.490988Z",
+            "ended_on": "2026-11-25T18:16:09.500422Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-25T18:16:09.500422Z",
+            "ended_on": "2026-11-25T18:16:12.838874Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-25T18:16:12.838874Z",
+            "ended_on": "2026-11-25T18:17:00.769852Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-25T18:17:00.769852Z",
+            "ended_on": "2026-11-25T18:27:20.28199Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-25T18:27:20.28199Z",
+            "ended_on": "2026-11-25T18:27:33.602506Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "ebf7850e-40f9-460e-89b0-d650b301c17e",
+        "canonicalCommit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+        "deploymentId": "ebf7850e-40f9-460e-89b0-d650b301c17e",
+        "commit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-25T18:17:10.806494Z",
+          "ended_on": "2026-11-25T18:17:17.781349Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-25T18:16:11.873659Z",
+            "ended_on": "2026-11-25T18:16:11.881058Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-25T18:16:11.881058Z",
+            "ended_on": "2026-11-25T18:16:13.861321Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-25T18:16:13.861321Z",
+            "ended_on": "2026-11-25T18:17:08.212033Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-25T18:17:08.212033Z",
+            "ended_on": "2026-11-25T18:17:10.806494Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-25T18:17:10.806494Z",
+            "ended_on": "2026-11-25T18:17:17.781349Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true,
+    "checkoutProof": {
+      "checkedAt": "2026-11-25T18:27:45.352Z",
+      "success": true,
+      "sourceCommit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+      "proofs": [
+        {
+          "checkedAt": "2026-11-25T18:27:41.729Z",
+          "project": "maletafeliz-web",
+          "deploymentId": "1fa4379e-77d4-4549-b1cc-715151723efc",
+          "commit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+          "entries": 1208,
+          "logSha256": "a635d26bb0f3134fbe9e3e4334dd226519e29f2c20756803eaa4ad41d6bcba07",
+          "releaseCommandPresent": true,
+          "checkoutMarkerPresent": true,
+          "builtPages": "1104"
+        },
+        {
+          "checkedAt": "2026-11-25T18:27:41.729Z",
+          "project": "maletafeliz-www",
+          "deploymentId": "ebf7850e-40f9-460e-89b0-d650b301c17e",
+          "commit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+          "entries": 23,
+          "logSha256": "3ff6e129d0b872085c55779477796968c50e127e405016f7aa210b6ea94b6060",
+          "releaseCommandPresent": false,
+          "checkoutMarkerPresent": true
+        }
+      ],
+      "method": "Actual Cloudflare build log HEAD marker, matching deployment full commit metadata and canonical production state. WWW is the existing redirect project, not an Astro build."
+    }
+  },
+  "https": {
+    "counts": {
+      "originalTopics": 2,
+      "localizedVersionsVerified": 4,
+      "photoFilesVerified": 49,
+      "searchVersionsVerified": 4,
+      "googlebotUaProbes": 6,
+      "actualHttpsRequests": 85,
+      "sitemapUrls": 1098
+    },
+    "sha256": "b663e35f9d71eb6f41bf8903988cd5bae3a18a5547e1359a3b4eb734d60955eb"
+  },
+  "wholeSiteVerification": {
+    "sitemapUrls": 1098,
+    "guideVersions": 506,
+    "errors": 0,
+    "sha256": "17841d5637d7571d39c8bfbe44a4e8aba10ebf3faf5538cfeef483cc80b10f97",
+    "run": {
+      "sourceCommit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+      "startedAt": "2026-11-25T18:28:09.597Z",
+      "finishedAt": "2026-11-25T18:28:56.086Z",
+      "exitCode": 0,
+      "outputSha256": "17841d5637d7571d39c8bfbe44a4e8aba10ebf3faf5538cfeef483cc80b10f97",
+      "httpVerified": true,
+      "checkedRequests": 1108,
+      "sitemapUrls": 1098,
+      "guideVersions": 506
+    }
+  },
+  "browser": {
+    "flows": 8,
+    "screenshots": 14,
+    "sha256": "d9e8370b7a1e74f171dced087cf8d236177f74234ef2b832e3c9a7386d2c5e9a",
+    "visualReview": {
+      "reviewedAt": "2026-11-25T18:30:10.161530+00:00",
+      "success": true,
+      "reviewer": "Codex /root — actual visual inspection of five public contact sheets",
+      "sourceCommit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+      "contactSheets": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n25/public-contact-mobile-guides-es-1.jpg",
+          "sha256": "12d1f49200ca032b7309e3d2a04b914371ed56152b8f8cb47579cace0fa5b1b5",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n25/public-contact-desktop-guides-es-1.jpg",
+          "sha256": "3248a59b5db06e2be2525a614556c63781d820c9f93c2b2fec2abd8c7c76b83f",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n25/public-contact-mobile-guides-en-1.jpg",
+          "sha256": "0f3ca321d3ddf452a4ece8e2524cdf29e667c5300992dbd17d408ed7cdb0fd34",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n25/public-contact-desktop-guides-en-1.jpg",
+          "sha256": "2579eec333da030421ad942959156fa8096518c530b87e4db034e34d7bcc246c",
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n25/public-contact-navigation.jpg",
+          "sha256": "a90b2c6e126fff31157dd7c4182c4d9f2eded412c10f81bdb45119a13fdf5afa",
+          "actuallyViewed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "public-functional-es-390-menu.png",
+          "sha256": "70d40323e6a9065af817ba3b98993f81db8841bfcc1c92b3cf33390cd14ea39b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-390-search.png",
+          "sha256": "347ff433e0570b7398707232681cd0391e060d0f816fd11546962cc243d18722",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-aguascalientes-es-390.png",
+          "sha256": "5615fb08d4a00b50fbe1a936488d059866806e1f258b5951bf8ebac730bc96ff",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-trento-es-390.png",
+          "sha256": "b962d333be2e9308a3694c9534bc55f2a0b036dacc029aa5219ee516681aa16c",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-1440-search.png",
+          "sha256": "a2dd4d2ad2647d579857195441670cfa7e1fdc64661de2bf1518f504473219fc",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-aguascalientes-es-1440.png",
+          "sha256": "98351235f15ec05b7c0a476af15e9f140d93ecf736060cd6b5ecef3958f7fcc0",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-trento-es-1440.png",
+          "sha256": "d87bf0b5db6b45c173e3c913641c6bec002a4efb6a85e9c4615452d0a2967285",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-menu.png",
+          "sha256": "209a229bc56b56b3e677d2c30d6fdca36f73f9d90584d3a80843ae8e6ce20e74",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-search.png",
+          "sha256": "4b27d8aca0c9375550273ef46eae6b1d3939ac867efc7c98d43e825ddc2d79e4",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-aguascalientes-en-390.png",
+          "sha256": "f1ad5ce037af307361aef52259e7b425d28784942a08753ffb6771d6679bffb9",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-trento-en-390.png",
+          "sha256": "416797f366f3dadec62cd0696aa5793b529a349f912711f447d82e98a6648b2f",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-1440-search.png",
+          "sha256": "6c0a345a0158e6a7a949495b906f9f6560ef7a051dd772f26bbc131e2c8b661f",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-aguascalientes-en-1440.png",
+          "sha256": "66585266add6e525e5201647564ef30b7e2ac4360a6259d06c5fcb47e11ed523",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-trento-en-1440.png",
+          "sha256": "df001fb71a7242468f373196c1a277f5c2aa384a3d15d9aa6e1e97e892a0e4f2",
+          "actuallyViewedInContactSheet": true
+        }
+      ],
+      "observations": [
+        "Read all four localized titles, descriptions, breadcrumbs and actual25November2026 publication dates at390and1440pixels. Text and cover photographs fit their layouts without overlap or clipping.",
+        "Orange3D suitcase and white/turquoise MaletaFeliz wordmark remain visible on the dark blue header. Desktop menu, search and language actions retain space; mobile menu begins below the brand/header.",
+        "Museo de Aguascalientes and Piazza Fiera covers are the reviewed documentary photographs; no image distortion observed in the shown viewports.",
+        "Search visibly returns the new Aguascalientes destination and links to its localized guide in ES/EN. Mobile open menus and desktop navigation are legible.",
+        "Ad containers remain in their original placements and dimensions. External providers were isolated for functional QA to avoid impressions; live ad fill, performance scores and Google indexing are not claimed."
+      ],
+      "limits": "Visual review of the14recorded viewport screenshots in5contact sheets, supplemented by the successful8browser flows and original documentary image review. Not an independent peer review, live advertising-fill test, PageSpeed measurement or Google-indexing verification."
+    }
+  },
+  "editorialIntegrationSha256": "40f13ff25399735db9607bf5a5f373d84733baac172aefa01f9452aeaead5bdd",
+  "preservationSha256": "09b0551f879e478de0b57d81e141cdb0f4e3505918227bc47346bc3024e08f21",
+  "reservation": {
+    "commit": "962af45a1461a4bce4138a093809714e09d3c6ed",
+    "createdAt": "2026-11-25T17:07:45.125Z",
+    "nativeReservationInvocationClaimed": true,
+    "nativeCommand": [
+      "npm",
+      "run",
+      "editorial:batch",
+      "--",
+      "2"
+    ],
+    "nativeInvocationSha256": "c7176f1181e55feea74145d21cb9e6c07c3cc35fa737943e0b718789a372db06",
+    "nativeExclusiveDailyBatch": true,
+    "manualExclusiveAggregate": false
+  },
+  "googleIndexationVerified": false,
+  "schedulerAttributionVerified": false,
+  "dailyScheduleTargetUnchanged": 2,
+  "notes": "Daily execution of two new originals after a complete initial census of zero first-published-and-verified originals today. Existing manual batches, histories and daily schedule are retained. SEO preparation does not establish Google indexing, viral demand, rankings or advertising income."
+}

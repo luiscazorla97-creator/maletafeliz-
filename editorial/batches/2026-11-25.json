@@ -2,26 +2,54 @@
   "id": "2026-11-25",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-25T17:07:45.125Z",
-  "status": "reserved-not-generated",
+  "status": "published",
   "topicIds": [
     "aguascalientes",
     "trento"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "5fe7ef0d-ebc4-46bf-b5c4-578964578fae",
     "baseCommit": "a102080d3b99db4b5bb857d9b442a9180d77bb94",
     "owner": "Codex /root",
     "startedAt": "2026-11-25T17:01:57.558083+00:00",
-    "heartbeatAt": "2026-11-25T17:07:45.155110+00:00",
-    "leaseUntil": "2026-11-25T23:07:45.155110+00:00",
-    "status": "active"
+    "heartbeatAt": "2026-11-25T18:43:37.063Z",
+    "leaseUntil": "2026-11-25T18:43:37.063Z",
+    "status": "completed-verified",
+    "completedAt": "2026-11-25T18:43:37.063Z"
   },
   "dailyCensus": {
     "newYorkDate": "2026-11-25",
     "priorVerifiedOriginals": 0,
     "censusSha256": "aefec75629c33444295ed684d77d3c2c68dba707137a8a032feb76f0580da925"
-  }
+  },
+  "publishedTopicIds": [
+    "aguascalientes",
+    "trento"
+  ],
+  "verifiedTopicCount": 2,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "optimizedPhotoFiles": 49,
+  "citedSourceDocuments": 16,
+  "publishedCommit": "5664f2f7b9c371f91bb72edcb2728475cb905c20",
+  "publiclyVerifiedAt": "2026-11-25T18:43:37.063Z",
+  "firstPublicationNewYorkDate": "2026-11-25",
+  "publicVerification": "editorial/verification/2026-11-25-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-aguascalientes-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-trento-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-aguascalientes-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-trento-5-places/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "aguascalientes",
+    "trento"
+  ]
 }

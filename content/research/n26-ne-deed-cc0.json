@@ -1,0 +1,48 @@
+{
+  "id": "n26-ne-deed-cc0",
+  "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "title": "n26-deed-cc0",
+  "requestedAt": "2026-11-26T17:19:39.445Z",
+  "facts": [
+    {
+      "fact": "CC0 permits copying, adaptation and distribution for commercial use.",
+      "excerpt": "even for commercial purposes",
+      "location": "Normalized readable-text characters 1628–1656"
+    },
+    {
+      "fact": "CC has not itself verified copyright status of an individual work.",
+      "excerpt": "Creative Commons has not verified the copyright status",
+      "location": "Normalized readable-text characters 2754–2808"
+    },
+    {
+      "fact": "Other personal, publicity and privacy rights can still limit reuse.",
+      "excerpt": "publicity, image, or privacy rights",
+      "location": "Normalized readable-text characters 3505–3540"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "b7b54600914107f3eb5601b61168a827e21fda05a369eee41b85fb95346df318",
+  "responseBytes": 31065,
+  "archivedBytes": 31065,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:19:39.530Z",
+  "finalUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "retryAfter": null,
+  "contentSha256": "b7b54600914107f3eb5601b61168a827e21fda05a369eee41b85fb95346df318",
+  "bytes": 31065,
+  "textSha256": "a766e1e8462688ae3aa2089b51179f2476b7eb6b23e082ad50c9212be631f155",
+  "rawFile": "content/research/n26-ne-deed-cc0.raw",
+  "textFile": "content/research/n26-ne-deed-cc0.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:39:05.125540+00:00",
+  "notes": "Actual selected licence terms read by Codex/root; this package copy reuses the same captured response, not a new consultation. Source capture n26-deed-cc0"
+}

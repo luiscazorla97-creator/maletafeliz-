@@ -1,0 +1,56 @@
+{
+  "id": "n26-ok-kibitsuhiko-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Kibitsuhiko-jinja_tourou_and_haiden.JPG",
+  "title": "n26-ok-kibitsuhiko-photo-rights",
+  "requestedAt": "2026-11-26T17:18:43.070Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC0 grant.",
+      "excerpt": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "location": "Normalized readable-text characters 1597–1656"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Author Saigen Jiro",
+      "location": "Normalized readable-text characters 1436–1454"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "2a259ac5ef6fa3165df1f89f75d3f9139072a795af9be60970361f33a3a0b742",
+  "responseBytes": 106432,
+  "archivedBytes": 106432,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:18:43.329Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Kibitsuhiko-jinja_tourou_and_haiden.JPG",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "2a259ac5ef6fa3165df1f89f75d3f9139072a795af9be60970361f33a3a0b742",
+  "bytes": 106432,
+  "textSha256": "2c0549b292afaccb69557266acf350b5b71676e544fbf41070f7ad7d252d5ec5",
+  "rawFile": "content/research/n26-ok-kibitsuhiko-photo-rights.raw",
+  "textFile": "content/research/n26-ok-kibitsuhiko-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:39:05.125540+00:00",
+  "license": "CC0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "originalSha256": "40e3015b5607c779d12c0a526f2e289bbcc70b08ca669ba5579819ed9635b070",
+  "deedEvidence": {
+    "file": "content/research/n26-ok-deed-cc0.json",
+    "contentSha256": "b7b54600914107f3eb5601b61168a827e21fda05a369eee41b85fb95346df318"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Individual page, selected explicit grant, stated source, creator, date and file history actually read; four applicable deeds actually read. No separate peer review or venue permission claimed. Kibitsuhiko, not Kibitsu. No largest-in-Japan ranking or current ritual access claimed."
+  }
+}

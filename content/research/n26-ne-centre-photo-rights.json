@@ -1,0 +1,56 @@
+{
+  "id": "n26-ne-centre-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Centre_of_New_Zealand.jpg",
+  "title": "n26-ne-centre-photo-rights",
+  "requestedAt": "2026-11-26T17:18:55.626Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 3.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "location": "Normalized readable-text characters 2224–2277"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Markus Koljonen",
+      "location": "Normalized readable-text characters 1481–1496"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "5e14b92de82fb7b77220682becedb16af994c2a9f9105fe7a4d70376674bdc62",
+  "responseBytes": 124813,
+  "archivedBytes": 124813,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:18:55.954Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Centre_of_New_Zealand.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "5e14b92de82fb7b77220682becedb16af994c2a9f9105fe7a4d70376674bdc62",
+  "bytes": 124813,
+  "textSha256": "2349c1e868facd67deb435ca58dae73e0ad0847d08bc41e9b674294c3c77ecb0",
+  "rawFile": "content/research/n26-ne-centre-photo-rights.raw",
+  "textFile": "content/research/n26-ne-centre-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:39:05.125540+00:00",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "originalSha256": "a8642e74174564e484111f00c413102b16e6cac7c45f293467466ef1d1e7b739",
+  "deedEvidence": {
+    "file": "content/research/n26-ne-deed-by-sa-3.json",
+    "contentSha256": "c724522f579b4fedf146b6e3defa300459f8541f65a0040e4b8da2a01fbde411"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Individual page, selected explicit grant, stated source, creator, date and file history actually read; four applicable deeds actually read. No separate peer review or venue permission claimed. Current explicit CC BY-SA3.0 grant selected from multi-licence file, not GFDL or the older2.5option. Original title and author retained. Does not mark the exact geographical centre."
+  }
+}

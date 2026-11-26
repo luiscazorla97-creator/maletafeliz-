@@ -1,0 +1,68 @@
+{
+  "id": "n26-ne-queens",
+  "url": "https://www.nelson.govt.nz/5community/2recreation/parks-and-open-spaces/2parks-and-reserves/see-nelson-city-parks-and-reserves/queens-garden",
+  "title": "Nelson City Council — Queens Gardens",
+  "requestedAt": "2026-11-26T17:14:11.004Z",
+  "facts": [
+    {
+      "fact": "Queens Gardens opened1892 and retains Victorian design around the former Maitai River bend/Eel Pond.",
+      "excerpt": "opened in 1892",
+      "location": "Normalized readable-text characters 6872–6886"
+    },
+    {
+      "fact": "Central access is from Bridge and Tasman Streets, beside the Suter gallery.",
+      "excerpt": "Bridge and Tasman Streets",
+      "location": "Normalized readable-text characters 6405–6430"
+    },
+    {
+      "fact": "Features include rose garden, fountain, waterwheel, bridges and heritage planting; no current flower display guaranteed.",
+      "excerpt": "cupid fountain",
+      "location": "Normalized readable-text characters 6652–6666"
+    },
+    {
+      "fact": "Huangshi garden opened14November2007 and reflects Nelson friendship with Huangshi.",
+      "excerpt": "14 November 2007",
+      "location": "Normalized readable-text characters 7400–7416"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "234f215e4db88e9c3a410af8793ee90d655b756dc3abf302c603cca8a7a59f07",
+  "responseBytes": 87016,
+  "archivedBytes": 87018,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-26T17:14:12.685Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-google-api-key",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "234f215e4db88e9c3a410af8793ee90d655b756dc3abf302c603cca8a7a59f07",
+    "archivedContentSha256": "fe1797f3760c34caa7daa8d87adaadfcf9f1aaad285c084328d674e640b5c2d1",
+    "originalResponseBytes": 87016,
+    "archivedBytes": 87018,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-26T17:14:12.693Z",
+  "finalUrl": "https://www.nelson.govt.nz/5community/2recreation/parks-and-open-spaces/2parks-and-reserves/see-nelson-city-parks-and-reserves/queens-garden",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "retryAfter": null,
+  "contentSha256": "fe1797f3760c34caa7daa8d87adaadfcf9f1aaad285c084328d674e640b5c2d1",
+  "bytes": 87018,
+  "textSha256": "bbb5ded0c7553698f3abb60a680b3341cc3acd91e116c076a308fcf070735795",
+  "rawFile": "content/research/n26-ne-queens.raw",
+  "textFile": "content/research/n26-ne-queens.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:24:23.124600+00:00",
+  "notes": "Supporting passages actually read by Codex /root. Ordinary hours, last admission, office hours, religious use and exceptional calendars distinguished. Operator information preferred over conflicting translated/directory prices. Public source configuration strings are screened before saving, with original response digests and any archive transformations explicitly retained. No demand, ranking, safe-swimming or personal-visit claim."
+}

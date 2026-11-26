@@ -1,0 +1,53 @@
+{
+  "id": "n26-ok-yumeji",
+  "url": "https://www.okayama-japan.jp/en/spot/10694",
+  "title": "Okayama Prefecture Tourism — Yumeji Main Museum",
+  "requestedAt": "2026-11-26T17:14:09.299Z",
+  "facts": [
+    {
+      "fact": "The main museum is at2-1-32Hama in Okayama, close to Korakuen; not the Setouchi birthplace.",
+      "excerpt": "2-1-32 Hama",
+      "location": "Normalized readable-text characters 874–885"
+    },
+    {
+      "fact": "Collection description includes magazine illustrations, watercolours, prints and folding screens associated with Takehisa Yumeji.",
+      "excerpt": "woodblock prints",
+      "location": "Normalized readable-text characters 1270–1286"
+    },
+    {
+      "fact": "Artist is associated with Taisho Romantic culture; commercial shop/cat sightings are not guaranteed.",
+      "excerpt": "Taisho Romantic",
+      "location": "Normalized readable-text characters 1065–1080"
+    },
+    {
+      "fact": "Tourism page identifies the Horaibashi/Yumeji museum bus stop; prices for multi-facility passes conflict with operator information and are omitted.",
+      "excerpt": "Hōraibashi/Yumeji Folk Art Museum",
+      "location": "Normalized readable-text characters 2607–2640"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "44b7753b2177ae25c358fa85b2f7861ad85645c4f5090d8126fc7d4cf16d7d78",
+  "responseBytes": 99225,
+  "archivedBytes": 99225,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:14:11.004Z",
+  "finalUrl": "https://www.okayama-japan.jp/en/spot/10694",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "44b7753b2177ae25c358fa85b2f7861ad85645c4f5090d8126fc7d4cf16d7d78",
+  "bytes": 99225,
+  "textSha256": "16060c7b2880a1680cc02df6d9bca09c9a9f3c6ac8ac8f88ae7ac617aadc3cdf",
+  "rawFile": "content/research/n26-ok-yumeji.raw",
+  "textFile": "content/research/n26-ok-yumeji.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:24:23.124600+00:00",
+  "notes": "Supporting passages actually read by Codex /root. Ordinary hours, last admission, office hours, religious use and exceptional calendars distinguished. Operator information preferred over conflicting translated/directory prices. Public source configuration strings are screened before saving, with original response digests and any archive transformations explicitly retained. No demand, ranking, safe-swimming or personal-visit claim."
+}

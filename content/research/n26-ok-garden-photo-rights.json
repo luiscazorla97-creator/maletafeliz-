@@ -1,0 +1,56 @@
+{
+  "id": "n26-ok-garden-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Korakuen_(japanese_garden)_and_Okayama_castle.jpg",
+  "title": "n26-ok-garden-photo-rights",
+  "requestedAt": "2026-11-26T17:18:17.398Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 4.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 4.0 International",
+      "location": "Normalized readable-text characters 1645–1703"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Source Own work Author Motokoka",
+      "location": "Normalized readable-text characters 1477–1508"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "f125c320dbf7a72d510d60a058a30c7605f9e6c63b6a9f84a5db435ad1c568e9",
+  "responseBytes": 104666,
+  "archivedBytes": 104666,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:18:17.798Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Korakuen_(japanese_garden)_and_Okayama_castle.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "f125c320dbf7a72d510d60a058a30c7605f9e6c63b6a9f84a5db435ad1c568e9",
+  "bytes": 104666,
+  "textSha256": "bec7913f5fe02c0746e626efa0ced31a5b5eb689484f99635f6e5de6556bfb6c",
+  "rawFile": "content/research/n26-ok-garden-photo-rights.raw",
+  "textFile": "content/research/n26-ok-garden-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:39:05.125540+00:00",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "originalSha256": "27601b6592d8c3ed8a8686fdec3e405db27a9f64c29a681e030f3c930c9dc120",
+  "deedEvidence": {
+    "file": "content/research/n26-ok-deed-by-sa-4.json",
+    "contentSha256": "e9409510ce0f1738e0a454d4b83baf1689b9929fe7748b97d92efee9141e1cfa"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Individual page, selected explicit grant, stated source, creator, date and file history actually read; four applicable deeds actually read. No separate peer review or venue permission claimed. Garden operator requires advance permission for new commercial shoots; no new on-site shoot commissioned or venue permission claimed. This is a pre-existing individually licensed archive photograph."
+  }
+}

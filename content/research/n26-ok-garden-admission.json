@@ -1,0 +1,58 @@
+{
+  "id": "n26-ok-garden-admission",
+  "url": "https://okayama-korakuen.jp/section/english/info/index.html",
+  "title": "Okayama Korakuen — official admission and hours",
+  "requestedAt": "2026-11-26T17:14:02.795Z",
+  "facts": [
+    {
+      "fact": "Garden winter opening October1–March19 is08:00–17:00, last admission16:45.",
+      "excerpt": "last admission 16:45",
+      "location": "Normalized readable-text characters 1873–1893"
+    },
+    {
+      "fact": "Summer period March20–September30 is07:30–18:00, last admission17:45; seasons must not be confused.",
+      "excerpt": "March 20 to September 30",
+      "location": "Normalized readable-text characters 1776–1800"
+    },
+    {
+      "fact": "Published adult15–64 individual admission is500yen; no unverified transport fares or universal discounts.",
+      "excerpt": "¥500",
+      "location": "Normalized readable-text characters 513–517"
+    },
+    {
+      "fact": "Garden/castle combined ticket is800yen, with restrictions for closing days or special exhibitions; re-entry is not generally permitted.",
+      "excerpt": "¥800",
+      "location": "Normalized readable-text characters 672–676"
+    },
+    {
+      "fact": "A new commercial photo/video shoot inside the garden requires advance permission, at least10days; this task commissions no shoot.",
+      "excerpt": "at least 10 days",
+      "location": "Normalized readable-text characters 2239–2255"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "63ad8359541f4210486f60971ee6d1173431edf049e24a38f1d29069983c4bf5",
+  "responseBytes": 10439,
+  "archivedBytes": 10439,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:14:04.455Z",
+  "finalUrl": "https://okayama-korakuen.jp/section/english/info/index.html",
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "retryAfter": null,
+  "contentSha256": "63ad8359541f4210486f60971ee6d1173431edf049e24a38f1d29069983c4bf5",
+  "bytes": 10439,
+  "textSha256": "6675c3705fbd6e26208137ac6ade286f0c3e66b4b1222f5f448c49d0ac7b46e2",
+  "rawFile": "content/research/n26-ok-garden-admission.raw",
+  "textFile": "content/research/n26-ok-garden-admission.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:24:23.124600+00:00",
+  "notes": "Supporting passages actually read by Codex /root. Ordinary hours, last admission, office hours, religious use and exceptional calendars distinguished. Operator information preferred over conflicting translated/directory prices. Public source configuration strings are screened before saving, with original response digests and any archive transformations explicitly retained. No demand, ranking, safe-swimming or personal-visit claim."
+}

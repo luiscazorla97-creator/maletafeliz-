@@ -1,0 +1,53 @@
+{
+  "id": "n26-ok-castle-history",
+  "url": "https://okayama-castle.jp/learn-history-en",
+  "title": "Okayama Castle — official history",
+  "requestedAt": "2026-11-26T17:21:47.018Z",
+  "facts": [
+    {
+      "fact": "Operator associates the original tower completion with1597, under Ukita Hideie; present building is not described as an intact16th-century original.",
+      "excerpt": "completed in 1597",
+      "location": "Normalized readable-text characters 821–838"
+    },
+    {
+      "fact": "Tower burned during World WarII and was reconstructed in1966.",
+      "excerpt": "In 1966",
+      "location": "Normalized readable-text characters 2754–2761"
+    },
+    {
+      "fact": "Black clapboard exterior explains the Ujo/Crow Castle name; river channels helped shape the castle town.",
+      "excerpt": "black clapboards",
+      "location": "Normalized readable-text characters 1698–1714"
+    },
+    {
+      "fact": "Castle history places the site beside the Asahi River.",
+      "excerpt": "Asahi River",
+      "location": "Normalized readable-text characters 448–459"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "6f71b98b3d451419dd2ef2d63ebb7c210984c0c424ef5f7d5d2269de07c2f80b",
+  "responseBytes": 41939,
+  "archivedBytes": 41939,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:21:49.503Z",
+  "finalUrl": "https://okayama-castle.jp/learn-history-en/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "6f71b98b3d451419dd2ef2d63ebb7c210984c0c424ef5f7d5d2269de07c2f80b",
+  "bytes": 41939,
+  "textSha256": "bff3290db97f6e2f5633a4ebe4012dd0d18ba6320184cd66ad591759fdc6212f",
+  "rawFile": "content/research/n26-ok-castle-history.raw",
+  "textFile": "content/research/n26-ok-castle-history.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:24:23.124600+00:00",
+  "notes": "Supporting passages actually read by Codex /root. Ordinary hours, last admission, office hours, religious use and exceptional calendars distinguished. Operator information preferred over conflicting translated/directory prices. Public source configuration strings are screened before saving, with original response digests and any archive transformations explicitly retained. No demand, ranking, safe-swimming or personal-visit claim."
+}

@@ -1,0 +1,58 @@
+{
+  "id": "n26-ok-castle-guide",
+  "url": "https://okayama-castle.jp/guide-en/",
+  "title": "Okayama Castle — official visitor guide",
+  "requestedAt": "2026-11-26T17:16:02.160Z",
+  "facts": [
+    {
+      "fact": "Ordinary tower hours09:00–17:30, last admission17:00; event extensions are separate.",
+      "excerpt": "9:00 AM - 5:30 PM",
+      "location": "Normalized readable-text characters 225–242"
+    },
+    {
+      "fact": "Tower closes29–31December and may also close for bad weather or inspections.",
+      "excerpt": "December 29 - December 31",
+      "location": "Normalized readable-text characters 346–371"
+    },
+    {
+      "fact": "Tower adult high-school-and-older admission500yen; garden/castle800yen is independently consistent with garden operator.",
+      "excerpt": "500 yen",
+      "location": "Normalized readable-text characters 508–515"
+    },
+    {
+      "fact": "Elevator reaches floor4 only; floors5and6 require stairs, so full tower accessibility is not claimed.",
+      "excerpt": "4th floor.",
+      "location": "Normalized readable-text characters 3009–3019"
+    },
+    {
+      "fact": "Operator describes tram to Shiroshita followed by about10minutes walking, not the shorter estimate on the redirected JNTO page.",
+      "excerpt": "Shiroshita",
+      "location": "Normalized readable-text characters 1598–1608"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "a968550603112b788d98ddad539ca38efb0f21660a8163fd6f9d371ca7a4c40c",
+  "responseBytes": 46762,
+  "archivedBytes": 46762,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:16:03.834Z",
+  "finalUrl": "https://okayama-castle.jp/guide-en/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "a968550603112b788d98ddad539ca38efb0f21660a8163fd6f9d371ca7a4c40c",
+  "bytes": 46762,
+  "textSha256": "a765e710457c95b7e3125ae5d7c39598b5dc54f5653a6487140abc7497d573ad",
+  "rawFile": "content/research/n26-ok-castle-guide.raw",
+  "textFile": "content/research/n26-ok-castle-guide.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:24:23.124600+00:00",
+  "notes": "Supporting passages actually read by Codex /root. Ordinary hours, last admission, office hours, religious use and exceptional calendars distinguished. Operator information preferred over conflicting translated/directory prices. Public source configuration strings are screened before saving, with original response digests and any archive transformations explicitly retained. No demand, ranking, safe-swimming or personal-visit claim."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "n26-ok-yumeji-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:250505_Yumeji_Art_Museum_Okayama_Japan01s3.jpg",
+  "title": "n26-ok-yumeji-photo-rights",
+  "requestedAt": "2026-11-26T17:18:30.131Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 4.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 4.0 International",
+      "location": "Normalized readable-text characters 1833–1891"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Author 663highland",
+      "location": "Normalized readable-text characters 1524–1542"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "b4eb7453e0a1564e48eb7413af8afbf10cf6362052a1491cc099b33484b34771",
+  "responseBytes": 114900,
+  "archivedBytes": 114900,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:18:30.667Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:250505_Yumeji_Art_Museum_Okayama_Japan01s3.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "b4eb7453e0a1564e48eb7413af8afbf10cf6362052a1491cc099b33484b34771",
+  "bytes": 114900,
+  "textSha256": "651a2a265e96be9e1406157191553880af0dfd87b3863386d39a0bf4fc408aa8",
+  "rawFile": "content/research/n26-ok-yumeji-photo-rights.raw",
+  "textFile": "content/research/n26-ok-yumeji-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:39:05.125540+00:00",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "originalSha256": "48581f8587b5e34f771b225abc4313a4f7acc197dd7e16810f53ca44815e354b",
+  "deedEvidence": {
+    "file": "content/research/n26-ok-deed-by-sa-4.json",
+    "contentSha256": "e9409510ce0f1738e0a454d4b83baf1689b9929fe7748b97d92efee9141e1cfa"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Individual page, selected explicit grant, stated source, creator, date and file history actually read; four applicable deeds actually read. No separate peer review or venue permission claimed. Main museum identified by individual caption and visible distinctive building, not the copied camera geotag, which is inconsistent with the official Hama address. Geotag not used for directions. No operator-gallery image downloaded or reused."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "n26-ne-cathedral",
+  "url": "https://www.nelsoncathedral.nz/your-visit",
+  "title": "Nelson Cathedral — your visit",
+  "requestedAt": "2026-11-26T17:16:11.848Z",
+  "facts": [
+    {
+      "fact": "Operator publishes08:30–19:00,18:00inwinter; worship and calendar take precedence over tourist visits.",
+      "excerpt": "8:30am and 7pm (6pm in winter)",
+      "location": "Normalized readable-text characters 624–654"
+    },
+    {
+      "fact": "General admission is free; this does not establish free entry for every concert or private event.",
+      "excerpt": "general admission to your Cathedral are free",
+      "location": "Normalized readable-text characters 800–844"
+    },
+    {
+      "fact": "Cathedral address is1TrafalgarSquare.",
+      "excerpt": "1 Trafalgar Square",
+      "location": "Normalized readable-text characters 1276–1294"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "b3e2d622219c3538bd1befbd5cc3424e636f98837cf446e37270069f26b8da32",
+  "responseBytes": 920335,
+  "archivedBytes": 920335,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:16:13.374Z",
+  "finalUrl": "https://www.nelsoncathedral.nz/your-visit",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "b3e2d622219c3538bd1befbd5cc3424e636f98837cf446e37270069f26b8da32",
+  "bytes": 920335,
+  "textSha256": "dc83d8ac80a5afa31fd822b5575284f49af0e35d97531d50953429df27762d48",
+  "rawFile": "content/research/n26-ne-cathedral.raw",
+  "textFile": "content/research/n26-ne-cathedral.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:24:23.124600+00:00",
+  "notes": "Supporting passages actually read by Codex /root. Ordinary hours, last admission, office hours, religious use and exceptional calendars distinguished. Operator information preferred over conflicting translated/directory prices. Public source configuration strings are screened before saving, with original response digests and any archive transformations explicitly retained. No demand, ranking, safe-swimming or personal-visit claim."
+}

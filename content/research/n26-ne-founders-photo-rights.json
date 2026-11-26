@@ -1,0 +1,56 @@
+{
+  "id": "n26-ne-founders-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Windmill_at_the_Founders_Heritage_Park,_Nelson.jpg",
+  "title": "n26-ne-founders-photo-rights",
+  "requestedAt": "2026-11-26T17:19:01.957Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC0 grant.",
+      "excerpt": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "location": "Normalized readable-text characters 1786–1845"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Author Siobhan Leachman",
+      "location": "Normalized readable-text characters 1499–1522"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "ff58190e92622c40d36e7f728882d3a5b5b872390c303a14ef537eb9096198e8",
+  "responseBytes": 121352,
+  "archivedBytes": 121352,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:19:02.319Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Windmill_at_the_Founders_Heritage_Park,_Nelson.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "ff58190e92622c40d36e7f728882d3a5b5b872390c303a14ef537eb9096198e8",
+  "bytes": 121352,
+  "textSha256": "3aac2424b0d13e51fd2590be1c7b4020279f3ee7985e885920509a0addc4dd9f",
+  "rawFile": "content/research/n26-ne-founders-photo-rights.raw",
+  "textFile": "content/research/n26-ne-founders-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:39:05.125540+00:00",
+  "license": "CC0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "originalSha256": "7a7e702f11a3148cd36a09e59aa5e91448b88c7c49f74187d0220e2e28513fb6",
+  "deedEvidence": {
+    "file": "content/research/n26-ne-deed-cc0.json",
+    "contentSha256": "b7b54600914107f3eb5601b61168a827e21fda05a369eee41b85fb95346df318"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Individual page, selected explicit grant, stated source, creator, date and file history actually read; four applicable deeds actually read. No separate peer review or venue permission claimed. Historic attraction exterior; no assertion the windmill is an untouched19th-century structure or that a train/event currently operates."
+  }
+}

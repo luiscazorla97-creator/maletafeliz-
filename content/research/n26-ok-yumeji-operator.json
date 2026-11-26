@@ -1,0 +1,58 @@
+{
+  "id": "n26-ok-yumeji-operator",
+  "url": "https://yumeji-art-museum.com/english/",
+  "title": "Yumeji Art Museum — official English information",
+  "requestedAt": "2026-11-26T17:16:08.673Z",
+  "facts": [
+    {
+      "fact": "Yumeji Takehisa lived1884–1934 and worked as painter, poet and designer.",
+      "excerpt": "(1884 - 1934)",
+      "location": "Normalized readable-text characters 1168–1181"
+    },
+    {
+      "fact": "Main museum is beside Korakuen in Okayama; birthplace and Shonensanso are separate sites in Setouchi City.",
+      "excerpt": "located on Setouchi City",
+      "location": "Normalized readable-text characters 2282–2306"
+    },
+    {
+      "fact": "Main opening09:00–17:00,last entry16:30; Monday closure moves to following day after a holiday Monday.",
+      "excerpt": "9:00-17:00 (until 16:30)",
+      "location": "Normalized readable-text characters 3395–3419"
+    },
+    {
+      "fact": "Holiday Monday exception must be retained in both languages.",
+      "excerpt": "the next day is closed",
+      "location": "Normalized readable-text characters 3501–3523"
+    },
+    {
+      "fact": "Museum institution was founded1966; this is not asserted as construction date of the photographed main building.",
+      "excerpt": "in 1966",
+      "location": "Normalized readable-text characters 1869–1876"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "3af83e33cf7c034b96afddf5778c0c08fbf1e0cd6dd70dcd8aee39cb941f8141",
+  "responseBytes": 70694,
+  "archivedBytes": 70694,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-26T17:16:09.918Z",
+  "finalUrl": "https://yumeji-art-museum.com/english/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "3af83e33cf7c034b96afddf5778c0c08fbf1e0cd6dd70dcd8aee39cb941f8141",
+  "bytes": 70694,
+  "textSha256": "135bacbc5fb39c4747517dd86ba11c6530910e0fdf7befd27faefd775f528c4d",
+  "rawFile": "content/research/n26-ok-yumeji-operator.raw",
+  "textFile": "content/research/n26-ok-yumeji-operator.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:24:23.124600+00:00",
+  "notes": "Supporting passages actually read by Codex /root. Ordinary hours, last admission, office hours, religious use and exceptional calendars distinguished. Operator information preferred over conflicting translated/directory prices. Public source configuration strings are screened before saving, with original response digests and any archive transformations explicitly retained. No demand, ranking, safe-swimming or personal-visit claim."
+}

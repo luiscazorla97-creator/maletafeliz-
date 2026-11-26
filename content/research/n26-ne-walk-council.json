@@ -1,0 +1,58 @@
+{
+  "id": "n26-ne-walk-council",
+  "url": "https://www.nelson.govt.nz/5community/2recreation/cycling-and-walking/walking/places-of-interest",
+  "title": "Nelson City Council — places of interest walks",
+  "requestedAt": "2026-11-26T17:16:14.565Z",
+  "facts": [
+    {
+      "fact": "Cathedral stands on Church Hill and forms part of a city walking route.",
+      "excerpt": "cathedral stands proudly on Church Hill",
+      "location": "Normalized readable-text characters 6229–6268"
+    },
+    {
+      "fact": "Council records an earlier purpose-built Christ Church dedicated1851; not a construction date for the modern photographed cathedral.",
+      "excerpt": "14 December, 1851",
+      "location": "Normalized readable-text characters 6626–6643"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "1ad1b7eb5d8e993f6784e102455d59413856244b93896af1c1e1b320154800b0",
+  "responseBytes": 122876,
+  "archivedBytes": 122878,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-26T17:16:16.085Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-google-api-key",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "1ad1b7eb5d8e993f6784e102455d59413856244b93896af1c1e1b320154800b0",
+    "archivedContentSha256": "2c4a67eb03b6b22f56448d908313ed321801a81b987dbedf6aa2582d055f86ff",
+    "originalResponseBytes": 122876,
+    "archivedBytes": 122878,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-26T17:16:16.104Z",
+  "finalUrl": "https://www.nelson.govt.nz/5community/2recreation/cycling-and-walking/walking/places-of-interest",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "retryAfter": null,
+  "contentSha256": "2c4a67eb03b6b22f56448d908313ed321801a81b987dbedf6aa2582d055f86ff",
+  "bytes": 122878,
+  "textSha256": "f619036722b616670a15718f51409394724dcd23bf70b618302c0309d3e198c5",
+  "rawFile": "content/research/n26-ne-walk-council.raw",
+  "textFile": "content/research/n26-ne-walk-council.txt",
+  "success": true,
+  "readAt": "2026-11-26T17:24:23.124600+00:00",
+  "notes": "Supporting passages actually read by Codex /root. Ordinary hours, last admission, office hours, religious use and exceptional calendars distinguished. Operator information preferred over conflicting translated/directory prices. Public source configuration strings are screened before saving, with original response digests and any archive transformations explicitly retained. No demand, ranking, safe-swimming or personal-visit claim."
+}

@@ -2,13 +2,13 @@
   "id": "2026-11-26",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-26T17:10:07.144Z",
-  "status": "reserved-not-generated",
+  "status": "published",
   "topicIds": [
     "okayama",
     "nelson"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "ownedReservationAppend": {
     "executionId": "8b77ba4c-5ed9-41d8-85ef-22a35d29bc98",
@@ -29,13 +29,41 @@
     "baseCommit": "5082a5f0a7cbcf8f45d067a7488d02d7a71e4514",
     "owner": "Codex /root",
     "startedAt": "2026-11-26T17:07:13.371991+00:00",
-    "heartbeatAt": "2026-11-26T17:13:06.814270+00:00",
-    "leaseUntil": "2026-11-26T23:13:06.814270+00:00",
-    "status": "active"
+    "heartbeatAt": "2026-11-26T18:29:58.258Z",
+    "leaseUntil": "2026-11-26T18:29:58.258Z",
+    "status": "completed-verified",
+    "completedAt": "2026-11-26T18:29:58.258Z"
   },
   "dailyCensus": {
     "newYorkDate": "2026-11-26",
     "priorVerifiedOriginals": 0,
     "censusSha256": "fca0ab9336fdf345934067a41be8c05c9626640b12824b5e14c2854e4baf01f1"
-  }
+  },
+  "publishedTopicIds": [
+    "okayama",
+    "nelson"
+  ],
+  "verifiedTopicCount": 2,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 17,
+  "publishedCommit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+  "publiclyVerifiedAt": "2026-11-26T18:29:58.258Z",
+  "firstPublicationNewYorkDate": "2026-11-26",
+  "publicVerification": "editorial/verification/2026-11-26-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-okayama-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-nelson-nueva-zelanda-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-okayama-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-nelson-new-zealand-5-places/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "nelson",
+    "okayama"
+  ]
 }

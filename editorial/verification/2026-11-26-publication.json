@@ -1,0 +1,891 @@
+{
+  "schemaVersion": 1,
+  "failedSourceRequests": [],
+  "sourceAccessEvidence": {
+    "officialSourceReview": {
+      "checkedAt": "2026-11-26T17:26:46.519394+00:00",
+      "actualOfficialCaptures": 21,
+      "records": [
+        {
+          "id": "n26-ok-castle-history",
+          "url": "https://okayama-castle.jp/learn-history-en",
+          "finalUrl": "https://okayama-castle.jp/learn-history-en/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:21:49.503Z",
+          "readableCharacters": 2999,
+          "cited": true,
+          "recordSha256": "fbef1e497a46fcc5f18062249a902236bf2d4db511ef91694cd9831f49c168de"
+        },
+        {
+          "id": "n26-ok-kibitsu-operator",
+          "url": "https://www.kibitujinja.com/en/",
+          "finalUrl": "https://www.kibitujinja.com/en/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:16:08.673Z",
+          "readableCharacters": 2628,
+          "cited": true,
+          "recordSha256": "e0b3bda994e5769761baeae8709a19a62cec37b932b74b5c786e35111cf1aa65"
+        },
+        {
+          "id": "n26-ok-yumeji-operator",
+          "url": "https://yumeji-art-museum.com/english/",
+          "finalUrl": "https://yumeji-art-museum.com/english/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:16:09.918Z",
+          "readableCharacters": 3878,
+          "cited": true,
+          "recordSha256": "4a35f441b86190298260dd85590f0ec834ae4b8d08dd750e6dc9dd4e548047b6"
+        },
+        {
+          "id": "n26-ne-queens",
+          "url": "https://www.nelson.govt.nz/5community/2recreation/parks-and-open-spaces/2parks-and-reserves/see-nelson-city-parks-and-reserves/queens-garden",
+          "finalUrl": "https://www.nelson.govt.nz/5community/2recreation/parks-and-open-spaces/2parks-and-reserves/see-nelson-city-parks-and-reserves/queens-garden",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:14:12.693Z",
+          "readableCharacters": 8880,
+          "cited": true,
+          "recordSha256": "8eadd73961928011906b4fd02564e9c98cf6b6cf89c27869b6ab9e91d2613a25"
+        },
+        {
+          "id": "n26-ne-cathedral",
+          "url": "https://www.nelsoncathedral.nz/your-visit",
+          "finalUrl": "https://www.nelsoncathedral.nz/your-visit",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:16:13.374Z",
+          "readableCharacters": 1547,
+          "cited": true,
+          "recordSha256": "afd2dd364db18dbb7436f68e074624d8c8b064e79ac3b17d377cb99502bc3caa"
+        },
+        {
+          "id": "n26-ok-garden",
+          "url": "https://www.okayama-japan.jp/en/spot/10672",
+          "finalUrl": "https://www.okayama-japan.jp/en/spot/10672",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:14:06.599Z",
+          "readableCharacters": 4301,
+          "cited": true,
+          "recordSha256": "09828d7b53d467f0b86f8f0d0d462b52ace93a8c600963b848cf708377ff9059"
+        },
+        {
+          "id": "n26-ok-castle",
+          "url": "https://okayama-castle.jp/",
+          "finalUrl": "https://okayama-castle.jp/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:14:07.909Z",
+          "readableCharacters": 1596,
+          "cited": false,
+          "recordSha256": "09d26d166f2f8726a8d97172e2f8472f0ae03e2a77cb31f64384467a07615b44"
+        },
+        {
+          "id": "n26-ne-founders-tourism",
+          "url": "https://www.nelsontasman.nz/activities-day-trips/founders-heritage-park/",
+          "finalUrl": "https://www.nelsontasman.nz/activities-day-trips/founders-heritage-park/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:16:11.847Z",
+          "readableCharacters": 2596,
+          "cited": true,
+          "recordSha256": "fab97d7d79b85f218ca75105f478f006554e237b05230fd0a645bb74a471f152"
+        },
+        {
+          "id": "n26-ok-kibitsuhiko-pref",
+          "url": "https://www.okayama-japan.jp/en/spot/10623",
+          "finalUrl": "https://www.okayama-japan.jp/en/spot/10623",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:16:07.441Z",
+          "readableCharacters": 3048,
+          "cited": true,
+          "recordSha256": "d6934332b95265be3a964a74dedd6e3a2d6d60b79108bb6bbd768057f78d3b2f"
+        },
+        {
+          "id": "n26-ne-things",
+          "url": "https://www.nelsontasman.nz/explore/places-to-go/cities-towns/nelson-city/things-to-do-nelson-city/",
+          "finalUrl": "https://www.nelsontasman.nz/explore/places-to-go/cities-towns/nelson-city/things-to-do-nelson-city/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:14:15.098Z",
+          "readableCharacters": 5069,
+          "cited": true,
+          "recordSha256": "731bfba029a8319d36152de8018092faee748c72d02227338ded676ae64d7920"
+        },
+        {
+          "id": "n26-ne-cathedral-home",
+          "url": "https://www.nelsoncathedral.nz/",
+          "finalUrl": "https://www.nelsoncathedral.nz/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:16:14.564Z",
+          "readableCharacters": 1751,
+          "cited": false,
+          "recordSha256": "d503448c1fd73d9fa2671aee6073f8b1d461626d21b6f695b7557adf16048ba8"
+        },
+        {
+          "id": "n26-ne-founders",
+          "url": "https://venues.nelson.govt.nz/our-venues/founders-park/",
+          "finalUrl": "https://venues.nelson.govt.nz/our-venues/founders-park/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:14:14.669Z",
+          "readableCharacters": 0,
+          "cited": false,
+          "recordSha256": "d57be4be5aee58ce8d59c33c809b81051ac1e59a30b02bc65220ec57ad3e01ea"
+        },
+        {
+          "id": "n26-ne-beach",
+          "url": "https://www.nelsontasman.nz/scenic-attractions/tahunanui-beach/",
+          "finalUrl": "https://www.nelsontasman.nz/scenic-attractions/tahunanui-beach/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:16:11.089Z",
+          "readableCharacters": 2240,
+          "cited": true,
+          "recordSha256": "45f8b4d1c913bcb8bd52a35f1b798827e074ba286d5ea5abd0367711b31c9909"
+        },
+        {
+          "id": "n26-ok-castle-guide",
+          "url": "https://okayama-castle.jp/guide-en/",
+          "finalUrl": "https://okayama-castle.jp/guide-en/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:16:03.834Z",
+          "readableCharacters": 4890,
+          "cited": true,
+          "recordSha256": "ebf6322a3d87af191d9d9803a1954b466a752cd2edc01f733b4220ad3980bfda"
+        },
+        {
+          "id": "n26-ok-garden-admission",
+          "url": "https://okayama-korakuen.jp/section/english/info/index.html",
+          "finalUrl": "https://okayama-korakuen.jp/section/english/info/index.html",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:14:04.455Z",
+          "readableCharacters": 2884,
+          "cited": true,
+          "recordSha256": "53cc146652097cc25ba6db4262300e381d1a99f52a4167ecfb8f5f5c6c82953b"
+        },
+        {
+          "id": "n26-ok-castle-jnto",
+          "url": "https://www.japan.travel/en/spot/912/",
+          "finalUrl": "https://www.japan.travel/fr/spot/912/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:14:09.298Z",
+          "readableCharacters": 11895,
+          "cited": false,
+          "recordSha256": "837b3ec462b9670b554dcbf8b3dca585f3522124759fcb8857a34a213867cdbe"
+        },
+        {
+          "id": "n26-ok-kibitsu-pref",
+          "url": "https://www.okayama-japan.jp/en/spot/10624",
+          "finalUrl": "https://www.okayama-japan.jp/en/spot/10624",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:16:05.879Z",
+          "readableCharacters": 3753,
+          "cited": true,
+          "recordSha256": "14df8bc632e76ffe009c338d23d00925bf00bea45187f8c09bb389702ce93c44"
+        },
+        {
+          "id": "n26-ne-walk-council",
+          "url": "https://www.nelson.govt.nz/5community/2recreation/cycling-and-walking/walking/places-of-interest",
+          "finalUrl": "https://www.nelson.govt.nz/5community/2recreation/cycling-and-walking/walking/places-of-interest",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:16:16.104Z",
+          "readableCharacters": 18645,
+          "cited": true,
+          "recordSha256": "1fec8263054925add44f6d2d6d6ad74d1aa8080f64ddab924e91065ac0b9c8e4"
+        },
+        {
+          "id": "n26-ok-yumeji",
+          "url": "https://www.okayama-japan.jp/en/spot/10694",
+          "finalUrl": "https://www.okayama-japan.jp/en/spot/10694",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:14:11.004Z",
+          "readableCharacters": 4401,
+          "cited": true,
+          "recordSha256": "cd55cd3a9c2f069be886391a06d9253e4f5e384025676d1643dccbca0cb0cc1b"
+        },
+        {
+          "id": "n26-ne-centre",
+          "url": "https://www.nelsontasman.nz/scenic-attractions/centre-of-new-zealand/",
+          "finalUrl": "https://www.nelsontasman.nz/scenic-attractions/centre-of-new-zealand/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:16:10.657Z",
+          "readableCharacters": 2093,
+          "cited": true,
+          "recordSha256": "8814232a28f4ba9bcfe763aaf730975f33a679e17db253ba1bee90c4b550a154"
+        },
+        {
+          "id": "n26-ne-city",
+          "url": "https://www.nelsontasman.nz/explore/places-to-go/cities-towns/nelson-city/",
+          "finalUrl": "https://www.nelsontasman.nz/explore/places-to-go/cities-towns/nelson-city/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-26T17:14:13.621Z",
+          "readableCharacters": 11366,
+          "cited": true,
+          "recordSha256": "437f494b251b0dc6962d4f99c8caf82e5ae0ac3080406895f5616cdbae1971c7"
+        }
+      ],
+      "httpFailures": [],
+      "unusableHttp200": [
+        {
+          "id": "n26-ne-founders",
+          "reason": "HTTP200 app shell with zero readable content; not cited."
+        }
+      ],
+      "conflictingUncitedSources": [
+        {
+          "id": "n26-ok-castle-jnto",
+          "reason": "Actual final French URL claims free tower entry; current operator says500yen. No redirected-locale retry; source excluded."
+        }
+      ],
+      "sourceCaptureValuesNotFabricated": true,
+      "restrictionsOrWaitsBypassed": false,
+      "proofSha256": "1d51e19d1ad55bca34e1aecc5f85d5861f394bf48bf4847100c7b71e6758231e"
+    },
+    "limits": "All21officialcapturesreturnedHTTP200; one unreadable app shell and a conflicting redirected French tourism page were retained privately and not cited. No rate-limit failure or wait is asserted for this execution."
+  },
+  "sourceArchiveRedaction": {
+    "performedBeforeArchival": true,
+    "records": [
+      {
+        "id": "n26-ne-queens",
+        "originalResponseContentSha256": "234f215e4db88e9c3a410af8793ee90d655b756dc3abf302c603cca8a7a59f07",
+        "archivedContentSha256": "fe1797f3760c34caa7daa8d87adaadfcf9f1aaad285c084328d674e640b5c2d1",
+        "transformation": {
+          "performedAt": "2026-11-26T17:14:12.685Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-google-api-key",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "234f215e4db88e9c3a410af8793ee90d655b756dc3abf302c603cca8a7a59f07",
+          "archivedContentSha256": "fe1797f3760c34caa7daa8d87adaadfcf9f1aaad285c084328d674e640b5c2d1",
+          "originalResponseBytes": 87016,
+          "archivedBytes": 87018,
+          "noCredentialValuePrintedOrStored": true
+        }
+      },
+      {
+        "id": "n26-ne-walk-council",
+        "originalResponseContentSha256": "1ad1b7eb5d8e993f6784e102455d59413856244b93896af1c1e1b320154800b0",
+        "archivedContentSha256": "2c4a67eb03b6b22f56448d908313ed321801a81b987dbedf6aa2582d055f86ff",
+        "transformation": {
+          "performedAt": "2026-11-26T17:16:16.085Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-google-api-key",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "1ad1b7eb5d8e993f6784e102455d59413856244b93896af1c1e1b320154800b0",
+          "archivedContentSha256": "2c4a67eb03b6b22f56448d908313ed321801a81b987dbedf6aa2582d055f86ff",
+          "originalResponseBytes": 122876,
+          "archivedBytes": 122878,
+          "noCredentialValuePrintedOrStored": true
+        }
+      }
+    ],
+    "foreignOrReachableObjectsRemoved": 0,
+    "limits": "Credential-like embedded public configuration screened in memory before any raw response archive was written. Original response digests are distinct from sanitized archive digests. No credential values retained."
+  },
+  "sourceCredentialFormatScan": {
+    "checkedAt": "2026-11-26T17:46:52.649Z",
+    "success": true,
+    "selectedFiles": 169,
+    "formats": [
+      "public-mapbox-token",
+      "public-google-api-key",
+      "github-classic-token",
+      "github-fine-grained-token",
+      "openai-secret-format",
+      "aws-access-id-format"
+    ],
+    "proofSha256": "f818a0fe88c0d5faa91f10e3889282d377e176637fb0b64adac9b80b56008318",
+    "limits": "Pattern screen of precisely the selected source inventory. Does not establish absence of every possible secret format; no values are printed or stored."
+  },
+  "verifiedAt": "2026-11-26T18:29:58.258Z",
+  "commit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+  "sourceCommit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+  "batch": "2026-11-26",
+  "publicationDay": "2026-11-26",
+  "reservationDay": "2026-11-26",
+  "executionId": "8b77ba4c-5ed9-41d8-85ef-22a35d29bc98",
+  "timeZone": "America/New_York",
+  "firstPublicationNewYorkDate": "2026-11-26",
+  "status": "publicly-verified",
+  "originals": 2,
+  "newOriginals": 2,
+  "localizations": 4,
+  "publishedTopicIds": [
+    "okayama",
+    "nelson"
+  ],
+  "priorSameDayUniqueVerifiedOriginals": 0,
+  "sameDayUniqueVerifiedOriginalsAfter": 2,
+  "sameDayUniqueVerifiedTopicIds": [
+    "nelson",
+    "okayama"
+  ],
+  "authorization": {
+    "kind": "daily-two",
+    "priorVerifiedOriginalsToday": 0,
+    "priorVerifiedTopicIdsToday": [],
+    "authorizedTotalUniqueOriginalsToday": 2,
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false
+  },
+  "urls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-okayama-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-nelson-nueva-zelanda-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-okayama-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-nelson-new-zealand-5-places/"
+    ]
+  },
+  "globalOriginals": 255,
+  "globalLocalizations": 510,
+  "globalPhotos": 1092,
+  "globalCitedSourceRecords": 1370,
+  "photos": 10,
+  "newPhotoMetadataRecords": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 17,
+  "coverage": {
+    "countries": [
+      {
+        "countryId": "it",
+        "publishedOriginals": 33,
+        "localizedVersions": 66,
+        "targetOriginals": 30,
+        "missingOriginals": 0,
+        "excessOriginals": 3,
+        "articleIds": [
+          "amalfi-coast",
+          "assisi",
+          "bergamo",
+          "bologna",
+          "christmas-florence",
+          "christmas-milan",
+          "christmas-naples",
+          "christmas-rome",
+          "christmas-turin",
+          "christmas-venice",
+          "christmas-verona",
+          "ferrara",
+          "florence",
+          "florence-uffizi",
+          "lucca",
+          "mantua",
+          "milan",
+          "padua",
+          "palermo",
+          "parma",
+          "perugia",
+          "pisa",
+          "ravenna",
+          "rome",
+          "rome-colosseum-visit",
+          "salerno",
+          "siena",
+          "trento",
+          "trieste",
+          "venice",
+          "venice-vaporetto",
+          "verona",
+          "vicenza"
+        ]
+      },
+      {
+        "countryId": "jp",
+        "publishedOriginals": 29,
+        "localizedVersions": 58,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 4,
+        "articleIds": [
+          "christmas-fukuoka",
+          "christmas-osaka",
+          "christmas-sapporo",
+          "christmas-tokyo",
+          "christmas-yokohama",
+          "halloween-japan",
+          "himeji",
+          "hiroshima",
+          "kamakura",
+          "kanazawa",
+          "kobe",
+          "kurashiki",
+          "kyoto",
+          "kyoto-higashiyama-walk",
+          "matsumoto",
+          "mount-fuji",
+          "nagasaki",
+          "nagoya",
+          "nara",
+          "nara-day-trip-transport",
+          "nikko",
+          "okayama",
+          "osaka",
+          "sapporo",
+          "sendai",
+          "takamatsu",
+          "takayama",
+          "tokyo",
+          "tokyo-new-year-2027"
+        ]
+      },
+      {
+        "countryId": "mx",
+        "publishedOriginals": 27,
+        "localizedVersions": 54,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 2,
+        "articleIds": [
+          "aguascalientes",
+          "campeche",
+          "cancun",
+          "chapultepec-museums-day",
+          "cuernavaca",
+          "durango",
+          "guadalajara",
+          "guanajuato",
+          "leon-guanajuato",
+          "los-cabos",
+          "mexico-city",
+          "morelia",
+          "muertos-merida",
+          "muertos-mexico-city",
+          "muertos-mixquic",
+          "muertos-oaxaca",
+          "muertos-puebla",
+          "oaxaca",
+          "patzcuaro",
+          "puebla",
+          "queretaro",
+          "riviera-maya",
+          "san-cristobal-de-las-casas",
+          "san-luis-potosi",
+          "san-miguel-de-allende",
+          "veracruz",
+          "zacatecas"
+        ]
+      },
+      {
+        "countryId": "us",
+        "publishedOriginals": 26,
+        "localizedVersions": 52,
+        "targetOriginals": 20,
+        "missingOriginals": 0,
+        "excessOriginals": 6,
+        "articleIds": [
+          "buffalo",
+          "charleston",
+          "christmas-boston",
+          "christmas-chicago",
+          "christmas-los-angeles",
+          "christmas-miami",
+          "christmas-new-york",
+          "christmas-philadelphia",
+          "christmas-san-francisco",
+          "columbus",
+          "greenville-sc",
+          "halloween-usa",
+          "hawaii",
+          "hilo",
+          "las-vegas",
+          "las-vegas-new-year-2027",
+          "los-angeles",
+          "miami",
+          "new-orleans",
+          "new-york",
+          "new-york-new-year-2027",
+          "orlando",
+          "san-antonio",
+          "san-diego",
+          "savannah",
+          "washington-dc"
+        ]
+      }
+    ],
+    "priorityOriginals": 115,
+    "targetCappedOriginals": 100,
+    "missingToInitial100": 0,
+    "excessOriginals": 15
+  },
+  "tests": {
+    "local": {
+      "unit": 107,
+      "navigation": 28,
+      "productionFocused": 8,
+      "total": 143,
+      "wholeSuiteClaimed": false
+    },
+    "github": {
+      "runId": 45872949963,
+      "runUrl": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/45872949963",
+      "counts": {
+        "unit": 107,
+        "navigation": 28,
+        "production": 1080,
+        "total": 1215
+      },
+      "decodedLogSha256": "d2c7563cc1f72218b64968b07b00630c158f718aa14fe99499ecfa78b4947633"
+    }
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-26T18:16:10.060Z",
+    "commit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "6033480d-e9fa-4f8f-9bad-621ffd29f5c3",
+        "canonicalCommit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+        "deploymentId": "6033480d-e9fa-4f8f-9bad-621ffd29f5c3",
+        "commit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-26T18:15:10.659636Z",
+          "ended_on": "2026-11-26T18:15:21.132106Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-26T18:04:48.21073Z",
+            "ended_on": "2026-11-26T18:04:48.21594Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-26T18:04:48.21594Z",
+            "ended_on": "2026-11-26T18:04:49.730924Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-26T18:04:49.730924Z",
+            "ended_on": "2026-11-26T18:05:30.872626Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-26T18:05:30.872626Z",
+            "ended_on": "2026-11-26T18:15:10.659636Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-26T18:15:10.659636Z",
+            "ended_on": "2026-11-26T18:15:21.132106Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "5b43985c-ea6c-4a3e-9219-902b4a3f48c0",
+        "canonicalCommit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+        "deploymentId": "5b43985c-ea6c-4a3e-9219-902b4a3f48c0",
+        "commit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-26T18:05:34.071856Z",
+          "ended_on": "2026-11-26T18:05:39.926597Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-26T18:04:49.903446Z",
+            "ended_on": "2026-11-26T18:04:49.907221Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-26T18:04:49.907221Z",
+            "ended_on": "2026-11-26T18:04:51.474722Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-26T18:04:51.474722Z",
+            "ended_on": "2026-11-26T18:05:32.250229Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-26T18:05:32.250229Z",
+            "ended_on": "2026-11-26T18:05:34.071856Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-26T18:05:34.071856Z",
+            "ended_on": "2026-11-26T18:05:39.926597Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true,
+    "checkoutProof": {
+      "checkedAt": "2026-11-26T18:16:12.923Z",
+      "success": true,
+      "sourceCommit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+      "proofs": [
+        {
+          "checkedAt": "2026-11-26T18:16:10.060Z",
+          "project": "maletafeliz-web",
+          "deploymentId": "6033480d-e9fa-4f8f-9bad-621ffd29f5c3",
+          "commit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+          "entries": 1216,
+          "logSha256": "1e551b13bef730ffcb299eddfe2c16136c9b95af7ecc8a30abc81d4fb221b74d",
+          "releaseCommandPresent": true,
+          "checkoutMarkerPresent": true,
+          "builtPages": "1112"
+        },
+        {
+          "checkedAt": "2026-11-26T18:16:10.060Z",
+          "project": "maletafeliz-www",
+          "deploymentId": "5b43985c-ea6c-4a3e-9219-902b4a3f48c0",
+          "commit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+          "entries": 23,
+          "logSha256": "d33882e53b5f40e78c18a353aa06ad12ef1804d131a0a33c16ccfd42c694a414",
+          "releaseCommandPresent": false,
+          "checkoutMarkerPresent": true
+        }
+      ],
+      "method": "Actual Cloudflare build log HEAD marker, matching deployment full commit metadata and canonical production state. WWW is the existing redirect project, not an Astro build."
+    }
+  },
+  "https": {
+    "counts": {
+      "originalTopics": 2,
+      "localizedVersionsVerified": 4,
+      "photoFilesVerified": 50,
+      "searchVersionsVerified": 4,
+      "googlebotUaProbes": 6,
+      "actualHttpsRequests": 86,
+      "sitemapUrls": 1106
+    },
+    "sha256": "b0446bae25ebba828f0e875e78665bd00ce83033233d6e94aa03f3e59cd5e764"
+  },
+  "wholeSiteVerification": {
+    "sitemapUrls": 1106,
+    "guideVersions": 510,
+    "errors": 0,
+    "sha256": "022e9bc24ddff5d2fa02955e8f094418acc5f7d7531413f3a343cdf3b8af295d",
+    "run": {
+      "sourceCommit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+      "startedAt": "2026-11-26T18:17:00.848Z",
+      "finishedAt": "2026-11-26T18:17:40.684Z",
+      "exitCode": 0,
+      "outputSha256": "022e9bc24ddff5d2fa02955e8f094418acc5f7d7531413f3a343cdf3b8af295d",
+      "httpVerified": true,
+      "checkedRequests": 1116,
+      "sitemapUrls": 1106,
+      "guideVersions": 510
+    }
+  },
+  "browser": {
+    "flows": 8,
+    "screenshots": 14,
+    "sha256": "1b3aff707ededf8b006b7462ff1886c8352ba2b63efebc5e3a27e802be22351d",
+    "visualReview": {
+      "reviewedAt": "2026-11-26T18:17:40.928968+00:00",
+      "success": true,
+      "sourceCommit": "aa6067c7ee749c3f6e3740950b913c726bbd02ed",
+      "reviewer": "Codex /root — actual visual review of all five public contact sheets",
+      "contactSheets": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n26/public-contact-mobile-guides-es-1.jpg",
+          "sha256": "017bfd9715c615074ba5df71acb07060b6bccf2553b9a2844acb67e5c3ca889d",
+          "contains": [
+            "public-guide-okayama-es-390.png",
+            "public-guide-nelson-es-390.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n26/public-contact-desktop-guides-es-1.jpg",
+          "sha256": "a5c7ad52e0dbd463a755fcdc574dd8b36f71a53f41d32e27f1d15cf9692850d4",
+          "contains": [
+            "public-guide-okayama-es-1440.png",
+            "public-guide-nelson-es-1440.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n26/public-contact-mobile-guides-en-1.jpg",
+          "sha256": "b909b89962fd7e0a5e3b3ccb55fc9e092341471fedd9f44f7b39a7a70000c5b0",
+          "contains": [
+            "public-guide-okayama-en-390.png",
+            "public-guide-nelson-en-390.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n26/public-contact-desktop-guides-en-1.jpg",
+          "sha256": "9c7cc79816dd57b2326ffe7433cacfb5d54a709e29af62d5eb6c040c008cb236",
+          "contains": [
+            "public-guide-okayama-en-1440.png",
+            "public-guide-nelson-en-1440.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n26/public-contact-navigation.jpg",
+          "sha256": "1b8e067fff710219bf6db3e87454ec264e9a00b42d3d9302a8a3d70cb6ecdfec",
+          "contains": [
+            "public-functional-es-390-menu.png",
+            "public-functional-es-390-search.png",
+            "public-functional-es-1440-search.png",
+            "public-functional-en-390-menu.png",
+            "public-functional-en-390-search.png",
+            "public-functional-en-1440-search.png"
+          ],
+          "actuallyViewed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "public-functional-es-390-menu.png",
+          "sha256": "db6c538411fe46f7c8c132314833b249f26d75f78427f11b8cfd4885c5691f3d",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-390-search.png",
+          "sha256": "7eb8fa348a6ec2e09b8d6a512e6309b89c94fbcf672f47d10533188f54723390",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-okayama-es-390.png",
+          "sha256": "b1a7b94846261ba8fab8d3ac7c15e0ecdcb003ff81adcf52d52f621f81b4086a",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nelson-es-390.png",
+          "sha256": "7d736d8ba0e9b0f88cd1b6ccd184aeab870810ac712cc71e49202aa70046f24c",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-1440-search.png",
+          "sha256": "a251ec7a3418259f316f8c9b2c7cb886450b13856f8dcad744a3444c3825ff4c",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-okayama-es-1440.png",
+          "sha256": "a699b9b1e7fd49317af263b19b472a0ab8c90c78cd349b3ecc4743ec0d96872e",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nelson-es-1440.png",
+          "sha256": "c293407ee51f9bbaa07085d394323ca39b9a445a30331092f34793efa7a726cb",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-menu.png",
+          "sha256": "209a229bc56b56b3e677d2c30d6fdca36f73f9d90584d3a80843ae8e6ce20e74",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-search.png",
+          "sha256": "6f6fa6465d5e3d7e13cd1bb84504e68ead915f8c0a2290b8528bbf90ced953f6",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-okayama-en-390.png",
+          "sha256": "57c59836c4192fe03be8e7dae3bca72fd71164709bcf77e6728bc27f5513b521",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nelson-en-390.png",
+          "sha256": "05fc8a13b7fd638dbe5f0ef543ae47eb03fa9ad24fb21cc732f6cb89720c69f9",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-1440-search.png",
+          "sha256": "4c52fb949f7512c30b4f8904cc5fd300951347b2169dc715b8bc960f430b4853",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-okayama-en-1440.png",
+          "sha256": "93eeb7b42cad343595aaf8ec937ff788138729d58d4fc987fe37c91377041bde",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-nelson-en-1440.png",
+          "sha256": "faa2f3f4a04a4b6c58c0418120e6972407375deed1e38f4ae3055b982d2c65a4",
+          "actuallyViewedInContactSheet": true
+        }
+      ],
+      "observations": [
+        "Desktop and mobile guide headings readable without horizontal overflow; 3D logo remains proportionate and separate from language/menu controls.",
+        "Okayama and Nelson covers render correctly in ES and EN; existing typography, navy header and advertising slots retained.",
+        "ES/EN mobile menus and reactive Okayama search results visually checked; automated eight flows also checked both destinations and reciprocal language navigation."
+      ],
+      "limits": "Visual review of the actual viewport screenshots in contact sheets, combined with native browser content/image/overflow checks. Advertising providers isolated and Analytics denied during browser QA; no ad-fill, PageSpeed, Google indexing or ranking result claimed."
+    }
+  },
+  "editorialIntegrationSha256": "80ee7d9d77cb6d242dde746771a62013d918d2aabf4173c88989538ad4f09d87",
+  "preservationSha256": "8c13856e105ae7d16998f659f952c1a4deaa1f8bd8bacab5a93a09d054e00927",
+  "reservation": {
+    "commit": "917b74a2c423145a000a0ac8066b9de42d66fdca",
+    "createdAt": "2026-11-26T17:10:07.144Z",
+    "nativeReservationInvocationClaimed": true,
+    "nativeCommand": [
+      "npm",
+      "run",
+      "editorial:batch",
+      "--",
+      "2"
+    ],
+    "nativeInvocationSha256": "aeb200b0fa5f0e48af8a0fd77f715a81627845cef45fdb3061613b7a963ef7f5",
+    "nativeExclusiveDailyBatchCreated": true,
+    "nativeReturnedTopicIds": [
+      "okayama"
+    ],
+    "ownedAppendedTopicIds": [
+      "nelson"
+    ],
+    "ownedAppend": {
+      "executionId": "8b77ba4c-5ed9-41d8-85ef-22a35d29bc98",
+      "appendedAt": "2026-11-26T17:13:06.814270+00:00",
+      "originalNativeTopicIds": [
+        "okayama"
+      ],
+      "appendedTopicIds": [
+        "nelson"
+      ],
+      "originalNativeBatchSha256": "7142191a06debc0728ee5cef9ce7ea98476d1d3ebd3f02743bc082ead6db997a",
+      "reason": "Current owner explicitly requests progressive worldwide rotation. Native enabled priority-country selector returned only Okayama; append Nelson to this same newly created, still unpublished, owned reservation. Existing Okayama reservation and all original native fields remain intact; only topicIds is extended. Selector, schedules and foreign reservations unchanged.",
+      "nativeSelectorChanged": false,
+      "foreignReservationsOverwritten": false
+    },
+    "ownedAppendProofSha256": "d83e563e21beff43b1710655ff89e1ef2e8dde6c790a970994a663bad6213b55",
+    "originalNativeBatchSha256": "7142191a06debc0728ee5cef9ce7ea98476d1d3ebd3f02743bc082ead6db997a",
+    "manualExclusiveAggregate": false
+  },
+  "googleIndexationVerified": false,
+  "schedulerAttributionVerified": false,
+  "dailyScheduleTargetUnchanged": 2,
+  "notes": "Daily execution of two new originals after a complete initial census of zero first-published-and-verified originals today. Existing manual batches, histories and daily schedule are retained. SEO preparation does not establish Google indexing, viral demand, rankings or advertising income."
+}

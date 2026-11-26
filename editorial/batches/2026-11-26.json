@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-26",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-26T17:10:07.144Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "okayama",
+    "nelson"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "ownedReservationAppend": {
+    "executionId": "8b77ba4c-5ed9-41d8-85ef-22a35d29bc98",
+    "appendedAt": "2026-11-26T17:13:06.814270+00:00",
+    "originalNativeTopicIds": [
+      "okayama"
+    ],
+    "appendedTopicIds": [
+      "nelson"
+    ],
+    "originalNativeBatchSha256": "7142191a06debc0728ee5cef9ce7ea98476d1d3ebd3f02743bc082ead6db997a",
+    "reason": "Current owner explicitly requests progressive worldwide rotation. Native enabled priority-country selector returned only Okayama; append Nelson to this same newly created, still unpublished, owned reservation. Existing Okayama reservation and all original native fields remain intact; only topicIds is extended. Selector, schedules and foreign reservations unchanged.",
+    "nativeSelectorChanged": false,
+    "foreignReservationsOverwritten": false
+  },
+  "execution": {
+    "executionId": "8b77ba4c-5ed9-41d8-85ef-22a35d29bc98",
+    "baseCommit": "5082a5f0a7cbcf8f45d067a7488d02d7a71e4514",
+    "owner": "Codex /root",
+    "startedAt": "2026-11-26T17:07:13.371991+00:00",
+    "heartbeatAt": "2026-11-26T17:13:06.814270+00:00",
+    "leaseUntil": "2026-11-26T23:13:06.814270+00:00",
+    "status": "active"
+  },
+  "dailyCensus": {
+    "newYorkDate": "2026-11-26",
+    "priorVerifiedOriginals": 0,
+    "censusSha256": "fca0ab9336fdf345934067a41be8c05c9626640b12824b5e14c2854e4baf01f1"
+  }
+}

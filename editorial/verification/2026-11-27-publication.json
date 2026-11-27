@@ -1,0 +1,900 @@
+{
+  "schemaVersion": 1,
+  "nativeValidationCorrection": {
+    "initialPreviewFailed": true,
+    "reason": "HTTP CC0 deed link normalized to the actually read HTTPS deed; no native gate lowered, original failure retained privately; final native gates rerun."
+  },
+  "failedSourceRequests": [],
+  "sourceAccessEvidence": {
+    "officialSourceReview": {
+      "checkedAt": "2026-11-27T17:14:42.427659+00:00",
+      "actualOfficialCaptures": 18,
+      "records": [
+        {
+          "id": "n27-st-reserve",
+          "url": "https://www.capenature.co.za/reserves/jonkershoek-nature-reserve",
+          "finalUrl": "https://www.capenature.co.za/reserves/jonkershoek-nature-reserve",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:10:03.386Z",
+          "cited": true
+        },
+        {
+          "id": "n27-st-museum-home",
+          "url": "https://stelmus.co.za/",
+          "finalUrl": "https://stelmus.co.za/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:10:01.124Z",
+          "cited": true
+        },
+        {
+          "id": "n27-st-street",
+          "url": "https://members.visitstellenbosch.org/2024/11/18/stellenbosch-shopping-a-treasure-trove-of-unique-finds/",
+          "finalUrl": "https://members.visitstellenbosch.org/2024/11/18/stellenbosch-shopping-a-treasure-trove-of-unique-finds/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:11:23.835Z",
+          "cited": false
+        },
+        {
+          "id": "n27-br-roman",
+          "url": "https://www.bresciamusei.com/en/museums-and-venues/brixia-roman-archaeological-area/",
+          "finalUrl": "https://www.bresciamusei.com/en/museums-and-venues/brixia-roman-archaeological-area/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:09:54.071Z",
+          "cited": true
+        },
+        {
+          "id": "n27-st-village",
+          "url": "https://stelmus.co.za/village-museum/",
+          "finalUrl": "https://stelmus.co.za/village-museum/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:09:59.087Z",
+          "cited": true
+        },
+        {
+          "id": "n27-br-loggia",
+          "url": "https://www.visitbrescia.it/en/activity/piazza-loggia/",
+          "finalUrl": "https://www.visitbrescia.it/en/activity/piazza-loggia/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:11:21.670Z",
+          "cited": true
+        },
+        {
+          "id": "n27-st-guide",
+          "url": "https://www.capetown.travel/your-neighbourhood-guide-to-stellenbosch/",
+          "finalUrl": "https://www.capetown.travel/your-neighbourhood-guide-to-stellenbosch/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:11:38.700Z",
+          "cited": true
+        },
+        {
+          "id": "n27-st-garden",
+          "url": "https://www.su.ac.za/en/visitors/outdoor/botanical-garden/visit-us",
+          "finalUrl": "https://www.su.ac.za/en/visitors/outdoor/botanical-garden/visit-us",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:10:02.462Z",
+          "cited": true
+        },
+        {
+          "id": "n27-st-hiking",
+          "url": "https://www.capenature.co.za/activities/walking-and-hiking-jonkershoek-nature-reserve",
+          "finalUrl": "https://www.capenature.co.za/activities/walking-and-hiking-jonkershoek-nature-reserve",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:10:03.642Z",
+          "cited": false
+        },
+        {
+          "id": "n27-br-duomo",
+          "url": "https://www.visitbrescia.it/en/activity/duomo-nuovo-and-duomo-vecchio/",
+          "finalUrl": "https://www.visitbrescia.it/en/activity/duomo-nuovo-and-duomo-vecchio/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:09:56.356Z",
+          "cited": true
+        },
+        {
+          "id": "n27-br-castle",
+          "url": "https://www.bresciamusei.com/en/museums-and-venues/the-castle/",
+          "finalUrl": "https://www.bresciamusei.com/en/museums-and-venues/the-castle/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:09:54.927Z",
+          "cited": true
+        },
+        {
+          "id": "n27-br-santagiulia",
+          "url": "https://www.visitbrescia.it/en/activity/santa-giulia-museum/",
+          "finalUrl": "https://www.visitbrescia.it/en/activity/santa-giulia-museum/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:09:55.739Z",
+          "cited": true
+        },
+        {
+          "id": "n27-st-church",
+          "url": "https://moederkerk.co.za/",
+          "finalUrl": "https://moederkerk.co.za/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:11:35.234Z",
+          "cited": true
+        },
+        {
+          "id": "n27-br-visit",
+          "url": "https://www.bresciamusei.com/en/visit/",
+          "finalUrl": "https://www.bresciamusei.com/en/visit/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:09:54.641Z",
+          "cited": true
+        },
+        {
+          "id": "n27-st-rupert",
+          "url": "https://rupertmuseum.org/contact/",
+          "finalUrl": "https://rupertmuseum.org/contact/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:10:03.880Z",
+          "cited": false
+        },
+        {
+          "id": "n27-st-history",
+          "url": "https://moederkerk.co.za/wie-is-ons/geskiedenis/",
+          "finalUrl": "https://moederkerk.co.za/wie-is-ons/geskiedenis/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:12:36.259Z",
+          "cited": true
+        },
+        {
+          "id": "n27-br-overview",
+          "url": "https://www.visitbrescia.it/en/activity/12-things-to-see-in-brescia/",
+          "finalUrl": "https://www.visitbrescia.it/en/activity/12-things-to-see-in-brescia/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:09:53.418Z",
+          "cited": true
+        },
+        {
+          "id": "n27-st-dorp",
+          "url": "https://www.capetown.travel/neighbourhood/stellenbosch/",
+          "finalUrl": "https://www.capetown.travel/neighbourhood/stellenbosch/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-27T17:10:07.431Z",
+          "cited": false
+        }
+      ],
+      "httpFailures": [],
+      "unusableHttp200": [],
+      "conflictingUncitedSources": [],
+      "sourceCaptureValuesNotFabricated": true,
+      "restrictionsOrWaitsBypassed": false,
+      "proofSha256": "dca53b4402fc615e87fc6d0eb715f6f1656fd4bedf62762f19ec767c40597830"
+    },
+    "limits": "Actual capture review: all responses200, unused Rupert and generic sources not cited. No rate limit or wait claim"
+  },
+  "sourceArchiveRedaction": {
+    "performedBeforeArchival": true,
+    "records": [
+      {
+        "id": "n27-br-duomo",
+        "originalResponseContentSha256": "79609053f2032f48d51e91fc6b167ba0156ee83aeea9928d93c1996d788c0235",
+        "archivedContentSha256": "5ac350914f6bfa22b08a5c5bad6cd76b0a9ce6b82f533c88234bcdbb36b5545a",
+        "transformation": {
+          "performedAt": "2026-11-27T17:09:56.348Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-google-api-key",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "79609053f2032f48d51e91fc6b167ba0156ee83aeea9928d93c1996d788c0235",
+          "archivedContentSha256": "5ac350914f6bfa22b08a5c5bad6cd76b0a9ce6b82f533c88234bcdbb36b5545a",
+          "originalResponseBytes": 174814,
+          "archivedBytes": 174816,
+          "noCredentialValuePrintedOrStored": true
+        }
+      },
+      {
+        "id": "n27-br-loggia",
+        "originalResponseContentSha256": "1be2f32a66fea3124b5f8692edfe5b8cda8d273991e2f81500c4f031dded5059",
+        "archivedContentSha256": "6cd9ed7a41713294ff8d5ce0237f00781e40df423a6abc140ab506fcf860716e",
+        "transformation": {
+          "performedAt": "2026-11-27T17:11:21.642Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-google-api-key",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "1be2f32a66fea3124b5f8692edfe5b8cda8d273991e2f81500c4f031dded5059",
+          "archivedContentSha256": "6cd9ed7a41713294ff8d5ce0237f00781e40df423a6abc140ab506fcf860716e",
+          "originalResponseBytes": 164407,
+          "archivedBytes": 164409,
+          "noCredentialValuePrintedOrStored": true
+        }
+      },
+      {
+        "id": "n27-br-overview",
+        "originalResponseContentSha256": "8b011bfc5e3893ada88b84fcbfdab116b26089c710a8e8f8264fddcce74e9541",
+        "archivedContentSha256": "c49da7f4e8fdba712138a1ef6bd9478e0ba9769c4ac411c57ea4d537c27fc30a",
+        "transformation": {
+          "performedAt": "2026-11-27T17:09:53.374Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-google-api-key",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "8b011bfc5e3893ada88b84fcbfdab116b26089c710a8e8f8264fddcce74e9541",
+          "archivedContentSha256": "c49da7f4e8fdba712138a1ef6bd9478e0ba9769c4ac411c57ea4d537c27fc30a",
+          "originalResponseBytes": 193394,
+          "archivedBytes": 193396,
+          "noCredentialValuePrintedOrStored": true
+        }
+      },
+      {
+        "id": "n27-br-santagiulia",
+        "originalResponseContentSha256": "e5252ee7fb98a21f7c151d806d39fe8fa15c8910e172fab5331d56bcbda02e64",
+        "archivedContentSha256": "03d831f8b3d2ec2622d87ce8de97ce8220ed5e88413227bf52e1f280d73b801f",
+        "transformation": {
+          "performedAt": "2026-11-27T17:09:55.717Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-google-api-key",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "e5252ee7fb98a21f7c151d806d39fe8fa15c8910e172fab5331d56bcbda02e64",
+          "archivedContentSha256": "03d831f8b3d2ec2622d87ce8de97ce8220ed5e88413227bf52e1f280d73b801f",
+          "originalResponseBytes": 171142,
+          "archivedBytes": 171144,
+          "noCredentialValuePrintedOrStored": true
+        }
+      },
+      {
+        "id": "n27-st-guide",
+        "originalResponseContentSha256": "cacda40b9c0d3df4b45de971e28f7f15cefcdef73723579bd746fcb11bef0ca9",
+        "archivedContentSha256": "68a82ae95cceca66dddaf93f16065a7efa7a36121bf4f1d5564567c71478c149",
+        "transformation": {
+          "performedAt": "2026-11-27T17:11:38.655Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-google-api-key",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "cacda40b9c0d3df4b45de971e28f7f15cefcdef73723579bd746fcb11bef0ca9",
+          "archivedContentSha256": "68a82ae95cceca66dddaf93f16065a7efa7a36121bf4f1d5564567c71478c149",
+          "originalResponseBytes": 446217,
+          "archivedBytes": 446219,
+          "noCredentialValuePrintedOrStored": true
+        }
+      },
+      {
+        "id": "n27-st-reserve",
+        "originalResponseContentSha256": "cc658557dbd4b69af3c0da7f8bfa49b07adb735fc8508b628cc4ac3ffe5d8131",
+        "archivedContentSha256": "e6b51cf8e9b03b80592d83af886633b2e3cf7fe36dab6f05eba9caa7434278a9",
+        "transformation": {
+          "performedAt": "2026-11-27T17:10:03.374Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-mapbox-token",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "cc658557dbd4b69af3c0da7f8bfa49b07adb735fc8508b628cc4ac3ffe5d8131",
+          "archivedContentSha256": "e6b51cf8e9b03b80592d83af886633b2e3cf7fe36dab6f05eba9caa7434278a9",
+          "originalResponseBytes": 164466,
+          "archivedBytes": 164417,
+          "noCredentialValuePrintedOrStored": true
+        }
+      }
+    ],
+    "foreignOrReachableObjectsRemoved": 0,
+    "limits": "Credential-like embedded public configuration screened in memory before any raw response archive was written. Original response digests are distinct from sanitized archive digests. No credential values retained."
+  },
+  "sourceCredentialFormatScan": {
+    "checkedAt": "2026-11-27T17:26:56.911Z",
+    "success": true,
+    "selectedFiles": 157,
+    "formats": [
+      "public-mapbox-token",
+      "public-google-api-key",
+      "github-classic-token",
+      "github-fine-grained-token",
+      "openai-secret-format",
+      "aws-access-id-format"
+    ],
+    "proofSha256": "2e32a537342d29f0598e114a16ac8e83fb7774b8409a74ce7c3dd6a4ee90b119",
+    "limits": "Pattern screen of precisely the selected source inventory. Does not establish absence of every possible secret format; no values are printed or stored."
+  },
+  "verifiedAt": "2026-11-27T18:19:49.657Z",
+  "commit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+  "sourceCommit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+  "batch": "2026-11-27",
+  "publicationDay": "2026-11-27",
+  "reservationDay": "2026-11-27",
+  "executionId": "ba64ada6-45c0-411f-a8f9-a58aa6ab4d9e",
+  "timeZone": "America/New_York",
+  "firstPublicationNewYorkDate": "2026-11-27",
+  "status": "publicly-verified",
+  "originals": 2,
+  "newOriginals": 2,
+  "localizations": 4,
+  "publishedTopicIds": [
+    "brescia",
+    "stellenbosch"
+  ],
+  "priorSameDayUniqueVerifiedOriginals": 0,
+  "sameDayUniqueVerifiedOriginalsAfter": 2,
+  "sameDayUniqueVerifiedTopicIds": [
+    "brescia",
+    "stellenbosch"
+  ],
+  "authorization": {
+    "kind": "daily-two",
+    "priorVerifiedOriginalsToday": 0,
+    "priorVerifiedTopicIdsToday": [],
+    "authorizedTotalUniqueOriginalsToday": 2,
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false
+  },
+  "urls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-brescia-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-stellenbosch-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-brescia-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-stellenbosch-5-places/"
+    ]
+  },
+  "globalOriginals": 257,
+  "globalLocalizations": 514,
+  "globalPhotos": 1102,
+  "globalCitedSourceRecords": 1384,
+  "photos": 10,
+  "newPhotoMetadataRecords": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 14,
+  "coverage": {
+    "countries": [
+      {
+        "countryId": "it",
+        "publishedOriginals": 34,
+        "localizedVersions": 68,
+        "targetOriginals": 30,
+        "missingOriginals": 0,
+        "excessOriginals": 4,
+        "articleIds": [
+          "amalfi-coast",
+          "assisi",
+          "bergamo",
+          "bologna",
+          "brescia",
+          "christmas-florence",
+          "christmas-milan",
+          "christmas-naples",
+          "christmas-rome",
+          "christmas-turin",
+          "christmas-venice",
+          "christmas-verona",
+          "ferrara",
+          "florence",
+          "florence-uffizi",
+          "lucca",
+          "mantua",
+          "milan",
+          "padua",
+          "palermo",
+          "parma",
+          "perugia",
+          "pisa",
+          "ravenna",
+          "rome",
+          "rome-colosseum-visit",
+          "salerno",
+          "siena",
+          "trento",
+          "trieste",
+          "venice",
+          "venice-vaporetto",
+          "verona",
+          "vicenza"
+        ]
+      },
+      {
+        "countryId": "jp",
+        "publishedOriginals": 29,
+        "localizedVersions": 58,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 4,
+        "articleIds": [
+          "christmas-fukuoka",
+          "christmas-osaka",
+          "christmas-sapporo",
+          "christmas-tokyo",
+          "christmas-yokohama",
+          "halloween-japan",
+          "himeji",
+          "hiroshima",
+          "kamakura",
+          "kanazawa",
+          "kobe",
+          "kurashiki",
+          "kyoto",
+          "kyoto-higashiyama-walk",
+          "matsumoto",
+          "mount-fuji",
+          "nagasaki",
+          "nagoya",
+          "nara",
+          "nara-day-trip-transport",
+          "nikko",
+          "okayama",
+          "osaka",
+          "sapporo",
+          "sendai",
+          "takamatsu",
+          "takayama",
+          "tokyo",
+          "tokyo-new-year-2027"
+        ]
+      },
+      {
+        "countryId": "mx",
+        "publishedOriginals": 27,
+        "localizedVersions": 54,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 2,
+        "articleIds": [
+          "aguascalientes",
+          "campeche",
+          "cancun",
+          "chapultepec-museums-day",
+          "cuernavaca",
+          "durango",
+          "guadalajara",
+          "guanajuato",
+          "leon-guanajuato",
+          "los-cabos",
+          "mexico-city",
+          "morelia",
+          "muertos-merida",
+          "muertos-mexico-city",
+          "muertos-mixquic",
+          "muertos-oaxaca",
+          "muertos-puebla",
+          "oaxaca",
+          "patzcuaro",
+          "puebla",
+          "queretaro",
+          "riviera-maya",
+          "san-cristobal-de-las-casas",
+          "san-luis-potosi",
+          "san-miguel-de-allende",
+          "veracruz",
+          "zacatecas"
+        ]
+      },
+      {
+        "countryId": "us",
+        "publishedOriginals": 26,
+        "localizedVersions": 52,
+        "targetOriginals": 20,
+        "missingOriginals": 0,
+        "excessOriginals": 6,
+        "articleIds": [
+          "buffalo",
+          "charleston",
+          "christmas-boston",
+          "christmas-chicago",
+          "christmas-los-angeles",
+          "christmas-miami",
+          "christmas-new-york",
+          "christmas-philadelphia",
+          "christmas-san-francisco",
+          "columbus",
+          "greenville-sc",
+          "halloween-usa",
+          "hawaii",
+          "hilo",
+          "las-vegas",
+          "las-vegas-new-year-2027",
+          "los-angeles",
+          "miami",
+          "new-orleans",
+          "new-york",
+          "new-york-new-year-2027",
+          "orlando",
+          "san-antonio",
+          "san-diego",
+          "savannah",
+          "washington-dc"
+        ]
+      }
+    ],
+    "priorityOriginals": 116,
+    "targetCappedOriginals": 100,
+    "missingToInitial100": 0,
+    "excessOriginals": 16
+  },
+  "tests": {
+    "local": {
+      "unit": 107,
+      "navigation": 28,
+      "productionFocused": 8,
+      "total": 143,
+      "wholeSuiteClaimed": false
+    },
+    "github": {
+      "runId": 46044345343,
+      "runUrl": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/46044345343",
+      "counts": {
+        "unit": 107,
+        "navigation": 28,
+        "production": 1088,
+        "total": 1223
+      },
+      "decodedLogSha256": "cb9d9f10b76f62e549768e0bf34ea14be07d37f641b358586f592f601c9bb05e"
+    }
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-27T17:57:13.495Z",
+    "commit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "55dc4f54-a24e-4912-900e-8497ac4aa433",
+        "canonicalCommit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+        "deploymentId": "55dc4f54-a24e-4912-900e-8497ac4aa433",
+        "commit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-27T17:56:48.860834Z",
+          "ended_on": "2026-11-27T17:56:59.939078Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-27T17:45:56.885079Z",
+            "ended_on": "2026-11-27T17:45:56.886406Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-27T17:45:56.886406Z",
+            "ended_on": "2026-11-27T17:45:58.618364Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-27T17:45:58.618364Z",
+            "ended_on": "2026-11-27T17:46:43.498385Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-27T17:46:43.498385Z",
+            "ended_on": "2026-11-27T17:56:48.860834Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-27T17:56:48.860834Z",
+            "ended_on": "2026-11-27T17:56:59.939078Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "31846354-260e-4d72-b60a-3573c4d7f77c",
+        "canonicalCommit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+        "deploymentId": "31846354-260e-4d72-b60a-3573c4d7f77c",
+        "commit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-27T17:46:42.883981Z",
+          "ended_on": "2026-11-27T17:46:47.754551Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-27T17:45:58.46868Z",
+            "ended_on": "2026-11-27T17:45:58.473798Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-27T17:45:58.473798Z",
+            "ended_on": "2026-11-27T17:46:00.020332Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-27T17:46:00.020332Z",
+            "ended_on": "2026-11-27T17:46:40.478146Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-27T17:46:40.478146Z",
+            "ended_on": "2026-11-27T17:46:42.883981Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-27T17:46:42.883981Z",
+            "ended_on": "2026-11-27T17:46:47.754551Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true,
+    "checkoutProof": {
+      "checkedAt": "2026-11-27T17:57:16.178Z",
+      "success": true,
+      "sourceCommit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+      "proofs": [
+        {
+          "checkedAt": "2026-11-27T17:57:13.495Z",
+          "project": "maletafeliz-web",
+          "deploymentId": "55dc4f54-a24e-4912-900e-8497ac4aa433",
+          "commit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+          "entries": 1224,
+          "logSha256": "8f4743a82d863fdd7a7f579f3612d5024522774e742f84478fad13218214340b",
+          "releaseCommandPresent": true,
+          "checkoutMarkerPresent": true,
+          "builtPages": "1120"
+        },
+        {
+          "checkedAt": "2026-11-27T17:57:13.495Z",
+          "project": "maletafeliz-www",
+          "deploymentId": "31846354-260e-4d72-b60a-3573c4d7f77c",
+          "commit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+          "entries": 23,
+          "logSha256": "07417830257d98e0389dc50c17191782a3f480be19d74b6334620ee4970008d3",
+          "releaseCommandPresent": false,
+          "checkoutMarkerPresent": true
+        }
+      ],
+      "method": "Actual Cloudflare build log HEAD marker, matching deployment full commit metadata and canonical production state. WWW is the existing redirect project, not an Astro build."
+    }
+  },
+  "https": {
+    "counts": {
+      "originalTopics": 2,
+      "localizedVersionsVerified": 4,
+      "photoFilesVerified": 50,
+      "searchVersionsVerified": 4,
+      "googlebotUaProbes": 6,
+      "actualHttpsRequests": 86,
+      "sitemapUrls": 1114
+    },
+    "sha256": "a61e182ac0aa8aba72f62c3c3300a180ab120b7bda53d93f3b7c53f5c7fb27c4"
+  },
+  "wholeSiteVerification": {
+    "sitemapUrls": 1114,
+    "guideVersions": 514,
+    "errors": 0,
+    "sha256": "6ee77e40a970721201887b2b17644fc4adfc8ec968b36b11143fd9d2ade0722d",
+    "run": {
+      "sourceCommit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+      "startedAt": "2026-11-27T17:58:05.864Z",
+      "finishedAt": "2026-11-27T17:58:53.552Z",
+      "exitCode": 0,
+      "outputSha256": "6ee77e40a970721201887b2b17644fc4adfc8ec968b36b11143fd9d2ade0722d",
+      "httpVerified": true,
+      "checkedRequests": 1124,
+      "sitemapUrls": 1114,
+      "guideVersions": 514
+    }
+  },
+  "browser": {
+    "flows": 8,
+    "screenshots": 14,
+    "sha256": "b621b9ea27dcc9bf23dc8669904b354652dc32444b040a37319156e7b5565e3b",
+    "visualReview": {
+      "reviewedAt": "2026-11-27T17:59:50.870291+00:00",
+      "success": true,
+      "sourceCommit": "78f89689cfb98181cfbb427d63952c30e33f9ea1",
+      "reviewer": "Codex /root — actual visual review of all five public contact sheets",
+      "contactSheets": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n27/public-contact-mobile-guides-es-1.jpg",
+          "sha256": "cac3512e2bd747ee70e2823f00f8060daaf720e195d83feb48aa3b29addcdc6b",
+          "contains": [
+            "public-guide-brescia-es-390.png",
+            "public-guide-stellenbosch-es-390.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n27/public-contact-desktop-guides-es-1.jpg",
+          "sha256": "db2094c4f90fd8ffbcfeb75e15e3bce79ad0fa48785b9188909d42adfc3af5a6",
+          "contains": [
+            "public-guide-brescia-es-1440.png",
+            "public-guide-stellenbosch-es-1440.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n27/public-contact-mobile-guides-en-1.jpg",
+          "sha256": "4038d996996e9d4388a5a8e31dd22ffeec5c5af0a01314d714714ab1c6ceaef5",
+          "contains": [
+            "public-guide-brescia-en-390.png",
+            "public-guide-stellenbosch-en-390.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n27/public-contact-desktop-guides-en-1.jpg",
+          "sha256": "79f0c92b7ec300b96be6df58518731a33e33cfe9f966ae4cddaec05ff2787905",
+          "contains": [
+            "public-guide-brescia-en-1440.png",
+            "public-guide-stellenbosch-en-1440.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n27/public-contact-navigation.jpg",
+          "sha256": "a7a5b760c6de4d976c0b87111275907256218de6a78a54f9a0c8cde102b0c597",
+          "contains": [
+            "public-functional-es-390-menu.png",
+            "public-functional-es-390-search.png",
+            "public-functional-es-1440-search.png",
+            "public-functional-en-390-menu.png",
+            "public-functional-en-390-search.png",
+            "public-functional-en-1440-search.png"
+          ],
+          "actuallyViewed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "public-functional-es-390-menu.png",
+          "sha256": "7a04ffb50571a7d10e886050f3bac819e36e696a272b6eae02e0bc9469f9dfeb",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-390-search.png",
+          "sha256": "7c8eecc1549dfca4d28e726e965be1438986db7ee12c33f3db992280b99108e9",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-brescia-es-390.png",
+          "sha256": "4d2bab95d7f1dd9cae868723a757d7a13c42ba664a69c4f44b8e325edb4b49f7",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-stellenbosch-es-390.png",
+          "sha256": "adc497685d187ce4f4d5b80066d2638b4ba6b10b8bdfd995a17bf69b82e8ddc5",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-1440-search.png",
+          "sha256": "61aeeb33f371b4e342f2c792fd83699b0f2c3d358e5889a2f5bb09602a4fa691",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-brescia-es-1440.png",
+          "sha256": "1ba9f45aec4d2432175a968122a8b1344a3949a9e412930f54cde2bb6f0a8310",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-stellenbosch-es-1440.png",
+          "sha256": "aca0eff3791d831fcc291b5a5bc98d5af6a32ed299f676e26d12798106de357b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-menu.png",
+          "sha256": "209a229bc56b56b3e677d2c30d6fdca36f73f9d90584d3a80843ae8e6ce20e74",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-search.png",
+          "sha256": "5fcc0b6d3f11d14fdeaa72eea8b050fec4b90f288ac4d4e892989ee25a581018",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-brescia-en-390.png",
+          "sha256": "f4fd1705bcef0cfa13e51566fd2ab974de971f7233ac7a7265d5647fa8c7810c",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-stellenbosch-en-390.png",
+          "sha256": "ae4ae1b588a046794ba1eff8e0bb2ff6df0de4363c3bb5016e2bb91345440b17",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-1440-search.png",
+          "sha256": "bc2f20a3429c6521667eabbef0d0fc9486379cc7b87ce4f314d8f04fb8871a45",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-brescia-en-1440.png",
+          "sha256": "ec36269b099def8a0b9ded0f56e6cf66c7835739271431158c57bc96d5ae118b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-stellenbosch-en-1440.png",
+          "sha256": "186b1d3cf2e74cb5e91c420e475010683676325e769d4d68acc457924ad0bccb",
+          "actuallyViewedInContactSheet": true
+        }
+      ],
+      "observations": [
+        "Brescia and Stellenbosch headings, descriptions and documentary covers render legibly in Spanish and English at 390px and 1440px, without clipping or horizontal overflow.",
+        "The 3D logo remains proportionate and separated from language and menu controls; navy header, typography and advertising spaces retained.",
+        "ES/EN mobile menus and reactive Brescia search results visually reviewed; automated eight flows additionally checked both destinations, all place images and reciprocal language links."
+      ],
+      "limits": "Actual viewport screenshots reviewed in contact sheets, combined with browser image/content/overflow checks. Advertising providers isolated and Analytics denied during QA. The navigation sheet captures existing homepage lazy-loading mid-load; it is not an assertion that every homepage image was visible at capture. No ad-fill, performance, Google indexing or ranking result claimed."
+    }
+  },
+  "editorialIntegrationSha256": "080cbd87e6e785c4f64bc247cf3c4d864ba8ab872e5846bafb6a7ef76b946bc0",
+  "preservationSha256": "6cb1a50a8b22ec12c3f5e8f974eea7b7f0d2a9c83b0d803e46a57c438c3f545c",
+  "reservation": {
+    "commit": "12e9e177482376165773aafcbe637ecc4f2e9ff2",
+    "createdAt": "2026-11-27T17:09:11.158Z",
+    "nativeReservationInvocationClaimed": true,
+    "nativeCommand": [
+      "npm",
+      "run",
+      "editorial:batch",
+      "--",
+      "2"
+    ],
+    "nativeInvocationSha256": "e4c67f8fb00390b721df5c3d48d0b77c186fc2d06ec72690c9b1ee1e6ccb897c",
+    "nativeExclusiveDailyBatchCreated": true,
+    "nativeReturnedTopicIds": [
+      "brescia"
+    ],
+    "ownedAppendedTopicIds": [
+      "stellenbosch"
+    ],
+    "ownedAppend": {
+      "executionId": "ba64ada6-45c0-411f-a8f9-a58aa6ab4d9e",
+      "appendedAt": "2026-11-27T17:09:11.184246+00:00",
+      "originalNativeTopicIds": [
+        "brescia"
+      ],
+      "appendedTopicIds": [
+        "stellenbosch"
+      ],
+      "originalNativeBatchSha256": "9648280e1e49c70eaf187b25be54b18385226f4a23687b791247d09b72bbd721",
+      "reason": "Current owner requests worldwide rotation. Native selector filters countries; append second topic to this own fresh reservation; retain original result and do not alter selector/schedule/foreign reservations.",
+      "nativeSelectorChanged": false,
+      "foreignReservationsOverwritten": false
+    },
+    "ownedAppendProofSha256": "8ec8f2a25b643043e07869744745d828415feced8434530ac8b7996c82083db9",
+    "originalNativeBatchSha256": "9648280e1e49c70eaf187b25be54b18385226f4a23687b791247d09b72bbd721",
+    "manualExclusiveAggregate": false
+  },
+  "googleIndexationVerified": false,
+  "schedulerAttributionVerified": false,
+  "dailyScheduleTargetUnchanged": 2,
+  "notes": "Daily execution of two new originals after a complete initial census of zero first-published-and-verified originals today. Existing manual batches, histories and daily schedule are retained. SEO preparation does not establish Google indexing, viral demand, rankings or advertising income."
+}

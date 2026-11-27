@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-27",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-27T17:09:11.158Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "brescia",
+    "stellenbosch"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "ownedReservationAppend": {
+    "executionId": "ba64ada6-45c0-411f-a8f9-a58aa6ab4d9e",
+    "appendedAt": "2026-11-27T17:09:11.184246+00:00",
+    "originalNativeTopicIds": [
+      "brescia"
+    ],
+    "appendedTopicIds": [
+      "stellenbosch"
+    ],
+    "originalNativeBatchSha256": "9648280e1e49c70eaf187b25be54b18385226f4a23687b791247d09b72bbd721",
+    "reason": "Current owner requests worldwide rotation. Native selector filters countries; append second topic to this own fresh reservation; retain original result and do not alter selector/schedule/foreign reservations.",
+    "nativeSelectorChanged": false,
+    "foreignReservationsOverwritten": false
+  },
+  "execution": {
+    "executionId": "ba64ada6-45c0-411f-a8f9-a58aa6ab4d9e",
+    "baseCommit": "5c2db81f7846ee795bc5b086e5215b0084139fcb",
+    "owner": "Codex /root",
+    "startedAt": "2026-11-27T17:07:10.508473+00:00",
+    "heartbeatAt": "2026-11-27T17:09:11.184246+00:00",
+    "leaseUntil": "2026-11-27T23:09:11.184246+00:00",
+    "status": "active"
+  },
+  "dailyCensus": {
+    "newYorkDate": "2026-11-27",
+    "priorVerifiedOriginals": 0,
+    "censusSha256": "713c175acbb1a51c94c6aa12f0f4c30d599ac2bff75d54cc95703bca886a87d6"
+  }
+}

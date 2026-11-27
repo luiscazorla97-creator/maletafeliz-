@@ -1,0 +1,57 @@
+{
+  "id": "n27-br-loggia",
+  "url": "https://www.visitbrescia.it/en/activity/piazza-loggia/",
+  "title": "Visit Brescia / Fondazione Brescia Musei",
+  "requestedAt": "2026-11-27T17:11:20.284Z",
+  "facts": [
+    {
+      "fact": "Palace1492\u20131570 and Venetian square.",
+      "excerpt": "1492",
+      "location": "Normalized characters692"
+    },
+    {
+      "fact": "East clocktower automatons.",
+      "excerpt": "automatons",
+      "location": "Normalized characters830"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "1be2f32a66fea3124b5f8692edfe5b8cda8d273991e2f81500c4f031dded5059",
+  "responseBytes": 164407,
+  "archivedBytes": 164409,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-27T17:11:21.642Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-google-api-key",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "1be2f32a66fea3124b5f8692edfe5b8cda8d273991e2f81500c4f031dded5059",
+    "archivedContentSha256": "6cd9ed7a41713294ff8d5ce0237f00781e40df423a6abc140ab506fcf860716e",
+    "originalResponseBytes": 164407,
+    "archivedBytes": 164409,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-27T17:11:21.670Z",
+  "finalUrl": "https://www.visitbrescia.it/en/activity/piazza-loggia/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "6cd9ed7a41713294ff8d5ce0237f00781e40df423a6abc140ab506fcf860716e",
+  "bytes": 164409,
+  "textSha256": "1fd154354b57f570a9e9f68498675223e14fa1336b4b14f18a8204908a2c4310",
+  "rawFile": "content/research/n27-br-loggia.raw",
+  "textFile": "content/research/n27-br-loggia.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:14:42.427659+00:00"
+}

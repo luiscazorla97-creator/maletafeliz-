@@ -1,0 +1,56 @@
+{
+  "id": "n27-br-duomo-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Duomo_vecchio_facciata_Brescia.jpg",
+  "title": "n27-br-duomo-photo-rights",
+  "requestedAt": "2026-11-27T17:12:20.183Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 3.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 3.0",
+      "location": "Normalized readable-text characters 5385–5429"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Wolfgang Moroder",
+      "location": "Normalized readable-text characters 1679–1695"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "d14da54ca465a1ed958b2f0a907436bda4ce2715ce57238c7c368997836ca8ca",
+  "responseBytes": 216659,
+  "archivedBytes": 216659,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-27T17:12:20.608Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Duomo_vecchio_facciata_Brescia.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "d14da54ca465a1ed958b2f0a907436bda4ce2715ce57238c7c368997836ca8ca",
+  "bytes": 216659,
+  "textSha256": "7aa00a7a717ef05ab33c46ff5cda9d3d1fbadf4348a513ad0f8e1ddc863c37fc",
+  "rawFile": "content/research/n27-br-duomo-photo-rights.raw",
+  "textFile": "content/research/n27-br-duomo-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:15:22.588123+00:00",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "originalSha256": "2c7418b10477b3477a41ba9de248640b974c668fd1aea88d95da32d6d06bd113",
+  "deedEvidence": {
+    "file": "content/research/n27-br-deed-by-sa-3.json",
+    "contentSha256": "c724522f579b4fedf146b6e3defa300459f8541f65a0040e4b8da2a01fbde411"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Specific grant read. Optional message request not a licence condition; no third-party message sent. Panorama stitching disclosed for Loggia; existing garden photo is not a new permitted commercial shoot."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "n27-br-loggia-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Palazzo_della_Loggia_e_piazza_Brescia.jpg",
+  "title": "n27-br-loggia-photo-rights",
+  "requestedAt": "2026-11-27T17:12:13.853Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 3.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 3.0",
+      "location": "Normalized readable-text characters 3983–4027"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Wolfgang Moroder",
+      "location": "Normalized readable-text characters 1922–1938"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "3eea04178fa97f86b6e02f486221364cd75dfa0dfa88fe2146845f1b389c817f",
+  "responseBytes": 176217,
+  "archivedBytes": 176217,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-27T17:12:14.181Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Palazzo_della_Loggia_e_piazza_Brescia.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "3eea04178fa97f86b6e02f486221364cd75dfa0dfa88fe2146845f1b389c817f",
+  "bytes": 176217,
+  "textSha256": "b893635b559d5c2d50114f63a9b567a3458b733b596496243eddf38bc4b1793d",
+  "rawFile": "content/research/n27-br-loggia-photo-rights.raw",
+  "textFile": "content/research/n27-br-loggia-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:15:22.588123+00:00",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "originalSha256": "421c72936a0be8c2c1288dec7a0cd9c06d9dc89dbe4ee0d46507fe966f0760d6",
+  "deedEvidence": {
+    "file": "content/research/n27-br-deed-by-sa-3.json",
+    "contentSha256": "c724522f579b4fedf146b6e3defa300459f8541f65a0040e4b8da2a01fbde411"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Specific grant read. Optional message request not a licence condition; no third-party message sent. Panorama stitching disclosed for Loggia; existing garden photo is not a new permitted commercial shoot."
+  }
+}

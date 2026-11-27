@@ -1,0 +1,62 @@
+{
+  "id": "n27-br-duomo",
+  "url": "https://www.visitbrescia.it/en/activity/duomo-nuovo-and-duomo-vecchio/",
+  "title": "Visit Brescia / Fondazione Brescia Musei",
+  "requestedAt": "2026-11-27T17:09:55.740Z",
+  "facts": [
+    {
+      "fact": "Rotonda distinguished from new cathedral; no2025Jubileecurrentclaim.",
+      "excerpt": "La Rotonda",
+      "location": "Normalized characters3627"
+    },
+    {
+      "fact": "LocatedPaoloVI.",
+      "excerpt": "Piazza Paolo VI",
+      "location": "Normalized characters1575"
+    },
+    {
+      "fact": "No cathedralhoursinvented.",
+      "excerpt": "Diocese",
+      "location": "Normalized characters5812"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "79609053f2032f48d51e91fc6b167ba0156ee83aeea9928d93c1996d788c0235",
+  "responseBytes": 174814,
+  "archivedBytes": 174816,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-27T17:09:56.348Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-google-api-key",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "79609053f2032f48d51e91fc6b167ba0156ee83aeea9928d93c1996d788c0235",
+    "archivedContentSha256": "5ac350914f6bfa22b08a5c5bad6cd76b0a9ce6b82f533c88234bcdbb36b5545a",
+    "originalResponseBytes": 174814,
+    "archivedBytes": 174816,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-27T17:09:56.356Z",
+  "finalUrl": "https://www.visitbrescia.it/en/activity/duomo-nuovo-and-duomo-vecchio/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "5ac350914f6bfa22b08a5c5bad6cd76b0a9ce6b82f533c88234bcdbb36b5545a",
+  "bytes": 174816,
+  "textSha256": "7fbef213ee5b67f84260e840991d9587d9ecff1c134564ae95e4aeaa4f9e1595",
+  "rawFile": "content/research/n27-br-duomo.raw",
+  "textFile": "content/research/n27-br-duomo.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:14:42.427659+00:00"
+}

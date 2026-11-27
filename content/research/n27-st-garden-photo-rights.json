@@ -1,0 +1,56 @@
+{
+  "id": "n27-st-garden-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Stellenbosch_University_Botanical_Garden_-_lily_pools.jpg",
+  "title": "n27-st-garden-photo-rights",
+  "requestedAt": "2026-11-27T17:12:39.351Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 3.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 3.0",
+      "location": "Normalized readable-text characters 1794–1838"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Martin F. Smit",
+      "location": "Normalized readable-text characters 1596–1610"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "049cb7196715328afa85f09215fdbe07626c95f74f5360cf12f3c70d98a98449",
+  "responseBytes": 95694,
+  "archivedBytes": 95694,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-27T17:12:39.719Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Stellenbosch_University_Botanical_Garden_-_lily_pools.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "049cb7196715328afa85f09215fdbe07626c95f74f5360cf12f3c70d98a98449",
+  "bytes": 95694,
+  "textSha256": "4a85342fccefeca707d5b07cab93890511c306fac7dca71048955f2a36f51781",
+  "rawFile": "content/research/n27-st-garden-photo-rights.raw",
+  "textFile": "content/research/n27-st-garden-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:15:22.588123+00:00",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "originalSha256": "67429dece26a841aece9177940f79ccc3568fd53390880007854ce56abbc4dbc",
+  "deedEvidence": {
+    "file": "content/research/n27-st-deed-by-sa-3.json",
+    "contentSha256": "c724522f579b4fedf146b6e3defa300459f8541f65a0040e4b8da2a01fbde411"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Specific grant read. Optional message request not a licence condition; no third-party message sent. Panorama stitching disclosed for Loggia; existing garden photo is not a new permitted commercial shoot."
+  }
+}

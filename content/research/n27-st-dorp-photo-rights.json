@@ -1,0 +1,56 @@
+{
+  "id": "n27-st-dorp-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Oak_trees,_Dorp_Street,_Stellenbosch.jpg",
+  "title": "n27-st-dorp-photo-rights",
+  "requestedAt": "2026-11-27T17:12:26.611Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 3.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 3.0",
+      "location": "Normalized readable-text characters 1915–1959"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Steven Morrow",
+      "location": "Normalized readable-text characters 1765–1778"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "df32d17fe32eda6fa561d3752682bee72d060bec4eb9b63da85151fcc496558a",
+  "responseBytes": 156700,
+  "archivedBytes": 156700,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-27T17:12:26.986Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Oak_trees,_Dorp_Street,_Stellenbosch.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "df32d17fe32eda6fa561d3752682bee72d060bec4eb9b63da85151fcc496558a",
+  "bytes": 156700,
+  "textSha256": "eaf3738231460f822118145306f47a22fe27cbdf627ac692f33b8bf983ad1940",
+  "rawFile": "content/research/n27-st-dorp-photo-rights.raw",
+  "textFile": "content/research/n27-st-dorp-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:15:22.588123+00:00",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "originalSha256": "557f65d4f89dc26dce86f010497f55448670151b9fd9467f9e283d5ff36d353f",
+  "deedEvidence": {
+    "file": "content/research/n27-st-deed-by-sa-3.json",
+    "contentSha256": "c724522f579b4fedf146b6e3defa300459f8541f65a0040e4b8da2a01fbde411"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Specific grant read. Optional message request not a licence condition; no third-party message sent. Panorama stitching disclosed for Loggia; existing garden photo is not a new permitted commercial shoot."
+  }
+}

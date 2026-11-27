@@ -1,0 +1,56 @@
+{
+  "id": "n27-br-capitol-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Capitoline_temple_in_Brescia_(2).jpg",
+  "title": "n27-br-capitol-photo-rights",
+  "requestedAt": "2026-11-27T17:11:54.545Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 4.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 4.0",
+      "location": "Normalized readable-text characters 2122–2166"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Source Own work",
+      "location": "Normalized readable-text characters 1823–1838"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "719fd45c5a739c79aca19f3b022ff98cd7e368c5a37cbb42c5024fe30a88a309",
+  "responseBytes": 186150,
+  "archivedBytes": 186150,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-27T17:11:55.050Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Capitoline_temple_in_Brescia_(2).jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "719fd45c5a739c79aca19f3b022ff98cd7e368c5a37cbb42c5024fe30a88a309",
+  "bytes": 186150,
+  "textSha256": "c1cc8df5d8b0db8efb59fdfaf8bfd1f16c695064b3f73ea521c77275b41ce117",
+  "rawFile": "content/research/n27-br-capitol-photo-rights.raw",
+  "textFile": "content/research/n27-br-capitol-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:15:22.588123+00:00",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "originalSha256": "84a2b028d7ba2eabe304b7e75f337c409903267e76b80e21dc24ba0d925dac5e",
+  "deedEvidence": {
+    "file": "content/research/n27-br-deed-by-sa-4.json",
+    "contentSha256": "e9409510ce0f1738e0a454d4b83baf1689b9929fe7748b97d92efee9141e1cfa"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Specific grant read. Optional message request not a licence condition; no third-party message sent. Panorama stitching disclosed for Loggia; existing garden photo is not a new permitted commercial shoot."
+  }
+}

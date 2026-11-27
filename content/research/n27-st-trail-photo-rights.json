@@ -1,0 +1,56 @@
+{
+  "id": "n27-st-trail-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Hiking_Jonkershoek_Image_2026-08-20_at_13.13.36.jpg",
+  "title": "n27-st-trail-photo-rights",
+  "requestedAt": "2026-11-27T17:13:10.658Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC0 grant.",
+      "excerpt": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "location": "Normalized readable-text characters 1562\u20131621"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "BruceHarryAnderson",
+      "location": "Normalized readable-text characters 1401\u20131419"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "b87b52b0c5392ef6a00a3ab3855fcee2e5e9708120014e010b434eed413da9bd",
+  "responseBytes": 90399,
+  "archivedBytes": 90399,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-27T17:13:11.105Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Hiking_Jonkershoek_Image_2026-08-20_at_13.13.36.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "b87b52b0c5392ef6a00a3ab3855fcee2e5e9708120014e010b434eed413da9bd",
+  "bytes": 90399,
+  "textSha256": "9efce790d8a55086305744c201390bbbea39929e0e536df58f874ff8cb42a48d",
+  "rawFile": "content/research/n27-st-trail-photo-rights.raw",
+  "textFile": "content/research/n27-st-trail-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:15:22.588123+00:00",
+  "license": "CC0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "originalSha256": "3acce54e4f1a890ba2ca0a8ac9222792a5219b6f211df874e8426cc16ca0d76e",
+  "deedEvidence": {
+    "file": "content/research/n27-st-deed-cc0.json",
+    "contentSha256": "b7b54600914107f3eb5601b61168a827e21fda05a369eee41b85fb95346df318"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Specific grant read. Optional message request not a licence condition; no third-party message sent. Panorama stitching disclosed for Loggia; existing garden photo is not a new permitted commercial shoot."
+  }
+}

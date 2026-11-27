@@ -1,0 +1,57 @@
+{
+  "id": "n27-st-guide",
+  "url": "https://www.capetown.travel/your-neighbourhood-guide-to-stellenbosch/",
+  "title": "Stellenbosch official operator / tourism",
+  "requestedAt": "2026-11-27T17:11:35.235Z",
+  "facts": [
+    {
+      "fact": "DorpStreet publicstreetcafesgalleries architecture, notadmissioninclusive.",
+      "excerpt": "Dorp Street",
+      "location": "Normalized characters5604"
+    },
+    {
+      "fact": "Tourismorganisationofficial.",
+      "excerpt": "official Regional",
+      "location": "Normalized characters6067"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "cacda40b9c0d3df4b45de971e28f7f15cefcdef73723579bd746fcb11bef0ca9",
+  "responseBytes": 446217,
+  "archivedBytes": 446219,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-27T17:11:38.655Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-google-api-key",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "cacda40b9c0d3df4b45de971e28f7f15cefcdef73723579bd746fcb11bef0ca9",
+    "archivedContentSha256": "68a82ae95cceca66dddaf93f16065a7efa7a36121bf4f1d5564567c71478c149",
+    "originalResponseBytes": 446217,
+    "archivedBytes": 446219,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-27T17:11:38.700Z",
+  "finalUrl": "https://www.capetown.travel/your-neighbourhood-guide-to-stellenbosch/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "68a82ae95cceca66dddaf93f16065a7efa7a36121bf4f1d5564567c71478c149",
+  "bytes": 446219,
+  "textSha256": "29beb9c70021eb3b5939b88624101781aa711352b57984cd682c5b9ce8d12dfa",
+  "rawFile": "content/research/n27-st-guide.raw",
+  "textFile": "content/research/n27-st-guide.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:14:42.427659+00:00"
+}

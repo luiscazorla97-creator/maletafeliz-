@@ -1,0 +1,52 @@
+{
+  "id": "n27-br-overview",
+  "url": "https://www.visitbrescia.it/en/activity/12-things-to-see-in-brescia/",
+  "title": "Visit Brescia / Fondazione Brescia Musei",
+  "requestedAt": "2026-11-27T17:09:51.964Z",
+  "facts": [
+    {
+      "fact": "Only broad orientation, not popularity claims.",
+      "excerpt": "Paid admission",
+      "location": "Normalized characters1787"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "8b011bfc5e3893ada88b84fcbfdab116b26089c710a8e8f8264fddcce74e9541",
+  "responseBytes": 193394,
+  "archivedBytes": 193396,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-27T17:09:53.374Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-google-api-key",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "8b011bfc5e3893ada88b84fcbfdab116b26089c710a8e8f8264fddcce74e9541",
+    "archivedContentSha256": "c49da7f4e8fdba712138a1ef6bd9478e0ba9769c4ac411c57ea4d537c27fc30a",
+    "originalResponseBytes": 193394,
+    "archivedBytes": 193396,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-27T17:09:53.418Z",
+  "finalUrl": "https://www.visitbrescia.it/en/activity/12-things-to-see-in-brescia/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "c49da7f4e8fdba712138a1ef6bd9478e0ba9769c4ac411c57ea4d537c27fc30a",
+  "bytes": 193396,
+  "textSha256": "e795625f2cd5838d5914534f89f1818addb4e66fd0574421fd3b4a938029b738",
+  "rawFile": "content/research/n27-br-overview.raw",
+  "textFile": "content/research/n27-br-overview.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:14:42.427659+00:00"
+}

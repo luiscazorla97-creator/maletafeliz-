@@ -1,0 +1,56 @@
+{
+  "id": "n27-st-village-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Schreuder_House_11.JPG",
+  "title": "n27-st-village-photo-rights",
+  "requestedAt": "2026-11-27T17:12:32.988Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 3.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 3.0",
+      "location": "Normalized readable-text characters 1622–1666"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "ECSequeira",
+      "location": "Normalized readable-text characters 1475–1485"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "0d6b7688885d42ebf559565c0018d8cedcb8c81adcc3e1d7fc94e8c9baa4dd00",
+  "responseBytes": 149827,
+  "archivedBytes": 149827,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-27T17:12:33.344Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Schreuder_House_11.JPG",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "0d6b7688885d42ebf559565c0018d8cedcb8c81adcc3e1d7fc94e8c9baa4dd00",
+  "bytes": 149827,
+  "textSha256": "12f42409ac17408cf6d19aa9aea3f890fe3e751a8b053f478da6a9ff6f493009",
+  "rawFile": "content/research/n27-st-village-photo-rights.raw",
+  "textFile": "content/research/n27-st-village-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:15:22.588123+00:00",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "originalSha256": "04dcd44d4e0790c720aa76f5d878ca884433f4de093d7b1bb02b6299758aa782",
+  "deedEvidence": {
+    "file": "content/research/n27-st-deed-by-sa-3.json",
+    "contentSha256": "c724522f579b4fedf146b6e3defa300459f8541f65a0040e4b8da2a01fbde411"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Specific grant read. Optional message request not a licence condition; no third-party message sent. Panorama stitching disclosed for Loggia; existing garden photo is not a new permitted commercial shoot."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "n27-br-castle-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Castle_of_Brescia_(2).jpg",
+  "title": "n27-br-castle-photo-rights",
+  "requestedAt": "2026-11-27T17:12:07.562Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 4.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 4.0",
+      "location": "Normalized readable-text characters 1896–1940"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Source Own work",
+      "location": "Normalized readable-text characters 1597–1612"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "629eb689d321b977631f206e8ecd1b7a40d09bb8cd7b08b4c94d3ff6a276313e",
+  "responseBytes": 185928,
+  "archivedBytes": 185928,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-27T17:12:07.850Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Castle_of_Brescia_(2).jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "629eb689d321b977631f206e8ecd1b7a40d09bb8cd7b08b4c94d3ff6a276313e",
+  "bytes": 185928,
+  "textSha256": "5ff3fa0137e90c357e0c6377a7405a9bb5552bf518139eb9d5056f5848dc5b3a",
+  "rawFile": "content/research/n27-br-castle-photo-rights.raw",
+  "textFile": "content/research/n27-br-castle-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:15:22.588123+00:00",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "originalSha256": "0fac11f16cd02b21f1add40c56f1fb77bba0ae6b18dc0e4f05624d8c1154850f",
+  "deedEvidence": {
+    "file": "content/research/n27-br-deed-by-sa-4.json",
+    "contentSha256": "e9409510ce0f1738e0a454d4b83baf1689b9929fe7748b97d92efee9141e1cfa"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Specific grant read. Optional message request not a licence condition; no third-party message sent. Panorama stitching disclosed for Loggia; existing garden photo is not a new permitted commercial shoot."
+  }
+}

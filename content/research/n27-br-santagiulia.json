@@ -1,0 +1,62 @@
+{
+  "id": "n27-br-santagiulia",
+  "url": "https://www.visitbrescia.it/en/activity/santa-giulia-museum/",
+  "title": "Visit Brescia / Fondazione Brescia Musei",
+  "requestedAt": "2026-11-27T17:09:54.927Z",
+  "facts": [
+    {
+      "fact": "Former monastery and urban history museum.",
+      "excerpt": "former monastery",
+      "location": "Normalized characters868"
+    },
+    {
+      "fact": "Address81bMusei andZTL.",
+      "excerpt": "81/b",
+      "location": "Normalized characters5047"
+    },
+    {
+      "fact": "Museum includes Roman domestic remains and ecclesiastical spaces.",
+      "excerpt": "Domus",
+      "location": "Normalized characters1855"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "e5252ee7fb98a21f7c151d806d39fe8fa15c8910e172fab5331d56bcbda02e64",
+  "responseBytes": 171142,
+  "archivedBytes": 171144,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-27T17:09:55.717Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-google-api-key",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "e5252ee7fb98a21f7c151d806d39fe8fa15c8910e172fab5331d56bcbda02e64",
+    "archivedContentSha256": "03d831f8b3d2ec2622d87ce8de97ce8220ed5e88413227bf52e1f280d73b801f",
+    "originalResponseBytes": 171142,
+    "archivedBytes": 171144,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-27T17:09:55.739Z",
+  "finalUrl": "https://www.visitbrescia.it/en/activity/santa-giulia-museum/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "03d831f8b3d2ec2622d87ce8de97ce8220ed5e88413227bf52e1f280d73b801f",
+  "bytes": 171144,
+  "textSha256": "4f0f2d2c8fb0ea276afe138e8c9dfdaf2b3660f0da4f43dea0635631b1ada53a",
+  "rawFile": "content/research/n27-br-santagiulia.raw",
+  "textFile": "content/research/n27-br-santagiulia.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:14:42.427659+00:00"
+}

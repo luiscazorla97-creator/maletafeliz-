@@ -1,0 +1,67 @@
+{
+  "id": "n27-st-reserve",
+  "url": "https://www.capenature.co.za/reserves/jonkershoek-nature-reserve",
+  "title": "Stellenbosch official operator / tourism",
+  "requestedAt": "2026-11-27T17:10:02.463Z",
+  "facts": [
+    {
+      "fact": "9kmfromStellenbosch, separate mountainouting.",
+      "excerpt": "9km",
+      "location": "Normalized characters2799"
+    },
+    {
+      "fact": "Adult80child55; bannerstarting55notadultprice.",
+      "excerpt": "R80",
+      "location": "Normalized characters8851"
+    },
+    {
+      "fact": "Cutoffs12Sosyskloof10Panorama14waterfalls; everyoneexit18.",
+      "excerpt": "12:00",
+      "location": "Normalized characters8358"
+    },
+    {
+      "fact": "No guaranteedallroutesopenorhikerssafe.",
+      "excerpt": "slippery",
+      "location": "Normalized characters4063"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "cc658557dbd4b69af3c0da7f8bfa49b07adb735fc8508b628cc4ac3ffe5d8131",
+  "responseBytes": 164466,
+  "archivedBytes": 164417,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-27T17:10:03.374Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-mapbox-token",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "cc658557dbd4b69af3c0da7f8bfa49b07adb735fc8508b628cc4ac3ffe5d8131",
+    "archivedContentSha256": "e6b51cf8e9b03b80592d83af886633b2e3cf7fe36dab6f05eba9caa7434278a9",
+    "originalResponseBytes": 164466,
+    "archivedBytes": 164417,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-27T17:10:03.386Z",
+  "finalUrl": "https://www.capenature.co.za/reserves/jonkershoek-nature-reserve",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "e6b51cf8e9b03b80592d83af886633b2e3cf7fe36dab6f05eba9caa7434278a9",
+  "bytes": 164417,
+  "textSha256": "ef502fdad1926260af5b96dd8ebed3d05c82e2f7fb67c61584f053eed50674af",
+  "rawFile": "content/research/n27-st-reserve.raw",
+  "textFile": "content/research/n27-st-reserve.txt",
+  "success": true,
+  "readAt": "2026-11-27T17:14:42.427659+00:00"
+}

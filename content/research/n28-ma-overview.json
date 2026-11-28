@@ -1,0 +1,44 @@
+{
+  "id": "n28-ma-overview",
+  "url": "https://www.visit-matsue.com/discover/city_centre",
+  "title": "Matsue Tourism Association — City Centre",
+  "requestedAt": "2026-11-28T17:03:39.441Z",
+  "facts": [
+    {
+      "fact": "The central area is divided by the Ohashi River; JR Matsue Station and Matsue Shinjiko Onsen are not assumed interchangeable.",
+      "excerpt": "Matsue City Centre is bisected by the Ohashi River",
+      "location": "Normalized readable-text characters 870–920"
+    },
+    {
+      "fact": "The city guide places Lake Shinji about one kilometre and the castle about two kilometres from Matsue Station.",
+      "excerpt": "Lake Shinji is one kilometer away from the station and Matsue Castle is two kilometers",
+      "location": "Normalized readable-text characters 1049–1135"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "814a27adc3f3e8dec8c07a63459fa2d627cfa99ae6b7792f3df86fb14cb0724b",
+  "responseBytes": 14598,
+  "archivedBytes": 14598,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-28T17:03:40.469Z",
+  "finalUrl": "https://www.visit-matsue.com/discover/city_centre",
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "retryAfter": null,
+  "contentSha256": "814a27adc3f3e8dec8c07a63459fa2d627cfa99ae6b7792f3df86fb14cb0724b",
+  "bytes": 14598,
+  "textSha256": "04f90f5c90bb64adfe29b28ef9d959f719c58ab63d24e6ec5da78f58124e5e45",
+  "rawFile": "content/research/n28-ma-overview.raw",
+  "textFile": "content/research/n28-ma-overview.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:16:41.177319+00:00",
+  "reviewer": "Codex /root",
+  "readingScope": "Relevant article body and fact excerpts actually read; page capture alone is not treated as editorial verification."
+}

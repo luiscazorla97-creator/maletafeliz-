@@ -1,0 +1,49 @@
+{
+  "id": "n28-ma-art",
+  "url": "https://www.shimane-art-museum.jp/en/",
+  "title": "Shimane Art Museum — English Visitor Information",
+  "requestedAt": "2026-11-28T17:03:46.402Z",
+  "facts": [
+    {
+      "fact": "Collection and special exhibitions have different admission products; the published individual collection adult fare is400yen.",
+      "excerpt": "Adults 400 (320)yen",
+      "location": "Normalized readable-text characters 1839–1858"
+    },
+    {
+      "fact": "Opening is10–18:30October–February and until30minutes after sunsetMarch–September; last admission30minutes earlier.",
+      "excerpt": "October - February 10:00 - 18:30",
+      "location": "Normalized readable-text characters 979–1011"
+    },
+    {
+      "fact": "Normally closed Tuesdays and28December–1January; holiday and special-exhibition calendar exceptions apply.",
+      "excerpt": "Closed Tuesdays and December 28 - January 1",
+      "location": "Normalized readable-text characters 1123–1166"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "9b055b42b18f87c734cf1cd610c9fc6828d69e1562965c134044072313f3a3e0",
+  "responseBytes": 15981,
+  "archivedBytes": 15981,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-28T17:03:47.466Z",
+  "finalUrl": "https://www.shimane-art-museum.jp/en/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "9b055b42b18f87c734cf1cd610c9fc6828d69e1562965c134044072313f3a3e0",
+  "bytes": 15981,
+  "textSha256": "a5b585a0e7194e85e39797596d962df8636d03b30df1181f1a150561cabde4c2",
+  "rawFile": "content/research/n28-ma-art.raw",
+  "textFile": "content/research/n28-ma-art.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:16:41.177319+00:00",
+  "reviewer": "Codex /root",
+  "readingScope": "Relevant article body and fact excerpts actually read; page capture alone is not treated as editorial verification."
+}

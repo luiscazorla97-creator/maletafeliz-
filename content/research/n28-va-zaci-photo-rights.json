@@ -1,0 +1,56 @@
+{
+  "id": "n28-va-zaci-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Cenote_Zac%C3%AD_03.jpg",
+  "title": "File:Cenote Zací 03.jpg",
+  "requestedAt": "2026-11-28T17:09:47.195Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY 4.0 grant.",
+      "excerpt": "Creative Commons Attribution 4.0",
+      "location": "Normalized readable-text characters 1668–1700"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Haakon S. Krohn",
+      "location": "Normalized readable-text characters 1516–1531"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "6c343085eeb433cf22d26916737a5c07af5cca9cc0094bdf8aaf5f66896abdc1",
+  "responseBytes": 110613,
+  "archivedBytes": 110613,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-28T17:09:47.547Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Cenote_Zac%C3%AD_03.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "6c343085eeb433cf22d26916737a5c07af5cca9cc0094bdf8aaf5f66896abdc1",
+  "bytes": 110613,
+  "textSha256": "059ec00247100cdaf7e8ab639ed3500b2e1566fdeca1d883a25103dfc9ba3467",
+  "rawFile": "content/research/n28-va-zaci-photo-rights.raw",
+  "textFile": "content/research/n28-va-zaci-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:18:19.298981+00:00",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.en",
+  "originalSha256": "d3a3dda8561ac18377a8fb12346d94cc186157877e27bdeeb3b18e4e5e5e3aeb",
+  "deedEvidence": {
+    "file": "content/research/n28-va-deed-by-4.json",
+    "contentSha256": "5b0b7a3b78c8696d653d519da73f1ac1eed684a434c3e81f4ac6279f750abb50"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Individual grant, creator, capture date and file history actually read. Selected CC licence from any multi-licence offer; attribution, licence link and modification notice retained."
+  }
+}

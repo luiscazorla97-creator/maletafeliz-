@@ -1,0 +1,56 @@
+{
+  "id": "n28-ma-keep-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Matsue_castle01bs4592.jpg",
+  "title": "File:Matsue castle01bs4592.jpg",
+  "requestedAt": "2026-11-28T17:15:13.561Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY 2.5 grant.",
+      "excerpt": "Creative Commons Attribution 2.5",
+      "location": "Normalized readable-text characters 3289–3321"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "663highland",
+      "location": "Normalized readable-text characters 1435–1446"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "7fe18e6d30e74e4d1613a8c1613925b325af66740cda4ebfcb60eb045fee9e84",
+  "responseBytes": 146776,
+  "archivedBytes": 146776,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-28T17:15:13.830Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Matsue_castle01bs4592.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "7fe18e6d30e74e4d1613a8c1613925b325af66740cda4ebfcb60eb045fee9e84",
+  "bytes": 146776,
+  "textSha256": "ded8c85b051c8d9cc7329360596b4f0878221d9bd500e7aa5539ccb902394dfb",
+  "rawFile": "content/research/n28-ma-keep-photo-rights.raw",
+  "textFile": "content/research/n28-ma-keep-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:18:19.298981+00:00",
+  "license": "CC BY 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.5/deed.en",
+  "originalSha256": "88cca1cea328c230e73ea1f3bb375bfbb50457bf61a39b8f949fe2e11147304e",
+  "deedEvidence": {
+    "file": "content/research/n28-ma-deed-by-25.json",
+    "contentSha256": "4f177d54a3edb108b7af5b6a9b24805e174070c5975f68e8025bbc9f9f273b73"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Individual grant, creator, capture date and file history actually read. Selected CC licence from any multi-licence offer; attribution, licence link and modification notice retained."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "n28-va-cenotes",
+  "url": "https://yucatan.travel/region/",
+  "title": "Yucatán Travel — Regiones: Cenote Zací",
+  "requestedAt": "2026-11-28T17:14:18.539Z",
+  "facts": [
+    {
+      "fact": "Zací is a semi-open cenote in central Valladolid. Depth statistics and water-condition guarantees are omitted.",
+      "excerpt": "Este cenote semiabierto tiene un diámetro",
+      "location": "Normalized readable-text characters 21286–21327"
+    },
+    {
+      "fact": "The source locates it in the town itself, without certifying a current swimming permit or opening time.",
+      "excerpt": "se encuentra en el corazón de Valladolid.",
+      "location": "Normalized readable-text characters 21478–21519"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "5d815b55d87dab3dabbc3cc6e9fa4a0407541a19c7f339ea6e0c08c6e39c35fd",
+  "responseBytes": 139828,
+  "archivedBytes": 139830,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-28T17:14:20.322Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-google-api-key",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "5d815b55d87dab3dabbc3cc6e9fa4a0407541a19c7f339ea6e0c08c6e39c35fd",
+    "archivedContentSha256": "660be56f392501ffd38782846050a3ffc6f20079c95c10adda817ba30d551f65",
+    "originalResponseBytes": 139828,
+    "archivedBytes": 139830,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-28T17:14:20.362Z",
+  "finalUrl": "https://yucatan.travel/region/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "660be56f392501ffd38782846050a3ffc6f20079c95c10adda817ba30d551f65",
+  "bytes": 139830,
+  "textSha256": "d63ceee1833ef485feb7dbb77a35d149f3eec74d4b1a49711db999c58d67b2ad",
+  "rawFile": "content/research/n28-va-cenotes.raw",
+  "textFile": "content/research/n28-va-cenotes.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:16:41.177319+00:00",
+  "reviewer": "Codex /root",
+  "readingScope": "Relevant article body and fact excerpts actually read; page capture alone is not treated as editorial verification."
+}

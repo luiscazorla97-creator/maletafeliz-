@@ -1,0 +1,64 @@
+{
+  "id": "n28-va-culture",
+  "url": "https://yucatan.travel/cultura/pueblo-magico-de-valladolid/",
+  "title": "Yucatán Travel — Valladolid, Pueblo Mágico",
+  "requestedAt": "2026-11-28T17:03:49.044Z",
+  "facts": [
+    {
+      "fact": "Calzada de los Frailes dates to the sixteenth century and linked Valladolid and Sisal.",
+      "excerpt": "La Calzada de los Frailes se construyó en el siglo XVI",
+      "location": "Normalized readable-text characters 2649–2703"
+    },
+    {
+      "fact": "San Servacio had an important1703 remodelling; the source’s colonial rhetoric and unverified cannon details are not reproduced.",
+      "excerpt": "Fue hasta su remodelación en 1703",
+      "location": "Normalized readable-text characters 4283–4316"
+    },
+    {
+      "fact": "Valladolid’s urban cenote is distinct from surrounding excursions.",
+      "excerpt": "el cenote en medio del pueblo",
+      "location": "Normalized readable-text characters 1733–1762"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "6b1e0d58b4602282f44cb70b2373670219a5a2a4c2d71a0c9c61292a56077062",
+  "responseBytes": 47065,
+  "archivedBytes": 47067,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-28T17:03:49.377Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-google-api-key",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "6b1e0d58b4602282f44cb70b2373670219a5a2a4c2d71a0c9c61292a56077062",
+    "archivedContentSha256": "1aabbe33daf49e75fc2ca57a8511b6187cdf02588203be13429cf03d2af97e78",
+    "originalResponseBytes": 47065,
+    "archivedBytes": 47067,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-28T17:03:49.381Z",
+  "finalUrl": "https://yucatan.travel/cultura/pueblo-magico-de-valladolid/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "1aabbe33daf49e75fc2ca57a8511b6187cdf02588203be13429cf03d2af97e78",
+  "bytes": 47067,
+  "textSha256": "8b04bce4b9c9d7201b2255e27591d8cb782e4ba51f2188699085889343ded854",
+  "rawFile": "content/research/n28-va-culture.raw",
+  "textFile": "content/research/n28-va-culture.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:16:41.177319+00:00",
+  "reviewer": "Codex /root",
+  "readingScope": "Relevant article body and fact excerpts actually read; page capture alone is not treated as editorial verification."
+}

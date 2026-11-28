@@ -1,0 +1,38 @@
+{
+  "reviewer": "Codex /root, author and subsequent review",
+  "reviewedAt": "2026-11-28T17:26:49.095Z",
+  "contentHash": "52cb05aed2afcc88455e7cccc83dd7f4c00a42dee3cd3e778af53dd9b0a8d2b6",
+  "checks": {
+    "facts": true,
+    "sourceRelevance": true,
+    "imageRights": true,
+    "imageRelevance": true,
+    "language": true,
+    "originality": true,
+    "usefulness": true,
+    "timeSensitiveFacts": true,
+    "internalLinks": true
+  },
+  "reviewEvidence": [
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n28/root-editorial-decision.json",
+      "sha256": "4246afc93bb352836de6cffd906da0249ae457c23e2a53dd1e2b49d66121a54e"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n28/root-photo-integrity.json",
+      "sha256": "acf5aabc3f0cf0b58b3290296f1692b78437778105a07cd97a08f8681d0427f0"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n28/root-originality-review.json",
+      "sha256": "d58412e5c91bd7943488642137a1eb147fcab69359bf59aab0bfe6601b34f25d"
+    },
+    {
+      "file": "/workspace/artifacts/maletafeliz-daily-two-n28/root-final-editorial-curation.json",
+      "sha256": "91dd0d182d139c98d64b705058db938d31244480c44ddc8074a774b9dc074ff3"
+    }
+  ],
+  "notes": [
+    "Two original city guides in Spanish and English; actual current official captures and individual licences read. Public deployment remains pending.",
+    "Selection for release compilation. Public deployment, indexing and ranking are not yet claimed."
+  ]
+}

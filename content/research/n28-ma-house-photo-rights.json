@@ -1,0 +1,56 @@
+{
+  "id": "n28-ma-house-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Lafcadio_Hearn%27s_old_house_in_Matsue_01.JPG",
+  "title": "File:Lafcadio Hearn's old house in Matsue 01.JPG",
+  "requestedAt": "2026-11-28T17:11:24.176Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 3.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 3.0",
+      "location": "Normalized readable-text characters 2124–2168"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "Reggaeman",
+      "location": "Normalized readable-text characters 1515–1524"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "5c8820a713f46d09df32c007d7b276cba2faca68920ddde44ed9fe110fadb0cd",
+  "responseBytes": 108252,
+  "archivedBytes": 108252,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-28T17:11:24.608Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Lafcadio_Hearn%27s_old_house_in_Matsue_01.JPG",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "5c8820a713f46d09df32c007d7b276cba2faca68920ddde44ed9fe110fadb0cd",
+  "bytes": 108252,
+  "textSha256": "6d855dd7915edbee2b9980f08e7c60fa562def10283f22b4a53d3cfffc0a29e8",
+  "rawFile": "content/research/n28-ma-house-photo-rights.raw",
+  "textFile": "content/research/n28-ma-house-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:18:19.298981+00:00",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+  "originalSha256": "7f52aa4a0c7ba14fdb1437cdbcc30aeabcad0d7f0f27d3b3c4653d9aaab56224",
+  "deedEvidence": {
+    "file": "content/research/n28-ma-deed-by-sa-3.json",
+    "contentSha256": "c724522f579b4fedf146b6e3defa300459f8541f65a0040e4b8da2a01fbde411"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Individual grant, creator, capture date and file history actually read. Selected CC licence from any multi-licence offer; attribution, licence link and modification notice retained."
+  }
+}

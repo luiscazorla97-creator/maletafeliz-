@@ -1,0 +1,49 @@
+{
+  "id": "n28-va-museum",
+  "url": "https://sic.cultura.gob.mx/ficha.php?disciplina=&table=museo&table_id=120",
+  "title": "Secretaría de Cultura — Museo de San Roque",
+  "requestedAt": "2026-11-28T17:04:19.317Z",
+  "facts": [
+    {
+      "fact": "The museum atCalle41n193 presents local and regional history; opened4June1985.",
+      "excerpt": "Como museo abrió sus puertas al público el 4 de junio de 1985.",
+      "location": "Normalized readable-text characters 4110–4172"
+    },
+    {
+      "fact": "Collections include archaeological material, archives and photographs; no promise that a particular item is on display.",
+      "excerpt": "Su acervo consta de piezas arqueológicas de la región, archivos, documentos,fotografías",
+      "location": "Normalized readable-text characters 4266–4353"
+    },
+    {
+      "fact": "SIC’s last modification isApril2021, so its9–21hours/free-admission listing is not presented as a current operator-confirmed timetable.",
+      "excerpt": "Fecha de última modificación: 22 de abril del 2021",
+      "location": "Normalized readable-text characters 5066–5116"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "432a5a0e2e3729a6577ee7d2be47e6b563ab3c7a9a78b6dbbdf1c34a45f6c915",
+  "responseBytes": 43460,
+  "archivedBytes": 43460,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-28T17:04:20.053Z",
+  "finalUrl": "https://sic.cultura.gob.mx/ficha.php?disciplina=&table=museo&table_id=120",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "432a5a0e2e3729a6577ee7d2be47e6b563ab3c7a9a78b6dbbdf1c34a45f6c915",
+  "bytes": 43460,
+  "textSha256": "5756ed9594d078ebb8b523251d13b7897a7be7026ea2004e59c3d165bfe07603",
+  "rawFile": "content/research/n28-va-museum.raw",
+  "textFile": "content/research/n28-va-museum.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:16:41.177319+00:00",
+  "reviewer": "Codex /root",
+  "readingScope": "Relevant article body and fact excerpts actually read; page capture alone is not treated as editorial verification."
+}

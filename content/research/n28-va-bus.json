@@ -1,0 +1,44 @@
+{
+  "id": "n28-va-bus",
+  "url": "https://tickets.ado.com.mx/ado-bus/bus-station-guide/valladolid-bus-station?locale=es-MX",
+  "title": "ADO — Terminal de Valladolid C.46",
+  "requestedAt": "2026-11-28T17:04:21.430Z",
+  "facts": [
+    {
+      "fact": "The operator identifies the central bus terminal asValladolid C.46,Calle46n197, distinct from the railway station. No fixed departures, frequency, fare or duration copied from examples.",
+      "excerpt": "la terminal ADO de la Calle 46 #197",
+      "location": "Normalized readable-text characters 7037–7072"
+    },
+    {
+      "fact": "The Tren Maya station is another place requiring its own transfer; the bus ticket is the appropriate terminal reference.",
+      "excerpt": "Es para el tren, no para los autobuses ADO",
+      "location": "Normalized readable-text characters 7306–7348"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "dbc56cd0ad0d1b19cbf1412f4aaecd5fe59040f0bf4fd0cd1a00767742db8dff",
+  "responseBytes": 620434,
+  "archivedBytes": 620434,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-28T17:04:22.043Z",
+  "finalUrl": "https://tickets.ado.com.mx/ado-bus/bus-station-guide/valladolid-bus-station?locale=es-MX",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "retryAfter": null,
+  "contentSha256": "dbc56cd0ad0d1b19cbf1412f4aaecd5fe59040f0bf4fd0cd1a00767742db8dff",
+  "bytes": 620434,
+  "textSha256": "17c96620199512f6094bf44f4e98061bec2a63c6d52a226bab0273a1dd769138",
+  "rawFile": "content/research/n28-va-bus.raw",
+  "textFile": "content/research/n28-va-bus.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:16:41.177319+00:00",
+  "reviewer": "Codex /root",
+  "readingScope": "Relevant article body and fact excerpts actually read; page capture alone is not treated as editorial verification."
+}

@@ -1,0 +1,60 @@
+{
+  "id": "n28-ma-castle",
+  "url": "https://www.japan.travel/en/spot/933/",
+  "title": "JNTO — Matsue Castle",
+  "requestedAt": "2026-11-28T17:03:40.470Z",
+  "facts": [
+    {
+      "fact": "The French page actually received dates completion to 1611.",
+      "excerpt": "Sa construction s'acheva en 1611",
+      "location": "Normalized readable-text characters 9788–9820"
+    },
+    {
+      "fact": "The keep offers views toward the city and Lake Shinji.",
+      "excerpt": "Le dernier étage vous offre une vue à 360 degrés",
+      "location": "Normalized readable-text characters 10586–10634"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "b256b4a6c977bebb1811fdfa0f2a0b00580898b91d44fdf5be62d39d032f354b",
+  "responseBytes": 176730,
+  "archivedBytes": 176732,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-28T17:03:42.657Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-google-api-key",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "b256b4a6c977bebb1811fdfa0f2a0b00580898b91d44fdf5be62d39d032f354b",
+    "archivedContentSha256": "011edbe25c8aaee3e1583c67d39f2827d2e176c7651aa96cb0ec2b0ca31c5d3c",
+    "originalResponseBytes": 176730,
+    "archivedBytes": 176732,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-28T17:03:42.691Z",
+  "finalUrl": "https://www.japan.travel/fr/spot/933/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "retryAfter": null,
+  "contentSha256": "011edbe25c8aaee3e1583c67d39f2827d2e176c7651aa96cb0ec2b0ca31c5d3c",
+  "bytes": 176732,
+  "textSha256": "de77cca6bf20ae9ea0fa943d613c783ae8fff030bd68e63bd15e53a527226103",
+  "rawFile": "content/research/n28-ma-castle.raw",
+  "textFile": "content/research/n28-ma-castle.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:16:41.177319+00:00",
+  "reviewer": "Codex /root",
+  "readingScope": "Relevant article body and fact excerpts actually read; page capture alone is not treated as editorial verification.",
+  "notes": "Requested English JNTO URL actually redirected to French; final URL, HTTP and received bytes retained. French body was read; no English response is invented."
+}

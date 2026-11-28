@@ -1,0 +1,44 @@
+{
+  "id": "n28-ma-lake",
+  "url": "https://www.visit-matsue.com/discover/city_centre/south_side/lake_shore",
+  "title": "Matsue Tourism Association — Lake Shore",
+  "requestedAt": "2026-11-28T17:03:47.466Z",
+  "facts": [
+    {
+      "fact": "The lakeside route connects Shinjiko Ohashi Bridge, the art museum and a sunset-viewing spot; weather does not guarantee a sunset.",
+      "excerpt": "There is a pleasant walkway all the way from Shinjiko Ohashi Bridge",
+      "location": "Normalized readable-text characters 3517–3584"
+    },
+    {
+      "fact": "The art museum opened1999 and was designed by Kiyonori Kikutake.",
+      "excerpt": "This art museum opened in 1999 and was designed by Kiyonori Kikutake",
+      "location": "Normalized readable-text characters 1021–1089"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "42ab7dde3c64a5ae1981e669214f7a12483e43f4c6430eb98bb8966888789135",
+  "responseBytes": 32005,
+  "archivedBytes": 32005,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-28T17:03:48.406Z",
+  "finalUrl": "https://www.visit-matsue.com/discover/city_centre/south_side/lake_shore",
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "retryAfter": null,
+  "contentSha256": "42ab7dde3c64a5ae1981e669214f7a12483e43f4c6430eb98bb8966888789135",
+  "bytes": 32005,
+  "textSha256": "c8c6f121b739d46cbfc8ba7a9eddd910e02d0437d2f4710d3314863cf6ccfd29",
+  "rawFile": "content/research/n28-ma-lake.raw",
+  "textFile": "content/research/n28-ma-lake.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:16:41.177319+00:00",
+  "reviewer": "Codex /root",
+  "readingScope": "Relevant article body and fact excerpts actually read; page capture alone is not treated as editorial verification."
+}

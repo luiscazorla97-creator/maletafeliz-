@@ -1,0 +1,64 @@
+{
+  "id": "n28-va-overview",
+  "url": "https://yucatan.travel/region/valladolid/",
+  "title": "Secretaría de Fomento Turístico de Yucatán — Valladolid",
+  "requestedAt": "2026-11-28T17:03:48.407Z",
+  "facts": [
+    {
+      "fact": "San Servacio faces Parque Francisco Cantón Rosado.",
+      "excerpt": "Iglesia de San Servacio , ubicada frente al Parque Principal Francisco Cantón Rosado",
+      "location": "Normalized readable-text characters 1785–1869"
+    },
+    {
+      "fact": "Calzada de los Frailes leads toward Parque de Sisal and the convent; it is not the coastal port of Sisal.",
+      "excerpt": "Al finalizar la caminata, llegarás al Parque de Sisal",
+      "location": "Normalized readable-text characters 2619–2672"
+    },
+    {
+      "fact": "Walking is possible between many central sights; buses and the railway are separate arrival choices.",
+      "excerpt": "puedes llegar caminando o en bicicleta a muchos de los sitios turísticos",
+      "location": "Normalized readable-text characters 9627–9699"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "a364c740a67b5c680a6123d876e5e396aadab004898cb1a2fb7cd6c655476f61",
+  "responseBytes": 54554,
+  "archivedBytes": 54556,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "rawArchiveTransformation": {
+    "performedAt": "2026-11-28T17:03:49.039Z",
+    "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+    "redactions": [
+      {
+        "kind": "public-google-api-key",
+        "count": 1
+      }
+    ],
+    "originalResponseContentSha256": "a364c740a67b5c680a6123d876e5e396aadab004898cb1a2fb7cd6c655476f61",
+    "archivedContentSha256": "4d5ef74fe5c454c6f989444e195df7308803a85bcfb1f5b2c175c572b3cc8bdc",
+    "originalResponseBytes": 54554,
+    "archivedBytes": 54556,
+    "noCredentialValuePrintedOrStored": true
+  },
+  "fetchedAt": "2026-11-28T17:03:49.044Z",
+  "finalUrl": "https://yucatan.travel/region/valladolid/",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "4d5ef74fe5c454c6f989444e195df7308803a85bcfb1f5b2c175c572b3cc8bdc",
+  "bytes": 54556,
+  "textSha256": "277d187de3cc7ca95d3d4414778f46fa77446a9b269cc4f4977bed6dcc82c0ee",
+  "rawFile": "content/research/n28-va-overview.raw",
+  "textFile": "content/research/n28-va-overview.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:16:41.177319+00:00",
+  "reviewer": "Codex /root",
+  "readingScope": "Relevant article body and fact excerpts actually read; page capture alone is not treated as editorial verification."
+}

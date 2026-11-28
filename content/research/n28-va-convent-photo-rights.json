@@ -1,0 +1,56 @@
+{
+  "id": "n28-va-convent-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Valladolid_(Yucatan)_Convento_de_San_Bernardino_2.jpg",
+  "title": "File:Valladolid (Yucatan) Convento de San Bernardino 2.jpg",
+  "requestedAt": "2026-11-28T17:09:40.815Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY-SA 4.0 grant.",
+      "excerpt": "Creative Commons Attribution-Share Alike 4.0",
+      "location": "Normalized readable-text characters 1850–1894"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "DaLoetz",
+      "location": "Normalized readable-text characters 1581–1588"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "f66204ee50e4367a433f962eb35ed516ca00212e4ac17f5293d998acb52bd8fd",
+  "responseBytes": 123637,
+  "archivedBytes": 123637,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-28T17:09:41.188Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Valladolid_(Yucatan)_Convento_de_San_Bernardino_2.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "f66204ee50e4367a433f962eb35ed516ca00212e4ac17f5293d998acb52bd8fd",
+  "bytes": 123637,
+  "textSha256": "271c5252f840403e9c9cdbf4e81c783bbc885dc3d5d0f7c4acd34209fadb128b",
+  "rawFile": "content/research/n28-va-convent-photo-rights.raw",
+  "textFile": "content/research/n28-va-convent-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:18:19.298981+00:00",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+  "originalSha256": "b4e442b4e5e6222a08dc2125f94e86ea759b8f718a7c926ce5c17aab774328f1",
+  "deedEvidence": {
+    "file": "content/research/n28-va-deed-by-sa-4.json",
+    "contentSha256": "e9409510ce0f1738e0a454d4b83baf1689b9929fe7748b97d92efee9141e1cfa"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Individual grant, creator, capture date and file history actually read. Selected CC licence from any multi-licence offer; attribution, licence link and modification notice retained."
+  }
+}

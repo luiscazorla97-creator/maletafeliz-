@@ -1,0 +1,56 @@
+{
+  "id": "n28-ma-museum-photo-rights",
+  "url": "https://commons.wikimedia.org/wiki/File:Shimane_Art_Museum16s3.jpg",
+  "title": "File:Shimane Art Museum16s3.jpg",
+  "requestedAt": "2026-11-28T17:15:19.833Z",
+  "facts": [
+    {
+      "fact": "Individual Commons file explicitly offers the selected CC BY 2.5 grant.",
+      "excerpt": "Creative Commons Attribution 2.5",
+      "location": "Normalized readable-text characters 2879–2911"
+    },
+    {
+      "fact": "Creator and documentary provenance were read, including file history and capture-versus-upload distinction.",
+      "excerpt": "663highland",
+      "location": "Normalized readable-text characters 1434–1445"
+    }
+  ],
+  "actuallyRead": true,
+  "responseContentSha256": "cd06d47ebad213fb8101bf4d15b02c552eb49428ddc5a4e8bce1148ec6cc3dbd",
+  "responseBytes": 126489,
+  "archivedBytes": 126489,
+  "screenedEmbeddedCredentialFormats": [
+    "public-mapbox-token",
+    "public-google-api-key",
+    "github-classic-token",
+    "github-fine-grained-token",
+    "openai-secret-format",
+    "aws-access-id-format"
+  ],
+  "fetchedAt": "2026-11-28T17:15:20.131Z",
+  "finalUrl": "https://commons.wikimedia.org/wiki/File:Shimane_Art_Museum16s3.jpg",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "retryAfter": null,
+  "contentSha256": "cd06d47ebad213fb8101bf4d15b02c552eb49428ddc5a4e8bce1148ec6cc3dbd",
+  "bytes": 126489,
+  "textSha256": "1c2f35596273426010803f0a43f1bc486984fde1102d8baf244f4edafaa96e27",
+  "rawFile": "content/research/n28-ma-museum-photo-rights.raw",
+  "textFile": "content/research/n28-ma-museum-photo-rights.txt",
+  "success": true,
+  "readAt": "2026-11-28T17:18:19.298981+00:00",
+  "license": "CC BY 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.5/deed.en",
+  "originalSha256": "632f415e41d7ce6641ad494e85ed34dc63226cdc32501a75c55017ebdcef937c",
+  "deedEvidence": {
+    "file": "content/research/n28-ma-deed-by-25.json",
+    "contentSha256": "4f177d54a3edb108b7af5b6a9b24805e174070c5975f68e8025bbc9f9f273b73"
+  },
+  "review": {
+    "reviewer": "Codex /root",
+    "individualFileActuallyRead": true,
+    "fileHistoryActuallyRead": true,
+    "ccDeedActuallyRead": true,
+    "notes": "Individual grant, creator, capture date and file history actually read. Selected CC licence from any multi-licence offer; attribution, licence link and modification notice retained."
+  }
+}

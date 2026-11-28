@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-28",
+  "timeZone": "America/New_York",
+  "createdAt": "2026-11-28T17:07:29.086Z",
+  "status": "reserved-not-generated",
+  "topicIds": [
+    "valladolid-yucatan",
+    "matsue"
+  ],
+  "requestedCount": 2,
+  "publishedCount": 0,
+  "errors": [],
+  "execution": {
+    "executionId": "1103a5f0-89bc-43ec-9191-57c0d25b3a1a",
+    "baseCommit": "6cc7c411994fe1f643aa5da9de335d1f7f208271",
+    "owner": "Codex /root",
+    "startedAt": "2026-11-28T17:01:57.497877+00:00",
+    "heartbeatAt": "2026-11-28T17:07:29.130805+00:00",
+    "leaseUntil": "2026-11-28T23:07:29.130805+00:00",
+    "status": "active"
+  },
+  "dailyCensus": {
+    "newYorkDate": "2026-11-28",
+    "priorVerifiedOriginals": 0,
+    "censusSha256": "d943a2967a6aa41f19f7f16e0b059d1f40fa3e7cbf8312a59d4f826e43a72e11"
+  }
+}

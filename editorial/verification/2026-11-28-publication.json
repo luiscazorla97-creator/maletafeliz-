@@ -1,0 +1,972 @@
+{
+  "schemaVersion": 1,
+  "nativeValidationCorrection": {
+    "checkedAt": "2026-11-28T17:45:38.215004+00:00",
+    "initialPreviewFailed": false,
+    "failedNativeInvocations": 0,
+    "nativeGatesLowered": false,
+    "records": [
+      {
+        "command": [
+          "npm",
+          "run",
+          "check"
+        ],
+        "startedAt": "2026-11-28T17:27:28.446462+00:00",
+        "finishedAt": "2026-11-28T17:27:34.574826+00:00",
+        "exitCode": 0,
+        "logSha256": "e5010f2b3c16d2887e575ad3d72d90067ec6dc12dd2936b4eac889a0d4cfe448"
+      },
+      {
+        "command": [
+          "npm",
+          "test"
+        ],
+        "startedAt": "2026-11-28T17:27:34.612059+00:00",
+        "finishedAt": "2026-11-28T17:27:41.147581+00:00",
+        "exitCode": 0,
+        "logSha256": "18d397215105d6ae755bcdb1a082f86cb0277acf867deeca4f2aa6f834fdcfce"
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "startedAt": "2026-11-28T17:27:41.187538+00:00",
+        "finishedAt": "2026-11-28T17:36:01.664311+00:00",
+        "exitCode": 0,
+        "logSha256": "0f1133545314706dd3358a6c28c53bb2a83070b360abc04977ef018266743195"
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "test:e2e",
+          "--",
+          "--output",
+          "/workspace/artifacts/maletafeliz-daily-two-n28/navigation-results"
+        ],
+        "startedAt": "2026-11-28T17:36:01.747260+00:00",
+        "finishedAt": "2026-11-28T17:36:26.478815+00:00",
+        "exitCode": 0,
+        "logSha256": "753cda03f1b49f1cbe33ab1c360b7a39145324dfa571841923f8f9836d9c920f"
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "build:release"
+        ],
+        "startedAt": "2026-11-28T17:36:26.524093+00:00",
+        "finishedAt": "2026-11-28T17:44:52.493689+00:00",
+        "exitCode": 0,
+        "logSha256": "4a132bb575ccd96a173f967fbfc95125ddf4eb136b84fe18a6f0ac0fda4abbb0"
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "test:release",
+          "--",
+          "--workers=1",
+          "--grep",
+          "(?:es|en): (?:valladolid\\-yucatan|matsue) complete article and translation$",
+          "--trace=retain-on-failure",
+          "--output",
+          "/workspace/artifacts/maletafeliz-daily-two-n28/production-focused-results"
+        ],
+        "startedAt": "2026-11-28T17:44:53.891597+00:00",
+        "finishedAt": "2026-11-28T17:45:05.209688+00:00",
+        "exitCode": 0,
+        "logSha256": "cff10924dc59b48460b31c7a48205ff831f9bb2e197f009f5068ed03ee9ee2d5"
+      }
+    ],
+    "note": "All first native invocations passed. Candidate photo rejections and private draft refinements were completed before native verification. Focused local publication cases are separate from the mandatory full source CI."
+  },
+  "failedSourceRequests": [
+    {
+      "id": "n28-va-heritage",
+      "url": "https://www.yucatan.gob.mx/index.php/?p=valladolid",
+      "finalUrl": "https://www.yucatan.gob.mx/index.php/?p=valladolid",
+      "httpStatus": 500,
+      "fetchedAt": "2026-11-28T17:03:49.984Z",
+      "contentSha256": "c8b5a823e449a92effd9902f97c75c47d4fd07e676aec0eb4a8c4ff3cbfa7d7b",
+      "textSha256": "9871fdc7f44ef252538aec462e1c1371eee8598d997161df33203766425afada",
+      "captureRecordSha256": "41258d2c46f57de98618b4157aacbe19e719773c94221d0f355f691ccd7fea29",
+      "citedAsFactualSource": false,
+      "alternativeAccessBypassUsed": false
+    },
+    {
+      "id": "n28-va-zaci",
+      "url": "https://sds.yucatan.gob.mx/cenotes-grutas/cenote-zaci-valladolid-yucatan.php",
+      "finalUrl": "https://sds.yucatan.gob.mx/cenotes-grutas/cenote-zaci-valladolid-yucatan.php",
+      "httpStatus": 500,
+      "fetchedAt": "2026-11-28T17:03:50.550Z",
+      "contentSha256": "62ea8e3fb4e3d5a2f17dc77f124c337c1ff25866fccfb65a45832f27be483574",
+      "textSha256": "59b27e84472ec77cae4c2526f829ee3d5d9198c27e8330ede887bc17adaa7504",
+      "captureRecordSha256": "8597033d65b7b8f3b3924aebf895d1fdd94a568ebe66e355a772af6bcf163cce",
+      "citedAsFactualSource": false,
+      "alternativeAccessBypassUsed": false
+    },
+    {
+      "id": "n28-va-sectur",
+      "url": "https://www.gob.mx/sectur/articulos/valladolid-yucatan",
+      "finalUrl": "https://www.gob.mx/sectur/articulos/valladolid-yucatan",
+      "httpStatus": 403,
+      "fetchedAt": "2026-11-28T17:03:50.731Z",
+      "contentSha256": "629841e5712e13e7123e25c4070d12ab7cf1cd7797384219c399b0a27d918aa0",
+      "textSha256": "112e32708303f71a8318cd66aedc0968c4b3abbc217bf3b0600aa4d42e5f36ab",
+      "captureRecordSha256": "bd8533050dc18f5b58547a7b88e0ee7c7d9f6964f16c579aa163e7ae6cb639b2",
+      "citedAsFactualSource": false,
+      "alternativeAccessBypassUsed": false
+    }
+  ],
+  "sourceAccessEvidence": {
+    "officialSourceReview": {
+      "checkedAt": "2026-11-28T17:16:41.177319+00:00",
+      "actualOfficialCaptures": 16,
+      "records": [
+        {
+          "id": "n28-ma-overview",
+          "url": "https://www.visit-matsue.com/discover/city_centre",
+          "finalUrl": "https://www.visit-matsue.com/discover/city_centre",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:03:40.469Z",
+          "cited": true
+        },
+        {
+          "id": "n28-ma-castle",
+          "url": "https://www.japan.travel/en/spot/933/",
+          "finalUrl": "https://www.japan.travel/fr/spot/933/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:03:42.691Z",
+          "cited": true
+        },
+        {
+          "id": "n28-ma-shiomi",
+          "url": "https://www.kankou-shimane.com/en/destinations/9370",
+          "finalUrl": "https://www.kankou-shimane.com/en/destinations/9370",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:03:44.096Z",
+          "cited": true
+        },
+        {
+          "id": "n28-ma-hearn",
+          "url": "https://www.hearn-museum-matsue.jp/english.html",
+          "finalUrl": "https://www.hearn-museum-matsue.jp/english.html",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:03:45.691Z",
+          "cited": true
+        },
+        {
+          "id": "n28-ma-residence",
+          "url": "https://www.hearn-museum-matsue.jp/residence/english.html",
+          "finalUrl": "https://www.hearn-museum-matsue.jp/residence/english.html",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:03:46.401Z",
+          "cited": true
+        },
+        {
+          "id": "n28-ma-art",
+          "url": "https://www.shimane-art-museum.jp/en/",
+          "finalUrl": "https://www.shimane-art-museum.jp/en/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:03:47.466Z",
+          "cited": true
+        },
+        {
+          "id": "n28-ma-lake",
+          "url": "https://www.visit-matsue.com/discover/city_centre/south_side/lake_shore",
+          "finalUrl": "https://www.visit-matsue.com/discover/city_centre/south_side/lake_shore",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:03:48.406Z",
+          "cited": true
+        },
+        {
+          "id": "n28-va-overview",
+          "url": "https://yucatan.travel/region/valladolid/",
+          "finalUrl": "https://yucatan.travel/region/valladolid/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:03:49.044Z",
+          "cited": true
+        },
+        {
+          "id": "n28-va-culture",
+          "url": "https://yucatan.travel/cultura/pueblo-magico-de-valladolid/",
+          "finalUrl": "https://yucatan.travel/cultura/pueblo-magico-de-valladolid/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:03:49.381Z",
+          "cited": true
+        },
+        {
+          "id": "n28-va-heritage",
+          "url": "https://www.yucatan.gob.mx/index.php/?p=valladolid",
+          "finalUrl": "https://www.yucatan.gob.mx/index.php/?p=valladolid",
+          "httpStatus": 500,
+          "fetchedAt": "2026-11-28T17:03:49.984Z",
+          "cited": false
+        },
+        {
+          "id": "n28-va-zaci",
+          "url": "https://sds.yucatan.gob.mx/cenotes-grutas/cenote-zaci-valladolid-yucatan.php",
+          "finalUrl": "https://sds.yucatan.gob.mx/cenotes-grutas/cenote-zaci-valladolid-yucatan.php",
+          "httpStatus": 500,
+          "fetchedAt": "2026-11-28T17:03:50.550Z",
+          "cited": false
+        },
+        {
+          "id": "n28-va-sectur",
+          "url": "https://www.gob.mx/sectur/articulos/valladolid-yucatan",
+          "finalUrl": "https://www.gob.mx/sectur/articulos/valladolid-yucatan",
+          "httpStatus": 403,
+          "fetchedAt": "2026-11-28T17:03:50.731Z",
+          "cited": false
+        },
+        {
+          "id": "n28-va-museum",
+          "url": "https://sic.cultura.gob.mx/ficha.php?disciplina=&table=museo&table_id=120",
+          "finalUrl": "https://sic.cultura.gob.mx/ficha.php?disciplina=&table=museo&table_id=120",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:04:20.053Z",
+          "cited": true
+        },
+        {
+          "id": "n28-va-convent",
+          "url": "https://inah.gob.mx/foto-del-dia/el-agua-y-la-arquitectura-san-bernardino-de-siena-valladolid",
+          "finalUrl": "https://inah.gob.mx/foto-del-dia/el-agua-y-la-arquitectura-san-bernardino-de-siena-valladolid",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:04:21.430Z",
+          "cited": true
+        },
+        {
+          "id": "n28-va-bus",
+          "url": "https://tickets.ado.com.mx/ado-bus/bus-station-guide/valladolid-bus-station?locale=es-MX",
+          "finalUrl": "https://tickets.ado.com.mx/ado-bus/bus-station-guide/valladolid-bus-station?locale=es-MX",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:04:22.043Z",
+          "cited": true
+        },
+        {
+          "id": "n28-va-cenotes",
+          "url": "https://yucatan.travel/region/",
+          "finalUrl": "https://yucatan.travel/region/",
+          "httpStatus": 200,
+          "fetchedAt": "2026-11-28T17:14:20.362Z",
+          "cited": true
+        }
+      ],
+      "httpFailures": [
+        {
+          "id": "n28-va-heritage",
+          "url": "https://www.yucatan.gob.mx/index.php/?p=valladolid",
+          "finalUrl": "https://www.yucatan.gob.mx/index.php/?p=valladolid",
+          "httpStatus": 500,
+          "fetchedAt": "2026-11-28T17:03:49.984Z",
+          "cited": false
+        },
+        {
+          "id": "n28-va-zaci",
+          "url": "https://sds.yucatan.gob.mx/cenotes-grutas/cenote-zaci-valladolid-yucatan.php",
+          "finalUrl": "https://sds.yucatan.gob.mx/cenotes-grutas/cenote-zaci-valladolid-yucatan.php",
+          "httpStatus": 500,
+          "fetchedAt": "2026-11-28T17:03:50.550Z",
+          "cited": false
+        },
+        {
+          "id": "n28-va-sectur",
+          "url": "https://www.gob.mx/sectur/articulos/valladolid-yucatan",
+          "finalUrl": "https://www.gob.mx/sectur/articulos/valladolid-yucatan",
+          "httpStatus": 403,
+          "fetchedAt": "2026-11-28T17:03:50.731Z",
+          "cited": false
+        }
+      ],
+      "restrictionsOrWaitsBypassed": false,
+      "sourceCaptureValuesNotFabricated": true,
+      "retryOrAlternativeHostWorkaround": false,
+      "proofSha256": "ca5d85364fb858a2355b7d77ec34e0264deb37bf7abe56acd7f47cf5f9e1924f"
+    },
+    "limits": "Only actually accessible, read official sources are cited. HTTP500/403 source failures retained and not used as factual support; no alternative-host access workaround."
+  },
+  "sourceArchiveRedaction": {
+    "performedBeforeArchival": true,
+    "records": [
+      {
+        "id": "n28-va-cenotes",
+        "originalResponseContentSha256": "5d815b55d87dab3dabbc3cc6e9fa4a0407541a19c7f339ea6e0c08c6e39c35fd",
+        "archivedContentSha256": "660be56f392501ffd38782846050a3ffc6f20079c95c10adda817ba30d551f65",
+        "transformation": {
+          "performedAt": "2026-11-28T17:14:20.322Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-google-api-key",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "5d815b55d87dab3dabbc3cc6e9fa4a0407541a19c7f339ea6e0c08c6e39c35fd",
+          "archivedContentSha256": "660be56f392501ffd38782846050a3ffc6f20079c95c10adda817ba30d551f65",
+          "originalResponseBytes": 139828,
+          "archivedBytes": 139830,
+          "noCredentialValuePrintedOrStored": true
+        }
+      },
+      {
+        "id": "n28-va-culture",
+        "originalResponseContentSha256": "6b1e0d58b4602282f44cb70b2373670219a5a2a4c2d71a0c9c61292a56077062",
+        "archivedContentSha256": "1aabbe33daf49e75fc2ca57a8511b6187cdf02588203be13429cf03d2af97e78",
+        "transformation": {
+          "performedAt": "2026-11-28T17:03:49.377Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-google-api-key",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "6b1e0d58b4602282f44cb70b2373670219a5a2a4c2d71a0c9c61292a56077062",
+          "archivedContentSha256": "1aabbe33daf49e75fc2ca57a8511b6187cdf02588203be13429cf03d2af97e78",
+          "originalResponseBytes": 47065,
+          "archivedBytes": 47067,
+          "noCredentialValuePrintedOrStored": true
+        }
+      },
+      {
+        "id": "n28-va-overview",
+        "originalResponseContentSha256": "a364c740a67b5c680a6123d876e5e396aadab004898cb1a2fb7cd6c655476f61",
+        "archivedContentSha256": "4d5ef74fe5c454c6f989444e195df7308803a85bcfb1f5b2c175c572b3cc8bdc",
+        "transformation": {
+          "performedAt": "2026-11-28T17:03:49.039Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-google-api-key",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "a364c740a67b5c680a6123d876e5e396aadab004898cb1a2fb7cd6c655476f61",
+          "archivedContentSha256": "4d5ef74fe5c454c6f989444e195df7308803a85bcfb1f5b2c175c572b3cc8bdc",
+          "originalResponseBytes": 54554,
+          "archivedBytes": 54556,
+          "noCredentialValuePrintedOrStored": true
+        }
+      },
+      {
+        "id": "n28-ma-castle",
+        "originalResponseContentSha256": "b256b4a6c977bebb1811fdfa0f2a0b00580898b91d44fdf5be62d39d032f354b",
+        "archivedContentSha256": "011edbe25c8aaee3e1583c67d39f2827d2e176c7651aa96cb0ec2b0ca31c5d3c",
+        "transformation": {
+          "performedAt": "2026-11-28T17:03:42.657Z",
+          "reason": "Embedded credential-like public-source configuration removed before archival; original response digest retained without credential values.",
+          "redactions": [
+            {
+              "kind": "public-google-api-key",
+              "count": 1
+            }
+          ],
+          "originalResponseContentSha256": "b256b4a6c977bebb1811fdfa0f2a0b00580898b91d44fdf5be62d39d032f354b",
+          "archivedContentSha256": "011edbe25c8aaee3e1583c67d39f2827d2e176c7651aa96cb0ec2b0ca31c5d3c",
+          "originalResponseBytes": 176730,
+          "archivedBytes": 176732,
+          "noCredentialValuePrintedOrStored": true
+        }
+      }
+    ],
+    "foreignOrReachableObjectsRemoved": 0,
+    "limits": "Credential-like embedded public configuration screened in memory before any raw response archive was written. Original response digests are distinct from sanitized archive digests. No credential values retained."
+  },
+  "sourceCredentialFormatScan": {
+    "checkedAt": "2026-11-28T17:26:52.942Z",
+    "success": true,
+    "selectedFiles": 154,
+    "formats": [
+      "public-mapbox-token",
+      "public-google-api-key",
+      "github-classic-token",
+      "github-fine-grained-token",
+      "openai-secret-format",
+      "aws-access-id-format"
+    ],
+    "proofSha256": "c8420a667341d7d42f2907d52cd232d3cad4803a66932936807d2a97dab4825e",
+    "limits": "Pattern screen of precisely the selected source inventory. Does not establish absence of every possible secret format; no values are printed or stored."
+  },
+  "verifiedAt": "2026-11-28T18:12:02.845Z",
+  "commit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+  "sourceCommit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+  "batch": "2026-11-28",
+  "publicationDay": "2026-11-28",
+  "reservationDay": "2026-11-28",
+  "executionId": "1103a5f0-89bc-43ec-9191-57c0d25b3a1a",
+  "timeZone": "America/New_York",
+  "firstPublicationNewYorkDate": "2026-11-28",
+  "status": "publicly-verified",
+  "originals": 2,
+  "newOriginals": 2,
+  "localizations": 4,
+  "publishedTopicIds": [
+    "valladolid-yucatan",
+    "matsue"
+  ],
+  "priorSameDayUniqueVerifiedOriginals": 0,
+  "sameDayUniqueVerifiedOriginalsAfter": 2,
+  "sameDayUniqueVerifiedTopicIds": [
+    "matsue",
+    "valladolid-yucatan"
+  ],
+  "authorization": {
+    "kind": "daily-two",
+    "priorVerifiedOriginalsToday": 0,
+    "priorVerifiedTopicIdsToday": [],
+    "authorizedTotalUniqueOriginalsToday": 2,
+    "dailyScheduleTargetUnchanged": 2,
+    "scheduleChanged": false
+  },
+  "urls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-valladolid-yucatan-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-matsue-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-valladolid-yucatan-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-matsue-5-places/"
+    ]
+  },
+  "globalOriginals": 259,
+  "globalLocalizations": 518,
+  "globalPhotos": 1112,
+  "globalCitedSourceRecords": 1397,
+  "photos": 10,
+  "newPhotoMetadataRecords": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 13,
+  "coverage": {
+    "countries": [
+      {
+        "countryId": "it",
+        "publishedOriginals": 34,
+        "localizedVersions": 68,
+        "targetOriginals": 30,
+        "missingOriginals": 0,
+        "excessOriginals": 4,
+        "articleIds": [
+          "amalfi-coast",
+          "assisi",
+          "bergamo",
+          "bologna",
+          "brescia",
+          "christmas-florence",
+          "christmas-milan",
+          "christmas-naples",
+          "christmas-rome",
+          "christmas-turin",
+          "christmas-venice",
+          "christmas-verona",
+          "ferrara",
+          "florence",
+          "florence-uffizi",
+          "lucca",
+          "mantua",
+          "milan",
+          "padua",
+          "palermo",
+          "parma",
+          "perugia",
+          "pisa",
+          "ravenna",
+          "rome",
+          "rome-colosseum-visit",
+          "salerno",
+          "siena",
+          "trento",
+          "trieste",
+          "venice",
+          "venice-vaporetto",
+          "verona",
+          "vicenza"
+        ]
+      },
+      {
+        "countryId": "jp",
+        "publishedOriginals": 30,
+        "localizedVersions": 60,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 5,
+        "articleIds": [
+          "christmas-fukuoka",
+          "christmas-osaka",
+          "christmas-sapporo",
+          "christmas-tokyo",
+          "christmas-yokohama",
+          "halloween-japan",
+          "himeji",
+          "hiroshima",
+          "kamakura",
+          "kanazawa",
+          "kobe",
+          "kurashiki",
+          "kyoto",
+          "kyoto-higashiyama-walk",
+          "matsue",
+          "matsumoto",
+          "mount-fuji",
+          "nagasaki",
+          "nagoya",
+          "nara",
+          "nara-day-trip-transport",
+          "nikko",
+          "okayama",
+          "osaka",
+          "sapporo",
+          "sendai",
+          "takamatsu",
+          "takayama",
+          "tokyo",
+          "tokyo-new-year-2027"
+        ]
+      },
+      {
+        "countryId": "mx",
+        "publishedOriginals": 28,
+        "localizedVersions": 56,
+        "targetOriginals": 25,
+        "missingOriginals": 0,
+        "excessOriginals": 3,
+        "articleIds": [
+          "aguascalientes",
+          "campeche",
+          "cancun",
+          "chapultepec-museums-day",
+          "cuernavaca",
+          "durango",
+          "guadalajara",
+          "guanajuato",
+          "leon-guanajuato",
+          "los-cabos",
+          "mexico-city",
+          "morelia",
+          "muertos-merida",
+          "muertos-mexico-city",
+          "muertos-mixquic",
+          "muertos-oaxaca",
+          "muertos-puebla",
+          "oaxaca",
+          "patzcuaro",
+          "puebla",
+          "queretaro",
+          "riviera-maya",
+          "san-cristobal-de-las-casas",
+          "san-luis-potosi",
+          "san-miguel-de-allende",
+          "valladolid-yucatan",
+          "veracruz",
+          "zacatecas"
+        ]
+      },
+      {
+        "countryId": "us",
+        "publishedOriginals": 26,
+        "localizedVersions": 52,
+        "targetOriginals": 20,
+        "missingOriginals": 0,
+        "excessOriginals": 6,
+        "articleIds": [
+          "buffalo",
+          "charleston",
+          "christmas-boston",
+          "christmas-chicago",
+          "christmas-los-angeles",
+          "christmas-miami",
+          "christmas-new-york",
+          "christmas-philadelphia",
+          "christmas-san-francisco",
+          "columbus",
+          "greenville-sc",
+          "halloween-usa",
+          "hawaii",
+          "hilo",
+          "las-vegas",
+          "las-vegas-new-year-2027",
+          "los-angeles",
+          "miami",
+          "new-orleans",
+          "new-york",
+          "new-york-new-year-2027",
+          "orlando",
+          "san-antonio",
+          "san-diego",
+          "savannah",
+          "washington-dc"
+        ]
+      }
+    ],
+    "priorityOriginals": 118,
+    "targetCappedOriginals": 100,
+    "missingToInitial100": 0,
+    "excessOriginals": 18
+  },
+  "tests": {
+    "local": {
+      "unit": 107,
+      "navigation": 28,
+      "productionFocused": 8,
+      "total": 143,
+      "wholeSuiteClaimed": false
+    },
+    "github": {
+      "runId": 46172228543,
+      "runUrl": "https://github.com/luiscazorla97-creator/maletafeliz-/actions/runs/46172228543",
+      "counts": {
+        "unit": 107,
+        "navigation": 28,
+        "production": 1096,
+        "total": 1231
+      },
+      "decodedLogSha256": "bc4fe2aac09f56062ef723afe78247677f4b1d7e0b606b23648ad0747bc8f76b"
+    }
+  },
+  "cloudflare": {
+    "checkedAt": "2026-11-28T17:58:59.183Z",
+    "commit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+    "projects": [
+      {
+        "name": "maletafeliz-web",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "npm run build:release",
+        "rootDirectory": "",
+        "found": true,
+        "canonicalDeploymentId": "6ed0d1c6-e738-4f08-b777-99904cdaff0f",
+        "canonicalCommit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+        "deploymentId": "6ed0d1c6-e738-4f08-b777-99904cdaff0f",
+        "commit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-28T17:58:44.724981Z",
+          "ended_on": "2026-11-28T17:58:55.369034Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-28T17:46:41.578957Z",
+            "ended_on": "2026-11-28T17:46:41.581973Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-28T17:46:41.581973Z",
+            "ended_on": "2026-11-28T17:46:43.757548Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-28T17:46:43.757548Z",
+            "ended_on": "2026-11-28T17:47:30.946291Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-28T17:47:30.946291Z",
+            "ended_on": "2026-11-28T17:58:44.724981Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-28T17:58:44.724981Z",
+            "ended_on": "2026-11-28T17:58:55.369034Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      },
+      {
+        "name": "maletafeliz-www",
+        "httpStatus": 200,
+        "productionBranch": "main",
+        "sourceType": "github",
+        "sourceOwner": "luiscazorla97-creator",
+        "sourceRepository": "maletafeliz-",
+        "buildCommand": "",
+        "rootDirectory": "redirect-www",
+        "found": true,
+        "canonicalDeploymentId": "99a93a91-71aa-42f5-966f-9ae79402913a",
+        "canonicalCommit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+        "deploymentId": "99a93a91-71aa-42f5-966f-9ae79402913a",
+        "commit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+        "environment": "production",
+        "latestStage": {
+          "name": "deploy",
+          "started_on": "2026-11-28T17:48:01.544007Z",
+          "ended_on": "2026-11-28T17:48:09.340651Z",
+          "status": "success"
+        },
+        "stages": [
+          {
+            "name": "queued",
+            "started_on": "2026-11-28T17:46:43.046724Z",
+            "ended_on": "2026-11-28T17:46:43.050561Z",
+            "status": "success"
+          },
+          {
+            "name": "initialize",
+            "started_on": "2026-11-28T17:46:43.050561Z",
+            "ended_on": "2026-11-28T17:46:45.779494Z",
+            "status": "success"
+          },
+          {
+            "name": "clone_repo",
+            "started_on": "2026-11-28T17:46:45.779494Z",
+            "ended_on": "2026-11-28T17:47:55.80453Z",
+            "status": "success"
+          },
+          {
+            "name": "build",
+            "started_on": "2026-11-28T17:47:55.80453Z",
+            "ended_on": "2026-11-28T17:48:01.544007Z",
+            "status": "success"
+          },
+          {
+            "name": "deploy",
+            "started_on": "2026-11-28T17:48:01.544007Z",
+            "ended_on": "2026-11-28T17:48:09.340651Z",
+            "status": "success"
+          }
+        ],
+        "trigger": "ad_hoc"
+      }
+    ],
+    "bothCanonicalSuccess": true,
+    "checkoutProof": {
+      "checkedAt": "2026-11-28T17:59:01.557Z",
+      "success": true,
+      "sourceCommit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+      "proofs": [
+        {
+          "checkedAt": "2026-11-28T17:58:59.183Z",
+          "project": "maletafeliz-web",
+          "deploymentId": "6ed0d1c6-e738-4f08-b777-99904cdaff0f",
+          "commit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+          "entries": 1232,
+          "logSha256": "d7d714cec488fe0c36858ac0cecbcd46dee7f5c8a49226c7d535a1156099ebf0",
+          "releaseCommandPresent": true,
+          "checkoutMarkerPresent": true,
+          "builtPages": "1128"
+        },
+        {
+          "checkedAt": "2026-11-28T17:58:59.183Z",
+          "project": "maletafeliz-www",
+          "deploymentId": "99a93a91-71aa-42f5-966f-9ae79402913a",
+          "commit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+          "entries": 23,
+          "logSha256": "c70246c67a28bf6bc88c0efe22f113032ac9e7d0ff0d27e24c82952b455ba35b",
+          "releaseCommandPresent": false,
+          "checkoutMarkerPresent": true
+        }
+      ],
+      "method": "Actual Cloudflare build log HEAD marker, matching deployment full commit metadata and canonical production state. WWW is the existing redirect project, not an Astro build."
+    }
+  },
+  "https": {
+    "counts": {
+      "originalTopics": 2,
+      "localizedVersionsVerified": 4,
+      "photoFilesVerified": 50,
+      "searchVersionsVerified": 4,
+      "googlebotUaProbes": 6,
+      "actualHttpsRequests": 86,
+      "sitemapUrls": 1122
+    },
+    "sha256": "b50cab9705c690547e3f7e31f657dbb37d0107494366e0f13b3ed52c402f3f92"
+  },
+  "wholeSiteVerification": {
+    "sitemapUrls": 1122,
+    "guideVersions": 518,
+    "errors": 0,
+    "sha256": "772a4cf7c3c20808d02868d055d626e5f75213a971f1624a8b50594d6c53b401",
+    "run": {
+      "sourceCommit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+      "startedAt": "2026-11-28T17:59:48.297Z",
+      "finishedAt": "2026-11-28T18:00:25.914Z",
+      "exitCode": 0,
+      "outputSha256": "772a4cf7c3c20808d02868d055d626e5f75213a971f1624a8b50594d6c53b401",
+      "httpVerified": true,
+      "checkedRequests": 1132,
+      "sitemapUrls": 1122,
+      "guideVersions": 518
+    }
+  },
+  "browser": {
+    "flows": 8,
+    "screenshots": 14,
+    "sha256": "ee5dc1942cb8b8056b63e09006227609c02110a9e640ab15cdb5501af17c666a",
+    "visualReview": {
+      "reviewedAt": "2026-11-28T17:59:54.137520+00:00",
+      "success": true,
+      "sourceCommit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+      "reviewer": "Codex /root — actual visual review of all five current public contact sheets",
+      "contactSheets": [
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n28/public-contact-mobile-guides-es-1.jpg",
+          "sha256": "a1761680460227508c6c89711b9402f14a7ff881b8a7027cd710631644ae2608",
+          "contains": [
+            "public-guide-valladolid-yucatan-es-390.png",
+            "public-guide-matsue-es-390.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n28/public-contact-desktop-guides-es-1.jpg",
+          "sha256": "41920432f79ca3b71c3894fb64862b1c6881de393f9df4a15b35eccf0a07d4ae",
+          "contains": [
+            "public-guide-valladolid-yucatan-es-1440.png",
+            "public-guide-matsue-es-1440.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n28/public-contact-mobile-guides-en-1.jpg",
+          "sha256": "50b34674749a38e14dd1ab952f941dc40b441a12a697ae674d6b048bff7ae797",
+          "contains": [
+            "public-guide-valladolid-yucatan-en-390.png",
+            "public-guide-matsue-en-390.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n28/public-contact-desktop-guides-en-1.jpg",
+          "sha256": "0a8a88ba8d68473a118ae3264be29c23ac0ce09f8616abba4d732eba4f88907b",
+          "contains": [
+            "public-guide-valladolid-yucatan-en-1440.png",
+            "public-guide-matsue-en-1440.png"
+          ],
+          "actuallyViewed": true
+        },
+        {
+          "file": "/workspace/artifacts/maletafeliz-daily-two-n28/public-contact-navigation.jpg",
+          "sha256": "232ccdfe1c3c57ab288402d6a41f6e929a07a3d06b51c172826b7ee9f1f888c3",
+          "contains": [
+            "public-functional-es-390-menu.png",
+            "public-functional-es-390-search.png",
+            "public-functional-es-1440-search.png",
+            "public-functional-en-390-menu.png",
+            "public-functional-en-390-search.png",
+            "public-functional-en-1440-search.png"
+          ],
+          "actuallyViewed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "public-functional-es-390-menu.png",
+          "sha256": "70d40323e6a9065af817ba3b98993f81db8841bfcc1c92b3cf33390cd14ea39b",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-390-search.png",
+          "sha256": "386038d7a6a7cb0fe6586723e57aaf2afa7140816baa805747ee3a3b38611759",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-valladolid-yucatan-es-390.png",
+          "sha256": "8f6351a64831a02d1644104b30aed7e102f1c9d581fcb5ef10f5361664601fce",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-matsue-es-390.png",
+          "sha256": "03e331a03aa7c402ddab4c64e3906d37650e7db347a7587e966f77d86a5b5969",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-es-1440-search.png",
+          "sha256": "ffe8015bb3c33415e99ce544419dfcb9bca75a1a1fd25cb492a2ca198dfdebdd",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-valladolid-yucatan-es-1440.png",
+          "sha256": "369b3c33a592d2fb7b8499660416765daf7aee826ec8f3cc90111a24bdee6a6f",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-matsue-es-1440.png",
+          "sha256": "910065dddb945754592c0c8e00fa5c48441898fac9a50a3eef62a38cd8b85e0c",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-menu.png",
+          "sha256": "209a229bc56b56b3e677d2c30d6fdca36f73f9d90584d3a80843ae8e6ce20e74",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-390-search.png",
+          "sha256": "10827f8a9f6ad7194c4cca7a93e260f40edf111802ed8c0fa3365cac69c20563",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-valladolid-yucatan-en-390.png",
+          "sha256": "0cb29239e0ebc22e64010ca304329d6146b96aa124370f001d732402538ea9cc",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-matsue-en-390.png",
+          "sha256": "3951aa2de5c54fa21a1e35ce57b26d44da6c4ff9f6035e3b7b669c224b75762c",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-functional-en-1440-search.png",
+          "sha256": "5231085ea5fb5314eb8e3654eeccb6f204c7a5c9ad6392ad5b98b01f7e23aae3",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-valladolid-yucatan-en-1440.png",
+          "sha256": "3a072d29c9ee41b4ba3eb65ddafd998f520a0adb6e96539a658360df632ae9a6",
+          "actuallyViewedInContactSheet": true
+        },
+        {
+          "file": "public-guide-matsue-en-1440.png",
+          "sha256": "1d6e67a6b880e18536944a9235dc849ea4e0b1426f052301d46b65b0b5a2e295",
+          "actuallyViewedInContactSheet": true
+        }
+      ],
+      "observations": [
+        "Matsue and Valladolid guide headings, descriptions and covers visually reviewed in both languages at390px and1440px; no clipping or horizontal overlap identified.",
+        "The3D logo is proportionate and separate from language/menu controls; established layout and advertising spaces retained.",
+        "Both mobile menus and current search-result screenshots reviewed; actual browser flows separately check both destinations, all place photos and reciprocal language links."
+      ],
+      "limits": "Viewport contact-sheet review plus browser image/content/overflow checks. Third-party advertising providers isolated and Analytics denied only during QA. This is not an ad-fill, PageSpeed, Google-indexation or ranking result."
+    }
+  },
+  "editorialIntegrationSha256": "9249dfe328a88d9c37e2c911563fffa84ae030a35e7de2673fffafd5ada1bdbd",
+  "preservationSha256": "be6108554423d307a925edcb99c00a36e89a1c304642eb508c4f23a47762965f",
+  "reservation": {
+    "commit": "814c8750525f5740e0844e60a950048ce8660b60",
+    "createdAt": "2026-11-28T17:07:29.086Z",
+    "nativeReservationInvocationClaimed": true,
+    "nativeCommand": [
+      "npm",
+      "run",
+      "editorial:batch",
+      "--",
+      "2"
+    ],
+    "nativeInvocationSha256": "b0b9d7a9316aa813a8faeb75540199ed72948de30f24e52ef05c013a08a6d65e",
+    "nativeExclusiveDailyBatchCreated": true,
+    "nativeReturnedTopicIds": [
+      "valladolid-yucatan",
+      "matsue"
+    ],
+    "nativeReservationSupplemented": false,
+    "ownedAppendedTopicIds": [],
+    "originalNativeBatchSha256": "3a04bbeaa8f67f1caf148214c42c47135c9e9a06fa7ae1b1494376d2b08d85ec",
+    "manualExclusiveAggregate": false
+  },
+  "googleIndexationVerified": false,
+  "schedulerAttributionVerified": false,
+  "dailyScheduleTargetUnchanged": 2,
+  "notes": "Daily execution of two new originals after a complete initial census of zero first-published-and-verified originals today. Existing manual batches, histories and daily schedule are retained. SEO preparation does not establish Google indexing, viral demand, rankings or advertising income."
+}

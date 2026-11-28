@@ -2,26 +2,54 @@
   "id": "2026-11-28",
   "timeZone": "America/New_York",
   "createdAt": "2026-11-28T17:07:29.086Z",
-  "status": "reserved-not-generated",
+  "status": "published",
   "topicIds": [
     "valladolid-yucatan",
     "matsue"
   ],
   "requestedCount": 2,
-  "publishedCount": 0,
+  "publishedCount": 2,
   "errors": [],
   "execution": {
     "executionId": "1103a5f0-89bc-43ec-9191-57c0d25b3a1a",
     "baseCommit": "6cc7c411994fe1f643aa5da9de335d1f7f208271",
     "owner": "Codex /root",
     "startedAt": "2026-11-28T17:01:57.497877+00:00",
-    "heartbeatAt": "2026-11-28T17:07:29.130805+00:00",
-    "leaseUntil": "2026-11-28T23:07:29.130805+00:00",
-    "status": "active"
+    "heartbeatAt": "2026-11-28T18:12:02.845Z",
+    "leaseUntil": "2026-11-28T18:12:02.845Z",
+    "status": "completed-verified",
+    "completedAt": "2026-11-28T18:12:02.845Z"
   },
   "dailyCensus": {
     "newYorkDate": "2026-11-28",
     "priorVerifiedOriginals": 0,
     "censusSha256": "d943a2967a6aa41f19f7f16e0b059d1f40fa3e7cbf8312a59d4f826e43a72e11"
-  }
+  },
+  "publishedTopicIds": [
+    "valladolid-yucatan",
+    "matsue"
+  ],
+  "verifiedTopicCount": 2,
+  "localizedVersionsPublished": 4,
+  "documentaryPhotosPublished": 10,
+  "optimizedPhotoFiles": 50,
+  "citedSourceDocuments": 13,
+  "publishedCommit": "951dc12f1bc15bc40cc10f69509a6ad454df213c",
+  "publiclyVerifiedAt": "2026-11-28T18:12:02.845Z",
+  "firstPublicationNewYorkDate": "2026-11-28",
+  "publicVerification": "editorial/verification/2026-11-28-publication.json",
+  "publicUrls": {
+    "es": [
+      "https://maletafeliz.com/es/guias/que-ver-en-valladolid-yucatan-5-lugares/",
+      "https://maletafeliz.com/es/guias/que-ver-en-matsue-5-lugares/"
+    ],
+    "en": [
+      "https://maletafeliz.com/en/guides/things-to-do-valladolid-yucatan-5-places/",
+      "https://maletafeliz.com/en/guides/things-to-do-matsue-5-places/"
+    ]
+  },
+  "sameDayUniqueVerifiedTopics": [
+    "matsue",
+    "valladolid-yucatan"
+  ]
 }
